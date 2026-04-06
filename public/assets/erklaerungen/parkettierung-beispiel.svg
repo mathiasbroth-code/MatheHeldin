@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" width="320" height="160">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 11px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 12px; fill: #0D9488; }
+  </style>
+
+  <!-- Titel -->
+  <text x="160" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Parkettierung: luckenlos und ohne Uberlappung</text>
+
+  <!-- Tessellation pattern: Quadrate und Dreiecke -->
+  <!-- Raster: 8 Spalten x 3 Zeilen, Quadrate 30x30 mit Dreieck-Ecken -->
+
+  <g transform="translate(20, 25)">
+    <!-- Reihe 1 -->
+    <rect x="0" y="0" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <rect x="35" y="0" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="70" y="0" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="105" y="0" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+    <rect x="140" y="0" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <rect x="175" y="0" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="210" y="0" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="245" y="0" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+
+    <!-- Reihe 2 (versetzt/alternierend) -->
+    <rect x="0" y="35" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+    <rect x="35" y="35" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="70" y="35" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="105" y="35" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <rect x="140" y="35" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+    <rect x="175" y="35" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="210" y="35" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="245" y="35" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+
+    <!-- Reihe 3 -->
+    <rect x="0" y="70" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <rect x="35" y="70" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="70" y="70" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="105" y="70" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+    <rect x="140" y="70" width="35" height="35" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <rect x="175" y="70" width="35" height="35" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" />
+    <rect x="210" y="70" width="35" height="35" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <rect x="245" y="70" width="35" height="35" fill="#FCE7F3" stroke="#EC4899" stroke-width="1" />
+
+    <!-- Diagonale Dreiecke in jedem Quadrat (schachbrettartig) -->
+    <!-- Reihe 1, jedes 2. Quadrat -->
+    <polygon points="0,0 35,0 35,35" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+    <polygon points="70,0 105,0 105,35" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+    <polygon points="140,0 175,0 175,35" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+    <polygon points="210,0 245,0 245,35" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+
+    <!-- Reihe 2 -->
+    <polygon points="35,70 70,70 70,35" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+    <polygon points="105,70 140,70 140,35" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+    <polygon points="175,70 210,70 210,35" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+    <polygon points="245,70 280,70 280,35" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+
+    <!-- Reihe 3 -->
+    <polygon points="0,70 35,70 35,105" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+    <polygon points="70,70 105,70 105,105" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+    <polygon points="140,70 175,70 175,105" fill="#93C5FD" fill-opacity="0.4" stroke="none" />
+    <polygon points="210,70 245,70 245,105" fill="#86EFAC" fill-opacity="0.4" stroke="none" />
+  </g>
+
+  <!-- Grundfigur hervorgehoben -->
+  <rect x="20" y="25" width="35" height="35" fill="none" stroke="#EF4444" stroke-width="2.5" />
+  <text x="37" y="47" style="font-size: 8px; fill: #EF4444; font-weight: bold;">Grund-</text>
+  <text x="37" y="56" style="font-size: 8px; fill: #EF4444; font-weight: bold;">figur</text>
+
+  <!-- Pfeile zeigen Wiederholung -->
+  <text x="160" y="150" class="label">Keine Lucken, keine Uberlappungen!</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 11px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 13px; }
+    .dim { font-size: 10px; fill: #6B7280; }
+    .umfang-label { fill: #2563EB; }
+    .flaeche-label { fill: #16A34A; }
+  </style>
+
+  <!-- Titel -->
+  <text x="160" y="18" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Umfang und Flächeninhalt</text>
+
+  <!-- Umfang-Seite (links) -->
+  <g transform="translate(80,110)">
+    <!-- Rechteck nur Rand -->
+    <rect x="-50" y="-35" width="100" height="70" fill="none" stroke="#2563EB" stroke-width="3" />
+    <!-- Maße -->
+    <text x="0" y="-42" class="dim">4 cm</text>
+    <text x="0" y="52" class="dim">4 cm</text>
+    <text x="-62" y="3" class="dim" transform="rotate(-90,-62,3)">3 cm</text>
+    <text x="62" y="3" class="dim" transform="rotate(90,62,3)">3 cm</text>
+    <!-- Pfeile an den Ecken -->
+    <circle cx="-50" cy="-35" r="3" fill="#2563EB" />
+    <circle cx="50" cy="-35" r="3" fill="#2563EB" />
+    <circle cx="50" cy="35" r="3" fill="#2563EB" />
+    <circle cx="-50" cy="35" r="3" fill="#2563EB" />
+    <!-- Label -->
+    <text x="0" y="-58" class="label umfang-label">Umfang</text>
+    <text x="0" y="68" style="font-size: 12px; font-weight: bold; fill: #2563EB;">= 4+3+4+3 = 14 cm</text>
+    <text x="0" y="82" style="font-size: 9px; fill: #6B7280;">der Rand drumherum</text>
+  </g>
+
+  <!-- Fläche-Seite (rechts) -->
+  <g transform="translate(240,110)">
+    <!-- Rechteck ausgefüllt -->
+    <rect x="-50" y="-35" width="100" height="70" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5" />
+    <!-- Raster-Linien (Kästchen) -->
+    <line x1="-25" y1="-35" x2="-25" y2="35" stroke="#86EFAC" stroke-width="0.5" />
+    <line x1="0" y1="-35" x2="0" y2="35" stroke="#86EFAC" stroke-width="0.5" />
+    <line x1="25" y1="-35" x2="25" y2="35" stroke="#86EFAC" stroke-width="0.5" />
+    <line x1="-50" y1="-11.67" x2="50" y2="-11.67" stroke="#86EFAC" stroke-width="0.5" />
+    <line x1="-50" y1="11.67" x2="50" y2="11.67" stroke="#86EFAC" stroke-width="0.5" />
+    <!-- Maße -->
+    <text x="0" y="-42" class="dim">4 cm</text>
+    <text x="62" y="3" class="dim" transform="rotate(90,62,3)">3 cm</text>
+    <!-- Label -->
+    <text x="0" y="-58" class="label flaeche-label">Fläche</text>
+    <text x="0" y="68" style="font-size: 12px; font-weight: bold; fill: #16A34A;">= 4 x 3 = 12 cm&#178;</text>
+    <text x="0" y="82" style="font-size: 9px; fill: #6B7280;">die Fläche innen drin</text>
+  </g>
+</svg>

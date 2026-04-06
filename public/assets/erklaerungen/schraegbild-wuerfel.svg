@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 10px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 11px; fill: #0D9488; }
+    .edge-front { stroke: #3B82F6; stroke-width: 2; fill: none; }
+    .edge-back { stroke: #93C5FD; stroke-width: 1.5; stroke-dasharray: 4 3; fill: none; }
+    .edge-side { stroke: #3B82F6; stroke-width: 1.5; fill: none; }
+    .dot { fill: #D1D5DB; }
+    .face-front { fill: #DBEAFE; fill-opacity: 0.6; }
+    .face-top { fill: #BBF7D0; fill-opacity: 0.5; }
+    .face-side { fill: #FEF3C7; fill-opacity: 0.5; }
+  </style>
+
+  <!-- Titel -->
+  <text x="100" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Schrägbild eines Würfels</text>
+
+  <!-- Punktraster (Hintergrund) -->
+  <g>
+    <!-- 9x9 Punkte, Abstand 18px -->
+    <circle cx="20" cy="30" r="1.5" class="dot" /><circle cx="38" cy="30" r="1.5" class="dot" /><circle cx="56" cy="30" r="1.5" class="dot" /><circle cx="74" cy="30" r="1.5" class="dot" /><circle cx="92" cy="30" r="1.5" class="dot" /><circle cx="110" cy="30" r="1.5" class="dot" /><circle cx="128" cy="30" r="1.5" class="dot" /><circle cx="146" cy="30" r="1.5" class="dot" /><circle cx="164" cy="30" r="1.5" class="dot" />
+    <circle cx="20" cy="48" r="1.5" class="dot" /><circle cx="38" cy="48" r="1.5" class="dot" /><circle cx="56" cy="48" r="1.5" class="dot" /><circle cx="74" cy="48" r="1.5" class="dot" /><circle cx="92" cy="48" r="1.5" class="dot" /><circle cx="110" cy="48" r="1.5" class="dot" /><circle cx="128" cy="48" r="1.5" class="dot" /><circle cx="146" cy="48" r="1.5" class="dot" /><circle cx="164" cy="48" r="1.5" class="dot" />
+    <circle cx="20" cy="66" r="1.5" class="dot" /><circle cx="38" cy="66" r="1.5" class="dot" /><circle cx="56" cy="66" r="1.5" class="dot" /><circle cx="74" cy="66" r="1.5" class="dot" /><circle cx="92" cy="66" r="1.5" class="dot" /><circle cx="110" cy="66" r="1.5" class="dot" /><circle cx="128" cy="66" r="1.5" class="dot" /><circle cx="146" cy="66" r="1.5" class="dot" /><circle cx="164" cy="66" r="1.5" class="dot" />
+    <circle cx="20" cy="84" r="1.5" class="dot" /><circle cx="38" cy="84" r="1.5" class="dot" /><circle cx="56" cy="84" r="1.5" class="dot" /><circle cx="74" cy="84" r="1.5" class="dot" /><circle cx="92" cy="84" r="1.5" class="dot" /><circle cx="110" cy="84" r="1.5" class="dot" /><circle cx="128" cy="84" r="1.5" class="dot" /><circle cx="146" cy="84" r="1.5" class="dot" /><circle cx="164" cy="84" r="1.5" class="dot" />
+    <circle cx="20" cy="102" r="1.5" class="dot" /><circle cx="38" cy="102" r="1.5" class="dot" /><circle cx="56" cy="102" r="1.5" class="dot" /><circle cx="74" cy="102" r="1.5" class="dot" /><circle cx="92" cy="102" r="1.5" class="dot" /><circle cx="110" cy="102" r="1.5" class="dot" /><circle cx="128" cy="102" r="1.5" class="dot" /><circle cx="146" cy="102" r="1.5" class="dot" /><circle cx="164" cy="102" r="1.5" class="dot" />
+    <circle cx="20" cy="120" r="1.5" class="dot" /><circle cx="38" cy="120" r="1.5" class="dot" /><circle cx="56" cy="120" r="1.5" class="dot" /><circle cx="74" cy="120" r="1.5" class="dot" /><circle cx="92" cy="120" r="1.5" class="dot" /><circle cx="110" cy="120" r="1.5" class="dot" /><circle cx="128" cy="120" r="1.5" class="dot" /><circle cx="146" cy="120" r="1.5" class="dot" /><circle cx="164" cy="120" r="1.5" class="dot" />
+    <circle cx="20" cy="138" r="1.5" class="dot" /><circle cx="38" cy="138" r="1.5" class="dot" /><circle cx="56" cy="138" r="1.5" class="dot" /><circle cx="74" cy="138" r="1.5" class="dot" /><circle cx="92" cy="138" r="1.5" class="dot" /><circle cx="110" cy="138" r="1.5" class="dot" /><circle cx="128" cy="138" r="1.5" class="dot" /><circle cx="146" cy="138" r="1.5" class="dot" /><circle cx="164" cy="138" r="1.5" class="dot" />
+    <circle cx="20" cy="156" r="1.5" class="dot" /><circle cx="38" cy="156" r="1.5" class="dot" /><circle cx="56" cy="156" r="1.5" class="dot" /><circle cx="74" cy="156" r="1.5" class="dot" /><circle cx="92" cy="156" r="1.5" class="dot" /><circle cx="110" cy="156" r="1.5" class="dot" /><circle cx="128" cy="156" r="1.5" class="dot" /><circle cx="146" cy="156" r="1.5" class="dot" /><circle cx="164" cy="156" r="1.5" class="dot" />
+    <circle cx="20" cy="174" r="1.5" class="dot" /><circle cx="38" cy="174" r="1.5" class="dot" /><circle cx="56" cy="174" r="1.5" class="dot" /><circle cx="74" cy="174" r="1.5" class="dot" /><circle cx="92" cy="174" r="1.5" class="dot" /><circle cx="110" cy="174" r="1.5" class="dot" /><circle cx="128" cy="174" r="1.5" class="dot" /><circle cx="146" cy="174" r="1.5" class="dot" /><circle cx="164" cy="174" r="1.5" class="dot" />
+  </g>
+
+  <!-- Würfel im Schrägbild -->
+  <!-- Vorderfläche: Quadrat 72x72 -->
+  <!-- A=vorne-unten-links, B=vorne-unten-rechts, C=vorne-oben-rechts, D=vorne-oben-links -->
+  <!-- E,F,G,H = hintere Ecken (nach rechts oben versetzt um 27,27) -->
+
+  <!-- Koordinaten:
+    A: 38, 156  B: 110, 156  C: 110, 84  D: 38, 84
+    E: 65, 129  F: 137, 129  G: 137, 57  H: 65, 57
+  -->
+
+  <!-- Hinterkanten (gestrichelt) -->
+  <line x1="38" y1="156" x2="65" y2="129" class="edge-back" />
+  <line x1="65" y1="129" x2="137" y2="129" class="edge-back" />
+  <line x1="65" y1="129" x2="65" y2="57" class="edge-back" />
+
+  <!-- Seitenfläche (rechts) -->
+  <polygon points="110,156 137,129 137,57 110,84" class="face-side" />
+  <polygon points="110,156 137,129 137,57 110,84" stroke="#3B82F6" stroke-width="1.5" fill="none" />
+
+  <!-- Oberfläche -->
+  <polygon points="38,84 65,57 137,57 110,84" class="face-top" />
+  <polygon points="38,84 65,57 137,57 110,84" stroke="#3B82F6" stroke-width="1.5" fill="none" />
+
+  <!-- Vorderfläche -->
+  <polygon points="38,156 110,156 110,84 38,84" class="face-front" />
+  <rect x="38" y="84" width="72" height="72" class="edge-front" />
+
+  <!-- Beschriftungen -->
+  <text x="74" y="125" style="font-size: 9px; fill: #2563EB;">Vorderseite</text>
+  <text x="125" y="108" style="font-size: 8px; fill: #D97706;" transform="rotate(-45,125,108)">Seite</text>
+  <text x="88" y="74" style="font-size: 8px; fill: #16A34A;">Oberseite</text>
+
+  <!-- Label -->
+  <text x="100" y="193" class="label">3 Seiten sichtbar</text>
+</svg>

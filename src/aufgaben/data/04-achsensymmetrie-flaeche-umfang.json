@@ -18,6 +18,7 @@
       "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau.\n- F und S: Keine Achse möglich."
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das visuelle Erkennen von Symmetrieachsen an vertrauten Formen (Buchstaben). Kinder sollen lernen, Symmetrie nicht nur zu „fühlen\", sondern systematisch zu prüfen (Spiegelprobe, Faltprobe).",
+    "themenIntroBild": "assets/erklaerungen/symmetrieachsen-beispiele.svg",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Schau dir die Buchstaben an. Welche davon sind achsensymmetrisch?",
@@ -249,6 +250,7 @@
       "Wenn du ein Dreieck an der Faltkante ausschneidest und das Papier auffaltest, wird das Dreieck an der Faltachse gespiegelt. Zwei gespiegelte Dreiecke ergeben zusammen eine Raute (Rhombus). Da der Schnitt an der geschlossenen Ecke (= Mitte) war, liegt die Raute in der Mitte des Quadrats."
     ],
     "didaktischerHinweis": "Faltschnitte erfordern räumliches Vorstellungsvermögen. Die Aufgabe im Buch ist haptisch (falten + schneiden), die digitale Alternative als Multiple-Choice trainiert dennoch die mentale Vorstellung des Spiegelvorgangs.",
+    "themenIntroBild": "assets/erklaerungen/faltschnitt-beispiel.svg",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -737,6 +739,7 @@
       "- **Umfang** = die Länge des Randes, also „einmal rundherum\". Wie ein Zaun, ein Band, ein Rahmen.\n- **Flächeninhalt** = wie groß die Fläche innen ist. Wie Rasen, Fliesen, Farbe zum Anstreichen."
     ],
     "didaktischerHinweis": "Die Unterscheidung von Umfang und Flächeninhalt ist eine zentrale Kompetenz in der Geometrie. Alltagsbeispiele (Zaun vs. Rasen) machen die abstrakten Begriffe anschaulich. Entspricht dem Einstieg auf S. 50.",
+    "themenIntroBild": "assets/erklaerungen/flaeche-umfang-unterschied.svg",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Beschreibungen dem richtigen Begriff zu.",

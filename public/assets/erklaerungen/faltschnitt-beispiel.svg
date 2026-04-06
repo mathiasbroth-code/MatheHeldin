@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 10px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 11px; fill: #0D9488; }
+    .paper { fill: #FEF3C7; stroke: #F59E0B; stroke-width: 1.2; }
+    .fold { stroke: #EF4444; stroke-width: 1; stroke-dasharray: 4 2; }
+    .cut { fill: #E5E7EB; stroke: #6B7280; stroke-width: 1; }
+    .arrow { fill: none; stroke: #3B82F6; stroke-width: 1.5; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3B82F6" />
+    </marker>
+  </defs>
+
+  <!-- Schritt 1: Quadrat mit Faltlinie -->
+  <g transform="translate(50,55)">
+    <rect x="-35" y="-35" width="70" height="70" class="paper" />
+    <line x1="0" y1="-35" x2="0" y2="35" class="fold" />
+    <!-- Pfeil zeigt Faltrichtung -->
+    <path d="M 25,-20 C 15,-28 -5,-28 -15,-20" class="arrow" />
+    <text y="48" class="label">1. Falten</text>
+  </g>
+
+  <!-- Schritt 2: Gefaltetes Papier mit Dreieck-Schnitt -->
+  <g transform="translate(155,55)">
+    <!-- gefaltetes halbes Blatt -->
+    <rect x="-18" y="-35" width="36" height="70" class="paper" />
+    <!-- Faltlinie links -->
+    <line x1="-18" y1="-35" x2="-18" y2="35" class="fold" />
+    <!-- Dreieck wird geschnitten (an der Faltkante) -->
+    <polygon points="-18,-8 -18,8 -5,0" class="cut" stroke-dasharray="3 2" />
+    <!-- Schere-Symbol -->
+    <text x="8" y="-2" style="font-size: 16px;">&#9986;</text>
+    <text y="48" class="label">2. Schneiden</text>
+  </g>
+
+  <!-- Schritt 3: Aufgefaltetes Ergebnis mit Raute -->
+  <g transform="translate(260,55)">
+    <rect x="-35" y="-35" width="70" height="70" class="paper" />
+    <!-- Raute/Diamant-Loch in der Mitte -->
+    <polygon points="0,-10 10,0 0,10 -10,0" fill="white" stroke="#6B7280" stroke-width="1.2" />
+    <!-- Symmetrieachse -->
+    <line x1="0" y1="-35" x2="0" y2="35" class="fold" />
+    <text y="48" class="label">3. Auffalten</text>
+  </g>
+
+  <!-- Verbindungspfeile -->
+  <line x1="90" y1="55" x2="115" y2="55" class="arrow" />
+  <line x1="195" y1="55" x2="220" y2="55" class="arrow" />
+</svg>

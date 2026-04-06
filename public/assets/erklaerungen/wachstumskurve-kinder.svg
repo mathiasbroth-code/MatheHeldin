@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 10px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 11px; fill: #0D9488; }
+    .axis-label { font-size: 9px; fill: #6B7280; }
+    .title { font-size: 13px; font-weight: bold; fill: #1F2937; }
+    .grid { stroke: #E5E7EB; stroke-width: 0.5; }
+    .axis { stroke: #374151; stroke-width: 1.5; }
+    .boys { fill: none; stroke: #3B82F6; stroke-width: 2.5; }
+    .girls { fill: none; stroke: #EC4899; stroke-width: 2.5; }
+    .dot-boys { fill: #3B82F6; }
+    .dot-girls { fill: #EC4899; }
+  </style>
+
+  <!-- Titel -->
+  <text x="175" y="16" class="title">Wachstumskurve: Jungen und Madchen</text>
+
+  <!-- Diagramm-Bereich: x=50..300, y=25..195 -->
+  <!-- x-Achse: Alter 0-18, y-Achse: Grosse 50-190 cm -->
+
+  <!-- Hilfslinien horizontal -->
+  <line x1="50" y1="183" x2="300" y2="183" class="grid" /> <!-- 50 cm -->
+  <line x1="50" y1="159" x2="300" y2="159" class="grid" /> <!-- 80 cm -->
+  <line x1="50" y1="135" x2="300" y2="135" class="grid" /> <!-- 110 cm -->
+  <line x1="50" y1="111" x2="300" y2="111" class="grid" /> <!-- 140 cm -->
+  <line x1="50" y1="87" x2="300" y2="87" class="grid" /> <!-- 170 cm -->
+
+  <!-- Hilfslinien vertikal -->
+  <line x1="78" y1="30" x2="78" y2="195" class="grid" />  <!-- 2 -->
+  <line x1="106" y1="30" x2="106" y2="195" class="grid" /> <!-- 4 -->
+  <line x1="134" y1="30" x2="134" y2="195" class="grid" /> <!-- 6 -->
+  <line x1="162" y1="30" x2="162" y2="195" class="grid" /> <!-- 8 -->
+  <line x1="190" y1="30" x2="190" y2="195" class="grid" /> <!-- 10 -->
+  <line x1="218" y1="30" x2="218" y2="195" class="grid" /> <!-- 12 -->
+  <line x1="246" y1="30" x2="246" y2="195" class="grid" /> <!-- 14 -->
+  <line x1="274" y1="30" x2="274" y2="195" class="grid" /> <!-- 16 -->
+
+  <!-- Achsen -->
+  <line x1="50" y1="195" x2="300" y2="195" class="axis" />
+  <line x1="50" y1="30" x2="50" y2="195" class="axis" />
+
+  <!-- X-Achse Beschriftung (Alter) -->
+  <text x="50" y="208" class="axis-label">0</text>
+  <text x="78" y="208" class="axis-label">2</text>
+  <text x="106" y="208" class="axis-label">4</text>
+  <text x="134" y="208" class="axis-label">6</text>
+  <text x="162" y="208" class="axis-label">8</text>
+  <text x="190" y="208" class="axis-label">10</text>
+  <text x="218" y="208" class="axis-label">12</text>
+  <text x="246" y="208" class="axis-label">14</text>
+  <text x="274" y="208" class="axis-label">16</text>
+  <text x="300" y="208" class="axis-label">18</text>
+  <text x="175" y="222" style="font-size: 10px; fill: #374151; font-weight: bold;">Alter (Jahre)</text>
+
+  <!-- Y-Achse Beschriftung (Grosse) -->
+  <text x="40" y="196" class="axis-label">50</text>
+  <text x="40" y="172" class="axis-label">80</text>
+  <text x="40" y="148" class="axis-label">110</text>
+  <text x="40" y="124" class="axis-label">140</text>
+  <text x="40" y="100" class="axis-label">170</text>
+  <text x="37" y="76" class="axis-label">190</text>
+  <text x="18" y="115" style="font-size: 10px; fill: #374151; font-weight: bold;" transform="rotate(-90,18,115)">Grosse (cm)</text>
+
+  <!-- Umrechnung:
+       x: alter * (250/18) + 50 = alter * 13.89 + 50
+       y: 195 - (grosse - 50) * (165/140)  = 195 - (grosse-50) * 1.179
+
+       Datenpunkte Jungen: 0→50, 2→87, 4→104, 6→117, 8→129, 10→140, 12→152, 14→166, 16→176, 18→180
+       Datenpunkte Madchen: 0→50, 2→86, 4→103, 6→116, 8→128, 10→140, 12→153, 14→162, 16→166, 18→168
+  -->
+
+  <!-- Jungen-Kurve (blau) -->
+  <polyline class="boys" points="
+    50,195
+    78,151
+    106,131
+    134,116
+    162,102
+    190,89
+    218,75
+    246,58
+    274,46
+    300,41
+  " />
+
+  <!-- Madchen-Kurve (pink) -->
+  <polyline class="girls" points="
+    50,195
+    78,152
+    106,132
+    134,117
+    162,103
+    190,89
+    218,74
+    246,63
+    274,58
+    300,56
+  " />
+
+  <!-- Hervorhebung: Bei 10 Jahren sind beide ~140 cm -->
+  <circle cx="190" cy="89" r="4" class="dot-boys" />
+  <circle cx="190" cy="89" r="4" class="dot-girls" />
+  <circle cx="190" cy="89" r="7" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+
+  <!-- Hervorhebung: Bei 18 Jahren -->
+  <circle cx="300" cy="41" r="3" class="dot-boys" />
+  <circle cx="300" cy="56" r="3" class="dot-girls" />
+
+  <!-- Legende -->
+  <g transform="translate(60, 34)">
+    <line x1="0" y1="0" x2="18" y2="0" stroke="#3B82F6" stroke-width="2.5" />
+    <text x="28" y="4" style="text-anchor: start; font-size: 10px; fill: #3B82F6; font-weight: bold;">Jungen</text>
+    <line x1="75" y1="0" x2="93" y2="0" stroke="#EC4899" stroke-width="2.5" />
+    <text x="103" y="4" style="text-anchor: start; font-size: 10px; fill: #EC4899; font-weight: bold;">Madchen</text>
+  </g>
+
+  <!-- Annotation: gleich gross bei 10 -->
+  <text x="190" y="82" style="font-size: 8px; fill: #F59E0B; font-weight: bold;">~140 cm</text>
+</svg>

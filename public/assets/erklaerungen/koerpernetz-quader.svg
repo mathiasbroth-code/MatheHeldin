@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 10px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 11px; fill: #0D9488; }
+    .face { stroke: #3B82F6; stroke-width: 1.5; }
+    .fold { stroke: #9CA3AF; stroke-width: 1; stroke-dasharray: 4 3; }
+  </style>
+
+  <!-- Titel -->
+  <text x="140" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Quadernetz (Kreuzform)</text>
+
+  <!-- Netz-Layout: Kreuzform
+       Breite der Flächen: 60 (lang), 40 (kurz), 30 (hoch)
+       Zentrum bei (140, 150)
+       Anordnung:
+         - oben: Deckel (60x40)
+         - mitte-links: linke Seite (30x40)
+         - mitte: Vorderseite (60x40)
+         - mitte-rechts: rechte Seite (30x40)
+         - mitte-rechts2: Rückseite (60x40)
+         - unten: Boden (60x40)
+  -->
+
+  <!-- Obere Fläche (Deckel) -->
+  <rect x="90" y="30" width="60" height="40" class="face" fill="#DBEAFE" />
+  <text x="120" y="55">oben</text>
+
+  <!-- Faltlinie oben-vorne -->
+  <line x1="90" y1="70" x2="150" y2="70" class="fold" />
+
+  <!-- Linke Seitenfläche -->
+  <rect x="60" y="70" width="30" height="40" class="face" fill="#FEF3C7" />
+  <text x="75" y="95">links</text>
+
+  <!-- Faltlinie links-vorne -->
+  <line x1="90" y1="70" x2="90" y2="110" class="fold" />
+
+  <!-- Vorderseite (Mitte) -->
+  <rect x="90" y="70" width="60" height="40" class="face" fill="#DCFCE7" />
+  <text x="120" y="95">vorne</text>
+
+  <!-- Faltlinie vorne-rechts -->
+  <line x1="150" y1="70" x2="150" y2="110" class="fold" />
+
+  <!-- Rechte Seitenfläche -->
+  <rect x="150" y="70" width="30" height="40" class="face" fill="#FEF3C7" />
+  <text x="165" y="95">rechts</text>
+
+  <!-- Faltlinie rechts-hinten -->
+  <line x1="180" y1="70" x2="180" y2="110" class="fold" />
+
+  <!-- Rückseite -->
+  <rect x="180" y="70" width="60" height="40" class="face" fill="#FCE7F3" />
+  <text x="210" y="95">hinten</text>
+
+  <!-- Faltlinie vorne-unten -->
+  <line x1="90" y1="110" x2="150" y2="110" class="fold" />
+
+  <!-- Untere Fläche (Boden) -->
+  <rect x="90" y="110" width="60" height="40" class="face" fill="#DBEAFE" />
+  <text x="120" y="135">unten</text>
+
+  <!-- Maße -->
+  <text x="120" y="170" class="label">6 Flächen: 3 Paare</text>
+  <text x="120" y="183" style="font-size: 9px; fill: #6B7280;">oben=unten, links=rechts, vorne=hinten</text>
+
+  <!-- Farbcodierte Legende -->
+  <g transform="translate(40, 200)">
+    <rect x="0" y="0" width="12" height="12" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" />
+    <text x="46" y="10" style="text-anchor: start; font-size: 9px;">oben + unten</text>
+
+    <rect x="90" y="0" width="12" height="12" fill="#DCFCE7" stroke="#3B82F6" stroke-width="1" />
+    <text x="136" y="10" style="text-anchor: start; font-size: 9px;">vorne + hinten</text>
+
+    <rect x="190" y="0" width="12" height="12" fill="#FEF3C7" stroke="#3B82F6" stroke-width="1" />
+    <text x="236" y="10" style="text-anchor: start; font-size: 9px;">links + rechts</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 11px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 12px; fill: #0D9488; }
+    .count { font-size: 10px; fill: #6B7280; }
+    .shape { fill: #E0F2FE; stroke: #3B82F6; stroke-width: 1.5; }
+    .axis { stroke: #EF4444; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .letter { font-family: system-ui, sans-serif; font-size: 36px; font-weight: bold; fill: #3B82F6; text-anchor: middle; dominant-baseline: central; }
+  </style>
+
+  <!-- a) Quadrat — 4 Achsen -->
+  <g transform="translate(45,85)">
+    <rect x="-28" y="-28" width="56" height="56" class="shape" />
+    <!-- senkrecht -->
+    <line x1="0" y1="-40" x2="0" y2="40" class="axis" />
+    <!-- waagerecht -->
+    <line x1="-40" y1="0" x2="40" y2="0" class="axis" />
+    <!-- diagonal 1 -->
+    <line x1="-36" y1="-36" x2="36" y2="36" class="axis" />
+    <!-- diagonal 2 -->
+    <line x1="36" y1="-36" x2="-36" y2="36" class="axis" />
+    <text y="52" class="label">Quadrat</text>
+    <text y="65" class="count">4 Achsen</text>
+  </g>
+
+  <!-- b) Rechteck — 2 Achsen -->
+  <g transform="translate(135,85)">
+    <rect x="-35" y="-22" width="70" height="44" class="shape" />
+    <!-- senkrecht -->
+    <line x1="0" y1="-34" x2="0" y2="34" class="axis" />
+    <!-- waagerecht -->
+    <line x1="-45" y1="0" x2="45" y2="0" class="axis" />
+    <text y="52" class="label">Rechteck</text>
+    <text y="65" class="count">2 Achsen</text>
+  </g>
+
+  <!-- c) Buchstabe A — 1 Achse -->
+  <g transform="translate(220,85)">
+    <text x="0" y="0" class="letter">A</text>
+    <!-- senkrecht -->
+    <line x1="0" y1="-40" x2="0" y2="34" class="axis" />
+    <text y="52" class="label">Buchstabe A</text>
+    <text y="65" class="count">1 Achse</text>
+  </g>
+
+  <!-- d) Buchstabe F — 0 Achsen -->
+  <g transform="translate(290,85)">
+    <text x="0" y="0" class="letter">F</text>
+    <!-- durchgestrichener Kreis als "keine" -->
+    <circle cx="0" cy="-5" r="26" fill="none" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3 3" />
+    <text y="52" class="label">Buchstabe F</text>
+    <text y="65" class="count">0 Achsen</text>
+  </g>
+
+  <!-- Titel -->
+  <text x="160" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Symmetrieachsen erkennen</text>
+</svg>

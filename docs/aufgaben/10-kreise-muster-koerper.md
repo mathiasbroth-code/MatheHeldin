@@ -409,6 +409,7 @@ stage_id: "parkettierungen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
+themen_intro_bild: "assets/erklaerungen/parkettierung-beispiel.svg"
 ---
 
 ### Aufgabenstellung
@@ -734,6 +735,7 @@ stage_id: "koerpernetze"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
+themen_intro_bild: "assets/erklaerungen/koerpernetz-quader.svg"
 ---
 
 ### Aufgabenstellung
@@ -1029,6 +1031,7 @@ stage_id: "schraegbilder"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
+themen_intro_bild: "assets/erklaerungen/schraegbild-wuerfel.svg"
 ---
 
 ### Aufgabenstellung

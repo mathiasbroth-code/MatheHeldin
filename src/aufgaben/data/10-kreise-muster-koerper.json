@@ -416,6 +416,7 @@
       "Eine Parkettierung ist wie ein Fliesenboden: Die Fliesen müssen lückenlos und ohne Überlappung die gesamte Fläche bedecken. Das geht mit verschiedenen Formen — nicht nur mit Quadraten!"
     ],
     "didaktischerHinweis": "Die Einführung des Begriffs \"Parkettierung\" mit Alltagsbezug (Fussboden) erleichtert das Verständnis. Entspricht S. 106, Einleitung.",
+    "themenIntroBild": "assets/erklaerungen/parkettierung-beispiel.svg",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -735,6 +736,7 @@
       "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt"
     ],
     "didaktischerHinweis": "Das Verständnis des Aufbaus eines Quadernetzes ist Voraussetzung für alle weiteren Netzaufgaben. Entspricht S. 108, Aufg. 1.",
+    "themenIntroBild": "assets/erklaerungen/koerpernetz-quader.svg",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1021,6 +1023,7 @@
       "Zähle systematisch Schicht für Schicht:\n- a) Untere Reihe: 3. Oben links: 2. Gesamt: 3 + 2 = 5\n- b) Links: 1, Mitte: 2, Rechts: 3. Gesamt: 1 + 2 + 3 = 6\n- c) Untere Schicht: 2 · 2 = 4. Obere Schicht: 2 · 2 = 4. Gesamt: 4 + 4 = 8"
     ],
     "didaktischerHinweis": "Würfel zählen in 3D-Ansichten ist die Grundlage für Schrägbilder. Entspricht S. 110, Aufg. 1.",
+    "themenIntroBild": "assets/erklaerungen/schraegbild-wuerfel.svg",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schau dir die Würfelgebäude an und zähle die Würfel.",

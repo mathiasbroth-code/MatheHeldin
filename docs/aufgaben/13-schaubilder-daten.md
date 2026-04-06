@@ -165,6 +165,7 @@ stage_id: "tabellen-diagramme"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Unterschied, der Mittelwert"
+themen_intro_bild: "assets/erklaerungen/wachstumskurve-kinder.svg"
 ---
 
 ### Aufgabenstellung

@@ -137,6 +137,7 @@
       "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch"
     ],
     "didaktischerHinweis": "Diagramme lesen und Aussagen prüfen. Entspricht S. 123, Aufg. 7-9.",
+    "themenIntroBild": "assets/erklaerungen/wachstumskurve-kinder.svg",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "In einem Diagramm zur Körpergrösse von Kindern (Alter 2-18 Jahre) kannst du ablesen, wie groß Kinder in verschiedenem Alter durchschnittlich sind. Sind diese Aussagen richtig oder falsch?",

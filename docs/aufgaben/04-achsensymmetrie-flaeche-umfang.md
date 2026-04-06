@@ -18,6 +18,7 @@ stage_id: "achsensymmetrie"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
+themen_intro_bild: "assets/erklaerungen/symmetrieachsen-beispiele.svg"
 ---
 
 ### Aufgabenstellung
@@ -252,6 +253,7 @@ stage_id: "faltschnitte"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Faltschnitt"
+themen_intro_bild: "assets/erklaerungen/faltschnitt-beispiel.svg"
 ---
 
 ### Aufgabenstellung
@@ -767,6 +769,7 @@ stage_id: "flächeninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
+themen_intro_bild: "assets/erklaerungen/flaeche-umfang-unterschied.svg"
 ---
 
 ### Aufgabenstellung
