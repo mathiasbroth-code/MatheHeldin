@@ -18,7 +18,6 @@
       "1 km = 1.000 m. Man multipliziert die Kilometeranzahl mit 1.000:\n- a) 3 × 1.000 = 3.000 m\n- b) 7,5 × 1.000 = 7.500 m\n- c) 0,8 × 1.000 = 800 m\n- d) 12,25 × 1.000 = 12.250 m"
     ],
     "didaktischerHinweis": "Grundlegende Umrechnungsaufgabe als Einstieg. Die Kommaverschiebung um 3 Stellen ist die Schlüsselregel. Variante d) mit 12,25 km prüft, ob auch zwei Nachkommastellen korrekt behandelt werden.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle in Meter um.",
@@ -65,7 +64,6 @@
       "1.000 m = 1 km. Man teilt die Meterzahl durch 1.000:\n- a) 4.000 ÷ 1.000 = 4 km\n- b) 2.500 ÷ 1.000 = 2,5 km\n- c) 600 ÷ 1.000 = 0,6 km\n- d) 8.750 ÷ 1.000 = 8,75 km"
     ],
     "didaktischerHinweis": "Rückrichtung der Umrechnung (m nach km) erfordert Division. Das Setzen des Kommas an der richtigen Stelle ist die typische Fehlerquelle. Variante c) mit einem Ergebnis unter 1 km ist besonders lehrreich.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle in Kilometer um.",
@@ -112,7 +110,6 @@
       "Die Kilometer bleiben vor dem Komma, die Meter werden in Kilometer umgewandelt:\n- a) 3 km + 200 m = 3 km + 0,2 km = 3,2 km\n- b) 5 km + 50 m = 5 km + 0,05 km = 5,05 km\n- c) 14 km + 800 m = 14 km + 0,8 km = 14,8 km\n- d) 1 km + 5 m = 1 km + 0,005 km = 1,005 km"
     ],
     "didaktischerHinweis": "Analog zur Tonnen-Kilogramm-Umrechnung. Die führenden Nullen (50 m = 0,050 km, 5 m = 0,005 km) sind die größte Fehlerquelle. Die Stellenwerttafel macht das Muster sichtbar.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schreibe als Kilometer.",
@@ -159,7 +156,6 @@
       "Alles in die gleiche Einheit umwandeln und vergleichen:\n- a) 3,5 km = 3.500 m > 3.200 m ✓\n- b) 0,9 km = 900 m > 800 m ✓\n- c) 1 km 400 m = 1,4 km > 1,04 km ✓\n- d) 10,5 km = 10 km 500 m → gleich!"
     ],
     "didaktischerHinweis": "Vergleichsaufgaben trainieren das Einheitenverständnis. Besonders c) zeigt eine typische Verwechslung: 1 km 400 m ist NICHT 1,4 km sondern ... doch! Aber 1,04 km = 1 km 40 m. d) ist ein Aha-Erlebnis: Beide sind gleich!",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -204,7 +200,6 @@
       "- a) 1,5 + 2,3 + 1,8 = 5,6 km\n- b) 1,5 + 2,3 = 3,8 km"
     ],
     "didaktischerHinweis": "Einfache Addition von Dezimalzahlen im Kontext einer Wanderung. Teil b) prüft, ob das Kind erkennt, dass nicht immer alle Teilstrecken relevant sind. Kindgerechtes Szenario mit Wiedererkennungswert.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beim Wandertag läuft die Klasse 3b folgende Strecken:\n\n- Schule → Waldrand: 1,5 km\n- Waldrand → Aussichtsturm: 2,3 km\n- Aussichtsturm → Spielplatz: 1,8 km",
@@ -241,7 +236,6 @@
       "- a) 1,2 × 2 = 2,4 km\n- b) 2,4 × 5 = 12 km\n- c) 12 km = 12.000 m"
     ],
     "didaktischerHinweis": "Alltagsbezug durch eigenen Schulweg. Die Aufgabe verbindet Verdoppelung, Multiplikation und Einheitenumrechnung in drei Schritten. Das Ergebnis (12 km pro Woche!) überrascht viele Kinder.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Philippas Schulweg ist 1,2 km lang. Sie läuft jeden Tag hin und zurück.",
@@ -283,7 +277,6 @@
       "Bekannte Strecken: 4,3 + 5,8 + 3,2 = 13,3 km\nFehlende Strecke: 18,5 − 13,3 = 5,2 km"
     ],
     "didaktischerHinweis": "Umkehraufgabe: Aus der Gesamtstrecke und bekannten Teilen die fehlende Teilstrecke ermitteln. Die Skizze als Hilfsmittel wird implizit trainiert. Die Rechnung erfordert Addition und Subtraktion mit Dezimalzahlen.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Der Schulbus fährt von der Schule über drei Haltestellen zum Freibad. Die Gesamtstrecke beträgt 18,5 km.\n\n- Schule → Haltestelle 1: 4,3 km\n- Haltestelle 1 → Haltestelle 2: ? km\n- Haltestelle 2 → Haltestelle 3: 5,8 km\n- Haltestelle 3 → Freibad: 3,2 km",
@@ -316,7 +309,6 @@
       "- a) 3,4 + 2,8 + 4,1 = 10,3 km\n- b) 5,6 + 1,9 + 3,7 = 11,2 km\n- c) 11,2 − 10,3 = 0,9 km"
     ],
     "didaktischerHinweis": "Vergleichende Aufgabe mit zwei Wegen. Kinder müssen zweimal addieren und dann die Differenz bilden. Das Ergebnis in Metern umzurechnen (0,9 km = 900 m) fördert die Einheitenflexibilität.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Familie Klein plant eine Radtour. Es gibt zwei Wege zum Badesee:\n\n**Weg A (über den Wald):**\nZuhause → Waldrand: 3,4 km → Lichtung: 2,8 km → Badesee: 4,1 km\n\n**Weg B (über das Dorf):**\nZuhause → Bäckerei: 5,6 km → Dorfplatz: 1,9 km → Badesee: 3,7 km",
@@ -359,7 +351,6 @@
       "Man zieht die Kilometerangaben voneinander ab:\n- a) 6,3 − 2,8 = 3,5 km\n- b) 14,5 − 6,3 = 8,2 km\n- c) 9,1 − 2,8 = 6,3 km"
     ],
     "didaktischerHinweis": "Streckenpläne lesen ist eine Alltagskompetenz. Kinder müssen verstehen, dass die Entfernung zwischen zwei Orten durch Subtraktion der Kilometerangaben berechnet wird — nicht durch Addition.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Auf einer Radstrecke stehen Kilometerschilder:\n\n| Ort | Kilometer ab Start |\n|-----|-------------------|\n| Start (Schule) | 0 km |\n| Brunnen | 2,8 km |\n| Bauernhof | 6,3 km |\n| Waldhütte | 9,1 km |\n| See | 14,5 km |",
@@ -401,7 +392,6 @@
       "- a) 1,3 + 2,4 = 3,7 km\n- b) 3,7 − 2,5 = 1,2 km"
     ],
     "didaktischerHinweis": "Umwege berechnen verbindet Addition und Subtraktion. Die Dreiecks-Skizze hilft, die räumliche Situation zu verstehen. Das Konzept \"Umweg = längerer Weg\" ist für Kinder alltagsnah.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Von Tims Haus zum Sportplatz sind es 2,5 km auf dem direkten Weg. Tim holt aber erst seinen Freund Lukas ab. Zu Lukas sind es 1,3 km, und von Lukas zum Sportplatz sind es 2,4 km.",
@@ -439,7 +429,6 @@
       "- a) 21 − 10 = 11 km\n- b) 30 − 21 = 9 km\n- c) 42 − 30 = 12 km"
     ],
     "didaktischerHinweis": "Ganzzahlige Subtraktionen im Kontext eines realen Sportevents. Der Marathon als motivierender Rahmen. Die Zahlenstrahl-Vorstellung wird gestärkt. Guter Übergang von einfacher Subtraktion zu Dezimalzahlen in späteren Aufgaben.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Marathon ist 42 km lang. Die Läuferin Mara hat folgende Zwischenzeiten:\n\n- Nach 10 km: Verpflegungsstation 1\n- Nach 21 km: Halbmarathon-Marke\n- Nach 30 km: Verpflegungsstation 2",
@@ -482,7 +471,6 @@
       "- a) 1,5 + 2,9 = 4,4 km\n- b) 4,4 − 3,8 = 0,6 km = 600 m\n- c) 3,8 + 4,4 = 8,2 km"
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe: Hinweg und Rückweg sind verschieden lang. Das Kind muss erkennen, dass der Rückweg über den Kindergarten zwei Teilstrecken hat. Die Gesamttagesstrecke als Addition beider Wege ist ein weiterer Schritt.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Pia radelt morgens zur Schule: 3,8 km. Auf dem Rückweg holt sie ihre Schwester vom Kindergarten ab. Der Kindergarten liegt 1,5 km von der Schule entfernt, und von dort sind es noch 2,9 km nach Hause.",
@@ -525,7 +513,6 @@
       "Alles in km umwandeln:\n- Etappe 1: 4 km 300 m = 4,3 km\n- Etappe 2: 6.750 m = 6,75 km\n- Etappe 3: 3,9 km\n- Etappe 4: 2 km 50 m = 2,05 km\n\nSumme: 4,3 + 6,75 + 3,9 + 2,05 = 17 km"
     ],
     "didaktischerHinweis": "Die gemischten Einheiten (km m, nur m, km mit Komma) erfordern sorgfältiges Umrechnen als Vorarbeit. Das glatte Ergebnis (17 km) ist eine schöne Kontrolle für die Kinder.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bei einer Fahrradtour misst das Fahrradtacho folgende Teilstrecken:\n\n- Etappe 1: 4 km 300 m\n- Etappe 2: 6.750 m\n- Etappe 3: 3,9 km\n- Etappe 4: 2 km 50 m",
@@ -558,7 +545,6 @@
       "- a) 2,3 + 1,8 + 2,5 = 6,6 km. Noah: 10 − 6,6 = 3,4 km\n- b) Vergleich: Emma 2,3, Lukas 1,8, Mia 2,5, Noah 3,4 → Noah ist am weitesten\n- c) 2,3 − 1,8 = 0,5 km = 500 m"
     ],
     "didaktischerHinweis": "Vierseitige Sachaufgabe mit Ergänzung, Vergleich und Einheitenumrechnung. Das Staffellauf-Szenario ist motivierend und alltagsnah. Die Berechnung von Noahs Strecke erfordert Addition und Subtraktion.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Beim Sportfest läuft die Klasse 4a einen Staffellauf über 10 km. Jedes Kind läuft eine Teilstrecke:\n\n| Kind | Strecke |\n|------|---------|\n| Emma | 2,3 km |\n| Lukas | 1,8 km |\n| Mia | 2,5 km |\n| Noah | ? |",
@@ -601,7 +587,6 @@
       "- a) 14,5 + 18,3 + 12,7 + 16,5 = 62 km\n- b) Vergleich: 12,7 < 14,5 < 16,5 < 18,3 → Mittwoch\n- c) 18,3 − 12,7 = 5,6 km\n- d) 62 × 1.000 = 62.000 m"
     ],
     "didaktischerHinweis": "Tabelle lesen und mehrere Fragen beantworten: Addition, Vergleich, Subtraktion und Umrechnung. Das glatte Ergebnis (62 km) erlaubt eine einfache Kontrolle. Die Subtraktion 18,3 − 12,7 mit Zehnerübergang ist anspruchsvoll.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die Familie Schmidt macht eine 4-Tage-Wanderung. Hier sind die Tagesstrecken:\n\n| Tag | Strecke |\n|-----|---------|\n| Montag | 14,5 km |\n| Dienstag | 18,3 km |\n| Mittwoch | 12,7 km |\n| Donnerstag | 16,5 km |",
@@ -649,7 +634,6 @@
       "km/h bedeutet \"Kilometer pro Stunde\" (km = Kilometer, h = Stunde von \"hora\"). 60 km/h heißt: In einer Stunde legt das Auto 60 Kilometer zurück."
     ],
     "didaktischerHinweis": "Begriffsverständnis vor dem Rechnen: Kinder müssen km/h als \"Kilometer pro Stunde\" lesen können. Die falschen Antworten decken typische Verwechslungen auf (Minuten statt Stunden, Meter statt Kilometer).",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -684,8 +668,8 @@
     "kapitel": "06-gewichte-längen-skizzen-intensiv",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Ordne jeder Geschwindigkeit die passende Beschreibung zu.\n\nGeschwindigkeiten: 5 km/h, 20 km/h, 50 km/h, 300 km/h\n\nBeschreibungen:\n- Auto in der Stadt\n- Schneller Radfahrer\n- Spaziergänger\n- ICE-Zug",
-    "loesung": "- 5 km/h → Spaziergänger\n- 20 km/h → Schneller Radfahrer\n- 50 km/h → Auto in der Stadt\n- 300 km/h → ICE-Zug",
+    "aufgabenstellung": "Ordne jeder Geschwindigkeit die passende Beschreibung zu.\n\na) 5 km/h\nb) 20 km/h\nc) 50 km/h\nd) 300 km/h\n\nA) Auto in der Stadt\nB) Schneller Radfahrer\nC) Spaziergänger\nD) ICE-Zug",
+    "loesung": "a) → C\nb) → B\nc) → A\nd) → D",
     "loesungsweg": "Die Geschwindigkeiten nach Größe sortieren und den Fortbewegungsarten zuordnen:\n- Am langsamsten ist der Spaziergänger (5 km/h)\n- Ein Radfahrer ist schneller (20 km/h)\n- Ein Auto in der Stadt fährt noch schneller (50 km/h)\n- Der ICE ist am schnellsten (300 km/h)",
     "tipps": [
       "Sortiere die Geschwindigkeiten von langsam nach schnell. Dann sortiere die Fortbewegungsarten genauso — und ordne zu!",
@@ -694,13 +678,51 @@
       "Die Geschwindigkeiten nach Größe sortieren und den Fortbewegungsarten zuordnen:\n- Am langsamsten ist der Spaziergänger (5 km/h)\n- Ein Radfahrer ist schneller (20 km/h)\n- Ein Auto in der Stadt fährt noch schneller (50 km/h)\n- Der ICE ist am schnellsten (300 km/h)"
     ],
     "didaktischerHinweis": "Größenvorstellung aufbauen: Kinder sollen ein Gefühl dafür entwickeln, welche Geschwindigkeiten zu welchen Fortbewegungsarten gehören. Alltagsbezug stärkt das intuitive Verständnis.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne jeder Geschwindigkeit die passende Beschreibung zu.\nGeschwindigkeiten: 5 km/h, 20 km/h, 50 km/h, 300 km/h\nBeschreibungen:\n- Auto in der Stadt\n- Schneller Radfahrer\n- Spaziergänger\n- ICE-Zug",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne jeder Geschwindigkeit die passende Beschreibung zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "5 km/h"
+        },
+        {
+          "label": "b",
+          "text": "20 km/h"
+        },
+        {
+          "label": "c",
+          "text": "50 km/h"
+        },
+        {
+          "label": "d",
+          "text": "300 km/h"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "Auto in der Stadt"
+        },
+        {
+          "label": "B",
+          "text": "Schneller Radfahrer"
+        },
+        {
+          "label": "C",
+          "text": "Spaziergänger"
+        },
+        {
+          "label": "D",
+          "text": "ICE-Zug"
+        }
+      ],
+      "antworten": {
+        "a": "C",
+        "b": "B",
+        "c": "A",
+        "d": "D"
+      }
     }
   },
   {
@@ -722,7 +744,6 @@
       "Strecke = Geschwindigkeit × Zeit:\n- a) 4 × 2 = 8 km\n- b) 15 × 2 = 30 km\n- c) 80 × 2 = 160 km\n- d) 120 × 2 = 240 km"
     ],
     "didaktischerHinweis": "Einfachste Anwendung der Geschwindigkeitsformel: Strecke = v × t. Die Verdoppelung ist intuitiv (\"in 2 Stunden doppelt so weit\"). Die Zahlen sind bewusst einfach (ganzzahlige Ergebnisse).",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Berechne, wie weit man in 2 Stunden kommt.",
@@ -769,7 +790,6 @@
       "- a) 16 km/h × 1 = 16 km\n- b) 16 ÷ 2 = 8 km (halbe Stunde = halbe Strecke)\n- c) 16 ÷ 4 = 4 km (Viertelstunde = Viertel der Strecke)\n- d) 16 × 3 = 48 km"
     ],
     "didaktischerHinweis": "Proportionales Denken mit einfachen Bruchteilen (1/2, 1/4). Die Zahl 16 ist bewusst durch 2 und 4 teilbar. Die Tabelle als visuelles Hilfsmittel macht das Muster sichtbar.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ein Radfahrer fährt mit 16 km/h. Wie weit kommt er in ...",
@@ -816,7 +836,6 @@
       "Geschwindigkeit = Strecke ÷ Zeit:\n- a) 12 ÷ 2 = 6 km/h\n- b) 45 ÷ 3 = 15 km/h\n- c) 15 > 6 → Radfahrer ist schneller"
     ],
     "didaktischerHinweis": "Umkehrrechnung: Geschwindigkeit aus Strecke und Zeit berechnen. Die Division ist hier einfach (ganzzahlige Ergebnisse). Der Vergleich in c) gibt dem Rechnen einen Sinn.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Berechne die Geschwindigkeit in km/h.",
@@ -859,7 +878,6 @@
       "Zeit = Strecke ÷ Geschwindigkeit:\n- a) 100 ÷ 50 = 2 Stunden\n- b) 60 ÷ 20 = 3 Stunden\n- c) 200 ÷ 100 = 2 Stunden\n- d) 36 ÷ 12 = 3 Stunden"
     ],
     "didaktischerHinweis": "Dritte Grundaufgabe der Geschwindigkeit: Zeit berechnen. Alle Ergebnisse sind ganzzahlig, um den Zugang zu erleichtern. Das schrittweise Hochrechnen (1 h, 2 h, 3 h ...) ist eine alternative Strategie zur Division.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Berechne, wie lange die Fahrt dauert.",
@@ -906,7 +924,6 @@
       "30 Minuten = halbe Stunde → Geschwindigkeit ÷ 2:\n- Hase: 40 ÷ 2 = 20 km\n- Schildkröte: 2 ÷ 2 = 1 km\n- Katze: 20 ÷ 2 = 10 km\n- c) 20 − 10 = 10 km"
     ],
     "didaktischerHinweis": "Motivierender Tierkontext. Die Halbierung ist die Schlüsselrechnung. Der Vergleich in b) und c) gibt dem Rechnen einen Sinn. Die extremen Unterschiede (1 km vs. 20 km) machen die Bedeutung von Geschwindigkeit greifbar.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Drei Tiere machen ein Wettrennen über 30 Minuten:\n\n- Hase: 40 km/h\n- Schildkröte: 2 km/h\n- Katze: 20 km/h",
@@ -949,7 +966,6 @@
       "- Stadt: 50 km/h × 0,5 h = 25 km\n- Landstrasse: 80 km/h × 1 h = 80 km\n- Autobahn: 120 km/h × 0,5 h = 60 km\n- Gesamt: 25 + 80 + 60 = 165 km"
     ],
     "didaktischerHinweis": "Alltagsnahe mehrstufige Aufgabe: verschiedene Geschwindigkeiten auf verschiedenen Straßentypen. Die Tabelle strukturiert die Informationen. Die Kombination aus ganzen und halben Stunden festigt das proportionale Denken.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |",
@@ -987,7 +1003,6 @@
       "- a) 12 km ÷ 12 km/h = 1 Stunde = 60 Minuten\n- b) Fahrzeit: 12 km ÷ 60 km/h = 0,2 Stunden = 12 Minuten\n  Gesamt: 15 + 12 = 27 Minuten\n- c) 27 min < 60 min → Tom ist schneller"
     ],
     "didaktischerHinweis": "Vergleichsaufgabe mit einer Falle: Schnellere Geschwindigkeit heißt nicht automatisch, dass man zuerst ankommt — Wartezeiten müssen berücksichtigt werden. Hier gewinnt Tom trotzdem. Die Umrechnung Stunden ↔ Minuten ist ein Zusatzlernziel.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lisa und Tom starten gleichzeitig und wollen zum Badesee, der 12 km entfernt ist.\n\n- Lisa fährt mit dem Fahrrad: 12 km/h\n- Tom lässt sich mit dem Auto fahren: 60 km/h, aber er muss erst 15 Minuten warten, bis das Auto losfährt.",
@@ -1030,7 +1045,6 @@
       "- a) 160 ÷ 80 = 2 Stunden\n- b) 2 Stunden + 4 × 5 min = 2 h + 20 min = 2 h 20 min\n- c) 160 ÷ 160 = 1 Stunde"
     ],
     "didaktischerHinweis": "Erweiterung um Haltezeiten: Fahrzeit und Standzeit müssen getrennt berechnet und dann addiert werden. Teil c) zeigt: Der Schnellzug ist doppelt so schnell und braucht halb so lang — das doppelte Geschwindigkeit bedeutet halbe Zeit.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Regionalzug fährt mit 80 km/h. Die Strecke ist 160 km lang.",
@@ -1073,7 +1087,6 @@
       "- a) 50 m × 4 = 200 m = 0,2 km\n- b) 100 km/h ÷ 4 = 25 km (15 min = Viertelstunde)\n- c) Schnecke: 50 m/h = 0,05 km/h. Gepard: 100 km/h. 100 ÷ 0,05 = 2.000"
     ],
     "didaktischerHinweis": "Extreme Vergleiche faszinieren Kinder. Die Einheitenumrechnung (m/h nach km/h) ist anspruchsvoll. Das riesige Verhältnis (2.000-mal!) macht die Unterschiede in der Tierwelt eindrucksvoll greifbar.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Schnecke kriecht mit 50 Metern pro Stunde. Ein Gepard rennt mit 100 km/h.",
@@ -1116,7 +1129,6 @@
       "- a) 30 min = 0,5 h → 120 × 0,5 = 60 km\n- b) 1 h → 120 × 1 = 120 km\n- c) 180 ÷ 120 = 1,5 h = 1 h 30 min → 9:00 + 1:30 = 10:30 Uhr\n- d) 240 ÷ 120 = 2 h → 9:00 + 2:00 = 11:00 Uhr"
     ],
     "didaktischerHinweis": "Verbindung von Geschwindigkeitsrechnung mit Uhrzeiten. Die Umrechnung von Dezimalstunden in Stunden und Minuten (1,5 h = 1 h 30 min) ist ein wichtiger Zwischenschritt. Alltagsnaher Fahrplan-Kontext.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ein Zug fährt um 9:00 Uhr los. Die Geschwindigkeit beträgt 120 km/h.",
@@ -1163,7 +1175,6 @@
       "- Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)\n- Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)\n- Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)\n- Flugzeug: 1.600 ÷ 800 = 2 Stunden"
     ],
     "didaktischerHinweis": "Alle drei Grundaufgaben (Strecke, Geschwindigkeit, Zeit berechnen) in einer Tabelle. Das ist eine gute Zusammenfassung und Vertiefung. Die Ergebnisse bilden ein Muster: Drei Fahrzeuge brauchen je 2 Stunden, obwohl die Strecken und Geschwindigkeiten sehr verschieden sind.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Fülle die Tabelle aus. Berechne die fehlenden Werte.",
@@ -1196,7 +1207,6 @@
       "- a) 10 ÷ 8 = 1,25 Stunden = 1 Stunde 15 Minuten\n- b) 10:00 + 1:15 = 11:15 Uhr\n- c) 10 ÷ 10 = 1 Stunde → 10:00 + 1:00 = 11:00 Uhr\n- d) 11:15 − 11:00 = 15 Minuten"
     ],
     "didaktischerHinweis": "Die Division 10 ÷ 8 = 1,25 führt zu einer nicht-ganzzahligen Stundenangabe. Die Umrechnung 0,25 h = 15 min ist der Schlüsselschritt. Der Vergleich zwischen Mara und Tim gibt der Aufgabe einen spannenden Kontext.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Mara trainiert für einen Volkslauf über 10 km. Sie läuft mit 8 km/h.",
@@ -1244,7 +1254,6 @@
       "- a) 80 + 70 = 150 km pro Stunde (zusammen)\n- b) 300 ÷ 150 = 2 Stunden\n- c) 8:00 + 2:00 = 10:00 Uhr"
     ],
     "didaktischerHinweis": "Klassische Begegnungsaufgabe. Die Skizze mit Pfeilen hilft, die gegenläuifge Bewegung zu verstehen. Die Addition der Geschwindigkeiten ist der entscheidende Trick. Mit ganzzahligem Ergebnis (2 Stunden) ist die Aufgabe gut lösbar.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zwei Städte sind 300 km voneinander entfernt. Um 8:00 Uhr fährt ein Auto von Stadt A los (mit 80 km/h) und gleichzeitig ein Auto von Stadt B (mit 70 km/h). Die Autos fahren aufeinander zu.",
@@ -1286,14 +1295,7 @@
       "Rotes T-Shirt: 2 Möglichkeiten (Jeans oder Jogginghose).\nBlaues T-Shirt: nochmal 2.\nGrünes T-Shirt: nochmal 2.\nZusammen: 2 + 2 + 2 = 6. Oder: 3 × 2 = ?",
       "Für jedes T-Shirt gibt es 2 Hosenwahlmöglichkeiten:\n- Rot + Jeans, Rot + Jogginghose\n- Blau + Jeans, Blau + Jogginghose\n- Grün + Jeans, Grün + Jogginghose\n\n3 T-Shirts × 2 Hosen = 6 Outfits"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder können alle Möglichkeiten aufzählen und entdecken das Muster: Anzahl A × Anzahl B = Gesamtanzahl.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Philippa hat 3 T-Shirts (rot, blau, grün) und 2 Hosen (Jeans, Jogginghose).",
@@ -1325,14 +1327,7 @@
       "Milch: 2 Möglichkeiten. Kakao: 2 Möglichkeiten. Saft: 2 Möglichkeiten. Zusammen: 3 × 2 = ?",
       "3 Getränke × 2 Brötchen = 6 Kombinationen:\n- Milch + Laugen, Milch + Vollkorn\n- Kakao + Laugen, Kakao + Vollkorn\n- Saft + Laugen, Saft + Vollkorn"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Gleiche Struktur wie Aufgabe 31, anderer Kontext. Die Tabelle als Alternative zum Baumdiagramm. Kinder erkennen: Das Muster \"Anzahl A × Anzahl B\" funktioniert immer!",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Beim Frühstück gibt es:\n- **Getränke:** Milch, Kakao, Saft\n- **Brötchen:** Laugenbrötchen, Vollkornbrötchen",
@@ -1364,14 +1359,7 @@
       "Wenn die 1 vorne steht, bleiben 2 und 3: 123, 132 → 2 Möglichkeiten.\nWenn die 2 vorne steht: ? und ? → nochmal 2.\nWenn die 3 vorne steht: ? und ? → nochmal 2.\nGesamt: 3 × 2 = ?",
       "Baumdiagramm:\n```\n     ┌── 2 ── 3  → 123\n1 ───┤\n     └── 3 ── 2  → 132\n\n     ┌── 1 ── 3  → 213\n2 ───┤\n     └── 3 ── 1  → 231\n\n     ┌── 1 ── 2  → 312\n3 ───┤\n     └── 2 ── 1  → 321\n```\n3 × 2 × 1 = 6"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahlen. Das Baumdiagramm mit einfachen Ziffern ist übersichtlich. Kleinste/größte Zahl trainiert zusätzlich das Stellenwertverständnis.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lena hat eine dreistellige Geheimzahl aus den Ziffern 1, 2 und 3 gewählt. Jede Ziffer kommt genau einmal vor.",
@@ -1413,14 +1401,7 @@
       "Salami kann mit 3 anderen kombiniert werden: P, Sc, M → 3 Pizzen.\nPilze: noch 2 neue Partner (Sc, M) → 2 Pizzen.\nSchinken: noch 1 neuer Partner (M) → 1 Pizza.\nGesamt: 3 + 2 + 1 = ?",
       "Systematisch alle Paare (Reihenfolge spielt keine Rolle):\n- Salami + Pilze, Salami + Schinken, Salami + Mais → 3\n- Pilze + Schinken, Pilze + Mais → 2\n- Schinken + Mais → 1\n3 + 2 + 1 = 6"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kombination (ohne Wiederholung, ohne Reihenfolge) im Pizzakontext. Das Muster 3 + 2 + 1 = 6 kommt wieder — Kinder erkennen die Verbindung zu Fotoaufgaben und Fussballturnieren.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In der Pizzeria gibt es 4 Beläge: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Beläge wählen.",
@@ -1452,14 +1433,7 @@
       "Emma links: Finn-Greta oder Greta-Finn → 2 Möglichkeiten.\nFinn links: 2 Möglichkeiten.\nGreta links: 2 Möglichkeiten.\nGesamt: 3 × 2 = ?",
       "Für den linken Platz: 3 Möglichkeiten.\nFür den mittleren Platz: 2 Möglichkeiten.\nFür den rechten Platz: 1 Möglichkeit.\n3 × 2 × 1 = 6"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das Muster. Die Autofahrt-Situation ist für viele Kinder unmittelbar nachvollziehbar.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Drei Kinder — Emma, Finn und Greta — sitzen auf der Rückbank im Auto. Mama sitzt vorne und fährt.",
@@ -1496,14 +1470,7 @@
       "Münze 1 zeigt Kopf: Münze 2 kann K oder Z zeigen → K-K und K-Z.\nMünze 1 zeigt Zahl: Münze 2 kann K oder Z zeigen → Z-K und Z-Z.\nZusammen: 2 + 2 = ?",
       "Münze 1: 2 Möglichkeiten (K oder Z).\nMünze 2: 2 Möglichkeiten.\nGesamt: 2 × 2 = 4\n\nBaumdiagramm:\n```\n     ┌── K → K-K\nK ───┤\n     └── Z → K-Z\n\n     ┌── K → Z-K\nZ ───┤\n     └── Z → Z-Z\n```"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Einfaches Beispiel für die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm ist übersichtlich. Vorbereitung auf Wahrscheinlichkeitsaufgaben: \"Wie wahrscheinlich ist K-K?\"",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du wirfst zwei Münzen gleichzeitig. Jede Münze zeigt Kopf (K) oder Zahl (Z).",
@@ -1540,14 +1507,7 @@
       "Rot links → 2 Muster. Blau links → 2 Muster. Gelb links → 2 Muster.\n3 × 2 = ?",
       "Für das linke Feld: 3 Farbmöglichkeiten.\nFür das rechte Feld: 2 Farbmöglichkeiten (die verwendete Farbe fällt weg).\n3 × 2 = 6\n\nAchtung: Rot-Blau ist NICHT dasselbe wie Blau-Rot (die Reihenfolge zählt!)."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Hier zählt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. Kinder erkennen den Unterschied: Rot-Blau sieht ANDERS aus als Blau-Rot.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du hast 3 Farben: Rot, Blau, Gelb. Du malst ein Muster mit 2 Feldern — das linke und das rechte Feld. Jedes Feld bekommt eine andere Farbe.",
@@ -1584,14 +1544,7 @@
       "A hat 4 Gegner: 4 Spiele. B hat noch 3 neue Gegner: 3 Spiele. C hat noch 2: 2 Spiele. D hat noch 1: 1 Spiel.\n4 + 3 + 2 + 1 = ?",
       "Team A: 4 Spiele (gegen B, C, D, E)\nTeam B: 3 neue Spiele (gegen C, D, E — gegen A schon gezählt)\nTeam C: 2 neue Spiele (gegen D, E)\nTeam D: 1 neues Spiel (gegen E)\n4 + 3 + 2 + 1 = 10"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+3+2+1=10 ist die nächste Stufe. Kinder können das Muster erkennen: Bei 3 Teams: 3, bei 4 Teams: 6, bei 5 Teams: 10.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Beim Völkerball-Turnier gibt es 5 Mannschaften: A, B, C, D, E. Jede spielt einmal gegen jede andere.",
@@ -1628,14 +1581,7 @@
       "Wenn du Vanille weglässt: S+E+Z.\nWenn du Schoko weglässt: V+E+Z.\nWenn du Erdbeere weglässt: V+S+Z.\nWenn du Zitrone weglässt: V+S+E.\nDas sind ? verschiedene Becher.",
       "Man wählt 3 aus 4 Sorten. Es gibt genau eine Sorte, die NICHT im Becher ist:\n- Ohne Zitrone: V+S+E\n- Ohne Erdbeere: V+S+Z\n- Ohne Schoko: V+E+Z\n- Ohne Vanille: S+E+Z\n\nAlso 4 Möglichkeiten (eine pro weggelassener Sorte)."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Der Trick \"3 aus 4 wählen = 1 weglassen\" ist ein eleganter Perspektivwechsel. Kinder, die das entdecken, haben einen wichtigen kombinatorischen Denkschritt gemacht. Die Aufgabe zeigt: Manchmal ist Weglassen einfacher als Auswählen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In der Eisdiele gibt es 4 Sorten: Vanille (V), Schoko (S), Erdbeere (E) und Zitrone (Z). Du bestellst 3 verschiedene Kugeln. Die Reihenfolge spielt keine Rolle.",
@@ -1667,14 +1613,7 @@
       "Wenn der obere Streifen rot ist, gibt es für den mittleren 3 Farben. Für jede davon 2 für den unteren: 3 × 2 = 6 Flaggen mit rotem Oberstreifen.\nDas gilt für jede der 4 Farben oben: 4 × 6 = ?",
       "4 Farben für Platz 1 × 3 für Platz 2 × 2 für Platz 3 = 4 × 3 × 2 = 24 Flaggen"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Variation von 4 Elementen auf 3 Plätze (4 × 3 × 2 = 24). Das Baumdiagramm wäre mit 24 Enden zu groß — die Multiplikationsregel ist hier nötig. Kinder lernen den Übergang vom Zählen zum Rechnen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Du malst eine Flagge mit 3 waagerechten Streifen. Du hast die Farben Rot, Weiß, Blau und Schwarz. Jeder Streifen bekommt eine andere Farbe.",
@@ -1720,14 +1659,7 @@
       "Code: 3 _ _ 7. An der zweiten Stelle kann die 5 oder die 9 stehen.\nWenn 5 an Stelle 2: 3-5-9-7.\nWenn 9 an Stelle 2: 3-9-5-7.\nWie viele sind das?",
       "Die erste Ziffer (3) und die letzte (7) sind fest. Für die mittleren Stellen gibt es nur zwei Reihenfolgen:\n- 3-5-9-7 = 3597\n- 3-9-5-7 = 3957\n\nAlso 2 Möglichkeiten."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Fixierte Stellen reduzieren die Anzahl drastisch: Von potentiell vielen auf nur 2. Kinder lernen: Je mehr man weiß, desto weniger Möglichkeiten bleiben. Alltagsbezug (Fahrradschloss) motiviert.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finn hat einen 4-stelligen Code für sein Fahrradschloss. Er weiß noch:\n- Die erste Ziffer ist 3.\n- Die letzte Ziffer ist 7.\n- Die beiden mittleren Ziffern sind 5 und 9 (in unbekannter Reihenfolge).",
@@ -1759,14 +1691,7 @@
       "5 + 4 = 9. Dann 9 + 3 = 12. Dann 12 + 2 = 14. Dann 14 + 1 = ?",
       "a) Kind 1: 5 Handschläge (mit 2, 3, 4, 5, 6)\nKind 2: 4 neue (mit 3, 4, 5, 6 — mit 1 schon gezählt)\nKind 3: 3 neue (mit 4, 5, 6)\nKind 4: 2 neue (mit 5, 6)\nKind 5: 1 neuer (mit 6)\n5 + 4 + 3 + 2 + 1 = 15\n\nb) Jedes Kind gibt 5 anderen die Hand → 5 Handschläge."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Das Handschlag-Problem ist ein Klassiker der Kombinatorik. Es hat die gleiche Struktur wie das Fussballturnier (Aufgabe 5 in der Basissammlung). Kinder erkennen das Muster: Bei 6 Personen: 5+4+3+2+1 = 15. Das vertieft die Einsicht in die Dreiecks-Zahlen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "6 Kinder treffen sich auf dem Spielplatz. Jedes Kind gibt jedem anderen genau einmal die Hand.",
@@ -1803,14 +1728,7 @@
       "Katze links im Paar (KH): Ordne KH, P, F an → 3 × 2 × 1 = 6 Reihenfolgen.\nHund links im Paar (HK): nochmal 6 Reihenfolgen.\nGesamt: 6 + 6 = ?",
       "Katze und Hund als Pärchen behandeln → 3 \"Elemente\": (KH), P, F.\nDiese 3 Elemente: 3 × 2 × 1 = 6 Reihenfolgen.\nAber: Das Pärchen kann auch umgekehrt sein: (HK) statt (KH).\nAlso: 6 × 2 = 12\n\nBeispiele: KH-P-F, KH-F-P, P-KH-F, P-F-KH, F-KH-P, F-P-KH,\nHK-P-F, HK-F-P, P-HK-F, P-F-HK, F-HK-P, F-P-HK"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Permutation mit Nebenbedingung: das \"Zusammenkleben\" als Lösungsstrategie. Anspruchsvolle Aufgabe, die systematisches Denken erfordert. Der Trick \"Pärchen bilden\" ist eine wichtige kombinatorische Technik.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Philippa stellt 4 Tierfiguren in einer Reihe auf: Katze (K), Hund (H), Pferd (P) und Frosch (F). Aber: Die Katze und der Hund müssen immer nebeneinander stehen!",
@@ -1842,14 +1760,7 @@
       "Wenn die beiden R zuerst kommen: RRUU → 1 Weg.\nWenn ein R zuerst, dann U, dann R: RURU und RUUR → 2 Wege.\nProbiere alle Möglichkeiten mit U am Anfang ...",
       "Jeder Weg besteht aus genau 2 Schritten nach rechts (→→) und 2 Schritten nach unten (↓↓). Man muss die 4 Schritte anordnen:\n\n1. →→↓↓\n2. →↓→↓\n3. →↓↓→\n4. ↓→→↓\n5. ↓→↓→\n6. ↓↓→→\n\nDas sind 6 Wege."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Gitterwege sind ein schöner Einstieg in die Binomialkoeffizienten (4 über 2 = 6). Für die Grundschule reicht das systematische Aufschreiben. Die Verbindung von räumlichem Denken und Kombinatorik macht diese Aufgabe besonders wertvoll.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf einem 2×2-Raster möchtest du von der oberen linken Ecke zur unteren rechten Ecke gelangen. Du darfst nur nach rechts (→) oder nach unten (↓) gehen.\n\n```\nStart ─── ─── \n  |         |         |\n  ─── ─── \n  |         |         |\n  ─── ─── Ziel\n```",
@@ -1881,14 +1792,7 @@
       "Wenn Münze 1 = K: Es gibt 4 Möglichkeiten für Münzen 2 und 3 (KK, KZ, ZK, ZZ).\nWenn Münze 1 = Z: nochmal 4 Möglichkeiten.\nGesamt: 4 + 4 = ?\nc) Suche die Ergebnisse mit genau 2 × K: K-K-Z, K-Z-K, Z-K-K. Wie viele?",
       "a) 2 × 2 × 2 = 8\n\nb) Systematisch mit Baumdiagramm:\n```\n     ┌── K ──┬── K → KKK\n     |       └── Z → KKZ\nK ───┤\n     └── Z ──┬── K → KZK\n             └── Z → KZZ\n\n     ┌── K ──┬── K → ZKK\n     |       └── Z → ZKZ\nZ ───┤\n     └── Z ──┬── K → ZZK\n             └── Z → ZZZ\n```\n\nc) Genau 2 × K: KKZ, KZK, ZKK → 3 Stück"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Erweiterung auf 3 Münzen (2^3 = 8). Das Baumdiagramm wird größer, bleibt aber überschaubar. Teil c) führt in die Wahrscheinlichkeit ein: 3 von 8 Ergebnissen haben genau 2 × Kopf.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du wirfst drei Münzen gleichzeitig. Jede zeigt Kopf (K) oder Zahl (Z).",
@@ -1930,14 +1834,7 @@
       "b) Gibt es ein grünes Feld? Nein! → unmöglich.\nc) Gibt es ein farbloses Feld? Nein, alle sind farbig! → sicher.\nd) Rot (3) + Blau (2) = 5 Felder. Aber Gelb (1) ist übrig → passiert nicht immer → ?",
       "Man prüft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:\n- a) Rot gibt es 3-mal → möglich\n- b) Grün gibt es 0-mal → unmöglich\n- c) Alle 6 Felder sind farbig → sicher\n- d) Rot + Blau = 5 Felder, aber Gelb (1 Feld) ist weder rot noch blau → möglich"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Das Glücksrad als Zufallsexperiment: anschaulicher als Würfel, weil die Felder \"sichtbar\" sind. Die Farbverteilung (3-2-1) lässt sich gut visuell vorstellen. Besonders d) erfordert genaues Nachdenken: Fast sicher, aber nicht ganz!",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.",
@@ -1999,14 +1896,7 @@
       "c) Im Beutel sind nur rote und blaue Kugeln. Egal was du ziehst — es ist immer rot ODER blau. Also: sicher!",
       "- a) 5 rote von 8 → möglich, aber nicht sicher\n- b) 0 gelbe → unmöglich\n- c) Rot + Blau = alle Kugeln → sicher\n- d) 3 blaue von 8 → möglich"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungleiche Verteilung (5 rot, 3 blau) bereitet das Konzept \"wahrscheinlicher/unwahrscheinlicher\" vor, ohne es explizit einzuführen.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2050,14 +1940,7 @@
       "c) Springst du hoch und bleibst schweben? Probier es aus — du kommst immer zurück. → unmöglich.\ne) Welche Zahlen stehen auf einem Würfel? 1, 2, 3, 4, 5, 6. Gibt es eine 7? → unmöglich.",
       "Für jede Aussage: Kann es nie, manchmal oder immer passieren?\n- a) Die Erde dreht sich → Sonnenaufgang ist sicher\n- b) Lehrerverteilung ist unsicher → möglich\n- c) Schwerkraft → unmöglich\n- d) In Deutschland regnet es häufig → praktisch sicher\n- e) Würfel hat 6 Seiten (1-6), keine 7 → unmöglich"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Alltagsaussagen ohne Zahlen: Kinder lernen die Dreigliederung sicher/möglich/unmöglich an ihrer Lebenswelt. Die Begründung ist mindestens so wichtig wie die Antwort. Aussage d) ist diskutabel — das fördert mathematisches Argumentieren.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2105,14 +1988,7 @@
       "Kind A: 4 Felder. Kind B: 3 Felder. Ist 4 = 3? Nein! Also ist das Spiel ...",
       "- a) 4 rote Felder = 4 Gewinnfelder für A\n- b) 3 blaue Felder = 3 Gewinnfelder für B\n- c) 4 > 3, also hat A mehr Chancen → unfair"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Einfacher Fairness-Vergleich durch Zählen. Kinder brauchen noch keine Brüche — es reicht, die Gewinnfelder zu vergleichen. Das Glücksrad ist anschaulicher als Würfel, weil man die Flächen \"sehen\" kann.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Glücksrad hat 8 gleich große Felder:\n- 4 rote Felder\n- 3 blaue Felder\n- 1 gelbes Feld\n\n**Spielregel:** Kind A gewinnt bei Rot. Kind B gewinnt bei Blau. Bei Gelb gewinnt keiner.",
@@ -2154,14 +2030,7 @@
       "b) Summe 7: Wenn Würfel 1 = 1, dann Würfel 2 = 6 (denn 1+6=7). Wenn Würfel 1 = 2, dann Würfel 2 = 5. Wenn Würfel 1 = 3, dann ... Zähle alle!",
       "- a) Summe 2: Nur 1+1 = 2 → 1 Möglichkeit\n- b) Summe 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten\n- c) 6 > 1, also kommt die 7 häufiger"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kernaufgabe der Würfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrscheinlich. Die 7 hat die meisten Möglichkeiten (6), die 2 die wenigsten (1). Dieses Ergebnis widerspricht oft der kindlichen Intuition und ist ein Aha-Erlebnis.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
@@ -2203,14 +2072,7 @@
       "a) 1 < 11? Ja! 10 < 11? Ja! ALLE kleiner als 11 → sicher.\nc) Gibt es eine 0 im Beutel? 1, 2, 3, ..., 10 → keine 0! → unmöglich.",
       "Ergebnisraum: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\n- a) Alle 10 Zahlen < 11 → sicher\n- b) 5 ist enthalten, aber nicht die einzige → möglich\n- c) 0 ist nicht enthalten → unmöglich\n- d) 5 von 10 sind gerade → möglich\n- e) 3 von 10 sind > 7 → möglich"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Zahlenmenge als Ergebnisraum: übergang vom konkreten Würfel/Glücksrad zur abstrakteren Zahlenmenge. Die verschiedenen Aussagetypen (Vergleich, Gleichheit, Eigenschaft) trainieren vielfältiges Denken.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.",
@@ -2277,14 +2139,7 @@
       "a) 8 Felder für 2 Spieler: 8 ÷ 2 = 4 Felder pro Spieler. Also 4 rote + 4 blaue.\nb) Was passiert, wenn du 3 rote, 3 blaue und 2 grüne nimmst? Hat dann jeder gleich viele? 3 = 3 → fair!",
       "Fair = gleiche Gewinnchancen. Spieler A und B müssen gleich viele Gewinnfelder haben.\n- a) 8 Felder ÷ 2 Spieler = 4 Felder pro Spieler → 4 rot, 4 blau\n- b) Solange Rot und Blau gleich viele Felder haben, können die übrigen Felder eine andere Farbe haben: z.B. 3R, 3B, 2G oder 2R, 2B, 4G"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kreative Umkehraufgabe: Statt ein bestehendes Spiel zu bewerten, gestaltet das Kind selbst ein faires Spiel. Das fördert tiefes Verständnis von Fairness. Teil b) zeigt: Neutrale Felder stören die Fairness nicht, solange beide gleich viele Gewinnfelder haben.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du sollst ein Glücksrad mit 8 Feldern gestalten, das FAIR ist für 2 Spieler.\n\nSpieler A gewinnt bei Rot. Spieler B gewinnt bei Blau.",
@@ -2321,14 +2176,7 @@
       "Kind A: Gerade Zahlen auf dem Würfel: 2, 4, 6. Das sind 3 Stück.\nKind B: Durch 3 teilbar: 3 ÷ 3 = 1 ✓, 6 ÷ 3 = 2 ✓. Was ist mit 1, 2, 4, 5? Die sind nicht durch 3 teilbar. Also nur 2 Stück. 3 ≠ 2 → ?",
       "Zahlen auf dem Würfel: 1, 2, 3, 4, 5, 6\n- a) Durch 2 teilbar: 2, 4, 6 → 3 Stück\n- b) Durch 3 teilbar: 3, 6 → 2 Stück\n- c) 3 ≠ 2 → unfair, Kind A gewinnt häufiger"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Verbindung von Teilbarkeit und Wahrscheinlichkeit. Mit nur einem Würfel (6 Möglichkeiten) ist die Analyse überschaubar. Die Erkenntnis \"unfair\" motiviert die Folgefrage: \"Wie müsste man die Regel ändern?\"",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Würfelspiel mit einem Würfel:\n- Kind A bekommt einen Punkt, wenn die Augenzahl durch 2 teilbar ist.\n- Kind B bekommt einen Punkt, wenn die Augenzahl durch 3 teilbar ist.",
@@ -2370,14 +2218,7 @@
       "a) Was gilt für ALLE Zahlen 1-6? Sie sind alle kleiner als ... welche Zahl?\nc) Welche Zahl gibt es auf einem Würfel NICHT? 0? 7? 8?",
       "- a) Die Regel muss für ALLE Zahlen 1-6 gelten → z.B. \"kleiner als 7\", \"größer als 0\"\n- b) Die Regel darf für EINIGE, aber nicht alle gelten → z.B. \"gerade\", \"größer als 3\"\n- c) Die Regel darf für KEINE der Zahlen 1-6 gelten → z.B. \"gleich 0\", \"gleich 7\""
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kreative Aufgabe, die das Verständnis von sicher/möglich/unmöglich vertieft. Kinder müssen die Konzepte aktiv anwenden, statt nur passiv zu klassifizieren. Mehrere richtige Antworten sind möglich — das fördert mathematische Kreativität.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Erfinde eine Gewinnregel für ein Würfelspiel mit einem Würfel, bei der es ...",
@@ -2419,14 +2260,7 @@
       "Du brauchst 3 rote und 3 blaue Felder. Aktuell: 4 rote, 2 blaue. Wenn du 1 rotes Feld blau färbst: 4 − 1 = 3 rot, 2 + 1 = 3 blau. Passt das?",
       "- a) 4 rot vs. 2 blau → A hat mehr Chancen → unfair\n- b) Ziel: gleich viele rote und blaue Felder. 6 ÷ 2 = 3 pro Farbe.\n  Aktuell: 4 rot, 2 blau. 1 rotes Feld blau färben → 3 rot, 3 blau ✓\n- c) 1 rotes Feld wird blau."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Umkehrproblem: Das Kind muss nicht nur analysieren, sondern aktiv gestalten. Die Änderung (1 Feld umfärben) ist minimal — Kinder erkennen, wie empfindlich Fairness ist. Eine schöne Brücke zwischen Zählen und Gestalten.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Glücksrad hat 6 Felder: 4 rote und 2 blaue. Kind A gewinnt bei Rot, Kind B bei Blau.",
@@ -2468,14 +2302,7 @@
       "Kind A: Summe 8 hat 5 Möglichkeiten. Summe 9 hat 4. Summe 10 hat 3. Summe 11 hat 2. Summe 12 hat 1.\n5 + 4 + 3 + 2 + 1 = ?\nKind B: Summe 2 hat 1. Summe 3 hat 2. ... Zähle genauso.",
       "Möglichkeiten pro Summe:\n- Summe 8: 5, Summe 9: 4, Summe 10: 3, Summe 11: 2, Summe 12: 1\n  → Kind A: 5+4+3+2+1 = 15\n- Summe 2: 1, Summe 3: 2, Summe 4: 3, Summe 5: 4, Summe 6: 5\n  → Kind B: 1+2+3+4+5 = 15\n- Summe 7: 6 (keiner gewinnt)\n- 15 = 15 → fair!"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Symmetrie der Würfelverteilung: Die Summen >7 und <7 haben spiegelsymmetrisch die gleiche Anzahl Möglichkeiten. Das Ergebnis (fair!) ist nicht offensichtlich und benötigt systematisches Zählen. Die 6 Möglichkeiten der Summe 7 (keiner gewinnt) sind der interessante \"Rest\".",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du würfelst mit zwei Würfeln und addierst. Spielregel:\n- Kind A gewinnt, wenn die Summe **größer als 7** ist.\n- Kind B gewinnt, wenn die Summe **kleiner als 7** ist.\n- Bei Summe 7 gewinnt keiner.",
@@ -2522,14 +2349,7 @@
       "Aktuell: A hat 4, B hat 2. Für Fairness: beide 3. Gib eine Zahl von A an B: z.B. die 4 geht zu B. Jetzt: A hat 1,2,3 (= 3) und B hat 4,5,6 (= 3). Fair?",
       "- a) A: {1, 2, 3, 4} = 4 Zahlen. B: {5, 6} = 2 Zahlen.\n- b) 4 ≠ 2 → unfair\n- c) Für Fairness: Jedes Kind braucht 3 Zahlen. Z.B. A: 1,2,3 und B: 4,5,6."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Dreistufiger Denkprozess: Analysieren → Bewerten → Verbessern. Die kreative Umgestaltung fördert tiefes Verständnis. Es gibt mehrere richtige Lösungen (z.B. A: 1,3,5 und B: 2,4,6) — das zeigt: Fairness hängt nur von der Anzahl ab, nicht von den konkreten Zahlen.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Würfelspiel mit einem Würfel:\n- Kind A gewinnt bei 1, 2, 3 oder 4.\n- Kind B gewinnt bei 5 oder 6.",
@@ -2571,14 +2391,7 @@
       "Box 1: 1, 2, 3, 4, 5, 6, 7, 8. Unterstreiche die geraden: 2, 4, 6, 8 → 4 von 8.\nBox 2: 2, 4, 6, 8, 10. Unterstreiche die geraden: alle! → 5 von 5.\nIn welcher Box ist die Chance größer?",
       "- Box 1: Gerade Zahlen = {2, 4, 6, 8} = 4 von 8 → die Hälfte\n- Box 2: Gerade Zahlen = {2, 4, 6, 8, 10} = 5 von 5 → alle!\n- In Box 2 ist es nicht nur wahrscheinlicher, sondern sogar sicher."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Vergleich von Anteilen: \"4 von 8\" vs. \"5 von 5\". Kinder lernen, dass nicht die absolute Zahl zählt, sondern das Verhältnis zur Gesamtanzahl. Box 2 ist ein Extremfall (sicher!) — das macht den Unterschied besonders deutlich.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einer Box liegen Karten mit Zahlen:\n\n**Box 1:** 1, 2, 3, 4, 5, 6, 7, 8\n**Box 2:** 2, 4, 6, 8, 10\n\nDu ziehst aus jeder Box eine Karte.",
@@ -2615,14 +2428,7 @@
       "c) Stell dir vor, du wirfst 2-mal: Ungefähr 1-mal Kopf. Bei 20-mal: 20 ÷ 2 = ungefähr 10-mal Kopf.",
       "- a) Theoretisch kann jeder Wurf Kopf zeigen → möglich\n- b) Die Wahrscheinlichkeit ist extrem gering → unwahrscheinlich\n- c) Bei einer fairen Münze: ca. 50% Kopf, 50% Zahl → ca. 10 von 20\n- d) 12:8 ist eine kleine Abweichung von 10:10 → völlig normal"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Unterscheidung \"möglich\" vs. \"wahrscheinlich\" — ein Kernkonzept! Das Gesetz der großen Zahlen (annähernd 50:50 bei vielen Würfen) wird intuitiv eingeführt. Die Erkenntnis, dass 12:8 \"normal\" ist, bekämpft den Mythos der perfekten Gleichverteilung.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du wirfst eine Münze 20-mal. Jedes Mal notierst du Kopf (K) oder Zahl (Z).",
@@ -2669,14 +2475,7 @@
       "Rad A: 5 rote von 10. Ist die Hälfte von 10 gleich 5? Ja! Also genau die Hälfte.\nRad B: 3 rote von 6. Ist die Hälfte von 6 gleich 3? Ja! Also auch genau die Hälfte.\nGleiche Hälfte → gleiche Chance!",
       "- Rad A: 5 rote von 10 Feldern = die Hälfte\n- Rad B: 3 rote von 6 Feldern = die Hälfte\n- Beide: genau die Hälfte → gleiche Chance!"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Kernkonzept der Wahrscheinlichkeit: Nicht die absolute Zahl zählt, sondern der Anteil. 5 von 10 = 3 von 6 = die Hälfte. Das widerspricht der Intuition vieler Kinder, die denken: \"5 > 3, also ist Rad A besser.\" Diese Aufgabe baut wichtiges proportionales Denken auf.",
-    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zwei Glücksräder:\n\n**Rad A:** 10 Felder — 5 rote, 3 blaue, 2 grüne\n**Rad B:** 6 Felder — 3 rote, 2 blaue, 1 grünes",
@@ -2709,7 +2508,6 @@
       "- a) HASE → E ✓, SCHULE → E ✓, NASE → E ✓, KATZE → E ✓, ELEFANT → E ✓\n- b) R: HASE? Nein. SCHULE? Nein. NASE? Nein. KATZE? Nein. ELEFANT? Nein. → R fehlt!\n- c) HASE: 1×E, SCHULE: 1×E, NASE: 1×E, KATZE: 1×E, ELEFANT: 2×E → 1+1+1+1+2 = 6"
     ],
     "didaktischerHinweis": "Einfacher Einstieg: In bekannten Wörtern Buchstaben suchen. Kinder entdecken intuitiv, dass das E besonders häufig ist. Das systematische Zählen bereitet auf längere Texte vor.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2750,7 +2548,6 @@
       "Buchstabe für Buchstabe durchgehen:\n- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, \"heißt\" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4\n\nKorrektur: MEINEKATZEHEISSTTLUNA → neu zählen:\nM-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A\nE: Positionen 2, 5, 10, 12 → 4"
     ],
     "didaktischerHinweis": "Kurzer Satz als überschaubarer Einstieg in die Strichliste. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger als alles gleichzeitig zu zählen. Typische Fehlerquelle: Doppelbuchstaben (SS) nicht als einen zählen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zähle die Buchstaben in diesem Satz:\n\n**\"Meine Katze heißt Luna.\"**",
@@ -2783,7 +2580,6 @@
       "Alle Buchstaben: E-M-M-A-L-E-N-A-T-I-M-M-I-A-L-E-O-N-F-I-N-N-S-O-P-H-I-A-P-A-U-L\nSortiert nach Häufigkeit:\nA: 5, N: 4, I: 4, M: 4, E: 3, L: 3, P: 2, O: 2, S: 1, H: 1, F: 1, T: 1, U: 1"
     ],
     "didaktischerHinweis": "Namenlisten sind persönlich und motivierend. Die Zählung trainiert Sorgfalt und Systematik. Dass A (nicht E!) am häufigsten ist, überrascht — in kurzen Listen können sich die Verhältnisse umkehren. Das ist ein wichtiger Lernmoment: Kurze Texte zeigen nicht immer das Gesamtmuster.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In der Klasse 3b gibt es diese Vornamen:\nEMMA, LENA, TIM, MIA, LEON, FINN, SOPHIA, PAUL",
@@ -2826,7 +2622,6 @@
       "Strichlisten zählen: IIII = 5, IIII I = 6, IIII III = 8, usw.\n- a) E: 12, N: 8, R: 6, T: 9, S: 5, A: 3\n- b) 12 > 9 > 8 > 6 > 5 > 3 → E ist am häufigsten\n- c) Gesucht: zwei Buchstaben mit Summe 12. A(3) + T(9) = 12 ✓"
     ],
     "didaktischerHinweis": "Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Die 5er-Bündelung (Querstrich) muss beherrscht werden. Teil c) verbindet Datenanalyse mit Addition.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |",
@@ -2869,7 +2664,6 @@
       "Systematisches Zählen:\n- M: TI**M**, **M**IA, I**M**, **M**IT, **M** (in \"dem\") → 5\n- I: T**I**M, M**I**A, SP**I**ELEN, **I**M, M**I**T → 5\n- E: SPI**E**L**E**N, GART**E**N, D**E**M → 4"
     ],
     "didaktischerHinweis": "Ein Satz mit vielen M und I — überraschend, denn normalerweise ist E am häufigsten. In kurzen Texten können andere Buchstaben überwiegen. Das zeigt: Häufigkeitsmuster werden erst bei längeren Texten stabil.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Untersuche diesen Satz:\n\n**\"Tim und Mia spielen im Garten mit dem Ball.\"**",
@@ -2917,7 +2711,6 @@
       "Jede Aussage mit den Zahlen prüfen:\n- a) E=18, S=9. 2 × 9 = 18 ✓\n- b) N+I = 12+5 = 17 ≠ 18 ✗\n- c) R=9, S=9 → gleich oft ✗\n- d) T−A = 8−6 = 2 ✓\n- e) A+I = 6+5 = 11, N=12. 11 ≠ 12 ✗"
     ],
     "didaktischerHinweis": "Aussagen über Daten prüfen: doppelt, Summe, Differenz. Kinder müssen genau lesen und rechnen. Besonders c) ist eine Falle: \"seltener\" ist falsch, weil beide gleich oft vorkommen. Das trainiert präzises Denken.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Hier ist die Buchstabenhäufigkeit eines Textes:\n\n| Buchstabe | E | N | S | R | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 18 | 12 | 9 | 9 | 8 | 6 | 5 |\n\nStimmt das? Begründe.",
@@ -2974,7 +2767,6 @@
       "- a) Größter Wert: 14 (E) ✓\n- b) Kleinster Wert: 2 (U) ✓\n- c) 6+14+8+4+2 = 34\n- d) Andere: A+I+O+U = 6+8+4+2 = 20. E = 14. 14 < 20 → Nein."
     ],
     "didaktischerHinweis": "Nur Vokale zählen reduziert die Komplexität (5 statt 26 Buchstaben). Die Frage d) erfordert Vergleich einer Einzelhäufigkeit mit der Summe der anderen — ein anspruchsvoller Denkschritt.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einem Text wurden die Vokale gezählt:\n\n| Vokal | A | E | I | O | U |\n|-------|---|---|---|---|---|\n| Anzahl | 6 | 14 | 8 | 4 | 2 |",
@@ -3022,7 +2814,6 @@
       "Systematische Zählung aller Buchstaben in den vier Namen."
     ],
     "didaktischerHinweis": "Persönlicher Bezug: Die eigene Familie untersuchen macht die Aufgabe besonders motivierend. Die Zählung trainiert Sorgfalt. Das Ergebnis kann von der allgemeinen Buchstabenhäufigkeit abweichen — das ist ein lehrreiches Gesprächsthema.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Untersuche die Vornamen deiner Familie. Beispiel: PHILIPPA, MATHIAS, CHARLOTTE, MAXIMILIAN",
@@ -3065,7 +2856,6 @@
       "- a) Text A: E=20 (Maximum). Text B: E=16 (Maximum). → E in beiden!\n- b) Text A: I=10, R=12 → R > I. Text B: I=12, R=10 → I > R. Also Text B.\n- c) 20+14+10+8+12+9 = 73"
     ],
     "didaktischerHinweis": "Textvergleich trainiert analytisches Denken. Die Erkenntnis \"E ist in beiden Texten am häufigsten\" bestätigt die allgemeine Regel. Aber I und R tauschen die Plätze — das zeigt, dass die Reihenfolge der übrigen Buchstaben variieren kann.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Hier sind die Buchstabenhäufigkeiten aus zwei verschiedenen Texten:\n\n**Text A (Märchen):**\n| Buchstabe | E | N | I | S | R | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 20 | 14 | 10 | 8 | 12 | 9 |\n\n**Text B (Sachtext über Tiere):**\n| Buchstabe | E | N | I | S | R | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 16 | 11 | 12 | 6 | 10 | 8 |",
@@ -3108,7 +2898,6 @@
       "Kästchen × 3 = Anzahl:\n- E: 6 × 3 = 18\n- N: 4 × 3 = 12\n- R: 3 × 3 = 9\n- T: 5 × 3 = 15\n- S: 2 × 3 = 6\n\nc) Gesucht: Summe = 18. N(12) + S(6) = 18 ✓"
     ],
     "didaktischerHinweis": "Skalierte Diagramme lesen: 1 Kästchen ≠ 1 Buchstabe! Die Multiplikation mit dem Skalenfaktor (3) ist der Schlüssel. Teil c) verbindet Diagrammlesen mit Problemlösen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einem Säulendiagramm sind die Buchstabenhäufigkeiten dargestellt. 1 Kästchen = 3 Buchstaben.\n\n| Buchstabe | Kästchen |\n|-----------|-----------|\n| E | 6 Kästchen |\n| N | 4 Kästchen |\n| R | 3 Kästchen |\n| T | 5 Kästchen |\n| S | 2 Kästchen |",
@@ -3151,7 +2940,6 @@
       "Häufige Buchstaben im Deutschen: E, N, I, S, R, A, T\nSeltene Buchstaben: Q, X, Y, Z\n\n- a) SONNE: S✓, O, N✓, N✓, E✓ → 3 sehr häufige, kein seltener → leicht\n- b) XYLOFON: X✗, Y✗, L, O, F, O, N✓ → 2 sehr seltene, nur 1 häufiger → schwer\n- c) KATZE: K, A✓, T✓, Z✗, E✓ → 2 häufige, 1 seltener → mittel\n- d) QUARZ: Q✗, U, A✓, R✓, Z✗ → 2 seltene, kein E → am schwersten"
     ],
     "didaktischerHinweis": "Angewandte Häufigkeitsanalyse: Wissen über Buchstabenhäufigkeiten wird strategisch genutzt. Kinder verbinden statistische Erkenntnis mit spielerischer Anwendung. Das ist der Transfer von Datenanalyse in die Praxis.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Beim Buchstabenvogel (wie Galgenmännchen) versuchst du, ein Wort Buchstabe für Buchstabe zu erraten.\n\nWelches Wort ist am leichtesten, welches am schwersten zu erraten? Begründe!",
@@ -3199,7 +2987,6 @@
       "Jeder Buchstabe wird um 1 zurück verschoben:\n- N→M, B→A, U→T, I→H → MATH\n- J→I, T→S, U→T → IST\n- U→T, P→O, M→L, M→L → TOLL"
     ],
     "didaktischerHinweis": "Buchstabenhäufigkeiten haben eine reale Anwendung: Kryptografie! Selbst einfache Codes können mit Häufigkeitsanalyse geknackt werden (der häufigste verschlüsselte Buchstabe ist wahrscheinlich E). Hier ist der Code einfach genug, dass Kinder ihn direkt entschlüsseln können.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Nachricht ist mit einem einfachen Code verschlüsselt: Jeder Buchstabe wurde durch den nächsten im Alphabet ersetzt (A→B, B→C, ..., Z→A).\n\nDie verschlüsselte Nachricht lautet: **NBUI JTU UPMM**",
@@ -3237,7 +3024,6 @@
       "- a) Platz 1 in allen: Deutsch E, Englisch E, Französisch E, Spanisch E → E ✓\n- b) A kommt vor in: Englisch (3.), Französisch (3.), Spanisch (2.) → 3 von 4\n- c) E und A sind die universellsten Buchstaben"
     ],
     "didaktischerHinweis": "Sprachvergleich auf internationaler Ebene: Das E als universeller \"Champion\" ist ein faszinierendes Muster. Kinder, die mehrere Sprachen kennen, können eigene Erfahrungen einbringen. Die Aufgabe verbindet Mathematik mit Sprache.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Hier sind die 3 häufigsten Buchstaben in verschiedenen Sprachen:\n\n| Sprache | Platz 1 | Platz 2 | Platz 3 |\n|---------|---------|---------|---------|\n| Deutsch | E | N | I |\n| Englisch | E | T | A |\n| Französisch | E | S | A |\n| Spanisch | E | A | O |",
@@ -3280,7 +3066,6 @@
       "- a) 17 > 9 → Leon hat mehr E\n- b) 9 × 2 = 18 ≈ 17 → ja, fast doppelt\n- c) Emma: 9/50 = 18/100 = 18%. Leon: 17/100 = 17%. Emmas Anteil ist sogar etwas höher!"
     ],
     "didaktischerHinweis": "Proportionales Denken bei Datenanalyse: \"Mehr\" in absoluten Zahlen bedeutet nicht \"mehr\" im Verhältnis. Leons Text hat ABSOLUT mehr E, aber RELATIV (pro 100 Buchstaben) hat Emma sogar etwas mehr. Ein wichtiger Lernschritt zum Verständnis von Prozenten und Anteilen.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zwei Kinder haben verschiedene Texte untersucht:\n\n**Emmas Text (50 Buchstaben):**\n| Buchstabe | E | N | A | R | T |\n|-----------|---|---|---|---|---|\n| Anzahl | 9 | 6 | 5 | 4 | 3 |\n\n**Leons Text (100 Buchstaben):**\n| Buchstabe | E | N | A | R | T |\n|-----------|---|---|---|---|---|\n| Anzahl | 17 | 11 | 9 | 8 | 7 |",
@@ -3323,7 +3108,6 @@
       "- a) Größere Stichprobe = zuverlässigeres Ergebnis (Gesetz der großen Zahlen)\n- b) Aus Vorwissen: E, N, I, S, R sind die häufigsten im Deutschen\n- c) Sortieren nach Größe der Zahlen"
     ],
     "didaktischerHinweis": "Meta-Aufgabe: Kinder reflektieren über die Methode der Datenerhebung. Die Einsicht \"mehr Daten = besseres Ergebnis\" ist eine Schlüsselkompetenz in der Statistik. Die Abweichungen von der Erwartung sind normal und lehrreich — kein Text hat EXAKT die allgemeine Verteilung.",
-    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du möchtest herausfinden, welcher Buchstabe in einem Buch am häufigsten vorkommt. Dafür untersuchst du eine Seite.",

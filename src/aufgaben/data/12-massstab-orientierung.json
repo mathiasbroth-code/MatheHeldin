@@ -18,7 +18,6 @@
       "Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert."
     ],
     "didaktischerHinweis": "Grundverständnis des Maßstabs als Verhältnis. Entspricht S. 116, Einführungsbeispiel mit der Kopflaus und den Käfern.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -59,7 +58,6 @@
       "Maßstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.\nRechnung: 40 mm : 2 = 20 mm.\nDer Rosenkäfer ist in Wirklichkeit 20 mm (also 2 cm) lang."
     ],
     "didaktischerHinweis": "Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -91,7 +89,6 @@
       "Maßstab 20 : 1 bedeutet: 20 mm im Bild = 1 mm in Wirklichkeit.\nRechnung: 60 mm : 20 = 3 mm.\nDie Kopflaus ist in Wirklichkeit nur 3 mm lang."
     ],
     "didaktischerHinweis": "Vertiefung mit größerem Maßstab. Entspricht S. 116, Kopflaus-Beispiel mit Maßstab 20 : 1.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -123,7 +120,6 @@
       "Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.\nRechnung: 6 cm · 500 = 3.000 cm = 30 m.\nDer Blauwal ist in Wirklichkeit 30 m lang."
     ],
     "didaktischerHinweis": "Wechsel zum Verkleinerungsmassstab. Wichtig ist die Umrechnung cm → m. Entspricht S. 117, Blauwal-Beispiel.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -145,8 +141,8 @@
     "kapitel": "12-maßstab-orientierung",
     "stageId": "maßstab",
     "digital": "voll",
-    "aufgabenstellung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?\n\na) 3 : 1\nb) 1 : 1.000\nc) 1 : 1\nd) 10 : 1\ne) 1 : 50.000",
-    "loesung": "a) 3 : 1 → Vergrößerung\nb) 1 : 1.000 → Verkleinerung\nc) 1 : 1 → Originalgrösse\nd) 10 : 1 → Vergrößerung\ne) 1 : 50.000 → Verkleinerung",
+    "aufgabenstellung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?\n\na) 3 : 1\nb) 1 : 1.000\nc) 1 : 1\nd) 10 : 1\ne) 1 : 50.000\n\nA) Vergrößerung\nB) Verkleinerung\nC) Originalgrösse",
+    "loesung": "a) → A\nb) → B\nc) → C\nd) → A\ne) → B",
     "loesungsweg": "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse",
     "tipps": [
       "Die linke Zahl steht immer für das Bild, die rechte für die Wirklichkeit. Vergleiche die beiden Zahlen: Welche ist größer?",
@@ -155,7 +151,6 @@
       "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse"
     ],
     "didaktischerHinweis": "Zuordnungsaufgabe sichert das Grundverständnis von Vergrößerung vs. Verkleinerung. Entspricht S. 117, Merkkasten.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?",
@@ -181,8 +176,27 @@
           "text": "1 : 50.000"
         }
       ],
-      "choices": [],
-      "antworten": {}
+      "choices": [
+        {
+          "label": "A",
+          "text": "Vergrößerung"
+        },
+        {
+          "label": "B",
+          "text": "Verkleinerung"
+        },
+        {
+          "label": "C",
+          "text": "Originalgrösse"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "A",
+        "e": "B"
+      }
     }
   },
   {
@@ -204,7 +218,6 @@
       "Zuerst in cm umrechnen: 40 m = 4.000 cm.\n- a) 4.000 cm : 200 = 20 cm\n- b) 4.000 cm : 500 = 8 cm\n- c) 4.000 cm : 1.000 = 4 cm\n\nJe größer die Verkleinerungszahl, desto kleiner die Zeichnung."
     ],
     "didaktischerHinweis": "Umkehrrechnung: von Wirklichkeit zum Bild. Benötigt Einheitenumrechnung m → cm. Entspricht S. 117, Aufg. 3-5.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ein Schulgebäude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung wäre.",
@@ -246,7 +259,6 @@
       "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m"
     ],
     "didaktischerHinweis": "Gemischte Aufgaben mit beiden Richtungen (Bild→Wirklichkeit und Wirklichkeit→Bild). Entspricht S. 116-117 zusammenfassend.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Berechne die fehlende Größe.",
@@ -288,7 +300,6 @@
       "Das Bild ist größer als die Wirklichkeit → Vergrößerung.\n45 mm : 15 mm = 3. Das Bild ist 3-mal so groß → Maßstab 3 : 1."
     ],
     "didaktischerHinweis": "Umkehrdenkaufgabe: vom Ergebnis den Maßstab ableiten. Entspricht S. 116, Aufg. 2b.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -333,7 +344,6 @@
       "Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Süden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen\" — im Uhrzeigersinn gelesen."
     ],
     "didaktischerHinweis": "Grundwissen Himmelsrichtungen als Voraussetzung für Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.",
@@ -371,8 +381,8 @@
     "kapitel": "12-maßstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
-    "aufgabenstellung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.\n\na) Burggraben\nb) Wehrgang\nc) Burgkapelle\nd) Burghof\n\n1) Gang auf der Mauer, von dem man die Umgebung beobachten kann\n2) Wassergraben rund um die Burg zum Schutz\n3) Kleine Kirche innerhalb der Burgmauern\n4) Freier Platz im Inneren der Burg",
-    "loesung": "a) Burggraben → 2) Wassergraben rund um die Burg zum Schutz\nb) Wehrgang → 1) Gang auf der Mauer, von dem man die Umgebung beobachten kann\nc) Burgkapelle → 3) Kleine Kirche innerhalb der Burgmauern\nd) Burghof → 4) Freier Platz im Inneren der Burg",
+    "aufgabenstellung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.\n\na) Burggraben\nb) Wehrgang\nc) Burgkapelle\nd) Burghof\n\nA) Gang auf der Mauer, von dem man die Umgebung beobachten kann\nB) Wassergraben rund um die Burg zum Schutz\nC) Kleine Kirche innerhalb der Burgmauern\nD) Freier Platz im Inneren der Burg",
+    "loesung": "a) → B\nb) → A\nc) → C\nd) → D",
     "loesungsweg": "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg",
     "tipps": [
       "Viele Burgbegriffe sind zusammengesetzte Wörter. Zerlege sie: „Burg\" + „Graben\" — was könnte ein Graben bei einer Burg sein?",
@@ -381,7 +391,6 @@
       "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg"
     ],
     "didaktischerHinweis": "Sachkundliches Verständnis als Grundlage für Grundrisslesen. Entspricht S. 118-119, Burg Wildenstein.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.",
@@ -401,30 +410,31 @@
         {
           "label": "d",
           "text": "Burghof"
-        },
+        }
+      ],
+      "choices": [
         {
-          "label": "1",
+          "label": "A",
           "text": "Gang auf der Mauer, von dem man die Umgebung beobachten kann"
         },
         {
-          "label": "2",
+          "label": "B",
           "text": "Wassergraben rund um die Burg zum Schutz"
         },
         {
-          "label": "3",
+          "label": "C",
           "text": "Kleine Kirche innerhalb der Burgmauern"
         },
         {
-          "label": "4",
+          "label": "D",
           "text": "Freier Platz im Inneren der Burg"
         }
       ],
-      "choices": [],
       "antworten": {
-        "a": "2",
-        "b": "1",
-        "c": "3",
-        "d": "4"
+        "a": "B",
+        "b": "A",
+        "c": "C",
+        "d": "D"
       }
     }
   },
@@ -447,7 +457,6 @@
       "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
     ],
     "didaktischerHinweis": "Unterscheidung Foto/Plan als Grundlage für Kartenverständnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -488,7 +497,6 @@
       "Ein Gebäude sieht von jeder Seite anders aus. Die Vorderseite hat oft die Haustür, die Rückseite hat vielleicht eine Terrassentür. Von der Seite sieht man wieder etwas anderes. Deshalb sind Ansichten aus verschiedenen Richtungen verschieden."
     ],
     "didaktischerHinweis": "Perspektivwechsel als räumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus vier Richtungen).",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -529,7 +537,6 @@
       "Auf Karten und Grundrissen gilt (wenn Norden oben ist):\n- Oben = Norden\n- Rechts = Osten\n- Unten = Süden\n- Links = Westen"
     ],
     "didaktischerHinweis": "Verknüpfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.",
@@ -572,7 +579,6 @@
       "Wenn du auf der Südseite stehst und zum Haus schaust, blickst du nach Norden — aber du siehst die Seite des Hauses, die nach Süden zeigt. Die Seite, die du siehst, wird immer nach der Himmelsrichtung benannt, in die sie zeigt."
     ],
     "didaktischerHinweis": "Anspruchsvolle räumliche Orientierung. Entspricht S. 119, Aufg. 3 (Ansichten zuordnen).",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -607,8 +613,8 @@
     "kapitel": "12-maßstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
-    "aufgabenstellung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.\n\na) Großes Rechteck mit kleinem Quadrat darin → ___\nb) Kleines Rechteck mit Kreis (Waschbecken) → ___\nc) Rechteck mit Viertelkreis an der Ecke → ___\nd) Offener Bereich am Eingang → ___\n\n1) Badezimmer\n2) Küche\n3) Tür (Viertelkreis = Schwungbereich)\n4) Flur",
-    "loesung": "a) → 2) Küche (Herd/Spüle als kleines Quadrat)\nb) → 1) Badezimmer (Waschbecken-Symbol)\nc) → 3) Tür (Schwungbereich)\nd) → 4) Flur",
+    "aufgabenstellung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.\n\na) Großes Rechteck mit kleinem Quadrat darin\nb) Kleines Rechteck mit Kreis (Waschbecken)\nc) Rechteck mit Viertelkreis an der Ecke\nd) Offener Bereich am Eingang\n\nA) Badezimmer\nB) Küche\nC) Tür (Viertelkreis = Schwungbereich)\nD) Flur",
+    "loesung": "a) → B\nb) → A\nc) → C\nd) → D",
     "loesungsweg": "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle",
     "tipps": [
       "Wenn du in deiner Wohnung die Badezimmertür öffnest, macht sie einen Viertelkreis. So sieht das im Grundriss aus!",
@@ -617,50 +623,50 @@
       "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle"
     ],
     "didaktischerHinweis": "Grundriss-Symbole lesen als lebenspraktische Kompetenz. Erweiterung zu S. 118-119.",
-    "erklaerungBild": "assets/erklaerungen/s116-merkkasten-massstab.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.",
       "items": [
         {
           "label": "a",
-          "text": "Großes Rechteck mit kleinem Quadrat darin → ___"
+          "text": "Großes Rechteck mit kleinem Quadrat darin"
         },
         {
           "label": "b",
-          "text": "Kleines Rechteck mit Kreis (Waschbecken) → ___"
+          "text": "Kleines Rechteck mit Kreis (Waschbecken)"
         },
         {
           "label": "c",
-          "text": "Rechteck mit Viertelkreis an der Ecke → ___"
+          "text": "Rechteck mit Viertelkreis an der Ecke"
         },
         {
           "label": "d",
-          "text": "Offener Bereich am Eingang → ___"
-        },
+          "text": "Offener Bereich am Eingang"
+        }
+      ],
+      "choices": [
         {
-          "label": "1",
+          "label": "A",
           "text": "Badezimmer"
         },
         {
-          "label": "2",
+          "label": "B",
           "text": "Küche"
         },
         {
-          "label": "3",
+          "label": "C",
           "text": "Tür (Viertelkreis = Schwungbereich)"
         },
         {
-          "label": "4",
+          "label": "D",
           "text": "Flur"
         }
       ],
-      "choices": [],
       "antworten": {
-        "a": "2",
-        "b": "1",
-        "c": "3",
-        "d": "4"
+        "a": "B",
+        "b": "A",
+        "c": "C",
+        "d": "D"
       }
     }
   },
@@ -683,7 +689,6 @@
       "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m"
     ],
     "didaktischerHinweis": "Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenstein).",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.",
@@ -721,7 +726,6 @@
       "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km\nb) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min"
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Maßstab und Zeitberechnung. Entspricht S. 120, Aufg. 3.",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.",
@@ -768,7 +772,6 @@
       "- a) 20 cm · 25.000 = 500.000 cm = 5.000 m = 5 km\n- b) 20 cm · 50.000 = 1.000.000 cm = 10.000 m = 10 km\n- c) 20 cm · 100.000 = 2.000.000 cm = 20.000 m = 20 km\n\nJe größer die Maßstabszahl, desto größer die echte Strecke bei gleicher Kartenlänge."
     ],
     "didaktischerHinweis": "Vergleich verschiedener Masstäbe festigt das Verständnis. Entspricht S. 120, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Berechne die Streckenlängen in Wirklichkeit. Gib in km an.",
@@ -810,7 +813,6 @@
       "10 km = 10.000 m = 1.000.000 cm.\nMaßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.\nVereinfacht: 1 : 200.000."
     ],
     "didaktischerHinweis": "Maßstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -855,7 +857,6 @@
       "Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte."
     ],
     "didaktischerHinweis": "Planquadrate als Koordinatensystem-Einführung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -887,7 +888,6 @@
       "Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.\n- a) 3 cm · 100 m = 300 m\n- b) 5 cm · 100 m = 500 m\n- c) 2,5 cm · 100 m = 250 m"
     ],
     "didaktischerHinweis": "Stadtplan-Maßstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen Sigmaringen).",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Auf einem Stadtplan (Maßstab 1 : 10.000) misst du folgende Strecken in Luftlinie.",
@@ -929,7 +929,6 @@
       "1 km = 1.000 m = 100.000 cm.\nKartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm."
     ],
     "didaktischerHinweis": "Umkehrrechnung Wirklichkeit → Karte. Entspricht S. 121, Aufg. 11.",
-    "erklaerungBild": "assets/erklaerungen/s120-erklaerung-massstab-karte.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",

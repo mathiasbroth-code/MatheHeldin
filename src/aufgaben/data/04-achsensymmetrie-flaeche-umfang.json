@@ -17,14 +17,7 @@
       "Schau dir den Buchstaben A an. Wenn du eine senkrechte Linie von der Spitze nach unten zeichnest — sieht die linke Seite genauso aus wie die rechte? Probiere das jetzt mit dem Buchstaben F.",
       "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau.\n- F und S: Keine Achse möglich."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp",
-      null,
-      null,
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das visuelle Erkennen von Symmetrieachsen an vertrauten Formen (Buchstaben). Kinder sollen lernen, Symmetrie nicht nur zu „fühlen\", sondern systematisch zu prüfen (Spiegelprobe, Faltprobe).",
-    "erklaerungBild": "assets/erklaerungen/s46-begriffe-symmetrieachse.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -72,14 +65,7 @@
       "Beim Quadrat: Falte es senkrecht — passt! Waagerecht — passt! Diagonal von links oben nach rechts unten — passt! Diagonal von rechts oben nach links unten — passt! Das sind schon ___ Achsen. Wie viele sind es?",
       "- **Quadrat:** Senkrechte Achse, waagerechte Achse und zwei diagonale Achsen → 4.\n- **Rechteck:** Senkrechte und waagerechte Achse, aber die Diagonalen sind keine Symmetrieachsen (die Seiten sind verschieden lang) → 2.\n- **Gleichseitiges Dreieck:** Drei Achsen, die jeweils von einer Ecke zur Mitte der gegenüberliegenden Seite gehen → 3.\n- **Kreis:** Jede Linie durch den Mittelpunkt ist eine Symmetrieachse → unendlich viele."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp",
-      null,
-      null,
-      null
-    ],
     "didaktischerHinweis": "Das Zählen von Symmetrieachsen vertieft das Verständnis über Achsensymmetrie und verbindet es mit geometrischen Grundformen. Besonders die Erkenntnis, dass ein Rechteck (kein Quadrat) nur 2 statt 4 Achsen hat, ist für Kinder überraschend und lehrreich.",
-    "erklaerungBild": "assets/erklaerungen/s46-begriffe-symmetrieachse.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie viele Symmetrieachsen hat jede Figur?",
@@ -126,14 +112,7 @@
       "Das L zeigt nach rechts. Bei der Spiegelung wird rechts zu links. Also muss das gespiegelte L nach ___ zeigen. Welche Antwort passt?",
       "Bei einer Spiegelung an einer senkrechten Achse wird links zu rechts und rechts zu links. Die Höhe bleibt gleich, oben bleibt oben und unten bleibt unten. Nur die Richtung links-rechts wird vertauscht.\n- Das L zeigt nach rechts → gespiegelt zeigt es nach links ✓\n- Nach unten oder auf dem Kopf wäre eine Drehung, keine Spiegelung."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp",
-      null,
-      null,
-      null
-    ],
     "didaktischerHinweis": "Diese Multiple-Choice-Aufgabe trainiert das mentale Spiegeln, ohne dass das Kind selbst zeichnen muss. Der häufigste Fehler ist die Verwechslung von Spiegelung und Drehung — genau das wird hier thematisiert.",
-    "erklaerungBild": "assets/erklaerungen/s46-begriffe-symmetrieachse.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -173,14 +152,7 @@
       "Schau dir die obere Hälfte an: Zwei runde Bögen. Schau dir die untere Hälfte an: Eine Spitze. Die sind verschieden → waagerecht geht nicht. Was ist mit senkrecht? Linke und rechte Hälfte sehen ___ aus.",
       "Ein Herz hat eine senkrechte Symmetrieachse: Die linke Hälfte sieht genauso aus wie die rechte Hälfte, nur gespiegelt. Eine waagerechte Achse funktioniert nicht, weil die obere Hälfte (zwei Bögen) anders aussieht als die untere Hälfte (Spitze)."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp",
-      null,
-      null,
-      null
-    ],
     "didaktischerHinweis": "Das Erkennen der Lage der Symmetrieachse ist eine wichtige Fähigkeit. Kinder lernen, dass die Achse nicht immer senkrecht sein muss und dass man systematisch verschiedene Möglichkeiten prüfen kann.",
-    "erklaerungBild": "assets/erklaerungen/s46-begriffe-symmetrieachse.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -224,14 +196,7 @@
       "Das Dreieck ist oben links. Senkrecht gespiegelt → oben rechts. Jetzt hast du zwei Dreiecke (oben links + oben rechts). Wenn du diese beiden waagerecht spiegelst, kommen sie nach unten ___ und unten ___.",
       "Wenn an der senkrechten Achse gespiegelt wird, wandert das Dreieck von oben links nach oben rechts. Wenn an der waagerechten Achse gespiegelt wird, wandert es von oben links nach unten links. Die Kombination beider Spiegelungen erzeugt das Dreieck auch in unten rechts. So entsteht ein Muster mit 4 Dreiecken — eins in jeder Ecke."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp",
-      null,
-      null,
-      null
-    ],
     "didaktischerHinweis": "Doppelspiegelungen sind im Fredo-Buch (S. 46, Aufg. 2-3) ein zentrales Thema. Das Kind muss verstehen, dass bei zwei Achsen vier Kopien entstehen. Die digitale Umsetzung als Multiple-Choice macht die haptische Zeichenaufgabe zugänglich.",
-    "erklaerungBild": "assets/erklaerungen/s46-begriffe-symmetrieachse.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -276,7 +241,6 @@
       "Wenn du ein Dreieck an der Faltkante ausschneidest und das Papier auffaltest, wird das Dreieck an der Faltachse gespiegelt. Zwei gespiegelte Dreiecke ergeben zusammen eine Raute (Rhombus). Da der Schnitt an der geschlossenen Ecke (= Mitte) war, liegt die Raute in der Mitte des Quadrats."
     ],
     "didaktischerHinweis": "Faltschnitte erfordern räumliches Vorstellungsvermögen. Die Aufgabe im Buch ist haptisch (falten + schneiden), die digitale Alternative als Multiple-Choice trainiert dennoch die mentale Vorstellung des Spiegelvorgangs.",
-    "erklaerungBild": "assets/erklaerungen/s49-merkkasten-faltschnitt.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -317,7 +281,6 @@
       "Beim zweimaligen Falten liegt das Papier in 4 Lagen. Die geschlossene Ecke (wo alle Faltkanten zusammentreffen) ist die Mitte des Originals. Wenn man dort ein Dreieck ausschneidet, wird es vierfach gespiegelt. Vier gespiegelte Dreiecke ergeben in der Mitte eine rautenförmige Öffnung."
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht den Faltschnitt-Aufgaben auf S. 47 im Buch (Aufg. 1-2), bei denen immer zweimal gefaltet wird. Das mentale Vorstellen der vierfachen Spiegelung ist eine anspruchsvolle Raumvorstellungsaufgabe.",
-    "erklaerungBild": "assets/erklaerungen/s49-merkkasten-faltschnitt.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -358,7 +321,6 @@
       "Ein Kreuz hat 4 symmetrische Arme. Wenn man das Quadrat zweimal faltet (senkrecht + waagerecht) und an der offenen Seite (dem Rand) ein Rechteck ausschneidet, entsteht beim Auffalten ein symmetrisches Kreuz. Der Schnitt an der geschlossenen Ecke würde ein Loch in der Mitte erzeugen, kein Kreuz."
     ],
     "didaktischerHinweis": "Rückwärts-Denken beim Faltschnitt (von der Zielform zum Schnitt) ist kognitiv anspruchsvoller als vorwärts (vom Schnitt zur Figur). Die Aufgabe entspricht Buch S. 47, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s49-merkkasten-faltschnitt.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -399,7 +361,6 @@
       "Wenn ein L an der senkrechten Achse gespiegelt wird, zeigt es in die entgegengesetzte Richtung (links-rechts vertauscht). Wenn dieses Paar dann an der waagerechten Achse gespiegelt wird, entstehen zwei weitere L-Formen (oben-unten vertauscht). Insgesamt ergeben sich 4 L-Formen, die in alle 4 Ecken zeigen und zusammen ein symmetrisches Muster bilden."
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht den Gitterspiegelungen auf S. 47, Aufg. 5. Die Multiple-Choice-Variante trainiert das mentale Spiegeln, auch wenn das Zeichnen auf Gitterpapier nicht digital abgebildet werden kann.",
-    "erklaerungBild": "assets/erklaerungen/s49-merkkasten-faltschnitt.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -440,7 +401,6 @@
       "- a) Ein Quadrat hat 4 Achsen: 2 durch die Seitenmitten + 2 durch die Ecken (Diagonalen).\n- b) Rechtecke haben immer mindestens die senkrechte und waagerechte Achse durch die Seitenmitten.\n- c) Nur gleichseitige Dreiecke (alle Seiten gleich lang) haben 3 Achsen. Ein gleichschenkliges Dreieck hat 1 Achse, ein allgemeines Dreieck hat 0.\n- d) X ist sowohl senkrecht als auch waagerecht symmetrisch."
     ],
     "didaktischerHinweis": "Wahr-Falsch-Aufgaben decken typische Fehlvorstellungen auf. Die häufigsten: „Alle Vierecke haben 4 Symmetrieachsen\" und „Alle Dreiecke haben 3 Symmetrieachsen\". Diese Aufgabe korrigiert beide.",
-    "erklaerungBild": "assets/erklaerungen/s49-merkkasten-faltschnitt.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Stimmt das? Beurteile jede Aussage.",
@@ -490,14 +450,7 @@
       "Bei a): Die Linien kreuzen sich. Bilden sie ein L (rechten Winkel)? Ja → das bedeutet sie sind ___.\nBei b): Die Linien kreuzen sich gar nicht. Sie haben überall den gleichen Abstand → das bedeutet sie sind ___.",
       "- **Senkrecht** bedeutet: Die Linien bilden einen rechten Winkel (90°), wie das Kreuz bei einem Plus-Zeichen (+).\n- **Parallel** bedeutet: Die Linien laufen in die gleiche Richtung und haben überall den gleichen Abstand. Sie kreuzen sich nie, auch wenn man sie verlängert.\n- Wenn sich Linien kreuzen, aber keinen rechten Winkel bilden, sind sie weder senkrecht noch parallel."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Grundlagenaufgabe sichert die Begriffe „senkrecht\" und „parallel\", die auf S. 48 im Buch eingeführt werden. Ohne Geodreieck kann das Kind die Begriffe visuell üben.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -537,14 +490,7 @@
       "Beim Quadrat: Ecke oben links — 90°? Ja! Ecke oben rechts — 90°? Ja! Ecke unten links — Ja! Ecke unten rechts — Ja! Das sind ___ rechte Winkel.",
       "Ein rechter Winkel entsteht, wo zwei Linien senkrecht aufeinander stehen (90°). Man kann ihn mit einer Ecke eines Blattes Papier prüfen.\n- Quadrat und Rechteck: Alle 4 Ecken sind rechte Winkel.\n- Rechtwinkliges Dreieck: Genau 1 Ecke hat 90°, die anderen sind spitz oder stumpf.\n- Buchstabe T: Der waagerechte und der senkrechte Balken treffen sich — links 90° und rechts 90°."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Das Finden rechter Winkel in Alltagsformen verbindet den abstrakten Winkelbegriff mit der visuellen Erfahrung. Der Buchstabe T als Beispiel zeigt, dass rechte Winkel auch außerhalb klassischer Geometrieformen vorkommen.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie viele rechte Winkel hat jede Figur?",
@@ -582,8 +528,8 @@
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "geodreieck-erkennen",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Beispiele zu: Wo findest du parallele Linien, wo senkrechte Linien?\n\nBeispiele:\n1. Eisenbahnschienen\n2. Die Ecke einer Zimmerwand (Wand trifft Boden)\n3. Die beiden langen Seiten eines Lineals\n4. Die Zeiger einer Uhr, wenn es 3 Uhr ist\n5. Die Buchstaben in einer Zeile\n6. Ein Laternenpfahl auf der Straße\n\nKategorien:\n- A: parallel\n- B: senkrecht",
-    "loesung": "- 1 → A (parallel) — Schienen laufen nebeneinander mit gleichem Abstand\n- 2 → B (senkrecht) — Wand steht im rechten Winkel zum Boden\n- 3 → A (parallel) — Die langen Kanten des Lineals verlaufen parallel\n- 4 → B (senkrecht) — Um 3 Uhr stehen die Zeiger im rechten Winkel\n- 5 → A (parallel) — Die Buchstaben stehen auf parallelen Grundlinien\n- 6 → B (senkrecht) — Der Pfahl steht senkrecht auf der Straße",
+    "aufgabenstellung": "Ordne die Beispiele zu: Wo findest du parallele Linien, wo senkrechte Linien?\n\na) Eisenbahnschienen\nb) Die Ecke einer Zimmerwand (Wand trifft Boden)\nc) Die beiden langen Seiten eines Lineals\nd) Die Zeiger einer Uhr, wenn es 3 Uhr ist\ne) Die Buchstaben in einer Zeile\nf) Ein Laternenpfahl auf der Straße\n\nA) parallel\nB) senkrecht",
+    "loesung": "a) → A\nb) → B\nc) → A\nd) → B\ne) → A\nf) → B",
     "loesungsweg": "Parallele Linien haben überall den gleichen Abstand und kreuzen sich nie (wie Eisenbahnschienen). Senkrechte Linien bilden einen rechten Winkel von 90° (wie die Ecke eines Raumes).",
     "tipps": [
       "Frage dich bei jedem Beispiel: Treffen sich die zwei Linien? Wenn ja → prüfe den Winkel. Wenn nein → prüfe den Abstand.",
@@ -591,20 +537,54 @@
       "Eisenbahnschienen: Die beiden Schienen laufen nebeneinander und treffen sich nie. Der Abstand ist immer gleich. Das sind ___ Linien. Und die Ecke im Zimmer: Wand und Boden bilden einen Winkel von 90° — das sind ___ Linien.",
       "Parallele Linien haben überall den gleichen Abstand und kreuzen sich nie (wie Eisenbahnschienen). Senkrechte Linien bilden einen rechten Winkel von 90° (wie die Ecke eines Raumes)."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Alltagsbeispiele machen die abstrakten Begriffe „parallel\" und „senkrecht\" greifbar. Die Zuordnungsaufgabe fördert das Verständnis, indem das Kind aktiv kategorisieren muss.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Beispiele zu: Wo findest du parallele Linien, wo senkrechte Linien?\nBeispiele:\n1. Eisenbahnschienen\n2. Die Ecke einer Zimmerwand (Wand trifft Boden)\n3. Die beiden langen Seiten eines Lineals\n4. Die Zeiger einer Uhr, wenn es 3 Uhr ist\n5. Die Buchstaben in einer Zeile\n6. Ein Laternenpfahl auf der Straße\nKategorien:\n- A: parallel\n- B: senkrecht",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne die Beispiele zu: Wo findest du parallele Linien, wo senkrechte Linien?",
+      "items": [
+        {
+          "label": "a",
+          "text": "Eisenbahnschienen"
+        },
+        {
+          "label": "b",
+          "text": "Die Ecke einer Zimmerwand (Wand trifft Boden)"
+        },
+        {
+          "label": "c",
+          "text": "Die beiden langen Seiten eines Lineals"
+        },
+        {
+          "label": "d",
+          "text": "Die Zeiger einer Uhr, wenn es 3 Uhr ist"
+        },
+        {
+          "label": "e",
+          "text": "Die Buchstaben in einer Zeile"
+        },
+        {
+          "label": "f",
+          "text": "Ein Laternenpfahl auf der Straße"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "parallel"
+        },
+        {
+          "label": "B",
+          "text": "senkrecht"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "A",
+        "d": "B",
+        "e": "A",
+        "f": "B"
+      }
     }
   },
   {
@@ -625,14 +605,7 @@
       "Die Strecken sind je 6 cm und halbieren sich → jeder Abschnitt ist 3 cm. Verbinde die Endpunkte: Jede Seite der neuen Form ist gleich lang. Und die Winkel? Da die Strecken senkrecht stehen, sind es ___ Winkel (90°). Also ist es ein ___.",
       "Wenn zwei gleich lange Strecken sich in der Mitte senkrecht kreuzen und sich gegenseitig halbieren, sind die Endpunkte alle gleich weit vom Mittelpunkt entfernt (je 3 cm). Die 4 Endpunkte bilden ein Quadrat, weil:\n- Alle 4 Seiten gleich lang sind\n- Alle 4 Winkel rechte Winkel sind (90°)\n\nBei ungleich langen Strecken würde stattdessen eine Raute entstehen."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe stammt aus Buch S. 49, Aufg. 7a. Sie verbindet die Begriffe „senkrecht\", „halbieren\" und „Quadrat\" und zeigt, wie geometrische Formen aus Konstruktionsschritten entstehen. Als Multiple-Choice digital gut umsetzbar.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -676,14 +649,7 @@
       "Oben: 8 cm. Rechts: 3 cm. Unten: 8 cm. Links: 3 cm. Insgesamt: 8 + 3 + 8 + 3 = ___",
       "Der Umfang eines Rechtecks ist die Summe aller 4 Seiten:\n- Zwei Seiten sind 8 cm lang (oben und unten)\n- Zwei Seiten sind 3 cm lang (links und rechts)\n- Umfang = 8 + 3 + 8 + 3 = 22 cm\n- Oder mit Formel: U = 2 · (Länge + Breite) = 2 · (8 + 3) = 2 · 11 = 22 cm"
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Die Aufgabe kombiniert Zeichnen (haptisch, mit Geodreieck) und Rechnen (Umfang). Teil b) ist digital nicht umsetzbar, aber Teil a) trainiert die Umfangformel. Entspricht Buch S. 49, Aufg. 6.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Rechteck hat die Länge 8 cm und die Breite 3 cm.",
@@ -720,14 +686,7 @@
       "Beim Buchstaben H: Die zwei senkrechten Striche laufen nebeneinander → das sind ___ Linien. Der Querstrich steht im 90°-Winkel dazu → das ist ___.",
       "- **E:** Der senkrechte Balken links + 3 waagerechte Balken. Die 3 waagerechten sind parallel zueinander. Jeder trifft senkrecht auf den senkrechten Balken → 4 rechte Winkel.\n- **H:** Die 2 senkrechten Balken sind parallel. Der waagerechte Querbalken steht senkrecht darauf.\n- **L:** Ein senkrechter und ein waagerechter Balken treffen sich → senkrecht, aber nur 1 Paar → keine parallelen.\n- **T:** Waagerechter Balken oben, senkrechter Balken mittig → senkrecht.\n- **Z:** Die 2 waagerechten Balken (oben und unten) sind parallel, die Diagonale kreuzt sie aber nicht im rechten Winkel."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp",
-      "assets/erklaerungen/s48-begriffe-geodreieck.webp",
-      "assets/erklaerungen/s50-regel-senkrecht.webp",
-      null
-    ],
     "didaktischerHinweis": "Buchstaben als geometrische Objekte zu analysieren verbindet Schriftkultur mit Geometrie. Die Aufgabe vertieft die Fähigkeit, parallele und senkrechte Linien in verschiedenen Kontexten zu erkennen.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-geodreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schau dir diese Großbuchstaben an: E, H, L, T, Z",
@@ -760,8 +719,8 @@
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "flächeninhalt-umfang",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Beschreibungen dem richtigen Begriff zu.\n\nBeschreibungen:\n1. \"Wie lang ist der Zaun um den Garten?\"\n2. \"Wie viel Rasen passt in den Garten?\"\n3. \"Wie viel Band brauche ich, um das Geschenk zu umwickeln?\"\n4. \"Wie viele Fliesen brauche ich für den Boden?\"\n\nBegriffe:\n- A: Umfang\n- B: Flächeninhalt",
-    "loesung": "1 → A (Umfang) — der Zaun verläuft am Rand entlang\n2 → B (Flächeninhalt) — der Rasen füllt die Fläche aus\n3 → A (Umfang) — das Band geht um das Geschenk herum\n4 → B (Flächeninhalt) — die Fliesen bedecken die Fläche",
+    "aufgabenstellung": "Ordne die Beschreibungen dem richtigen Begriff zu.\n\na) \"Wie lang ist der Zaun um den Garten?\"\nb) \"Wie viel Rasen passt in den Garten?\"\nc) \"Wie viel Band brauche ich, um das Geschenk zu umwickeln?\"\nd) \"Wie viele Fliesen brauche ich für den Boden?\"\n\nA) Umfang\nB) Flächeninhalt",
+    "loesung": "a) → A\nb) → B\nc) → A\nd) → B",
     "loesungsweg": "- **Umfang** = die Länge des Randes, also „einmal rundherum\". Wie ein Zaun, ein Band, ein Rahmen.\n- **Flächeninhalt** = wie groß die Fläche innen ist. Wie Rasen, Fliesen, Farbe zum Anstreichen.",
     "tipps": [
       "Stell dir einen Bilderrahmen vor: Der Rahmen selbst ist wie der Umfang. Das Bild im Rahmen ist wie der Flächeninhalt.",
@@ -769,24 +728,43 @@
       "\"Wie lang ist der Zaun?\" — Der Zaun geht um den Garten herum, also am Rand entlang. Das ist der ___. \"Wie viel Rasen?\" — Der Rasen bedeckt den Boden im Garten, also die Fläche innen. Das ist der ___.",
       "- **Umfang** = die Länge des Randes, also „einmal rundherum\". Wie ein Zaun, ein Band, ein Rahmen.\n- **Flächeninhalt** = wie groß die Fläche innen ist. Wie Rasen, Fliesen, Farbe zum Anstreichen."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Die Unterscheidung von Umfang und Flächeninhalt ist eine zentrale Kompetenz in der Geometrie. Alltagsbeispiele (Zaun vs. Rasen) machen die abstrakten Begriffe anschaulich. Entspricht dem Einstieg auf S. 50.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Beschreibungen dem richtigen Begriff zu.\nBeschreibungen:\n1. \"Wie lang ist der Zaun um den Garten?\"\n2. \"Wie viel Rasen passt in den Garten?\"\n3. \"Wie viel Band brauche ich, um das Geschenk zu umwickeln?\"\n4. \"Wie viele Fliesen brauche ich für den Boden?\"\nBegriffe:\n- A: Umfang\n- B: Flächeninhalt",
-      "items": [],
-      "choices": [],
+      "anweisung": "Ordne die Beschreibungen dem richtigen Begriff zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "\"Wie lang ist der Zaun um den Garten?\""
+        },
+        {
+          "label": "b",
+          "text": "\"Wie viel Rasen passt in den Garten?\""
+        },
+        {
+          "label": "c",
+          "text": "\"Wie viel Band brauche ich, um das Geschenk zu umwickeln?\""
+        },
+        {
+          "label": "d",
+          "text": "\"Wie viele Fliesen brauche ich für den Boden?\""
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "Umfang"
+        },
+        {
+          "label": "B",
+          "text": "Flächeninhalt"
+        }
+      ],
       "antworten": {
-        "1": "A",
-        "2": "B",
-        "3": "A",
-        "4": "B"
+        "a": "A",
+        "b": "B",
+        "c": "A",
+        "d": "B"
       }
     }
   },
@@ -808,14 +786,7 @@
       "Bei a): 5 Kästchen nebeneinander, davon 3 Reihen übereinander. 5 + 5 + 5 = ___ oder 5 · 3 = ___",
       "Der Flächeninhalt gibt an, wie viele Einheitsquadrate (kleine Kästchen) in die Figur passen.\n- a) Rechteck: Breite × Höhe = 5 × 3 = 15 Kästchen\n- b) Quadrat: Seite × Seite = 4 × 4 = 16 Kästchen\n- c) L-Form: Zähle alle Kästchen oder rechne das volle Rechteck minus das fehlende Stück: 4 × 2 = 8, minus 2 × 1 = 2, ergibt 6 Kästchen."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Das Zählen von Einheitsquadraten legt den Grundstein für die Flächenformel (Länge × Breite). Kinder sollen erst durch Zählen verstehen, was Flächeninhalt bedeutet, bevor sie die Formel anwenden. Entspricht S. 50, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bestimme den Flächeninhalt in Einheitsquadraten (EQ).",
@@ -857,14 +828,7 @@
       "Bei a): Oben: 7 cm. Rechts: 3 cm. Unten: 7 cm. Links: 3 cm. Zusammen: 7 + 3 + 7 + 3 = ___ cm. Oder kürzer: 2 · (7 + 3) = 2 · ___ = ___",
       "Der Umfang ist die Gesamtlänge des Randes:\n- Umfang = Seite 1 + Seite 2 + Seite 3 + Seite 4\n- Bei einem Rechteck: U = Länge + Breite + Länge + Breite = 2 · (Länge + Breite)\n- Bei einem Quadrat: U = 4 · Seitenlänge"
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Die Umfangberechnung entspricht S. 53, Aufg. 8. Das Quadrat in c) ist bewusst enthalten, damit Kinder erkennen: Ein Quadrat ist ein besonderes Rechteck, bei dem die Formel noch einfacher wird (4 × Seite).",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Berechne den Umfang der Rechtecke.",
@@ -906,14 +870,7 @@
       "Bei c): Teile die L-Form in 2 Rechtecke. Das untere ist 6 cm breit und 2 cm hoch: 6 · 2 = 12 qcm. Das obere ist 2 cm breit und 3 cm hoch: 2 · 3 = ___ qcm. Zusammen: 12 + ___ = ___",
       "- a) Rechteck: Länge × Breite = 6 × 3 = 18 qcm\n- b) Quadrat: Seite × Seite = 5 × 5 = 25 qcm\n- c) L-Form: Teile die Figur in zwei Rechtecke auf:\n  - Unteres Rechteck: 6 × 2 = 12 qcm\n  - Oberes Rechteck (links): 2 × 3 = 6 qcm\n  - Zusammen: 12 + 6 = 18 qcm"
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 52, Aufg. 2-3. Die Einheit Quadratzentimeter (qcm) wird hier als Weiterentwicklung der Einheitsquadrate eingeführt. Das Zerlegen zusammengesetzter Figuren ist eine wichtige Problemlösestrategie.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bestimme den Flächeninhalt der Figuren in Quadratzentimetern (qcm). Ein Kästchen = 1 qcm.",
@@ -955,14 +912,7 @@
       "Bei a): Umfang ist 20 cm. Halbiere: 20 ÷ 2 = 10. Das ist die Summe beider Seiten. Eine Seite ist 6 cm. Also: 10 − 6 = ___",
       "Wenn du den Umfang und eine Seite kennst:\n1. Halbiere den Umfang → das ergibt die Summe von Länge und Breite.\n2. Ziehe die bekannte Seite ab → das ergibt die fehlende Seite.\n\nBeispiel a): U = 20 cm → Hälfte = 10 cm → 10 − 6 = 4 cm."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Das Rückwärtsrechnen mit der Umfangformel entspricht S. 53, Aufg. 9 im Buch. Es trainiert algebraisches Denken (Gleichungen umstellen) auf kindgerechtem Niveau und vertieft das Verständnis der Umfangformel.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Der Umfang eines Rechtecks ist bekannt. Eine Seite ist gegeben. Wie lang sind die anderen Seiten?",
@@ -1004,14 +954,7 @@
       "Länge + Breite = 8. Beginne mit Breite 1: Länge = 8 − 1 = 7. Fläche = 1 · 7 = 7. Jetzt Breite 2: Länge = 8 − 2 = ___. Fläche = 2 · ___ = ___. Mach weiter, bis Breite = Länge.",
       "Umfang 16 cm → Hälfte = 8 cm. Also muss Länge + Breite = 8 sein.\nAlle Möglichkeiten mit ganzen Zahlen (Breite ≤ Länge):\n- 1 + 7 = 8 ✓ → Fläche = 1 · 7 = 7\n- 2 + 6 = 8 ✓ → Fläche = 2 · 6 = 12\n- 3 + 5 = 8 ✓ → Fläche = 3 · 5 = 15\n- 4 + 4 = 8 ✓ → Fläche = 4 · 4 = 16\n\nErkenntnis: Bei gleichem Umfang hat das Quadrat den größten Flächeninhalt!"
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Umfang und Flächeninhalt und zeigt die überraschende Erkenntnis: Gleicher Umfang bedeutet NICHT gleicher Flächeninhalt. Entspricht S. 51, Aufg. 7-8. Die systematische Suche aller Möglichkeiten trainiert auch kombinatorisches Denken.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -1042,14 +985,7 @@
       "Für a): Nimm zwei Rechtecke mit dem gleichen Flächeninhalt, z.B. 12 qcm. Das kann 2 × 6 sein (U = 2 · 8 = 16) oder 3 × 4 (U = 2 · 7 = 14). Ist der Umfang gleich? ___ → Also stimmt die Aussage ___",
       "- a) Gegenbeispiel: Ein 2 × 6 Rechteck (F = 12 qcm, U = 16 cm) und ein 3 × 4 Rechteck (F = 12 qcm, U = 14 cm) haben den gleichen Flächeninhalt, aber verschiedenen Umfang.\n- b) Beispiel: Siehe Aufgabe 22 — bei gleichem Umfang können verschiedene Flächeninhalte entstehen.\n- c) Berechnung: U = 4 · 4 = 16 cm ✓, F = 4 · 4 = 16 qcm ✓. Aber Achtung: Die Zahlenwerte sind zufällig gleich, die Einheiten sind verschieden!\n- d) Umfang = Länge → cm; Flächeninhalt = Fläche → qcm (oder m², km²)."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 51, Aufg. 9 und ist zentral für das Verständnis: Umfang und Flächeninhalt sind zwei verschiedene Größen, die unabhängig voneinander variieren können. Die meisten Kinder nehmen fälschlicherweise an, dass gleicher Flächeninhalt auch gleichen Umfang bedeutet.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Stimmt das? Beurteile jede Aussage.",
@@ -1099,14 +1035,7 @@
       "Möglichkeit 1: 1 × 12. Umfang = 2 · (1 + 12) = 2 · 13 = 26. Das ist mehr als 16 → zu teuer.\nMöglichkeit 2: 2 × 6. Umfang = 2 · (2 + 6) = 2 · ___ = ___. Passt das?",
       "1. Finde alle Zahlenpaare, deren Produkt 12 ergibt: 1 × 12, 2 × 6, 3 × 4.\n2. Berechne für jedes Paar den Umfang: U = 2 · (Länge + Breite).\n3. Vergleiche mit dem Budget (16 Latten) und wähle die passenden aus."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Sachaufgabe stammt aus S. 51, Aufg. 6-7 und verbindet Flächeninhalt, Umfang und Alltagskontext. Das Kind muss systematisch alle Möglichkeiten finden und eine Bedingung prüfen — eine klassische Problemlöseaufgabe.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die Klasse plant ein rechteckiges Blumenbeet mit einem Flächeninhalt von 12 Quadratmetern. Das Beet soll mit Zaunlatten umrandet werden. Jede Zaunlatte ist 1 m lang.",
@@ -1148,14 +1077,7 @@
       "Bei der Treppe (a): Starte unten links. Gehe 3 cm nach rechts. Dann 1 cm hoch. Dann 1 cm nach rechts. Dann 1 cm hoch. Dann ... Zähle weiter, bis du wieder am Start bist. Wie viele cm insgesamt?",
       "Bei Treppenfiguren und zusammengesetzten Formen:\n1. Starte an einer Ecke und gehe einmal um die Figur herum.\n2. Zähle jede Kante (jedes Kästchen am Rand = 1 cm).\n3. Notiere die Längen und addiere sie."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Der Umfang von nicht-rechteckigen Figuren (Treppen, L-Formen, T-Formen) erfordert systematisches Abzählen. Diese Aufgabe entspricht S. 53, Aufg. 6-7. Typischer Fehler: Innenkanten mitzählen oder Kanten zu vergessen.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bestimme den Umfang der Figuren. Jedes Kästchen hat eine Seitenlänge von 1 cm.",
@@ -1192,14 +1114,7 @@
       "Länge + Breite = 8. Die Möglichkeiten: 1+7, 2+6, 3+5, 4+4. Berechne die Flächen: 1·7 = 7, 2·6 = ___, 3·5 = ___, 4·4 = ___. Welche ist am größten?",
       "16 Streichhölzer = Umfang 16. Also: Länge + Breite = 16 ÷ 2 = 8.\nAlle Möglichkeiten: (1,7), (2,6), (3,5), (4,4).\nJe quadratischer die Form, desto größer der Flächeninhalt. Je schmaler und länglicher, desto kleiner."
     ],
-    "tippBilder": [
-      "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp",
-      "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp",
-      "assets/erklaerungen/s53-merkkasten-quadratmeter.webp",
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe stammt direkt aus S. 50, Aufg. 3 (Streichhölzer-Aufgabe). Die zentrale Erkenntnis: Bei gleichem Umfang hat das Quadrat den größten Flächeninhalt — ein fundamentales geometrisches Prinzip.",
-    "erklaerungBild": "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du hast 16 Streichhölzer (jedes ist 1 Einheit lang). Du legst damit den Rand einer rechteckigen Figur.",

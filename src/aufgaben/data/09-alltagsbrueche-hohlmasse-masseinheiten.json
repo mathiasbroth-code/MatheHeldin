@@ -440,7 +440,6 @@
       null
     ],
     "didaktischerHinweis": "Grundlegende Umrechnungsaufgabe zwischen Liter und Milliliter. Der Merksatz \"Mille = 1.000\" wird aus dem Buch übernommen. Entspricht S. 94, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wandle um. Denke daran: 1 l = 1.000 ml.",
@@ -488,8 +487,8 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.\n\n| Milliliter | Bruchteil |\n|------------|-----------|\n| 500 ml | ? |\n| 250 ml | ? |\n| 125 ml | ? |\n| 750 ml | ? |\n\nAuswahl: 1/2 l | 1/4 l | 1/8 l | 3/4 l",
-    "loesung": "- 500 ml → 1/2 l\n- 250 ml → 1/4 l\n- 125 ml → 1/8 l\n- 750 ml → 3/4 l",
+    "aufgabenstellung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.\n\na) 500 ml\nb) 250 ml\nc) 125 ml\nd) 750 ml\n\nA) 1/4 l\nB) 3/4 l\nC) 1/2 l\nD) 1/8 l",
+    "loesung": "a) → C\nb) → A\nc) → D\nd) → B",
     "loesungsweg": "- 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l\n- 250 ml: 1.000 : 250 = 4 → der 4. Teil von 1 Liter → 1/4 l\n- 125 ml: 1.000 : 125 = 8 → der 8. Teil von 1 Liter → 1/8 l\n- 750 ml: Das sind 3 × 250 ml = 3 × 1/4 l = 3/4 l",
     "tipps": [
       "Stell dir einen Messbecher mit 1.000 ml (= 1 Liter) vor. Fülle ihn halb voll — wie viele Milliliter sind das?\n📺 Schau dir das Video \"Merkwissen: Bruchteile eines Liters\" (S. 101) an!",
@@ -504,13 +503,51 @@
       null
     ],
     "didaktischerHinweis": "Verbindung von Brüchen und Hohlmaßen. Der Messbecher als visuelles Hilfsmittel macht die Bruchteile greifbar. Entspricht S. 94, Aufg. 2 und 5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.\n| Milliliter | Bruchteil |\n|------------|-----------|\n| 500 ml | ? |\n| 250 ml | ? |\n| 125 ml | ? |\n| 750 ml | ? |\nAuswahl: 1/2 l | 1/4 l | 1/8 l | 3/4 l",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "500 ml"
+        },
+        {
+          "label": "b",
+          "text": "250 ml"
+        },
+        {
+          "label": "c",
+          "text": "125 ml"
+        },
+        {
+          "label": "d",
+          "text": "750 ml"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/4 l"
+        },
+        {
+          "label": "B",
+          "text": "3/4 l"
+        },
+        {
+          "label": "C",
+          "text": "1/2 l"
+        },
+        {
+          "label": "D",
+          "text": "1/8 l"
+        }
+      ],
+      "antworten": {
+        "a": "C",
+        "b": "A",
+        "c": "D",
+        "d": "B"
+      }
     }
   },
   {
@@ -538,7 +575,6 @@
       null
     ],
     "didaktischerHinweis": "Umkehraufgaben festigen das Verständnis für die Beziehung zwischen Milliliter-Mengen und dem vollen Liter. Entspricht S. 94, Aufg. 4-5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -576,7 +612,6 @@
       null
     ],
     "didaktischerHinweis": "Gemischte Schreibweise (l und ml) und reine Milliliter-Schreibweise umwandeln. Die Stellenwerttafel wird als bekannte Hilfe genutzt. Entspricht S. 95, Aufg. 9-11.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wandle in Milliliter um.",
@@ -640,7 +675,6 @@
       null
     ],
     "didaktischerHinweis": "Das Vergleichen unterschiedlicher Schreibweisen festigt die Umrechnungskompetenz. Entspricht S. 95, Aufg. 12.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -683,8 +717,8 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Gefäße der passenden Menge zu.\n\n| Gefäß | Fassungsvermögen |\n|-------|----------------|\n| Teetasse | ? |\n| Milchtüte | ? |\n| Teelöffel | ? |\n| Eimer | ? |\n| Trinkflasche | ? |\n| Badewanne | ? |\n\nAuswahl: 5 ml | 150 ml | 500 ml | 1 l | 10 l | 150 l",
-    "loesung": "- Teetasse → 150 ml\n- Milchtüte → 1 l\n- Teelöffel → 5 ml\n- Eimer → 10 l\n- Trinkflasche → 500 ml\n- Badewanne → 150 l",
+    "aufgabenstellung": "Ordne die Gefäße der passenden Menge zu.\n\na) Teetasse\nb) Milchtüte\nc) Teelöffel\nd) Eimer\ne) Trinkflasche\nf) Badewanne\n\nA) 10 l\nB) 500 ml\nC) 1 l\nD) 150 l\nE) 5 ml\nF) 150 ml",
+    "loesung": "a) → F\nb) → C\nc) → E\nd) → A\ne) → B\nf) → D",
     "loesungsweg": "Hier hilft das Schätzen aus dem Alltag:\n- Ein Teelöffel fasst ganz wenig — nur ca. 5 ml.\n- Eine Teetasse ist klein — ca. 150 ml.\n- Eine Trinkflasche für die Schule fasst ca. 500 ml (1/2 Liter).\n- Eine Milchtüte ist meistens 1 Liter.\n- Ein Eimer ist schon recht groß — ca. 10 Liter.\n- Eine Badewanne ist riesig — ca. 150 Liter.",
     "tipps": [
       "Stelle dir jedes Gefäß vor deinem inneren Auge vor. Sortiere sie nach Größe — das kleinste Gefäß bekommt die kleinste Zahl, das größte die größte.",
@@ -699,13 +733,69 @@
       null
     ],
     "didaktischerHinweis": "Vergleichsgrößen helfen beim Schätzen und geben ein Gefühl für Mengenangaben im Alltag. Entspricht S. 95, Aufg. 13.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Gefäße der passenden Menge zu.\n| Gefäß | Fassungsvermögen |\n|-------|----------------|\n| Teetasse | ? |\n| Milchtüte | ? |\n| Teelöffel | ? |\n| Eimer | ? |\n| Trinkflasche | ? |\n| Badewanne | ? |\nAuswahl: 5 ml | 150 ml | 500 ml | 1 l | 10 l | 150 l",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne die Gefäße der passenden Menge zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Teetasse"
+        },
+        {
+          "label": "b",
+          "text": "Milchtüte"
+        },
+        {
+          "label": "c",
+          "text": "Teelöffel"
+        },
+        {
+          "label": "d",
+          "text": "Eimer"
+        },
+        {
+          "label": "e",
+          "text": "Trinkflasche"
+        },
+        {
+          "label": "f",
+          "text": "Badewanne"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "10 l"
+        },
+        {
+          "label": "B",
+          "text": "500 ml"
+        },
+        {
+          "label": "C",
+          "text": "1 l"
+        },
+        {
+          "label": "D",
+          "text": "150 l"
+        },
+        {
+          "label": "E",
+          "text": "5 ml"
+        },
+        {
+          "label": "F",
+          "text": "150 ml"
+        }
+      ],
+      "antworten": {
+        "a": "F",
+        "b": "C",
+        "c": "E",
+        "d": "A",
+        "e": "B",
+        "f": "D"
+      }
     }
   },
   {
@@ -733,7 +823,6 @@
       null
     ],
     "didaktischerHinweis": "Klassisches Knobelrätsel, das logisches Denken und den Umgang mit Hohlmaßen verbindet. Entspricht S. 94, Aufg. 8.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -765,7 +854,6 @@
       "Addiere alle Bereichswerte:\n- 12 + 45 = 57\n- 57 + 44 = 101\n- 101 + 19 = 120\n- 120 + 7 = 127\n- 127 + 6 = 133\n- 133 + 10 = 143\n- 143 + 2 = 145\n\nEine Person verbraucht im Durchschnitt 145 Liter Wasser am Tag."
     ],
     "didaktischerHinweis": "Sachbezogene Addition mit realistischen Alltagsdaten. Entspricht S. 96, Aufg. 2a.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |",
@@ -798,7 +886,6 @@
       "- a) 145 × 7: Zerlege: 100 × 7 = 700, 40 × 7 = 280, 5 × 7 = 35 → 700 + 280 + 35 = 1.015 l\n- b) 145 × 30: Zerlege: 145 × 3 = 435, dann 435 × 10 = 4.350 l"
     ],
     "didaktischerHinweis": "Multiplikation mit sachbezogenem Kontext. Die Zerlegungsmethode wird als Strategie genutzt. Entspricht S. 96, Aufg. 2-3.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
@@ -836,7 +923,6 @@
       "- a) 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + 160 + 20 = 580 l\n- b) 580 × 30 = 580 × 3 × 10 = 1.740 × 10 = 17.400 l"
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Alltagsbezug. Entspricht S. 96, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine vierköpfige Familie verbraucht durchschnittlich 145 Liter Wasser pro Person am Tag.",
@@ -874,7 +960,6 @@
       "Lisa verbraucht: 3 Mal putzen × 3 Minuten × 12 l/min = 108 l pro Tag.\nMax verbraucht: 3 Mal putzen × 2 × 15 Sekunden = 90 Sekunden = 1,5 Minuten × 12 l/min = 18 l pro Tag.\nUnterschied: 108 - 18 = 90 l pro Tag.\nPro Woche: 90 × 7 = 630 l."
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Zeitumrechnung (Sekunden → Minuten) und Alltagsbezug zum Wassersparen. Entspricht S. 96, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lisa putzt ihre Zähne dreimal täglich 3 Minuten lang bei fließendem Wasser. Dabei laufen in jeder Minute 12 l Wasser aus dem Hahn.\nMax putzt auch dreimal täglich. Er dreht aber bei jedem Putzen den Hahn nur zweimal für 15 Sekunden auf.\n\nWie viel Wasser spart Max im Vergleich zu Lisa ...",
@@ -912,7 +997,6 @@
       "- a) 1 Stunde = 60 Minuten. 60 × 8 ml = 480 ml.\n- b) 1 Tag = 24 Stunden. 24 × 480 ml = 11.520 ml = 11 l 520 ml.\n- c) 1 Woche = 7 Tage. 7 × 11.520 ml = 80.640 ml ≈ fast 81 l!"
     ],
     "didaktischerHinweis": "Stufenweises Hochrechnen kleiner Mengen zeigt, wie aus wenig viel wird. Die Zeitumrechnungen (min→h→Tag→Woche) sind wichtig. Entspricht S. 96, Aufg. 6.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Durch das Tropfen eines Wasserhahns gehen in einer Minute 8 ml Wasser verloren. Wie viel Wasser geht verloren ...",
@@ -945,7 +1029,7 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l) | Toilette (44 l) | Wäsche (19 l) | Körperpflege (12 l) | Geschirr (10 l) | Putzen (7 l) | Kochen/Trinken (6 l) | Sonstiges (2 l)",
+    "aufgabenstellung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\n- Duschen/Baden: 45 l\n- Toilette: 44 l\n- Wäsche: 19 l\n- Körperpflege: 12 l\n- Geschirr: 10 l\n- Putzen: 7 l\n- Kochen/Trinken: 6 l\n- Sonstiges: 2 l",
     "loesung": "1. Duschen/Baden (45 l)\n2. Toilette (44 l)\n3. Wäsche (19 l)\n4. Körperpflege (12 l)\n5. Geschirr (10 l)\n6. Putzen (7 l)\n7. Kochen/Trinken (6 l)\n8. Sonstiges (2 l)",
     "loesungsweg": "Vergleiche die Literzahlen und sortiere von groß nach klein: 45 > 44 > 19 > 12 > 10 > 7 > 6 > 2.",
     "tipps": [
@@ -955,15 +1039,14 @@
       "Vergleiche die Literzahlen und sortiere von groß nach klein: 45 > 44 > 19 > 12 > 10 > 7 > 6 > 2."
     ],
     "didaktischerHinweis": "Einfache Sortieraufgabe, die das Ablesen und Vergleichen von Zahlen in einem Sachkontext trainiert. Entspricht S. 96, Aufg. 1.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "reihenfolge",
-      "anweisung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l) | Toilette (44 l) | Wäsche (19 l) | Körperpflege (12 l) | Geschirr (10 l) | Putzen (7 l) | Kochen/Trinken (6 l) | Sonstiges (2 l)",
+      "anweisung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\n- Duschen/Baden: 45 l\n- Toilette: 44 l\n- Wäsche: 19 l\n- Körperpflege: 12 l\n- Geschirr: 10 l\n- Putzen: 7 l\n- Kochen/Trinken: 6 l\n- Sonstiges: 2 l",
       "teilaufgaben": [
         {
           "label": "1",
           "items": [
-            "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l)",
+            "Duschen/Baden (45 l)",
             "Toilette (44 l)",
             "Wäsche (19 l)",
             "Körperpflege (12 l)",
@@ -1005,7 +1088,6 @@
       "- a) Vergleiche alle Zahlen: 17.000 ist die größte → Schokolade.\n- b) 130 ist die kleinste → Möhren.\n- c) 5.000 - 290 = 4.710 l mehr."
     ],
     "didaktischerHinweis": "Tabellen lesen und vergleichen im Sachkontext. Der Begriff \"virtueller Wasserverbrauch\" wird eingeführt. Entspricht S. 97, Aufg. 1.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1046,7 +1128,6 @@
       "- a) 2.450 : 145. Schätze: 145 × 10 = 1.450, 145 × 16 = 145 × 10 + 145 × 6 = 1.450 + 870 = 2.320. 145 × 17 = 2.320 + 145 = 2.465 (zu viel). Also ca. 16 Tage.\n- b) 16 Tage > 14 Tage (2 Wochen) → ja."
     ],
     "didaktischerHinweis": "Die Division mit großen Zahlen wird über Schätzen und schrittweises Annähern gelöst. Der Vergleich Burger-Wasser vs. Alltagsverbrauch macht die Menge greifbar. Entspricht S. 97, Aufg. 1b.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Für die Herstellung eines Burgers werden etwa 2.450 Liter Wasser verbraucht. Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
@@ -1074,7 +1155,7 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n| Gegenstand | Wasserfußabdruck |\n|-----------|-----------------|\n| 1 Blatt Papier | 12 l |\n| 1 T-Shirt | 4.000 l |\n| 1 Jeans | 11.000 l |\n| 1 Fahrrad | 5.000 l |\n| 1 Laptop | 20.000 l |",
+    "aufgabenstellung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n- 1 Blatt Papier: 12 l\n- 1 T-Shirt: 4.000 l\n- 1 Jeans: 11.000 l\n- 1 Fahrrad: 5.000 l\n- 1 Laptop: 20.000 l",
     "loesung": "1. 1 Blatt Papier (12 l)\n2. 1 T-Shirt (4.000 l)\n3. 1 Fahrrad (5.000 l)\n4. 1 Jeans (11.000 l)\n5. 1 Laptop (20.000 l)",
     "loesungsweg": "Vergleiche die Zahlen: 12 < 4.000 < 5.000 < 11.000 < 20.000.\nÜberraschend: Eine Jeans braucht mehr Wasser als ein Fahrrad!",
     "tipps": [
@@ -1084,29 +1165,18 @@
       "Vergleiche die Zahlen: 12 < 4.000 < 5.000 < 11.000 < 20.000.\nÜberraschend: Eine Jeans braucht mehr Wasser als ein Fahrrad!"
     ],
     "didaktischerHinweis": "Die Sortieraufgabe fördert den Umgang mit großen Zahlen und sensibilisiert für versteckten Wasserverbrauch. Entspricht S. 97, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "reihenfolge",
-      "anweisung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n| Gegenstand | Wasserfußabdruck |\n|-----------|-----------------|\n| 1 Blatt Papier | 12 l |\n| 1 T-Shirt | 4.000 l |\n| 1 Jeans | 11.000 l |\n| 1 Fahrrad | 5.000 l |\n| 1 Laptop | 20.000 l |",
+      "anweisung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n- 1 Blatt Papier: 12 l\n- 1 T-Shirt: 4.000 l\n- 1 Jeans: 11.000 l\n- 1 Fahrrad: 5.000 l\n- 1 Laptop: 20.000 l",
       "teilaufgaben": [
         {
           "label": "1",
           "items": [
-            "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.",
-            "Gegenstand",
-            "Wasserfußabdruck",
-            "-----------",
-            "-----------------",
-            "1 Blatt Papier",
-            "12 l",
-            "1 T-Shirt",
-            "4.000 l",
-            "1 Jeans",
-            "11.000 l",
-            "1 Fahrrad",
-            "5.000 l",
-            "1 Laptop",
-            "20.000 l"
+            "1 Blatt Papier (12 l)",
+            "1 T-Shirt (4.000 l)",
+            "1 Fahrrad (5.000 l)",
+            "1 Jeans (11.000 l)",
+            "1 Laptop (20.000 l)"
           ],
           "richtigeReihenfolge": [
             "1 Blatt Papier (12 l)",
@@ -1138,7 +1208,6 @@
       "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht."
     ],
     "didaktischerHinweis": "Fermi-Aufgabe: Plausibilität einer Aussage rechnerisch überprüfen. Entspricht S. 97, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Jette sagt: \"Wenn ich nur noch halb so viel Schokolade im Jahr esse, spare ich eine halbe Million Liter virtuelles Wasser im Jahr.\"\n\nFür 1 kg Schokolade werden 17.000 Liter virtuelles Wasser verbraucht. Kann Jettes Aussage stimmen? Rechne nach.",
@@ -1161,7 +1230,7 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l) | Möhren (130 l) | Nudeln (1.850 l) | Äpfel (800 l) | Kartoffeln (290 l) | Hühnerfleisch (4.300 l)",
+    "aufgabenstellung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\n- Käse: 5.000 l\n- Möhren: 130 l\n- Nudeln: 1.850 l\n- Äpfel: 800 l\n- Kartoffeln: 290 l\n- Hühnerfleisch: 4.300 l",
     "loesung": "1. Möhren (130 l)\n2. Kartoffeln (290 l)\n3. Äpfel (800 l)\n4. Nudeln (1.850 l)\n5. Hühnerfleisch (4.300 l)\n6. Käse (5.000 l)",
     "loesungsweg": "Vergleiche die Zahlen: 130 < 290 < 800 < 1.850 < 4.300 < 5.000.\nGemüse und Obst brauchen wenig Wasser, tierische Produkte und verarbeitete Lebensmittel brauchen viel.",
     "tipps": [
@@ -1171,20 +1240,19 @@
       "Vergleiche die Zahlen: 130 < 290 < 800 < 1.850 < 4.300 < 5.000.\nGemüse und Obst brauchen wenig Wasser, tierische Produkte und verarbeitete Lebensmittel brauchen viel."
     ],
     "didaktischerHinweis": "Sortieraufgabe mit großen Zahlen im Sachkontext. Entspricht S. 97, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "reihenfolge",
-      "anweisung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l) | Möhren (130 l) | Nudeln (1.850 l) | Äpfel (800 l) | Kartoffeln (290 l) | Hühnerfleisch (4.300 l)",
+      "anweisung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\n- Käse: 5.000 l\n- Möhren: 130 l\n- Nudeln: 1.850 l\n- Äpfel: 800 l\n- Kartoffeln: 290 l\n- Hühnerfleisch: 4.300 l",
       "teilaufgaben": [
         {
           "label": "1",
           "items": [
-            "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l)",
             "Möhren (130 l)",
-            "Nudeln (1.850 l)",
-            "Äpfel (800 l)",
             "Kartoffeln (290 l)",
-            "Hühnerfleisch (4.300 l)"
+            "Äpfel (800 l)",
+            "Nudeln (1.850 l)",
+            "Hühnerfleisch (4.300 l)",
+            "Käse (5.000 l)"
           ],
           "richtigeReihenfolge": [
             "Möhren (130 l)",
@@ -1217,7 +1285,6 @@
       "Der Rauminhalt (das Volumen) eines Quaders = Länge × Breite × Höhe:\n- a) 5 × 3 = 15, 15 × 2 = 30 cm³ → Es passen 30 Zentimeterwürfel hinein.\n- b) 8 × 4 = 32, 32 × 3 = 96 cm³.\n- c) 10 × 6 = 60, 60 × 4 = 240 cm³."
     ],
     "didaktischerHinweis": "Grundlegende Volumenberechnung durch Zählen/Rechnen von Einheitswürfeln. Entspricht S. 98, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader? Rechne: Länge · Breite · Höhe.",
@@ -1260,7 +1327,6 @@
       "- In eine Reihe passen 10 Zentimeterwürfel (Länge = 10 cm).\n- Nebeneinander passen 10 Reihen (Breite = 10 cm): 10 × 10 = 100 Würfel in einer Schicht.\n- Übereinander passen 10 Schichten (Höhe = 10 cm): 100 × 10 = 1.000.\n- Ein Dezimeterwürfel fasst genau 1 Liter!"
     ],
     "didaktischerHinweis": "Der Dezimeterwürfel ist ein zentrales Anschauungsobjekt. Die Verbindung 1 dm³ = 1 l = 1.000 cm³ wird vorbereitet. Entspricht S. 98, Aufg. 1.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ein Würfel hat die Kantenlänge 10 cm (= 1 dm). Dieser Würfel heißt Dezimeterwürfel.",
@@ -1297,7 +1363,6 @@
       "- a) 30 × 30 = 900, 900 × 30 = 27.000 cm³\n- b) 50 × 30 = 1.500, 1.500 × 70 = 105.000 cm³\n- c) 80 × 30 = 2.400, 2.400 × 60 = 144.000 cm³"
     ],
     "didaktischerHinweis": "Skalierung der Volumenberechnung auf größere Maße. Die Multiplikation mit Zehnerzahlen wird trainiert. Entspricht S. 98, Aufg. 3.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader?",
@@ -1340,7 +1405,6 @@
       "- a) 1 m = 10 dm. Der Würfel hat 10 × 10 × 10 = 1.000 Dezimeterwürfel. Jeder ist 1 l → 1.000 l.\n- b) 10 × 10 × 10 = 1.000 cm³. Da 1 cm³ = 1 ml, sind das 1.000 ml = 1 l.\n- c) 20 × 10 × 5 = 1.000 cm³ = 1.000 ml = 1 l. Dieser Quader fasst genauso viel wie der Würfel aus b)!"
     ],
     "didaktischerHinweis": "Die zentrale Verbindung zwischen Rauminhalt und Hohlmaßen: 1 dm³ = 1 l, 1 cm³ = 1 ml. Entspricht S. 99, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Merke: 1 Dezimeterwürfel = 1 Liter. 1 Zentimeterwürfel = 1 Milliliter.",
@@ -1383,7 +1447,6 @@
       "1. Rauminhalt berechnen: 10 × 10 × 10 = 1.000 cm³ = 1.000 ml.\n2. Messbechergröße: 1/4 l = 250 ml.\n3. Division: 1.000 : 250 = 4.\nEmma muss den Messbecher 4-mal füllen."
     ],
     "didaktischerHinweis": "Verknüpfung von Volumenberechnung und Hohlmaßen in einer alltagsnahen Aufgabe. Entspricht S. 99, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Emma möchte einen Würfel mit Wasser füllen. Der Würfel hat die Kantenlänge 10 cm. Sie hat einen Messbecher, in den genau 1/4 Liter (250 ml) passt.",
@@ -1416,7 +1479,6 @@
       "- A: 50 × 30 = 1.500, 1.500 × 60 = 90.000 cm³ = 90.000 ml = 90 l\n- B: 80 × 50 = 4.000, 4.000 × 20 = 80.000 cm³ = 80.000 ml = 80 l\n- Unterschied: 90 - 80 = 10 l"
     ],
     "didaktischerHinweis": "Vergleich zweier Quader schult die Volumenberechnung und die Umrechnung cm³ → l. Entspricht S. 99, Aufg. 7.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1453,7 +1515,6 @@
       "Finde drei Zahlen, die miteinander multipliziert 160 ergeben. Strategie:\n- Beginne mit einem Teiler von 160: z.B. 8. Dann 160 : 8 = 20. Jetzt zerlege 20: z.B. 5 × 4. → 8 × 5 × 4.\n- Oder: 10 × 16 = 160, zerlege 16: 4 × 4. → 10 × 4 × 4."
     ],
     "didaktischerHinweis": "Offene Aufgabe mit mehreren Lösungen. Das Zerlegen in Faktoren trainiert Division und Multiplikation gleichzeitig. Entspricht S. 99, Aufg. 8.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.",
@@ -1486,7 +1547,6 @@
       "- a) 100 kg wäre viel zu schwer für eine Tafel → 100 g.\n- b) Ein Tag hat 24 Stunden → h.\n- c) 750 g wäre viel zu leicht für eine Giraffe → 750 kg.\n- d) 100 m Sprint in 18 Sekunden → m und s.\n- e) 141 mm = 14 cm, das ist zu klein. 141 m = viel zu groß → 141 cm.\n- f) 800 m wäre nur eine kurze Strecke → 800 km.\n- g) 300 km wäre viel zu weit für den Schulweg → 300 m."
     ],
     "didaktischerHinweis": "Zuordnungsaufgabe, die Größenvorstellungen trainiert. Entspricht S. 100, Aufg. 1-3.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1543,7 +1603,6 @@
       "- a) Ein Brot kostet kein Gewicht — es kostet einen Geldbetrag: 4 €.\n- c) 20 Stunden pro Drittel wären 60 Stunden! Ein Eishockeydrittel dauert 20 Minuten.\n- d) 3 dm = 30 cm — das ist kein Sprungturm! Es sind 3 m."
     ],
     "didaktischerHinweis": "Fehlersuche fördert kritisches Denken und festigt die Zuordnung von Maßeinheiten zu Größenbereichen. Entspricht S. 100, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Stimmt die Maßeinheit? Korrigiere, wenn sie falsch ist.",
@@ -1606,7 +1665,6 @@
       "- a) 1.000 g = 1 kg; ein Auto wiegt ca. 1.000 kg = 1 t.\n- b) Eine Laufbahn ist nicht 400 km (zu weit) und nicht 400 cm (zu kurz) → 400 m.\n- c) 10 Minuten Schlaf wäre zu wenig, 10 Tage zu viel → 10 Stunden.\n- d) 7 cm = so groß wie ein Finger → zu groß für einen Käfer. 7 mm passt!\n- e) 30 mm = 3 cm → zu kurz. 30 m → zu lang. 30 cm ✓.\n- g) 3 m → wie ein Haus, zu niedrig. 3 km ✓ (Zugspitze: 2.962 m ≈ knapp 3 km)."
     ],
     "didaktischerHinweis": "Kontextbezogene Lückenaufgabe trainiert Größenvorstellungen für verschiedene Bereiche. Entspricht S. 100, Aufg. 3.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1628,8 +1686,8 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "masseinheiten",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Gewichte den Gegenständen zu.\n\n| Gegenstand | Gewicht |\n|-----------|---------|\n| Reißzwecke | ? |\n| Schokoladentafel | ? |\n| Butter | ? |\n| Packung Spaghetti | ? |\n| Packung Zucker | ? |\n\nAuswahl: 1 g | 100 g | 250 g | 500 g | 1 kg",
-    "loesung": "- Reißzwecke → 1 g\n- Schokoladentafel → 100 g\n- Butter → 250 g\n- Packung Spaghetti → 500 g\n- Packung Zucker → 1 kg",
+    "aufgabenstellung": "Ordne die Gewichte den Gegenständen zu.\n\na) Reißzwecke\nb) Schokoladentafel\nc) Butter\nd) Packung Spaghetti\ne) Packung Zucker\n\nA) 250 g\nB) 1 kg\nC) 500 g\nD) 1 g\nE) 100 g",
+    "loesung": "a) → D\nb) → E\nc) → A\nd) → C\ne) → B",
     "loesungsweg": "- Eine Reißzwecke ist winzig und leicht → 1 g.\n- Eine Tafel Schokolade wiegt ca. 100 g.\n- Ein Stück Butter wiegt 250 g (steht auf der Packung).\n- Eine Packung Spaghetti wiegt typisch 500 g.\n- Eine Packung Zucker wiegt 1 kg.",
     "tipps": [
       "Sortiere die Gegenstände im Kopf nach Gewicht: Was ist am leichtesten, was am schwersten? Ordne dann die Gewichte der Reihe nach zu.\n📺 Schau dir das Video \"Vergleichsgrößen: Gramm und Kilogramm\" (S. 101) an!",
@@ -1638,13 +1696,60 @@
       "- Eine Reißzwecke ist winzig und leicht → 1 g.\n- Eine Tafel Schokolade wiegt ca. 100 g.\n- Ein Stück Butter wiegt 250 g (steht auf der Packung).\n- Eine Packung Spaghetti wiegt typisch 500 g.\n- Eine Packung Zucker wiegt 1 kg."
     ],
     "didaktischerHinweis": "Alltagsvergleiche helfen, ein Gefühl für Gewichtsangaben zu entwickeln. Entspricht S. 101, Aufg. 4a.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Gewichte den Gegenständen zu.\n| Gegenstand | Gewicht |\n|-----------|---------|\n| Reißzwecke | ? |\n| Schokoladentafel | ? |\n| Butter | ? |\n| Packung Spaghetti | ? |\n| Packung Zucker | ? |\nAuswahl: 1 g | 100 g | 250 g | 500 g | 1 kg",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne die Gewichte den Gegenständen zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Reißzwecke"
+        },
+        {
+          "label": "b",
+          "text": "Schokoladentafel"
+        },
+        {
+          "label": "c",
+          "text": "Butter"
+        },
+        {
+          "label": "d",
+          "text": "Packung Spaghetti"
+        },
+        {
+          "label": "e",
+          "text": "Packung Zucker"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "250 g"
+        },
+        {
+          "label": "B",
+          "text": "1 kg"
+        },
+        {
+          "label": "C",
+          "text": "500 g"
+        },
+        {
+          "label": "D",
+          "text": "1 g"
+        },
+        {
+          "label": "E",
+          "text": "100 g"
+        }
+      ],
+      "antworten": {
+        "a": "D",
+        "b": "E",
+        "c": "A",
+        "d": "C",
+        "e": "B"
+      }
     }
   },
   {
@@ -1666,7 +1771,6 @@
       "Merke dir die \"Umrechnungszahlen\":\n- Längen: mm → cm: ×10, cm → dm: ×10, dm → m: ×10, m → km: ×1.000\n- Gewichte: g → kg: ×1.000, kg → t: ×1.000\n- Rauminhalt: ml → l: ×1.000\n- Bruchteile: 1/2 = :2, 1/4 = :4, 1/8 = :8"
     ],
     "didaktischerHinweis": "Zusammenfassende Übersicht aller Umrechnungen aus dem Kapitel. Die Bruchteile verknüpfen Thema 1 (Brüche) mit den Maßeinheiten. Entspricht S. 101, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1688,8 +1792,8 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "masseinheiten",
     "digital": "voll",
-    "aufgabenstellung": "Ordne den Gefäßen den passenden Rauminhalt zu.\n\n| Gefäß | Rauminhalt |\n|-------|-----------|\n| Wasserflasche | ? |\n| Eimer | ? |\n| Milchtüte | ? |\n| Trinkflasche (Sport) | ? |\n| Teelöffel | ? |\n\nAuswahl: 5 ml | 0,5 l | 1 l | 1,5 l | 10 l",
-    "loesung": "- Wasserflasche → 1,5 l\n- Eimer → 10 l\n- Milchtüte → 1 l\n- Trinkflasche → 0,5 l\n- Teelöffel → 5 ml",
+    "aufgabenstellung": "Ordne den Gefäßen den passenden Rauminhalt zu.\n\na) Wasserflasche\nb) Eimer\nc) Milchtüte\nd) Trinkflasche (Sport)\ne) Teelöffel\n\nA) 1 l\nB) 5 ml\nC) 10 l\nD) 0,5 l\nE) 1,5 l",
+    "loesung": "a) → E\nb) → C\nc) → A\nd) → D\ne) → B",
     "loesungsweg": "- Ein Teelöffel fasst nur ca. 5 ml — ganz wenig.\n- Eine Sport-Trinkflasche fasst ca. 0,5 l = 500 ml.\n- Eine Milchtüte fasst meistens 1 l.\n- Eine große Wasserflasche fasst ca. 1,5 l.\n- Ein Eimer fasst ca. 10 l.",
     "tipps": [
       "Sortiere die Gefäße im Kopf nach Größe. Das kleinste Gefäß bekommt die kleinste Menge, das größte die größte.\n📺 Schau dir das Video \"Merkwissen: Rauminhalte umrechnen\" (S. 101) an!",
@@ -1698,13 +1802,60 @@
       "- Ein Teelöffel fasst nur ca. 5 ml — ganz wenig.\n- Eine Sport-Trinkflasche fasst ca. 0,5 l = 500 ml.\n- Eine Milchtüte fasst meistens 1 l.\n- Eine große Wasserflasche fasst ca. 1,5 l.\n- Ein Eimer fasst ca. 10 l."
     ],
     "didaktischerHinweis": "Zuordnung alltagsnaher Vergleichsgrößen zum Bereich Rauminhalt/Hohlmaße. Entspricht S. 101, Aufg. 4c.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne den Gefäßen den passenden Rauminhalt zu.\n| Gefäß | Rauminhalt |\n|-------|-----------|\n| Wasserflasche | ? |\n| Eimer | ? |\n| Milchtüte | ? |\n| Trinkflasche (Sport) | ? |\n| Teelöffel | ? |\nAuswahl: 5 ml | 0,5 l | 1 l | 1,5 l | 10 l",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne den Gefäßen den passenden Rauminhalt zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Wasserflasche"
+        },
+        {
+          "label": "b",
+          "text": "Eimer"
+        },
+        {
+          "label": "c",
+          "text": "Milchtüte"
+        },
+        {
+          "label": "d",
+          "text": "Trinkflasche (Sport)"
+        },
+        {
+          "label": "e",
+          "text": "Teelöffel"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 l"
+        },
+        {
+          "label": "B",
+          "text": "5 ml"
+        },
+        {
+          "label": "C",
+          "text": "10 l"
+        },
+        {
+          "label": "D",
+          "text": "0,5 l"
+        },
+        {
+          "label": "E",
+          "text": "1,5 l"
+        }
+      ],
+      "antworten": {
+        "a": "E",
+        "b": "C",
+        "c": "A",
+        "d": "D",
+        "e": "B"
+      }
     }
   },
   {
@@ -1726,7 +1877,6 @@
       "- a) 1 h = 60 min. 1/4 davon: 60 : 4 = 15 min.\n- b) 1 h = 60 min. 1/2 davon: 60 : 2 = 30 min.\n- c) 1 m = 100 cm. 1/2 davon: 100 : 2 = 50 cm.\n- d) 1 km = 1.000 m. 1/4 davon: 1.000 : 4 = 250 m.\n- e) 1 t = 1.000 kg. 1/2 davon: 1.000 : 2 = 500 kg.\n- f) 1 km = 1.000 m. 1/2 davon: 1.000 : 2 = 500 m."
     ],
     "didaktischerHinweis": "Verknüpfung von Brüchen und Maßeinheiten aus verschiedenen Bereichen. Entspricht S. 101, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne um. Nutze dein Wissen über Brüche!",
@@ -1783,7 +1933,6 @@
       "- Jeder Schritt = 50 cm = 0,5 m.\n- a) 10 × 0,5 m = 5 m\n- b) 100 × 0,5 m = 50 m\n- c) 1.000 × 0,5 m = 500 m\n- d) 1.000.000 × 0,5 m = 500.000 m = 500 km (ungefähr von München nach Hamburg!)"
     ],
     "didaktischerHinweis": "Schrittweises Hochskalieren macht die Million greifbar. Die Umrechnung cm → m → km wird geübt. Entspricht Fermi-Fragen auf S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Schritt ist ungefähr 50 cm lang.",
@@ -1831,7 +1980,6 @@
       "- 1 Minute = 60 s\n- 1 Stunde = 60 × 60 = 3.600 s\n- 1 Tag = 24 × 3.600 = 86.400 s\n- 1.000.000 : 86.400 ≈ 11,6 Tage ≈ 11 Tage und 14 Stunden\n\nEine Million Sekunden sind also knapp 12 Tage!"
     ],
     "didaktischerHinweis": "Mehrstufige Zeitumrechnung mit dem Ziel, ein Gefühl für die Größe \"eine Million\" zu entwickeln. Entspricht dem Konzept der \"Millionen-Fragen\" auf S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt fuer Schritt.",
@@ -1898,7 +2046,6 @@
       "- a) 1 m = 100 cm. Also: 1.000.000 : 100 = 10.000 m.\n- b) 1 km = 1.000 m. Also: 10.000 : 1.000 = 10 km.\n\nEine Million Zentimeter = 10 Kilometer. Das ist ungefähr die Strecke von deiner Schule in die nächste größere Stadt!"
     ],
     "didaktischerHinweis": "Umrechnungsketten mit großen Zahlen trainieren den Umgang mit dem Stellenwertsystem. Entspricht S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle 1.000.000 cm in größere Einheiten um.",
@@ -1935,7 +2082,6 @@
       "- a) 1 kg = 1.000 g. Also: 1.000.000 : 1.000 = 1.000 kg.\n- b) 1 t = 1.000 kg. Also: 1.000 : 1.000 = 1 t.\n- c) 1 t ≈ 1 kleines Auto."
     ],
     "didaktischerHinweis": "Umrechnungskette Gramm → Kilogramm → Tonne mit Alltagsvergleich. Entspricht S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -1978,7 +2124,6 @@
       "- a) 1.000.000 ml : 1.000 = 1.000 l.\n- b) 1.000 l : 150 l = 6,67... → Es reicht für 6 volle Badewannen (mit 100 l Rest)."
     ],
     "didaktischerHinweis": "Verbindung von Hohlmaß-Umrechnung und Division mit Alltagsvergleich. Entspricht S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -2016,7 +2161,6 @@
       "- a) 1.000.000 Zahlen × 2 s = 2.000.000 s.\n- b) 1 Stunde = 3.600 s. 2.000.000 : 3.600 ≈ 555,6 → ca. 556 Stunden.\n- c) 556 : 8 = 69,5 → ca. 70 Tage = ca. 2,5 Monate!"
     ],
     "didaktischerHinweis": "Fermi-Schätzung, die die Größe einer Million erlebbar macht. Entspricht dem Konzept der S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du zählst laut von 1 bis 1.000.000. Für jede Zahl brauchst du durchschnittlich 2 Sekunden.",
@@ -2059,7 +2203,6 @@
       "- a) 1.000.000 mm : 10 = 100.000 cm : 100 = 1.000 m : 1.000 = 1 km.\n- b) 1.000.000 g : 1.000 = 1.000 kg.\n- c) 1.000.000 ml : 1.000 = 1.000 l.\n- d) 1.000.000 s : 86.400 ≈ 11,6 Tage → näher an 10 als an 1."
     ],
     "didaktischerHinweis": "Überschlags-Aufgabe, die alle Umrechnungen des Kapitels zusammenführt und das Verständnis für die Größe \"eine Million\" vertieft. Entspricht S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2104,7 +2247,6 @@
       ""
     ],
     "didaktischerHinweis": "Offene Fermi-Aufgaben fördern Kreativität und Größenvorstellungen. Entspricht S. 102-103.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe ist eine offene Kreativaufgabe.\nOriginal: \"Denke dir selbst eine Millionen-Frage aus und berechne die Antwort. Zum Beispiel: Wie hoch wäre ein Turm aus 1.000.000 Ein-Cent-Münzen?\"",

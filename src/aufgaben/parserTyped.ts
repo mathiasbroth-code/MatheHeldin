@@ -263,7 +263,7 @@ function parseSchrittAbc(
 
 /** Variante C: Rechenkette */
 function parseRechenkette(aufgabenstellung: string, loesung: string): SchrittDaten | null {
-  const chainMatch = loesung.match(/[\d.,]+(?:\s*→\s*[+\-·:×÷]\s*[\d.,]+\s*→\s*[\d.,]+)+/);
+  const chainMatch = loesung.match(/[\d.,]+(?:\s*→\s*[+\-−·:×÷]\s*[\d.,]+\s*→\s*[\d.,]+)+/);
   if (!chainMatch) return null;
 
   const segments = chainMatch[0].split('→').map((s) => s.trim());
@@ -273,7 +273,7 @@ function parseRechenkette(aufgabenstellung: string, loesung: string): SchrittDat
     const start = segments[i];
     const op = segments[i + 1];
     const result = segments[i + 2];
-    if (op && result && /^[+\-·:×÷]/.test(op)) {
+    if (op && result && /^[+\-−·:×÷]/.test(op)) {
       const opParts = op.split(/\s+/);
       const opSymbol = opParts[0];
       const opValue = opParts.slice(1).join(' ');
@@ -752,6 +752,21 @@ function parseReihenfolgeDaten(aufgabenstellung: string, loesung: string): Reihe
   const loesungSplit = splitTeilaufgaben(loesung);
 
   if (split.items.length > 0) {
+    // Pruefen: Ist die Loesung eine Label-Reihenfolge (z.B. "b, d, a, c")?
+    const labelOrder = extractLabelOrder(loesung, split.items);
+    if (labelOrder) {
+      // Alle Items sind die Beschreibungstexte der Labels, Loesung gibt die Reihenfolge vor
+      const itemMap = new Map(split.items.map((i) => [i.label, i.text.split('\n')[0].trim()]));
+      const items = split.items.map((i) => i.text.split('\n')[0].trim());
+      const richtigeReihenfolge = labelOrder.map((l) => itemMap.get(l) ?? l);
+      return {
+        typ: 'reihenfolge',
+        anweisung: split.intro,
+        teilaufgaben: [{ label: '1', items, richtigeReihenfolge }],
+      };
+    }
+
+    // Mehrere Teilaufgaben mit eigenen Items
     const teilaufgaben = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
       const loesungText = loesungItem?.text ?? '';
@@ -763,7 +778,7 @@ function parseReihenfolgeDaten(aufgabenstellung: string, loesung: string): Reihe
     return { typ: 'reihenfolge', anweisung: split.intro, teilaufgaben };
   }
 
-  // Single task
+  // Einzelaufgabe ohne a)/b)
   const richtigeReihenfolge = extractOrderedItems(loesung);
   const items = extractItemsFromText(aufgabenstellung.trim(), richtigeReihenfolge);
   return {
@@ -773,15 +788,33 @@ function parseReihenfolgeDaten(aufgabenstellung: string, loesung: string): Reihe
   };
 }
 
+/** Erkennt ob die Loesung eine Label-Reihenfolge ist (z.B. "b, d, a, c"). */
+function extractLabelOrder(loesung: string, items: { label: string }[]): string[] | null {
+  const labels = new Set(items.map((i) => i.label));
+  const parts = loesung.trim().split(/[,\s]+/).filter(Boolean);
+  if (parts.length === labels.size && parts.every((p) => labels.has(p))) {
+    return parts;
+  }
+  return null;
+}
+
 function extractOrderedItems(loesung: string): string[] {
-  if (/[>→=]/.test(loesung)) {
-    const items = loesung.split(/[>→]|(?<!\d)\s*=\s*(?!\s*\d)/).map((s) => s.trim()).filter(Boolean);
+  // Erst auf > oder → splitten (explizite Ordnung)
+  if (/[>→]/.test(loesung)) {
+    const items = loesung.split(/[>→]/).map((s) => s.trim()).filter(Boolean);
     if (items.length >= 2) return items;
   }
 
+  // Nummerierte Liste
   const numberedMatches = loesung.match(/^\d+\.\s+(.+)$/gm);
   if (numberedMatches && numberedMatches.length >= 2) {
     return numberedMatches.map((m) => m.replace(/^\d+\.\s+/, '').trim());
+  }
+
+  // Komma- und/oder =-getrennte Items (z.B. "Lukas (137 cm) = Jan (137 cm), Ole (138 cm)")
+  if (loesung.includes(',') || /(?<!\d)\s*=\s*(?!\s*\d)/.test(loesung)) {
+    const items = loesung.split(/,|(?<!\d)\s*=\s*(?!\s*\d)/).map((s) => s.trim()).filter(Boolean);
+    if (items.length >= 2) return items;
   }
 
   const lineItems = loesung.split('\n').map((l) => l.trim()).filter(Boolean);
@@ -794,5 +827,13 @@ function extractItemsFromText(text: string, fallbackItems: string[]): string[] {
     const items = text.split('|').map((s) => s.trim()).filter(Boolean);
     if (items.length >= 2) return items;
   }
+
+  // Komma-getrennte Items (z.B. "Lukas (137 cm), Justus (140 cm), ...")
+  // Nur wenn Komma-Items wie "Name (Zahl)" aussehen oder mind. 3 Items entstehen
+  if (text.includes(',')) {
+    const commaItems = text.split(',').map((s) => s.trim()).filter(Boolean);
+    if (commaItems.length >= 3) return commaItems;
+  }
+
   return [...fallbackItems];
 }

@@ -18,7 +18,6 @@
       "Zähle immer die gleiche Zahl dazu:\n- a) 3, 3+3=6, 6+3=9, 9+3=12 ... bis du acht Zahlen hast\n- b) 7, 7+7=14, 14+7=21, 21+7=28 ... bis du acht Zahlen hast"
     ],
     "didaktischerHinweis": "Einfache Einstiegsaufgabe, die die Malreihen aktiviert. Die 7er-Reihe ist erfahrungsgemäß schwieriger und braucht mehr Übung.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schreibe die ersten acht Vielfachen auf.",
@@ -55,7 +54,6 @@
       "Teile die Zahl durch den Faktor:\n- a) 36 : 4 = 9 → 36 ist das Neunfache von 4\n- b) 48 : 6 = 8 → 48 ist das Achtfache von 6\n- c) 54 : 9 = 6 → 54 ist das Sechsfache von 9\n- d) 42 : 7 = 6 → 42 ist das Sechsfache von 7"
     ],
     "didaktischerHinweis": "Verknüpfung von Vielfachen-Begriff und Division. Das Kind übt, zwischen \"Xfache von Y\" und \"X · Y\" umzuschalten.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welches Vielfache ist es? Schreibe als Multiplikation.",
@@ -102,7 +100,6 @@
       "Prüfe: Geht die Division ohne Rest auf?\n- a) 45 : 5 = 9 ✓ → Vielfaches\n- b) 32 : 6 = 5 R 2 ✗ → kein Vielfaches\n- c) 56 : 8 = 7 ✓ → Vielfaches\n- d) 35 : 4 = 8 R 3 ✗ → kein Vielfaches\n- e) 27 : 9 = 3 ✓ → Vielfaches"
     ],
     "didaktischerHinweis": "Wahr-falsch-Format senkt die Einstiegshürde. Kinder müssen nur prüfen, nicht selbst Vielfache finden.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -159,7 +156,6 @@
       "Schreibe beide Reihen auf und markiere, was in beiden vorkommt:\n- V₃: 3, 6, 9, **12**, 15, 18, 21, **24**, 27, 30\n- V₄: 4, 8, **12**, 16, 20, **24**, 28, 32, 36, 40\n\nDie gemeinsamen Vielfachen sind 12 und 24 (und 36 wäre das nächste)."
     ],
     "didaktischerHinweis": "Gemeinsame Vielfache von 3 und 4 sind Vielfache von 12. Diese Erkenntnis wird nicht erzwungen, aber manche Kinder sehen das Muster.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -191,7 +187,6 @@
       "- a) 7 · 8 = 56\n- b) 4 · 12 = 48\n- c) 3 · 25 = 75"
     ],
     "didaktischerHinweis": "Einfache Textaufgabe zum Aufwärmen. Das Kind übersetzt Fachbegriffe in Rechnungen.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welche Zahl ist es?",
@@ -233,7 +228,6 @@
       "- a) 8 · 9 = 72, 3 · 7 = 21, 72 − 21 = 51\n- b) 5 · 11 = 55, 2 · 30 = 60, 55 + 60 = 115"
     ],
     "didaktischerHinweis": "Kombination aus Vielfachen und Grundrechenarten. Trainiert das Lesen mathematischer Fachsprache.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welche Zahl ist es?",
@@ -270,7 +264,6 @@
       "Beide Reihen aufschreiben und vergleichen:\n- V₆: 6, 12, **18**, 24, 30, **36**, 42, 48, **54**, 60\n- V₉: 9, **18**, 27, **36**, 45, **54**, 63, 72, 81, 90"
     ],
     "didaktischerHinweis": "Die gemeinsamen Vielfachen von 6 und 9 sind die Vielfachen von 18 (dem kgV). Die Beobachtung \"jedes dritte\" fördert Mustererkennung.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -302,7 +295,6 @@
       "Prüfe jede Zahl:\n- 25 : 3 = 8 R 1 ✗ (nicht durch 3 teilbar)\n- 30 : 3 = 10 ✓, 30 : 5 = 6 ✓ → Vielfaches von 3 UND 5\n- 35 : 3 = 11 R 2 ✗ (nicht durch 3 teilbar)\n- 40 : 3 = 13 R 1 ✗ (nicht durch 3 teilbar)"
     ],
     "didaktischerHinweis": "Multiple-Choice senkt die Hürde. Das Kind muss systematisch prüfen und lernt, zwei Bedingungen gleichzeitig zu beachten.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -347,7 +339,6 @@
       "- a) 50 : 6 = 8 R 2 → 8 volle Kartons\n- b) Rest = 2 Eier\n- c) Das nächstkleinere Vielfache von 6 ist 48 (= 8 · 6). Das nächstgrößere ist 54 (= 9 · 6)."
     ],
     "didaktischerHinweis": "Alltagsbezug macht Vielfache und Division mit Rest greifbar. Die Frage c) verbindet Vielfache und Division.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einen Eierkarton passen 6 Eier. Die Bäuerin hat 50 Eier.",
@@ -390,7 +381,6 @@
       "- a) 20 · 5 = 100 ✓\n- b) Jedes Vielfache von 10: 10, 20, 30 ... sind alle durch 5 teilbar, weil 10 = 2 · 5 ✓\n- c) Gegenbeispiel: 3 ist Vielfaches von 3, aber 3 : 6 geht nicht auf → falsch\n- d) 4 · 1 = 4 (gerade), 4 · 2 = 8 (gerade), ... jedes Vielfache von 4 enthält den Faktor 2 → immer gerade ✓"
     ],
     "didaktischerHinweis": "Fördert logisches Denken und das Argumentieren mit Gegenbeispielen. Die Unterscheidung \"jedes Vielfache von A ist auch Vielfaches von B\" vs. umgekehrt ist anspruchsvoll.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -441,7 +431,6 @@
       "- a) 7er-Reihe: 7, 14, 21, 28, 35, **42**, **49**, 56. Zwischen 40 und 50: 42 und 49.\n- b) 8er-Reihe: 8, 16, 24, 32, 40, 48, **56**, **64**, 72. Zwischen 50 und 70: 56 und 64.\n- c) Vielfache von 6: 6, 12, 18, 24, 30. Vielfache von 4: 4, 8, 12, 16, 20, 24, 28. Beide und < 30: 12 und 24."
     ],
     "didaktischerHinweis": "Zahlenrätsel mit mehreren Bedingungen fördern systematisches Eingrenzen. Bei c) entsteht natürlich die Idee der gemeinsamen Vielfachen.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde die Zahl.",
@@ -484,7 +473,6 @@
       "- a) 5 · 60 = 300. 300 + 3 · Zahl = 330. 3 · Zahl = 30. Zahl = 10.\n- b) 9 · 100 = 900. 900 − 6 · Zahl = 750. 6 · Zahl = 150. Zahl = 25."
     ],
     "didaktischerHinweis": "Rückwärts rechnen mit Vielfachen verbindet Multiplikation, Division und Textverständnis. Anspruchsvoller als direkte Berechnung.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wie heißt die Zahl?",
@@ -521,7 +509,6 @@
       "- a) 8 · 7 = 56, 3 · 90 = 270, 56 + 270 = 326\n- b) 6 · 50 = 300, 9 · 20 = 180, 300 − 180 = 120\n- c) 4 · 125 = 500, 2 · 200 = 400, 500 − 400 = 100"
     ],
     "didaktischerHinweis": "Kombinierte Rechnung mit größeren Zahlen. Die Kinder müssen die Texte systematisch in Rechnungen übersetzen und auf die Rechenart achten.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne aus.",
@@ -563,7 +550,6 @@
       "- V₄ bis 60: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60\n- V₆ bis 60: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60\n- Gemeinsame: 12, 24, 36, 48, 60 (= Vielfache von 12)"
     ],
     "didaktischerHinweis": "Visuell-systematische Aufgabe, die den Mengen-Gedanken (Schnittmenge, Differenzmenge) spielerisch einführt. Fördert genaues Arbeiten.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf dem Zahlenstrahl von 0 bis 60 sind alle Vielfachen von 4 und alle Vielfachen von 6 markiert.",
@@ -606,7 +592,6 @@
       "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 → 1 + 6 = 7 (ungerade) ✓\n   - 96: 9 + 6 = 15 → 1 + 5 = 6 — aber 15 selbst ist ungerade ✓"
     ],
     "didaktischerHinweis": "Mehrstufiges Rätsel mit drei Bedingungen. Das Kind muss systematisch eingrenzen: erst Vielfache finden, dann filtern.",
-    "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ich denke mir eine Zahl.\n\nSie ist ein Vielfaches von 8.\nSie ist größer als 70 und kleiner als 100.\nIhre Quersumme ist ungerade.",
@@ -638,14 +623,7 @@
       "Bei a): 8 : 1 = 8 → Teiler: 1 und 8. 8 : 2 = 4 → Teiler: 2 und 4. Probiere 8 : 3 = ___. Geht es auf? Falls ja, hast du weitere Teiler.",
       "Probiere von 1 aufwärts — Teiler kommen als Paare:\n- a) 8 : 1 = 8 → Paar: 1 und 8. 8 : 2 = 4 → Paar: 2 und 4. 8 : 3 = 2 R 2 ✗. Fertig! → {1, 2, 4, 8}\n- b) 15 : 1 = 15 → 1 und 15. 15 : 3 = 5 → 3 und 5. 15 : 2 = 7 R 1 ✗. → {1, 3, 5, 15}\n- c) 10 : 1 = 10 → 1 und 10. 10 : 2 = 5 → 2 und 5. → {1, 2, 5, 10}"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Leichter Einstieg mit kleinen, überschaubaren Zahlen. Die Paar-Strategie wird hier natürlich angewendet.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Finde alle Teiler.",
@@ -686,14 +664,7 @@
       "Bei b): 33 : 5 = ? Rechne: 5 · 6 = 30, 5 · 7 = 35. 33 liegt dazwischen → es gibt einen Rest → 5 ist ___ Teiler von 33.",
       "Rechne die Division aus. Bleibt kein Rest? Dann ist die Zahl ein Teiler.\n- a) 28 : 4 = 7 ✓\n- b) 33 : 5 = 6 R 3 ✗\n- c) 63 : 7 = 9 ✓\n- d) 25 : 3 = 8 R 1 ✗\n- e) 81 : 9 = 9 ✓"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Wahr-falsch senkt die Einstiegshürde. Das Kind prüft nur, statt selbst alle Teiler zu finden.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -749,14 +720,7 @@
       "Bei b): 30 : 1 = 30 → Paar: 1, 30. 30 : 2 = 15 → Paar: 2, 15. 30 : 3 = ___ → Paar: 3, ___. 30 : 4 = ? (Rest?) 30 : 5 = ___ → Paar: 5, ___. Fertig!",
       "Systematisch mit Paaren:\n- a) 24:1=24, 24:2=12, 24:3=8, 24:4=6 → ab hier wiederholen sich die Partner → {1, 2, 3, 4, 6, 8, 12, 24}\n- b) 30:1=30, 30:2=15, 30:3=10, 30:5=6 → {1, 2, 3, 5, 6, 10, 15, 30}"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Zahlen mit vielen Teilern (24 hat 8 Teiler) sind gutes Übungsmaterial. Die Paar-Strategie wird gefestigt.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Finde alle Teiler.",
@@ -792,14 +756,7 @@
       "Bei a): 16:1=16 (Paar: 1, 16), 16:2=8 (Paar: 2, 8), 16:4=4 (Paar: 4, 4 — aber 4 nur einmal zählen!). Sortiere: 1, 2, 4, 8, 16 → ___ Teiler.",
       "- a) 16: 1×16, 2×8, 4×4. Achtung: 4 zählt nur einmal! → {1, 2, 4, 8, 16} = 5 Teiler\n- b) 21: 1×21, 3×7. → {1, 3, 7, 21} = 4 Teiler"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Zählen der Teiler fördert sorgfältiges Arbeiten. Die Besonderheit der \"Quadratzahl\" 16 (wo 4 × 4 = 16) ist ein Lernmoment.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler und zähle sie.",
@@ -841,14 +798,7 @@
       "Bei a): Teiler von 12: 1, 2, 3, 4, 6, 12. Jetzt prüfe jeden bei 18: 18:1=18 ✓, 18:2=9 ✓, 18:3=6 ✓, 18:4=4 R 2 ✗, 18:6=3 ✓, 18:12=1 R 6 ✗. Gemeinsam: 1, 2, 3, ___",
       "1. Alle Teiler jeder Zahl aufschreiben.\n2. Die Teiler vergleichen und gemeinsame markieren."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Vorstufe zum ggT. Das systematische Vergleichen zweier Teilermengen ist eine zentrale mathematische Tätigkeit.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde die Teiler beider Zahlen. Welche Teiler haben sie gemeinsam?",
@@ -885,14 +835,7 @@
       "Teiler von 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Zwischen 4 und 10 liegen: 4, 6, ___. Bei 4er-Gruppen: 36 : 4 = ___ Gruppen.",
       "Die möglichen Gruppengrößen sind die Teiler von 36.\nEinschränkung auf 4-10 Kinder: 4, 6, 9."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Alltagsbezug mit realistischer Einschränkung. Das Kind muss Teiler finden UND dann nach Bedingung filtern.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Beim Sportfest sollen 36 Kinder in gleich große Gruppen aufgeteilt werden.",
@@ -934,14 +877,7 @@
       "Bei e): 36:1=36, 36:2=18, 36:3=12, 36:4=9, 36:6=6. Alle Partner auflisten: 1,2,3,4,6,9,12,18,36. Zähle: ___",
       "Jede Aussage einzeln prüfen:\n- a) Jede Zahl N : 1 = N, kein Rest → 1 ist immer Teiler ✓\n- b) 15: 1, 3, 5, 15 → 4 Teiler ✓\n- c) 6 : 4 = 1 R 2 → 6 ist gerade, aber NICHT durch 4 teilbar → falsch\n- d) 56 : 7 = 8 ✓\n- e) 36: 1, 2, 3, 4, 6, 9, 12, 18, 36 → 9 Teiler ✓"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Aussage c) ist ein typischer Denkfehler. \"Gerade\" bedeutet nur \"durch 2 teilbar\", nicht \"durch 4 teilbar\".",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -997,14 +933,7 @@
       "Bei d): 24:1=24, 24:2=12, 24:3=8, 24:4=6. Dann: 24:5=? (Rest!). 4 Paare × 2 = ___ Teiler.",
       "Alle Teiler jeder Zahl systematisch finden und zählen."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Vergleichsaufgabe, die systematisches Arbeiten erfordert. Die Erkenntnis, dass 24 besonders viele Teiler hat, ist interessant.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler und zähle sie. Welche Zahl hat die meisten Teiler?",
@@ -1051,14 +980,7 @@
       "Bei a): Zahlen 20-30, die durch 4 teilbar sind: 20, 24, 28. Welche davon sind auch durch 3 teilbar? 20:3=? 24:3=? 28:3=?",
       "- a) Zahlen 20-30, teilbar durch 3 UND 4 UND 6: 21(÷4✗), 22(÷3✗), 23, 24(÷3=8✓, ÷4=6✓, ÷6=4✓), 25, 26, 27(÷4✗), 28(÷3✗), 29 → 24\n- b) Zahlen 30-50, teilbar durch 2 UND 3 UND 5: Durch 2 UND 5 → Einerstelle muss 0 sein → 30, 40, 50. 30:3=10✓, 40:3=13R1✗ → 30"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Systematisches Ausschlussverfahren mit mehreren Bedingungen. Die Strategie \"mit der strengsten Bedingung beginnen\" ist effizient.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Finde die Zahl.",
@@ -1094,14 +1016,7 @@
       "Bei b): 14 : 2 = 7 (kein Rest!). Also hat 14 mehr als 2 Teiler: 1, 2, 7, 14. Bei c): 17 : 2 = 8 R 1, 17 : 3 = 5 R 2, 17 : 4 = 4 R 1 ... Findest du einen Teiler?",
       "Probiere für jede Zahl systematisch: Ist sie durch 2, 3, 4, 5, ... teilbar?\n- 11: 11:2=5R1, 11:3=3R2, 11:4=2R3 → nur 1 und 11\n- 14: 14:2=7 → auch durch 2 und 7 teilbar\n- 17: 17:2=8R1, 17:3=5R2, 17:4=4R1 → nur 1 und 17\n- 19: 19:2=9R1, 19:3=6R1, 19:4=4R3 → nur 1 und 19\n- 21: 21:3=7 → auch durch 3 und 7 teilbar"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Spielerische Einführung des Primzahl-Begriffs. Das Kind entdeckt selbst, dass manche Zahlen \"besonders wenige\" Teiler haben.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler der folgenden Zahlen. Welche Zahlen haben genau ZWEI Teiler (nur 1 und sich selbst)?",
@@ -1153,14 +1068,7 @@
       "Durch 4 teilbar (35-45): 36, 40, 44. Prüfe durch 3: 36:3=12✓, 40:3=___. Die Zahl ist ___.",
       "1. Zahlen zwischen 35 und 45: 36, 37, 38, 39, 40, 41, 42, 43, 44\n2. Teilbar durch 2 UND 3 UND 4:\n   - 36: 36:2=18✓, 36:3=12✓, 36:4=9✓ → passt!\n   - 38: 38:3=12R2 ✗\n   - 40: 40:3=13R1 ✗\n   - 42: 42:4=10R2 ✗\n   - 44: 44:3=14R2 ✗\n3. Nur 36 erfüllt alle drei Bedingungen."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Rätselformat motiviert. Die Erkenntnis \"durch 4 teilbar → automatisch durch 2 teilbar\" ist ein wertvoller logischer Schluss.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wer bin ich?",
@@ -1192,14 +1100,7 @@
       "Bei a): 32:1=32, 32:2=16, 32:4=8. Teiler: 1, 2, 4, 8, 16, 32. Bei b): 32:6 = 5 Rest ___",
       "- a) Teiler von 32: 1, 2, 4, 8, 16, 32. An so viele Freunde kann sie gerecht teilen.\n- b) 32 : 6 = 5 R 2 → 6 ist kein Teiler von 32, es bleiben 2 Stücke übrig."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Alltagsbezug Schokolade. Teil b) zeigt: Nicht jede Aufteilung geht auf — das macht Teiler greifbar.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Tafel Schokolade hat 32 Stücke. Philippa möchte sie gerecht an ihre Freunde verteilen, sodass nichts übrig bleibt.",
@@ -1236,14 +1137,7 @@
       "Probiere die größeren geraden Zahlen zuerst: 18: Teiler 1,2,3,6,9,18 → 6 Teiler! 16: Teiler 1,2,4,8,16 → 5 Teiler. 14: Teiler 1,2,7,14 → 4 Teiler. 12: Teiler 1,2,3,4,6,12 → ___ Teiler!",
       "Gerade Zahlen unter 20: 2, 4, 6, 8, 10, 12, 14, 16, 18.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n- 16: {1,2,4,8,16} → 5 Teiler\n- 18: {1,2,3,6,9,18} → 6 Teiler ✓\n\nHm, auch 18 hat 6 Teiler! Aber die Aufgabe sagt \"die Zahl\" (Einzahl) — beide Antworten (12 und 18) sind akzeptabel."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Rückwärts denken: Statt Teiler zu finden, muss das Kind die Zahl finden. Das ist anspruchsvoller und fördert Flexibilität.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde die Zahl.",
@@ -1275,14 +1169,7 @@
       "Bei d): \"9 ist ein Vielfaches von 27\" → das hieße 27 · ? = 9. Geht das? 27 ist schon größer als 9! Also stimmt das ___.",
       "Der Zusammenhang: Wenn A ein Teiler von B ist, dann ist B ein Vielfaches von A. Und umgekehrt.\n- a) 6 ist Teiler von 42 ↔ 42 ist Vielfaches von 6 ✓\n- b) 24 = 3 · 8 → 24 ist Vielfaches von 8 ↔ 8 ist Teiler von 24 ✓\n- c) 35 = 7 · 5 → 35 ist Vielfaches von 5 ✓\n- d) 9 ist KEIN Vielfaches von 27 (9 < 27). 27 ist ein Vielfaches von 9! → falsch"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Verbindung Teiler ↔ Vielfaches explizit machen. Aufgabe d) zeigt den häufigen Fehler der Verwechslung von \"Teiler von\" und \"Vielfaches von\".",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -1332,14 +1219,7 @@
       "Gemeinsame Teiler von 48 und 36: 1, 2, 3, 4, 6, 12. Der GRÖSSTE davon ist ___. Bei ___ Tütchen: 48 : ___ = ___ Gummibärchen pro Tütchen.",
       "Die Anzahl der Tütchen muss sowohl 48 als auch 36 teilen.\n- Teiler von 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48\n- Teiler von 36: 1, 2, 3, 4, 6, 9, 12, 18, 36\n- Gemeinsame Teiler: 1, 2, 3, 4, 6, 12\n- Größter gemeinsamer Teiler: 12\n- Bei 12 Tütchen: 48:12=4 Gummibärchen, 36:12=3 Schokolinsen pro Tütchen."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Alltagsnahe Anwendung des ggT. Das Kind sucht den größten gemeinsamen Teiler, ohne den Fachbegriff kennen zu müssen.",
-    "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Für ihre Geburtstagsparty hat Emma 48 Gummibärchen und 36 Schokolinsen. Sie möchte Tütchen packen, wobei jedes Tütchen gleich viele Gummibärchen UND gleich viele Schokolinsen enthalten soll. Kein Süßigkeit soll übrig bleiben.",
@@ -1378,7 +1258,6 @@
       null
     ],
     "didaktischerHinweis": "Sehr leichte Einstiegsaufgaben mit glatten Zerlegungen. Ideal zum Aufwärmen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Zerlege den Dividenden in gut teilbare Teile.",
@@ -1441,7 +1320,6 @@
       null
     ],
     "didaktischerHinweis": "Hier ist die Zerlegung nicht mehr so offensichtlich (76 = 40 + 36, nicht 70 + 6). Das Kind muss flexibler denken.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Schreibe den Zerlegungsweg auf.",
@@ -1504,7 +1382,6 @@
       null
     ],
     "didaktischerHinweis": "Lückenformat fördert das Verständnis der Zerlegungsmethode. Das Kind sieht die Struktur und ergänzt, statt selbst zu zerlegen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1542,7 +1419,6 @@
       null
     ],
     "didaktischerHinweis": "Dreistellige Dividenden mit \"glatten\" Zahlen (durch 10 teilbar) als Übergang. Das Kind lernt, auch Hunderterwerte zu zerlegen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich.",
@@ -1605,7 +1481,6 @@
       null
     ],
     "didaktischerHinweis": "Zeigt explizit, dass es mehrere korrekte Rechenwege gibt. Fördert Flexibilität und Verständnis der Zerlegungsmethode.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne 84 : 6 auf zwei verschiedene Wege halbschriftlich.",
@@ -1658,7 +1533,6 @@
       null
     ],
     "didaktischerHinweis": "Umkehraufgaben festigen den Zusammenhang Division ↔ Multiplikation.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1696,7 +1570,6 @@
       null
     ],
     "didaktischerHinweis": "Dreistellige Zahlen, bei denen die Zerlegung nicht offensichtlich ist. Fördert das Suchen nach \"geschickten\" Vielfachen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Wähle geschickt deine Zerlegung.",
@@ -1759,7 +1632,6 @@
       null
     ],
     "didaktischerHinweis": "Leichte Einstiegsaufgaben für Division mit Rest. Zweistellige Dividenden mit kleinen Resten.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Es bleibt ein Rest.",
@@ -1816,7 +1688,6 @@
       "- a) 371 : 7 → 350 : 7 = 50, 21 : 7 = 3 → 50 + 3 = 53\n- b) 574 : 7 → 560 : 7 = 80, 14 : 7 = 2 → 80 + 2 = 82\n- c) 315 : 7 → 280 : 7 = 40, 35 : 7 = 5 → 40 + 5 = 45"
     ],
     "didaktischerHinweis": "Die Vielfachen-Liste gibt Sicherheit. Das Kind lernt, die \"Startrampe\" für die Zerlegung abzulesen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Die Vielfachen helfen dir beim ersten Schritt.\n\nVielfache von 7: 70, 140, 210, 280, 350, 420, 490, 560, 630, 700",
@@ -1873,7 +1744,6 @@
       "- a) 396 : 6 → 360 : 6 = 60, 36 : 6 = 6 → 60 + 6 = 66\n- b) 492 : 4 → 400 : 4 = 100, 92 : 4 → 80 : 4 = 20, 12 : 4 = 3 → 100 + 20 + 3 = 123\n- c) 738 : 9 → 720 : 9 = 80, 18 : 9 = 2 → 80 + 2 = 82"
     ],
     "didaktischerHinweis": "Übergang zum selbstständigen Zerlegen ohne Hilfsliste. Das Kind baut sich die Vielfachen im Kopf zusammen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich (ohne Vielfachen-Liste).",
@@ -1930,7 +1800,6 @@
       "- a) 4.560 : 8 → 4.000 : 8 = 500, 560 : 8 = 70 → 500 + 70 = 570\n- b) 2.730 : 3 → 2.700 : 3 = 900, 30 : 3 = 10 → 900 + 10 = 910\n- c) 5.425 : 5 → 5.000 : 5 = 1.000, 400 : 5 = 80, 25 : 5 = 5 → 1.000 + 80 + 5 = 1.085"
     ],
     "didaktischerHinweis": "Vierstellige Dividenden mit glatter Zerlegung. Schrittweiser Aufbau zur schriftlichen Division.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich.",
@@ -1987,7 +1856,6 @@
       "- a) 389 : 6 → 360 : 6 = 60, 24 : 6 = 4, Rest: 389−360−24 = 5 → 64 R 5\n- b) 527 : 4 → 400 : 4 = 100, 120 : 4 = 30, 4 : 4 = 1, Rest: 527−400−120−4 = 3 → 131 R 3\n- c) 845 : 9 → 810 : 9 = 90, 27 : 9 = 3, Rest: 845−810−27 = 8 → 93 R 8"
     ],
     "didaktischerHinweis": "Die Probe bei Division mit Rest ist ein zentrales Kontrollwerkzeug. Kinder vergessen oft, den Rest zu addieren.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Rechne halbschriftlich. Mache die Probe: Ergebnis · Divisor + Rest = Dividend.",
@@ -2044,7 +1912,6 @@
       "- a) Kopfrechnen: 36 Zehner : 6 = 6 Zehner = 60\n- b) Halbschriftlich: 473:8 → 400:8=50, 72:8=9, Rest 473−400−72=1 → 59 R 1\n- c) Kopfrechnen: 9 Hunderter : 3 = 3 Hunderter = 300\n- d) Halbschriftlich: 1.246:7 → 700:7=100, 490:7=70, 56:7=8 → 178"
     ],
     "didaktischerHinweis": "Metakognitive Aufgabe: Das Kind entscheidet selbst über den Rechenweg. Fördert Effizienz und Selbsteinschätzung.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Welche Aufgaben kannst du im Kopf lösen, welche rechnest du halbschriftlich? Entscheide und rechne.",
@@ -2111,7 +1978,6 @@
       "- a) 132 : 4 → 120 : 4 = 30, 12 : 4 = 3 → 33\n- b) 1.320 : 4 → gleiche Grundaufgabe × 10 → 330\n- c) 13.200 : 4 → gleiche Grundaufgabe × 100 → 3.300\n\nMuster: Wird der Dividend 10-mal so groß, wird das Ergebnis 10-mal so groß!"
     ],
     "didaktischerHinweis": "Muster erkennen: \"Faktor 10 beim Dividenden → Faktor 10 beim Quotienten\". Vertieft Stellenwertverständnis.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne und vergleiche. Was fällt dir auf?",
@@ -2153,7 +2019,6 @@
       "Umkehrung nutzen:\n- a) 432 · ___ = 3.456 → 432 · 8 = 3.456 → Divisor = 8\n- b) 700 · ___ = 4.900 → 700 · 7 = 4.900 → Divisor = 7\n- c) 504 · ___ = 2.016 → 504 · 4 = 2.016 → Divisor = 4"
     ],
     "didaktischerHinweis": "Umkehraufgaben mit größeren Zahlen. Schätzen und Probieren ist hier eine wichtige Strategie.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -2191,7 +2056,6 @@
       null
     ],
     "didaktischerHinweis": "Sehr leichte Einstiegsaufgaben ohne Überträge. Jede Stelle geht glatt auf (Rest 0). Ideal zum Erlernen des Algorithmus.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich Schritt für Schritt. Frage dich bei jeder Stelle: \"Wie oft passt der Divisor hinein?\"",
@@ -2254,7 +2118,6 @@
       null
     ],
     "didaktischerHinweis": "Erste Aufgaben mit Überträgen, aber ohne Rest am Ende. Das Kind übt den vollständigen Algorithmus.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Achte auf die Überträge!",
@@ -2317,7 +2180,6 @@
       null
     ],
     "didaktischerHinweis": "Die Probe als Multiplikation ist ein zentrales Kontrollwerkzeug. Hier wird sie explizit eingefordert.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Kontrolliere mit der Probe (Ergebnis · Divisor = Dividend).",
@@ -2370,7 +2232,6 @@
       null
     ],
     "didaktischerHinweis": "Bei b) versteckt sich eine Null im Ergebnis — der häufigste Fehler bei der schriftlichen Division.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich.",
@@ -2433,7 +2294,6 @@
       null
     ],
     "didaktischerHinweis": "Explizite Übung zum Erkennen und Notieren der Null. Zwei verschiedene Situationen: Null in der Mitte und Null am Ende.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Achtung — es können Nullen im Ergebnis vorkommen!",
@@ -2486,7 +2346,6 @@
       null
     ],
     "didaktischerHinweis": "Lückendivisionen erfordern die sichere Anwendung der Probe (Multiplikation). Fördert flexibles Denken zwischen Division und Multiplikation.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -2524,7 +2383,6 @@
       null
     ],
     "didaktischerHinweis": "Einstieg in die schriftliche Division mit Rest. Die erweiterte Probeformel (· Divisor + Rest) wird explizit geübt.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Kontrolliere mit der Probe: Ergebnis · Divisor + Rest = Dividend.",
@@ -2577,7 +2435,6 @@
       null
     ],
     "didaktischerHinweis": "Verbindung von Teilbarkeitsregeln und schriftlicher Division. Die Vorhersage des Rests motiviert und dient als Kontrolle.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Prüfe vorher mit den Teilbarkeitsregeln: Wird es einen Rest geben?",
@@ -2630,7 +2487,6 @@
       null
     ],
     "didaktischerHinweis": "Aufgaben mit MEHREREN Nullen im Ergebnis. Der häufigste Fehler bei der schriftlichen Division. Stellenzahl-Kontrolle als Hilfsmittel.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Achtung: Nullen im Ergebnis!",
@@ -2693,7 +2549,6 @@
       null
     ],
     "didaktischerHinweis": "Fünfstellige Dividenden mit versteckter Null. Die Probe ist als Kontrollwerkzeug unverzichtbar.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Kontrolliere mit der Probe.",
@@ -2746,7 +2601,6 @@
       null
     ],
     "didaktischerHinweis": "Fehleranalyse fördert kritisches Denken. Der Stellenzahl-Check (c) ist ein schneller Plausibilitätstest.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Stimmt das Ergebnis? Prüfe mit der Probe und korrigiere, falls nötig.",
@@ -2797,7 +2651,6 @@
       null
     ],
     "didaktischerHinweis": "Einfache Sachaufgabe, die den Alltagsbezug der Division herstellt. Das Kind muss den Text in eine Rechnung übersetzen.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Kinosaal hat 8 gleich lange Reihen. Insgesamt gibt es 2.184 Sitzplätze.",
@@ -2836,7 +2689,6 @@
       null
     ],
     "didaktischerHinweis": "Vergleichsaufgabe mit zwei schriftlichen Divisionen und anschließender Differenzberechnung. Mehrstufige Problemlösung.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Firma verteilt Jahresboni:\n\n- Abteilung A: 34.272 Euro auf 6 Mitarbeiter\n- Abteilung B: 31.360 Euro auf 5 Mitarbeiter",
@@ -2875,7 +2727,6 @@
       null
     ],
     "didaktischerHinweis": "Doppelte Nullen im Ergebnis sind der schwierigste Fall. Explizites Üben baut Sicherheit auf.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Dividiere schriftlich. Achte besonders auf Nullen im Ergebnis!",
@@ -2928,7 +2779,6 @@
       null
     ],
     "didaktischerHinweis": "Explizite Verknüpfung von Division und Multiplikation als Umkehroperationen. Bei b) geht jede Stelle glatt auf — das gibt Sicherheit.",
-    "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Löse die Division und schreibe die passende Multiplikation (Probe) dazu.",

@@ -940,7 +940,7 @@
   },
   {
     "titel": "Rechenkette hilft — Einkauf auf dem Schulfest",
-    "typ": "schritt",
+    "typ": "textaufgabe",
     "thema": "Lösungshilfen anwenden",
     "schwierigkeit": "gelb",
     "buchseite": 114,
@@ -958,28 +958,14 @@
     ],
     "didaktischerHinweis": "Die Rechenkette strukturiert eine mehrstufige Subtraktion. Kinder sehen den Geldbetrag Schritt für Schritt schrumpfen — das macht den Prozess greifbar.",
     "parsed": {
-      "typ": "schritt",
-      "anweisung": "Auf dem Schulfest kauft Tom:",
-      "teilaufgaben": [
+      "typ": "textaufgabe",
+      "anweisung": "Auf dem Schulfest kauft Tom:\n- 1 Bratwurst: 2 Euro\n- 1 Waffel: 1 Euro\n- 1 Getränk: 2 Euro\n\nEr hat 10 Euro dabei.\n\nLöse die Aufgabe mit einer Rechenkette:\n10 → -2 → ___ → -1 → ___ → -2 → ___",
+      "kontext": "Auf dem Schulfest kauft Tom:\n- 1 Bratwurst: 2 Euro\n- 1 Waffel: 1 Euro\n- 1 Getränk: 2 Euro\n\nEr hat 10 Euro dabei.\n\nLöse die Aufgabe mit einer Rechenkette:\n10 → -2 → ___ → -1 → ___ → -2 → ___",
+      "items": [
         {
           "label": "1",
-          "schritte": [
-            {
-              "label": "1",
-              "frage": "1 Bratwurst: 2 Euro",
-              "antwort": ""
-            },
-            {
-              "label": "2",
-              "frage": "1 Waffel: 1 Euro",
-              "antwort": ""
-            },
-            {
-              "label": "3",
-              "frage": "1 Getränk: 2 Euro",
-              "antwort": ""
-            }
-          ]
+          "frage": "Wie viel Geld hat Tom noch übrig?",
+          "antwort": "5"
         }
       ]
     }

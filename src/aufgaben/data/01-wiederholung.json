@@ -24,7 +24,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das Verständnis des Stellenwertsystems. Kinder müssen erkennen, dass fehlende Stellenwerte als 0 notiert werden (z.B. 1.007 hat null Hunderter und null Zehner). Das ist eine häufige Fehlerquelle.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welche Zahl ist es? Meine Zahl hat ...",
@@ -77,7 +76,6 @@
       null
     ],
     "didaktischerHinweis": "Das Zerlegen von Zahlen festigt das Stellenwertverständnis und ist Grundlage für alle schriftlichen Rechenverfahren. Besonders die Zahl 1.908 (mit 0 Zehnern) zeigt, dass auch leere Stellen einen Stellenwert haben.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Zerlege in Tausenderzahlen, Hunderterzahlen, Zehnerzahlen und Einerzahlen.",
@@ -120,7 +118,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das Lesen und Übersetzen von Zahlwörtern. Die Reihe zeigt bewusst ähnliche Wörter (siebzehn vs. siebzig vs. sieben), um die Unterscheidung zwischen Zehnern und Einern zu schärfen.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schreibe als Zahl.",
@@ -178,7 +175,6 @@
       null
     ],
     "didaktischerHinweis": "Zahlenrätsel fördern das logische Denken und das systematische Probieren. Die Kinder lernen, Bedingungen schrittweise abzuarbeiten und den Zahlenraum gezielt einzugrenzen.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Welche Zahl ist es?",
@@ -227,7 +223,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe verknüpft Stellenwertverständnis mit dem Konzept \"doppelt/halb\". Kinder, die sich schwertun, sollten zuerst die bekannten Werte in die Stellenwerttafel eintragen und dann schrittweise die fehlenden berechnen.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welche Zahl ist es? Meine Zahl hat ...",
@@ -270,7 +265,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe bildet die Basis für das Verständnis des Stellenwertsystems über konkretes Material. Die Verbindung zwischen haptischem Material (Dienes-Blöcke) und abstrakter Zahldarstellung ist zentral für visuelle Lerner.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schreibe die Zahl in die Stellenwerttafel. Wie heißt die Zahl?",
@@ -323,7 +317,6 @@
       null
     ],
     "didaktischerHinweis": "Offene Aufgaben mit mehreren Lösungen fördern das systematische Denken. Kinder lernen, Bedingungen zu kombinieren und alle Möglichkeiten zu finden — nicht nur eine. Visuelles Hilfsmittel: Stellenwerttafel zum Ausprobieren.",
-    "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Welche Zahlen können es sein?",
@@ -367,7 +360,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe macht den Stellenwert greifbar: Dasselbe Plättchen hat je nach Position einen anderen Wert. Das ist das Kernprinzip des dekadischen Zahlensystems.",
-    "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Lege die Zahl 350 in eine Stellenwerttafel. Lege immer zu 350 ein Plättchen dazu. Welche Zahlen können entstehen?",
@@ -420,7 +412,6 @@
       null
     ],
     "didaktischerHinweis": "Hier wird das Prinzip aus Aufgabe 8 auf verschiedene Zahlen angewendet. Bei Zahlen wie 704 (mit 0 Zehnern) wird das Plättchen bei Z besonders spannend: Aus 0 Zehnern wird 1 Zehner.",
-    "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Jette legt eine Zahl in die Stellenwerttafel. Justus legt ein Plättchen dazu. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
@@ -473,7 +464,6 @@
       null
     ],
     "didaktischerHinweis": "Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzliche Überlegung: Gibt es in der Spalte überhaupt ein Plättchen? Bei Zahlen mit 0er-Stellen (wie 1.870 mit E=0) müssen Kinder erkennen, dass nicht immer 4 Möglichkeiten existieren.",
-    "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
@@ -527,7 +517,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — eine wichtige mathematische Kompetenz. Kinder müssen die Operation umkehren und systematisch alle Möglichkeiten durchgehen.",
-    "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.",
@@ -581,7 +570,6 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der Übertrag bei b) ist wichtig: Wenn ein Stellenwert über 9 hinausgeht, muss umgetauscht werden — das bereitet auf schriftliche Rechenverfahren vor.",
-    "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.",
@@ -836,7 +824,6 @@
       null
     ],
     "didaktischerHinweis": "Schriftliches Addieren ist ein algorithmisches Verfahren. Häufige Fehler: Übertrag vergessen oder falsch stellengerecht untereinander schreiben. Visuelle Hilfe: Stellenwerte mit Farben markieren (E=gelb, Z=grün, H=blau).",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und addiere.",
@@ -899,7 +886,6 @@
       null
     ],
     "didaktischerHinweis": "Bei diesen Aufgaben gibt es in mehreren Spalten Überträge. Die Kinder sollen den Übertrag zuverlässig notieren (klein oben drüber schreiben) und in der nächsten Spalte mitrechnen. Dienes-Blöcke helfen: 10 Einer → 1 Zehner bündeln.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und addiere.",
@@ -962,7 +948,6 @@
       null
     ],
     "didaktischerHinweis": "Mit drei Summanden steigt die Komplexität, weil der Übertrag auch 2 werden kann. Wichtig: Kürzere Zahlen müssen richtig eingerückt werden (89 hat keinen Hunderter → H-Spalte bleibt leer).",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und addiere.",
@@ -1025,7 +1010,6 @@
       null
     ],
     "didaktischerHinweis": "Fehler finden fördert die Selbstkontrolle. Kinder lernen, Ergebnisse kritisch zu prüfen statt blindlings abzuschreiben. Das Vertauschen von Ziffern ist ein häufiger Fehler bei schriftlichen Verfahren.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.",
@@ -1076,7 +1060,6 @@
       null
     ],
     "didaktischerHinweis": "Aufgabe c) mit der zweistelligen Zahl 88 erfordert korrektes Einrücken. Kinder müssen erkennen, dass eine fehlende Hunderterstelle wie 0 behandelt wird.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und addiere.",
@@ -1133,7 +1116,6 @@
       "Schriftliches Subtrahieren — von rechts nach links:\n- a) E: 9-3=6, Z: 8-5=3, H: 7-2=5 → 536\n- b) E: 4-1=3, Z: 5-2=3, H: 6-3=3 → 333\n- c) E: 8-5=3, Z: 9-7=2, H: 4-1=3 → 323"
     ],
     "didaktischerHinweis": "Diese Einstiegsaufgaben kommen ohne Entbündelung aus (die obere Ziffer ist immer größer). Das festigt das Grundverfahren, bevor es mit Entbündelung schwieriger wird.",
-    "erklaerungBild": "assets/erklaerungen/s13-merkkasten-subtraktion.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und subtrahiere.",
@@ -1190,7 +1172,6 @@
       "Wenn die untere Ziffer größer ist als die obere, muss entbündelt werden:\n- a) E: 3-8 geht nicht! Entbündeln: 1 Zehner → 10 Einer. 13-8=5. Z: 1-5 geht nicht! (2-1=1 wegen Entbündelung). Entbündeln: 1 Hunderter → 10 Zehner. 11-5=6. H: 6-1=5 → 565\n- b) E: 1-7 geht nicht. 11-7=4, Entbündelung. Z: 3-6 geht nicht. 13-6=7, Entbündelung. H: 7-3=4 → 474\n- c) E: 2-5 geht nicht. 12-5=7, Entbündelung. Z: 0-8 geht nicht. 10-8=2, Entbündelung. H: 5-2=3 → 327"
     ],
     "didaktischerHinweis": "Die Entbündelung ist das schwierigste Konzept beim schriftlichen Subtrahieren. Dienes-Blöcke machen es greifbar: Eine Zehnerstange wird in 10 Einerwürfel zerlegt. Kinder mit Schwierigkeiten sollten das erst mit Material üben, bevor sie es auf Papier übertragen.",
-    "erklaerungBild": "assets/erklaerungen/s13-merkkasten-subtraktion.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und subtrahiere.",
@@ -1247,7 +1228,6 @@
       "- a) E: 7-2=5. Z: 4-8 geht nicht, 14-8=6, Entbündelung. H: 4-3=1 (5-1=4, 4-3=1). T: 1 → 1.165\n- b) E: 4-9 geht nicht, 14-9=5, Entbündelung. Z: 1-5 geht nicht (2-1=1), 11-5=6, Entbündelung. H: 6-6=0 (7-1=6). T: 1 → 1.065\n- c) E: 0-4 geht nicht, 10-4=6, Entbündelung. Z: 2-9 geht nicht (3-1=2), 12-9=3, Entbündelung. H: 7 (8-1=7). T: 1 → 1.736"
     ],
     "didaktischerHinweis": "Bei vierstelligen Zahlen kommen keine neuen Verfahrensschritte hinzu, aber die Komplexität steigt durch mehr Stellen und ggf. Kettenentbündelungen. Aufgabe c) mit der zweistelligen Zahl erfordert wieder korrektes Einrücken.",
-    "erklaerungBild": "assets/erklaerungen/s13-merkkasten-subtraktion.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und subtrahiere.",
@@ -1304,7 +1284,6 @@
       "Nachrechnen und das korrekte Ergebnis mit dem angegebenen vergleichen. Die vertauschten Ziffern finden."
     ],
     "didaktischerHinweis": "Fehlersuche bei der Subtraktion ist besonders wertvoll, weil Entbündelungsfehler häufig sind. Kinder entwickeln ein Gespür dafür, typische Fehler zu erkennen und zu korrigieren.",
-    "erklaerungBild": "assets/erklaerungen/s13-merkkasten-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.",
@@ -1349,7 +1328,6 @@
       "- a) E: 3-7 geht nicht, 13-7=6, Entbündelung. Z: 9-6=3 (10-1=9, 9-6=3). Nein, korrekt: Z: 0-6 geht nicht (da Z=0!), Entbündeln von H: 10-6=4, aber H war 9, wird 8. Dann H: 8-4=4. Korrekt durchgerechnet:\n  E: 3-7 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 9 auf 8, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 3 auf 13. E: 13-7=6. Z: 9-6=3. H: 8-4=4. → 436.\n- b) E: 2-8 geht nicht → borge: 12-8=4. Z: 9-3=6 (0-1=... borge von H: 5→4, 0→10, 10-1=9, 9→...). Korrekt: Z: 0-3 geht nicht (nach Entbündelung 0-1=-1, geht nicht). Borge von H: 10-3-1=6. T,H: 15→14, 0→10. Also Z: 10-3-1=6. H: 4-7 geht nicht. Borge von T: 14-7=7. T: 0. → 764."
     ],
     "didaktischerHinweis": "Subtraktion mit 0 in der Mitte (wie 903) ist besonders schwierig, weil Kettenentbündelung nötig ist. Die Probe durch Addition stärkt das Verständnis der Umkehrbeziehung zwischen Addition und Subtraktion.",
-    "erklaerungBild": "assets/erklaerungen/s13-merkkasten-subtraktion.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe stellengerecht untereinander und subtrahiere. Prüfe dein Ergebnis mit der Umkehraufgabe (Addition).",

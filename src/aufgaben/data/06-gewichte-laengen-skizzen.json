@@ -17,14 +17,7 @@
       "Bei 3,005 t: Links vom Komma stehen 3 t = 3.000 kg. Rechts vom Komma: 005 kg = 5 kg. Was ist 3.000 + 5?",
       "Das Komma bei Tonnen trennt Tonnen und Kilogramm. Die Stellen nach dem Komma geben die Kilogramm an — aber Achtung: Es müssen immer drei Stellen sein!\n- a) 3,005 t → 3 t und 5 kg → 3.005 kg\n- b) 3,05 t → 3 t und 50 kg → 3.050 kg\n- c) 3,5 t → 3 t und 500 kg → 3.500 kg"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das Verständnis der Kommaschreibweise bei Tonnen. Die drei Aufgaben zeigen, wie sich die Position der Ziffer nach dem Komma auf den Wert auswirkt (5 kg vs. 50 kg vs. 500 kg). Typische Fehlerquelle: Kinder vergessen die führenden Nullen.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle in Kilogramm um. Nutze die Regel: 1 t = 1.000 kg.",
@@ -65,14 +58,7 @@
       "Bei 8.375 kg: 8.000 kg = 8 t. Es bleiben 375 kg übrig. Also: 8 Komma ___ t. Was kommt nach dem Komma?",
       "1.000 kg = 1 t. Man teilt die Kilogramm-Zahl gedanklich bei der Tausenderstelle:\n- a) 8.375 kg → 8 t 375 kg → 8,375 t\n- b) 12.060 kg → 12 t 60 kg → 12,060 t = 12,06 t\n- c) 2.700 kg → 2 t 700 kg → 2,700 t = 2,7 t"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Die Rückrichtung (kg nach t) ist schwieriger, weil Kinder die Division durch 1.000 als Kommaverschiebung verstehen müssen. Besonders die Variante mit Nullen am Ende (2.700 kg = 2,7 t) zeigt, dass Endnullen nach dem Komma wegfallen können.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle in Tonnen um.",
@@ -113,14 +99,7 @@
       "Bei d) 7 t 50 kg: 7 t = 7.000 kg. Jetzt kommen 50 kg dazu. Aber 50 hat nur 2 Ziffern — du brauchst 3! Also: 7.0_0 kg. Was kommt in die Lücke?",
       "Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:\n- a) 2 × 1.000 + 345 = 2.345 kg\n- b) 15 × 1.000 + 975 = 15.975 kg\n- c) 1 × 1.000 + 170 = 1.170 kg\n- d) 7 × 1.000 + 50 = 7.050 kg (Achtung: 50 kg, nicht 500 kg!)\n- e) 4 × 1.000 + 5 = 4.005 kg (nur 5 Kilogramm!)"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Die gemischte Schreibweise (t und kg) ist der natürlichste Zugang. Besonders d) und e) sind Stolpersteine: Kinder schreiben häufig 7.50 statt 7.050 oder 4.5 statt 4.005. Die führenden Nullen müssen explizit thematisiert werden.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wandle in Kilogramm um.",
@@ -171,14 +150,7 @@
       "Auto 2: 850 + 275. Rechne in Schritten: 850 + 200 = 1.050. Dann 1.050 + 75 = ? Das ist das Gesamtgewicht.",
       "Gesamtgewicht = Leergewicht + Ladung:\n- Auto 1: 720 kg + 180 kg = 900 kg\n- Auto 2: 850 kg + 275 kg = 1.125 kg\n- Auto 3: 1.000 kg + 430 kg = 1.430 kg (1 t = 1.000 kg)"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Brücken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.",
@@ -210,14 +182,7 @@
       "LKW 2: Gesamtgewicht = 14.700 kg, Ladung = 6.150 kg. Leergewicht = 14.700 − 6.150. Rechne: 14.700 − 6.000 = 8.700. Dann 8.700 − 150 = ?",
       "- LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t\n- LKW 2: 14.700 kg − 6.150 kg = 8.550 kg = 8 t 550 kg\n- LKW 3: 11.850 kg − 5.400 kg = 6.450 kg = 6,45 t"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusätzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurückwandeln) ist eine Schlüsselmethode.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Berechne die fehlenden Gewichtsangaben.",
@@ -249,14 +214,7 @@
       "Das Leergewicht ist 10.800 kg. Die 3 Autos wiegen zusammen: 1.450 + 1.450 + 1.450. Rechne erst: 1.450 × 3 = 1.400 × 3 + 50 × 3 = 4.200 + 150 = ? Dann addiere zum Leergewicht.",
       "1. Leergewicht: 10,8 t = 10.800 kg\n2. Ladung: 3 × 1.450 kg = 4.350 kg\n3. Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t\n4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren."
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Sachaufgaben mit Vergleich (Gewicht vs. Höchstlast) sind lebensnah und trainieren die Fähigkeit, ein Ergebnis im Kontext zu interpretieren. Die Multiplikation (3 × 1.450) ist ein natürlicher Zwischenschritt, der auch halbschriftliches Multiplizieren üben lässt.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.",
@@ -288,14 +246,7 @@
       "Maximale Ladung: 20.000 − 12.500 = 7.500 kg. Jetzt probiere:\n- 1 PKW: 1.800 kg → passt (5.700 kg übrig)\n- 2 PKWs: 3.600 kg → passt (3.900 kg übrig)\n- 3 PKWs: 5.400 kg → passt (2.100 kg übrig)\n- 4 PKWs: 7.200 kg → passt (300 kg übrig)\n- 5 PKWs: ? → Passt das noch?",
       "1. Maximale Ladung: 20 t − 12,5 t = 7,5 t = 7.500 kg\n2. Anzahl PKWs: 7.500 ÷ 1.800 = 4 Rest 300\n3. Also passen höchstens 4 PKWs.\n\nProbe: 12.500 + 4 × 1.800 = 12.500 + 7.200 = 19.700 kg = 19,7 t < 20 t ✓\nMit 5 PKWs: 12.500 + 9.000 = 21.500 kg = 21,5 t > 20 t ✗"
     ],
-    "tippBilder": [
-      null,
-      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
-      null,
-      null
-    ],
     "didaktischerHinweis": "Diese Aufgabe erfordert Division mit Rest im Sachkontext. Kinder müssen verstehen, dass man hier nicht aufrunden darf — ein halbes Auto kann man nicht laden. Das systematische Ausprobieren (Tipp 3) ist eine gute Strategie für Kinder, die Division noch unsicher beherrschen.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Brücke trägt höchstens 20 t.",
@@ -318,7 +269,7 @@
     "kapitel": "06-gewichte-längen-skizzen",
     "stageId": "tierische-weltrekorde",
     "digital": "voll",
-    "aufgabenstellung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n| Tier | Gewicht |\n|------|---------|\n| Elefant | 6,5 t |\n| Blauwal | 110 t |\n| Strauss | 150 kg |\n| Anakonda | 150 kg |\n| Walhai | 12 t |\n| Giraffe | 750 kg |",
+    "aufgabenstellung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n- Elefant: 6,5 t\n- Blauwal: 110 t\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Walhai: 12 t\n- Giraffe: 750 kg",
     "loesung": "Strauss (150 kg) = Anakonda (150 kg) → Giraffe (750 kg) → Elefant (6,5 t = 6.500 kg) → Walhai (12 t = 12.000 kg) → Blauwal (110 t = 110.000 kg)",
     "loesungsweg": "Zuerst alles in die gleiche Einheit bringen (kg):\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Giraffe: 750 kg\n- Elefant: 6.500 kg\n- Walhai: 12.000 kg\n- Blauwal: 110.000 kg\n\nDann nach Größe sortieren.",
     "tipps": [
@@ -328,31 +279,18 @@
       "Zuerst alles in die gleiche Einheit bringen (kg):\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Giraffe: 750 kg\n- Elefant: 6.500 kg\n- Walhai: 12.000 kg\n- Blauwal: 110.000 kg\n\nDann nach Größe sortieren."
     ],
     "didaktischerHinweis": "Tiere begeistern Kinder und machen das Vergleichen von Größen motivierend. Die Mischung aus t und kg zwingt zur Einheitenumrechnung. Dass Strauss und Anakonda gleich schwer sind, ist ein überraschendes Ergebnis, das zum Staunen anregt.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "reihenfolge",
-      "anweisung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n| Tier | Gewicht |\n|------|---------|\n| Elefant | 6,5 t |\n| Blauwal | 110 t |\n| Strauss | 150 kg |\n| Anakonda | 150 kg |\n| Walhai | 12 t |\n| Giraffe | 750 kg |",
+      "anweisung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n- Elefant: 6,5 t\n- Blauwal: 110 t\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Walhai: 12 t\n- Giraffe: 750 kg",
       "teilaufgaben": [
         {
           "label": "1",
           "items": [
-            "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.",
-            "Tier",
-            "Gewicht",
-            "------",
-            "---------",
-            "Elefant",
-            "6,5 t",
-            "Blauwal",
-            "110 t",
-            "Strauss",
-            "150 kg",
-            "Anakonda",
-            "150 kg",
-            "Walhai",
-            "12 t",
-            "Giraffe",
-            "750 kg"
+            "Strauss (150 kg) = Anakonda (150 kg)",
+            "Giraffe (750 kg)",
+            "Elefant (6,5 t = 6.500 kg)",
+            "Walhai (12 t = 12.000 kg)",
+            "Blauwal (110 t = 110.000 kg)"
           ],
           "richtigeReihenfolge": [
             "Strauss (150 kg) = Anakonda (150 kg)",
@@ -384,7 +322,6 @@
       "- a) 3 × 200 kg = 600 kg pro Tag\n- b) 600 kg × 3 = 1.800 kg für 3 Tage\n- c) 600 kg × 7 = 4.200 kg für 1 Woche"
     ],
     "didaktischerHinweis": "Stufenweise Multiplikation: Erst pro Tag, dann für mehrere Tage. Die Aufgabe trainiert das systematische Arbeiten und die Multiplikation mit großen Zahlen (600 × 7 = 4.200). Das Tierthema hält die Motivation hoch.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Elefant braucht am Tag 200 kg Futter. Ein Zoo hat drei Elefanten. Wie viele Kilogramm Futter fressen die Tiere ...",
@@ -427,7 +364,6 @@
       "- a) 6.500 kg ÷ 600 kg ≈ 10,8 → ungefähr 11 Pferde\n- b) 12.000 kg ÷ 600 kg = 20 Pferde"
     ],
     "didaktischerHinweis": "Division im Sachkontext mit dem Konzept \"ungefähr\". Kinder lernen, dass das Ergebnis nicht immer glatt aufgeht und man sinnvoll runden muss. Die Vorstellung \"Wie viele passen hinein?\" ist ein anschaulicher Zugang zur Division.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...",
@@ -465,7 +401,6 @@
       "Bei jeder Aussage: Beide Seiten ausrechnen und vergleichen.\n- a) 100 × 150 kg = 15.000 kg = 15 t. Walhai = 12 t. 15 > 12 → falsch\n- b) 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000 → richtig\n- c) 80 × 100 = 8.000 kg = 8 t. Elefant = 6,5 t. 8 > 6,5 → falsch"
     ],
     "didaktischerHinweis": "Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe ügt gleichzeitig Multiplikation und Einheitenumrechnung.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Überprüfe die Aussagen. Berichtige falsche Aussagen.\n\nGegeben: Elefant 6,5 t, Blauwal 110 t, Strauss 150 kg, Walhai 12 t, Giraffe 750 kg, Giraffen-Baby 80 kg, Elefanten-Baby 100 kg.",
@@ -510,7 +445,6 @@
       "Größe des Tieres ÷ Größe eines Babys:\n- a) 1 m = 100 cm. 100 ÷ 50 = 2\n- b) 2 m = 200 cm. 200 ÷ 50 = 4\n- c) 4,5 m = 450 cm. 450 ÷ 50 = 9"
     ],
     "didaktischerHinweis": "Der Bezug auf die eigene Babygrösse schafft einen körperbezogenen Zugang. Die Division durch 50 ist rechnerisch zugänglich (Halbieren des Meterwertes). Bei c) wird mit 4,5 m eine Dezimalzahl eingeführt, die aber als 450 cm gut handhabbar ist.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Die Größe eines Menschen-Babys beträgt ungefähr 50 cm. Wie viele Babys sind ungefähr so groß wie ...",
@@ -552,7 +486,6 @@
       "- a) 4 t = 4.000 kg. 4.000 ÷ 200 = 20 Tage\n- b) 4 t = 4.000 kg. 4.000 ÷ 80 = 50 Tage"
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Division mit Einheitenumrechnung. Für Kinder, die Division noch unsicher beherrschen, ist das schrittweise Hochrechnen (10 Tage, 20 Tage ...) eine gute Alternative. Das verblüffende Ergebnis (50 Tage für eine Giraffe!) stärkt die Motivation.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Blauwal frisst an einem Tag 4 t Plankton. Ein Elefant frisst 200 kg am Tag.\n\nFür wie viele Tage reicht die Futtermenge eines Blauwals für ...",
@@ -590,7 +523,6 @@
       "1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g\n2. Straussenküken: 800 g\n3. 2.500.000 ÷ 800 = 3.125\n\nOder einfacher: 2.500 kg ÷ 0,8 kg = 3.125"
     ],
     "didaktischerHinweis": "Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.125!) lässt Kinder staunen und macht die Größenverhältnisse in der Tierwelt greifbar. Die Division mit Kommazahlen kann durch Umwandlung in ganze Zahlen vereinfacht werden.",
-    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.",
@@ -623,7 +555,6 @@
       "4,8 + 6,3 + 5,2 + 7,1 = 23,4 km\n\nSchritt für Schritt:\n- 4,8 + 6,3 = 11,1 km\n- 11,1 + 5,2 = 16,3 km\n- 16,3 + 7,1 = 23,4 km"
     ],
     "didaktischerHinweis": "Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfacher als alle vier Zahlen auf einmal. Die Radtour-Situation ist für Kinder greifbar und motivierend.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km",
@@ -656,7 +587,6 @@
       "Man addiert nur die Teilstrecken, die auf dem Weg liegen:\n- a) Dorfbach → Mühlheim → Seefeld: 3,7 + 8,4 = 12,1 km\n- b) Mühlheim → Seefeld → Bergheim → Waldstadt: 8,4 + 12,5 + 18,6 = 39,5 km"
     ],
     "didaktischerHinweis": "Kinder müssen erkennen, welche Teilstrecken zum gesuchten Weg gehören. Das ist eine wichtige Lesekompetenz bei Karten und Schemata. Die Addition mit Dezimalzahlen wird hier vertieft.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf dem Wegweiser stehen die Entfernungen:\n\n- Dorfbach → Mühlheim: 3,7 km\n- Mühlheim → Seefeld: 8,4 km\n- Seefeld → Bergheim: 12,5 km\n- Bergheim → Waldstadt: 18,6 km",
@@ -694,7 +624,6 @@
       "- a) 8,5 + 12,3 + 9,7 + 15,2 + 6,8 = 52,5 km\n- b) 52,5 ÷ 3 = 17,5 km pro Tag"
     ],
     "didaktischerHinweis": "Zweistufige Aufgabe: erst Addition, dann Division. Die Verteilung auf Tage ist eine alltagsnahe Fragestellung. Die Division von 52,5 durch 3 ergibt eine glatte Dezimalzahl (17,5), was für Kinder noch gut handhabbar ist.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die Familie möchte eine Radtour über drei Tage machen. Die Orte und Entfernungen:\n\n- Ahausen → Birken: 8,5 km\n- Birken → Clausen: 12,3 km\n- Clausen → Dornheim: 9,7 km\n- Dornheim → Erlenbach: 15,2 km\n- Erlenbach → Fischbach: 6,8 km\n\nDie Gesamtstrecke soll möglichst gleichmässig auf drei Tage verteilt werden.",
@@ -732,7 +661,6 @@
       "- a) 11,5 + 14,8 + 9,2 = 35,5 km\n- b) 42 − 35,5 = 6,5 km\n- c) 6,5 km < 8 km → Ja, sie schaffen es."
     ],
     "didaktischerHinweis": "Dreistufige Sachaufgabe mit Addition, Subtraktion und Vergleich. Teil c) fordert eine Ja/Nein-Entscheidung auf Basis des Rechenergebnisses — eine wichtige Kompetenz im Sachrechnen.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Der Radweg rund um den Silbersee ist insgesamt 42 km lang. Pia und ihr Vater sind schon 3 Tage geradelt:\n- Tag 1: 11,5 km\n- Tag 2: 14,8 km\n- Tag 3: 9,2 km",
@@ -775,7 +703,6 @@
       "Hin und zurück = doppelte Strecke:\n- a) 3,2 × 2 = 6,4 km\n- b) 1,8 × 2 = 3,6 km\n- c) 5,7 × 2 = 11,4 km"
     ],
     "didaktischerHinweis": "Einfache Verdoppelungsaufgabe, die das Konzept \"Hin- und Rückweg\" festigt. Die Multiplikation mit 2 bei Dezimalzahlen wird geübt. Alltagsnaher Kontext.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wie viele Kilometer sind es hin und zurück?",
@@ -817,7 +744,6 @@
       "1 Stunde = 60 Minuten.\n- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km\n- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- Auto: 60 min → 48 km → 48 km/h\n- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km"
     ],
     "didaktischerHinweis": "Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet (\"Wenn 15 min = 1 km, dann 60 min = ?\"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.",
@@ -850,7 +776,6 @@
       "12 km pro Stunde = Grundwert.\n- a) 30 min = halbe Stunde → 12 ÷ 2 = 6 km\n- b) 2 h → 12 × 2 = 24 km\n- c) 3 h → 12 × 3 = 36 km\n- d) 4,5 h → 12 × 4 + 6 = 48 + 6 = 54 km"
     ],
     "didaktischerHinweis": "Proportionale Zuordnung: Zeit × Geschwindigkeit = Strecke. Die Tabelle ist ein ideales visuelles Hilfsmittel. Teil d) kombiniert ganzzahlige und halbe Stunden — ein wichtiger Zwischenschritt zum flexiblen Rechnen mit Geschwindigkeiten.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Familie Berger schafft bei einer Radtour durchschnittlich 12 km pro Stunde. Wie weit kommen sie in ...",
@@ -897,7 +822,6 @@
       "- 30 min = halbe Stunde → Geschwindigkeit ÷ 2\n- 15 min = Viertelstunde → Geschwindigkeit ÷ 4\n\na) Eule: 64 ÷ 2 = 32, Schwalbe: 72 ÷ 2 = 36, Antilope: 96 ÷ 2 = 48\nb) Eule: 64 ÷ 4 = 16, Schwalbe: 72 ÷ 4 = 18, Antilope: 96 ÷ 4 = 24"
     ],
     "didaktischerHinweis": "Halbieren und Vierteln von Geschwindigkeiten: eine elegante Alternative zur Formel \"Weg = Geschwindigkeit × Zeit\". Die Tierthema-Einbettung motiviert. Die Zahlen sind bewusst durch 2 und 4 teilbar.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
@@ -935,7 +859,6 @@
       "9.000 km ÷ 50 km/h = 180 Stunden\n\nKontrollrechnung: 180 × 50 = 9.000 ✓"
     ],
     "didaktischerHinweis": "Division grosser Zahlen im Sachkontext. Die Vereinfachung 9.000 ÷ 50 = 900 ÷ 5 ist eine Schlüsselstrategie. Das Staunen über die Leistung der Schwalbe motiviert. Man kann ergänzen: 180 h = 7,5 Tage non-stop — in Wirklichkeit brauchen Schwalben natürlich viel länger, weil sie Pausen machen.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schwalben sind Zugvögel und fliegen im Winter nach Südafrika. Der Weg ist ungefähr 9.000 km lang.",
@@ -958,8 +881,8 @@
     "kapitel": "06-gewichte-längen-skizzen",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.\n\nGeschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h\n\nFortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug",
-    "loesung": "- Fussgänger: 4 km/h\n- Radfahrer: 16 km/h\n- Auto in der Stadt: 50 km/h\n- Auto auf der Autobahn: 120 km/h\n- ICE-Zug: 250 km/h",
+    "aufgabenstellung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.\n\na) Fussgänger\nb) Radfahrer\nc) Auto in der Stadt\nd) Auto auf der Autobahn\ne) ICE-Zug\n\nA) 250 km/h\nB) 4 km/h\nC) 120 km/h\nD) 16 km/h\nE) 50 km/h",
+    "loesung": "a) → B\nb) → D\nc) → E\nd) → C\ne) → A",
     "loesungsweg": "Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:\n- Zu Fuss ist man am langsamsten → 4 km/h\n- Ein Fahrrad ist schneller als zu Fuss → 16 km/h\n- In der Stadt fährt man nicht so schnell → 50 km/h\n- Auf der Autobahn schneller → 120 km/h\n- Der ICE ist am schnellsten → 250 km/h",
     "tipps": [
       "Sortiere zuerst die Fortbewegungsarten: Was ist am langsamsten? Was am schnellsten? Dann ordne die Geschwindigkeiten genauso.",
@@ -968,13 +891,60 @@
       "Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:\n- Zu Fuss ist man am langsamsten → 4 km/h\n- Ein Fahrrad ist schneller als zu Fuss → 16 km/h\n- In der Stadt fährt man nicht so schnell → 50 km/h\n- Auf der Autobahn schneller → 120 km/h\n- Der ICE ist am schnellsten → 250 km/h"
     ],
     "didaktischerHinweis": "Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschätzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.",
-    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.\nGeschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h\nFortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug",
-      "items": [],
-      "choices": [],
-      "antworten": {}
+      "anweisung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Fussgänger"
+        },
+        {
+          "label": "b",
+          "text": "Radfahrer"
+        },
+        {
+          "label": "c",
+          "text": "Auto in der Stadt"
+        },
+        {
+          "label": "d",
+          "text": "Auto auf der Autobahn"
+        },
+        {
+          "label": "e",
+          "text": "ICE-Zug"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "250 km/h"
+        },
+        {
+          "label": "B",
+          "text": "4 km/h"
+        },
+        {
+          "label": "C",
+          "text": "120 km/h"
+        },
+        {
+          "label": "D",
+          "text": "16 km/h"
+        },
+        {
+          "label": "E",
+          "text": "50 km/h"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "D",
+        "c": "E",
+        "d": "C",
+        "e": "A"
+      }
     }
   },
   {
@@ -1279,7 +1249,6 @@
       "Alle Teilstrecken addieren: 350 + 220 + 180 = 750 m."
     ],
     "didaktischerHinweis": "Einstiegsaufgabe mit ganzen Metern (ohne Komma). Trainiert das Addieren von drei Summanden.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m",
@@ -1312,7 +1281,6 @@
       "3,4 + 5,8 = 9,2 km."
     ],
     "didaktischerHinweis": "Erste Dezimalzahl-Addition. Der Übertrag bei den Zehntel (4+8=12) ist die Haupthürde.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km",
@@ -1345,7 +1313,6 @@
       "a) Hin + Zurück = 2,5 + 2,5 = 5,0 km.\nb) Gesamtweg − bereits gelaufen = 2,5 − 1,2 = 1,3 km."
     ],
     "didaktischerHinweis": "Hin-und-zurück ist ein Grundkonzept. Teilaufgabe b) trainiert Subtraktion mit Dezimalzahlen.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Die Klasse 4a wandert zum Waldspielplatz. Der Weg ist 2,5 km lang.",
@@ -1382,7 +1349,6 @@
       "Vergleiche: 25 km > 22 km > 18 km. Die längste Strecke ist Lingen → Meppen mit 25 km."
     ],
     "didaktischerHinweis": "Einfache Vergleichsaufgabe — Einstieg ins Kartenthema. Trainiert das Ablesen und Vergleichen von Entfernungen.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1423,7 +1389,6 @@
       "a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km Umweg."
     ],
     "didaktischerHinweis": "Kombination aus Addition und Subtraktion. Das Konzept \"Umweg = Differenz\" ist alltagsnah.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Von Ahausen nach Clausen gibt es zwei Wege:\n- Direkter Weg: 8,4 km\n- Über Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km",
@@ -1460,7 +1425,6 @@
       "a) 15 + 13 = 28 km. b) 42 − 28 = 14 km."
     ],
     "didaktischerHinweis": "Größerer Zahlenraum, aber ohne Dezimalstellen. Alltagsbezug Sport motiviert.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ein Marathon ist 42 km lang. Der Läufer hat schon diese Abschnitte geschafft:\n- Start → Kilometer 15: 15 km\n- Kilometer 15 → Kilometer 28: 13 km",
@@ -1497,7 +1461,6 @@
       "a) 145 km (direkt abgelesen). b) 145 + 87 = 232 km. c) 232 + 63 = 295 km."
     ],
     "didaktischerHinweis": "Schrittweises Addieren trainiert das systematische Vorgehen. Die Zwischenergebnisse helfen als Kontrolle.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Die Familie fährt in den Urlaub. Die Route:\n- Zuhause → Raststätte: 145 km\n- Raststätte → Grenze: 87 km\n- Grenze → Hotel: 63 km\n\nRechne Schritt für Schritt:",
@@ -1544,7 +1507,6 @@
       "Vergleiche die Kilometerzahlen und ordne von groß nach klein: 2,4 > 1,8 > 1,3 > 0,9."
     ],
     "didaktischerHinweis": "Sortieraufgabe mit Dezimalzahlen und Personenbezug — motivierend und alltagsnah.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "reihenfolge",
       "anweisung": "Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:\n- Emma: 1,8 km\n- Luis: 0,9 km\n- Mia: 2,4 km\n- Ben: 1,3 km\n\nOrdne die Kinder nach ihrem Schulweg. Beginne mit dem längsten Weg.",
@@ -1586,7 +1548,6 @@
       "a) 22,3 > 18,5 > 16,8 → Tag 2. b) 18,5 + 22,3 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km."
     ],
     "didaktischerHinweis": "Kombination aus Tabelle lesen, Vergleichen, Addieren und Subtrahieren. Fordert mehrere Kompetenzen gleichzeitig.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:\n\n| Tag | Von → Nach | Entfernung |\n|-----|-----------|-----------|\n| 1 | Stadtpark → Seeblick | 18,5 km |\n| 2 | Seeblick → Waldrand | 22,3 km |\n| 3 | Waldrand → Stadtpark | 16,8 km |",
@@ -1629,7 +1590,6 @@
       "Bekannte Strecken: 7,3 + 9,8 = 17,1 km. Unbekannt: 24,6 − 17,1 = 7,5 km."
     ],
     "didaktischerHinweis": "Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie für Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.",
-    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km",
