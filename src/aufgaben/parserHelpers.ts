@@ -168,23 +168,3 @@ export function hatStrichliste(text: string): boolean {
 export function hatRechenkette(text: string): boolean {
   return /→/.test(text) && /[+\-·:×÷]/.test(text);
 }
-
-/**
- * Splittet Loesungen auf a)/b)/c) analog zum Aufgabentext.
- */
-export function splitLoesungTeilaufgaben(loesung: string): { intro: string; items: { label: string; text: string }[] } {
-  return splitTeilaufgaben(loesung);
-}
-
-/**
- * Holt die Loesung fuer eine bestimmte Teilaufgabe (label).
- * Falls die Loesung kein a)/b)/c) hat, wird der ganze Text zurueckgegeben.
- */
-export function getLoesungFuerLabel(loesung: string, label: string): string {
-  const split = splitTeilaufgaben(loesung);
-  if (split.items.length > 0) {
-    const match = split.items.find((item) => item.label === label);
-    return match?.text.split('\n')[0].trim() ?? '';
-  }
-  return loesung.split('\n')[0].trim();
-}
