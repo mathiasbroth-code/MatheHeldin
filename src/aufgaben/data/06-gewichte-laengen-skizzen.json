@@ -206,7 +206,7 @@
     "stageId": "gewichte-t-kg",
     "digital": "voll",
     "aufgabenstellung": "Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.\n\nDarf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?",
-    "loesung": "Nein, der Transporter darf nicht über die Brücke fahren.\nGesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t. Das ist zwar unter 16 t — **doch Vorsicht:** Die Aufgabe ist so gestellt, dass man genau rechnen muss.\n\nKorrektur: 15,15 t < 16 t. Ja, der Transporter darf über die Brücke fahren.",
+    "loesung": "Ja, der Transporter darf über die Brücke fahren.\nGesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t < 16 t.",
     "loesungsweg": "1. Leergewicht: 10,8 t = 10.800 kg\n2. Ladung: 3 × 1.450 kg = 4.350 kg\n3. Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t\n4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren.",
     "tipps": [
       "Du musst zwei Sachen ausrechnen: Wie schwer ist die gesamte Ladung? Und: Wie schwer ist alles zusammen? Dann vergleichst du mit der Brücke.",
@@ -223,7 +223,7 @@
         {
           "label": "1",
           "frage": "Darf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?",
-          "antwort": "Nein, der Transporter darf nicht über die Brücke fahren."
+          "antwort": "Ja, der Transporter darf über die Brücke fahren."
         }
       ]
     }

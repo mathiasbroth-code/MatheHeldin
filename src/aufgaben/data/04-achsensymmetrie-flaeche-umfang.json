@@ -188,7 +188,7 @@
     "stageId": "achsensymmetrie",
     "digital": "voll",
     "aufgabenstellung": "Eine Figur (ein kleines Dreieck in der linken oberen Ecke eines Quadrats) wird an einer senkrechten UND einer waagerechten Achse gespiegelt. In welchen Ecken des Quadrats erscheint das Dreieck?\n\na) Nur oben rechts\nb) Oben rechts und unten links\nc) In allen vier Ecken\nd) Oben rechts, unten links und unten rechts",
-    "loesung": "d) Das Dreieck erscheint in allen vier Ecken: oben links (Original), oben rechts (senkrecht gespiegelt), unten links (waagerecht gespiegelt) und unten rechts (an beiden Achsen gespiegelt).\n\nAlso: In allen vier Ecken → Antwort c) wäre auch richtig formuliert. Die korrekte Antwort ist **c) In allen vier Ecken**.",
+    "loesung": "c) In allen vier Ecken: oben links (Original), oben rechts (senkrecht gespiegelt), unten links (waagerecht gespiegelt) und unten rechts (an beiden Achsen gespiegelt).",
     "loesungsweg": "Wenn an der senkrechten Achse gespiegelt wird, wandert das Dreieck von oben links nach oben rechts. Wenn an der waagerechten Achse gespiegelt wird, wandert es von oben links nach unten links. Die Kombination beider Spiegelungen erzeugt das Dreieck auch in unten rechts. So entsteht ein Muster mit 4 Dreiecken — eins in jeder Ecke.",
     "tipps": [
       "Stell dir ein Blatt Papier vor, das du erst senkrecht faltest (links-rechts) und dann waagerecht (oben-unten). Wenn du ein Dreieck in eine Ecke malst — wo erscheint es, wenn du das Blatt auffaltest?",
@@ -219,7 +219,7 @@
           "text": "Oben rechts, unten links und unten rechts"
         }
       ],
-      "richtigeIdx": 3
+      "richtigeIdx": 2
     }
   },
   {

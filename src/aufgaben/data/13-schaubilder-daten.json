@@ -275,5 +275,251 @@
         }
       ]
     }
+  },
+  {
+    "titel": "Arabisch → Römisch — einfache Zahlen",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 124,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als römische Zahl.\n\na) 3\nb) 8\nc) 12",
+    "loesung": "a) III\nb) VIII\nc) XII",
+    "loesungsweg": "- a) 3 = 1+1+1 → III\n- b) 8 = 5+3 → V + III → VIII\n- c) 12 = 10+2 → X + II → XII\n\nBei römischen Zahlen setzt man die Zeichen von groß nach klein nebeneinander und addiert ihre Werte.",
+    "tipps": [
+      "Schau dir die Tabelle der römischen Zeichen an: I=1, V=5, X=10. Wie kannst du die Zahl mit diesen Bausteinen zusammensetzen?",
+      "Zerlege die Zahl in ihre Bestandteile und schreibe für jeden Teil das passende römische Zeichen:\n- Zuerst die Zehner (X=10), dann die Fünfer (V=5), dann die Einer (I=1).\n- Beispiel: 7 = 5+1+1 → VII",
+      "a) 3 = 1+1+1 → I, I, I → ___\nb) 8 = 5+3 = 5+1+1+1 → V + ___ → ___\nc) 12 = 10+2 = 10+1+1 → X + ___ → ___",
+      "- a) 3 = 1+1+1 → III\n- b) 8 = 5+3 → V + III → VIII\n- c) 12 = 10+2 → X + II → XII\n\nBei römischen Zahlen setzt man die Zeichen von groß nach klein nebeneinander und addiert ihre Werte."
+    ],
+    "didaktischerHinweis": "Einstieg in römische Zahlen mit reiner Additionsregel (ohne Subtraktionsregel). Entspricht Fredo S. 124.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als römische Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "3",
+          "antwort": "III"
+        },
+        {
+          "label": "b",
+          "frage": "8",
+          "antwort": "VIII"
+        },
+        {
+          "label": "c",
+          "frage": "12",
+          "antwort": "XII"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Römisch → Arabisch — einfache Zahlen",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 124,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Zahl steckt dahinter? Schreibe die arabische Zahl.\n\na) VI\nb) XI\nc) XX",
+    "loesung": "a) 6\nb) 11\nc) 20",
+    "loesungsweg": "- a) VI → V=5, I=1 → 5+1 = 6\n- b) XI → X=10, I=1 → 10+1 = 11\n- c) XX → X=10, X=10 → 10+10 = 20\n\nWenn ein kleineres Zeichen rechts von einem größeren steht, wird es addiert.",
+    "tipps": [
+      "Lies die römische Zahl von links nach rechts. Schau in der Tabelle nach: I=1, V=5, X=10. Addiere die Werte der einzelnen Zeichen.",
+      "Gehe Zeichen für Zeichen vor:\n1. Schreibe unter jedes Zeichen seinen Wert.\n2. Addiere alle Werte.\nBeispiel: VII → 5+1+1 = 7",
+      "a) V=5, I=1 → 5+1 = ___\nb) X=10, I=1 → 10+1 = ___\nc) X=10, X=10 → 10+10 = ___",
+      "- a) VI → V=5, I=1 → 5+1 = 6\n- b) XI → X=10, I=1 → 10+1 = 11\n- c) XX → X=10, X=10 → 10+10 = 20\n\nWenn ein kleineres Zeichen rechts von einem größeren steht, wird es addiert."
+    ],
+    "didaktischerHinweis": "Umkehrübung zum Schreiben: Lesen und Addieren der Zeichenwerte. Entspricht Fredo S. 124.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Zahl steckt dahinter? Schreibe die arabische Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "VI",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "XI",
+          "antwort": "11"
+        },
+        {
+          "label": "c",
+          "frage": "XX",
+          "antwort": "20"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Arabisch → Römisch — mit Subtraktionsregel",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 124,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als römische Zahl. Achte auf die Subtraktionsregel!\n\na) 4\nb) 9\nc) 14",
+    "loesung": "a) IV\nb) IX\nc) XIV",
+    "loesungsweg": "- a) 4 = 5-1 → IV (I steht vor V, also wird 1 abgezogen)\n- b) 9 = 10-1 → IX (I steht vor X, also wird 1 abgezogen)\n- c) 14 = 10+4 = 10+(5-1) → X + IV → XIV\n\nDie Subtraktionsregel: Steht ein kleineres Zeichen links von einem größeren, wird es abgezogen statt addiert. So wird 4 zu IV (nicht IIII) und 9 zu IX (nicht VIIII).",
+    "tipps": [
+      "Es gibt eine besondere Regel: Maximal 3 gleiche Zeichen dürfen nebeneinander stehen. Deshalb schreibt man 4 nicht als IIII, sondern nutzt die Subtraktionsregel: Ein kleineres Zeichen vor einem größeren bedeutet „abziehen\".",
+      "Merke dir diese wichtigen Kombinationen:\n- 4 = IV (5-1)\n- 9 = IX (10-1)\n- 14 = X + IV (10 + 4)\n\nWenn du eine 4 oder 9 in der Zahl erkennst, nutze die Subtraktionsregel!",
+      "a) 4 = 5-1 → I vor V → ___\nb) 9 = 10-1 → I vor X → ___\nc) 14 = 10+4 → X + ___ → ___",
+      "- a) 4 = 5-1 → IV (I steht vor V, also wird 1 abgezogen)\n- b) 9 = 10-1 → IX (I steht vor X, also wird 1 abgezogen)\n- c) 14 = 10+4 = 10+(5-1) → X + IV → XIV\n\nDie Subtraktionsregel: Steht ein kleineres Zeichen links von einem größeren, wird es abgezogen statt addiert. So wird 4 zu IV (nicht IIII) und 9 zu IX (nicht VIIII)."
+    ],
+    "didaktischerHinweis": "Einführung der Subtraktionsregel (IV, IX). Wichtige Erweiterung, die häufig Fehlerquelle ist. Entspricht Fredo S. 124-125.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als römische Zahl. Achte auf die Subtraktionsregel!",
+      "items": [
+        {
+          "label": "a",
+          "frage": "4",
+          "antwort": "IV"
+        },
+        {
+          "label": "b",
+          "frage": "9",
+          "antwort": "IX"
+        },
+        {
+          "label": "c",
+          "frage": "14",
+          "antwort": "XIV"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Römisch → Arabisch — mit Subtraktionsregel",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 125,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Zahl steckt dahinter? Achte auf die Subtraktionsregel!\n\na) XL\nb) XC\nc) XLIV",
+    "loesung": "a) 40\nb) 90\nc) 44",
+    "loesungsweg": "- a) XL → X steht vor L → L-X = 50-10 = 40\n- b) XC → X steht vor C → C-X = 100-10 = 90\n- c) XLIV → XL=40, IV=4 → 40+4 = 44\n\nWenn ein kleineres Zeichen links von einem größeren steht, wird es abgezogen: XL = 50-10 = 40, XC = 100-10 = 90, IV = 5-1 = 4.",
+    "tipps": [
+      "Lies von links nach rechts. Wenn ein kleineres Zeichen vor einem größeren steht (z. B. X vor L), dann ziehe den kleineren Wert vom größeren ab. Schau in der Tabelle: X=10, L=50, C=100.",
+      "Prüfe immer zwei Zeichen gleichzeitig:\n- Ist das linke Zeichen kleiner als das rechte? → Subtrahiere (z. B. XL = 50-10)\n- Ist das linke Zeichen größer oder gleich? → Addiere (z. B. XV = 10+5)",
+      "a) X=10, L=50. X steht vor L → 50-10 = ___\nb) X=10, C=100. X steht vor C → 100-10 = ___\nc) XL=40, IV=4 → 40+4 = ___",
+      "- a) XL → X steht vor L → L-X = 50-10 = 40\n- b) XC → X steht vor C → C-X = 100-10 = 90\n- c) XLIV → XL=40, IV=4 → 40+4 = 44\n\nWenn ein kleineres Zeichen links von einem größeren steht, wird es abgezogen: XL = 50-10 = 40, XC = 100-10 = 90, IV = 5-1 = 4."
+    ],
+    "didaktischerHinweis": "Lesen mit Subtraktionsregel bei größeren Werten (XL=40, XC=90). Entspricht Fredo S. 125.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Zahl steckt dahinter? Achte auf die Subtraktionsregel!",
+      "items": [
+        {
+          "label": "a",
+          "frage": "XL",
+          "antwort": "40"
+        },
+        {
+          "label": "b",
+          "frage": "XC",
+          "antwort": "90"
+        },
+        {
+          "label": "c",
+          "frage": "XLIV",
+          "antwort": "44"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Große Zahlen als römische Zahlen schreiben",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 125,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als römische Zahl.\n\na) 150\nb) 276\nc) 499",
+    "loesung": "a) CL\nb) CCLXXVI\nc) CDXCIX",
+    "loesungsweg": "- a) 150 = 100+50 → C + L → CL\n- b) 276 = 200+70+6 = 100+100+50+10+10+5+1 → CC + LXX + VI → CCLXXVI\n- c) 499 = 400+90+9 = (500-100)+(100-10)+(10-1) → CD + XC + IX → CDXCIX\n\nBei großen Zahlen zerlegst du in Hunderter, Zehner und Einer und schreibst für jeden Teil die römischen Zeichen.",
+    "tipps": [
+      "Zerlege die Zahl in Hunderter, Zehner und Einer. Schau in der Tabelle: C=100, L=50, X=10, V=5, I=1. Vergiss nicht: D=500 und die Subtraktionsregel für 4 und 9!",
+      "Gehe Stelle für Stelle vor:\n1. Wie viele Hunderter? (C=100, D=500, CD=400)\n2. Wie viele Zehner? (X=10, L=50, XC=90)\n3. Wie viele Einer? (I=1, V=5, IX=9)\n\nBeispiel: 276 → 200=CC, 70=LXX, 6=VI → CCLXXVI",
+      "a) 150 = 100+50 → C + L → ___\nb) 276: Hunderter: 200 = CC, Zehner: 70 = LXX, Einer: 6 = VI → ___\nc) 499: Hunderter: 400 = CD, Zehner: 90 = XC, Einer: 9 = IX → ___",
+      "- a) 150 = 100+50 → C + L → CL\n- b) 276 = 200+70+6 = 100+100+50+10+10+5+1 → CC + LXX + VI → CCLXXVI\n- c) 499 = 400+90+9 = (500-100)+(100-10)+(10-1) → CD + XC + IX → CDXCIX\n\nBei großen Zahlen zerlegst du in Hunderter, Zehner und Einer und schreibst für jeden Teil die römischen Zeichen."
+    ],
+    "didaktischerHinweis": "Kombination aus Additions- und Subtraktionsregel bei dreistelligen Zahlen. Erfordert systematisches Zerlegen. Entspricht Fredo S. 125.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als römische Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "150",
+          "antwort": "CL"
+        },
+        {
+          "label": "b",
+          "frage": "276",
+          "antwort": "CCLXXVI"
+        },
+        {
+          "label": "c",
+          "frage": "499",
+          "antwort": "CDXCIX"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Jahreszahlen als römische Zahlen lesen",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 125,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "roemische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Auf alten Gebäuden und Denkmälern stehen Jahreszahlen oft in römischen Zahlen. Welches Jahr ist gemeint?\n\na) MMI\nb) MCMXLV\nc) MDCCCXII",
+    "loesung": "a) 2.001\nb) 1.945\nc) 1.812",
+    "loesungsweg": "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2.001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1.945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1.812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel.",
+    "tipps": [
+      "Beginne von links: M=1.000. Dann prüfe immer zwei Zeichen: Steht ein kleineres vor einem größeren (z. B. C vor M)? Dann ist es Subtraktion! Schau in der Tabelle: M=1.000, D=500, C=100.",
+      "Zerlege die römische Zahl in Blöcke:\n- M = 1.000\n- CM = 900 (1.000-100) — Achtung: C steht vor M!\n- XL = 40 (50-10)\n- Einzelne Zeichen addieren\n\nGehe Block für Block und addiere die Werte.",
+      "a) M+M+I = 1.000+1.000+1 = ___\nb) M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = ___\nc) M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = ___",
+      "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2.001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1.945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1.812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel."
+    ],
+    "didaktischerHinweis": "Jahreszahlen als motivierender Realweltbezug. Erfordert sicheren Umgang mit allen Zeichen (M, D, C) und der Subtraktionsregel (CM=900). Entspricht Fredo S. 125.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Auf alten Gebäuden und Denkmälern stehen Jahreszahlen oft in römischen Zahlen. Welches Jahr ist gemeint?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "MMI",
+          "antwort": "2.001"
+        },
+        {
+          "label": "b",
+          "frage": "MCMXLV",
+          "antwort": "1.945"
+        },
+        {
+          "label": "c",
+          "frage": "MDCCCXII",
+          "antwort": "1.812"
+        }
+      ]
+    }
   }
 ]

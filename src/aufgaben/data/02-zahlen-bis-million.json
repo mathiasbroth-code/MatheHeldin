@@ -675,13 +675,13 @@
     "stageId": "zerlegen-groß",
     "digital": "voll",
     "aufgabenstellung": "Welche Zahlen können es sein?\n\na) Die Zahl hat doppelt so viele ZT wie HT und doppelt so viele Z wie ZT. Sie hat keine E, H und T. Welche beiden Zahlen können es sein?\nb) Meine Zahl liegt zwischen 400.000 und 500.000. Sie hat doppelt so viele ZT wie H. Sie hat keine T, Z und E. Welche vier Zahlen können es sein?",
-    "loesung": "a) 120.040 und 240.080\n(Muster: HT=x, ZT=2x, Z=4x, Rest=0. Mit x=1: HT=1, ZT=2, Z=4 → 120.040. Mit x=2: HT=2, ZT=4, Z=8 → 240.080.)\n\nb) 410.100, 420.200, 430.300, 440.400\n(Muster: HT=4, ZT=y, H=y/2. y muss gerade sein: y=1→H=0.5✗, y=2→420.200✓ usw.\nAlternativ: ZT=2·H, also H=1→ZT=2: 420.200, H=2→ZT=4: 440.400, H=0→ZT=0: 400.000✗ (liegt nicht \"zwischen\"), aber auch: ZT=1,H nicht ganzzahig. Korrekte Paare: 410.100, 420.200, 430.300, 440.400)",
-    "loesungsweg": "- a) Setze die Bedingungen in die Stellenwerttafel: ZT = 2·HT und Z = 2·ZT = 4·HT. Da Ziffern 0-9 sein müssen und ZT ≤ 9: HT kann 1, 2, 3 oder 4 sein. Aber Z = 4·HT muss ≤ 9, also HT ≤ 2. Ergibt HT=1→ZT=2,Z=4 und HT=2→ZT=4,Z=8.\n- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 0 bis 4 (da ZT ≤ 9). H=0→ZT=0, H=1→ZT=2, H=2→ZT=4, H=3→ZT=6, H=4→ZT=8. Vier Lösungen (H=0 ergibt 400.000, was nicht \"zwischen\" liegt).",
+    "loesung": "a) 120.040 und 240.080\n(Muster: HT=x, ZT=2x, Z=4x, Rest=0. Mit x=1: HT=1, ZT=2, Z=4 → 120.040. Mit x=2: HT=2, ZT=4, Z=8 → 240.080.)\n\nb) 420.100, 440.200, 460.300, 480.400\n(Muster: HT=4, ZT=2·H. H muss so sein, dass ZT=2·H ≤ 9. H=1→ZT=2: 420.100, H=2→ZT=4: 440.200, H=3→ZT=6: 460.300, H=4→ZT=8: 480.400)",
+    "loesungsweg": "- a) Setze die Bedingungen in die Stellenwerttafel: ZT = 2·HT und Z = 2·ZT = 4·HT. Da Ziffern 0-9 sein müssen und ZT ≤ 9: HT kann 1, 2, 3 oder 4 sein. Aber Z = 4·HT muss ≤ 9, also HT ≤ 2. Ergibt HT=1→ZT=2,Z=4 und HT=2→ZT=4,Z=8.\n- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 1 bis 4 (da ZT ≤ 9). H=1→ZT=2: 420.100, H=2→ZT=4: 440.200, H=3→ZT=6: 460.300, H=4→ZT=8: 480.400. Vier Lösungen.",
     "tipps": [
       "Schreibe die Stellenwerttafel auf und setze die Bedingungen ein. Zum Beispiel: \"doppelt so viele ZT wie HT\" bedeutet: Wenn HT = 1, dann ist ZT = ?",
       "Probiere verschiedene Zahlen für den HT-Stellenwert aus. Bei a): Wenn HT = 1, wie groß sind dann ZT und Z? Denk daran: Jede Stelle hat nur die Ziffern 0-9!",
       "Bei a): Teste HT = 1: Dann ZT = 2 · 1 = 2 und Z = 2 · 2 = 4. Die Zahl: _ 2 _ . 0 _ 0. Was fehlt an der HT-Stelle und an der Z-Stelle? HT = 1 und Z = 4 → 120.040. Teste jetzt HT = 2.",
-      "- a) Setze die Bedingungen in die Stellenwerttafel: ZT = 2·HT und Z = 2·ZT = 4·HT. Da Ziffern 0-9 sein müssen und ZT ≤ 9: HT kann 1, 2, 3 oder 4 sein. Aber Z = 4·HT muss ≤ 9, also HT ≤ 2. Ergibt HT=1→ZT=2,Z=4 und HT=2→ZT=4,Z=8.\n- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 0 bis 4 (da ZT ≤ 9). H=0→ZT=0, H=1→ZT=2, H=2→ZT=4, H=3→ZT=6, H=4→ZT=8. Vier Lösungen (H=0 ergibt 400.000, was nicht \"zwischen\" liegt)."
+      "- a) Setze die Bedingungen in die Stellenwerttafel: ZT = 2·HT und Z = 2·ZT = 4·HT. Da Ziffern 0-9 sein müssen und ZT ≤ 9: HT kann 1, 2, 3 oder 4 sein. Aber Z = 4·HT muss ≤ 9, also HT ≤ 2. Ergibt HT=1→ZT=2,Z=4 und HT=2→ZT=4,Z=8.\n- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 1 bis 4 (da ZT ≤ 9). H=1→ZT=2: 420.100, H=2→ZT=4: 440.200, H=3→ZT=6: 460.300, H=4→ZT=8: 480.400. Vier Lösungen."
     ],
     "didaktischerHinweis": "Zahlenrätsel fördern logisches Denken und das flexible Arbeiten mit Stellenwerten. Das systematische Probieren aller Möglichkeiten (und das Begründen, warum manche nicht funktionieren) ist eine wichtige mathematische Kompetenz.",
     "parsed": {
@@ -697,7 +697,7 @@
         {
           "label": "b",
           "frage": "Meine Zahl liegt zwischen 400.000 und 500.000. Sie hat doppelt so viele ZT wie H. Sie hat keine T, Z und E. Welche vier Zahlen können es sein?",
-          "antwort": "410.100, 420.200, 430.300, 440.400"
+          "antwort": "420.100, 440.200, 460.300, 480.400"
         }
       ]
     }
@@ -3152,6 +3152,246 @@
           "erklaerung": "Richtig — Wenn man sechsmal eine 6 würfelt und jede auf eine Stelle legt: 666.666."
         }
       ]
+    }
+  },
+  {
+    "titel": "Schätzen — Äpfel in einer Kiste",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "gelb",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Schätze: Wie viele Äpfel passen ungefähr in eine große Obstkiste?\n\na) 10\nb) 50\nc) 500",
+    "loesung": "Die richtige Antwort ist b) 50.",
+    "loesungsweg": "Eine große Obstkiste hat ungefähr 5 Reihen mit je 10 Äpfeln nebeneinander. 5 × 10 = 50. 10 Äpfel wären viel zu wenig — da wäre die Kiste fast leer. 500 Äpfel würden niemals in eine Kiste passen, dafür bräuchte man 10 Kisten.",
+    "tipps": [
+      "Stell dir eine Kiste vor, wie du sie im Supermarkt siehst. Wie viele Äpfel liegen nebeneinander in einer Reihe? Und wie viele Reihen sind übereinander?",
+      "Zähle in Portionen: Stell dir vor, du legst die Äpfel in Reihen. In eine Reihe passen ungefähr 10 Äpfel. Wie viele Reihen hat die Kiste? Multipliziere: Reihen × Äpfel pro Reihe.",
+      "Eine Reihe hat ungefähr 10 Äpfel. Die Kiste hat ungefähr 5 Reihen (nebeneinander und übereinander). Also: 5 × 10 = 50. Welche Antwort passt?",
+      "Eine große Obstkiste hat ungefähr 5 Reihen mit je 10 Äpfeln nebeneinander. 5 × 10 = 50. 10 Äpfel wären viel zu wenig — da wäre die Kiste fast leer. 500 Äpfel würden niemals in eine Kiste passen, dafür bräuchte man 10 Kisten."
+    ],
+    "didaktischerHinweis": "Diese Einstiegsaufgabe trainiert das Schätzen mit Alltagsgegenständen. Das Kind soll lernen, Größenordnungen einzuschätzen, indem es sich die Situation konkret vorstellt. Die Strategie \"in Portionen aufteilen\" (Reihen zählen, dann multiplizieren) ist eine Schlüsselmethode für alle weiteren Schätzaufgaben.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schätze: Wie viele Äpfel passen ungefähr in eine große Obstkiste?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "500"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Schätzen — Seiten in einem dicken Buch",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "gelb",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Schätze: Wie viele Seiten hat ein dickes Buch (zum Beispiel ein Harry-Potter-Band)?\n\na) 30\nb) 300\nc) 3.000",
+    "loesung": "Die richtige Antwort ist b) 300.",
+    "loesungsweg": "Ein dünnes Heft hat ungefähr 30 Seiten — ein dickes Buch ist viel dicker als ein Heft. 3.000 Seiten wären so dick wie 10 dicke Bücher zusammen. Ein normales dickes Buch hat ungefähr 200 bis 400 Seiten, also passt 300 am besten.",
+    "tipps": [
+      "Denke an dein Schulheft — das hat ungefähr 30 Seiten. Ist ein dickes Buch genauso dick oder viel dicker?",
+      "Nutze eine Vergleichsgröße: Dein Mathebuch hat ungefähr 100 Seiten. Ein Harry-Potter-Band ist ungefähr 3-mal so dick. Also ungefähr 3 × 100 = ?",
+      "30 Seiten — das ist nur ein dünnes Heft. ✗ 3.000 Seiten — das wäre ein riesiger Stapel Papier, dicker als dein Arm. ✗ 300 Seiten — das ist ungefähr so dick wie 3 Schulhefte übereinander. Klingt das nach einem dicken Buch? ✓",
+      "Ein dünnes Heft hat ungefähr 30 Seiten — ein dickes Buch ist viel dicker als ein Heft. 3.000 Seiten wären so dick wie 10 dicke Bücher zusammen. Ein normales dickes Buch hat ungefähr 200 bis 400 Seiten, also passt 300 am besten."
+    ],
+    "didaktischerHinweis": "Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden sich jeweils um den Faktor 10. Das Kind soll nicht exakt rechnen, sondern mit bekannten Vergleichsgrößen (Schulheft, Mathebuch) abschätzen, welche Zehnerpotenz passt.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schätze: Wie viele Seiten hat ein dickes Buch (zum Beispiel ein Harry-Potter-Band)?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "3.000"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Schätzen — Sitzplätze im Kino",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "grün",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Schätze: Wie viele Sitzplätze hat ein großer Kinosaal?\n\na) 30\nb) 300\nc) 3.000",
+    "loesung": "Die richtige Antwort ist b) 300.",
+    "loesungsweg": "Ein großer Kinosaal hat ungefähr 15 bis 20 Reihen mit je 15 bis 20 Sitzen. 20 × 15 = 300. 30 Plätze wären nur 2 kleine Reihen — das ist kein Kino, eher ein Wohnzimmer. 3.000 Plätze wären so viel wie eine große Sporthalle — das ist viel zu viel für einen Kinosaal.",
+    "tipps": [
+      "Warst du schon mal im Kino? Stell dir den Saal vor. Wie viele Reihen gibt es ungefähr? Und wie viele Sitze stehen in einer Reihe?",
+      "Zähle in Gruppen: Stell dir vor, der Kinosaal hat ungefähr 15 Reihen. In jeder Reihe sitzen ungefähr 20 Leute. Multipliziere: 15 × 20 = ?",
+      "15 Reihen × 20 Plätze = 300 Plätze. Prüfe: 30 Plätze — da passen ja nur deine Klasse rein. Zu wenig! 3.000 Plätze — da müssten 100 Reihen mit 30 Sitzen sein. Viel zu viel! 300 Plätze — das klingt richtig für einen großen Kinosaal.",
+      "Ein großer Kinosaal hat ungefähr 15 bis 20 Reihen mit je 15 bis 20 Sitzen. 20 × 15 = 300. 30 Plätze wären nur 2 kleine Reihen — das ist kein Kino, eher ein Wohnzimmer. 3.000 Plätze wären so viel wie eine große Sporthalle — das ist viel zu viel für einen Kinosaal."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe vertieft die Portionen-Strategie (Reihen × Plätze pro Reihe) in einem anderen Kontext. Das Kind muss nun selbst entscheiden, wie es den Raum aufteilt. Die Abgrenzung \"zu wenig / passend / zu viel\" stärkt das Gespür für Größenordnungen.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schätze: Wie viele Sitzplätze hat ein großer Kinosaal?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "3.000"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Schätzen — Punkte in einem Feld",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "grün",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Stell dir ein Feld mit Punkten vor: 8 Reihen mit jeweils 12 Punkten.\n\nWie viele Punkte sind es insgesamt?\n\na) 50\nb) 96\nc) 200",
+    "loesung": "Die richtige Antwort ist b) 96.",
+    "loesungsweg": "8 Reihen × 12 Punkte pro Reihe = 96 Punkte. Hier kann man sogar genau rechnen: 8 × 12 = 8 × 10 + 8 × 2 = 80 + 16 = 96.",
+    "tipps": [
+      "Du kennst die Anzahl der Reihen und die Anzahl der Punkte pro Reihe. Welche Rechenart hilft dir, die Gesamtzahl zu finden?",
+      "Multipliziere: Reihen × Punkte pro Reihe. Also 8 × 12. Zerlege die 12 in 10 + 2, dann wird es leichter: 8 × 10 = ? und 8 × 2 = ?",
+      "8 × 12: Rechne zuerst 8 × 10 = 80. Dann 8 × 2 = 16. Zusammen: 80 + 16 = 96. Schau dir die Antworten an — welche ist 96?",
+      "8 Reihen × 12 Punkte pro Reihe = 96 Punkte. Hier kann man sogar genau rechnen: 8 × 12 = 8 × 10 + 8 × 2 = 80 + 16 = 96."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe kombiniert Schätzen mit konkretem Rechnen. Da Reihen und Spalten exakt angegeben sind, kann das Kind die genaue Anzahl berechnen. Das stärkt das Vertrauen in die Strategie \"Reihen × Spalten\" und zeigt, dass Schätzen auf echten Rechnungen basiert.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Stell dir ein Feld mit Punkten vor: 8 Reihen mit jeweils 12 Punkten.\n\nWie viele Punkte sind es insgesamt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "50"
+        },
+        {
+          "label": "B",
+          "text": "96"
+        },
+        {
+          "label": "C",
+          "text": "200"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Schätzen — Haare auf dem Kopf",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "orange",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Schätze: Wie viele Haare hat ein Mensch ungefähr auf dem Kopf?\n\na) 10.000\nb) 100.000\nc) 1.000.000",
+    "loesung": "Die richtige Antwort ist b) 100.000.",
+    "loesungsweg": "Ein Mensch hat ungefähr 100.000 Haare auf dem Kopf. 10.000 wären zu wenig — dann könnte man die Kopfhaut durchsehen. 1.000.000 wären zu viel — so viele Haare hätten gar nicht Platz auf einem Kopf. Die Kopfhaut ist ungefähr 600 cm² groß, und pro cm² wachsen ungefähr 150 bis 200 Haare: 600 × 170 ≈ 100.000.",
+    "tipps": [
+      "Stell dir eine kleine Stelle auf deinem Kopf vor, ungefähr so groß wie dein Daumennagel. Wie viele Haare wachsen dort wohl? Bestimmt mehr als 10, oder? Und jetzt stell dir den ganzen Kopf vor …",
+      "Denke in Größenordnungen: Die drei Antworten sind 10.000, 100.000 und 1.000.000. Jede ist 10-mal so groß wie die vorherige. Überlege: 10.000 — ist das genug für einen vollen Haarschopf? Und 1.000.000 — wäre das nicht unglaublich viel?",
+      "Stell dir vor, du zählst jeden Tag 100 Haare (die fallen auch wirklich ungefähr so viele aus!). Dann hättest du nach 1.000 Tagen (knapp 3 Jahre) alle gezählt: 1.000 × 100 = 100.000. Welche Antwort passt?",
+      "Ein Mensch hat ungefähr 100.000 Haare auf dem Kopf. 10.000 wären zu wenig — dann könnte man die Kopfhaut durchsehen. 1.000.000 wären zu viel — so viele Haare hätten gar nicht Platz auf einem Kopf. Die Kopfhaut ist ungefähr 600 cm² groß, und pro cm² wachsen ungefähr 150 bis 200 Haare: 600 × 170 ≈ 100.000."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe konfrontiert das Kind mit einer sehr großen Zahl aus dem eigenen Körper — das erzeugt Staunen und Neugier. Die Strategie \"Größenordnung abschätzen durch Ausschließen\" (zu wenig / passt / zu viel) ist hier besonders wichtig, weil man Haare nicht einfach in Reihen aufteilen kann.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schätze: Wie viele Haare hat ein Mensch ungefähr auf dem Kopf?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "10.000"
+        },
+        {
+          "label": "B",
+          "text": "100.000"
+        },
+        {
+          "label": "C",
+          "text": "1.000.000"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Schätzen — Sekunden am Tag",
+    "typ": "auswahl",
+    "thema": "Große Anzahlen schätzen",
+    "schwierigkeit": "orange",
+    "buchseite": 26,
+    "kapitel": "02-zahlen-bis-million",
+    "stageId": "schaetzen",
+    "digital": "voll",
+    "aufgabenstellung": "Schätze: Wie viele Sekunden hat ein ganzer Tag (24 Stunden)?\n\na) 8.640\nb) 86.400\nc) 864.000",
+    "loesung": "Die richtige Antwort ist b) 86.400.",
+    "loesungsweg": "1 Stunde = 60 Minuten. 1 Minute = 60 Sekunden. Also hat 1 Stunde: 60 × 60 = 3.600 Sekunden. Ein Tag hat 24 Stunden: 24 × 3.600 = 86.400 Sekunden.",
+    "tipps": [
+      "Du weißt: 1 Minute hat 60 Sekunden und 1 Stunde hat 60 Minuten. Wie viele Sekunden hat dann eine Stunde? Und wie viele Stunden hat ein Tag?",
+      "Rechne in Schritten: Zuerst Sekunden pro Stunde (60 × 60), dann Sekunden pro Tag (Ergebnis × 24). Nutze die Zerlegung: 24 × 3.600 = 20 × 3.600 + 4 × 3.600.",
+      "60 × 60 = 3.600 Sekunden pro Stunde. Jetzt 24 × 3.600: Rechne 20 × 3.600 = 72.000 und 4 × 3.600 = 14.400. Zusammen: 72.000 + 14.400 = 86.400. Welche Antwort stimmt?",
+      "1 Stunde = 60 Minuten. 1 Minute = 60 Sekunden. Also hat 1 Stunde: 60 × 60 = 3.600 Sekunden. Ein Tag hat 24 Stunden: 24 × 3.600 = 86.400 Sekunden."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe verbindet Schätzen mit konkretem Rechnen in Zeiteinheiten. Das schrittweise Umrechnen (Minuten → Stunden → Tag) ist eine wichtige Strategie. Die drei Antwortmöglichkeiten unterscheiden sich wieder um den Faktor 10, sodass das Kind auch ohne exakte Rechnung durch Größenordnungsdenken die richtige Antwort eingrenzen kann.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schätze: Wie viele Sekunden hat ein ganzer Tag (24 Stunden)?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "8.640"
+        },
+        {
+          "label": "B",
+          "text": "86.400"
+        },
+        {
+          "label": "C",
+          "text": "864.000"
+        }
+      ],
+      "richtigeIdx": 0
     }
   }
 ]

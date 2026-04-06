@@ -17,7 +17,8 @@ kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
 video: "S125_Roemische_Zahlen.mp4"
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -31,22 +32,22 @@ e) C
 f) D
 g) M
 
-1) 1
-2) 5
-3) 10
-4) 50
-5) 100
-6) 500
-7) 1.000
+A) 1
+B) 5
+C) 10
+D) 50
+E) 100
+F) 500
+G) 1.000
 
 ### Lösung
-a) I → 1)  1
-b) V → 2)  5
-c) X → 3)  10
-d) L → 4)  50
-e) C → 5)  100
-f) D → 6)  500
-g) M → 7)  1.000
+a) → A
+b) → B
+c) → C
+d) → D
+e) → E
+f) → F
+g) → G
 
 ### Lösungsweg
 Die sieben römischen Zahlzeichen und ihre Werte:
@@ -77,7 +78,8 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -127,7 +129,8 @@ buchseite: 124
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -185,7 +188,8 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -242,7 +246,8 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -260,7 +265,7 @@ a) Falsch! 14 = XIV (nicht XIIII — höchstens 3 gleiche Zeichen nebeneinander)
 b) Richtig! 77 = LXXVII
 c) Falsch! 66 = LXVI (nicht LXIV, denn LXIV = 64)
 d) Richtig! 160 = CLX
-e) Falsch! 650 = DCL (nicht DCV, denn DCV = 505)
+e) Falsch! 650 = DCL (nicht DCV, denn DCV = 605)
 f) Richtig! 604 = DCIV
 
 ### Lösungsweg
@@ -295,7 +300,8 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -340,7 +346,8 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
+merkkasten_typ: regel
+merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
 ---
 
 ### Aufgabenstellung
@@ -399,7 +406,8 @@ kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
 video: "S126_Das_Binaersystem.mp4"
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -445,7 +453,8 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -494,7 +503,8 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -553,7 +563,8 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -598,7 +609,8 @@ buchseite: 127
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -650,7 +662,8 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
 ---
 
 ### Aufgabenstellung
@@ -713,16 +726,16 @@ b) 1 Kilobyte (KB)
 c) 1 Megabyte (MB)
 d) 1 Gigabyte (GB)
 
-1) = 1.024 MB — passt auf einen USB-Stick
-2) = 8 Bit — Speicher für einen Buchstaben
-3) = 1.024 B — etwa eine halbe Buchseite
-4) = 1.024 KB — etwa ein ganzes Buch
+A) = 1.024 MB — passt auf einen USB-Stick
+B) = 8 Bit — Speicher für einen Buchstaben
+C) = 1.024 B — etwa eine halbe Buchseite
+D) = 1.024 KB — etwa ein ganzes Buch
 
 ### Lösung
-a) → 2) 8 Bit — Speicher für einen Buchstaben
-b) → 3) 1.024 B — etwa eine halbe Buchseite
-c) → 4) 1.024 KB — etwa ein ganzes Buch
-d) → 1) 1.024 MB — passt auf einen USB-Stick
+a) → B
+b) → C
+c) → D
+d) → A
 
 ### Lösungsweg
 Die Einheiten bauen aufeinander auf, immer mit dem Faktor 1.024:
@@ -1506,21 +1519,6 @@ c) ___, ___, 34, 62, ___
 
 ### Lösung
 a) 13, 7, 20, 27, 47
-b) 5, 10, 15, 25, 40 (oder vorwärts: 10+15=25, 15+25=40; rückwärts: 15-10=5)
-c) 12, 22, 34, 62, 96 (rückwärts: 62-34=28... Korrektur: 34-22=12, 22+34=56... Hmm.)
-
-Korrigierte Version:
-a) 13, 7, 20, 27, 47
-b) 5, 10, 15, 25, 40
-c) 24, 38, 62, 100, 162 — Nein.
-
-Korrekt nach Buch-Aufgabe 3:
-a) 13, 7 → 13+7=20, 7+20=27, 20+27=47
-b) ___, 10, 15 → 15-10=5. Also: 5, 10, 15, 25, 40
-c) ___, ___, ___, 34, 62 → 62-34=28. 34-28=6. Also: 6, 28, 34, 62, 96
-
-### Lösung (bereinigt)
-a) 13, 7, 20, 27, 47
 b) 5, 10, 15, 25, 40
 c) 6, 28, 34, 62, 96
 
@@ -1567,17 +1565,13 @@ Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die F
 Finde mindestens 2 verschiedene Folgen.
 
 ### Lösung
-Beispiele:
-- 8, 23, 31, 39, 100 — Nein, Prüfung: 31+39=70, nicht 100.
-
-Korrekte Beispiele (5 Zahlen, Fibonacci-Regel, endet bei der 5. Zahl = 100):
-Wenn die Folge a, b, a+b, a+2b, 2a+3b ist, dann 2a+3b=100.
-- a=2, b=32: 2, 32, 34, 66, 100 ✓
-- a=5, b=30: 5, 30, 35, 65, 100 ✓
-- a=8, b=28: 8, 28, 36, 64, 100 ✓
-- a=11, b=26: 11, 26, 37, 63, 100 ✓
-- a=14, b=24: 14, 24, 38, 62, 100 ✓
-- a=20, b=20: 20, 20, 40, 60, 100 ✓
+Beispiele (5 Zahlen, Fibonacci-Regel, endet bei 100):
+- 2, 32, 34, 66, 100 ✓
+- 5, 30, 35, 65, 100 ✓
+- 8, 28, 36, 64, 100 ✓
+- 11, 26, 37, 63, 100 ✓
+- 14, 24, 38, 62, 100 ✓
+- 20, 20, 40, 60, 100 ✓
 
 ### Lösungsweg
 Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.
@@ -1617,38 +1611,12 @@ Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die 
 
 a) 8, 7, 15, 22, ___
 b) 9, 7, 16, 23, ___
-c) 10, 7, 17, 27, ___
+c) 10, 7, 17, 24, ___
 d) 11, 7, 18, 25, ___
 
 Was fällt dir bei der 5. Zahl auf?
 
 ### Lösung
-a) 37
-b) 39
-c) 44
-d) 43
-
-Die 5. Zahl wird jeweils um 2 größer (37, 39, 41, 43), wenn die 1. Zahl um 1 wächst.
-
-Korrektur — nochmal gerechnet:
-a) 8, 7: 15, 22, 37
-b) 9, 7: 16, 23, 39
-c) 10, 7: 17, 27, 44
-d) 11, 7: 18, 25, 43
-
-c) 10+7=17, 7+17=24 (nicht 27!). Nochmal:
-c) 10, 7, 17, 24, 41
-d) 11, 7, 18, 25, 43
-
-Nochmal sorgfältig:
-a) 8, 7 → 8+7=15, 7+15=22, 15+22=37
-b) 9, 7 → 9+7=16, 7+16=23, 16+23=39
-c) 10, 7 → 10+7=17, 7+17=24, 17+24=41
-d) 11, 7 → 11+7=18, 7+18=25, 18+25=43
-
-5. Zahlen: 37, 39, 41, 43 → jeweils +2!
-
-### Lösung (bereinigt)
 a) 37
 b) 39
 c) 41
@@ -1827,7 +1795,8 @@ buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -1874,7 +1843,8 @@ buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -1919,7 +1889,8 @@ buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -1929,10 +1900,13 @@ a) 16
 b) 25
 c) 40
 
+A) arm (Summe der echten Teiler ist kleiner als die Zahl)
+B) reich (Summe der echten Teiler ist größer als die Zahl)
+
 ### Lösung
-a) 16 ist arm (echte Teiler: 1+2+4+8 = 15 < 16)
-b) 25 ist arm (echte Teiler: 1+5 = 6 < 25)
-c) 40 ist reich (echte Teiler: 1+2+4+5+8+10+20 = 50 > 40)
+a) → A
+b) → A
+c) → B
 
 ### Lösungsweg
 - a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm
@@ -1964,7 +1938,8 @@ buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -2006,7 +1981,8 @@ kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
 video: "S143_Primzahlen.mp4"
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -2055,7 +2031,8 @@ buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -2110,7 +2087,8 @@ buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
+merkkasten_typ: regel
+merkkasten_text: "Echte Teiler einer Zahl sind alle Teiler der Zahl außer der Zahl selbst."
 ---
 
 ### Aufgabenstellung
@@ -2156,7 +2134,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2207,7 +2184,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2270,7 +2246,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2326,7 +2301,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2375,7 +2349,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2388,15 +2361,6 @@ b) Welche sind durch 3 teilbar?
 c) Was fällt dir auf?
 
 ### Lösung
-a) Durch 5 teilbar: 55, 165, 330, 330, 165, 55 (6 Zahlen)
-b) Durch 3 teilbar: 33→Nein! Prüfung:
-   - 1: nein, 11: nein, 55: 5+5=10 nein, 165: 1+6+5=12 ja, 330: 3+3+0=6 ja, 462: 4+6+2=12 ja, und symmetrisch
-   Also durch 3 teilbar: 165, 330, 462, 462, 330, 165 (6 Zahlen)
-c) Die teilbaren Zahlen bilden ein symmetrisches Muster (weil das Dreieck symmetrisch ist).
-
-Korrektur für 55: 5+5=10, 10:3=3,33 → nicht durch 3 teilbar.
-
-### Lösung (bereinigt)
 a) Durch 5 teilbar: 55, 165, 330, 330, 165, 55
 b) Durch 3 teilbar: 165, 330, 462, 462, 330, 165
 c) Die teilbaren Zahlen bilden ein symmetrisches Muster.
@@ -2435,7 +2399,6 @@ kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
-tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung

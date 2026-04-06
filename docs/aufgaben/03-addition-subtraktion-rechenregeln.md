@@ -16,7 +16,8 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -73,7 +74,8 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -120,7 +122,8 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -165,7 +168,8 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -213,7 +217,8 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -255,7 +260,8 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -300,7 +306,8 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -345,7 +352,8 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -394,7 +402,8 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -439,7 +448,8 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -490,7 +500,8 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -532,7 +543,8 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -574,7 +586,8 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -621,7 +634,8 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -675,7 +689,8 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -726,7 +741,8 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -781,7 +797,8 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -827,7 +844,8 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -878,7 +896,8 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -934,7 +953,8 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -977,7 +997,8 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1022,7 +1043,8 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1063,7 +1085,8 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1111,7 +1134,8 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1157,7 +1181,8 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1202,31 +1227,31 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
-Überschlage. Sortiere die Aufgaben in die richtige Spalte.
+Überschlage und ordne jede Aufgabe dem richtigen Ergebnisbereich zu.
 
-| Aufgabe | Ergebnis zwischen 2.000 und 3.000 | Ergebnis zwischen 4.000 und 5.000 |
-|---------|:-:|:-:|
-| 3.487 + 1.256 | | |
-| 1.245 + 1.398 | | |
-| 6.234 − 2.891 | | |
-| 5.312 − 2.765 | | |
-| 2.109 + 2.456 | | |
-| 8.743 − 3.891 | | |
+a) 3.487 + 1.256
+b) 1.245 + 1.398
+c) 6.234 − 2.891
+d) 5.312 − 2.765
+e) 2.109 + 2.456
+f) 8.743 − 3.891
+
+A) Ergebnis zwischen 4.000 und 5.000
+B) Ergebnis zwischen 2.000 und 3.000
+C) Ergebnis zwischen 3.000 und 4.000
 
 ### Lösung
-Ergebnis zwischen 2.000 und 3.000:
-- 1.245 + 1.398 ≈ 2.600 (genau: 2.643)
-- 5.312 − 2.765 ≈ 2.500 (genau: 2.547)
-
-Ergebnis zwischen 4.000 und 5.000:
-- 3.487 + 1.256 ≈ 4.700 (genau: 4.743)
-- 6.234 − 2.891 ≈ 3.300 → passt in KEINE Spalte (genau: 3.343)
-- 2.109 + 2.456 ≈ 4.600 (genau: 4.565)
-- 8.743 − 3.891 ≈ 4.900 (genau: 4.852)
+a) → A
+b) → B
+c) → C
+d) → B
+e) → A
+f) → A
 
 ### Lösungsweg
 Runde jede Zahl auf Hunderter und rechne den Überschlag:
@@ -1262,7 +1287,8 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1307,7 +1333,8 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
 ---
 
 ### Aufgabenstellung
@@ -1354,7 +1381,8 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1395,7 +1423,8 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1435,7 +1464,8 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1475,7 +1505,8 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1518,29 +1549,28 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
 Welche Beschreibung gehört zu welcher Rechenkette? Ordne zu und rechne.
 
-Beschreibungen:
-1. Addiere zu 48 die Zahl 12 und dividiere das Ergebnis durch 4.
-2. Subtrahiere von 48 die Zahl 12 und multipliziere das Ergebnis mit 4.
-3. Multipliziere 48 mit 4 und subtrahiere dann 12.
-4. Dividiere 48 durch 4 und addiere dann 12.
+a) Addiere zu 48 die Zahl 12 und dividiere das Ergebnis durch 4.
+b) Subtrahiere von 48 die Zahl 12 und multipliziere das Ergebnis mit 4.
+c) Multipliziere 48 mit 4 und subtrahiere dann 12.
+d) Dividiere 48 durch 4 und addiere dann 12.
 
-Rechenketten:
 A) 48 → · 4 → ▢ → − 12 → ▢
 B) 48 → + 12 → ▢ → : 4 → ▢
 C) 48 → : 4 → ▢ → + 12 → ▢
 D) 48 → − 12 → ▢ → · 4 → ▢
 
 ### Lösung
-1 → B: 48 → + 12 → 60 → : 4 → 15
-2 → D: 48 → − 12 → 36 → · 4 → 144
-3 → A: 48 → · 4 → 192 → − 12 → 180
-4 → C: 48 → : 4 → 12 → + 12 → 24
+a) → B
+b) → D
+c) → A
+d) → C
 
 ### Lösungsweg
 Lies die Beschreibung und identifiziere: Startzahl (48), erste Operation, zweite Operation. Suche die passende Kette.
@@ -1570,7 +1600,8 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1615,7 +1646,8 @@ buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1661,7 +1693,8 @@ buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1706,27 +1739,20 @@ buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
 Schreibe als Rechenkette und löse.
 
-Ich denke mir eine Zahl und multipliziere sie mit 6, dann addiere ich 50 und dividiere durch 5. Ich erhalte 80.
+Ich denke mir eine Zahl und multipliziere sie mit 5, dann addiere ich 50 und dividiere durch 3. Ich erhalte 100.
 
 ### Lösung
-Die gedachte Zahl ist 55.
-
-Rechenkette: ▢ → · 6 → ▢ → + 50 → ▢ → : 5 → 80
-Rückwärts: 80 → · 5 → 400 → − 50 → 350 → : 6 → Nein, 350 : 6 geht nicht glatt auf.
-
-Korrektur der Aufgabe — passende Variante:
-Ich denke mir eine Zahl und multipliziere sie mit 5, dann addiere ich 50 und dividiere durch 3. Ich erhalte 100.
+Die gedachte Zahl ist 50.
 
 Rechenkette: ▢ → · 5 → ▢ → + 50 → ▢ → : 3 → 100
 Rückwärts: 100 → · 3 → 300 → − 50 → 250 → : 5 → 50
-
-Die gedachte Zahl ist 50.
 
 ### Lösungsweg
 1. Rechenkette: ? → · 5 → ? → + 50 → ? → : 3 → 100
@@ -1761,7 +1787,8 @@ buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1807,7 +1834,8 @@ buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
 ---
 
 ### Aufgabenstellung
@@ -1855,8 +1883,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -1905,8 +1933,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -1950,8 +1978,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2000,8 +2028,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2050,8 +2078,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2100,8 +2128,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2150,8 +2178,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2200,8 +2228,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
-tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
+merkkasten_typ: regel
+merkkasten_text: "Punktrechnung vor Strichrechnung!\nZuerst · oder : rechnen, dann + oder −."
 ---
 
 ### Aufgabenstellung
@@ -2255,9 +2283,8 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2306,9 +2333,8 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2316,23 +2342,17 @@ tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 Löse die Gleichungen.
 
 a) 45 + 65 = 55 + ▢
-b) 60 + 60 = 80 · ▢
+b) 60 + 60 = 40 · ▢
 c) 120 − 30 = 50 + ▢
 
 ### Lösung
 a) 55
-b) Keine ganze Zahl (120 : 80 = 1,5) — korrigierte Aufgabe:
-   60 + 60 = 40 · ▢ → ▢ = 3
-c) 40
-
-### Lösung (korrigiert)
-a) 55
-b) 3 (bei 60 + 60 = 40 · ▢)
+b) 3
 c) 40
 
 ### Lösungsweg
 - a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55
-- b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3
+- - b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3
 - c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40
 
 ### Tipp 1 (Denkanstoß)
@@ -2360,9 +2380,8 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2370,19 +2389,13 @@ tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 Löse die Gleichungen.
 
 a) 150 + 70 = 4 · ▢
-b) 84 − 29 = 280 : ▢
+b) 84 − 24 = 300 : ▢
 c) 420 − ▢ = 80 · 4
 d) ▢ · 60 = 530 − 230
 
 ### Lösung
-a) 55 (denn 220 : 4 = 55)
-b) 5 (denn 55 → 280 : 5 = 56 ≠ 55 — korrigierte Aufgabe: 84 − 24 = 300 : ▢ → 60 = 300 : ▢ → ▢ = 5)
-c) 100 (denn 80 · 4 = 320, 420 − ▢ = 320, ▢ = 100)
-d) 5 (denn 530 − 230 = 300, ▢ · 60 = 300, ▢ = 5)
-
-### Lösung (korrigiert)
 a) 55
-b) 5 (bei 84 − 24 = 300 : ▢)
+b) 5
 c) 100
 d) 5
 
@@ -2417,9 +2430,8 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2466,41 +2478,29 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
 Welche Gleichung passt zu welchem Rätsel? Ordne zu und löse die Gleichungen.
 
-Gleichungen:
-a) 7 · ▢ = 10 + 4
-b) 7 − ▢ = 10 : 2
-c) 7 + ▢ = 10 − 4
-d) ▢ : 7 = 10 · 2
+a) Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Summe aus 10 und 4.
+b) Wenn ich das Produkt aus 7 und meiner Zahl bilde, erhalte ich die Summe aus 10 und 4.
+c) Wenn ich die Differenz aus 7 und meiner Zahl bilde, erhalte ich den Quotienten aus 10 und 2.
+d) Wenn ich meine Zahl durch 7 dividiere, erhalte ich das Produkt aus 10 und 2.
 
-Rätsel:
-1) Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Differenz aus 10 und 4.
-2) Wenn ich das Produkt aus 7 und meiner Zahl bilde, erhalte ich die Summe aus 10 und 4.
-3) Wenn ich die Differenz aus 7 und meiner Zahl bilde, erhalte ich den Quotienten aus 10 und 2.
-4) Wenn ich meine Zahl durch 7 dividiere, erhalte ich das Produkt aus 10 und 2.
+A) 7 · ▢ = 10 + 4
+B) ▢ : 7 = 10 · 2
+C) 7 + ▢ = 10 + 4
+D) 7 − ▢ = 10 : 2
 
 ### Lösung
-1 → c: 7 + ▢ = 10 − 4 → 7 + ▢ = 6 → ▢ = −1 → Korrektur: Rätsel angepasst →
-1 → c: 7 + ▢ = 10 + 4 → nicht passend.
-
-Korrekte Zuordnung:
-- 2 → a: 7 · ▢ = 10 + 4 → 7 · ▢ = 14 → ▢ = 2
-- 3 → b: 7 − ▢ = 10 : 2 → 7 − ▢ = 5 → ▢ = 2
-- 1 → c: 7 + ▢ = 10 − 4 → 7 + ▢ = 6 (Hinweis: keine positive Lösung im Schulkontext)
-- 4 → d: ▢ : 7 = 10 · 2 → ▢ : 7 = 20 → ▢ = 140
-
-Angepasste Lösung:
-- a) 7 · ▢ = 14 → ▢ = 2
-- b) 7 − ▢ = 5 → ▢ = 2
-- d) ▢ : 7 = 20 → ▢ = 140
+a) → C
+b) → A
+c) → D
+d) → B
 
 ### Lösungsweg
 1. Übersetze die Fachbegriffe: Summe = +, Differenz = −, Produkt = ·, Quotient = :
@@ -2532,9 +2532,8 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2584,9 +2583,8 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
@@ -2636,9 +2634,8 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
-tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
-tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 

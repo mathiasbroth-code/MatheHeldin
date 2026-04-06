@@ -314,7 +314,7 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "einfache-brüche",
     "digital": "voll",
-    "aufgabenstellung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: < oder >\n\na) 1/2 ___ 1/4\nb) 3/4 ___ 1/2\nc) 1/8 ___ 1/4\nd) 7/8 ___ 3/4\ne) 2/4 ___ 4/8",
+    "aufgabenstellung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =\n\na) 1/2 ___ 1/4\nb) 3/4 ___ 1/2\nc) 1/8 ___ 1/4\nd) 7/8 ___ 3/4\ne) 2/4 ___ 4/8",
     "loesung": "a) 1/2 > 1/4\nb) 3/4 > 1/2\nc) 1/8 < 1/4\nd) 7/8 > 3/4\ne) 2/4 = 4/8",
     "loesungsweg": "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte.",
     "tipps": [
@@ -334,7 +334,7 @@
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
-      "frageText": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: < oder >",
+      "frageText": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =",
       "optionen": [
         {
           "label": "A",
@@ -362,15 +362,15 @@
   },
   {
     "titel": "Alltagsbrüche — Brüche im Alltag erkennen",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Einfache Brüche",
     "schwierigkeit": "orange",
     "buchseite": 92,
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "einfache-brüche",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.\n\na) Eine halbe Stunde → ___\nb) Eine Viertelstunde → ___\nc) Ein halber Liter → ___\nd) Eine viertel Pizza → ___\ne) Ein Achtel vom Kuchen → ___\n\nAuswahl: 1/2 | 1/4 | 1/8",
-    "loesung": "a) 1/2\nb) 1/4\nc) 1/2\nd) 1/4\ne) 1/8",
+    "aufgabenstellung": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.\n\na) Eine halbe Stunde\nb) Eine Viertelstunde\nc) Ein halber Liter\nd) Eine viertel Pizza\ne) Ein Achtel vom Kuchen\n\nA) 1/2\nB) 1/4\nC) 1/8",
+    "loesung": "a) → A\nb) → B\nc) → A\nd) → B\ne) → C",
     "loesungsweg": "- \"halb\" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.\n- \"Viertel\" bedeutet immer 1/4 — das Ganze in 4 gleiche Teile geteilt.\n- \"Achtel\" bedeutet immer 1/8 — das Ganze in 8 gleiche Teile geteilt.\n- Diese Brüche begegnen dir überall im Alltag: beim Kochen, bei der Uhrzeit, beim Teilen.",
     "tipps": [
       "Kennst du eine \"Viertelstunde\"? Wie viele Minuten sind das? Eine Stunde hat 60 Minuten — ein Viertel davon ist 60 : 4 = 15 Minuten.",
@@ -387,32 +387,51 @@
     "didaktischerHinweis": "Alltagsbrüche verankern den Bruchbegriff in der Lebenswelt des Kindes. Entspricht dem Titel \"Alltagsbrüche\" des Kapitels.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Eine halbe Stunde"
+        },
+        {
+          "label": "b",
+          "text": "Eine Viertelstunde"
+        },
+        {
+          "label": "c",
+          "text": "Ein halber Liter"
+        },
+        {
+          "label": "d",
+          "text": "Eine viertel Pizza"
+        },
+        {
+          "label": "e",
+          "text": "Ein Achtel vom Kuchen"
+        }
+      ],
+      "choices": [
         {
           "label": "A",
-          "text": "Eine halbe Stunde → ___"
+          "text": "1/2"
         },
         {
           "label": "B",
-          "text": "Eine Viertelstunde → ___"
+          "text": "1/4"
         },
         {
           "label": "C",
-          "text": "Ein halber Liter → ___"
-        },
-        {
-          "label": "D",
-          "text": "Eine viertel Pizza → ___"
-        },
-        {
-          "label": "E",
-          "text": "Ein Achtel vom Kuchen → ___"
+          "text": "1/8"
         }
       ],
-      "richtigeIdx": 0
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "A",
+        "d": "B",
+        "e": "C"
+      }
     }
   },
   {

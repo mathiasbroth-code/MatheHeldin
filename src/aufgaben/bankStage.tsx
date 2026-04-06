@@ -7,6 +7,7 @@ import { AufgabeWrapper } from './views/AufgabeWrapper';
 import { Card } from '@/components/ui/Card';
 import { TippButton, TippInhalte } from '@/components/ui/TippSystem';
 import { Zeichenfeld } from '@/components/ui/Zeichenfeld';
+import { MerkkastenCard } from '@/components/ui/MerkkastenCard';
 import { filterTippForLabel } from './parserHelpers';
 
 /** Aufgabe aus der Bank — wraps a BankAufgabe for the Stage system. */
@@ -138,7 +139,7 @@ function BankStageView({
       {headerActionsEl &&
         createPortal(
           <>
-            {(currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild) && (
+            {(currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild || currentAufgabe.merkkasten) && (
               <button
                 onClick={() => setErklaerungOpen(!erklaerungOpen)}
                 className={`shrink-0 min-w-[36px] min-h-[36px] rounded-full flex items-center justify-center text-sm font-bold transition-colors cursor-pointer focus:outline-none focus:ring-3 focus:ring-primary/30 ${
@@ -184,17 +185,19 @@ function BankStageView({
       </Card>
 
       {/* Erklärung (aufklappbar) */}
-      {erklaerungOpen && (currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild) && (
+      {erklaerungOpen && (currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild || currentAufgabe.merkkasten) && (
         <Card className="bg-primary-light border-primary/20">
           <p className="text-xs font-bold text-primary uppercase tracking-wide">Was lernst du hier?</p>
-          {currentAufgabe.erklaerungBild && (
+          {currentAufgabe.merkkasten ? (
+            <MerkkastenCard daten={currentAufgabe.merkkasten} className="mt-2" />
+          ) : currentAufgabe.erklaerungBild ? (
             <img
               src={`/${currentAufgabe.erklaerungBild}`}
               alt="Erklärung aus dem Buch"
               className="mt-2 rounded-lg border border-border max-w-full"
               loading="lazy"
             />
-          )}
+          ) : null}
           {currentAufgabe.didaktischerHinweis && (
             <p className="text-sm text-body mt-2">{currentAufgabe.didaktischerHinweis}</p>
           )}
@@ -207,6 +210,18 @@ function BankStageView({
           key={currentAufgabe.titel}
           onClose={() => setZeichenfeldOpen(false)}
         />
+      )}
+
+      {/* Aufgabenbild (direkt sichtbar, z.B. Kreismuster) */}
+      {currentAufgabe.themenIntroBild && (
+        <Card>
+          <img
+            src={`/${currentAufgabe.themenIntroBild}`}
+            alt="Aufgabenbild"
+            className="rounded-lg max-w-[280px] mx-auto"
+            loading="lazy"
+          />
+        </Card>
       )}
 
       {/* Interaktionstyp-View */}

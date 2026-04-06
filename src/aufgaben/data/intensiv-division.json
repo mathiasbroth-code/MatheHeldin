@@ -583,13 +583,13 @@
     "stageId": "vielfache",
     "digital": "voll",
     "aufgabenstellung": "Ich denke mir eine Zahl.\n\nSie ist ein Vielfaches von 8.\nSie ist größer als 70 und kleiner als 100.\nIhre Quersumme ist ungerade.\n\nWelche Zahl(en) kommen in Frage?",
-    "loesung": "72 und 88 und 96.",
-    "loesungsweg": "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 → 1 + 6 = 7 (ungerade) ✓\n   - 96: 9 + 6 = 15 → 1 + 5 = 6 — aber 15 selbst ist ungerade ✓",
+    "loesung": "72 und 96.",
+    "loesungsweg": "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 (gerade) ✗\n   - 96: 9 + 6 = 15 (ungerade) ✓",
     "tipps": [
       "Schreibe zuerst alle Vielfachen von 8 auf, die zwischen 70 und 100 liegen. Wie viele findest du?",
       "8er-Reihe: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104. Welche liegen zwischen 70 und 100? Dann prüfe bei jeder die Quersumme.",
       "Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96. Quersumme von 72: 7 + 2 = 9 → ungerade ✓. Quersumme von 80: 8 + 0 = ___. Ungerade? ___",
-      "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 → 1 + 6 = 7 (ungerade) ✓\n   - 96: 9 + 6 = 15 → 1 + 5 = 6 — aber 15 selbst ist ungerade ✓"
+      "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 (gerade) ✗\n   - 96: 9 + 6 = 15 (ungerade) ✓"
     ],
     "didaktischerHinweis": "Mehrstufiges Rätsel mit drei Bedingungen. Das Kind muss systematisch eingrenzen: erst Vielfache finden, dann filtern.",
     "parsed": {
@@ -600,7 +600,7 @@
         {
           "label": "1",
           "frage": "Welche Zahl(en) kommen in Frage?",
-          "antwort": "72 und 88 und 96."
+          "antwort": "72 und 96."
         }
       ]
     }

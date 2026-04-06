@@ -23,24 +23,27 @@ tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ### Aufgabenstellung
 Ordne die Dienes-Blöcke den richtigen Stellenwerten zu.
 
-| Block | Stellenwert |
-|-------|-------------|
-| Einer-Würfel | ? |
-| Zehner-Stange | ? |
-| Hunderter-Platte | ? |
-| Tausender-Würfel | ? |
-| Zehntausender-Stange | ? |
-| Hunderttausender-Platte | ? |
+a) Einer-Würfel
+b) Zehner-Stange
+c) Hunderter-Platte
+d) Tausender-Würfel
+e) Zehntausender-Stange
+f) Hunderttausender-Platte
 
-Wähle aus: 1 · 10 · 100 · 1.000 · 10.000 · 100.000
+A) 100
+B) 10.000
+C) 1
+D) 1.000
+E) 10
+F) 100.000
 
 ### Lösung
-- Einer-Würfel → 1
-- Zehner-Stange → 10
-- Hunderter-Platte → 100
-- Tausender-Würfel → 1.000
-- Zehntausender-Stange → 10.000
-- Hunderttausender-Platte → 100.000
+a) → C
+b) → E
+c) → A
+d) → D
+e) → B
+f) → F
 
 ### Lösungsweg
 Jeder Dienes-Block ist zehnmal so groß wie der vorherige:
@@ -368,7 +371,8 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -412,7 +416,8 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -458,7 +463,8 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -507,7 +513,8 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -553,7 +560,8 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -601,7 +609,8 @@ buchseite: 21
 kapitel: "02-zahlen-bis-million"
 stage_id: "zerlegen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -647,7 +656,8 @@ buchseite: 21
 kapitel: "02-zahlen-bis-million"
 stage_id: "zerlegen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -693,7 +703,8 @@ buchseite: 21
 kapitel: "02-zahlen-bis-million"
 stage_id: "zerlegen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -706,13 +717,12 @@ b) Meine Zahl liegt zwischen 400.000 und 500.000. Sie hat doppelt so viele ZT wi
 a) 120.040 und 240.080
 (Muster: HT=x, ZT=2x, Z=4x, Rest=0. Mit x=1: HT=1, ZT=2, Z=4 → 120.040. Mit x=2: HT=2, ZT=4, Z=8 → 240.080.)
 
-b) 410.100, 420.200, 430.300, 440.400
-(Muster: HT=4, ZT=y, H=y/2. y muss gerade sein: y=1→H=0.5✗, y=2→420.200✓ usw.
-Alternativ: ZT=2·H, also H=1→ZT=2: 420.200, H=2→ZT=4: 440.400, H=0→ZT=0: 400.000✗ (liegt nicht "zwischen"), aber auch: ZT=1,H nicht ganzzahig. Korrekte Paare: 410.100, 420.200, 430.300, 440.400)
+b) 420.100, 440.200, 460.300, 480.400
+(Muster: HT=4, ZT=2·H. H muss so sein, dass ZT=2·H ≤ 9. H=1→ZT=2: 420.100, H=2→ZT=4: 440.200, H=3→ZT=6: 460.300, H=4→ZT=8: 480.400)
 
 ### Lösungsweg
 - a) Setze die Bedingungen in die Stellenwerttafel: ZT = 2·HT und Z = 2·ZT = 4·HT. Da Ziffern 0-9 sein müssen und ZT ≤ 9: HT kann 1, 2, 3 oder 4 sein. Aber Z = 4·HT muss ≤ 9, also HT ≤ 2. Ergibt HT=1→ZT=2,Z=4 und HT=2→ZT=4,Z=8.
-- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 0 bis 4 (da ZT ≤ 9). H=0→ZT=0, H=1→ZT=2, H=2→ZT=4, H=3→ZT=6, H=4→ZT=8. Vier Lösungen (H=0 ergibt 400.000, was nicht "zwischen" liegt).
+- b) Zwischen 400.000 und 500.000 heißt HT=4. ZT = 2·H. Mögliche H: 1 bis 4 (da ZT ≤ 9). H=1→ZT=2: 420.100, H=2→ZT=4: 440.200, H=3→ZT=6: 460.300, H=4→ZT=8: 480.400. Vier Lösungen.
 
 ### Tipp 1 (Denkanstoß)
 Schreibe die Stellenwerttafel auf und setze die Bedingungen ein. Zum Beispiel: "doppelt so viele ZT wie HT" bedeutet: Wenn HT = 1, dann ist ZT = ?
@@ -739,7 +749,8 @@ buchseite: 21
 kapitel: "02-zahlen-bis-million"
 stage_id: "zerlegen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -785,15 +796,16 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
 Ordne die Zahlen nach der Größe. Beginne mit der größten Zahl.
 
-a) 42.876 | 9.324 | 156.203 | 15.982 | 162.450 | 41.398
+a) 42.876, 9.324, 156.203, 15.982, 162.450, 41.398
 
-b) 734.281 | 8.956 | 298.640 | 45.073 | 301.225 | 4.780
+b) 734.281, 8.956, 298.640, 45.073, 301.225, 4.780
 
 ### Lösung
 a) 162.450 > 156.203 > 42.876 > 41.398 > 15.982 > 9.324
@@ -832,7 +844,8 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -884,7 +897,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -930,7 +944,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -985,7 +1000,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -1030,7 +1046,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -1081,7 +1098,8 @@ buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1135,7 +1153,8 @@ buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1200,7 +1219,8 @@ buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1249,7 +1269,8 @@ buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1295,7 +1316,8 @@ buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1341,7 +1363,8 @@ buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1388,7 +1411,8 @@ buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 ---
 
 ### Aufgabenstellung
@@ -1436,8 +1460,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1481,8 +1505,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1524,8 +1548,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1568,8 +1592,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1620,8 +1644,8 @@ buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1667,8 +1691,8 @@ buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1710,8 +1734,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
-tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1758,9 +1782,9 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1815,9 +1839,9 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1872,9 +1896,9 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1927,9 +1951,9 @@ buchseite: 29
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1984,9 +2008,9 @@ buchseite: 29
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2037,31 +2061,38 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
 tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
-tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
-Auf dem Zahlenstrahl ist nur die Mitte markiert: 500.000. Links und rechts sind Striche, aber keine Beschriftung. Der Zahlenstrahl geht von 0 bis 1.000.000.
+Der Zahlenstrahl geht von 0 bis 1.000.000. Ordne jede Zahl der richtigen Lage auf dem Zahlenstrahl zu.
 
-Ordne die Zahlen ungefähr ein:
-A = 100.000
-B = 250.000
-C = 400.000
-D = 600.000
-E = 750.000
-F = 900.000
-G = 950.000
+a) 100.000
+b) 250.000
+c) 400.000
+d) 600.000
+e) 750.000
+f) 900.000
+g) 950.000
+
+A) kurz nach der Mitte (500.000)
+B) bei 1/10 des Zahlenstrahls (weit links)
+C) bei 3/4 (Mitte der rechten Hälfte)
+D) kurz vor 500.000
+E) fast am rechten Ende
+F) bei 9/10 (weit rechts)
+G) bei 1/4 (Mitte der linken Hälfte)
 
 ### Lösung
-- A = 100.000 liegt bei 1/10 des Zahlenstrahls (weit links)
-- B = 250.000 liegt bei 1/4 (zwischen 0 und 500.000, auf der Mitte)
-- C = 400.000 liegt kurz vor 500.000
-- D = 600.000 liegt kurz nach 500.000
-- E = 750.000 liegt bei 3/4 (zwischen 500.000 und 1.000.000, auf der Mitte)
-- F = 900.000 liegt bei 9/10 (weit rechts)
-- G = 950.000 liegt fast am rechten Ende
+a) → B
+b) → G
+c) → D
+d) → A
+e) → C
+f) → F
+g) → E
 
 ### Lösungsweg
 Orientierungspunkte nutzen:
@@ -2097,7 +2128,8 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Tausender, der Nachbar-Zehntausender"
 ---
 
 ### Aufgabenstellung
@@ -2153,7 +2185,8 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Tausender, der Nachbar-Zehntausender"
 ---
 
 ### Aufgabenstellung
@@ -2203,7 +2236,8 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Tausender, der Nachbar-Zehntausender"
 ---
 
 ### Aufgabenstellung
@@ -2266,7 +2300,8 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Tausender, der Nachbar-Zehntausender"
 ---
 
 ### Aufgabenstellung
@@ -2318,7 +2353,8 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Tausender, der Nachbar-Zehntausender"
 ---
 
 ### Aufgabenstellung
@@ -2367,8 +2403,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2426,8 +2462,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2482,8 +2518,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2538,8 +2574,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2594,8 +2630,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2649,8 +2685,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2702,8 +2738,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2760,8 +2796,8 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2810,8 +2846,8 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2866,8 +2902,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2919,8 +2955,8 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -2978,8 +3014,8 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -3029,8 +3065,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
-tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "runden, die genaue Anzahl, die ungefähre Anzahl, ist rund (≈)"
 ---
 
 ### Aufgabenstellung
@@ -3093,8 +3129,8 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
-tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -3135,8 +3171,8 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
-tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -3187,8 +3223,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
-tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -3239,8 +3275,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
-tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -3291,8 +3327,8 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
-tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -3328,3 +3364,259 @@ d) Welche Zahl zeigt der Würfel maximal? 6. Und 6 auf allen 6 Stellen ergibt ..
 
 ### Didaktischer Hinweis
 Diese Wahr-Falsch-Aufgabe erfordert strategisches Denken und Argumentieren. Besonders Aussage c) ist anspruchsvoll: Kinder vermuten oft, dass die Reihenfolge einen Vorteil bringt. Das Verständnis, dass Zufall keine "Reihenfolge" kennt, ist ein wichtiger Baustein für das Wahrscheinlichkeitsverständnis in Kapitel 7.
+
+---
+
+# Thema 12: Große Anzahlen schätzen (S. 26)
+
+## Aufgabe 66
+
+---
+titel: "Schätzen — Äpfel in einer Kiste"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: gelb
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Portionen zählen"
+---
+
+### Aufgabenstellung
+Schätze: Wie viele Äpfel passen ungefähr in eine große Obstkiste?
+
+a) 10
+b) 50
+c) 500
+
+### Lösung
+Die richtige Antwort ist b) 50.
+
+### Lösungsweg
+Eine große Obstkiste hat ungefähr 5 Reihen mit je 10 Äpfeln nebeneinander. 5 × 10 = 50. 10 Äpfel wären viel zu wenig — da wäre die Kiste fast leer. 500 Äpfel würden niemals in eine Kiste passen, dafür bräuchte man 10 Kisten.
+
+### Tipp 1 (Denkanstoß)
+Stell dir eine Kiste vor, wie du sie im Supermarkt siehst. Wie viele Äpfel liegen nebeneinander in einer Reihe? Und wie viele Reihen sind übereinander?
+
+### Tipp 2 (Methode)
+Zähle in Portionen: Stell dir vor, du legst die Äpfel in Reihen. In eine Reihe passen ungefähr 10 Äpfel. Wie viele Reihen hat die Kiste? Multipliziere: Reihen × Äpfel pro Reihe.
+
+### Tipp 3 (Schritt-für-Schritt)
+Eine Reihe hat ungefähr 10 Äpfel. Die Kiste hat ungefähr 5 Reihen (nebeneinander und übereinander). Also: 5 × 10 = 50. Welche Antwort passt?
+
+### Didaktischer Hinweis
+Diese Einstiegsaufgabe trainiert das Schätzen mit Alltagsgegenständen. Das Kind soll lernen, Größenordnungen einzuschätzen, indem es sich die Situation konkret vorstellt. Die Strategie "in Portionen aufteilen" (Reihen zählen, dann multiplizieren) ist eine Schlüsselmethode für alle weiteren Schätzaufgaben.
+
+---
+
+## Aufgabe 67
+
+---
+titel: "Schätzen — Seiten in einem dicken Buch"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: gelb
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Vergleichsgröße"
+---
+
+### Aufgabenstellung
+Schätze: Wie viele Seiten hat ein dickes Buch (zum Beispiel ein Harry-Potter-Band)?
+
+a) 30
+b) 300
+c) 3.000
+
+### Lösung
+Die richtige Antwort ist b) 300.
+
+### Lösungsweg
+Ein dünnes Heft hat ungefähr 30 Seiten — ein dickes Buch ist viel dicker als ein Heft. 3.000 Seiten wären so dick wie 10 dicke Bücher zusammen. Ein normales dickes Buch hat ungefähr 200 bis 400 Seiten, also passt 300 am besten.
+
+### Tipp 1 (Denkanstoß)
+Denke an dein Schulheft — das hat ungefähr 30 Seiten. Ist ein dickes Buch genauso dick oder viel dicker?
+
+### Tipp 2 (Methode)
+Nutze eine Vergleichsgröße: Dein Mathebuch hat ungefähr 100 Seiten. Ein Harry-Potter-Band ist ungefähr 3-mal so dick. Also ungefähr 3 × 100 = ?
+
+### Tipp 3 (Schritt-für-Schritt)
+30 Seiten — das ist nur ein dünnes Heft. ✗ 3.000 Seiten — das wäre ein riesiger Stapel Papier, dicker als dein Arm. ✗ 300 Seiten — das ist ungefähr so dick wie 3 Schulhefte übereinander. Klingt das nach einem dicken Buch? ✓
+
+### Didaktischer Hinweis
+Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden sich jeweils um den Faktor 10. Das Kind soll nicht exakt rechnen, sondern mit bekannten Vergleichsgrößen (Schulheft, Mathebuch) abschätzen, welche Zehnerpotenz passt.
+
+---
+
+## Aufgabe 68
+
+---
+titel: "Schätzen — Sitzplätze im Kino"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: grün
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Plätze"
+---
+
+### Aufgabenstellung
+Schätze: Wie viele Sitzplätze hat ein großer Kinosaal?
+
+a) 30
+b) 300
+c) 3.000
+
+### Lösung
+Die richtige Antwort ist b) 300.
+
+### Lösungsweg
+Ein großer Kinosaal hat ungefähr 15 bis 20 Reihen mit je 15 bis 20 Sitzen. 20 × 15 = 300. 30 Plätze wären nur 2 kleine Reihen — das ist kein Kino, eher ein Wohnzimmer. 3.000 Plätze wären so viel wie eine große Sporthalle — das ist viel zu viel für einen Kinosaal.
+
+### Tipp 1 (Denkanstoß)
+Warst du schon mal im Kino? Stell dir den Saal vor. Wie viele Reihen gibt es ungefähr? Und wie viele Sitze stehen in einer Reihe?
+
+### Tipp 2 (Methode)
+Zähle in Gruppen: Stell dir vor, der Kinosaal hat ungefähr 15 Reihen. In jeder Reihe sitzen ungefähr 20 Leute. Multipliziere: 15 × 20 = ?
+
+### Tipp 3 (Schritt-für-Schritt)
+15 Reihen × 20 Plätze = 300 Plätze. Prüfe: 30 Plätze — da passen ja nur deine Klasse rein. Zu wenig! 3.000 Plätze — da müssten 100 Reihen mit 30 Sitzen sein. Viel zu viel! 300 Plätze — das klingt richtig für einen großen Kinosaal.
+
+### Didaktischer Hinweis
+Diese Aufgabe vertieft die Portionen-Strategie (Reihen × Plätze pro Reihe) in einem anderen Kontext. Das Kind muss nun selbst entscheiden, wie es den Raum aufteilt. Die Abgrenzung "zu wenig / passend / zu viel" stärkt das Gespür für Größenordnungen.
+
+---
+
+## Aufgabe 69
+
+---
+titel: "Schätzen — Punkte in einem Feld"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: grün
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Spalten"
+---
+
+### Aufgabenstellung
+Stell dir ein Feld mit Punkten vor: 8 Reihen mit jeweils 12 Punkten.
+
+Wie viele Punkte sind es insgesamt?
+
+a) 50
+b) 96
+c) 200
+
+### Lösung
+Die richtige Antwort ist b) 96.
+
+### Lösungsweg
+8 Reihen × 12 Punkte pro Reihe = 96 Punkte. Hier kann man sogar genau rechnen: 8 × 12 = 8 × 10 + 8 × 2 = 80 + 16 = 96.
+
+### Tipp 1 (Denkanstoß)
+Du kennst die Anzahl der Reihen und die Anzahl der Punkte pro Reihe. Welche Rechenart hilft dir, die Gesamtzahl zu finden?
+
+### Tipp 2 (Methode)
+Multipliziere: Reihen × Punkte pro Reihe. Also 8 × 12. Zerlege die 12 in 10 + 2, dann wird es leichter: 8 × 10 = ? und 8 × 2 = ?
+
+### Tipp 3 (Schritt-für-Schritt)
+8 × 12: Rechne zuerst 8 × 10 = 80. Dann 8 × 2 = 16. Zusammen: 80 + 16 = 96. Schau dir die Antworten an — welche ist 96?
+
+### Didaktischer Hinweis
+Diese Aufgabe kombiniert Schätzen mit konkretem Rechnen. Da Reihen und Spalten exakt angegeben sind, kann das Kind die genaue Anzahl berechnen. Das stärkt das Vertrauen in die Strategie "Reihen × Spalten" und zeigt, dass Schätzen auf echten Rechnungen basiert.
+
+---
+
+## Aufgabe 70
+
+---
+titel: "Schätzen — Haare auf dem Kopf"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: orange
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, sehr große Zahlen"
+---
+
+### Aufgabenstellung
+Schätze: Wie viele Haare hat ein Mensch ungefähr auf dem Kopf?
+
+a) 10.000
+b) 100.000
+c) 1.000.000
+
+### Lösung
+Die richtige Antwort ist b) 100.000.
+
+### Lösungsweg
+Ein Mensch hat ungefähr 100.000 Haare auf dem Kopf. 10.000 wären zu wenig — dann könnte man die Kopfhaut durchsehen. 1.000.000 wären zu viel — so viele Haare hätten gar nicht Platz auf einem Kopf. Die Kopfhaut ist ungefähr 600 cm² groß, und pro cm² wachsen ungefähr 150 bis 200 Haare: 600 × 170 ≈ 100.000.
+
+### Tipp 1 (Denkanstoß)
+Stell dir eine kleine Stelle auf deinem Kopf vor, ungefähr so groß wie dein Daumennagel. Wie viele Haare wachsen dort wohl? Bestimmt mehr als 10, oder? Und jetzt stell dir den ganzen Kopf vor …
+
+### Tipp 2 (Methode)
+Denke in Größenordnungen: Die drei Antworten sind 10.000, 100.000 und 1.000.000. Jede ist 10-mal so groß wie die vorherige. Überlege: 10.000 — ist das genug für einen vollen Haarschopf? Und 1.000.000 — wäre das nicht unglaublich viel?
+
+### Tipp 3 (Schritt-für-Schritt)
+Stell dir vor, du zählst jeden Tag 100 Haare (die fallen auch wirklich ungefähr so viele aus!). Dann hättest du nach 1.000 Tagen (knapp 3 Jahre) alle gezählt: 1.000 × 100 = 100.000. Welche Antwort passt?
+
+### Didaktischer Hinweis
+Diese Aufgabe konfrontiert das Kind mit einer sehr großen Zahl aus dem eigenen Körper — das erzeugt Staunen und Neugier. Die Strategie "Größenordnung abschätzen durch Ausschließen" (zu wenig / passt / zu viel) ist hier besonders wichtig, weil man Haare nicht einfach in Reihen aufteilen kann.
+
+---
+
+## Aufgabe 71
+
+---
+titel: "Schätzen — Sekunden am Tag"
+typ: auswahl
+thema: "Große Anzahlen schätzen"
+schwierigkeit: orange
+buchseite: 26
+kapitel: "02-zahlen-bis-million"
+stage_id: "schaetzen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Zeiteinheiten umrechnen"
+---
+
+### Aufgabenstellung
+Schätze: Wie viele Sekunden hat ein ganzer Tag (24 Stunden)?
+
+a) 8.640
+b) 86.400
+c) 864.000
+
+### Lösung
+Die richtige Antwort ist b) 86.400.
+
+### Lösungsweg
+1 Stunde = 60 Minuten. 1 Minute = 60 Sekunden. Also hat 1 Stunde: 60 × 60 = 3.600 Sekunden. Ein Tag hat 24 Stunden: 24 × 3.600 = 86.400 Sekunden.
+
+### Tipp 1 (Denkanstoß)
+Du weißt: 1 Minute hat 60 Sekunden und 1 Stunde hat 60 Minuten. Wie viele Sekunden hat dann eine Stunde? Und wie viele Stunden hat ein Tag?
+
+### Tipp 2 (Methode)
+Rechne in Schritten: Zuerst Sekunden pro Stunde (60 × 60), dann Sekunden pro Tag (Ergebnis × 24). Nutze die Zerlegung: 24 × 3.600 = 20 × 3.600 + 4 × 3.600.
+
+### Tipp 3 (Schritt-für-Schritt)
+60 × 60 = 3.600 Sekunden pro Stunde. Jetzt 24 × 3.600: Rechne 20 × 3.600 = 72.000 und 4 × 3.600 = 14.400. Zusammen: 72.000 + 14.400 = 86.400. Welche Antwort stimmt?
+
+### Didaktischer Hinweis
+Diese Aufgabe verbindet Schätzen mit konkretem Rechnen in Zeiteinheiten. Das schrittweise Umrechnen (Minuten → Stunden → Tag) ist eine wichtige Strategie. Die drei Antwortmöglichkeiten unterscheiden sich wieder um den Faktor 10, sodass das Kind auch ohne exakte Rechnung durch Größenordnungsdenken die richtige Antwort eingrenzen kann.

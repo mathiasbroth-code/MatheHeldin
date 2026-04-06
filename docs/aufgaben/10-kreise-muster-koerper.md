@@ -502,7 +502,7 @@ schwierigkeit: grün
 buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
-digital: voll
+digital: platzhalter
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---

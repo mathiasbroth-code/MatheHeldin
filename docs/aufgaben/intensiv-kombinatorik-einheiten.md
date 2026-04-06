@@ -18,7 +18,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -67,7 +68,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -116,7 +118,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -168,7 +171,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -217,7 +221,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -263,7 +268,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -311,7 +317,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -356,7 +363,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -409,7 +417,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -463,7 +472,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -506,7 +516,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -556,7 +567,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -604,7 +616,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -658,7 +671,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -713,7 +727,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -772,7 +787,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -814,25 +830,28 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
 Ordne jeder Geschwindigkeit die passende Beschreibung zu.
 
-Geschwindigkeiten: 5 km/h, 20 km/h, 50 km/h, 300 km/h
+a) 5 km/h
+b) 20 km/h
+c) 50 km/h
+d) 300 km/h
 
-Beschreibungen:
-- Auto in der Stadt
-- Schneller Radfahrer
-- Spaziergänger
-- ICE-Zug
+A) Auto in der Stadt
+B) Schneller Radfahrer
+C) Spaziergänger
+D) ICE-Zug
 
 ### Lösung
-- 5 km/h → Spaziergänger
-- 20 km/h → Schneller Radfahrer
-- 50 km/h → Auto in der Stadt
-- 300 km/h → ICE-Zug
+a) → C
+b) → B
+c) → A
+d) → D
 
 ### Lösungsweg
 Die Geschwindigkeiten nach Größe sortieren und den Fortbewegungsarten zuordnen:
@@ -866,7 +885,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -916,7 +936,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -970,7 +991,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1017,7 +1039,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1067,7 +1090,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1120,7 +1144,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1173,7 +1198,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1224,7 +1250,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1272,7 +1299,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1321,7 +1349,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1369,7 +1398,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1425,7 +1455,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1475,7 +1506,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1527,8 +1559,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1584,8 +1616,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1635,8 +1667,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1696,8 +1728,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1749,8 +1781,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1806,8 +1838,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1868,8 +1900,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1924,8 +1956,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1978,8 +2010,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2029,8 +2061,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2078,8 +2110,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2128,8 +2160,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2177,8 +2209,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2227,8 +2259,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2286,8 +2318,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -2362,8 +2394,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2413,32 +2445,36 @@ Das Glücksrad als Zufallsexperiment: anschaulicher als Würfel, weil die Felder
 
 ---
 titel: "Kugeln ziehen — Farben einschätzen"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
 In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.
 
-Entscheide: sicher, möglich oder unmöglich?
+Ordne zu: sicher, möglich oder unmöglich?
 
 a) Du ziehst eine rote Kugel.
 b) Du ziehst eine gelbe Kugel.
 c) Du ziehst eine rote oder blaue Kugel.
 d) Du ziehst eine blaue Kugel.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) möglich (5 von 8 sind rot, aber nicht alle)
-b) unmöglich (keine gelben Kugeln im Beutel)
-c) sicher (es gibt nur rote und blaue, also trifft es immer zu)
-d) möglich (3 von 8 sind blau)
+a) → B (5 von 8 sind rot, aber nicht alle)
+b) → C (keine gelben Kugeln im Beutel)
+c) → A (es gibt nur rote und blaue, also trifft es immer zu)
+d) → B (3 von 8 sind blau)
 
 ### Lösungsweg
 - a) 5 rote von 8 → möglich, aber nicht sicher
@@ -2464,19 +2500,19 @@ Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungl
 
 ---
 titel: "Alltagsaussagen beurteilen — mit Begründung"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
-Entscheide: sicher, möglich oder unmöglich? Begründe kurz.
+Ordne zu: sicher, möglich oder unmöglich? Begründe kurz.
 
 a) Morgen geht die Sonne auf.
 b) Im nächsten Schuljahr hast du denselben Lehrer.
@@ -2484,12 +2520,16 @@ c) Du springst hoch und bleibst in der Luft schweben.
 d) Es regnet irgendwann in den nächsten 30 Tagen.
 e) Du würfelst mit einem normalen Würfel eine 7.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) sicher (die Sonne geht jeden Tag auf)
-b) möglich (vielleicht ja, vielleicht nein)
-c) unmöglich (die Schwerkraft zieht dich zurück)
-d) sicher (in 30 Tagen regnet es in Deutschland praktisch immer mindestens einmal)
-e) unmöglich (ein normaler Würfel hat nur 1-6)
+a) → A (die Sonne geht jeden Tag auf)
+b) → B (vielleicht ja, vielleicht nein)
+c) → C (die Schwerkraft zieht dich zurück)
+d) → A (in 30 Tagen regnet es in Deutschland praktisch immer mindestens einmal)
+e) → C (ein normaler Würfel hat nur 1-6)
 
 ### Lösungsweg
 Für jede Aussage: Kann es nie, manchmal oder immer passieren?
@@ -2527,8 +2567,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2578,8 +2618,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2626,8 +2666,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2685,8 +2725,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2732,8 +2772,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2782,8 +2822,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2832,8 +2872,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2879,8 +2919,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2939,8 +2979,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -2987,8 +3027,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -3041,8 +3081,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -3090,8 +3130,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -3141,7 +3181,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3152,13 +3193,6 @@ HASE, SCHULE, NASE, KATZE, ELEFANT
 a) Welcher Buchstabe kommt in allen 5 Wörtern vor?
 b) Welcher Buchstabe kommt in keinem der Wörter vor: R, E oder U?
 c) Zähle: Wie oft kommt das E in allen 5 Wörtern zusammen vor?
-
-### Lösung
-a) E (kommt in jedem Wort vor)
-b) R (kommt in keinem der 5 Wörter vor)
-c) 7-mal (HASE: 1, SCHULE: 1, NASE: 1, KATZE: 1, ELEFANT: 2, plus das E in SCHULE am Ende: nochmal zählen → H-A-S-E=1, S-C-H-U-L-E=1, N-A-S-E=1, K-A-T-Z-E=1, E-L-E-F-A-N-T=2 → gesamt 6)
-
-Korrektur: HASE(1) + SCHULE(1) + NASE(1) + KATZE(1) + ELEFANT(2) = 6
 
 ### Lösung
 a) E
@@ -3196,7 +3230,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3205,26 +3240,6 @@ Zähle die Buchstaben in diesem Satz:
 **"Meine Katze heißt Luna."**
 
 Fülle die Strichliste aus für: E, I, A, N, T, S
-
-### Lösung
-| Buchstabe | Anzahl |
-|-----------|--------|
-| E | 3 |
-| I | 2 |
-| A | 2 |
-| N | 2 |
-| T | 2 |
-| S | 2 |
-
-Text in Großbuchstaben: M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A
-
-### Lösungsweg
-Buchstabe für Buchstabe durchgehen:
-- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, "heißt" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4
-
-Korrektur: MEINEKATZEHEISSTTLUNA → neu zählen:
-M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A
-E: Positionen 2, 5, 10, 12 → 4
 
 ### Lösung
 | Buchstabe | Anzahl |
@@ -3270,7 +3285,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3282,24 +3298,8 @@ b) Welche Buchstaben kommen genau 2-mal vor?
 c) Welche Buchstaben kommen gar nicht vor (von A bis F)?
 
 ### Lösung
-a) A (kommt 5-mal vor)
-b) E (2-mal), N (5-mal) — Korrektur nötig:
-E: EMMA(1) + LENA(1) + LEON(1) = 3
-A: EMMA(1) + LENA(1) + MIA(1) + SOPHIA(1) + PAUL(1) = 5
-N: LENA(1) + LEON(1) + FINN(2) = 4
-
 a) A (5-mal)
-b) M: EMMA(2) + TIM(1) + MIA(1) = 4. L: LENA(1) + LEON(1) + PAUL(1) = 3. I: TIM(1) + MIA(1) + FINN(1) + SOPHIA(1) = 4.
-
-Vollständige Zählung:
-A=5, N=4, I=4, M=4, E=3, L=3, P=3, O=2, S=1, H=1, F=1, T=1, U=1
-
-b) O kommt genau 2-mal vor (LEON, SOPHIA).
-c) Von A bis F: B, C und D kommen nicht vor.
-
-### Lösung
-a) A (5-mal)
-b) O (2-mal)
+b) O und P (je 2-mal)
 c) B, C, D kommen nicht vor
 
 ### Lösungsweg
@@ -3333,7 +3333,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3398,7 +3399,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3450,7 +3452,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3510,7 +3513,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3565,7 +3569,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3621,7 +3626,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3678,7 +3684,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3745,7 +3752,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3797,7 +3805,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3846,7 +3855,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3899,7 +3909,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -3957,7 +3968,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "häufigkeitsanalyse"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
 import { MarkdownText } from './MarkdownText';
 import { normalizeZahl } from '../parserHelpers';
+import { RechenketteViz } from '@/components/ui/RechenketteViz';
 
 /**
  * Schritt-View: Mehrstufige Rechnung, ein Schritt nach dem anderen.
@@ -33,6 +34,10 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
 
   // Total steps across all Teilaufgaben for display
   const totalSchritte = currentTeil.schritte.length;
+
+  // Rechenkette detection: if lösung contains → chain notation
+  const ketteMatch = aufgabe.loesung?.match(/[\d.,]+(?:\s*→\s*[^→]+){2,}/);
+  const rechenkette = ketteMatch ? ketteMatch[0] : null;
 
   useEffect(() => {
     setTeilIdx(0);
@@ -91,8 +96,19 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
         </p>
       )}
 
-      {/* Erledigte Schritte */}
-      {completed.length > 0 && (
+      {/* Rechenketten-Visualisierung (wenn Rechenkette erkannt) */}
+      {rechenkette && (
+        <Card>
+          <RechenketteViz
+            kette={rechenkette}
+            geloestBis={schrittIdx + (status === 'richtig' ? 1 : 0)}
+            aktiverSchritt={schrittIdx}
+          />
+        </Card>
+      )}
+
+      {/* Erledigte Schritte (nur bei Nicht-Rechenketten) */}
+      {!rechenkette && completed.length > 0 && (
         <Card className="bg-success-bg/50 border-success/10">
           {completed.map((c, i) => (
             <p key={i} className="text-xs text-success tabular-nums">✓ {c}</p>

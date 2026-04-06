@@ -1880,15 +1880,15 @@
   },
   {
     "titel": "Kugeln ziehen — Farben einschätzen",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 74,
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.\n\nEntscheide: sicher, möglich oder unmöglich?\n\na) Du ziehst eine rote Kugel.\nb) Du ziehst eine gelbe Kugel.\nc) Du ziehst eine rote oder blaue Kugel.\nd) Du ziehst eine blaue Kugel.",
-    "loesung": "a) möglich (5 von 8 sind rot, aber nicht alle)\nb) unmöglich (keine gelben Kugeln im Beutel)\nc) sicher (es gibt nur rote und blaue, also trifft es immer zu)\nd) möglich (3 von 8 sind blau)",
+    "aufgabenstellung": "In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.\n\nOrdne zu: sicher, möglich oder unmöglich?\n\na) Du ziehst eine rote Kugel.\nb) Du ziehst eine gelbe Kugel.\nc) Du ziehst eine rote oder blaue Kugel.\nd) Du ziehst eine blaue Kugel.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → B (5 von 8 sind rot, aber nicht alle)\nb) → C (keine gelben Kugeln im Beutel)\nc) → A (es gibt nur rote und blaue, also trifft es immer zu)\nd) → B (3 von 8 sind blau)",
     "loesungsweg": "- a) 5 rote von 8 → möglich, aber nicht sicher\n- b) 0 gelbe → unmöglich\n- c) Rot + Blau = alle Kugeln → sicher\n- d) 3 blaue von 8 → möglich",
     "tipps": [
       "Welche Farben sind im Beutel? Rot und Blau — sonst nichts! Jetzt prüfe jede Aussage.",
@@ -1898,41 +1898,59 @@
     ],
     "didaktischerHinweis": "Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungleiche Verteilung (5 rot, 3 blau) bereitet das Konzept \"wahrscheinlicher/unwahrscheinlicher\" vor, ohne es explizit einzuführen.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.\n\nEntscheide: sicher, möglich oder unmöglich?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.\nOrdne zu: sicher, möglich oder unmöglich?",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Du ziehst eine rote Kugel."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Du ziehst eine gelbe Kugel."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Du ziehst eine rote oder blaue Kugel."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Du ziehst eine blaue Kugel."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "C",
+        "c": "A",
+        "d": "B"
+      }
     }
   },
   {
     "titel": "Alltagsaussagen beurteilen — mit Begründung",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 75,
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Entscheide: sicher, möglich oder unmöglich? Begründe kurz.\n\na) Morgen geht die Sonne auf.\nb) Im nächsten Schuljahr hast du denselben Lehrer.\nc) Du springst hoch und bleibst in der Luft schweben.\nd) Es regnet irgendwann in den nächsten 30 Tagen.\ne) Du würfelst mit einem normalen Würfel eine 7.",
-    "loesung": "a) sicher (die Sonne geht jeden Tag auf)\nb) möglich (vielleicht ja, vielleicht nein)\nc) unmöglich (die Schwerkraft zieht dich zurück)\nd) sicher (in 30 Tagen regnet es in Deutschland praktisch immer mindestens einmal)\ne) unmöglich (ein normaler Würfel hat nur 1-6)",
+    "aufgabenstellung": "Ordne zu: sicher, möglich oder unmöglich? Begründe kurz.\n\na) Morgen geht die Sonne auf.\nb) Im nächsten Schuljahr hast du denselben Lehrer.\nc) Du springst hoch und bleibst in der Luft schweben.\nd) Es regnet irgendwann in den nächsten 30 Tagen.\ne) Du würfelst mit einem normalen Würfel eine 7.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → A (die Sonne geht jeden Tag auf)\nb) → B (vielleicht ja, vielleicht nein)\nc) → C (die Schwerkraft zieht dich zurück)\nd) → A (in 30 Tagen regnet es in Deutschland praktisch immer mindestens einmal)\ne) → C (ein normaler Würfel hat nur 1-6)",
     "loesungsweg": "Für jede Aussage: Kann es nie, manchmal oder immer passieren?\n- a) Die Erde dreht sich → Sonnenaufgang ist sicher\n- b) Lehrerverteilung ist unsicher → möglich\n- c) Schwerkraft → unmöglich\n- d) In Deutschland regnet es häufig → praktisch sicher\n- e) Würfel hat 6 Seiten (1-6), keine 7 → unmöglich",
     "tipps": [
       "Überlege bei jeder Aussage: Ist das ein Naturgesetz (= sicher), eine Möglichkeit oder etwas, das nie passieren kann?",
@@ -1942,32 +1960,51 @@
     ],
     "didaktischerHinweis": "Alltagsaussagen ohne Zahlen: Kinder lernen die Dreigliederung sicher/möglich/unmöglich an ihrer Lebenswelt. Die Begründung ist mindestens so wichtig wie die Antwort. Aussage d) ist diskutabel — das fördert mathematisches Argumentieren.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Entscheide: sicher, möglich oder unmöglich? Begründe kurz.",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Ordne zu: sicher, möglich oder unmöglich? Begründe kurz.",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Morgen geht die Sonne auf."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Im nächsten Schuljahr hast du denselben Lehrer."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Du springst hoch und bleibst in der Luft schweben."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Es regnet irgendwann in den nächsten 30 Tagen."
         },
         {
-          "label": "E",
+          "label": "e",
           "text": "Du würfelst mit einem normalen Würfel eine 7."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "A",
+        "e": "C"
+      }
     }
   },
   {
@@ -2499,7 +2536,7 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Schau dir diese 5 Wörter an:\n\nHASE, SCHULE, NASE, KATZE, ELEFANT\n\na) Welcher Buchstabe kommt in allen 5 Wörtern vor?\nb) Welcher Buchstabe kommt in keinem der Wörter vor: R, E oder U?\nc) Zähle: Wie oft kommt das E in allen 5 Wörtern zusammen vor?",
-    "loesung": "a) E (kommt in jedem Wort vor)\nb) R (kommt in keinem der 5 Wörter vor)\nc) 7-mal (HASE: 1, SCHULE: 1, NASE: 1, KATZE: 1, ELEFANT: 2, plus das E in SCHULE am Ende: nochmal zählen → H-A-S-E=1, S-C-H-U-L-E=1, N-A-S-E=1, K-A-T-Z-E=1, E-L-E-F-A-N-T=2 → gesamt 6)\n\nKorrektur: HASE(1) + SCHULE(1) + NASE(1) + KATZE(1) + ELEFANT(2) = 6",
+    "loesung": "a) E\nb) R\nc) 6-mal",
     "loesungsweg": "- a) HASE → E ✓, SCHULE → E ✓, NASE → E ✓, KATZE → E ✓, ELEFANT → E ✓\n- b) R: HASE? Nein. SCHULE? Nein. NASE? Nein. KATZE? Nein. ELEFANT? Nein. → R fehlt!\n- c) HASE: 1×E, SCHULE: 1×E, NASE: 1×E, KATZE: 1×E, ELEFANT: 2×E → 1+1+1+1+2 = 6",
     "tipps": [
       "Gehe jedes Wort durch und markiere den gesuchten Buchstaben. Welcher taucht überall auf?",
@@ -2539,13 +2576,13 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Zähle die Buchstaben in diesem Satz:\n\n**\"Meine Katze heißt Luna.\"**\n\nFülle die Strichliste aus für: E, I, A, N, T, S",
-    "loesung": "| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 3 |\n| I | 2 |\n| A | 2 |\n| N | 2 |\n| T | 2 |\n| S | 2 |\n\nText in Großbuchstaben: M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A",
-    "loesungsweg": "Buchstabe für Buchstabe durchgehen:\n- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, \"heißt\" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4\n\nKorrektur: MEINEKATZEHEISSTTLUNA → neu zählen:\nM-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A\nE: Positionen 2, 5, 10, 12 → 4",
+    "loesung": "| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 4 |\n| I | 2 |\n| A | 2 |\n| N | 2 |\n| T | 2 |\n| S | 2 |",
+    "loesungsweg": "M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A (20 Buchstaben)\n- E: 4 (Positionen 2, 5, 10, 12)\n- I: 2 (Positionen 3, 13)\n- A: 2 (Positionen 7, 20)\n- N: 2 (Positionen 4, 19)\n- T: 2 (Positionen 8, 16)\n- S: 2 (Positionen 14, 15)",
     "tipps": [
       "Schreibe den Satz in Großbuchstaben, ohne Leerzeichen. Dann gehe Buchstabe für Buchstabe durch.",
       "Nimm dir einen Buchstaben vor (z.B. E) und gehe den ganzen Satz durch. Mache für jedes gefundene E einen Strich. Dann den nächsten Buchstaben.",
       "E suchen: \"M-**E**-I-N-**E**-K-A-T-Z-**E**-H-**E**-I-S-S-T-L-U-N-A\". Zähle: 1, 2, 3, 4. Also 4 Striche für E.",
-      "Buchstabe für Buchstabe durchgehen:\n- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, \"heißt\" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4\n\nKorrektur: MEINEKATZEHEISSTTLUNA → neu zählen:\nM-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A\nE: Positionen 2, 5, 10, 12 → 4"
+      "M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A (20 Buchstaben)\n- E: 4 (Positionen 2, 5, 10, 12)\n- I: 2 (Positionen 3, 13)\n- A: 2 (Positionen 7, 20)\n- N: 2 (Positionen 4, 19)\n- T: 2 (Positionen 8, 16)\n- S: 2 (Positionen 14, 15)"
     ],
     "didaktischerHinweis": "Kurzer Satz als überschaubarer Einstieg in die Strichliste. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger als alles gleichzeitig zu zählen. Typische Fehlerquelle: Doppelbuchstaben (SS) nicht als einen zählen.",
     "parsed": {
@@ -2571,7 +2608,7 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "In der Klasse 3b gibt es diese Vornamen:\nEMMA, LENA, TIM, MIA, LEON, FINN, SOPHIA, PAUL\n\na) Welcher Buchstabe kommt am häufigsten vor?\nb) Welche Buchstaben kommen genau 2-mal vor?\nc) Welche Buchstaben kommen gar nicht vor (von A bis F)?",
-    "loesung": "a) A (kommt 5-mal vor)\nb) E (2-mal), N (5-mal) — Korrektur nötig:\nE: EMMA(1) + LENA(1) + LEON(1) = 3\nA: EMMA(1) + LENA(1) + MIA(1) + SOPHIA(1) + PAUL(1) = 5\nN: LENA(1) + LEON(1) + FINN(2) = 4\n\na) A (5-mal)\nb) M: EMMA(2) + TIM(1) + MIA(1) = 4. L: LENA(1) + LEON(1) + PAUL(1) = 3. I: TIM(1) + MIA(1) + FINN(1) + SOPHIA(1) = 4.\n\nVollständige Zählung:\nA=5, N=4, I=4, M=4, E=3, L=3, P=3, O=2, S=1, H=1, F=1, T=1, U=1\n\nb) O kommt genau 2-mal vor (LEON, SOPHIA).\nc) Von A bis F: B, C und D kommen nicht vor.",
+    "loesung": "a) A (5-mal)\nb) O und P (je 2-mal)\nc) B, C, D kommen nicht vor",
     "loesungsweg": "Alle Buchstaben: E-M-M-A-L-E-N-A-T-I-M-M-I-A-L-E-O-N-F-I-N-N-S-O-P-H-I-A-P-A-U-L\nSortiert nach Häufigkeit:\nA: 5, N: 4, I: 4, M: 4, E: 3, L: 3, P: 2, O: 2, S: 1, H: 1, F: 1, T: 1, U: 1",
     "tipps": [
       "Schreibe alle Namen hintereinander in Großbuchstaben. Dann zähle die Buchstaben mit einer Strichliste.",
@@ -2588,17 +2625,17 @@
         {
           "label": "a",
           "frage": "Welcher Buchstabe kommt am häufigsten vor?",
-          "antwort": "A (kommt 5-mal vor)"
+          "antwort": "A (5-mal)"
         },
         {
           "label": "b",
           "frage": "Welche Buchstaben kommen genau 2-mal vor?",
-          "antwort": "E (2-mal), N (5-mal) — Korrektur nötig:"
+          "antwort": "O und P (je 2-mal)"
         },
         {
           "label": "c",
           "frage": "Welche Buchstaben kommen gar nicht vor (von A bis F)?",
-          "antwort": "Von A bis F: B, C und D kommen nicht vor."
+          "antwort": "B, C, D kommen nicht vor"
         }
       ]
     }

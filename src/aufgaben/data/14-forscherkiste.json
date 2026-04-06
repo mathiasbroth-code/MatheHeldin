@@ -261,7 +261,7 @@
     "stageId": "römische-zahlen",
     "digital": "voll",
     "aufgabenstellung": "Hier haben sich Fehler eingeschlichen. Prüfe, ob die römische Zahl richtig ist, und korrigiere.\n\na) 14 = XIIII\nb) 77 = LXXVII\nc) 66 = LXIV\nd) 160 = CLX\ne) 650 = DCV\nf) 604 = DCIV",
-    "loesung": "a) Falsch! 14 = XIV (nicht XIIII — höchstens 3 gleiche Zeichen nebeneinander)\nb) Richtig! 77 = LXXVII\nc) Falsch! 66 = LXVI (nicht LXIV, denn LXIV = 64)\nd) Richtig! 160 = CLX\ne) Falsch! 650 = DCL (nicht DCV, denn DCV = 505)\nf) Richtig! 604 = DCIV",
+    "loesung": "a) Falsch! 14 = XIV (nicht XIIII — höchstens 3 gleiche Zeichen nebeneinander)\nb) Richtig! 77 = LXXVII\nc) Falsch! 66 = LXVI (nicht LXIV, denn LXIV = 64)\nd) Richtig! 160 = CLX\ne) Falsch! 650 = DCL (nicht DCV, denn DCV = 605)\nf) Richtig! 604 = DCIV",
     "loesungsweg": "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten",
     "tipps": [
       "Prüfe bei jeder Zahl zwei Dinge: (1) Stehen höchstens 3 gleiche Zeichen nebeneinander? (2) Ergibt die römische Zahl auch wirklich den angegebenen Wert?",
@@ -302,7 +302,7 @@
           "label": "e",
           "aussage": "650 = DCV",
           "richtig": false,
-          "erklaerung": "Falsch! 650 = DCL (nicht DCV, denn DCV = 505)"
+          "erklaerung": "Falsch! 650 = DCL (nicht DCV, denn DCV = 605)"
         },
         {
           "label": "f",
@@ -1399,7 +1399,7 @@
     "stageId": "fibonacci",
     "digital": "voll",
     "aufgabenstellung": "Ergänze die fehlenden Zahlen. Die Folge folgt der Fibonacci-Regel.\n\na) 13, 7, ___, ___, ___\nb) ___, 10, 15, ___, ___\nc) ___, ___, 34, 62, ___",
-    "loesung": "a) 13, 7, 20, 27, 47\nb) 5, 10, 15, 25, 40 (oder vorwärts: 10+15=25, 15+25=40; rückwärts: 15-10=5)\nc) 12, 22, 34, 62, 96 (rückwärts: 62-34=28... Korrektur: 34-22=12, 22+34=56... Hmm.)\n\nKorrigierte Version:\na) 13, 7, 20, 27, 47\nb) 5, 10, 15, 25, 40\nc) 24, 38, 62, 100, 162 — Nein.\n\nKorrekt nach Buch-Aufgabe 3:\na) 13, 7 → 13+7=20, 7+20=27, 20+27=47\nb) ___, 10, 15 → 15-10=5. Also: 5, 10, 15, 25, 40\nc) ___, ___, ___, 34, 62 → 62-34=28. 34-28=6. Also: 6, 28, 34, 62, 96",
+    "loesung": "a) 13, 7, 20, 27, 47\nb) 5, 10, 15, 25, 40\nc) 6, 28, 34, 62, 96",
     "loesungsweg": "Vorwärts: Addiere die letzten beiden.\nRückwärts: Subtrahiere die kleinere von der größeren.\n- a) 13+7=20, 7+20=27, 20+27=47\n- b) Rückwärts: 15-10=5. Vorwärts: 10+15=25, 15+25=40.\n- c) Rückwärts: 62-34=28, 34-28=6. Vorwärts: 34+62=96.",
     "tipps": [
       "Wenn du die Fibonacci-Regel rückwärts benutzt: Die fehlende Zahl = nächste Zahl - aktuelle Zahl.",
@@ -1421,12 +1421,12 @@
         {
           "label": "b",
           "frage": "___, 10, 15, ___, ___",
-          "antwort": "5, 10, 15, 25, 40 (oder vorwärts: 10+15=25, 15+25=40; rückwärts: 15-10=5)"
+          "antwort": "5, 10, 15, 25, 40"
         },
         {
           "label": "c",
           "frage": "___, ___, 34, 62, ___",
-          "antwort": "12, 22, 34, 62, 96 (rückwärts: 62-34=28... Korrektur: 34-22=12, 22+34=56... Hmm.)"
+          "antwort": "6, 28, 34, 62, 96"
         }
       ]
     }
@@ -1441,7 +1441,7 @@
     "stageId": "fibonacci",
     "digital": "voll",
     "aufgabenstellung": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).\n\nFinde mindestens 2 verschiedene Folgen.",
-    "loesung": "Beispiele:\n- 8, 23, 31, 39, 100 — Nein, Prüfung: 31+39=70, nicht 100.\n\nKorrekte Beispiele (5 Zahlen, Fibonacci-Regel, endet bei der 5. Zahl = 100):\nWenn die Folge a, b, a+b, a+2b, 2a+3b ist, dann 2a+3b=100.\n- a=2, b=32: 2, 32, 34, 66, 100 ✓\n- a=5, b=30: 5, 30, 35, 65, 100 ✓\n- a=8, b=28: 8, 28, 36, 64, 100 ✓\n- a=11, b=26: 11, 26, 37, 63, 100 ✓\n- a=14, b=24: 14, 24, 38, 62, 100 ✓\n- a=20, b=20: 20, 20, 40, 60, 100 ✓",
+    "loesung": "Beispiele (5 Zahlen, Fibonacci-Regel, endet bei 100):\n- 2, 32, 34, 66, 100 ✓\n- 5, 30, 35, 65, 100 ✓\n- 8, 28, 36, 64, 100 ✓\n- 11, 26, 37, 63, 100 ✓\n- 14, 24, 38, 62, 100 ✓\n- 20, 20, 40, 60, 100 ✓",
     "loesungsweg": "Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.\nProbiere verschiedene Startzahlen aus:\n- a=5: 3b = 90, b = 30 → 5, 30, 35, 65, 100 ✓\n- a=8: 3b = 84, b = 28 → 8, 28, 36, 64, 100 ✓",
     "tipps": [
       "Probiere verschiedene Startzahlen aus. Schreibe die Folge auf und schau, ob du bei 100 landest.",
@@ -1458,7 +1458,7 @@
         {
           "label": "1",
           "frage": "Finde mindestens 2 verschiedene Folgen.",
-          "antwort": "Beispiele:"
+          "antwort": "Beispiele (5 Zahlen, Fibonacci-Regel, endet bei 100):"
         }
       ]
     }
@@ -1472,8 +1472,8 @@
     "kapitel": "14-forscherkiste",
     "stageId": "fibonacci",
     "digital": "voll",
-    "aufgabenstellung": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.\n\na) 8, 7, 15, 22, ___\nb) 9, 7, 16, 23, ___\nc) 10, 7, 17, 27, ___\nd) 11, 7, 18, 25, ___\n\nWas fällt dir bei der 5. Zahl auf?",
-    "loesung": "a) 37\nb) 39\nc) 44\nd) 43\n\nDie 5. Zahl wird jeweils um 2 größer (37, 39, 41, 43), wenn die 1. Zahl um 1 wächst.\n\nKorrektur — nochmal gerechnet:\na) 8, 7: 15, 22, 37\nb) 9, 7: 16, 23, 39\nc) 10, 7: 17, 27, 44\nd) 11, 7: 18, 25, 43\n\nc) 10+7=17, 7+17=24 (nicht 27!). Nochmal:\nc) 10, 7, 17, 24, 41\nd) 11, 7, 18, 25, 43\n\nNochmal sorgfältig:\na) 8, 7 → 8+7=15, 7+15=22, 15+22=37\nb) 9, 7 → 9+7=16, 7+16=23, 16+23=39\nc) 10, 7 → 10+7=17, 7+17=24, 17+24=41\nd) 11, 7 → 11+7=18, 7+18=25, 18+25=43\n\n5. Zahlen: 37, 39, 41, 43 → jeweils +2!",
+    "aufgabenstellung": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.\n\na) 8, 7, 15, 22, ___\nb) 9, 7, 16, 23, ___\nc) 10, 7, 17, 24, ___\nd) 11, 7, 18, 25, ___\n\nWas fällt dir bei der 5. Zahl auf?",
+    "loesung": "a) 37\nb) 39\nc) 41\nd) 43\n\nDie 5. Zahl steigt jeweils um 2.",
     "loesungsweg": "Wenn die 1. Startzahl um 1 wächst (und die 2. gleich bleibt), wächst die 5. Zahl um 2. Das liegt daran, dass die 1. Zahl in der 5. Position zweimal vorkommt (mathematisch: die 5. Zahl = 2·a + 3·b).",
     "tipps": [
       "Berechne alle vier Folgen fertig. Schreibe die 5. Zahlen untereinander. Was fällt dir auf?",
@@ -1499,8 +1499,8 @@
         },
         {
           "label": "c",
-          "frage": "10, 7, 17, 27, ___",
-          "antwort": "44"
+          "frage": "10, 7, 17, 24, ___",
+          "antwort": "41"
         },
         {
           "label": "d",
@@ -2086,7 +2086,7 @@
     "stageId": "pascalsches-dreieck",
     "digital": "voll",
     "aufgabenstellung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1\n\na) Welche dieser Zahlen sind durch 5 teilbar?\nb) Welche sind durch 3 teilbar?\nc) Was fällt dir auf?",
-    "loesung": "a) Durch 5 teilbar: 55, 165, 330, 330, 165, 55 (6 Zahlen)\nb) Durch 3 teilbar: 33→Nein! Prüfung:\n   - 1: nein, 11: nein, 55: 5+5=10 nein, 165: 1+6+5=12 ja, 330: 3+3+0=6 ja, 462: 4+6+2=12 ja, und symmetrisch\n   Also durch 3 teilbar: 165, 330, 462, 462, 330, 165 (6 Zahlen)\nc) Die teilbaren Zahlen bilden ein symmetrisches Muster (weil das Dreieck symmetrisch ist).\n\nKorrektur für 55: 5+5=10, 10:3=3,33 → nicht durch 3 teilbar.",
+    "loesung": "a) Durch 5 teilbar: 55, 165, 330, 330, 165, 55\nb) Durch 3 teilbar: 165, 330, 462, 462, 330, 165\nc) Die teilbaren Zahlen bilden ein symmetrisches Muster.",
     "loesungsweg": "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓",
     "tipps": [
       "Für Teilbarkeit durch 5: Schau auf die letzte Ziffer. Endet sie auf 0 oder 5?",
@@ -2104,17 +2104,17 @@
         {
           "label": "a",
           "frage": "Welche dieser Zahlen sind durch 5 teilbar?",
-          "antwort": "Durch 5 teilbar: 55, 165, 330, 330, 165, 55 (6 Zahlen)"
+          "antwort": "Durch 5 teilbar: 55, 165, 330, 330, 165, 55"
         },
         {
           "label": "b",
           "frage": "Welche sind durch 3 teilbar?",
-          "antwort": "Durch 3 teilbar: 33→Nein! Prüfung:"
+          "antwort": "Durch 3 teilbar: 165, 330, 462, 462, 330, 165"
         },
         {
           "label": "c",
           "frage": "Was fällt dir auf?",
-          "antwort": "Die teilbaren Zahlen bilden ein symmetrisches Muster (weil das Dreieck symmetrisch ist)."
+          "antwort": "Die teilbaren Zahlen bilden ein symmetrisches Muster."
         }
       ]
     }

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-160 -160 320 320" width="320" height="320">
+  <defs>
+    <style>
+      .kreis { fill: none; stroke: #374151; stroke-width: 1.5; }
+      .flaeche-gelb { fill: #FDE047; opacity: 0.5; }
+      .flaeche-rot { fill: #EF4444; opacity: 0.4; }
+      .flaeche-blau { fill: #3B82F6; opacity: 0.5; }
+      .flaeche-gruen { fill: #22C55E; opacity: 0.5; }
+      .stern { fill: none; stroke: #374151; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Hintergrundkreise (gelb) -->
+  <circle cx="80" cy="0" r="80" class="flaeche-gelb" />
+  <circle cx="40" cy="69.28" r="80" class="flaeche-gelb" />
+  <circle cx="-40" cy="69.28" r="80" class="flaeche-gelb" />
+  <circle cx="-80" cy="0" r="80" class="flaeche-gelb" />
+  <circle cx="-40" cy="-69.28" r="80" class="flaeche-gelb" />
+  <circle cx="40" cy="-69.28" r="80" class="flaeche-gelb" />
+
+  <!-- Stern (rot) aus den Schnittpunkten -->
+  <polygon points="80,0 -40,69.28 -40,-69.28" class="flaeche-rot" />
+  <polygon points="-80,0 40,69.28 40,-69.28" class="flaeche-rot" />
+
+  <!-- Mittelkreis (blau) -->
+  <circle cx="0" cy="0" r="80" class="flaeche-blau" />
+
+  <!-- Blütenblätter (grün) im Mittelkreis -->
+  <g class="flaeche-gruen">
+    <path d="M0,0 Q20,-35 0,-80 Q-20,-35 0,0 Z" />
+    <path d="M0,0 Q35,-15 69.28,-40 Q15,-35 0,0 Z" />
+    <path d="M0,0 Q35,15 69.28,40 Q15,35 0,0 Z" />
+    <path d="M0,0 Q20,35 0,80 Q-20,35 0,0 Z" />
+    <path d="M0,0 Q-35,15 -69.28,40 Q-15,35 0,0 Z" />
+    <path d="M0,0 Q-35,-15 -69.28,-40 Q-15,-35 0,0 Z" />
+  </g>
+
+  <!-- Kreislinien -->
+  <circle cx="0" cy="0" r="80" class="kreis" />
+  <circle cx="80" cy="0" r="80" class="kreis" />
+  <circle cx="40" cy="69.28" r="80" class="kreis" />
+  <circle cx="-40" cy="69.28" r="80" class="kreis" />
+  <circle cx="-80" cy="0" r="80" class="kreis" />
+  <circle cx="-40" cy="-69.28" r="80" class="kreis" />
+  <circle cx="40" cy="-69.28" r="80" class="kreis" />
+
+  <!-- Sternlinien -->
+  <polygon points="80,0 -40,69.28 -40,-69.28" class="stern" />
+  <polygon points="-80,0 40,69.28 40,-69.28" class="stern" />
+</svg>

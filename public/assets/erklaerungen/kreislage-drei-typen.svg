@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 130" width="360" height="130">
+  <style>
+    text { font-family: system-ui, sans-serif; font-size: 11px; fill: #374151; text-anchor: middle; }
+    .label { font-weight: bold; font-size: 12px; fill: #0D9488; }
+    .kreis { fill: none; stroke-width: 2; }
+  </style>
+
+  <!-- a) sich berühren — 1 Berührpunkt -->
+  <g transform="translate(60,55)">
+    <circle cx="-25" cy="0" r="30" class="kreis" stroke="#3B82F6" fill="#3B82F6" fill-opacity="0.1" />
+    <circle cx="25" cy="0" r="30" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.1" />
+    <circle cx="0" cy="0" r="3" fill="#F59E0B" />
+    <text y="48" class="label">a)</text>
+  </g>
+
+  <!-- b) ineinanderliegen — einer im anderen -->
+  <g transform="translate(180,55)">
+    <circle cx="0" cy="0" r="40" class="kreis" stroke="#3B82F6" fill="#3B82F6" fill-opacity="0.1" />
+    <circle cx="8" cy="0" r="18" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.15" />
+    <text y="48" class="label">b)</text>
+  </g>
+
+  <!-- c) sich schneiden — 2 Schnittpunkte -->
+  <g transform="translate(300,55)">
+    <circle cx="-18" cy="0" r="30" class="kreis" stroke="#3B82F6" fill="#3B82F6" fill-opacity="0.1" />
+    <circle cx="18" cy="0" r="30" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.1" />
+    <circle cx="0" cy="-22" r="3" fill="#F59E0B" />
+    <circle cx="0" cy="22" r="3" fill="#F59E0B" />
+    <text y="48" class="label">c)</text>
+  </g>
+</svg>

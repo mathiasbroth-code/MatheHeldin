@@ -1,6 +1,20 @@
 /** Schwierigkeitsgrade nach Fredo-Farbsystem. */
 export type Schwierigkeit = 'gelb' | 'grün' | 'orange';
 
+/** Strukturierter Merkkasten — ersetzt Bild-Merkkästen durch Text. */
+export interface MerkkastenBegriff {
+  term: string;
+  abbrev?: string;
+}
+
+export interface MerkkastenDaten {
+  typ: 'begriffe' | 'regel';
+  /** Begriffe-Liste (nur bei typ=begriffe) */
+  begriffe?: MerkkastenBegriff[];
+  /** Regel-Text (nur bei typ=regel) */
+  text?: string;
+}
+
 /** Die 8 Interaktionstypen aus FORMAT.md. */
 export type InteraktionsTyp =
   | 'eingabe'
@@ -132,6 +146,8 @@ export interface BankAufgabeBase {
   didaktischerHinweis?: string;
   erklaerungBild?: string;
   themenIntroBild?: string;
+  /** Strukturierter Merkkasten (ersetzt erklaerungBild wenn vorhanden) */
+  merkkasten?: MerkkastenDaten;
   /** Typspezifisch strukturierte Daten. Immer gesetzt wenn Parser erfolgreich. */
   parsed: ParsedAufgabenDaten;
 }

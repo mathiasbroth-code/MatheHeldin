@@ -16,7 +16,8 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -69,7 +70,8 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -117,7 +119,8 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -160,7 +163,8 @@ buchseite: 123
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -213,7 +217,8 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -260,7 +265,8 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
@@ -300,12 +306,13 @@ buchseite: 123
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
 Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:
-(Größe der Mutter + Größe des Vaters) : 2 - 6 cm
+(Größe der Mutter + Größe des Vaters - 13 cm) : 2
 
 Philippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?
 
@@ -314,22 +321,346 @@ Philippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Ph
 
 ### Lösungsweg
 1. Größen addieren: 168 + 182 = 350
-2. Durch 2 teilen: 350 : 2 = 175
-3. 6 cm abziehen (für Mädchen): 175 - 6 = 169 cm
+2. 13 cm abziehen (Mädchen-Formel): 350 - 13 = 337
+3. Durch 2 teilen: 337 : 2 = 168,5 ≈ 169 cm
 
 ### Tipp 1 (Denkanstoß)
-Die Formel hat drei Schritte: addieren, halbieren, 6 abziehen. Fange mit dem Addieren an!
+Die Formel hat drei Schritte: addieren, 13 abziehen, halbieren. Fange mit dem Addieren an!
 
 ### Tipp 2 (Methode)
 Schritt 1: Mutter + Vater = 168 + 182 = ___
-Schritt 2: Ergebnis : 2 = ___
-Schritt 3: Ergebnis - 6 = ___
+Schritt 2: Ergebnis - 13 = ___
+Schritt 3: Ergebnis : 2 = ___
 
 ### Tipp 3 (Schritt-für-Schritt)
-168 + 182 = 350. Jetzt 350 : 2 = 175. Und 175 - 6 = ___
+168 + 182 = 350. Jetzt 350 - 13 = 337. Und 337 : 2 = ___
 
 ### Didaktischer Hinweis
 Mehrstufige Rechnung mit persönlichem Bezug. Entspricht S. 123, Formel-Aufgabe.
 
 ---
 
+# Thema 2: Römische Zahlen (S. 124-125)
+
+## Aufgabe 8
+
+---
+titel: "Arabisch → Römisch — einfache Zahlen"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: gelb
+buchseite: 124
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Schreibe als römische Zahl.
+
+a) 3
+b) 8
+c) 12
+
+### Lösung
+a) III
+b) VIII
+c) XII
+
+### Lösungsweg
+- a) 3 = 1+1+1 → III
+- b) 8 = 5+3 → V + III → VIII
+- c) 12 = 10+2 → X + II → XII
+
+Bei römischen Zahlen setzt man die Zeichen von groß nach klein nebeneinander und addiert ihre Werte.
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Tabelle der römischen Zeichen an: I=1, V=5, X=10. Wie kannst du die Zahl mit diesen Bausteinen zusammensetzen?
+
+### Tipp 2 (Methode)
+Zerlege die Zahl in ihre Bestandteile und schreibe für jeden Teil das passende römische Zeichen:
+- Zuerst die Zehner (X=10), dann die Fünfer (V=5), dann die Einer (I=1).
+- Beispiel: 7 = 5+1+1 → VII
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 3 = 1+1+1 → I, I, I → ___
+b) 8 = 5+3 = 5+1+1+1 → V + ___ → ___
+c) 12 = 10+2 = 10+1+1 → X + ___ → ___
+
+### Didaktischer Hinweis
+Einstieg in römische Zahlen mit reiner Additionsregel (ohne Subtraktionsregel). Entspricht Fredo S. 124.
+
+---
+
+## Aufgabe 9
+
+---
+titel: "Römisch → Arabisch — einfache Zahlen"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: gelb
+buchseite: 124
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Welche Zahl steckt dahinter? Schreibe die arabische Zahl.
+
+a) VI
+b) XI
+c) XX
+
+### Lösung
+a) 6
+b) 11
+c) 20
+
+### Lösungsweg
+- a) VI → V=5, I=1 → 5+1 = 6
+- b) XI → X=10, I=1 → 10+1 = 11
+- c) XX → X=10, X=10 → 10+10 = 20
+
+Wenn ein kleineres Zeichen rechts von einem größeren steht, wird es addiert.
+
+### Tipp 1 (Denkanstoß)
+Lies die römische Zahl von links nach rechts. Schau in der Tabelle nach: I=1, V=5, X=10. Addiere die Werte der einzelnen Zeichen.
+
+### Tipp 2 (Methode)
+Gehe Zeichen für Zeichen vor:
+1. Schreibe unter jedes Zeichen seinen Wert.
+2. Addiere alle Werte.
+Beispiel: VII → 5+1+1 = 7
+
+### Tipp 3 (Schritt-für-Schritt)
+a) V=5, I=1 → 5+1 = ___
+b) X=10, I=1 → 10+1 = ___
+c) X=10, X=10 → 10+10 = ___
+
+### Didaktischer Hinweis
+Umkehrübung zum Schreiben: Lesen und Addieren der Zeichenwerte. Entspricht Fredo S. 124.
+
+---
+
+## Aufgabe 10
+
+---
+titel: "Arabisch → Römisch — mit Subtraktionsregel"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: grün
+buchseite: 124
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Schreibe als römische Zahl. Achte auf die Subtraktionsregel!
+
+a) 4
+b) 9
+c) 14
+
+### Lösung
+a) IV
+b) IX
+c) XIV
+
+### Lösungsweg
+- a) 4 = 5-1 → IV (I steht vor V, also wird 1 abgezogen)
+- b) 9 = 10-1 → IX (I steht vor X, also wird 1 abgezogen)
+- c) 14 = 10+4 = 10+(5-1) → X + IV → XIV
+
+Die Subtraktionsregel: Steht ein kleineres Zeichen links von einem größeren, wird es abgezogen statt addiert. So wird 4 zu IV (nicht IIII) und 9 zu IX (nicht VIIII).
+
+### Tipp 1 (Denkanstoß)
+Es gibt eine besondere Regel: Maximal 3 gleiche Zeichen dürfen nebeneinander stehen. Deshalb schreibt man 4 nicht als IIII, sondern nutzt die Subtraktionsregel: Ein kleineres Zeichen vor einem größeren bedeutet „abziehen".
+
+### Tipp 2 (Methode)
+Merke dir diese wichtigen Kombinationen:
+- 4 = IV (5-1)
+- 9 = IX (10-1)
+- 14 = X + IV (10 + 4)
+
+Wenn du eine 4 oder 9 in der Zahl erkennst, nutze die Subtraktionsregel!
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 4 = 5-1 → I vor V → ___
+b) 9 = 10-1 → I vor X → ___
+c) 14 = 10+4 → X + ___ → ___
+
+### Didaktischer Hinweis
+Einführung der Subtraktionsregel (IV, IX). Wichtige Erweiterung, die häufig Fehlerquelle ist. Entspricht Fredo S. 124-125.
+
+---
+
+## Aufgabe 11
+
+---
+titel: "Römisch → Arabisch — mit Subtraktionsregel"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: grün
+buchseite: 125
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Welche Zahl steckt dahinter? Achte auf die Subtraktionsregel!
+
+a) XL
+b) XC
+c) XLIV
+
+### Lösung
+a) 40
+b) 90
+c) 44
+
+### Lösungsweg
+- a) XL → X steht vor L → L-X = 50-10 = 40
+- b) XC → X steht vor C → C-X = 100-10 = 90
+- c) XLIV → XL=40, IV=4 → 40+4 = 44
+
+Wenn ein kleineres Zeichen links von einem größeren steht, wird es abgezogen: XL = 50-10 = 40, XC = 100-10 = 90, IV = 5-1 = 4.
+
+### Tipp 1 (Denkanstoß)
+Lies von links nach rechts. Wenn ein kleineres Zeichen vor einem größeren steht (z. B. X vor L), dann ziehe den kleineren Wert vom größeren ab. Schau in der Tabelle: X=10, L=50, C=100.
+
+### Tipp 2 (Methode)
+Prüfe immer zwei Zeichen gleichzeitig:
+- Ist das linke Zeichen kleiner als das rechte? → Subtrahiere (z. B. XL = 50-10)
+- Ist das linke Zeichen größer oder gleich? → Addiere (z. B. XV = 10+5)
+
+### Tipp 3 (Schritt-für-Schritt)
+a) X=10, L=50. X steht vor L → 50-10 = ___
+b) X=10, C=100. X steht vor C → 100-10 = ___
+c) XL=40, IV=4 → 40+4 = ___
+
+### Didaktischer Hinweis
+Lesen mit Subtraktionsregel bei größeren Werten (XL=40, XC=90). Entspricht Fredo S. 125.
+
+---
+
+## Aufgabe 12
+
+---
+titel: "Große Zahlen als römische Zahlen schreiben"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: orange
+buchseite: 125
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Schreibe als römische Zahl.
+
+a) 150
+b) 276
+c) 499
+
+### Lösung
+a) CL
+b) CCLXXVI
+c) CDXCIX
+
+### Lösungsweg
+- a) 150 = 100+50 → C + L → CL
+- b) 276 = 200+70+6 = 100+100+50+10+10+5+1 → CC + LXX + VI → CCLXXVI
+- c) 499 = 400+90+9 = (500-100)+(100-10)+(10-1) → CD + XC + IX → CDXCIX
+
+Bei großen Zahlen zerlegst du in Hunderter, Zehner und Einer und schreibst für jeden Teil die römischen Zeichen.
+
+### Tipp 1 (Denkanstoß)
+Zerlege die Zahl in Hunderter, Zehner und Einer. Schau in der Tabelle: C=100, L=50, X=10, V=5, I=1. Vergiss nicht: D=500 und die Subtraktionsregel für 4 und 9!
+
+### Tipp 2 (Methode)
+Gehe Stelle für Stelle vor:
+1. Wie viele Hunderter? (C=100, D=500, CD=400)
+2. Wie viele Zehner? (X=10, L=50, XC=90)
+3. Wie viele Einer? (I=1, V=5, IX=9)
+
+Beispiel: 276 → 200=CC, 70=LXX, 6=VI → CCLXXVI
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 150 = 100+50 → C + L → ___
+b) 276: Hunderter: 200 = CC, Zehner: 70 = LXX, Einer: 6 = VI → ___
+c) 499: Hunderter: 400 = CD, Zehner: 90 = XC, Einer: 9 = IX → ___
+
+### Didaktischer Hinweis
+Kombination aus Additions- und Subtraktionsregel bei dreistelligen Zahlen. Erfordert systematisches Zerlegen. Entspricht Fredo S. 125.
+
+---
+
+## Aufgabe 13
+
+---
+titel: "Jahreszahlen als römische Zahlen lesen"
+typ: eingabe
+thema: "Römische Zahlen"
+schwierigkeit: orange
+buchseite: 125
+kapitel: "13-schaubilder-daten"
+stage_id: "roemische-zahlen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "I=1, V=5, X=10, L=50, C=100, D=500, M=1.000"
+---
+
+### Aufgabenstellung
+Auf alten Gebäuden und Denkmälern stehen Jahreszahlen oft in römischen Zahlen. Welches Jahr ist gemeint?
+
+a) MMI
+b) MCMXLV
+c) MDCCCXII
+
+### Lösung
+a) 2.001
+b) 1.945
+c) 1.812
+
+### Lösungsweg
+- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2.001
+- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1.945
+- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1.812
+
+Bei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel.
+
+### Tipp 1 (Denkanstoß)
+Beginne von links: M=1.000. Dann prüfe immer zwei Zeichen: Steht ein kleineres vor einem größeren (z. B. C vor M)? Dann ist es Subtraktion! Schau in der Tabelle: M=1.000, D=500, C=100.
+
+### Tipp 2 (Methode)
+Zerlege die römische Zahl in Blöcke:
+- M = 1.000
+- CM = 900 (1.000-100) — Achtung: C steht vor M!
+- XL = 40 (50-10)
+- Einzelne Zeichen addieren
+
+Gehe Block für Block und addiere die Werte.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) M+M+I = 1.000+1.000+1 = ___
+b) M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = ___
+c) M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = ___
+
+### Didaktischer Hinweis
+Jahreszahlen als motivierender Realweltbezug. Erfordert sicheren Umgang mit allen Zeichen (M, D, C) und der Subtraktionsregel (CM=900). Entspricht Fredo S. 125.
+
+---

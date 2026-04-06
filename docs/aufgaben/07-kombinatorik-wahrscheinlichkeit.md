@@ -16,8 +16,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -89,8 +89,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -145,8 +145,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -204,8 +204,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -263,8 +263,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -322,8 +322,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -378,8 +378,8 @@ buchseite: 73
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -433,8 +433,8 @@ buchseite: 72
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
-tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -491,8 +491,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -542,8 +542,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -599,8 +599,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -622,7 +622,6 @@ b) → B
 c) → C
 d) → B
 e) → A
-e) sicher (größte Summe ist 12, also immer kleiner als 13)
 
 ### Lösungsweg
 Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):
@@ -653,30 +652,34 @@ Die Dreigliederung sicher/möglich/unmöglich ist der Kern der Wahrscheinlichkei
 
 ---
 titel: "Sicher, möglich oder unmöglich — drei Würfel"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: grün
 buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
-Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Entscheide: sicher, möglich oder unmöglich?
+Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Ordne zu: sicher, möglich oder unmöglich?
 
 a) Die Augensumme ist größer als 2.
 b) Die Augensumme ist 10.
 c) Die Augensumme ist 2.
 d) Die Augensumme ist kleiner als 19.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) sicher (kleinste Summe: 1+1+1=3, also immer größer als 2)
-b) möglich (z.B. 3+3+4=10)
-c) unmöglich (kleinste Summe: 3)
-d) sicher (größte Summe: 18, also immer kleiner als 19)
+a) → A (kleinste Summe: 1+1+1=3, also immer größer als 2)
+b) → B (z.B. 3+3+4=10)
+c) → C (kleinste Summe: 3)
+d) → A (größte Summe: 18, also immer kleiner als 19)
 
 ### Lösungsweg
 Ergebnisraum bei drei Würfeln:
@@ -709,8 +712,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -768,8 +771,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -827,8 +830,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -841,7 +844,7 @@ c) Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.
 ### Lösung
 a) 1 (1 × 1)
 b) 36 (6 × 6)
-c) Die 6 hat die größte Chance (4 Möglichkeiten: 1×6, 2×3, 3×2, 6×1).
+c) Die 6 und die 12 haben die größte Chance (jeweils 4 Möglichkeiten: 6→1×6, 2×3, 3×2, 6×1; 12→2×6, 3×4, 4×3, 6×2).
 
 ### Lösungsweg
 Alle Produkte in einer 6×6-Tabelle:
@@ -878,19 +881,19 @@ Eine kreative Variation des Würfelspiels: Multiplikation statt Addition. Die Pr
 
 ---
 titel: "Alltagsaussagen — sicher, möglich, unmöglich"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 75
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
-Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?
+Ordne zu: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?
 
 a) Es schneit im Juli in Deutschland.
 b) Nach Mittwoch kommt Donnerstag.
@@ -898,12 +901,16 @@ c) Du wirfst einen Stein hoch und er fällt wieder herunter.
 d) Morgen scheint den ganzen Tag die Sonne.
 e) Ein Hund kann fliegen.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) möglich (sehr unwahrscheinlich, aber in den Bergen theoretisch denkbar)
-b) sicher (die Reihenfolge der Wochentage ist festgelegt)
-c) sicher (die Schwerkraft wirkt immer)
-d) möglich (das Wetter kann man nicht sicher vorhersagen)
-e) unmöglich (Hunde haben keine Flügel und können nicht fliegen)
+a) → B (sehr unwahrscheinlich, aber in den Bergen theoretisch denkbar)
+b) → A (die Reihenfolge der Wochentage ist festgelegt)
+c) → A (die Schwerkraft wirkt immer)
+d) → B (das Wetter kann man nicht sicher vorhersagen)
+e) → C (Hunde haben keine Flügel und können nicht fliegen)
 
 ### Lösungsweg
 Bei jeder Aussage fragen:
@@ -943,7 +950,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -989,7 +997,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1003,7 +1012,7 @@ Trage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I,
 | Buchstabe | Strichliste | Anzahl |
 |-----------|-------------|--------|
 | D | II | 2 |
-| E | IIII | 4 |
+| E | IIII I | 5 |
 | R | III | 3 |
 | N | III | 3 |
 | I | II | 2 |
@@ -1016,7 +1025,7 @@ Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N
 
 Buchstabe für Buchstabe zählen:
 - D: D...D → 2
-- E: E...E...E...E → 4
+- E: E...E...E...E...E → 5
 - R: R...R...R → 3
 - N: N...N...N → 3
 - I: I...I → 2
@@ -1033,7 +1042,7 @@ Am besten: Nimm dir einen Buchstaben vor und gehe den ganzen Satz durch. Mache e
 Strichliste: IIII = 4, IIII I = 5 usw.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Fang mit E an: "D**e**r Hund spi**e**lt g**e**rn**e** im Gart**e**n." Zähle: 1...2...3...4... Stimmt das? Dann nimm dir R vor.
+Fang mit E an: "D**e**r Hund spi**e**lt g**e**rn**e** im Gart**e**n." Zähle: 1...2...3...4...5. Stimmt das? Dann nimm dir R vor.
 
 Achtung: Schau genau — das E in "spielt" und das E in "gerne" nicht vergessen!
 
@@ -1053,7 +1062,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1066,7 +1076,7 @@ Vollständige Zählung (ohne Leerzeichen und Satzzeichen):
 
 | Buchstabe | Anzahl |
 |-----------|--------|
-| E | 8 |
+| E | 10 |
 | N | 5 |
 | R | 5 |
 | T | 5 |
@@ -1083,7 +1093,7 @@ Vollständige Zählung (ohne Leerzeichen und Satzzeichen):
 | Z | 1 |
 | C | 1 |
 
-Die fünf häufigsten: E (8), N (5), R (5), T (5), I oder S (3)
+Die fünf häufigsten: E (10), N (5), R (5), T (5), I oder S (3)
 
 ### Lösungsweg
 Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.
@@ -1096,7 +1106,7 @@ Erstelle eine Strichliste für alle vorkommenden Buchstaben. Am Ende sortierst d
 
 ### Tipp 3 (Schritt-für-Schritt)
 Färbe zuerst alle E im Text ein: "Fr**e**do r**e**chn**e**t g**e**rn**e** mit groß**e**n Zahl**e**n. **E**r find**e**t Math**e** toll."
-Zähle: 1, 2, 3, 4, 5, 6, 7, ... Wie viele E findest du?
+Zähle: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Wie viele E findest du?
 
 ### Didaktischer Hinweis
 Längerer Text = mehr Daten = zuverlässigeres Ergebnis. Kinder entdecken: Das E ist tatsächlich der häufigste Buchstabe! Das bestätigt die Vermutung aus Aufgabe 17. Der Übergang von Strichliste zur Rangfolge ist ein wichtiger Schritt in der Datenauswertung.
@@ -1114,7 +1124,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1180,7 +1191,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1241,7 +1253,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1295,7 +1308,8 @@ buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1347,7 +1361,8 @@ buchseite: 77
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "häufigkeitsanalyse"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
@@ -1402,8 +1417,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -1457,8 +1472,8 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -1509,29 +1524,29 @@ buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
-Ordne die folgenden Aussagen den Begriffen **sicher**, **möglich** oder **unmöglich** zu.
+Ordne die folgenden Aussagen den Begriffen sicher, möglich oder unmöglich zu. Beim Würfeln mit zwei Würfeln ...
 
-Beim Würfeln mit zwei Würfeln ...
+a) Die Augensumme ist kleiner als 13.
+b) Die Augensumme ist genau 6.
+c) Die Augensumme ist 1.
+d) Die Augensumme ist eine gerade Zahl.
+e) Die Augensumme ist größer als 1.
 
-| Aussage | sicher / möglich / unmöglich? |
-|---------|-------------------------------|
-| a) Die Augensumme ist kleiner als 13. | ? |
-| b) Die Augensumme ist genau 6. | ? |
-| c) Die Augensumme ist 1. | ? |
-| d) Die Augensumme ist eine gerade Zahl. | ? |
-| e) Die Augensumme ist größer als 1. | ? |
+A) sicher
+B) möglich
+C) unmöglich
 
 ### Lösung
-- a) Die Augensumme ist kleiner als 13. → **sicher** (Maximum ist 12, also immer kleiner als 13)
-- b) Die Augensumme ist genau 6. → **möglich** (z.B. 1+5, 2+4, 3+3 — aber nicht bei jedem Wurf)
-- c) Die Augensumme ist 1. → **unmöglich** (Minimum ist 1+1 = 2)
-- d) Die Augensumme ist eine gerade Zahl. → **möglich** (z.B. 1+1 = 2, aber auch 1+2 = 3 ist ungerade)
-- e) Die Augensumme ist größer als 1. → **sicher** (Minimum ist 2, also immer größer als 1)
+a) → A
+b) → B
+c) → C
+d) → B
+e) → A
 
 ### Lösungsweg
 - **sicher** = tritt bei JEDEM Wurf ein, es gibt keine Ausnahme
@@ -1569,8 +1584,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung
@@ -1633,8 +1648,8 @@ buchseite: 75
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
-tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
 
 ### Aufgabenstellung

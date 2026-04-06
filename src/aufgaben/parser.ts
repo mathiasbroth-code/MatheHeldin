@@ -1,4 +1,4 @@
-import type { BankAufgabe, InteraktionsTyp, Schwierigkeit, DigitalGrad } from './types';
+import type { BankAufgabe, InteraktionsTyp, Schwierigkeit, DigitalGrad, MerkkastenDaten, MerkkastenBegriff } from './types';
 import { parseDaten } from './parserTyped';
 
 /**
@@ -80,6 +80,7 @@ function parseAufgabenBlock(block: string): BankAufgabe | null {
     didaktischerHinweis: didaktischerHinweis || undefined,
     erklaerungBild,
     themenIntroBild,
+    ...parseMerkkasten(meta),
     parsed,
   } as BankAufgabe;
 }
@@ -141,4 +142,38 @@ function extractSection(markdown: string, name: string): string | null {
 
 function escapeRegex(str: string): string {
   return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Parst merkkasten_typ + merkkasten_begriffe/merkkasten_text aus YAML-Metadaten.
+ * Format:
+ *   merkkasten_typ: begriffe
+ *   merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
+ * oder:
+ *   merkkasten_typ: regel
+ *   merkkasten_text: "1 Tonne = 1.000 Kilogramm"
+ */
+function parseMerkkasten(meta: Record<string, string>): { merkkasten?: MerkkastenDaten } {
+  const typ = meta.merkkasten_typ;
+  if (!typ) return {};
+
+  if (typ === 'begriffe' && meta.merkkasten_begriffe) {
+    const begriffe: MerkkastenBegriff[] = meta.merkkasten_begriffe
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .map((entry) => {
+        const abbrMatch = entry.match(/\(([^)]+)\)$/);
+        const term = abbrMatch ? entry.slice(0, abbrMatch.index).trim() : entry;
+        return { term, ...(abbrMatch ? { abbrev: abbrMatch[1] } : {}) };
+      });
+
+    return { merkkasten: { typ: 'begriffe', begriffe } };
+  }
+
+  if (typ === 'regel' && meta.merkkasten_text) {
+    return { merkkasten: { typ: 'regel', text: meta.merkkasten_text.replace(/\\n/g, '\n') } };
+  }
+
+  return {};
 }

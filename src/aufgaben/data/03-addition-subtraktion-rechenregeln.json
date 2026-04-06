@@ -1156,6 +1156,11 @@
               "label": "1",
               "frage": "72 · 5 =",
               "antwort": "360"
+            },
+            {
+              "label": "2",
+              "frage": "360 − 20 =",
+              "antwort": "340"
             }
           ]
         }
@@ -1192,6 +1197,11 @@
               "label": "1",
               "frage": "40 · 8 =",
               "antwort": "320"
+            },
+            {
+              "label": "2",
+              "frage": "320 − 15 =",
+              "antwort": "305"
             }
           ]
         }
@@ -1456,8 +1466,8 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "zahlenrätsel",
     "digital": "voll",
-    "aufgabenstellung": "Schreibe als Rechenkette und löse.\n\nIch denke mir eine Zahl und multipliziere sie mit 6, dann addiere ich 50 und dividiere durch 5. Ich erhalte 80.",
-    "loesung": "Die gedachte Zahl ist 55.\n\nRechenkette: ▢ → · 6 → ▢ → + 50 → ▢ → : 5 → 80\nRückwärts: 80 → · 5 → 400 → − 50 → 350 → : 6 → Nein, 350 : 6 geht nicht glatt auf.\n\nKorrektur der Aufgabe — passende Variante:\nIch denke mir eine Zahl und multipliziere sie mit 5, dann addiere ich 50 und dividiere durch 3. Ich erhalte 100.\n\nRechenkette: ▢ → · 5 → ▢ → + 50 → ▢ → : 3 → 100\nRückwärts: 100 → · 3 → 300 → − 50 → 250 → : 5 → 50\n\nDie gedachte Zahl ist 50.",
+    "aufgabenstellung": "Schreibe als Rechenkette und löse.\n\nIch denke mir eine Zahl und multipliziere sie mit 5, dann addiere ich 50 und dividiere durch 3. Ich erhalte 100.",
+    "loesung": "Die gedachte Zahl ist 50.\n\nRechenkette: ▢ → · 5 → ▢ → + 50 → ▢ → : 3 → 100\nRückwärts: 100 → · 3 → 300 → − 50 → 250 → : 5 → 50",
     "loesungsweg": "1. Rechenkette: ? → · 5 → ? → + 50 → ? → : 3 → 100\n2. Rückwärts:\n   - 100 · 3 = 300\n   - 300 − 50 = 250\n   - 250 : 5 = 50\n3. Probe: 50 · 5 = 250, 250 + 50 = 300, 300 : 3 = 100 ✓",
     "tipps": [
       "Bei drei Operationen musst du dreimal rückwärts rechnen. Starte beim Ergebnis und kehre eine Operation nach der anderen um.",
@@ -1473,8 +1483,8 @@
       "items": [
         {
           "label": "1",
-          "frage": "Ich denke mir eine Zahl und multipliziere sie mit 6, dann addiere ich 50 und dividiere durch 5. Ich erhalte 80.",
-          "antwort": "Die gedachte Zahl ist 55."
+          "frage": "Ich denke mir eine Zahl und multipliziere sie mit 5, dann addiere ich 50 und dividiere durch 3. Ich erhalte 100.",
+          "antwort": "Die gedachte Zahl ist 50."
         }
       ]
     }
@@ -1917,14 +1927,14 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "gleichungen",
     "digital": "voll",
-    "aufgabenstellung": "Löse die Gleichungen.\n\na) 45 + 65 = 55 + ▢\nb) 60 + 60 = 80 · ▢\nc) 120 − 30 = 50 + ▢",
-    "loesung": "a) 55\nb) Keine ganze Zahl (120 : 80 = 1,5) — korrigierte Aufgabe:\n   60 + 60 = 40 · ▢ → ▢ = 3\nc) 40",
-    "loesungsweg": "- a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55\n- b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3\n- c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40",
+    "aufgabenstellung": "Löse die Gleichungen.\n\na) 45 + 65 = 55 + ▢\nb) 60 + 60 = 40 · ▢\nc) 120 − 30 = 50 + ▢",
+    "loesung": "a) 55\nb) 3\nc) 40",
+    "loesungsweg": "- a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55\n- - b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3\n- c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40",
     "tipps": [
       "Rechne die linke Seite aus. Dann überleg: Was muss auf der rechten Seite stehen, damit es gleich viel ist?",
       "Linke Seite ausrechnen → Ergebnis merken. Rechte Seite: Welche Zahl fehlt? Nutze die Umkehroperation (bei · nutze :, bei + nutze −).",
       "b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120. Also: 120 : 40 = ?",
-      "- a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55\n- b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3\n- c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40"
+      "- a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55\n- - b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3\n- c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40"
     ],
     "tippBilder": [
       null,
@@ -1939,7 +1949,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Löse die Gleichungen.\n\na) 45 + 65 = 55 + ▢\nb) 60 + 60 = 80 · ▢\nc) 120 − 30 = 50 + ▢",
+          "frage": "Löse die Gleichungen.\n\na) 45 + 65 = 55 + ▢\nb) 60 + 60 = 40 · ▢\nc) 120 − 30 = 50 + ▢",
           "antwort": "a) 55"
         }
       ]
@@ -1954,8 +1964,8 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "gleichungen",
     "digital": "voll",
-    "aufgabenstellung": "Löse die Gleichungen.\n\na) 150 + 70 = 4 · ▢\nb) 84 − 29 = 280 : ▢\nc) 420 − ▢ = 80 · 4\nd) ▢ · 60 = 530 − 230",
-    "loesung": "a) 55 (denn 220 : 4 = 55)\nb) 5 (denn 55 → 280 : 5 = 56 ≠ 55 — korrigierte Aufgabe: 84 − 24 = 300 : ▢ → 60 = 300 : ▢ → ▢ = 5)\nc) 100 (denn 80 · 4 = 320, 420 − ▢ = 320, ▢ = 100)\nd) 5 (denn 530 − 230 = 300, ▢ · 60 = 300, ▢ = 5)",
+    "aufgabenstellung": "Löse die Gleichungen.\n\na) 150 + 70 = 4 · ▢\nb) 84 − 24 = 300 : ▢\nc) 420 − ▢ = 80 · 4\nd) ▢ · 60 = 530 − 230",
+    "loesung": "a) 55\nb) 5\nc) 100\nd) 5",
     "loesungsweg": "- a) Links: 150 + 70 = 220. Rechts: 4 · ▢ = 220 → ▢ = 220 : 4 = 55\n- b) Links: 84 − 24 = 60. Rechts: 300 : ▢ = 60 → ▢ = 300 : 60 = 5\n- c) Rechts: 80 · 4 = 320. Links: 420 − ▢ = 320 → ▢ = 420 − 320 = 100\n- d) Rechts: 530 − 230 = 300. Links: ▢ · 60 = 300 → ▢ = 300 : 60 = 5",
     "tipps": [
       "Rechne die Seite aus, auf der du alle Zahlen kennst. Dann findest du den Platzhalter auf der anderen Seite.",
@@ -1976,8 +1986,8 @@
       "items": [
         {
           "label": "1",
-          "frage": "Löse die Gleichungen.\n\na) 150 + 70 = 4 · ▢\nb) 84 − 29 = 280 : ▢\nc) 420 − ▢ = 80 · 4\nd) ▢ · 60 = 530 − 230",
-          "antwort": "a) 55 (denn 220 : 4 = 55)"
+          "frage": "Löse die Gleichungen.\n\na) 150 + 70 = 4 · ▢\nb) 84 − 24 = 300 : ▢\nc) 420 − ▢ = 80 · 4\nd) ▢ · 60 = 530 − 230",
+          "antwort": "a) 55"
         }
       ]
     }
@@ -2029,7 +2039,7 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "gleichungen",
     "digital": "voll",
-    "aufgabenstellung": "Welche Gleichung passt zu welchem Rätsel? Ordne zu und löse die Gleichungen.\n\na) Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Differenz aus 10 und 4.\nb) Wenn ich das Produkt aus 7 und meiner Zahl bilde, erhalte ich die Summe aus 10 und 4.\nc) Wenn ich die Differenz aus 7 und meiner Zahl bilde, erhalte ich den Quotienten aus 10 und 2.\nd) Wenn ich meine Zahl durch 7 dividiere, erhalte ich das Produkt aus 10 und 2.\n\nA) 7 · ▢ = 10 + 4\nB) ▢ : 7 = 10 · 2\nC) 7 + ▢ = 10 − 4\nD) 7 − ▢ = 10 : 2",
+    "aufgabenstellung": "Welche Gleichung passt zu welchem Rätsel? Ordne zu und löse die Gleichungen.\n\na) Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Summe aus 10 und 4.\nb) Wenn ich das Produkt aus 7 und meiner Zahl bilde, erhalte ich die Summe aus 10 und 4.\nc) Wenn ich die Differenz aus 7 und meiner Zahl bilde, erhalte ich den Quotienten aus 10 und 2.\nd) Wenn ich meine Zahl durch 7 dividiere, erhalte ich das Produkt aus 10 und 2.\n\nA) 7 · ▢ = 10 + 4\nB) ▢ : 7 = 10 · 2\nC) 7 + ▢ = 10 + 4\nD) 7 − ▢ = 10 : 2",
     "loesung": "a) → C\nb) → A\nc) → D\nd) → B",
     "loesungsweg": "1. Übersetze die Fachbegriffe: Summe = +, Differenz = −, Produkt = ·, Quotient = :\n2. Ordne die Rätsel den Gleichungen zu\n3. Löse mit Umkehroperationen",
     "tipps": [
@@ -2051,7 +2061,7 @@
       "items": [
         {
           "label": "a",
-          "text": "Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Differenz aus 10 und 4."
+          "text": "Wenn ich die Summe aus meiner Zahl und 7 bilde, erhalte ich die Summe aus 10 und 4."
         },
         {
           "label": "b",
@@ -2077,7 +2087,7 @@
         },
         {
           "label": "C",
-          "text": "7 + ▢ = 10 − 4"
+          "text": "7 + ▢ = 10 + 4"
         },
         {
           "label": "D",

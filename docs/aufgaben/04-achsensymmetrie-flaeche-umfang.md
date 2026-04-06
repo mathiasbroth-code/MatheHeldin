@@ -16,8 +16,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
 ---
 
 ### Aufgabenstellung
@@ -67,8 +67,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
 ---
 
 ### Aufgabenstellung
@@ -116,8 +116,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
 ---
 
 ### Aufgabenstellung
@@ -162,8 +162,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
 ---
 
 ### Aufgabenstellung
@@ -205,8 +205,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Symmetrieachse, achsensymmetrisch"
 ---
 
 ### Aufgabenstellung
@@ -218,9 +218,7 @@ c) In allen vier Ecken
 d) Oben rechts, unten links und unten rechts
 
 ### Lösung
-d) Das Dreieck erscheint in allen vier Ecken: oben links (Original), oben rechts (senkrecht gespiegelt), unten links (waagerecht gespiegelt) und unten rechts (an beiden Achsen gespiegelt).
-
-Also: In allen vier Ecken → Antwort c) wäre auch richtig formuliert. Die korrekte Antwort ist **c) In allen vier Ecken**.
+c) In allen vier Ecken: oben links (Original), oben rechts (senkrecht gespiegelt), unten links (waagerecht gespiegelt) und unten rechts (an beiden Achsen gespiegelt).
 
 ### Lösungsweg
 Wenn an der senkrechten Achse gespiegelt wird, wandert das Dreieck von oben links nach oben rechts. Wenn an der waagerechten Achse gespiegelt wird, wandert es von oben links nach unten links. Die Kombination beider Spiegelungen erzeugt das Dreieck auch in unten rechts. So entsteht ein Muster mit 4 Dreiecken — eins in jeder Ecke.
@@ -252,7 +250,8 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Faltschnitt"
 ---
 
 ### Aufgabenstellung
@@ -293,7 +292,8 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Faltschnitt"
 ---
 
 ### Aufgabenstellung
@@ -334,7 +334,8 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Faltschnitt"
 ---
 
 ### Aufgabenstellung
@@ -375,7 +376,8 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Faltschnitt"
 ---
 
 ### Aufgabenstellung
@@ -416,7 +418,8 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Faltschnitt"
 ---
 
 ### Aufgabenstellung
@@ -466,10 +469,8 @@ buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
@@ -516,10 +517,8 @@ buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
@@ -567,34 +566,30 @@ buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
 Ordne die Beispiele zu: Wo findest du parallele Linien, wo senkrechte Linien?
 
-Beispiele:
-1. Eisenbahnschienen
-2. Die Ecke einer Zimmerwand (Wand trifft Boden)
-3. Die beiden langen Seiten eines Lineals
-4. Die Zeiger einer Uhr, wenn es 3 Uhr ist
-5. Die Buchstaben in einer Zeile
-6. Ein Laternenpfahl auf der Straße
+a) Eisenbahnschienen
+b) Die Ecke einer Zimmerwand (Wand trifft Boden)
+c) Die beiden langen Seiten eines Lineals
+d) Die Zeiger einer Uhr, wenn es 3 Uhr ist
+e) Die Buchstaben in einer Zeile
+f) Ein Laternenpfahl auf der Straße
 
-Kategorien:
-- A: parallel
-- B: senkrecht
+A) parallel
+B) senkrecht
 
 ### Lösung
-- 1 → A (parallel) — Schienen laufen nebeneinander mit gleichem Abstand
-- 2 → B (senkrecht) — Wand steht im rechten Winkel zum Boden
-- 3 → A (parallel) — Die langen Kanten des Lineals verlaufen parallel
-- 4 → B (senkrecht) — Um 3 Uhr stehen die Zeiger im rechten Winkel
-- 5 → A (parallel) — Die Buchstaben stehen auf parallelen Grundlinien
-- 6 → B (senkrecht) — Der Pfahl steht senkrecht auf der Straße
+a) → A
+b) → B
+c) → A
+d) → B
+e) → A
+f) → B
 
 ### Lösungsweg
 Parallele Linien haben überall den gleichen Abstand und kreuzen sich nie (wie Eisenbahnschienen). Senkrechte Linien bilden einen rechten Winkel von 90° (wie die Ecke eines Raumes).
@@ -625,10 +620,8 @@ buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
@@ -674,10 +667,8 @@ buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
@@ -722,10 +713,8 @@ buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
-tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
-tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
-tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
 ---
 
 ### Aufgabenstellung
@@ -776,30 +765,26 @@ buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
 Ordne die Beschreibungen dem richtigen Begriff zu.
 
-Beschreibungen:
-1. "Wie lang ist der Zaun um den Garten?"
-2. "Wie viel Rasen passt in den Garten?"
-3. "Wie viel Band brauche ich, um das Geschenk zu umwickeln?"
-4. "Wie viele Fliesen brauche ich für den Boden?"
+a) "Wie lang ist der Zaun um den Garten?"
+b) "Wie viel Rasen passt in den Garten?"
+c) "Wie viel Band brauche ich, um das Geschenk zu umwickeln?"
+d) "Wie viele Fliesen brauche ich für den Boden?"
 
-Begriffe:
-- A: Umfang
-- B: Flächeninhalt
+A) Umfang
+B) Flächeninhalt
 
 ### Lösung
-1 → A (Umfang) — der Zaun verläuft am Rand entlang
-2 → B (Flächeninhalt) — der Rasen füllt die Fläche aus
-3 → A (Umfang) — das Band geht um das Geschenk herum
-4 → B (Flächeninhalt) — die Fliesen bedecken die Fläche
+a) → A
+b) → B
+c) → A
+d) → B
 
 ### Lösungsweg
 - **Umfang** = die Länge des Randes, also „einmal rundherum". Wie ein Zaun, ein Band, ein Rahmen.
@@ -832,10 +817,8 @@ buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -882,10 +865,8 @@ buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -931,10 +912,8 @@ buchseite: 52
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -983,10 +962,8 @@ buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -1035,10 +1012,8 @@ buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -1085,10 +1060,8 @@ buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -1136,10 +1109,8 @@ buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -1195,10 +1166,8 @@ buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung
@@ -1242,10 +1211,8 @@ buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
-tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
-tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
-tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Umfang, der Flächeninhalt"
 ---
 
 ### Aufgabenstellung

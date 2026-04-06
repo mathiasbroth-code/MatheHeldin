@@ -431,15 +431,15 @@
   },
   {
     "titel": "Sicher, möglich oder unmöglich — drei Würfel",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "grün",
     "buchseite": 74,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Entscheide: sicher, möglich oder unmöglich?\n\na) Die Augensumme ist größer als 2.\nb) Die Augensumme ist 10.\nc) Die Augensumme ist 2.\nd) Die Augensumme ist kleiner als 19.",
-    "loesung": "a) sicher (kleinste Summe: 1+1+1=3, also immer größer als 2)\nb) möglich (z.B. 3+3+4=10)\nc) unmöglich (kleinste Summe: 3)\nd) sicher (größte Summe: 18, also immer kleiner als 19)",
+    "aufgabenstellung": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Ordne zu: sicher, möglich oder unmöglich?\n\na) Die Augensumme ist größer als 2.\nb) Die Augensumme ist 10.\nc) Die Augensumme ist 2.\nd) Die Augensumme ist kleiner als 19.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → A (kleinste Summe: 1+1+1=3, also immer größer als 2)\nb) → B (z.B. 3+3+4=10)\nc) → C (kleinste Summe: 3)\nd) → A (größte Summe: 18, also immer kleiner als 19)",
     "loesungsweg": "Ergebnisraum bei drei Würfeln:\n- Kleinste Summe: 1+1+1 = 3\n- Größte Summe: 6+6+6 = 18\n- Mögliche Summen: 3 bis 18",
     "tipps": [
       "Drei Würfel: Was ist die kleinste Zahl, die alle drei zusammen zeigen können? Und die größte?",
@@ -449,28 +449,46 @@
     ],
     "didaktischerHinweis": "Erweiterung auf drei Würfel: Der Ergebnisraum verschiebt sich (3 bis 18 statt 2 bis 12). Kinder transferieren die Methode aus Aufgabe 11. Besonders c) ist lehrreich: Die Summe 2 ist mit drei Würfeln unmöglich, obwohl sie mit zwei Würfeln noch möglich war.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Entscheide: sicher, möglich oder unmöglich?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Ordne zu: sicher, möglich oder unmöglich?",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Die Augensumme ist größer als 2."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Die Augensumme ist 10."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Die Augensumme ist 2."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Die Augensumme ist kleiner als 19."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "A"
+      }
     }
   },
   {
@@ -556,7 +574,7 @@
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
     "aufgabenstellung": "Du spielst mit zwei Würfeln und **multiplizierst** die Augenzahlen (statt sie zu addieren).\n\na) Welches ist das kleinste mögliche Ergebnis?\nb) Welches das größte?\nc) Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.",
-    "loesung": "a) 1 (1 × 1)\nb) 36 (6 × 6)\nc) Die 6 hat die größte Chance (4 Möglichkeiten: 1×6, 2×3, 3×2, 6×1).",
+    "loesung": "a) 1 (1 × 1)\nb) 36 (6 × 6)\nc) Die 6 und die 12 haben die größte Chance (jeweils 4 Möglichkeiten: 6→1×6, 2×3, 3×2, 6×1; 12→2×6, 3×4, 4×3, 6×2).",
     "loesungsweg": "Alle Produkte in einer 6×6-Tabelle:\n\n| × | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 1 | 2 | 3 | 4 | 5 | 6 |\n| 2 | 2 | 4 | 6 | 8 | 10 | 12 |\n| 3 | 3 | 6 | 9 | 12 | 15 | 18 |\n| 4 | 4 | 8 | 12 | 16 | 20 | 24 |\n| 5 | 5 | 10 | 15 | 20 | 25 | 30 |\n| 6 | 6 | 12 | 18 | 24 | 30 | 36 |\n\nDie 6 kommt 4-mal vor: (1,6), (2,3), (3,2), (6,1).\nDie 12 kommt auch 4-mal vor: (2,6), (3,4), (4,3), (6,2).",
     "tipps": [
       "Erstelle eine Tabelle: Würfel 1 (Zeilen) mal Würfel 2 (Spalten). Welches Ergebnis kommt am häufigsten vor?",
@@ -583,22 +601,22 @@
         {
           "label": "c",
           "frage": "Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.",
-          "antwort": "Die 6 hat die größte Chance (4 Möglichkeiten: 1×6, 2×3, 3×2, 6×1)."
+          "antwort": "Die 6 und die 12 haben die größte Chance (jeweils 4 Möglichkeiten: 6→1×6, 2×3, 3×2, 6×1; 12→2×6, 3×4, 4×3, 6×2)."
         }
       ]
     }
   },
   {
     "titel": "Alltagsaussagen — sicher, möglich, unmöglich",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 75,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?\n\na) Es schneit im Juli in Deutschland.\nb) Nach Mittwoch kommt Donnerstag.\nc) Du wirfst einen Stein hoch und er fällt wieder herunter.\nd) Morgen scheint den ganzen Tag die Sonne.\ne) Ein Hund kann fliegen.",
-    "loesung": "a) möglich (sehr unwahrscheinlich, aber in den Bergen theoretisch denkbar)\nb) sicher (die Reihenfolge der Wochentage ist festgelegt)\nc) sicher (die Schwerkraft wirkt immer)\nd) möglich (das Wetter kann man nicht sicher vorhersagen)\ne) unmöglich (Hunde haben keine Flügel und können nicht fliegen)",
+    "aufgabenstellung": "Ordne zu: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?\n\na) Es schneit im Juli in Deutschland.\nb) Nach Mittwoch kommt Donnerstag.\nc) Du wirfst einen Stein hoch und er fällt wieder herunter.\nd) Morgen scheint den ganzen Tag die Sonne.\ne) Ein Hund kann fliegen.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → B (sehr unwahrscheinlich, aber in den Bergen theoretisch denkbar)\nb) → A (die Reihenfolge der Wochentage ist festgelegt)\nc) → A (die Schwerkraft wirkt immer)\nd) → B (das Wetter kann man nicht sicher vorhersagen)\ne) → C (Hunde haben keine Flügel und können nicht fliegen)",
     "loesungsweg": "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich",
     "tipps": [
       "Stell dir jede Situation bildlich vor. Passiert das jedes Mal so? Oder nur manchmal? Oder nie?",
@@ -608,32 +626,51 @@
     ],
     "didaktischerHinweis": "Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre. Kinder lernen die drei Grundbegriffe an Beispielen aus ihrer Lebenswelt. Wichtig: \"möglich, aber unwahrscheinlich\" (wie Schnee im Juli) ist trotzdem \"möglich\" — das unterscheidet Grundschul-Wahrscheinlichkeit von exakter Stochastik.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Ordne zu: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Es schneit im Juli in Deutschland."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Nach Mittwoch kommt Donnerstag."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Du wirfst einen Stein hoch und er fällt wieder herunter."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Morgen scheint den ganzen Tag die Sonne."
         },
         {
-          "label": "E",
+          "label": "e",
           "text": "Ein Hund kann fliegen."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "A",
+        "c": "A",
+        "d": "B",
+        "e": "C"
+      }
     }
   },
   {
@@ -686,13 +723,13 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**\n\nTrage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
-    "loesung": "| Buchstabe | Strichliste | Anzahl |\n|-----------|-------------|--------|\n| D | II | 2 |\n| E | IIII | 4 |\n| R | III | 3 |\n| N | III | 3 |\n| I | II | 2 |\n| G | II | 2 |\n| S | I | 1 |\n| T | II | 2 |",
-    "loesungsweg": "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E → 4\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2",
+    "loesung": "| Buchstabe | Strichliste | Anzahl |\n|-----------|-------------|--------|\n| D | II | 2 |\n| E | IIII I | 5 |\n| R | III | 3 |\n| N | III | 3 |\n| I | II | 2 |\n| G | II | 2 |\n| S | I | 1 |\n| T | II | 2 |",
+    "loesungsweg": "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E...E → 5\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2",
     "tipps": [
       "Gehe den Satz Buchstabe für Buchstabe durch. Mache für jeden gesuchten Buchstaben einen Strich in der Tabelle.",
       "Am besten: Nimm dir einen Buchstaben vor und gehe den ganzen Satz durch. Mache einen Strich für jedes Vorkommen. Dann den nächsten Buchstaben.\n\nStrichliste: IIII = 4, IIII I = 5 usw.",
-      "Fang mit E an: \"D**e**r Hund spi**e**lt g**e**rn**e** im Gart**e**n.\" Zähle: 1...2...3...4... Stimmt das? Dann nimm dir R vor.\n\nAchtung: Schau genau — das E in \"spielt\" und das E in \"gerne\" nicht vergessen!",
-      "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E → 4\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2"
+      "Fang mit E an: \"D**e**r Hund spi**e**lt g**e**rn**e** im Gart**e**n.\" Zähle: 1...2...3...4...5. Stimmt das? Dann nimm dir R vor.\n\nAchtung: Schau genau — das E in \"spielt\" und das E in \"gerne\" nicht vergessen!",
+      "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E...E → 5\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2"
     ],
     "didaktischerHinweis": "Strichlisten sind das einfachste Werkzeug der Datenerhebung. Die Aufgabe trainiert Konzentration und Systematik. Typische Fehlerquelle: Buchstaben übersehen oder doppelt zählen. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger.",
     "parsed": {
@@ -718,12 +755,12 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
-    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 8 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| I | 3 |\n| S | 3 |\n| G | 2 |\n| D | 2 |\n| O | 2 |\n| L | 2 |\n| H | 2 |\n| A | 2 |\n| M | 2 |\n| F | 2 |\n| Z | 1 |\n| C | 1 |\n\nDie fünf häufigsten: E (8), N (5), R (5), T (5), I oder S (3)",
+    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 10 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| I | 3 |\n| S | 3 |\n| G | 2 |\n| D | 2 |\n| O | 2 |\n| L | 2 |\n| H | 2 |\n| A | 2 |\n| M | 2 |\n| F | 2 |\n| Z | 1 |\n| C | 1 |\n\nDie fünf häufigsten: E (10), N (5), R (5), T (5), I oder S (3)",
     "loesungsweg": "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.",
     "tipps": [
       "Geh den Text Buchstabe für Buchstabe durch. Welchen Buchstaben siehst du am öftesten? Tipp: Es ist ein Vokal!",
       "Erstelle eine Strichliste für alle vorkommenden Buchstaben. Am Ende sortierst du nach Häufigkeit (der mit den meisten Strichen steht oben).",
-      "Färbe zuerst alle E im Text ein: \"Fr**e**do r**e**chn**e**t g**e**rn**e** mit groß**e**n Zahl**e**n. **E**r find**e**t Math**e** toll.\"\nZähle: 1, 2, 3, 4, 5, 6, 7, ... Wie viele E findest du?",
+      "Färbe zuerst alle E im Text ein: \"Fr**e**do r**e**chn**e**t g**e**rn**e** mit groß**e**n Zahl**e**n. **E**r find**e**t Math**e** toll.\"\nZähle: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Wie viele E findest du?",
       "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit."
     ],
     "didaktischerHinweis": "Längerer Text = mehr Daten = zuverlässigeres Ergebnis. Kinder entdecken: Das E ist tatsächlich der häufigste Buchstabe! Das bestätigt die Vermutung aus Aufgabe 17. Der Übergang von Strichliste zur Rangfolge ist ein wichtiger Schritt in der Datenauswertung.",

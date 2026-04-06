@@ -16,7 +16,8 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 ---
 
 ### Aufgabenstellung
@@ -67,7 +68,8 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 ---
 
 ### Aufgabenstellung
@@ -118,7 +120,8 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 ---
 
 ### Aufgabenstellung
@@ -176,7 +179,8 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 ---
 
 ### Aufgabenstellung
@@ -228,7 +232,8 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 ---
 
 ### Aufgabenstellung
@@ -281,7 +286,8 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Division, dividieren, der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -330,7 +336,8 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Division, dividieren, der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -382,7 +389,8 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Division, dividieren, der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -430,7 +438,8 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Division, dividieren, der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -478,7 +487,8 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Division, dividieren, der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -530,7 +540,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -592,7 +603,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -653,7 +665,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -709,7 +722,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -757,7 +771,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -808,7 +823,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
@@ -859,7 +875,8 @@ buchseite: 58
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
@@ -924,7 +941,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
@@ -986,7 +1004,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
@@ -1040,32 +1059,29 @@ buchseite: 58
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
 Die Aufgabe 1.728 · 2 wird schriftlich gelöst. Ordne die Beschreibungen den richtigen Rechenschritten zu.
 
-Rechenschritte:
-1. Ergebnis: ...6 (Einerstelle)
-2. Ergebnis: ...56 (Zehnerstelle)
-3. Ergebnis: ...456 (Hunderterstelle)
-4. Ergebnis: 3.456 (Tausenderstelle)
+a) Ergebnis: ...6 (Einerstelle)
+b) Ergebnis: ...56 (Zehnerstelle)
+c) Ergebnis: ...456 (Hunderterstelle)
+d) Ergebnis: 3.456 (Tausenderstelle)
 
-Beschreibungen:
-A. 2 · 7H = 14H = 1T 4H. Schreibe 4, merke 1.
-B. 2 · 8E = 16E = 1Z 6E. Schreibe 6, merke 1.
-C. 2 · 2Z = 4Z. Plus 1Z (gemerkt) = 5Z. Schreibe 5.
-D. 2 · 1T = 2T. Plus 1T (gemerkt) = 3T. Schreibe 3.
+A) 2 · 7H = 14H = 1T 4H. Schreibe 4, merke 1.
+B) 2 · 8E = 16E = 1Z 6E. Schreibe 6, merke 1.
+C) 2 · 2Z = 4Z. Plus 1Z (gemerkt) = 5Z. Schreibe 5.
+D) 2 · 1T = 2T. Plus 1T (gemerkt) = 3T. Schreibe 3.
 
 ### Lösung
-1 → B (Einer: 2 · 8 = 16, schreibe 6, merke 1)
-2 → C (Zehner: 2 · 2 = 4, plus 1 = 5)
-3 → A (Hunderter: 2 · 7 = 14, schreibe 4, merke 1)
-4 → D (Tausender: 2 · 1 = 2, plus 1 = 3)
-
-Ergebnis: 1.728 · 2 = 3.456
+a) → B
+b) → C
+c) → A
+d) → D
 
 ### Lösungsweg
 Beim schriftlichen Multiplizieren geht man von rechts nach links:
@@ -1099,7 +1115,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Produkt"
 tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
@@ -1157,7 +1174,8 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1206,7 +1224,8 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1219,7 +1238,7 @@ d) 4.520 · 4 = 30.108
 
 ### Lösung
 a) Stimmt nicht — richtig: 7.526 · 4 = 30.104. Fehler: Beim Einmaleins (4 · 6 = 24, nicht 28).
-b) Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Übertrag vergessen (3 · 3 = 9, plus 2 = 11, nicht 9).
+b) Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Einmaleins-Fehler bei den Zehnern (3 · 3 = 9, nicht 6).
 c) Stimmt nicht — richtig: 7.604 · 2 = 15.208. Fehler: Stellenwert vergessen (Ergebnis hat zu wenig Stellen).
 d) Stimmt nicht — richtig: 4.520 · 4 = 18.080. Fehler: Null falsch behandelt.
 
@@ -1252,7 +1271,8 @@ buchseite: 61
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1303,7 +1323,8 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1354,7 +1375,8 @@ buchseite: 61
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1405,7 +1427,8 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1457,7 +1480,8 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1515,7 +1539,8 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1573,7 +1598,8 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1623,7 +1649,8 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1675,7 +1702,8 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1730,7 +1758,8 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
@@ -1789,7 +1818,8 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung

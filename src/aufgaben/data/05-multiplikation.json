@@ -1164,7 +1164,7 @@
     "stageId": "schriftlich-multiplizieren-2",
     "digital": "voll",
     "aufgabenstellung": "Bei diesen Aufgaben wurde falsch gerechnet. Stimmt das Ergebnis oder nicht? Wenn nicht: Wo liegt der Fehler?\n\na) 7.526 · 4 = 30.108\nb) 3.532 · 3 = 10.566\nc) 7.604 · 2 = 1.528\nd) 4.520 · 4 = 30.108",
-    "loesung": "a) Stimmt nicht — richtig: 7.526 · 4 = 30.104. Fehler: Beim Einmaleins (4 · 6 = 24, nicht 28).\nb) Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Übertrag vergessen (3 · 3 = 9, plus 2 = 11, nicht 9).\nc) Stimmt nicht — richtig: 7.604 · 2 = 15.208. Fehler: Stellenwert vergessen (Ergebnis hat zu wenig Stellen).\nd) Stimmt nicht — richtig: 4.520 · 4 = 18.080. Fehler: Null falsch behandelt.",
+    "loesung": "a) Stimmt nicht — richtig: 7.526 · 4 = 30.104. Fehler: Beim Einmaleins (4 · 6 = 24, nicht 28).\nb) Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Einmaleins-Fehler bei den Zehnern (3 · 3 = 9, nicht 6).\nc) Stimmt nicht — richtig: 7.604 · 2 = 15.208. Fehler: Stellenwert vergessen (Ergebnis hat zu wenig Stellen).\nd) Stimmt nicht — richtig: 4.520 · 4 = 18.080. Fehler: Null falsch behandelt.",
     "loesungsweg": "Überschlag hilft: 7.526 · 4 ≈ 7.500 · 4 = 30.000 → 30.108 ist ungefähr richtig, also genau nachrechnen.\nBei c): 7.604 · 2 ≈ 7.600 · 2 = 15.200 → aber 1.528 ist viel zu klein! Da wurde offensichtlich ein Fehler beim Stellenwert gemacht.",
     "tipps": [
       "Mach zuerst einen Überschlag. Wenn das Ergebnis vom Überschlag weit weg ist, weißt du sofort: Da stimmt etwas nicht!",
@@ -1187,7 +1187,7 @@
           "label": "b",
           "aussage": "3.532 · 3 = 10.566",
           "richtig": false,
-          "erklaerung": "Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Übertrag vergessen (3 · 3 = 9, plus 2 = 11, nicht 9)."
+          "erklaerung": "Stimmt nicht — richtig: 3.532 · 3 = 10.596. Fehler: Einmaleins-Fehler bei den Zehnern (3 · 3 = 9, nicht 6)."
         },
         {
           "label": "c",

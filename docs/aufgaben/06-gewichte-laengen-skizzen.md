@@ -16,8 +16,8 @@ buchseite: 64
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -68,8 +68,8 @@ buchseite: 64
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -115,8 +115,8 @@ buchseite: 64
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -172,8 +172,8 @@ buchseite: 65
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -221,8 +221,8 @@ buchseite: 65
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -272,8 +272,8 @@ buchseite: 65
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -282,14 +282,8 @@ Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, d
 Darf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?
 
 ### Lösung
-Nein, der Transporter darf nicht über die Brücke fahren.
-Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t. Das ist zwar unter 16 t — **doch Vorsicht:** Die Aufgabe ist so gestellt, dass man genau rechnen muss.
-
-Korrektur: 15,15 t < 16 t. Ja, der Transporter darf über die Brücke fahren.
-
-### Lösung
 Ja, der Transporter darf über die Brücke fahren.
-Gesamtgewicht: 15,15 t < 16 t.
+Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t < 16 t.
 
 ### Lösungsweg
 1. Leergewicht: 10,8 t = 10.800 kg
@@ -325,8 +319,8 @@ buchseite: 65
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
-tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -377,20 +371,19 @@ buchseite: 66
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
 Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.
 
-| Tier | Gewicht |
-|------|---------|
-| Elefant | 6,5 t |
-| Blauwal | 110 t |
-| Strauss | 150 kg |
-| Anakonda | 150 kg |
-| Walhai | 12 t |
-| Giraffe | 750 kg |
+- Elefant: 6,5 t
+- Blauwal: 110 t
+- Strauss: 150 kg
+- Anakonda: 150 kg
+- Walhai: 12 t
+- Giraffe: 750 kg
 
 ### Lösung
 Strauss (150 kg) = Anakonda (150 kg) → Giraffe (750 kg) → Elefant (6,5 t = 6.500 kg) → Walhai (12 t = 12.000 kg) → Blauwal (110 t = 110.000 kg)
@@ -431,7 +424,8 @@ buchseite: 66
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -477,7 +471,8 @@ buchseite: 67
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -519,7 +514,8 @@ buchseite: 67
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -569,7 +565,8 @@ buchseite: 67
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -616,7 +613,8 @@ buchseite: 66
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -660,7 +658,8 @@ buchseite: 67
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 Tonne = 1.000 Kilogramm\n1 t = 1.000 kg"
 ---
 
 ### Aufgabenstellung
@@ -708,7 +707,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -757,7 +757,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -805,7 +806,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -857,7 +859,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -908,7 +911,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -956,7 +960,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1009,7 +1014,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1067,7 +1073,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1118,7 +1125,8 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
@@ -1162,22 +1170,31 @@ buchseite: 69
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
+merkkasten_typ: regel
+merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde (km/h) angegeben."
 ---
 
 ### Aufgabenstellung
 Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.
 
-Geschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h
+a) Fussgänger
+b) Radfahrer
+c) Auto in der Stadt
+d) Auto auf der Autobahn
+e) ICE-Zug
 
-Fortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug
+A) 250 km/h
+B) 4 km/h
+C) 120 km/h
+D) 16 km/h
+E) 50 km/h
 
 ### Lösung
-- Fussgänger: 4 km/h
-- Radfahrer: 16 km/h
-- Auto in der Stadt: 50 km/h
-- Auto auf der Autobahn: 120 km/h
-- ICE-Zug: 250 km/h
+a) → B
+b) → D
+c) → E
+d) → C
+e) → A
 
 ### Lösungsweg
 Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:
@@ -1594,7 +1611,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1636,7 +1654,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1677,7 +1696,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1719,7 +1739,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1765,7 +1786,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1808,7 +1830,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1851,7 +1874,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1898,7 +1922,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1941,7 +1966,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
@@ -1990,7 +2016,8 @@ buchseite: 68
 kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
+merkkasten_typ: regel
+merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung

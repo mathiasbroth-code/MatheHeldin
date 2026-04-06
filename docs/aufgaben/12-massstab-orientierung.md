@@ -17,7 +17,8 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S116_Merkwissen_Massstab_Vergroesserung.mp4"
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -62,7 +63,8 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S116_Anleitung_Laenge_in_Wirklichkeit.mp4"
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -104,7 +106,8 @@ buchseite: 116
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -145,7 +148,8 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S117_Merkwissen_Massstab_Verkleinerung.mp4"
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -187,7 +191,8 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S117_Anleitung_VerkleinernVergroessern.mp4"
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -199,12 +204,16 @@ c) 1 : 1
 d) 10 : 1
 e) 1 : 50.000
 
+A) Vergrößerung
+B) Verkleinerung
+C) Originalgrösse
+
 ### Lösung
-a) 3 : 1 → Vergrößerung
-b) 1 : 1.000 → Verkleinerung
-c) 1 : 1 → Originalgrösse
-d) 10 : 1 → Vergrößerung
-e) 1 : 50.000 → Verkleinerung
+a) → A
+b) → B
+c) → C
+d) → A
+e) → B
 
 ### Lösungsweg
 Die Regel:
@@ -239,7 +248,8 @@ buchseite: 117
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -289,7 +299,8 @@ buchseite: 117
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -338,7 +349,8 @@ buchseite: 116
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -383,7 +395,8 @@ buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -428,7 +441,8 @@ buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -439,16 +453,16 @@ b) Wehrgang
 c) Burgkapelle
 d) Burghof
 
-1) Gang auf der Mauer, von dem man die Umgebung beobachten kann
-2) Wassergraben rund um die Burg zum Schutz
-3) Kleine Kirche innerhalb der Burgmauern
-4) Freier Platz im Inneren der Burg
+A) Gang auf der Mauer, von dem man die Umgebung beobachten kann
+B) Wassergraben rund um die Burg zum Schutz
+C) Kleine Kirche innerhalb der Burgmauern
+D) Freier Platz im Inneren der Burg
 
 ### Lösung
-a) Burggraben → 2) Wassergraben rund um die Burg zum Schutz
-b) Wehrgang → 1) Gang auf der Mauer, von dem man die Umgebung beobachten kann
-c) Burgkapelle → 3) Kleine Kirche innerhalb der Burgmauern
-d) Burghof → 4) Freier Platz im Inneren der Burg
+a) → B
+b) → A
+c) → C
+d) → D
 
 ### Lösungsweg
 Die Begriffe erklären sich teilweise selbst:
@@ -486,7 +500,8 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -530,7 +545,8 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -573,7 +589,8 @@ buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -621,7 +638,8 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -665,27 +683,28 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
 Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.
 
-a) Großes Rechteck mit kleinem Quadrat darin → ___
-b) Kleines Rechteck mit Kreis (Waschbecken) → ___
-c) Rechteck mit Viertelkreis an der Ecke → ___
-d) Offener Bereich am Eingang → ___
+a) Großes Rechteck mit kleinem Quadrat darin
+b) Kleines Rechteck mit Kreis (Waschbecken)
+c) Rechteck mit Viertelkreis an der Ecke
+d) Offener Bereich am Eingang
 
-1) Badezimmer
-2) Küche
-3) Tür (Viertelkreis = Schwungbereich)
-4) Flur
+A) Badezimmer
+B) Küche
+C) Tür (Viertelkreis = Schwungbereich)
+D) Flur
 
 ### Lösung
-a) → 2) Küche (Herd/Spüle als kleines Quadrat)
-b) → 1) Badezimmer (Waschbecken-Symbol)
-c) → 3) Tür (Schwungbereich)
-d) → 4) Flur
+a) → B
+b) → A
+c) → C
+d) → D
 
 ### Lösungsweg
 Grundrisse verwenden Symbole:
@@ -720,7 +739,8 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -766,7 +786,8 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -810,7 +831,8 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -859,7 +881,8 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -905,7 +928,8 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: teilweise
 video: "S121_Beispiel_Stadtplan_lesen.mp4"
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -942,7 +966,8 @@ buchseite: 121
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung
@@ -991,7 +1016,8 @@ buchseite: 121
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1:25.000 bedeutet: 1 cm auf der Karte entspricht 25.000 cm (= 250 m) in Wirklichkeit."
 ---
 
 ### Aufgabenstellung

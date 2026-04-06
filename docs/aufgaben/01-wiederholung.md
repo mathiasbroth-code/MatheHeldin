@@ -16,7 +16,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -72,7 +73,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -128,7 +130,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -182,7 +185,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -235,7 +239,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -280,7 +285,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -332,7 +338,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E), die Stellenwerttafel"
 tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
@@ -383,7 +390,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Stellenwerttafel, die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
@@ -433,7 +441,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Stellenwerttafel, die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
@@ -483,7 +492,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Stellenwerttafel, die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
@@ -533,7 +543,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Stellenwerttafel, die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
@@ -588,7 +599,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Stellenwerttafel, die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
 tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
@@ -865,7 +877,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren, die Addition, der Summand, die Summanden, die Summe, der Übertrag, die Ziffer"
 tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
@@ -912,7 +925,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren, die Addition, der Summand, die Summanden, die Summe, der Übertrag, die Ziffer"
 tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
@@ -958,7 +972,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren, die Addition, der Summand, die Summanden, die Summe, der Übertrag, die Ziffer"
 tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
@@ -1005,7 +1020,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren, die Addition, der Summand, die Summanden, die Summe, der Übertrag, die Ziffer"
 tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
@@ -1049,7 +1065,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren, die Addition, der Summand, die Summanden, die Summe, der Übertrag, die Ziffer"
 tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
@@ -1097,7 +1114,8 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "subtrahieren, die Subtraktion, der Minuend, der Subtrahend, die Differenz"
 ---
 
 ### Aufgabenstellung
@@ -1143,7 +1161,8 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "subtrahieren, die Subtraktion, der Minuend, der Subtrahend, die Differenz"
 ---
 
 ### Aufgabenstellung
@@ -1189,7 +1208,8 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "subtrahieren, die Subtraktion, der Minuend, der Subtrahend, die Differenz"
 ---
 
 ### Aufgabenstellung
@@ -1234,7 +1254,8 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "subtrahieren, die Subtraktion, der Minuend, der Subtrahend, die Differenz"
 ---
 
 ### Aufgabenstellung
@@ -1277,7 +1298,8 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "subtrahieren, die Subtraktion, der Minuend, der Subtrahend, die Differenz"
 ---
 
 ### Aufgabenstellung

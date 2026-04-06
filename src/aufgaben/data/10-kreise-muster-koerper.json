@@ -499,7 +499,7 @@
     "buchseite": 106,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "parkettierungen",
-    "digital": "voll",
+    "digital": "platzhalter",
     "aufgabenstellung": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.\n\na) Wie viele Spiegelachsen hat die Grundfigur? ___\nb) In welche Richtungen wird die Grundfigur gespiegelt?\n\nWähle aus: nur waagerecht / nur senkrecht / waagerecht und senkrecht / in alle Richtungen",
     "loesung": "a) 2\nb) waagerecht und senkrecht",
     "loesungsweg": "Die Grundfigur (z.B. ein Dreiecksmuster) wird an einer waagerechten und einer senkrechten Achse gespiegelt. So entsteht ein sich wiederholendes Muster in beide Richtungen.",

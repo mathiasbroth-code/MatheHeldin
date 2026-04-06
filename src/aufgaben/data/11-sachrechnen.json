@@ -10,12 +10,12 @@
     "digital": "voll",
     "aufgabenstellung": "Jette geht im Juli und August jede Woche mindestens einmal ins Schwimmbad. Sie überlegt, welche Eintrittskarte sie kaufen soll.\n\nEintrittspreise:\n- 3-Stunden-Ticket Kind: 8 Euro\n- Tageskarte Kind: 11 Euro\n- 10er-Karte Kind: 85 Euro\n\nJette bleibt meistens nur 3 Stunden. In 8 Wochen geht sie 8-mal schwimmen.\n\na) Was kosten 8 Einzeltickets (3-Stunden)? ___\nb) Was kostet eine 10er-Karte? ___\nc) Welches Angebot ist für Jette günstiger?",
     "loesung": "a) 8 · 8 Euro = 64 Euro\nb) 85 Euro\nc) Die 8 Einzeltickets sind günstiger (64 Euro < 85 Euro).",
-    "loesungsweg": "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich erst ab 11 Besuchen (10 · 8 = 80 < 85? Nein! 85 : 8 = 10,6 — ab dem 11. Besuch würde sie sich lohnen).",
+    "loesungsweg": "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich hier nicht: 85 Euro für 10 Besuche = 8,50 Euro pro Besuch, aber ein Einzelticket kostet nur 8 Euro.",
     "tipps": [
       "Rechne aus: Wie viel kosten 8 einzelne Tickets? Und wie viel kostet eine 10er-Karte? Vergleiche die Beträge.",
       "Multipliziere: Anzahl der Besuche mal Preis pro Besuch. Dann vergleiche mit dem Paketpreis.",
       "8 Besuche · 8 Euro = ___. Die 10er-Karte kostet 85 Euro. Was ist weniger: ___ oder 85? Also ist ___ günstiger.",
-      "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich erst ab 11 Besuchen (10 · 8 = 80 < 85? Nein! 85 : 8 = 10,6 — ab dem 11. Besuch würde sie sich lohnen)."
+      "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich hier nicht: 85 Euro für 10 Besuche = 8,50 Euro pro Besuch, aber ein Einzelticket kostet nur 8 Euro."
     ],
     "didaktischerHinweis": "Preisvergleich ist eine alltagsnahe Anwendung von Multiplikation. Entspricht S. 112, Aufg. 1.",
     "parsed": {

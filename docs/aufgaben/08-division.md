@@ -18,7 +18,8 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
+merkkasten_typ: regel
+merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl."
 ---
 
 ### Aufgabenstellung
@@ -61,7 +62,8 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
+merkkasten_typ: regel
+merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl."
 ---
 
 ### Aufgabenstellung
@@ -107,7 +109,8 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
+merkkasten_typ: regel
+merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl."
 ---
 
 ### Aufgabenstellung
@@ -159,7 +162,8 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
+merkkasten_typ: regel
+merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl."
 ---
 
 ### Aufgabenstellung
@@ -202,7 +206,8 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
+merkkasten_typ: regel
+merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl."
 ---
 
 ### Aufgabenstellung
@@ -249,8 +254,8 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
-tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
+merkkasten_typ: regel
+merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -296,8 +301,8 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
-tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
+merkkasten_typ: regel
+merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -345,8 +350,8 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
-tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
+merkkasten_typ: regel
+merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -394,8 +399,8 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
-tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
+merkkasten_typ: regel
+merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -434,7 +439,7 @@ Der Alltagsbezug "Gruppen bilden" macht Teiler greifbar. Kinder erkennen: Teiler
 ## Aufgabe 10
 
 ---
-titel: "Ferienlagser-Rätsel — Teiler durch Ausschluss finden"
+titel: "Ferienlager-Rätsel — Teiler durch Ausschluss finden"
 typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: orange
@@ -442,8 +447,8 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
-tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
+merkkasten_typ: regel
+merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -488,7 +493,8 @@ buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -535,7 +541,8 @@ buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -582,7 +589,8 @@ buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -629,7 +637,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -675,7 +684,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -721,7 +731,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
@@ -766,7 +777,8 @@ buchseite: 82
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -813,7 +825,8 @@ buchseite: 82
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -861,7 +874,8 @@ buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -909,7 +923,8 @@ buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -954,7 +969,8 @@ buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
@@ -999,9 +1015,8 @@ buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1051,9 +1066,8 @@ buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1098,9 +1112,8 @@ buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1143,9 +1156,8 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1192,9 +1204,8 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1240,27 +1251,35 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
-Welche Zahlen lassen sich durch 3 teilen, welche durch 9, welche durch beide? Notiere in einer Tabelle.
+Ordne jede Zahl der passenden Teilbarkeit zu.
 
-534, 873, 748, 456, 990, 888, 223, 891
+a) 534
+b) 873
+c) 748
+d) 456
+e) 990
+f) 888
+g) 223
+h) 891
+
+A) durch 3 und durch 9 teilbar
+B) nur durch 3 teilbar
+C) weder durch 3 noch durch 9 teilbar
 
 ### Lösung
-| Zahl | Quersumme | :3 | :9 |
-|------|-----------|----|----|
-| 534 | 12 | ✓ | ✗ |
-| 873 | 18 | ✓ | ✓ |
-| 748 | 19 | ✗ | ✗ |
-| 456 | 15 | ✓ | ✗ |
-| 990 | 18 | ✓ | ✓ |
-| 888 | 24 | ✓ | ✗ |
-| 223 | 7 | ✗ | ✗ |
-| 891 | 18 | ✓ | ✓ |
+a) → B
+b) → A
+c) → C
+d) → B
+e) → A
+f) → B
+g) → C
+h) → A
 
 ### Lösungsweg
 Merkregel: Durch 3 teilbar, wenn Quersumme durch 3 teilbar. Durch 9 teilbar, wenn Quersumme durch 9 teilbar.
@@ -1291,9 +1310,8 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
-tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
-tipp_3_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp"
+merkkasten_typ: regel
+merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1344,7 +1362,8 @@ buchseite: 86
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
@@ -1399,7 +1418,8 @@ buchseite: 86
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
@@ -1454,7 +1474,8 @@ buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
@@ -1514,7 +1535,8 @@ buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
@@ -1569,7 +1591,8 @@ buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
@@ -1616,7 +1639,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1669,7 +1693,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1731,7 +1756,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1779,7 +1805,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1823,7 +1850,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1887,7 +1915,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -1936,7 +1965,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
@@ -2003,7 +2033,8 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2049,7 +2080,8 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2095,7 +2127,8 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2138,7 +2171,8 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2185,7 +2219,8 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2226,7 +2261,8 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2273,7 +2309,8 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2313,7 +2350,8 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung
@@ -2356,7 +2394,8 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Rate, der Ratenkauf, der Sofortkauf"
 ---
 
 ### Aufgabenstellung

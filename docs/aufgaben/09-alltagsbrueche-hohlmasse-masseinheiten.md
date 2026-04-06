@@ -313,7 +313,7 @@ tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
-Welcher Bruch ist größer? Setze das richtige Zeichen ein: < oder >
+Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =
 
 a) 1/2 ___ 1/4
 b) 3/4 ___ 1/2
@@ -354,7 +354,7 @@ Das Vergleichen von Brüchen ist eine Vertiefungsaufgabe, die das Verständnis f
 
 ---
 titel: "Alltagsbrüche — Brüche im Alltag erkennen"
-typ: auswahl
+typ: zuordnung
 thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 92
@@ -369,20 +369,22 @@ tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ### Aufgabenstellung
 Ordne die Alltagsbeispiele dem richtigen Bruch zu.
 
-a) Eine halbe Stunde → ___
-b) Eine Viertelstunde → ___
-c) Ein halber Liter → ___
-d) Eine viertel Pizza → ___
-e) Ein Achtel vom Kuchen → ___
+a) Eine halbe Stunde
+b) Eine Viertelstunde
+c) Ein halber Liter
+d) Eine viertel Pizza
+e) Ein Achtel vom Kuchen
 
-Auswahl: 1/2 | 1/4 | 1/8
+A) 1/2
+B) 1/4
+C) 1/8
 
 ### Lösung
-a) 1/2
-b) 1/4
-c) 1/2
-d) 1/4
-e) 1/8
+a) → A
+b) → B
+c) → A
+d) → B
+e) → C
 
 ### Lösungsweg
 - "halb" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.
@@ -417,7 +419,8 @@ buchseite: 94
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
@@ -473,27 +476,29 @@ buchseite: 94
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
 Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.
 
-| Milliliter | Bruchteil |
-|------------|-----------|
-| 500 ml | ? |
-| 250 ml | ? |
-| 125 ml | ? |
-| 750 ml | ? |
+a) 500 ml
+b) 250 ml
+c) 125 ml
+d) 750 ml
 
-Auswahl: 1/2 l | 1/4 l | 1/8 l | 3/4 l
+A) 1/4 l
+B) 3/4 l
+C) 1/2 l
+D) 1/8 l
 
 ### Lösung
-- 500 ml → 1/2 l
-- 250 ml → 1/4 l
-- 125 ml → 1/8 l
-- 750 ml → 3/4 l
+a) → C
+b) → A
+c) → D
+d) → B
 
 ### Lösungsweg
 - 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l
@@ -527,7 +532,8 @@ buchseite: 94
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
@@ -581,7 +587,8 @@ buchseite: 95
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
@@ -638,7 +645,8 @@ buchseite: 95
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
@@ -692,31 +700,35 @@ buchseite: 95
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
 Ordne die Gefäße der passenden Menge zu.
 
-| Gefäß | Fassungsvermögen |
-|-------|----------------|
-| Teetasse | ? |
-| Milchtüte | ? |
-| Teelöffel | ? |
-| Eimer | ? |
-| Trinkflasche | ? |
-| Badewanne | ? |
+a) Teetasse
+b) Milchtüte
+c) Teelöffel
+d) Eimer
+e) Trinkflasche
+f) Badewanne
 
-Auswahl: 5 ml | 150 ml | 500 ml | 1 l | 10 l | 150 l
+A) 10 l
+B) 500 ml
+C) 1 l
+D) 150 l
+E) 5 ml
+F) 150 ml
 
 ### Lösung
-- Teetasse → 150 ml
-- Milchtüte → 1 l
-- Teelöffel → 5 ml
-- Eimer → 10 l
-- Trinkflasche → 500 ml
-- Badewanne → 150 l
+a) → F
+b) → C
+c) → E
+d) → A
+e) → B
+f) → D
 
 ### Lösungsweg
 Hier hilft das Schätzen aus dem Alltag:
@@ -752,7 +764,8 @@ buchseite: 94
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
@@ -802,7 +815,8 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -861,7 +875,8 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -903,7 +918,8 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -945,7 +961,8 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -996,7 +1013,8 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1042,13 +1060,21 @@ buchseite: 96
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
 Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.
 
-Duschen/Baden (45 l) | Toilette (44 l) | Wäsche (19 l) | Körperpflege (12 l) | Geschirr (10 l) | Putzen (7 l) | Kochen/Trinken (6 l) | Sonstiges (2 l)
+- Duschen/Baden: 45 l
+- Toilette: 44 l
+- Wäsche: 19 l
+- Körperpflege: 12 l
+- Geschirr: 10 l
+- Putzen: 7 l
+- Kochen/Trinken: 6 l
+- Sonstiges: 2 l
 
 ### Lösung
 1. Duschen/Baden (45 l)
@@ -1090,7 +1116,8 @@ buchseite: 97
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1147,7 +1174,8 @@ buchseite: 97
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1189,19 +1217,18 @@ buchseite: 97
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
 Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.
 
-| Gegenstand | Wasserfußabdruck |
-|-----------|-----------------|
-| 1 Blatt Papier | 12 l |
-| 1 T-Shirt | 4.000 l |
-| 1 Jeans | 11.000 l |
-| 1 Fahrrad | 5.000 l |
-| 1 Laptop | 20.000 l |
+- 1 Blatt Papier: 12 l
+- 1 T-Shirt: 4.000 l
+- 1 Jeans: 11.000 l
+- 1 Fahrrad: 5.000 l
+- 1 Laptop: 20.000 l
 
 ### Lösung
 1. 1 Blatt Papier (12 l)
@@ -1239,7 +1266,8 @@ buchseite: 97
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1287,13 +1315,19 @@ buchseite: 97
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
 Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.
 
-Käse (5.000 l) | Möhren (130 l) | Nudeln (1.850 l) | Äpfel (800 l) | Kartoffeln (290 l) | Hühnerfleisch (4.300 l)
+- Käse: 5.000 l
+- Möhren: 130 l
+- Nudeln: 1.850 l
+- Äpfel: 800 l
+- Kartoffeln: 290 l
+- Hühnerfleisch: 4.300 l
 
 ### Lösung
 1. Möhren (130 l)
@@ -1336,7 +1370,8 @@ buchseite: 98
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1383,7 +1418,8 @@ buchseite: 98
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1428,7 +1464,8 @@ buchseite: 98
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1473,7 +1510,8 @@ buchseite: 99
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1519,7 +1557,8 @@ buchseite: 99
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1562,7 +1601,8 @@ buchseite: 99
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1611,7 +1651,8 @@ buchseite: 99
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1662,7 +1703,8 @@ buchseite: 100
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1719,7 +1761,8 @@ buchseite: 100
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1770,7 +1813,8 @@ buchseite: 100
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1826,28 +1870,31 @@ buchseite: 101
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
 Ordne die Gewichte den Gegenständen zu.
 
-| Gegenstand | Gewicht |
-|-----------|---------|
-| Reißzwecke | ? |
-| Schokoladentafel | ? |
-| Butter | ? |
-| Packung Spaghetti | ? |
-| Packung Zucker | ? |
+a) Reißzwecke
+b) Schokoladentafel
+c) Butter
+d) Packung Spaghetti
+e) Packung Zucker
 
-Auswahl: 1 g | 100 g | 250 g | 500 g | 1 kg
+A) 250 g
+B) 1 kg
+C) 500 g
+D) 1 g
+E) 100 g
 
 ### Lösung
-- Reißzwecke → 1 g
-- Schokoladentafel → 100 g
-- Butter → 250 g
-- Packung Spaghetti → 500 g
-- Packung Zucker → 1 kg
+a) → D
+b) → E
+c) → A
+d) → C
+e) → B
 
 ### Lösungsweg
 - Eine Reißzwecke ist winzig und leicht → 1 g.
@@ -1882,7 +1929,8 @@ buchseite: 101
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -1954,28 +2002,31 @@ buchseite: 101
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
 Ordne den Gefäßen den passenden Rauminhalt zu.
 
-| Gefäß | Rauminhalt |
-|-------|-----------|
-| Wasserflasche | ? |
-| Eimer | ? |
-| Milchtüte | ? |
-| Trinkflasche (Sport) | ? |
-| Teelöffel | ? |
+a) Wasserflasche
+b) Eimer
+c) Milchtüte
+d) Trinkflasche (Sport)
+e) Teelöffel
 
-Auswahl: 5 ml | 0,5 l | 1 l | 1,5 l | 10 l
+A) 1 l
+B) 5 ml
+C) 10 l
+D) 0,5 l
+E) 1,5 l
 
 ### Lösung
-- Wasserflasche → 1,5 l
-- Eimer → 10 l
-- Milchtüte → 1 l
-- Trinkflasche → 0,5 l
-- Teelöffel → 5 ml
+a) → E
+b) → C
+c) → A
+d) → D
+e) → B
 
 ### Lösungsweg
 - Ein Teelöffel fasst nur ca. 5 ml — ganz wenig.
@@ -2010,7 +2061,8 @@ buchseite: 101
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Liter (l), der Milliliter (ml)"
 ---
 
 ### Aufgabenstellung
@@ -2067,7 +2119,8 @@ buchseite: 102
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2117,7 +2170,8 @@ buchseite: 102
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2167,7 +2221,8 @@ buchseite: 102
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2211,7 +2266,8 @@ buchseite: 102
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2254,7 +2310,8 @@ buchseite: 103
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2294,7 +2351,8 @@ buchseite: 103
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2339,7 +2397,8 @@ buchseite: 103
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung
@@ -2387,7 +2446,8 @@ buchseite: 103
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: platzhalter
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
 ---
 
 ### Aufgabenstellung

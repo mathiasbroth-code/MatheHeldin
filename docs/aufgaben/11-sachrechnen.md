@@ -43,7 +43,7 @@ Vergleiche die Gesamtkosten:
 - 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)
 - 64 Euro < 85 Euro, also sind Einzeltickets günstiger.
 
-Die 10er-Karte lohnt sich erst ab 11 Besuchen (10 · 8 = 80 < 85? Nein! 85 : 8 = 10,6 — ab dem 11. Besuch würde sie sich lohnen).
+Die 10er-Karte lohnt sich hier nicht: 85 Euro für 10 Besuche = 8,50 Euro pro Besuch, aber ein Einzelticket kostet nur 8 Euro.
 
 ### Tipp 1 (Denkanstoß)
 Rechne aus: Wie viel kosten 8 einzelne Tickets? Und wie viel kostet eine 10er-Karte? Vergleiche die Beträge.
@@ -1209,7 +1209,7 @@ Die Tabelle macht den linearen Zusammenhang sichtbar und führt an systematische
 
 ---
 titel: "Rechenkette hilft — Einkauf auf dem Schulfest"
-typ: schritt
+typ: textaufgabe
 thema: "Lösungshilfen anwenden"
 schwierigkeit: gelb
 buchseite: 114
