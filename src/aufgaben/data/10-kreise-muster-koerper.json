@@ -248,7 +248,7 @@
   },
   {
     "titel": "Jettes Kreismuster analysieren — Kreise zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Kreise zeichnen",
     "schwierigkeit": "orange",
     "buchseite": 105,
@@ -266,8 +266,9 @@
     ],
     "didaktischerHinweis": "Das Analysieren eines fertigen Musters fördert die visuelle Wahrnehmung und das Verständnis für geometrische Strukturen. Entspricht S. 105, Aufg. 7.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:",
+      "kontext": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:",
       "items": [
         {
           "label": "a",
@@ -421,7 +422,7 @@
   },
   {
     "titel": "Spiegelachsen in der Parkettierung finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Parkettierungen",
     "schwierigkeit": "grün",
     "buchseite": 106,
@@ -439,8 +440,9 @@
     ],
     "didaktischerHinweis": "Das Erkennen von Spiegelachsen in Parkettierungen vertieft das Symmetrieverständnis. Entspricht S. 106, Aufg. 1.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.",
+      "kontext": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.",
       "items": [
         {
           "label": "a",
@@ -457,7 +459,7 @@
   },
   {
     "titel": "Parkettierung fortsetzen — Muster ergänzen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Parkettierungen",
     "schwierigkeit": "grün",
     "buchseite": 106,
@@ -475,12 +477,13 @@
     ],
     "didaktischerHinweis": "Das Fortsetzen von Parkettierungen ubt systematisches Arbeiten und räumliches Denken. Entspricht S. 106, Aufg. 2-4.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"",
+      "kontext": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"",
       "items": [
         {
           "label": "1",
-          "frage": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"\n\n**Digitale Alternative:** Multiple-Choice: \"Welches der vier Bilder zeigt die richtige Fortsetzung der Parkettierung?\"",
+          "frage": "**Digitale Alternative:** Multiple-Choice: \"Welches der vier Bilder zeigt die richtige Fortsetzung der Parkettierung?\"",
           "antwort": "Die Grundfigur wird an der senkrechten Achse gespiegelt (nach rechts). Dann wird das entstandene Doppelbild an der waagerechten Achse gespiegelt (nach unten). So entsteht ein 2×2-Block, der sich lückenlos in alle Richtungen fortsetzen lässt."
         }
       ]
@@ -856,7 +859,7 @@
   },
   {
     "titel": "Schachtel bauen — Wie viele Laschen brauchst du?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Körpernetze",
     "schwierigkeit": "orange",
     "buchseite": 109,
@@ -874,8 +877,9 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Körpernetzverständnis mit Zählen und Rechnen. Entspricht S. 109, Aufg. 6.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du möchtest aus einem Quadernetz eine Schachtel basteln. Dafür brauchst du Klebelaschen an einigen Kanten.",
+      "kontext": "Du möchtest aus einem Quadernetz eine Schachtel basteln. Dafür brauchst du Klebelaschen an einigen Kanten.",
       "items": [
         {
           "label": "a",
@@ -938,7 +942,7 @@
   },
   {
     "titel": "Schrägbild und Bauplan — Würfelplättchen zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Schrägbilder legen und zeichnen",
     "schwierigkeit": "gelb",
     "buchseite": 110,
@@ -956,8 +960,9 @@
     ],
     "didaktischerHinweis": "Der Unterschied zwischen 3D-Gebäude und 2D-Schrägbild ist ein zentrales Verständnisproblem. Entspricht S. 110, Aufg. 3b.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
+      "kontext": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
       "items": [
         {
           "label": "a",

@@ -41,7 +41,7 @@
   },
   {
     "titel": "Wirkliche Größe berechnen — Vergrößerung",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "gelb",
     "buchseite": 116,
@@ -59,7 +59,7 @@
     ],
     "didaktischerHinweis": "Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -308,7 +308,7 @@
   },
   {
     "titel": "Himmelsrichtungen benennen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "gelb",
     "buchseite": 118,
@@ -326,8 +326,9 @@
     ],
     "didaktischerHinweis": "Grundwissen Himmelsrichtungen als Voraussetzung für Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.",
+      "kontext": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.",
       "items": [
         {
           "label": "a",
@@ -499,7 +500,7 @@
   },
   {
     "titel": "Himmelsrichtung auf dem Grundriss — Wo liegt was?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "grün",
     "buchseite": 118,
@@ -517,8 +518,9 @@
     ],
     "didaktischerHinweis": "Verknüpfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.",
+      "kontext": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.",
       "items": [
         {
           "label": "a",
@@ -649,7 +651,7 @@
   },
   {
     "titel": "Maßstab auf der Karte — Strecken berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "gelb",
     "buchseite": 120,
@@ -667,8 +669,9 @@
     ],
     "didaktischerHinweis": "Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenstein).",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.",
+      "kontext": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.",
       "items": [
         {
           "label": "a",
@@ -816,7 +819,7 @@
   },
   {
     "titel": "Planquadrate lesen — Orte auf dem Stadtplan finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "gelb",
     "buchseite": 121,
@@ -834,7 +837,7 @@
     ],
     "didaktischerHinweis": "Planquadrate als Koordinatensystem-Einführung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {

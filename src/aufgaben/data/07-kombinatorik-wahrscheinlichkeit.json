@@ -1,7 +1,7 @@
 [
   {
     "titel": "Anordnung von drei Freunden — Baumdiagramm",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -20,8 +20,9 @@
     "didaktischerHinweis": "Einstieg in die Kombinatorik über das Baumdiagramm. Drei Elemente sind ideal, weil die Anzahl (6) überschaubar bleibt und das Baumdiagramm auf ein Blatt passt. Das Prinzip \"3 × 2 × 1\" wird hier entdeckt, nicht als Formel vorgegeben.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Drei Freunde — Lena, Tom und Mia — wollen nebeneinander auf einem Foto stehen.",
+      "kontext": "Drei Freunde — Lena, Tom und Mia — wollen nebeneinander auf einem Foto stehen.",
       "items": [
         {
           "label": "a",
@@ -38,7 +39,7 @@
   },
   {
     "titel": "Fotos zu zweit — Kombination vs. Reihenfolge",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -57,12 +58,13 @@
     "didaktischerHinweis": "Hier geht es um Kombinationen (ohne Reihenfolge), im Gegensatz zu Aufgabe 1 (Permutationen). Der Unterschied muss nicht begrifflich benannt werden, aber das Kind soll erkennen: \"Ali+Jana ist das Gleiche wie Jana+Ali.\" Die Tabelle ist ein starkes visuelles Hilfsmittel gegen Doppelzählungen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Immer zwei der vier Freunde — Ali, Jana, Tobi und Pia — sollen zusammen auf ein Foto. Wie viele verschiedene Fotos können entstehen?",
+      "kontext": "Immer zwei der vier Freunde — Ali, Jana, Tobi und Pia — sollen zusammen auf ein Foto. Wie viele verschiedene Fotos können entstehen?",
       "items": [
         {
           "label": "1",
-          "frage": "Immer zwei der vier Freunde — Ali, Jana, Tobi und Pia — sollen zusammen auf ein Foto. Wie viele verschiedene Fotos können entstehen?\n\n(Hinweis: Ali+Jana ist das gleiche Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)",
+          "frage": "(Hinweis: Ali+Jana ist das gleiche Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)",
           "antwort": "6 verschiedene Fotos."
         }
       ]
@@ -107,7 +109,7 @@
   },
   {
     "titel": "Vierstelliger Code — Erste Ziffer bekannt",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 73,
@@ -126,12 +128,13 @@
     "didaktischerHinweis": "Eine fixierte erste Stelle reduziert das Problem auf 3 × 2 × 1. Kinder erkennen: Weniger freie Stellen → weniger Möglichkeiten. Das ist ein wichtiger Baustein für das kombinatorische Denken.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).",
+      "kontext": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).",
       "items": [
         {
           "label": "1",
-          "frage": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).\n\nWie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
+          "frage": "Wie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
           "antwort": "6 Möglichkeiten:"
         }
       ]
@@ -139,7 +142,7 @@
   },
   {
     "titel": "Fussballturnier — Spiele in einer Gruppe zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 73,
@@ -158,8 +161,9 @@
     "didaktischerHinweis": "Identische Struktur wie Aufgabe 2 (Fotos zu zweit), aber im Fussball-Kontext. Kinder erkennen hoffentlich das Muster: 3 + 2 + 1 = 6 kommt wieder! Der Sportkontext ist besonders motivierend für viele Kinder.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bei einem Fussballturnier gibt es eine Gruppe mit 4 Mannschaften: A, B, C, D. Jede Mannschaft spielt einmal gegen jede andere.",
+      "kontext": "Bei einem Fussballturnier gibt es eine Gruppe mit 4 Mannschaften: A, B, C, D. Jede Mannschaft spielt einmal gegen jede andere.",
       "items": [
         {
           "label": "a",
@@ -224,7 +228,7 @@
   },
   {
     "titel": "Vierstellige Zahlen aus Ziffernkarten bilden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "orange",
     "buchseite": 73,
@@ -243,8 +247,9 @@
     "didaktischerHinweis": "Erweiterung auf 4 Elemente. Das Baumdiagramm wäre mit 24 Enden sehr groß — hier lernen Kinder, mit der Multiplikationsregel zu rechnen statt alle aufzuzählen. Teil b) fördert das Stellenwertverständnis: Die größte Ziffer an der höchsten Stelle ergibt die größte Zahl.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du hast die Ziffernkarten 2, 4, 6 und 8. Jede Karte darf nur einmal verwendet werden.",
+      "kontext": "Du hast die Ziffernkarten 2, 4, 6 und 8. Jede Karte darf nur einmal verwendet werden.",
       "items": [
         {
           "label": "a",
@@ -261,7 +266,7 @@
   },
   {
     "titel": "Eissorten kombinieren — Baumdiagramm",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -280,12 +285,13 @@
     "didaktischerHinweis": "Einfacher Einstieg in Kombinationen über einen motivierenden Alltagskontext. Nur 3 Elemente, nur Paare — das ist überschaubar. Die Tabelle als visuelles Hilfsmittel verhindert Doppelzählungen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "In der Eisdiele gibt es 3 Sorten Eis: Vanille (V), Schoko (S) und Erdbeere (E). Du darfst 2 verschiedene Kugeln wählen.",
+      "kontext": "In der Eisdiele gibt es 3 Sorten Eis: Vanille (V), Schoko (S) und Erdbeere (E). Du darfst 2 verschiedene Kugeln wählen.",
       "items": [
         {
           "label": "1",
-          "frage": "In der Eisdiele gibt es 3 Sorten Eis: Vanille (V), Schoko (S) und Erdbeere (E). Du darfst 2 verschiedene Kugeln wählen.\n\nWie viele verschiedene Kombinationen gibt es?\n(Hinweis: Vanille+Schoko ist dasselbe wie Schoko+Vanille.)",
+          "frage": "Wie viele verschiedene Kombinationen gibt es?\n(Hinweis: Vanille+Schoko ist dasselbe wie Schoko+Vanille.)",
           "antwort": "3 Kombinationen: V+S, V+E, S+E"
         }
       ]
@@ -335,7 +341,7 @@
   },
   {
     "titel": "Möglichkeiten für Augensummen zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Alles Zufall?",
     "schwierigkeit": "grün",
     "buchseite": 74,
@@ -354,12 +360,13 @@
     "didaktischerHinweis": "Die systematische Tabelle aller 36 Kombinationen ist das zentrale Werkzeug. Kinder entdecken das Muster: Die 7 hat die meisten Möglichkeiten (6), die 2 und 12 die wenigsten (je 1). Das erklärt, warum manche Summen häufiger gewürfelt werden als andere — ein Aha-Erlebnis!",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:",
+      "kontext": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:",
       "items": [
         {
           "label": "1",
-          "frage": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:\n\n| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
+          "frage": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
           "antwort": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |"
         }
       ]
@@ -669,7 +676,7 @@
   },
   {
     "titel": "Buchstaben in einem Satz zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -688,12 +695,13 @@
     "didaktischerHinweis": "Strichlisten sind das einfachste Werkzeug der Datenerhebung. Die Aufgabe trainiert Konzentration und Systematik. Typische Fehlerquelle: Buchstaben übersehen oder doppelt zählen. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**",
+      "kontext": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**",
       "items": [
         {
           "label": "1",
-          "frage": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**\n\nTrage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
+          "frage": "Trage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
           "antwort": "| Buchstabe | Strichliste | Anzahl |"
         }
       ]
@@ -701,7 +709,7 @@
   },
   {
     "titel": "Buchstaben in einem kurzen Text zählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 76,
@@ -720,12 +728,13 @@
     "didaktischerHinweis": "Längerer Text = mehr Daten = zuverlässigeres Ergebnis. Kinder entdecken: Das E ist tatsächlich der häufigste Buchstabe! Das bestätigt die Vermutung aus Aufgabe 17. Der Übergang von Strichliste zur Rangfolge ist ein wichtiger Schritt in der Datenauswertung.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.",
+      "kontext": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.",
       "items": [
         {
           "label": "1",
-          "frage": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
+          "frage": "**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
           "antwort": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):"
         }
       ]
@@ -733,7 +742,7 @@
   },
   {
     "titel": "Säulendiagramm aus Buchstabenhäufigkeiten erstellen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 76,
@@ -752,8 +761,9 @@
     "didaktischerHinweis": "Säulendiagramme sind das zentrale Visualisierungswerkzeug für Häufigkeiten. Die Skalierung (1 Kästchen = 2) ist ein wichtiges Konzept: Kinder müssen teilen und ggf. mit halben Kästchen umgehen. Das Ablesen von Informationen aus dem Diagramm (b und c) trainiert die Diagrammkompetenz.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |",
+      "kontext": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |",
       "items": [
         {
           "label": "a",
@@ -872,7 +882,7 @@
   },
   {
     "titel": "Eigenen Text untersuchen — Buchstabenverteilung",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "orange",
     "buchseite": 76,
@@ -891,8 +901,9 @@
     "didaktischerHinweis": "Längerer Text mit realistischem Inhalt. Die vollständige Auszählung ist aufwändig und trainiert Ausdauer und Systematik. Das Ergebnis (E am häufigsten, seltene Buchstaben wie Q, X, Y fehlen) bestätigt die Erkenntnisse aus den vorherigen Aufgaben. Kinder sehen: Die Muster gelten für ALLE deutschen Texte.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Untersuche diesen Zeitungstext. Zähle die Buchstaben und beantworte die Fragen.\n\n**\"Die Feuerwehr rettete gestern einen Kater vom Dach. Der Kater hatte sich erschreckt und war auf den höchsten Baum geklettert.\"**",
+      "kontext": "Untersuche diesen Zeitungstext. Zähle die Buchstaben und beantworte die Fragen.\n\n**\"Die Feuerwehr rettete gestern einen Kater vom Dach. Der Kater hatte sich erschreckt und war auf den höchsten Baum geklettert.\"**",
       "items": [
         {
           "label": "a",
@@ -1118,7 +1129,7 @@
   },
   {
     "titel": "Augensummen mit drei Würfeln",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Würfelspiele — Augensummen",
     "schwierigkeit": "orange",
     "buchseite": 75,
@@ -1137,8 +1148,9 @@
     "didaktischerHinweis": "Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.",
+      "kontext": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.",
       "items": [
         {
           "label": "a",

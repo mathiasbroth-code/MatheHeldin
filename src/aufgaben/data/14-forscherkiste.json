@@ -195,7 +195,7 @@
   },
   {
     "titel": "Dezimal in römisch umwandeln",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Römische Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 125,
@@ -213,8 +213,9 @@
     ],
     "didaktischerHinweis": "Umwandlung Dezimal → Römisch. Entspricht S. 125, Aufg. 10, 12, 15.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Schreibe als römische Zahl.",
+      "kontext": "Schreibe als römische Zahl.",
       "items": [
         {
           "label": "a",
@@ -354,7 +355,7 @@
   },
   {
     "titel": "Große Zahlen als römische Zahl schreiben",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Römische Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 125,
@@ -372,8 +373,9 @@
     ],
     "didaktischerHinweis": "Fortgeschrittene Umwandlung mit Subtraktionsregel. Entspricht S. 125, Aufg. 15.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Schreibe als römische Zahl.",
+      "kontext": "Schreibe als römische Zahl.",
       "items": [
         {
           "label": "a",
@@ -592,7 +594,7 @@
   },
   {
     "titel": "Binärcode knacken — Wörter entschlüsseln",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Binärsystem",
     "schwierigkeit": "orange",
     "buchseite": 127,
@@ -610,12 +612,13 @@
     ],
     "didaktischerHinweis": "Verknüpfung Binärsystem mit ASCII-Codierung. Entspricht S. 127, Aufg. 8.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101",
+      "kontext": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101",
       "items": [
         {
           "label": "1",
-          "frage": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101\n\nTipp: Rechne jeden Block zuerst in eine Dezimalzahl um, dann finde den Buchstaben.",
+          "frage": "Tipp: Rechne jeden Block zuerst in eine Dezimalzahl um, dann finde den Buchstaben.",
           "antwort": "MATHE"
         }
       ]
@@ -830,7 +833,7 @@
   },
   {
     "titel": "Speicherplatz berechnen — Fotos und Texte",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Datenmengen",
     "schwierigkeit": "grün",
     "buchseite": 129,
@@ -848,8 +851,9 @@
     ],
     "didaktischerHinweis": "Sachrechnen mit Datenmengen und Alltagsbezug. Entspricht S. 129, Aufg. 9.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Foto braucht etwa 2 MB Speicherplatz. Eine Textseite braucht etwa 20 KB.",
+      "kontext": "Ein Foto braucht etwa 2 MB Speicherplatz. Eine Textseite braucht etwa 20 KB.",
       "items": [
         {
           "label": "a",
@@ -871,7 +875,7 @@
   },
   {
     "titel": "Wie viel B hat 1 MB? — Einheiten umrechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Datenmengen",
     "schwierigkeit": "orange",
     "buchseite": 128,
@@ -889,7 +893,7 @@
     ],
     "didaktischerHinweis": "Große Multiplikation als Anwendung. Entspricht S. 128, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -972,7 +976,7 @@
   },
   {
     "titel": "Der Gauss-Trick — Summe von 1 bis 10",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechenkünstler",
     "schwierigkeit": "gelb",
     "buchseite": 130,
@@ -990,8 +994,9 @@
     ],
     "didaktischerHinweis": "Einführung des Gauss-Tricks an kleinem Zahlenbereich. Entspricht S. 130, Aufg. 1-2.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Carl Friedrich Gauss hat einen schlauen Trick entdeckt, um Zahlen schnell zu addieren. Er hat Zahlenpaare gebildet, die immer die gleiche Summe ergeben.\n\nBilde Paare aus den Zahlen von 1 bis 10, die jeweils 11 ergeben.",
+      "kontext": "Carl Friedrich Gauss hat einen schlauen Trick entdeckt, um Zahlen schnell zu addieren. Er hat Zahlenpaare gebildet, die immer die gleiche Summe ergeben.\n\nBilde Paare aus den Zahlen von 1 bis 10, die jeweils 11 ergeben.",
       "items": [
         {
           "label": "a",
@@ -1187,7 +1192,7 @@
   },
   {
     "titel": "Nelsons Taschengeld — nach 15 Tagen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechenkünstler",
     "schwierigkeit": "grün",
     "buchseite": 131,
@@ -1205,8 +1210,9 @@
     ],
     "didaktischerHinweis": "Exponentielles Wachstum weiterführen. Entspricht S. 131, Aufg. 6-7.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Nelson verdoppelt jeden Tag sein Taschengeld (Tag 1: 1 ct, Tag 2: 2 ct, ...).",
+      "kontext": "Nelson verdoppelt jeden Tag sein Taschengeld (Tag 1: 1 ct, Tag 2: 2 ct, ...).",
       "items": [
         {
           "label": "a",
@@ -1373,7 +1379,7 @@
   },
   {
     "titel": "Fibonacci rückwärts — fehlende Zahlen finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Fibonacci-Folge",
     "schwierigkeit": "grün",
     "buchseite": 132,
@@ -1391,8 +1397,9 @@
     ],
     "didaktischerHinweis": "Rückwärtsdenken in der Fibonacci-Folge. Entspricht S. 132, Aufg. 3.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ergänze die fehlenden Zahlen. Die Folge folgt der Fibonacci-Regel.",
+      "kontext": "Ergänze die fehlenden Zahlen. Die Folge folgt der Fibonacci-Regel.",
       "items": [
         {
           "label": "a",
@@ -1414,7 +1421,7 @@
   },
   {
     "titel": "Fibonacci mit Zielzahl — Startzahlen finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Fibonacci-Folge",
     "schwierigkeit": "grün",
     "buchseite": 133,
@@ -1432,12 +1439,13 @@
     ],
     "didaktischerHinweis": "Kreatives Rückwärtsarbeiten. Entspricht S. 133, Aufg. 5.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).",
+      "kontext": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).",
       "items": [
         {
           "label": "1",
-          "frage": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).\n\nFinde mindestens 2 verschiedene Folgen.",
+          "frage": "Finde mindestens 2 verschiedene Folgen.",
           "antwort": "Beispiele:"
         }
       ]
@@ -1445,7 +1453,7 @@
   },
   {
     "titel": "Fibonacci-Muster — Was passiert, wenn sich Startzahlen ändern?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Fibonacci-Folge",
     "schwierigkeit": "grün",
     "buchseite": 133,
@@ -1463,8 +1471,9 @@
     ],
     "didaktischerHinweis": "Muster in Fibonacci-Folgen entdecken. Entspricht S. 133, Aufg. 7.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.",
+      "kontext": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.",
       "items": [
         {
           "label": "a",
@@ -1491,7 +1500,7 @@
   },
   {
     "titel": "Fibonacci rückwärts berechnen — schwierige Lücken",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Fibonacci-Folge",
     "schwierigkeit": "orange",
     "buchseite": 132,
@@ -1509,8 +1518,9 @@
     ],
     "didaktischerHinweis": "Anspruchsvolles Rückwärtsrechnen. Entspricht S. 132, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ergänze die fehlenden Zahlen in den Fibonacci-Folgen.",
+      "kontext": "Ergänze die fehlenden Zahlen in den Fibonacci-Folgen.",
       "items": [
         {
           "label": "a",
@@ -1527,7 +1537,7 @@
   },
   {
     "titel": "Fibonacci — Zweite Startzahl ändern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Fibonacci-Folge",
     "schwierigkeit": "orange",
     "buchseite": 133,
@@ -1545,8 +1555,9 @@
     ],
     "didaktischerHinweis": "Systematisches Vergleichen und Muster finden. Entspricht S. 133, Aufg. 9-10.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Die erste Zahl bleibt gleich (8), die zweite Zahl wird immer um 1 größer. Berechne die 5. Zahl.",
+      "kontext": "Die erste Zahl bleibt gleich (8), die zweite Zahl wird immer um 1 größer. Berechne die 5. Zahl.",
       "items": [
         {
           "label": "a",
@@ -1604,7 +1615,7 @@
   },
   {
     "titel": "Zahlenfolgen fortsetzen — Muster erkennen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenforscher",
     "schwierigkeit": "gelb",
     "buchseite": 136,
@@ -1622,8 +1633,9 @@
     ],
     "didaktischerHinweis": "Einführung in Zahlenmuster. Entspricht S. 136, Aufg. 1.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Mathematiker erforschen Zahlen. Setze diese besonderen Zahlenfolgen fort.",
+      "kontext": "Mathematiker erforschen Zahlen. Setze diese besonderen Zahlenfolgen fort.",
       "items": [
         {
           "label": "a",
@@ -1645,7 +1657,7 @@
   },
   {
     "titel": "Arme und reiche Zahlen — Teilersumme berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenforscher",
     "schwierigkeit": "grün",
     "buchseite": 136,
@@ -1663,12 +1675,13 @@
     ],
     "didaktischerHinweis": "Entdeckung reicher/armer Zahlen. Entspricht S. 136, Aufg. 2.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.",
+      "kontext": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.",
       "items": [
         {
           "label": "1",
-          "frage": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.\n\nUntersuche: Ist die Zahl 18 arm oder reich?",
+          "frage": "Untersuche: Ist die Zahl 18 arm oder reich?",
           "antwort": "18 ist reich."
         }
       ]
@@ -1716,7 +1729,7 @@
   },
   {
     "titel": "Vollkommene Zahlen — Eine besondere Entdeckung",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenforscher",
     "schwierigkeit": "orange",
     "buchseite": 137,
@@ -1734,12 +1747,13 @@
     ],
     "didaktischerHinweis": "Vollkommene Zahlen als mathematische Besonderheit. Entspricht S. 137, Aufg. 5.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.",
+      "kontext": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.",
       "items": [
         {
           "label": "1",
-          "frage": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.\n\nFinde sie! Tipp: Prüfe die Zahlen 6 und 28.",
+          "frage": "Finde sie! Tipp: Prüfe die Zahlen 6 und 28.",
           "antwort": "6 und 28"
         }
       ]
@@ -1878,7 +1892,7 @@
   },
   {
     "titel": "Das pascalsche Dreieck verstehen — Additionsregel",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Das pascalsche Dreieck",
     "schwierigkeit": "gelb",
     "buchseite": 138,
@@ -1896,12 +1910,13 @@
     ],
     "didaktischerHinweis": "Grundregel des pascalschen Dreiecks. Entspricht S. 138, Aufg. 1-2.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.",
+      "kontext": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.",
       "items": [
         {
           "label": "1",
-          "frage": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.\n\n```\n        1\n       1  1\n      1  2  1\n     1  3  3  1\n    1  4  ___  4  1\n   1  ___  10  ___  5  1\n```",
+          "frage": "```\n        1\n       1  1\n      1  2  1\n     1  3  3  1\n    1  4  ___  4  1\n   1  ___  10  ___  5  1\n```",
           "antwort": "Reihe 5: 1, 4, **6**, 4, 1"
         }
       ]
@@ -1950,7 +1965,7 @@
   },
   {
     "titel": "Reihensummen im pascalschen Dreieck",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Das pascalsche Dreieck",
     "schwierigkeit": "grün",
     "buchseite": 139,
@@ -1968,12 +1983,13 @@
     ],
     "didaktischerHinweis": "Muster in Reihensummen entdecken — Verbindung zum Binärsystem! Entspricht S. 139, Aufg. 5.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___",
+      "kontext": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___",
       "items": [
         {
           "label": "1",
-          "frage": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___\n\nWas fällt dir bei den Summen auf?",
+          "frage": "Was fällt dir bei den Summen auf?",
           "antwort": "Reihe 1: 1"
         }
       ]
@@ -2031,7 +2047,7 @@
   },
   {
     "titel": "Vielfache im pascalschen Dreieck markieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Das pascalsche Dreieck",
     "schwierigkeit": "orange",
     "buchseite": 139,
@@ -2049,8 +2065,9 @@
     ],
     "didaktischerHinweis": "Verbindung Teilbarkeit und pascalsches Dreieck. Entspricht S. 139, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1",
+      "kontext": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1",
       "items": [
         {
           "label": "a",
@@ -2072,7 +2089,7 @@
   },
   {
     "titel": "Dreieckszahlen entdecken",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Das pascalsche Dreieck",
     "schwierigkeit": "orange",
     "buchseite": 139,
@@ -2090,8 +2107,9 @@
     ],
     "didaktischerHinweis": "Dreieckszahlen als besondere Zahlenfolge im pascalschen Dreieck. Entspricht S. 139, Lernaufgabe.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...",
+      "kontext": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...",
       "items": [
         {
           "label": "a",

@@ -83,7 +83,7 @@
   },
   {
     "titel": "Blöcke in Stellenwerttafel eintragen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Der Millionen-Würfel",
     "schwierigkeit": "gelb",
     "buchseite": 19,
@@ -108,8 +108,9 @@
     "didaktischerHinweis": "Die Parallelität zwischen a) und b) ist zentral: 352 und 352.000 haben dieselbe Ziffernfolge, aber die Stellenwerte sind um den Faktor 1.000 verschoben. Dies verdeutlicht das Prinzip der Bündelung im Zehnersystem.",
     "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Trage die Zahlen in eine Stellenwerttafel ein.",
+      "kontext": "Trage die Zahlen in eine Stellenwerttafel ein.",
       "items": [
         {
           "label": "a",
@@ -616,7 +617,7 @@
   },
   {
     "titel": "Zahlenrätsel — Welche Zahlen können es sein?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen zerlegen",
     "schwierigkeit": "orange",
     "buchseite": 21,
@@ -635,8 +636,9 @@
     "didaktischerHinweis": "Zahlenrätsel fördern logisches Denken und das flexible Arbeiten mit Stellenwerten. Das systematische Probieren aller Möglichkeiten (und das Begründen, warum manche nicht funktionieren) ist eine wichtige mathematische Kompetenz.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Welche Zahlen können es sein?",
+      "kontext": "Welche Zahlen können es sein?",
       "items": [
         {
           "label": "a",
@@ -653,7 +655,7 @@
   },
   {
     "titel": "Zahl aus Zahlwort und Stellenwerten zusammensetzen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen zerlegen",
     "schwierigkeit": "grün",
     "buchseite": 21,
@@ -672,8 +674,9 @@
     "didaktischerHinweis": "Das Zusammensetzen aus Tausender-Teil und Rest-Teil spiegelt die Struktur deutscher Zahlwörter wider. Die Aufgabe verbindet Sprache (Zahlwort) mit der Schreibweise (Ziffern) und der Stellenwerttafel.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Lege mit den Zahlenkarten, notiere und lies die Zahl.",
+      "kontext": "Lege mit den Zahlenkarten, notiere und lies die Zahl.",
       "items": [
         {
           "label": "a",
@@ -903,7 +906,7 @@
   },
   {
     "titel": "Zahlenrätsel — Zahl mit Bedingungen finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen vergleichen und verändern",
     "schwierigkeit": "orange",
     "buchseite": 23,
@@ -922,8 +925,9 @@
     "didaktischerHinweis": "Diese Zahlenrätsel verknüpfen das Stellenwertverständnis mit logischem Denken. Das systematische Einsetzen von Bedingungen ist eine Vorstufe algebraischen Denkens. Die \"Plättchenzahl\" als Quersumme zu erkennen ist eine wichtige Einsicht.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie heißt die Zahl?",
+      "kontext": "Wie heißt die Zahl?",
       "items": [
         {
           "label": "a",
@@ -940,7 +944,7 @@
   },
   {
     "titel": "Vier Plättchen in der Stellenwerttafel — größte und kleinste Zahl",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen vergleichen und verändern",
     "schwierigkeit": "orange",
     "buchseite": 23,
@@ -959,8 +963,9 @@
     "didaktischerHinweis": "Diese offene Aufgabe fördert das strategische Denken über Stellenwerte. Kinder erkennen, dass die Position eines Plättchens entscheidend für den Zahlenwert ist — ein Plättchen auf HT ist 100.000 wert, auf E nur 1.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Lege fünf Plättchen in eine Stellenwerttafel (M | HT | ZT | T | H | Z | E).",
+      "kontext": "Lege fünf Plättchen in eine Stellenwerttafel (M | HT | ZT | T | H | Z | E).",
       "items": [
         {
           "label": "a",
@@ -977,7 +982,7 @@
   },
   {
     "titel": "Rechenpäckchen — Welche Stelle ändert sich?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 24,
@@ -996,8 +1001,9 @@
     "didaktischerHinweis": "Rechenpäckchen mit gleichbleibender Grundzahl und wanderndem Summanden machen das Stellenwertprinzip beim Addieren sichtbar. Das Muster \"gleiche Rechnung, andere Stelle\" fördert die Einsicht in die Struktur des Zehnersystems.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne. Welche Stelle wird sich im Ergebnis ändern?",
+      "kontext": "Rechne. Welche Stelle wird sich im Ergebnis ändern?",
       "items": [
         {
           "label": "a",
@@ -1046,7 +1052,7 @@
   },
   {
     "titel": "Kopfrechnen mit Tausendern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 25,
@@ -1065,8 +1071,9 @@
     "didaktischerHinweis": "Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufgaben im kleinen Zahlenraum. Dieses \"Analogierechnen\" ist eine Schlüsselstrategie für das Kopfrechnen mit großen Zahlen.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne.",
+      "kontext": "Rechne.",
       "items": [
         {
           "label": "a",
@@ -1093,7 +1100,7 @@
   },
   {
     "titel": "Kopfrechnen — Addition und Subtraktion mit Hundertern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 25,
@@ -1112,8 +1119,9 @@
     "didaktischerHinweis": "Die Paarung \"runde Aufgabe / krumme Aufgabe\" (600 vs. 660) hilft Kindern, die schwierigere Aufgabe über die einfachere zu lösen. Das Entbündeln bei der Subtraktion ist eine wichtige Hürde.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne.",
+      "kontext": "Rechne.",
       "items": [
         {
           "label": "a",
@@ -1163,7 +1171,7 @@
   },
   {
     "titel": "Kopfrechnen — verwandte Aufgaben mit Hundertern und Tausendern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 24,
@@ -1182,45 +1190,26 @@
     "didaktischerHinweis": "Durch das bewusste Markieren der sich ändernden Stelle wird das Rechnen mit großen Zahlen auf eine einfache einstellige Addition/Subtraktion reduziert. Dies stärkt das Vertrauen beim Kopfrechnen.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Markiere: Welche Stelle wird sich im Ergebnis ändern? Rechne.",
+      "kontext": "Markiere: Welche Stelle wird sich im Ergebnis ändern? Rechne.",
       "items": [
         {
           "label": "a",
           "frage": "150.300 + 4 =",
-          "antwort": "150.304 (E ändert sich)"
-        },
-        {
-          "label": "a2",
-          "frage": "150.300 + 400 =",
-          "antwort": "150.700 (H ändert sich)"
-        },
-        {
-          "label": "a3",
-          "frage": "150.300 + 40.000 =",
-          "antwort": "190.300 (ZT ändert sich)"
+          "antwort": "150.304 (E ändert sich) / 150.700 (H ändert sich) / 190.300 (ZT ändert sich)"
         },
         {
           "label": "b",
           "frage": "724.500 − 200 =",
-          "antwort": "724.300 (H ändert sich)"
-        },
-        {
-          "label": "b2",
-          "frage": "724.500 − 2.000 =",
-          "antwort": "722.500 (T ändert sich)"
-        },
-        {
-          "label": "b3",
-          "frage": "724.500 − 200.000 =",
-          "antwort": "524.500 (HT ändert sich)"
+          "antwort": "724.300 (H ändert sich) / 722.500 (T ändert sich) / 524.500 (HT ändert sich)"
         }
       ]
     }
   },
   {
     "titel": "Kopfrechnen — gemischte Addition mit Hundertern und Tausendern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "orange",
     "buchseite": 25,
@@ -1239,8 +1228,9 @@
     "didaktischerHinweis": "Aufgaben mit Übertrag beim Kopfrechnen sind deutlich anspruchsvoller. Die Strategie \"erst rund, dann Rest\" hilft: Erst +700 (rund), dann +70 dazu. So wird die komplexe Aufgabe auf zwei einfache Schritte reduziert.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne.",
+      "kontext": "Rechne.",
       "items": [
         {
           "label": "a",
@@ -1574,7 +1564,7 @@
   },
   {
     "titel": "Zahlenstrahl — verschiedene Ausschnitte",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen am Zahlenstrahl",
     "schwierigkeit": "grün",
     "buchseite": 28,
@@ -1593,8 +1583,9 @@
     "didaktischerHinweis": "Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen trainieren die flexible Anpassung der Lesestrategie. Das Kind muss jedes Mal neu die Schrittweite bestimmen.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
+      "kontext": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
       "items": [
         {
           "label": "a",
@@ -1611,7 +1602,7 @@
   },
   {
     "titel": "Vorgänger und Nachfolger am Zahlenstrahl",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen am Zahlenstrahl",
     "schwierigkeit": "gelb",
     "buchseite": 28,
@@ -1630,8 +1621,9 @@
     "didaktischerHinweis": "Vorgänger/Nachfolger an Stellenwertgrenzen (9.999/10.000/10.001 oder 99.999/100.000) sind klassische Fehlerquellen. Das Kind muss den \"Zählerstand-Umsprung\" verstehen — wie bei einem Kilometerzähler.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
+      "kontext": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
       "items": [
         {
           "label": "a",
@@ -1805,7 +1797,7 @@
   },
   {
     "titel": "Nachbar-Tausender bestimmen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "gelb",
     "buchseite": 30,
@@ -1824,8 +1816,9 @@
     "didaktischerHinweis": "Nachbar-Tausender sind die Grundlage für das Runden auf Tausender. Das Kind soll die \"Schranken\" verstehen, zwischen denen eine Zahl liegt.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie heißen die Nachbar-Tausender?",
+      "kontext": "Wie heißen die Nachbar-Tausender?",
       "items": [
         {
           "label": "a",
@@ -1872,7 +1865,7 @@
   },
   {
     "titel": "Nachbar-Hunderter bestimmen und Abstand berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "grün",
     "buchseite": 30,
@@ -1891,8 +1884,9 @@
     "didaktischerHinweis": "Die Abstandsberechnung bereitet das Runden vor: Die Zahl wird zum näheren Nachbarn gerundet. Der Abstand zeigt, ob die Zahl näher am unteren oder oberen Nachbarn liegt.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne zu den Nachbar-Hundertern.",
+      "kontext": "Rechne zu den Nachbar-Hundertern.",
       "items": [
         {
           "label": "a",
@@ -1929,7 +1923,7 @@
   },
   {
     "titel": "Nachbar-T, Nachbar-ZT und Nachbar-HT bestimmen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "grün",
     "buchseite": 30,
@@ -1948,8 +1942,9 @@
     "didaktischerHinweis": "Die systematische Bestimmung aller drei Nachbartypen trainiert das flexible Denken in verschiedenen Stellenwertebenen. Besonders bei d) ist interessant, dass Nachbar-ZT (380.000/390.000) und Nachbar-T (389.000/390.000) den oberen Nachbarn teilen.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
+      "kontext": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
       "items": [
         {
           "label": "a",
@@ -2178,7 +2173,7 @@
   },
   {
     "titel": "Runden auf Tausender — ohne markierte Stelle",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Runden",
     "schwierigkeit": "grün",
     "buchseite": 31,
@@ -2197,8 +2192,9 @@
     "didaktischerHinweis": "Der Schritt \"zuerst die Entscheidungsstelle markieren\" ist ein wichtiger Zwischenschritt, der Fehler verhindert. Besonders bei e) muss das Kind die 5 korrekt als \"aufrunden\" interpretieren.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Runde die Zahlen auf Tausender. Markiere zuerst die Hunderterstelle.",
+      "kontext": "Runde die Zahlen auf Tausender. Markiere zuerst die Hunderterstelle.",
       "items": [
         {
           "label": "a",
@@ -2245,7 +2241,7 @@
   },
   {
     "titel": "Stadion-Zuschauerzahlen runden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Runden",
     "schwierigkeit": "grün",
     "buchseite": 31,
@@ -2264,8 +2260,9 @@
     "didaktischerHinweis": "Der Alltagskontext (Stadien) macht das Runden greifbar. Besonders c) ist lehrreich: Beim Aufrunden kann ein Übertrag entstehen (49 → 50 Tausender). Auch b) ist wichtig: Schon glatte Zahlen bleiben beim Runden unverändert.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In den Fußballstadien gibt es so viele Zuschauerplätze. Runde auf Tausender.",
+      "kontext": "In den Fußballstadien gibt es so viele Zuschauerplätze. Runde auf Tausender.",
       "items": [
         {
           "label": "a",
@@ -2355,7 +2352,7 @@
   },
   {
     "titel": "Runden auf verschiedene Stellen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Runden",
     "schwierigkeit": "orange",
     "buchseite": 31,
@@ -2374,8 +2371,9 @@
     "didaktischerHinweis": "Dieselbe Zahl auf verschiedene Stellen zu runden zeigt den Zusammenhang zwischen Rundungsstelle und Genauigkeit. Je gröber gerundet wird, desto weiter kann das Ergebnis von der Originalzahl entfernt sein.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Runde die Zahl 374.628 auf verschiedene Stellen.",
+      "kontext": "Runde die Zahl 374.628 auf verschiedene Stellen.",
       "items": [
         {
           "label": "a",
@@ -2521,7 +2519,7 @@
   },
   {
     "titel": "Verschiedene Rundungen vergleichen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "grün",
     "buchseite": 33,
@@ -2540,8 +2538,9 @@
     "didaktischerHinweis": "Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie \"Genauigkeit\" funktioniert. Im Alltag wählt man die Rundungsstufe je nach Kontext: Bei Stadionbesuchen reicht Zehntausender, bei Geldbeträgen will man Hunderter.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Runde die Zahl 486.352 auf verschiedene Stellen und vergleiche die Ergebnisse.",
+      "kontext": "Runde die Zahl 486.352 auf verschiedene Stellen und vergleiche die Ergebnisse.",
       "items": [
         {
           "label": "a",
@@ -2621,7 +2620,7 @@
   },
   {
     "titel": "Einwohnerzahlen runden und vergleichen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "gelb",
     "buchseite": 32,
@@ -2640,8 +2639,9 @@
     "didaktischerHinweis": "Einwohnerzahlen sind ein idealer Alltagskontext für das Runden: Niemand nennt die exakte Einwohnerzahl einer Stadt, man sagt \"etwa 210.000\". Das Vergleichen der gerundeten Werte zeigt, dass Erfurt und Rostock gerundet gleich groß sind.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "So viele Einwohner haben diese Städte ungefähr. Runde auf Zehntausender.",
+      "kontext": "So viele Einwohner haben diese Städte ungefähr. Runde auf Zehntausender.",
       "items": [
         {
           "label": "a",
@@ -2673,7 +2673,7 @@
   },
   {
     "titel": "Runden und am Zahlenstrahl einordnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "orange",
     "buchseite": 33,
@@ -2692,8 +2692,9 @@
     "didaktischerHinweis": "Die Kombination von Runden und Einordnen am Zahlenstrahl verbindet zwei Kompetenzen. Besonders f) ist spannend: Runden auf die Million — die Zahl \"verschwindet\" fast am oberen Rand des Zahlenraums.",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Runde die Zahlen auf Hunderttausender und ordne sie auf einem Zahlenstrahl von 0 bis 1.000.000 ein.",
+      "kontext": "Runde die Zahlen auf Hunderttausender und ordne sie auf einem Zahlenstrahl von 0 bis 1.000.000 ein.",
       "items": [
         {
           "label": "a",
@@ -2730,7 +2731,7 @@
   },
   {
     "titel": "Zahlen runden — offene Aufgabe",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "orange",
     "buchseite": 33,
@@ -2749,8 +2750,9 @@
     "didaktischerHinweis": "Offene Aufgaben zum Runden fördern das Verständnis des Rundungsintervalls. Besonders d) ist anspruchsvoll: 99.500 rundet auf 100.000 — obwohl die Originalzahl fünfstellig ist, ist das Ergebnis sechsstellig!",
     "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde eine Zahl, die ...",
+      "kontext": "Finde eine Zahl, die ...",
       "items": [
         {
           "label": "a",
@@ -2895,7 +2897,7 @@
   },
   {
     "titel": "Würfelergebnis ablesen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Hohe Hausnummer — Würfelspiel",
     "schwierigkeit": "gelb",
     "buchseite": 22,
@@ -2914,12 +2916,13 @@
     "didaktischerHinweis": "Stellenwerttafel lesen ist eine Kernkompetenz dieses Kapitels. Die 0 auf der HT-Stelle ist bewusst gewählt: Das Kind muss erkennen, dass eine führende Null die Stellenanzahl reduziert. Justus hat also \"nur\" eine fünfstellige Zahl — ungünstig beim Spiel!",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Bei \"Hohe Hausnummer\" hat Justus seine Würfelergebnisse so in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 0  | 3  | 6 | 5 | 1 | 4 |",
+      "kontext": "Bei \"Hohe Hausnummer\" hat Justus seine Würfelergebnisse so in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 0  | 3  | 6 | 5 | 1 | 4 |",
       "items": [
         {
           "label": "1",
-          "frage": "Bei \"Hohe Hausnummer\" hat Justus seine Würfelergebnisse so in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 0  | 3  | 6 | 5 | 1 | 4 |\n\nWelche Zahl hat Justus?",
+          "frage": "Welche Zahl hat Justus?",
           "antwort": "36.514"
         }
       ]
@@ -2968,7 +2971,7 @@
   },
   {
     "titel": "Fehlende Würfelzahl — größtmöglich legen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Hohe Hausnummer — Würfelspiel",
     "schwierigkeit": "grün",
     "buchseite": 23,
@@ -2987,12 +2990,13 @@
     "didaktischerHinweis": "Diese Aufgabe verbindet Spielmechanik mit Stellenwertverständnis. Das Kind muss die Ziffer einsetzen und dann die Gesamtzahl ablesen. Die Tatsache, dass nur eine Stelle frei ist, vereinfacht die Entscheidung — es geht hier primär ums korrekte Ablesen der sechsstelligen Zahl.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Du hast schon 5 Würfel in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 4  | ?  | 5 | 6 | 2 | 1 |\n\nDer letzte Wurf ist eine **3**. Die Zehntausenderstelle ist noch frei — dort musst du die 3 hinlegen.",
+      "kontext": "Du hast schon 5 Würfel in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 4  | ?  | 5 | 6 | 2 | 1 |\n\nDer letzte Wurf ist eine **3**. Die Zehntausenderstelle ist noch frei — dort musst du die 3 hinlegen.",
       "items": [
         {
           "label": "1",
-          "frage": "Du hast schon 5 Würfel in die Stellenwerttafel gelegt:\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 4  | ?  | 5 | 6 | 2 | 1 |\n\nDer letzte Wurf ist eine **3**. Die Zehntausenderstelle ist noch frei — dort musst du die 3 hinlegen.\n\nWelche Zahl ergibt sich?",
+          "frage": "Welche Zahl ergibt sich?",
           "antwort": "435.621"
         }
       ]

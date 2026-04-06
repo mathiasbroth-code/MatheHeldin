@@ -137,7 +137,7 @@
   },
   {
     "titel": "Gesamtgewicht berechnen — Leergewicht und Ladung",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tonne und Kilogramm",
     "schwierigkeit": "grün",
     "buchseite": 65,
@@ -156,12 +156,13 @@
     "didaktischerHinweis": "Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Brücken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.",
+      "kontext": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.",
       "items": [
         {
           "label": "1",
-          "frage": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.\n\n| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
+          "frage": "| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
           "antwort": "- Auto 1: 900 kg"
         }
       ]
@@ -169,7 +170,7 @@
   },
   {
     "titel": "Fehlende Gewichtsangaben berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tonne und Kilogramm",
     "schwierigkeit": "grün",
     "buchseite": 65,
@@ -188,12 +189,13 @@
     "didaktischerHinweis": "Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusätzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurückwandeln) ist eine Schlüsselmethode.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Berechne die fehlenden Gewichtsangaben.",
+      "kontext": "Berechne die fehlenden Gewichtsangaben.",
       "items": [
         {
           "label": "1",
-          "frage": "Berechne die fehlenden Gewichtsangaben.\n\n| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
+          "frage": "| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
           "antwort": "- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)"
         }
       ]
@@ -366,7 +368,7 @@
   },
   {
     "titel": "Tiervergleich — Wie viele Tiere wiegen so viel wie ...?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tierische Weltrekorde",
     "schwierigkeit": "grün",
     "buchseite": 67,
@@ -385,8 +387,9 @@
     "didaktischerHinweis": "Division im Sachkontext mit dem Konzept \"ungefähr\". Kinder lernen, dass das Ergebnis nicht immer glatt aufgeht und man sinnvoll runden muss. Die Vorstellung \"Wie viele passen hinein?\" ist ein anschaulicher Zugang zur Division.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...",
+      "kontext": "Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...",
       "items": [
         {
           "label": "a",
@@ -536,7 +539,7 @@
     "stageId": "tierische-weltrekorde",
     "digital": "voll",
     "aufgabenstellung": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.\n\nWie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
-    "loesung": "Ungefähr 3.125 Straussenküken.",
+    "loesung": "3.125",
     "loesungsweg": "1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g\n2. Straussenküken: 800 g\n3. 2.500.000 ÷ 800 = 3.125\n\nOder einfacher: 2.500 kg ÷ 0,8 kg = 3.125",
     "tipps": [
       "Wie viel wiegt das Blauwal-Baby in Kilogramm? Und das Straussenküken — wie viel Kilogramm sind 800 g?",
@@ -553,7 +556,7 @@
         {
           "label": "1",
           "frage": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.\n\nWie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
-          "antwort": "Ungefähr 3.125 Straussenküken."
+          "antwort": "3.125"
         }
       ]
     }
@@ -592,7 +595,7 @@
   },
   {
     "titel": "Entfernung aus Karte ablesen und berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Entfernungen",
     "schwierigkeit": "grün",
     "buchseite": 68,
@@ -611,8 +614,9 @@
     "didaktischerHinweis": "Kinder müssen erkennen, welche Teilstrecken zum gesuchten Weg gehören. Das ist eine wichtige Lesekompetenz bei Karten und Schemata. Die Addition mit Dezimalzahlen wird hier vertieft.",
     "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Auf dem Wegweiser stehen die Entfernungen:\n\n- Dorfbach → Mühlheim: 3,7 km\n- Mühlheim → Seefeld: 8,4 km\n- Seefeld → Bergheim: 12,5 km\n- Bergheim → Waldstadt: 18,6 km",
+      "kontext": "Auf dem Wegweiser stehen die Entfernungen:\n\n- Dorfbach → Mühlheim: 3,7 km\n- Mühlheim → Seefeld: 8,4 km\n- Seefeld → Bergheim: 12,5 km\n- Bergheim → Waldstadt: 18,6 km",
       "items": [
         {
           "label": "a",
@@ -752,7 +756,7 @@
   },
   {
     "titel": "Geschwindigkeiten vergleichen — km/h berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "gelb",
     "buchseite": 69,
@@ -771,12 +775,13 @@
     "didaktischerHinweis": "Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet (\"Wenn 15 min = 1 km, dann 60 min = ?\"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.",
     "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.",
+      "kontext": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.",
       "items": [
         {
           "label": "1",
-          "frage": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.\n\nWie viele Kilometer schafft jeder in einer Stunde?",
+          "frage": "Wie viele Kilometer schafft jeder in einer Stunde?",
           "antwort": "- Fussgänger: 4 km/h"
         }
       ]
@@ -831,7 +836,7 @@
   },
   {
     "titel": "Tierstrecken berechnen — Spitzengeschwindigkeiten",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "grün",
     "buchseite": 69,
@@ -850,8 +855,9 @@
     "didaktischerHinweis": "Halbieren und Vierteln von Geschwindigkeiten: eine elegante Alternative zur Formel \"Weg = Geschwindigkeit × Zeit\". Die Tierthema-Einbettung motiviert. Die Zahlen sind bewusst durch 2 und 4 teilbar.",
     "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
+      "kontext": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
       "items": [
         {
           "label": "a",

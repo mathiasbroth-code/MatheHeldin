@@ -1,7 +1,7 @@
 [
   {
     "titel": "Tabelle lesen — Werte ablesen und vergleichen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tabellen und Diagramme",
     "schwierigkeit": "gelb",
     "buchseite": 122,
@@ -19,8 +19,9 @@
     ],
     "didaktischerHinweis": "Tabellenlesen als Grundkompetenz für Datenarbeit. Entspricht S. 122, Aufg. 1-3.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In einer Tabelle stehen die Körpergrössen von Kindern der Klasse 4b:\n\n| Name | Alter | Größe in cm |\n|------|-------|--------------|\n| Sofie | 10 | 142 |\n| Lena | 10 | 152 |\n| Emine | 10 | 129 |\n| Tobi | 10 | 152 |\n| Emilio | 10 | 128 |",
+      "kontext": "In einer Tabelle stehen die Körpergrössen von Kindern der Klasse 4b:\n\n| Name | Alter | Größe in cm |\n|------|-------|--------------|\n| Sofie | 10 | 142 |\n| Lena | 10 | 152 |\n| Emine | 10 | 129 |\n| Tobi | 10 | 152 |\n| Emilio | 10 | 128 |",
       "items": [
         {
           "label": "a",

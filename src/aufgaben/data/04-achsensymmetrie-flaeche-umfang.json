@@ -49,7 +49,7 @@
   },
   {
     "titel": "Wie viele Symmetrieachsen? — Formen untersuchen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Achsensymmetrische Bilder",
     "schwierigkeit": "gelb",
     "buchseite": 46,
@@ -67,8 +67,9 @@
     ],
     "didaktischerHinweis": "Das Zählen von Symmetrieachsen vertieft das Verständnis über Achsensymmetrie und verbindet es mit geometrischen Grundformen. Besonders die Erkenntnis, dass ein Rechteck (kein Quadrat) nur 2 statt 4 Achsen hat, ist für Kinder überraschend und lehrreich.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie viele Symmetrieachsen hat jede Figur?",
+      "kontext": "Wie viele Symmetrieachsen hat jede Figur?",
       "items": [
         {
           "label": "a",
@@ -473,7 +474,7 @@
   },
   {
     "titel": "Rechte Winkel finden — Wo stecken rechte Winkel?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zeichnen mit dem Geodreieck",
     "schwierigkeit": "gelb",
     "buchseite": 48,
@@ -491,8 +492,9 @@
     ],
     "didaktischerHinweis": "Das Finden rechter Winkel in Alltagsformen verbindet den abstrakten Winkelbegriff mit der visuellen Erfahrung. Der Buchstabe T als Beispiel zeigt, dass rechte Winkel auch außerhalb klassischer Geometrieformen vorkommen.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie viele rechte Winkel hat jede Figur?",
+      "kontext": "Wie viele rechte Winkel hat jede Figur?",
       "items": [
         {
           "label": "a",
@@ -590,7 +592,7 @@
   },
   {
     "titel": "Rechteck zeichnen — Seitenlängen und Umfang",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zeichnen mit dem Geodreieck",
     "schwierigkeit": "grün",
     "buchseite": 49,
@@ -608,8 +610,9 @@
     ],
     "didaktischerHinweis": "Die Aufgabe kombiniert Zeichnen (haptisch, mit Geodreieck) und Rechnen (Umfang). Teil b) ist digital nicht umsetzbar, aber Teil a) trainiert die Umfangformel. Entspricht Buch S. 49, Aufg. 6.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Rechteck hat die Länge 8 cm und die Breite 3 cm.",
+      "kontext": "Ein Rechteck hat die Länge 8 cm und die Breite 3 cm.",
       "items": [
         {
           "label": "a",
@@ -626,7 +629,7 @@
   },
   {
     "titel": "Strecken parallel oder senkrecht? — Buchstaben analysieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zeichnen mit dem Geodreieck",
     "schwierigkeit": "orange",
     "buchseite": 49,
@@ -644,8 +647,9 @@
     ],
     "didaktischerHinweis": "Buchstaben als geometrische Objekte zu analysieren verbindet Schriftkultur mit Geometrie. Die Aufgabe vertieft die Fähigkeit, parallele und senkrechte Linien in verschiedenen Kontexten zu erkennen.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Schau dir diese Großbuchstaben an: E, H, L, T, Z",
+      "kontext": "Schau dir diese Großbuchstaben an: E, H, L, T, Z",
       "items": [
         {
           "label": "a",
@@ -699,7 +703,7 @@
   },
   {
     "titel": "Einheitsquadrate zählen — Flächeninhalt bestimmen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "gelb",
     "buchseite": 50,
@@ -717,8 +721,9 @@
     ],
     "didaktischerHinweis": "Das Zählen von Einheitsquadraten legt den Grundstein für die Flächenformel (Länge × Breite). Kinder sollen erst durch Zählen verstehen, was Flächeninhalt bedeutet, bevor sie die Formel anwenden. Entspricht S. 50, Aufg. 2.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bestimme den Flächeninhalt in Einheitsquadraten (EQ).",
+      "kontext": "Bestimme den Flächeninhalt in Einheitsquadraten (EQ).",
       "items": [
         {
           "label": "a",
@@ -740,7 +745,7 @@
   },
   {
     "titel": "Umfang eines Rechtecks berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "grün",
     "buchseite": 53,
@@ -758,8 +763,9 @@
     ],
     "didaktischerHinweis": "Die Umfangberechnung entspricht S. 53, Aufg. 8. Das Quadrat in c) ist bewusst enthalten, damit Kinder erkennen: Ein Quadrat ist ein besonderes Rechteck, bei dem die Formel noch einfacher wird (4 × Seite).",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Berechne den Umfang der Rechtecke.",
+      "kontext": "Berechne den Umfang der Rechtecke.",
       "items": [
         {
           "label": "a",
@@ -781,7 +787,7 @@
   },
   {
     "titel": "Flächeninhalt in Quadratzentimetern — Figuren auf dem Gitter",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "grün",
     "buchseite": 52,
@@ -799,8 +805,9 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 52, Aufg. 2-3. Die Einheit Quadratzentimeter (qcm) wird hier als Weiterentwicklung der Einheitsquadrate eingeführt. Das Zerlegen zusammengesetzter Figuren ist eine wichtige Problemlösestrategie.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bestimme den Flächeninhalt der Figuren in Quadratzentimetern (qcm). Ein Kästchen = 1 qcm.",
+      "kontext": "Bestimme den Flächeninhalt der Figuren in Quadratzentimetern (qcm). Ein Kästchen = 1 qcm.",
       "items": [
         {
           "label": "a",
@@ -822,7 +829,7 @@
   },
   {
     "titel": "Fehlende Seite berechnen — Umfang ist gegeben",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "grün",
     "buchseite": 53,
@@ -840,8 +847,9 @@
     ],
     "didaktischerHinweis": "Das Rückwärtsrechnen mit der Umfangformel entspricht S. 53, Aufg. 9 im Buch. Es trainiert algebraisches Denken (Gleichungen umstellen) auf kindgerechtem Niveau und vertieft das Verständnis der Umfangformel.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Der Umfang eines Rechtecks ist bekannt. Eine Seite ist gegeben. Wie lang sind die anderen Seiten?",
+      "kontext": "Der Umfang eines Rechtecks ist bekannt. Eine Seite ist gegeben. Wie lang sind die anderen Seiten?",
       "items": [
         {
           "label": "a",
@@ -863,7 +871,7 @@
   },
   {
     "titel": "Gleicher Umfang, verschiedene Formen — Was ist möglich?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "orange",
     "buchseite": 51,
@@ -881,7 +889,7 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Umfang und Flächeninhalt und zeigt die überraschende Erkenntnis: Gleicher Umfang bedeutet NICHT gleicher Flächeninhalt. Entspricht S. 51, Aufg. 7-8. Die systematische Suche aller Möglichkeiten trainiert auch kombinatorisches Denken.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -986,7 +994,7 @@
   },
   {
     "titel": "Umfang von Treppenfiguren — Seiten abzählen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "orange",
     "buchseite": 53,
@@ -1004,8 +1012,9 @@
     ],
     "didaktischerHinweis": "Der Umfang von nicht-rechteckigen Figuren (Treppen, L-Formen, T-Formen) erfordert systematisches Abzählen. Diese Aufgabe entspricht S. 53, Aufg. 6-7. Typischer Fehler: Innenkanten mitzählen oder Kanten zu vergessen.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bestimme den Umfang der Figuren. Jedes Kästchen hat eine Seitenlänge von 1 cm.",
+      "kontext": "Bestimme den Umfang der Figuren. Jedes Kästchen hat eine Seitenlänge von 1 cm.",
       "items": [
         {
           "label": "a",
@@ -1022,7 +1031,7 @@
   },
   {
     "titel": "Größter und kleinster Flächeninhalt — 16 Streichhölzer",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Flächeninhalt und Umfang",
     "schwierigkeit": "orange",
     "buchseite": 50,
@@ -1040,8 +1049,9 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe stammt direkt aus S. 50, Aufg. 3 (Streichhölzer-Aufgabe). Die zentrale Erkenntnis: Bei gleichem Umfang hat das Quadrat den größten Flächeninhalt — ein fundamentales geometrisches Prinzip.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du hast 16 Streichhölzer (jedes ist 1 Einheit lang). Du legst damit den Rand einer rechteckigen Figur.",
+      "kontext": "Du hast 16 Streichhölzer (jedes ist 1 Einheit lang). Du legst damit den Rand einer rechteckigen Figur.",
       "items": [
         {
           "label": "a",

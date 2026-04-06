@@ -181,8 +181,8 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "kopfrechnen-addsub",
     "digital": "voll",
-    "aufgabenstellung": "Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.\n\n```\n     100.000\n    /       \\\n 58.000     ▢\n\n     1.000.000\n    /         \\\n 283.400       ▢\n```",
-    "loesung": "- 100.000: 58.000 + 42.000 = 100.000 → ▢ = 42.000\n- 1.000.000: 283.400 + 716.600 = 1.000.000 → ▢ = 716.600",
+    "aufgabenstellung": "Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.\n\na) 58.000 + ▢ = 100.000\nb) 283.400 + ▢ = 1.000.000",
+    "loesung": "a) 42.000\nb) 716.600",
     "loesungsweg": "- 100.000 − 58.000 = 42.000\n- 1.000.000 − 283.400 = 716.600 (rechne stellenweise: 1.000.000 − 200.000 = 800.000, 800.000 − 83.000 = 717.000, 717.000 − 400 = 716.600)",
     "tipps": [
       "Die obere Zahl ist die Summe der beiden unteren. Wenn du eine untere Zahl kennst, was musst du tun, um die andere zu finden?",
@@ -194,12 +194,17 @@
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "",
+      "anweisung": "Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.",
       "items": [
         {
-          "label": "1",
-          "frage": "Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.\n\n```\n     100.000\n    /       \\\n 58.000     ▢\n\n     1.000.000\n    /         \\\n 283.400       ▢\n```",
-          "antwort": "- 100.000: 58.000 + 42.000 = 100.000 → ▢ = 42.000"
+          "label": "a",
+          "frage": "58.000 + ▢ = 100.000",
+          "antwort": "42.000"
+        },
+        {
+          "label": "b",
+          "frage": "283.400 + ▢ = 1.000.000",
+          "antwort": "716.600"
         }
       ]
     }
@@ -290,7 +295,7 @@
   },
   {
     "titel": "Fünfstellige Zahlen bilden und subtrahieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "orange",
     "buchseite": 35,
@@ -309,12 +314,13 @@
     "didaktischerHinweis": "Diese offene Aufgabe fördert das Problemlösen und den Umgang mit Bedingungen. Das Kind lernt, systematisch vorzugehen und die Beziehung zwischen Subtraktion und dem Wertebereich zu nutzen.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Du hast die Ziffernkarten 1, 4, 5, 6 und 8. Bilde fünfstellige Zahlen und subtrahiere sie von 100.000. Das Ergebnis soll zwischen 30.000 und 40.000 liegen.",
+      "kontext": "Du hast die Ziffernkarten 1, 4, 5, 6 und 8. Bilde fünfstellige Zahlen und subtrahiere sie von 100.000. Das Ergebnis soll zwischen 30.000 und 40.000 liegen.",
       "items": [
         {
           "label": "1",
-          "frage": "Du hast die Ziffernkarten 1, 4, 5, 6 und 8. Bilde fünfstellige Zahlen und subtrahiere sie von 100.000. Das Ergebnis soll zwischen 30.000 und 40.000 liegen.\n\nFinde mindestens zwei Möglichkeiten.",
+          "frage": "Finde mindestens zwei Möglichkeiten.",
           "antwort": "Beispiele:"
         }
       ]
@@ -659,7 +665,7 @@
   },
   {
     "titel": "ANNA-Subtraktionen zu einem Ergebnis finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "ANNA-Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 37,
@@ -678,7 +684,7 @@
     "didaktischerHinweis": "Das Rückwärts-Suchen (vom Ergebnis zu den Aufgaben) fördert flexibles Denken. Das Kind lernt systematisch vorzugehen und das entdeckte Muster produktiv zu nutzen.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -1301,7 +1307,7 @@
   },
   {
     "titel": "Rechenkette rückwärts — Startzahl finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechenketten",
     "schwierigkeit": "orange",
     "buchseite": 40,
@@ -1320,12 +1326,13 @@
     "didaktischerHinweis": "Das Rückwärtsrechnen trainiert Umkehroperationen und algebraisches Denken. Das Kind lernt, dass jede Operation eine Umkehrung hat — eine Grundlage für späteres Gleichungslösen.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Finde die Startzahl. Rechne rückwärts!",
+      "kontext": "Finde die Startzahl. Rechne rückwärts!",
       "items": [
         {
           "label": "1",
-          "frage": "Finde die Startzahl. Rechne rückwärts!\n\n▢ → · 3 → ▢ → + 240 → 600",
+          "frage": "▢ → · 3 → ▢ → + 240 → 600",
           "antwort": "Startzahl: 120"
         }
       ]
@@ -1333,7 +1340,7 @@
   },
   {
     "titel": "Zahlenrätsel mit Rechenkette lösen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenrätsel",
     "schwierigkeit": "gelb",
     "buchseite": 41,
@@ -1352,12 +1359,13 @@
     "didaktischerHinweis": "Zahlenrätsel verpacken algebraische Gleichungen in eine kindgerechte Form. Die Rechenkette macht die Struktur sichtbar, das Rückwärtsrechnen ist die Lösungsstrategie.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
+      "kontext": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
       "items": [
         {
           "label": "1",
-          "frage": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.\n\nIch denke mir eine Zahl und multipliziere sie mit 4, dann addiere ich 120 und erhalte 360.",
+          "frage": "Ich denke mir eine Zahl und multipliziere sie mit 4, dann addiere ich 120 und erhalte 360.",
           "antwort": "Die gedachte Zahl ist 60."
         }
       ]
@@ -1365,7 +1373,7 @@
   },
   {
     "titel": "Zahlenrätsel — Division und Subtraktion",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenrätsel",
     "schwierigkeit": "grün",
     "buchseite": 41,
@@ -1384,12 +1392,13 @@
     "didaktischerHinweis": "Division und Multiplikation als Umkehroperationen werden hier gezielt geübt. Die Probe am Ende gibt dem Kind Sicherheit und Kontrolle.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
+      "kontext": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
       "items": [
         {
           "label": "1",
-          "frage": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.\n\nIch denke mir eine Zahl und dividiere sie durch 8, dann subtrahiere ich 35 und erhalte 40.",
+          "frage": "Ich denke mir eine Zahl und dividiere sie durch 8, dann subtrahiere ich 35 und erhalte 40.",
           "antwort": "Die gedachte Zahl ist 600."
         }
       ]
@@ -1397,7 +1406,7 @@
   },
   {
     "titel": "Zahlenrätsel mit drei Operationen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenrätsel",
     "schwierigkeit": "grün",
     "buchseite": 41,
@@ -1416,12 +1425,13 @@
     "didaktischerHinweis": "Drei Operationen erfordern systematisches Rückwärtsrechnen. Das Kind übt, die Kette sauber zu notieren und Schritt für Schritt abzuarbeiten. Die Probe gibt Sicherheit.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Schreibe als Rechenkette und löse.",
+      "kontext": "Schreibe als Rechenkette und löse.",
       "items": [
         {
           "label": "1",
-          "frage": "Schreibe als Rechenkette und löse.\n\nIch denke mir eine Zahl und multipliziere sie mit 6, dann addiere ich 50 und dividiere durch 5. Ich erhalte 80.",
+          "frage": "Ich denke mir eine Zahl und multipliziere sie mit 6, dann addiere ich 50 und dividiere durch 5. Ich erhalte 80.",
           "antwort": "Die gedachte Zahl ist 55."
         }
       ]
@@ -1429,7 +1439,7 @@
   },
   {
     "titel": "Zahlenrätsel — von meiner Zahl subtrahieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenrätsel",
     "schwierigkeit": "orange",
     "buchseite": 41,
@@ -1448,12 +1458,13 @@
     "didaktischerHinweis": "Die sprachliche Vielfalt (subtrahieren, verdoppeln, addieren) trainiert das Übersetzen. Das Rückwärtsrechnen über mehrere Schritte erfordert systematisches Arbeiten.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Schreibe als Rechenkette und löse.",
+      "kontext": "Schreibe als Rechenkette und löse.",
       "items": [
         {
           "label": "1",
-          "frage": "Schreibe als Rechenkette und löse.\n\nWenn ich von meiner Zahl 280 subtrahiere, das Ergebnis verdopple und 190 addiere, erhalte ich 450.",
+          "frage": "Wenn ich von meiner Zahl 280 subtrahiere, das Ergebnis verdopple und 190 addiere, erhalte ich 450.",
           "antwort": "Die gedachte Zahl ist 410."
         }
       ]
@@ -1461,7 +1472,7 @@
   },
   {
     "titel": "Zahlenrätsel mit Halbieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenrätsel",
     "schwierigkeit": "orange",
     "buchseite": 41,
@@ -1480,12 +1491,13 @@
     "didaktischerHinweis": "Komplexere Zahlenrätsel mit drei verschiedenen Operationen trainieren die Sicherheit im Umgang mit Umkehroperationen. Die Probe gibt Kontrolle und Erfolgserlebnis.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Schreibe als Rechenkette und löse.",
+      "kontext": "Schreibe als Rechenkette und löse.",
       "items": [
         {
           "label": "1",
-          "frage": "Schreibe als Rechenkette und löse.\n\nWenn ich zu meiner Zahl 56 addiere, das Ergebnis durch 4 dividiere und dann mit 5 multipliziere, erhalte ich 400.",
+          "frage": "Wenn ich zu meiner Zahl 56 addiere, das Ergebnis durch 4 dividiere und dann mit 5 multipliziere, erhalte ich 400.",
           "antwort": "Die gedachte Zahl ist 264."
         }
       ]
@@ -2112,7 +2124,7 @@
   },
   {
     "titel": "Platzhalter in Ungleichungen finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "orange",
     "buchseite": 45,
@@ -2131,8 +2143,9 @@
     "didaktischerHinweis": "Ungleichungen mit Platzhaltern und mehreren Lösungen zeigen, dass es in der Mathematik nicht immer genau eine Antwort gibt. Das Kind lernt systematisches Probieren und den Umgang mit Bereichen.",
     "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Welche Zahlen passen? Finde alle Möglichkeiten.",
+      "kontext": "Welche Zahlen passen? Finde alle Möglichkeiten.",
       "items": [
         {
           "label": "a",

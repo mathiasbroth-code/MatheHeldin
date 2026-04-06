@@ -1,7 +1,7 @@
 [
   {
     "titel": "Pizza teilen — Bruch verstehen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Einfache Brüche",
     "schwierigkeit": "gelb",
     "buchseite": 92,
@@ -26,8 +26,9 @@
     "didaktischerHinweis": "Einstiegsaufgabe zum Bruchbegriff mit dem vertrauten Kontext \"Pizza teilen\". Der Nenner wird über die Anzahl der Kinder eingeführt. Entspricht S. 92, Aufg. 1.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Eine Pizza wird gerecht an Kinder verteilt. Schreibe den Bruch auf, den jedes Kind bekommt.",
+      "kontext": "Eine Pizza wird gerecht an Kinder verteilt. Schreibe den Bruch auf, den jedes Kind bekommt.",
       "items": [
         {
           "label": "a",
@@ -199,7 +200,7 @@
   },
   {
     "titel": "Gefärbter Anteil des Kreises — Bruch ablesen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Einfache Brüche",
     "schwierigkeit": "grün",
     "buchseite": 93,
@@ -224,8 +225,9 @@
     "didaktischerHinweis": "Hier lernen Kinder zum ersten Mal, dass ein Bruchanteil auf verschiedene Weisen geschrieben werden kann (äquivalente Brüche). Entspricht S. 93, Aufg. 5.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Kreis ist in gleich große Teile geteilt. Schreibe den gefärbten Anteil als Bruch. Manchmal gibt es mehrere Möglichkeiten.",
+      "kontext": "Ein Kreis ist in gleich große Teile geteilt. Schreibe den gefärbten Anteil als Bruch. Manchmal gibt es mehrere Möglichkeiten.",
       "items": [
         {
           "label": "a",
@@ -415,7 +417,7 @@
   },
   {
     "titel": "Milliliter und Liter — Grundumrechnung",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Liter und Milliliter",
     "schwierigkeit": "gelb",
     "buchseite": 94,
@@ -440,8 +442,9 @@
     "didaktischerHinweis": "Grundlegende Umrechnungsaufgabe zwischen Liter und Milliliter. Der Merksatz \"Mille = 1.000\" wird aus dem Buch übernommen. Entspricht S. 94, Aufg. 4.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wandle um. Denke daran: 1 l = 1.000 ml.",
+      "kontext": "Wandle um. Denke daran: 1 l = 1.000 ml.",
       "items": [
         {
           "label": "a",
@@ -550,7 +553,7 @@
   },
   {
     "titel": "Gemischte Angaben umwandeln — l und ml",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Liter und Milliliter",
     "schwierigkeit": "grün",
     "buchseite": 95,
@@ -575,8 +578,9 @@
     "didaktischerHinweis": "Gemischte Schreibweise (l und ml) und reine Milliliter-Schreibweise umwandeln. Die Stellenwerttafel wird als bekannte Hilfe genutzt. Entspricht S. 95, Aufg. 9-11.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wandle in Milliliter um.",
+      "kontext": "Wandle in Milliliter um.",
       "items": [
         {
           "label": "a",
@@ -744,7 +748,7 @@
   },
   {
     "titel": "Täglicher Wasserverbrauch — Summe berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Täglicher Wasserverbrauch",
     "schwierigkeit": "gelb",
     "buchseite": 96,
@@ -763,12 +767,13 @@
     "didaktischerHinweis": "Sachbezogene Addition mit realistischen Alltagsdaten. Entspricht S. 96, Aufg. 2a.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |",
+      "kontext": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |",
       "items": [
         {
           "label": "1",
-          "frage": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |\n\nWie viel Wasser verbraucht eine Person durchschnittlich am Tag?",
+          "frage": "Wie viel Wasser verbraucht eine Person durchschnittlich am Tag?",
           "antwort": "12 + 45 + 44 + 19 + 7 + 6 + 10 + 2 = 145 l"
         }
       ]
@@ -776,7 +781,7 @@
   },
   {
     "titel": "Wasserverbrauch hochrechnen — Woche und Monat",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Täglicher Wasserverbrauch",
     "schwierigkeit": "grün",
     "buchseite": 96,
@@ -795,8 +800,9 @@
     "didaktischerHinweis": "Multiplikation mit sachbezogenem Kontext. Die Zerlegungsmethode wird als Strategie genutzt. Entspricht S. 96, Aufg. 2-3.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
+      "kontext": "Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
       "items": [
         {
           "label": "a",
@@ -813,7 +819,7 @@
   },
   {
     "titel": "Wasserverbrauch einer Familie",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Täglicher Wasserverbrauch",
     "schwierigkeit": "grün",
     "buchseite": 96,
@@ -832,8 +838,9 @@
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Alltagsbezug. Entspricht S. 96, Aufg. 4.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Eine vierköpfige Familie verbraucht durchschnittlich 145 Liter Wasser pro Person am Tag.",
+      "kontext": "Eine vierköpfige Familie verbraucht durchschnittlich 145 Liter Wasser pro Person am Tag.",
       "items": [
         {
           "label": "a",
@@ -888,7 +895,7 @@
   },
   {
     "titel": "Tropfender Wasserhahn — hochrechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Täglicher Wasserverbrauch",
     "schwierigkeit": "orange",
     "buchseite": 96,
@@ -907,8 +914,9 @@
     "didaktischerHinweis": "Stufenweises Hochrechnen kleiner Mengen zeigt, wie aus wenig viel wird. Die Zeitumrechnungen (min→h→Tag→Woche) sind wichtig. Entspricht S. 96, Aufg. 6.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Durch das Tropfen eines Wasserhahns gehen in einer Minute 8 ml Wasser verloren. Wie viel Wasser geht verloren ...",
+      "kontext": "Durch das Tropfen eines Wasserhahns gehen in einer Minute 8 ml Wasser verloren. Wie viel Wasser geht verloren ...",
       "items": [
         {
           "label": "a",
@@ -1192,7 +1200,7 @@
   },
   {
     "titel": "Zentimeterwürfel zählen — Rauminhalt berechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rauminhalt",
     "schwierigkeit": "gelb",
     "buchseite": 98,
@@ -1211,8 +1219,9 @@
     "didaktischerHinweis": "Grundlegende Volumenberechnung durch Zählen/Rechnen von Einheitswürfeln. Entspricht S. 98, Aufg. 2.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader? Rechne: Länge · Breite · Höhe.",
+      "kontext": "Wie viele Zentimeterwürfel passen in diese Quader? Rechne: Länge · Breite · Höhe.",
       "items": [
         {
           "label": "a",
@@ -1271,7 +1280,7 @@
   },
   {
     "titel": "Quader-Rauminhalt — größere Maße",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rauminhalt",
     "schwierigkeit": "grün",
     "buchseite": 98,
@@ -1290,8 +1299,9 @@
     "didaktischerHinweis": "Skalierung der Volumenberechnung auf größere Maße. Die Multiplikation mit Zehnerzahlen wird trainiert. Entspricht S. 98, Aufg. 3.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader?",
+      "kontext": "Wie viele Zentimeterwürfel passen in diese Quader?",
       "items": [
         {
           "label": "a",
@@ -1313,7 +1323,7 @@
   },
   {
     "titel": "Dezimeterwürfel und Liter — der Zusammenhang",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rauminhalt",
     "schwierigkeit": "grün",
     "buchseite": 99,
@@ -1332,8 +1342,9 @@
     "didaktischerHinweis": "Die zentrale Verbindung zwischen Rauminhalt und Hohlmaßen: 1 dm³ = 1 l, 1 cm³ = 1 ml. Entspricht S. 99, Aufg. 4.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Merke: 1 Dezimeterwürfel = 1 Liter. 1 Zentimeterwürfel = 1 Milliliter.",
+      "kontext": "Merke: 1 Dezimeterwürfel = 1 Liter. 1 Zentimeterwürfel = 1 Milliliter.",
       "items": [
         {
           "label": "a",
@@ -1425,7 +1436,7 @@
   },
   {
     "titel": "Quader für 160 ml finden — rückwärts rechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rauminhalt",
     "schwierigkeit": "orange",
     "buchseite": 99,
@@ -1444,12 +1455,13 @@
     "didaktischerHinweis": "Offene Aufgabe mit mehreren Lösungen. Das Zerlegen in Faktoren trainiert Division und Multiplikation gleichzeitig. Entspricht S. 99, Aufg. 8.",
     "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.",
+      "kontext": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.",
       "items": [
         {
           "label": "1",
-          "frage": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.\n\nGib zwei verschiedene Möglichkeiten an.",
+          "frage": "Gib zwei verschiedene Möglichkeiten an.",
           "antwort": "Mögliche Lösungen (Beispiele):"
         }
       ]
@@ -1876,7 +1888,7 @@
   },
   {
     "titel": "Eine Million Gramm — wie schwer?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Millionen-Fragen",
     "schwierigkeit": "grün",
     "buchseite": 102,
@@ -1895,8 +1907,9 @@
     "didaktischerHinweis": "Umrechnungskette Gramm → Kilogramm → Tonne mit Alltagsvergleich. Entspricht S. 102-103.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
+      "kontext": "",
       "items": [
         {
           "label": "a",

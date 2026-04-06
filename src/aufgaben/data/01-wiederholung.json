@@ -155,7 +155,7 @@
   },
   {
     "titel": "Zahlenrätsel — Bedingungen kombinieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "1.000 und weiter",
     "schwierigkeit": "grün",
     "buchseite": 7,
@@ -180,8 +180,9 @@
     "didaktischerHinweis": "Zahlenrätsel fördern das logische Denken und das systematische Probieren. Die Kinder lernen, Bedingungen schrittweise abzuarbeiten und den Zahlenraum gezielt einzugrenzen.",
     "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Welche Zahl ist es?",
+      "kontext": "Welche Zahl ist es?",
       "items": [
         {
           "label": "a",
@@ -299,7 +300,7 @@
   },
   {
     "titel": "Welche Zahlen können es sein? — Offene Zahlenrätsel",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "1.000 und weiter",
     "schwierigkeit": "orange",
     "buchseite": 7,
@@ -324,8 +325,9 @@
     "didaktischerHinweis": "Offene Aufgaben mit mehreren Lösungen fördern das systematische Denken. Kinder lernen, Bedingungen zu kombinieren und alle Möglichkeiten zu finden — nicht nur eine. Visuelles Hilfsmittel: Stellenwerttafel zum Ausprobieren.",
     "erklaerungBild": "assets/erklaerungen/s08-merkkasten-stellenwerte.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Welche Zahlen können es sein?",
+      "kontext": "Welche Zahlen können es sein?",
       "items": [
         {
           "label": "a",
@@ -448,7 +450,7 @@
   },
   {
     "titel": "Plättchen wegnehmen — Stellenwerte subtrahieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "grün",
     "buchseite": 8,
@@ -473,8 +475,9 @@
     "didaktischerHinweis": "Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzliche Überlegung: Gibt es in der Spalte überhaupt ein Plättchen? Bei Zahlen mit 0er-Stellen (wie 1.870 mit E=0) müssen Kinder erkennen, dass nicht immer 4 Möglichkeiten existieren.",
     "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
+      "kontext": "Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
       "items": [
         {
           "label": "a",
@@ -501,7 +504,7 @@
   },
   {
     "titel": "Plättchen rückwärts — Welche Zahl war es vorher?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "orange",
     "buchseite": 8,
@@ -526,8 +529,9 @@
     "didaktischerHinweis": "Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — eine wichtige mathematische Kompetenz. Kinder müssen die Operation umkehren und systematisch alle Möglichkeiten durchgehen.",
     "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.",
+      "kontext": "Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.",
       "items": [
         {
           "label": "a",
@@ -554,7 +558,7 @@
   },
   {
     "titel": "Stellenwerttafel — Zahlen verändern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "grün",
     "buchseite": 8,
@@ -579,8 +583,9 @@
     "didaktischerHinweis": "Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der Übertrag bei b) ist wichtig: Wenn ein Stellenwert über 9 hinausgeht, muss umgetauscht werden — das bereitet auf schriftliche Rechenverfahren vor.",
     "erklaerungBild": "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.",
+      "kontext": "Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.",
       "items": [
         {
           "label": "a",
@@ -602,7 +607,7 @@
   },
   {
     "titel": "Hunderter addieren und subtrahieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen bis 2.000",
     "schwierigkeit": "gelb",
     "buchseite": 9,
@@ -620,8 +625,9 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe zeigt die Parallele zwischen Einer-Rechnen und Hunderter-Rechnen. Die Darstellung \"4 H + 3 H\" neben \"400 + 300\" macht den Zusammenhang explizit sichtbar.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Rechne.",
+      "kontext": "Rechne.",
       "items": [
         {
           "label": "a",

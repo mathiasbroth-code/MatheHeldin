@@ -38,7 +38,7 @@
   },
   {
     "titel": "Gemeinsame Vielfache finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 78,
@@ -57,7 +57,7 @@
     "didaktischerHinweis": "Gemeinsame Vielfache bereiten das Verständnis für das kgV vor. Hier geht es zusätzlich um die Erkenntnis, dass jedes Vielfache von 8 automatisch auch ein Vielfaches von 4 ist. Entspricht S. 78, Aufg. 3.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -164,7 +164,7 @@
   },
   {
     "titel": "Zahlenrätsel mit Vielfachen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 78,
@@ -183,12 +183,13 @@
     "didaktischerHinweis": "Zahlenrätsel mit Vielfachen trainieren rückwärts gerichtetes Denken und die Verknüpfung von Multiplikation mit Division. Entspricht S. 78, Aufg. 6.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Wie heißt die Zahl?",
+      "kontext": "Wie heißt die Zahl?",
       "items": [
         {
           "label": "1",
-          "frage": "Wie heißt die Zahl?\n\nLisa addiert zum Siebenfachen von 80 das Vierfache ihrer Zahl. Als Ergebnis erhält sie 600. Wie heißt Lisas Zahl?",
+          "frage": "Lisa addiert zum Siebenfachen von 80 das Vierfache ihrer Zahl. Als Ergebnis erhält sie 600. Wie heißt Lisas Zahl?",
           "antwort": "Lisas Zahl ist 10."
         }
       ]
@@ -238,7 +239,7 @@
   },
   {
     "titel": "Gemeinsame Teiler finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 79,
@@ -257,8 +258,9 @@
     "didaktischerHinweis": "Gemeinsame Teiler bilden die Grundlage für den ggT (größter gemeinsamer Teiler). Die systematische Methode (kleinste Zahl zuerst) ist wichtig für effizientes Arbeiten. Entspricht S. 79, Aufg. 3.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde die Teiler der folgenden Zahlen. Kreise die gemeinsamen Teiler ein.",
+      "kontext": "Finde die Teiler der folgenden Zahlen. Kreise die gemeinsamen Teiler ein.",
       "items": [
         {
           "label": "a",
@@ -326,7 +328,7 @@
   },
   {
     "titel": "Gruppen bilden — Teiler im Alltag",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "gelb",
     "buchseite": 79,
@@ -345,8 +347,9 @@
     "didaktischerHinweis": "Der Alltagsbezug \"Gruppen bilden\" macht Teiler greifbar. Kinder erkennen: Teiler = \"geht genau auf\". Die Frage nach den \"meisten Möglichkeiten\" führt zur Erkenntnis, dass manche Zahlen mehr Teiler haben als andere. Entspricht S. 79, Aufg. 5.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bilde gleich große Gruppen. Welche Gruppengrößen sind möglich?",
+      "kontext": "Bilde gleich große Gruppen. Welche Gruppengrößen sind möglich?",
       "items": [
         {
           "label": "a",
@@ -1130,7 +1133,7 @@
   },
   {
     "titel": "Quersumme bilden — Teilbarkeit durch 9",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teilbarkeitsregeln",
     "schwierigkeit": "gelb",
     "buchseite": 85,
@@ -1155,8 +1158,9 @@
     "didaktischerHinweis": "Die Quersummenregel für 9 (und 3) ist ein wichtiges Werkzeug zur Teilbarkeitsprüfung. Kinder staunen oft über diesen \"Zaubertrick\". Entspricht S. 85, Aufg. 7-9.",
     "erklaerungBild": "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Bilde die Quersumme der Zahlen. Ist die Zahl durch 9 teilbar?",
+      "kontext": "Bilde die Quersumme der Zahlen. Ist die Zahl durch 9 teilbar?",
       "items": [
         {
           "label": "a",
@@ -2008,7 +2012,7 @@
   },
   {
     "titel": "Preisvergleich — Was ist günstiger pro Stück?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechnen mit Kommazahlen",
     "schwierigkeit": "grün",
     "buchseite": 90,
@@ -2027,8 +2031,9 @@
     "didaktischerHinweis": "Preisvergleiche sind ein lebensnaher Anwendungsfall für Division mit Kommazahlen. Kinder lernen, dass \"mehr kaufen\" nicht immer teurer pro Stück ist. Entspricht S. 90.",
     "erklaerungBild": "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Was ist günstiger pro Stück?",
+      "kontext": "Was ist günstiger pro Stück?",
       "items": [
         {
           "label": "a",

@@ -799,7 +799,7 @@
   },
   {
     "titel": "Geschwindigkeit berechnen — Wer ist schneller?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "gelb",
     "buchseite": 69,
@@ -818,8 +818,9 @@
     "didaktischerHinweis": "Umkehrrechnung: Geschwindigkeit aus Strecke und Zeit berechnen. Die Division ist hier einfach (ganzzahlige Ergebnisse). Der Vergleich in c) gibt dem Rechnen einen Sinn.",
     "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Berechne die Geschwindigkeit in km/h.",
+      "kontext": "Berechne die Geschwindigkeit in km/h.",
       "items": [
         {
           "label": "a",
@@ -1106,7 +1107,7 @@
     "stageId": "geschwindigkeiten",
     "digital": "voll",
     "aufgabenstellung": "Ein Zug fährt um 9:00 Uhr los. Die Geschwindigkeit beträgt 120 km/h.\n\na) Wie weit ist der Zug um 9:30 Uhr gefahren?\nb) Wie weit ist der Zug um 10:00 Uhr gefahren?\nc) Um wie viel Uhr hat der Zug 180 km zurückgelegt?\nd) Um wie viel Uhr kommt er in einer Stadt an, die 240 km entfernt ist?",
-    "loesung": "a) 60\nb) 120\nc) 10:30 Uhr\nd) 11:00 Uhr",
+    "loesung": "a) 60\nb) 120\nc) 10:30\nd) 11:00",
     "loesungsweg": "- a) 30 min = 0,5 h → 120 × 0,5 = 60 km\n- b) 1 h → 120 × 1 = 120 km\n- c) 180 ÷ 120 = 1,5 h = 1 h 30 min → 9:00 + 1:30 = 10:30 Uhr\n- d) 240 ÷ 120 = 2 h → 9:00 + 2:00 = 11:00 Uhr",
     "tipps": [
       "Berechne zuerst, wie lange der Zug für die Strecke braucht. Dann addiere die Fahrzeit zur Abfahrtszeit.",
@@ -1133,19 +1134,19 @@
         {
           "label": "c",
           "frage": "Um wie viel Uhr hat der Zug 180 km zurückgelegt?",
-          "antwort": "10:30 Uhr"
+          "antwort": "10:30"
         },
         {
           "label": "d",
           "frage": "Um wie viel Uhr kommt er in einer Stadt an, die 240 km entfernt ist?",
-          "antwort": "11:00 Uhr"
+          "antwort": "11:00"
         }
       ]
     }
   },
   {
     "titel": "Wettlauf verschiedener Fahrzeuge — Tabelle ausfüllen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "orange",
     "buchseite": 69,
@@ -1164,12 +1165,13 @@
     "didaktischerHinweis": "Alle drei Grundaufgaben (Strecke, Geschwindigkeit, Zeit berechnen) in einer Tabelle. Das ist eine gute Zusammenfassung und Vertiefung. Die Ergebnisse bilden ein Muster: Drei Fahrzeuge brauchen je 2 Stunden, obwohl die Strecken und Geschwindigkeiten sehr verschieden sind.",
     "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Fülle die Tabelle aus. Berechne die fehlenden Werte.",
+      "kontext": "Fülle die Tabelle aus. Berechne die fehlenden Werte.",
       "items": [
         {
           "label": "1",
-          "frage": "Fülle die Tabelle aus. Berechne die fehlenden Werte.\n\n| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | ? | 15 km/h | 2 Stunden |\n| Auto | 200 km | ? | 4 Stunden |\n| Zug | 300 km | 150 km/h | ? |\n| Flugzeug | 1.600 km | 800 km/h | ? |",
+          "frage": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | ? | 15 km/h | 2 Stunden |\n| Auto | 200 km | ? | 4 Stunden |\n| Zug | 300 km | 150 km/h | ? |\n| Flugzeug | 1.600 km | 800 km/h | ? |",
           "antwort": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |"
         }
       ]
@@ -1268,7 +1270,7 @@
   },
   {
     "titel": "Outfits kombinieren — T-Shirt und Hose",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -1287,12 +1289,13 @@
     "didaktischerHinweis": "Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder können alle Möglichkeiten aufzählen und entdecken das Muster: Anzahl A × Anzahl B = Gesamtanzahl.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Philippa hat 3 T-Shirts (rot, blau, grün) und 2 Hosen (Jeans, Jogginghose).",
+      "kontext": "Philippa hat 3 T-Shirts (rot, blau, grün) und 2 Hosen (Jeans, Jogginghose).",
       "items": [
         {
           "label": "1",
-          "frage": "Philippa hat 3 T-Shirts (rot, blau, grün) und 2 Hosen (Jeans, Jogginghose).\n\nWie viele verschiedene Outfits kann sie zusammenstellen?",
+          "frage": "Wie viele verschiedene Outfits kann sie zusammenstellen?",
           "antwort": "6 Outfits"
         }
       ]
@@ -1332,7 +1335,7 @@
   },
   {
     "titel": "Dreistellige Geheimzahl — alle Möglichkeiten",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 73,
@@ -1351,8 +1354,9 @@
     "didaktischerHinweis": "Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahlen. Das Baumdiagramm mit einfachen Ziffern ist übersichtlich. Kleinste/größte Zahl trainiert zusätzlich das Stellenwertverständnis.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Lena hat eine dreistellige Geheimzahl aus den Ziffern 1, 2 und 3 gewählt. Jede Ziffer kommt genau einmal vor.",
+      "kontext": "Lena hat eine dreistellige Geheimzahl aus den Ziffern 1, 2 und 3 gewählt. Jede Ziffer kommt genau einmal vor.",
       "items": [
         {
           "label": "a",
@@ -1374,7 +1378,7 @@
   },
   {
     "titel": "Pizza belegen — Belag kombinieren",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -1393,12 +1397,13 @@
     "didaktischerHinweis": "Kombination (ohne Wiederholung, ohne Reihenfolge) im Pizzakontext. Das Muster 3 + 2 + 1 = 6 kommt wieder — Kinder erkennen die Verbindung zu Fotoaufgaben und Fussballturnieren.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "In der Pizzeria gibt es 4 Beläge: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Beläge wählen.",
+      "kontext": "In der Pizzeria gibt es 4 Beläge: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Beläge wählen.",
       "items": [
         {
           "label": "1",
-          "frage": "In der Pizzeria gibt es 4 Beläge: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Beläge wählen.\n\nWie viele verschiedene Pizzen kannst du bestellen? Schreibe alle Möglichkeiten auf.",
+          "frage": "Wie viele verschiedene Pizzen kannst du bestellen? Schreibe alle Möglichkeiten auf.",
           "antwort": "6 verschiedene Pizzen:"
         }
       ]
@@ -1406,7 +1411,7 @@
   },
   {
     "titel": "Sitzreihenfolge im Auto",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -1425,8 +1430,9 @@
     "didaktischerHinweis": "Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das Muster. Die Autofahrt-Situation ist für viele Kinder unmittelbar nachvollziehbar.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Drei Kinder — Emma, Finn und Greta — sitzen auf der Rückbank im Auto. Mama sitzt vorne und fährt.",
+      "kontext": "Drei Kinder — Emma, Finn und Greta — sitzen auf der Rückbank im Auto. Mama sitzt vorne und fährt.",
       "items": [
         {
           "label": "a",
@@ -1443,7 +1449,7 @@
   },
   {
     "titel": "Münzen werfen — Kopf oder Zahl",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -1462,8 +1468,9 @@
     "didaktischerHinweis": "Einfaches Beispiel für die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm ist übersichtlich. Vorbereitung auf Wahrscheinlichkeitsaufgaben: \"Wie wahrscheinlich ist K-K?\"",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du wirfst zwei Münzen gleichzeitig. Jede Münze zeigt Kopf (K) oder Zahl (Z).",
+      "kontext": "Du wirfst zwei Münzen gleichzeitig. Jede Münze zeigt Kopf (K) oder Zahl (Z).",
       "items": [
         {
           "label": "a",
@@ -1480,7 +1487,7 @@
   },
   {
     "titel": "Farbkombinationen — 3 Farben auf 2 Plätze",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 72,
@@ -1499,8 +1506,9 @@
     "didaktischerHinweis": "Hier zählt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. Kinder erkennen den Unterschied: Rot-Blau sieht ANDERS aus als Blau-Rot.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du hast 3 Farben: Rot, Blau, Gelb. Du malst ein Muster mit 2 Feldern — das linke und das rechte Feld. Jedes Feld bekommt eine andere Farbe.",
+      "kontext": "Du hast 3 Farben: Rot, Blau, Gelb. Du malst ein Muster mit 2 Feldern — das linke und das rechte Feld. Jedes Feld bekommt eine andere Farbe.",
       "items": [
         {
           "label": "a",
@@ -1517,7 +1525,7 @@
   },
   {
     "titel": "Spielplan erstellen — 5 Teams",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 73,
@@ -1536,8 +1544,9 @@
     "didaktischerHinweis": "Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+3+2+1=10 ist die nächste Stufe. Kinder können das Muster erkennen: Bei 3 Teams: 3, bei 4 Teams: 6, bei 5 Teams: 10.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Beim Völkerball-Turnier gibt es 5 Mannschaften: A, B, C, D, E. Jede spielt einmal gegen jede andere.",
+      "kontext": "Beim Völkerball-Turnier gibt es 5 Mannschaften: A, B, C, D, E. Jede spielt einmal gegen jede andere.",
       "items": [
         {
           "label": "a",
@@ -1554,7 +1563,7 @@
   },
   {
     "titel": "Eis bestellen — 3 Kugeln aus 4 Sorten",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 72,
@@ -1573,12 +1582,13 @@
     "didaktischerHinweis": "Der Trick \"3 aus 4 wählen = 1 weglassen\" ist ein eleganter Perspektivwechsel. Kinder, die das entdecken, haben einen wichtigen kombinatorischen Denkschritt gemacht. Die Aufgabe zeigt: Manchmal ist Weglassen einfacher als Auswählen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "In der Eisdiele gibt es 4 Sorten: Vanille (V), Schoko (S), Erdbeere (E) und Zitrone (Z). Du bestellst 3 verschiedene Kugeln. Die Reihenfolge spielt keine Rolle.",
+      "kontext": "In der Eisdiele gibt es 4 Sorten: Vanille (V), Schoko (S), Erdbeere (E) und Zitrone (Z). Du bestellst 3 verschiedene Kugeln. Die Reihenfolge spielt keine Rolle.",
       "items": [
         {
           "label": "1",
-          "frage": "In der Eisdiele gibt es 4 Sorten: Vanille (V), Schoko (S), Erdbeere (E) und Zitrone (Z). Du bestellst 3 verschiedene Kugeln. Die Reihenfolge spielt keine Rolle.\n\nWie viele verschiedene Eisbecher gibt es?",
+          "frage": "Wie viele verschiedene Eisbecher gibt es?",
           "antwort": "4"
         }
       ]
@@ -1633,7 +1643,7 @@
   },
   {
     "titel": "Zifferncodes — eine Stelle fixiert",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "grün",
     "buchseite": 73,
@@ -1652,12 +1662,13 @@
     "didaktischerHinweis": "Fixierte Stellen reduzieren die Anzahl drastisch: Von potentiell vielen auf nur 2. Kinder lernen: Je mehr man weiß, desto weniger Möglichkeiten bleiben. Alltagsbezug (Fahrradschloss) motiviert.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Finn hat einen 4-stelligen Code für sein Fahrradschloss. Er weiß noch:\n- Die erste Ziffer ist 3.\n- Die letzte Ziffer ist 7.\n- Die beiden mittleren Ziffern sind 5 und 9 (in unbekannter Reihenfolge).",
+      "kontext": "Finn hat einen 4-stelligen Code für sein Fahrradschloss. Er weiß noch:\n- Die erste Ziffer ist 3.\n- Die letzte Ziffer ist 7.\n- Die beiden mittleren Ziffern sind 5 und 9 (in unbekannter Reihenfolge).",
       "items": [
         {
           "label": "1",
-          "frage": "Finn hat einen 4-stelligen Code für sein Fahrradschloss. Er weiß noch:\n- Die erste Ziffer ist 3.\n- Die letzte Ziffer ist 7.\n- Die beiden mittleren Ziffern sind 5 und 9 (in unbekannter Reihenfolge).\n\nWie viele Codes muss Finn ausprobieren?",
+          "frage": "Wie viele Codes muss Finn ausprobieren?",
           "antwort": "2 Codes: 3597 und 3957"
         }
       ]
@@ -1769,7 +1780,7 @@
   },
   {
     "titel": "Münzen werfen — drei Münzen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "orange",
     "buchseite": 73,
@@ -1788,8 +1799,9 @@
     "didaktischerHinweis": "Erweiterung auf 3 Münzen (2^3 = 8). Das Baumdiagramm wird größer, bleibt aber überschaubar. Teil c) führt in die Wahrscheinlichkeit ein: 3 von 8 Ergebnissen haben genau 2 × Kopf.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du wirfst drei Münzen gleichzeitig. Jede zeigt Kopf (K) oder Zahl (Z).",
+      "kontext": "Du wirfst drei Münzen gleichzeitig. Jede zeigt Kopf (K) oder Zahl (Z).",
       "items": [
         {
           "label": "a",
@@ -1993,7 +2005,7 @@
   },
   {
     "titel": "Augensumme mit zwei Würfeln — welche kommt am öftesten?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 74,
@@ -2012,8 +2024,9 @@
     "didaktischerHinweis": "Kernaufgabe der Würfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrscheinlich. Die 7 hat die meisten Möglichkeiten (6), die 2 die wenigsten (1). Dieses Ergebnis widerspricht oft der kindlichen Intuition und ist ein Aha-Erlebnis.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
+      "kontext": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
       "items": [
         {
           "label": "a",
@@ -2502,7 +2515,7 @@
   },
   {
     "titel": "Strichliste für einen kurzen Satz",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -2521,12 +2534,13 @@
     "didaktischerHinweis": "Kurzer Satz als überschaubarer Einstieg in die Strichliste. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger als alles gleichzeitig zu zählen. Typische Fehlerquelle: Doppelbuchstaben (SS) nicht als einen zählen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Zähle die Buchstaben in diesem Satz:\n\n**\"Meine Katze heißt Luna.\"**",
+      "kontext": "Zähle die Buchstaben in diesem Satz:\n\n**\"Meine Katze heißt Luna.\"**",
       "items": [
         {
           "label": "1",
-          "frage": "Zähle die Buchstaben in diesem Satz:\n\n**\"Meine Katze heißt Luna.\"**\n\nFülle die Strichliste aus für: E, I, A, N, T, S",
+          "frage": "Fülle die Strichliste aus für: E, I, A, N, T, S",
           "antwort": "| Buchstabe | Anzahl |"
         }
       ]
@@ -2534,7 +2548,7 @@
   },
   {
     "titel": "Namensliste — welcher Buchstabe kommt am öftesten?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -2553,8 +2567,9 @@
     "didaktischerHinweis": "Namenlisten sind persönlich und motivierend. Die Zählung trainiert Sorgfalt und Systematik. Dass A (nicht E!) am häufigsten ist, überrascht — in kurzen Listen können sich die Verhältnisse umkehren. Das ist ein wichtiger Lernmoment: Kurze Texte zeigen nicht immer das Gesamtmuster.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In der Klasse 3b gibt es diese Vornamen:\nEMMA, LENA, TIM, MIA, LEON, FINN, SOPHIA, PAUL",
+      "kontext": "In der Klasse 3b gibt es diese Vornamen:\nEMMA, LENA, TIM, MIA, LEON, FINN, SOPHIA, PAUL",
       "items": [
         {
           "label": "a",
@@ -2576,7 +2591,7 @@
   },
   {
     "titel": "Strichliste in eine Tabelle übertragen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -2595,8 +2610,9 @@
     "didaktischerHinweis": "Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Die 5er-Bündelung (Querstrich) muss beherrscht werden. Teil c) verbindet Datenanalyse mit Addition.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |",
+      "kontext": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |",
       "items": [
         {
           "label": "a",
@@ -2618,7 +2634,7 @@
   },
   {
     "titel": "Lieblings-Buchstabe finden — Textanalyse",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -2637,8 +2653,9 @@
     "didaktischerHinweis": "Ein Satz mit vielen M und I — überraschend, denn normalerweise ist E am häufigsten. In kurzen Texten können andere Buchstaben überwiegen. Das zeigt: Häufigkeitsmuster werden erst bei längeren Texten stabil.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Untersuche diesen Satz:\n\n**\"Tim und Mia spielen im Garten mit dem Ball.\"**",
+      "kontext": "Untersuche diesen Satz:\n\n**\"Tim und Mia spielen im Garten mit dem Ball.\"**",
       "items": [
         {
           "label": "a",
@@ -2722,7 +2739,7 @@
   },
   {
     "titel": "Säulendiagramm zeichnen — einfache Daten",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 76,
@@ -2741,8 +2758,9 @@
     "didaktischerHinweis": "Nur Vokale zählen reduziert die Komplexität (5 statt 26 Buchstaben). Die Frage d) erfordert Vergleich einer Einzelhäufigkeit mit der Summe der anderen — ein anspruchsvoller Denkschritt.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In einem Text wurden die Vokale gezählt:\n\n| Vokal | A | E | I | O | U |\n|-------|---|---|---|---|---|\n| Anzahl | 6 | 14 | 8 | 4 | 2 |",
+      "kontext": "In einem Text wurden die Vokale gezählt:\n\n| Vokal | A | E | I | O | U |\n|-------|---|---|---|---|---|\n| Anzahl | 6 | 14 | 8 | 4 | 2 |",
       "items": [
         {
           "label": "a",
@@ -2769,7 +2787,7 @@
   },
   {
     "titel": "Häufigsten Buchstaben im eigenen Namen finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 76,
@@ -2788,8 +2806,9 @@
     "didaktischerHinweis": "Persönlicher Bezug: Die eigene Familie untersuchen macht die Aufgabe besonders motivierend. Die Zählung trainiert Sorgfalt. Das Ergebnis kann von der allgemeinen Buchstabenhäufigkeit abweichen — das ist ein lehrreiches Gesprächsthema.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Untersuche die Vornamen deiner Familie. Beispiel: PHILIPPA, MATHIAS, CHARLOTTE, MAXIMILIAN",
+      "kontext": "Untersuche die Vornamen deiner Familie. Beispiel: PHILIPPA, MATHIAS, CHARLOTTE, MAXIMILIAN",
       "items": [
         {
           "label": "a",
@@ -2854,7 +2873,7 @@
   },
   {
     "titel": "Diagramm ablesen — Wie oft kommt jeder Buchstabe vor?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 77,
@@ -2873,8 +2892,9 @@
     "didaktischerHinweis": "Skalierte Diagramme lesen: 1 Kästchen ≠ 1 Buchstabe! Die Multiplikation mit dem Skalenfaktor (3) ist der Schlüssel. Teil c) verbindet Diagrammlesen mit Problemlösen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In einem Säulendiagramm sind die Buchstabenhäufigkeiten dargestellt. 1 Kästchen = 3 Buchstaben.\n\n| Buchstabe | Kästchen |\n|-----------|-----------|\n| E | 6 Kästchen |\n| N | 4 Kästchen |\n| R | 3 Kästchen |\n| T | 5 Kästchen |\n| S | 2 Kästchen |",
+      "kontext": "In einem Säulendiagramm sind die Buchstabenhäufigkeiten dargestellt. 1 Kästchen = 3 Buchstaben.\n\n| Buchstabe | Kästchen |\n|-----------|-----------|\n| E | 6 Kästchen |\n| N | 4 Kästchen |\n| R | 3 Kästchen |\n| T | 5 Kästchen |\n| S | 2 Kästchen |",
       "items": [
         {
           "label": "a",

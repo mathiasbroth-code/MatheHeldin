@@ -142,7 +142,7 @@
   },
   {
     "titel": "Gemeinsame Vielfache — 3 und 4",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "gelb",
     "buchseite": 78,
@@ -161,7 +161,7 @@
     "didaktischerHinweis": "Gemeinsame Vielfache von 3 und 4 sind Vielfache von 12. Diese Erkenntnis wird nicht erzwungen, aber manche Kinder sehen das Muster.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -253,7 +253,7 @@
   },
   {
     "titel": "Gemeinsame Vielfache — 6 und 9",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 78,
@@ -272,7 +272,7 @@
     "didaktischerHinweis": "Die gemeinsamen Vielfachen von 6 und 9 sind die Vielfachen von 18 (dem kgV). Die Beobachtung \"jedes dritte\" fördert Mustererkennung.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -330,7 +330,7 @@
   },
   {
     "titel": "Vielfache in der Sachaufgabe — Eierkartons",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 78,
@@ -349,8 +349,9 @@
     "didaktischerHinweis": "Alltagsbezug macht Vielfache und Division mit Rest greifbar. Die Frage c) verbindet Vielfache und Division.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "In einen Eierkarton passen 6 Eier. Die Bäuerin hat 50 Eier.",
+      "kontext": "In einen Eierkarton passen 6 Eier. Die Bäuerin hat 50 Eier.",
       "items": [
         {
           "label": "a",
@@ -423,7 +424,7 @@
   },
   {
     "titel": "Zahlenrätsel — Vielfaches finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 78,
@@ -442,8 +443,9 @@
     "didaktischerHinweis": "Zahlenrätsel mit mehreren Bedingungen fördern systematisches Eingrenzen. Bei c) entsteht natürlich die Idee der gemeinsamen Vielfachen.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde die Zahl.",
+      "kontext": "Finde die Zahl.",
       "items": [
         {
           "label": "a",
@@ -544,7 +546,7 @@
   },
   {
     "titel": "Vielfache am Zahlenstrahl — Muster erkennen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 78,
@@ -563,8 +565,9 @@
     "didaktischerHinweis": "Visuell-systematische Aufgabe, die den Mengen-Gedanken (Schnittmenge, Differenzmenge) spielerisch einführt. Fördert genaues Arbeiten.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Auf dem Zahlenstrahl von 0 bis 60 sind alle Vielfachen von 4 und alle Vielfachen von 6 markiert.",
+      "kontext": "Auf dem Zahlenstrahl von 0 bis 60 sind alle Vielfachen von 4 und alle Vielfachen von 6 markiert.",
       "items": [
         {
           "label": "a",
@@ -586,7 +589,7 @@
   },
   {
     "titel": "Kniffliges Zahlenrätsel — Vielfache mit Bedingungen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 78,
@@ -605,12 +608,13 @@
     "didaktischerHinweis": "Mehrstufiges Rätsel mit drei Bedingungen. Das Kind muss systematisch eingrenzen: erst Vielfache finden, dann filtern.",
     "erklaerungBild": "assets/erklaerungen/s78-merkkasten-vielfache.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Ich denke mir eine Zahl.\n\nSie ist ein Vielfaches von 8.\nSie ist größer als 70 und kleiner als 100.\nIhre Quersumme ist ungerade.",
+      "kontext": "Ich denke mir eine Zahl.\n\nSie ist ein Vielfaches von 8.\nSie ist größer als 70 und kleiner als 100.\nIhre Quersumme ist ungerade.",
       "items": [
         {
           "label": "1",
-          "frage": "Ich denke mir eine Zahl.\n\nSie ist ein Vielfaches von 8.\nSie ist größer als 70 und kleiner als 100.\nIhre Quersumme ist ungerade.\n\nWelche Zahl(en) kommen in Frage?",
+          "frage": "Welche Zahl(en) kommen in Frage?",
           "antwort": "72 und 88 und 96."
         }
       ]
@@ -754,7 +758,7 @@
   },
   {
     "titel": "Wie viele Teiler hat die Zahl?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "gelb",
     "buchseite": 79,
@@ -773,8 +777,9 @@
     "didaktischerHinweis": "Zählen der Teiler fördert sorgfältiges Arbeiten. Die Besonderheit der \"Quadratzahl\" 16 (wo 4 × 4 = 16) ist ein Lernmoment.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler und zähle sie.",
+      "kontext": "Finde alle Teiler und zähle sie.",
       "items": [
         {
           "label": "a",
@@ -796,7 +801,7 @@
   },
   {
     "titel": "Gemeinsame Teiler — Zwei Zahlen vergleichen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 79,
@@ -815,8 +820,9 @@
     "didaktischerHinweis": "Vorstufe zum ggT. Das systematische Vergleichen zweier Teilermengen ist eine zentrale mathematische Tätigkeit.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde die Teiler beider Zahlen. Welche Teiler haben sie gemeinsam?",
+      "kontext": "Finde die Teiler beider Zahlen. Welche Teiler haben sie gemeinsam?",
       "items": [
         {
           "label": "a",
@@ -933,7 +939,7 @@
   },
   {
     "titel": "Welche Zahl hat die meisten Teiler?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 79,
@@ -952,8 +958,9 @@
     "didaktischerHinweis": "Vergleichsaufgabe, die systematisches Arbeiten erfordert. Die Erkenntnis, dass 24 besonders viele Teiler hat, ist interessant.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler und zähle sie. Welche Zahl hat die meisten Teiler?",
+      "kontext": "Finde alle Teiler und zähle sie. Welche Zahl hat die meisten Teiler?",
       "items": [
         {
           "label": "a",
@@ -1017,7 +1024,7 @@
   },
   {
     "titel": "Primzahlen-Entdecker — Zahlen mit nur 2 Teilern",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 79,
@@ -1036,8 +1043,9 @@
     "didaktischerHinweis": "Spielerische Einführung des Primzahl-Begriffs. Das Kind entdeckt selbst, dass manche Zahlen \"besonders wenige\" Teiler haben.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler der folgenden Zahlen. Welche Zahlen haben genau ZWEI Teiler (nur 1 und sich selbst)?",
+      "kontext": "Finde alle Teiler der folgenden Zahlen. Welche Zahlen haben genau ZWEI Teiler (nur 1 und sich selbst)?",
       "items": [
         {
           "label": "a",
@@ -2796,7 +2804,7 @@
   },
   {
     "titel": "Division als Umkehrung — Welche Multiplikation steckt dahinter?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Schriftliches Dividieren vertiefen",
     "schwierigkeit": "orange",
     "buchseite": 89,
@@ -2821,8 +2829,9 @@
     "didaktischerHinweis": "Explizite Verknüpfung von Division und Multiplikation als Umkehroperationen. Bei b) geht jede Stelle glatt auf — das gibt Sicherheit.",
     "erklaerungBild": "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Löse die Division und schreibe die passende Multiplikation (Probe) dazu.",
+      "kontext": "Löse die Division und schreibe die passende Multiplikation (Probe) dazu.",
       "items": [
         {
           "label": "a",
