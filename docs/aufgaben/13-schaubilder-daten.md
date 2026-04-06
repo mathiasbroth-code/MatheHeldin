@@ -9,13 +9,14 @@ Buchseiten: 122-123 | Themen: 1 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 titel: "Tabelle lesen — Werte ablesen und vergleichen"
-typ: eingabe
+typ: textaufgabe
 thema: "Tabellen und Diagramme"
 schwierigkeit: gelb
 buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -68,6 +69,7 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -115,6 +117,7 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -157,6 +160,7 @@ buchseite: 123
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -209,6 +213,7 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -255,6 +260,7 @@ buchseite: 122
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung
@@ -287,13 +293,14 @@ Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.
 
 ---
 titel: "Eigene Größe einschätzen — Wie groß wirst du?"
-typ: eingabe
+typ: textaufgabe
 thema: "Tabellen und Diagramme"
 schwierigkeit: orange
 buchseite: 123
 kapitel: "13-schaubilder-daten"
 stage_id: "tabellen-diagramme"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s122-begriffe-mittelwert.webp"
 ---
 
 ### Aufgabenstellung

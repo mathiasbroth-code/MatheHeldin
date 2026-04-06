@@ -16,7 +16,7 @@ buchseite: 18
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -76,7 +76,7 @@ buchseite: 18
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -115,14 +115,14 @@ Diese Aufgabe fördert das Verständnis der Beziehungen zwischen Stellenwerten. 
 
 ---
 titel: "Blöcke in Stellenwerttafel eintragen"
-typ: eingabe
+typ: textaufgabe
 thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -175,7 +175,7 @@ buchseite: 19
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -224,7 +224,7 @@ buchseite: 19
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -273,7 +273,7 @@ buchseite: 19
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -319,7 +319,7 @@ buchseite: 19
 kapitel: "02-zahlen-bis-million"
 stage_id: "millionen-würfel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
@@ -686,7 +686,7 @@ Das Zusammensetzen aus Stellenwert-Summanden ist die Umkehr des Zerlegens und tr
 
 ---
 titel: "Zahlenrätsel — Welche Zahlen können es sein?"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen zerlegen"
 schwierigkeit: orange
 buchseite: 21
@@ -732,7 +732,7 @@ Zahlenrätsel fördern logisches Denken und das flexible Arbeiten mit Stellenwer
 
 ---
 titel: "Zahl aus Zahlwort und Stellenwerten zusammensetzen"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen zerlegen"
 schwierigkeit: grün
 buchseite: 21
@@ -978,7 +978,7 @@ Die Umkehr der vorherigen Aufgabe: Hier gibt es immer 6 Möglichkeiten (eine pro
 
 ---
 titel: "Zahlenrätsel — Zahl mit Bedingungen finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen vergleichen und verändern"
 schwierigkeit: orange
 buchseite: 23
@@ -1023,7 +1023,7 @@ Diese Zahlenrätsel verknüpfen das Stellenwertverständnis mit logischem Denken
 
 ---
 titel: "Vier Plättchen in der Stellenwerttafel — größte und kleinste Zahl"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen vergleichen und verändern"
 schwierigkeit: orange
 buchseite: 23
@@ -1074,14 +1074,14 @@ Diese offene Aufgabe fördert das strategische Denken über Stellenwerte. Kinder
 
 ---
 titel: "Rechenpäckchen — Welche Stelle ändert sich?"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1135,7 +1135,7 @@ buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1193,14 +1193,14 @@ Die Ergänzung der fehlenden Summanden fordert das Erkennen des Musters heraus. 
 
 ---
 titel: "Kopfrechnen mit Tausendern"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1242,14 +1242,14 @@ Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufga
 
 ---
 titel: "Kopfrechnen — Addition und Subtraktion mit Hundertern"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1295,7 +1295,7 @@ buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1334,14 +1334,14 @@ Diese offene Aufgabe fördert das Überschlagen und strategische Denken. Es gibt
 
 ---
 titel: "Kopfrechnen — verwandte Aufgaben mit Hundertern und Tausendern"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1381,14 +1381,14 @@ Durch das bewusste Markieren der sich ändernden Stelle wird das Rechnen mit gro
 
 ---
 titel: "Kopfrechnen — gemischte Addition mit Hundertern und Tausendern"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
 stage_id: "kopfrechnen-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1436,7 +1436,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1480,7 +1481,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1522,7 +1524,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1565,7 +1568,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1616,7 +1620,8 @@ buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1662,7 +1667,8 @@ buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1704,7 +1710,8 @@ buchseite: 27
 kapitel: "02-zahlen-bis-million"
 stage_id: "schätzen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-schaetzen.webp"
+tipp_1_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1751,7 +1758,9 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1799,14 +1808,16 @@ Das Ablesen am Zahlenstrahl mit großen Zahlen erfordert zunächst die Analyse d
 
 ---
 titel: "Zahlenstrahl — verschiedene Ausschnitte"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1854,14 +1865,16 @@ Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen tr
 
 ---
 titel: "Vorgänger und Nachfolger am Zahlenstrahl"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1914,7 +1927,9 @@ buchseite: 29
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1969,7 +1984,9 @@ buchseite: 29
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2020,7 +2037,9 @@ buchseite: 28
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlenstrahl-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp"
+tipp_2_bild: "assets/erklaerungen/s30-zahlenstrahl-intro.webp"
+tipp_1_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2071,14 +2090,14 @@ Das freie Einordnen ohne Skalierung trainiert das Zahlenverständnis und die Pro
 
 ---
 titel: "Nachbar-Tausender bestimmen"
-typ: eingabe
+typ: textaufgabe
 thema: "Nachbarzahlen"
 schwierigkeit: gelb
 buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2127,14 +2146,14 @@ Nachbar-Tausender sind die Grundlage für das Runden auf Tausender. Das Kind sol
 
 ---
 titel: "Nachbar-Hunderter bestimmen und Abstand berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Nachbarzahlen"
 schwierigkeit: grün
 buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2177,14 +2196,14 @@ Die Abstandsberechnung bereitet das Runden vor: Die Zahl wird zum näheren Nachb
 
 ---
 titel: "Nachbar-T, Nachbar-ZT und Nachbar-HT bestimmen"
-typ: eingabe
+typ: textaufgabe
 thema: "Nachbarzahlen"
 schwierigkeit: grün
 buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2247,7 +2266,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2299,7 +2318,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2348,7 +2367,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2399,14 +2419,15 @@ Das Runden ist eine Schlüsselkompetenz für das Überschlagen und den Alltag. D
 
 ---
 titel: "Runden auf Tausender — ohne markierte Stelle"
-typ: eingabe
+typ: textaufgabe
 thema: "Runden"
 schwierigkeit: grün
 buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2454,14 +2475,15 @@ Der Schritt "zuerst die Entscheidungsstelle markieren" ist ein wichtiger Zwische
 
 ---
 titel: "Stadion-Zuschauerzahlen runden"
-typ: eingabe
+typ: textaufgabe
 thema: "Runden"
 schwierigkeit: grün
 buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2516,7 +2538,8 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2564,14 +2587,15 @@ Diese Umkehr-Aufgabe erfordert ein tiefes Verständnis des Rundungsprozesses. Da
 
 ---
 titel: "Runden auf verschiedene Stellen"
-typ: eingabe
+typ: textaufgabe
 thema: "Runden"
 schwierigkeit: orange
 buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s33-regel-runden-tausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2625,7 +2649,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2677,7 +2702,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2727,14 +2753,15 @@ Das Runden auf Zehntausender erweitert das Prinzip auf eine höhere Stellenwerte
 
 ---
 titel: "Verschiedene Rundungen vergleichen"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: grün
 buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2783,7 +2810,8 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2831,14 +2859,15 @@ Die Umkehr-Aufgabe "Welche Zahl ergibt gerundet X?" erfordert das Verständnis d
 
 ---
 titel: "Einwohnerzahlen runden und vergleichen"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: gelb
 buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2883,14 +2912,15 @@ Einwohnerzahlen sind ein idealer Alltagskontext für das Runden: Niemand nennt d
 
 ---
 titel: "Runden und am Zahlenstrahl einordnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: orange
 buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2941,14 +2971,15 @@ Die Kombination von Runden und Einordnen am Zahlenstrahl verbindet zwei Kompeten
 
 ---
 titel: "Zahlen runden — offene Aufgabe"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: orange
 buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -2998,7 +3029,8 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
+erklaerung_bild: "assets/erklaerungen/s33-merkkasten-runden.webp"
+tipp_2_bild: "assets/erklaerungen/s34-regel-runden-zehntausender.webp"
 ---
 
 ### Aufgabenstellung
@@ -3062,6 +3094,7 @@ kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
 ---
 
 ### Aufgabenstellung
@@ -3103,6 +3136,7 @@ kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
 ---
 
 ### Aufgabenstellung
@@ -3154,6 +3188,7 @@ kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
 ---
 
 ### Aufgabenstellung
@@ -3205,6 +3240,7 @@ kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
 ---
 
 ### Aufgabenstellung
@@ -3256,6 +3292,7 @@ kapitel: "02-zahlen-bis-million"
 stage_id: "hohe-hausnummer"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+tipp_1_bild: "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp"
 ---
 
 ### Aufgabenstellung

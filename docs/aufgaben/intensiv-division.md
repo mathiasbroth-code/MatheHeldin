@@ -155,7 +155,7 @@ Wahr-falsch-Format senkt die Einstiegshürde. Kinder müssen nur prüfen, nicht 
 
 ---
 titel: "Gemeinsame Vielfache — 3 und 4"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: gelb
 buchseite: 78
@@ -288,7 +288,7 @@ Kombination aus Vielfachen und Grundrechenarten. Trainiert das Lesen mathematisc
 
 ---
 titel: "Gemeinsame Vielfache — 6 und 9"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: grün
 buchseite: 78
@@ -378,7 +378,7 @@ Multiple-Choice senkt die Hürde. Das Kind muss systematisch prüfen und lernt, 
 
 ---
 titel: "Vielfache in der Sachaufgabe — Eierkartons"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: grün
 buchseite: 78
@@ -471,7 +471,7 @@ Fördert logisches Denken und das Argumentieren mit Gegenbeispielen. Die Untersc
 
 ---
 titel: "Zahlenrätsel — Vielfaches finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: grün
 buchseite: 78
@@ -603,7 +603,7 @@ Kombinierte Rechnung mit größeren Zahlen. Die Kinder müssen die Texte systema
 
 ---
 titel: "Vielfache am Zahlenstrahl — Muster erkennen"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: orange
 buchseite: 78
@@ -648,7 +648,7 @@ Visuell-systematische Aufgabe, die den Mengen-Gedanken (Schnittmenge, Differenzm
 
 ---
 titel: "Kniffliges Zahlenrätsel — Vielfache mit Bedingungen"
-typ: eingabe
+typ: textaufgabe
 thema: "Vielfache von Zahlen"
 schwierigkeit: orange
 buchseite: 78
@@ -706,6 +706,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -752,6 +753,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -804,6 +806,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -839,7 +842,7 @@ Zahlen mit vielen Teilern (24 hat 8 Teiler) sind gutes Übungsmaterial. Die Paar
 
 ---
 titel: "Wie viele Teiler hat die Zahl?"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: gelb
 buchseite: 79
@@ -847,6 +850,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -883,7 +887,7 @@ Zählen der Teiler fördert sorgfältiges Arbeiten. Die Besonderheit der "Quadra
 
 ---
 titel: "Gemeinsame Teiler — Zwei Zahlen vergleichen"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: grün
 buchseite: 79
@@ -891,6 +895,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -936,6 +941,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -980,6 +986,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1024,7 +1031,7 @@ Aussage c) ist ein typischer Denkfehler. "Gerade" bedeutet nur "durch 2 teilbar"
 
 ---
 titel: "Welche Zahl hat die meisten Teiler?"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: grün
 buchseite: 79
@@ -1032,6 +1039,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1079,6 +1087,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1113,7 +1122,7 @@ Systematisches Ausschlussverfahren mit mehreren Bedingungen. Die Strategie "mit 
 
 ---
 titel: "Primzahlen-Entdecker — Zahlen mit nur 2 Teilern"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: orange
 buchseite: 79
@@ -1121,6 +1130,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1175,6 +1185,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1221,6 +1232,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1255,7 +1267,7 @@ Alltagsbezug Schokolade. Teil b) zeigt: Nicht jede Aufteilung geht auf — das m
 
 ---
 titel: "Teiler-Rätsel — Nur eine Zahl passt"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: orange
 buchseite: 79
@@ -1263,6 +1275,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1314,6 +1327,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1363,6 +1377,7 @@ kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
+tipp_2_bild: "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1603,12 +1618,12 @@ tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ### Aufgabenstellung
 Rechne 84 : 6 auf zwei verschiedene Wege halbschriftlich.
 
-Weg 1: Zerlege in 60 + 24
-Weg 2: Zerlege in 48 + 36
+a) Weg 1: Zerlege 84 in 60 + 24. Rechne 60 : 6 und 24 : 6. Was ergibt die Summe?
+b) Weg 2: Zerlege 84 in 48 + 36. Rechne 48 : 6 und 36 : 6. Was ergibt die Summe?
 
 ### Lösung
-Weg 1: 60 : 6 = 10, 24 : 6 = 4 → 10 + 4 = 14
-Weg 2: 48 : 6 = 8, 36 : 6 = 6 → 8 + 6 = 14
+a) 60 : 6 = 10, 24 : 6 = 4 → 10 + 4 = 14
+b) 48 : 6 = 8, 36 : 6 = 6 → 8 + 6 = 14
 
 Beide Wege ergeben 14!
 
@@ -2108,6 +2123,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2165,6 +2181,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2225,6 +2242,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2277,6 +2295,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2337,6 +2356,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2387,6 +2407,7 @@ stage_id: "schriftlich-dividieren-1"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
+tipp_3_bild: "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp"
 ---
 
 ### Aufgabenstellung
@@ -2431,6 +2452,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2481,6 +2503,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2528,6 +2551,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2587,6 +2611,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2639,6 +2664,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2685,6 +2711,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2730,6 +2757,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2788,6 +2816,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -2831,7 +2860,7 @@ Doppelte Nullen im Ergebnis sind der schwierigste Fall. Explizites Üben baut Si
 
 ---
 titel: "Division als Umkehrung — Welche Multiplikation steckt dahinter?"
-typ: eingabe
+typ: textaufgabe
 thema: "Schriftliches Dividieren vertiefen"
 schwierigkeit: orange
 buchseite: 89
@@ -2840,6 +2869,7 @@ stage_id: "schriftlich-dividieren-2"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
+tipp_1_bild: "assets/erklaerungen/s89-typische-fehler-division.webp"
 ---
 
 ### Aufgabenstellung

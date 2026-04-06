@@ -9,7 +9,7 @@ Buchseiten: 72-77 | Themen: 4 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 titel: "Anordnung von drei Freunden — Baumdiagramm"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -17,6 +17,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -81,7 +82,7 @@ Einstieg in die Kombinatorik über das Baumdiagramm. Drei Elemente sind ideal, w
 
 ---
 titel: "Fotos zu zweit — Kombination vs. Reihenfolge"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -89,6 +90,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -144,6 +146,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -194,7 +197,7 @@ Gleiche Struktur wie Aufgabe 1, aber mit Ziffern statt Personen. Das Baumdiagram
 
 ---
 titel: "Vierstelliger Code — Erste Ziffer bekannt"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 73
@@ -202,6 +205,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -252,7 +256,7 @@ Eine fixierte erste Stelle reduziert das Problem auf 3 × 2 × 1. Kinder erkenne
 
 ---
 titel: "Fussballturnier — Spiele in einer Gruppe zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 73
@@ -260,6 +264,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -318,6 +323,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -365,7 +371,7 @@ Aufbau auf Aufgabe 5: Jetzt zwei Gruppen, die unabhängig voneinander gespielt w
 
 ---
 titel: "Vierstellige Zahlen aus Ziffernkarten bilden"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: orange
 buchseite: 73
@@ -373,6 +379,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -419,7 +426,7 @@ Erweiterung auf 4 Elemente. Das Baumdiagramm wäre mit 24 Enden sehr groß — h
 
 ---
 titel: "Eissorten kombinieren — Baumdiagramm"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -427,6 +434,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -484,6 +492,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -526,7 +535,7 @@ Grundlagen der Wahrscheinlichkeit: den Ergebnisraum bestimmen. Kinder müssen ve
 
 ---
 titel: "Möglichkeiten für Augensummen zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: grün
 buchseite: 74
@@ -534,6 +543,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -582,7 +592,7 @@ Die systematische Tabelle aller 36 Kombinationen ist das zentrale Werkzeug. Kind
 
 ---
 titel: "Sicher, möglich oder unmöglich?"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 74
@@ -590,10 +600,11 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?
+Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.
 
 a) Die Augensumme ist größer als 1.
 b) Die Augensumme ist 7.
@@ -601,11 +612,16 @@ c) Die Augensumme ist 13.
 d) Die Augensumme ist eine gerade Zahl.
 e) Die Augensumme ist kleiner als 13.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) sicher (kleinste Summe ist 2, also immer größer als 1)
-b) möglich (z.B. 3+4=7, aber nicht bei jedem Wurf)
-c) unmöglich (größte Summe ist 12)
-d) möglich (z.B. 2+4=6, aber nicht immer)
+a) → A
+b) → B
+c) → C
+d) → B
+e) → A
 e) sicher (größte Summe ist 12, also immer kleiner als 13)
 
 ### Lösungsweg
@@ -645,6 +661,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -693,6 +710,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -751,6 +769,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -809,6 +828,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -866,6 +886,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -961,7 +982,7 @@ Intuitiver Einstieg in die Häufigkeitsanalyse. Kinder nutzen ihr Sprachgefühl,
 
 ---
 titel: "Buchstaben in einem Satz zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -1025,7 +1046,7 @@ Strichlisten sind das einfachste Werkzeug der Datenerhebung. Die Aufgabe trainie
 
 ---
 titel: "Buchstaben in einem kurzen Text zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
@@ -1086,7 +1107,7 @@ Längerer Text = mehr Daten = zuverlässigeres Ergebnis. Kinder entdecken: Das E
 
 ---
 titel: "Säulendiagramm aus Buchstabenhäufigkeiten erstellen"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
@@ -1267,7 +1288,7 @@ Diese Aufgabe verbindet Buchstabenhäufigkeiten mit strategischem Denken. Kinder
 
 ---
 titel: "Eigenen Text untersuchen — Buchstabenverteilung"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 76
@@ -1382,6 +1403,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -1436,6 +1458,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -1487,6 +1510,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -1546,6 +1570,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -1601,7 +1626,7 @@ Fairness beurteilen ist ein zentrales Thema der Wahrscheinlichkeitslehre. Das Ki
 
 ---
 titel: "Augensummen mit drei Würfeln"
-typ: eingabe
+typ: textaufgabe
 thema: "Würfelspiele — Augensummen"
 schwierigkeit: orange
 buchseite: 75
@@ -1609,6 +1634,7 @@ kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wuerfelspiele"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung

@@ -9,7 +9,7 @@ Buchseiten: 92-103 | Themen: 7 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 titel: "Pizza teilen — Bruch verstehen"
-typ: eingabe
+typ: textaufgabe
 thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
@@ -18,6 +18,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -66,6 +67,7 @@ stage_id: "einfache-brüche"
 digital: platzhalter
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -76,6 +78,15 @@ Diese Aufgabe erfordert Papier und Stifte: Zeichne ein Rechteck und teile es in 
 Original: "Zeichne ein Rechteck mit den Seitenlängen 6 cm und 8 cm. Teile es in vier gleich große Teile. Finde verschiedene Möglichkeiten. Färbe jeweils ein Viertel grün."
 
 **Mögliche digitale Alternative:** Multiple-Choice: "Welches Bild zeigt ein Viertel des Rechtecks?"
+
+### Tipp 1 (Denkanstoß)
+Ein Viertel bedeutet: Du teilst das Rechteck in vier gleich große Stücke. Stell dir vor, du faltest das Blatt — welche Faltlinien ergeben vier gleiche Teile?
+
+### Tipp 2 (Methode)
+Es gibt mehrere Möglichkeiten: Du kannst das Rechteck mit einem senkrechten und einem waagerechten Schnitt in vier Teile teilen. Oder mit zwei senkrechten Schnitten. Probiere verschiedene Linien!
+
+### Tipp 3 (Schritt-für-Schritt)
+Zeichne das Rechteck (6 cm x 8 cm). Ziehe eine Linie bei 3 cm von links (Mitte der langen Seite) und eine bei 4 cm von oben (Mitte der kurzen Seite). Jetzt hast du vier gleiche Teile — faerbe eines davon gruen.
 
 ### Didaktischer Hinweis
 Das Zeichnen und Teilen von Flächen ist haptisch wertvoller als digital. Entspricht S. 92, Aufg. 2.
@@ -95,6 +106,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -149,6 +161,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -190,7 +203,7 @@ Diese Aufgabe baut das Verständnis für äquivalente Brüche und den Zusammenha
 
 ---
 titel: "Gefärbter Anteil des Kreises — Bruch ablesen"
-typ: eingabe
+typ: textaufgabe
 thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
@@ -199,6 +212,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -252,6 +266,7 @@ stage_id: "einfache-brüche"
 digital: teilweise
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -294,6 +309,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -347,6 +363,7 @@ stage_id: "einfache-brüche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
+tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -393,7 +410,7 @@ Alltagsbrüche verankern den Bruchbegriff in der Lebenswelt des Kindes. Entspric
 
 ---
 titel: "Milliliter und Liter — Grundumrechnung"
-typ: eingabe
+typ: textaufgabe
 thema: "Liter und Milliliter"
 schwierigkeit: gelb
 buchseite: 94
@@ -557,7 +574,7 @@ Umkehraufgaben festigen das Verständnis für die Beziehung zwischen Milliliter-
 
 ---
 titel: "Gemischte Angaben umwandeln — l und ml"
-typ: eingabe
+typ: textaufgabe
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 95
@@ -778,7 +795,7 @@ Klassisches Knobelrätsel, das logisches Denken und den Umgang mit Hohlmaßen ve
 
 ---
 titel: "Täglicher Wasserverbrauch — Summe berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 96
@@ -837,7 +854,7 @@ Sachbezogene Addition mit realistischen Alltagsdaten. Entspricht S. 96, Aufg. 2a
 
 ---
 titel: "Wasserverbrauch hochrechnen — Woche und Monat"
-typ: eingabe
+typ: textaufgabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 96
@@ -879,7 +896,7 @@ Multiplikation mit sachbezogenem Kontext. Die Zerlegungsmethode wird als Strateg
 
 ---
 titel: "Wasserverbrauch einer Familie"
-typ: eingabe
+typ: textaufgabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 96
@@ -972,7 +989,7 @@ Mehrstufige Sachaufgabe mit Zeitumrechnung (Sekunden → Minuten) und Alltagsbez
 
 ---
 titel: "Tropfender Wasserhahn — hochrechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: orange
 buchseite: 96
@@ -1312,7 +1329,7 @@ Sortieraufgabe mit großen Zahlen im Sachkontext. Entspricht S. 97, Aufg. 2.
 
 ---
 titel: "Zentimeterwürfel zählen — Rauminhalt berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: gelb
 buchseite: 98
@@ -1404,7 +1421,7 @@ Der Dezimeterwürfel ist ein zentrales Anschauungsobjekt. Die Verbindung 1 dm³ 
 
 ---
 titel: "Quader-Rauminhalt — größere Maße"
-typ: eingabe
+typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: grün
 buchseite: 98
@@ -1449,7 +1466,7 @@ Skalierung der Volumenberechnung auf größere Maße. Die Multiplikation mit Zeh
 
 ---
 titel: "Dezimeterwürfel und Liter — der Zusammenhang"
-typ: eingabe
+typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: grün
 buchseite: 99
@@ -1587,7 +1604,7 @@ Vergleich zweier Quader schult die Volumenberechnung und die Umrechnung cm³ →
 
 ---
 titel: "Quader für 160 ml finden — rückwärts rechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: orange
 buchseite: 99
@@ -2104,18 +2121,18 @@ erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
-Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.
+Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt fuer Schritt.
 
-Schritt 1: Wie viele Sekunden hat eine Minute? ___
-Schritt 2: Wie viele Sekunden hat eine Stunde? ___
-Schritt 3: Wie viele Sekunden hat ein Tag? ___
-Schritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)
+a) Wie viele Sekunden hat eine Minute?
+b) Wie viele Sekunden hat eine Stunde?
+c) Wie viele Sekunden hat ein Tag?
+d) 1.000.000 Sekunden sind wie viele Tage? (runde auf ganze Tage)
 
 ### Lösung
-Schritt 1: 60 Sekunden
-Schritt 2: 60 × 60 = 3.600 Sekunden
-Schritt 3: 24 × 3.600 = 86.400 Sekunden
-Schritt 4: 1.000.000 : 86.400 ≈ 11,6 → ca. 11 Tage und 14 Stunden
+a) 60
+b) 3.600
+c) 86.400
+d) ca. 12 Tage
 
 ### Lösungsweg
 - 1 Minute = 60 s
@@ -2187,7 +2204,7 @@ Umrechnungsketten mit großen Zahlen trainieren den Umgang mit dem Stellenwertsy
 
 ---
 titel: "Eine Million Gramm — wie schwer?"
-typ: eingabe
+typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: grün
 buchseite: 102
@@ -2380,6 +2397,15 @@ Diese Aufgabe ist eine offene Kreativaufgabe.
 Original: "Denke dir selbst eine Millionen-Frage aus und berechne die Antwort. Zum Beispiel: Wie hoch wäre ein Turm aus 1.000.000 Ein-Cent-Münzen?"
 
 **Mögliche digitale Alternative:** Multiple-Choice: "Welche Antwort passt zur Millionen-Frage: Wie lang ist eine Kette aus 1.000.000 Büroklammern (je 3 cm)? a) 300 m b) 3 km c) 30 km d) 300 km"
+
+### Tipp 1 (Denkanstoß)
+Ueberlege dir einen Gegenstand, den du gut kennst (Muenze, Baustein, Buch). Wie gross oder schwer ist er? Was passiert, wenn du eine Million davon hintereinanderlegst oder aufeinanderstapelst?
+
+### Tipp 2 (Methode)
+Fermi-Fragen loest du so: Miss oder schaetze die Groesse eines einzelnen Gegenstands. Dann multipliziere mit 1.000.000. Wandle das Ergebnis in eine sinnvolle Einheit um (z.B. cm in km).
+
+### Tipp 3 (Schritt-für-Schritt)
+Beispiel: Eine Ein-Cent-Muenze ist etwa 1,5 mm dick. 1.000.000 mal 1,5 mm = 1.500.000 mm. Wandle um: 1.500.000 mm = 1.500 m = 1,5 km. Ein Turm aus einer Million Muenzen waere also 1,5 km hoch!
 
 ### Didaktischer Hinweis
 Offene Fermi-Aufgaben fördern Kreativität und Größenvorstellungen. Entspricht S. 102-103.

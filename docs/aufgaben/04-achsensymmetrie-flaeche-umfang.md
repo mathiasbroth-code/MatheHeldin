@@ -16,6 +16,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
 ---
 
 ### Aufgabenstellung
@@ -58,13 +60,15 @@ Diese Aufgabe trainiert das visuelle Erkennen von Symmetrieachsen an vertrauten 
 
 ---
 titel: "Wie viele Symmetrieachsen? — Formen untersuchen"
-typ: eingabe
+typ: textaufgabe
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: gelb
 buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
 ---
 
 ### Aufgabenstellung
@@ -112,6 +116,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
 ---
 
 ### Aufgabenstellung
@@ -156,6 +162,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
 ---
 
 ### Aufgabenstellung
@@ -197,6 +205,8 @@ buchseite: 46
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s46-begriffe-symmetrieachse.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-symmetrieachse.webp"
 ---
 
 ### Aufgabenstellung
@@ -242,6 +252,7 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
 ---
 
 ### Aufgabenstellung
@@ -282,6 +293,7 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
 ---
 
 ### Aufgabenstellung
@@ -322,6 +334,7 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
 ---
 
 ### Aufgabenstellung
@@ -362,6 +375,7 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
 ---
 
 ### Aufgabenstellung
@@ -402,6 +416,7 @@ buchseite: 47
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s49-merkkasten-faltschnitt.webp"
 ---
 
 ### Aufgabenstellung
@@ -451,6 +466,10 @@ buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -490,13 +509,17 @@ Diese Grundlagenaufgabe sichert die Begriffe „senkrecht" und „parallel", die
 
 ---
 titel: "Rechte Winkel finden — Wo stecken rechte Winkel?"
-typ: eingabe
+typ: textaufgabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: gelb
 buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -544,6 +567,10 @@ buchseite: 48
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -598,6 +625,10 @@ buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -636,13 +667,17 @@ Diese Aufgabe stammt aus Buch S. 49, Aufg. 7a. Sie verbindet die Begriffe „sen
 
 ---
 titel: "Rechteck zeichnen — Seitenlängen und Umfang"
-typ: eingabe
+typ: textaufgabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: grün
 buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -680,13 +715,17 @@ Die Aufgabe kombiniert Zeichnen (haptisch, mit Geodreieck) und Rechnen (Umfang).
 
 ---
 titel: "Strecken parallel oder senkrecht? — Buchstaben analysieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: orange
 buchseite: 49
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-geodreieck.webp"
+tipp_1_bild: "assets/erklaerungen/s48-merkkasten-rechter-winkel.webp"
+tipp_2_bild: "assets/erklaerungen/s48-begriffe-geodreieck.webp"
+tipp_3_bild: "assets/erklaerungen/s50-regel-senkrecht.webp"
 ---
 
 ### Aufgabenstellung
@@ -737,6 +776,10 @@ buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -782,13 +825,17 @@ Die Unterscheidung von Umfang und Flächeninhalt ist eine zentrale Kompetenz in 
 
 ---
 titel: "Einheitsquadrate zählen — Flächeninhalt bestimmen"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: gelb
 buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -828,13 +875,17 @@ Das Zählen von Einheitsquadraten legt den Grundstein für die Flächenformel (L
 
 ---
 titel: "Umfang eines Rechtecks berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -873,13 +924,17 @@ Die Umfangberechnung entspricht S. 53, Aufg. 8. Das Quadrat in c) ist bewusst en
 
 ---
 titel: "Flächeninhalt in Quadratzentimetern — Figuren auf dem Gitter"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 52
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -921,13 +976,17 @@ Diese Aufgabe entspricht S. 52, Aufg. 2-3. Die Einheit Quadratzentimeter (qcm) w
 
 ---
 titel: "Fehlende Seite berechnen — Umfang ist gegeben"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -969,13 +1028,17 @@ Das Rückwärtsrechnen mit der Umfangformel entspricht S. 53, Aufg. 9 im Buch. E
 
 ---
 titel: "Gleicher Umfang, verschiedene Formen — Was ist möglich?"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1022,6 +1085,10 @@ buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1069,6 +1136,10 @@ buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1117,13 +1188,17 @@ Diese Sachaufgabe stammt aus S. 51, Aufg. 6-7 und verbindet Flächeninhalt, Umfa
 
 ---
 titel: "Umfang von Treppenfiguren — Seiten abzählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1160,13 +1235,17 @@ Der Umfang von nicht-rechteckigen Figuren (Treppen, L-Formen, T-Formen) erforder
 
 ---
 titel: "Größter und kleinster Flächeninhalt — 16 Streichhölzer"
-typ: eingabe
+typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "flächeninhalt-umfang"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s50-merkkasten-umfang-flaecheninhalt.webp"
+tipp_1_bild: "assets/erklaerungen/s50-begriffe-umfang-flaeche.webp"
+tipp_2_bild: "assets/erklaerungen/s52-regel-umfang-flaecheninhalt.webp"
+tipp_3_bild: "assets/erklaerungen/s53-merkkasten-quadratmeter.webp"
 ---
 
 ### Aufgabenstellung

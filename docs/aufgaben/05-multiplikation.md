@@ -60,7 +60,7 @@ Das Multiplizieren mit vollen Hunderten und Tausendern ist die Grundlage für al
 
 ---
 titel: "Tausender multiplizieren — Päckchen rechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Multiplizieren im Kopf"
 schwierigkeit: gelb
 buchseite: 54
@@ -323,7 +323,7 @@ Das Dividieren mit vollen Hunderten/Tausendern nutzt das Kürzen gemeinsamer Nul
 
 ---
 titel: "Divisionspäckchen — Muster erkennen"
-typ: eingabe
+typ: textaufgabe
 thema: "Dividieren im Kopf"
 schwierigkeit: gelb
 buchseite: 55
@@ -375,7 +375,7 @@ Diese Päckchen-Aufgabe zeigt zwei wichtige Prinzipien: (1) Gleichmäßiges Verg
 
 ---
 titel: "Division mit Kontrolle — Große Zahlen"
-typ: eingabe
+typ: textaufgabe
 thema: "Dividieren im Kopf"
 schwierigkeit: grün
 buchseite: 55
@@ -423,7 +423,7 @@ Die Kontrolle durch Umkehraufgabe ist ein wichtiges Werkzeug zur Selbstkontrolle
 
 ---
 titel: "Zahlenrätsel mit Division"
-typ: eingabe
+typ: textaufgabe
 thema: "Dividieren im Kopf"
 schwierigkeit: orange
 buchseite: 55
@@ -471,7 +471,7 @@ Zahlenrätsel trainieren das Rückwärtsrechnen und algebraisches Denken. Entspr
 
 ---
 titel: "Divisionsaufgaben finden — Umkehraufgaben bilden"
-typ: eingabe
+typ: textaufgabe
 thema: "Dividieren im Kopf"
 schwierigkeit: grün
 buchseite: 55
@@ -801,7 +801,7 @@ Justus' Trick (S. 57, Aufg. 12) ist das Gegenstückprinzip (Verdoppeln/Halbieren
 
 ---
 titel: "Muster in Rechenpäckchen — Produkte vergleichen"
-typ: eingabe
+typ: textaufgabe
 thema: "Halbschriftliches Multiplizieren"
 schwierigkeit: grün
 buchseite: 57
@@ -1092,7 +1092,7 @@ Die Zuordnungsaufgabe macht den Algorithmus explizit und prüft, ob das Kind die
 
 ---
 titel: "Muster mit 9 — Malaufgaben mit Neunen"
-typ: eingabe
+typ: textaufgabe
 thema: "Schriftliches Multiplizieren"
 schwierigkeit: orange
 buchseite: 59
@@ -1409,18 +1409,16 @@ erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
-Multipliziere schriftlich.
+Multipliziere schriftlich. Vergleiche die drei Aufgaben. Was fällt dir auf?
 
-354 · 60 =
-354 · 6 =
-354 · 66 =
-
-Vergleiche die drei Aufgaben. Was fällt dir auf?
+a) 354 · 60 =
+b) 354 · 6 =
+c) 354 · 66 =
 
 ### Lösung
-354 · 60 = 21.240
-354 · 6 = 2.124
-354 · 66 = 23.364
+a) 21.240
+b) 2.124
+c) 23.364
 
 Zusammenhang: 354 · 66 = 354 · 60 + 354 · 6 = 21.240 + 2.124 = 23.364
 
@@ -1670,7 +1668,7 @@ Bei a): Überschlag: 300 · 40 = ___. Jetzt genau: 284 · 7 = ___ (Zeile 1). 284
 
 ---
 titel: "Muster mit 99 — Besondere Malaufgaben"
-typ: eingabe
+typ: textaufgabe
 thema: "Schriftliches Multiplizieren mehrstelliger Zahlen"
 schwierigkeit: orange
 buchseite: 63

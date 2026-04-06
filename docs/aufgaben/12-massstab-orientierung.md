@@ -17,6 +17,7 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S116_Merkwissen_Massstab_Vergroesserung.mp4"
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -53,7 +54,7 @@ Grundverständnis des Maßstabs als Verhältnis. Entspricht S. 116, Einführungs
 
 ---
 titel: "Wirkliche Größe berechnen — Vergrößerung"
-typ: eingabe
+typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 116
@@ -61,6 +62,7 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S116_Anleitung_Laenge_in_Wirklichkeit.mp4"
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -95,13 +97,14 @@ Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.
 
 ---
 titel: "Wirkliche Größe berechnen — starke Vergrößerung"
-typ: eingabe
+typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: grün
 buchseite: 116
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -134,7 +137,7 @@ Vertiefung mit größerem Maßstab. Entspricht S. 116, Kopflaus-Beispiel mit Ma�
 
 ---
 titel: "Wirkliche Größe berechnen — Verkleinerung"
-typ: eingabe
+typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: grün
 buchseite: 117
@@ -142,6 +145,7 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S117_Merkwissen_Massstab_Verkleinerung.mp4"
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -183,6 +187,7 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
 video: "S117_Anleitung_VerkleinernVergroessern.mp4"
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -234,6 +239,7 @@ buchseite: 117
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -283,6 +289,7 @@ buchseite: 117
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -331,6 +338,7 @@ buchseite: 116
 kapitel: "12-maßstab-orientierung"
 stage_id: "maßstab"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -368,13 +376,14 @@ Umkehrdenkaufgabe: vom Ergebnis den Maßstab ableiten. Entspricht S. 116, Aufg. 
 
 ---
 titel: "Himmelsrichtungen benennen"
-typ: eingabe
+typ: textaufgabe
 thema: "Ansichten und Grundriss"
 schwierigkeit: gelb
 buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -419,6 +428,7 @@ buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -476,6 +486,7 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -519,6 +530,7 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -554,13 +566,14 @@ Perspektivwechsel als räumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus v
 
 ---
 titel: "Himmelsrichtung auf dem Grundriss — Wo liegt was?"
-typ: eingabe
+typ: textaufgabe
 thema: "Ansichten und Grundriss"
 schwierigkeit: grün
 buchseite: 118
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -608,6 +621,7 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -651,6 +665,7 @@ buchseite: 119
 kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s116-merkkasten-massstab.webp"
 ---
 
 ### Aufgabenstellung
@@ -698,13 +713,14 @@ Grundriss-Symbole lesen als lebenspraktische Kompetenz. Erweiterung zu S. 118-11
 
 ---
 titel: "Maßstab auf der Karte — Strecken berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -750,6 +766,7 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -793,6 +810,7 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -841,6 +859,7 @@ buchseite: 120
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -878,7 +897,7 @@ Maßstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.
 
 ---
 titel: "Planquadrate lesen — Orte auf dem Stadtplan finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 121
@@ -886,6 +905,7 @@ kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: teilweise
 video: "S121_Beispiel_Stadtplan_lesen.mp4"
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -922,6 +942,7 @@ buchseite: 121
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung
@@ -970,6 +991,7 @@ buchseite: 121
 kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s120-erklaerung-massstab-karte.webp"
 ---
 
 ### Aufgabenstellung

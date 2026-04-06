@@ -963,7 +963,7 @@ Proportionales Denken mit einfachen Bruchteilen (1/2, 1/4). Die Zahl 16 ist bewu
 
 ---
 titel: "Geschwindigkeit berechnen — Wer ist schneller?"
-typ: eingabe
+typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
@@ -1335,8 +1335,8 @@ d) Um wie viel Uhr kommt er in einer Stadt an, die 240 km entfernt ist?
 ### Lösung
 a) 60
 b) 120
-c) 10:30 Uhr
-d) 11:00 Uhr
+c) 10:30
+d) 11:00
 
 ### Lösungsweg
 - a) 30 min = 0,5 h → 120 × 0,5 = 60 km
@@ -1362,7 +1362,7 @@ Verbindung von Geschwindigkeitsrechnung mit Uhrzeiten. Die Umrechnung von Dezima
 
 ---
 titel: "Wettlauf verschiedener Fahrzeuge — Tabelle ausfüllen"
-typ: eingabe
+typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
@@ -1520,7 +1520,7 @@ Klassische Begegnungsaufgabe. Die Skizze mit Pfeilen hilft, die gegenläuifge Be
 
 ---
 titel: "Outfits kombinieren — T-Shirt und Hose"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -1528,6 +1528,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1576,7 +1577,7 @@ Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder könne
 
 ---
 titel: "Frühstück zusammenstellen"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -1584,6 +1585,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1626,7 +1628,7 @@ Gleiche Struktur wie Aufgabe 31, anderer Kontext. Die Tabelle als Alternative zu
 
 ---
 titel: "Dreistellige Geheimzahl — alle Möglichkeiten"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 73
@@ -1634,6 +1636,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1686,7 +1689,7 @@ Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahle
 
 ---
 titel: "Pizza belegen — Belag kombinieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -1694,6 +1697,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1738,7 +1742,7 @@ Kombination (ohne Wiederholung, ohne Reihenfolge) im Pizzakontext. Das Muster 3 
 
 ---
 titel: "Sitzreihenfolge im Auto"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -1746,6 +1750,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1794,7 +1799,7 @@ Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das 
 
 ---
 titel: "Münzen werfen — Kopf oder Zahl"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
 buchseite: 72
@@ -1802,6 +1807,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1855,7 +1861,7 @@ Einfaches Beispiel für die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm 
 
 ---
 titel: "Farbkombinationen — 3 Farben auf 2 Plätze"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 72
@@ -1863,6 +1869,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1910,7 +1917,7 @@ Hier zählt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. 
 
 ---
 titel: "Spielplan erstellen — 5 Teams"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 73
@@ -1918,6 +1925,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -1963,7 +1971,7 @@ Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+
 
 ---
 titel: "Eis bestellen — 3 Kugeln aus 4 Sorten"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 72
@@ -1971,6 +1979,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2021,6 +2030,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2061,7 +2071,7 @@ Variation von 4 Elementen auf 3 Plätze (4 × 3 × 2 = 24). Das Baumdiagramm wä
 
 ---
 titel: "Zifferncodes — eine Stelle fixiert"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
 buchseite: 73
@@ -2069,6 +2079,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2118,6 +2129,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2166,6 +2178,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2215,6 +2228,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2265,7 +2279,7 @@ Gitterwege sind ein schöner Einstieg in die Binomialkoeffizienten (4 über 2 = 
 
 ---
 titel: "Münzen werfen — drei Münzen"
-typ: eingabe
+typ: textaufgabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: orange
 buchseite: 73
@@ -2273,6 +2287,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
+tipp_2_bild: "assets/erklaerungen/s72-begriffe-kombinatorik.webp"
 ---
 
 ### Aufgabenstellung
@@ -2340,7 +2355,7 @@ Erweiterung auf 3 Münzen (2^3 = 8). Das Baumdiagramm wird größer, bleibt aber
 
 ---
 titel: "Glücksrad — sicher, möglich, unmöglich"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 74
@@ -2348,23 +2363,26 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld.
-
-Entscheide: sicher, möglich oder unmöglich?
+Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.
 
 a) Du drehst und landest auf einem roten Feld.
 b) Du drehst und landest auf einem grünen Feld.
 c) Du drehst und landest auf einem farbigen Feld.
 d) Du drehst und landest auf einem roten oder blauen Feld.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) möglich (3 von 6 Feldern sind rot)
-b) unmöglich (es gibt kein grünes Feld)
-c) sicher (alle Felder sind farbig)
-d) möglich (5 von 6 Feldern, aber nicht sicher — es könnte auch gelb sein)
+a) → B
+b) → C
+c) → A
+d) → B
 
 ### Lösungsweg
 Man prüft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:
@@ -2403,6 +2421,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2453,6 +2472,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2508,6 +2528,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2550,7 +2571,7 @@ Einfacher Fairness-Vergleich durch Zählen. Kinder brauchen noch keine Brüche �
 
 ---
 titel: "Augensumme mit zwei Würfeln — welche kommt am öftesten?"
-typ: eingabe
+typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 74
@@ -2558,6 +2579,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2597,7 +2619,7 @@ Kernaufgabe der Würfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrsc
 
 ---
 titel: "Lottozahlen ziehen — sicher oder unmöglich?"
-typ: auswahl
+typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 75
@@ -2605,10 +2627,11 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Entscheide: sicher, möglich oder unmöglich?
+Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.
 
 a) Die gezogene Zahl ist kleiner als 11.
 b) Die gezogene Zahl ist 5.
@@ -2616,12 +2639,16 @@ c) Die gezogene Zahl ist 0.
 d) Die gezogene Zahl ist gerade.
 e) Die gezogene Zahl ist größer als 7.
 
+A) sicher
+B) möglich
+C) unmöglich
+
 ### Lösung
-a) sicher (alle Zahlen 1-10 sind kleiner als 11)
-b) möglich (5 ist eine der 10 Zahlen)
-c) unmöglich (0 ist nicht im Beutel)
-d) möglich (2, 4, 6, 8, 10 sind gerade — aber 1, 3, 5, 7, 9 nicht)
-e) möglich (8, 9, 10 sind größer als 7 — aber die meisten nicht)
+a) → A
+b) → B
+c) → C
+d) → B
+e) → B
 
 ### Lösungsweg
 Ergebnisraum: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -2659,6 +2686,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2705,6 +2733,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2754,6 +2783,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2803,6 +2833,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2849,6 +2880,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2908,6 +2940,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2955,6 +2988,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -3008,6 +3042,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -3056,6 +3091,7 @@ kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
+tipp_2_bild: "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -3153,7 +3189,7 @@ Einfacher Einstieg: In bekannten Wörtern Buchstaben suchen. Kinder entdecken in
 
 ---
 titel: "Strichliste für einen kurzen Satz"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -3227,7 +3263,7 @@ Kurzer Satz als überschaubarer Einstieg in die Strichliste. Die Methode "ein Bu
 
 ---
 titel: "Namensliste — welcher Buchstabe kommt am öftesten?"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -3290,7 +3326,7 @@ Namenlisten sind persönlich und motivierend. Die Zählung trainiert Sorgfalt un
 
 ---
 titel: "Strichliste in eine Tabelle übertragen"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -3355,7 +3391,7 @@ Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Di
 
 ---
 titel: "Lieblings-Buchstabe finden — Textanalyse"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -3467,7 +3503,7 @@ Aussagen über Daten prüfen: doppelt, Summe, Differenz. Kinder müssen genau le
 
 ---
 titel: "Säulendiagramm zeichnen — einfache Daten"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
@@ -3522,7 +3558,7 @@ Nur Vokale zählen reduziert die Komplexität (5 statt 26 Buchstaben). Die Frage
 
 ---
 titel: "Häufigsten Buchstaben im eigenen Namen finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
@@ -3635,7 +3671,7 @@ Textvergleich trainiert analytisches Denken. Die Erkenntnis "E ist in beiden Tex
 
 ---
 titel: "Diagramm ablesen — Wie oft kommt jeder Buchstabe vor?"
-typ: eingabe
+typ: textaufgabe
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 77

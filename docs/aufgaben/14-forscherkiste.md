@@ -17,6 +17,7 @@ kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
 video: "S125_Roemische_Zahlen.mp4"
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -76,6 +77,7 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -125,6 +127,7 @@ buchseite: 124
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -175,13 +178,14 @@ Zentrale Regel der römischen Zahlschreibweise. Entspricht S. 124, Merkkasten un
 
 ---
 titel: "Dezimal in römisch umwandeln"
-typ: eingabe
+typ: textaufgabe
 thema: "Römische Zahlen"
 schwierigkeit: grün
 buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -238,6 +242,7 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -290,6 +295,7 @@ buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -327,13 +333,14 @@ Komplexe römische Zahlen mit Subtraktionsregel. Entspricht S. 125, Aufg. 7 und 
 
 ---
 titel: "Große Zahlen als römische Zahl schreiben"
-typ: eingabe
+typ: textaufgabe
 thema: "Römische Zahlen"
 schwierigkeit: orange
 buchseite: 125
 kapitel: "14-forscherkiste"
 stage_id: "römische-zahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp"
 ---
 
 ### Aufgabenstellung
@@ -392,6 +399,7 @@ kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
 video: "S126_Das_Binaersystem.mp4"
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -437,6 +445,7 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -485,6 +494,7 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -543,6 +553,7 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -580,13 +591,14 @@ Erweiterung auf 7-stellige Binärzahlen. Entspricht S. 126, Aufg. 3-4.
 
 ---
 titel: "Binärcode knacken — Wörter entschlüsseln"
-typ: eingabe
+typ: textaufgabe
 thema: "Binärsystem"
 schwierigkeit: orange
 buchseite: 127
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -638,6 +650,7 @@ buchseite: 126
 kapitel: "14-forscherkiste"
 stage_id: "binärsystem"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s126-begriffe-binaersystem.webp"
 ---
 
 ### Aufgabenstellung
@@ -831,7 +844,7 @@ Subtraktion mit der Zahl 1.024. Entspricht S. 128, Aufg. 3.
 
 ---
 titel: "Speicherplatz berechnen — Fotos und Texte"
-typ: eingabe
+typ: textaufgabe
 thema: "Datenmengen"
 schwierigkeit: grün
 buchseite: 129
@@ -877,7 +890,7 @@ Sachrechnen mit Datenmengen und Alltagsbezug. Entspricht S. 129, Aufg. 9.
 
 ---
 titel: "Wie viel B hat 1 MB? — Einheiten umrechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Datenmengen"
 schwierigkeit: orange
 buchseite: 128
@@ -1004,7 +1017,7 @@ Schätzübung mit Dateigrössen. Entspricht S. 129, Aufg. 10.
 
 ---
 titel: "Der Gauss-Trick — Summe von 1 bis 10"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechenkünstler"
 schwierigkeit: gelb
 buchseite: 130
@@ -1151,7 +1164,7 @@ Vertiefung des Gauss-Tricks mit Teilmengen. Entspricht S. 130, Aufg. 3.
 
 ---
 titel: "Summe von 1 bis 200 — den Trick übertragen"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechenkünstler"
 schwierigkeit: orange
 buchseite: 130
@@ -1243,7 +1256,7 @@ Exponentielles Wachstum anschaulich. Entspricht S. 131, Aufg. 6.
 
 ---
 titel: "Nelsons Taschengeld — nach 15 Tagen"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechenkünstler"
 schwierigkeit: grün
 buchseite: 131
@@ -1394,14 +1407,16 @@ digital: voll
 ---
 
 ### Aufgabenstellung
-In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen.
+In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen. Setze die Folge fort: 1, 1, 2, 3, 5, 8, 13, ...
 
-1, 1, 2, 3, 5, 8, 13, ___, ___, ___
-
-Setze die Folge um drei Zahlen fort.
+a) Welche Zahl kommt nach 13?
+b) Welche Zahl kommt danach?
+c) Und welche danach?
 
 ### Lösung
-21, 34, 55
+a) 21
+b) 34
+c) 55
 
 ### Lösungsweg
 - 8 + 13 = 21
@@ -1473,7 +1488,7 @@ a) 4+5 = 9. 5+9 = ___. 9+___ = ___.
 
 ---
 titel: "Fibonacci rückwärts — fehlende Zahlen finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Fibonacci-Folge"
 schwierigkeit: grün
 buchseite: 132
@@ -1537,7 +1552,7 @@ Rückwärtsdenken in der Fibonacci-Folge. Entspricht S. 132, Aufg. 3.
 
 ---
 titel: "Fibonacci mit Zielzahl — Startzahlen finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Fibonacci-Folge"
 schwierigkeit: grün
 buchseite: 133
@@ -1588,7 +1603,7 @@ Kreatives Rückwärtsarbeiten. Entspricht S. 133, Aufg. 5.
 
 ---
 titel: "Fibonacci-Muster — Was passiert, wenn sich Startzahlen ändern?"
-typ: eingabe
+typ: textaufgabe
 thema: "Fibonacci-Folge"
 schwierigkeit: grün
 buchseite: 133
@@ -1666,7 +1681,7 @@ Muster in Fibonacci-Folgen entdecken. Entspricht S. 133, Aufg. 7.
 
 ---
 titel: "Fibonacci rückwärts berechnen — schwierige Lücken"
-typ: eingabe
+typ: textaufgabe
 thema: "Fibonacci-Folge"
 schwierigkeit: orange
 buchseite: 132
@@ -1708,7 +1723,7 @@ Anspruchsvolles Rückwärtsrechnen. Entspricht S. 132, Aufg. 4.
 
 ---
 titel: "Fibonacci — Zweite Startzahl ändern"
-typ: eingabe
+typ: textaufgabe
 thema: "Fibonacci-Folge"
 schwierigkeit: orange
 buchseite: 133
@@ -1772,6 +1787,7 @@ buchseite: 134
 kapitel: "14-forscherkiste"
 stage_id: "rechenkuenstler"
 digital: platzhalter
+erklaerung_bild: "assets/erklaerungen/s134-taschenrechner-tasten.webp"
 ---
 
 ### Aufgabenstellung
@@ -1784,6 +1800,15 @@ a) 258 + 5    b) 250 - 15    c) 250 · 5    d) 250 : 5
 
 **Mögliche digitale Alternative:** Kopfrechentraining ohne Taschenrechner-Verifikation (bereits in Stages `kopfrechnen-addsub`, `kopfrechnen-multiplikation`, `kopfrechnen-division` abgedeckt).
 
+### Tipp 1 (Denkanstoß)
+Rechne zuerst im Kopf. Überlege: Welche Grundrechenart brauchst du bei jeder Teilaufgabe? Plus, Minus, Mal oder Geteilt?
+
+### Tipp 2 (Methode)
+Zerlege schwierige Aufgaben in einfachere Schritte. Zum Beispiel: 258 + 5 = 258 + 2 + 3 = 260 + 3. Beim Taschenrechner tippst du die Zahl, dann die Operation, dann die zweite Zahl.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 258 + 5: Rechne 258 + 2 = 260, dann 260 + 3 = 263. Auf dem Taschenrechner: 2-5-8-+-5-=. Stimmt dein Kopfergebnis?
+
 ### Didaktischer Hinweis
 Die Taschenrechner-Seiten (S. 134-135) zielen auf die Bedienung eines physischen Geräts ab. Digitalumsetzung nicht sinnvoll, da der Lerngegenstand das haptische Gerät selbst ist.
 
@@ -1795,13 +1820,14 @@ Die Taschenrechner-Seiten (S. 134-135) zielen auf die Bedienung eines physischen
 
 ---
 titel: "Zahlenfolgen fortsetzen — Muster erkennen"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenforscher"
 schwierigkeit: gelb
 buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1841,13 +1867,14 @@ Einführung in Zahlenmuster. Entspricht S. 136, Aufg. 1.
 
 ---
 titel: "Arme und reiche Zahlen — Teilersumme berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenforscher"
 schwierigkeit: grün
 buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1892,6 +1919,7 @@ buchseite: 136
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1929,13 +1957,14 @@ Vertiefung arme/reiche Zahlen. Entspricht S. 136, Aufg. 2b.
 
 ---
 titel: "Vollkommene Zahlen — Eine besondere Entdeckung"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenforscher"
 schwierigkeit: orange
 buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1969,7 +1998,7 @@ Vollkommene Zahlen als mathematische Besonderheit. Entspricht S. 137, Aufg. 5.
 
 ---
 titel: "Primzahlen finden — Das Sieb des Eratosthenes"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenforscher"
 schwierigkeit: grün
 buchseite: 137
@@ -1977,6 +2006,7 @@ kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
 video: "S143_Primzahlen.mp4"
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -2025,6 +2055,7 @@ buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -2079,6 +2110,7 @@ buchseite: 137
 kapitel: "14-forscherkiste"
 stage_id: "zahlenforscher"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s136-merkkasten-echte-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -2116,13 +2148,15 @@ Begriffsklärung: Warum 1 keine Primzahl ist. Entspricht S. 137, Aufg. 6a.
 
 ---
 titel: "Das pascalsche Dreieck verstehen — Additionsregel"
-typ: eingabe
+typ: textaufgabe
 thema: "Das pascalsche Dreieck"
 schwierigkeit: gelb
 buchseite: 138
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2172,6 +2206,8 @@ buchseite: 138
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2226,13 +2262,15 @@ Rückwärtsrechnen im pascalschen Dreieck. Entspricht S. 138, Aufg. 2.
 
 ---
 titel: "Reihensummen im pascalschen Dreieck"
-typ: eingabe
+typ: textaufgabe
 thema: "Das pascalsche Dreieck"
 schwierigkeit: grün
 buchseite: 139
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2287,6 +2325,8 @@ buchseite: 138
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2327,13 +2367,15 @@ Muster und Symmetrie im pascalschen Dreieck entdecken. Entspricht S. 138-139, Au
 
 ---
 titel: "Vielfache im pascalschen Dreieck markieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Das pascalsche Dreieck"
 schwierigkeit: orange
 buchseite: 139
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2385,13 +2427,15 @@ Verbindung Teilbarkeit und pascalsches Dreieck. Entspricht S. 139, Aufg. 4.
 
 ---
 titel: "Dreieckszahlen entdecken"
-typ: eingabe
+typ: textaufgabe
 thema: "Das pascalsche Dreieck"
 schwierigkeit: orange
 buchseite: 139
 kapitel: "14-forscherkiste"
 stage_id: "pascalsches-dreieck"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s138-pascalsches-dreieck.webp"
+tipp_2_bild: "assets/erklaerungen/s138-begriffe-muster.webp"
 ---
 
 ### Aufgabenstellung
@@ -2455,6 +2499,15 @@ digital: platzhalter
 Die Seiten 140-141 enthalten Abschlussspiele und Reflexionsaufgaben zum Schuljahresende (z. B. „Was habe ich in Mathe gelernt?", Spiele für die Klasse). Diese sind nicht als digitale Übung umsetzbar.
 
 **Mögliche digitale Alternative:** Zusammenfassungs-Quiz über alle Kapitel als „Abschlusstest".
+
+### Tipp 1 (Denkanstoß)
+Denke an alles, was du in Mathe gelernt hast: Große Zahlen, schriftliches Rechnen, Geometrie, Brüche, Einheiten. Was hat dir am meisten Spaß gemacht?
+
+### Tipp 2 (Methode)
+Gehe die Kapitel im Buch durch und schreibe zu jedem eine Sache auf, die du gelernt hast. Das hilft dir, einen Überblick zu bekommen.
+
+### Tipp 3 (Schritt-für-Schritt)
+Fange bei Kapitel 1 an: Was konntest du am Anfang noch nicht so gut, was jetzt besser klappt? Schreibe einen Satz dazu auf. Dann weiter mit Kapitel 2.
 
 ### Didaktischer Hinweis
 Abschlusskapitel ohne Drill-Charakter. Entspricht S. 140-141.

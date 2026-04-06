@@ -16,7 +16,7 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -73,7 +73,7 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -120,7 +120,7 @@ buchseite: 34
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -165,7 +165,7 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -213,25 +213,18 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
 Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.
 
-```
-     100.000
-    /       \
- 58.000     ▢
-
-     1.000.000
-    /         \
- 283.400       ▢
-```
+a) 58.000 + ▢ = 100.000
+b) 283.400 + ▢ = 1.000.000
 
 ### Lösung
-- 100.000: 58.000 + 42.000 = 100.000 → ▢ = 42.000
-- 1.000.000: 283.400 + 716.600 = 1.000.000 → ▢ = 716.600
+a) 42.000
+b) 716.600
 
 ### Lösungsweg
 - 100.000 − 58.000 = 42.000
@@ -262,7 +255,7 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -307,7 +300,7 @@ buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -345,14 +338,14 @@ Diese Aufgabe trainiert das Vereinfachen durch Kürzen gleicher Nullen. Das Kind
 
 ---
 titel: "Fünfstellige Zahlen bilden und subtrahieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 35
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "kopfrechnen-addsub"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+erklaerung_bild: "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp"
 ---
 
 ### Aufgabenstellung
@@ -401,7 +394,7 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -446,7 +439,7 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -497,7 +490,7 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -539,7 +532,7 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -581,7 +574,7 @@ buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "schriftlich-addsub-groß"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -628,7 +621,7 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -682,7 +675,7 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -733,7 +726,7 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -781,14 +774,14 @@ Diese Entdeckungsaufgabe fördert das mathematische Staunen. Das Kind erlebt, da
 
 ---
 titel: "ANNA-Subtraktionen zu einem Ergebnis finden"
-typ: eingabe
+typ: textaufgabe
 thema: "ANNA-Zahlen"
 schwierigkeit: orange
 buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -834,7 +827,7 @@ buchseite: 37
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "anna-zahlen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -885,7 +878,7 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -941,7 +934,7 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -984,7 +977,7 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1029,7 +1022,7 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1070,7 +1063,7 @@ buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "überschlag-geld"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1118,7 +1111,7 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1164,7 +1157,7 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1209,7 +1202,7 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1269,7 +1262,7 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1314,7 +1307,7 @@ buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "ergebnis-prüfen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1361,7 +1354,7 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1402,7 +1395,7 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1442,7 +1435,7 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1482,7 +1475,7 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1525,7 +1518,7 @@ buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1570,14 +1563,14 @@ Die Zuordnung trainiert das Übersetzen zwischen Text und mathematischer Darstel
 
 ---
 titel: "Rechenkette rückwärts — Startzahl finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechenketten"
 schwierigkeit: orange
 buchseite: 40
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenketten"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1615,14 +1608,14 @@ Das Rückwärtsrechnen trainiert Umkehroperationen und algebraisches Denken. Das
 
 ---
 titel: "Zahlenrätsel mit Rechenkette lösen"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenrätsel"
 schwierigkeit: gelb
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1661,14 +1654,14 @@ Zahlenrätsel verpacken algebraische Gleichungen in eine kindgerechte Form. Die 
 
 ---
 titel: "Zahlenrätsel — Division und Subtraktion"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenrätsel"
 schwierigkeit: grün
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1706,14 +1699,14 @@ Division und Multiplikation als Umkehroperationen werden hier gezielt geübt. Di
 
 ---
 titel: "Zahlenrätsel mit drei Operationen"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenrätsel"
 schwierigkeit: grün
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1761,14 +1754,14 @@ Drei Operationen erfordern systematisches Rückwärtsrechnen. Das Kind übt, die
 
 ---
 titel: "Zahlenrätsel — von meiner Zahl subtrahieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenrätsel"
 schwierigkeit: orange
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1807,14 +1800,14 @@ Die sprachliche Vielfalt (subtrahieren, verdoppeln, addieren) trainiert das Übe
 
 ---
 titel: "Zahlenrätsel mit Halbieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlenrätsel"
 schwierigkeit: orange
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "zahlenrätsel"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1862,7 +1855,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -1911,7 +1905,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -1955,7 +1950,8 @@ buchseite: 42
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2004,7 +2000,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2053,7 +2050,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2102,7 +2100,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2151,7 +2150,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2200,7 +2200,8 @@ buchseite: 43
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "rechenregeln"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp"
+tipp_2_bild: "assets/erklaerungen/s45-regel-klammern-zuerst.webp"
 ---
 
 ### Aufgabenstellung
@@ -2254,7 +2255,10 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2302,7 +2306,10 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2353,7 +2360,10 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2407,7 +2417,10 @@ buchseite: 44
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2453,7 +2466,10 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2516,7 +2532,10 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2565,7 +2584,10 @@ buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2607,14 +2629,17 @@ Diese Aufgabe zeigt eindrucksvoll, wie die Position der Punkt-Rechnung den Wert 
 
 ---
 titel: "Platzhalter in Ungleichungen finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: orange
 buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+erklaerung_bild: "assets/erklaerungen/s44-merkkasten-gleichung.webp"
+tipp_2_bild: "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp"
+tipp_1_bild: "assets/erklaerungen/s46-merkkasten-gleichung.webp"
+tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
 ---
 
 ### Aufgabenstellung

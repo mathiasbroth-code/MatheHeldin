@@ -20,6 +20,8 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -68,6 +70,8 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -123,6 +127,8 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise-zeichnen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -168,6 +174,8 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -216,6 +224,8 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -266,6 +276,8 @@ buchseite: 105
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise-zeichnen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -297,13 +309,15 @@ Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. E
 
 ---
 titel: "Jettes Kreismuster analysieren — Kreise zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Kreise zeichnen"
 schwierigkeit: orange
 buchseite: 105
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -350,6 +364,8 @@ buchseite: 105
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -397,6 +413,7 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -440,6 +457,7 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -482,13 +500,14 @@ Die Erkenntnis, dass nicht jede Form parkettiert, ist zentral. Der Kreis ist das
 
 ---
 titel: "Spiegelachsen in der Parkettierung finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Parkettierungen"
 schwierigkeit: grün
 buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -524,13 +543,14 @@ Das Erkennen von Spiegelachsen in Parkettierungen vertieft das Symmetrieverstän
 
 ---
 titel: "Parkettierung fortsetzen — Muster ergänzen"
-typ: eingabe
+typ: textaufgabe
 thema: "Parkettierungen"
 schwierigkeit: grün
 buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -575,6 +595,7 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -618,6 +639,7 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -666,6 +688,7 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
 ---
 
 ### Aufgabenstellung
@@ -708,6 +731,7 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -753,6 +777,7 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -798,6 +823,7 @@ buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -841,6 +867,7 @@ buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -898,6 +925,7 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -934,13 +962,14 @@ Das Ergänzen trainiert räumliches Vorstellungsvermögen stärker als das bloss
 
 ---
 titel: "Schachtel bauen — Wie viele Laschen brauchst du?"
-typ: eingabe
+typ: textaufgabe
 thema: "Körpernetze"
 schwierigkeit: orange
 buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
 ---
 
 ### Aufgabenstellung
@@ -987,6 +1016,7 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1025,13 +1055,14 @@ Würfel zählen in 3D-Ansichten ist die Grundlage für Schrägbilder. Entspricht
 
 ---
 titel: "Schrägbild und Bauplan — Würfelplättchen zählen"
-typ: eingabe
+typ: textaufgabe
 thema: "Schrägbilder legen und zeichnen"
 schwierigkeit: gelb
 buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1077,6 +1108,7 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1138,6 +1170,7 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1181,6 +1214,7 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1219,6 +1253,7 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung
@@ -1262,6 +1297,7 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
 ---
 
 ### Aufgabenstellung

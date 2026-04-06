@@ -17,6 +17,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -68,6 +69,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -114,6 +116,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -162,7 +165,7 @@ Die gemischte Schreibweise (t und kg) ist der natürlichste Zugang. Besonders d)
 
 ---
 titel: "Gesamtgewicht berechnen — Leergewicht und Ladung"
-typ: eingabe
+typ: textaufgabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: grün
 buchseite: 65
@@ -170,6 +173,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -210,7 +214,7 @@ Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schilder
 
 ---
 titel: "Fehlende Gewichtsangaben berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: grün
 buchseite: 65
@@ -218,6 +222,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -268,6 +273,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -320,6 +326,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
+tipp_2_bild: "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -463,7 +470,7 @@ Stufenweise Multiplikation: Erst pro Tag, dann für mehrere Tage. Die Aufgabe tr
 
 ---
 titel: "Tiervergleich — Wie viele Tiere wiegen so viel wie ...?"
-typ: eingabe
+typ: textaufgabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: grün
 buchseite: 67
@@ -646,7 +653,7 @@ Diese Aufgabe verbindet Division mit Einheitenumrechnung. Für Kinder, die Divis
 
 ---
 titel: "Wie viele Straussenküken wiegen so viel wie ein Blauwal-Baby?"
-typ: eingabe
+typ: textaufgabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: orange
 buchseite: 67
@@ -662,7 +669,7 @@ Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.
 Wie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?
 
 ### Lösung
-Ungefähr 3.125 Straussenküken.
+3.125
 
 ### Lösungsweg
 1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g
@@ -694,7 +701,7 @@ Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.12
 
 ---
 titel: "Teilstrecken addieren — Radtour am See"
-typ: eingabe
+typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
@@ -743,7 +750,7 @@ Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfach
 
 ---
 titel: "Entfernung aus Karte ablesen und berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
@@ -942,7 +949,7 @@ Einfache Verdoppelungsaufgabe, die das Konzept "Hin- und Rückweg" festigt. Die 
 
 ---
 titel: "Geschwindigkeiten vergleichen — km/h berechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
@@ -1053,7 +1060,7 @@ Proportionale Zuordnung: Zeit × Geschwindigkeit = Strecke. Die Tabelle ist ein 
 
 ---
 titel: "Tierstrecken berechnen — Spitzengeschwindigkeiten"
-typ: eingabe
+typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
@@ -1208,7 +1215,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1264,7 +1271,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1313,7 +1320,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1369,7 +1376,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1429,7 +1436,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1488,7 +1495,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1535,7 +1542,7 @@ kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
-tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-beispiele.webp"
 ---
 
 ### Aufgabenstellung
@@ -1580,7 +1587,7 @@ Klassische "Zaun-Pfosten-Aufgabe": Die Anzahl der Schnitte ist immer eins wenige
 
 ---
 titel: "Schulweg — einfache Streckenaddition"
-typ: eingabe
+typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
@@ -1622,7 +1629,7 @@ Einstiegsaufgabe mit ganzen Metern (ohne Komma). Trainiert das Addieren von drei
 
 ---
 titel: "Radtour — Entfernungen mit Kommazahlen"
-typ: eingabe
+typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
@@ -1976,7 +1983,7 @@ Kombination aus Tabelle lesen, Vergleichen, Addieren und Subtrahieren. Fordert m
 
 ---
 titel: "Unbekannte Teilstrecke — rückwärts rechnen"
-typ: eingabe
+typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68

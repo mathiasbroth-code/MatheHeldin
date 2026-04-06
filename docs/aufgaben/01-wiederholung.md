@@ -175,7 +175,7 @@ Diese Aufgabe trainiert das Lesen und Übersetzen von Zahlwörtern. Die Reihe ze
 
 ---
 titel: "Zahlenrätsel — Bedingungen kombinieren"
-typ: eingabe
+typ: textaufgabe
 thema: "1.000 und weiter"
 schwierigkeit: grün
 buchseite: 7
@@ -325,7 +325,7 @@ Diese Aufgabe bildet die Basis für das Verständnis des Stellenwertsystems übe
 
 ---
 titel: "Welche Zahlen können es sein? — Offene Zahlenrätsel"
-typ: eingabe
+typ: textaufgabe
 thema: "1.000 und weiter"
 schwierigkeit: orange
 buchseite: 7
@@ -476,7 +476,7 @@ Hier wird das Prinzip aus Aufgabe 8 auf verschiedene Zahlen angewendet. Bei Zahl
 
 ---
 titel: "Plättchen wegnehmen — Stellenwerte subtrahieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: grün
 buchseite: 8
@@ -526,7 +526,7 @@ Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzl
 
 ---
 titel: "Plättchen rückwärts — Welche Zahl war es vorher?"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: orange
 buchseite: 8
@@ -581,7 +581,7 @@ Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — e
 
 ---
 titel: "Stellenwerttafel — Zahlen verändern"
-typ: eingabe
+typ: textaufgabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: grün
 buchseite: 8
@@ -627,13 +627,14 @@ Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der �
 
 ---
 titel: "Hunderter addieren und subtrahieren"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen bis 2.000"
 schwierigkeit: gelb
 buchseite: 9
 kapitel: "01-wiederholung"
 stage_id: "rechnen-bis-2000"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -682,6 +683,7 @@ buchseite: 9
 kapitel: "01-wiederholung"
 stage_id: "rechnen-bis-2000"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -731,6 +733,7 @@ buchseite: 9
 kapitel: "01-wiederholung"
 stage_id: "rechnen-bis-2000"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -774,6 +777,7 @@ buchseite: 9
 kapitel: "01-wiederholung"
 stage_id: "rechnen-bis-2000"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -816,6 +820,7 @@ buchseite: 9
 kapitel: "01-wiederholung"
 stage_id: "rechnen-bis-2000"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1318,6 +1323,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1375,6 +1381,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1423,6 +1430,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1476,6 +1484,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1522,6 +1531,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1572,6 +1582,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1620,6 +1631,7 @@ kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
+tipp_2_bild: "assets/erklaerungen/s14-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2013,6 +2025,7 @@ buchseite: 16
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2057,6 +2070,7 @@ buchseite: 16
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2098,6 +2112,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2143,6 +2158,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2186,6 +2202,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2224,6 +2241,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2271,6 +2289,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2321,6 +2340,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
@@ -2363,6 +2383,7 @@ buchseite: 17
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-alltag"
 digital: voll
+tipp_1_bild: "assets/erklaerungen/s16-hotel-waldschloesschen.webp"
 ---
 
 ### Aufgabenstellung
