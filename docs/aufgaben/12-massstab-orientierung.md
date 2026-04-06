@@ -13,8 +13,8 @@ typ: auswahl
 thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 116
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 video: "S116_Merkwissen_Massstab_Vergroesserung.mp4"
 merkkasten_typ: regel
@@ -59,8 +59,8 @@ typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 116
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 video: "S116_Anleitung_Laenge_in_Wirklichkeit.mp4"
 merkkasten_typ: regel
@@ -103,8 +103,8 @@ typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: grün
 buchseite: 116
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
@@ -144,8 +144,8 @@ typ: textaufgabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: grün
 buchseite: 117
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 video: "S117_Merkwissen_Massstab_Verkleinerung.mp4"
 merkkasten_typ: regel
@@ -187,8 +187,8 @@ typ: zuordnung
 thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 117
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 video: "S117_Anleitung_VerkleinernVergroessern.mp4"
 merkkasten_typ: regel
@@ -245,8 +245,8 @@ typ: eingabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: grün
 buchseite: 117
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
@@ -296,8 +296,8 @@ typ: eingabe
 thema: "Vergrößern und verkleinern"
 schwierigkeit: orange
 buchseite: 117
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
@@ -346,8 +346,8 @@ typ: auswahl
 thema: "Vergrößern und verkleinern"
 schwierigkeit: orange
 buchseite: 116
-kapitel: "12-maßstab-orientierung"
-stage_id: "maßstab"
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
@@ -392,7 +392,7 @@ typ: textaufgabe
 thema: "Ansichten und Grundriss"
 schwierigkeit: gelb
 buchseite: 118
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
 merkkasten_typ: regel
@@ -438,7 +438,7 @@ typ: zuordnung
 thema: "Ansichten und Grundriss"
 schwierigkeit: gelb
 buchseite: 118
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 merkkasten_typ: regel
@@ -497,7 +497,7 @@ typ: auswahl
 thema: "Ansichten und Grundriss"
 schwierigkeit: grün
 buchseite: 119
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
 merkkasten_typ: regel
@@ -517,7 +517,7 @@ a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist ein
 ### Lösungsweg
 Beides zeigt einen Blick von oben, aber:
 - Luftaufnahme = echtes Foto aus der Vogelperspektive
-- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)
+- Grundriss = vereinfachte, massstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)
 
 ### Tipp 1 (Denkanstoß)
 Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...
@@ -542,7 +542,7 @@ typ: auswahl
 thema: "Ansichten und Grundriss"
 schwierigkeit: grün
 buchseite: 119
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 merkkasten_typ: regel
@@ -586,7 +586,7 @@ typ: textaufgabe
 thema: "Ansichten und Grundriss"
 schwierigkeit: grün
 buchseite: 118
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 merkkasten_typ: regel
@@ -635,7 +635,7 @@ typ: auswahl
 thema: "Ansichten und Grundriss"
 schwierigkeit: orange
 buchseite: 119
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 merkkasten_typ: regel
@@ -680,7 +680,7 @@ typ: zuordnung
 thema: "Ansichten und Grundriss"
 schwierigkeit: orange
 buchseite: 119
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 merkkasten_typ: regel
@@ -736,7 +736,7 @@ typ: textaufgabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 120
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -783,7 +783,7 @@ typ: schritt
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: grün
 buchseite: 120
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -828,7 +828,7 @@ typ: eingabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: grün
 buchseite: 120
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -878,7 +878,7 @@ typ: auswahl
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: grün
 buchseite: 120
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -924,7 +924,7 @@ typ: textaufgabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 121
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: teilweise
 video: "S121_Beispiel_Stadtplan_lesen.mp4"
@@ -963,7 +963,7 @@ typ: eingabe
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: orange
 buchseite: 121
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -1008,12 +1008,12 @@ Stadtplan-Maßstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen
 ## Aufgabe 22
 
 ---
-titel: "Was ist in 1 km Luftlinie? — Entfernungen abschätzen"
+titel: "Was ist in 1 km Luftlinie? — Entfernungen abschaetzen"
 typ: auswahl
 thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: orange
 buchseite: 121
-kapitel: "12-maßstab-orientierung"
+kapitel: "12-massstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 merkkasten_typ: regel
@@ -1047,3 +1047,292 @@ Rechne 1 km in cm um. Dann teile durch die Maßstabszahl (10.000).
 
 ### Didaktischer Hinweis
 Umkehrrechnung Wirklichkeit → Karte. Entspricht S. 121, Aufg. 11.
+
+---
+
+# Thema 3: Vergrößern und Verkleinern (S. 118)
+
+## Aufgabe 23
+
+---
+titel: "Von Wirklichkeit zur Zeichnung — Maßstab 1 : 10"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: gelb
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung entspricht 10 cm in Wirklichkeit."
+---
+
+### Aufgabenstellung
+Ein Tisch ist in Wirklichkeit 80 cm lang. Im Maßstab 1 : 10 zeichnest du ihn ___ cm lang. Berechne die Zeichnungslänge für verschiedene Gegenstände.
+
+a) Tisch: 80 cm in Wirklichkeit → ___ cm auf der Zeichnung
+b) Regal: 120 cm in Wirklichkeit → ___ cm auf der Zeichnung
+c) Stuhl: 50 cm in Wirklichkeit → ___ cm auf der Zeichnung
+
+### Lösung
+a) 8
+b) 12
+c) 5
+
+### Lösungsweg
+Maßstab 1 : 10 bedeutet: Die Zeichnung ist 10-mal kleiner als die Wirklichkeit.
+Man teilt die echte Länge durch 10.
+- a) 80 cm : 10 = 8 cm
+- b) 120 cm : 10 = 12 cm
+- c) 50 cm : 10 = 5 cm
+
+### Tipp 1 (Denkanstoß)
+Maßstab 1 : 10 heißt: Die Zeichnung ist kleiner als das Original. Durch welche Zahl musst du die echte Länge teilen?
+
+### Tipp 2 (Methode)
+Zeichne dir ein Lineal auf Karopapier. Male 80 Kästchen (= 80 cm) und teile sie in 10er-Gruppen. Wie viele Gruppen bekommst du? Das ist die Zeichnungslänge in cm.
+
+### Tipp 3 (Schritt-für-Schritt)
+Teile die echte Länge durch 10:
+a) 80 : 10 = ___
+b) 120 : 10 = ___
+c) 50 : 10 = ___
+
+### Didaktischer Hinweis
+Einstiegsaufgabe zum Verkleinern mit dem alltagsnahen Maßstab 1 : 10. Kinder teilen durch 10 — das ist eine bekannte Rechenoperation. Entspricht S. 118, Einführung Verkleinerungsmassstab.
+
+---
+
+## Aufgabe 24
+
+---
+titel: "Von der Zeichnung zur Wirklichkeit — Maßstab 1 : 10"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: gelb
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung entspricht 10 cm in Wirklichkeit."
+---
+
+### Aufgabenstellung
+Im Maßstab 1 : 10 ist ein Schrank auf der Zeichnung 15 cm hoch. Wie hoch ist er in Wirklichkeit? Berechne die echte Höhe.
+
+a) Schrank: 15 cm auf der Zeichnung → ___ cm in Wirklichkeit
+b) Tür: 9 cm auf der Zeichnung → ___ cm in Wirklichkeit
+c) Fenster: 22 cm auf der Zeichnung → ___ cm in Wirklichkeit
+
+### Lösung
+a) 150
+b) 90
+c) 220
+
+### Lösungsweg
+Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung = 10 cm in Wirklichkeit.
+Man multipliziert die Zeichnungslänge mit 10.
+- a) 15 cm · 10 = 150 cm
+- b) 9 cm · 10 = 90 cm
+- c) 22 cm · 10 = 220 cm
+
+### Tipp 1 (Denkanstoß)
+Die Zeichnung ist verkleinert. In Wirklichkeit ist der Gegenstand also größer. Mit welcher Zahl musst du die Zeichnungslänge multiplizieren?
+
+### Tipp 2 (Methode)
+Zeichne auf Karopapier 15 Kästchen nebeneinander. Jedes Kästchen steht für 10 cm in Wirklichkeit. Zähle: 15 × 10 = ? Das ist die echte Höhe.
+
+### Tipp 3 (Schritt-für-Schritt)
+Multipliziere die Zeichnungslänge mit 10:
+a) 15 · 10 = ___
+b) 9 · 10 = ___
+c) 22 · 10 = ___
+
+### Didaktischer Hinweis
+Umkehrung von Aufgabe 23: Vom Bild zur Wirklichkeit. Kinder multiplizieren mit 10. Wichtig ist das Verständnis, dass die Richtung (Bild→Wirklichkeit) das Gegenteil (Multiplikation statt Division) erfordert. Entspricht S. 118.
+
+---
+
+## Aufgabe 25
+
+---
+titel: "Klassenzimmer im Maßstab 1 : 100 zeichnen"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: grün
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung entspricht 100 cm (= 1 m) in Wirklichkeit."
+---
+
+### Aufgabenstellung
+Ein Klassenzimmer ist 8 m lang und 6 m breit. Du sollst es im Maßstab 1 : 100 zeichnen. Wie groß wird die Zeichnung?
+
+a) Länge: 8 m in Wirklichkeit → ___ cm auf der Zeichnung
+b) Breite: 6 m in Wirklichkeit → ___ cm auf der Zeichnung
+
+### Lösung
+a) 8
+b) 6
+
+### Lösungsweg
+Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung = 100 cm = 1 m in Wirklichkeit.
+Das heißt: Die Meterzahl ergibt direkt die Zentimeterzahl auf der Zeichnung.
+- a) 8 m = 800 cm → 800 cm : 100 = 8 cm
+- b) 6 m = 600 cm → 600 cm : 100 = 6 cm
+
+### Tipp 1 (Denkanstoß)
+Beim Maßstab 1 : 100 ist 1 m in Wirklichkeit genau 1 cm auf der Zeichnung. Wie viele Meter ist das Klassenzimmer lang? Dann weißt du schon die Antwort!
+
+### Tipp 2 (Methode)
+Nimm Karopapier und zeichne ein Rechteck. Jedes Kästchen (1 cm) steht für 1 m in Wirklichkeit. Zeichne 8 Kästchen in die Länge und 6 Kästchen in die Breite.
+
+### Tipp 3 (Schritt-für-Schritt)
+Rechne die Meter in cm um und teile durch 100:
+a) 8 m = 800 cm → 800 : 100 = ___
+b) 6 m = 600 cm → 600 : 100 = ___
+
+### Didaktischer Hinweis
+Praxisnahe Aufgabe: Ein echtes Klassenzimmer verkleinern. Bei 1 : 100 entspricht 1 m genau 1 cm — diesen Zusammenhang sollen Kinder erkennen und nutzen. Entspricht S. 118.
+
+---
+
+## Aufgabe 26
+
+---
+titel: "Entfernungen auf einer Karte berechnen — Maßstab 1 : 1.000"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: grün
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Maßstab 1 : 1.000 bedeutet: 1 cm auf der Karte entspricht 1.000 cm (= 10 m) in Wirklichkeit."
+---
+
+### Aufgabenstellung
+Auf einer Karte im Maßstab 1 : 1.000 sind zwei Häuser 5 cm voneinander entfernt. Wie weit sind sie in Wirklichkeit auseinander? Gib das Ergebnis in Metern an.
+
+### Lösung
+50
+
+### Lösungsweg
+Maßstab 1 : 1.000 bedeutet: 1 cm auf der Karte = 1.000 cm in Wirklichkeit.
+Rechnung: 5 cm · 1.000 = 5.000 cm.
+Umrechnung: 5.000 cm = 50 m.
+Die beiden Häuser sind in Wirklichkeit 50 m auseinander.
+
+### Tipp 1 (Denkanstoß)
+Maßstab 1 : 1.000 heißt: Alles in Wirklichkeit ist 1.000-mal so groß wie auf der Karte. Was passiert, wenn du die 5 cm mit 1.000 multiplizierst?
+
+### Tipp 2 (Methode)
+Zeichne einen Zahlenstrahl auf Karopapier. Markiere 5 cm. Schreibe unter jedes Kästchen (1 cm) die echte Entfernung: 1 cm = 10 m. Zähle zusammen: 5 × 10 m = ?
+
+### Tipp 3 (Schritt-für-Schritt)
+1. 5 cm · 1.000 = 5.000 cm
+2. Rechne in Meter um: 5.000 : 100 = ___ m
+
+### Didaktischer Hinweis
+Kartenmassstab anwenden mit Einheitenumrechnung cm → m. Kinder müssen zwei Schritte verketten: multiplizieren und Einheit umrechnen. Entspricht S. 118.
+
+---
+
+## Aufgabe 27
+
+---
+titel: "Passenden Maßstab für ein DIN-A4-Blatt finden"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: orange
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Ein DIN-A4-Blatt ist ca. 29 cm × 21 cm. Der Maßstab muss so gewählt werden, dass die Zeichnung auf das Blatt passt."
+---
+
+### Aufgabenstellung
+Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.
+
+Welchen Maßstab wählst du? 1 : ___
+
+### Lösung
+250
+
+### Lösungsweg
+Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.
+Das Blatt ist ca. 29 cm × 21 cm.
+Für die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.
+Für die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.
+Der größere Wert bestimmt: mindestens 1 : 207.
+Ein praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).
+Auch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm).
+
+### Tipp 1 (Denkanstoß)
+Rechne den Schulhof in cm um. Dann überlege: Durch welche Zahl musst du teilen, damit 6.000 cm auf weniger als 29 cm schrumpft?
+
+### Tipp 2 (Methode)
+Nimm ein DIN-A4-Blatt und ein Lineal. Zeichne die lange Seite (29 cm). Jetzt probiere: Wenn 1 cm = 2 m wäre (Maßstab 1 : 200), bräuchtest du 60 : 2 = 30 cm — das passt knapp nicht. Versuch 1 cm = 2,5 m (Maßstab 1 : 250): 60 : 2,5 = 24 cm — das passt!
+
+### Tipp 3 (Schritt-für-Schritt)
+1. Schulhof: 60 m = 6.000 cm, 40 m = 4.000 cm
+2. Probiere Maßstab 1 : 250:
+   Länge: 6.000 : 250 = 24 cm ✓ (passt auf 29 cm)
+   Breite: 4.000 : 250 = 16 cm ✓ (passt auf 21 cm)
+3. Also: Maßstab 1 : ___ passt.
+
+### Didaktischer Hinweis
+Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (1 : 250, 1 : 300). Entspricht S. 118, weiterführende Aufgabe.
+
+---
+
+## Aufgabe 28
+
+---
+titel: "Vergrößerungsmassstab eines Insekts bestimmen"
+typ: eingabe
+thema: "Vergrößern und Verkleinern"
+schwierigkeit: orange
+buchseite: 118
+kapitel: "12-massstab-orientierung"
+stage_id: "massstab"
+digital: voll
+merkkasten_typ: regel
+merkkasten_text: "Bei Vergrößerung ist die linke Zahl größer: z. B. 20 : 1 bedeutet 20-fache Vergrößerung."
+---
+
+### Aufgabenstellung
+Ein Insekt ist in Wirklichkeit 3 mm lang. Unter der Lupe sieht es 6 cm groß aus. Welcher Vergrößerungs-Maßstab ist das?
+
+___ : 1
+
+### Lösung
+20
+
+### Lösungsweg
+Zuerst beide Längen in die gleiche Einheit bringen:
+- Insekt in Wirklichkeit: 3 mm
+- Insekt unter der Lupe: 6 cm = 60 mm
+Vergrößerungsfaktor: 60 mm : 3 mm = 20.
+Der Maßstab ist 20 : 1 (das Bild ist 20-mal so groß wie das Original).
+
+### Tipp 1 (Denkanstoß)
+Rechne zuerst beide Längen in mm um. Wie viele mm sind 6 cm? Und wie oft passt 3 mm in diese Zahl hinein?
+
+### Tipp 2 (Methode)
+Zeichne auf Karopapier einen Strich von 3 mm (das ist das echte Insekt). Zeichne daneben einen Strich von 6 cm (das ist das Lupen-Bild). Wie oft passt der kleine Strich in den großen?
+
+### Tipp 3 (Schritt-für-Schritt)
+1. 6 cm in mm umrechnen: 6 · 10 = 60 mm
+2. Vergrößerung berechnen: 60 : 3 = ___
+3. Maßstab: ___ : 1
+
+### Didaktischer Hinweis
+Umkehraufgabe: Maßstab aus zwei Längen bestimmen. Erfordert Einheitenumrechnung cm ↔ mm und Division. Fördert Verständnis, dass Vergrößerungsmassstab die größere Zahl links hat. Entspricht S. 118.

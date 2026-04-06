@@ -224,8 +224,8 @@ Aufgaben wie 80 · 50 = 4.000 sind typische Stolperfallen, weil die Grundaufgabe
 ## Aufgabe 5
 
 ---
-titel: "Malaufgaben zu Ergebnissen finden"
-typ: eingabe
+titel: "Ergibt die Aufgabe 24.000?"
+typ: wahr-falsch
 thema: "Multiplizieren im Kopf"
 schwierigkeit: orange
 buchseite: 54
@@ -237,21 +237,22 @@ merkkasten_begriffe: "die Multiplikation, multiplizieren, die Faktoren, das Prod
 ---
 
 ### Aufgabenstellung
-Finde möglichst viele Malaufgaben mit Zehnerzahlen zu diesen Ergebnissen.
+Ergibt die Malaufgabe 24.000? Stimmt oder stimmt nicht?
 
-a) 24.000
-b) 360.000
+a) 6 · 4.000 = 24.000
+b) 80 · 300 = 24.000
+c) 50 · 400 = 24.000
+d) 600 · 40 = 24.000
+e) 8 · 4.000 = 24.000
+f) 30 · 800 = 24.000
 
 ### Lösung
-a) 24.000:
-- 6 · 4.000, 8 · 3.000, 4 · 6.000, 3 · 8.000
-- 60 · 400, 80 · 300, 40 · 600, 30 · 800
-- 600 · 40, 800 · 30, 400 · 60, 300 · 80
-
-b) 360.000:
-- 6 · 60.000, 9 · 40.000, 4 · 90.000
-- 60 · 6.000, 90 · 4.000, 40 · 9.000
-- 600 · 600, 900 · 400, 400 · 900
+a) ✓ Stimmt — 6 · 4.000 = 24.000
+b) ✓ Stimmt — 80 · 300 = 24.000
+c) ✗ Stimmt nicht — 50 · 400 = 20.000
+d) ✓ Stimmt — 600 · 40 = 24.000
+e) ✗ Stimmt nicht — 8 · 4.000 = 32.000
+f) ✓ Stimmt — 30 · 800 = 24.000
 
 ### Lösungsweg
 1. Finde die Grundaufgabe: 24.000 → Grundzahl 24. Welche Einmaleins-Aufgaben ergeben 24? → 6 · 4, 8 · 3, 4 · 6, 3 · 8.

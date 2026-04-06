@@ -298,8 +298,8 @@
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.\n\na) Welche Augensumme ist die kleinste mögliche?\nb) Welche ist die größte mögliche?\nc) Ist die Augensumme 1 möglich? Begründe.",
-    "loesung": "a) 2 (1 + 1)\nb) 12 (6 + 6)\nc) Nein, die Augensumme 1 ist unmöglich. Der kleinste Wert pro Würfel ist 1, also ist die kleinste Summe 1 + 1 = 2.",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.\n\na) Welche Augensumme ist die kleinste mögliche?\nb) Welche ist die größte mögliche?\nc) Welche Augensumme ist unmöglich: 1, 7 oder 12?",
+    "loesung": "a) 2\nb) 12\nc) 1",
     "loesungsweg": "- Kleinste Augenzahl pro Würfel: 1\n- Größte Augenzahl pro Würfel: 6\n- Kleinste Summe: 1 + 1 = 2\n- Größte Summe: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
     "tipps": [
       "Stell dir die zwei Würfel vor. Welche ist die kleinste Zahl, die ein Würfel zeigen kann? Und die größte?",
@@ -315,17 +315,17 @@
         {
           "label": "a",
           "frage": "Welche Augensumme ist die kleinste mögliche?",
-          "antwort": "2 (1 + 1)"
+          "antwort": "2"
         },
         {
           "label": "b",
           "frage": "Welche ist die größte mögliche?",
-          "antwort": "12 (6 + 6)"
+          "antwort": "12"
         },
         {
           "label": "c",
-          "frage": "Ist die Augensumme 1 möglich? Begründe.",
-          "antwort": "Nein, die Augensumme 1 ist unmöglich. Der kleinste Wert pro Würfel ist 1, also ist die kleinste Summe 1 + 1 = 2."
+          "frage": "Welche Augensumme ist unmöglich: 1, 7 oder 12?",
+          "antwort": "1"
         }
       ]
     }

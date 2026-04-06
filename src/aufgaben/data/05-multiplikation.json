@@ -185,16 +185,16 @@
     }
   },
   {
-    "titel": "Malaufgaben zu Ergebnissen finden",
-    "typ": "eingabe",
+    "titel": "Ergibt die Aufgabe 24.000?",
+    "typ": "wahr-falsch",
     "thema": "Multiplizieren im Kopf",
     "schwierigkeit": "orange",
     "buchseite": 54,
     "kapitel": "05-multiplikation",
     "stageId": "kopfrechnen-multiplikation",
     "digital": "voll",
-    "aufgabenstellung": "Finde möglichst viele Malaufgaben mit Zehnerzahlen zu diesen Ergebnissen.\n\na) 24.000\nb) 360.000",
-    "loesung": "a) 24.000:\n- 6 · 4.000, 8 · 3.000, 4 · 6.000, 3 · 8.000\n- 60 · 400, 80 · 300, 40 · 600, 30 · 800\n- 600 · 40, 800 · 30, 400 · 60, 300 · 80\n\nb) 360.000:\n- 6 · 60.000, 9 · 40.000, 4 · 90.000\n- 60 · 6.000, 90 · 4.000, 40 · 9.000\n- 600 · 600, 900 · 400, 400 · 900",
+    "aufgabenstellung": "Ergibt die Malaufgabe 24.000? Stimmt oder stimmt nicht?\n\na) 6 · 4.000 = 24.000\nb) 80 · 300 = 24.000\nc) 50 · 400 = 24.000\nd) 600 · 40 = 24.000\ne) 8 · 4.000 = 24.000\nf) 30 · 800 = 24.000",
+    "loesung": "a) ✓ Stimmt — 6 · 4.000 = 24.000\nb) ✓ Stimmt — 80 · 300 = 24.000\nc) ✗ Stimmt nicht — 50 · 400 = 20.000\nd) ✓ Stimmt — 600 · 40 = 24.000\ne) ✗ Stimmt nicht — 8 · 4.000 = 32.000\nf) ✓ Stimmt — 30 · 800 = 24.000",
     "loesungsweg": "1. Finde die Grundaufgabe: 24.000 → Grundzahl 24. Welche Einmaleins-Aufgaben ergeben 24? → 6 · 4, 8 · 3, 4 · 6, 3 · 8.\n2. Verteile die Nullen auf die beiden Faktoren: 24.000 hat 3 Nullen → z.B. 0+3, 1+2, 2+1, 3+0.",
     "tipps": [
       "Welche Einmaleins-Aufgabe steckt in 24.000? Streiche die Nullen weg und schau, welche Malaufgabe übrig bleibt.",
@@ -204,18 +204,44 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben (vom Ergebnis zur Aufgabe) trainieren flexibles Denken und vertiefen das Verständnis des Stellenwertsystems. Entspricht der Forscheraufgabe auf S. 54 unten.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "Finde möglichst viele Malaufgaben mit Zehnerzahlen zu diesen Ergebnissen.",
+      "typ": "wahr-falsch",
+      "anweisung": "Ergibt die Malaufgabe 24.000? Stimmt oder stimmt nicht?",
       "items": [
         {
           "label": "a",
-          "frage": "24.000",
-          "antwort": "- 6 · 4.000, 8 · 3.000, 4 · 6.000, 3 · 8.000"
+          "aussage": "6 · 4.000 = 24.000",
+          "richtig": true,
+          "erklaerung": "✓ Stimmt — 6 · 4.000 = 24.000"
         },
         {
           "label": "b",
-          "frage": "360.000",
-          "antwort": "- 6 · 60.000, 9 · 40.000, 4 · 90.000"
+          "aussage": "80 · 300 = 24.000",
+          "richtig": true,
+          "erklaerung": "✓ Stimmt — 80 · 300 = 24.000"
+        },
+        {
+          "label": "c",
+          "aussage": "50 · 400 = 24.000",
+          "richtig": false,
+          "erklaerung": "✗ Stimmt nicht — 50 · 400 = 20.000"
+        },
+        {
+          "label": "d",
+          "aussage": "600 · 40 = 24.000",
+          "richtig": true,
+          "erklaerung": "✓ Stimmt — 600 · 40 = 24.000"
+        },
+        {
+          "label": "e",
+          "aussage": "8 · 4.000 = 24.000",
+          "richtig": false,
+          "erklaerung": "✗ Stimmt nicht — 8 · 4.000 = 32.000"
+        },
+        {
+          "label": "f",
+          "aussage": "30 · 800 = 24.000",
+          "richtig": true,
+          "erklaerung": "✓ Stimmt — 30 · 800 = 24.000"
         }
       ]
     }

@@ -500,12 +500,12 @@ Du würfelst mit zwei Würfeln und addierst die Augenzahlen.
 
 a) Welche Augensumme ist die kleinste mögliche?
 b) Welche ist die größte mögliche?
-c) Ist die Augensumme 1 möglich? Begründe.
+c) Welche Augensumme ist unmöglich: 1, 7 oder 12?
 
 ### Lösung
-a) 2 (1 + 1)
-b) 12 (6 + 6)
-c) Nein, die Augensumme 1 ist unmöglich. Der kleinste Wert pro Würfel ist 1, also ist die kleinste Summe 1 + 1 = 2.
+a) 2
+b) 12
+c) 1
 
 ### Lösungsweg
 - Kleinste Augenzahl pro Würfel: 1

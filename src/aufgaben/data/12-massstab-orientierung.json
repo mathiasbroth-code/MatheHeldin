@@ -1112,7 +1112,7 @@
     "kapitel": "12-massstab-orientierung",
     "stageId": "massstab",
     "digital": "voll",
-    "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Welcher Maßstab passt, damit die Zeichnung auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) passt? Probiere aus und begründe.\n\nWelchen Maßstab wählst du? 1 : ___",
+    "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du? 1 : ___",
     "loesung": "250",
     "loesungsweg": "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).\nAuch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm).",
     "tipps": [
@@ -1128,7 +1128,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Der Schulhof ist 60 m lang und 40 m breit. Welcher Maßstab passt, damit die Zeichnung auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) passt? Probiere aus und begründe.\n\nWelchen Maßstab wählst du? 1 : ___",
+          "frage": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du? 1 : ___",
           "antwort": "250"
         }
       ]
