@@ -1333,8 +1333,8 @@
     "kapitel": "05-multiplikation",
     "stageId": "schriftlich-multiplizieren-3",
     "digital": "voll",
-    "aufgabenstellung": "Multipliziere schriftlich.\n\n354 · 60 =\n354 · 6 =\n354 · 66 =\n\nVergleiche die drei Aufgaben. Was fällt dir auf?",
-    "loesung": "354 · 60 = 21.240\n354 · 6 = 2.124\n354 · 66 = 23.364\n\nZusammenhang: 354 · 66 = 354 · 60 + 354 · 6 = 21.240 + 2.124 = 23.364",
+    "aufgabenstellung": "Multipliziere schriftlich. Vergleiche die drei Aufgaben. Was fällt dir auf?\n\na) 354 · 60 =\nb) 354 · 6 =\nc) 354 · 66 =",
+    "loesung": "a) 21.240\nb) 2.124\nc) 23.364\n\nZusammenhang: 354 · 66 = 354 · 60 + 354 · 6 = 21.240 + 2.124 = 23.364",
     "loesungsweg": "- 354 · 6 = 2.124 (schriftlich: 6·4=24, 6·5=30+2=32, 6·3=18+3=21)\n- 354 · 60 = 354 · 6 · 10 = 2.124 · 10 = 21.240\n- 354 · 66 = 354 · (60 + 6) = 354 · 60 + 354 · 6 = 21.240 + 2.124 = 23.364\n\nBeim schriftlichen Multiplizieren mit 66:\n1. Zeile: 354 · 6 = 2.124\n2. Zeile: 354 · 60 = 21.240 (eine Stelle nach links versetzt)\n3. Beide Zeilen addieren: 23.364",
     "tipps": [
       "354 · 66 = 354 · (60 + 6). Du kannst die Aufgabe also in zwei Teile zerlegen! Rechne zuerst 354 · 6 und dann 354 · 60 und addiere.",
@@ -1346,15 +1346,35 @@
     "erklaerungBild": "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Multipliziere schriftlich.\n\n354 · 60 =\n354 · 6 =\n354 · 66 =\n\nVergleiche die drei Aufgaben. Was fällt dir auf?",
+      "anweisung": "Multipliziere schriftlich. Vergleiche die drei Aufgaben. Was fällt dir auf?",
       "teilaufgaben": [
         {
-          "label": "1",
+          "label": "a",
           "schritte": [
             {
               "label": "1",
-              "frage": "Multipliziere schriftlich.\n\n354 · 60 =\n354 · 6 =\n354 · 66 =\n\nVergleiche die drei Aufgaben. Was fällt dir auf?",
-              "antwort": "354 · 60 = 21.240"
+              "frage": "354 · 60 =",
+              "antwort": "21.240"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "354 · 6 =",
+              "antwort": "2.124"
+            }
+          ]
+        },
+        {
+          "label": "c",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "354 · 66 =",
+              "antwort": "23.364"
             }
           ]
         }

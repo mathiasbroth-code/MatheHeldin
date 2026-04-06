@@ -18,7 +18,7 @@
       "- Wenn du ein Ganzes gerecht an 2 teilst, bekommt jeder 1 von 2 Teilen → 1/2.\n- Bei 4 Kindern bekommt jeder 1 von 4 Teilen → 1/4.\n- Bei 8 Kindern bekommt jeder 1 von 8 Teilen → 1/8.\n- Die untere Zahl (Nenner) sagt, in wie viele gleiche Teile geteilt wird. Die obere Zahl (Zähler) sagt, wie viele Teile du bekommst."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -61,13 +61,13 @@
     "loesung": "",
     "loesungsweg": "",
     "tipps": [
-      "Lies die Aufgabe nochmal genau durch.",
-      "Überlege Schritt für Schritt.",
-      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      "Ein Viertel bedeutet: Du teilst das Rechteck in vier gleich große Stücke. Stell dir vor, du faltest das Blatt — welche Faltlinien ergeben vier gleiche Teile?",
+      "Es gibt mehrere Möglichkeiten: Du kannst das Rechteck mit einem senkrechten und einem waagerechten Schnitt in vier Teile teilen. Oder mit zwei senkrechten Schnitten. Probiere verschiedene Linien!",
+      "Zeichne das Rechteck (6 cm x 8 cm). Ziehe eine Linie bei 3 cm von links (Mitte der langen Seite) und eine bei 4 cm von oben (Mitte der kurzen Seite). Jetzt hast du vier gleiche Teile — faerbe eines davon gruen.",
       ""
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -105,7 +105,7 @@
       "Der Nenner (unten) ist die Gesamtzahl der gleichen Teile. Der Zähler (oben) ist die Anzahl der gefärbten Teile.\n- a) 1 von 4 Teilen gefärbt → 1/4\n- b) 3 von 4 Teilen gefärbt → 3/4\n- d) 5 von 8 Teilen gefärbt → 5/8"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -164,7 +164,7 @@
       "- a) 1/4 + 1/4 = 2/4 = 1/2. Wenn du ein Halbes in zwei gleich große Teile teilst, bekommst du 2 Viertel.\n- b) 4/4 = 1 Ganzes. Vier Viertel ergeben wieder das Ganze.\n- c) 1/8 + 1/8 = 2/8 = 1/4. Zwei Achtel sind so viel wie ein Viertel.\n- d) 4 × 1/8 = 4/8 = 1/2. Vier Achtel sind ein Halbes."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -217,7 +217,7 @@
       "Zähle die gefärbten Teile (Zähler) und die Gesamtzahl der Teile (Nenner).\n- b) 2/4 — und weil 2 von 4 genau die Hälfte ist, kann man auch 1/2 schreiben.\n- c) 6/8 — und weil 6 von 8 dasselbe ist wie 3 von 4, kann man auch 3/4 schreiben.\n- d) 4/8 — das ist genau die Hälfte, also auch 1/2."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -281,7 +281,7 @@
       "Jede der 3 Pizzen wird in 4 gleiche Teile geschnitten. Das ergibt 3 × 4 = 12 Stücke. 12 Stücke : 4 Kinder = 3 Stücke pro Kind. Jedes Stück ist ein Viertel, also bekommt jedes Kind 3/4 einer Pizza."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -324,7 +324,7 @@
       "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -379,7 +379,7 @@
       "- \"halb\" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.\n- \"Viertel\" bedeutet immer 1/4 — das Ganze in 4 gleiche Teile geteilt.\n- \"Achtel\" bedeutet immer 1/8 — das Ganze in 8 gleiche Teile geteilt.\n- Diese Brüche begegnen dir überall im Alltag: beim Kochen, bei der Uhrzeit, beim Teilen."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -1821,8 +1821,8 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "millionen-fragen",
     "digital": "voll",
-    "aufgabenstellung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
-    "loesung": "Schritt 1: 60 Sekunden\nSchritt 2: 60 × 60 = 3.600 Sekunden\nSchritt 3: 24 × 3.600 = 86.400 Sekunden\nSchritt 4: 1.000.000 : 86.400 ≈ 11,6 → ca. 11 Tage und 14 Stunden",
+    "aufgabenstellung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt fuer Schritt.\n\na) Wie viele Sekunden hat eine Minute?\nb) Wie viele Sekunden hat eine Stunde?\nc) Wie viele Sekunden hat ein Tag?\nd) 1.000.000 Sekunden sind wie viele Tage? (runde auf ganze Tage)",
+    "loesung": "a) 60\nb) 3.600\nc) 86.400\nd) ca. 12 Tage",
     "loesungsweg": "- 1 Minute = 60 s\n- 1 Stunde = 60 × 60 = 3.600 s\n- 1 Tag = 24 × 3.600 = 86.400 s\n- 1.000.000 : 86.400 ≈ 11,6 Tage ≈ 11 Tage und 14 Stunden\n\nEine Million Sekunden sind also knapp 12 Tage!",
     "tipps": [
       "Gehe Schritt für Schritt von der kleinen zur großen Einheit: Sekunden → Minuten → Stunden → Tage.",
@@ -1834,15 +1834,45 @@
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
+      "anweisung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt fuer Schritt.",
       "teilaufgaben": [
         {
-          "label": "1",
+          "label": "a",
           "schritte": [
             {
               "label": "1",
-              "frage": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
-              "antwort": "Schritt 1: 60 Sekunden"
+              "frage": "Wie viele Sekunden hat eine Minute?",
+              "antwort": "60"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Wie viele Sekunden hat eine Stunde?",
+              "antwort": "3.600"
+            }
+          ]
+        },
+        {
+          "label": "c",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Wie viele Sekunden hat ein Tag?",
+              "antwort": "86.400"
+            }
+          ]
+        },
+        {
+          "label": "d",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "1.000.000 Sekunden sind wie viele Tage? (runde auf ganze Tage)",
+              "antwort": "ca. 12 Tage"
             }
           ]
         }
@@ -2068,9 +2098,9 @@
     "loesung": "",
     "loesungsweg": "",
     "tipps": [
-      "Lies die Aufgabe nochmal genau durch.",
-      "Überlege Schritt für Schritt.",
-      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      "Ueberlege dir einen Gegenstand, den du gut kennst (Muenze, Baustein, Buch). Wie gross oder schwer ist er? Was passiert, wenn du eine Million davon hintereinanderlegst oder aufeinanderstapelst?",
+      "Fermi-Fragen loest du so: Miss oder schaetze die Groesse eines einzelnen Gegenstands. Dann multipliziere mit 1.000.000. Wandle das Ergebnis in eine sinnvolle Einheit um (z.B. cm in km).",
+      "Beispiel: Eine Ein-Cent-Muenze ist etwa 1,5 mm dick. 1.000.000 mal 1,5 mm = 1.500.000 mm. Wandle um: 1.500.000 mm = 1.500 m = 1,5 km. Ein Turm aus einer Million Muenzen waere also 1,5 km hoch!",
       ""
     ],
     "didaktischerHinweis": "Offene Fermi-Aufgaben fördern Kreativität und Größenvorstellungen. Entspricht S. 102-103.",

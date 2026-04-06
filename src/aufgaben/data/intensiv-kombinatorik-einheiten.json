@@ -1286,6 +1286,12 @@
       "Rotes T-Shirt: 2 Möglichkeiten (Jeans oder Jogginghose).\nBlaues T-Shirt: nochmal 2.\nGrünes T-Shirt: nochmal 2.\nZusammen: 2 + 2 + 2 = 6. Oder: 3 × 2 = ?",
       "Für jedes T-Shirt gibt es 2 Hosenwahlmöglichkeiten:\n- Rot + Jeans, Rot + Jogginghose\n- Blau + Jeans, Blau + Jogginghose\n- Grün + Jeans, Grün + Jogginghose\n\n3 T-Shirts × 2 Hosen = 6 Outfits"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder können alle Möglichkeiten aufzählen und entdecken das Muster: Anzahl A × Anzahl B = Gesamtanzahl.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1303,7 +1309,7 @@
   },
   {
     "titel": "Frühstück zusammenstellen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Wie viele Möglichkeiten?",
     "schwierigkeit": "gelb",
     "buchseite": 72,
@@ -1319,15 +1325,22 @@
       "Milch: 2 Möglichkeiten. Kakao: 2 Möglichkeiten. Saft: 2 Möglichkeiten. Zusammen: 3 × 2 = ?",
       "3 Getränke × 2 Brötchen = 6 Kombinationen:\n- Milch + Laugen, Milch + Vollkorn\n- Kakao + Laugen, Kakao + Vollkorn\n- Saft + Laugen, Saft + Vollkorn"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Gleiche Struktur wie Aufgabe 31, anderer Kontext. Die Tabelle als Alternative zum Baumdiagramm. Kinder erkennen: Das Muster \"Anzahl A × Anzahl B\" funktioniert immer!",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Beim Frühstück gibt es:\n- **Getränke:** Milch, Kakao, Saft\n- **Brötchen:** Laugenbrötchen, Vollkornbrötchen",
+      "kontext": "Beim Frühstück gibt es:\n- **Getränke:** Milch, Kakao, Saft\n- **Brötchen:** Laugenbrötchen, Vollkornbrötchen",
       "items": [
         {
           "label": "1",
-          "frage": "Beim Frühstück gibt es:\n- **Getränke:** Milch, Kakao, Saft\n- **Brötchen:** Laugenbrötchen, Vollkornbrötchen\n\nPhilippa wählt ein Getränk und ein Brötchen. Wie viele verschiedene Frühstücks-Kombinationen gibt es?",
+          "frage": "Philippa wählt ein Getränk und ein Brötchen. Wie viele verschiedene Frühstücks-Kombinationen gibt es?",
           "antwort": "6"
         }
       ]
@@ -1350,6 +1363,12 @@
       "Zeichne ein Baumdiagramm mit 3 Ästen. Von jedem Ast gehen 2 Äste ab. Am Ende steht die letzte Ziffer fest. Zähle die Enden!",
       "Wenn die 1 vorne steht, bleiben 2 und 3: 123, 132 → 2 Möglichkeiten.\nWenn die 2 vorne steht: ? und ? → nochmal 2.\nWenn die 3 vorne steht: ? und ? → nochmal 2.\nGesamt: 3 × 2 = ?",
       "Baumdiagramm:\n```\n     ┌── 2 ── 3  → 123\n1 ───┤\n     └── 3 ── 2  → 132\n\n     ┌── 1 ── 3  → 213\n2 ───┤\n     └── 3 ── 1  → 231\n\n     ┌── 1 ── 2  → 312\n3 ───┤\n     └── 2 ── 1  → 321\n```\n3 × 2 × 1 = 6"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahlen. Das Baumdiagramm mit einfachen Ziffern ist übersichtlich. Kleinste/größte Zahl trainiert zusätzlich das Stellenwertverständnis.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1394,6 +1413,12 @@
       "Salami kann mit 3 anderen kombiniert werden: P, Sc, M → 3 Pizzen.\nPilze: noch 2 neue Partner (Sc, M) → 2 Pizzen.\nSchinken: noch 1 neuer Partner (M) → 1 Pizza.\nGesamt: 3 + 2 + 1 = ?",
       "Systematisch alle Paare (Reihenfolge spielt keine Rolle):\n- Salami + Pilze, Salami + Schinken, Salami + Mais → 3\n- Pilze + Schinken, Pilze + Mais → 2\n- Schinken + Mais → 1\n3 + 2 + 1 = 6"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Kombination (ohne Wiederholung, ohne Reihenfolge) im Pizzakontext. Das Muster 3 + 2 + 1 = 6 kommt wieder — Kinder erkennen die Verbindung zu Fotoaufgaben und Fussballturnieren.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1426,6 +1451,12 @@
       "Zeichne ein Baumdiagramm:\nLinker Platz → Mittlerer Platz → Rechter Platz\n3 Möglichkeiten → 2 → 1",
       "Emma links: Finn-Greta oder Greta-Finn → 2 Möglichkeiten.\nFinn links: 2 Möglichkeiten.\nGreta links: 2 Möglichkeiten.\nGesamt: 3 × 2 = ?",
       "Für den linken Platz: 3 Möglichkeiten.\nFür den mittleren Platz: 2 Möglichkeiten.\nFür den rechten Platz: 1 Möglichkeit.\n3 × 2 × 1 = 6"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das Muster. Die Autofahrt-Situation ist für viele Kinder unmittelbar nachvollziehbar.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1465,6 +1496,12 @@
       "Münze 1 zeigt Kopf: Münze 2 kann K oder Z zeigen → K-K und K-Z.\nMünze 1 zeigt Zahl: Münze 2 kann K oder Z zeigen → Z-K und Z-Z.\nZusammen: 2 + 2 = ?",
       "Münze 1: 2 Möglichkeiten (K oder Z).\nMünze 2: 2 Möglichkeiten.\nGesamt: 2 × 2 = 4\n\nBaumdiagramm:\n```\n     ┌── K → K-K\nK ───┤\n     └── Z → K-Z\n\n     ┌── K → Z-K\nZ ───┤\n     └── Z → Z-Z\n```"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einfaches Beispiel für die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm ist übersichtlich. Vorbereitung auf Wahrscheinlichkeitsaufgaben: \"Wie wahrscheinlich ist K-K?\"",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1502,6 +1539,12 @@
       "Baumdiagramm:\n```\nRot ——┬—— Blau   → Rot-Blau\n      └—— Gelb   → Rot-Gelb\nBlau ——┬—— Rot   → Blau-Rot\n       └—— Gelb  → Blau-Gelb\nGelb ——┬—— Rot   → Gelb-Rot\n       └—— Blau  → Gelb-Blau\n```",
       "Rot links → 2 Muster. Blau links → 2 Muster. Gelb links → 2 Muster.\n3 × 2 = ?",
       "Für das linke Feld: 3 Farbmöglichkeiten.\nFür das rechte Feld: 2 Farbmöglichkeiten (die verwendete Farbe fällt weg).\n3 × 2 = 6\n\nAchtung: Rot-Blau ist NICHT dasselbe wie Blau-Rot (die Reihenfolge zählt!)."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Hier zählt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. Kinder erkennen den Unterschied: Rot-Blau sieht ANDERS aus als Blau-Rot.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1541,6 +1584,12 @@
       "A hat 4 Gegner: 4 Spiele. B hat noch 3 neue Gegner: 3 Spiele. C hat noch 2: 2 Spiele. D hat noch 1: 1 Spiel.\n4 + 3 + 2 + 1 = ?",
       "Team A: 4 Spiele (gegen B, C, D, E)\nTeam B: 3 neue Spiele (gegen C, D, E — gegen A schon gezählt)\nTeam C: 2 neue Spiele (gegen D, E)\nTeam D: 1 neues Spiel (gegen E)\n4 + 3 + 2 + 1 = 10"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+3+2+1=10 ist die nächste Stufe. Kinder können das Muster erkennen: Bei 3 Teams: 3, bei 4 Teams: 6, bei 5 Teams: 10.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1579,6 +1628,12 @@
       "Wenn du Vanille weglässt: S+E+Z.\nWenn du Schoko weglässt: V+E+Z.\nWenn du Erdbeere weglässt: V+S+Z.\nWenn du Zitrone weglässt: V+S+E.\nDas sind ? verschiedene Becher.",
       "Man wählt 3 aus 4 Sorten. Es gibt genau eine Sorte, die NICHT im Becher ist:\n- Ohne Zitrone: V+S+E\n- Ohne Erdbeere: V+S+Z\n- Ohne Schoko: V+E+Z\n- Ohne Vanille: S+E+Z\n\nAlso 4 Möglichkeiten (eine pro weggelassener Sorte)."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Trick \"3 aus 4 wählen = 1 weglassen\" ist ein eleganter Perspektivwechsel. Kinder, die das entdecken, haben einen wichtigen kombinatorischen Denkschritt gemacht. Die Aufgabe zeigt: Manchmal ist Weglassen einfacher als Auswählen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1611,6 +1666,12 @@
       "Multipliziere die Möglichkeiten pro Platz:\nPlatz 1: 4 | Platz 2: 3 | Platz 3: 2\n4 × 3 × 2 = ?",
       "Wenn der obere Streifen rot ist, gibt es für den mittleren 3 Farben. Für jede davon 2 für den unteren: 3 × 2 = 6 Flaggen mit rotem Oberstreifen.\nDas gilt für jede der 4 Farben oben: 4 × 6 = ?",
       "4 Farben für Platz 1 × 3 für Platz 2 × 2 für Platz 3 = 4 × 3 × 2 = 24 Flaggen"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Variation von 4 Elementen auf 3 Plätze (4 × 3 × 2 = 24). Das Baumdiagramm wäre mit 24 Enden zu groß — die Multiplikationsregel ist hier nötig. Kinder lernen den Übergang vom Zählen zum Rechnen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1659,6 +1720,12 @@
       "Code: 3 _ _ 7. An der zweiten Stelle kann die 5 oder die 9 stehen.\nWenn 5 an Stelle 2: 3-5-9-7.\nWenn 9 an Stelle 2: 3-9-5-7.\nWie viele sind das?",
       "Die erste Ziffer (3) und die letzte (7) sind fest. Für die mittleren Stellen gibt es nur zwei Reihenfolgen:\n- 3-5-9-7 = 3597\n- 3-9-5-7 = 3957\n\nAlso 2 Möglichkeiten."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Fixierte Stellen reduzieren die Anzahl drastisch: Von potentiell vielen auf nur 2. Kinder lernen: Je mehr man weiß, desto weniger Möglichkeiten bleiben. Alltagsbezug (Fahrradschloss) motiviert.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1691,6 +1758,12 @@
       "Das ist wie beim Fussballturnier: Jeder gegen jeden, aber jedes Paar nur einmal! 5 + 4 + 3 + 2 + 1 = ?",
       "5 + 4 = 9. Dann 9 + 3 = 12. Dann 12 + 2 = 14. Dann 14 + 1 = ?",
       "a) Kind 1: 5 Handschläge (mit 2, 3, 4, 5, 6)\nKind 2: 4 neue (mit 3, 4, 5, 6 — mit 1 schon gezählt)\nKind 3: 3 neue (mit 4, 5, 6)\nKind 4: 2 neue (mit 5, 6)\nKind 5: 1 neuer (mit 6)\n5 + 4 + 3 + 2 + 1 = 15\n\nb) Jedes Kind gibt 5 anderen die Hand → 5 Handschläge."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Das Handschlag-Problem ist ein Klassiker der Kombinatorik. Es hat die gleiche Struktur wie das Fussballturnier (Aufgabe 5 in der Basissammlung). Kinder erkennen das Muster: Bei 6 Personen: 5+4+3+2+1 = 15. Das vertieft die Einsicht in die Dreiecks-Zahlen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1730,6 +1803,12 @@
       "Katze links im Paar (KH): Ordne KH, P, F an → 3 × 2 × 1 = 6 Reihenfolgen.\nHund links im Paar (HK): nochmal 6 Reihenfolgen.\nGesamt: 6 + 6 = ?",
       "Katze und Hund als Pärchen behandeln → 3 \"Elemente\": (KH), P, F.\nDiese 3 Elemente: 3 × 2 × 1 = 6 Reihenfolgen.\nAber: Das Pärchen kann auch umgekehrt sein: (HK) statt (KH).\nAlso: 6 × 2 = 12\n\nBeispiele: KH-P-F, KH-F-P, P-KH-F, P-F-KH, F-KH-P, F-P-KH,\nHK-P-F, HK-F-P, P-HK-F, P-F-HK, F-HK-P, F-P-HK"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Permutation mit Nebenbedingung: das \"Zusammenkleben\" als Lösungsstrategie. Anspruchsvolle Aufgabe, die systematisches Denken erfordert. Der Trick \"Pärchen bilden\" ist eine wichtige kombinatorische Technik.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1762,6 +1841,12 @@
       "Schreibe die Schritte als Buchstaben: R (rechts) und U (unten). Du brauchst 2 × R und 2 × U. Wie viele Anordnungen gibt es?",
       "Wenn die beiden R zuerst kommen: RRUU → 1 Weg.\nWenn ein R zuerst, dann U, dann R: RURU und RUUR → 2 Wege.\nProbiere alle Möglichkeiten mit U am Anfang ...",
       "Jeder Weg besteht aus genau 2 Schritten nach rechts (→→) und 2 Schritten nach unten (↓↓). Man muss die 4 Schritte anordnen:\n\n1. →→↓↓\n2. →↓→↓\n3. →↓↓→\n4. ↓→→↓\n5. ↓→↓→\n6. ↓↓→→\n\nDas sind 6 Wege."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Gitterwege sind ein schöner Einstieg in die Binomialkoeffizienten (4 über 2 = 6). Für die Grundschule reicht das systematische Aufschreiben. Die Verbindung von räumlichem Denken und Kombinatorik macht diese Aufgabe besonders wertvoll.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -1796,6 +1881,12 @@
       "Wenn Münze 1 = K: Es gibt 4 Möglichkeiten für Münzen 2 und 3 (KK, KZ, ZK, ZZ).\nWenn Münze 1 = Z: nochmal 4 Möglichkeiten.\nGesamt: 4 + 4 = ?\nc) Suche die Ergebnisse mit genau 2 × K: K-K-Z, K-Z-K, Z-K-K. Wie viele?",
       "a) 2 × 2 × 2 = 8\n\nb) Systematisch mit Baumdiagramm:\n```\n     ┌── K ──┬── K → KKK\n     |       └── Z → KKZ\nK ───┤\n     └── Z ──┬── K → KZK\n             └── Z → KZZ\n\n     ┌── K ──┬── K → ZKK\n     |       └── Z → ZKZ\nZ ───┤\n     └── Z ──┬── K → ZZK\n             └── Z → ZZZ\n```\n\nc) Genau 2 × K: KKZ, KZK, ZKK → 3 Stück"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Erweiterung auf 3 Münzen (2^3 = 8). Das Baumdiagramm wird größer, bleibt aber überschaubar. Teil c) führt in die Wahrscheinlichkeit ein: 3 von 8 Ergebnissen haben genau 2 × Kopf.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -1823,15 +1914,15 @@
   },
   {
     "titel": "Glücksrad — sicher, möglich, unmöglich",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 74,
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld.\n\nEntscheide: sicher, möglich oder unmöglich?\n\na) Du drehst und landest auf einem roten Feld.\nb) Du drehst und landest auf einem grünen Feld.\nc) Du drehst und landest auf einem farbigen Feld.\nd) Du drehst und landest auf einem roten oder blauen Feld.",
-    "loesung": "a) möglich (3 von 6 Feldern sind rot)\nb) unmöglich (es gibt kein grünes Feld)\nc) sicher (alle Felder sind farbig)\nd) möglich (5 von 6 Feldern, aber nicht sicher — es könnte auch gelb sein)",
+    "aufgabenstellung": "Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.\n\na) Du drehst und landest auf einem roten Feld.\nb) Du drehst und landest auf einem grünen Feld.\nc) Du drehst und landest auf einem farbigen Feld.\nd) Du drehst und landest auf einem roten oder blauen Feld.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → B\nb) → C\nc) → A\nd) → B",
     "loesungsweg": "Man prüft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:\n- a) Rot gibt es 3-mal → möglich\n- b) Grün gibt es 0-mal → unmöglich\n- c) Alle 6 Felder sind farbig → sicher\n- d) Rot + Blau = 5 Felder, aber Gelb (1 Feld) ist weder rot noch blau → möglich",
     "tipps": [
       "Schau dir das Glücksrad an: Welche Farben gibt es? Welche nicht? Dann prüfe jede Aussage.",
@@ -1839,31 +1930,55 @@
       "b) Gibt es ein grünes Feld? Nein! → unmöglich.\nc) Gibt es ein farbloses Feld? Nein, alle sind farbig! → sicher.\nd) Rot (3) + Blau (2) = 5 Felder. Aber Gelb (1) ist übrig → passiert nicht immer → ?",
       "Man prüft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:\n- a) Rot gibt es 3-mal → möglich\n- b) Grün gibt es 0-mal → unmöglich\n- c) Alle 6 Felder sind farbig → sicher\n- d) Rot + Blau = 5 Felder, aber Gelb (1 Feld) ist weder rot noch blau → möglich"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Glücksrad als Zufallsexperiment: anschaulicher als Würfel, weil die Felder \"sichtbar\" sind. Die Farbverteilung (3-2-1) lässt sich gut visuell vorstellen. Besonders d) erfordert genaues Nachdenken: Fast sicher, aber nicht ganz!",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld.\n\nEntscheide: sicher, möglich oder unmöglich?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Du drehst und landest auf einem roten Feld."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Du drehst und landest auf einem grünen Feld."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Du drehst und landest auf einem farbigen Feld."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Du drehst und landest auf einem roten oder blauen Feld."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "C",
+        "c": "A",
+        "d": "B"
+      }
     }
   },
   {
@@ -1883,6 +1998,12 @@
       "Frage dich: Kann es passieren? Wenn ja: Passiert es JEDES Mal? Wenn nicht jedes Mal: möglich. Wenn jedes Mal: sicher.",
       "c) Im Beutel sind nur rote und blaue Kugeln. Egal was du ziehst — es ist immer rot ODER blau. Also: sicher!",
       "- a) 5 rote von 8 → möglich, aber nicht sicher\n- b) 0 gelbe → unmöglich\n- c) Rot + Blau = alle Kugeln → sicher\n- d) 3 blaue von 8 → möglich"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungleiche Verteilung (5 rot, 3 blau) bereitet das Konzept \"wahrscheinlicher/unwahrscheinlicher\" vor, ohne es explizit einzuführen.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -1928,6 +2049,12 @@
       "Teste zuerst: Ist es unmöglich? (Widerspricht es einem Naturgesetz?)\nDann: Ist es sicher? (Passiert es garantiert immer?)\nSonst: möglich.",
       "c) Springst du hoch und bleibst schweben? Probier es aus — du kommst immer zurück. → unmöglich.\ne) Welche Zahlen stehen auf einem Würfel? 1, 2, 3, 4, 5, 6. Gibt es eine 7? → unmöglich.",
       "Für jede Aussage: Kann es nie, manchmal oder immer passieren?\n- a) Die Erde dreht sich → Sonnenaufgang ist sicher\n- b) Lehrerverteilung ist unsicher → möglich\n- c) Schwerkraft → unmöglich\n- d) In Deutschland regnet es häufig → praktisch sicher\n- e) Würfel hat 6 Seiten (1-6), keine 7 → unmöglich"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Alltagsaussagen ohne Zahlen: Kinder lernen die Dreigliederung sicher/möglich/unmöglich an ihrer Lebenswelt. Die Begründung ist mindestens so wichtig wie die Antwort. Aussage d) ist diskutabel — das fördert mathematisches Argumentieren.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -1978,6 +2105,12 @@
       "Kind A: 4 Felder. Kind B: 3 Felder. Ist 4 = 3? Nein! Also ist das Spiel ...",
       "- a) 4 rote Felder = 4 Gewinnfelder für A\n- b) 3 blaue Felder = 3 Gewinnfelder für B\n- c) 4 > 3, also hat A mehr Chancen → unfair"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einfacher Fairness-Vergleich durch Zählen. Kinder brauchen noch keine Brüche — es reicht, die Gewinnfelder zu vergleichen. Das Glücksrad ist anschaulicher als Würfel, weil man die Flächen \"sehen\" kann.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2021,6 +2154,12 @@
       "b) Summe 7: Wenn Würfel 1 = 1, dann Würfel 2 = 6 (denn 1+6=7). Wenn Würfel 1 = 2, dann Würfel 2 = 5. Wenn Würfel 1 = 3, dann ... Zähle alle!",
       "- a) Summe 2: Nur 1+1 = 2 → 1 Möglichkeit\n- b) Summe 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten\n- c) 6 > 1, also kommt die 7 häufiger"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Kernaufgabe der Würfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrscheinlich. Die 7 hat die meisten Möglichkeiten (6), die 2 die wenigsten (1). Dieses Ergebnis widerspricht oft der kindlichen Intuition und ist ein Aha-Erlebnis.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2048,15 +2187,15 @@
   },
   {
     "titel": "Lottozahlen ziehen — sicher oder unmöglich?",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 75,
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Entscheide: sicher, möglich oder unmöglich?\n\na) Die gezogene Zahl ist kleiner als 11.\nb) Die gezogene Zahl ist 5.\nc) Die gezogene Zahl ist 0.\nd) Die gezogene Zahl ist gerade.\ne) Die gezogene Zahl ist größer als 7.",
-    "loesung": "a) sicher (alle Zahlen 1-10 sind kleiner als 11)\nb) möglich (5 ist eine der 10 Zahlen)\nc) unmöglich (0 ist nicht im Beutel)\nd) möglich (2, 4, 6, 8, 10 sind gerade — aber 1, 3, 5, 7, 9 nicht)\ne) möglich (8, 9, 10 sind größer als 7 — aber die meisten nicht)",
+    "aufgabenstellung": "Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.\n\na) Die gezogene Zahl ist kleiner als 11.\nb) Die gezogene Zahl ist 5.\nc) Die gezogene Zahl ist 0.\nd) Die gezogene Zahl ist gerade.\ne) Die gezogene Zahl ist größer als 7.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → A\nb) → B\nc) → C\nd) → B\ne) → B",
     "loesungsweg": "Ergebnisraum: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\n- a) Alle 10 Zahlen < 11 → sicher\n- b) 5 ist enthalten, aber nicht die einzige → möglich\n- c) 0 ist nicht enthalten → unmöglich\n- d) 5 von 10 sind gerade → möglich\n- e) 3 von 10 sind > 7 → möglich",
     "tipps": [
       "Schreibe alle Zahlen von 1 bis 10 auf. Dann prüfe: Erfüllt JEDE Zahl die Bedingung? Oder nur manche? Oder keine?",
@@ -2064,35 +2203,60 @@
       "a) 1 < 11? Ja! 10 < 11? Ja! ALLE kleiner als 11 → sicher.\nc) Gibt es eine 0 im Beutel? 1, 2, 3, ..., 10 → keine 0! → unmöglich.",
       "Ergebnisraum: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\n- a) Alle 10 Zahlen < 11 → sicher\n- b) 5 ist enthalten, aber nicht die einzige → möglich\n- c) 0 ist nicht enthalten → unmöglich\n- d) 5 von 10 sind gerade → möglich\n- e) 3 von 10 sind > 7 → möglich"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Zahlenmenge als Ergebnisraum: übergang vom konkreten Würfel/Glücksrad zur abstrakteren Zahlenmenge. Die verschiedenen Aussagetypen (Vergleich, Gleichheit, Eigenschaft) trainieren vielfältiges Denken.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Entscheide: sicher, möglich oder unmöglich?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Die gezogene Zahl ist kleiner als 11."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Die gezogene Zahl ist 5."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Die gezogene Zahl ist 0."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Die gezogene Zahl ist gerade."
         },
         {
-          "label": "E",
+          "label": "e",
           "text": "Die gezogene Zahl ist größer als 7."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "B",
+        "e": "B"
+      }
     }
   },
   {
@@ -2112,6 +2276,12 @@
       "Gleichviele rote wie blaue Felder = fair. Der Rest kann neutral sein (kein Gewinner).",
       "a) 8 Felder für 2 Spieler: 8 ÷ 2 = 4 Felder pro Spieler. Also 4 rote + 4 blaue.\nb) Was passiert, wenn du 3 rote, 3 blaue und 2 grüne nimmst? Hat dann jeder gleich viele? 3 = 3 → fair!",
       "Fair = gleiche Gewinnchancen. Spieler A und B müssen gleich viele Gewinnfelder haben.\n- a) 8 Felder ÷ 2 Spieler = 4 Felder pro Spieler → 4 rot, 4 blau\n- b) Solange Rot und Blau gleich viele Felder haben, können die übrigen Felder eine andere Farbe haben: z.B. 3R, 3B, 2G oder 2R, 2B, 4G"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Kreative Umkehraufgabe: Statt ein bestehendes Spiel zu bewerten, gestaltet das Kind selbst ein faires Spiel. Das fördert tiefes Verständnis von Fairness. Teil b) zeigt: Neutrale Felder stören die Fairness nicht, solange beide gleich viele Gewinnfelder haben.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -2150,6 +2320,12 @@
       "Zähle die Gewinnzahlen für jedes Kind. Gleichviel = fair, verschieden = unfair.",
       "Kind A: Gerade Zahlen auf dem Würfel: 2, 4, 6. Das sind 3 Stück.\nKind B: Durch 3 teilbar: 3 ÷ 3 = 1 ✓, 6 ÷ 3 = 2 ✓. Was ist mit 1, 2, 4, 5? Die sind nicht durch 3 teilbar. Also nur 2 Stück. 3 ≠ 2 → ?",
       "Zahlen auf dem Würfel: 1, 2, 3, 4, 5, 6\n- a) Durch 2 teilbar: 2, 4, 6 → 3 Stück\n- b) Durch 3 teilbar: 3, 6 → 2 Stück\n- c) 3 ≠ 2 → unfair, Kind A gewinnt häufiger"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Verbindung von Teilbarkeit und Wahrscheinlichkeit. Mit nur einem Würfel (6 Möglichkeiten) ist die Analyse überschaubar. Die Erkenntnis \"unfair\" motiviert die Folgefrage: \"Wie müsste man die Regel ändern?\"",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -2194,6 +2370,12 @@
       "a) Was gilt für ALLE Zahlen 1-6? Sie sind alle kleiner als ... welche Zahl?\nc) Welche Zahl gibt es auf einem Würfel NICHT? 0? 7? 8?",
       "- a) Die Regel muss für ALLE Zahlen 1-6 gelten → z.B. \"kleiner als 7\", \"größer als 0\"\n- b) Die Regel darf für EINIGE, aber nicht alle gelten → z.B. \"gerade\", \"größer als 3\"\n- c) Die Regel darf für KEINE der Zahlen 1-6 gelten → z.B. \"gleich 0\", \"gleich 7\""
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Kreative Aufgabe, die das Verständnis von sicher/möglich/unmöglich vertieft. Kinder müssen die Konzepte aktiv anwenden, statt nur passiv zu klassifizieren. Mehrere richtige Antworten sind möglich — das fördert mathematische Kreativität.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2237,6 +2419,12 @@
       "Du brauchst 3 rote und 3 blaue Felder. Aktuell: 4 rote, 2 blaue. Wenn du 1 rotes Feld blau färbst: 4 − 1 = 3 rot, 2 + 1 = 3 blau. Passt das?",
       "- a) 4 rot vs. 2 blau → A hat mehr Chancen → unfair\n- b) Ziel: gleich viele rote und blaue Felder. 6 ÷ 2 = 3 pro Farbe.\n  Aktuell: 4 rot, 2 blau. 1 rotes Feld blau färben → 3 rot, 3 blau ✓\n- c) 1 rotes Feld wird blau."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Umkehrproblem: Das Kind muss nicht nur analysieren, sondern aktiv gestalten. Die Änderung (1 Feld umfärben) ist minimal — Kinder erkennen, wie empfindlich Fairness ist. Eine schöne Brücke zwischen Zählen und Gestalten.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2279,6 +2467,12 @@
       "Zähle die Möglichkeiten:\nSumme < 7: Summen 2, 3, 4, 5, 6 → addiere die Möglichkeiten.\nSumme > 7: Summen 8, 9, 10, 11, 12 → addiere die Möglichkeiten.\nVergleiche!",
       "Kind A: Summe 8 hat 5 Möglichkeiten. Summe 9 hat 4. Summe 10 hat 3. Summe 11 hat 2. Summe 12 hat 1.\n5 + 4 + 3 + 2 + 1 = ?\nKind B: Summe 2 hat 1. Summe 3 hat 2. ... Zähle genauso.",
       "Möglichkeiten pro Summe:\n- Summe 8: 5, Summe 9: 4, Summe 10: 3, Summe 11: 2, Summe 12: 1\n  → Kind A: 5+4+3+2+1 = 15\n- Summe 2: 1, Summe 3: 2, Summe 4: 3, Summe 5: 4, Summe 6: 5\n  → Kind B: 1+2+3+4+5 = 15\n- Summe 7: 6 (keiner gewinnt)\n- 15 = 15 → fair!"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Symmetrie der Würfelverteilung: Die Summen >7 und <7 haben spiegelsymmetrisch die gleiche Anzahl Möglichkeiten. Das Ergebnis (fair!) ist nicht offensichtlich und benötigt systematisches Zählen. Die 6 Möglichkeiten der Summe 7 (keiner gewinnt) sind der interessante \"Rest\".",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -2328,6 +2522,12 @@
       "Aktuell: A hat 4, B hat 2. Für Fairness: beide 3. Gib eine Zahl von A an B: z.B. die 4 geht zu B. Jetzt: A hat 1,2,3 (= 3) und B hat 4,5,6 (= 3). Fair?",
       "- a) A: {1, 2, 3, 4} = 4 Zahlen. B: {5, 6} = 2 Zahlen.\n- b) 4 ≠ 2 → unfair\n- c) Für Fairness: Jedes Kind braucht 3 Zahlen. Z.B. A: 1,2,3 und B: 4,5,6."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Dreistufiger Denkprozess: Analysieren → Bewerten → Verbessern. Die kreative Umgestaltung fördert tiefes Verständnis. Es gibt mehrere richtige Lösungen (z.B. A: 1,3,5 und B: 2,4,6) — das zeigt: Fairness hängt nur von der Anzahl ab, nicht von den konkreten Zahlen.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2371,6 +2571,12 @@
       "Box 1: 1, 2, 3, 4, 5, 6, 7, 8. Unterstreiche die geraden: 2, 4, 6, 8 → 4 von 8.\nBox 2: 2, 4, 6, 8, 10. Unterstreiche die geraden: alle! → 5 von 5.\nIn welcher Box ist die Chance größer?",
       "- Box 1: Gerade Zahlen = {2, 4, 6, 8} = 4 von 8 → die Hälfte\n- Box 2: Gerade Zahlen = {2, 4, 6, 8, 10} = 5 von 5 → alle!\n- In Box 2 ist es nicht nur wahrscheinlicher, sondern sogar sicher."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Vergleich von Anteilen: \"4 von 8\" vs. \"5 von 5\". Kinder lernen, dass nicht die absolute Zahl zählt, sondern das Verhältnis zur Gesamtanzahl. Box 2 ist ein Extremfall (sicher!) — das macht den Unterschied besonders deutlich.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -2408,6 +2614,12 @@
       "\"Möglich\" bedeutet nicht \"wahrscheinlich\"! 20-mal Kopf kann passieren, ist aber extrem selten. Ein Ergebnis nahe 10:10 ist am wahrscheinlichsten.",
       "c) Stell dir vor, du wirfst 2-mal: Ungefähr 1-mal Kopf. Bei 20-mal: 20 ÷ 2 = ungefähr 10-mal Kopf.",
       "- a) Theoretisch kann jeder Wurf Kopf zeigen → möglich\n- b) Die Wahrscheinlichkeit ist extrem gering → unwahrscheinlich\n- c) Bei einer fairen Münze: ca. 50% Kopf, 50% Zahl → ca. 10 von 20\n- d) 12:8 ist eine kleine Abweichung von 10:10 → völlig normal"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Unterscheidung \"möglich\" vs. \"wahrscheinlich\" — ein Kernkonzept! Das Gesetz der großen Zahlen (annähernd 50:50 bei vielen Würfen) wird intuitiv eingeführt. Die Erkenntnis, dass 12:8 \"normal\" ist, bekämpft den Mythos der perfekten Gleichverteilung.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -2456,6 +2668,12 @@
       "Rad A: 5 von 10 = ? (die Hälfte? Ein Drittel?)\nRad B: 3 von 6 = ? (die Hälfte? Ein Drittel?)\nVergleiche die Anteile!",
       "Rad A: 5 rote von 10. Ist die Hälfte von 10 gleich 5? Ja! Also genau die Hälfte.\nRad B: 3 rote von 6. Ist die Hälfte von 6 gleich 3? Ja! Also auch genau die Hälfte.\nGleiche Hälfte → gleiche Chance!",
       "- Rad A: 5 rote von 10 Feldern = die Hälfte\n- Rad B: 3 rote von 6 Feldern = die Hälfte\n- Beide: genau die Hälfte → gleiche Chance!"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Kernkonzept der Wahrscheinlichkeit: Nicht die absolute Zahl zählt, sondern der Anteil. 5 von 10 = 3 von 6 = die Hälfte. Das widerspricht der Intuition vieler Kinder, die denken: \"5 > 3, also ist Rad A besser.\" Diese Aufgabe baut wichtiges proportionales Denken auf.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",

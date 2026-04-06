@@ -68,7 +68,7 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
         </Card>
       )}
       <Card>
-        <MarkdownText text={current.frage} />
+        <MarkdownText text={current.frage} className="text-base text-heading font-semibold leading-relaxed" />
       </Card>
 
       {/* Baumdiagramm bei Kombinatorik-Aufgaben */}

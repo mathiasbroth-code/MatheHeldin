@@ -18,6 +18,7 @@
       "Lies die Größen aus der Tabelle ab und vergleiche:\n129, 142, 152, 128, 152. Die größte Zahl ist 152 (Lena und Tobi), die kleinste ist 128 (Emilio).\nUnterschied: 152 - 128 = 24 cm."
     ],
     "didaktischerHinweis": "Tabellenlesen als Grundkompetenz für Datenarbeit. Entspricht S. 122, Aufg. 1-3.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In einer Tabelle stehen die Körpergrössen von Kindern der Klasse 4b:\n\n| Name | Alter | Größe in cm |\n|------|-------|--------------|\n| Sofie | 10 | 142 |\n| Lena | 10 | 152 |\n| Emine | 10 | 129 |\n| Tobi | 10 | 152 |\n| Emilio | 10 | 128 |",
@@ -60,6 +61,7 @@
       "- a) 144 - 141 = 3 cm\n- b) 140 - 137 = 3 cm\n- c) 153 - 129 = 24 cm"
     ],
     "didaktischerHinweis": "Subtraktion im Kontext von Tabellendaten. Entspricht S. 122, Aufg. 3.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Berechne die Größenunterschiede.",
@@ -101,6 +103,7 @@
       "Bei einer ungeraden Anzahl von Werten ist der Mittelwert (Median) der Wert, der genau in der Mitte steht, wenn alle der Größe nach geordnet sind:\n129, 137, **140**, 142, 152 → 140 cm steht in der Mitte (2 Werte links, 2 Werte rechts)."
     ],
     "didaktischerHinweis": "Einführung Median (Mittelwert als „Wert in der Mitte\"). Entspricht S. 122, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Fünf Mädchen haben ihre Körpergrösse gemessen und sich der Größe nach aufgestellt:\n129 cm, 137 cm, 140 cm, 142 cm, 152 cm.",
@@ -137,6 +140,7 @@
       "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch"
     ],
     "didaktischerHinweis": "Diagramme lesen und Aussagen prüfen. Entspricht S. 123, Aufg. 7-9.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "In einem Diagramm zur Körpergrösse von Kindern (Alter 2-18 Jahre) kannst du ablesen, wie groß Kinder in verschiedenem Alter durchschnittlich sind. Sind diese Aussagen richtig oder falsch?",
@@ -187,6 +191,7 @@
       "- a) Paul jetzt : 3 = Geburtsgrösse → 141 : 3 = 47 cm\n- b) Geburtsgrösse · 4 = Vater → 47 · 4 = 188 cm\n- c) 188 - 141 = 47 cm"
     ],
     "didaktischerHinweis": "Sachrechnen mit Tabellendaten. Entspricht S. 122, Aufg. 6.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Paul ist jetzt 141 cm groß. Er ist 3-mal so groß wie bei seiner Geburt. Pauls Vater ist 4-mal so groß wie Paul bei seiner Geburt.",
@@ -228,6 +233,7 @@
       "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm)."
     ],
     "didaktischerHinweis": "Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
       "typ": "reihenfolge",
       "anweisung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)",
@@ -246,7 +252,7 @@
   },
   {
     "titel": "Eigene Größe einschätzen — Wie groß wirst du?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tabellen und Diagramme",
     "schwierigkeit": "orange",
     "buchseite": 123,
@@ -263,13 +269,15 @@
       "1. Größen addieren: 168 + 182 = 350\n2. Durch 2 teilen: 350 : 2 = 175\n3. 6 cm abziehen (für Mädchen): 175 - 6 = 169 cm"
     ],
     "didaktischerHinweis": "Mehrstufige Rechnung mit persönlichem Bezug. Entspricht S. 123, Formel-Aufgabe.",
+    "erklaerungBild": "assets/erklaerungen/s122-begriffe-mittelwert.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters) : 2 - 6 cm",
+      "kontext": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters) : 2 - 6 cm",
       "items": [
         {
           "label": "1",
-          "frage": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters) : 2 - 6 cm\n\nPhilippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
+          "frage": "Philippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
           "antwort": "169"
         }
       ]

@@ -18,6 +18,7 @@
       "Die sieben römischen Zahlzeichen und ihre Werte:\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1.000"
     ],
     "didaktischerHinweis": "Grundwissen römische Zahlzeichen. Entspricht S. 124, Einführung und S. 125, Tabelle.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die römischen Zahlzeichen ihrem Wert zu.",
@@ -110,6 +111,7 @@
       "Römische Zahlen werden addiert, wenn größere Zeichen links stehen:\n- a) V + I + I = 5 + 1 + 1 = 7\n- b) X + I + I = 10 + 1 + 1 = 12\n- c) X + X + I = 10 + 10 + 1 = 21\n- d) L + X = 50 + 10 = 60"
     ],
     "didaktischerHinweis": "Addition römischer Zahlzeichen. Entspricht S. 125, Aufg. 9.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schreibe als Zahl im Zehnersystem.",
@@ -156,6 +158,7 @@
       "Subtraktionsregel: kleineres Zeichen LINKS vom größeren wird abgezogen:\n- a) IV = V - I = 5 - 1 = 4\n- b) IX = X - I = 10 - 1 = 9\n- c) XL = L - X = 50 - 10 = 40\n- d) XC = C - X = 100 - 10 = 90\n- e) CD = D - C = 500 - 100 = 400\n- f) CM = M - C = 1.000 - 100 = 900"
     ],
     "didaktischerHinweis": "Zentrale Regel der römischen Zahlschreibweise. Entspricht S. 124, Merkkasten und S. 125, Aufg. 14.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wenn ein kleineres Zeichen links von einem größeren steht, wird es subtrahiert. Schreibe als Zahl im Zehnersystem.",
@@ -212,6 +215,7 @@
       "Zerlege die Zahl in Stellenwerte und übersetze:\n- a) 16 = 10 + 5 + 1 = X + V + I = XVI\n- b) 29 = 10 + 10 + 9 = X + X + IX = XXIX\n- c) 55 = 50 + 5 = L + V = LV\n- d) 82 = 50 + 10 + 10 + 10 + 1 + 1 = LXXXII\n- e) 160 = 100 + 50 + 10 = CLX\n- f) 504 = 500 + 4 = D + IV = DIV"
     ],
     "didaktischerHinweis": "Umwandlung Dezimal → Römisch. Entspricht S. 125, Aufg. 10, 12, 15.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als römische Zahl.",
@@ -269,6 +273,7 @@
       "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten"
     ],
     "didaktischerHinweis": "Fehlererkennung vertieft Regelverständnis. Entspricht S. 125, Aufg. 13.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Hier haben sich Fehler eingeschlichen. Prüfe, ob die römische Zahl richtig ist, und korrigiere.",
@@ -331,6 +336,7 @@
       "- a) M + D + C + C + L + V + I = 1.000 + 500 + 100 + 100 + 50 + 5 + 1 = 1.756\n- b) M + CM + XL + VI = 1.000 + 900 + 40 + 6 = 1.946\n- c) M + M + XX + VI = 1.000 + 1.000 + 20 + 6 = 2.026"
     ],
     "didaktischerHinweis": "Komplexe römische Zahlen mit Subtraktionsregel. Entspricht S. 125, Aufg. 7 und 14.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "An alten Gebäuden findet man oft das Baujahr in römischen Zahlen. Schreibe als Dezimalzahl.",
@@ -372,6 +378,7 @@
       "- a) 49 = 40 + 9 = XL + IX = XLIX\n- b) 94 = 90 + 4 = XC + IV = XCIV\n- c) 476 = 400 + 70 + 6 = CD + LXX + VI = CDLXXVI\n- d) 1.947 = 1.000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII\n- e) 2.740 = 2.000 + 700 + 40 = MM + DCC + XL = MMDCCXL"
     ],
     "didaktischerHinweis": "Fortgeschrittene Umwandlung mit Subtraktionsregel. Entspricht S. 125, Aufg. 15.",
+    "erklaerungBild": "assets/erklaerungen/s124-merkkasten-roemische-zahlen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als römische Zahl.",
@@ -424,6 +431,7 @@
       "Im Binärsystem verdoppelt sich der Stellenwert von rechts nach links:\n1. Stelle = 1, 2. Stelle = 2, 3. Stelle = 4, 4. Stelle = 8, 5. Stelle = 16.\nJeder Stellenwert ist das Doppelte des vorherigen: 1, 2, 4, 8, 16."
     ],
     "didaktischerHinweis": "Einführung Binärsystem über Stellenwerte. Entspricht S. 126, Erklärung und Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -468,6 +476,7 @@
       "Prüfe für jede Stelle, ob der Stellenwert in die Zahl passt:\n- a) 3: 16? Nein(0). 8? Nein(0). 4? Nein(0). 2? Ja(1), Rest 1. 1? Ja(1). → 00011\n- b) 5: 16? Nein(0). 8? Nein(0). 4? Ja(1), Rest 1. 2? Nein(0). 1? Ja(1). → 00101\n- c) 6: 16? Nein. 8? Nein. 4? Ja(1), Rest 2. 2? Ja(1). 1? Nein(0). → 00110\n- d) 10: 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 01010"
     ],
     "didaktischerHinweis": "Erste Umwandlung Dezimal → Binär. Entspricht S. 126, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Stelle diese Zahlen im Binärsystem dar. Nutze die Stellenwerte 16, 8, 4, 2, 1.",
@@ -514,6 +523,7 @@
       "Stellenwerte: 16, 8, 4, 2, 1. Addiere die Stellenwerte, wo eine 1 steht:\n- a) 10000: 16 = 16\n- b) 10001: 16 + 1 = 17\n- c) 01010: 8 + 2 = 10\n- d) 00110: 4 + 2 = 6\n- e) 10010: 16 + 2 = 18\n- f) 00101: 4 + 1 = 5"
     ],
     "didaktischerHinweis": "Umwandlung Binär → Dezimal. Entspricht S. 126, Aufg. 5-6.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Übersetze diese Binärcodes in das Zehnersystem.",
@@ -570,6 +580,7 @@
       "- a) 25: 64? Nein. 32? Nein. 16? Ja(1), Rest 9. 8? Ja(1), Rest 1. 4? Nein. 2? Nein. 1? Ja(1). → 0011001\n- b) 42: 64? Nein. 32? Ja(1), Rest 10. 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 0101010\n- c) 56: 64? Nein. 32? Ja(1), Rest 24. 16? Ja(1), Rest 8. 8? Ja(1). 4? Nein. 2? Nein. 1? Nein. → 0111000"
     ],
     "didaktischerHinweis": "Erweiterung auf 7-stellige Binärzahlen. Entspricht S. 126, Aufg. 3-4.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Stelle diese Zahlen im Binärsystem dar. Du brauchst jetzt 7 Stellen (Stellenwerte: 64, 32, 16, 8, 4, 2, 1).",
@@ -611,6 +622,7 @@
       "- 01001101 = 64+8+4+1 = 77 → M\n- 01000001 = 64+1 = 65 → A\n- 01010100 = 64+16+4 = 84 → T\n- 01001000 = 64+8 = 72 → H\n- 01000101 = 64+4+1 = 69 → E\n\nDas Wort heißt: MATHE"
     ],
     "didaktischerHinweis": "Verknüpfung Binärsystem mit ASCII-Codierung. Entspricht S. 127, Aufg. 8.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101",
@@ -643,6 +655,7 @@
       "- a) 11111 = 16+8+4+2+1 = 31 → richtig\n- b) Im Binärsystem gibt es nur 0 und 1 → falsch\n- c) 10 im Binärsystem: 1·2 + 0·1 = 2 → richtig\n- d) Die 1er-Stelle (ganz rechts) entscheidet über gerade/ungerade. 0 = gerade → richtig"
     ],
     "didaktischerHinweis": "Vertiefung Binärsystem durch Muster und Regeln. Entspricht S. 126, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s126-begriffe-binaersystem.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch?",
@@ -1105,7 +1118,7 @@
   },
   {
     "titel": "Summe von 1 bis 200 — den Trick übertragen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Rechenkünstler",
     "schwierigkeit": "orange",
     "buchseite": 130,
@@ -1123,7 +1136,7 @@
     ],
     "didaktischerHinweis": "Transfer auf größeren Zahlenraum. Entspricht S. 130, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "",
       "items": [
         {
@@ -1314,8 +1327,8 @@
     "kapitel": "14-forscherkiste",
     "stageId": "fibonacci",
     "digital": "voll",
-    "aufgabenstellung": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen.\n\n1, 1, 2, 3, 5, 8, 13, ___, ___, ___\n\nSetze die Folge um drei Zahlen fort.",
-    "loesung": "21, 34, 55",
+    "aufgabenstellung": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen. Setze die Folge fort: 1, 1, 2, 3, 5, 8, 13, ...\n\na) Welche Zahl kommt nach 13?\nb) Welche Zahl kommt danach?\nc) Und welche danach?",
+    "loesung": "a) 21\nb) 34\nc) 55",
     "loesungsweg": "- 8 + 13 = 21\n- 13 + 21 = 34\n- 21 + 34 = 55\n\nDie Fibonacci-Regel: Jede Zahl ist die Summe der beiden vorherigen.",
     "tipps": [
       "Schau dir an, wie die Zahlen zusammenhängen: 1+1=2, 1+2=3, 2+3=5, 3+5=8, 5+8=13. Siehst du das Muster?",
@@ -1326,12 +1339,22 @@
     "didaktischerHinweis": "Einführung der Fibonacci-Regel. Entspricht S. 132, Aufg. 1.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "",
+      "anweisung": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen. Setze die Folge fort: 1, 1, 2, 3, 5, 8, 13, ...",
       "items": [
         {
-          "label": "1",
-          "frage": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen.\n\n1, 1, 2, 3, 5, 8, 13, ___, ___, ___\n\nSetze die Folge um drei Zahlen fort.",
-          "antwort": "21, 34, 55"
+          "label": "a",
+          "frage": "Welche Zahl kommt nach 13?",
+          "antwort": "21"
+        },
+        {
+          "label": "b",
+          "frage": "Welche Zahl kommt danach?",
+          "antwort": "34"
+        },
+        {
+          "label": "c",
+          "frage": "Und welche danach?",
+          "antwort": "55"
         }
       ]
     }
@@ -1595,12 +1618,13 @@
     "loesung": "",
     "loesungsweg": "",
     "tipps": [
-      "Lies die Aufgabe nochmal genau durch.",
-      "Überlege Schritt für Schritt.",
-      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      "Rechne zuerst im Kopf. Überlege: Welche Grundrechenart brauchst du bei jeder Teilaufgabe? Plus, Minus, Mal oder Geteilt?",
+      "Zerlege schwierige Aufgaben in einfachere Schritte. Zum Beispiel: 258 + 5 = 258 + 2 + 3 = 260 + 3. Beim Taschenrechner tippst du die Zahl, dann die Operation, dann die zweite Zahl.",
+      "a) 258 + 5: Rechne 258 + 2 = 260, dann 260 + 3 = 263. Auf dem Taschenrechner: 2-5-8-+-5-=. Stimmt dein Kopfergebnis?",
       ""
     ],
     "didaktischerHinweis": "Die Taschenrechner-Seiten (S. 134-135) zielen auf die Bedienung eines physischen Geräts ab. Digitalumsetzung nicht sinnvoll, da der Lerngegenstand das haptische Gerät selbst ist.",
+    "erklaerungBild": "assets/erklaerungen/s134-taschenrechner-tasten.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgaben erfordern einen physischen Taschenrechner. Die Schüler sollen lernen, einen echten Taschenrechner zu bedienen (Tasten kennenlernen, Rechnungen eingeben, Ergebnisse ablesen).\n\nOriginal: Rechne im Kopf. Überprüfe mit dem Taschenrechner.",
@@ -1632,6 +1656,7 @@
       "- a) Immer +2: 1, 3, 5, 7, 9, 11, 13 → alle ungerade\n- b) Immer +3: 3, 6, 9, 12, 15, 18, 21 → Dreierreihe\n- c) Immer +10: 10, 20, 30, 40, 50, 60, 70 → Zehnerreihe"
     ],
     "didaktischerHinweis": "Einführung in Zahlenmuster. Entspricht S. 136, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Mathematiker erforschen Zahlen. Setze diese besonderen Zahlenfolgen fort.",
@@ -1674,6 +1699,7 @@
       "Teiler von 18: 1, 2, 3, 6, 9, 18.\nEchte Teiler (ohne 18 selbst): 1, 2, 3, 6, 9.\nSumme: 1+2+3+6+9 = 21.\n21 > 18 → Die Zahl 18 ist reich."
     ],
     "didaktischerHinweis": "Entdeckung reicher/armer Zahlen. Entspricht S. 136, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.",
@@ -1706,6 +1732,7 @@
       "- a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm\n- b) Teiler von 25: 1, 5, 25. Echte: 1+5 = 6 < 25 → arm\n- c) Teiler von 40: 1, 2, 4, 5, 8, 10, 20, 40. Echte: 1+2+4+5+8+10+20 = 50 > 40 → reich"
     ],
     "didaktischerHinweis": "Vertiefung arme/reiche Zahlen. Entspricht S. 136, Aufg. 2b.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Untersuche die folgenden Zahlen. Sind sie arm oder reich?",
@@ -1746,6 +1773,7 @@
       "- 6: Teiler: 1, 2, 3, 6. Echte Teiler: 1+2+3 = 6 = 6 ✓ → vollkommen!\n- 28: Teiler: 1, 2, 4, 7, 14, 28. Echte Teiler: 1+2+4+7+14 = 28 = 28 ✓ → vollkommen!"
     ],
     "didaktischerHinweis": "Vollkommene Zahlen als mathematische Besonderheit. Entspricht S. 137, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.",
@@ -1761,7 +1789,7 @@
   },
   {
     "titel": "Primzahlen finden — Das Sieb des Eratosthenes",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Zahlenforscher",
     "schwierigkeit": "grün",
     "buchseite": 137,
@@ -1778,13 +1806,15 @@
       "Sieb des Eratosthenes:\n1. Die 1 ist keine Primzahl (nur ein Teiler).\n2. 2 ist Primzahl. Streiche 4, 6, 8, 10, 12, 14, 16, 18, 20.\n3. 3 ist Primzahl. Streiche 6, 9, 12, 15, 18 (teils schon gestrichen).\n4. 5 ist Primzahl. Streiche 10, 15, 20 (schon gestrichen).\n5. Übrig: 2, 3, 5, 7, 11, 13, 17, 19."
     ],
     "didaktischerHinweis": "Sieb des Eratosthenes als systematische Methode. Entspricht S. 137, Aufg. 6.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Primzahlen haben genau zwei Teiler: 1 und sich selbst. Finde alle Primzahlen zwischen 1 und 20.",
+      "kontext": "Primzahlen haben genau zwei Teiler: 1 und sich selbst. Finde alle Primzahlen zwischen 1 und 20.",
       "items": [
         {
           "label": "1",
-          "frage": "Primzahlen haben genau zwei Teiler: 1 und sich selbst. Finde alle Primzahlen zwischen 1 und 20.\n\nTipp: Streiche zuerst alle Vielfachen von 2 (außer 2), dann alle Vielfachen von 3 (außer 3). Die übrig gebliebenen Zahlen (ab 2) sind Primzahlen.",
+          "frage": "Tipp: Streiche zuerst alle Vielfachen von 2 (außer 2), dann alle Vielfachen von 3 (außer 3). Die übrig gebliebenen Zahlen (ab 2) sind Primzahlen.",
           "antwort": "2, 3, 5, 7, 11, 13, 17, 19"
         }
       ]
@@ -1809,6 +1839,7 @@
       "Prüfe, ob die Zahl durch kleine Primzahlen (2, 3, 5, 7) teilbar ist:\n- 23: nicht durch 2, 3, 5 oder 7 teilbar → Primzahl\n- 27: 27:3=9 → teilbar → keine Primzahl\n- 31: nicht durch 2, 3, 5 teilbar → Primzahl\n- 33: 33:3=11 → teilbar → keine Primzahl\n- 37: nicht durch 2, 3, 5 teilbar → Primzahl"
     ],
     "didaktischerHinweis": "Primzahlprüfung mit Teilbarkeitsregeln. Entspricht S. 137, Aufg. 6b.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Prüfe: Ist die Zahl eine Primzahl?",
@@ -1865,6 +1896,7 @@
       "Die Teiler von 1 sind nur: 1. Das ist nur EIN Teiler.\nPrimzahlen brauchen aber genau ZWEI verschiedene Teiler (1 und die Zahl selbst). Da bei der 1 beide „Teiler\" gleich sind (1 und 1), hat sie nur einen einzigen Teiler."
     ],
     "didaktischerHinweis": "Begriffsklärung: Warum 1 keine Primzahl ist. Entspricht S. 137, Aufg. 6a.",
+    "erklaerungBild": "assets/erklaerungen/s136-merkkasten-echte-teiler.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1908,7 +1940,14 @@
       "Reihe 5: ___ = 3 + 3 = 6.\nReihe 6: ___ = 1 + 4 = ___. Und ___ = 6 + 4 = ___.",
       "Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.\n- Reihe 5: 3+3 = 6\n- Reihe 6: 1+4 = 5, 6+4 = 10"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Grundregel des pascalschen Dreiecks. Entspricht S. 138, Aufg. 1-2.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.",
@@ -1940,7 +1979,14 @@
       "a) 210 - 84 = ___\nb) 252 - 126 = ___",
       "Jede Zahl unten ist die Summe der beiden Zahlen darüber:\n- a) 84 + x = 210 → x = 210 - 84 = 126\n- b) x + 126 = 252 → x = 252 - 126 = 126\n- c) 120 + x = 330 → x = 330 - 120 = 210"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Rückwärtsrechnen im pascalschen Dreieck. Entspricht S. 138, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ergänze die fehlenden Zahlen in diesen Ausschnitten aus dem pascalschen Dreieck.",
@@ -1981,7 +2027,14 @@
       "1, 2, 4, ___, ___, ___. Immer verdoppeln! 4·2=___, 8·2=___, 16·2=___",
       "Die Summen sind: 1, 2, 4, 8, 16, 32.\nDas sind die Zweierpotenzen: 2^0, 2^1, 2^2, 2^3, 2^4, 2^5.\nJede Reihensumme ist das Doppelte der vorherigen."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Muster in Reihensummen entdecken — Verbindung zum Binärsystem! Entspricht S. 139, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___",
@@ -2013,7 +2066,14 @@
       "d) Reihe 1: nur die 1. Summe = 1. Ist 1 gerade? ___",
       "- a) Jede Reihe: 1, ..., 1 → richtig\n- b) z.B. Reihe 7: 1, 6, 15, 20, 15, 6, 1 — links = rechts → richtig\n- c) Zweite Diagonale: 1, 2, 3, 4, 5, ... → natürliche Zahlen → richtig\n- d) Reihe 1: Summe = 1 (ungerade) → falsch"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Muster und Symmetrie im pascalschen Dreieck entdecken. Entspricht S. 138-139, Aufg. 1, 4.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch? Schau dir das pascalsche Dreieck genau an.",
@@ -2063,7 +2123,14 @@
       "a) 55 endet auf 5 → durch 5 teilbar ✓. 165 endet auf 5 → ✓. 330 endet auf 0 → ✓. 462 endet auf 2 → ___",
       "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Verbindung Teilbarkeit und pascalsches Dreieck. Entspricht S. 139, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1",
@@ -2105,7 +2172,14 @@
       "Abstande: 2, 3, 4, 5, 6, 7. Also nächste Dreieckszahl: 21 + 7 = ___",
       "Dreieckszahlen: Man addiert jeweils die nächste natürliche Zahl:\n1, 1+2=3, 1+2+3=6, 1+2+3+4=10, ..., 1+2+...+7=28.\n\nIm pascalschen Dreieck stehen sie in der dritten Diagonale (von aussen gezählt)."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s138-begriffe-muster.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Dreieckszahlen als besondere Zahlenfolge im pascalschen Dreieck. Entspricht S. 139, Lernaufgabe.",
+    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...",
@@ -2142,9 +2216,9 @@
     "loesung": "",
     "loesungsweg": "",
     "tipps": [
-      "Lies die Aufgabe nochmal genau durch.",
-      "Überlege Schritt für Schritt.",
-      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      "Denke an alles, was du in Mathe gelernt hast: Große Zahlen, schriftliches Rechnen, Geometrie, Brüche, Einheiten. Was hat dir am meisten Spaß gemacht?",
+      "Gehe die Kapitel im Buch durch und schreibe zu jedem eine Sache auf, die du gelernt hast. Das hilft dir, einen Überblick zu bekommen.",
+      "Fange bei Kapitel 1 an: Was konntest du am Anfang noch nicht so gut, was jetzt besser klappt? Schreibe einen Satz dazu auf. Dann weiter mit Kapitel 2.",
       ""
     ],
     "didaktischerHinweis": "Abschlusskapitel ohne Drill-Charakter. Entspricht S. 140-141.",

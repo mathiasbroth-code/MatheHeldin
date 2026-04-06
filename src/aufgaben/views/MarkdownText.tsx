@@ -5,7 +5,7 @@
  */
 export function MarkdownText({
   text,
-  className = 'text-sm text-body leading-relaxed',
+  className = 'text-base text-body leading-relaxed',
 }: {
   text: string;
   className?: string;

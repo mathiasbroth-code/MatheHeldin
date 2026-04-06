@@ -213,6 +213,12 @@
       "Bei a): 12 : 1 = 12 → Teiler: 1 und 12. 12 : 2 = 6 → Teiler: 2 und 6. Jetzt probiere 12 : 3 = ___. Sind 3 und ___ auch Teiler?",
       "Gehe systematisch vor — probiere alle Zahlen von 1 aufwärts:\n- a) 12 : 1 = 12 ✓ → Teiler 1 und 12. 12 : 2 = 6 ✓ → Teiler 2 und 6. 12 : 3 = 4 ✓ → Teiler 3 und 4. 12 : 5 = 2 R 2 ✗. → Fertig!\n- b) 18 : 1 = 18 ✓ → 1, 18. 18 : 2 = 9 ✓ → 2, 9. 18 : 3 = 6 ✓ → 3, 6. Fertig.\n- c) 20 : 1 = 20 ✓ → 1, 20. 20 : 2 = 10 ✓ → 2, 10. 20 : 4 = 5 ✓ → 4, 5. Fertig."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das systematische Finden aller Teiler trainiert Divisionsverständnis. Die Paar-Strategie (jeder Teiler hat einen Partner) ist effizienter als stumpfes Ausprobieren. Entspricht S. 79, Aufg. 1-2.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
@@ -255,6 +261,12 @@
       "Bei a): Teiler von 10 sind: 1, 2, 5, 10. Jetzt prüfe: Ist 1 auch Teiler von 30? Ja! Ist 1 auch Teiler von 50? Ja! → 1 ist gemeinsamer Teiler. Mach das gleiche für 2, für 5 und für 10.",
       "1. Schreibe alle Teiler jeder Zahl auf.\n2. Vergleiche die Listen und markiere, was in ALLEN vorkommt.\n\na) Alle drei Zahlen (10, 30, 50) lassen sich durch 1, 2, 5 und 10 teilen.\nb) Alle drei Zahlen (14, 21, 35) lassen sich durch 1 und 7 teilen."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Gemeinsame Teiler bilden die Grundlage für den ggT (größter gemeinsamer Teiler). Die systematische Methode (kleinste Zahl zuerst) ist wichtig für effizientes Arbeiten. Entspricht S. 79, Aufg. 3.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
@@ -292,6 +304,12 @@
       "Bei b): Probiere es aus. Teile 36 durch verschiedene ungerade Zahlen (3, 5, 7, 9 ...). Findest du eine, die ohne Rest geht?",
       "Bei d): Zähle ALLE Teiler von 45 auf. 45 : 1 = 45 ✓, 45 : 2 = ? (geht nicht), 45 : 3 = ___, 45 : 5 = ___, ... Wie viele Teiler findest du insgesamt?",
       "- a) 42 : 6 = 7 ohne Rest → 6 ist Teiler ✓\n- b) 36 : 3 = 12 → 3 ist ungerade und trotzdem Teiler → falsch\n- c) Jede Division prüfen: 28:1=28 ✓, 28:2=14 ✓, 28:4=7 ✓, 28:7=4 ✓ → alles richtig\n- d) Alle Teiler von 45 aufzählen: 1, 3, 5, 9, 15, 45 → nur 6 Teiler, nicht 8"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Wahr-falsch-Aufgaben zu Teilern fordern systematisches Überprüfen. Häufiger Fehler bei b): Kinder denken, gerade Zahlen hätten nur gerade Teiler. Entspricht S. 79, Aufg. 4.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
@@ -344,6 +362,12 @@
       "Bei a): 18 : 1 = 18 (geht!) → 1er-Gruppen. 18 : 2 = 9 (geht!) → 2er-Gruppen. 18 : 3 = ___ (geht das?). Probiere weiter bis 18 : 18.",
       "Die möglichen Gruppengrößen sind die Teiler der Gesamtzahl:\n- a) Teiler von 18: 1, 2, 3, 6, 9, 18 → 6 verschiedene Gruppengrößen\n- b) Teiler von 24: 1, 2, 3, 4, 6, 8, 12, 24 → 8 verschiedene Gruppengrößen"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Alltagsbezug \"Gruppen bilden\" macht Teiler greifbar. Kinder erkennen: Teiler = \"geht genau auf\". Die Frage nach den \"meisten Möglichkeiten\" führt zur Erkenntnis, dass manche Zahlen mehr Teiler haben als andere. Entspricht S. 79, Aufg. 5.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
     "parsed": {
@@ -381,6 +405,12 @@
       "\"Rest 1 bei Division durch 2\" bedeutet: Die Zahl ist ungerade. Welche ungeraden Zahlen gibt es zwischen 25 und 35? Prüfe diese dann für Division durch 3 und 5.",
       "Ungerade Zahlen zwischen 25 und 35: 27, 29, 31, 33. Prüfe 27 : 3 = 9 (kein Rest!) → 27 passt nicht. Prüfe 29 : 3 = ___. Und 31 : 3 = ___. Welche hat immer Rest 1?",
       "1. Die Zahl liegt zwischen 25 und 35.\n2. Teilt man die Zahl durch 2, 3 oder 5, bleibt jeweils Rest 1.\n3. Also suche eine Zahl, die um 1 größer ist als ein gemeinsames Vielfaches von 2, 3 und 5.\n4. kgV(2, 3, 5) = 30. → 30 + 1 = 31.\n5. Probe: 31 : 2 = 15 R 1 ✓, 31 : 3 = 10 R 1 ✓, 31 : 5 = 6 R 1 ✓"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s79-merkkasten-teiler-beispiel.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Dieses Rätsel verbindet Teiler, Rest und logisches Ausschlussverfahren. Kinder müssen systematisch vorgehen und können nicht einfach raten. Entspricht S. 79, Aufg. 6.",
     "erklaerungBild": "assets/erklaerungen/s79-merkkasten-teiler.webp",
@@ -1016,7 +1046,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Die Teilbarkeitsregeln für 2, 5 und 10 basieren auf der Einerstelle und sind für Kinder gut zu merken. Sie helfen beim Überprüfen von Divisionsergebnissen. Entspricht S. 84, Aufg. 1-3.",
@@ -1071,7 +1101,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Die Kombination mehrerer Teilbarkeitsregeln fördert logisches Denken. Die Erkenntnis, dass \"durch 2 UND 5 teilbar\" dasselbe wie \"durch 10 teilbar\" bedeutet, ist ein wichtiger Aha-Moment. Entspricht S. 84, Aufg. 4.",
@@ -1109,7 +1139,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Die Teilbarkeitsregel für 4 (letzte zwei Ziffern prüfen) ist anspruchsvoller als die für 2 und 5. Kinder erkennen das Muster selbst, indem sie ein Rechenpäckchen lösen. Entspricht S. 84, Aufg. 5.",
@@ -1152,7 +1182,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Die Quersummenregel für 9 (und 3) ist ein wichtiges Werkzeug zur Teilbarkeitsprüfung. Kinder staunen oft über diesen \"Zaubertrick\". Entspricht S. 85, Aufg. 7-9.",
@@ -1201,7 +1231,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Diese Umkehraufgabe zur Quersummenregel ist anspruchsvoll — das Kind muss rückwärts denken. Die Strategie \"bis zum nächsten Vielfachen von 9 ergänzen\" ist der Schlüssel. Entspricht S. 85, Aufg. 10.",
@@ -1239,7 +1269,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Die Tabelle macht den Zusammenhang zwischen Teilbarkeit durch 3 und 9 sichtbar. Wichtige Erkenntnis: Jede durch 9 teilbare Zahl ist auch durch 3 teilbar, aber nicht umgekehrt! Entspricht S. 85, Aufg. 11.",
@@ -1273,7 +1303,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp",
-      null,
+      "assets/erklaerungen/s85-merkkasten-teilbar-durch-3.webp",
       null
     ],
     "didaktischerHinweis": "Kombination der Quersummenregel für 3 und 9 als Umkehraufgabe. Die Erkenntnis, dass c) und b) identisch sind, ist ein wichtiger logischer Schluss. Entspricht S. 85, Aufg. 12.",
@@ -1311,7 +1341,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp",
-      null,
+      "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp",
       null
     ],
     "didaktischerHinweis": "Dies sind Einführungsaufgaben zum schriftlichen Dividieren. Der Algorithmus wird Stelle für Stelle abgearbeitet. Kinder sollten den Zusammenhang zwischen halbschriftlichem und schriftlichem Verfahren erkennen. Entspricht S. 86, Aufg. 2-3.",
@@ -1364,7 +1394,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp",
-      null,
+      "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp",
       null
     ],
     "didaktischerHinweis": "Der Sprung von vierstelligen auf fünfstellige Dividenden sollte keine neuen Schwierigkeiten bringen — der Algorithmus ist identisch. Kinder brauchen Übung in der sauberen Notation. Entspricht S. 86, Aufg. 4.",
@@ -1417,7 +1447,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp",
-      null,
+      "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp",
       null
     ],
     "didaktischerHinweis": "Das \"Dazunehmen\" der nächsten Stelle, wenn die aktuelle Zahl kleiner als der Divisor ist, ist ein häufiger Stolperstein. Kinder müssen verstehen, dass das Ergebnis dann eine Stelle kürzer wird. Entspricht S. 87, Aufg. 6-7.",
@@ -1480,7 +1510,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp",
-      null,
+      "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp",
       null
     ],
     "didaktischerHinweis": "Die Probe durch Multiplikation ist ein zentrales Kontrollwerkzeug. Kinder sollen sich angewöhnen, wichtige Rechnungen immer mit der Probe zu überprüfen. Entspricht S. 87, Aufg. 9.",
@@ -1533,7 +1563,7 @@
     "tippBilder": [
       null,
       "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp",
-      null,
+      "assets/erklaerungen/s87-schriftlich-dividieren-probe.webp",
       null
     ],
     "didaktischerHinweis": "Lückendivisionen fordern flexibles Denken und die sichere Anwendung der Probe. Kinder müssen erkennen, dass Multiplikation als Umkehroperation die Lösung liefert. Entspricht S. 87, Aufg. 10.",
@@ -1569,7 +1599,7 @@
       "a) 5.863 : 9 = 651 R 4\n   - 58 : 9 = 6 R 4 → 46\n   - 46 : 9 = 5 R 1 → 13\n   - 13 : 9 = 1 R 4\n   Probe (wie im Video \"Probe mit Rest\"): 651 · 9 = 5.859, dann 5.859 + 4 = 5.863 ✓\n\nb) 2.358 : 7 = 336 R 6\n   - 23 : 7 = 3 R 2 → 25\n   - 25 : 7 = 3 R 4 → 48\n   - 48 : 7 = 6 R 6\n   Probe: 336 · 7 = 2.352, dann 2.352 + 6 = 2.358 ✓"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1622,7 +1652,7 @@
       "a) 45.206 : 8 = 5.650 R 6\n   - 45 : 8 = 5 R 5 → 52\n   - 52 : 8 = 6 R 4 → 40\n   - 40 : 8 = 5 R 0 → 06\n   - 6 : 8 = 0 R 6\n   Probe: 5.650 · 8 + 6 = 45.200 + 6 = 45.206 ✓\n\nb) 2.556 : 4 = 639\n   - 25 : 4 = 6 R 1 → 15\n   - 15 : 4 = 3 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 639 · 4 = 2.556 ✓\n\nc) 2.938 : 5 = 587 R 3\n   - 29 : 5 = 5 R 4 → 43\n   - 43 : 5 = 8 R 3 → 38\n   - 38 : 5 = 7 R 3\n   Probe: 587 · 5 + 3 = 2.935 + 3 = 2.938 ✓"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1685,7 +1715,7 @@
       "Zuerst Teilbarkeitsregeln anwenden:\n- a) Durch 5 teilbar? Einerstelle 9 → Nein → Rest erwartet ✓\n- b) Durch 4 teilbar? Letzte 2 Ziffern 98. 98 : 4 = 24 R 2 → Nein → Rest erwartet ✓\n- c) Durch 3 teilbar? Quersumme: 2+9+8+5 = 24. 24 : 3 = 8 → Ja → kein Rest ✓"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1736,7 +1766,7 @@
       "1. Teilbarkeitsregel: Einerstelle von 37.938 ist 8, nicht 0 oder 5 → nicht durch 5 teilbar\n2. Schriftliche Division: 37.938 : 5 = 7.587 R 3\n3. Jeder bekommt 7.587 Euro. 3 Euro können nicht gleichmäßig auf 5 Personen verteilt werden.\n4. Man könnte die 3 Euro als Rest stehen lassen oder in eine Gemeinschaftskasse stecken."
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1774,7 +1804,7 @@
       "Aus den Videos \"Null im Ergebnis\" und \"Achte auf die Nullen!\":\n\na) 3.530 : 5 = 706\n   - 35 : 5 = 7 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (Achtung: 0 ins Ergebnis schreiben!)\n   - 30 : 5 = 6 R 0\n   Probe: 706 · 5 = 3.530 ✓\n\nb) 8.128 : 8 = 1.016\n   - 8 : 8 = 1 R 0 → 01\n   - 1 : 8 = 0 R 1 → 12 (0 ins Ergebnis!)\n   - 12 : 8 = 1 R 4 → 48\n   - 48 : 8 = 6 R 0 → Probe: 1.016 · 8 = 8.128 ✓\n\nc) 23.292 : 4 = 5.823\n   - 23 : 4 = 5 R 3 → 32\n   - 32 : 4 = 8 R 0 → 09\n   - 9 : 4 = 2 R 1 → 12\n   - 12 : 4 = 3 R 0\n   Probe: 5.823 · 4 = 23.292 ✓"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1837,7 +1867,7 @@
       "a) 6.416 : 8:\n   - 64 : 8 = 8 R 0 → 01 → 1 : 8 = 0 R 1 (hier die 0 NICHT vergessen!) → 16 → 16 : 8 = 2\n   - Richtig: 802, nicht 82. Die Null in der Mitte wurde \"verschluckt\".\n\nb) 8.367 : 3:\n   - 8 : 3 = 2 R 2 → 23 : 3 = 7 R 2 → 26 : 3 = 8 R 2 → 27 : 3 = 9\n   - Richtig: 2.789"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null
@@ -1882,7 +1912,7 @@
       "a) 45.558 : 9 = 5.062\n   - 45 : 9 = 5 R 0 → 05\n   - 5 : 9 = 0 R 5 → 55 (0 ins Ergebnis!)\n   - 55 : 9 = 6 R 1 → 18\n   - 18 : 9 = 2 R 0\n   Probe: 5.062 · 9 = 45.558 ✓\n\nb) 33.030 : 5 = 6.606\n   - 33 : 5 = 6 R 3 → 30\n   - 30 : 5 = 6 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (0 ins Ergebnis!)\n   - 30 : 5 = 6 R 0\n   Probe: 6.606 · 5 = 33.030 ✓\n\nc) 77.238 : 7 = 11.034\n   - 7 : 7 = 1 R 0 → 07\n   - 7 : 7 = 1 R 0 → 02\n   - 2 : 7 = 0 R 2 → 23 (0 ins Ergebnis!)\n   - 23 : 7 = 3 R 2 → 28\n   - 28 : 7 = 4 R 0\n   Probe: 11.034 · 7 = 77.238 ✓"
     ],
     "tippBilder": [
-      null,
+      "assets/erklaerungen/s89-typische-fehler-division.webp",
       "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp",
       null,
       null

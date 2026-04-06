@@ -623,6 +623,12 @@
       "a) 4 H + 3 H = ? H. Denke: 4 + 3 = 7. Also 7 H. Und 7 Hunderter sind ...?",
       "Hunderter kann man genauso addieren und subtrahieren wie Einer:\n- 4 + 3 = 7, also 4 H + 3 H = 7 H = 700\n- 7 + 2 = 9, also 7 H + 2 H = 9 H = 900\n- 6 - 4 = 2, also 6 H - 4 H = 2 H = 200\n- 9 - 3 = 6, also 9 H - 3 H = 6 H = 600"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe zeigt die Parallele zwischen Einer-Rechnen und Hunderter-Rechnen. Die Darstellung \"4 H + 3 H\" neben \"400 + 300\" macht den Zusammenhang explizit sichtbar.",
     "parsed": {
       "typ": "textaufgabe",
@@ -670,6 +676,12 @@
       "a) Oben: 500 + 400 = 900. Unten kommt 1.000 dazu: 1.000 + 900 = ? Das ist deine Antwort!",
       "Die Aufgaben sind verwandt: In der zweiten Zeile kommt jeweils 1.000 dazu. Die Hunderter-Rechnung bleibt gleich!\n- a) 500 + 400 = 900 → 1.500 + 400 = 1.000 + 900 = 1.900\n- b) 300 + 600 = 900 → 1.300 + 600 = 1.000 + 900 = 1.900\n- c) 800 - 300 = 500 → 1.800 - 300 = 1.000 + 500 = 1.500\n- d) 700 - 500 = 200 → 1.700 - 500 = 1.000 + 200 = 1.200"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Rechenpäckchen trainieren das Erkennen von Mustern. Das Kind soll erkennen, dass der Tausender unverändert bleibt und nur \"mitgeschleppt\" wird. Das fördert effizientes Rechnen statt sturem Nachrechnen.",
     "parsed": {
       "typ": "eingabe",
@@ -706,6 +718,12 @@
       "a) Zuerst: 45 + 33 = 78. Dann: 145 + 33. Das ist wie 100 + (45 + 33) = 100 + 78 = ? Und 1.145 + 33 = 1.100 + 78 = ?",
       "Die Grundaufgabe bleibt gleich, es kommen nur größere Stellenwerte dazu:\n- a) 45 + 33 = 78 (Grundaufgabe). 145 + 33 = 100 + 78 = 178. 1.145 + 33 = 1.100 + 78 = 1.178.\n- b) 72 + 18 = 90 (Grundaufgabe). 172 + 18 = 100 + 90 = 190. 1.172 + 18 = 1.100 + 90 = 1.190."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgaben zeigen, wie das Stellenwertsystem funktioniert: Größere Stellenwerte \"stören\" die kleineren nicht. Kinder lernen, dass sie nur den relevanten Teil rechnen und die restlichen Stellen übernehmen können.",
     "parsed": {
       "typ": "eingabe",
@@ -737,6 +755,12 @@
       "a) Erste Aufgabe: 1.300 + 200 = 1.500. Zweite Aufgabe: Es kommen 50 dazu (250 statt 200). Also: 1.500 + 50 = ? Dritte Aufgabe: Es kommen noch 7 dazu. Also: 1.550 + 7 = ?",
       "- a) Zuerst werden nur die Hunderter addiert: 1.300 + 200 = 1.500. Dann kommen 50 dazu: 1.300 + 250 = 1.550. Dann kommen noch 7 dazu: 1.300 + 257 = 1.557.\n- b) Der erste Summand wird schrittweise genauer: 1.200, dann 1.250, dann 1.257. Jeweils + 500."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe fördert das geschickte Rechnen: Statt jede Aufgabe einzeln zu lösen, sollen Kinder erkennen, dass sie nur die Differenz zur vorherigen Aufgabe addieren müssen. Das spart Rechenaufwand und vertieft das Stellenwertverständnis.",
     "parsed": {
       "typ": "eingabe",
@@ -767,6 +791,12 @@
       "Rechne die erste Aufgabe. Bei der nächsten werden nur Zehner dazusubtrahiert, bei der dritten nur Einer. Ziehe diese kleinen Teile vom vorherigen Ergebnis ab.",
       "a) Erste Aufgabe: 1.600 - 300 = 1.300. Zweite: Es werden 50 mehr abgezogen → 1.300 - 50 = ? Dritte: Es werden noch 8 mehr abgezogen → 1.250 - 8 = ?",
       "- a) 1.600 - 300 = 1.300. Dann werden 50 mehr abgezogen: 1.300 - 50 = 1.250. Dann werden noch 8 mehr abgezogen: 1.250 - 8 = 1.242.\n- b) 1.900 - 500 = 1.400. Dann 60 mehr: 1.400 - 60 = 1.340. Dann 7 mehr: 1.340 - 7 = 1.333."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Die Subtraktion mit schrittweiser Verfeinerung ist schwieriger als die Addition, weil die Richtung umgekehrt ist. Kinder müssen erkennen: Wenn der Subtrahend größer wird, wird das Ergebnis kleiner.",
     "parsed": {
@@ -1365,6 +1395,12 @@
       "Bei a): 5 · 47 → Zerlege 47 = 40 + 7. Rechne: 5 · 40 = 200. Dann: 5 · 7 = 35. Jetzt addiere: 200 + 35 = ?",
       "Halbschriftliches Multiplizieren: Die größere Zahl wird in Zehner und Einer zerlegt.\n- a) 47 = 40 + 7. Also: 5 · 40 = 200 und 5 · 7 = 35. Dann: 200 + 35 = 235.\n- b) 63 = 60 + 3. Also: 8 · 60 = 480 und 8 · 3 = 24. Dann: 480 + 24 = 504."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das halbschriftliche Multiplizieren nutzt das Distributivgesetz: a · (b + c) = a·b + a·c. Die Zerlegung macht die Aufgabe auf vertraute Einmaleins-Aufgaben zurückführbar.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
     "parsed": {
@@ -1411,6 +1447,12 @@
       "Schreibe es so auf: 4 · 83 = 4 · 80 + 4 · 3. Rechne jeden Teil: 4 · 80 = 320, 4 · 3 = 12. Dann addiere.",
       "Bei a): 4 · 83 → 4 · 80 = 320. 4 · 3 = 12. 320 + 12 = ?",
       "Jede Aufgabe wird nach dem gleichen Muster zerlegt:\n1. Zerlege die zweistellige Zahl in Zehner + Einer\n2. Multipliziere jeden Teil mit dem Faktor\n3. Addiere die Teilergebnisse"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Hier müssen die Kinder die Zerlegung selbstständig durchführen — ohne vorgegebenes Schema. Das stärkt das Verständnis des Distributivgesetzes und die Selbstständigkeit.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
@@ -1479,6 +1521,12 @@
       "Bei a): 4 · 200 = 800. 4 · 10 = 40. 4 · 3 = 12. Jetzt: 800 + 40 + 12 = ?",
       "Bei dreistelligen Zahlen wird in drei Teile zerlegt:\n- a) 213 = 200 + 10 + 3. Also: 4·200=800, 4·10=40, 4·3=12. Summe: 852.\n- b) 152 = 100 + 50 + 2. Also: 3·100=300, 3·50=150, 3·2=6. Summe: 456."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Schritt von zweistelligen zu dreistelligen Zahlen zeigt, dass das Verfahren beliebig erweiterbar ist. Die Zerlegung in Stellenwerte ist immer gleich — nur die Anzahl der Teilprodukte wächst.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
     "parsed": {
@@ -1526,6 +1574,12 @@
       "Bei a): 6 · 43 = 6 · 40 + 6 · 3 = 240 + 18 = 258. Jetzt rechne: 3 · 86 = 3 · 80 + 3 · 6 = 240 + 18 = ? Ist es dasselbe?",
       "Wenn man einen Faktor verdoppelt und den anderen halbiert, bleibt das Ergebnis gleich:\n- a) 6 = 2·3 und 43·2 = 86 → 6·43 = 3·86\n- b) 5 = 2,5·2 und 38·2,5 = 95 → 5·38 = 2·95\n- c) 8 = 2·4 und 24·2 = 48 → 8·24 = 4·48"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe entdeckt das Prinzip \"Verdoppeln/Halbieren\": Wenn man einen Faktor verdoppelt und den anderen halbiert, bleibt das Produkt gleich. Das ist eine wichtige Rechenstrategie.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
     "parsed": {
@@ -1570,6 +1624,12 @@
       "Für die einfachen Felder: Nutze das Einmaleins (3·8=24) und hänge die Nullen dran (3·40=120). Für 53: Zerlege in 50+3 und rechne halbschriftlich.",
       "Starte mit 3 · 40: Denke 3 · 4 = 12, dann eine Null dran → 120. Dann 3 · 8 = 24. Für 3 · 53: 3 · 50 = 150, 3 · 3 = 9, 150 + 9 = ?",
       "Jedes Feld wird durch Multiplikation der Zeile mit der Spalte berechnet:\n- 3 · 40 = 120, 3 · 8 = 24, 3 · 53 = 3·50+3·3 = 150+9 = 159\n- 5 · 40 = 200, 5 · 8 = 40, 5 · 53 = 5·50+5·3 = 250+15 = 265\n- 7 · 40 = 280, 7 · 8 = 56, 7 · 53 = 7·50+7·3 = 350+21 = 371"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Die Tabelle gibt Struktur und macht Muster sichtbar: Die Ergebnisse in der 53er-Spalte sind die Summe der 40er- und 8er-Spalte (falls 53=40+8+5... nein: 53≠40+8). Trotzdem trainiert die systematische Berechnung das halbschriftliche Multiplizieren.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
@@ -1633,6 +1693,12 @@
       "Bei c) 4 · 398: 398 ist fast 400. Rechne 4 · 400 = 1.600. Jetzt ist 398 zwei weniger als 400, also: 4 · 2 = 8 zu viel. 1.600 - 8 = ?",
       "- a) 3 · 187 = 3·100 + 3·80 + 3·7 = 300 + 240 + 21 = 561\n- b) 5 · 246 = 5·200 + 5·40 + 5·6 = 1.000 + 200 + 30 = 1.230\n- c) 4 · 398 = 4·400 - 4·2 = 1.600 - 8 = 1.592 (Trick: 398 ist nah an 400!)\n- d) 6 · 275 = 6·200 + 6·70 + 6·5 = 1.200 + 420 + 30 = 1.650"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe führt verschiedene Strategien zusammen: Zerlegung in Stellenwerte UND den Nachbar-Trick (Rechnen mit nahegelegener glatter Zahl). Kinder sollen lernen, die passende Strategie flexibel zu wählen.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
     "parsed": {
@@ -1679,6 +1745,12 @@
       "Runde die Zahl auf die nächste glatte Zahl auf. Rechne damit. Dann ziehe den \"zu viel gerechneten\" Teil wieder ab: (Aufrundung - Original) × Faktor.",
       "Bei a) 7 · 49: Runde 49 auf 50 auf. 7 · 50 = 350. Du hast 1 zu viel gerechnet (50 statt 49), also: 7 · 1 = 7 abziehen. 350 - 7 = ?",
       "Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.\n\nSo funktioniert es bei den neuen Aufgaben:\n- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343\n- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490\n- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Der Nachbar-Trick (Rechnen mit Nachbarzahl und Korrektur) ist eine effiziente Strategie für Zahlen nahe glatter Stellenwerte. Kinder lernen damit Flexibilität im Rechnen und intuitives Verständnis des Distributivgesetzes mit Subtraktion.",
     "erklaerungBild": "assets/erklaerungen/s15-multiplikation-zerlegung.webp",
@@ -1988,6 +2060,12 @@
       "Die Geschichte: Lukas hat 248 Seiten, 35 sind gelesen. Die Frage: Wie viele Seiten muss er noch ...? Die Rechnung: 248 - 35 = ?",
       "Die Rechengeschichte beschreibt eine Situation, in der 35 von 248 abgezogen werden:\n- Gesamtzahl: 248 Seiten\n- Schon gelesen: 35 Seiten\n- Noch übrig: 248 - 35 = 213 Seiten"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Rechengeschichten zu Ende schreiben fördert das Verständnis für den Zusammenhang zwischen Sachsituation und Rechenoperation. Das Kind muss die passende Frage formulieren — das ist oft schwerer als das Rechnen selbst.",
     "parsed": {
       "typ": "textaufgabe",
@@ -2019,6 +2097,12 @@
       "Eine Rechengeschichte hat drei Teile: 1. Die Situation (was passiert?), 2. Die Frage (was willst du wissen?), 3. Die Antwort (was kommt raus?). Schreibe alle drei Teile auf.",
       "Starte mit: \"Es gibt 6 ___.\" (z.B. 6 Tüten, 6 Reihen, 6 Kinder). \"In jeder/m ___ sind 8 ___.\" Dann die Frage: \"Wie viele ___ sind es insgesamt?\" Antwort: 6 · 8 = ?",
       "Multiplikation bedeutet: Gleiche Gruppen zusammenzählen.\n6 · 8 heißt: 6-mal die 8, also 6 Gruppen mit je 8.\nDie Geschichte muss eine Situation beschreiben, in der 6 gleiche Gruppen mit je 8 Dingen vorkommen."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Das Erfinden von Rechengeschichten ist eine anspruchsvolle produktive Aufgabe. Sie zeigt, ob das Kind die Rechenoperation wirklich verstanden hat — nicht nur als Algorithmus, sondern als Handlung in der Welt.",
     "parsed": {
@@ -2052,6 +2136,12 @@
       "Links: Training: 3 · 45 = 135 Minuten. Plus Wettkampf: 135 + 90 = 225 Minuten pro Woche. Im Monat: 4 · 225 = 900 Minuten. Wie viele Stunden? 900 : 60 = ?",
       "1. Training pro Woche berechnen (Anzahl × Dauer)\n2. Wettkampf dazurechnen\n3. Auf den Monat hochrechnen (× 4)\n4. Minuten in Stunden umrechnen (÷ 60)"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Vergleichen zweier ähnlicher Geschichten fördert das strukturelle Denken: Was ist der Rahmen (gleich), was sind die Variablen (verschieden)? Die Einheitenumrechnung (Minuten → Stunden) ist eine zusätzliche Herausforderung.",
     "parsed": {
       "typ": "textaufgabe",
@@ -2083,6 +2173,12 @@
       "1 Jahr = 52 Wochen. Jede Woche 2 Euro → 52 · 2. Alle zwei Wochen → halb so viele Hefte → 26 · 2.",
       "1 Jahr = 52 Wochen. Jede Woche: 52 · 2 = ? Euro. Alle zwei Wochen: Wie viele Hefte kauft sie dann? 52 : 2 = ? Hefte. Und das mal 2 Euro = ?",
       "- Ein Jahr hat 52 Wochen.\n- Jede Woche kaufen: 52 · 2 = 104 Euro.\n- Alle zwei Wochen kaufen: 52 : 2 = 26 Hefte → 26 · 2 = 52 Euro.\n- Die Kosten halbieren sich!"
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Die Aufgabe verbindet Sachrechnen mit Zeitwissen (52 Wochen = 1 Jahr) und dem Konzept \"alle zwei Wochen = halb so oft\". Der Vergleich zeigt, wie sich Frequenzänderungen auf Kosten auswirken.",
     "parsed": {
@@ -2116,6 +2212,12 @@
       "Zähle in 3er-Schritten: 3, 6, 9, 12, 15. Wie viele Schritte waren das?",
       "Das ist eine Divisionsaufgabe: Gesamtbetrag ÷ Preis pro Stück = Anzahl.\n15 : 3 = 5."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einfache Divisionsaufgabe im Sachkontext. Das Kind soll erkennen, dass \"Wie viele kann ich kaufen?\" eine Division erfordert. Die Aufwärtszähl-Strategie (3, 6, 9...) ist für viele Kinder intuitiver als die formale Division.",
     "parsed": {
       "typ": "textaufgabe",
@@ -2146,6 +2248,12 @@
       "Wähle selber Seitenzahlen für die Bücher. Dann: Alle Seiten zusammenzählen und durch die Tage teilen. Achte darauf, dass die Division aufgeht!",
       "Setze ein: \"Die Schatzinsel\" hat z.B. 180 Seiten, \"Pippi Langstrumpf\" hat 120 Seiten. In 10 Tagen gelesen. Alle Seiten: 180 + 120 = 300. Pro Tag: 300 : 10 = ?",
       "1. Fehlende Angaben sind: Seitenzahlen der Bücher und Anzahl der Tage.\n2. Eigene sinnvolle Zahlen einsetzen.\n3. Seitenzahlen addieren, durch Tage teilen."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Offene Aufgaben, bei denen Kinder eigene Zahlen wählen müssen, fördern das Verständnis für notwendige und hinreichende Informationen. Das Kind lernt: Ohne bestimmte Angaben ist eine Aufgabe nicht lösbar.",
     "parsed": {
@@ -2178,6 +2286,12 @@
       "Überlege rückwärts: Wenn das Ergebnis 130 Euro sein soll, welche Malaufgabe ergibt 130? Probiere verschiedene Kombinationen.",
       "a) 130 Euro. Wenn Sophie alle 2 Wochen kauft = 26 Hefte. 130 : 26 = 5 Euro pro Heft. Also: Ändere den Preis auf 5 Euro. Prüfe: 26 · 5 = ?",
       "Man muss Preis, Häufigkeit oder beides anpassen, damit das Jahresergebnis stimmt.\n- Jahresausgaben = Anzahl der Hefte × Preis pro Heft\n- Die Anzahl der Hefte hängt von der Kaufhäufigkeit ab\n- Man kann den Preis ändern ODER die Häufigkeit ODER beides"
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Das Verändern einer Rechengeschichte erfordert Rückwärtsdenken und Flexibilität. Kinder lernen, dass es oft mehrere gültige Lösungen gibt. Die Aufgabe fördert algebraisches Denken ohne formale Algebra.",
     "parsed": {
@@ -2216,6 +2330,12 @@
       "Pro Tag: 15 + 15 = 30 Minuten. Pro Woche: 5 · 30 = 150 Minuten. 1 Stunde = 60 Minuten. 2 Stunden = 120 Minuten. 150 - 120 = 30 Minuten Rest. Also: 2 Stunden und ?",
       "1. Hin- und Rückweg pro Tag: 15 + 15 = 30 Minuten.\n2. An 5 Tagen: 5 · 30 = 150 Minuten.\n3. Umrechnung: 150 Minuten = 2 Stunden 30 Minuten (2 · 60 = 120, 150 - 120 = 30)."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert Addition, Multiplikation und Einheitenumrechnung in einem alltagsnahen Kontext. Das Umrechnen von Minuten in Stunden mit Rest ist für viele Kinder eine Herausforderung.",
     "parsed": {
       "typ": "textaufgabe",
@@ -2246,6 +2366,12 @@
       "Denke dir eine Zusatzinfo aus, z.B. \"Die Mutter ist 24 Jahre älter als Lara.\" Dann rechne: Wenn der Unterschied 24 ist, ziehe 24 von 42 ab: 42 - 24 = 18. Das ist das Doppelte von Laras Alter. Also: 18 : 2 = Laras Alter.",
       "Ergänzung: \"Die Mutter ist 24 Jahre älter.\" Dann: 42 - 24 = 18. Das verteilt sich gleichmäßig: 18 : 2 = 9. Lara = 9 Jahre. Mutter = 9 + 24 = ?",
       "Ohne zusätzliche Information gibt es unendlich viele Lösungspaare. Man braucht eine zweite Bedingung (z.B. Altersunterschied oder Verhältnis), um die Lösung eindeutig zu machen."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Diese Aufgabe zeigt, dass manche Probleme ohne Zusatzinformation nicht lösbar sind. Das ist eine wichtige meta-mathematische Einsicht. Kinder lernen, fehlende Informationen zu identifizieren und sinnvoll zu ergänzen.",
     "parsed": {

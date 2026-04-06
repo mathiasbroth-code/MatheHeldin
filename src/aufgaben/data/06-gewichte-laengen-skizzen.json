@@ -17,6 +17,12 @@
       "Bei 3,005 t: Links vom Komma stehen 3 t = 3.000 kg. Rechts vom Komma: 005 kg = 5 kg. Was ist 3.000 + 5?",
       "Das Komma bei Tonnen trennt Tonnen und Kilogramm. Die Stellen nach dem Komma geben die Kilogramm an — aber Achtung: Es müssen immer drei Stellen sein!\n- a) 3,005 t → 3 t und 5 kg → 3.005 kg\n- b) 3,05 t → 3 t und 50 kg → 3.050 kg\n- c) 3,5 t → 3 t und 500 kg → 3.500 kg"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das Verständnis der Kommaschreibweise bei Tonnen. Die drei Aufgaben zeigen, wie sich die Position der Ziffer nach dem Komma auf den Wert auswirkt (5 kg vs. 50 kg vs. 500 kg). Typische Fehlerquelle: Kinder vergessen die führenden Nullen.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
@@ -59,6 +65,12 @@
       "Bei 8.375 kg: 8.000 kg = 8 t. Es bleiben 375 kg übrig. Also: 8 Komma ___ t. Was kommt nach dem Komma?",
       "1.000 kg = 1 t. Man teilt die Kilogramm-Zahl gedanklich bei der Tausenderstelle:\n- a) 8.375 kg → 8 t 375 kg → 8,375 t\n- b) 12.060 kg → 12 t 60 kg → 12,060 t = 12,06 t\n- c) 2.700 kg → 2 t 700 kg → 2,700 t = 2,7 t"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Rückrichtung (kg nach t) ist schwieriger, weil Kinder die Division durch 1.000 als Kommaverschiebung verstehen müssen. Besonders die Variante mit Nullen am Ende (2.700 kg = 2,7 t) zeigt, dass Endnullen nach dem Komma wegfallen können.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
@@ -100,6 +112,12 @@
       "Schreibe zuerst die Tonnen als Kilogramm:\n| Tonnen | = Kilogramm |\n|--------|-------------|\n| 2 t    | 2.000 kg    |\nDann addiere die restlichen kg dazu.",
       "Bei d) 7 t 50 kg: 7 t = 7.000 kg. Jetzt kommen 50 kg dazu. Aber 50 hat nur 2 Ziffern — du brauchst 3! Also: 7.0_0 kg. Was kommt in die Lücke?",
       "Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:\n- a) 2 × 1.000 + 345 = 2.345 kg\n- b) 15 × 1.000 + 975 = 15.975 kg\n- c) 1 × 1.000 + 170 = 1.170 kg\n- d) 7 × 1.000 + 50 = 7.050 kg (Achtung: 50 kg, nicht 500 kg!)\n- e) 4 × 1.000 + 5 = 4.005 kg (nur 5 Kilogramm!)"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Die gemischte Schreibweise (t und kg) ist der natürlichste Zugang. Besonders d) und e) sind Stolpersteine: Kinder schreiben häufig 7.50 statt 7.050 oder 4.5 statt 4.005. Die führenden Nullen müssen explizit thematisiert werden.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
@@ -153,6 +171,12 @@
       "Auto 2: 850 + 275. Rechne in Schritten: 850 + 200 = 1.050. Dann 1.050 + 75 = ? Das ist das Gesamtgewicht.",
       "Gesamtgewicht = Leergewicht + Ladung:\n- Auto 1: 720 kg + 180 kg = 900 kg\n- Auto 2: 850 kg + 275 kg = 1.125 kg\n- Auto 3: 1.000 kg + 430 kg = 1.430 kg (1 t = 1.000 kg)"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Brücken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
@@ -185,6 +209,12 @@
       "- Wenn das Gesamtgewicht fehlt: addiere Leergewicht + Ladung.\n- Wenn Leergewicht oder Ladung fehlt: rechne Gesamtgewicht minus das Bekannte.\n\nWandle zuerst alles in Kilogramm um, damit du leichter rechnen kannst.",
       "LKW 2: Gesamtgewicht = 14.700 kg, Ladung = 6.150 kg. Leergewicht = 14.700 − 6.150. Rechne: 14.700 − 6.000 = 8.700. Dann 8.700 − 150 = ?",
       "- LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t\n- LKW 2: 14.700 kg − 6.150 kg = 8.550 kg = 8 t 550 kg\n- LKW 3: 11.850 kg − 5.400 kg = 6.450 kg = 6,45 t"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusätzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurückwandeln) ist eine Schlüsselmethode.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
@@ -219,6 +249,12 @@
       "Das Leergewicht ist 10.800 kg. Die 3 Autos wiegen zusammen: 1.450 + 1.450 + 1.450. Rechne erst: 1.450 × 3 = 1.400 × 3 + 50 × 3 = 4.200 + 150 = ? Dann addiere zum Leergewicht.",
       "1. Leergewicht: 10,8 t = 10.800 kg\n2. Ladung: 3 × 1.450 kg = 4.350 kg\n3. Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t\n4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Sachaufgaben mit Vergleich (Gewicht vs. Höchstlast) sind lebensnah und trainieren die Fähigkeit, ein Ergebnis im Kontext zu interpretieren. Die Multiplikation (3 × 1.450) ist ein natürlicher Zwischenschritt, der auch halbschriftliches Multiplizieren üben lässt.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
@@ -251,6 +287,12 @@
       "Maximale Ladung = Brückengrenze − Leergewicht. Dann: Wie oft passt 1.800 kg in die maximale Ladung? Probiere aus: 1 × 1.800, 2 × 1.800, 3 × 1.800 ...",
       "Maximale Ladung: 20.000 − 12.500 = 7.500 kg. Jetzt probiere:\n- 1 PKW: 1.800 kg → passt (5.700 kg übrig)\n- 2 PKWs: 3.600 kg → passt (3.900 kg übrig)\n- 3 PKWs: 5.400 kg → passt (2.100 kg übrig)\n- 4 PKWs: 7.200 kg → passt (300 kg übrig)\n- 5 PKWs: ? → Passt das noch?",
       "1. Maximale Ladung: 20 t − 12,5 t = 7,5 t = 7.500 kg\n2. Anzahl PKWs: 7.500 ÷ 1.800 = 4 Rest 300\n3. Also passen höchstens 4 PKWs.\n\nProbe: 12.500 + 4 × 1.800 = 12.500 + 7.200 = 19.700 kg = 19,7 t < 20 t ✓\nMit 5 PKWs: 12.500 + 9.000 = 21.500 kg = 21,5 t > 20 t ✗"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s65-merkkasten-leergewicht-gesamtgewicht.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Diese Aufgabe erfordert Division mit Rest im Sachkontext. Kinder müssen verstehen, dass man hier nicht aufrunden darf — ein halbes Auto kann man nicht laden. Das systematische Ausprobieren (Tipp 3) ist eine gute Strategie für Kinder, die Division noch unsicher beherrschen.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
@@ -531,7 +573,7 @@
   },
   {
     "titel": "Wie viele Straussenküken wiegen so viel wie ein Blauwal-Baby?",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Tierische Weltrekorde",
     "schwierigkeit": "orange",
     "buchseite": 67,
@@ -550,12 +592,13 @@
     "didaktischerHinweis": "Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.125!) lässt Kinder staunen und macht die Größenverhältnisse in der Tierwelt greifbar. Die Division mit Kommazahlen kann durch Umwandlung in ganze Zahlen vereinfacht werden.",
     "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.",
+      "kontext": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.",
       "items": [
         {
           "label": "1",
-          "frage": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.\n\nWie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
+          "frage": "Wie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
           "antwort": "3.125"
         }
       ]
@@ -563,7 +606,7 @@
   },
   {
     "titel": "Teilstrecken addieren — Radtour am See",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Entfernungen",
     "schwierigkeit": "gelb",
     "buchseite": 68,
@@ -582,12 +625,13 @@
     "didaktischerHinweis": "Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfacher als alle vier Zahlen auf einmal. Die Radtour-Situation ist für Kinder greifbar und motivierend.",
     "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km",
+      "kontext": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km",
       "items": [
         {
           "label": "1",
-          "frage": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km\n\nBerechne die Gesamtlänge der Tour von Waldheim bis Brückenau.",
+          "frage": "Berechne die Gesamtlänge der Tour von Waldheim bis Brückenau.",
           "antwort": "23,4"
         }
       ]
@@ -953,7 +997,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -992,7 +1036,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1031,7 +1075,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1070,7 +1114,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1109,7 +1153,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1153,7 +1197,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1192,7 +1236,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s70-skizze-intro.webp",
+      "assets/erklaerungen/s70-skizze-beispiele.webp",
       null,
       null
     ],
@@ -1218,7 +1262,7 @@
   },
   {
     "titel": "Schulweg — einfache Streckenaddition",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Entfernungen",
     "schwierigkeit": "gelb",
     "buchseite": 68,
@@ -1237,12 +1281,13 @@
     "didaktischerHinweis": "Einstiegsaufgabe mit ganzen Metern (ohne Komma). Trainiert das Addieren von drei Summanden.",
     "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m",
+      "kontext": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m",
       "items": [
         {
           "label": "1",
-          "frage": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m\n\nWie lang ist Leos gesamter Schulweg?",
+          "frage": "Wie lang ist Leos gesamter Schulweg?",
           "antwort": "750"
         }
       ]
@@ -1250,7 +1295,7 @@
   },
   {
     "titel": "Radtour — Entfernungen mit Kommazahlen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Entfernungen",
     "schwierigkeit": "grün",
     "buchseite": 68,
@@ -1269,12 +1314,13 @@
     "didaktischerHinweis": "Erste Dezimalzahl-Addition. Der Übertrag bei den Zehntel (4+8=12) ist die Haupthürde.",
     "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km",
+      "kontext": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km",
       "items": [
         {
           "label": "1",
-          "frage": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km\n\nWie weit ist es von Sonnendorf nach Berghöhe?",
+          "frage": "Wie weit ist es von Sonnendorf nach Berghöhe?",
           "antwort": "9,2"
         }
       ]
@@ -1566,7 +1612,7 @@
   },
   {
     "titel": "Unbekannte Teilstrecke — rückwärts rechnen",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Entfernungen",
     "schwierigkeit": "orange",
     "buchseite": 68,
@@ -1585,12 +1631,13 @@
     "didaktischerHinweis": "Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie für Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.",
     "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "textaufgabe",
+      "anweisung": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km",
+      "kontext": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km",
       "items": [
         {
           "label": "1",
-          "frage": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km\n\nWie weit ist es von Bstadt nach Cstadt?",
+          "frage": "Wie weit ist es von Bstadt nach Cstadt?",
           "antwort": "7,5"
         }
       ]

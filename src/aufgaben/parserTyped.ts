@@ -774,8 +774,8 @@ function parseReihenfolgeDaten(aufgabenstellung: string, loesung: string): Reihe
 }
 
 function extractOrderedItems(loesung: string): string[] {
-  if (/[>→]/.test(loesung)) {
-    const items = loesung.split(/[>→]/).map((s) => s.trim()).filter(Boolean);
+  if (/[>→=]/.test(loesung)) {
+    const items = loesung.split(/[>→]|(?<!\d)\s*=\s*(?!\s*\d)/).map((s) => s.trim()).filter(Boolean);
     if (items.length >= 2) return items;
   }
 
@@ -789,7 +789,8 @@ function extractOrderedItems(loesung: string): string[] {
 }
 
 function extractItemsFromText(text: string, fallbackItems: string[]): string[] {
-  if (text.includes('|')) {
+  // Skip | splitting if text contains a Markdown table (lines starting with |)
+  if (text.includes('|') && !text.split('\n').some((l) => l.trim().startsWith('|'))) {
     const items = text.split('|').map((s) => s.trim()).filter(Boolean);
     if (items.length >= 2) return items;
   }

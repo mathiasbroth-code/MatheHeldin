@@ -67,7 +67,7 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
       {/* Frage */}
       {current.frage && (
         <Card>
-          <MarkdownText text={current.frage} className="text-sm font-semibold text-heading leading-relaxed" />
+          <MarkdownText text={current.frage} className="text-base font-semibold text-heading leading-relaxed" />
         </Card>
       )}
 

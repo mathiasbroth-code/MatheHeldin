@@ -24,7 +24,7 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe sichert das Grundverständnis der Dienes-Systematik im erweiterten Zahlenraum. Das Kind soll verinnerlichen, dass jeder Block das Zehnfache des vorherigen darstellt — das ist die Basis für das Stellenwertverständnis bis zur Million.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Dienes-Blöcke den richtigen Stellenwerten zu.\n| Block | Stellenwert |\n|-------|-------------|\n| Einer-Würfel | ? |\n| Zehner-Stange | ? |\n| Hunderter-Platte | ? |\n| Tausender-Würfel | ? |\n| Zehntausender-Stange | ? |\n| Hunderttausender-Platte | ? |\nWähle aus: 1 · 10 · 100 · 1.000 · 10.000 · 100.000",
@@ -58,7 +58,7 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe fördert das Verständnis der Beziehungen zwischen Stellenwerten. Das Kind soll die multiplikative Struktur des Zehnersystems erkennen: Jede Stufe ist das Zehnfache der vorherigen.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beantworte die Fragen.",
@@ -106,7 +106,7 @@
       null
     ],
     "didaktischerHinweis": "Die Parallelität zwischen a) und b) ist zentral: 352 und 352.000 haben dieselbe Ziffernfolge, aber die Stellenwerte sind um den Faktor 1.000 verschoben. Dies verdeutlicht das Prinzip der Bündelung im Zehnersystem.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Trage die Zahlen in eine Stellenwerttafel ein.",
@@ -150,7 +150,7 @@
       null
     ],
     "didaktischerHinweis": "Hier wird die Stellenwerttafel als zentrales Ordnungswerkzeug genutzt. Besonders wichtig: Stellen ohne explizite Blöcke müssen mit Null aufgefüllt werden. Das ist ein häufiger Fehler bei Kindern.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Trage die Zahlen in eine Stellenwerttafel ein und schreibe die Zahl.",
@@ -203,7 +203,7 @@
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe schärft das Bewusstsein, dass gleiche Ziffern unterschiedliche Werte haben können, je nach Position. Das ist der Kern des Stellenwertprinzips und muss sicher verstanden sein, bevor größere Zahlen bearbeitet werden.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -250,7 +250,7 @@
       null
     ],
     "didaktischerHinweis": "Die Aufgabe vertieft die multiplikative Beziehung zwischen Stellenwerten und bereitet auf das Zerlegen großer Zahlen vor. Das Kürzen von Nullen ist eine wichtige Rechenstrategie.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beantworte die Fragen.",
@@ -298,7 +298,7 @@
       null
     ],
     "didaktischerHinweis": "Das Überspringen von Stellenwerten und das korrekte Platzieren der Null ist eine typische Fehlerquelle. Kinder neigen dazu, die Null zu vergessen und z.B. 6083 statt 600.083 zu schreiben. Die Stellenwerttafel dient hier als Sicherheitsnetz.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Trage die Blöcke in eine Stellenwerttafel ein und lies die Zahl.",
@@ -999,7 +999,7 @@
       "Der zweite Summand bestimmt, welche Stelle sich ändert:\n- +6 verändert die Einer-Stelle (2+6=8)\n- +60 verändert die Zehner-Stelle (2+6=8)\n- +600 verändert die Hunderter-Stelle (2+6=8)\n- usw. — immer wird 2+6=8 gerechnet, nur an unterschiedlichen Stellen."
     ],
     "didaktischerHinweis": "Rechenpäckchen mit gleichbleibender Grundzahl und wanderndem Summanden machen das Stellenwertprinzip beim Addieren sichtbar. Das Muster \"gleiche Rechnung, andere Stelle\" fördert die Einsicht in die Struktur des Zehnersystems.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Rechne. Welche Stelle wird sich im Ergebnis ändern?",
@@ -1032,7 +1032,7 @@
       "Das Muster: Der Subtrahend/Summand wandert eine Stelle nach links. Bei +3 wird immer 5+3=8 gerechnet, bei −7 wird immer 8−7=1 gerechnet — nur an verschiedenen Stellen."
     ],
     "didaktischerHinweis": "Die Ergänzung der fehlenden Summanden fordert das Erkennen des Musters heraus. Die parallele Bearbeitung von Addition und Subtraktion macht die Verwandtschaft der Operationen sichtbar.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Vervollständige die Päckchen und rechne.",
@@ -1069,7 +1069,7 @@
       "Rechne mit den Tausendern wie mit kleinen Zahlen:\n- a) 348 + 5 = 353, also 353 T = 353.000\n- b) 521 + 7 = 528, also 528 T = 528.000\n- c) 463 − 6 = 457, also 457 T = 457.000\n- d) 894 − 3 = 891, also 891 T = 891.000"
     ],
     "didaktischerHinweis": "Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufgaben im kleinen Zahlenraum. Dieses \"Analogierechnen\" ist eine Schlüsselstrategie für das Kopfrechnen mit großen Zahlen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Rechne.",
@@ -1117,7 +1117,7 @@
       "- a) 471.000 + 600 = 471.600 (nur H-Stelle ändert sich: 0+6=6)\n     471.000 + 660 = 471.660 (H und Z ändern sich: 0+6=6, 0+6=6)\n- b) 835.200 − 400 = 834.800 (H: 2−4 geht nicht → Entbündeln: 1T+2H=12H, 12−4=8, T: 5−1=4)\n     835.200 − 440 = 834.760 (analog, zusätzlich Z: 0−4 → Entbündeln)"
     ],
     "didaktischerHinweis": "Die Paarung \"runde Aufgabe / krumme Aufgabe\" (600 vs. 660) hilft Kindern, die schwierigere Aufgabe über die einfachere zu lösen. Das Entbündeln bei der Subtraktion ist eine wichtige Hürde.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Rechne.",
@@ -1155,7 +1155,7 @@
       "Strategie: Überschlage die Summe und prüfe, ob sie zwischen 200.000 und 300.000 liegt. Die größte Zahl (234.000) braucht nur einen kleinen Partner. Die kleineren Zahlen müssen zusammen mindestens 200.000 ergeben."
     ],
     "didaktischerHinweis": "Diese offene Aufgabe fördert das Überschlagen und strategische Denken. Es gibt mehrere richtige Lösungen, was Kindern zeigt, dass Mathematik nicht immer nur eine Antwort hat.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.",
@@ -1188,7 +1188,7 @@
       "- a) +4 → Einer: 0+4=4. +400 → Hunderter: 3+4=7. +40.000 → Zehntausender: 5+4=9.\n- b) −200 → Hunderter: 5−2=3. −2.000 → Tausender: 4−2=2. −200.000 → Hunderttausender: 7−2=5."
     ],
     "didaktischerHinweis": "Durch das bewusste Markieren der sich ändernden Stelle wird das Rechnen mit großen Zahlen auf eine einfache einstellige Addition/Subtraktion reduziert. Dies stärkt das Vertrauen beim Kopfrechnen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Markiere: Welche Stelle wird sich im Ergebnis ändern? Rechne.",
@@ -1226,7 +1226,7 @@
       "- a) 458.300 + 700: H: 3+7=10 → 0 schreiben, 1 T Übertrag. T: 8+1=9. → 459.000\n     458.300 + 770: Zusätzlich Z: 0+7=7 → 459.070\n- b) 291.400 + 900: H: 4+9=13 → 3 schreiben, 1 T Übertrag. T: 1+1=2. → 292.300\n     291.400 + 950: Zusätzlich Z: 0+5=5 → 292.350"
     ],
     "didaktischerHinweis": "Aufgaben mit Übertrag beim Kopfrechnen sind deutlich anspruchsvoller. Die Strategie \"erst rund, dann Rest\" hilft: Erst +700 (rund), dann +70 dazu. So wird die komplexe Aufgabe auf zwei einfache Schritte reduziert.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Rechne.",
@@ -1263,8 +1263,14 @@
       "8 × 12: Rechne 8 × 10 = 80 und 8 × 2 = 16. Zusammen: 80 + 16 = 96. Welche Antwort passt am besten zu 96?",
       "8 Griffe × 12 Bonbons pro Griff = 96 Bonbons ≈ etwa 100."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Schätzen durch Hochrechnen einer Stichprobe ist eine zentrale Alltagskompetenz. Das Kind lernt, dass man nicht alles zählen muss, sondern einen Teil zählt und dann multipliziert. Die Antwort \"etwa 100\" für 96 zeigt, dass Schätzergebnisse gerundet werden.",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1308,8 +1314,14 @@
       "90 × 50: Rechne 9 × 5 = 45 und hänge zwei Nullen an → 4.500. Das ist dein Schätzergebnis!",
       "87 × 52 ≈ 90 × 50 = 4.500 (Überschlag)\nGenau: 87 × 52 = 87 × 50 + 87 × 2 = 4.350 + 174 = 4.524 ≈ 4.500"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Kombination aus Zählen einer Stichprobe und Hochrechnen auf die Gesamtmenge ist die mathematische Grundlage des Schätzens. Das Runden vor dem Multiplizieren vereinfacht die Rechnung erheblich.",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung passen 52 Teelöffel Buchstabennudeln.",
@@ -1341,8 +1353,14 @@
       "500 : 10 = 50 Portionen. Jede hat 92 Körner. 50 × 92: Rechne 50 × 90 = 4.500 und 50 × 2 = 100. Zusammen: 4.500 + 100 = ?",
       "1. Wie viele 10-g-Portionen passen in 500 g? → 500 : 10 = 50\n2. Jede Portion hat 92 Körner → 50 × 92 = 4.600\nÜberschlag: 50 × 90 = 4.500 ≈ 4.500-4.600"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Hier wird zusätzlich zum Hochrechnen das Gewicht als Hilfsmittel genutzt (Wiegen statt Zählen). Das ist eine realitätsnahe Strategie, die Kinder auch im Alltag anwenden können.",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.",
@@ -1374,8 +1392,14 @@
       "Bei a): Linsen sind winzig. Du könntest 10 g abwiegen und die Linsen darin zählen. Dann hochrechnen: Wenn die Packung 500 g hat, brauchst du 50 × die gezählte Menge. Welches Werkzeug nutzt du zum Abwiegen?",
       "Das richtige Hilfsmittel hängt von der Art der Objekte ab:\n- Kleine, gleichmäßige Dinge (Linsen, Reis) → Waage: Eine kleine Menge abwiegen und zählen.\n- Flächen (Pflastersteine, Fliesen) → Raster: Einen Ausschnitt zählen und auf die Gesamtfläche hochrechnen.\n- Mittelgroße Dinge in einem Behälter (Gummibärchen) → Löffel/Becher: Eine Portion entnehmen und zählen."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schätzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1415,8 +1439,14 @@
       "45 × 8 = 40 × 8 + 5 × 8 = 320 + 40 = 360. Jetzt die Null dran: 3.600. Welche Antwort passt?",
       "45 Menschen pro Reihe × 80 Reihen = 3.600\nÜberschlag: 45 ≈ 50, 50 × 80 = 4.000. Genau: 45 × 80 = 3.600.\nAlso: etwa 3.600."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Aufgabe nutzt die Multiplikation als Flächenmodell (Reihen × Plätze pro Reihe). Die Distraktoren sind so gewählt, dass typische Fehler abgefangen werden (z.B. nur Addition statt Multiplikation).",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1460,8 +1490,14 @@
       "15 × 20: Rechne 15 × 2 = 30 und hänge eine Null an → 300. So viele Smarties passen auf das Blatt!",
       "15 Smarties pro Reihe × 20 Reihen = 300 Smarties.\nDas Raster-Prinzip: Zähle eine Reihe, zähle die Reihen, multipliziere."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Raster-Prinzip ist eine universelle Schätzstrategie für Flächen. Es verbindet Schätzen mit Multiplikation und bereitet das Verständnis für den Flächeninhalt vor (Länge × Breite).",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneinander. Untereinander passen 20 Reihen auf das Blatt.",
@@ -1493,8 +1529,14 @@
       "Bei a): 5 × 8 = 40. Tim hat 50 geschätzt. 40 und 50 — ist das nah genug für eine gute Schätzung? Bei b): 12 × 25 = ? Rechne: 12 × 25 = 12 × 20 + 12 × 5 = 240 + 60 = 300.",
       "- a) 5 × 8 = 40 ≠ 50 → stimmt nicht\n- b) 12 × 25 = 300 → stimmt genau\n- c) 6 × 9 = 54 ≠ 70 → stimmt nicht (Abweichung zu groß)"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Überprüfen von Schätzungen schult die Fähigkeit zur Selbstkontrolle. Wichtig: Bei c) eine Diskussion anstoßen — wann ist eine Schätzung \"gut genug\"? Das hängt vom Kontext ab.",
-    "erklaerungBild": "assets/erklaerungen/s26-merkkasten-schaetzen.webp",
+    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-schaetzen.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Stimmt die Schätzung? Überprüfe.",
@@ -1538,8 +1580,14 @@
       "Von 520.000 bis 530.000 sind es 10.000. Es gibt 10 Abschnitte, also ist jeder Strich 1.000 wert. Zähle: 520.000 ... 521.000 ... 522.000 ... Welche Zahl zeigt Punkt A?",
       "1. Bestimme den Abstand zwischen den beschrifteten Strichen: 530.000 − 520.000 = 10.000, aufgeteilt in 10 Abschnitte → jeder Strich = 1.000.\n2. Zähle von der nächsten beschrifteten Zahl:\n   - A: 520.000 + 1.000 = 521.000\n   - C: 520.000 + 5.000 = 525.000\n   - E: 520.000 + 9.000 = 529.000"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Ablesen am Zahlenstrahl mit großen Zahlen erfordert zunächst die Analyse der Skalierung. Die Schrittweite zu bestimmen ist der entscheidende erste Schritt, den Kinder oft überspringen.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Welche Zahlen sind es? Lies am Zahlenstrahl ab.\n\nZahlenstrahl von 520.000 bis 530.000, Tausenderstrich alle 1.000:\n\nA liegt bei 521.000\nB liegt bei 523.000\nC liegt bei 525.000\nD liegt bei 527.000\nE liegt bei 529.000",
@@ -1580,8 +1628,14 @@
       "Bei a): 840.000 − 740.000 = 100.000. 10 Abschnitte → ein Strich = 10.000. A liegt einen halben Abschnitt nach 750.000. Ein halber Abschnitt = 5.000. Also: 750.000 + 5.000 = ?",
       "- a) Abstand 840.000 − 740.000 = 100.000, 10 Abschnitte → Strich = 10.000. Zwischen den Zehntausender-Strichen: 5.000-Strich.\n  A: 750.000 + 5.000 = 755.000\n  B: 790.000 + 5.000 = 795.000\n  C: genau auf 820.000\n- b) Abstand 433.000 − 432.000 = 1.000, 10 Abschnitte → Strich = 100.\n  D: 432.000 + 300 = 432.300\n  E: 432.000 + 700 = 432.700\n  F: 432.000 + 900 = 432.900"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen trainieren die flexible Anpassung der Lesestrategie. Das Kind muss jedes Mal neu die Schrittweite bestimmen.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
@@ -1618,8 +1672,14 @@
       "Bei d): 10.000 + 1 = 10.001. Und 10.000 − 1? 10.000 ist 1 mehr als ... 9.___. Was sind die fehlenden Ziffern?",
       "Vorgänger = Zahl − 1, Nachfolger = Zahl + 1.\nBesonders spannend sind die Übergänge an Stellenwertgrenzen:\n- c) 346.299 + 1 = 346.300 (Hunderter wechselt)\n- d) 10.000 − 1 = 9.999 (Stellenanzahl ändert sich!)\n- e) 99.999 + 1 = 100.000 (fünfstellig → sechsstellig!)"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Vorgänger/Nachfolger an Stellenwertgrenzen (9.999/10.000/10.001 oder 99.999/100.000) sind klassische Fehlerquellen. Das Kind muss den \"Zählerstand-Umsprung\" verstehen — wie bei einem Kilometerzähler.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
@@ -1676,8 +1736,14 @@
       "Bei a): Abstand = 7.400 − 7.200 = 200. Hälfte = 100. Mitte = 7.200 + 100 = ? Das ist deine Antwort!",
       "Die Mitte = (linke Zahl + rechte Zahl) : 2\n- a) (7.200 + 7.400) : 2 = 14.600 : 2 = 7.300\n- b) (43.000 + 45.000) : 2 = 88.000 : 2 = 44.000\n- c) (8.000 + 10.000) : 2 = 18.000 : 2 = 9.000\n- d) (120.000 + 130.000) : 2 = 250.000 : 2 = 125.000\n- e) (55.100 + 55.300) : 2 = 110.400 : 2 = 55.200\n- f) (381.000 + 383.000) : 2 = 764.000 : 2 = 382.000"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die \"Mitte finden\" ist eine Vorstufe zum Mittelwert-Berechnen. Die Strategie \"Abstand halbieren und zur kleineren Zahl addieren\" ist visuell am Zahlenstrahl gut nachvollziehbar.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wie heißt die Zahl genau in der Mitte?",
@@ -1733,8 +1799,14 @@
       "Bei d): 349.360 − 349.120 = 240. Hälfte von 240 = 120. Mitte = 349.120 + 120 = 349.___. Ergänze!",
       "- a) Abstand = 100, Hälfte = 50. Mitte = 9.200 + 50 = 9.250\n- b) Abstand = 1.000, Hälfte = 500. Mitte = 72.000 + 500 = 72.500\n- c) Abstand = 200, Hälfte = 100. Mitte = 184.400 + 100 = 184.500\n- d) Abstand = 240, Hälfte = 120. Mitte = 349.120 + 120 = 349.240\n- e) Abstand = 4.000, Hälfte = 2.000. Mitte = 500.600 + 2.000 = 502.600"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Schwierigkeit steigert sich durch nicht-runde Abstände und das Halbieren von Zahlen wie 240. Dies fordert die Flexibilität im Kopfrechnen und das Verständnis des Zahlenstrahlprinzips.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Wie heißt die Zahl genau in der Mitte?",
@@ -1785,8 +1857,14 @@
       "A = 100.000: Das ist 1/10 von 1.000.000 → ganz am Anfang. B = 250.000: Das ist die Hälfte von 500.000 → auf halbem Weg zur Mitte. Wo liegt C = 400.000? Nah an der Mitte, aber links davon.",
       "Orientierungspunkte nutzen:\n- 500.000 = Mitte\n- 250.000 = Mitte der linken Hälfte\n- 750.000 = Mitte der rechten Hälfte\nDann die anderen Zahlen relativ dazu einordnen."
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+      "assets/erklaerungen/s30-zahlenstrahl-intro.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das freie Einordnen ohne Skalierung trainiert das Zahlenverständnis und die Proportionalität. Es ist anspruchsvoller als das Ablesen, weil das Kind selbst die relative Position abschätzen muss.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s30-merkkasten-zahlenstrahl.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Auf dem Zahlenstrahl ist nur die Mitte markiert: 500.000. Links und rechts sind Striche, aber keine Beschriftung. Der Zahlenstrahl geht von 0 bis 1.000.000.\nOrdne die Zahlen ungefähr ein:\nA = 100.000\nB = 250.000\nC = 400.000\nD = 600.000\nE = 750.000\nF = 900.000\nG = 950.000",
@@ -1814,7 +1892,7 @@
       "Nachbar-Tausender sind die nächstkleinere und nächstgrößere Tausenderzahl:\n- Abrunden auf Tausender (Hunderter, Zehner, Einer weglassen) → unterer Nachbar\n- Aufrunden auf den nächsten Tausender → oberer Nachbar\n- z.B. 23.700: Tausenderstelle = 3, also 23.000 (unten) und 24.000 (oben)"
     ],
     "didaktischerHinweis": "Nachbar-Tausender sind die Grundlage für das Runden auf Tausender. Das Kind soll die \"Schranken\" verstehen, zwischen denen eine Zahl liegt.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Wie heißen die Nachbar-Tausender?",
@@ -1882,7 +1960,7 @@
       "1. Nachbar-Hunderter: Streiche Zehner und Einer → unterer Nachbar. +100 → oberer Nachbar.\n2. Abstand: Zahl − unterer Nachbar = Abstand nach unten. Oberer Nachbar − Zahl = Abstand nach oben."
     ],
     "didaktischerHinweis": "Die Abstandsberechnung bereitet das Runden vor: Die Zahl wird zum näheren Nachbarn gerundet. Der Abstand zeigt, ob die Zahl näher am unteren oder oberen Nachbarn liegt.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Rechne zu den Nachbar-Hundertern.",
@@ -1940,7 +2018,7 @@
       "Für jeden Nachbartyp:\n- Nachbar-T: Die letzten 3 Ziffern (H, Z, E) auf 000 setzen → unterer Nachbar. +1.000 → oberer.\n- Nachbar-ZT: Die letzten 4 Ziffern auf 0000 setzen → unterer Nachbar. +10.000 → oberer.\n- Nachbar-HT: Die letzten 5 Ziffern auf 00000 setzen → unterer Nachbar. +100.000 → oberer."
     ],
     "didaktischerHinweis": "Die systematische Bestimmung aller drei Nachbartypen trainiert das flexible Denken in verschiedenen Stellenwertebenen. Besonders bei d) ist interessant, dass Nachbar-ZT (380.000/390.000) und Nachbar-T (389.000/390.000) den oberen Nachbarn teilen.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
@@ -1988,7 +2066,7 @@
       "Bestimme den Abstand zu beiden Nachbar-Tausendern:\n- Die letzten drei Ziffern (HZE) ergeben den Abstand zum unteren Nachbarn.\n- 1.000 minus diesen Abstand = Abstand zum oberen Nachbarn.\n- Die Grenze ist bei 500: < 500 → unterer ist näher, > 500 → oberer ist näher, = 500 → gleich weit."
     ],
     "didaktischerHinweis": "Diese Aufgabe ist die direkte Vorbereitung auf das Runden: Beim Runden auf Tausender wird zum näheren Nachbarn gerundet. Der Spezialfall 500 (genau in der Mitte) führt zur Regel \"bei 5 wird aufgerundet\".",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2041,7 +2119,7 @@
       "Für jede Zahl wird systematisch auf den jeweiligen Stellenwert abgerundet (unterer Nachbar) und aufgerundet (oberer Nachbar)."
     ],
     "didaktischerHinweis": "Die Nachbar-Tabelle gibt den systematischen Überblick über alle Nachbarebenen. Besonders die letzte Zeile ist lehrreich: Nachbar-ZT (790.000/800.000) und Nachbar-HT (700.000/800.000) teilen sich den oberen Nachbarn 800.000.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s32-merkkasten-nachbarzahlen.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Trage die Zahlen in die Tabelle ein. Bestimme den kleineren und größeren Nachbar-T, Nachbar-ZT und Nachbar-HT.",
@@ -2132,8 +2210,14 @@
       "Bei a): 37.256. Runde auf Tausender → die Hunderterstelle entscheidet. H = 2. Da 2 < 5 → abrunden → 37.___. Was kommt danach?",
       "Beim Runden auf Tausender entscheidet die Hunderterstelle:\n- 0, 1, 2, 3, 4 → abrunden\n- 5, 6, 7, 8, 9 → aufrunden\n\n- a) H=2 → abrunden → 37.000\n- b) H=8 → aufrunden → 43.000\n- c) H=5 → aufrunden → 65.000\n- d) H=3 → abrunden → 81.000\n- e) H=6 → aufrunden → 154.000\n- f) H=1 → abrunden → 428.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s33-regel-runden-tausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Runden ist eine Schlüsselkompetenz für das Überschlagen und den Alltag. Die Regel \"die Stelle rechts entscheidet\" muss sicher automatisiert sein. Der Spezialfall 5 (aufrunden) ist eine Konvention, keine mathematische Notwendigkeit.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Runde die Zahlen auf Tausender. Beachte die markierte Stelle (Hunderterstelle).",
@@ -2189,8 +2273,14 @@
       "Bei a): 31.462. Hunderterstelle = 4 (die Ziffer nach der 1 an der T-Stelle). 4 < 5 → abrunden. Die Tausenderstelle bleibt 1 → 31.000.",
       "1. Finde die Hunderterstelle (eine Stelle rechts vom Tausender).\n2. Wende die Rundungsregel an.\n3. Ersetze alle Stellen rechts vom Tausender durch 0."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s33-regel-runden-tausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Schritt \"zuerst die Entscheidungsstelle markieren\" ist ein wichtiger Zwischenschritt, der Fehler verhindert. Besonders bei e) muss das Kind die 5 korrekt als \"aufrunden\" interpretieren.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Runde die Zahlen auf Tausender. Markiere zuerst die Hunderterstelle.",
@@ -2257,8 +2347,14 @@
       "Bei c): 49.827. H = 8 → aufrunden. 49 Tausender + 1 = 50 Tausender → 50.000. Das ist wie ein Übertrag!",
       "Runde auf Tausender → Hunderterstelle entscheidet:\n- a) H=4 → abrunden: 74.000\n- b) bereits glatt: 57.000\n- c) H=8 → aufrunden: 50.000 (wichtig: 49+1=50!)\n- d) H=0 → abrunden: 75.000\n- e) H=9 → aufrunden: 43.000\n- f) H=4 → abrunden: 60.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s33-regel-runden-tausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Alltagskontext (Stadien) macht das Runden greifbar. Besonders c) ist lehrreich: Beim Aufrunden kann ein Übertrag entstehen (49 → 50 Tausender). Auch b) ist wichtig: Schon glatte Zahlen bleiben beim Runden unverändert.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "In den Fußballstadien gibt es so viele Zuschauerplätze. Runde auf Tausender.",
@@ -2315,8 +2411,14 @@
       "Bei a): 738.564 → 740.000. Die ZT-Stelle hat sich verändert (3→4), alles danach ist 0. Also wurde auf welche Stelle gerundet?",
       "Vergleiche die Originalzahl mit dem gerundeten Ergebnis. Wo beginnen die Nullen?\n- a) 740.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender\n- b) 292.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- c) 456.300 → ab der Zehnerstelle nur Nullen → gerundet auf Hunderter\n- d) 816.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- e) 500.000 → ab der Zehntausenderstelle nur Nullen → gerundet auf Hunderttausender\n- f) 650.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s33-regel-runden-tausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Umkehr-Aufgabe erfordert ein tiefes Verständnis des Rundungsprozesses. Das Kind muss rückwärts denken: Vom Ergebnis auf die Methode schließen. Das stärkt das metakognitive Verständnis des Rundens.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2368,8 +2470,14 @@
       "374.628 auf Tausender runden: Die Tausenderstelle ist 4. Die Entscheidungsstelle (Hunderter) ist 6. Da 6 ≥ 5 → aufrunden: 4 → 5. Ergebnis: 375.___. Was kommt danach?",
       "Je höher die Rundungsstelle, desto ungenauer wird das Ergebnis:\n- Auf Zehner: 374.630 (Abweichung 2)\n- Auf Hunderter: 374.600 (Abweichung 28)\n- Auf Tausender: 375.000 (Abweichung 372)\n- Auf Zehntausender: 370.000 (Abweichung 4.628)\n- Auf Hunderttausender: 400.000 (Abweichung 25.372)"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s33-regel-runden-tausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Dieselbe Zahl auf verschiedene Stellen zu runden zeigt den Zusammenhang zwischen Rundungsstelle und Genauigkeit. Je gröber gerundet wird, desto weiter kann das Ergebnis von der Originalzahl entfernt sein.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Runde die Zahl 374.628 auf verschiedene Stellen.",
@@ -2421,8 +2529,14 @@
       "Bei a): 42.300. Die Zahl liegt zwischen 42.000 und 43.000. H = 3 → kleiner als 5 → abrunden → 42.000. Bei d): 48.500. H = 5 → aufrunden → ?",
       "Auf dem Zahlenstrahl sieht man sofort, zu welchem Tausender-Strich die Zahl näher liegt:\n- a) 42.300 liegt näher an 42.000 als an 43.000 → 42.000\n- b) 44.700 liegt näher an 45.000 als an 44.000 → 45.000\n- d) 48.500 liegt genau in der Mitte → aufrunden auf 49.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Kombination von Zahlenstrahl und Runden macht die Rundungsregel visuell erfahrbar. Das Kind sieht, dass \"Runden = zum näheren Strich gehen\" bedeutet. Der Zahlenstrahl ist das ideale visuelle Werkzeug für dieses Thema.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Am Zahlenstrahl von 40.000 bis 50.000 (Tausenderstrich alle 1.000) sind diese Zahlen markiert. Runde auf Tausender.",
@@ -2478,8 +2592,14 @@
       "Bei a): 123.000. Die Zahl liegt zwischen 120.000 und 130.000. T = 3 → abrunden → 120.000. Bei c): 165.000. T = 5 → aufrunden → ?",
       "Beim Runden auf Zehntausender entscheidet die Tausenderstelle:\n- a) T=3 → abrunden → 120.000\n- b) T=7 → aufrunden → 150.000\n- c) T=5 → aufrunden → 170.000\n- d) T=8 → aufrunden → 140.000\n- e) T=2 → abrunden → 190.000\n- f) T=5 → aufrunden → 160.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Runden auf Zehntausender erweitert das Prinzip auf eine höhere Stellenwertebene. Der Zahlenstrahl hilft besonders bei der Visualisierung, welche Zahl \"näher\" liegt.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Runde die Zahlen auf Zehntausender. Nutze den Zahlenstrahl als Hilfe.\n\nZahlenstrahl von 100.000 bis 200.000 (Zehntausenderstrich alle 10.000):",
@@ -2535,8 +2655,14 @@
       "486.352 auf Tausender: H = 3 → abrunden → 486.000. Auf Zehntausender: T = 6 → aufrunden → 48_ → 490.000. Auf Hunderttausender: ZT = 8 → aufrunden → 500.000. Was fällt dir auf?",
       "Je höher die Rundungsstelle, desto gröber das Ergebnis:\n- Hunderter: 486.400 (Abweichung 48)\n- Tausender: 486.000 (Abweichung 352)\n- Zehntausender: 490.000 (Abweichung 3.648)\n- Hunderttausender: 500.000 (Abweichung 13.648)"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie \"Genauigkeit\" funktioniert. Im Alltag wählt man die Rundungsstufe je nach Kontext: Bei Stadionbesuchen reicht Zehntausender, bei Geldbeträgen will man Hunderter.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Runde die Zahl 486.352 auf verschiedene Stellen und vergleiche die Ergebnisse.",
@@ -2583,8 +2709,14 @@
       "Bei c): 345.001. Runde auf ZT: T = 5 → aufrunden → 350.000 ✓. Bei a): 342.198. Runde auf ZT: T = 2 → abrunden → 340.000 ✗. Prüfe die anderen!",
       "Eine Zahl rundet auf 350.000 (Zehntausender), wenn sie zwischen 345.000 und 354.999 liegt:\n- Untere Grenze: 345.000 (T=5 → aufrunden → 350.000)\n- Obere Grenze: 354.999 (T=4 → abrunden → 350.000)\n- c) 345.001 ✓ (liegt im Bereich)\n- e) 354.999 ✓ (liegt im Bereich)"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Umkehr-Aufgabe \"Welche Zahl ergibt gerundet X?\" erfordert das Verständnis des Rundungsintervalls. Das Kind lernt, dass viele verschiedene Zahlen auf dieselbe gerundete Zahl führen können — Runden ist nicht umkehrbar.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2636,8 +2768,14 @@
       "Bei a) Erfurt: 213.981. T = 3 → abrunden → 210.000. Bei b) Kiel: 246.306. T = 6 → aufrunden → 250.000. Wie viel mehr Einwohner hat Kiel gerundet?",
       "Runde auf Zehntausender → Tausenderstelle entscheidet:\n- a) T=3 → abrunden: 210.000\n- b) T=6 → aufrunden: 250.000\n- c) T=9 → aufrunden: 210.000\n- d) T=8 → aufrunden: 220.000\n- e) T=1 → abrunden: 230.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einwohnerzahlen sind ein idealer Alltagskontext für das Runden: Niemand nennt die exakte Einwohnerzahl einer Stadt, man sagt \"etwa 210.000\". Das Vergleichen der gerundeten Werte zeigt, dass Erfurt und Rostock gerundet gleich groß sind.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "So viele Einwohner haben diese Städte ungefähr. Runde auf Zehntausender.",
@@ -2689,8 +2827,14 @@
       "Bei f): 950.400. ZT = 5 → aufrunden: 900.000 + 100.000 = 1.000.000! Ja, man kann auf die Million runden. Bei d): 549.999. ZT = 4 → abrunden: 500.000.",
       "Runde auf Hunderttausender → Zehntausenderstelle entscheidet:\n- a) ZT=2 → abrunden: 100.000\n- b) ZT=8 → aufrunden: 400.000\n- c) ZT=5 → aufrunden: 700.000\n- d) ZT=4 → abrunden: 500.000\n- e) ZT=2 → abrunden: 800.000\n- f) ZT=5 → aufrunden: 1.000.000"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Kombination von Runden und Einordnen am Zahlenstrahl verbindet zwei Kompetenzen. Besonders f) ist spannend: Runden auf die Million — die Zahl \"verschwindet\" fast am oberen Rand des Zahlenraums.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Runde die Zahlen auf Hunderttausender und ordne sie auf einem Zahlenstrahl von 0 bis 1.000.000 ein.",
@@ -2747,8 +2891,14 @@
       "Bei a): 238.000 ± 500. Untere Grenze: 237.500 (Hst = 5 → aufrunden → 238.000 ✓). Obere Grenze: 238.499 (Hst = 4 → abrunden → 238.000 ✓). Wähle irgendeine Zahl dazwischen!",
       "Bestimme das Rundungsintervall:\n- a) Runden auf T → 238.000: Zahl muss zwischen 237.500 und 238.499 liegen.\n- b) Runden auf ZT → 470.000: Zahl muss zwischen 465.000 und 474.999 liegen.\n- c) Runden auf HT → 600.000: Zahl muss zwischen 550.000 und 649.999 liegen.\n- d) Runden auf T → 100.000: Zahl muss zwischen 99.500 und 100.499 liegen (Achtung: fünfstellig UND sechsstellig möglich!)."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Offene Aufgaben zum Runden fördern das Verständnis des Rundungsintervalls. Besonders d) ist anspruchsvoll: 99.500 rundet auf 100.000 — obwohl die Originalzahl fünfstellig ist, ist das Ergebnis sechsstellig!",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde eine Zahl, die ...",
@@ -2795,8 +2945,14 @@
       "Trier: 111.528. T = 1 → abrunden → 110.000. Jena: 111.407. T = 1 → abrunden → 110.000. Beide gleich! Obwohl Trier 121 Einwohner mehr hat.",
       "- Potsdam: T=3 → abrunden: 180.000\n- Trier: T=1 → abrunden: 110.000\n- Jena: T=1 → abrunden: 110.000\n- Cottbus: T=8 → aufrunden: 100.000\n- Marburg: T=6 → aufrunden: 80.000\n\nTrier (111.528) und Jena (111.407) haben gerundet beide 110.000."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s34-regel-runden-zehntausender.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe zeigt eine wichtige Eigenschaft des Rundens: Verschiedene Zahlen können auf denselben Wert gerundet werden, was zu einem Informationsverlust führt. Dies ist eine bewusste pädagogische Erkenntnis — Runden vereinfacht, aber macht auch ungenauer.",
-    "erklaerungBild": "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp",
+    "erklaerungBild": "assets/erklaerungen/s33-merkkasten-runden.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Die Tabelle zeigt die Einwohnerzahlen von fünf Städten. Runde auf Zehntausender.\n\n\nWelche zwei Städte haben gerundet ungefähr gleich viele Einwohner?",
@@ -2872,6 +3028,12 @@
       "Die 6 ist die höchste Würfelzahl. Die Hunderttausenderstelle ist die wertvollste Stelle. Hohe Zahl + hoher Stellenwert = beste Kombination. Also gehört die 6 auf die ...?",
       "Bei \"Hohe Hausnummer\" gewinnt, wer die größte sechsstellige Zahl legt. Die Hunderttausenderstelle hat den höchsten Wert (100.000). Eine 6 dort bedeutet mindestens 600.000. Auf der Einerstelle wäre die 6 nur 6 wert — das ist 100.000-mal weniger!"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einstiegsaufgabe zum Würfelspiel. Das Kind soll intuitiv erfassen, dass der Wert einer Ziffer vom Stellenwert abhängt. Die 6 als Maximum auf dem höchsten Stellenwert ist die offensichtlich beste Strategie — das stärkt das Stellenwertverständnis spielerisch.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
@@ -2913,6 +3075,12 @@
       "ZT = 3, also 30.000. T = 6, also 6.000. Zusammen: 36.000. Jetzt noch H = 5 (500), Z = 1 (10), E = 4. Was ergibt 36.000 + 500 + 10 + 4?",
       "Die Stellenwerte werden zusammengezählt:\n- HT = 0 → 0\n- ZT = 3 → 30.000\n- T = 6 → 6.000\n- H = 5 → 500\n- Z = 1 → 10\n- E = 4 → 4\n\n30.000 + 6.000 + 500 + 10 + 4 = 36.514"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Stellenwerttafel lesen ist eine Kernkompetenz dieses Kapitels. Die 0 auf der HT-Stelle ist bewusst gewählt: Das Kind muss erkennen, dass eine führende Null die Stellenanzahl reduziert. Justus hat also \"nur\" eine fünfstellige Zahl — ungünstig beim Spiel!",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
@@ -2945,6 +3113,12 @@
       "Beim Vergleichen großer Zahlen startest du immer bei der höchsten Stelle (links). Sobald eine Ziffer größer ist, steht der Gewinner fest — egal was danach kommt.",
       "HT: Justus 4, Jette 4 → gleich. ZT: Justus 6, Jette 6 → gleich. T: Justus 3, Jette 5 → wer hat mehr? Damit steht fest: Die Zahl mit der 5 auf der Tausenderstelle ist ...?",
       "Vergleiche Stelle für Stelle von links nach rechts:\n- HT: 4 = 4 → gleich\n- ZT: 6 = 6 → gleich\n- T: 3 < 5 → Jette hat mehr!\n\nAb der Tausenderstelle ist Jettes Zahl größer: 465.312 > 463.521. Die restlichen Stellen müssen gar nicht mehr verglichen werden."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Zahlenvergleich ist ein zentrales Thema in Kapitel 2. Der Spielkontext motiviert das systematische Vergleichen von links nach rechts. Wichtig: Die Zahlen sind bewusst so gewählt, dass die ersten zwei Stellen gleich sind — das Kind muss bis zur Tausenderstelle schauen.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
@@ -2987,6 +3161,12 @@
       "Die Tafel ist jetzt: 4 | 3 | 5 | 6 | 2 | 1. Lies von links: Vierhundert... dreißig... fünftausend... Nein, von vorne: 4 Hunderttausender = 400.000. Plus 3 Zehntausender = 30.000. Plus 5 Tausender = 5.000. Was ergibt das zusammen?",
       "Die 3 kommt auf die einzige freie Stelle (ZT):\n\n| HT | ZT | T | H | Z | E |\n|----|----|---|---|---|---|\n| 4  | 3  | 5 | 6 | 2 | 1 |\n\n400.000 + 30.000 + 5.000 + 600 + 20 + 1 = 435.621"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp",
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Spielmechanik mit Stellenwertverständnis. Das Kind muss die Ziffer einsetzen und dann die Gesamtzahl ablesen. Die Tatsache, dass nur eine Stelle frei ist, vereinfacht die Entscheidung — es geht hier primär ums korrekte Ablesen der sechsstelligen Zahl.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
     "parsed": {
@@ -3019,6 +3199,12 @@
       "Berechne den Wert einer 6 auf verschiedenen Stellen: E=6, Z=60, H=600, T=6.000, ZT=60.000, HT=600.000. Mache das Gleiche mit der 1. Was fällt dir auf?",
       "a) und b) folgen der gleichen Logik: hohe Ziffern nach links, niedrige nach rechts.\nc) Überlege: Kann man beeinflussen, was der Würfel zeigt? Nein — also ist es ...?\nd) Welche Zahl zeigt der Würfel maximal? 6. Und 6 auf allen 6 Stellen ergibt ...?",
       "- a) Die 6 hat den größten Einzelwert. Auf der HT-Stelle ist sie 600.000 wert — das ist das Maximum.\n- b) Die 1 hat den kleinsten Wert. Auf der E-Stelle ist sie nur 1 wert — minimaler Verlust.\n- c) Das Würfeln ist Zufall. Ob man zuerst oder zuletzt dran ist, ändert nichts an der Wahrscheinlichkeit, hohe oder niedrige Zahlen zu würfeln.\n- d) Der Würfel zeigt maximal 6. Auf allen 6 Stellen eine 6: 6·100.000 + 6·10.000 + 6·1.000 + 6·100 + 6·10 + 6·1 = 666.666."
+    ],
+    "tippBilder": [
+      "assets/erklaerungen/s31-merkkasten-zahl-in-der-mitte.webp",
+      null,
+      null,
+      null
     ],
     "didaktischerHinweis": "Diese Wahr-Falsch-Aufgabe erfordert strategisches Denken und Argumentieren. Besonders Aussage c) ist anspruchsvoll: Kinder vermuten oft, dass die Reihenfolge einen Vorteil bringt. Das Verständnis, dass Zufall keine \"Reihenfolge\" kennt, ist ein wichtiger Baustein für das Wahrscheinlichkeitsverständnis in Kapitel 7.",
     "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",

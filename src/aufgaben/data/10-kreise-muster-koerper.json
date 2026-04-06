@@ -17,7 +17,14 @@
       "Der Punkt in der Mitte heißt M = ___. Die Linie drumherum heißt ___. Und die Strecke von der Mitte zum Rand heißt r = ___.",
       "Ein Kreis hat drei wichtige Bestandteile:\n- Der **Mittelpunkt** (M) ist der Punkt genau in der Mitte.\n- Der **Radius** (r) ist die Strecke vom Mittelpunkt bis zum Rand.\n- Die **Kreislinie** ist der Rand des Kreises — jeder Punkt auf der Kreislinie hat den gleichen Abstand zum Mittelpunkt."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Grundbegriffe des Kreises müssen sicher sitzen, bevor mit dem Zirkel gearbeitet wird. Entspricht S. 104, Einleitungskasten.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Begriffe dem richtigen Teil des Kreises zu.\nBegriffe: Mittelpunkt (M), Radius (r), Kreislinie\nBeschreibungen:\nA) Die Linie, die den Kreis bildet — alle Punkte haben den gleichen Abstand vom Mittelpunkt.\nB) Der Punkt genau in der Mitte des Kreises.\nC) Die Strecke vom Mittelpunkt bis zur Kreislinie.",
@@ -44,7 +51,14 @@
       "Pflanze A: 2 m — das Seil ist 3 m lang. 2 m < 3 m, also ja! Pflanze C: 4 m — das Seil ist nur 3 m lang. 4 m > 3 m, also ___. Prüfe so alle Pflanzen.",
       "Charly kann sich in alle Richtungen bewegen, aber maximal 3 m weit vom Pfosten. Alles, was höchstens 3 m entfernt ist, kann sie erreichen:\n- A: 2 m — ja (2 m < 3 m)\n- B: 3 m — ja (genau am Rand)\n- C: 4 m — nein (4 m > 3 m)\n- D: 1 m — ja (1 m < 3 m)\n- E: 5 m — nein (5 m > 3 m)\n\nDer Futterplatz ist ein Kreis, weil Charly in jede Richtung gleich weit kommt."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greifbar. Entspricht S. 104, Aufg. 1-2.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -88,7 +102,14 @@
       "Der kleinste Kreis hat r = 2 cm und liegt ganz innen. Der größte Kreis hat r = 5 cm und liegt ganz aussen. Kreise um denselben Mittelpunkt haben einen besonderen Namen — er beginnt mit „kon...\".",
       "a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.\nb) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -124,7 +145,14 @@
       "Bei Kreis A: Das Kreuz ist der Mittelpunkt. Vom Kreuz bis zum Rand sind es ungefähr ___ mm. Achte darauf, in Millimetern abzulesen!",
       "Der Radius ist die Strecke vom Mittelpunkt (Kreuz) bis zur Kreislinie. Man misst mit dem Lineal vom Kreuz geradeaus bis zum Rand des Kreises."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Ablesen des Radius verbindet Messfähigkeit mit Kreisverständnis. Entspricht S. 104, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schau dir die fünf Kreise an. Bei jedem Kreis ist der Mittelpunkt mit einem Kreuz markiert.\n\nMiss den Radius jedes Kreises (Abstand vom Mittelpunkt zur Kreislinie).",
@@ -175,7 +203,14 @@
       "Bei Bild C siehst du zwei Stellen, wo sich die Kreise treffen — das sind ___ Schnittpunkte. Also heißt das: sich ___.",
       "- **Ineinanderliegen:** Ein Kreis liegt komplett innerhalb des anderen — kein Schnittpunkt.\n- **Sich schneiden:** Die Kreise kreuzen sich — genau zwei Schnittpunkte.\n- **Sich berühren:** Die Kreise treffen sich an genau einem Punkt."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Lagebeziehungen zwischen Kreisen sind ein wichtiges Geometrie-Konzept. Entspricht S. 104, Aufg. 3.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne jedes Bild dem richtigen Begriff zu.\nBegriffe:\n- ineinanderliegen\n- sich schneiden\n- sich berühren\nBilder:\nA) Zwei Kreise, die sich an genau einem Punkt treffen\nB) Zwei Kreise, wobei einer komplett im anderen liegt\nC) Zwei Kreise, die sich an zwei Punkten kreuzen",
@@ -202,7 +237,14 @@
       "Zuerst brauchst du einen Kreis. Dann stichst du auf dessen Kreislinie ein und zeichnest einen zweiten. Erst wenn zwei Kreise sich schneiden, gibt es Schnittpunkte für den dritten. Am Ende verbindest du die Mittelpunkte.",
       "b, d, a, c"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. Entspricht S. 105, Aufg. 9.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "reihenfolge",
       "anweisung": "Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.",
@@ -264,7 +306,14 @@
       "In der Mitte ist 1 Kreis. Um ihn herum liegen ___ weitere Kreise. Insgesamt sind es also 1 + ___ = ___ Kreise.",
       "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Analysieren eines fertigen Musters fördert die visuelle Wahrnehmung und das Verständnis für geometrische Strukturen. Entspricht S. 105, Aufg. 7.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:",
@@ -306,7 +355,14 @@
       "Seite 1 = Radius, Seite 2 = Radius, Seite 3 = Radius. Drei gleich lange Seiten — das ist ein ___ Dreieck.",
       "Drei gleich große Kreise, die sich paarweise schneiden und deren Mittelpunkte jeweils auf der Kreislinie des Nachbarkreises liegen, bilden ein gleichseitiges Dreieck:\n- Alle drei Seiten sind gleich lang (= Radius)\n- Alle drei Winkel sind gleich groß (60 Grad)"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s104-begriffe-kreise.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Verbindung von Kreiskonstruktion und Dreieck ist ein Klassiker der Geometrie. Entspricht S. 105, Aufg. 9 (Schritt 4).",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -351,6 +407,7 @@
       "Eine Parkettierung ist wie ein Fliesenboden: Die Fliesen müssen lückenlos und ohne Überlappung die gesamte Fläche bedecken. Das geht mit verschiedenen Formen — nicht nur mit Quadraten!"
     ],
     "didaktischerHinweis": "Die Einführung des Begriffs \"Parkettierung\" mit Alltagsbezug (Fussboden) erleichtert das Verständnis. Entspricht S. 106, Einleitung.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -395,6 +452,7 @@
       "- **Quadrate** parkettieren: Man kann sie in Reihen und Spalten anordnen.\n- **Kreise** parkettieren NICHT: Zwischen Kreisen bleiben immer Lücken.\n- **Gleichseitige Dreiecke** parkettieren: Man legt sie abwechselnd normal und auf den Kopf.\n- **Regelmässige Sechsecke** parkettieren: Wie Bienenwaben!"
     ],
     "didaktischerHinweis": "Die Erkenntnis, dass nicht jede Form parkettiert, ist zentral. Der Kreis ist das wichtigste Gegenbeispiel. Entspricht S. 106, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -439,6 +497,7 @@
       "Die Grundfigur (z.B. ein Dreiecksmuster) wird an einer waagerechten und einer senkrechten Achse gespiegelt. So entsteht ein sich wiederholendes Muster in beide Richtungen."
     ],
     "didaktischerHinweis": "Das Erkennen von Spiegelachsen in Parkettierungen vertieft das Symmetrieverständnis. Entspricht S. 106, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.",
@@ -476,6 +535,7 @@
       "1. Grundfigur betrachten und Spiegelachsen erkennen (senkrecht und waagerecht).\n2. Figur nach rechts spiegeln → es entsteht ein Paar.\n3. Das Paar nach unten spiegeln → es entsteht ein 2×2-Muster.\n4. Dieses Muster kann man beliebig oft nach rechts und unten wiederholen — die Parkettierung ist vollständig."
     ],
     "didaktischerHinweis": "Das Fortsetzen von Parkettierungen ubt systematisches Arbeiten und räumliches Denken. Entspricht S. 106, Aufg. 2-4.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"",
@@ -508,6 +568,7 @@
       "Das Prinzip heißt \"Verschiebung\": Was man auf einer Seite wegnimmt, fügt man auf der gegenüberliegenden Seite hinzu. So bleibt die Gesamtfläche gleich und die Form passt immer noch lückenlos zusammen!"
     ],
     "didaktischerHinweis": "Das Escher-Prinzip verbindet Kunst mit Geometrie und macht Parkettierungen besonders anschaulich. Entspricht S. 107, Aufg. 5-6.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -552,6 +613,7 @@
       "Ob eine Form parkettiert, hängt davon ab, ob die Winkel an jedem Treffpunkt genau 360° ergeben:\n- Fünfeck: 3 · 108° = 324° — passt nicht, Lücke bleibt\n- Parallelogramm: 2 · a + 2 · b = 360° — passt immer\n- Achteck: 3 · 135° = 405° — zu viel\n- Dreieck: 6 · 60° = 360° (oder beliebig durch Spiegelung)"
     ],
     "didaktischerHinweis": "Die Verbindung von Winkeln und Parkettierbarkeit ist anspruchsvoll, aber visuell gut zugänglich. Entspricht S. 107, Aufg. 6-7.",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Entscheide: Kann man mit dieser Form parkettieren?",
@@ -602,6 +664,7 @@
       "b, d, c, a"
     ],
     "didaktischerHinweis": "Haptisches Arbeiten vertieft das Verständnis der Parkettierungsprinzipien. Entspricht S. 107, Aufg. 6-7 und Videohinweis \"Anleitung: Schablone herstellen\".",
+    "erklaerungBild": "assets/erklaerungen/s106-begriffe-parkettierung.webp",
     "parsed": {
       "typ": "reihenfolge",
       "anweisung": "Aus einem Dreieck kann man eine neue Form herstellen und damit parkettieren. Bringe die Schritte in die richtige Reihenfolge.",
@@ -664,6 +727,7 @@
       "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt"
     ],
     "didaktischerHinweis": "Das Verständnis des Aufbaus eines Quadernetzes ist Voraussetzung für alle weiteren Netzaufgaben. Entspricht S. 108, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -708,6 +772,7 @@
       "Um zu prüfen, ob eine Figur ein Quadernetz ist, falte sie im Kopf zusammen:\n- Die gegenüberliegenden Flächen dürfen sich nicht überlappen.\n- Es müssen genau 6 Flächen sein.\n- Jede Kante muss genau an eine andere Kante passen."
     ],
     "didaktischerHinweis": "Das \"Falten im Kopf\" ist eine zentrale räumliche Fähigkeit. Entspricht S. 108, Aufg. 3 und Video \"Beispiel: Quadernetze\".",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "",
@@ -740,6 +805,7 @@
       "Ein Quadernetz braucht immer genau 6 Flächen (3 Paare). Eine Figur mit nur 4 oder 5 Flächen kann nie ein Quadernetz sein — der Quader wäre nicht geschlossen."
     ],
     "didaktischerHinweis": "Fehlersuche fördert das analytische Denken. Entspricht S. 109, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -784,6 +850,7 @@
       "Überlege für jeden Körper: Aus welchen Flächen besteht er?\n- **Würfel**: 6 gleiche Quadrate\n- **Quader**: 6 Rechtecke (3 Paare)\n- **Zylinder**: 2 Kreise + 1 Rechteck (Mantelfläche)\n- **Kegel**: 1 Kreis + 1 Kreisausschnitt\n- **Pyramide**: 1 Quadrat + 4 Dreiecke\n- **Dreieckspyramide**: 4 Dreiecke"
     ],
     "didaktischerHinweis": "Diese Zuordnungsaufgabe nutzt die Wiederholungsvideos zu den einzelnen Körpern. Entspricht S. 109, Aufg. 7.",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne jedes Netz dem richtigen Körper zu.\nKörper: Würfel, Quader, Zylinder, Kegel, Pyramide, Dreieckspyramide\nNetze:",
@@ -836,6 +903,7 @@
       "Um die richtige Position zu finden, falte das vorhandene Netz im Kopf und schaue, welche Seite noch offen ist. Die fehlende Fläche muss gegenüber einer bereits vorhandenen Fläche liegen."
     ],
     "didaktischerHinweis": "Das Ergänzen trainiert räumliches Vorstellungsvermögen stärker als das blosse Erkennen. Entspricht S. 108, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -876,6 +944,7 @@
       "Ein Quader hat 12 Kanten. Im Netz hängen die 6 Flächen an 5 Faltkanten zusammen (wie bei einem Baum: 6 Knoten, 5 Verbindungen). Die übrigen 12 - 5 = 7 Kanten müssen geklebt werden."
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Körpernetzverständnis mit Zählen und Rechnen. Entspricht S. 109, Aufg. 6.",
+    "erklaerungBild": "assets/erklaerungen/s108-begriffe-koerpernetze.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du möchtest aus einem Quadernetz eine Schachtel basteln. Dafür brauchst du Klebelaschen an einigen Kanten.",
@@ -918,6 +987,7 @@
       "Zähle systematisch Schicht für Schicht:\n- a) Untere Reihe: 3. Oben links: 2. Gesamt: 3 + 2 = 5\n- b) Links: 1, Mitte: 2, Rechts: 3. Gesamt: 1 + 2 + 3 = 6\n- c) Untere Schicht: 2 · 2 = 4. Obere Schicht: 2 · 2 = 4. Gesamt: 4 + 4 = 8"
     ],
     "didaktischerHinweis": "Würfel zählen in 3D-Ansichten ist die Grundlage für Schrägbilder. Entspricht S. 110, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schau dir die Würfelgebäude an und zähle die Würfel.",
@@ -959,6 +1029,7 @@
       "Beim Schrägbild können Würfel, die hinten oder unten liegen, von vorderen Würfeln verdeckt werden. Dann braucht man weniger Plättchen, obwohl das Gebäude gleich viele Würfel hat. Es kommt auf die Perspektive an!"
     ],
     "didaktischerHinweis": "Der Unterschied zwischen 3D-Gebäude und 2D-Schrägbild ist ein zentrales Verständnisproblem. Entspricht S. 110, Aufg. 3b.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
@@ -1001,6 +1072,7 @@
       "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- A (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) = Bauplan 1\n- B (Turm): Ein Feld mit Höhe 2 = Bauplan 3\n- C (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 = Bauplan 4\n- D (Reihe): Vier Felder nebeneinander, alle Höhe 1 = Bauplan 2"
     ],
     "didaktischerHinweis": "Die Zuordnung Schrägbild-Bauplan trainiert den Perspektivwechsel zwischen 3D und 2D. Entspricht S. 110, Aufg. 2-3.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne jedes Schrägbild dem richtigen Bauplan zu.\nSchrägbilder:\nA) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende\nB) Turm: 1 Würfel unten, 1 Würfel obendrauf\nC) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links\nD) Reihe: 4 Würfel in einer Reihe\nBaupläne (Zahlen = Höhe):",
@@ -1046,6 +1118,7 @@
       "Beim Kippen verändert sich die Form (die Würfel, die oben waren, liegen jetzt an einer anderen Stelle), aber die Anzahl bleibt gleich — es kommen keine Würfel dazu und keine gehen weg."
     ],
     "didaktischerHinweis": "Die Invarianz der Würfelanzahl beim Kippen ist ein wichtiges Konzept. Entspricht S. 110, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1090,6 +1163,7 @@
       "c, a, b, d"
     ],
     "didaktischerHinweis": "Das Zeichnen von Schrägbildern wird in den Videos ausführlich gezeigt. Entspricht S. 111, Aufg. 5-10.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "reihenfolge",
       "anweisung": "Bringe die Schritte zum Zeichnen eines Schrägbilds (Würfel) in die richtige Reihenfolge.",
@@ -1152,6 +1226,7 @@
       "Im Schrägbild werden Objekte, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt."
     ],
     "didaktischerHinweis": "Das Erkennen der korrekten Perspektive ist die Kernkompetenz bei Schrägbildern. Entspricht S. 111, Aufg. 9-10.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1196,6 +1271,7 @@
       "Im Schrägbild sieht man immer genau drei Seiten eines Würfels:\n- Die **Vorderseite** (frontal)\n- Die **Oberseite** (von oben)\n- Eine **Seitenseite** (schräg)\n\nIn der Normalansicht (von vorne, von der Seite, von oben) sieht man jeweils nur EINE Seite."
     ],
     "didaktischerHinweis": "Das Verständnis, warum Schrägbilder drei Seiten zeigen, ist fundamental. Entspricht S. 111, Aufg. 10.",
+    "erklaerungBild": "assets/erklaerungen/s110-begriffe-schraegbilder.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Vier identische Würfel werden aus verschiedenen Blickwinkeln gezeigt. Die Seiten sind rot, blau, gelb, grün, orange und weiß gefärbt.\nOrdne jede Perspektive der richtigen Beschreibung zu:\nA) Von vorne sieht man die rote Seite.\nB) Von der Seite sieht man die blaue Seite.\nC) Von oben sieht man die gelbe Seite.\nD) Von schräg oben sieht man drei Seiten: rot, blau und gelb.\nWelche Beschreibung passt zum Schrägbild?",

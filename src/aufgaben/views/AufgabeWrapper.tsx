@@ -10,6 +10,9 @@ import { WahrFalschView } from './WahrFalschView';
 import { TextaufgabeView } from './TextaufgabeView';
 import { RoutenDiagramm, parseRoutenDaten } from './RoutenDiagramm';
 import { EinheitenLeiter, detectEinheitenKette } from './EinheitenLeiter';
+import { DivisionsZerlegung, parseDivisionsDaten } from './DivisionsZerlegung';
+import { WerteBalken, parseWerteBalken } from './WerteBalken';
+import { KreiseDiagramm, parseKreiseDaten } from './KreiseDiagramm';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
@@ -52,15 +55,28 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
     );
   }
 
+  // Kaskadierte Visualisierungs-Erkennung: max. eine pro Aufgabe
   const routenDaten = parseRoutenDaten(aufgabe.aufgabenstellung);
   const einheitenDaten = !routenDaten
     ? detectEinheitenKette(aufgabe.stageId, aufgabe.aufgabenstellung)
+    : null;
+  const divisionsDaten = !routenDaten && !einheitenDaten
+    ? parseDivisionsDaten(aufgabe.stageId, aufgabe.aufgabenstellung)
+    : null;
+  const werteBalkenDaten = !routenDaten && !einheitenDaten && !divisionsDaten
+    ? parseWerteBalken(aufgabe.aufgabenstellung)
+    : null;
+  const kreiseDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten
+    ? parseKreiseDaten(aufgabe.aufgabenstellung, aufgabe.loesung)
     : null;
 
   return (
     <>
       {routenDaten && <RoutenDiagramm {...routenDaten} />}
       {einheitenDaten && <EinheitenLeiter {...einheitenDaten} />}
+      {divisionsDaten && <DivisionsZerlegung {...divisionsDaten} />}
+      {werteBalkenDaten && <WerteBalken {...werteBalkenDaten} />}
+      {kreiseDaten && <KreiseDiagramm {...kreiseDaten} />}
       <View aufgabe={aufgabe} onRichtig={onRichtig} onFalsch={onFalsch} onTeilaufgabeChange={onTeilaufgabeChange} />
     </>
   );

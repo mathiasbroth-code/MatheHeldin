@@ -17,6 +17,12 @@
       "Wenn Lena links steht, gibt es 2 Möglichkeiten: Tom–Mia oder Mia–Tom.\nWenn Tom links steht, gibt es auch 2 Möglichkeiten.\nWenn Mia links steht, noch einmal 2.\nAlso: 3 × 2 = ?",
       "Baumdiagramm:\n```\n       ┌── Tom ── Mia     → Lena, Tom, Mia\nLena ──┤\n       └── Mia ── Tom     → Lena, Mia, Tom\n\n       ┌── Lena ── Mia    → Tom, Lena, Mia\nTom ───┤\n       └── Mia ── Lena    → Tom, Mia, Lena\n\n       ┌── Lena ── Tom    → Mia, Lena, Tom\nMia ───┤\n       └── Tom ── Lena    → Mia, Tom, Lena\n```\n\nFür den 1. Platz gibt es 3 Wahlmöglichkeiten, für den 2. Platz noch 2, für den 3. Platz nur 1.\n3 × 2 × 1 = 6"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einstieg in die Kombinatorik über das Baumdiagramm. Drei Elemente sind ideal, weil die Anzahl (6) überschaubar bleibt und das Baumdiagramm auf ein Blatt passt. Das Prinzip \"3 × 2 × 1\" wird hier entdeckt, nicht als Formel vorgegeben.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -55,6 +61,12 @@
       "Ali kann mit 3 Kindern fotografiert werden: Jana, Tobi, Pia → 3 Fotos.\nJana war schon mit Ali. Sie kann noch mit Tobi und Pia → 2 neue Fotos.\nTobi war schon mit Ali und Jana. Er kann noch mit Pia → 1 neues Foto.\nZusammen: 3 + 2 + 1 = ?",
       "Systematisch alle Paare aufschreiben — dabei Doppelungen vermeiden:\n\n| | Jana | Tobi | Pia |\n|-----|------|------|-----|\n| Ali | Ali+Jana | Ali+Tobi | Ali+Pia |\n| Jana | — | Jana+Tobi | Jana+Pia |\n| Tobi | — | — | Tobi+Pia |\n\n6 Paare insgesamt.\n\nOder: Ali hat 3 Partner (Jana, Tobi, Pia). Jana hat noch 2 neue Partner (Tobi, Pia). Tobi hat noch 1 neuen Partner (Pia).\n3 + 2 + 1 = 6"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Hier geht es um Kombinationen (ohne Reihenfolge), im Gegensatz zu Aufgabe 1 (Permutationen). Der Unterschied muss nicht begrifflich benannt werden, aber das Kind soll erkennen: \"Ali+Jana ist das Gleiche wie Jana+Ali.\" Die Tabelle ist ein starkes visuelles Hilfsmittel gegen Doppelzählungen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -87,6 +99,12 @@
       "Zeichne ein Baumdiagramm mit 3 Startästen (für die erste Ziffer). Von jedem Ast gehen 2 Äste ab (zweite Ziffer). Am Ende steht die letzte Ziffer fest.",
       "Wenn die 2 vorne steht: _ _ _ → 2 _ _. Für die zweite Stelle bleiben 5 und 8: 258 und 285.\nWenn die 5 vorne steht: 5 _ _. Was sind die Möglichkeiten?",
       "Baumdiagramm:\n```\n     ┌── 5 ── 8  → 258\n2 ───┤\n     └── 8 ── 5  → 285\n\n     ┌── 2 ── 8  → 528\n5 ───┤\n     └── 8 ── 2  → 582\n\n     ┌── 2 ── 5  → 825\n8 ───┤\n     └── 5 ── 2  → 852\n```\n3 × 2 × 1 = 6"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Gleiche Struktur wie Aufgabe 1, aber mit Ziffern statt Personen. Das Baumdiagramm ist identisch — Kinder erkennen das Muster. Der Alltagsbezug (Zahlenschloss) macht die Aufgabe spannend. \"Höchstens\" ist wichtig: Im besten Fall trifft man beim ersten Versuch.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -125,6 +143,12 @@
       "Wenn nach der 5 die 1 kommt: 51_ _. Es bleiben 3 und 9 → 5139 und 5193.\nWenn nach der 5 die 3 kommt: 53_ _. Es bleiben 1 und 9 → zwei Möglichkeiten.\nUnd wenn die 9 kommt?",
       "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Eine fixierte erste Stelle reduziert das Problem auf 3 × 2 × 1. Kinder erkennen: Weniger freie Stellen → weniger Möglichkeiten. Das ist ein wichtiger Baustein für das kombinatorische Denken.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -157,6 +181,12 @@
       "Mache eine Tabelle mit allen Teams als Zeilen und Spalten. Kreuze jedes Spiel an — aber nur einmal! (A gegen B = B gegen A, das zählt nur als 1 Spiel.)",
       "Team A: 3 Spiele (gegen B, C, D).\nTeam B: nur noch 2 neue Spiele (gegen C, D) — gegen A wurde schon gezählt.\nTeam C: noch 1 neues Spiel (gegen D).\nZusammen: 3 + 2 + 1 = ?",
       "Systematisch alle Paarungen aufschreiben (A gegen B ist dasselbe wie B gegen A):\n\nTeam A spielt gegen: B, C, D → 3 Spiele\nTeam B spielt noch gegen: C, D → 2 neue Spiele\nTeam C spielt noch gegen: D → 1 neues Spiel\n3 + 2 + 1 = 6\n\nOder als Tabelle:\n| | B | C | D |\n|---|---|---|---|\n| A | A–B | A–C | A–D |\n| B | — | B–C | B–D |\n| C | — | — | C–D |"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Identische Struktur wie Aufgabe 2 (Fotos zu zweit), aber im Fussball-Kontext. Kinder erkennen hoffentlich das Muster: 3 + 2 + 1 = 6 kommt wieder! Der Sportkontext ist besonders motivierend für viele Kinder.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -195,6 +225,12 @@
       "3 Teams in einer Gruppe: 2 + 1 = 3 Spiele. Das gilt für beide Gruppen! Für die Gesamtspielzeit: Anzahl Spiele × Spieldauer.",
       "Gruppe A: Löwen–Tiger, Löwen–Bären → 2 Spiele für die Löwen. Tiger–Bären → 1 weiteres Spiel. Zusammen: 3 Spiele.\nBei d): 6 Spiele × 15 Minuten. Rechne: 6 × 15 = 6 × 10 + 6 × 5 = 60 + 30 = ?",
       "a) Gruppe A: Löwen–Tiger, Löwen–Bären, Tiger–Bären = 3 Spiele\n   (2 + 1 = 3)\nb) Gruppe B: gleiche Rechnung = 3 Spiele\nc) 3 + 3 = 6 Spiele\nd) 6 × 15 = 90 Minuten = 1 h 30 min"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Aufbau auf Aufgabe 5: Jetzt zwei Gruppen, die unabhängig voneinander gespielt werden. Teil d) verbindet Kombinatorik mit Zeitrechnung. Die Umwandlung 90 min = 1 h 30 min ist ein zusätzliches Lernziel.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
@@ -244,6 +280,12 @@
       "Wenn die 2 vorne steht, gibt es 3 × 2 × 1 = 6 Zahlen (wie beim Zahlenschloss!).\nDas gilt auch für die 4, die 6 und die 8 vorne.\nAlso: 4 × 6 = ?\n\nb) Für die kleinste Zahl: Lege die Karten von klein nach groß: 2, 4, 6, 8 → ?",
       "a) 4 Möglichkeiten für die erste Stelle × 3 für die zweite × 2 für die dritte × 1 für die letzte = 4 × 3 × 2 × 1 = 24\n\nb) Für die kleinste Zahl: kleinste Ziffer nach vorne → 2.468\n   Für die größte Zahl: größte Ziffer nach vorne → 8.642"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Erweiterung auf 4 Elemente. Das Baumdiagramm wäre mit 24 Enden sehr groß — hier lernen Kinder, mit der Multiplikationsregel zu rechnen statt alle aufzuzählen. Teil b) fördert das Stellenwertverständnis: Die größte Ziffer an der höchsten Stelle ergibt die größte Zahl.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -282,6 +324,12 @@
       "Vanille kann mit Schoko oder Erdbeere kombiniert werden → 2 Möglichkeiten.\nSchoko kann noch mit Erdbeere kombiniert werden → 1 neue Möglichkeit.\nZusammen: 2 + 1 = ?",
       "Systematisch alle Paare:\n- Vanille + Schoko\n- Vanille + Erdbeere\n- Schoko + Erdbeere\n\nDas sind 3 verschiedene Becher.\n\nTabelle:\n| | S | E |\n|---|---|---|\n| V | V+S | V+E |\n| S | — | S+E |\n\n2 + 1 = 3"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s72-begriffe-kombinatorik.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einfacher Einstieg in Kombinationen über einen motivierenden Alltagskontext. Nur 3 Elemente, nur Paare — das ist überschaubar. Die Tabelle als visuelles Hilfsmittel verhindert Doppelzählungen.",
     "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
     "parsed": {
@@ -314,6 +362,12 @@
       "Für die kleinste Summe: Beide Würfel zeigen die kleinste Zahl.\nFür die größte Summe: Beide zeigen die größte Zahl.\nFür c): Kann die Summe von zwei positiven Zahlen kleiner als 2 sein?",
       "a) Kleinste Augenzahl: 1. Zwei Würfel: 1 + 1 = ?\nb) Größte Augenzahl: 6. Zwei Würfel: 6 + 6 = ?",
       "- Kleinste Augenzahl pro Würfel: 1\n- Größte Augenzahl pro Würfel: 6\n- Kleinste Summe: 1 + 1 = 2\n- Größte Summe: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Grundlagen der Wahrscheinlichkeit: den Ergebnisraum bestimmen. Kinder müssen verstehen, dass mit zwei Würfeln Summen von 2 bis 12 möglich sind — nicht von 1 bis 12. Das ist eine häufige Fehlvorstellung.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -357,6 +411,12 @@
       "Augensumme 4: Der erste Würfel zeigt 1 → zweiter muss 3 zeigen (1+3=4). Erster zeigt 2 → zweiter zeigt 2 (2+2=4). Erster zeigt 3 → zweiter zeigt ? (3+?=4). Das sind 3 Möglichkeiten.",
       "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die systematische Tabelle aller 36 Kombinationen ist das zentrale Werkzeug. Kinder entdecken das Muster: Die 7 hat die meisten Möglichkeiten (6), die 2 und 12 die wenigsten (je 1). Das erklärt, warum manche Summen häufiger gewürfelt werden als andere — ein Aha-Erlebnis!",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -374,15 +434,15 @@
   },
   {
     "titel": "Sicher, möglich oder unmöglich?",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 74,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?\n\na) Die Augensumme ist größer als 1.\nb) Die Augensumme ist 7.\nc) Die Augensumme ist 13.\nd) Die Augensumme ist eine gerade Zahl.\ne) Die Augensumme ist kleiner als 13.",
-    "loesung": "a) sicher (kleinste Summe ist 2, also immer größer als 1)\nb) möglich (z.B. 3+4=7, aber nicht bei jedem Wurf)\nc) unmöglich (größte Summe ist 12)\nd) möglich (z.B. 2+4=6, aber nicht immer)\ne) sicher (größte Summe ist 12, also immer kleiner als 13)",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.\n\na) Die Augensumme ist größer als 1.\nb) Die Augensumme ist 7.\nc) Die Augensumme ist 13.\nd) Die Augensumme ist eine gerade Zahl.\ne) Die Augensumme ist kleiner als 13.\n\nA) sicher\nB) möglich\nC) unmöglich",
+    "loesung": "a) → A\nb) → B\nc) → C\nd) → B\ne) → A\ne) sicher (größte Summe ist 12, also immer kleiner als 13)",
     "loesungsweg": "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu",
     "tipps": [
       "Erinnere dich: Die kleinste Augensumme ist 2, die größte ist 12. Prüfe jede Aussage: Passiert das immer? Manchmal? Oder nie?",
@@ -390,35 +450,60 @@
       "a) \"Größer als 1\" — die kleinste Summe ist 2. Ist 2 > 1? Ja! Dann gilt das immer → sicher.\nc) \"Ist 13\" — die größte Summe ist 12. Kann 13 vorkommen? Nein → unmöglich.\nd) Gerade Summen: 2, 4, 6, 8, 10, 12 — die gibt es. Aber auch ungerade: 3, 5, 7 ... → nicht immer gerade → ?",
       "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Dreigliederung sicher/möglich/unmöglich ist der Kern der Wahrscheinlichkeitslehre in der Grundschule. Keine Brüche oder Prozente — nur qualitative Einschätzung. Besonders d) und e) erfordern sorgfältiges Nachdenken.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Die Augensumme ist größer als 1."
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Die Augensumme ist 7."
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Die Augensumme ist 13."
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "Die Augensumme ist eine gerade Zahl."
         },
         {
-          "label": "E",
+          "label": "e",
           "text": "Die Augensumme ist kleiner als 13."
         }
       ],
-      "richtigeIdx": 0
+      "choices": [
+        {
+          "label": "A",
+          "text": "sicher"
+        },
+        {
+          "label": "B",
+          "text": "möglich"
+        },
+        {
+          "label": "C",
+          "text": "unmöglich"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "B",
+        "e": "A"
+      }
     }
   },
   {
@@ -438,6 +523,12 @@
       "Bestimme zuerst den Bereich: kleinste Summe = 3 × 1 = 3, größte = 3 × 6 = 18. Dann prüfe jede Aussage wie vorher: sicher, möglich oder unmöglich.",
       "c) Augensumme 2: Dafür müssten zwei Würfel 1 zeigen und einer 0. Aber ein Würfel hat keine 0! Also 1+1+0 geht nicht. Minimum ist 1+1+1 = ?",
       "Ergebnisraum bei drei Würfeln:\n- Kleinste Summe: 1+1+1 = 3\n- Größte Summe: 6+6+6 = 18\n- Mögliche Summen: 3 bis 18"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Erweiterung auf drei Würfel: Der Ergebnisraum verschiebt sich (3 bis 18 statt 2 bis 12). Kinder transferieren die Methode aus Aufgabe 11. Besonders c) ist lehrreich: Die Summe 2 ist mit drei Würfeln unmöglich, obwohl sie mit zwei Würfeln noch möglich war.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -484,6 +575,12 @@
       "Regel A: Gerade Summen bei zwei Würfeln: 2 (1 Möglichkeit), 4 (3 Möglichkeiten), 6 (5 Möglichkeiten), 8 (5), 10 (3), 12 (1) = 1+3+5+5+3+1 = ?\nUngerade Summen: 3 (2), 5 (4), 7 (6), 9 (4), 11 (2) = 2+4+6+4+2 = ?\nGleich? → fair oder unfair?",
       "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -520,6 +617,12 @@
       "Nutze die Tabelle der Augensummen aus Aufgabe 10. Markiere alle Summen, die durch 4 teilbar sind (für Kind 1) und alle, die durch 3 teilbar sind (für Kind 2). Zähle jeweils.",
       "Kind 1 (durch 4 teilbar):\nSumme 4: (1,3), (2,2), (3,1) → 3 Möglichkeiten.\nSumme 8: (2,6), (3,5), (4,4), (5,3), (6,2) → 5 Möglichkeiten.\nSumme 12: (6,6) → 1 Möglichkeit.\nZusammen: 3 + 5 + 1 = 9.\n\nKind 2: Zähle genauso für Summen 3, 6, 9, 12. Wer hat mehr?",
       "Durch 4 teilbare Summen: 4, 8, 12\n- 4: 3 Möglichkeiten, 8: 5 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 3 + 5 + 1 = **9** Möglichkeiten\n\nDurch 3 teilbare Summen: 3, 6, 9, 12\n- 3: 2 Möglichkeiten, 6: 5 Möglichkeiten, 9: 4 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 2 + 5 + 4 + 1 = **12** Möglichkeiten\n\nKind 2 hat 12 vs. 9 Möglichkeiten → unfair, Kind 2 gewinnt häufiger."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Teilbarkeit mit Wahrscheinlichkeit. Kinder müssen zwei Konzepte gleichzeitig anwenden: Teilbarkeitsregeln (aus Kap. 8) und Würfelmöglichkeiten. Das Ergebnis (unfair!) ist nicht intuitiv offensichtlich und fördert kritisches Denken.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -558,6 +661,12 @@
       "Fülle die Multiplikationstabelle aus. Zähle dann, wie oft jede Zahl vorkommt. Die Zahl mit den meisten Vorkommen hat die größte Chance.",
       "Produkt 6: Wie kann man 6 als Produkt zweier Würfelzahlen (1-6) schreiben?\n1 × 6 = 6 ✓, 2 × 3 = 6 ✓, 3 × 2 = 6 ✓, 6 × 1 = 6 ✓. Das sind 4 Möglichkeiten.\nPrüfe: Hat eine andere Zahl mehr als 4 Möglichkeiten?",
       "Alle Produkte in einer 6×6-Tabelle:\n\n| × | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 1 | 2 | 3 | 4 | 5 | 6 |\n| 2 | 2 | 4 | 6 | 8 | 10 | 12 |\n| 3 | 3 | 6 | 9 | 12 | 15 | 18 |\n| 4 | 4 | 8 | 12 | 16 | 20 | 24 |\n| 5 | 5 | 10 | 15 | 20 | 25 | 30 |\n| 6 | 6 | 12 | 18 | 24 | 30 | 36 |\n\nDie 6 kommt 4-mal vor: (1,6), (2,3), (3,2), (6,1).\nDie 12 kommt auch 4-mal vor: (2,6), (3,4), (4,3), (6,2)."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Eine kreative Variation des Würfelspiels: Multiplikation statt Addition. Die Produkttabelle ist gleichzeitig Einmaleins-Übung! Das Ergebnis überrascht: Die häufigsten Produkte (6 und 12 mit je 4) sind nicht die mittleren Zahlen. Die Struktur ist völlig anders als bei der Addition.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -601,6 +710,12 @@
       "Drei Fragen nacheinander:\n1. Ist es unmöglich? → Wenn ja: unmöglich.\n2. Ist es sicher (passiert es 100% immer)? → Wenn ja: sicher.\n3. Alles andere: möglich.",
       "b) Welcher Tag kommt nach Mittwoch? Immer Donnerstag? Ja! → sicher.\ne) Kannst du dir einen fliegenden Hund vorstellen (ohne Flugzeug)? Nein → unmöglich.\nd) Ist es garantiert, dass morgen die Sonne scheint? → ?",
       "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre. Kinder lernen die drei Grundbegriffe an Beispielen aus ihrer Lebenswelt. Wichtig: \"möglich, aber unwahrscheinlich\" (wie Schnee im Juli) ist trotzdem \"möglich\" — das unterscheidet Grundschul-Wahrscheinlichkeit von exakter Stochastik.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -984,6 +1099,12 @@
       "a) Kann die Summe 1 sein? Der kleinste Wert pro Würfel ist 1. Also ist 1 + 1 = 2 das Minimum. Ist 1 kleiner als 2? Dann ist die Summe 1 ...?\nb) Kann die Summe 7 sein? Zum Beispiel: 3 + ? = 7. Welche Zahl fehlt? Zeigt der Würfel diese Zahl?",
       "Zwei Würfel zeigen jeweils mindestens 1 und höchstens 6.\n- Kleinste Augensumme: 1 + 1 = 2\n- Größte Augensumme: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n\nDaraus folgt: 1 ist unmöglich (< 2), 7 ist möglich, 12 ist möglich (Maximum), 13 ist unmöglich (> 12)."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Einstiegsaufgabe, die das Grundverständnis für den Wertebereich bei zwei Würfeln sichert. Die Grenzen (Minimum 2, Maximum 12) bilden die Basis für alle weiteren Aufgaben zu Augensummen. Das Kind soll diese Grenzen selbst herleiten, nicht auswendig lernen.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -1035,6 +1156,12 @@
       "Summe 2: Nur 1+1 — das ist 1 Möglichkeit.\nSumme 7: 1+6 ist eine Möglichkeit. 2+5 ist eine weitere. 3+4 auch. Aber auch 4+3, 5+2 und 6+1! Das sind zusammen ...? Möglichkeiten.",
       "Zähle für jede Summe die Kombinationen:\n- Augensumme 2: nur 1+1 → 1 Möglichkeit\n- Augensumme 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten\n- Augensumme 12: nur 6+6 → 1 Möglichkeit\n\nDie 7 hat mit 6 Möglichkeiten die meisten Kombinationen aller Augensummen."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Zentrale Erkenntnis der Wahrscheinlichkeitslehre: Nicht alle Augensummen sind gleich wahrscheinlich. Die 7 als \"Champion\" mit 6 Kombinationen wird oft in Spielen ausgenutzt. Das systematische Aufzählen der Kombinationen trainiert gleichzeitig kombinatorisches Denken.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -1076,6 +1203,12 @@
       "a) Ist die Augensumme immer kleiner als 13? Die größte Summe ist 12. Ist 12 < 13? Ja! Gibt es eine Summe ≥ 13? Nein! Also ist es ...?\nc) Kann die Summe 1 sein? Das Minimum ist 1+1 = 2. Ist 2 > 1? Dann ist eine Summe von 1 ...?",
       "- **sicher** = tritt bei JEDEM Wurf ein, es gibt keine Ausnahme\n- **möglich** = tritt manchmal ein, aber nicht immer\n- **unmöglich** = kann nie eintreten, egal was man würfelt\n\nPrüfe für jede Aussage: Gibt es einen Wurf, bei dem sie NICHT gilt? → dann ist sie nicht sicher. Gibt es einen Wurf, bei dem sie gilt? → dann ist sie nicht unmöglich."
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Dreistufung sicher/möglich/unmöglich ist ein Kernbegriff der Wahrscheinlichkeitslehre in der Grundschule. Die Aufgabe verlangt, dass das Kind nicht nur einzelne Beispiele betrachtet, sondern über ALLE möglichen Würfe nachdenkt. Aussage d) ist besonders lehrreich: Gerade Summen kommen vor (2, 4, 6, ...), aber nicht immer — also \"möglich\", nicht \"sicher\".",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
     "parsed": {
@@ -1103,6 +1236,12 @@
       "Male eine Tabelle mit allen 36 Kombinationen (6 Zeilen × 6 Spalten). Färbe gerade Summen blau und ungerade Summen rot. Zähle dann die blauen und roten Felder.\n\n```\n    1   2   3   4   5   6\n1 | 2 | 3 | 4 | 5 | 6 | 7 |\n2 | 3 | 4 | 5 | 6 | 7 | 8 |\n3 | 4 | 5 | 6 | 7 | 8 | 9 |\n4 | 5 | 6 | 7 | 8 | 9 |10 |\n5 | 6 | 7 | 8 | 9 |10 |11 |\n6 | 7 | 8 | 9 |10 |11 |12 |\n```",
       "In der Tabelle bildet sich ein Schachbrettmuster: gerade und ungerade wechseln sich ab. In einem 6×6-Schachbrett gibt es 18 helle und 18 dunkle Felder. Also gibt es 18 gerade und 18 ungerade Summen. Ist das fair?",
       "Von den 36 möglichen Kombinationen (6 × 6) ergeben:\n- **18 Kombinationen** eine gerade Summe\n- **18 Kombinationen** eine ungerade Summe\n\nGerade Summen: 1+1, 1+3, 1+5, 2+2, 2+4, 2+6, 3+1, 3+3, 3+5, 4+2, 4+4, 4+6, 5+1, 5+3, 5+5, 6+2, 6+4, 6+6 → 18\nUngerade Summen: 1+2, 1+4, 1+6, 2+1, 2+3, 2+5, 3+2, 3+4, 3+6, 4+1, 4+3, 4+5, 5+2, 5+4, 5+6, 6+1, 6+3, 6+5 → 18\n\nBeide haben exakt gleich viele Möglichkeiten, also ist das Spiel fair."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Fairness beurteilen ist ein zentrales Thema der Wahrscheinlichkeitslehre. Das Kind lernt, dass \"fair\" bedeutet: gleich viele günstige Ausgänge für beide Spieler. Die Erkenntnis, dass gerade und ungerade Summen gleich häufig sind, ist nicht offensichtlich — das Schachbrettmuster in der Tabelle macht es visuell erfahrbar.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
@@ -1144,6 +1283,12 @@
       "Für a): Jeder Würfel zeigt mindestens 1. Drei Würfel zeigen zusammen mindestens 1 + 1 + 1 = ?\nFür b): Jeder Würfel zeigt höchstens 6. Drei Würfel zeigen zusammen höchstens 6 + 6 + 6 = ?\nFür c): Die häufigste Summe liegt in der Mitte zwischen dem Minimum und Maximum.",
       "a) 1 + 1 + 1 = ?\nb) 6 + 6 + 6 = ?\nc) Die Mitte zwischen deinen Antworten a) und b): Addiere beide und teile durch 2. (3 + 18) / 2 = ? Runde auf eine ganze Zahl — das ist die häufigste Summe!",
       "- a) Minimum: Jeder Würfel zeigt 1 → 1 + 1 + 1 = 3\n- b) Maximum: Jeder Würfel zeigt 6 → 6 + 6 + 6 = 18\n- c) Die möglichen Summen reichen von 3 bis 18. Die Mitte liegt bei (3 + 18) / 2 = 10,5. Die Summen 10 und 11 haben tatsächlich beide die meisten Kombinationen (je 27 von 216 möglichen)."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s74-begriffe-zufall-wahrscheinlichkeit.webp",
+      null,
+      null
     ],
     "didaktischerHinweis": "Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.",
     "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",

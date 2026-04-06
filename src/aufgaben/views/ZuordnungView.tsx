@@ -86,7 +86,7 @@ function ZuordnungInteraktiv({
     <div className="space-y-3">
       {daten.anweisung && (
         <Card>
-          <MarkdownText text={daten.anweisung} />
+          <MarkdownText text={daten.anweisung} className="text-base text-heading font-semibold leading-relaxed" />
         </Card>
       )}
 

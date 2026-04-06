@@ -64,7 +64,7 @@ export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
   return (
     <div className="space-y-3">
       <Card>
-        <MarkdownText text={daten.anweisung} />
+        <MarkdownText text={daten.anweisung} className="text-base text-heading font-semibold leading-relaxed" />
       </Card>
 
       {/* Platzierte Items */}

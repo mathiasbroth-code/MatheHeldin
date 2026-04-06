@@ -18,7 +18,7 @@
       "Die Aufgaben sind Rechenpäckchen — die Grundaufgabe bleibt gleich, aber die Zahl wird größer:\n- a) 9 + 7 = 16 (Einer-Rechnung)\n- b) Gleiche Einer-Aufgabe, Hunderter kommen dazu: 500 + 16 = 516\n- c) Gleiche Einer-Aufgabe, Tausender kommen dazu: 4.500 + 16 = 4.516\n\nDas Muster: Nur die Einerstelle verändert sich bei der Addition, die anderen Stellen bleiben gleich."
     ],
     "didaktischerHinweis": "Rechenpäckchen zeigen, dass Kopfrechenaufgaben im erweiterten Zahlenraum nicht schwieriger werden — nur die vorderen Stellen kommen dazu. Das Kind erkennt, dass es die Grundaufgabe beherrscht und nur die Stellen kombinieren muss.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne im Kopf. Vergleiche die Aufgaben miteinander.",
@@ -75,7 +75,7 @@
       "- a) 74 − 5 = 69 (Einer und Zehner)\n- b) Die 600 bleibt: 600 + 69 = 669\n- c) Die 3.600 bleibt: 3.600 + 69 = 3.669"
     ],
     "didaktischerHinweis": "Die Subtraktion im Päckchen macht die analoge Strategie wie bei der Addition deutlich: Nur die betroffenen Stellen ändern sich. Das Kind lernt, größere Zahlen in bekannte Teile zu zerlegen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne im Kopf. Nutze die Grundaufgabe.",
@@ -117,7 +117,7 @@
       "- a) 438 + 9: Zuerst 438 + 2 = 440, dann 440 + 7 = 447\n- b) 2.000 bleibt, 438 + 9 = 447 → 2.447\n- c) 52.000 bleibt, 438 + 9 = 447 → 52.447"
     ],
     "didaktischerHinweis": "Der Zehnerübergang bei großen Zahlen zeigt, dass nur die letzten Stellen betroffen sind. Das Kind soll die Zerlegungsstrategie (zum Zehner auffüllen) auf große Zahlen übertragen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne. Achte auf den Zehnerübergang.",
@@ -159,7 +159,7 @@
       "- a) Von 36.200 bis 37.000 fehlen 800 (Hunderter auffüllen)\n- b) Von 37.000 bis 100.000 fehlen 63.000 (100.000 − 37.000)\n- c) Von 471.500 bis 472.000 fehlen 500 (Hunderter auffüllen)\n- d) Von 472.000 bis 1.000.000 fehlen 528.000 (1.000.000 − 472.000)"
     ],
     "didaktischerHinweis": "Das Ergänzen auf glatte Zahlen trainiert das Verständnis für den Zusammenhang zwischen Addition und Subtraktion. Die Zahlenstrahl-Vorstellung hilft visuellen Lernern, den Abstand zu sehen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -191,7 +191,7 @@
       "- 100.000 − 58.000 = 42.000\n- 1.000.000 − 283.400 = 716.600 (rechne stellenweise: 1.000.000 − 200.000 = 800.000, 800.000 − 83.000 = 717.000, 717.000 − 400 = 716.600)"
     ],
     "didaktischerHinweis": "Zahlenmauern visualisieren die Beziehung zwischen Addition und Subtraktion. Das Kind sieht die Struktur und lernt, flexibel zwischen beiden Rechenarten zu wechseln.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ergänze die fehlenden Zahlen. Die beiden unteren Zahlen ergeben zusammen die obere Zahl.",
@@ -228,7 +228,7 @@
       "- a) 100.000 − 31.000: 100 − 31 = 69 → 69.000\n- b) 100.000 − 52.500: 100.000 − 52.000 = 48.000, dann 48.000 − 500 = 47.500\n- c) 100.000 − 68.300: 100.000 − 68.000 = 32.000, dann 32.000 − 300 = 31.700"
     ],
     "didaktischerHinweis": "Das Subtrahieren von glatten Zahlen trainiert die Ergänzungsstrategie. Die Stellenwerttafel hilft dem Kind, Schritt für Schritt vorzugehen und die Stellen einzeln zu bearbeiten.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne im Kopf.",
@@ -270,7 +270,7 @@
       "- a) 1.000.000 − 465.000: Ergänze 465.000 auf 1.000.000. 465 + 535 = 1.000 → 535.000\n- b) 1.000 − 712 = 288 → 288.000\n- c) 1.000 − 389 = 611 → 611.000"
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das Vereinfachen durch Kürzen gleicher Nullen. Das Kind lernt, dass große Zahlen durch geschicktes Vereinfachen handhabbar werden.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne im Kopf.",
@@ -312,7 +312,7 @@
       "Das Ergebnis soll zwischen 30.000 und 40.000 liegen.\nAlso: 100.000 − ▢ soll zwischen 30.000 und 40.000 sein.\nDas heißt: ▢ muss zwischen 60.000 und 70.000 liegen.\nDie erste Ziffer muss also 6 sein. Die restlichen Ziffern (1, 4, 5, 8) können beliebig angeordnet werden."
     ],
     "didaktischerHinweis": "Diese offene Aufgabe fördert das Problemlösen und den Umgang mit Bedingungen. Das Kind lernt, systematisch vorzugehen und die Beziehung zwischen Subtraktion und dem Wertebereich zu nutzen.",
-    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "erklaerungBild": "assets/erklaerungen/s36-merkkasten-stellenwerte-rechnen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Du hast die Ziffernkarten 1, 4, 5, 6 und 8. Bilde fünfstellige Zahlen und subtrahiere sie von 100.000. Das Ergebnis soll zwischen 30.000 und 40.000 liegen.",
@@ -345,7 +345,7 @@
       "Schriftliche Subtraktion Stelle für Stelle (von rechts nach links):\n- a) E: 3 − 7 → Übertrag → 13 − 7 = 6, Z: 7 − 6 = 1 (mit Übertrag: 8 − 1 − 6 = 1), H: 4 − 1 = 3 (mit Anpassung), T: 5 − 2 = 3 → 3.316\n- Kontrolle: 3.316 + 2.167 = 5.483 ✓"
     ],
     "didaktischerHinweis": "Das schriftliche Subtrahieren wird hier in den größeren Zahlenraum übertragen. Die Umkehraufgabe dient als Selbstkontrolle — das stärkt die Eigenständigkeit des Kindes.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne schriftlich. Kontrolliere mit der Umkehraufgabe.",
@@ -387,7 +387,7 @@
       "- a) „Subtrahiere A von B\" bedeutet: B − A = 94.238 − 23.415 = 70.823\n- b) Summe = 37.652 + 18.794 = 56.446\n- c) Differenz = 610.000 − 485.000 = 125.000\n- d) 543.180 + 276.420 = 819.600"
     ],
     "didaktischerHinweis": "Die Fachbegriffe (Summe, Differenz, Summand, Minuend, Subtrahend) sind zentral für das mathematische Verständnis. Das Kind lernt, Textaufgaben in Rechenaufgaben zu übersetzen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Löse die Aufgaben.",
@@ -434,7 +434,7 @@
       "- a) 42.358 + 53.196 = 95.554\n- b) 2. Summand = 28.745 + 3.200 = 31.945. Summe = 28.745 + 31.945 = 60.690"
     ],
     "didaktischerHinweis": "Zahlenrätsel mit Fachbegriffen verbinden Leseverständnis und Rechenfähigkeit. Das Kind muss erst den Text in eine Rechnung übersetzen — das ist eine zentrale Kompetenz.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Löse die Zahlenrätsel.",
@@ -471,7 +471,7 @@
       "- a) Subtrahend = 47.520 : 2 = 23.760. Differenz = 47.520 − 23.760 = 23.760\n- b) Subtrahend = Minuend − Differenz = 91.340 − 3.500 = 87.840"
     ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert Fachbegriffe mit der Umkehrstrategie. Das Kind muss flexibel denken: Wenn Minuend und Differenz bekannt sind, ist der Subtrahend gesucht — und umgekehrt.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Löse die Zahlenrätsel.",
@@ -508,7 +508,7 @@
       "- a) Schriftliches Addieren:\n  452.780 + 319.645 = 772.425\n  (E: 0+5=5, Z: 8+4=12, H: 7+6+1=14, T: 2+9+1=12, ZT: 5+1+1=7, HT: 4+3=7)\n- b) Schriftliches Subtrahieren:\n  76.430 − 28.975 = 47.455"
     ],
     "didaktischerHinweis": "Sechsstellige Zahlen erweitern das schriftliche Rechnen. Das Kind muss sorgfältig stellenweise arbeiten. Die Stellenwerttafel gibt Sicherheit.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne.",
@@ -545,7 +545,7 @@
       "Eine ANNA-Zahl hat das Muster ABBA:\n- 6.336 → 6-3-3-6 → ABBA ✓\n- 4.554 → 4-5-5-4 → ABBA ✓\n- 2.332 → 2-3-3-2 → ABBA ✓\n- 7.887 → 7-8-8-7 → ABBA ✓\n- 5.135 → 5-1-3-5 → die mittleren Ziffern (1 und 3) sind verschieden → ✗\n- 8.118 → 8-1-1-8 → ABBA ✓"
     ],
     "didaktischerHinweis": "ANNA-Zahlen sind ein motivierendes Muster, das zum Entdecken einlädt. Das Kind lernt, Zahlmuster zu erkennen und systematisch zu prüfen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -598,7 +598,7 @@
       "Schriftliche Subtraktion:\n- a) 8.118 − 1.881 = 6.237\n- b) 6.336 − 3.663 = 2.673\n- c) 9.339 − 3.993 = 5.346\n- d) 5.225 − 2.552 = 2.673\n\nBeobachtung: Bei b) und d) kommt das gleiche Ergebnis heraus! Die Differenz der Ziffern ist jeweils gleich (6−3 = 5−2 = 3)."
     ],
     "didaktischerHinweis": "ANNA-Zahlen-Subtraktionen zeigen überraschende Muster. Das Kind entdeckt, dass Zahlen mit gleicher Zifferdifferenz immer die gleiche Differenz ergeben — das fördert algebraisches Denken.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Bilde Subtraktionsaufgaben mit ANNA-Zahlen. Die größere Zahl minus die kleinere.",
@@ -645,7 +645,7 @@
       "Bei allen Aufgaben ist die Differenz zwischen den beiden Ziffern gleich: 7−2 = 9−4 = 8−3 = 6−1 = 5. Deshalb ist das Ergebnis immer gleich: 4.455.\n\nDie Regel: Bei ANNA-Subtraktionen hängt das Ergebnis nur von der Differenz der beiden Ziffern ab."
     ],
     "didaktischerHinweis": "Diese Entdeckungsaufgabe fördert das mathematische Staunen. Das Kind erlebt, dass hinter Zahlenmustern Gesetzmäßigkeiten stecken — eine frühe Erfahrung mit algebraischem Denken.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -682,7 +682,7 @@
       "Das Ergebnis 3.564 entsteht bei ANNA-Subtraktionen mit Zifferdifferenz 4:\n- Ziffern 8 und 4: 8.448 − 4.884 = 3.564\n- Ziffern 7 und 3: 7.337 − 3.773 = 3.564\n- usw."
     ],
     "didaktischerHinweis": "Das Rückwärts-Suchen (vom Ergebnis zu den Aufgaben) fördert flexibles Denken. Das Kind lernt systematisch vorzugehen und das entdeckte Muster produktiv zu nutzen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -714,7 +714,7 @@
       "- a) 5.252 − 2.525 = 2.727 (Zifferdifferenz 5 − 2 = 3)\n- b) 7.474 − 4.747 = 2.727 (Zifferdifferenz 7 − 4 = 3)\n- c) 8.383 − 3.838 = 4.545 (Zifferdifferenz 8 − 3 = 5)\n\nAuch bei NANA-Zahlen hängt das Ergebnis nur von der Differenz der beiden Ziffern ab!"
     ],
     "didaktischerHinweis": "NANA-Zahlen erweitern das Muster-Entdecken. Das Kind erfährt, dass mathematische Gesetzmäßigkeiten übertragbar sind und auch in neuen Kontexten gelten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "NANA-Zahlen haben das Muster ABAB, z.B. 1.212 oder 3.434.\n\nRechne die NANA-Subtraktionen und vergleiche mit den ANNA-Ergebnissen.",
@@ -756,7 +756,7 @@
       "1. Runde die Preise auf glatte Zahlen:\n   - Mini-Tor: 275 ≈ 280 Euro\n   - Reckstange: 498 ≈ 500 Euro\n   - Basketballkorb: 109 ≈ 110 Euro\n2. Überschlag: 280 + 500 + 110 = 890 Euro\n3. 890 < 1.800 → Es reicht!\n4. Genaue Rechnung: 275 + 498 + 109 = 882 Euro"
     ],
     "didaktischerHinweis": "Überschlagen ist eine alltagsnahe Strategie. Das Kind lernt, wann genaues Rechnen nötig ist und wann ein Überschlag reicht — eine wichtige mathematische Urteilsfähigkeit.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Für die Anschaffung von Pausenspielgeräten stehen 1.800 Euro zur Verfügung. Überschlage, welche Geräte die Schule kaufen kann.\n\nPreisliste:\n- Tischtennisset: 22 Euro\n- Frisbee: 4,90 Euro\n- Springseil: 5,80 Euro\n- Softbälle: 89 Euro\n- Pedalo: 135 Euro\n- Basketballkorb: 109 Euro\n- Mini-Tor: 275 Euro\n- Reckstange: 498 Euro",
@@ -789,7 +789,7 @@
       "1. Überschlag: 275 ≈ 280, 109 ≈ 110. Summe ≈ 390 Euro.\n2. 650 − 390 = 260 → mehr als 250 Euro ✓\n3. Genaue Kontrolle: 650 − 384 = 266 Euro übrig."
     ],
     "didaktischerHinweis": "Die Kombination aus Wahr/Falsch-Entscheidung und Überschlag fördert das kritische Prüfen. Das Kind lernt, Behauptungen mathematisch zu überprüfen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "",
@@ -822,7 +822,7 @@
       "1. Überschlag: 275 ≈ 280, 498 ≈ 500, 5,80 ≈ 6\n2. 280 + 500 + 6 = 786 Euro\n3. 1.350 − 786 ≈ 564 → Es reicht deutlich\n4. Für den Restbetrag: 275 + 498 = 773, + 5,80 = 778,80. Rest: 1.350 − 778,80 = 571,20 Euro"
     ],
     "didaktischerHinweis": "Die Unterscheidung „Reicht Überschlag oder brauche ich genaues Rechnen?\" ist eine wichtige Alltagskompetenz. Das Kind lernt situationsangemessen zu entscheiden.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die Sonnenscheinschule hat nach einem Spendenlauf 1.350 Euro zur Verfügung. Es sollen ein Mini-Tor (275 Euro), eine Reckstange (498 Euro) und ein Sprungseil (5,80 Euro) angeschafft werden. Wie viel Geld bleibt übrig?",
@@ -855,7 +855,7 @@
       "1. Sonderpreis berechnen: 5,80 − 0,40 = 5,40 Euro\n2. Überschlag: 25 · 5,40 ≈ 25 · 5 = 125 Euro → reicht wahrscheinlich\n3. Genau: 25 · 5 = 125, 25 · 0,40 = 10. Zusammen: 125 + 10 = 135 Euro\n4. 140 − 135 = 5 Euro übrig ✓"
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Überschlagen mit genauem Rechnen und dem Umgang mit Kommazahlen. Die Zerlegungsstrategie bei der Multiplikation ist ein wichtiges Werkzeug.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
@@ -887,7 +887,7 @@
       "Strategie: Überschlage die Preise und probiere verschiedene Kombinationen:\n1. Kaufe zuerst die teuren Geräte: 275 + 109 + 135 = 519 Euro\n2. Bleiben 1.500 − 519 = 981 Euro für weitere Geräte\n3. Probiere weitere Kombinationen und zähle zusammen"
     ],
     "didaktischerHinweis": "Offene Aufgaben mit Budgetplanung trainieren strategisches Denken und den Umgang mit Geld. Das Kind muss abwägen, probieren und überschlagen — genau wie im Alltag.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Die Schule hat einen Gutschein von 1.500 Euro gewonnen und möchte davon möglichst viele verschiedene Pausenspiele kaufen. Der Restbetrag kann nicht ausgezahlt werden.\n\nPreise: Tischtennisset (22 Euro), Frisbee (4,90 Euro), Softbälle (89 Euro), Pedalo (135 Euro), Basketballkorb (109 Euro), Mini-Tor (275 Euro)",
@@ -920,7 +920,7 @@
       "Beim Überschlag rundest du beide Zahlen und rechnest im Kopf:\n- a) 480 + 220 = 700, das Ergebnis 693 liegt nahe dran → stimmt vermutlich\n- b) 330 − 190 = 140, aber das angegebene Ergebnis ist 237 — viel zu groß! → stimmt nicht\n- c) 860 + 120 = 980, das Ergebnis 975 liegt nahe dran → stimmt vermutlich"
     ],
     "didaktischerHinweis": "Der Überschlag als Kontrollinstrument ist eine Schlüsselkompetenz. Das Kind lernt, Ergebnisse kritisch zu hinterfragen, statt blind dem Rechenergebnis zu vertrauen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Finde mit dem Überschlag heraus, welche Ergebnisse nicht stimmen können. Korrigiere die falschen.",
@@ -965,7 +965,7 @@
       "- a) 4.900 + 1.300 = 6.200, Ergebnis 6.181 liegt nahe → ✓\n- b) 3.600 + 5.200 = 8.800, Ergebnis 9.852 ist ca. 1.000 zu groß → ✗ (richtig: 8.852)\n- c) 2.800 + 3.400 = 6.200, Ergebnis 6.213 liegt nahe → ✓"
     ],
     "didaktischerHinweis": "Vierstellige Zahlen erfordern das Runden auf Hunderter. Das Kind trainiert, den Überschlag als Werkzeug zur Fehlersuche einzusetzen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Finde mit dem Überschlag heraus, welche Ergebnisse nicht stimmen können. Rechne die falschen Aufgaben richtig aus.",
@@ -1010,7 +1010,7 @@
       "Runde jede Zahl auf Hunderter und rechne den Überschlag:\n- 3.500 + 1.300 = 4.800 → 4.000-5.000\n- 1.200 + 1.400 = 2.600 → 2.000-3.000\n- 6.200 − 2.900 = 3.300 → keine der Spalten!\n- 5.300 − 2.800 = 2.500 → 2.000-3.000\n- 2.100 + 2.500 = 4.600 → 4.000-5.000\n- 8.700 − 3.900 = 4.800 → 4.000-5.000"
     ],
     "didaktischerHinweis": "Das Einsortieren trainiert die Schätzfähigkeit und den Überschlag. Das Kind lernt, Ergebnisgrößen einzuordnen, ohne genau zu rechnen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Überschlage. Sortiere die Aufgaben in die richtige Spalte.\n| Aufgabe | Ergebnis zwischen 2.000 und 3.000 | Ergebnis zwischen 4.000 und 5.000 |\n|---------|:-:|:-:|\n| 3.487 + 1.256 | | |\n| 1.245 + 1.398 | | |\n| 6.234 − 2.891 | | |\n| 5.312 − 2.765 | | |\n| 2.109 + 2.456 | | |\n| 8.743 − 3.891 | | |",
@@ -1038,7 +1038,7 @@
       "- a) 34.000 + 22.000 = 56.000 → passt zu 55.675\n- b) 53.000 + 19.000 = 72.000 → 61.653 ist ca. 10.000 zu wenig → Fehler! Genau: 52.890 + 18.763 = 71.653\n- c) 78.000 − 23.000 = 55.000, 55.000 − 14.000 = 41.000 → passt zu 41.110"
     ],
     "didaktischerHinweis": "Der Überschlag bei mehrstelligen Zahlen und kombinierten Operationen erfordert planvolles Vorgehen. Das Kind lernt, auch bei komplexeren Aufgaben den Überblick zu behalten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Finde mit dem Überschlag heraus, welche Ergebnisse nicht stimmen können. Rechne die falschen richtig aus.",
@@ -1083,7 +1083,7 @@
       "- a) 68.000 + 14.000 = 82.000, 82.000 − 20.000 = 62.000. Ergebnis 62.515 passt.\n- b) 83.000 + 25.000 = 108.000, 108.000 − 16.000 = 92.000. Ergebnis 82.457 ist 10.000 zu klein → Fehler!\n- c) 49.000 − 16.000 = 33.000, 33.000 + 31.000 = 64.000. Ergebnis 63.986 passt."
     ],
     "didaktischerHinweis": "Kombinierte Rechnungen erfordern schrittweises Überschlagen. Das Kind lernt, komplexere Aufgaben in Teilschritte zu zerlegen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s38-merkkasten-addition-subtraktion.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Finde mit dem Überschlag heraus, welche Ergebnisse nicht stimmen können.",
@@ -1128,7 +1128,7 @@
       "1. Start: 72\n2. · 5: 72 · 5 = 360\n3. − 20: 360 − 20 = 340"
     ],
     "didaktischerHinweis": "Rechenketten trainieren das sequenzielle Rechnen. Das Diagramm visualisiert die Schritte und hilft dem Kind, die Reihenfolge einzuhalten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Berechne die Rechenkette. Fülle die Lücken.\n\n72 → · 5 → ▢ → − 20 → ▢",
@@ -1165,7 +1165,7 @@
       "1. „Multipliziere 40 mit 8\": 40 · 8 = 320\n2. „subtrahiere dann 15\": 320 − 15 = 305"
     ],
     "didaktischerHinweis": "Das Übersetzen von Text in eine Rechenkette fördert das Leseverständnis und die mathematische Modellierung. Das Diagramm dient als visuelle Brücke.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe als Rechenkette und rechne.\n\nMultipliziere 40 mit 8 und subtrahiere dann 15.",
@@ -1202,7 +1202,7 @@
       "1. „Addiere zu 120 die Zahl 180\": 120 + 180 = 300\n2. „dividiere das Ergebnis durch 5\": 300 : 5 = 60"
     ],
     "didaktischerHinweis": "Die Kombination verschiedener Operationen in einer Kette trainiert die Flexibilität im Rechnen. Das Kind muss die Reihenfolge beachten und Zwischenergebnisse sauber notieren.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe als Rechenkette und rechne.\n\nAddiere zu 120 die Zahl 180 und dividiere das Ergebnis durch 5.",
@@ -1244,7 +1244,7 @@
       "1. 420 : 6 = 70\n2. 70 · 8 = 560\n3. 560 + 140 = 700"
     ],
     "didaktischerHinweis": "Längere Rechenketten fordern die Aufmerksamkeit und das schrittweise Arbeiten. Die Diagramm-Darstellung hilft visuellen Lernern, den Überblick zu behalten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "schritt",
       "anweisung": "Schreibe als Rechenkette und rechne.\n\nDividiere 420 durch 6, multipliziere das Ergebnis mit 8 und addiere 140.",
@@ -1291,7 +1291,7 @@
       "Lies die Beschreibung und identifiziere: Startzahl (48), erste Operation, zweite Operation. Suche die passende Kette."
     ],
     "didaktischerHinweis": "Die Zuordnung trainiert das Übersetzen zwischen Text und mathematischer Darstellung. Das Kind versteht, dass dieselbe Aufgabe verschiedene Formen haben kann.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Welche Beschreibung gehört zu welcher Rechenkette? Ordne zu und rechne.\nBeschreibungen:\n1. Addiere zu 48 die Zahl 12 und dividiere das Ergebnis durch 4.\n2. Subtrahiere von 48 die Zahl 12 und multipliziere das Ergebnis mit 4.\n3. Multipliziere 48 mit 4 und subtrahiere dann 12.\n4. Dividiere 48 durch 4 und addiere dann 12.\nRechenketten:\nA) 48 → · 4 → ▢ → − 12 → ▢\nB) 48 → + 12 → ▢ → : 4 → ▢\nC) 48 → : 4 → ▢ → + 12 → ▢\nD) 48 → − 12 → ▢ → · 4 → ▢",
@@ -1324,7 +1324,7 @@
       "Rückwärts rechnen:\n1. 600 → Umkehroperation von + 240 ist − 240 → 600 − 240 = 360\n2. 360 → Umkehroperation von · 3 ist : 3 → 360 : 3 = 120\nStartzahl = 120"
     ],
     "didaktischerHinweis": "Das Rückwärtsrechnen trainiert Umkehroperationen und algebraisches Denken. Das Kind lernt, dass jede Operation eine Umkehrung hat — eine Grundlage für späteres Gleichungslösen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Finde die Startzahl. Rechne rückwärts!",
@@ -1357,7 +1357,7 @@
       "1. Rechenkette aufschreiben: ? → · 4 → ? → + 120 → 360\n2. Rückwärts rechnen:\n   - 360 − 120 = 240\n   - 240 : 4 = 60\n3. Probe: 60 · 4 = 240, 240 + 120 = 360 ✓"
     ],
     "didaktischerHinweis": "Zahlenrätsel verpacken algebraische Gleichungen in eine kindgerechte Form. Die Rechenkette macht die Struktur sichtbar, das Rückwärtsrechnen ist die Lösungsstrategie.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
@@ -1390,7 +1390,7 @@
       "1. Rückwärts rechnen:\n   - 40 + 35 = 75 (Umkehrung von − 35)\n   - 75 · 8 = 600 (Umkehrung von : 8)\n2. Probe: 600 : 8 = 75, 75 − 35 = 40 ✓"
     ],
     "didaktischerHinweis": "Division und Multiplikation als Umkehroperationen werden hier gezielt geübt. Die Probe am Ende gibt dem Kind Sicherheit und Kontrolle.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als Rechenkette und löse mithilfe der Umkehraufgaben.",
@@ -1423,7 +1423,7 @@
       "1. Rechenkette: ? → · 5 → ? → + 50 → ? → : 3 → 100\n2. Rückwärts:\n   - 100 · 3 = 300\n   - 300 − 50 = 250\n   - 250 : 5 = 50\n3. Probe: 50 · 5 = 250, 250 + 50 = 300, 300 : 3 = 100 ✓"
     ],
     "didaktischerHinweis": "Drei Operationen erfordern systematisches Rückwärtsrechnen. Das Kind übt, die Kette sauber zu notieren und Schritt für Schritt abzuarbeiten. Die Probe gibt Sicherheit.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als Rechenkette und löse.",
@@ -1456,7 +1456,7 @@
       "1. Rückwärts rechnen:\n   - 450 − 190 = 260\n   - 260 : 2 = 130\n   - 130 + 280 = 410\n2. Probe: 410 − 280 = 130, 130 · 2 = 260, 260 + 190 = 450 ✓"
     ],
     "didaktischerHinweis": "Die sprachliche Vielfalt (subtrahieren, verdoppeln, addieren) trainiert das Übersetzen. Das Rückwärtsrechnen über mehrere Schritte erfordert systematisches Arbeiten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als Rechenkette und löse.",
@@ -1489,7 +1489,7 @@
       "1. Rückwärts rechnen:\n   - 400 : 5 = 80\n   - 80 · 4 = 320\n   - 320 − 56 = 264\n2. Probe: 264 + 56 = 320, 320 : 4 = 80, 80 · 5 = 400 ✓"
     ],
     "didaktischerHinweis": "Komplexere Zahlenrätsel mit drei verschiedenen Operationen trainieren die Sicherheit im Umgang mit Umkehroperationen. Die Probe gibt Kontrolle und Erfolgserlebnis.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s42-merkkasten-rechenoperationen.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schreibe als Rechenkette und löse.",
@@ -1521,8 +1521,14 @@
       "d) Markiere die Punktrechnung: 8 · 6 = 48. Jetzt steht da: 72 − 48 = ?",
       "Punktrechnung (· und :) wird immer zuerst berechnet:\n- a) **6 · 9** + 15 = 54 + 15 = 69\n- b) 32 + **4 · 5** = 32 + 20 = 52\n- c) **420 : 7** + 18 = 60 + 18 = 78\n- d) 72 − **8 · 6** = 72 − 48 = 24"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Punkt-vor-Strich-Regel ist fundamental für alle weiteren Rechenregeln. Das visuelle Markieren der Punktrechnung hilft dem Kind, die Reihenfolge einzuhalten.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne. Denke an die Rechenregel: Punktrechnung vor Strichrechnung!",
@@ -1568,8 +1574,14 @@
       "In 15 + 3 · 8 ist die Punktrechnung 3 · 8 = 24. Danach: 15 + 24 = ?",
       "Punktrechnung (·) wird vor Strichrechnung (+) berechnet:\n- Falsch: (15 + 3) · 8 = 18 · 8 = 144\n- Richtig: 15 + (3 · 8) = 15 + 24 = 39"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Multiple-Choice macht den häufigsten Fehler (links nach rechts statt Punkt vor Strich) sichtbar. Das Kind lernt, den Fehler zu erkennen und zu vermeiden.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -1605,8 +1617,14 @@
       "a) Erste Punktrechnung: 5 · 40 = 200. Zweite: 8 · 7 = 56. Jetzt: 200 + 56 = ?",
       "Alle Punkt-Rechnungen zuerst:\n- a) **5 · 40** + **8 · 7** = 200 + 56 = 256\n- b) **70 · 3** + **60 : 5** = 210 + 12 = 222\n- c) **480 : 6** − **9 · 4** = 80 − 36 = 44\n- d) **350 : 7** − **180 : 6** = 50 − 30 = 20"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Aufgaben mit zwei Punkt-Rechnungen erfordern, dass das Kind systematisch vorgeht: erst alle Punktrechnungen, dann die Strichrechnungen. Das Unterstreichen ist eine hilfreiche visuelle Strategie.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne. Denke an die Rechenregel.",
@@ -1652,8 +1670,14 @@
       "a) In der Klammer: 7 + 5 = 12. Jetzt steht da: 3 · 12 = ?",
       "Klammer immer zuerst:\n- a) 3 · **(7 + 5)** = 3 · 12 = 36\n- b) 45 + **(30 + 25)** = 45 + 55 = 100\n- c) **(24 + 6)** : 5 = 30 : 5 = 6\n- d) 6 · **(12 − 3)** = 6 · 9 = 54"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Klammer-Regel erweitert die Punkt-vor-Strich-Regel. Das Kind lernt die vollständige Hierarchie: Klammer → Punkt → Strich. Die Klammer als visuelles Signal ist intuitiv.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne. Die Aufgaben in Klammern werden immer zuerst gelöst!",
@@ -1699,8 +1723,14 @@
       "b) Klammer: 65 − 12 = 53. Jetzt steht da: 80 − 53 = ?",
       "1. Klammer zuerst:\n   - a) **(5 + 22)** = 27, dann 27 · 3 = 81\n   - b) **(65 − 12)** = 53, dann 80 − 53 = 27\n   - c) **(18 + 27)** = 45, dann 45 : 9 = 5\n   - d) **(72 − 18)** = 54, dann 90 − 54 = 36"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Kombination von Klammer und Grundrechenarten festigt die Rechenhierarchie. Das schrittweise Vorgehen (Klammer → Rest) gibt dem Kind eine klare Strategie.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne. Beachte Klammern UND Punkt vor Strich!",
@@ -1746,8 +1776,14 @@
       "a) Ohne Klammer: 90 + 30 · 4 = 90 + 120 = 210. Das ist nicht 480. Probiere: (90 + 30) · 4 = 120 · 4 = ?",
       "Ohne Klammern würde Punkt vor Strich gelten — und das Ergebnis wäre anders:\n- a) Ohne Klammer: 90 + 120 = 210 ≠ 480. Mit Klammer: (90 + 30) · 4 = 120 · 4 = 480 ✓\n- b) Ohne Klammer: 50 + 40 = 90 ≠ 10. Mit Klammer: 500 : (10 + 40) = 500 : 50 = 10 ✓\n- c) Ohne Klammer: 50 + 480 = 530 ≠ 880. Mit Klammer: (50 + 60) · 8 = 110 · 8 = 880 ✓\n- d) Ohne Klammer: 180 − 20 = 160 ≠ 70. Mit Klammer: (180 − 40) : 2 = 140 : 2 = 70 ✓"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das rückwärtige Klammern-Setzen fördert tiefes Verständnis der Rechenregeln. Das Kind muss die Wirkung der Klammer verstehen und kreativ einsetzen — eine höhere kognitive Anforderung.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1778,8 +1814,14 @@
       "a) 80 : Klammer = 10. Also muss die Klammer 8 sein (denn 80 : 8 = 10). In der Klammer steht 5 + ▢ = 8. Also: ▢ = ?",
       "Zuerst die Klammer auflösen, dann den Platzhalter bestimmen:\n- a) 80 : ▢ = 10 → Klammer = 80 : 10 = 8 → 5 + ▢ = 8 → ▢ = 3\n- b) 4 · ▢ = 36 → Klammer = 36 : 4 = 9 → ▢ − 12 = 9 → ▢ = 21\n- c) 6 · ▢ = 48 → Klammer = 48 : 6 = 8 → ▢ + 3 = 8 → ▢ = 5\n- d) 240 : ▢ = 40 → Klammer = 240 : 40 = 6 → ▢ + 5 = 6 → ▢ = 1"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Platzhalteraufgaben mit Klammern erfordern zweistufiges Denken: erst den Wert der Klammer bestimmen, dann den Platzhalter darin finden. Das ist eine Vorstufe zum Gleichungslösen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1810,8 +1852,14 @@
       "b) Klammer: 15 − 6 = 9. Punktrechnung: 3 · 9 = 27. Strichrechnung: 60 − 27 = ?",
       "Reihenfolge: 1. Klammer, 2. Punkt vor Strich, 3. Strichrechnung:\n- a) Klammer: (3 + 7) = 10. Punkt: 4 · 10 = 40. Strich: 20 + 40 = 60\n- b) Klammer: (15 − 6) = 9. Punkt: 3 · 9 = 27. Strich: 60 − 27 = 33\n- c) Klammer: (16 − 7) = 9. Punkt: 90 : 9 = 10. Strich: 120 − 10 = 110\n- d) Klammer: (11 − 4) = 7. Punkt: 7 · 7 = 49. Strich: 80 + 49 = 129"
     ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s45-regel-klammern-zuerst.webp",
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert alle drei Regeln (Klammer, Punkt, Strich) in einem Dreischritt-Verfahren. Das schrittweise Aufschreiben visualisiert den Lösungsweg und gibt Sicherheit.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-regel-punktrechnung-vor-strichrechnung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Rechne immer zuerst die Aufgabe in der Klammer. Beachte dann die Regel Punktrechnung vor Strichrechnung.",
@@ -1857,8 +1905,14 @@
       "a) Linke Seite: 28 + 47 = 75. Rechte Seite: 40 + ▢ = 75. Also: 75 − 40 = ?",
       "Rechne zuerst die linke Seite aus, dann finde den Platzhalter:\n- a) Links: 28 + 47 = 75. Rechts: 40 + ▢ = 75 → ▢ = 75 − 40 = 35\n- b) Links: 90 − 15 = 75. Rechts: 60 + ▢ = 75 → ▢ = 75 − 60 = 15\n- c) Links: 80 + 35 = 115. Rechts: 100 + ▢ = 115 → ▢ = 115 − 100 = 15"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Die Waage-Metapher visualisiert das Gleichheitszeichen: Beide Seiten haben den gleichen Wert. Das Kind lernt, dass = nicht „Ergebnis folgt\" bedeutet, sondern „beide Seiten sind gleich\".",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1889,8 +1943,14 @@
       "b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120. Also: 120 : 40 = ?",
       "- a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55\n- b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3\n- c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Verschiedene Operationen auf beiden Seiten der Gleichung zeigen, dass der gleiche Wert auf verschiedene Weisen dargestellt werden kann. Das fördert die Flexibilität im Denken.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1921,8 +1981,14 @@
       "c) Rechte Seite: 80 · 4 = 320. Also: 420 − ▢ = 320. Wie viel ist 420 − 320?",
       "- a) Links: 150 + 70 = 220. Rechts: 4 · ▢ = 220 → ▢ = 220 : 4 = 55\n- b) Links: 84 − 24 = 60. Rechts: 300 : ▢ = 60 → ▢ = 300 : 60 = 5\n- c) Rechts: 80 · 4 = 320. Links: 420 − ▢ = 320 → ▢ = 420 − 320 = 100\n- d) Rechts: 530 − 230 = 300. Links: ▢ · 60 = 300 → ▢ = 300 : 60 = 5"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Gemischte Operationen auf beiden Seiten erfordern, dass das Kind die vollständige Seite berechnet und dann den Platzhalter mit einer Umkehroperation findet. Das ist algebraisches Denken.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -1953,8 +2019,14 @@
       "Das Buch hat 78 + 65 = 143 Seiten. Tom hat 55 gelesen. Es fehlen: 143 − 55 = ?",
       "1. Gesamtes Buch: 78 + 65 = 143 Seiten\n2. Tom liest in Woche 1: 55 Seiten\n3. Gleichung: 55 + ▢ = 143\n4. ▢ = 143 − 55 = 88"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Sachaufgaben mit Gleichungen verbinden Alltagssituationen mit algebraischem Denken. Das Kind lernt, eine reale Situation in eine mathematische Gleichung zu übersetzen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Luisa und Tom lesen dasselbe Buch. Luisa liest in der ersten Woche 78 Seiten und in der zweiten Woche die restlichen 65 Seiten. Tom schafft in der ersten Woche 55 Seiten. Wie viele Seiten muss Tom in der zweiten Woche lesen, um mit dem Buch fertig zu werden?",
@@ -1986,8 +2058,14 @@
       "Rätsel 2: „Produkt aus 7 und meiner Zahl\" = 7 · ▢. „Summe aus 10 und 4\" = 14. Also: 7 · ▢ = 14 → ▢ = ?",
       "1. Übersetze die Fachbegriffe: Summe = +, Differenz = −, Produkt = ·, Quotient = :\n2. Ordne die Rätsel den Gleichungen zu\n3. Löse mit Umkehroperationen"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Die Zuordnung trainiert das Übersetzen zwischen mathematischer Sprache (Fachbegriffe) und formaler Darstellung (Gleichungen). Das ist eine zentrale Kompetenz für späteres Algebra-Verständnis.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Welche Gleichung passt zu welchem Rätsel? Ordne zu und löse die Gleichungen.\nGleichungen:",
@@ -2050,8 +2128,14 @@
       "a) Links: 80 · 4 = 320. Rechts: 450 − 120 = 330. 320 ist kleiner als 330. Also: 320 ? 330. Welches Zeichen?",
       "Rechne beide Seiten aus und vergleiche:\n- a) 80 · 4 = 320 und 450 − 120 = 330. 320 < 330 → <\n- b) 260 + 150 = 410 und 95 · 5 = 475. 410 < 475 → <\n- c) 6 · 45 = 270 und 9 · 32 = 288. 270 < 288 → <\n- d) 540 : 9 = 60 und 7 · 9 = 63. 60 < 63 → <"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Ungleichungen erweitern das Gleichheitskonzept. Das „Krokodil-Bild\" (frisst die größere Zahl) ist eine bewährte visuelle Eselsbrücke.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2095,8 +2179,14 @@
       "a) Links: Punktrechnung ist 5 · 35 = 175. Also: 80 + 175 = 255. Rechts: Punktrechnung ist 80 · 5 = 400. Also: 400 + 35 = 435. Was ist größer?",
       "Punkt vor Strich beachten — die Position von · und : ändert den Wert stark:\n- a) Links: 80 + (5 · 35) = 80 + 175 = 255. Rechts: (80 · 5) + 35 = 400 + 35 = 435\n- b) Links: (24 · 3) + 90 = 72 + 90 = 162. Rechts: 24 + (3 · 90) = 24 + 270 = 294\n- c) Links: (560 : 7) + 80 = 80 + 80 = 160. Rechts: 560 + (7 · 80) = 560 + 560 = 1.120\n- d) Links: 150 − (30 : 5) = 150 − 6 = 144. Rechts: (150 : 30) − 5 = 5 − 5 = 0"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe zeigt eindrucksvoll, wie die Position der Punkt-Rechnung den Wert einer Aufgabe verändert. Das Kind erlebt konkret, warum die Punkt-vor-Strich-Regel so wichtig ist.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",
@@ -2140,8 +2230,14 @@
       "a) Versuche ▢ = 4: 4 · 40 = 160. Ist 150 < 160 < 280? Ja! Versuche ▢ = 7: 7 · 40 = 280. Ist 280 < 280? Nein! Also ▢ = 7 passt nicht.",
       "1. Berechne die festen Werte links und rechts\n2. Finde die Grenzen für ▢ · 40 (bzw. ▢ · 80)\n3. Probiere verschiedene Werte für ▢ systematisch"
     ],
+    "tippBilder": [
+      "assets/erklaerungen/s46-merkkasten-gleichung.webp",
+      "assets/erklaerungen/s44-merkkasten-summe-differenz-produkt-quotient.webp",
+      "assets/erklaerungen/s47-regel-ungleichungen.webp",
+      null
+    ],
     "didaktischerHinweis": "Ungleichungen mit Platzhaltern und mehreren Lösungen zeigen, dass es in der Mathematik nicht immer genau eine Antwort gibt. Das Kind lernt systematisches Probieren und den Umgang mit Bereichen.",
-    "erklaerungBild": "assets/erklaerungen/s12-merkkasten-addition.webp",
+    "erklaerungBild": "assets/erklaerungen/s44-merkkasten-gleichung.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Welche Zahlen passen? Finde alle Möglichkeiten.",
