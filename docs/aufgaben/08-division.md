@@ -1770,9 +1770,9 @@ b) 1.698 : 4
 c) 2.985 : 3
 
 ### Lösung
-a) 5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)
-b) 1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)
-c) 2.985 : 3 = 995 (kein Rest, da Quersumme 24 durch 3 teilbar)
+a) Richtig — 5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)
+b) Richtig — 1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)
+c) Falsch — 2.985 : 3 = 995, kein Rest (Quersumme 24 ist durch 3 teilbar)
 
 ### Lösungsweg
 Zuerst Teilbarkeitsregeln anwenden:

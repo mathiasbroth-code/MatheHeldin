@@ -43,7 +43,9 @@ function parseAufgabenBlock(block: string): BankAufgabe | null {
 
   if (!meta.titel || !meta.typ || !aufgabenstellung) return null;
 
-  const typ = meta.typ as InteraktionsTyp;
+  // Normalize umlaut variant: lücke → luecke
+  const typRaw = meta.typ as InteraktionsTyp | 'lücke';
+  const typ: InteraktionsTyp = typRaw === 'lücke' ? 'luecke' : typRaw as InteraktionsTyp;
   const loesungStr = loesung || '';
   const parsed = parseDaten(typ, aufgabenstellung, loesungStr);
 

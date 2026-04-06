@@ -100,6 +100,7 @@ function parseDaten(typ, aufgabenstellung, loesung) {
     case 'schritt':
       return parseSchrittDaten(aufgabenstellung, loesung);
     case 'luecke':
+    case 'lücke':
       return parseLueckeDaten(aufgabenstellung, loesung);
     case 'auswahl':
       return parseAuswahlDaten(aufgabenstellung, loesung);
@@ -253,7 +254,7 @@ function parseSchrittAbc(_aufgabenstellung, loesung, abcSplit) {
 }
 
 function parseRechenkette(aufgabenstellung, loesung) {
-  const chainMatch = loesung.match(/[\d.,]+(?:\s*→\s*[+\-·:×÷]\s*[\d.,]+\s*→\s*[\d.,]+)+/);
+  const chainMatch = loesung.match(/[\d.,]+(?:\s*→\s*[+\-−·:×÷]\s*[\d.,]+\s*→\s*[\d.,]+)+/);
   if (!chainMatch) return null;
 
   const segments = chainMatch[0].split('→').map((s) => s.trim());
@@ -263,7 +264,7 @@ function parseRechenkette(aufgabenstellung, loesung) {
     const start = segments[i];
     const op = segments[i + 1];
     const result = segments[i + 2];
-    if (op && result && /^[+\-·:×÷]/.test(op)) {
+    if (op && result && /^[+\-−·:×÷]/.test(op)) {
       const opParts = op.split(/\s+/);
       const opSymbol = opParts[0];
       const opValue = opParts.slice(1).join(' ');
@@ -737,7 +738,8 @@ function parseAufgabenBlock(block) {
 
   if (!meta.titel || !meta.typ || !aufgabenstellung) return null;
 
-  const typ = meta.typ;
+  // Normalize umlaut variant: lücke → luecke
+  const typ = meta.typ === 'lücke' ? 'luecke' : meta.typ;
   const loesungStr = loesung || '';
   const parsed = parseDaten(typ, aufgabenstellung, loesungStr);
 

@@ -32,7 +32,7 @@ import {
  * Gibt immer ein ParsedAufgabenDaten-Objekt zurueck — im Fehlerfall ein Fallback.
  */
 export function parseDaten(
-  typ: InteraktionsTyp,
+  typ: InteraktionsTyp | 'lücke',
   aufgabenstellung: string,
   loesung: string,
 ): ParsedAufgabenDaten {
@@ -42,6 +42,7 @@ export function parseDaten(
     case 'schritt':
       return parseSchrittDaten(aufgabenstellung, loesung);
     case 'luecke':
+    case 'lücke':
       return parseLueckeDaten(aufgabenstellung, loesung);
     case 'auswahl':
       return parseAuswahlDaten(aufgabenstellung, loesung);
@@ -68,7 +69,11 @@ function parseEingabeDaten(aufgabenstellung: string, loesung: string): EingabeDa
     for (const item of split.items) {
       const zeilen = item.text.split('\n').map((l) => l.trim()).filter(Boolean);
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      const loesungText = loesungItem?.text.split('\n')[0].trim() ?? '';
+      const rawLoesungText = loesungItem?.text.split('\n')[0].trim() ?? '';
+      // P4: If first line is just a header (ends with ":"), take the next non-empty line
+      const loesungText = rawLoesungText.endsWith(':')
+        ? (loesungItem?.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawLoesungText)
+        : rawLoesungText;
 
       if (zeilen.length > 1 && loesungText.includes('/')) {
         // Paeckchen: multiple sub-answers separated by /

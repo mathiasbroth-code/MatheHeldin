@@ -1707,7 +1707,7 @@
     "stageId": "schriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Bei welchen Aufgaben bleibt ein Rest? Überlege vorher und dividiere dann schriftlich.\n\na) 5.439 : 5\nb) 1.698 : 4\nc) 2.985 : 3",
-    "loesung": "a) 5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)\nb) 1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)\nc) 2.985 : 3 = 995 (kein Rest, da Quersumme 24 durch 3 teilbar)",
+    "loesung": "a) Richtig — 5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)\nb) Richtig — 1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)\nc) Falsch — 2.985 : 3 = 995, kein Rest (Quersumme 24 ist durch 3 teilbar)",
     "loesungsweg": "Zuerst Teilbarkeitsregeln anwenden:\n- a) Durch 5 teilbar? Einerstelle 9 → Nein → Rest erwartet ✓\n- b) Durch 4 teilbar? Letzte 2 Ziffern 98. 98 : 4 = 24 R 2 → Nein → Rest erwartet ✓\n- c) Durch 3 teilbar? Quersumme: 2+9+8+5 = 24. 24 : 3 = 8 → Ja → kein Rest ✓",
     "tipps": [
       "Nutze dein Wissen über Teilbarkeitsregeln! Bei Division durch 5: Schau auf die Einerstelle. Bei Division durch 3: Bilde die Quersumme. Bei Division durch 4: Prüfe die letzten zwei Ziffern.",
@@ -1730,19 +1730,19 @@
           "label": "a",
           "aussage": "5.439 : 5",
           "richtig": true,
-          "erklaerung": "5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)"
+          "erklaerung": "Richtig — 5.439 : 5 = 1.087 R 4 (Rest, da Einerstelle weder 0 noch 5)"
         },
         {
           "label": "b",
           "aussage": "1.698 : 4",
           "richtig": true,
-          "erklaerung": "1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)"
+          "erklaerung": "Richtig — 1.698 : 4 = 424 R 2 (Rest, da 98 : 4 nicht aufgeht)"
         },
         {
           "label": "c",
           "aussage": "2.985 : 3",
-          "richtig": true,
-          "erklaerung": "2.985 : 3 = 995 (kein Rest, da Quersumme 24 durch 3 teilbar)"
+          "richtig": false,
+          "erklaerung": "Falsch — 2.985 : 3 = 995, kein Rest (Quersumme 24 ist durch 3 teilbar)"
         }
       ]
     }
