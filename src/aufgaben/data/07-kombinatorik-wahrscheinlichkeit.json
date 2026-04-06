@@ -493,7 +493,7 @@
   },
   {
     "titel": "Faire und unfaire Spielregeln",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Alles Zufall?",
     "schwierigkeit": "grün",
     "buchseite": 75,
@@ -511,20 +511,16 @@
     ],
     "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
     "parsed": {
-      "typ": "auswahl",
+      "typ": "wahr-falsch",
       "anweisung": "",
-      "frageText": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?",
-      "optionen": [
+      "items": [
         {
-          "label": "A",
-          "text": "**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme."
-        },
-        {
-          "label": "B",
-          "text": "**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt."
+          "label": "1",
+          "aussage": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?\n\n**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\n\n**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.",
+          "richtig": true,
+          "erklaerung": "Regel A: **fair** — es gibt jeweils 18 Möglichkeiten für gerade und ungerade Summen."
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -675,7 +671,7 @@
   },
   {
     "titel": "Häufige und seltene Buchstaben — Vermutung",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -693,24 +689,15 @@
     ],
     "didaktischerHinweis": "Intuitiver Einstieg in die Häufigkeitsanalyse. Kinder nutzen ihr Sprachgefühl, bevor sie zählen. Das Spiel \"Buchstabenvogel\" motiviert und schafft einen natürlichen Anlass, über Buchstabenhäufigkeiten nachzudenken.",
     "parsed": {
-      "typ": "auswahl",
+      "typ": "eingabe",
       "anweisung": "",
-      "frageText": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?",
-      "optionen": [
+      "items": [
         {
-          "label": "A",
-          "text": "Wähle aus:"
-        },
-        {
-          "label": "B",
-          "text": "Zuerst raten: E, N, I, S, R, A, T"
-        },
-        {
-          "label": "C",
-          "text": "Auf keinen Fall: X, Y, Q, J, C"
+          "label": "1",
+          "frage": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?\n\nWähle aus:\nZuerst raten: E, N, I, S, R, A, T\nAuf keinen Fall: X, Y, Q, J, C",
+          "antwort": "Zuerst raten (z.B.): E, N, S (häufigste Buchstaben im Deutschen)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -821,7 +808,7 @@
   },
   {
     "titel": "Diagramm ablesen — Vergleichende Aussagen",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "grün",
     "buchseite": 76,
@@ -839,32 +826,40 @@
     ],
     "didaktischerHinweis": "Daten interpretieren und Aussagen kritisch prüfen — eine Kernkompetenz der Datenanalyse. Besonders die Begriffe \"häufiger als\", \"doppelt so oft\" und \"genauso oft wie\" müssen verstanden werden. Die Aufgabe trainiert auch Addition und Vergleich.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Schau dir die Buchstabenhäufigkeiten an:\n\n| Buchstabe | E | N | R | S | T | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 15 | 10 | 7 | 5 | 9 | 8 |\n\nWelche Aussage stimmt? Welche stimmt nicht?",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "Schau dir die Buchstabenhäufigkeiten an:\n\n| Buchstabe | E | N | R | S | T | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 15 | 10 | 7 | 5 | 9 | 8 |\n\nWelche Aussage stimmt? Welche stimmt nicht?",
+      "items": [
         {
-          "label": "A",
-          "text": "E kommt am häufigsten vor."
+          "label": "a",
+          "aussage": "E kommt am häufigsten vor.",
+          "richtig": true,
+          "erklaerung": "Stimmt (15 ist der höchste Wert)"
         },
         {
-          "label": "B",
-          "text": "S kommt häufiger vor als R."
+          "label": "b",
+          "aussage": "S kommt häufiger vor als R.",
+          "richtig": false,
+          "erklaerung": "Stimmt nicht (S=5, R=7, also R kommt häufiger vor)"
         },
         {
-          "label": "C",
-          "text": "N kommt doppelt so oft vor wie S."
+          "label": "c",
+          "aussage": "N kommt doppelt so oft vor wie S.",
+          "richtig": true,
+          "erklaerung": "Stimmt (N=10, S=5, und 10 = 2 × 5)"
         },
         {
-          "label": "D",
-          "text": "A kommt seltener vor als T."
+          "label": "d",
+          "aussage": "A kommt seltener vor als T.",
+          "richtig": true,
+          "erklaerung": "Stimmt (A=8, T=9, also A < T)"
         },
         {
-          "label": "E",
-          "text": "R und A zusammen kommen genauso oft vor wie E."
+          "label": "e",
+          "aussage": "R und A zusammen kommen genauso oft vor wie E.",
+          "richtig": true,
+          "erklaerung": "Stimmt (R+A = 7+8 = 15 = E)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {

@@ -164,7 +164,7 @@ Analog zur Tonnen-Kilogramm-Umrechnung. Die führenden Nullen (50 m = 0,050 km, 
 
 ---
 titel: "Welche Strecke ist länger?"
-typ: auswahl
+typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
@@ -3174,7 +3174,7 @@ Kernkonzept der Wahrscheinlichkeit: Nicht die absolute Zahl zählt, sondern der 
 
 ---
 titel: "Welche Buchstaben kommen oft vor? — Vermutung"
-typ: auswahl
+typ: eingabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76

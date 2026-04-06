@@ -161,7 +161,7 @@ Der Zehnerübergang bei großen Zahlen zeigt, dass nur die letzten Stellen betro
 
 ---
 titel: "Ergänzen auf glatte Zahlen"
-typ: lücke
+typ: luecke
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 35
@@ -627,7 +627,7 @@ Sechsstellige Zahlen erweitern das schriftliche Rechnen. Das Kind muss sorgfält
 
 ---
 titel: "ANNA-Zahlen erkennen"
-typ: auswahl
+typ: wahr-falsch
 thema: "ANNA-Zahlen"
 schwierigkeit: gelb
 buchseite: 37
@@ -734,7 +734,7 @@ ANNA-Zahlen-Subtraktionen zeigen überraschende Muster. Das Kind entdeckt, dass 
 
 ---
 titel: "Ergebnisse von ANNA-Subtraktionen vergleichen"
-typ: auswahl
+typ: eingabe
 thema: "ANNA-Zahlen"
 schwierigkeit: grün
 buchseite: 37
@@ -2121,7 +2121,7 @@ Die Kombination von Klammer und Grundrechenarten festigt die Rechenhierarchie. D
 
 ---
 titel: "Klammern setzen, damit das Ergebnis stimmt"
-typ: lücke
+typ: luecke
 thema: "Rechenregeln"
 schwierigkeit: orange
 buchseite: 43
@@ -2171,7 +2171,7 @@ Das rückwärtige Klammern-Setzen fördert tiefes Verständnis der Rechenregeln.
 
 ---
 titel: "Platzhalter mit Klammern finden"
-typ: lücke
+typ: luecke
 thema: "Rechenregeln"
 schwierigkeit: orange
 buchseite: 43
@@ -2276,7 +2276,7 @@ Diese Aufgabe kombiniert alle drei Regeln (Klammer, Punkt, Strich) in einem Drei
 
 ---
 titel: "Gleichungen verstehen — Waage im Gleichgewicht"
-typ: lücke
+typ: luecke
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: gelb
 buchseite: 44
@@ -2326,7 +2326,7 @@ Die Waage-Metapher visualisiert das Gleichheitszeichen: Beide Seiten haben den g
 
 ---
 titel: "Gleichungen mit verschiedenen Operationen"
-typ: lücke
+typ: luecke
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: gelb
 buchseite: 44
@@ -2373,7 +2373,7 @@ Verschiedene Operationen auf beiden Seiten der Gleichung zeigen, dass der gleich
 
 ---
 titel: "Gleichungen mit gemischten Operationen"
-typ: lücke
+typ: luecke
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: grün
 buchseite: 44
@@ -2525,7 +2525,7 @@ Die Zuordnung trainiert das Übersetzen zwischen mathematischer Sprache (Fachbeg
 
 ---
 titel: "Ungleichungen — größer oder kleiner"
-typ: auswahl
+typ: luecke
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: grün
 buchseite: 45
@@ -2576,7 +2576,7 @@ Ungleichungen erweitern das Gleichheitskonzept. Das „Krokodil-Bild" (frisst di
 
 ---
 titel: "Ungleichungen mit Punkt vor Strich vergleichen"
-typ: auswahl
+typ: luecke
 thema: "Gleichungen und Ungleichungen"
 schwierigkeit: orange
 buchseite: 45
@@ -2674,6 +2674,900 @@ a) Versuche ▢ = 4: 4 · 40 = 160. Ist 150 < 160 < 280? Ja! Versuche ▢ = 7: 7
 
 ### Didaktischer Hinweis
 Ungleichungen mit Platzhaltern und mehreren Lösungen zeigen, dass es in der Mathematik nicht immer genau eine Antwort gibt. Das Kind lernt systematisches Probieren und den Umgang mit Bereichen.
+
+---
+
+# Thema 8: Geldbeträge überschlagen (S. 40-41)
+
+## Aufgabe 56
+
+---
+titel: "Einzelne Preise runden"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: gelb
+buchseite: 40
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Runde die Preise auf volle Euro. Wie viel kosten die beiden Sachen ungefähr zusammen?
+
+Ein Heft kostet 2,89 € und ein Stift kostet 1,15 €.
+
+a) ungefähr 3 €
+b) ungefähr 4 €
+c) ungefähr 5 €
+d) ungefähr 6 €
+
+### Lösung
+b) ungefähr 4 €
+
+2,89 € ≈ 3 € und 1,15 € ≈ 1 €. Zusammen: 3 + 1 = 4 €.
+
+### Lösungsweg
+1. Runde jeden Preis auf den nächsten vollen Euro:
+   - 2,89 € → 3 € (aufgerundet, weil 89 Cent > 50 Cent)
+   - 1,15 € → 1 € (abgerundet, weil 15 Cent < 50 Cent)
+2. Addiere die gerundeten Beträge: 3 + 1 = 4 €
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Cent-Beträge an: Sind sie näher an 0 Cent oder an 100 Cent (= 1 €)?
+
+### Tipp 2 (Methode)
+Beim Runden: Ab 50 Cent rundest du auf zum nächsten Euro, unter 50 Cent rundest du ab. Dann addierst du die gerundeten Werte.
+
+### Tipp 3 (Schritt-für-Schritt)
+2,89 € → die 89 Cent sind fast 1 €, also runde auf 3 €. 1,15 € → die 15 Cent sind wenig, also runde auf 1 €. Jetzt rechne: 3 + 1 = ?
+
+### Didaktischer Hinweis
+Das Runden von Geldbeträgen ist eine alltagsnahe Fähigkeit. Das Kind lernt, mit gerundeten Werten schnell abzuschätzen, bevor es genau rechnet.
+
+---
+
+## Aufgabe 57
+
+---
+titel: "Zwei Artikel überschlagen"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: gelb
+buchseite: 40
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Lena kauft ein Buch für 7,49 € und eine Trinkflasche für 4,95 €. Ungefähr wie viel muss sie bezahlen?
+
+a) ungefähr 11 €
+b) ungefähr 12 €
+c) ungefähr 13 €
+d) ungefähr 14 €
+
+### Lösung
+b) ungefähr 12 €
+
+7,49 € ≈ 7 € und 4,95 € ≈ 5 €. Zusammen: 7 + 5 = 12 €.
+
+### Lösungsweg
+1. Runde die Preise:
+   - 7,49 € → 7 € (abgerundet, weil 49 Cent < 50 Cent)
+   - 4,95 € → 5 € (aufgerundet, weil 95 Cent > 50 Cent)
+2. Addiere: 7 + 5 = 12 €
+
+### Tipp 1 (Denkanstoß)
+Runde beide Preise auf volle Euro. Welcher wird aufgerundet, welcher abgerundet?
+
+### Tipp 2 (Methode)
+7,49 € — sind 49 Cent mehr oder weniger als 50 Cent? Und 4,95 € — sind 95 Cent mehr oder weniger als 50 Cent? Runde entsprechend und addiere.
+
+### Tipp 3 (Schritt-für-Schritt)
+7,49 € ≈ 7 € (49 Cent ist knapp unter 50, also abrunden). 4,95 € ≈ 5 € (95 Cent ist fast 1 €, also aufrunden). Jetzt: 7 + 5 = ?
+
+### Didaktischer Hinweis
+Das Kind übt das Runden in beide Richtungen (auf und ab) und erlebt, dass der Überschlag eine gute Näherung an den genauen Preis liefert.
+
+---
+
+## Aufgabe 58
+
+---
+titel: "Einkaufsliste überschlagen — drei Artikel"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: grün
+buchseite: 40
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Auf der Einkaufsliste stehen: Radiergummi (0,79 €), Lineal (2,35 €) und Buntstifte (5,49 €). Ungefähr wie viel kostet alles zusammen?
+
+a) ungefähr 7 €
+b) ungefähr 8 €
+c) ungefähr 9 €
+d) ungefähr 10 €
+
+### Lösung
+c) ungefähr 9 €
+
+0,79 € ≈ 1 €, 2,35 € ≈ 2 € und 5,49 € ≈ 5 €. Zusammen: 1 + 2 + 5 = 8 €.
+Genauer Überschlag: 1 + 2 + 5 = 8, aber 0,79 rundet auf, 5,49 rundet auch knapp auf → eher 9 €.
+
+### Lösungsweg
+1. Runde die Preise:
+   - 0,79 € → 1 € (aufgerundet)
+   - 2,35 € → 2 € (abgerundet)
+   - 5,49 € → 5 € (abgerundet, knapp unter 50 Cent)
+2. Addiere: 1 + 2 + 5 = 8 €
+3. Genau: 0,79 + 2,35 + 5,49 = 8,63 € → ungefähr 9 € ist die beste Antwort
+
+### Tipp 1 (Denkanstoß)
+Runde jeden Preis einzeln auf volle Euro. Dann zähle die drei gerundeten Preise zusammen.
+
+### Tipp 2 (Methode)
+Bei drei Artikeln rundest du jeden einzeln: Cent ab 50 aufrunden, unter 50 abrunden. Dann addierst du alle drei gerundeten Werte.
+
+### Tipp 3 (Schritt-für-Schritt)
+0,79 € → die 79 Cent sind fast 1 €, also ≈ 1 €. 2,35 € → die 35 Cent sind wenig, also ≈ 2 €. 5,49 € → die 49 Cent sind knapp unter 50, also ≈ 5 €. Rechne: 1 + 2 + 5 = ?
+
+### Didaktischer Hinweis
+Bei drei Artikeln wird deutlich, dass sich kleine Rundungsfehler addieren können. Das Kind lernt, den Überschlag als Näherung zu verstehen, nicht als exaktes Ergebnis.
+
+---
+
+## Aufgabe 59
+
+---
+titel: "Einkaufsliste überschlagen — vier Artikel"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: grün
+buchseite: 41
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Für das Klassenfest kauft die Lehrerin ein: Luftballons (3,29 €), Servietten (1,89 €), Becher (2,49 €) und Girlande (4,15 €). Sie hat 15 € dabei. Reicht das Geld?
+
+a) Ja, es bleiben ungefähr 3 € übrig
+b) Ja, es bleiben ungefähr 1 € übrig
+c) Nein, es fehlen ungefähr 2 €
+d) Ja, es reicht genau
+
+### Lösung
+a) Ja, es bleiben ungefähr 3 € übrig
+
+3,29 € ≈ 3 €, 1,89 € ≈ 2 €, 2,49 € ≈ 2 €, 4,15 € ≈ 4 €.
+Überschlag: 3 + 2 + 2 + 4 = 11 €. Übrig: 15 − 11 = 4 €.
+Genau: 3,29 + 1,89 + 2,49 + 4,15 = 11,82 €. Übrig: 15 − 11,82 = 3,18 €.
+
+### Lösungsweg
+1. Runde alle Preise auf volle Euro:
+   - 3,29 € → 3 €, 1,89 € → 2 €, 2,49 € → 2 €, 4,15 € → 4 €
+2. Addiere: 3 + 2 + 2 + 4 = 11 €
+3. Vom Budget abziehen: 15 − 11 = 4 € übrig (Überschlag)
+4. Genau: 15 − 11,82 = 3,18 € → ungefähr 3 € übrig
+
+### Tipp 1 (Denkanstoß)
+Runde jeden Preis auf volle Euro und addiere alles. Vergleiche dann die Summe mit 15 €.
+
+### Tipp 2 (Methode)
+Vier Preise runden, addieren, dann von 15 € abziehen. Wenn die Summe unter 15 € liegt, reicht das Geld.
+
+### Tipp 3 (Schritt-für-Schritt)
+Runde: 3 + 2 + 2 + 4 = 11 €. Jetzt: 15 − 11 = 4 €. Weil du etwas abgerundet hast, ist der echte Rest etwas kleiner. Welche Antwort passt?
+
+### Didaktischer Hinweis
+Hier wird der Überschlag als Entscheidungsinstrument eingesetzt: „Reicht das Geld?" ist eine alltagsnahe Frage, die den praktischen Nutzen des Überschlagens zeigt.
+
+---
+
+## Aufgabe 60
+
+---
+titel: "Zwei Einkaufsoptionen vergleichen"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: orange
+buchseite: 41
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Tim will Sportsachen kaufen. Er vergleicht zwei Geschäfte:
+
+**Geschäft A:** Turnschuhe 29,90 €, Sporthose 14,95 €, T-Shirt 9,99 €
+**Geschäft B:** Turnschuhe 34,50 €, Sporthose 11,90 €, T-Shirt 8,49 €
+
+Welches Geschäft ist insgesamt günstiger?
+
+a) Geschäft A — ungefähr 5 € günstiger
+b) Geschäft A — ungefähr 1 € günstiger
+c) Geschäft B — ungefähr 1 € günstiger
+d) Beide kosten ungefähr gleich viel
+
+### Lösung
+d) Beide kosten ungefähr gleich viel
+
+Geschäft A: 30 + 15 + 10 = 55 € (Überschlag). Genau: 29,90 + 14,95 + 9,99 = 54,84 €.
+Geschäft B: 35 + 12 + 8 = 55 € (Überschlag). Genau: 34,50 + 11,90 + 8,49 = 54,89 €.
+Geschäft A ist nur 5 Cent günstiger — der Überschlag zeigt: fast gleich!
+
+### Lösungsweg
+1. Runde die Preise in Geschäft A: 30 + 15 + 10 = 55 €
+2. Runde die Preise in Geschäft B: 35 + 12 + 8 = 55 €
+3. Überschlag: Beide ungefähr gleich! Für den genauen Vergleich genau rechnen:
+   - A: 54,84 €, B: 54,89 € → A ist 5 Cent günstiger
+
+### Tipp 1 (Denkanstoß)
+Runde die Preise in jedem Geschäft einzeln auf volle Euro. Addiere und vergleiche die Summen.
+
+### Tipp 2 (Methode)
+Geschäft A: 29,90 ≈ 30 €, 14,95 ≈ 15 €, 9,99 ≈ 10 €. Geschäft B: 34,50 ≈ 35 €, 11,90 ≈ 12 €, 8,49 ≈ 8 €. Addiere jeweils und vergleiche.
+
+### Tipp 3 (Schritt-für-Schritt)
+Geschäft A: 30 + 15 + 10 = 55 €. Geschäft B: 35 + 12 + 8 = 55 €. Beide ergeben 55 €! Schau genauer hin: Welche Rundungen waren großzügiger?
+
+### Didaktischer Hinweis
+Der Vergleich zweier Einkaufsoptionen per Überschlag zeigt, dass gerundete Werte manchmal kein klares Ergebnis liefern. Das Kind lernt, wann es doch genau rechnen muss.
+
+---
+
+## Aufgabe 61
+
+---
+titel: "Einkauf vergleichen — unterschiedliche Artikelzahl"
+typ: auswahl
+thema: "Geldbeträge überschlagen"
+schwierigkeit: orange
+buchseite: 41
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ueberschlag-geld"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Mia hat 20 € Taschengeld. Sie überlegt zwischen zwei Geschenken für ihre Freundin:
+
+**Option 1:** Buch (8,95 €) und Haarband (3,50 €)
+**Option 2:** Puzzle (6,49 €), Sticker-Heft (4,29 €) und Gummibärchen (2,79 €)
+
+Welche Aussage stimmt?
+
+a) Option 1 ist günstiger, bei Option 2 reicht das Geld nicht
+b) Beide kosten ungefähr gleich viel, bei beiden reicht das Geld
+c) Option 2 ist viel günstiger als Option 1
+d) Bei beiden reicht das Geld nicht
+
+### Lösung
+b) Beide kosten ungefähr gleich viel, bei beiden reicht das Geld
+
+Option 1: 9 + 4 = 13 € (Überschlag). Genau: 8,95 + 3,50 = 12,45 €.
+Option 2: 6 + 4 + 3 = 13 € (Überschlag). Genau: 6,49 + 4,29 + 2,79 = 13,57 €.
+Der Überschlag ergibt für beide ≈ 13 € — ungefähr gleich. Bei 20 € Taschengeld reicht es in beiden Fällen gut.
+
+### Lösungsweg
+1. Option 1 runden: 8,95 ≈ 9 €, 3,50 ≈ 4 €. Summe: 9 + 4 = 13 €.
+2. Option 2 runden: 6,49 ≈ 6 €, 4,29 ≈ 4 €, 2,79 ≈ 3 €. Summe: 6 + 4 + 3 = 13 €.
+3. Beide ≈ 13 €. Mia hat 20 € → bei beiden bleiben ca. 7 € übrig ✓
+
+### Tipp 1 (Denkanstoß)
+Runde alle Preise auf volle Euro und addiere für jede Option getrennt. Vergleiche die beiden Summen.
+
+### Tipp 2 (Methode)
+Option 1 hat zwei Artikel, Option 2 hat drei. Runde jeden Preis, addiere und vergleiche. Ziehe dann jeweils von 20 € ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+Option 1: 9 + 4 = 13 €. Option 2: 6 + 4 + 3 = 13 €. Beide ergeben ungefähr 13 €. Hat Mia genug? 20 − 13 = ?
+
+### Didaktischer Hinweis
+Dieser Vergleich erfordert mehrere Schritte: runden, addieren, vergleichen und eine Entscheidung treffen. Das Kind lernt, den Überschlag als Planungswerkzeug für Alltagsentscheidungen einzusetzen.
+
+---
+
+# Thema 9: Ergebnisse prüfen (S. 42-43)
+
+## Aufgabe 62
+
+---
+titel: "Einfache Additionen und Subtraktionen prüfen"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: gelb
+buchseite: 42
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Prüfe: Stimmt die Rechnung?
+
+a) 324 + 189 = 513
+b) 567 − 238 = 339
+c) 451 + 237 = 688
+
+### Lösung
+a) Stimmt! ✓ (324 + 189 = 513)
+b) Falsch! 567 − 238 = 329 (nicht 339)
+c) Stimmt! ✓ (451 + 237 = 688)
+
+### Lösungsweg
+Prüfe jede Rechnung mit dem Überschlag und dann genau:
+- a) Überschlag: 320 + 190 = 510 → 513 passt. Genau: 324 + 189 = 513 ✓
+- b) Überschlag: 570 − 240 = 330 → 339 weicht ab! Genau: 567 − 238 = 329, nicht 339. Der Zehner ist falsch (Übertragsefehler).
+- c) Überschlag: 450 + 240 = 690 → 688 passt. Genau: 451 + 237 = 688 ✓
+
+### Tipp 1 (Denkanstoß)
+Mache zuerst einen Überschlag: Runde beide Zahlen und rechne im Kopf. Liegt das Ergebnis in der Nähe?
+
+### Tipp 2 (Methode)
+Wenn der Überschlag nicht passt, rechne genau nach. Achte besonders auf die Zehner-Stelle — dort passieren die meisten Fehler beim Übertrag.
+
+### Tipp 3 (Schritt-für-Schritt)
+b) Rechne genau: Einer: 7 − 8 → Übertrag! 17 − 8 = 9. Zehner: 6 − 1 − 3 = 2. Hunderter: 5 − 2 = 3. Also 329, nicht 339.
+
+### Didaktischer Hinweis
+Das Prüfen von Ergebnissen ist eine zentrale mathematische Kompetenz. Das Kind lernt, nicht blind einem Ergebnis zu vertrauen, sondern systematisch zu kontrollieren.
+
+---
+
+## Aufgabe 63
+
+---
+titel: "Additionen dreistellig prüfen"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: gelb
+buchseite: 42
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Prüfe: Stimmt die Rechnung?
+
+a) 256 + 148 = 404
+b) 483 + 279 = 752
+c) 615 − 387 = 228
+
+### Lösung
+a) Stimmt! ✓ (256 + 148 = 404)
+b) Falsch! 483 + 279 = 762 (nicht 752)
+c) Stimmt! ✓ (615 − 387 = 228)
+
+### Lösungsweg
+- a) Überschlag: 260 + 150 = 410 → 404 ist plausibel. Genau: 256 + 148 = 404 ✓
+- b) Überschlag: 480 + 280 = 760 → 752 weicht etwas ab. Genau: 483 + 279 = 762 → Fehler in der Zehnerstelle!
+- c) Überschlag: 620 − 390 = 230 → 228 ist plausibel. Genau: 615 − 387 = 228 ✓
+
+### Tipp 1 (Denkanstoß)
+Runde auf Zehner und rechne im Kopf. Passt das angegebene Ergebnis ungefähr?
+
+### Tipp 2 (Methode)
+Wenn dein Überschlag nahe am Ergebnis liegt, stimmt es wahrscheinlich. Wenn es um mehr als 10 abweicht, rechne genau nach!
+
+### Tipp 3 (Schritt-für-Schritt)
+b) Rechne genau: Einer: 3 + 9 = 12, schreibe 2, Übertrag 1. Zehner: 8 + 7 + 1 = 16, schreibe 6, Übertrag 1. Hunderter: 4 + 2 + 1 = 7. Ergebnis: 762.
+
+### Didaktischer Hinweis
+Die Übertragsefehler bei b) sind typisch für Kinder. Das Prüfen schärft das Bewusstsein für häufige Fehlerquellen beim schriftlichen Rechnen.
+
+---
+
+## Aufgabe 64
+
+---
+titel: "Vierstellige Rechnungen prüfen"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: grün
+buchseite: 42
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Prüfe: Stimmt die Rechnung?
+
+a) 1.245 + 876 = 2.121
+b) 3.508 − 1.729 = 1.889
+c) 2.364 + 1.587 = 3.951
+
+### Lösung
+a) Stimmt! ✓ (1.245 + 876 = 2.121)
+b) Falsch! 3.508 − 1.729 = 1.779 (nicht 1.889)
+c) Stimmt! ✓ (2.364 + 1.587 = 3.951)
+
+### Lösungsweg
+- a) Überschlag: 1.250 + 880 = 2.130 → 2.121 ist plausibel. Genau: 1.245 + 876 = 2.121 ✓
+- b) Überschlag: 3.510 − 1.730 = 1.780 → 1.889 weicht stark ab! Genau: 3.508 − 1.729 = 1.779 → Hunderter- und Zehnerstelle falsch.
+- c) Überschlag: 2.360 + 1.590 = 3.950 → 3.951 passt. Genau: 2.364 + 1.587 = 3.951 ✓
+
+### Tipp 1 (Denkanstoß)
+Runde auf Zehner und rechne im Kopf. Bei vierstelligen Zahlen achte besonders auf die Hunderter!
+
+### Tipp 2 (Methode)
+Überschlag: Runde beide Zahlen auf Zehner. Wenn das Ergebnis mehr als 50 vom Überschlag abweicht, stimmt es wahrscheinlich nicht.
+
+### Tipp 3 (Schritt-für-Schritt)
+b) Rechne genau: 3.508 − 1.729. Einer: 8 − 9 → Übertrag! 18 − 9 = 9. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 7 → Übertrag! 15 − 8 = 7. Tausender: 3 − 1 − 1 = 1. Ergebnis: 1.779.
+
+### Didaktischer Hinweis
+Bei vierstelligen Zahlen werden Übertragsefehler wahrscheinlicher. Das Kind lernt, auch bei größeren Zahlen systematisch Stelle für Stelle zu prüfen.
+
+---
+
+## Aufgabe 65
+
+---
+titel: "Vierstellige Rechnungen mit Übertragsfehler prüfen"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: grün
+buchseite: 43
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Prüfe: Stimmt die Rechnung?
+
+a) 4.207 + 2.894 = 7.101
+b) 5.630 − 2.745 = 2.885
+c) 6.123 + 3.898 = 10.021
+
+### Lösung
+a) Stimmt! ✓ (4.207 + 2.894 = 7.101)
+b) Stimmt! ✓ (5.630 − 2.745 = 2.885)
+c) Stimmt! ✓ (6.123 + 3.898 = 10.021)
+
+### Lösungsweg
+- a) Überschlag: 4.210 + 2.890 = 7.100 → 7.101 passt perfekt. Genau: 4.207 + 2.894 = 7.101 ✓
+- b) Überschlag: 5.630 − 2.750 = 2.880 → 2.885 ist plausibel. Genau: 5.630 − 2.745 = 2.885 ✓
+- c) Überschlag: 6.120 + 3.900 = 10.020 → 10.021 passt. Genau: 6.123 + 3.898 = 10.021 ✓
+
+### Tipp 1 (Denkanstoß)
+Achte bei c) besonders darauf: Hier entsteht eine fünfstellige Zahl! Prüfe, ob der Tausender-Übertrag stimmt.
+
+### Tipp 2 (Methode)
+Mache bei jeder Aufgabe zuerst einen Überschlag. Bei c) überlegst du: 6.000 + 4.000 = 10.000 — also muss das Ergebnis über 10.000 liegen.
+
+### Tipp 3 (Schritt-für-Schritt)
+c) Einer: 3 + 8 = 11, schreibe 1, Übertrag 1. Zehner: 2 + 9 + 1 = 12, schreibe 2, Übertrag 1. Hunderter: 1 + 8 + 1 = 10, schreibe 0, Übertrag 1. Tausender: 6 + 3 + 1 = 10. Ergebnis: 10.021.
+
+### Didaktischer Hinweis
+Bei c) erleben Kinder den Übergang in den fünfstelligen Bereich. Alle drei Aufgaben stimmen diesmal — das Kind lernt, dass „Prüfen" nicht immer „Fehler finden" bedeutet.
+
+---
+
+## Aufgabe 66
+
+---
+titel: "Mehrere Operationen prüfen — Fehler finden"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: orange
+buchseite: 43
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Prüfe alle Rechnungen. Finde die zwei falschen und korrigiere sie.
+
+a) 2.456 + 1.378 = 3.834
+b) 8.001 − 3.567 = 4.534
+c) 4.789 + 3.215 = 8.004
+d) 7.500 − 4.826 = 2.774
+e) 1.999 + 2.001 = 4.000
+
+### Lösung
+a) Stimmt! ✓ (2.456 + 1.378 = 3.834)
+b) Falsch! 8.001 − 3.567 = 4.434 (nicht 4.534)
+c) Stimmt! ✓ (4.789 + 3.215 = 8.004)
+d) Falsch! 7.500 − 4.826 = 2.674 (nicht 2.774)
+e) Stimmt! ✓ (1.999 + 2.001 = 4.000)
+
+### Lösungsweg
+Prüfe jede Rechnung mit Überschlag:
+- a) 2.460 + 1.380 = 3.840 → 3.834 passt ✓
+- b) 8.000 − 3.570 = 4.430 → 4.534 weicht ab! Genau: 8.001 − 3.567 = 4.434 ✗
+- c) 4.790 + 3.220 = 8.010 → 8.004 passt ✓
+- d) 7.500 − 4.830 = 2.670 → 2.774 weicht ab! Genau: 7.500 − 4.826 = 2.674 ✗
+- e) 2.000 + 2.000 = 4.000 → stimmt exakt ✓
+
+### Tipp 1 (Denkanstoß)
+Mache bei jeder Rechnung einen schnellen Überschlag. Bei welchen weicht das Ergebnis deutlich ab?
+
+### Tipp 2 (Methode)
+Runde auf Zehner und rechne im Kopf. Eine Abweichung von mehr als 30 ist verdächtig. Rechne diese dann genau nach.
+
+### Tipp 3 (Schritt-für-Schritt)
+d) Rechne genau: 7.500 − 4.826. Einer: 0 − 6 → Übertrag! 10 − 6 = 4. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 8 → Übertrag! 15 − 9 = 6. Tausender: 7 − 1 − 4 = 2. Ergebnis: 2.674.
+
+### Didaktischer Hinweis
+Bei fünf Rechnungen zum Prüfen muss das Kind den Überschlag systematisch anwenden. Es lernt, gezielt die verdächtigen Aufgaben herauszufiltern und nur diese genau nachzurechnen.
+
+---
+
+## Aufgabe 67
+
+---
+titel: "Gemischte Operationen prüfen und korrigieren"
+typ: wahr-falsch
+thema: "Ergebnisse prüfen"
+schwierigkeit: orange
+buchseite: 43
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "ergebnis-pruefen"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
+---
+
+### Aufgabenstellung
+Jan hat Hausaufgaben gemacht. Prüfe seine Ergebnisse und korrigiere die Fehler.
+
+a) 3.456 + 2.789 = 6.245
+b) 9.010 − 4.563 = 4.557
+c) 5.678 + 1.234 = 6.912
+d) 10.000 − 6.438 = 3.562
+
+### Lösung
+a) Stimmt! ✓ (3.456 + 2.789 = 6.245)
+b) Falsch! 9.010 − 4.563 = 4.447 (nicht 4.557)
+c) Stimmt! ✓ (5.678 + 1.234 = 6.912)
+d) Stimmt! ✓ (10.000 − 6.438 = 3.562)
+
+### Lösungsweg
+- a) Überschlag: 3.460 + 2.790 = 6.250 → 6.245 passt ✓
+- b) Überschlag: 9.010 − 4.560 = 4.450 → 4.557 weicht ab! Genau: 9.010 − 4.563 = 4.447. Jan hat bei den Zehnern einen Fehler gemacht (5 statt 4).
+- c) Überschlag: 5.680 + 1.230 = 6.910 → 6.912 passt ✓
+- d) Überschlag: 10.000 − 6.440 = 3.560 → 3.562 passt ✓
+
+### Tipp 1 (Denkanstoß)
+Überschlage jede Rechnung. Bei welcher stimmt etwas nicht?
+
+### Tipp 2 (Methode)
+Bei Subtraktionen mit vielen Überträgen (wie 9.010 − 4.563) passieren leicht Fehler. Rechne diese besonders sorgfältig nach.
+
+### Tipp 3 (Schritt-für-Schritt)
+b) 9.010 − 4.563: Einer: 0 − 3 → Übertrag! 10 − 3 = 7. Zehner: 1 − 1 − 6 → Übertrag! 11 − 7 = 4. Hunderter: 0 − 1 − 5 → Übertrag! 10 − 6 = 4. Tausender: 9 − 1 − 4 = 4. Ergebnis: 4.447.
+
+### Didaktischer Hinweis
+Die Einbettung in eine Alltagssituation (Hausaufgaben prüfen) macht das Kontrollieren motivierender. Das Kind schlüpft in die Rolle des „Lehrers" und prüft kritisch.
+
+---
+
+# Thema 10: Zahlenrätsel (S. 44)
+
+## Aufgabe 68
+
+---
+titel: "Einfache Platzhalter-Addition"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: gelb
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Finde die fehlende Zahl.
+
+a) ▢ + 300 = 500
+b) ▢ + 150 = 400
+c) 200 + ▢ = 750
+
+### Lösung
+a) 200
+b) 250
+c) 550
+
+### Lösungsweg
+Nutze die Umkehroperation (Subtraktion):
+- a) ▢ = 500 − 300 = 200
+- b) ▢ = 400 − 150 = 250
+- c) ▢ = 750 − 200 = 550
+
+Probe:
+- a) 200 + 300 = 500 ✓
+- b) 250 + 150 = 400 ✓
+- c) 200 + 550 = 750 ✓
+
+### Tipp 1 (Denkanstoß)
+Was musst du zu 300 addieren, damit 500 herauskommt? Denk rückwärts!
+
+### Tipp 2 (Methode)
+Wenn ▢ + eine Zahl = Ergebnis, dann ist ▢ = Ergebnis − die Zahl. Die Umkehrung der Addition ist die Subtraktion.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 500 − 300 = ? Zähle von 300 bis 500: 300 → 400 → 500, das sind 200 Schritte.
+
+### Didaktischer Hinweis
+Einfache Platzhalteraufgaben mit runden Zahlen führen in das Konzept der Umkehroperation ein. Das Kind kann die Lösung auch durch Überlegen oder Zählen finden.
+
+---
+
+## Aufgabe 69
+
+---
+titel: "Einfache Platzhalter-Subtraktion"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: gelb
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Finde die fehlende Zahl.
+
+a) 800 − ▢ = 350
+b) ▢ − 120 = 280
+c) 600 − ▢ = 175
+
+### Lösung
+a) 450
+b) 400
+c) 425
+
+### Lösungsweg
+Nutze die Umkehroperation:
+- a) ▢ = 800 − 350 = 450
+- b) ▢ = 280 + 120 = 400
+- c) ▢ = 600 − 175 = 425
+
+Probe:
+- a) 800 − 450 = 350 ✓
+- b) 400 − 120 = 280 ✓
+- c) 600 − 425 = 175 ✓
+
+### Tipp 1 (Denkanstoß)
+Wenn du von 800 etwas abziehst und 350 übrig bleibt — wie viel hast du abgezogen?
+
+### Tipp 2 (Methode)
+Bei 800 − ▢ = 350 gilt: ▢ = 800 − 350. Bei ▢ − 120 = 280 gilt: ▢ = 280 + 120. Achte darauf, wo der Platzhalter steht!
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 800 − 350 = ? Rechne: 800 − 300 = 500, dann 500 − 50 = 450. Also ▢ = 450.
+
+### Didaktischer Hinweis
+Die Position des Platzhalters (Minuend vs. Subtrahend) erfordert unterschiedliche Umkehrstrategien. Das Kind muss verstehen, ob es addieren oder subtrahieren muss.
+
+---
+
+## Aufgabe 70
+
+---
+titel: "Platzhalter im Tausenderbereich"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: grün
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Finde die fehlende Zahl.
+
+a) 1.000 − ▢ = 340
+b) ▢ + 1.250 = 2.000
+c) 3.000 − ▢ = 1.460
+
+### Lösung
+a) 660
+b) 750
+c) 1.540
+
+### Lösungsweg
+Nutze die Umkehroperation:
+- a) ▢ = 1.000 − 340 = 660
+- b) ▢ = 2.000 − 1.250 = 750
+- c) ▢ = 3.000 − 1.460 = 1.540
+
+Probe:
+- a) 1.000 − 660 = 340 ✓
+- b) 750 + 1.250 = 2.000 ✓
+- c) 3.000 − 1.540 = 1.460 ✓
+
+### Tipp 1 (Denkanstoß)
+Was fehlt von 340 bis 1.000? Denke an die Ergänzung: Wie viel musst du zu 340 addieren, um auf 1.000 zu kommen?
+
+### Tipp 2 (Methode)
+Bei a) gilt: ▢ = 1.000 − 340. Rechne schrittweise: erst die Einer ergänzen (340 → 400), dann die Hunderter (400 → 1.000).
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Von 340 bis 1.000: 340 + 60 = 400, 400 + 600 = 1.000. Also: 60 + 600 = 660. ▢ = 660.
+
+### Didaktischer Hinweis
+Die Ergänzung zu Tausenderzahlen ist eine wichtige Grundfertigkeit. Das schrittweise Ergänzen (erst zur nächsten Hunderterzahl, dann zum Tausender) gibt dem Kind eine konkrete Strategie.
+
+---
+
+## Aufgabe 71
+
+---
+titel: "Platzhalter mit gemischten Operationen"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: grün
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Finde die fehlende Zahl.
+
+a) ▢ · 5 = 450
+b) 720 : ▢ = 8
+c) ▢ · 7 + 30 = 240
+
+### Lösung
+a) 90
+b) 90
+c) 30
+
+### Lösungsweg
+Nutze Umkehroperationen:
+- a) ▢ = 450 : 5 = 90
+- b) ▢ = 720 : 8 = 90
+- c) Zuerst „+ 30" rückgängig machen: 240 − 30 = 210. Dann: ▢ = 210 : 7 = 30
+
+Probe:
+- a) 90 · 5 = 450 ✓
+- b) 720 : 90 = 8 ✓
+- c) 30 · 7 + 30 = 210 + 30 = 240 ✓
+
+### Tipp 1 (Denkanstoß)
+Bei a) und b): Welche Zahl mal 5 ergibt 450? Welche Zahl in 720 geteilt ergibt 8?
+
+### Tipp 2 (Methode)
+Bei Multiplikation: Umkehrung ist Division. Bei c) musst du zwei Schritte rückwärts rechnen: zuerst „+ 30" umkehren, dann „· 7" umkehren.
+
+### Tipp 3 (Schritt-für-Schritt)
+c) Schritt 1: 240 − 30 = 210. Schritt 2: 210 : 7 = ? Denke an die 7er-Reihe: 7 · ? = 210. Tipp: 7 · 30 = 210.
+
+### Didaktischer Hinweis
+Aufgabe c) erfordert zweistufiges Umkehrrechnen. Das Kind muss die Operationen in der richtigen Reihenfolge rückwärts abarbeiten — eine Vorstufe zum Gleichungslösen.
+
+---
+
+## Aufgabe 72
+
+---
+titel: "Zahlenrätsel als Textaufgabe — einfach"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: orange
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Ich denke mir eine Zahl, multipliziere sie mit 4 und addiere 20. Das Ergebnis ist 100. Welche Zahl ist es?
+
+### Lösung
+Die gedachte Zahl ist 20.
+
+### Lösungsweg
+1. Rechenkette aufschreiben: ▢ → · 4 → ▢ → + 20 → 100
+2. Rückwärts rechnen:
+   - 100 − 20 = 80 (Umkehrung von „+ 20")
+   - 80 : 4 = 20 (Umkehrung von „· 4")
+3. Probe: 20 · 4 = 80, 80 + 20 = 100 ✓
+
+### Tipp 1 (Denkanstoß)
+Zeichne dir eine Rechenkette: Zahl → · 4 → ? → + 20 → 100. Arbeite vom Ende rückwärts!
+
+### Tipp 2 (Methode)
+Der letzte Schritt war „+ 20 = 100". Die Umkehrung ist: 100 − 20 = 80. Jetzt hast du den Zwischenwert. Weiter rückwärts: „· 4 = 80" → Umkehrung?
+
+### Tipp 3 (Schritt-für-Schritt)
+Rückwärts: 100 − 20 = 80. Dann: 80 : 4 = ?. Denke an die 4er-Reihe: 4 · ? = 80.
+
+### Didaktischer Hinweis
+Textbasierte Zahlenrätsel fördern das Leseverständnis und die Übersetzung von Sprache in Mathematik. Die Rechenkette als Hilfsmittel macht die Struktur sichtbar.
+
+---
+
+## Aufgabe 73
+
+---
+titel: "Zahlenrätsel als Textaufgabe — knifflig"
+typ: eingabe
+thema: "Zahlenrätsel"
+schwierigkeit: orange
+buchseite: 44
+kapitel: "03-addition-subtraktion-rechenregeln"
+stage_id: "zahlenraetsel"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
+---
+
+### Aufgabenstellung
+Ich denke mir eine Zahl, halbiere sie, subtrahiere 45 und erhalte 30. Welche Zahl denke ich mir?
+
+### Lösung
+Die gedachte Zahl ist 150.
+
+### Lösungsweg
+1. Rechenkette aufschreiben: ▢ → : 2 → ▢ → − 45 → 30
+2. Rückwärts rechnen:
+   - 30 + 45 = 75 (Umkehrung von „− 45")
+   - 75 · 2 = 150 (Umkehrung von „: 2", also „halbieren")
+3. Probe: 150 : 2 = 75, 75 − 45 = 30 ✓
+
+### Tipp 1 (Denkanstoß)
+„Halbieren" bedeutet „durch 2 teilen". Zeichne die Rechenkette und arbeite vom Ergebnis 30 rückwärts.
+
+### Tipp 2 (Methode)
+Umkehroperationen: „− 45" wird zu „+ 45". „Halbieren (: 2)" wird zu „verdoppeln (· 2)". Rechne Schritt für Schritt vom Ende zum Anfang.
+
+### Tipp 3 (Schritt-für-Schritt)
+Letzter Schritt war „− 45 = 30". Umkehrung: 30 + 45 = 75. Voriger Schritt war „: 2". Umkehrung: 75 · 2 = ?
+
+### Didaktischer Hinweis
+Das Wort „halbieren" muss als „: 2" erkannt werden. Kinder, die das verstanden haben, können auch „verdreifachen" (· 3) oder „vierteln" (: 4) als Rechenoperationen übersetzen.
 
 ---
 

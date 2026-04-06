@@ -1033,9 +1033,9 @@ b) 457 + 186 = 634 — Stimmt das?
 c) 239 + 584 = 832 — Stimmt das?
 
 ### Lösung
-a) 624 + 318 = 942 ✓ Stimmt!
-b) 457 + 186 = 643 → Die 3 und 4 im Ergebnis sind vertauscht. Richtig: 643.
-c) 239 + 584 = 823 → Die 3 und 2 im Ergebnis sind vertauscht. Richtig: 823.
+a) Richtig — 624 + 318 = 942 ✓ Die Rechnung stimmt.
+b) Falsch — 457 + 186 = 643, nicht 634. Die 3 und 4 im Ergebnis sind vertauscht.
+c) Falsch — 239 + 584 = 823, nicht 832. Die 3 und 2 im Ergebnis sind vertauscht.
 
 ### Lösungsweg
 Zuerst nachrechnen, ob das Ergebnis stimmt. Wenn nicht, die richtige Summe berechnen und schauen, welche zwei Ziffern vertauscht wurden.
@@ -1266,9 +1266,9 @@ b) 974 - 618 = 365 — Stimmt das?
 c) 1.435 - 278 = 1.175 — Stimmt das?
 
 ### Lösung
-a) 856 - 293 = 563 → Die 3 und 6 im Ergebnis sind vertauscht. Richtig: 563.
-b) 974 - 618 = 356 → Die 3 und 6 im Ergebnis sind vertauscht (365 → 356). Richtig: 356.
-c) 1.435 - 278 = 1.157 → Die 7 und 5 im Ergebnis sind vertauscht (1.175 → 1.157). Richtig: 1.157.
+a) Falsch — 856 - 293 = 563, nicht 536. Die 3 und 6 im Ergebnis sind vertauscht.
+b) Falsch — 974 - 618 = 356, nicht 365. Die 5 und 6 im Ergebnis sind vertauscht.
+c) Falsch — 1.435 - 278 = 1.157, nicht 1.175. Die 7 und 5 im Ergebnis sind vertauscht.
 
 ### Lösungsweg
 Nachrechnen und das korrekte Ergebnis mit dem angegebenen vergleichen. Die vertauschten Ziffern finden.

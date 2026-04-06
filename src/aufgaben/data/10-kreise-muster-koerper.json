@@ -60,7 +60,7 @@
   },
   {
     "titel": "Charlys Futterplatz — Welche Pflanzen erreicht die Ziege?",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Kreise zeichnen",
     "schwierigkeit": "gelb",
     "buchseite": 104,
@@ -80,33 +80,26 @@
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "themenIntroBild": "assets/erklaerungen/charly-futterplatz.svg",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Die Ziege Charly ist auf einer Wiese an einem Pfosten angebunden. Das Seil ist 3 m lang. Fünf Pflanzen stehen in verschiedenen Abständen zum Pfosten:",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Die Ziege Charly ist auf einer Wiese an einem Pfosten angebunden. Das Seil ist 3 m lang. Fünf Pflanzen stehen in verschiedenen Abständen zum Pfosten:\n\nA) 2 m entfernt\nB) 3 m entfernt\nC) 4 m entfernt\nD) 1 m entfernt\nE) 5 m entfernt\n\nWelche Pflanzen kann Charly erreichen?",
+      "kontext": "Die Ziege Charly ist auf einer Wiese an einem Pfosten angebunden. Das Seil ist 3 m lang. Fünf Pflanzen stehen in verschiedenen Abständen zum Pfosten:\n\nA) 2 m entfernt\nB) 3 m entfernt\nC) 4 m entfernt\nD) 1 m entfernt\nE) 5 m entfernt\n\nWelche Pflanzen kann Charly erreichen?",
+      "items": [
         {
-          "label": "A",
-          "text": "2 m entfernt"
+          "label": "a",
+          "frage": "Wähle alle Pflanzen aus, die Charly fressen kann.",
+          "antwort": "A (2 m), B (3 m), D (1 m) — alle Pflanzen, die höchstens 3 m vom Pfosten entfernt sind."
         },
         {
-          "label": "B",
-          "text": "3 m entfernt"
-        },
-        {
-          "label": "C",
-          "text": "4 m entfernt"
-        },
-        {
-          "label": "D",
-          "text": "1 m entfernt"
+          "label": "b",
+          "frage": "Welche Form hat Charlys Futterplatz?",
+          "antwort": "Charlys Futterplatz hat die Form eines Kreises mit dem Radius 3 m."
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
     "titel": "Kreise mit dem Zirkel zeichnen — verschiedene Radien",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Kreise zeichnen",
     "schwierigkeit": "gelb",
     "buchseite": 104,
@@ -125,20 +118,21 @@
     "didaktischerHinweis": "Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
+      "kontext": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
+      "items": [
         {
-          "label": "A",
-          "text": "Welcher Kreis liegt ganz aussen?"
+          "label": "a",
+          "frage": "Welcher Kreis liegt ganz aussen?",
+          "antwort": "a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat."
         },
         {
-          "label": "B",
-          "text": "Wie nennt man Kreise, die denselben Mittelpunkt haben?"
+          "label": "b",
+          "frage": "Wie nennt man Kreise, die denselben Mittelpunkt haben?",
+          "antwort": "b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise."
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -449,7 +443,7 @@
   },
   {
     "titel": "Welche Grundformen parkettieren?",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Parkettierungen",
     "schwierigkeit": "gelb",
     "buchseite": 106,
@@ -467,28 +461,34 @@
     ],
     "didaktischerHinweis": "Die Erkenntnis, dass nicht jede Form parkettiert, ist zentral. Der Kreis ist das wichtigste Gegenbeispiel. Entspricht S. 106, Aufg. 1.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welche dieser Grundformen können die Fläche lückenlos bedecken?",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "Welche dieser Grundformen können die Fläche lückenlos bedecken?",
+      "items": [
         {
-          "label": "A",
-          "text": "Quadrat"
+          "label": "a",
+          "aussage": "Quadrat",
+          "richtig": true,
+          "erklaerung": "Quadrat — ja"
         },
         {
-          "label": "B",
-          "text": "Kreis"
+          "label": "b",
+          "aussage": "Kreis",
+          "richtig": false,
+          "erklaerung": "Kreis — nein"
         },
         {
-          "label": "C",
-          "text": "Dreieck (gleichseitig)"
+          "label": "c",
+          "aussage": "Dreieck (gleichseitig)",
+          "richtig": true,
+          "erklaerung": "Dreieck (gleichseitig) — ja"
         },
         {
-          "label": "D",
-          "text": "Sechseck (regelmässig)"
+          "label": "d",
+          "aussage": "Sechseck (regelmässig)",
+          "richtig": true,
+          "erklaerung": "Sechseck (regelmässig) — ja"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {

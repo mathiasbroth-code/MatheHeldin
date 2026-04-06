@@ -1359,7 +1359,7 @@
   },
   {
     "titel": "Halbschriftlich — Lücke im Zerlegungsweg",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Halbschriftliches Dividieren",
     "schwierigkeit": "gelb",
     "buchseite": 80,
@@ -1383,13 +1383,18 @@
     ],
     "didaktischerHinweis": "Lückenformat fördert das Verständnis der Zerlegungsmethode. Das Kind sieht die Struktur und ergänzt, statt selbst zu zerlegen.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Ergänze die fehlenden Zahlen im Zerlegungsweg.",
       "items": [
         {
-          "label": "1",
-          "frage": "Ergänze die fehlenden Zahlen im Zerlegungsweg.\n\na) 96 : 8\n   80 : 8 = ___\n   ___ : 8 = 2\n   Ergebnis: ___\n\nb) 78 : 6\n   60 : 6 = ___\n   ___ : 6 = 3\n   Ergebnis: ___",
-          "antwort": "a) 80 : 8 = 10, 16 : 8 = 2, Ergebnis: 12"
+          "label": "a",
+          "frage": "96 : 8",
+          "antwort": "80 : 8 = 10, 16 : 8 = 2, Ergebnis: 12"
+        },
+        {
+          "label": "b",
+          "frage": "78 : 6",
+          "antwort": "60 : 6 = 10, 18 : 6 = 3, Ergebnis: 13"
         }
       ]
     }
@@ -1510,7 +1515,7 @@
   },
   {
     "titel": "Durch welche Zahl wird geteilt? — Umkehren",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Halbschriftliches Dividieren",
     "schwierigkeit": "grün",
     "buchseite": 80,
@@ -1534,13 +1539,23 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben festigen den Zusammenhang Division ↔ Multiplikation.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Durch welche Zahl wird geteilt?",
       "items": [
         {
-          "label": "1",
-          "frage": "Durch welche Zahl wird geteilt?\n\na) 72 : ___ = 9\nb) 91 : ___ = 13\nc) 108 : ___ = 12",
-          "antwort": "a) 8"
+          "label": "a",
+          "frage": "72 : ___ = 9",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "91 : ___ = 13",
+          "antwort": "7"
+        },
+        {
+          "label": "c",
+          "frage": "108 : ___ = 12",
+          "antwort": "9"
         }
       ]
     }
@@ -2002,7 +2017,7 @@
   },
   {
     "titel": "Durch welche Zahl wird geteilt? — Große Zahlen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Halbschriftliches Dividieren vertiefen",
     "schwierigkeit": "orange",
     "buchseite": 83,
@@ -2020,13 +2035,23 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben mit größeren Zahlen. Schätzen und Probieren ist hier eine wichtige Strategie.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Durch welche Zahl wird geteilt?",
       "items": [
         {
-          "label": "1",
-          "frage": "Durch welche Zahl wird geteilt?\n\na) 3.456 : ___ = 432\nb) 4.900 : ___ = 700\nc) 2.016 : ___ = 504",
-          "antwort": "a) 8"
+          "label": "a",
+          "frage": "3.456 : ___ = 432",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "4.900 : ___ = 700",
+          "antwort": "7"
+        },
+        {
+          "label": "c",
+          "frage": "2.016 : ___ = 504",
+          "antwort": "4"
         }
       ]
     }
@@ -2323,7 +2348,7 @@
   },
   {
     "titel": "Fehlende Ziffern finden — Lückendivision",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Schriftliches Dividieren",
     "schwierigkeit": "grün",
     "buchseite": 87,
@@ -2347,13 +2372,18 @@
     ],
     "didaktischerHinweis": "Lückendivisionen erfordern die sichere Anwendung der Probe (Multiplikation). Fördert flexibles Denken zwischen Division und Multiplikation.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Welche Ziffern fehlen? Nutze die Probe.",
       "items": [
         {
-          "label": "1",
-          "frage": "Welche Ziffern fehlen? Nutze die Probe.\n\na) 4._62 : 6 = 827 (eine Ziffer fehlt im Dividenden)\nb) _612 : 4 = 903 (eine Ziffer fehlt im Dividenden)",
-          "antwort": "a) 4.962 : 6 = 827 → fehlende Ziffer: 9"
+          "label": "a",
+          "frage": "4._62 : 6 = 827 (eine Ziffer fehlt im Dividenden)",
+          "antwort": "4.962 : 6 = 827 → fehlende Ziffer: 9"
+        },
+        {
+          "label": "b",
+          "frage": "_612 : 4 = 903 (eine Ziffer fehlt im Dividenden)",
+          "antwort": "3.612 : 4 = 903 → fehlende Ziffer: 3"
         }
       ]
     }

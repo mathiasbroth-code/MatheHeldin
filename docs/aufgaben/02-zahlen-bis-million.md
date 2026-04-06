@@ -837,7 +837,7 @@ Das Ordnen großer Zahlen erfordert die systematische Vergleichsstrategie "Stell
 
 ---
 titel: "Vergleichen mit < und >"
-typ: auswahl
+typ: luecke
 thema: "Zahlen vergleichen und verändern"
 schwierigkeit: gelb
 buchseite: 22
@@ -1585,7 +1585,7 @@ Hier wird zusätzlich zum Hochrechnen das Gewicht als Hilfsmittel genutzt (Wiege
 
 ---
 titel: "Schätzstrategie wählen"
-typ: auswahl
+typ: textaufgabe
 thema: "Große Anzahlen schätzen"
 schwierigkeit: gelb
 buchseite: 27
@@ -2293,7 +2293,7 @@ Die systematische Bestimmung aller drei Nachbartypen trainiert das flexible Denk
 
 ---
 titel: "Nachbar-Tausender — welcher ist näher?"
-typ: auswahl
+typ: eingabe
 thema: "Nachbarzahlen"
 schwierigkeit: orange
 buchseite: 30
@@ -2567,7 +2567,7 @@ Der Alltagskontext (Stadien) macht das Runden greifbar. Besonders c) ist lehrrei
 
 ---
 titel: "Auf welche Stelle wurde gerundet?"
-typ: auswahl
+typ: eingabe
 thema: "Runden"
 schwierigkeit: orange
 buchseite: 31
@@ -2839,7 +2839,7 @@ Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie "Genauigkeit" funktio
 
 ---
 titel: "Gerundete Zahlen zuordnen — welche Zahl passt?"
-typ: auswahl
+typ: zuordnung
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: grün
 buchseite: 33

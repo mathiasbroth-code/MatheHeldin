@@ -139,7 +139,7 @@
   },
   {
     "titel": "Welche Strecke ist länger?",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Entfernungen",
     "schwierigkeit": "gelb",
     "buchseite": 68,
@@ -157,28 +157,30 @@
     ],
     "didaktischerHinweis": "Vergleichsaufgaben trainieren das Einheitenverständnis. Besonders c) zeigt eine typische Verwechslung: 1 km 400 m ist NICHT 1,4 km sondern ... doch! Aber 1,04 km = 1 km 40 m. d) ist ein Aha-Erlebnis: Beide sind gleich!",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welche Strecke ist länger? Kreuze an.",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Welche Strecke ist länger? Kreuze an.",
+      "items": [
         {
-          "label": "A",
-          "text": "3,5 km oder 3.200 m?"
+          "label": "a",
+          "frage": "3,5 km oder 3.200 m?",
+          "antwort": "3,5 km (= 3.500 m > 3.200 m)"
         },
         {
-          "label": "B",
-          "text": "800 m oder 0,9 km?"
+          "label": "b",
+          "frage": "800 m oder 0,9 km?",
+          "antwort": "0,9 km (= 900 m > 800 m)"
         },
         {
-          "label": "C",
-          "text": "1 km 400 m oder 1,04 km?"
+          "label": "c",
+          "frage": "1 km 400 m oder 1,04 km?",
+          "antwort": "1 km 400 m (= 1,4 km > 1,04 km)"
         },
         {
-          "label": "D",
-          "text": "10,5 km oder 10 km 500 m?"
+          "label": "d",
+          "frage": "10,5 km oder 10 km 500 m?",
+          "antwort": "Gleich lang! 10,5 km = 10 km 500 m"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -2528,7 +2530,7 @@
   },
   {
     "titel": "Welche Buchstaben kommen oft vor? — Vermutung",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
@@ -2546,24 +2548,25 @@
     ],
     "didaktischerHinweis": "Einfacher Einstieg: In bekannten Wörtern Buchstaben suchen. Kinder entdecken intuitiv, dass das E besonders häufig ist. Das systematische Zählen bereitet auf längere Texte vor.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Schau dir diese 5 Wörter an:\n\nHASE, SCHULE, NASE, KATZE, ELEFANT",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Schau dir diese 5 Wörter an:\n\nHASE, SCHULE, NASE, KATZE, ELEFANT",
+      "items": [
         {
-          "label": "A",
-          "text": "Welcher Buchstabe kommt in allen 5 Wörtern vor?"
+          "label": "a",
+          "frage": "Welcher Buchstabe kommt in allen 5 Wörtern vor?",
+          "antwort": "E"
         },
         {
-          "label": "B",
-          "text": "Welcher Buchstabe kommt in keinem der Wörter vor: R, E oder U?"
+          "label": "b",
+          "frage": "Welcher Buchstabe kommt in keinem der Wörter vor: R, E oder U?",
+          "antwort": "R"
         },
         {
-          "label": "C",
-          "text": "Zähle: Wie oft kommt das E in allen 5 Wörtern zusammen vor?"
+          "label": "c",
+          "frage": "Zähle: Wie oft kommt das E in allen 5 Wörtern zusammen vor?",
+          "antwort": "6-mal"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {

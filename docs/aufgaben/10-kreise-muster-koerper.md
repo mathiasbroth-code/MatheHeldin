@@ -64,7 +64,7 @@ Grundbegriffe des Kreises müssen sicher sitzen, bevor mit dem Zirkel gearbeitet
 
 ---
 titel: "Charlys Futterplatz — Welche Pflanzen erreicht die Ziege?"
-typ: auswahl
+typ: textaufgabe
 thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
@@ -121,7 +121,7 @@ Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greif
 
 ---
 titel: "Kreise mit dem Zirkel zeichnen — verschiedene Radien"
-typ: auswahl
+typ: textaufgabe
 thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
@@ -445,7 +445,7 @@ Die Einführung des Begriffs "Parkettierung" mit Alltagsbezug (Fussboden) erleic
 
 ---
 titel: "Welche Grundformen parkettieren?"
-typ: auswahl
+typ: wahr-falsch
 thema: "Parkettierungen"
 schwierigkeit: gelb
 buchseite: 106

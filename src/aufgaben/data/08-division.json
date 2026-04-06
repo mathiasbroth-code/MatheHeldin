@@ -513,7 +513,7 @@
   },
   {
     "titel": "Durch welche Zahl wird geteilt? — Umkehraufgabe",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Halbschriftliches Dividieren",
     "schwierigkeit": "gelb",
     "buchseite": 80,
@@ -537,13 +537,23 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben festigen den Zusammenhang zwischen Multiplikation und Division. Kinder sollen flexibel zwischen den Operationen wechseln können. Entspricht S. 80, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Durch welche Zahl wird geteilt?",
       "items": [
         {
-          "label": "1",
-          "frage": "Durch welche Zahl wird geteilt?\n\na) 96 : ___ = 12\nb) 84 : ___ = 14\nc) 78 : ___ = 13",
-          "antwort": "a) 8"
+          "label": "a",
+          "frage": "96 : ___ = 12",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "84 : ___ = 14",
+          "antwort": "6"
+        },
+        {
+          "label": "c",
+          "frage": "78 : ___ = 13",
+          "antwort": "6"
         }
       ]
     }
@@ -945,7 +955,7 @@
   },
   {
     "titel": "Durch welche Zahl wird geteilt? — Vierstellige Zahlen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Halbschriftliches Dividieren vertiefen",
     "schwierigkeit": "grün",
     "buchseite": 83,
@@ -963,28 +973,33 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben mit großen Zahlen vertiefen den Zusammenhang Multiplikation/Division und trainieren das Schätzen. Entspricht S. 83, Aufg. 12.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Durch welche Zahl wird geteilt?",
       "items": [
         {
-          "label": "1",
-          "frage": "Durch welche Zahl wird geteilt?\n\na) 6.480 : ___ = 720\nb) 5.400 : ___ = 675",
-          "antwort": "a) 9"
+          "label": "a",
+          "frage": "6.480 : ___ = 720",
+          "antwort": "9"
+        },
+        {
+          "label": "b",
+          "frage": "5.400 : ___ = 675",
+          "antwort": "8"
         }
       ]
     }
   },
   {
     "titel": "Teilbarkeit durch 2, 5 und 10 erkennen",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Teilbarkeitsregeln",
     "schwierigkeit": "gelb",
     "buchseite": 84,
     "kapitel": "08-division",
     "stageId": "teilbarkeitsregeln",
     "digital": "voll",
-    "aufgabenstellung": "Welche Aufgaben lassen sich ohne Rest teilen? Schau dir die Einerstelle an.\n\na) 178 : 5\nb) 1.030 : 5\nc) 716 : 2\nd) 365 : 5\ne) 977 : 2",
-    "loesung": "a) nicht teilbar (Einerstelle 8 — weder 0 noch 5)\nb) teilbar (1.030 : 5 = 206, Einerstelle 0)\nc) teilbar (716 : 2 = 358, Einerstelle 6 ist gerade)\nd) teilbar (365 : 5 = 73, Einerstelle 5)\ne) nicht teilbar (Einerstelle 7 ist ungerade)",
+    "aufgabenstellung": "Geht die Division ohne Rest auf? Schau dir die Einerstelle an.\n\na) 178 : 5 geht ohne Rest auf.\nb) 1.030 : 5 geht ohne Rest auf.\nc) 716 : 2 geht ohne Rest auf.\nd) 365 : 5 geht ohne Rest auf.\ne) 977 : 2 geht ohne Rest auf.",
+    "loesung": "a) Falsch — Einerstelle 8 ist weder 0 noch 5, also nicht durch 5 teilbar.\nb) Richtig — 1.030 : 5 = 206, Einerstelle 0.\nc) Richtig — 716 : 2 = 358, Einerstelle 6 ist gerade.\nd) Richtig — 365 : 5 = 73, Einerstelle 5.\ne) Falsch — Einerstelle 7 ist ungerade, also nicht durch 2 teilbar.",
     "loesungsweg": "Die Regeln aus dem Merkwissen-Video \"Teilbar durch 2, 5, 10\":\n- Durch **2** teilbar: Einerstelle ist gerade (0, 2, 4, 6, 8)\n- Durch **5** teilbar: Einerstelle ist 0 oder 5\n- Durch **10** teilbar: Einerstelle ist 0",
     "tipps": [
       "Du brauchst gar nicht zu rechnen! Schau dir nur die letzte Ziffer an. Die 5er-Reihe: 5, 10, 15, 20, 25 ... Welche Endziffern haben die Zahlen in der 5er-Reihe?",
@@ -994,37 +1009,45 @@
     ],
     "didaktischerHinweis": "Die Teilbarkeitsregeln für 2, 5 und 10 basieren auf der Einerstelle und sind für Kinder gut zu merken. Sie helfen beim Überprüfen von Divisionsergebnissen. Entspricht S. 84, Aufg. 1-3.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welche Aufgaben lassen sich ohne Rest teilen? Schau dir die Einerstelle an.",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "Geht die Division ohne Rest auf? Schau dir die Einerstelle an.",
+      "items": [
         {
-          "label": "A",
-          "text": "178 : 5"
+          "label": "a",
+          "aussage": "178 : 5 geht ohne Rest auf.",
+          "richtig": false,
+          "erklaerung": "Falsch — Einerstelle 8 ist weder 0 noch 5, also nicht durch 5 teilbar."
         },
         {
-          "label": "B",
-          "text": "1.030 : 5"
+          "label": "b",
+          "aussage": "1.030 : 5 geht ohne Rest auf.",
+          "richtig": true,
+          "erklaerung": "Richtig — 1.030 : 5 = 206, Einerstelle 0."
         },
         {
-          "label": "C",
-          "text": "716 : 2"
+          "label": "c",
+          "aussage": "716 : 2 geht ohne Rest auf.",
+          "richtig": true,
+          "erklaerung": "Richtig — 716 : 2 = 358, Einerstelle 6 ist gerade."
         },
         {
-          "label": "D",
-          "text": "365 : 5"
+          "label": "d",
+          "aussage": "365 : 5 geht ohne Rest auf.",
+          "richtig": true,
+          "erklaerung": "Richtig — 365 : 5 = 73, Einerstelle 5."
         },
         {
-          "label": "E",
-          "text": "977 : 2"
+          "label": "e",
+          "aussage": "977 : 2 geht ohne Rest auf.",
+          "richtig": false,
+          "erklaerung": "Falsch — Einerstelle 7 ist ungerade, also nicht durch 2 teilbar."
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
     "titel": "Fehlende Einerstelle — Teilbar machen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Teilbarkeitsregeln",
     "schwierigkeit": "grün",
     "buchseite": 84,
@@ -1042,13 +1065,23 @@
     ],
     "didaktischerHinweis": "Die Kombination mehrerer Teilbarkeitsregeln fördert logisches Denken. Die Erkenntnis, dass \"durch 2 UND 5 teilbar\" dasselbe wie \"durch 10 teilbar\" bedeutet, ist ein wichtiger Aha-Moment. Entspricht S. 84, Aufg. 4.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...",
       "items": [
         {
-          "label": "1",
-          "frage": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...\n\na) durch 5 teilbar sind? 78__, 43__, 63__, 19__\nb) durch 2 teilbar sind? 78__, 43__, 63__, 19__\nc) durch 5 UND durch 2 teilbar sind? 78__, 43__, 63__, 19__",
-          "antwort": "a) Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195"
+          "label": "a",
+          "frage": "durch 5 teilbar sind? 78__, 43__, 63__, 19__",
+          "antwort": "Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195"
+        },
+        {
+          "label": "b",
+          "frage": "durch 2 teilbar sind? 78__, 43__, 63__, 19__",
+          "antwort": "Durch 2 teilbar → Einerstelle gerade: 780/782/784/786/788, 430/432/434/436/438, 630/632/634/636/638, 190/192/194/196/198"
+        },
+        {
+          "label": "c",
+          "frage": "durch 5 UND durch 2 teilbar sind? 78__, 43__, 63__, 19__",
+          "antwort": "Durch 5 UND 2 → Einerstelle muss 0 sein: 780, 430, 630, 190"
         }
       ]
     }
@@ -1133,7 +1166,7 @@
   },
   {
     "titel": "Fehlende Einerstelle für Teilbarkeit durch 9",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Teilbarkeitsregeln",
     "schwierigkeit": "orange",
     "buchseite": 85,
@@ -1151,13 +1184,23 @@
     ],
     "didaktischerHinweis": "Diese Umkehraufgabe zur Quersummenregel ist anspruchsvoll — das Kind muss rückwärts denken. Die Strategie \"bis zum nächsten Vielfachen von 9 ergänzen\" ist der Schlüssel. Entspricht S. 85, Aufg. 10.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Welche Ziffer kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 9 teilbar sind?",
       "items": [
         {
-          "label": "1",
-          "frage": "Welche Ziffer kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 9 teilbar sind?\n\na) 854___\nb) 267___\nc) 634___",
-          "antwort": "a) 1 (8.541 : 9 = 949)"
+          "label": "a",
+          "frage": "854___",
+          "antwort": "1 (8.541 : 9 = 949)"
+        },
+        {
+          "label": "b",
+          "frage": "267___",
+          "antwort": "3 (2.673 : 9 = 297)"
+        },
+        {
+          "label": "c",
+          "frage": "634___",
+          "antwort": "5 (6.345 : 9 = 705)"
         }
       ]
     }
@@ -1241,7 +1284,7 @@
   },
   {
     "titel": "Fehlende Einerstelle — Teilbar durch 3 und/oder 9",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Teilbarkeitsregeln",
     "schwierigkeit": "orange",
     "buchseite": 85,
@@ -1259,13 +1302,23 @@
     ],
     "didaktischerHinweis": "Kombination der Quersummenregel für 3 und 9 als Umkehraufgabe. Die Erkenntnis, dass c) und b) identisch sind, ist ein wichtiger logischer Schluss. Entspricht S. 85, Aufg. 12.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...",
       "items": [
         {
-          "label": "1",
-          "frage": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...\n\na) durch 3 teilbar sind? 783___, 435___\nb) durch 9 teilbar sind? 783___, 435___\nc) durch 3 UND durch 9 teilbar sind? 783___, 435___",
-          "antwort": "a) Durch 3:"
+          "label": "a",
+          "frage": "durch 3 teilbar sind? 783___, 435___",
+          "antwort": "Durch 3:"
+        },
+        {
+          "label": "b",
+          "frage": "durch 9 teilbar sind? 783___, 435___",
+          "antwort": "Durch 9:"
+        },
+        {
+          "label": "c",
+          "frage": "durch 3 UND durch 9 teilbar sind? 783___, 435___",
+          "antwort": "Durch 3 UND 9: dieselbe Antwort wie b), denn jede durch 9 teilbare Zahl ist auch durch 3 teilbar."
         }
       ]
     }
@@ -1490,7 +1543,7 @@
   },
   {
     "titel": "Welche Ziffern fehlen? — Lückendivision",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Schriftliches Dividieren",
     "schwierigkeit": "orange",
     "buchseite": 87,
@@ -1514,13 +1567,18 @@
     ],
     "didaktischerHinweis": "Lückendivisionen fordern flexibles Denken und die sichere Anwendung der Probe. Kinder müssen erkennen, dass Multiplikation als Umkehroperation die Lösung liefert. Entspricht S. 87, Aufg. 10.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Welche Ziffern fehlen?",
       "items": [
         {
-          "label": "1",
-          "frage": "Welche Ziffern fehlen?\n\na) 23_5 : 5 = 465 (eine Ziffer fehlt im Dividenden)\nb) 2___34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
-          "antwort": "a) 2.325 : 5 = 465 → fehlende Ziffer: 2"
+          "label": "a",
+          "frage": "23_5 : 5 = 465 (eine Ziffer fehlt im Dividenden)",
+          "antwort": "2.325 : 5 = 465 → fehlende Ziffer: 2"
+        },
+        {
+          "label": "b",
+          "frage": "2___34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
+          "antwort": "2.034 : 3 = 678 → fehlende Ziffer: 0"
         }
       ]
     }

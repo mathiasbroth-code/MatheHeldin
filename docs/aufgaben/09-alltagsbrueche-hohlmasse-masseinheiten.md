@@ -97,7 +97,7 @@ Das Zeichnen und Teilen von Flächen ist haptisch wertvoller als digital. Entspr
 
 ---
 titel: "Gefärbter Anteil als Bruch — Rechteck"
-typ: auswahl
+typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
@@ -257,7 +257,7 @@ Hier lernen Kinder zum ersten Mal, dass ein Bruchanteil auf verschiedene Weisen 
 
 ---
 titel: "Pizza gerecht verteilen — Anteile planen"
-typ: auswahl
+typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
@@ -300,7 +300,7 @@ Diese Aufgabe führt den Bruch als Ergebnis einer fairen Aufteilung ein. Entspri
 
 ---
 titel: "Brüche vergleichen — Welcher ist größer?"
-typ: auswahl
+typ: luecke
 thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 93
@@ -525,7 +525,7 @@ Verbindung von Brüchen und Hohlmaßen. Der Messbecher als visuelles Hilfsmittel
 
 ---
 titel: "Lücken füllen — Bruchteile multiplizieren"
-typ: lücke
+typ: luecke
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 94
@@ -638,7 +638,7 @@ Gemischte Schreibweise (l und ml) und reine Milliliter-Schreibweise umwandeln. D
 
 ---
 titel: "Vergleichen — Liter, Milliliter und Brüche"
-typ: auswahl
+typ: luecke
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 95
@@ -1109,7 +1109,7 @@ Einfache Sortieraufgabe, die das Ablesen und Vergleichen von Zahlen in einem Sac
 
 ---
 titel: "Virtueller Wasserverbrauch — Tabelle lesen"
-typ: auswahl
+typ: textaufgabe
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 97
@@ -1594,7 +1594,7 @@ Verknüpfung von Volumenberechnung und Hohlmaßen in einer alltagsnahen Aufgabe.
 
 ---
 titel: "Quader vergleichen — wer fasst mehr?"
-typ: auswahl
+typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: orange
 buchseite: 99
@@ -1696,7 +1696,7 @@ Offene Aufgabe mit mehreren Lösungen. Das Zerlegen in Faktoren trainiert Divisi
 
 ---
 titel: "Welche Maßeinheit passt? — zuordnen"
-typ: auswahl
+typ: luecke
 thema: "Maßeinheiten"
 schwierigkeit: gelb
 buchseite: 100
@@ -1806,7 +1806,7 @@ Fehlersuche fördert kritisches Denken und festigt die Zuordnung von Maßeinheit
 
 ---
 titel: "Richtige Maßeinheit einsetzen"
-typ: lücke
+typ: luecke
 thema: "Maßeinheiten"
 schwierigkeit: grün
 buchseite: 100
@@ -1922,7 +1922,7 @@ Alltagsvergleiche helfen, ein Gefühl für Gewichtsangaben zu entwickeln. Entspr
 
 ---
 titel: "Umrechnungstabelle ausfüllen — alle Größen"
-typ: lücke
+typ: luecke
 thema: "Maßeinheiten"
 schwierigkeit: grün
 buchseite: 101
@@ -2390,7 +2390,7 @@ Fermi-Schätzung, die die Größe einer Million erlebbar macht. Entspricht dem K
 
 ---
 titel: "Millionen-Quiz — Überschlagen und schätzen"
-typ: auswahl
+typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: orange
 buchseite: 103

@@ -995,7 +995,7 @@
     "stageId": "schriftlich-addieren",
     "digital": "voll",
     "aufgabenstellung": "Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.\n\na) 624 + 318 = 942 — Stimmt das?\nb) 457 + 186 = 634 — Stimmt das?\nc) 239 + 584 = 832 — Stimmt das?",
-    "loesung": "a) 624 + 318 = 942 ✓ Stimmt!\nb) 457 + 186 = 643 → Die 3 und 4 im Ergebnis sind vertauscht. Richtig: 643.\nc) 239 + 584 = 823 → Die 3 und 2 im Ergebnis sind vertauscht. Richtig: 823.",
+    "loesung": "a) Richtig — 624 + 318 = 942 ✓ Die Rechnung stimmt.\nb) Falsch — 457 + 186 = 643, nicht 634. Die 3 und 4 im Ergebnis sind vertauscht.\nc) Falsch — 239 + 584 = 823, nicht 832. Die 3 und 2 im Ergebnis sind vertauscht.",
     "loesungsweg": "Zuerst nachrechnen, ob das Ergebnis stimmt. Wenn nicht, die richtige Summe berechnen und schauen, welche zwei Ziffern vertauscht wurden.",
     "tipps": [
       "Rechne die Addition selbst nach. Beginne bei den Einern. Stimmt dein Ergebnis mit dem gezeigten überein?",
@@ -1018,19 +1018,19 @@
           "label": "a",
           "aussage": "624 + 318 = 942 — Stimmt das?",
           "richtig": true,
-          "erklaerung": "624 + 318 = 942 ✓ Stimmt!"
+          "erklaerung": "Richtig — 624 + 318 = 942 ✓ Die Rechnung stimmt."
         },
         {
           "label": "b",
           "aussage": "457 + 186 = 634 — Stimmt das?",
-          "richtig": true,
-          "erklaerung": "457 + 186 = 643 → Die 3 und 4 im Ergebnis sind vertauscht. Richtig: 643."
+          "richtig": false,
+          "erklaerung": "Falsch — 457 + 186 = 643, nicht 634. Die 3 und 4 im Ergebnis sind vertauscht."
         },
         {
           "label": "c",
           "aussage": "239 + 584 = 832 — Stimmt das?",
-          "richtig": true,
-          "erklaerung": "239 + 584 = 823 → Die 3 und 2 im Ergebnis sind vertauscht. Richtig: 823."
+          "richtig": false,
+          "erklaerung": "Falsch — 239 + 584 = 823, nicht 832. Die 3 und 2 im Ergebnis sind vertauscht."
         }
       ]
     }
@@ -1275,7 +1275,7 @@
     "stageId": "schriftlich-subtrahieren",
     "digital": "voll",
     "aufgabenstellung": "Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.\n\na) 856 - 293 = 536 — Stimmt das?\nb) 974 - 618 = 365 — Stimmt das?\nc) 1.435 - 278 = 1.175 — Stimmt das?",
-    "loesung": "a) 856 - 293 = 563 → Die 3 und 6 im Ergebnis sind vertauscht. Richtig: 563.\nb) 974 - 618 = 356 → Die 3 und 6 im Ergebnis sind vertauscht (365 → 356). Richtig: 356.\nc) 1.435 - 278 = 1.157 → Die 7 und 5 im Ergebnis sind vertauscht (1.175 → 1.157). Richtig: 1.157.",
+    "loesung": "a) Falsch — 856 - 293 = 563, nicht 536. Die 3 und 6 im Ergebnis sind vertauscht.\nb) Falsch — 974 - 618 = 356, nicht 365. Die 5 und 6 im Ergebnis sind vertauscht.\nc) Falsch — 1.435 - 278 = 1.157, nicht 1.175. Die 7 und 5 im Ergebnis sind vertauscht.",
     "loesungsweg": "Nachrechnen und das korrekte Ergebnis mit dem angegebenen vergleichen. Die vertauschten Ziffern finden.",
     "tipps": [
       "Rechne jede Aufgabe selbst nach. Fange bei den Einern an. Stimmt dein Ergebnis?",
@@ -1291,20 +1291,20 @@
         {
           "label": "a",
           "aussage": "856 - 293 = 536 — Stimmt das?",
-          "richtig": true,
-          "erklaerung": "856 - 293 = 563 → Die 3 und 6 im Ergebnis sind vertauscht. Richtig: 563."
+          "richtig": false,
+          "erklaerung": "Falsch — 856 - 293 = 563, nicht 536. Die 3 und 6 im Ergebnis sind vertauscht."
         },
         {
           "label": "b",
           "aussage": "974 - 618 = 365 — Stimmt das?",
-          "richtig": true,
-          "erklaerung": "974 - 618 = 356 → Die 3 und 6 im Ergebnis sind vertauscht (365 → 356). Richtig: 356."
+          "richtig": false,
+          "erklaerung": "Falsch — 974 - 618 = 356, nicht 365. Die 5 und 6 im Ergebnis sind vertauscht."
         },
         {
           "label": "c",
           "aussage": "1.435 - 278 = 1.175 — Stimmt das?",
-          "richtig": true,
-          "erklaerung": "1.435 - 278 = 1.157 → Die 7 und 5 im Ergebnis sind vertauscht (1.175 → 1.157). Richtig: 1.157."
+          "richtig": false,
+          "erklaerung": "Falsch — 1.435 - 278 = 1.157, nicht 1.175. Die 7 und 5 im Ergebnis sind vertauscht."
         }
       ]
     }

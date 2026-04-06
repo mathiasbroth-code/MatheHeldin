@@ -1368,7 +1368,7 @@ Die Entscheidung zwischen Kopfrechnen und schriftlichem Rechnen (S. 60, Aufg. 5)
 
 ---
 titel: "Fehlende Ziffern ergänzen — Detektivarbeit"
-typ: lücke
+typ: luecke
 thema: "Schriftliches Multiplizieren vertiefen"
 schwierigkeit: orange
 buchseite: 61
@@ -1591,7 +1591,7 @@ S. 62, Aufg. 3-4. Verschiedene Einer- und Zehnerziffern im Multiplikator erhöhe
 
 ---
 titel: "Tauschaufgaben — Welche Reihenfolge ist einfacher?"
-typ: auswahl
+typ: eingabe
 thema: "Schriftliches Multiplizieren mehrstelliger Zahlen"
 schwierigkeit: grün
 buchseite: 62
@@ -1811,7 +1811,7 @@ S. 63, Aufg. 9 enthält Aufgaben mit zweistelligem und dreistelligem Multiplikat
 
 ---
 titel: "Ziffernkarten-Rätsel — Multiplikation rückwärts"
-typ: lücke
+typ: luecke
 thema: "Schriftliches Multiplizieren mehrstelliger Zahlen"
 schwierigkeit: orange
 buchseite: 63

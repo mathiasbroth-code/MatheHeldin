@@ -9,7 +9,7 @@ Buchseiten: 46-53 | Themen: 4 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 titel: "Symmetrieachsen erkennen — Welche Figur ist symmetrisch?"
-typ: auswahl
+typ: wahr-falsch
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: gelb
 buchseite: 46
@@ -462,7 +462,7 @@ Wahr-Falsch-Aufgaben decken typische Fehlvorstellungen auf. Die häufigsten: „
 
 ---
 titel: "Senkrecht oder parallel? — Linienpaare erkennen"
-typ: auswahl
+typ: zuordnung
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: gelb
 buchseite: 48

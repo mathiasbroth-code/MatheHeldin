@@ -805,7 +805,7 @@
   },
   {
     "titel": "Vergleichen mit < und >",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Zahlen vergleichen und verändern",
     "schwierigkeit": "gelb",
     "buchseite": 22,
@@ -823,32 +823,35 @@
     ],
     "didaktischerHinweis": "Das stellenweise Vergleichen von links nach rechts ist die fundamentale Vergleichsstrategie. Bei e) tritt ein typischer Fehler auf: Kinder schauen manchmal auf die letzten Stellen (302 vs. 999) und denken, 890.999 sei größer.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Setze das richtige Zeichen ein: < oder >",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Setze das richtige Zeichen ein: < oder >",
+      "items": [
         {
-          "label": "A",
-          "text": "527.194 ○ 518.963"
+          "label": "a",
+          "frage": "527.194 ○ 518.963",
+          "antwort": "527.194 > 518.963"
         },
         {
-          "label": "B",
-          "text": "184.732 ○ 184.927"
+          "label": "b",
+          "frage": "184.732 ○ 184.927",
+          "antwort": "184.732 < 184.927"
         },
         {
-          "label": "C",
-          "text": "356.841 ○ 749.215"
+          "label": "c",
+          "frage": "356.841 ○ 749.215",
+          "antwort": "356.841 < 749.215"
         },
         {
-          "label": "D",
-          "text": "623.478 ○ 623.487"
+          "label": "d",
+          "frage": "623.478 ○ 623.487",
+          "antwort": "623.478 < 623.487"
         },
         {
-          "label": "E",
-          "text": "891.302 ○ 890.999"
+          "label": "e",
+          "frage": "891.302 ○ 890.999",
+          "antwort": "891.302 > 890.999"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1390,7 +1393,7 @@
   },
   {
     "titel": "Schätzstrategie wählen",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Große Anzahlen schätzen",
     "schwierigkeit": "gelb",
     "buchseite": 27,
@@ -1408,24 +1411,26 @@
     ],
     "didaktischerHinweis": "Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schätzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
+      "kontext": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
+      "items": [
         {
-          "label": "A",
-          "text": "Wie viele Linsen sind in einer Packung?"
+          "label": "a",
+          "frage": "Wie viele Linsen sind in einer Packung?",
+          "antwort": "B) Waage (10 g abwiegen, zählen, hochrechnen)"
         },
         {
-          "label": "B",
-          "text": "Wie viele Pflastersteine sind auf dem Schulhof?"
+          "label": "b",
+          "frage": "Wie viele Pflastersteine sind auf dem Schulhof?",
+          "antwort": "C) Raster (ein Quadrat zählen, Fläche berechnen)"
         },
         {
-          "label": "C",
-          "text": "Wie viele Gummibärchen sind in der Tüte?"
+          "label": "c",
+          "frage": "Wie viele Gummibärchen sind in der Tüte?",
+          "antwort": "A) Löffel oder D) Becher (eine Handvoll zählen, hochrechnen)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -2092,7 +2097,7 @@
   },
   {
     "titel": "Nachbar-Tausender — welcher ist näher?",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "orange",
     "buchseite": 30,
@@ -2110,36 +2115,40 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe ist die direkte Vorbereitung auf das Runden: Beim Runden auf Tausender wird zum näheren Nachbarn gerundet. Der Spezialfall 500 (genau in der Mitte) führt zur Regel \"bei 5 wird aufgerundet\".",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Bestimme die Nachbar-Tausender. Kreise den näheren Nachbarn ein.",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Bestimme die Nachbar-Tausender. Kreise den näheren Nachbarn ein.",
+      "items": [
         {
-          "label": "A",
-          "text": "34.280"
+          "label": "a",
+          "frage": "34.280",
+          "antwort": "34.000 ← (näher, Abstand 280) und 35.000 (Abstand 720)"
         },
         {
-          "label": "B",
-          "text": "78.619"
+          "label": "b",
+          "frage": "78.619",
+          "antwort": "78.000 und 79.000 ← (näher, Abstand 381 vs. 619)"
         },
         {
-          "label": "C",
-          "text": "156.750"
+          "label": "c",
+          "frage": "156.750",
+          "antwort": "156.000 und 157.000 ← (näher, Abstand 750 vs. 250)"
         },
         {
-          "label": "D",
-          "text": "503.400"
+          "label": "d",
+          "frage": "503.400",
+          "antwort": "503.000 ← (näher, Abstand 400) und 504.000 (Abstand 600)"
         },
         {
-          "label": "E",
-          "text": "67.500"
+          "label": "e",
+          "frage": "67.500",
+          "antwort": "67.000 und 68.000 — gleich weit (Abstand 500 = 500)"
         },
         {
-          "label": "F",
-          "text": "891.050"
+          "label": "f",
+          "frage": "891.050",
+          "antwort": "891.000 ← (näher, Abstand 50) und 892.000 (Abstand 950)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -2415,7 +2424,7 @@
   },
   {
     "titel": "Auf welche Stelle wurde gerundet?",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Runden",
     "schwierigkeit": "orange",
     "buchseite": 31,
@@ -2433,36 +2442,40 @@
     ],
     "didaktischerHinweis": "Diese Umkehr-Aufgabe erfordert ein tiefes Verständnis des Rundungsprozesses. Das Kind muss rückwärts denken: Vom Ergebnis auf die Methode schließen. Das stärkt das metakognitive Verständnis des Rundens.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Auf welche Stelle wurde gerundet?",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Auf welche Stelle wurde gerundet?",
+      "items": [
         {
-          "label": "A",
-          "text": "738.564 ≈ 740.000"
+          "label": "a",
+          "frage": "738.564 ≈ 740.000",
+          "antwort": "Zehntausender"
         },
         {
-          "label": "B",
-          "text": "291.823 ≈ 292.000"
+          "label": "b",
+          "frage": "291.823 ≈ 292.000",
+          "antwort": "Tausender"
         },
         {
-          "label": "C",
-          "text": "456.291 ≈ 456.300"
+          "label": "c",
+          "frage": "456.291 ≈ 456.300",
+          "antwort": "Hunderter"
         },
         {
-          "label": "D",
-          "text": "815.703 ≈ 816.000"
+          "label": "d",
+          "frage": "815.703 ≈ 816.000",
+          "antwort": "Tausender"
         },
         {
-          "label": "E",
-          "text": "523.847 ≈ 500.000"
+          "label": "e",
+          "frage": "523.847 ≈ 500.000",
+          "antwort": "Hunderttausender"
         },
         {
-          "label": "F",
-          "text": "649.218 ≈ 650.000"
+          "label": "f",
+          "frage": "649.218 ≈ 650.000",
+          "antwort": "Zehntausender"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -2678,7 +2691,7 @@
   },
   {
     "titel": "Gerundete Zahlen zuordnen — welche Zahl passt?",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "grün",
     "buchseite": 33,
@@ -2696,36 +2709,36 @@
     ],
     "didaktischerHinweis": "Die Umkehr-Aufgabe \"Welche Zahl ergibt gerundet X?\" erfordert das Verständnis des Rundungsintervalls. Das Kind lernt, dass viele verschiedene Zahlen auf dieselbe gerundete Zahl führen können — Runden ist nicht umkehrbar.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Eine Zahl wurde auf Zehntausender gerundet und ergibt 350.000. Welche der Zahlen könnte die Originalzahl sein?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Eine Zahl wurde auf Zehntausender gerundet und ergibt 350.000. Welche der Zahlen könnte die Originalzahl sein?",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "342.198"
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "356.400"
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "345.001"
         },
         {
-          "label": "D",
+          "label": "d",
           "text": "338.720"
         },
         {
-          "label": "E",
+          "label": "e",
           "text": "354.999"
         },
         {
-          "label": "F",
+          "label": "f",
           "text": "361.000"
         }
       ],
-      "richtigeIdx": 0
+      "choices": [],
+      "antworten": {}
     }
   },
   {

@@ -88,7 +88,7 @@
   },
   {
     "titel": "Gefärbter Anteil als Bruch — Rechteck",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Einfache Brüche",
     "schwierigkeit": "gelb",
     "buchseite": 92,
@@ -113,36 +113,40 @@
     "didaktischerHinweis": "Das Ablesen von Brüchen aus gefärbten Flächen trainiert das Grundverständnis für Zähler und Nenner. Entspricht S. 92, Aufg. 3.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Schau dir das Rechteck an. Es ist in gleich große Teile geteilt. Einige Teile sind gefärbt. Schreibe den gefärbten Anteil als Bruch.",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Schau dir das Rechteck an. Es ist in gleich große Teile geteilt. Einige Teile sind gefärbt. Schreibe den gefärbten Anteil als Bruch.",
+      "items": [
         {
-          "label": "A",
-          "text": "4 gleiche Teile, davon 1 gefärbt → ___"
+          "label": "a",
+          "frage": "4 gleiche Teile, davon 1 gefärbt → ___",
+          "antwort": "1/4"
         },
         {
-          "label": "B",
-          "text": "4 gleiche Teile, davon 3 gefärbt → ___"
+          "label": "b",
+          "frage": "4 gleiche Teile, davon 3 gefärbt → ___",
+          "antwort": "3/4"
         },
         {
-          "label": "C",
-          "text": "8 gleiche Teile, davon 1 gefärbt → ___"
+          "label": "c",
+          "frage": "8 gleiche Teile, davon 1 gefärbt → ___",
+          "antwort": "1/8"
         },
         {
-          "label": "D",
-          "text": "8 gleiche Teile, davon 5 gefärbt → ___"
+          "label": "d",
+          "frage": "8 gleiche Teile, davon 5 gefärbt → ___",
+          "antwort": "5/8"
         },
         {
-          "label": "E",
-          "text": "2 gleiche Teile, davon 1 gefärbt → ___"
+          "label": "e",
+          "frage": "2 gleiche Teile, davon 1 gefärbt → ___",
+          "antwort": "1/2"
         },
         {
-          "label": "F",
-          "text": "8 gleiche Teile, davon 7 gefärbt → ___"
+          "label": "f",
+          "frage": "8 gleiche Teile, davon 7 gefärbt → ___",
+          "antwort": "7/8"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -264,7 +268,7 @@
   },
   {
     "titel": "Pizza gerecht verteilen — Anteile planen",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Einfache Brüche",
     "schwierigkeit": "grün",
     "buchseite": 93,
@@ -289,25 +293,25 @@
     "didaktischerHinweis": "Diese Aufgabe führt den Bruch als Ergebnis einer fairen Aufteilung ein. Entspricht S. 93, Aufg. 6-8.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "3 Pizzen sollen gerecht an 4 Kinder verteilt werden. Jedes Kind soll gleich viel bekommen. Wie viel bekommt jedes Kind?",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "3 Pizzen sollen gerecht an 4 Kinder verteilt werden. Jedes Kind soll gleich viel bekommen. Wie viel bekommt jedes Kind?",
+      "items": [
         {
-          "label": "A",
-          "text": "Jedes Kind bekommt ___ Viertel."
+          "label": "a",
+          "frage": "Jedes Kind bekommt ___ Viertel.",
+          "antwort": "3 Viertel"
         },
         {
-          "label": "B",
-          "text": "Schreibe als Bruch: Jedes Kind bekommt ___ der Gesamtmenge."
+          "label": "b",
+          "frage": "Schreibe als Bruch: Jedes Kind bekommt ___ der Gesamtmenge.",
+          "antwort": "3/4 einer Pizza"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
     "titel": "Brüche vergleichen — Welcher ist größer?",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Einfache Brüche",
     "schwierigkeit": "orange",
     "buchseite": 93,
@@ -332,32 +336,35 @@
     "didaktischerHinweis": "Das Vergleichen von Brüchen ist eine Vertiefungsaufgabe, die das Verständnis für die Bruchgröße festigt. Entspricht weiterführenden Aufgaben zu S. 92-93.",
     "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =",
+      "items": [
         {
-          "label": "A",
-          "text": "1/2 ___ 1/4"
+          "label": "a",
+          "frage": "1/2 ___ 1/4",
+          "antwort": "1/2 > 1/4"
         },
         {
-          "label": "B",
-          "text": "3/4 ___ 1/2"
+          "label": "b",
+          "frage": "3/4 ___ 1/2",
+          "antwort": "3/4 > 1/2"
         },
         {
-          "label": "C",
-          "text": "1/8 ___ 1/4"
+          "label": "c",
+          "frage": "1/8 ___ 1/4",
+          "antwort": "1/8 < 1/4"
         },
         {
-          "label": "D",
-          "text": "7/8 ___ 3/4"
+          "label": "d",
+          "frage": "7/8 ___ 3/4",
+          "antwort": "7/8 > 3/4"
         },
         {
-          "label": "E",
-          "text": "2/4 ___ 4/8"
+          "label": "e",
+          "frage": "2/4 ___ 4/8",
+          "antwort": "2/4 = 4/8"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -571,7 +578,7 @@
   },
   {
     "titel": "Lücken füllen — Bruchteile multiplizieren",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Liter und Milliliter",
     "schwierigkeit": "grün",
     "buchseite": 94,
@@ -595,13 +602,38 @@
     ],
     "didaktischerHinweis": "Umkehraufgaben festigen das Verständnis für die Beziehung zwischen Milliliter-Mengen und dem vollen Liter. Entspricht S. 94, Aufg. 4-5.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Setze die fehlende Zahl ein.",
       "items": [
         {
-          "label": "1",
-          "frage": "Setze die fehlende Zahl ein.\n\na) ▢ · 500 ml = 1 l\nb) ▢ · 250 ml = 1 l\nc) ▢ · 125 ml = 1 l\nd) 1.000 ml : ▢ = 500 ml\ne) 1.000 ml : ▢ = 250 ml\nf) 1.000 ml : ▢ = 125 ml",
-          "antwort": "a) 2"
+          "label": "a",
+          "frage": "▢ · 500 ml = 1 l",
+          "antwort": "2"
+        },
+        {
+          "label": "b",
+          "frage": "▢ · 250 ml = 1 l",
+          "antwort": "4"
+        },
+        {
+          "label": "c",
+          "frage": "▢ · 125 ml = 1 l",
+          "antwort": "8"
+        },
+        {
+          "label": "d",
+          "frage": "1.000 ml : ▢ = 500 ml",
+          "antwort": "2"
+        },
+        {
+          "label": "e",
+          "frage": "1.000 ml : ▢ = 250 ml",
+          "antwort": "4"
+        },
+        {
+          "label": "f",
+          "frage": "1.000 ml : ▢ = 125 ml",
+          "antwort": "8"
         }
       ]
     }
@@ -671,7 +703,7 @@
   },
   {
     "titel": "Vergleichen — Liter, Milliliter und Brüche",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Liter und Milliliter",
     "schwierigkeit": "grün",
     "buchseite": 95,
@@ -695,36 +727,40 @@
     ],
     "didaktischerHinweis": "Das Vergleichen unterschiedlicher Schreibweisen festigt die Umrechnungskompetenz. Entspricht S. 95, Aufg. 12.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Setze das richtige Zeichen ein: <, > oder =",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Setze das richtige Zeichen ein: <, > oder =",
+      "items": [
         {
-          "label": "A",
-          "text": "725 ml ▢ 3/4 l"
+          "label": "a",
+          "frage": "725 ml ▢ 3/4 l",
+          "antwort": "725 ml < 3/4 l (denn 3/4 l = 750 ml)"
         },
         {
-          "label": "B",
-          "text": "1.001 ml ▢ 1 l"
+          "label": "b",
+          "frage": "1.001 ml ▢ 1 l",
+          "antwort": "1.001 ml > 1 l (denn 1 l = 1.000 ml)"
         },
         {
-          "label": "C",
-          "text": "1 1/2 l ▢ 2.000 ml"
+          "label": "c",
+          "frage": "1 1/2 l ▢ 2.000 ml",
+          "antwort": "1 1/2 l < 2.000 ml (denn 1 1/2 l = 1.500 ml)"
         },
         {
-          "label": "D",
-          "text": "750 ml ▢ 1/2 l"
+          "label": "d",
+          "frage": "750 ml ▢ 1/2 l",
+          "antwort": "750 ml > 1/2 l (denn 1/2 l = 500 ml)"
         },
         {
-          "label": "E",
-          "text": "250 ml ▢ 1/4 l"
+          "label": "e",
+          "frage": "250 ml ▢ 1/4 l",
+          "antwort": "250 ml = 1/4 l (denn 1/4 l = 250 ml)"
         },
         {
-          "label": "F",
-          "text": "0,330 l ▢ 1/2 l"
+          "label": "f",
+          "frage": "0,330 l ▢ 1/2 l",
+          "antwort": "0,330 l < 1/2 l (denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1090,7 +1126,7 @@
   },
   {
     "titel": "Virtueller Wasserverbrauch — Tabelle lesen",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Virtueller Wasserverbrauch",
     "schwierigkeit": "gelb",
     "buchseite": 97,
@@ -1108,24 +1144,26 @@
     ],
     "didaktischerHinweis": "Tabellen lesen und vergleichen im Sachkontext. Der Begriff \"virtueller Wasserverbrauch\" wird eingeführt. Entspricht S. 97, Aufg. 1.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Virtueller Wasserverbrauch (= Wasserfußabdruck) ist die Menge Wasser, die zur Herstellung eines Produkts benötigt wird.\n\nLies die Tabelle und beantworte die Fragen.\n\n| Lebensmittel | Wasserfußabdruck |\n|-------------|-----------------|\n| 1 kg Kartoffeln | 290 l |\n| 1 kg Äpfel | 800 l |\n| 1 kg Möhren | 130 l |\n| 1 kg Nudeln | 1.850 l |\n| 1 kg Käse | 5.000 l |\n| 1 kg Schokolade | 17.000 l |",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Virtueller Wasserverbrauch (= Wasserfußabdruck) ist die Menge Wasser, die zur Herstellung eines Produkts benötigt wird.\n\nLies die Tabelle und beantworte die Fragen.\n\n| Lebensmittel | Wasserfußabdruck |\n|-------------|-----------------|\n| 1 kg Kartoffeln | 290 l |\n| 1 kg Äpfel | 800 l |\n| 1 kg Möhren | 130 l |\n| 1 kg Nudeln | 1.850 l |\n| 1 kg Käse | 5.000 l |\n| 1 kg Schokolade | 17.000 l |",
+      "kontext": "Virtueller Wasserverbrauch (= Wasserfußabdruck) ist die Menge Wasser, die zur Herstellung eines Produkts benötigt wird.\n\nLies die Tabelle und beantworte die Fragen.\n\n| Lebensmittel | Wasserfußabdruck |\n|-------------|-----------------|\n| 1 kg Kartoffeln | 290 l |\n| 1 kg Äpfel | 800 l |\n| 1 kg Möhren | 130 l |\n| 1 kg Nudeln | 1.850 l |\n| 1 kg Käse | 5.000 l |\n| 1 kg Schokolade | 17.000 l |",
+      "items": [
         {
-          "label": "A",
-          "text": "Welches Lebensmittel hat den größten Wasserfußabdruck?"
+          "label": "a",
+          "frage": "Welches Lebensmittel hat den größten Wasserfußabdruck?",
+          "antwort": "Schokolade (17.000 l)"
         },
         {
-          "label": "B",
-          "text": "Welches Lebensmittel hat den kleinsten Wasserfußabdruck?"
+          "label": "b",
+          "frage": "Welches Lebensmittel hat den kleinsten Wasserfußabdruck?",
+          "antwort": "Möhren (130 l)"
         },
         {
-          "label": "C",
-          "text": "Wie viel mehr Wasser braucht man für 1 kg Käse als für 1 kg Kartoffeln?"
+          "label": "c",
+          "frage": "Wie viel mehr Wasser braucht man für 1 kg Käse als für 1 kg Kartoffeln?",
+          "antwort": "5.000 - 290 = 4.710 l"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1481,7 +1519,7 @@
   },
   {
     "titel": "Quader vergleichen — wer fasst mehr?",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Rauminhalt",
     "schwierigkeit": "orange",
     "buchseite": 99,
@@ -1499,20 +1537,21 @@
     ],
     "didaktischerHinweis": "Vergleich zweier Quader schult die Volumenberechnung und die Umrechnung cm³ → l. Entspricht S. 99, Aufg. 7.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Zwei Quader sollen mit Wasser gefüllt werden.\n\nQuader A: Länge 50 cm, Breite 30 cm, Höhe 60 cm\nQuader B: Länge 80 cm, Breite 50 cm, Höhe 20 cm",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Zwei Quader sollen mit Wasser gefüllt werden.\n\nQuader A: Länge 50 cm, Breite 30 cm, Höhe 60 cm\nQuader B: Länge 80 cm, Breite 50 cm, Höhe 20 cm",
+      "kontext": "Zwei Quader sollen mit Wasser gefüllt werden.\n\nQuader A: Länge 50 cm, Breite 30 cm, Höhe 60 cm\nQuader B: Länge 80 cm, Breite 50 cm, Höhe 20 cm",
+      "items": [
         {
-          "label": "A",
-          "text": "In welchen Quader passt mehr Wasser?"
+          "label": "a",
+          "frage": "In welchen Quader passt mehr Wasser?",
+          "antwort": "In Quader A passt mehr."
         },
         {
-          "label": "B",
-          "text": "Um wie viel Liter mehr?"
+          "label": "b",
+          "frage": "Um wie viel Liter mehr?",
+          "antwort": "90 - 80 = 10 l mehr."
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1549,7 +1588,7 @@
   },
   {
     "titel": "Welche Maßeinheit passt? — zuordnen",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Maßeinheiten",
     "schwierigkeit": "gelb",
     "buchseite": 100,
@@ -1567,40 +1606,45 @@
     ],
     "didaktischerHinweis": "Zuordnungsaufgabe, die Größenvorstellungen trainiert. Entspricht S. 100, Aufg. 1-3.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Welche Maßeinheit passt? Wähle aus: km, m, cm, mm, kg, g, l, ml, h, min, s.",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Welche Maßeinheit passt? Wähle aus: km, m, cm, mm, kg, g, l, ml, h, min, s.",
+      "items": [
         {
-          "label": "A",
-          "text": "Eine Tafel Schokolade wiegt 100 ___."
+          "label": "a",
+          "frage": "Eine Tafel Schokolade wiegt 100 ___.",
+          "antwort": "g"
         },
         {
-          "label": "B",
-          "text": "Ein Tag hat 24 ___."
+          "label": "b",
+          "frage": "Ein Tag hat 24 ___.",
+          "antwort": "h"
         },
         {
-          "label": "C",
-          "text": "Eine Giraffe wiegt 750 ___."
+          "label": "c",
+          "frage": "Eine Giraffe wiegt 750 ___.",
+          "antwort": "kg"
         },
         {
-          "label": "D",
-          "text": "Ali läuft 100 ___ in 18 ___."
+          "label": "d",
+          "frage": "Ali läuft 100 ___ in 18 ___.",
+          "antwort": "m, s"
         },
         {
-          "label": "E",
-          "text": "Justus ist 141 ___ groß."
+          "label": "e",
+          "frage": "Justus ist 141 ___ groß.",
+          "antwort": "cm"
         },
         {
-          "label": "F",
-          "text": "Von Hamburg nach München sind es ungefähr 800 ___."
+          "label": "f",
+          "frage": "Von Hamburg nach München sind es ungefähr 800 ___.",
+          "antwort": "km"
         },
         {
-          "label": "G",
-          "text": "Die Schule ist 300 ___ von Jettes Zuhause entfernt."
+          "label": "g",
+          "frage": "Die Schule ist 300 ___ von Jettes Zuhause entfernt.",
+          "antwort": "m"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1667,7 +1711,7 @@
   },
   {
     "titel": "Richtige Maßeinheit einsetzen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Maßeinheiten",
     "schwierigkeit": "grün",
     "buchseite": 100,
@@ -1685,13 +1729,43 @@
     ],
     "didaktischerHinweis": "Kontextbezogene Lückenaufgabe trainiert Größenvorstellungen für verschiedene Bereiche. Entspricht S. 100, Aufg. 3.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Ergänze die richtige Maßeinheit.",
       "items": [
         {
-          "label": "1",
-          "frage": "Ergänze die richtige Maßeinheit.\n\na) Ein kleines Auto wiegt ungefähr 1.000 ___.\nb) Die Laufbahn um den Sportplatz ist 400 ___ lang.\nc) Ein Grundschulkind braucht täglich etwa 10 ___ Schlaf.\nd) Ein Marienkäfer ist 7 ___ groß.\ne) Ein großes Lineal ist 30 ___ lang.\nf) In der Schule dauert eine Doppelstunde Sport 90 ___.\ng) Die Zugspitze, der höchste Berg in Deutschland, ist knapp 3 ___ hoch.",
-          "antwort": "a) kg"
+          "label": "a",
+          "frage": "Ein kleines Auto wiegt ungefähr 1.000 ___.",
+          "antwort": "kg"
+        },
+        {
+          "label": "b",
+          "frage": "Die Laufbahn um den Sportplatz ist 400 ___ lang.",
+          "antwort": "m"
+        },
+        {
+          "label": "c",
+          "frage": "Ein Grundschulkind braucht täglich etwa 10 ___ Schlaf.",
+          "antwort": "h (Stunden)"
+        },
+        {
+          "label": "d",
+          "frage": "Ein Marienkäfer ist 7 ___ groß.",
+          "antwort": "mm"
+        },
+        {
+          "label": "e",
+          "frage": "Ein großes Lineal ist 30 ___ lang.",
+          "antwort": "cm"
+        },
+        {
+          "label": "f",
+          "frage": "In der Schule dauert eine Doppelstunde Sport 90 ___.",
+          "antwort": "min"
+        },
+        {
+          "label": "g",
+          "frage": "Die Zugspitze, der höchste Berg in Deutschland, ist knapp 3 ___ hoch.",
+          "antwort": "km"
         }
       ]
     }
@@ -1773,7 +1847,7 @@
   },
   {
     "titel": "Umrechnungstabelle ausfüllen — alle Größen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Maßeinheiten",
     "schwierigkeit": "grün",
     "buchseite": 101,
@@ -1791,13 +1865,68 @@
     ],
     "didaktischerHinweis": "Zusammenfassende Übersicht aller Umrechnungen aus dem Kapitel. Die Bruchteile verknüpfen Thema 1 (Brüche) mit den Maßeinheiten. Entspricht S. 101, Aufg. 5.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Fülle die Lücken in den Umrechnungstabellen aus.\n\n**Längen:**",
       "items": [
         {
-          "label": "1",
-          "frage": "Fülle die Lücken in den Umrechnungstabellen aus.\n\n**Längen:**\na) 1 cm = ___ mm\nb) 1 dm = ___ cm\nc) 1 m = ___ cm\nd) 1 km = ___ m\n\n**Gewichte:**\ne) 1 kg = ___ g\nf) 1/2 kg = ___ g\ng) 1/4 kg = ___ g\nh) 1 t = ___ kg\n\n**Rauminhalt:**\ni) 1 l = ___ ml\nj) 1/2 l = ___ ml\nk) 1/4 l = ___ ml\nl) 1/8 l = ___ ml",
-          "antwort": "a) 10 mm"
+          "label": "a",
+          "frage": "1 cm = ___ mm",
+          "antwort": "10 mm"
+        },
+        {
+          "label": "b",
+          "frage": "1 dm = ___ cm",
+          "antwort": "10 cm"
+        },
+        {
+          "label": "c",
+          "frage": "1 m = ___ cm",
+          "antwort": "100 cm"
+        },
+        {
+          "label": "d",
+          "frage": "1 km = ___ m",
+          "antwort": "1.000 m"
+        },
+        {
+          "label": "e",
+          "frage": "1 kg = ___ g",
+          "antwort": "1.000 g"
+        },
+        {
+          "label": "f",
+          "frage": "1/2 kg = ___ g",
+          "antwort": "500 g"
+        },
+        {
+          "label": "g",
+          "frage": "1/4 kg = ___ g",
+          "antwort": "250 g"
+        },
+        {
+          "label": "h",
+          "frage": "1 t = ___ kg",
+          "antwort": "1.000 kg"
+        },
+        {
+          "label": "i",
+          "frage": "1 l = ___ ml",
+          "antwort": "1.000 ml"
+        },
+        {
+          "label": "j",
+          "frage": "1/2 l = ___ ml",
+          "antwort": "500 ml"
+        },
+        {
+          "label": "k",
+          "frage": "1/4 l = ___ ml",
+          "antwort": "250 ml"
+        },
+        {
+          "label": "l",
+          "frage": "1/8 l = ___ ml",
+          "antwort": "125 ml"
         }
       ]
     }
@@ -2205,7 +2334,7 @@
   },
   {
     "titel": "Millionen-Quiz — Überschlagen und schätzen",
-    "typ": "auswahl",
+    "typ": "textaufgabe",
     "thema": "Millionen-Fragen",
     "schwierigkeit": "orange",
     "buchseite": 103,
@@ -2223,28 +2352,31 @@
     ],
     "didaktischerHinweis": "Überschlags-Aufgabe, die alle Umrechnungen des Kapitels zusammenführt und das Verständnis für die Größe \"eine Million\" vertieft. Entspricht S. 102-103.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Was ist näher an 1.000.000? Kreuze an.",
-      "optionen": [
+      "typ": "textaufgabe",
+      "anweisung": "Was ist näher an 1.000.000? Kreuze an.",
+      "kontext": "Was ist näher an 1.000.000? Kreuze an.",
+      "items": [
         {
-          "label": "A",
-          "text": "1.000.000 mm: Ist das näher an 1 km oder an 10 km?"
+          "label": "a",
+          "frage": "1.000.000 mm: Ist das näher an 1 km oder an 10 km?",
+          "antwort": "1 km (1.000.000 mm = 1.000 m = 1 km)"
         },
         {
-          "label": "B",
-          "text": "1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?"
+          "label": "b",
+          "frage": "1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?",
+          "antwort": "1.000 kg (1.000.000 g = 1.000 kg)"
         },
         {
-          "label": "C",
-          "text": "1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?"
+          "label": "c",
+          "frage": "1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?",
+          "antwort": "1.000 l (1.000.000 ml = 1.000 l)"
         },
         {
-          "label": "D",
-          "text": "1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?"
+          "label": "d",
+          "frage": "1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?",
+          "antwort": "10 Tage (1.000.000 s ≈ 11,6 Tage)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {

@@ -705,7 +705,7 @@ Erweiterung auf drei Würfel: Der Ergebnisraum verschiebt sich (3 bis 18 statt 2
 
 ---
 titel: "Faire und unfaire Spielregeln"
-typ: auswahl
+typ: wahr-falsch
 thema: "Alles Zufall?"
 schwierigkeit: grün
 buchseite: 75
@@ -943,7 +943,7 @@ Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre
 
 ---
 titel: "Häufige und seltene Buchstaben — Vermutung"
-typ: auswahl
+typ: eingabe
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -1184,7 +1184,7 @@ Säulendiagramme sind das zentrale Visualisierungswerkzeug für Häufigkeiten. D
 
 ---
 titel: "Diagramm ablesen — Vergleichende Aussagen"
-typ: auswahl
+typ: wahr-falsch
 thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76

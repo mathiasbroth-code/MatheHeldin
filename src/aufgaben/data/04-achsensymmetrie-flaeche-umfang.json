@@ -1,7 +1,7 @@
 [
   {
     "titel": "Symmetrieachsen erkennen — Welche Figur ist symmetrisch?",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Achsensymmetrische Bilder",
     "schwierigkeit": "gelb",
     "buchseite": 46,
@@ -19,32 +19,40 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das visuelle Erkennen von Symmetrieachsen an vertrauten Formen (Buchstaben). Kinder sollen lernen, Symmetrie nicht nur zu „fühlen\", sondern systematisch zu prüfen (Spiegelprobe, Faltprobe).",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Schau dir die Buchstaben an. Welche davon sind achsensymmetrisch?",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "Schau dir die Buchstaben an. Welche davon sind achsensymmetrisch?",
+      "items": [
         {
-          "label": "A",
-          "text": "A"
+          "label": "a",
+          "aussage": "A",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "B",
-          "text": "B"
+          "label": "b",
+          "aussage": "B",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "C",
-          "text": "F"
+          "label": "c",
+          "aussage": "F",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "D",
-          "text": "M"
+          "label": "d",
+          "aussage": "M",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "E",
-          "text": "S"
+          "label": "e",
+          "aussage": "S",
+          "richtig": true,
+          "erklaerung": ""
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -434,7 +442,7 @@
   },
   {
     "titel": "Senkrecht oder parallel? — Linienpaare erkennen",
-    "typ": "auswahl",
+    "typ": "zuordnung",
     "thema": "Zeichnen mit dem Geodreieck",
     "schwierigkeit": "gelb",
     "buchseite": 48,
@@ -452,24 +460,24 @@
     ],
     "didaktischerHinweis": "Diese Grundlagenaufgabe sichert die Begriffe „senkrecht\" und „parallel\", die auf S. 48 im Buch eingeführt werden. Ohne Geodreieck kann das Kind die Begriffe visuell üben.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?",
-      "optionen": [
+      "typ": "zuordnung",
+      "anweisung": "Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?",
+      "items": [
         {
-          "label": "A",
+          "label": "a",
           "text": "Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen → senkrecht oder parallel?"
         },
         {
-          "label": "B",
+          "label": "b",
           "text": "Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben → senkrecht oder parallel?"
         },
         {
-          "label": "C",
+          "label": "c",
           "text": "Zwei Linien, die sich in einem spitzen Winkel kreuzen → senkrecht oder parallel?"
         }
       ],
-      "richtigeIdx": 0
+      "choices": [],
+      "antworten": {}
     }
   },
   {

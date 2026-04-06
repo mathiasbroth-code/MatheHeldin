@@ -582,7 +582,7 @@ Hier gibt es bewusst keinen "einzig richtigen" Weg. Die verschiedenen Rechenwege
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Umkehraufgabe"
-typ: lücke
+typ: luecke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: gelb
 buchseite: 80
@@ -962,7 +962,7 @@ Vierstellige Dividenden erfordern größere Zerlegungsschritte und ein sicheres 
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Vierstellige Zahlen"
-typ: lücke
+typ: luecke
 thema: "Halbschriftliches Dividieren vertiefen"
 schwierigkeit: grün
 buchseite: 83
@@ -1008,7 +1008,7 @@ Umkehraufgaben mit großen Zahlen vertiefen den Zusammenhang Multiplikation/Divi
 
 ---
 titel: "Teilbarkeit durch 2, 5 und 10 erkennen"
-typ: auswahl
+typ: wahr-falsch
 thema: "Teilbarkeitsregeln"
 schwierigkeit: gelb
 buchseite: 84
@@ -1020,20 +1020,20 @@ merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten b
 ---
 
 ### Aufgabenstellung
-Welche Aufgaben lassen sich ohne Rest teilen? Schau dir die Einerstelle an.
+Geht die Division ohne Rest auf? Schau dir die Einerstelle an.
 
-a) 178 : 5
-b) 1.030 : 5
-c) 716 : 2
-d) 365 : 5
-e) 977 : 2
+a) 178 : 5 geht ohne Rest auf.
+b) 1.030 : 5 geht ohne Rest auf.
+c) 716 : 2 geht ohne Rest auf.
+d) 365 : 5 geht ohne Rest auf.
+e) 977 : 2 geht ohne Rest auf.
 
 ### Lösung
-a) nicht teilbar (Einerstelle 8 — weder 0 noch 5)
-b) teilbar (1.030 : 5 = 206, Einerstelle 0)
-c) teilbar (716 : 2 = 358, Einerstelle 6 ist gerade)
-d) teilbar (365 : 5 = 73, Einerstelle 5)
-e) nicht teilbar (Einerstelle 7 ist ungerade)
+a) Falsch — Einerstelle 8 ist weder 0 noch 5, also nicht durch 5 teilbar.
+b) Richtig — 1.030 : 5 = 206, Einerstelle 0.
+c) Richtig — 716 : 2 = 358, Einerstelle 6 ist gerade.
+d) Richtig — 365 : 5 = 73, Einerstelle 5.
+e) Falsch — Einerstelle 7 ist ungerade, also nicht durch 2 teilbar.
 
 ### Lösungsweg
 Die Regeln aus dem Merkwissen-Video "Teilbar durch 2, 5, 10":
@@ -1059,7 +1059,7 @@ Die Teilbarkeitsregeln für 2, 5 und 10 basieren auf der Einerstelle und sind f�
 
 ---
 titel: "Fehlende Einerstelle — Teilbar machen"
-typ: lücke
+typ: luecke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: grün
 buchseite: 84
@@ -1197,7 +1197,7 @@ Die Quersummenregel für 9 (und 3) ist ein wichtiges Werkzeug zur Teilbarkeitspr
 
 ---
 titel: "Fehlende Einerstelle für Teilbarkeit durch 9"
-typ: lücke
+typ: luecke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: orange
 buchseite: 85
@@ -1303,7 +1303,7 @@ Die Tabelle macht den Zusammenhang zwischen Teilbarkeit durch 3 und 9 sichtbar. 
 
 ---
 titel: "Fehlende Einerstelle — Teilbar durch 3 und/oder 9"
-typ: lücke
+typ: luecke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: orange
 buchseite: 85
@@ -1584,7 +1584,7 @@ Die Probe durch Multiplikation ist ein zentrales Kontrollwerkzeug. Kinder sollen
 
 ---
 titel: "Welche Ziffern fehlen? — Lückendivision"
-typ: lücke
+typ: luecke
 thema: "Schriftliches Dividieren"
 schwierigkeit: orange
 buchseite: 87

@@ -1525,7 +1525,7 @@ Hier ist die Zerlegung nicht mehr so offensichtlich (76 = 40 + 36, nicht 70 + 6)
 
 ---
 titel: "Halbschriftlich — Lücke im Zerlegungsweg"
-typ: lücke
+typ: luecke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: gelb
 buchseite: 80
@@ -1670,7 +1670,7 @@ Zeigt explizit, dass es mehrere korrekte Rechenwege gibt. Fördert Flexibilität
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Umkehren"
-typ: lücke
+typ: luecke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: grün
 buchseite: 80
@@ -2095,7 +2095,7 @@ Muster erkennen: "Faktor 10 beim Dividenden → Faktor 10 beim Quotienten". Vert
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Große Zahlen"
-typ: lücke
+typ: luecke
 thema: "Halbschriftliches Dividieren vertiefen"
 schwierigkeit: orange
 buchseite: 83
@@ -2433,7 +2433,7 @@ Explizite Übung zum Erkennen und Notieren der Null. Zwei verschiedene Situation
 
 ---
 titel: "Fehlende Ziffern finden — Lückendivision"
-typ: lücke
+typ: luecke
 thema: "Schriftliches Dividieren"
 schwierigkeit: grün
 buchseite: 87

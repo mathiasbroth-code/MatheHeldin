@@ -139,7 +139,7 @@
   },
   {
     "titel": "Ergänzen auf glatte Zahlen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 35,
@@ -157,13 +157,28 @@
     ],
     "didaktischerHinweis": "Das Ergänzen auf glatte Zahlen trainiert das Verständnis für den Zusammenhang zwischen Addition und Subtraktion. Die Zahlenstrahl-Vorstellung hilft visuellen Lernern, den Abstand zu sehen.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Ergänze. Welche Zahl fehlt?",
       "items": [
         {
-          "label": "1",
-          "frage": "Ergänze. Welche Zahl fehlt?\n\na) 36.200 + ▢ = 37.000\nb) 37.000 + ▢ = 100.000\nc) 471.500 + ▢ = 472.000\nd) 472.000 + ▢ = 1.000.000",
-          "antwort": "a) 800"
+          "label": "a",
+          "frage": "36.200 + ▢ = 37.000",
+          "antwort": "800"
+        },
+        {
+          "label": "b",
+          "frage": "37.000 + ▢ = 100.000",
+          "antwort": "63.000"
+        },
+        {
+          "label": "c",
+          "frage": "471.500 + ▢ = 472.000",
+          "antwort": "500"
+        },
+        {
+          "label": "d",
+          "frage": "472.000 + ▢ = 1.000.000",
+          "antwort": "528.000"
         }
       ]
     }
@@ -515,7 +530,7 @@
   },
   {
     "titel": "ANNA-Zahlen erkennen",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "ANNA-Zahlen",
     "schwierigkeit": "gelb",
     "buchseite": 37,
@@ -533,36 +548,46 @@
     ],
     "didaktischerHinweis": "ANNA-Zahlen sind ein motivierendes Muster, das zum Entdecken einlädt. Das Kind lernt, Zahlmuster zu erkennen und systematisch zu prüfen.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "ANNA-Zahlen haben die Form ABBA — die erste und letzte Ziffer sind gleich, die mittleren beiden Ziffern sind gleich.\n\nWelche dieser Zahlen sind ANNA-Zahlen?",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "ANNA-Zahlen haben die Form ABBA — die erste und letzte Ziffer sind gleich, die mittleren beiden Ziffern sind gleich.\n\nWelche dieser Zahlen sind ANNA-Zahlen?",
+      "items": [
         {
-          "label": "A",
-          "text": "6.336"
+          "label": "a",
+          "aussage": "6.336",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "B",
-          "text": "4.554"
+          "label": "b",
+          "aussage": "4.554",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "C",
-          "text": "2.332"
+          "label": "c",
+          "aussage": "2.332",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "D",
-          "text": "7.887"
+          "label": "d",
+          "aussage": "7.887",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "E",
-          "text": "5.135"
+          "label": "e",
+          "aussage": "5.135",
+          "richtig": true,
+          "erklaerung": ""
         },
         {
-          "label": "F",
-          "text": "8.118"
+          "label": "f",
+          "aussage": "8.118",
+          "richtig": true,
+          "erklaerung": ""
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -613,7 +638,7 @@
   },
   {
     "titel": "Ergebnisse von ANNA-Subtraktionen vergleichen",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "ANNA-Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 37,
@@ -631,20 +656,15 @@
     ],
     "didaktischerHinweis": "Diese Entdeckungsaufgabe fördert das mathematische Staunen. Das Kind erlebt, dass hinter Zahlenmustern Gesetzmäßigkeiten stecken — eine frühe Erfahrung mit algebraischem Denken.",
     "parsed": {
-      "typ": "auswahl",
+      "typ": "eingabe",
       "anweisung": "",
-      "frageText": "Welche ANNA-Subtraktionen ergeben das gleiche Ergebnis? Ordne zu.",
-      "optionen": [
+      "items": [
         {
-          "label": "A",
-          "text": "Aufgaben:"
-        },
-        {
-          "label": "B",
-          "text": "Ergebnisse:"
+          "label": "1",
+          "frage": "Welche ANNA-Subtraktionen ergeben das gleiche Ergebnis? Ordne zu.\n\nAufgaben:\n- 7.227 − 2.772\n- 9.449 − 4.994\n- 8.338 − 3.883\n- 6.116 − 1.661\n\nErgebnisse:\n- A) 4.455\n- B) 4.455\n- C) 4.455\n- D) 4.455",
+          "antwort": "Alle vier Aufgaben ergeben 4.455!"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1775,7 +1795,7 @@
   },
   {
     "titel": "Klammern setzen, damit das Ergebnis stimmt",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Rechenregeln",
     "schwierigkeit": "orange",
     "buchseite": 43,
@@ -1793,20 +1813,35 @@
     ],
     "didaktischerHinweis": "Das rückwärtige Klammern-Setzen fördert tiefes Verständnis der Rechenregeln. Das Kind muss die Wirkung der Klammer verstehen und kreativ einsetzen — eine höhere kognitive Anforderung.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Setze die Klammern so, dass das Ergebnis stimmt.",
       "items": [
         {
-          "label": "1",
-          "frage": "Setze die Klammern so, dass das Ergebnis stimmt.\n\na) 90 + 30 · 4 = 480\nb) 500 : 10 + 40 = 10\nc) 50 + 60 · 8 = 880\nd) 180 − 40 : 2 = 70",
-          "antwort": "a) (90 + 30) · 4 = 120 · 4 = 480"
+          "label": "a",
+          "frage": "90 + 30 · 4 = 480",
+          "antwort": "(90 + 30) · 4 = 120 · 4 = 480"
+        },
+        {
+          "label": "b",
+          "frage": "500 : 10 + 40 = 10",
+          "antwort": "500 : (10 + 40) = 500 : 50 = 10"
+        },
+        {
+          "label": "c",
+          "frage": "50 + 60 · 8 = 880",
+          "antwort": "(50 + 60) · 8 = 110 · 8 = 880"
+        },
+        {
+          "label": "d",
+          "frage": "180 − 40 : 2 = 70",
+          "antwort": "(180 − 40) : 2 = 140 : 2 = 70"
         }
       ]
     }
   },
   {
     "titel": "Platzhalter mit Klammern finden",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Rechenregeln",
     "schwierigkeit": "orange",
     "buchseite": 43,
@@ -1824,13 +1859,28 @@
     ],
     "didaktischerHinweis": "Platzhalteraufgaben mit Klammern erfordern zweistufiges Denken: erst den Wert der Klammer bestimmen, dann den Platzhalter darin finden. Das ist eine Vorstufe zum Gleichungslösen.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Setze die richtige Zahl ein.",
       "items": [
         {
-          "label": "1",
-          "frage": "Setze die richtige Zahl ein.\n\na) 80 : (5 + ▢) = 10\nb) 4 · (▢ − 12) = 36\nc) 6 · (▢ + 3) = 48\nd) 240 : (▢ + 5) = 40",
-          "antwort": "a) 3"
+          "label": "a",
+          "frage": "80 : (5 + ▢) = 10",
+          "antwort": "3"
+        },
+        {
+          "label": "b",
+          "frage": "4 · (▢ − 12) = 36",
+          "antwort": "21"
+        },
+        {
+          "label": "c",
+          "frage": "6 · (▢ + 3) = 48",
+          "antwort": "5"
+        },
+        {
+          "label": "d",
+          "frage": "240 : (▢ + 5) = 40",
+          "antwort": "1"
         }
       ]
     }
@@ -1883,7 +1933,7 @@
   },
   {
     "titel": "Gleichungen verstehen — Waage im Gleichgewicht",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "gelb",
     "buchseite": 44,
@@ -1907,20 +1957,30 @@
     ],
     "didaktischerHinweis": "Die Waage-Metapher visualisiert das Gleichheitszeichen: Beide Seiten haben den gleichen Wert. Das Kind lernt, dass = nicht „Ergebnis folgt\" bedeutet, sondern „beide Seiten sind gleich\".",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Bei einer Gleichung steht auf jeder Seite des Gleichheitszeichens der gleiche Wert. Stell dir eine Waage vor!\n\nFinde die fehlende Zahl.",
       "items": [
         {
-          "label": "1",
-          "frage": "Bei einer Gleichung steht auf jeder Seite des Gleichheitszeichens der gleiche Wert. Stell dir eine Waage vor!\n\nFinde die fehlende Zahl.\n\na) 28 + 47 = 40 + ▢\nb) 90 − 15 = 60 + ▢\nc) 80 + 35 = 100 + ▢",
-          "antwort": "a) 35"
+          "label": "a",
+          "frage": "28 + 47 = 40 + ▢",
+          "antwort": "35"
+        },
+        {
+          "label": "b",
+          "frage": "90 − 15 = 60 + ▢",
+          "antwort": "15"
+        },
+        {
+          "label": "c",
+          "frage": "80 + 35 = 100 + ▢",
+          "antwort": "15"
         }
       ]
     }
   },
   {
     "titel": "Gleichungen mit verschiedenen Operationen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "gelb",
     "buchseite": 44,
@@ -1944,20 +2004,30 @@
     ],
     "didaktischerHinweis": "Verschiedene Operationen auf beiden Seiten der Gleichung zeigen, dass der gleiche Wert auf verschiedene Weisen dargestellt werden kann. Das fördert die Flexibilität im Denken.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Löse die Gleichungen.",
       "items": [
         {
-          "label": "1",
-          "frage": "Löse die Gleichungen.\n\na) 45 + 65 = 55 + ▢\nb) 60 + 60 = 40 · ▢\nc) 120 − 30 = 50 + ▢",
-          "antwort": "a) 55"
+          "label": "a",
+          "frage": "45 + 65 = 55 + ▢",
+          "antwort": "55"
+        },
+        {
+          "label": "b",
+          "frage": "60 + 60 = 40 · ▢",
+          "antwort": "3"
+        },
+        {
+          "label": "c",
+          "frage": "120 − 30 = 50 + ▢",
+          "antwort": "40"
         }
       ]
     }
   },
   {
     "titel": "Gleichungen mit gemischten Operationen",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "grün",
     "buchseite": 44,
@@ -1981,13 +2051,28 @@
     ],
     "didaktischerHinweis": "Gemischte Operationen auf beiden Seiten erfordern, dass das Kind die vollständige Seite berechnet und dann den Platzhalter mit einer Umkehroperation findet. Das ist algebraisches Denken.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Löse die Gleichungen.",
       "items": [
         {
-          "label": "1",
-          "frage": "Löse die Gleichungen.\n\na) 150 + 70 = 4 · ▢\nb) 84 − 24 = 300 : ▢\nc) 420 − ▢ = 80 · 4\nd) ▢ · 60 = 530 − 230",
-          "antwort": "a) 55"
+          "label": "a",
+          "frage": "150 + 70 = 4 · ▢",
+          "antwort": "55"
+        },
+        {
+          "label": "b",
+          "frage": "84 − 24 = 300 : ▢",
+          "antwort": "5"
+        },
+        {
+          "label": "c",
+          "frage": "420 − ▢ = 80 · 4",
+          "antwort": "100"
+        },
+        {
+          "label": "d",
+          "frage": "▢ · 60 = 530 − 230",
+          "antwort": "5"
         }
       ]
     }
@@ -2104,7 +2189,7 @@
   },
   {
     "titel": "Ungleichungen — größer oder kleiner",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "grün",
     "buchseite": 45,
@@ -2128,33 +2213,35 @@
     ],
     "didaktischerHinweis": "Ungleichungen erweitern das Gleichheitskonzept. Das „Krokodil-Bild\" (frisst die größere Zahl) ist eine bewährte visuelle Eselsbrücke.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Setze > oder < ein.",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Setze > oder < ein.",
+      "items": [
         {
-          "label": "A",
-          "text": "80 · 4 ○ 450 − 120"
+          "label": "a",
+          "frage": "80 · 4 ○ 450 − 120",
+          "antwort": "320 < 330 → <"
         },
         {
-          "label": "B",
-          "text": "260 + 150 ○ 95 · 5"
+          "label": "b",
+          "frage": "260 + 150 ○ 95 · 5",
+          "antwort": "410 < 475 → <"
         },
         {
-          "label": "C",
-          "text": "6 · 45 ○ 9 · 32"
+          "label": "c",
+          "frage": "6 · 45 ○ 9 · 32",
+          "antwort": "270 < 288 → <"
         },
         {
-          "label": "D",
-          "text": "540 : 9 ○ 7 · 9"
+          "label": "d",
+          "frage": "540 : 9 ○ 7 · 9",
+          "antwort": "60 < 63 → <"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
     "titel": "Ungleichungen mit Punkt vor Strich vergleichen",
-    "typ": "auswahl",
+    "typ": "luecke",
     "thema": "Gleichungen und Ungleichungen",
     "schwierigkeit": "orange",
     "buchseite": 45,
@@ -2178,28 +2265,30 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe zeigt eindrucksvoll, wie die Position der Punkt-Rechnung den Wert einer Aufgabe verändert. Das Kind erlebt konkret, warum die Punkt-vor-Strich-Regel so wichtig ist.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Setze > oder < ein. Denke an die Regel „Punkt vor Strich\"!",
-      "optionen": [
+      "typ": "luecke",
+      "anweisung": "Setze > oder < ein. Denke an die Regel „Punkt vor Strich\"!",
+      "items": [
         {
-          "label": "A",
-          "text": "80 + 5 · 35 ○ 80 · 5 + 35"
+          "label": "a",
+          "frage": "80 + 5 · 35 ○ 80 · 5 + 35",
+          "antwort": "80 + 175 = 255 und 400 + 35 = 435 → 255 < 435 → <"
         },
         {
-          "label": "B",
-          "text": "24 · 3 + 90 ○ 24 + 3 · 90"
+          "label": "b",
+          "frage": "24 · 3 + 90 ○ 24 + 3 · 90",
+          "antwort": "72 + 90 = 162 und 24 + 270 = 294 → 162 < 294 → <"
         },
         {
-          "label": "C",
-          "text": "560 : 7 + 80 ○ 560 + 7 · 80"
+          "label": "c",
+          "frage": "560 : 7 + 80 ○ 560 + 7 · 80",
+          "antwort": "80 + 80 = 160 und 560 + 560 = 1.120 → 160 < 1.120 → <"
         },
         {
-          "label": "D",
-          "text": "150 − 30 : 5 ○ 150 : 30 − 5"
+          "label": "d",
+          "frage": "150 − 30 : 5 ○ 150 : 30 − 5",
+          "antwort": "150 − 6 = 144 und 5 − 5 = 0 → 144 > 0 → >"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -2241,6 +2330,778 @@
           "label": "b",
           "frage": "100 · 9 > ▢ · 80 > 999 − 350",
           "antwort": "100 · 9 = 900 und 999 − 350 = 649. Also: 900 > ▢ · 80 > 649."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Einzelne Preise runden",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "gelb",
+    "buchseite": 40,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Runde die Preise auf volle Euro. Wie viel kosten die beiden Sachen ungefähr zusammen?\n\nEin Heft kostet 2,89 € und ein Stift kostet 1,15 €.\n\na) ungefähr 3 €\nb) ungefähr 4 €\nc) ungefähr 5 €\nd) ungefähr 6 €",
+    "loesung": "b) ungefähr 4 €\n\n2,89 € ≈ 3 € und 1,15 € ≈ 1 €. Zusammen: 3 + 1 = 4 €.",
+    "loesungsweg": "1. Runde jeden Preis auf den nächsten vollen Euro:\n   - 2,89 € → 3 € (aufgerundet, weil 89 Cent > 50 Cent)\n   - 1,15 € → 1 € (abgerundet, weil 15 Cent < 50 Cent)\n2. Addiere die gerundeten Beträge: 3 + 1 = 4 €",
+    "tipps": [
+      "Schau dir die Cent-Beträge an: Sind sie näher an 0 Cent oder an 100 Cent (= 1 €)?",
+      "Beim Runden: Ab 50 Cent rundest du auf zum nächsten Euro, unter 50 Cent rundest du ab. Dann addierst du die gerundeten Werte.",
+      "2,89 € → die 89 Cent sind fast 1 €, also runde auf 3 €. 1,15 € → die 15 Cent sind wenig, also runde auf 1 €. Jetzt rechne: 3 + 1 = ?",
+      "1. Runde jeden Preis auf den nächsten vollen Euro:\n   - 2,89 € → 3 € (aufgerundet, weil 89 Cent > 50 Cent)\n   - 1,15 € → 1 € (abgerundet, weil 15 Cent < 50 Cent)\n2. Addiere die gerundeten Beträge: 3 + 1 = 4 €"
+    ],
+    "didaktischerHinweis": "Das Runden von Geldbeträgen ist eine alltagsnahe Fähigkeit. Das Kind lernt, mit gerundeten Werten schnell abzuschätzen, bevor es genau rechnet.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Runde die Preise auf volle Euro. Wie viel kosten die beiden Sachen ungefähr zusammen?\n\nEin Heft kostet 2,89 € und ein Stift kostet 1,15 €.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "ungefähr 3 €"
+        },
+        {
+          "label": "B",
+          "text": "ungefähr 4 €"
+        },
+        {
+          "label": "C",
+          "text": "ungefähr 5 €"
+        },
+        {
+          "label": "D",
+          "text": "ungefähr 6 €"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Zwei Artikel überschlagen",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "gelb",
+    "buchseite": 40,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Lena kauft ein Buch für 7,49 € und eine Trinkflasche für 4,95 €. Ungefähr wie viel muss sie bezahlen?\n\na) ungefähr 11 €\nb) ungefähr 12 €\nc) ungefähr 13 €\nd) ungefähr 14 €",
+    "loesung": "b) ungefähr 12 €\n\n7,49 € ≈ 7 € und 4,95 € ≈ 5 €. Zusammen: 7 + 5 = 12 €.",
+    "loesungsweg": "1. Runde die Preise:\n   - 7,49 € → 7 € (abgerundet, weil 49 Cent < 50 Cent)\n   - 4,95 € → 5 € (aufgerundet, weil 95 Cent > 50 Cent)\n2. Addiere: 7 + 5 = 12 €",
+    "tipps": [
+      "Runde beide Preise auf volle Euro. Welcher wird aufgerundet, welcher abgerundet?",
+      "7,49 € — sind 49 Cent mehr oder weniger als 50 Cent? Und 4,95 € — sind 95 Cent mehr oder weniger als 50 Cent? Runde entsprechend und addiere.",
+      "7,49 € ≈ 7 € (49 Cent ist knapp unter 50, also abrunden). 4,95 € ≈ 5 € (95 Cent ist fast 1 €, also aufrunden). Jetzt: 7 + 5 = ?",
+      "1. Runde die Preise:\n   - 7,49 € → 7 € (abgerundet, weil 49 Cent < 50 Cent)\n   - 4,95 € → 5 € (aufgerundet, weil 95 Cent > 50 Cent)\n2. Addiere: 7 + 5 = 12 €"
+    ],
+    "didaktischerHinweis": "Das Kind übt das Runden in beide Richtungen (auf und ab) und erlebt, dass der Überschlag eine gute Näherung an den genauen Preis liefert.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Lena kauft ein Buch für 7,49 € und eine Trinkflasche für 4,95 €. Ungefähr wie viel muss sie bezahlen?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "ungefähr 11 €"
+        },
+        {
+          "label": "B",
+          "text": "ungefähr 12 €"
+        },
+        {
+          "label": "C",
+          "text": "ungefähr 13 €"
+        },
+        {
+          "label": "D",
+          "text": "ungefähr 14 €"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Einkaufsliste überschlagen — drei Artikel",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "grün",
+    "buchseite": 40,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Auf der Einkaufsliste stehen: Radiergummi (0,79 €), Lineal (2,35 €) und Buntstifte (5,49 €). Ungefähr wie viel kostet alles zusammen?\n\na) ungefähr 7 €\nb) ungefähr 8 €\nc) ungefähr 9 €\nd) ungefähr 10 €",
+    "loesung": "c) ungefähr 9 €\n\n0,79 € ≈ 1 €, 2,35 € ≈ 2 € und 5,49 € ≈ 5 €. Zusammen: 1 + 2 + 5 = 8 €.\nGenauer Überschlag: 1 + 2 + 5 = 8, aber 0,79 rundet auf, 5,49 rundet auch knapp auf → eher 9 €.",
+    "loesungsweg": "1. Runde die Preise:\n   - 0,79 € → 1 € (aufgerundet)\n   - 2,35 € → 2 € (abgerundet)\n   - 5,49 € → 5 € (abgerundet, knapp unter 50 Cent)\n2. Addiere: 1 + 2 + 5 = 8 €\n3. Genau: 0,79 + 2,35 + 5,49 = 8,63 € → ungefähr 9 € ist die beste Antwort",
+    "tipps": [
+      "Runde jeden Preis einzeln auf volle Euro. Dann zähle die drei gerundeten Preise zusammen.",
+      "Bei drei Artikeln rundest du jeden einzeln: Cent ab 50 aufrunden, unter 50 abrunden. Dann addierst du alle drei gerundeten Werte.",
+      "0,79 € → die 79 Cent sind fast 1 €, also ≈ 1 €. 2,35 € → die 35 Cent sind wenig, also ≈ 2 €. 5,49 € → die 49 Cent sind knapp unter 50, also ≈ 5 €. Rechne: 1 + 2 + 5 = ?",
+      "1. Runde die Preise:\n   - 0,79 € → 1 € (aufgerundet)\n   - 2,35 € → 2 € (abgerundet)\n   - 5,49 € → 5 € (abgerundet, knapp unter 50 Cent)\n2. Addiere: 1 + 2 + 5 = 8 €\n3. Genau: 0,79 + 2,35 + 5,49 = 8,63 € → ungefähr 9 € ist die beste Antwort"
+    ],
+    "didaktischerHinweis": "Bei drei Artikeln wird deutlich, dass sich kleine Rundungsfehler addieren können. Das Kind lernt, den Überschlag als Näherung zu verstehen, nicht als exaktes Ergebnis.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Auf der Einkaufsliste stehen: Radiergummi (0,79 €), Lineal (2,35 €) und Buntstifte (5,49 €). Ungefähr wie viel kostet alles zusammen?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "ungefähr 7 €"
+        },
+        {
+          "label": "B",
+          "text": "ungefähr 8 €"
+        },
+        {
+          "label": "C",
+          "text": "ungefähr 9 €"
+        },
+        {
+          "label": "D",
+          "text": "ungefähr 10 €"
+        }
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Einkaufsliste überschlagen — vier Artikel",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "grün",
+    "buchseite": 41,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Für das Klassenfest kauft die Lehrerin ein: Luftballons (3,29 €), Servietten (1,89 €), Becher (2,49 €) und Girlande (4,15 €). Sie hat 15 € dabei. Reicht das Geld?\n\na) Ja, es bleiben ungefähr 3 € übrig\nb) Ja, es bleiben ungefähr 1 € übrig\nc) Nein, es fehlen ungefähr 2 €\nd) Ja, es reicht genau",
+    "loesung": "a) Ja, es bleiben ungefähr 3 € übrig\n\n3,29 € ≈ 3 €, 1,89 € ≈ 2 €, 2,49 € ≈ 2 €, 4,15 € ≈ 4 €.\nÜberschlag: 3 + 2 + 2 + 4 = 11 €. Übrig: 15 − 11 = 4 €.\nGenau: 3,29 + 1,89 + 2,49 + 4,15 = 11,82 €. Übrig: 15 − 11,82 = 3,18 €.",
+    "loesungsweg": "1. Runde alle Preise auf volle Euro:\n   - 3,29 € → 3 €, 1,89 € → 2 €, 2,49 € → 2 €, 4,15 € → 4 €\n2. Addiere: 3 + 2 + 2 + 4 = 11 €\n3. Vom Budget abziehen: 15 − 11 = 4 € übrig (Überschlag)\n4. Genau: 15 − 11,82 = 3,18 € → ungefähr 3 € übrig",
+    "tipps": [
+      "Runde jeden Preis auf volle Euro und addiere alles. Vergleiche dann die Summe mit 15 €.",
+      "Vier Preise runden, addieren, dann von 15 € abziehen. Wenn die Summe unter 15 € liegt, reicht das Geld.",
+      "Runde: 3 + 2 + 2 + 4 = 11 €. Jetzt: 15 − 11 = 4 €. Weil du etwas abgerundet hast, ist der echte Rest etwas kleiner. Welche Antwort passt?",
+      "1. Runde alle Preise auf volle Euro:\n   - 3,29 € → 3 €, 1,89 € → 2 €, 2,49 € → 2 €, 4,15 € → 4 €\n2. Addiere: 3 + 2 + 2 + 4 = 11 €\n3. Vom Budget abziehen: 15 − 11 = 4 € übrig (Überschlag)\n4. Genau: 15 − 11,82 = 3,18 € → ungefähr 3 € übrig"
+    ],
+    "didaktischerHinweis": "Hier wird der Überschlag als Entscheidungsinstrument eingesetzt: „Reicht das Geld?\" ist eine alltagsnahe Frage, die den praktischen Nutzen des Überschlagens zeigt.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Für das Klassenfest kauft die Lehrerin ein: Luftballons (3,29 €), Servietten (1,89 €), Becher (2,49 €) und Girlande (4,15 €). Sie hat 15 € dabei. Reicht das Geld?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Ja, es bleiben ungefähr 3 € übrig"
+        },
+        {
+          "label": "B",
+          "text": "Ja, es bleiben ungefähr 1 € übrig"
+        },
+        {
+          "label": "C",
+          "text": "Nein, es fehlen ungefähr 2 €"
+        },
+        {
+          "label": "D",
+          "text": "Ja, es reicht genau"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Zwei Einkaufsoptionen vergleichen",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "orange",
+    "buchseite": 41,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Tim will Sportsachen kaufen. Er vergleicht zwei Geschäfte:\n\n**Geschäft A:** Turnschuhe 29,90 €, Sporthose 14,95 €, T-Shirt 9,99 €\n**Geschäft B:** Turnschuhe 34,50 €, Sporthose 11,90 €, T-Shirt 8,49 €\n\nWelches Geschäft ist insgesamt günstiger?\n\na) Geschäft A — ungefähr 5 € günstiger\nb) Geschäft A — ungefähr 1 € günstiger\nc) Geschäft B — ungefähr 1 € günstiger\nd) Beide kosten ungefähr gleich viel",
+    "loesung": "d) Beide kosten ungefähr gleich viel\n\nGeschäft A: 30 + 15 + 10 = 55 € (Überschlag). Genau: 29,90 + 14,95 + 9,99 = 54,84 €.\nGeschäft B: 35 + 12 + 8 = 55 € (Überschlag). Genau: 34,50 + 11,90 + 8,49 = 54,89 €.\nGeschäft A ist nur 5 Cent günstiger — der Überschlag zeigt: fast gleich!",
+    "loesungsweg": "1. Runde die Preise in Geschäft A: 30 + 15 + 10 = 55 €\n2. Runde die Preise in Geschäft B: 35 + 12 + 8 = 55 €\n3. Überschlag: Beide ungefähr gleich! Für den genauen Vergleich genau rechnen:\n   - A: 54,84 €, B: 54,89 € → A ist 5 Cent günstiger",
+    "tipps": [
+      "Runde die Preise in jedem Geschäft einzeln auf volle Euro. Addiere und vergleiche die Summen.",
+      "Geschäft A: 29,90 ≈ 30 €, 14,95 ≈ 15 €, 9,99 ≈ 10 €. Geschäft B: 34,50 ≈ 35 €, 11,90 ≈ 12 €, 8,49 ≈ 8 €. Addiere jeweils und vergleiche.",
+      "Geschäft A: 30 + 15 + 10 = 55 €. Geschäft B: 35 + 12 + 8 = 55 €. Beide ergeben 55 €! Schau genauer hin: Welche Rundungen waren großzügiger?",
+      "1. Runde die Preise in Geschäft A: 30 + 15 + 10 = 55 €\n2. Runde die Preise in Geschäft B: 35 + 12 + 8 = 55 €\n3. Überschlag: Beide ungefähr gleich! Für den genauen Vergleich genau rechnen:\n   - A: 54,84 €, B: 54,89 € → A ist 5 Cent günstiger"
+    ],
+    "didaktischerHinweis": "Der Vergleich zweier Einkaufsoptionen per Überschlag zeigt, dass gerundete Werte manchmal kein klares Ergebnis liefern. Das Kind lernt, wann es doch genau rechnen muss.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Tim will Sportsachen kaufen. Er vergleicht zwei Geschäfte:\n\n**Geschäft A:** Turnschuhe 29,90 €, Sporthose 14,95 €, T-Shirt 9,99 €\n**Geschäft B:** Turnschuhe 34,50 €, Sporthose 11,90 €, T-Shirt 8,49 €\n\nWelches Geschäft ist insgesamt günstiger?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Geschäft A — ungefähr 5 € günstiger"
+        },
+        {
+          "label": "B",
+          "text": "Geschäft A — ungefähr 1 € günstiger"
+        },
+        {
+          "label": "C",
+          "text": "Geschäft B — ungefähr 1 € günstiger"
+        },
+        {
+          "label": "D",
+          "text": "Beide kosten ungefähr gleich viel"
+        }
+      ],
+      "richtigeIdx": 3
+    }
+  },
+  {
+    "titel": "Einkauf vergleichen — unterschiedliche Artikelzahl",
+    "typ": "auswahl",
+    "thema": "Geldbeträge überschlagen",
+    "schwierigkeit": "orange",
+    "buchseite": 41,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ueberschlag-geld",
+    "digital": "voll",
+    "aufgabenstellung": "Mia hat 20 € Taschengeld. Sie überlegt zwischen zwei Geschenken für ihre Freundin:\n\n**Option 1:** Buch (8,95 €) und Haarband (3,50 €)\n**Option 2:** Puzzle (6,49 €), Sticker-Heft (4,29 €) und Gummibärchen (2,79 €)\n\nWelche Aussage stimmt?\n\na) Option 1 ist günstiger, bei Option 2 reicht das Geld nicht\nb) Beide kosten ungefähr gleich viel, bei beiden reicht das Geld\nc) Option 2 ist viel günstiger als Option 1\nd) Bei beiden reicht das Geld nicht",
+    "loesung": "b) Beide kosten ungefähr gleich viel, bei beiden reicht das Geld\n\nOption 1: 9 + 4 = 13 € (Überschlag). Genau: 8,95 + 3,50 = 12,45 €.\nOption 2: 6 + 4 + 3 = 13 € (Überschlag). Genau: 6,49 + 4,29 + 2,79 = 13,57 €.\nDer Überschlag ergibt für beide ≈ 13 € — ungefähr gleich. Bei 20 € Taschengeld reicht es in beiden Fällen gut.",
+    "loesungsweg": "1. Option 1 runden: 8,95 ≈ 9 €, 3,50 ≈ 4 €. Summe: 9 + 4 = 13 €.\n2. Option 2 runden: 6,49 ≈ 6 €, 4,29 ≈ 4 €, 2,79 ≈ 3 €. Summe: 6 + 4 + 3 = 13 €.\n3. Beide ≈ 13 €. Mia hat 20 € → bei beiden bleiben ca. 7 € übrig ✓",
+    "tipps": [
+      "Runde alle Preise auf volle Euro und addiere für jede Option getrennt. Vergleiche die beiden Summen.",
+      "Option 1 hat zwei Artikel, Option 2 hat drei. Runde jeden Preis, addiere und vergleiche. Ziehe dann jeweils von 20 € ab.",
+      "Option 1: 9 + 4 = 13 €. Option 2: 6 + 4 + 3 = 13 €. Beide ergeben ungefähr 13 €. Hat Mia genug? 20 − 13 = ?",
+      "1. Option 1 runden: 8,95 ≈ 9 €, 3,50 ≈ 4 €. Summe: 9 + 4 = 13 €.\n2. Option 2 runden: 6,49 ≈ 6 €, 4,29 ≈ 4 €, 2,79 ≈ 3 €. Summe: 6 + 4 + 3 = 13 €.\n3. Beide ≈ 13 €. Mia hat 20 € → bei beiden bleiben ca. 7 € übrig ✓"
+    ],
+    "didaktischerHinweis": "Dieser Vergleich erfordert mehrere Schritte: runden, addieren, vergleichen und eine Entscheidung treffen. Das Kind lernt, den Überschlag als Planungswerkzeug für Alltagsentscheidungen einzusetzen.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Mia hat 20 € Taschengeld. Sie überlegt zwischen zwei Geschenken für ihre Freundin:\n\n**Option 1:** Buch (8,95 €) und Haarband (3,50 €)\n**Option 2:** Puzzle (6,49 €), Sticker-Heft (4,29 €) und Gummibärchen (2,79 €)\n\nWelche Aussage stimmt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Option 1 ist günstiger, bei Option 2 reicht das Geld nicht"
+        },
+        {
+          "label": "B",
+          "text": "Beide kosten ungefähr gleich viel, bei beiden reicht das Geld"
+        },
+        {
+          "label": "C",
+          "text": "Option 2 ist viel günstiger als Option 1"
+        },
+        {
+          "label": "D",
+          "text": "Bei beiden reicht das Geld nicht"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Einfache Additionen und Subtraktionen prüfen",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "gelb",
+    "buchseite": 42,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe: Stimmt die Rechnung?\n\na) 324 + 189 = 513\nb) 567 − 238 = 339\nc) 451 + 237 = 688",
+    "loesung": "a) Stimmt! ✓ (324 + 189 = 513)\nb) Falsch! 567 − 238 = 329 (nicht 339)\nc) Stimmt! ✓ (451 + 237 = 688)",
+    "loesungsweg": "Prüfe jede Rechnung mit dem Überschlag und dann genau:\n- a) Überschlag: 320 + 190 = 510 → 513 passt. Genau: 324 + 189 = 513 ✓\n- b) Überschlag: 570 − 240 = 330 → 339 weicht ab! Genau: 567 − 238 = 329, nicht 339. Der Zehner ist falsch (Übertragsefehler).\n- c) Überschlag: 450 + 240 = 690 → 688 passt. Genau: 451 + 237 = 688 ✓",
+    "tipps": [
+      "Mache zuerst einen Überschlag: Runde beide Zahlen und rechne im Kopf. Liegt das Ergebnis in der Nähe?",
+      "Wenn der Überschlag nicht passt, rechne genau nach. Achte besonders auf die Zehner-Stelle — dort passieren die meisten Fehler beim Übertrag.",
+      "b) Rechne genau: Einer: 7 − 8 → Übertrag! 17 − 8 = 9. Zehner: 6 − 1 − 3 = 2. Hunderter: 5 − 2 = 3. Also 329, nicht 339.",
+      "Prüfe jede Rechnung mit dem Überschlag und dann genau:\n- a) Überschlag: 320 + 190 = 510 → 513 passt. Genau: 324 + 189 = 513 ✓\n- b) Überschlag: 570 − 240 = 330 → 339 weicht ab! Genau: 567 − 238 = 329, nicht 339. Der Zehner ist falsch (Übertragsefehler).\n- c) Überschlag: 450 + 240 = 690 → 688 passt. Genau: 451 + 237 = 688 ✓"
+    ],
+    "didaktischerHinweis": "Das Prüfen von Ergebnissen ist eine zentrale mathematische Kompetenz. Das Kind lernt, nicht blind einem Ergebnis zu vertrauen, sondern systematisch zu kontrollieren.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe: Stimmt die Rechnung?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "324 + 189 = 513",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (324 + 189 = 513)"
+        },
+        {
+          "label": "b",
+          "aussage": "567 − 238 = 339",
+          "richtig": false,
+          "erklaerung": "Falsch! 567 − 238 = 329 (nicht 339)"
+        },
+        {
+          "label": "c",
+          "aussage": "451 + 237 = 688",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (451 + 237 = 688)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Additionen dreistellig prüfen",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "gelb",
+    "buchseite": 42,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe: Stimmt die Rechnung?\n\na) 256 + 148 = 404\nb) 483 + 279 = 752\nc) 615 − 387 = 228",
+    "loesung": "a) Stimmt! ✓ (256 + 148 = 404)\nb) Falsch! 483 + 279 = 762 (nicht 752)\nc) Stimmt! ✓ (615 − 387 = 228)",
+    "loesungsweg": "- a) Überschlag: 260 + 150 = 410 → 404 ist plausibel. Genau: 256 + 148 = 404 ✓\n- b) Überschlag: 480 + 280 = 760 → 752 weicht etwas ab. Genau: 483 + 279 = 762 → Fehler in der Zehnerstelle!\n- c) Überschlag: 620 − 390 = 230 → 228 ist plausibel. Genau: 615 − 387 = 228 ✓",
+    "tipps": [
+      "Runde auf Zehner und rechne im Kopf. Passt das angegebene Ergebnis ungefähr?",
+      "Wenn dein Überschlag nahe am Ergebnis liegt, stimmt es wahrscheinlich. Wenn es um mehr als 10 abweicht, rechne genau nach!",
+      "b) Rechne genau: Einer: 3 + 9 = 12, schreibe 2, Übertrag 1. Zehner: 8 + 7 + 1 = 16, schreibe 6, Übertrag 1. Hunderter: 4 + 2 + 1 = 7. Ergebnis: 762.",
+      "- a) Überschlag: 260 + 150 = 410 → 404 ist plausibel. Genau: 256 + 148 = 404 ✓\n- b) Überschlag: 480 + 280 = 760 → 752 weicht etwas ab. Genau: 483 + 279 = 762 → Fehler in der Zehnerstelle!\n- c) Überschlag: 620 − 390 = 230 → 228 ist plausibel. Genau: 615 − 387 = 228 ✓"
+    ],
+    "didaktischerHinweis": "Die Übertragsefehler bei b) sind typisch für Kinder. Das Prüfen schärft das Bewusstsein für häufige Fehlerquellen beim schriftlichen Rechnen.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe: Stimmt die Rechnung?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "256 + 148 = 404",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (256 + 148 = 404)"
+        },
+        {
+          "label": "b",
+          "aussage": "483 + 279 = 752",
+          "richtig": false,
+          "erklaerung": "Falsch! 483 + 279 = 762 (nicht 752)"
+        },
+        {
+          "label": "c",
+          "aussage": "615 − 387 = 228",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (615 − 387 = 228)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vierstellige Rechnungen prüfen",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "grün",
+    "buchseite": 42,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe: Stimmt die Rechnung?\n\na) 1.245 + 876 = 2.121\nb) 3.508 − 1.729 = 1.889\nc) 2.364 + 1.587 = 3.951",
+    "loesung": "a) Stimmt! ✓ (1.245 + 876 = 2.121)\nb) Falsch! 3.508 − 1.729 = 1.779 (nicht 1.889)\nc) Stimmt! ✓ (2.364 + 1.587 = 3.951)",
+    "loesungsweg": "- a) Überschlag: 1.250 + 880 = 2.130 → 2.121 ist plausibel. Genau: 1.245 + 876 = 2.121 ✓\n- b) Überschlag: 3.510 − 1.730 = 1.780 → 1.889 weicht stark ab! Genau: 3.508 − 1.729 = 1.779 → Hunderter- und Zehnerstelle falsch.\n- c) Überschlag: 2.360 + 1.590 = 3.950 → 3.951 passt. Genau: 2.364 + 1.587 = 3.951 ✓",
+    "tipps": [
+      "Runde auf Zehner und rechne im Kopf. Bei vierstelligen Zahlen achte besonders auf die Hunderter!",
+      "Überschlag: Runde beide Zahlen auf Zehner. Wenn das Ergebnis mehr als 50 vom Überschlag abweicht, stimmt es wahrscheinlich nicht.",
+      "b) Rechne genau: 3.508 − 1.729. Einer: 8 − 9 → Übertrag! 18 − 9 = 9. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 7 → Übertrag! 15 − 8 = 7. Tausender: 3 − 1 − 1 = 1. Ergebnis: 1.779.",
+      "- a) Überschlag: 1.250 + 880 = 2.130 → 2.121 ist plausibel. Genau: 1.245 + 876 = 2.121 ✓\n- b) Überschlag: 3.510 − 1.730 = 1.780 → 1.889 weicht stark ab! Genau: 3.508 − 1.729 = 1.779 → Hunderter- und Zehnerstelle falsch.\n- c) Überschlag: 2.360 + 1.590 = 3.950 → 3.951 passt. Genau: 2.364 + 1.587 = 3.951 ✓"
+    ],
+    "didaktischerHinweis": "Bei vierstelligen Zahlen werden Übertragsefehler wahrscheinlicher. Das Kind lernt, auch bei größeren Zahlen systematisch Stelle für Stelle zu prüfen.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe: Stimmt die Rechnung?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "1.245 + 876 = 2.121",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (1.245 + 876 = 2.121)"
+        },
+        {
+          "label": "b",
+          "aussage": "3.508 − 1.729 = 1.889",
+          "richtig": false,
+          "erklaerung": "Falsch! 3.508 − 1.729 = 1.779 (nicht 1.889)"
+        },
+        {
+          "label": "c",
+          "aussage": "2.364 + 1.587 = 3.951",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (2.364 + 1.587 = 3.951)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vierstellige Rechnungen mit Übertragsfehler prüfen",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "grün",
+    "buchseite": 43,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe: Stimmt die Rechnung?\n\na) 4.207 + 2.894 = 7.101\nb) 5.630 − 2.745 = 2.885\nc) 6.123 + 3.898 = 10.021",
+    "loesung": "a) Stimmt! ✓ (4.207 + 2.894 = 7.101)\nb) Stimmt! ✓ (5.630 − 2.745 = 2.885)\nc) Stimmt! ✓ (6.123 + 3.898 = 10.021)",
+    "loesungsweg": "- a) Überschlag: 4.210 + 2.890 = 7.100 → 7.101 passt perfekt. Genau: 4.207 + 2.894 = 7.101 ✓\n- b) Überschlag: 5.630 − 2.750 = 2.880 → 2.885 ist plausibel. Genau: 5.630 − 2.745 = 2.885 ✓\n- c) Überschlag: 6.120 + 3.900 = 10.020 → 10.021 passt. Genau: 6.123 + 3.898 = 10.021 ✓",
+    "tipps": [
+      "Achte bei c) besonders darauf: Hier entsteht eine fünfstellige Zahl! Prüfe, ob der Tausender-Übertrag stimmt.",
+      "Mache bei jeder Aufgabe zuerst einen Überschlag. Bei c) überlegst du: 6.000 + 4.000 = 10.000 — also muss das Ergebnis über 10.000 liegen.",
+      "c) Einer: 3 + 8 = 11, schreibe 1, Übertrag 1. Zehner: 2 + 9 + 1 = 12, schreibe 2, Übertrag 1. Hunderter: 1 + 8 + 1 = 10, schreibe 0, Übertrag 1. Tausender: 6 + 3 + 1 = 10. Ergebnis: 10.021.",
+      "- a) Überschlag: 4.210 + 2.890 = 7.100 → 7.101 passt perfekt. Genau: 4.207 + 2.894 = 7.101 ✓\n- b) Überschlag: 5.630 − 2.750 = 2.880 → 2.885 ist plausibel. Genau: 5.630 − 2.745 = 2.885 ✓\n- c) Überschlag: 6.120 + 3.900 = 10.020 → 10.021 passt. Genau: 6.123 + 3.898 = 10.021 ✓"
+    ],
+    "didaktischerHinweis": "Bei c) erleben Kinder den Übergang in den fünfstelligen Bereich. Alle drei Aufgaben stimmen diesmal — das Kind lernt, dass „Prüfen\" nicht immer „Fehler finden\" bedeutet.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe: Stimmt die Rechnung?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "4.207 + 2.894 = 7.101",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (4.207 + 2.894 = 7.101)"
+        },
+        {
+          "label": "b",
+          "aussage": "5.630 − 2.745 = 2.885",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (5.630 − 2.745 = 2.885)"
+        },
+        {
+          "label": "c",
+          "aussage": "6.123 + 3.898 = 10.021",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (6.123 + 3.898 = 10.021)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Mehrere Operationen prüfen — Fehler finden",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "orange",
+    "buchseite": 43,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe alle Rechnungen. Finde die zwei falschen und korrigiere sie.\n\na) 2.456 + 1.378 = 3.834\nb) 8.001 − 3.567 = 4.534\nc) 4.789 + 3.215 = 8.004\nd) 7.500 − 4.826 = 2.774\ne) 1.999 + 2.001 = 4.000",
+    "loesung": "a) Stimmt! ✓ (2.456 + 1.378 = 3.834)\nb) Falsch! 8.001 − 3.567 = 4.434 (nicht 4.534)\nc) Stimmt! ✓ (4.789 + 3.215 = 8.004)\nd) Falsch! 7.500 − 4.826 = 2.674 (nicht 2.774)\ne) Stimmt! ✓ (1.999 + 2.001 = 4.000)",
+    "loesungsweg": "Prüfe jede Rechnung mit Überschlag:\n- a) 2.460 + 1.380 = 3.840 → 3.834 passt ✓\n- b) 8.000 − 3.570 = 4.430 → 4.534 weicht ab! Genau: 8.001 − 3.567 = 4.434 ✗\n- c) 4.790 + 3.220 = 8.010 → 8.004 passt ✓\n- d) 7.500 − 4.830 = 2.670 → 2.774 weicht ab! Genau: 7.500 − 4.826 = 2.674 ✗\n- e) 2.000 + 2.000 = 4.000 → stimmt exakt ✓",
+    "tipps": [
+      "Mache bei jeder Rechnung einen schnellen Überschlag. Bei welchen weicht das Ergebnis deutlich ab?",
+      "Runde auf Zehner und rechne im Kopf. Eine Abweichung von mehr als 30 ist verdächtig. Rechne diese dann genau nach.",
+      "d) Rechne genau: 7.500 − 4.826. Einer: 0 − 6 → Übertrag! 10 − 6 = 4. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 8 → Übertrag! 15 − 9 = 6. Tausender: 7 − 1 − 4 = 2. Ergebnis: 2.674.",
+      "Prüfe jede Rechnung mit Überschlag:\n- a) 2.460 + 1.380 = 3.840 → 3.834 passt ✓\n- b) 8.000 − 3.570 = 4.430 → 4.534 weicht ab! Genau: 8.001 − 3.567 = 4.434 ✗\n- c) 4.790 + 3.220 = 8.010 → 8.004 passt ✓\n- d) 7.500 − 4.830 = 2.670 → 2.774 weicht ab! Genau: 7.500 − 4.826 = 2.674 ✗\n- e) 2.000 + 2.000 = 4.000 → stimmt exakt ✓"
+    ],
+    "didaktischerHinweis": "Bei fünf Rechnungen zum Prüfen muss das Kind den Überschlag systematisch anwenden. Es lernt, gezielt die verdächtigen Aufgaben herauszufiltern und nur diese genau nachzurechnen.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe alle Rechnungen. Finde die zwei falschen und korrigiere sie.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "2.456 + 1.378 = 3.834",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (2.456 + 1.378 = 3.834)"
+        },
+        {
+          "label": "b",
+          "aussage": "8.001 − 3.567 = 4.534",
+          "richtig": false,
+          "erklaerung": "Falsch! 8.001 − 3.567 = 4.434 (nicht 4.534)"
+        },
+        {
+          "label": "c",
+          "aussage": "4.789 + 3.215 = 8.004",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (4.789 + 3.215 = 8.004)"
+        },
+        {
+          "label": "d",
+          "aussage": "7.500 − 4.826 = 2.774",
+          "richtig": false,
+          "erklaerung": "Falsch! 7.500 − 4.826 = 2.674 (nicht 2.774)"
+        },
+        {
+          "label": "e",
+          "aussage": "1.999 + 2.001 = 4.000",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (1.999 + 2.001 = 4.000)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gemischte Operationen prüfen und korrigieren",
+    "typ": "wahr-falsch",
+    "thema": "Ergebnisse prüfen",
+    "schwierigkeit": "orange",
+    "buchseite": 43,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "ergebnis-pruefen",
+    "digital": "voll",
+    "aufgabenstellung": "Jan hat Hausaufgaben gemacht. Prüfe seine Ergebnisse und korrigiere die Fehler.\n\na) 3.456 + 2.789 = 6.245\nb) 9.010 − 4.563 = 4.557\nc) 5.678 + 1.234 = 6.912\nd) 10.000 − 6.438 = 3.562",
+    "loesung": "a) Stimmt! ✓ (3.456 + 2.789 = 6.245)\nb) Falsch! 9.010 − 4.563 = 4.447 (nicht 4.557)\nc) Stimmt! ✓ (5.678 + 1.234 = 6.912)\nd) Stimmt! ✓ (10.000 − 6.438 = 3.562)",
+    "loesungsweg": "- a) Überschlag: 3.460 + 2.790 = 6.250 → 6.245 passt ✓\n- b) Überschlag: 9.010 − 4.560 = 4.450 → 4.557 weicht ab! Genau: 9.010 − 4.563 = 4.447. Jan hat bei den Zehnern einen Fehler gemacht (5 statt 4).\n- c) Überschlag: 5.680 + 1.230 = 6.910 → 6.912 passt ✓\n- d) Überschlag: 10.000 − 6.440 = 3.560 → 3.562 passt ✓",
+    "tipps": [
+      "Überschlage jede Rechnung. Bei welcher stimmt etwas nicht?",
+      "Bei Subtraktionen mit vielen Überträgen (wie 9.010 − 4.563) passieren leicht Fehler. Rechne diese besonders sorgfältig nach.",
+      "b) 9.010 − 4.563: Einer: 0 − 3 → Übertrag! 10 − 3 = 7. Zehner: 1 − 1 − 6 → Übertrag! 11 − 7 = 4. Hunderter: 0 − 1 − 5 → Übertrag! 10 − 6 = 4. Tausender: 9 − 1 − 4 = 4. Ergebnis: 4.447.",
+      "- a) Überschlag: 3.460 + 2.790 = 6.250 → 6.245 passt ✓\n- b) Überschlag: 9.010 − 4.560 = 4.450 → 4.557 weicht ab! Genau: 9.010 − 4.563 = 4.447. Jan hat bei den Zehnern einen Fehler gemacht (5 statt 4).\n- c) Überschlag: 5.680 + 1.230 = 6.910 → 6.912 passt ✓\n- d) Überschlag: 10.000 − 6.440 = 3.560 → 3.562 passt ✓"
+    ],
+    "didaktischerHinweis": "Die Einbettung in eine Alltagssituation (Hausaufgaben prüfen) macht das Kontrollieren motivierender. Das Kind schlüpft in die Rolle des „Lehrers\" und prüft kritisch.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Jan hat Hausaufgaben gemacht. Prüfe seine Ergebnisse und korrigiere die Fehler.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "3.456 + 2.789 = 6.245",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (3.456 + 2.789 = 6.245)"
+        },
+        {
+          "label": "b",
+          "aussage": "9.010 − 4.563 = 4.557",
+          "richtig": false,
+          "erklaerung": "Falsch! 9.010 − 4.563 = 4.447 (nicht 4.557)"
+        },
+        {
+          "label": "c",
+          "aussage": "5.678 + 1.234 = 6.912",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (5.678 + 1.234 = 6.912)"
+        },
+        {
+          "label": "d",
+          "aussage": "10.000 − 6.438 = 3.562",
+          "richtig": true,
+          "erklaerung": "Stimmt! ✓ (10.000 − 6.438 = 3.562)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Einfache Platzhalter-Addition",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "gelb",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Finde die fehlende Zahl.\n\na) ▢ + 300 = 500\nb) ▢ + 150 = 400\nc) 200 + ▢ = 750",
+    "loesung": "a) 200\nb) 250\nc) 550",
+    "loesungsweg": "Nutze die Umkehroperation (Subtraktion):\n- a) ▢ = 500 − 300 = 200\n- b) ▢ = 400 − 150 = 250\n- c) ▢ = 750 − 200 = 550\n\nProbe:\n- a) 200 + 300 = 500 ✓\n- b) 250 + 150 = 400 ✓\n- c) 200 + 550 = 750 ✓",
+    "tipps": [
+      "Was musst du zu 300 addieren, damit 500 herauskommt? Denk rückwärts!",
+      "Wenn ▢ + eine Zahl = Ergebnis, dann ist ▢ = Ergebnis − die Zahl. Die Umkehrung der Addition ist die Subtraktion.",
+      "a) 500 − 300 = ? Zähle von 300 bis 500: 300 → 400 → 500, das sind 200 Schritte.",
+      "Nutze die Umkehroperation (Subtraktion):\n- a) ▢ = 500 − 300 = 200\n- b) ▢ = 400 − 150 = 250\n- c) ▢ = 750 − 200 = 550\n\nProbe:\n- a) 200 + 300 = 500 ✓\n- b) 250 + 150 = 400 ✓\n- c) 200 + 550 = 750 ✓"
+    ],
+    "didaktischerHinweis": "Einfache Platzhalteraufgaben mit runden Zahlen führen in das Konzept der Umkehroperation ein. Das Kind kann die Lösung auch durch Überlegen oder Zählen finden.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Finde die fehlende Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "▢ + 300 = 500",
+          "antwort": "200"
+        },
+        {
+          "label": "b",
+          "frage": "▢ + 150 = 400",
+          "antwort": "250"
+        },
+        {
+          "label": "c",
+          "frage": "200 + ▢ = 750",
+          "antwort": "550"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Einfache Platzhalter-Subtraktion",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "gelb",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Finde die fehlende Zahl.\n\na) 800 − ▢ = 350\nb) ▢ − 120 = 280\nc) 600 − ▢ = 175",
+    "loesung": "a) 450\nb) 400\nc) 425",
+    "loesungsweg": "Nutze die Umkehroperation:\n- a) ▢ = 800 − 350 = 450\n- b) ▢ = 280 + 120 = 400\n- c) ▢ = 600 − 175 = 425\n\nProbe:\n- a) 800 − 450 = 350 ✓\n- b) 400 − 120 = 280 ✓\n- c) 600 − 425 = 175 ✓",
+    "tipps": [
+      "Wenn du von 800 etwas abziehst und 350 übrig bleibt — wie viel hast du abgezogen?",
+      "Bei 800 − ▢ = 350 gilt: ▢ = 800 − 350. Bei ▢ − 120 = 280 gilt: ▢ = 280 + 120. Achte darauf, wo der Platzhalter steht!",
+      "a) 800 − 350 = ? Rechne: 800 − 300 = 500, dann 500 − 50 = 450. Also ▢ = 450.",
+      "Nutze die Umkehroperation:\n- a) ▢ = 800 − 350 = 450\n- b) ▢ = 280 + 120 = 400\n- c) ▢ = 600 − 175 = 425\n\nProbe:\n- a) 800 − 450 = 350 ✓\n- b) 400 − 120 = 280 ✓\n- c) 600 − 425 = 175 ✓"
+    ],
+    "didaktischerHinweis": "Die Position des Platzhalters (Minuend vs. Subtrahend) erfordert unterschiedliche Umkehrstrategien. Das Kind muss verstehen, ob es addieren oder subtrahieren muss.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Finde die fehlende Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "800 − ▢ = 350",
+          "antwort": "450"
+        },
+        {
+          "label": "b",
+          "frage": "▢ − 120 = 280",
+          "antwort": "400"
+        },
+        {
+          "label": "c",
+          "frage": "600 − ▢ = 175",
+          "antwort": "425"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Platzhalter im Tausenderbereich",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "grün",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Finde die fehlende Zahl.\n\na) 1.000 − ▢ = 340\nb) ▢ + 1.250 = 2.000\nc) 3.000 − ▢ = 1.460",
+    "loesung": "a) 660\nb) 750\nc) 1.540",
+    "loesungsweg": "Nutze die Umkehroperation:\n- a) ▢ = 1.000 − 340 = 660\n- b) ▢ = 2.000 − 1.250 = 750\n- c) ▢ = 3.000 − 1.460 = 1.540\n\nProbe:\n- a) 1.000 − 660 = 340 ✓\n- b) 750 + 1.250 = 2.000 ✓\n- c) 3.000 − 1.540 = 1.460 ✓",
+    "tipps": [
+      "Was fehlt von 340 bis 1.000? Denke an die Ergänzung: Wie viel musst du zu 340 addieren, um auf 1.000 zu kommen?",
+      "Bei a) gilt: ▢ = 1.000 − 340. Rechne schrittweise: erst die Einer ergänzen (340 → 400), dann die Hunderter (400 → 1.000).",
+      "a) Von 340 bis 1.000: 340 + 60 = 400, 400 + 600 = 1.000. Also: 60 + 600 = 660. ▢ = 660.",
+      "Nutze die Umkehroperation:\n- a) ▢ = 1.000 − 340 = 660\n- b) ▢ = 2.000 − 1.250 = 750\n- c) ▢ = 3.000 − 1.460 = 1.540\n\nProbe:\n- a) 1.000 − 660 = 340 ✓\n- b) 750 + 1.250 = 2.000 ✓\n- c) 3.000 − 1.540 = 1.460 ✓"
+    ],
+    "didaktischerHinweis": "Die Ergänzung zu Tausenderzahlen ist eine wichtige Grundfertigkeit. Das schrittweise Ergänzen (erst zur nächsten Hunderterzahl, dann zum Tausender) gibt dem Kind eine konkrete Strategie.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Finde die fehlende Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1.000 − ▢ = 340",
+          "antwort": "660"
+        },
+        {
+          "label": "b",
+          "frage": "▢ + 1.250 = 2.000",
+          "antwort": "750"
+        },
+        {
+          "label": "c",
+          "frage": "3.000 − ▢ = 1.460",
+          "antwort": "1.540"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Platzhalter mit gemischten Operationen",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "grün",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Finde die fehlende Zahl.\n\na) ▢ · 5 = 450\nb) 720 : ▢ = 8\nc) ▢ · 7 + 30 = 240",
+    "loesung": "a) 90\nb) 90\nc) 30",
+    "loesungsweg": "Nutze Umkehroperationen:\n- a) ▢ = 450 : 5 = 90\n- b) ▢ = 720 : 8 = 90\n- c) Zuerst „+ 30\" rückgängig machen: 240 − 30 = 210. Dann: ▢ = 210 : 7 = 30\n\nProbe:\n- a) 90 · 5 = 450 ✓\n- b) 720 : 90 = 8 ✓\n- c) 30 · 7 + 30 = 210 + 30 = 240 ✓",
+    "tipps": [
+      "Bei a) und b): Welche Zahl mal 5 ergibt 450? Welche Zahl in 720 geteilt ergibt 8?",
+      "Bei Multiplikation: Umkehrung ist Division. Bei c) musst du zwei Schritte rückwärts rechnen: zuerst „+ 30\" umkehren, dann „· 7\" umkehren.",
+      "c) Schritt 1: 240 − 30 = 210. Schritt 2: 210 : 7 = ? Denke an die 7er-Reihe: 7 · ? = 210. Tipp: 7 · 30 = 210.",
+      "Nutze Umkehroperationen:\n- a) ▢ = 450 : 5 = 90\n- b) ▢ = 720 : 8 = 90\n- c) Zuerst „+ 30\" rückgängig machen: 240 − 30 = 210. Dann: ▢ = 210 : 7 = 30\n\nProbe:\n- a) 90 · 5 = 450 ✓\n- b) 720 : 90 = 8 ✓\n- c) 30 · 7 + 30 = 210 + 30 = 240 ✓"
+    ],
+    "didaktischerHinweis": "Aufgabe c) erfordert zweistufiges Umkehrrechnen. Das Kind muss die Operationen in der richtigen Reihenfolge rückwärts abarbeiten — eine Vorstufe zum Gleichungslösen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Finde die fehlende Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "▢ · 5 = 450",
+          "antwort": "90"
+        },
+        {
+          "label": "b",
+          "frage": "720 : ▢ = 8",
+          "antwort": "90"
+        },
+        {
+          "label": "c",
+          "frage": "▢ · 7 + 30 = 240",
+          "antwort": "30"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zahlenrätsel als Textaufgabe — einfach",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "orange",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Ich denke mir eine Zahl, multipliziere sie mit 4 und addiere 20. Das Ergebnis ist 100. Welche Zahl ist es?",
+    "loesung": "Die gedachte Zahl ist 20.",
+    "loesungsweg": "1. Rechenkette aufschreiben: ▢ → · 4 → ▢ → + 20 → 100\n2. Rückwärts rechnen:\n   - 100 − 20 = 80 (Umkehrung von „+ 20\")\n   - 80 : 4 = 20 (Umkehrung von „· 4\")\n3. Probe: 20 · 4 = 80, 80 + 20 = 100 ✓",
+    "tipps": [
+      "Zeichne dir eine Rechenkette: Zahl → · 4 → ? → + 20 → 100. Arbeite vom Ende rückwärts!",
+      "Der letzte Schritt war „+ 20 = 100\". Die Umkehrung ist: 100 − 20 = 80. Jetzt hast du den Zwischenwert. Weiter rückwärts: „· 4 = 80\" → Umkehrung?",
+      "Rückwärts: 100 − 20 = 80. Dann: 80 : 4 = ?. Denke an die 4er-Reihe: 4 · ? = 80.",
+      "1. Rechenkette aufschreiben: ▢ → · 4 → ▢ → + 20 → 100\n2. Rückwärts rechnen:\n   - 100 − 20 = 80 (Umkehrung von „+ 20\")\n   - 80 : 4 = 20 (Umkehrung von „· 4\")\n3. Probe: 20 · 4 = 80, 80 + 20 = 100 ✓"
+    ],
+    "didaktischerHinweis": "Textbasierte Zahlenrätsel fördern das Leseverständnis und die Übersetzung von Sprache in Mathematik. Die Rechenkette als Hilfsmittel macht die Struktur sichtbar.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ich denke mir eine Zahl, multipliziere sie mit 4 und addiere 20. Das Ergebnis ist 100. Welche Zahl ist es?",
+          "antwort": "Die gedachte Zahl ist 20."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zahlenrätsel als Textaufgabe — knifflig",
+    "typ": "eingabe",
+    "thema": "Zahlenrätsel",
+    "schwierigkeit": "orange",
+    "buchseite": 44,
+    "kapitel": "03-addition-subtraktion-rechenregeln",
+    "stageId": "zahlenraetsel",
+    "digital": "voll",
+    "aufgabenstellung": "Ich denke mir eine Zahl, halbiere sie, subtrahiere 45 und erhalte 30. Welche Zahl denke ich mir?",
+    "loesung": "Die gedachte Zahl ist 150.",
+    "loesungsweg": "1. Rechenkette aufschreiben: ▢ → : 2 → ▢ → − 45 → 30\n2. Rückwärts rechnen:\n   - 30 + 45 = 75 (Umkehrung von „− 45\")\n   - 75 · 2 = 150 (Umkehrung von „: 2\", also „halbieren\")\n3. Probe: 150 : 2 = 75, 75 − 45 = 30 ✓",
+    "tipps": [
+      "„Halbieren\" bedeutet „durch 2 teilen\". Zeichne die Rechenkette und arbeite vom Ergebnis 30 rückwärts.",
+      "Umkehroperationen: „− 45\" wird zu „+ 45\". „Halbieren (: 2)\" wird zu „verdoppeln (· 2)\". Rechne Schritt für Schritt vom Ende zum Anfang.",
+      "Letzter Schritt war „− 45 = 30\". Umkehrung: 30 + 45 = 75. Voriger Schritt war „: 2\". Umkehrung: 75 · 2 = ?",
+      "1. Rechenkette aufschreiben: ▢ → : 2 → ▢ → − 45 → 30\n2. Rückwärts rechnen:\n   - 30 + 45 = 75 (Umkehrung von „− 45\")\n   - 75 · 2 = 150 (Umkehrung von „: 2\", also „halbieren\")\n3. Probe: 150 : 2 = 75, 75 − 45 = 30 ✓"
+    ],
+    "didaktischerHinweis": "Das Wort „halbieren\" muss als „: 2\" erkannt werden. Kinder, die das verstanden haben, können auch „verdreifachen\" (· 3) oder „vierteln\" (: 4) als Rechenoperationen übersetzen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ich denke mir eine Zahl, halbiere sie, subtrahiere 45 und erhalte 30. Welche Zahl denke ich mir?",
+          "antwort": "Die gedachte Zahl ist 150."
         }
       ]
     }

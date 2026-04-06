@@ -1303,7 +1303,7 @@
   },
   {
     "titel": "Fehlende Ziffern ergänzen — Detektivarbeit",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Schriftliches Multiplizieren vertiefen",
     "schwierigkeit": "orange",
     "buchseite": 61,
@@ -1321,13 +1321,23 @@
     ],
     "didaktischerHinweis": "Fehlende Ziffern finden (S. 61, Aufg. 10) kombiniert Multiplikation mit logischem Denken. Kinder müssen den Algorithmus rückwärts anwenden und dabei Überträge berücksichtigen — eine kognitiv anspruchsvolle Aufgabe.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Berechne die fehlenden Ziffern.",
       "items": [
         {
-          "label": "1",
-          "frage": "Berechne die fehlenden Ziffern.\n\na) _43_ · 2 = 4.862\nb) 6__7 · 4 = 24.828\nc) 3_5_ · 3 = 10.962",
-          "antwort": "a) 2.431 · 2 = 4.862"
+          "label": "a",
+          "frage": "_43_ · 2 = 4.862",
+          "antwort": "2.431 · 2 = 4.862"
+        },
+        {
+          "label": "b",
+          "frage": "6__7 · 4 = 24.828",
+          "antwort": "6.207 · 4 = 24.828"
+        },
+        {
+          "label": "c",
+          "frage": "3_5_ · 3 = 10.962",
+          "antwort": "3.654 · 3 = 10.962"
         }
       ]
     }
@@ -1502,7 +1512,7 @@
   },
   {
     "titel": "Tauschaufgaben — Welche Reihenfolge ist einfacher?",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Schriftliches Multiplizieren mehrstelliger Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 62,
@@ -1520,24 +1530,25 @@
     ],
     "didaktischerHinweis": "Tauschaufgaben (S. 62, Aufg. 5-6) zeigen, dass das Kommutativgesetz (a · b = b · a) beim schriftlichen Verfahren zu unterschiedlich viel Arbeit führt. Die bewusste Wahl der Reihenfolge ist eine Effizienzstrategie.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit?",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit?",
+      "items": [
         {
-          "label": "A",
-          "text": "318 · 22 oder 22 · 318?"
+          "label": "a",
+          "frage": "318 · 22 oder 22 · 318?",
+          "antwort": "22 · 318 ist einfacher (weniger Stellen im Multiplikand → kürzere Zeilen)"
         },
         {
-          "label": "B",
-          "text": "15 · 3.107 oder 3.107 · 15?"
+          "label": "b",
+          "frage": "15 · 3.107 oder 3.107 · 15?",
+          "antwort": "3.107 · 15 (größere Zahl vorne, nur 2 Teilzeilen statt 4)"
         },
         {
-          "label": "C",
-          "text": "59 · 4.256 oder 4.256 · 59?"
+          "label": "c",
+          "frage": "59 · 4.256 oder 4.256 · 59?",
+          "antwort": "4.256 · 59 (größere Zahl vorne, nur 2 Teilzeilen)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1706,7 +1717,7 @@
   },
   {
     "titel": "Ziffernkarten-Rätsel — Multiplikation rückwärts",
-    "typ": "lücke",
+    "typ": "luecke",
     "thema": "Schriftliches Multiplizieren mehrstelliger Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 63,
@@ -1724,13 +1735,18 @@
     ],
     "didaktischerHinweis": "Ziffernkarten-Rätsel (S. 63, Aufg. 12) sind anspruchsvolle Problemlöseaufgaben, die Multiplikation, Division, Überschlag und logisches Denken kombinieren. Sie eignen sich hervorragend als Knobelaufgaben für stärkere Schüler.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
+      "typ": "luecke",
+      "anweisung": "Bilde mit den Ziffernkarten 1, 2, 3, 4, 5 (jede nur einmal!) eine Malaufgabe ___ · __ zum Ergebnis.",
       "items": [
         {
-          "label": "1",
-          "frage": "Bilde mit den Ziffernkarten 1, 2, 3, 4, 5 (jede nur einmal!) eine Malaufgabe ___ · __ zum Ergebnis.\n\na) ___ · __ = 10.395\nb) ___ · __ = 6.408",
-          "antwort": "a) 231 · 45 = 10.395 (oder 315 · 33 geht nicht, da 3 doppelt)"
+          "label": "a",
+          "frage": "___ · __ = 10.395",
+          "antwort": "231 · 45 = 10.395 (oder 315 · 33 geht nicht, da 3 doppelt)"
+        },
+        {
+          "label": "b",
+          "frage": "___ · __ = 6.408",
+          "antwort": "534 · 12 = 6.408"
         }
       ]
     }
