@@ -17,25 +17,20 @@ export type {
 export { parseAufgabenDatei } from './parser';
 export { aufgabenPool } from './pool';
 export { createBankStage } from './bankStage';
-
-/** Schöne Titel für Stage-IDs erzeugen. */
-function formatStageTitle(stageId: string): string {
-  return stageId
-    .replace(/-/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-}
+export { STAGE_MAPPING, KATEGORIEN, getStageMeta, getKategorieMeta } from './stageMapping';
+export type { Kategorie, KategorieMeta, StageMappingEntry } from './stageMapping';
 
 /**
  * Lädt alle Aufgaben-Dateien, erstellt Bank-Stages und registriert sie.
- * Sollte einmal beim App-Start aufgerufen werden.
+ * Nutzt das Fredo-Buchkapitel-Mapping für Titel und Sortierung.
  */
 export async function loadAllAufgaben(): Promise<number> {
   const { parseAufgabenDatei } = await import('./parser');
   const { aufgabenPool } = await import('./pool');
   const { createBankStage } = await import('./bankStage');
+  const { STAGE_MAPPING, getKategorieMeta } = await import('./stageMapping');
   const { registerStage } = await import('@/stages/registry');
 
-  // Vite glob: loads all chapter MD files as raw strings
   const modules = import.meta.glob('/docs/aufgaben/[0-9]*.md', {
     query: '?raw',
     import: 'default',
@@ -55,21 +50,20 @@ export async function loadAllAufgaben(): Promise<number> {
     }
   }
 
-  // Dynamisch Bank-Stages für alle eindeutigen stageIds registrieren
-  const stageIds = aufgabenPool.getStageIds();
+  // Registriere Bank-Stages in der Reihenfolge des Fredo-Mappings
   let registered = 0;
 
-  for (const stageId of stageIds) {
-    const aufgaben = aufgabenPool.getAll({ stageId });
-    if (aufgaben.length === 0) continue;
+  for (const mapping of STAGE_MAPPING) {
+    const count = aufgabenPool.getCount({ stageId: mapping.stageId });
+    if (count === 0) continue;
 
-    const sample = aufgaben[0];
+    const katMeta = getKategorieMeta(mapping.kategorie);
     const stage = createBankStage(
-      stageId,
-      formatStageTitle(stageId),
-      sample.thema,
-      '📝',
-      sample.kapitel,
+      mapping.stageId,
+      mapping.titel,
+      katMeta?.titel || mapping.kategorie,
+      mapping.icon,
+      mapping.kategorie,
     );
 
     registerStage(stage as unknown as import('@/stages/types').Stage);
