@@ -30,6 +30,13 @@ export const STAGES: Stage[] = [
   skizzeStage as unknown as Stage,
 ];
 
+/** Dynamisch Bank-Stages hinzufügen (nach Pool-Laden aufrufen). */
+export function registerStage(stage: Stage): void {
+  if (!STAGES.find((s) => s.id === stage.id)) {
+    STAGES.push(stage);
+  }
+}
+
 export function findStage(id: string): Stage | undefined {
   return STAGES.find((s) => s.id === id);
 }

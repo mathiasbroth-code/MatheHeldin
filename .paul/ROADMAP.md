@@ -15,7 +15,7 @@ Phases: 3 of 7 complete
 | 1 | Design System + UI-Primitives | 01-01 | Complete | 2026-04-06 |
 | 2 | Stufen portieren (Welle 1) | 02-01..04 | Complete | 2026-04-06 |
 | 3a | Aufgabenbank Inhalt — Welle A | 03a-01..02 | Complete | 2026-04-06 |
-| 3b | Aufgabenbank Inhalt — Welle B | TBD | In progress (Kap.8 vorgezogen) | - |
+| 3b | Aufgabenbank Inhalt — Welle B | 03b-01 | Complete | 2026-04-06 |
 | 3 | Profil-System + Navigation | 03-01..02 | Complete | 2026-04-06 |
 | 4 | Aufgabenbank Code-Integration | TBD | Not started | - |
 | 5 | Tipp-System + Feedback | 05-01..02 | Complete | 2026-04-06 |

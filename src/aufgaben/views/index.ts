@@ -1,0 +1,10 @@
+export { AufgabeWrapper } from './AufgabeWrapper';
+export type { AufgabeViewProps } from './AufgabeWrapper';
+export { EingabeView } from './EingabeView';
+export { AuswahlView } from './AuswahlView';
+export { ZuordnungView } from './ZuordnungView';
+export { LueckeView } from './LueckeView';
+export { ReihenfolgeView } from './ReihenfolgeView';
+export { SchrittView } from './SchrittView';
+export { WahrFalschView } from './WahrFalschView';
+export { TextaufgabeView } from './TextaufgabeView';
