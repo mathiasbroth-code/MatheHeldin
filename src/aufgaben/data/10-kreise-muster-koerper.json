@@ -78,6 +78,7 @@
     ],
     "didaktischerHinweis": "Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greifbar. Entspricht S. 104, Aufg. 1-2.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
+    "themenIntroBild": "assets/erklaerungen/charly-futterplatz.svg",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "",

@@ -72,6 +72,7 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+themen_intro_bild: "assets/erklaerungen/charly-futterplatz.svg"
 ---
 
 ### Aufgabenstellung
