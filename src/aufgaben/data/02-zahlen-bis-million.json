@@ -765,12 +765,12 @@
         {
           "label": "a",
           "items": [
-            "162.450",
-            "156.203",
             "42.876",
-            "41.398",
+            "9.324",
+            "156.203",
             "15.982",
-            "9.324"
+            "162.450",
+            "41.398"
           ],
           "richtigeReihenfolge": [
             "162.450",
@@ -785,10 +785,10 @@
           "label": "b",
           "items": [
             "734.281",
-            "301.225",
+            "8.956",
             "298.640",
             "45.073",
-            "8.956",
+            "301.225",
             "4.780"
           ],
           "richtigeReihenfolge": [
@@ -1015,12 +1015,12 @@
         {
           "label": "a",
           "frage": "Welches sind die drei größten Zahlen, die du legen kannst? Notiere.",
-          "antwort": "Die drei größten:"
+          "antwort": "- 500.000 (5 Plättchen auf HT)"
         },
         {
           "label": "b",
           "frage": "Welches sind die drei kleinsten Zahlen, die du legen kannst? Notiere.",
-          "antwort": "Die drei kleinsten:"
+          "antwort": "- 5 (5 Plättchen auf E)"
         }
       ]
     }
@@ -1204,7 +1204,7 @@
         {
           "label": "1",
           "frage": "Wähle jeweils zwei Zahlen aus: 56.000 | 185.000 | 72.000 | 128.000 | 9.000 | 234.000",
-          "antwort": "Mögliche Aufgaben (mehrere Lösungen möglich):"
+          "antwort": "- 128.000 + 72.000 = 200.000 ✓"
         }
       ]
     }
@@ -2075,22 +2075,22 @@
         {
           "label": "a",
           "frage": "73.000",
-          "antwort": "73.000:"
+          "antwort": "Nachbar-T: 73.000 und 73.000 (schon glatt)"
         },
         {
           "label": "b",
           "frage": "245.000",
-          "antwort": "245.000:"
+          "antwort": "Nachbar-T: 245.000 und 245.000 (schon glatt)"
         },
         {
           "label": "c",
           "frage": "518.720",
-          "antwort": "518.720:"
+          "antwort": "Nachbar-T: 518.000 und 519.000"
         },
         {
           "label": "d",
           "frage": "389.500",
-          "antwort": "389.500:"
+          "antwort": "Nachbar-T: 389.000 und 390.000"
         }
       ]
     }

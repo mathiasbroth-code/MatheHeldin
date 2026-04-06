@@ -1055,12 +1055,12 @@
         {
           "label": "a",
           "frage": "Finde alle möglichen Rechtecke (ganze Meter).",
-          "antwort": "Mögliche Rechtecke (Länge × Breite = 12):"
+          "antwort": "- 1 m × 12 m"
         },
         {
           "label": "b",
           "frage": "Wie viele Zaunlatten braucht man für jedes Beet?",
-          "antwort": "Zaunlatten = Umfang:"
+          "antwort": "- 1 × 12: U = 2 · (1 + 12) = 26 Latten"
         },
         {
           "label": "c",

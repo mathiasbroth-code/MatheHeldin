@@ -1412,7 +1412,7 @@
         {
           "label": "1",
           "frage": "Wie viele verschiedene Pizzen kannst du bestellen? Schreibe alle Möglichkeiten auf.",
-          "antwort": "6 verschiedene Pizzen:"
+          "antwort": "S+P, S+Sc, S+M, P+Sc, P+M, Sc+M"
         }
       ]
     }

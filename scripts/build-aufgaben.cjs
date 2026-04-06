@@ -128,7 +128,11 @@ function parseEingabeDaten(aufgabenstellung, loesung) {
     for (const item of split.items) {
       const zeilen = item.text.split('\n').map((l) => l.trim()).filter(Boolean);
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      const loesungText = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
+      const rawLoesungText = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
+      // P4: If first line is just a header (ends with ":"), take the next non-empty line
+      const loesungText = rawLoesungText.endsWith(':')
+        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawLoesungText) : rawLoesungText)
+        : rawLoesungText;
 
       if (zeilen.length > 1 && loesungText.includes('/')) {
         const antworten = loesungText.split('/').map((a) => a.trim());
@@ -190,12 +194,17 @@ function parseSchrittDaten(aufgabenstellung, loesung) {
   const ueberschlagResult = parseUeberschlagGenau(aufgabenstellung, loesung);
   if (ueberschlagResult) return ueberschlagResult;
 
+  // P4: header-line fix
+  const rawFirst = loesung.split('\n')[0].trim();
+  const fallbackAntwort = rawFirst.endsWith(':')
+    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
+    : rawFirst;
   return {
     typ: 'schritt',
     anweisung: aufgabenstellung.trim(),
     teilaufgaben: [{
       label: '1',
-      schritte: [{ label: '1', frage: aufgabenstellung.trim(), antwort: loesung.split('\n')[0].trim() }],
+      schritte: [{ label: '1', frage: aufgabenstellung.trim(), antwort: fallbackAntwort }],
     }],
   };
 }
@@ -245,8 +254,24 @@ function parseSchrittAbc(_aufgabenstellung, loesung, abcSplit) {
       return { label: item.label, schritte };
     }
 
+    // P6: Try to extract multiple steps from multi-line lösung
+    const loesungLines = loesungText.split('\n').map(l => l.trim()).filter(Boolean);
+    const calcLines = loesungLines.filter(l => /=/.test(l));
+    if (calcLines.length > 1) {
+      const schritte = calcLines.map((line, idx) => ({
+        label: String(idx + 1),
+        frage: line.replace(/=\s*[\d.,]+\s*$/, '= ?').trim(),
+        antwort: extractAntwortAusLoesung(line),
+      }));
+      return { label: item.label, schritte };
+    }
+
     const frage = item.text.split('\n')[0].trim();
-    const antwort = loesungText.split('\n')[0].trim();
+    // P4: header-line fix
+    const rawAntwort = loesungText.split('\n')[0].trim();
+    const antwort = rawAntwort.endsWith(':')
+      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawAntwort)
+      : rawAntwort;
     return { label: item.label, schritte: [{ label: '1', frage, antwort }] };
   });
 
@@ -386,7 +411,12 @@ function parseUeberschlagTeilaufgabe(item, loesungText) {
     schritte.push({ label: '2', frage: `Genau: ${frage}`, antwort: genauMatch[1] });
   }
   if (schritte.length === 0) {
-    schritte.push({ label: '1', frage, antwort: loesungText.split('\n')[0].trim() });
+    // P4: header-line fix
+    const rawFb = loesungText.split('\n')[0].trim();
+    const fbAntwort = rawFb.endsWith(':')
+      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFb)
+      : rawFb;
+    schritte.push({ label: '1', frage, antwort: fbAntwort });
   }
 
   return { label: item.label, schritte };
@@ -415,19 +445,29 @@ function parseLueckeDaten(aufgabenstellung, loesung) {
   if (split.items.length > 0) {
     const items = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
+      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      const rawFirst = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
+      const antwort = rawFirst.endsWith(':')
+        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst) : rawFirst)
+        : rawFirst;
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
-        antwort: loesungItem ? loesungItem.text.split('\n')[0].trim() : '',
+        antwort,
       };
     });
     return { typ: 'luecke', anweisung: split.intro, items };
   }
 
+  // P4: header-line fix
+  const rawFirst = loesung.split('\n')[0].trim();
+  const lueckeAntwort = rawFirst.endsWith(':')
+    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
+    : rawFirst;
   return {
     typ: 'luecke',
     anweisung: '',
-    items: [{ label: '1', frage: aufgabenstellung.trim(), antwort: loesung.split('\n')[0].trim() }],
+    items: [{ label: '1', frage: aufgabenstellung.trim(), antwort: lueckeAntwort }],
   };
 }
 
@@ -605,10 +645,15 @@ function parseTextaufgabeDaten(aufgabenstellung, loesung) {
   if (split.items.length > 0) {
     const items = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
+      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      const rawFirst = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
+      const antwort = rawFirst.endsWith(':')
+        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst) : rawFirst)
+        : rawFirst;
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
-        antwort: loesungItem ? loesungItem.text.split('\n')[0].trim() : '',
+        antwort,
       };
     });
     return { typ: 'textaufgabe', anweisung: split.intro, kontext: split.intro, items };
@@ -618,18 +663,28 @@ function parseTextaufgabeDaten(aufgabenstellung, loesung) {
   if (paragraphs.length > 1) {
     const kontext = paragraphs.slice(0, -1).join('\n\n');
     const frage = paragraphs[paragraphs.length - 1];
+    // P4: header-line fix for single-item loesung
+    const rawFirst = loesung.split('\n')[0].trim();
+    const antwort = rawFirst.endsWith(':')
+      ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
+      : rawFirst;
     return {
       typ: 'textaufgabe',
       anweisung: kontext,
       kontext,
-      items: [{ label: '1', frage, antwort: loesung.split('\n')[0].trim() }],
+      items: [{ label: '1', frage, antwort }],
     };
   }
 
+  // P4: header-line fix for single-item loesung
+  const rawFirst = loesung.split('\n')[0].trim();
+  const antwort = rawFirst.endsWith(':')
+    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
+    : rawFirst;
   return {
     typ: 'textaufgabe',
     anweisung: '',
-    items: [{ label: '1', frage: aufgabenstellung.trim(), antwort: loesung.split('\n')[0].trim() }],
+    items: [{ label: '1', frage: aufgabenstellung.trim(), antwort }],
   };
 }
 
@@ -640,6 +695,19 @@ function parseReihenfolgeDaten(aufgabenstellung, loesung) {
   const loesungSplit = splitTeilaufgaben(loesung);
 
   if (split.items.length > 0) {
+    // P5: Check if loesung is a label order (e.g. "b, d, a, c")
+    const labelOrder = extractLabelOrder(loesung, split.items);
+    if (labelOrder) {
+      const itemMap = new Map(split.items.map((i) => [i.label, i.text.split('\n')[0].trim()]));
+      const items = split.items.map((i) => i.text.split('\n')[0].trim());
+      const richtigeReihenfolge = labelOrder.map((l) => itemMap.get(l) || l);
+      return {
+        typ: 'reihenfolge',
+        anweisung: split.intro,
+        teilaufgaben: [{ label: '1', items, richtigeReihenfolge }],
+      };
+    }
+
     const teilaufgaben = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
       const loesungText = loesungItem ? loesungItem.text : '';
@@ -659,6 +727,16 @@ function parseReihenfolgeDaten(aufgabenstellung, loesung) {
   };
 }
 
+/** P5: Detects if loesung is a label order like "b, d, a, c" */
+function extractLabelOrder(loesung, items) {
+  const labels = new Set(items.map((i) => i.label));
+  const parts = loesung.trim().split(/[,\s]+/).filter(Boolean);
+  if (parts.length === labels.size && parts.every((p) => labels.has(p))) {
+    return parts;
+  }
+  return null;
+}
+
 function extractOrderedItems(loesung) {
   if (/[>→]/.test(loesung)) {
     const items = loesung.split(/[>→]/).map((s) => s.trim()).filter(Boolean);
@@ -668,14 +746,25 @@ function extractOrderedItems(loesung) {
   if (numberedMatches && numberedMatches.length >= 2) {
     return numberedMatches.map((m) => m.replace(/^\d+\.\s+/, '').trim());
   }
+  // Comma and/or = separated items
+  if (loesung.includes(',') || /(?<!\d)\s*=\s*(?!\s*\d)/.test(loesung)) {
+    const items = loesung.split(/,|(?<!\d)\s*=\s*(?!\s*\d)/).map((s) => s.trim()).filter(Boolean);
+    if (items.length >= 2) return items;
+  }
   const lineItems = loesung.split('\n').map((l) => l.trim()).filter(Boolean);
   return lineItems.length >= 2 ? lineItems : [loesung.trim()];
 }
 
 function extractItemsFromText(text, fallbackItems) {
-  if (text.includes('|')) {
+  // Skip | splitting if text contains a Markdown table (lines starting with |)
+  if (text.includes('|') && !text.split('\n').some((l) => l.trim().startsWith('|'))) {
     const items = text.split('|').map((s) => s.trim()).filter(Boolean);
     if (items.length >= 2) return items;
+  }
+  // Comma-separated items
+  if (text.includes(',')) {
+    const commaItems = text.split(',').map((s) => s.trim()).filter(Boolean);
+    if (commaItems.length >= 3) return commaItems;
   }
   return [...fallbackItems];
 }

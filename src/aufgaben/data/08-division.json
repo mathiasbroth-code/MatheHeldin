@@ -1308,12 +1308,12 @@
         {
           "label": "a",
           "frage": "durch 3 teilbar sind? 783___, 435___",
-          "antwort": "Durch 3:"
+          "antwort": "- 783_: 7+8+3 = 18. Jede Ziffer, die mit 18 zusammen durch 3 teilbar ist: 0, 3, 6, 9"
         },
         {
           "label": "b",
           "frage": "durch 9 teilbar sind? 783___, 435___",
-          "antwort": "Durch 9:"
+          "antwort": "- 783_: 7+8+3 = 18. Damit Quersumme durch 9 teilbar: 0 (=18) oder 9 (=27)"
         },
         {
           "label": "c",

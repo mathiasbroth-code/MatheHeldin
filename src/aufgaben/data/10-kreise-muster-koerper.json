@@ -270,39 +270,18 @@
       "anweisung": "Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.",
       "teilaufgaben": [
         {
-          "label": "a",
+          "label": "1",
           "items": [
-            ""
+            "Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis mit demselben Radius",
+            "Zeichne einen Kreis mit Radius 3 cm",
+            "Verbinde die Mittelpunkte zu einem Dreieck",
+            "Stich auf der Kreislinie ein und zeichne einen zweiten Kreis mit Radius 3 cm"
           ],
           "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "b",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "c",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "d",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
+            "Zeichne einen Kreis mit Radius 3 cm",
+            "Stich auf der Kreislinie ein und zeichne einen zweiten Kreis mit Radius 3 cm",
+            "Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis mit demselben Radius",
+            "Verbinde die Mittelpunkte zu einem Dreieck"
           ]
         }
       ]
@@ -679,39 +658,18 @@
       "anweisung": "Aus einem Dreieck kann man eine neue Form herstellen und damit parkettieren. Bringe die Schritte in die richtige Reihenfolge.",
       "teilaufgaben": [
         {
-          "label": "a",
+          "label": "1",
           "items": [
-            ""
+            "Die neue Form als Schablone verwenden und parkettieren",
+            "Ein Dreieck zeichnen",
+            "Das abgeschnittene Stück an die gegenüberliegende Seite kleben",
+            "Ein Stück an einer Seite des Dreiecks abschneiden"
           ],
           "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "b",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "c",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "d",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
+            "Ein Dreieck zeichnen",
+            "Ein Stück an einer Seite des Dreiecks abschneiden",
+            "Das abgeschnittene Stück an die gegenüberliegende Seite kleben",
+            "Die neue Form als Schablone verwenden und parkettieren"
           ]
         }
       ]
@@ -1222,39 +1180,18 @@
       "anweisung": "Bringe die Schritte zum Zeichnen eines Schrägbilds (Würfel) in die richtige Reihenfolge.",
       "teilaufgaben": [
         {
-          "label": "a",
+          "label": "1",
           "items": [
-            ""
+            "Schräge Linien von jeder Ecke nach rechts oben zeichnen",
+            "Die hintere Fläche zeichnen (Endpunkte verbinden)",
+            "Die Vorderseite zeichnen (ein Quadrat)",
+            "Unsichtbare Kanten gestrichelt zeichnen"
           ],
           "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "b",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "c",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
-          ]
-        },
-        {
-          "label": "d",
-          "items": [
-            ""
-          ],
-          "richtigeReihenfolge": [
-            ""
+            "Die Vorderseite zeichnen (ein Quadrat)",
+            "Schräge Linien von jeder Ecke nach rechts oben zeichnen",
+            "Die hintere Fläche zeichnen (Endpunkte verbinden)",
+            "Unsichtbare Kanten gestrichelt zeichnen"
           ]
         }
       ]

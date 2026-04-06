@@ -236,10 +236,18 @@
         {
           "label": "1",
           "items": [
-            "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)"
+            "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm)",
+            "Justus (140 cm)",
+            "Daniel (143 cm)",
+            "Jan (137 cm)",
+            "Ole (138 cm)"
           ],
           "richtigeReihenfolge": [
-            "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)"
+            "Lukas (137 cm)",
+            "Jan (137 cm)",
+            "Ole (138 cm)",
+            "Justus (140 cm)",
+            "Daniel (143 cm)"
           ]
         }
       ]

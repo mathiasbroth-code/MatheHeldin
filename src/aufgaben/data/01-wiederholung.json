@@ -1390,8 +1390,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "5 · 47 =",
-              "antwort": "5 · 47 = 235"
+              "frage": "5 · 47 = ?",
+              "antwort": "235"
+            },
+            {
+              "label": "2",
+              "frage": "5 · 40 = ?",
+              "antwort": "200"
+            },
+            {
+              "label": "3",
+              "frage": "5 · 7 = ?",
+              "antwort": "35"
+            },
+            {
+              "label": "4",
+              "frage": "200 + 35 = ?",
+              "antwort": "235"
             }
           ]
         },
@@ -1400,8 +1415,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "8 · 63 =",
-              "antwort": "8 · 63 = 504"
+              "frage": "8 · 63 = ?",
+              "antwort": "504"
+            },
+            {
+              "label": "2",
+              "frage": "8 · 60 = ?",
+              "antwort": "480"
+            },
+            {
+              "label": "3",
+              "frage": "8 · 3 = ?",
+              "antwort": "24"
+            },
+            {
+              "label": "4",
+              "frage": "480 + 24 = ?",
+              "antwort": "504"
             }
           ]
         }
@@ -1516,8 +1546,28 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "4 · 213 =",
-              "antwort": "4 · 213 = 852"
+              "frage": "4 · 213 = ?",
+              "antwort": "852"
+            },
+            {
+              "label": "2",
+              "frage": "4 · 200 = ?",
+              "antwort": "800"
+            },
+            {
+              "label": "3",
+              "frage": "4 · 10 = ?",
+              "antwort": "40"
+            },
+            {
+              "label": "4",
+              "frage": "4 · 3 = ?",
+              "antwort": "12"
+            },
+            {
+              "label": "5",
+              "frage": "800 + 40 + 12 = ?",
+              "antwort": "852"
             }
           ]
         },
@@ -2360,7 +2410,7 @@
         {
           "label": "1",
           "frage": "Lara und ihre Mutter sind zusammen 42 Jahre alt.\nWie alt ist Lara, wie alt ist ihre Mutter?",
-          "antwort": "Die Aufgabe hat unendlich viele Lösungen ohne weitere Angabe! Man braucht z.B.:"
+          "antwort": "- \"Die Mutter ist doppelt so alt wie Lara\" → 3 Teile = 42 → 1 Teil = 14. Lara = 14, Mutter = 28."
         }
       ]
     }
