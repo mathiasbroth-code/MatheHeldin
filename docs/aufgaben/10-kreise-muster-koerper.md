@@ -21,23 +21,24 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
+themen_intro_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
 ---
 
 ### Aufgabenstellung
-Ordne die Begriffe dem richtigen Teil des Kreises zu.
+Ordne die Begriffe der richtigen Beschreibung zu.
 
-Begriffe: Mittelpunkt (M), Radius (r), Kreislinie
+a) Mittelpunkt (M)
+b) Radius (r)
+c) Kreislinie
 
-Beschreibungen:
 A) Die Linie, die den Kreis bildet — alle Punkte haben den gleichen Abstand vom Mittelpunkt.
 B) Der Punkt genau in der Mitte des Kreises.
 C) Die Strecke vom Mittelpunkt bis zur Kreislinie.
 
 ### Lösung
-A) Kreislinie
-B) Mittelpunkt (M)
-C) Radius (r)
+a) → B
+b) → C
+c) → A
 
 ### Lösungsweg
 Ein Kreis hat drei wichtige Bestandteile:
@@ -71,7 +72,6 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -128,7 +128,6 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise-zeichnen"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -175,7 +174,6 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -224,27 +222,24 @@ buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
+themen_intro_bild: "assets/erklaerungen/kreislage-drei-typen.svg"
 ---
 
 ### Aufgabenstellung
 Ordne jedes Bild dem richtigen Begriff zu.
 
-Begriffe:
-- ineinanderliegen
-- sich schneiden
-- sich berühren
+a) Zwei Kreise, die sich an genau einem Punkt treffen
+b) Zwei Kreise, wobei einer komplett im anderen liegt
+c) Zwei Kreise, die sich an zwei Punkten kreuzen
 
-Bilder:
-A) Zwei Kreise, die sich an genau einem Punkt treffen
-B) Zwei Kreise, wobei einer komplett im anderen liegt
-C) Zwei Kreise, die sich an zwei Punkten kreuzen
+A) sich schneiden
+B) sich berühren
+C) ineinanderliegen
 
 ### Lösung
-A) sich berühren
-B) ineinanderliegen
-C) sich schneiden
+a) → B
+b) → C
+c) → A
 
 ### Lösungsweg
 - **Ineinanderliegen:** Ein Kreis liegt komplett innerhalb des anderen — kein Schnittpunkt.
@@ -277,7 +272,6 @@ kapitel: "10-kreise-muster-körper"
 stage_id: "kreise-zeichnen"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
 ---
 
 ### Aufgabenstellung
@@ -315,9 +309,9 @@ schwierigkeit: orange
 buchseite: 105
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
-digital: teilweise
+digital: voll
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
+themen_intro_bild: "assets/erklaerungen/kreismuster-jette.svg"
 ---
 
 ### Aufgabenstellung
@@ -364,8 +358,7 @@ buchseite: 105
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
-tipp_2_bild: "assets/erklaerungen/s104-begriffe-kreise.webp"
+themen_intro_bild: "assets/erklaerungen/drei-kreise-dreieck.svg"
 ---
 
 ### Aufgabenstellung
@@ -413,7 +406,8 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -457,7 +451,8 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -507,7 +502,8 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -550,7 +546,8 @@ buchseite: 106
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -595,7 +592,8 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -639,7 +637,8 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -688,7 +687,8 @@ buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s106-begriffe-parkettierung.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Parkettierung, die Grundfigur, die Spiegelachse"
 ---
 
 ### Aufgabenstellung
@@ -731,7 +731,8 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
@@ -777,7 +778,8 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
@@ -823,7 +825,8 @@ buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
@@ -867,29 +870,34 @@ buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
 Ordne jedes Netz dem richtigen Körper zu.
 
-Körper: Würfel, Quader, Zylinder, Kegel, Pyramide, Dreieckspyramide
+a) Vier Dreiecke, die von einem Punkt ausgehen
+b) Zwei Kreise, verbunden durch ein Rechteck
+c) Vier gleich große Dreiecke, von einem Quadrat ausgehend
+d) Sechs gleich große Quadrate als Kreuz
+e) Ein Kreis mit einem Kreisausschnitt (Tortenstück)
+f) Sechs Rechtecke (3 Paare)
 
-Netze:
-1) Vier Dreiecke, die von einem Punkt ausgehen
-2) Zwei Kreise, verbunden durch ein Rechteck
-3) Vier gleich große Dreiecke, von einem Quadrat ausgehend
-4) Sechs gleich große Quadrate als Kreuz
-5) Ein Kreis mit einem Kreisausschnitt (Tortenstück)
-6) Sechs Rechtecke (3 Paare)
+A) Würfel
+B) Quader
+C) Zylinder
+D) Kegel
+E) Pyramide (Viereckspyramide)
+F) Dreieckspyramide
 
 ### Lösung
-1) Dreieckspyramide
-2) Zylinder
-3) Pyramide (Viereckspyramide)
-4) Würfel
-5) Kegel
-6) Quader
+a) → F
+b) → C
+c) → E
+d) → A
+e) → D
+f) → B
 
 ### Lösungsweg
 Überlege für jeden Körper: Aus welchen Flächen besteht er?
@@ -925,7 +933,8 @@ buchseite: 108
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
@@ -969,7 +978,8 @@ buchseite: 109
 kapitel: "10-kreise-muster-körper"
 stage_id: "koerpernetze"
 digital: teilweise
-erklaerung_bild: "assets/erklaerungen/s108-begriffe-koerpernetze.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ---
 
 ### Aufgabenstellung
@@ -1016,7 +1026,8 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
@@ -1062,7 +1073,8 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
@@ -1108,35 +1120,28 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
 Ordne jedes Schrägbild dem richtigen Bauplan zu.
 
-Schrägbilder:
-A) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende
-B) Turm: 1 Würfel unten, 1 Würfel obendrauf
-C) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links
-D) Reihe: 4 Würfel in einer Reihe
+a) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende
+b) Turm: 1 Würfel unten, 1 Würfel obendrauf
+c) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links
+d) Reihe: 4 Würfel in einer Reihe
 
-Baupläne (Zahlen = Höhe):
-1) [1]
-   [1][1][1]
-
-2) [1][1][1][1]
-
-3) [2]
-   [1]
-
-4) [1][1]
-   [0][1]
+A) [1][1][1][1]
+B) [1] / [1][1][1]
+C) [2] / [1]
+D) [1][1] / [0][1]
 
 ### Lösung
-A) Bauplan 1
-B) Bauplan 3
-C) Bauplan 4
-D) Bauplan 2
+a) → B
+b) → C
+c) → D
+d) → A
 
 ### Lösungsweg
 Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:
@@ -1170,7 +1175,8 @@ buchseite: 110
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
@@ -1214,7 +1220,8 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
@@ -1253,7 +1260,8 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
@@ -1297,25 +1305,28 @@ buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
 digital: voll
-erklaerung_bild: "assets/erklaerungen/s110-begriffe-schraegbilder.webp"
+merkkasten_typ: begriffe
+merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
-Vier identische Würfel werden aus verschiedenen Blickwinkeln gezeigt. Die Seiten sind rot, blau, gelb, grün, orange und weiß gefärbt.
+Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu. Die Würfelseiten sind rot, blau, gelb, grün, orange und weiß.
 
-Ordne jede Perspektive der richtigen Beschreibung zu:
+a) Von vorne
+b) Von der Seite
+c) Von oben
+d) Von schräg oben (Schrägbild)
 
-A) Von vorne sieht man die rote Seite.
-B) Von der Seite sieht man die blaue Seite.
-C) Von oben sieht man die gelbe Seite.
-D) Von schräg oben sieht man drei Seiten: rot, blau und gelb.
-
-Welche Beschreibung passt zum Schrägbild?
+A) Man sieht 3 Seiten gleichzeitig (z. B. rot, blau und gelb)
+B) Man sieht 1 Seite (z. B. die rote Seite)
+C) Man sieht 1 Seite (z. B. die blaue Seite)
+D) Man sieht 1 Seite (z. B. die gelbe Seite)
 
 ### Lösung
-D) Von schräg oben sieht man drei Seiten: rot, blau und gelb.
-
-Das Schrägbild zeigt immer drei Seiten gleichzeitig — die Vorderseite, die Oberseite und eine Seitenseite.
+a) → B
+b) → C
+c) → D
+d) → A
 
 ### Lösungsweg
 Im Schrägbild sieht man immer genau drei Seiten eines Würfels:

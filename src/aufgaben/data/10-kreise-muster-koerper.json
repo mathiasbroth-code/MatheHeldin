@@ -19,6 +19,7 @@
     ],
     "didaktischerHinweis": "Grundbegriffe des Kreises müssen sicher sitzen, bevor mit dem Zirkel gearbeitet wird. Entspricht S. 104, Einleitungskasten.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
+    "themenIntroBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Begriffe der richtigen Beschreibung zu.",
@@ -210,7 +211,7 @@
       "- **Ineinanderliegen:** Ein Kreis liegt komplett innerhalb des anderen — kein Schnittpunkt.\n- **Sich schneiden:** Die Kreise kreuzen sich — genau zwei Schnittpunkte.\n- **Sich berühren:** Die Kreise treffen sich an genau einem Punkt."
     ],
     "didaktischerHinweis": "Die Lagebeziehungen zwischen Kreisen sind ein wichtiges Geometrie-Konzept. Entspricht S. 104, Aufg. 3.",
-    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
+    "themenIntroBild": "assets/erklaerungen/kreislage-drei-typen.svg",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne jedes Bild dem richtigen Begriff zu.",
