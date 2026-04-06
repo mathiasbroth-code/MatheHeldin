@@ -131,7 +131,7 @@
         {
           "label": "1",
           "frage": "Wie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
-          "antwort": "6 Möglichkeiten:"
+          "antwort": "5139, 5193, 5319, 5391, 5913, 5931"
         }
       ]
     }
@@ -742,7 +742,7 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
-    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 10 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| I | 3 |\n| S | 3 |\n| G | 2 |\n| D | 2 |\n| O | 2 |\n| L | 2 |\n| H | 2 |\n| A | 2 |\n| M | 2 |\n| F | 2 |\n| Z | 1 |\n| C | 1 |\n\nDie fünf häufigsten: E (10), N (5), R (5), T (5), I oder S (3)",
+    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 10 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| H | 3 |\n| L | 3 |\n| O | 3 |\n| A | 2 |\n| D | 2 |\n| F | 2 |\n| G | 2 |\n| I | 2 |\n| M | 2 |\n| C | 1 |\n| Z | 1 |\n| ß | 1 |\n\nDie fünf häufigsten: E (10), N (5), R (5), T (5), H/L/O (je 3)",
     "loesungsweg": "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.",
     "tipps": [
       "Geh den Text Buchstabe für Buchstabe durch. Welchen Buchstaben siehst du am öftesten? Tipp: Es ist ein Vokal!",
@@ -759,7 +759,7 @@
         {
           "label": "1",
           "frage": "**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
-          "antwort": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):"
+          "antwort": "| Buchstabe | Anzahl |"
         }
       ]
     }
@@ -791,7 +791,7 @@
         {
           "label": "a",
           "frage": "Zeichne das Diagramm.",
-          "antwort": "Säulendiagramm:"
+          "antwort": "```"
         },
         {
           "label": "b",
@@ -919,13 +919,13 @@
     "stageId": "häufigkeitsanalyse",
     "digital": "teilweise",
     "aufgabenstellung": "Untersuche diesen Zeitungstext. Zähle die Buchstaben und beantworte die Fragen.\n\n**\"Die Feuerwehr rettete gestern einen Kater vom Dach. Der Kater hatte sich erschreckt und war auf den höchsten Baum geklettert.\"**\n\na) Welcher Buchstabe kommt am häufigsten vor?\nb) Welcher Buchstabe kommt am seltensten vor (aber mindestens einmal)?\nc) Welche Buchstaben kommen gar nicht vor?",
-    "loesung": "a) E (kommt am häufigsten vor, ca. 14-mal)\nb) z.B. F (1-mal), W (1-mal) oder B (1-mal)\nc) z.B. J, Q, X, Y, Z kommen nicht vor (variiert je nach Zählung)",
-    "loesungsweg": "Systematisches Zählen aller Buchstaben im Text:\nE: ca. 14 — mit grossem Abstand am häufigsten\nR: ca. 7\nT: ca. 7\nN: ca. 5\n...\nSelten: F, W, B (je 1-mal)\nNicht vorhanden: J, Q, X, Y (oder weitere)",
+    "loesung": "a) E (kommt 22-mal vor — mit großem Abstand am häufigsten)\nb) z.B. B (1-mal), L (1-mal), O (1-mal), Ö (1-mal) oder V (1-mal)\nc) J, P, Q, X, Y, Z kommen nicht vor.\n\nVollständige Zählung:\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 22 |\n| T | 13 |\n| R | 11 |\n| A | 7 |\n| H | 7 |\n| N | 6 |\n| C | 5 |\n| D | 5 |\n| K | 4 |\n| S | 4 |\n| U | 4 |\n| I | 3 |\n| F | 2 |\n| G | 2 |\n| M | 2 |\n| W | 2 |\n| B | 1 |\n| L | 1 |\n| O | 1 |\n| Ö | 1 |\n| V | 1 |",
+    "loesungsweg": "Systematisches Zählen aller Buchstaben im Text:\nE: 22 — mit großem Abstand am häufigsten\nT: 13\nR: 11\nA: 7, H: 7\nN: 6\nSelten: B, L, O, Ö, V (je 1-mal)\nNicht vorhanden: J, P, Q, X, Y, Z",
     "tipps": [
       "Beginne mit dem E — färbe alle E im Text ein. Dann zähle sie. Wiederhole das für andere Buchstaben, die dir auffallen.",
       "Mache eine Strichliste für das gesamte Alphabet (A bis Z). Gehe den Text Buchstabe für Buchstabe durch und mache für jeden einen Strich.",
       "Fang mit den Vokalen an (A, E, I, O, U) — die sind leicht zu finden. Zähle dann die häufigsten Konsonanten: R, N, S, T. Am Ende schau, welche Buchstaben des Alphabets gar keinen Strich haben.",
-      "Systematisches Zählen aller Buchstaben im Text:\nE: ca. 14 — mit grossem Abstand am häufigsten\nR: ca. 7\nT: ca. 7\nN: ca. 5\n...\nSelten: F, W, B (je 1-mal)\nNicht vorhanden: J, Q, X, Y (oder weitere)"
+      "Systematisches Zählen aller Buchstaben im Text:\nE: 22 — mit großem Abstand am häufigsten\nT: 13\nR: 11\nA: 7, H: 7\nN: 6\nSelten: B, L, O, Ö, V (je 1-mal)\nNicht vorhanden: J, P, Q, X, Y, Z"
     ],
     "didaktischerHinweis": "Längerer Text mit realistischem Inhalt. Die vollständige Auszählung ist aufwändig und trainiert Ausdauer und Systematik. Das Ergebnis (E am häufigsten, seltene Buchstaben wie Q, X, Y fehlen) bestätigt die Erkenntnisse aus den vorherigen Aufgaben. Kinder sehen: Die Muster gelten für ALLE deutschen Texte.",
     "parsed": {
@@ -936,17 +936,17 @@
         {
           "label": "a",
           "frage": "Welcher Buchstabe kommt am häufigsten vor?",
-          "antwort": "E (kommt am häufigsten vor, ca. 14-mal)"
+          "antwort": "E (kommt 22-mal vor — mit großem Abstand am häufigsten)"
         },
         {
           "label": "b",
           "frage": "Welcher Buchstabe kommt am seltensten vor (aber mindestens einmal)?",
-          "antwort": "z.B. F (1-mal), W (1-mal) oder B (1-mal)"
+          "antwort": "z.B. B (1-mal), L (1-mal), O (1-mal), Ö (1-mal) oder V (1-mal)"
         },
         {
           "label": "c",
           "frage": "Welche Buchstaben kommen gar nicht vor?",
-          "antwort": "z.B. J, Q, X, Y, Z kommen nicht vor (variiert je nach Zählung)"
+          "antwort": "J, P, Q, X, Y, Z kommen nicht vor."
         }
       ]
     }

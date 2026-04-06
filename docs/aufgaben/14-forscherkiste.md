@@ -1035,7 +1035,7 @@ thema: "Rechenkünstler"
 schwierigkeit: gelb
 buchseite: 130
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1090,7 +1090,7 @@ thema: "Rechenkünstler"
 schwierigkeit: grün
 buchseite: 130
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1136,7 +1136,7 @@ thema: "Rechenkünstler"
 schwierigkeit: grün
 buchseite: 130
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1182,7 +1182,7 @@ thema: "Rechenkünstler"
 schwierigkeit: orange
 buchseite: 130
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1222,7 +1222,7 @@ thema: "Rechenkünstler"
 schwierigkeit: gelb
 buchseite: 131
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1274,7 +1274,7 @@ thema: "Rechenkünstler"
 schwierigkeit: grün
 buchseite: 131
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1320,7 +1320,7 @@ thema: "Rechenkünstler"
 schwierigkeit: orange
 buchseite: 131
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 
@@ -1368,7 +1368,7 @@ thema: "Rechenkünstler"
 schwierigkeit: orange
 buchseite: 130
 kapitel: "14-forscherkiste"
-stage_id: "rechenkünstler"
+stage_id: "rechenkuenstler"
 digital: voll
 ---
 

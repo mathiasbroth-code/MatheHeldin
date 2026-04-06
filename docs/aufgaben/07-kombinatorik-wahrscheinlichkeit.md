@@ -1080,20 +1080,20 @@ Vollständige Zählung (ohne Leerzeichen und Satzzeichen):
 | N | 5 |
 | R | 5 |
 | T | 5 |
-| I | 3 |
-| S | 3 |
-| G | 2 |
-| D | 2 |
-| O | 2 |
-| L | 2 |
-| H | 2 |
+| H | 3 |
+| L | 3 |
+| O | 3 |
 | A | 2 |
-| M | 2 |
+| D | 2 |
 | F | 2 |
-| Z | 1 |
+| G | 2 |
+| I | 2 |
+| M | 2 |
 | C | 1 |
+| Z | 1 |
+| ß | 1 |
 
-Die fünf häufigsten: E (10), N (5), R (5), T (5), I oder S (3)
+Die fünf häufigsten: E (10), N (5), R (5), T (5), H/L/O (je 3)
 
 ### Lösungsweg
 Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.
@@ -1322,19 +1322,45 @@ b) Welcher Buchstabe kommt am seltensten vor (aber mindestens einmal)?
 c) Welche Buchstaben kommen gar nicht vor?
 
 ### Lösung
-a) E (kommt am häufigsten vor, ca. 14-mal)
-b) z.B. F (1-mal), W (1-mal) oder B (1-mal)
-c) z.B. J, Q, X, Y, Z kommen nicht vor (variiert je nach Zählung)
+a) E (kommt 22-mal vor — mit großem Abstand am häufigsten)
+b) z.B. B (1-mal), L (1-mal), O (1-mal), Ö (1-mal) oder V (1-mal)
+c) J, P, Q, X, Y, Z kommen nicht vor.
+
+Vollständige Zählung:
+
+| Buchstabe | Anzahl |
+|-----------|--------|
+| E | 22 |
+| T | 13 |
+| R | 11 |
+| A | 7 |
+| H | 7 |
+| N | 6 |
+| C | 5 |
+| D | 5 |
+| K | 4 |
+| S | 4 |
+| U | 4 |
+| I | 3 |
+| F | 2 |
+| G | 2 |
+| M | 2 |
+| W | 2 |
+| B | 1 |
+| L | 1 |
+| O | 1 |
+| Ö | 1 |
+| V | 1 |
 
 ### Lösungsweg
 Systematisches Zählen aller Buchstaben im Text:
-E: ca. 14 — mit grossem Abstand am häufigsten
-R: ca. 7
-T: ca. 7
-N: ca. 5
-...
-Selten: F, W, B (je 1-mal)
-Nicht vorhanden: J, Q, X, Y (oder weitere)
+E: 22 — mit großem Abstand am häufigsten
+T: 13
+R: 11
+A: 7, H: 7
+N: 6
+Selten: B, L, O, Ö, V (je 1-mal)
+Nicht vorhanden: J, P, Q, X, Y, Z
 
 ### Tipp 1 (Denkanstoß)
 Beginne mit dem E — färbe alle E im Text ein. Dann zähle sie. Wiederhole das für andere Buchstaben, die dir auffallen.
