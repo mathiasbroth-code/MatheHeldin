@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MatheHeldin — UI Moodboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Inter:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    padding: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+  }
+
+  /* ── Direction Sections ── */
+  .direction {
+    margin-bottom: 4rem;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  .direction-header {
+    padding: 1.5rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .direction-header h2 { font-size: 1.5rem; }
+  .direction-header .badge {
+    background: rgba(255,255,255,0.25);
+    padding: 0.25rem 0.75rem;
+    border-radius: 99px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .direction-body {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  @media (max-width: 900px) {
+    .direction-body { grid-template-columns: 1fr; }
+  }
+
+  /* ── Palette ── */
+  .palette {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .swatch {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 4px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  .section { margin-bottom: 1.5rem; }
+
+  /* ── Component Previews ── */
+  .preview-panel {
+    border-radius: 20px;
+    padding: 2rem;
+    min-height: 400px;
+  }
+
+  /* ═══════════════════════════════════════════
+     DIRECTION 1 — Papierheft
+     ═══════════════════════════════════════════ */
+  .d1-header { background: linear-gradient(135deg, #92400e, #b45309); }
+  .d1-bg {
+    background-color: #fefce8;
+    background-image:
+      linear-gradient(rgba(180,83,9,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(180,83,9,0.06) 1px, transparent 1px);
+    background-size: 24px 24px;
+    position: relative;
+  }
+  .d1-bg::before {
+    content: '';
+    position: absolute;
+    left: 48px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(239,68,68,0.2);
+  }
+
+  .d1-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    border: 1px solid rgba(180,83,9,0.1);
+    margin-bottom: 1rem;
+  }
+  .d1-title {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: #92400e;
+  }
+  .d1-btn {
+    font-family: 'Inter', sans-serif;
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 3px 0 #059669;
+    transition: transform 0.1s;
+  }
+  .d1-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 #059669; }
+  .d1-btn-outline {
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+    color: #b45309;
+    border: 2px solid #b45309;
+    padding: 12px 24px;
+    border-radius: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .d1-input {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    border-bottom: 3px dashed #d97706;
+    background: transparent;
+    padding: 8px 16px;
+    width: 120px;
+    color: #92400e;
+    outline: none;
+  }
+  .d1-feedback {
+    background: #ecfdf5;
+    border-left: 4px solid #10b981;
+    padding: 12px 16px;
+    border-radius: 0 12px 12px 0;
+    color: #065f46;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  .d1-feedback-wrong {
+    background: #fff7ed;
+    border-left: 4px solid #f59e0b;
+    padding: 12px 16px;
+    border-radius: 0 12px 12px 0;
+    color: #92400e;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  .d1-progress {
+    height: 12px;
+    background: #fef3c7;
+    border-radius: 99px;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  .d1-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    border-radius: 99px;
+    width: 60%;
+  }
+
+  /* Stage Card */
+  .d1-stage-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border: 1px solid rgba(180,83,9,0.08);
+    cursor: pointer;
+    transition: transform 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .d1-stage-card:hover { transform: scale(1.02); }
+  .d1-stage-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  /* ═══════════════════════════════════════════
+     DIRECTION 2 — Soft Pastel / Playground
+     ═══════════════════════════════════════════ */
+  .d2-header { background: linear-gradient(135deg, #7c3aed, #a78bfa); }
+  .d2-bg {
+    background: linear-gradient(180deg, #faf5ff 0%, #ede9fe 100%);
+  }
+
+  .d2-card {
+    background: white;
+    border-radius: 24px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 16px rgba(124,58,237,0.08);
+    margin-bottom: 1rem;
+  }
+  .d2-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #5b21b6;
+  }
+  .d2-btn {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 99px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(124,58,237,0.3);
+    transition: transform 0.15s;
+  }
+  .d2-btn:active { transform: scale(0.96); }
+  .d2-btn-secondary {
+    font-family: 'Nunito', sans-serif;
+    background: #ede9fe;
+    color: #7c3aed;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .d2-input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border: 3px solid #c4b5fd;
+    border-radius: 16px;
+    background: white;
+    padding: 10px 16px;
+    width: 120px;
+    color: #5b21b6;
+    outline: none;
+  }
+  .d2-input:focus { border-color: #8b5cf6; box-shadow: 0 0 0 4px rgba(139,92,246,0.15); }
+  .d2-feedback {
+    background: #ecfdf5;
+    padding: 14px 18px;
+    border-radius: 16px;
+    color: #065f46;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .d2-feedback-wrong {
+    background: #fef3c7;
+    padding: 14px 18px;
+    border-radius: 16px;
+    color: #92400e;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .d2-progress {
+    height: 16px;
+    background: #ede9fe;
+    border-radius: 99px;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  .d2-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #a78bfa, #7c3aed);
+    border-radius: 99px;
+    width: 60%;
+  }
+
+  .d2-stage-card {
+    background: white;
+    border-radius: 20px;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 12px rgba(124,58,237,0.06);
+    cursor: pointer;
+    transition: transform 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .d2-stage-card:hover { transform: scale(1.03); }
+  .d2-stage-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+  }
+
+  /* ═══════════════════════════════════════════
+     DIRECTION 3 — Clean Minimal
+     ═══════════════════════════════════════════ */
+  .d3-header { background: linear-gradient(135deg, #0f766e, #14b8a6); }
+  .d3-bg {
+    background: #ffffff;
+  }
+
+  .d3-card {
+    background: #f8fafc;
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 1rem;
+  }
+  .d3-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .d3-btn {
+    font-family: 'Inter', sans-serif;
+    background: #0d9488;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .d3-btn:hover { background: #0f766e; }
+  .d3-btn-ghost {
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+    color: #0d9488;
+    border: 2px solid #0d9488;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .d3-input {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    padding: 10px 16px;
+    width: 120px;
+    color: #0f172a;
+    outline: none;
+    font-variant-numeric: tabular-nums;
+  }
+  .d3-input:focus { border-color: #14b8a6; box-shadow: 0 0 0 3px rgba(20,184,166,0.15); }
+  .d3-feedback {
+    background: #f0fdf4;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #166534;
+    font-weight: 600;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .d3-feedback-wrong {
+    background: #fffbeb;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #92400e;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .d3-progress {
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 99px;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  .d3-progress-fill {
+    height: 100%;
+    background: #14b8a6;
+    border-radius: 99px;
+    width: 60%;
+  }
+
+  .d3-stage-card {
+    background: #f8fafc;
+    border-radius: 14px;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .d3-stage-card:hover { border-color: #14b8a6; }
+  .d3-stage-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+
+  /* ── Dienes Preview ── */
+  .dienes-row {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+    margin: 1rem 0;
+  }
+  .dienes-label {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #94a3b8;
+    margin-top: 4px;
+  }
+
+  /* ── Typography Previews ── */
+  .type-sample { margin-bottom: 0.75rem; }
+  .type-sample .label { font-size: 0.7rem; color: #94a3b8; }
+
+  /* ── Gremium Verdict ── */
+  .verdict {
+    background: linear-gradient(135deg, #fffbeb, #fef3c7);
+    border: 2px solid #fbbf24;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  .verdict h3 {
+    color: #92400e;
+    margin-bottom: 0.5rem;
+  }
+  .verdict p {
+    color: #78350f;
+    line-height: 1.6;
+  }
+
+  /* ── Shared Dienes Colors ── */
+  .dienes-palette {
+    display: flex;
+    gap: 8px;
+    margin: 1rem 0;
+  }
+  .dienes-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+</style>
+</head>
+<body>
+
+<h1>MatheHeldin — UI Moodboard</h1>
+<p class="subtitle">Drei visuelle Richtungen für Philippas Mathe-Lernapp</p>
+
+<!-- ════════════════════════════════════════════════
+     SHARED: Dienes Farbpalette
+     ════════════════════════════════════════════════ -->
+
+<div style="text-align:center; margin-bottom: 3rem;">
+  <p class="section-label">Dienes-Material Farbcodes (für alle Richtungen gleich)</p>
+  <div class="dienes-palette" style="justify-content:center;">
+    <div class="dienes-block">
+      <div class="swatch" style="background:#fde68a; border:2px solid #b45309; width:32px; height:32px;"></div>
+      <span style="font-size:0.75rem; color:#78350f; font-weight:600;">Einer</span>
+    </div>
+    <div class="dienes-block">
+      <div class="swatch" style="background:#fcd34d; border:2px solid #b45309; width:80px; height:32px; border-radius:8px;"></div>
+      <span style="font-size:0.75rem; color:#78350f; font-weight:600;">Zehner</span>
+    </div>
+    <div class="dienes-block">
+      <div class="swatch" style="background:#fbbf24; border:2px solid #92400e; width:64px; height:64px;"></div>
+      <span style="font-size:0.75rem; color:#78350f; font-weight:600;">Hunderter</span>
+    </div>
+    <div class="dienes-block">
+      <div class="swatch" style="background:linear-gradient(135deg, #f59e0b, #d97706); border:2px solid #78350f; width:72px; height:72px;"></div>
+      <span style="font-size:0.75rem; color:#78350f; font-weight:600;">Tausender</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     DIRECTION 1 — Papierheft-Skeuomorphismus
+     ════════════════════════════════════════════════ -->
+
+<div class="direction">
+  <div class="direction-header d1-header">
+    <h2>Richtung 1 — Papierheft</h2>
+    <span class="badge">Skeuomorphismus</span>
+  </div>
+  <div class="direction-body d1-bg">
+
+    <!-- Left: Specs -->
+    <div>
+      <div class="section">
+        <p class="section-label">Farbpalette</p>
+        <div class="palette">
+          <div class="swatch" style="background:#fffbeb; border:1px solid #e5e7eb; color:#78350f;">BG</div>
+          <div class="swatch" style="background:#fef3c7; color:#92400e;">Card</div>
+          <div class="swatch" style="background:#92400e; color:white;">Text</div>
+          <div class="swatch" style="background:#b45309; color:white;">Akzent</div>
+          <div class="swatch" style="background:#10b981; color:white;">Erfolg</div>
+          <div class="swatch" style="background:#f59e0b; color:white;">Warn</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Typografie</p>
+        <div class="type-sample">
+          <span class="label">Überschriften — Caveat (handschriftlich)</span>
+          <div style="font-family:'Caveat',cursive; font-size:2rem; color:#92400e;">Zahlen bis 100 lesen</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Fließtext — Inter (klar)</span>
+          <div style="font-family:'Inter',sans-serif; font-size:1rem; color:#78350f;">Zähle die Blöcke und tippe die Zahl ein.</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Zahlen — Inter tabular-nums</span>
+          <div style="font-family:'Inter',sans-serif; font-size:2.5rem; font-weight:700; color:#92400e; font-variant-numeric:tabular-nums;">1.234</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Stufen-Karten (Übersicht)</p>
+        <div class="d1-stage-card">
+          <div class="d1-stage-icon" style="background:#e0f2fe;">🔢</div>
+          <div>
+            <div style="font-weight:600; color:#0c4a6e;">Mengen bis 20</div>
+            <div style="font-size:0.85rem; color:#64748b;">Zähle die Blöcke</div>
+            <div class="d1-progress" style="width:100px; margin-top:6px;"><div class="d1-progress-fill" style="width:80%;"></div></div>
+          </div>
+        </div>
+        <div class="d1-stage-card">
+          <div class="d1-stage-icon" style="background:#fef3c7;">🧩</div>
+          <div>
+            <div style="font-weight:600; color:#92400e;">Zehner bündeln</div>
+            <div style="font-size:0.85rem; color:#64748b;">Wie viele Zehner und Einer?</div>
+            <div class="d1-progress" style="width:100px; margin-top:6px;"><div class="d1-progress-fill" style="width:30%;"></div></div>
+          </div>
+        </div>
+        <div class="d1-stage-card">
+          <div class="d1-stage-icon" style="background:#ecfdf5;">📖</div>
+          <div>
+            <div style="font-weight:600; color:#065f46;">Zahlen bis 1.000</div>
+            <div style="font-size:0.85rem; color:#64748b;">Mit Hundertern</div>
+            <div class="d1-progress" style="width:100px; margin-top:6px;"><div class="d1-progress-fill" style="width:0%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Component Preview -->
+    <div>
+      <p class="section-label">Übungs-Ansicht (Mockup)</p>
+      <div class="d1-card">
+        <div class="d1-title">Welche Zahl siehst du?</div>
+        <div class="dienes-row">
+          <!-- Hunderter -->
+          <div>
+            <svg width="72" height="72" viewBox="0 0 100 100">
+              <rect x="1" y="1" width="98" height="98" fill="#fbbf24" stroke="#92400e" stroke-width="1.5" rx="2"/>
+              <line x1="10" y1="1" x2="10" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="20" y1="1" x2="20" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="30" y1="1" x2="30" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="40" y1="1" x2="40" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="50" y1="1" x2="50" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="60" y1="1" x2="60" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="70" y1="1" x2="70" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="80" y1="1" x2="80" y2="99" stroke="#92400e" stroke-width="0.5" /><line x1="90" y1="1" x2="90" y2="99" stroke="#92400e" stroke-width="0.5" />
+              <line x1="1" y1="10" x2="99" y2="10" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="20" x2="99" y2="20" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="30" x2="99" y2="30" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="40" x2="99" y2="40" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="50" x2="99" y2="50" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="60" x2="99" y2="60" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="70" x2="99" y2="70" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="80" x2="99" y2="80" stroke="#92400e" stroke-width="0.5" /><line x1="1" y1="90" x2="99" y2="90" stroke="#92400e" stroke-width="0.5" />
+            </svg>
+            <div class="dienes-label">1 H</div>
+          </div>
+          <!-- Zehner -->
+          <div>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+            <div class="dienes-label">3 Z</div>
+          </div>
+          <!-- Einer -->
+          <div>
+            <div style="display:flex; gap:3px; flex-wrap:wrap; width:50px;">
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+            </div>
+            <div class="dienes-label">5 E</div>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:12px; margin:1.5rem 0;">
+          <span style="font-family:'Inter'; font-size:1.2rem; color:#78350f;">Deine Antwort:</span>
+          <input class="d1-input" value="135" readonly>
+        </div>
+
+        <div class="d1-feedback">&#10003; Super gemacht! 135 ist richtig!</div>
+        <div class="d1-feedback-wrong">&#129300; Noch nicht ganz. Schau nochmal, wie viele Hunderter da sind.</div>
+
+        <div style="display:flex; gap:12px; margin-top:1.5rem;">
+          <button class="d1-btn">Weiter</button>
+          <button class="d1-btn-outline">&#128161; Tipp</button>
+        </div>
+
+        <div class="d1-progress"><div class="d1-progress-fill"></div></div>
+        <div style="text-align:center; font-size:0.85rem; color:#92400e; margin-top:4px;">3 von 5 richtig</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     DIRECTION 2 — Soft Pastel / Playground
+     ════════════════════════════════════════════════ -->
+
+<div class="direction">
+  <div class="direction-header d2-header">
+    <h2>Richtung 2 — Soft Pastel</h2>
+    <span class="badge">Playground</span>
+  </div>
+  <div class="direction-body d2-bg">
+
+    <!-- Left: Specs -->
+    <div>
+      <div class="section">
+        <p class="section-label">Farbpalette</p>
+        <div class="palette">
+          <div class="swatch" style="background:#faf5ff; border:1px solid #e5e7eb; color:#5b21b6;">BG</div>
+          <div class="swatch" style="background:#ede9fe; color:#5b21b6;">Surface</div>
+          <div class="swatch" style="background:#7c3aed; color:white;">Primary</div>
+          <div class="swatch" style="background:#a78bfa; color:white;">Soft</div>
+          <div class="swatch" style="background:#10b981; color:white;">Erfolg</div>
+          <div class="swatch" style="background:#f472b6; color:white;">Akzent</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Typografie</p>
+        <div class="type-sample">
+          <span class="label">Überschriften — Nunito (rund, freundlich)</span>
+          <div style="font-family:'Nunito',sans-serif; font-size:1.8rem; font-weight:800; color:#5b21b6;">Zahlen bis 100 lesen</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Fließtext — Nunito</span>
+          <div style="font-family:'Nunito',sans-serif; font-size:1rem; color:#6b21a8;">Zähle die Blöcke und tippe die Zahl ein.</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Zahlen — Nunito bold</span>
+          <div style="font-family:'Nunito',sans-serif; font-size:2.5rem; font-weight:800; color:#5b21b6;">1.234</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Stufen-Karten (Übersicht)</p>
+        <div class="d2-stage-card">
+          <div class="d2-stage-icon" style="background:#dbeafe;">🔢</div>
+          <div>
+            <div style="font-family:'Nunito'; font-weight:700; color:#1e40af;">Mengen bis 20</div>
+            <div style="font-family:'Nunito'; font-size:0.85rem; color:#64748b;">Zähle die Blöcke</div>
+            <div class="d2-progress" style="width:100px; margin-top:6px;"><div class="d2-progress-fill" style="width:80%;"></div></div>
+          </div>
+        </div>
+        <div class="d2-stage-card">
+          <div class="d2-stage-icon" style="background:#fef3c7;">🧩</div>
+          <div>
+            <div style="font-family:'Nunito'; font-weight:700; color:#92400e;">Zehner bündeln</div>
+            <div style="font-family:'Nunito'; font-size:0.85rem; color:#64748b;">Wie viele Zehner und Einer?</div>
+            <div class="d2-progress" style="width:100px; margin-top:6px;"><div class="d2-progress-fill" style="width:30%;"></div></div>
+          </div>
+        </div>
+        <div class="d2-stage-card">
+          <div class="d2-stage-icon" style="background:#ecfdf5;">📖</div>
+          <div>
+            <div style="font-family:'Nunito'; font-weight:700; color:#065f46;">Zahlen bis 1.000</div>
+            <div style="font-family:'Nunito'; font-size:0.85rem; color:#64748b;">Mit Hundertern</div>
+            <div class="d2-progress" style="width:100px; margin-top:6px;"><div class="d2-progress-fill" style="width:0%; background:#ccc;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Component Preview -->
+    <div>
+      <p class="section-label">Übungs-Ansicht (Mockup)</p>
+      <div class="d2-card">
+        <div class="d2-title">Welche Zahl siehst du?</div>
+        <div class="dienes-row">
+          <div>
+            <svg width="72" height="72" viewBox="0 0 100 100">
+              <rect x="1" y="1" width="98" height="98" fill="#fbbf24" stroke="#92400e" stroke-width="1.5" rx="4"/>
+              <line x1="10" y1="1" x2="10" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="20" y1="1" x2="20" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="30" y1="1" x2="30" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="40" y1="1" x2="40" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="50" y1="1" x2="50" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="60" y1="1" x2="60" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="70" y1="1" x2="70" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="80" y1="1" x2="80" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="90" y1="1" x2="90" y2="99" stroke="#92400e" stroke-width="0.5"/>
+              <line x1="1" y1="10" x2="99" y2="10" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="20" x2="99" y2="20" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="30" x2="99" y2="30" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="40" x2="99" y2="40" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="50" x2="99" y2="50" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="60" x2="99" y2="60" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="70" x2="99" y2="70" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="80" x2="99" y2="80" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="90" x2="99" y2="90" stroke="#92400e" stroke-width="0.5"/>
+            </svg>
+            <div class="dienes-label">1 H</div>
+          </div>
+          <div>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="3"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="3"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+            <div class="dienes-label">3 Z</div>
+          </div>
+          <div>
+            <div style="display:flex; gap:4px; flex-wrap:wrap; width:55px;">
+              <svg width="18" height="18" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+              <svg width="18" height="18" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+              <svg width="18" height="18" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+              <svg width="18" height="18" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+              <svg width="18" height="18" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="3"/></svg>
+            </div>
+            <div class="dienes-label">5 E</div>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:12px; margin:1.5rem 0;">
+          <span style="font-family:'Nunito'; font-size:1.2rem; font-weight:600; color:#5b21b6;">Deine Antwort:</span>
+          <input class="d2-input" value="135" readonly>
+        </div>
+
+        <div class="d2-feedback">&#127881; Super gemacht! 135 ist richtig!</div>
+        <div class="d2-feedback-wrong">&#129300; Noch nicht ganz. Schau nochmal, wie viele Hunderter da sind.</div>
+
+        <div style="display:flex; gap:12px; margin-top:1.5rem;">
+          <button class="d2-btn">Weiter</button>
+          <button class="d2-btn-secondary">&#128161; Tipp</button>
+        </div>
+
+        <div class="d2-progress"><div class="d2-progress-fill"></div></div>
+        <div style="text-align:center; font-family:'Nunito'; font-size:0.9rem; font-weight:600; color:#7c3aed; margin-top:4px;">3 von 5 richtig</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     DIRECTION 3 — Clean Minimal
+     ════════════════════════════════════════════════ -->
+
+<div class="direction">
+  <div class="direction-header d3-header">
+    <h2>Richtung 3 — Clean Minimal</h2>
+    <span class="badge">Fokus auf Inhalt</span>
+  </div>
+  <div class="direction-body d3-bg">
+
+    <!-- Left: Specs -->
+    <div>
+      <div class="section">
+        <p class="section-label">Farbpalette</p>
+        <div class="palette">
+          <div class="swatch" style="background:#ffffff; border:1px solid #e2e8f0; color:#334155;">BG</div>
+          <div class="swatch" style="background:#f8fafc; border:1px solid #e2e8f0; color:#334155;">Card</div>
+          <div class="swatch" style="background:#0f172a; color:white;">Text</div>
+          <div class="swatch" style="background:#0d9488; color:white;">Primary</div>
+          <div class="swatch" style="background:#10b981; color:white;">Erfolg</div>
+          <div class="swatch" style="background:#f59e0b; color:white;">Warn</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Typografie</p>
+        <div class="type-sample">
+          <span class="label">Überschriften — Inter semibold</span>
+          <div style="font-family:'Inter',sans-serif; font-size:1.6rem; font-weight:600; color:#0f172a;">Zahlen bis 100 lesen</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Fließtext — Inter regular</span>
+          <div style="font-family:'Inter',sans-serif; font-size:1rem; color:#475569;">Zähle die Blöcke und tippe die Zahl ein.</div>
+        </div>
+        <div class="type-sample">
+          <span class="label">Zahlen — Inter bold tabular-nums</span>
+          <div style="font-family:'Inter',sans-serif; font-size:2.5rem; font-weight:700; color:#0f172a; font-variant-numeric:tabular-nums;">1.234</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-label">Stufen-Karten (Übersicht)</p>
+        <div class="d3-stage-card">
+          <div class="d3-stage-icon" style="background:#e0f2fe;">🔢</div>
+          <div>
+            <div style="font-weight:600; color:#0f172a;">Mengen bis 20</div>
+            <div style="font-size:0.85rem; color:#64748b;">Zähle die Blöcke</div>
+            <div class="d3-progress" style="width:100px; margin-top:6px;"><div class="d3-progress-fill" style="width:80%;"></div></div>
+          </div>
+        </div>
+        <div class="d3-stage-card">
+          <div class="d3-stage-icon" style="background:#fef3c7;">🧩</div>
+          <div>
+            <div style="font-weight:600; color:#0f172a;">Zehner bündeln</div>
+            <div style="font-size:0.85rem; color:#64748b;">Wie viele Zehner und Einer?</div>
+            <div class="d3-progress" style="width:100px; margin-top:6px;"><div class="d3-progress-fill" style="width:30%;"></div></div>
+          </div>
+        </div>
+        <div class="d3-stage-card">
+          <div class="d3-stage-icon" style="background:#ecfdf5;">📖</div>
+          <div>
+            <div style="font-weight:600; color:#0f172a;">Zahlen bis 1.000</div>
+            <div style="font-size:0.85rem; color:#64748b;">Mit Hundertern</div>
+            <div class="d3-progress" style="width:100px; margin-top:6px;"><div class="d3-progress-fill" style="width:0%; background:#e2e8f0;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Component Preview -->
+    <div>
+      <p class="section-label">Übungs-Ansicht (Mockup)</p>
+      <div class="d3-card">
+        <div class="d3-title">Welche Zahl siehst du?</div>
+        <div class="dienes-row">
+          <div>
+            <svg width="72" height="72" viewBox="0 0 100 100">
+              <rect x="1" y="1" width="98" height="98" fill="#fbbf24" stroke="#92400e" stroke-width="1.5" rx="2"/>
+              <line x1="10" y1="1" x2="10" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="20" y1="1" x2="20" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="30" y1="1" x2="30" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="40" y1="1" x2="40" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="50" y1="1" x2="50" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="60" y1="1" x2="60" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="70" y1="1" x2="70" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="80" y1="1" x2="80" y2="99" stroke="#92400e" stroke-width="0.5"/><line x1="90" y1="1" x2="90" y2="99" stroke="#92400e" stroke-width="0.5"/>
+              <line x1="1" y1="10" x2="99" y2="10" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="20" x2="99" y2="20" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="30" x2="99" y2="30" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="40" x2="99" y2="40" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="50" x2="99" y2="50" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="60" x2="99" y2="60" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="70" x2="99" y2="70" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="80" x2="99" y2="80" stroke="#92400e" stroke-width="0.5"/><line x1="1" y1="90" x2="99" y2="90" stroke="#92400e" stroke-width="0.5"/>
+            </svg>
+            <div class="dienes-label">1 H</div>
+          </div>
+          <div>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg><br>
+            <svg width="60" height="14" viewBox="0 0 100 20"><rect x="1" y="1" width="98" height="18" fill="#fcd34d" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+            <div class="dienes-label">3 Z</div>
+          </div>
+          <div>
+            <div style="display:flex; gap:3px; flex-wrap:wrap; width:50px;">
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 20 20"><rect x="1" y="1" width="18" height="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5" rx="2"/></svg>
+            </div>
+            <div class="dienes-label">5 E</div>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:12px; margin:1.5rem 0;">
+          <span style="font-size:1.1rem; font-weight:500; color:#475569;">Deine Antwort:</span>
+          <input class="d3-input" value="135" readonly>
+        </div>
+
+        <div class="d3-feedback">&#10003; Super gemacht! 135 ist richtig!</div>
+        <div class="d3-feedback-wrong">&#129300; Noch nicht ganz. Schau nochmal, wie viele Hunderter da sind.</div>
+
+        <div style="display:flex; gap:12px; margin-top:1.5rem;">
+          <button class="d3-btn">Weiter</button>
+          <button class="d3-btn-ghost">&#128161; Tipp</button>
+        </div>
+
+        <div class="d3-progress"><div class="d3-progress-fill"></div></div>
+        <div style="text-align:center; font-size:0.85rem; color:#64748b; margin-top:4px;">3 von 5 richtig</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     Gremium Verdict
+     ════════════════════════════════════════════════ -->
+
+<div class="verdict">
+  <h3>Einschätzung des Gremiums</h3>
+  <p>
+    <strong>Prof. Sommer (Pädagogik):</strong> "Richtung 1 (Papierheft) hat den stärksten Wiedererkennungswert. Kinder kennen kariertes Papier — das schafft Vertrautheit und senkt die Hemmschwelle."<br><br>
+    <strong>Tom Berger (UX):</strong> "Richtung 2 (Pastel) ist am 'modernsten' und hat die spielerischste Ausstrahlung. Richtung 1 fühlt sich aber authentischer an für eine Mathe-App. Man kann beide mischen: Papierheft-Hintergrund mit Nunito-Schrift."<br><br>
+    <strong>Sarah Kowalski (Frontend):</strong> "Alle drei sind mit Tailwind umsetzbar. Richtung 1 braucht ein CSS-Background-Pattern, das ist trivial. Caveat als Webfont ist ~35KB."<br><br>
+    <strong>Empfehlung:</strong> <strong>Richtung 1 als Basis</strong> (warmer Papierton, Karo-Muster, handschriftliche Überschriften) mit Elementen aus Richtung 2 (abgerundete Pill-Buttons, verspielte Fortschrittsbalken). Richtung 3 eignet sich gut für den Eltern-Bereich.
+  </p>
+</div>
+
+</body>
+</html>
