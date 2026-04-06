@@ -1229,22 +1229,16 @@ digital: voll
 ### Aufgabenstellung
 Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.
 
-a) Füll die Tabelle aus:
-
-| Tag | Betrag |
-|-----|--------|
-| 1 | 1 ct |
-| 2 | 2 ct |
-| 3 | 4 ct |
-| 4 | ___ ct |
-| 5 | ___ ct |
-| 6 | ___ ct |
+a) Am 1. Tag bekommt er 1 ct, am 2. Tag 2 ct, am 3. Tag 4 ct. Wie viel bekommt er an Tag 4, 5 und 6?
 
 b) Wie viel hat Nelson nach 6 Tagen insgesamt?
 
 ### Lösung
-a) Tag 4: 8 ct, Tag 5: 16 ct, Tag 6: 32 ct
-b) 1 + 2 + 4 + 8 + 16 + 32 = 63 ct
+a)
+Tag 4: 4 · 2 = 8
+Tag 5: 8 · 2 = 16
+Tag 6: 16 · 2 = 32
+b) 1 + 2 + 4 + 8 + 16 + 32 = 63
 
 ### Lösungsweg
 Immer verdoppeln: 1, 2, 4, 8, 16, 32.

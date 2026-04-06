@@ -357,7 +357,7 @@
         {
           "label": "1",
           "frage": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
-          "antwort": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |"
+          "antwort": "|------------|---|---|---|---|---|---|"
         }
       ]
     }
@@ -727,7 +727,7 @@
         {
           "label": "1",
           "frage": "Trage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
-          "antwort": "| Buchstabe | Strichliste | Anzahl |"
+          "antwort": "|-----------|-------------|--------|"
         }
       ]
     }
@@ -870,7 +870,7 @@
     "buchseite": 76,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "haeufigkeitsanalyse",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Beim Spiel \"Buchstabenvogel\" musst du ein Wort erraten, indem du Buchstaben rätst. Falsche Buchstaben kosten einen Versuch.\n\nWelches der folgenden Wörter wäre am **schwersten** zu erraten? Begründe deine Antwort.\n\na) SCHULHEFT\nb) RHYTHMUS\nc) ELEFANT\nd) GYMNASIUM",
     "loesung": "b) RHYTHMUS ist am schwersten zu erraten.",
     "loesungsweg": "Man schaut, wie viele seltene Buchstaben im Wort stecken:\n- a) SCHULHEFT: S, C, H, U, L, H, E, F, T → E und S sind häufig, leicht zu erraten\n- b) RHYTHMUS: R, H, Y, T, H, M, U, S → Y ist sehr selten! Kein E!\n- c) ELEFANT: E, L, E, F, A, N, T → zwei E, viele häufige Buchstaben\n- d) GYMNASIUM: G, Y, M, N, A, S, I, U, M → Y ist selten, aber A, N, S, I sind häufig\n\nRHYTHMUS hat kein E (der häufigste Buchstabe!) und enthält Y (sehr selten). Deshalb ist es am schwersten.",

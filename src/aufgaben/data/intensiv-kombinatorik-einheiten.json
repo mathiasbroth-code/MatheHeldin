@@ -1185,7 +1185,7 @@
         {
           "label": "1",
           "frage": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | ? | 15 km/h | 2 Stunden |\n| Auto | 200 km | ? | 4 Stunden |\n| Zug | 300 km | 150 km/h | ? |\n| Flugzeug | 1.600 km | 800 km/h | ? |",
-          "antwort": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |"
+          "antwort": "|----------|---------|----------------|------|"
         }
       ]
     }
@@ -2596,7 +2596,7 @@
         {
           "label": "1",
           "frage": "Fülle die Strichliste aus für: E, I, A, N, T, S",
-          "antwort": "| Buchstabe | Anzahl |"
+          "antwort": "|-----------|--------|"
         }
       ]
     }
@@ -2670,7 +2670,7 @@
         {
           "label": "a",
           "frage": "Übertrage in eine Tabelle mit Zahlen.",
-          "antwort": "| Buchstabe | Anzahl |"
+          "antwort": "|-----------|--------|"
         },
         {
           "label": "b",
@@ -2862,7 +2862,7 @@
         {
           "label": "a",
           "frage": "Zähle, wie oft jeder Buchstabe in allen Namen zusammen vorkommt.",
-          "antwort": "| Buchstabe | Anzahl |"
+          "antwort": "|-----------|--------|"
         },
         {
           "label": "b",
@@ -2946,7 +2946,7 @@
         {
           "label": "a",
           "frage": "Wie oft kommt jeder Buchstabe vor?",
-          "antwort": "| Buchstabe | Anzahl |"
+          "antwort": "|-----------|--------|"
         },
         {
           "label": "b",
@@ -2969,7 +2969,7 @@
     "buchseite": 76,
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "haeufigkeitsanalyse",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Beim Buchstabenvogel (wie Galgenmännchen) versuchst du, ein Wort Buchstabe für Buchstabe zu erraten.\n\nWelches Wort ist am leichtesten, welches am schwersten zu erraten? Begründe!\n\na) SONNE\nb) XYLOFON\nc) KATZE\nd) QUARZ",
     "loesung": "Am leichtesten: a) SONNE (viele häufige Buchstaben: S, O, N, N, E)\nAm schwersten: d) QUARZ (Q und Z sind extrem selten, kein E!)",
     "loesungsweg": "Häufige Buchstaben im Deutschen: E, N, I, S, R, A, T\nSeltene Buchstaben: Q, X, Y, Z\n\n- a) SONNE: S✓, O, N✓, N✓, E✓ → 3 sehr häufige, kein seltener → leicht\n- b) XYLOFON: X✗, Y✗, L, O, F, O, N✓ → 2 sehr seltene, nur 1 häufiger → schwer\n- c) KATZE: K, A✓, T✓, Z✗, E✓ → 2 häufige, 1 seltener → mittel\n- d) QUARZ: Q✗, U, A✓, R✓, Z✗ → 2 seltene, kein E → am schwersten",

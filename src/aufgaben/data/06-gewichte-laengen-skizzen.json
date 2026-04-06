@@ -159,7 +159,7 @@
         {
           "label": "1",
           "frage": "| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
-          "antwort": "- Auto 1: 900 kg"
+          "antwort": "- Auto 2: 1.125 kg (= 1 t 125 kg)"
         }
       ]
     }
@@ -191,7 +191,7 @@
         {
           "label": "1",
           "frage": "| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
-          "antwort": "- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)"
+          "antwort": "- LKW 2: Leergewicht = 8 t 550 kg (= 8.550 kg)"
         }
       ]
     }
@@ -752,7 +752,7 @@
         {
           "label": "1",
           "frage": "Wie viele Kilometer schafft jeder in einer Stunde?",
-          "antwort": "- Fussgänger: 4 km/h"
+          "antwort": "- Radfahrer: 16 km/h"
         }
       ]
     }

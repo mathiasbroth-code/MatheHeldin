@@ -948,7 +948,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -995,7 +995,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1060,7 +1060,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1122,7 +1122,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1189,7 +1189,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1251,8 +1251,8 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
-digital: voll
+stage_id: "haeufigkeitsanalyse"
+digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
@@ -1306,7 +1306,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1385,7 +1385,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -1710,3 +1710,327 @@ c) Die Mitte zwischen deinen Antworten a) und b): Addiere beide und teile durch 
 
 ### Didaktischer Hinweis
 Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.
+
+---
+
+# Thema 4: Buchstaben zählen (S. 76-77)
+
+## Aufgabe 30
+
+---
+titel: "Buchstaben zählen in einem Wort"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: gelb
+buchseite: 76
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, zählen"
+---
+
+### Aufgabenstellung
+Zähle den Buchstaben E im Wort ERDBEERE.
+
+### Lösung
+4
+
+### Lösungsweg
+Wir gehen das Wort Buchstabe für Buchstabe durch und markieren jedes E:
+**E**-R-D-B-**E**-**E**-R-**E**
+Position 1: E ✓
+Position 2: R
+Position 3: D
+Position 4: B
+Position 5: E ✓
+Position 6: E ✓
+Position 7: R
+Position 8: E ✓
+→ 4 × E
+
+### Tipp 1 (Denkanstoß)
+Geh das Wort langsam Buchstabe für Buchstabe durch. Mach bei jedem E einen Strich.
+
+### Tipp 2 (Methode)
+Schreibe das Wort ERDBEERE auf und kreise jeden Buchstaben E mit einem Stift ein. Zähle dann die Kreise.
+
+### Tipp 3 (Schritt-für-Schritt)
+E-R-D-B-E-E-R-E — der erste Buchstabe ist ein E (1), dann kommen R, D, B (kein E), dann wieder E (2), E (3), dann R (kein E), und am Ende noch ein E (4). Wie viele E hast du gezählt?
+
+### Didaktischer Hinweis
+Einstieg in die Häufigkeitsanalyse über eine einfache Zählübung. Das Wort ERDBEERE eignet sich gut, weil der Buchstabe E sowohl am Anfang, in der Mitte als auch am Ende vorkommt. Kinder neigen dazu, das erste oder letzte E zu übersehen — sorgfältiges Durchgehen wird geübt.
+
+---
+
+## Aufgabe 31
+
+---
+titel: "Buchstaben zählen in mehreren Wörtern"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: gelb
+buchseite: 76
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, zählen"
+---
+
+### Aufgabenstellung
+Zähle den Buchstaben A in jedem Wort:
+a) ANANAS
+b) BANANE
+c) PAPAYA
+
+### Lösung
+a) 3
+b) 2
+c) 3
+
+### Lösungsweg
+a) **A**-N-**A**-N-**A**-S → 3 × A
+b) B-**A**-N-**A**-N-E → 2 × A
+c) P-**A**-P-**A**-Y-**A** → 3 × A
+
+### Tipp 1 (Denkanstoß)
+Geh jedes Wort einzeln durch und mach für jedes A einen Strich auf einem Zettel.
+
+### Tipp 2 (Methode)
+Schreibe jedes Wort groß auf und unterstreiche alle A. Zähle dann die Unterstreichungen für jedes Wort getrennt.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) ANANAS: A am Anfang (1), dann N, dann A (2), dann N, dann A (3), dann S. Also 3.
+b) BANANE: B, dann A (1), dann N, dann A (2), dann N, dann E. Wie viele A?
+c) PAPAYA: P, dann A (1), dann P, dann A (2), dann Y, dann A (3). Wie viele?
+
+### Didaktischer Hinweis
+Erweiterung des Zählens auf mehrere Wörter. Die Wörter sind bewusst gewählt, weil sie viele A enthalten und sich Kinder leicht verzählen können. Besonders BANANE ist eine typische Falle: Kinder erwarten 3 A, weil die anderen Wörter auch 3 haben. Genaues Hinschauen wird belohnt.
+
+---
+
+## Aufgabe 32
+
+---
+titel: "Buchstaben zählen in einem Satz"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: grün
+buchseite: 76
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, zählen"
+---
+
+### Aufgabenstellung
+Zähle den Buchstaben E im Satz: "Der Elefant trinkt jeden Abend einen Eimer Wasser."
+
+(Achte auf große und kleine E!)
+
+### Lösung
+11
+
+### Lösungsweg
+Wir markieren jedes E und e im Satz:
+D-**e**-r = 1
+**E**-l-**e**-f-a-n-t = 2
+t-r-i-n-k-t = 0
+j-**e**-d-**e**-n = 2
+A-b-**e**-n-d = 1
+**e**-i-n-**e**-n = 2
+**E**-i-m-**e**-r = 2
+W-a-s-s-**e**-r = 1
+
+1 + 2 + 0 + 2 + 1 + 2 + 2 + 1 = 11
+
+### Tipp 1 (Denkanstoß)
+Ein ganzer Satz hat mehr Buchstaben als ein einzelnes Wort. Geh Wort für Wort vor und vergiss nicht: Großes E zählt genauso wie kleines e!
+
+### Tipp 2 (Methode)
+Schreibe den Satz ab und kreise jedes E und e ein. Geh dann Wort für Wort durch und zähle die Kreise. Notiere die Anzahl pro Wort, dann addiere am Ende.
+
+### Tipp 3 (Schritt-für-Schritt)
+Zähle Wort für Wort:
+"Der" → 1 E. "Elefant" → 2 E. "trinkt" → 0 E. "jeden" → 2 E. "Abend" → 1 E. "einen" → 2 E. "Eimer" → 2 E. "Wasser" → 1 E.
+Addiere: 1 + 2 + 0 + 2 + 1 + 2 + 2 + 1 = ?
+
+### Didaktischer Hinweis
+Der Sprung vom einzelnen Wort zum ganzen Satz erhöht die Schwierigkeit deutlich. Kinder müssen systematisch vorgehen (Wort für Wort) und dürfen Groß- und Kleinbuchstaben nicht verwechseln. Die Methode "pro Wort zählen und dann addieren" ist eine wichtige Strategie, die auf komplexere Häufigkeitsanalysen vorbereitet.
+
+---
+
+## Aufgabe 33
+
+---
+titel: "Strichliste der Vokale"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: grün
+buchseite: 76
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, der Vokal, zählen"
+---
+
+### Aufgabenstellung
+Erstelle eine Strichliste: Wie oft kommt jeder Vokal (A, E, I, O, U) im Wort DINOSAURIER vor?
+
+### Lösung
+A: 1
+E: 1
+I: 2
+O: 1
+U: 1
+
+### Lösungsweg
+Wir gehen das Wort Buchstabe für Buchstabe durch:
+D-**I**-N-**O**-S-**A**-**U**-R-**I**-**E**-R
+
+| Vokal | Strichliste | Anzahl |
+|-------|-------------|--------|
+| A     | \|          | 1      |
+| E     | \|          | 1      |
+| I     | \|\|        | 2      |
+| O     | \|          | 1      |
+| U     | \|          | 1      |
+
+### Tipp 1 (Denkanstoß)
+Vokale sind die Buchstaben A, E, I, O und U. Schreibe das Wort DINOSAURIER groß auf und unterstreiche alle Vokale.
+
+### Tipp 2 (Methode)
+Zeichne eine Tabelle mit 5 Zeilen (A, E, I, O, U). Geh das Wort Buchstabe für Buchstabe durch. Bei jedem Vokal machst du einen Strich in der passenden Zeile.
+
+### Tipp 3 (Schritt-für-Schritt)
+D → kein Vokal. I → Strich bei I. N → kein Vokal. O → Strich bei O. S → kein Vokal. A → Strich bei A. U → Strich bei U. R → kein Vokal. I → Strich bei I. E → Strich bei E. R → kein Vokal. Zähle jetzt die Striche in jeder Zeile!
+
+### Didaktischer Hinweis
+Diese Aufgabe führt die Strichliste als Werkzeug ein. Statt nur einen Buchstaben zu zählen, müssen die Kinder mehrere Kategorien gleichzeitig im Blick behalten. Die tabellarische Darstellung ist eine Vorstufe zur Häufigkeitstabelle. DINOSAURIER ist ein motivierendes Wort, das alle fünf Vokale enthält.
+
+---
+
+## Aufgabe 34
+
+---
+titel: "Häufigster Buchstabe in einem Satz"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: orange
+buchseite: 77
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, der häufigste Buchstabe"
+---
+
+### Aufgabenstellung
+Welcher Buchstabe kommt am häufigsten vor?
+
+"Alle Affen essen abends Ananas auf alten Ästen."
+
+(Tipp: Zähle A, a und Ä zusammen!)
+
+### Lösung
+A (9-mal, wenn man A, a und Ä zusammenzählt)
+
+### Lösungsweg
+Wir zählen alle A/a/Ä im Satz:
+**A**-l-l-e = 1
+**A**-f-f-e-n = 1
+e-s-s-e-n = 0
+**a**-b-e-n-d-s = 1
+**A**-n-**a**-n-**a**-s = 3
+**a**-u-f = 1
+**a**-l-t-e-n = 1
+**Ä**-s-t-e-n = 1
+
+Summe: 1 + 1 + 0 + 1 + 3 + 1 + 1 + 1 = 9
+
+Zum Vergleich — E/e kommt 7-mal vor:
+All**e** = 1, Aff**e**n = 1, **e**ss**e**n = 2, ab**e**nds = 1, alt**e**n = 1, Äst**e**n = 1 → 7
+
+A (mit 9) kommt häufiger vor als E (mit 7). Also ist A der häufigste Buchstabe.
+
+### Tipp 1 (Denkanstoß)
+In diesem Satz kommen zwei Buchstaben besonders oft vor: A und E. Zähle beide und vergleiche!
+
+### Tipp 2 (Methode)
+Schreibe den Satz ab und markiere alle A/a/Ä in einer Farbe und alle E/e in einer anderen Farbe. Welche Farbe siehst du öfter?
+
+### Tipp 3 (Schritt-für-Schritt)
+Zähle die A/a/Ä Wort für Wort:
+"Alle" → 1, "Affen" → 1, "essen" → 0, "abends" → 1, "Ananas" → 3, "auf" → 1, "alten" → 1, "Ästen" → 1.
+Addiere: 1 + 1 + 0 + 1 + 3 + 1 + 1 + 1 = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe führt den Vergleich von Häufigkeiten ein. Das Kind muss nicht nur zählen, sondern auch entscheiden, welcher Buchstabe "gewinnt". Der Hinweis, dass Ä als Variante von A mitzählt, ist wichtig für das Verständnis von Buchstabenfamilien. Der Satz ist absichtlich A-lastig gewählt, damit das Ergebnis eindeutig ist.
+
+---
+
+## Aufgabe 35
+
+---
+titel: "Vokale zählen in einem Satz"
+typ: eingabe
+thema: "Buchstaben zählen"
+schwierigkeit: orange
+buchseite: 77
+kapitel: "07-kombinatorik-wahrscheinlichkeit"
+stage_id: "haeufigkeitsanalyse"
+digital: voll
+merkkasten_typ: begriffe
+merkkasten_begriffe: "die Häufigkeit, die Strichliste, der Vokal, zählen"
+---
+
+### Aufgabenstellung
+Zähle alle Vokale (A, E, I, O, U) im Satz:
+
+"Die Sonne scheint über dem blauen Meer."
+
+Wie viele Vokale sind es insgesamt?
+
+(Hinweis: Umlaute wie Ü zählen hier nicht mit — nur A, E, I, O, U!)
+
+### Lösung
+13
+
+### Lösungsweg
+Wir gehen den Satz Wort für Wort durch und zählen A, E, I, O, U:
+
+D-**i**-**e** = 2 (i, e)
+S-**o**-n-n-**e** = 2 (o, e)
+s-c-h-**e**-**i**-n-t = 2 (e, i)
+ü-b-**e**-r = 1 (e — das ü zählt nicht)
+d-**e**-m = 1 (e)
+b-l-**a**-**u**-**e**-n = 3 (a, u, e)
+M-**e**-**e**-r = 2 (e, e)
+
+2 + 2 + 2 + 1 + 1 + 3 + 2 = 13
+
+| Vokal | Anzahl |
+|-------|--------|
+| A     | 1      |
+| E     | 8      |
+| I     | 2      |
+| O     | 1      |
+| U     | 1      |
+| **Gesamt** | **13** |
+
+### Tipp 1 (Denkanstoß)
+Vokale sind A, E, I, O und U. Das Ü in "über" ist ein Umlaut und zählt hier nicht mit. Geh den Satz Wort für Wort durch!
+
+### Tipp 2 (Methode)
+Schreibe den Satz ab und kreise jeden Vokal (A, E, I, O, U) ein — egal ob groß oder klein. Achtung: Das Ü in "über" ist kein normaler Vokal! Zähle dann alle Kreise.
+
+### Tipp 3 (Schritt-für-Schritt)
+Zähle Wort für Wort:
+"Die" → 2. "Sonne" → 2. "scheint" → 2. "über" → 1 (nur das e, nicht das ü). "dem" → 1. "blauen" → 3. "Meer" → 2.
+Addiere: 2 + 2 + 2 + 1 + 1 + 3 + 2 = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe kombiniert Vokalzählung mit einem ganzen Satz — die Königsdisziplin der Buchstabenanalyse auf dieser Stufe. Die Unterscheidung zwischen Umlauten (Ü) und regulären Vokalen wird explizit thematisiert. Die Häufigkeitstabelle am Ende des Lösungswegs zeigt, dass E mit Abstand der häufigste Vokal ist — eine typische Eigenschaft der deutschen Sprache, die Kinder hier entdecken können.

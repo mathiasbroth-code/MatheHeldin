@@ -1006,7 +1006,7 @@
   },
   {
     "titel": "Schrägbild und Bauplan — Würfelplättchen zählen",
-    "typ": "textaufgabe",
+    "typ": "auswahl",
     "thema": "Schrägbilder legen und zeichnen",
     "schwierigkeit": "gelb",
     "buchseite": 110,
@@ -1024,26 +1024,24 @@
     ],
     "didaktischerHinweis": "Der Unterschied zwischen 3D-Gebäude und 2D-Schrägbild ist ein zentrales Verständnisproblem. Entspricht S. 110, Aufg. 3b.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
-      "kontext": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
+      "optionen": [
         {
-          "label": "a",
-          "frage": "Jette und Justus haben verschiedene Gebäude gebaut.",
-          "antwort": ""
+          "label": "A",
+          "text": "Jette und Justus haben verschiedene Gebäude gebaut."
         },
         {
-          "label": "b",
-          "frage": "Justus hat das Schrägbild aus einer anderen Perspektive gelegt.",
-          "antwort": ""
+          "label": "B",
+          "text": "Justus hat das Schrägbild aus einer anderen Perspektive gelegt."
         },
         {
-          "label": "c",
-          "frage": "Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen.",
-          "antwort": "Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen."
+          "label": "C",
+          "text": "Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen."
         }
-      ]
+      ],
+      "richtigeIdx": 2
     }
   },
   {

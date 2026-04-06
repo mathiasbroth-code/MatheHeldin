@@ -2444,7 +2444,7 @@ Das Glücksrad als Zufallsexperiment: anschaulicher als Würfel, weil die Felder
 ## Aufgabe 47
 
 ---
-titel: "Kugeln ziehen — Farben einschätzen"
+titel: "Kugeln ziehen — Farben einschaetzen"
 typ: zuordnung
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -3179,7 +3179,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3228,7 +3228,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3283,7 +3283,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3331,7 +3331,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3397,7 +3397,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3450,7 +3450,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3511,7 +3511,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3567,7 +3567,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3624,7 +3624,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3682,7 +3682,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3750,8 +3750,8 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
-digital: voll
+stage_id: "haeufigkeitsanalyse"
+digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
@@ -3803,7 +3803,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3853,7 +3853,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3907,7 +3907,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
@@ -3966,7 +3966,7 @@ thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "häufigkeitsanalyse"
+stage_id: "haeufigkeitsanalyse"
 digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"

@@ -25,6 +25,22 @@ import {
   hatRechenkette,
 } from './parserHelpers';
 
+// ── Header-Line Detection ──────────────────────────────
+/** Detects if a line is a header/label rather than an answer value.
+ *  Catches: lines ending with ":", table rows starting with "|",
+ *  and list items "- label: value" (the label part, not the value). */
+function isHeaderLine(line: string): boolean {
+  return line.endsWith(':') ||
+    line.startsWith('|') ||
+    (line.startsWith('- ') && line.includes(':'));
+}
+
+/** Given a raw loesung text, skip header lines and return the first real answer line. */
+function skipHeaderLine(rawFirst: string, fullText: string): string {
+  if (!isHeaderLine(rawFirst)) return rawFirst;
+  return fullText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst;
+}
+
 // ── Dispatcher ──────────────────────────────────────────
 
 /**
@@ -70,10 +86,8 @@ function parseEingabeDaten(aufgabenstellung: string, loesung: string): EingabeDa
       const zeilen = item.text.split('\n').map((l) => l.trim()).filter(Boolean);
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
       const rawLoesungText = loesungItem?.text.split('\n')[0].trim() ?? '';
-      // P4: If first line is just a header (ends with ":"), take the next non-empty line
-      const loesungText = rawLoesungText.endsWith(':')
-        ? (loesungItem?.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawLoesungText)
-        : rawLoesungText;
+      // P4: If first line is just a header, take the next non-empty line
+      const loesungText = skipHeaderLine(rawLoesungText, loesungItem?.text ?? '');
 
       if (zeilen.length > 1 && loesungText.includes('/')) {
         // Paeckchen: multiple sub-answers separated by /
@@ -165,9 +179,7 @@ function parseSchrittDaten(aufgabenstellung: string, loesung: string): SchrittDa
   // 7. Fallback: single step
   // P4: header-line fix
   const rawFirst = loesung.split('\n')[0].trim();
-  const fallbackAntwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-    : rawFirst;
+  const fallbackAntwort = skipHeaderLine(rawFirst, loesung);
   return {
     typ: 'schritt',
     anweisung: aufgabenstellung.trim(),
@@ -271,9 +283,7 @@ function parseSchrittAbc(
     const frage = item.text.split('\n')[0].trim();
     // P4: header-line fix
     const rawAntwort = loesungText.split('\n')[0].trim();
-    const antwort = rawAntwort.endsWith(':')
-      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawAntwort)
-      : rawAntwort;
+    const antwort = skipHeaderLine(rawAntwort, loesungText);
     return {
       label: item.label,
       schritte: [{ label: '1', frage, antwort }],
@@ -483,9 +493,7 @@ function parseUeberschlagTeilaufgabe(
   if (schritte.length === 0) {
     // P4: header-line fix
     const rawFb = loesungText.split('\n')[0].trim();
-    const fbAntwort = rawFb.endsWith(':')
-      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFb)
-      : rawFb;
+    const fbAntwort = skipHeaderLine(rawFb, loesungText);
     schritte.push({
       label: '1',
       frage,
@@ -521,11 +529,9 @@ function parseLueckeDaten(aufgabenstellung: string, loesung: string): LueckeDate
   if (split.items.length > 0) {
     const items: TeilItem[] = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      // P4: If first line is a header, take the next non-empty line
       const rawFirst = loesungItem?.text.split('\n')[0].trim() ?? '';
-      const antwort = rawFirst.endsWith(':')
-        ? (loesungItem?.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-        : rawFirst;
+      const antwort = skipHeaderLine(rawFirst, loesungItem?.text ?? '');
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
@@ -538,9 +544,7 @@ function parseLueckeDaten(aufgabenstellung: string, loesung: string): LueckeDate
 
   // P4: header-line fix
   const rawFirst = loesung.split('\n')[0].trim();
-  const lueckeAntwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-    : rawFirst;
+  const lueckeAntwort = skipHeaderLine(rawFirst, loesung);
   return {
     typ: 'luecke',
     anweisung: '',
@@ -751,11 +755,9 @@ function parseTextaufgabeDaten(aufgabenstellung: string, loesung: string): Texta
   if (split.items.length > 0) {
     const items: TeilItem[] = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      // P4: If first line is a header, take the next non-empty line
       const rawFirst = loesungItem?.text.split('\n')[0].trim() ?? '';
-      const antwort = rawFirst.endsWith(':')
-        ? (loesungItem?.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-        : rawFirst;
+      const antwort = skipHeaderLine(rawFirst, loesungItem?.text ?? '');
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
@@ -777,10 +779,8 @@ function parseTextaufgabeDaten(aufgabenstellung: string, loesung: string): Texta
     const kontext = paragraphs.slice(0, -1).join('\n\n');
     const frage = paragraphs[paragraphs.length - 1];
     // P4: header-line fix for single-item loesung
-    const rawFirst = loesung.split('\n')[0].trim();
-    const antwort = rawFirst.endsWith(':')
-      ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-      : rawFirst;
+    const rawFirst2 = loesung.split('\n')[0].trim();
+    const antwort = skipHeaderLine(rawFirst2, loesung);
     return {
       typ: 'textaufgabe',
       anweisung: kontext,
@@ -790,10 +790,8 @@ function parseTextaufgabeDaten(aufgabenstellung: string, loesung: string): Texta
   }
 
   // P4: header-line fix for single-item loesung
-  const rawFirst = loesung.split('\n')[0].trim();
-  const antwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] ?? rawFirst)
-    : rawFirst;
+  const rawFirst3 = loesung.split('\n')[0].trim();
+  const antwort = skipHeaderLine(rawFirst3, loesung);
   return {
     typ: 'textaufgabe',
     anweisung: '',

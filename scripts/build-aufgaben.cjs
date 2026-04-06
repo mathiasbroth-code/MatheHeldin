@@ -89,6 +89,18 @@ function hatRechenkette(text) {
   return /→/.test(text) && /[+\-·:×÷]/.test(text);
 }
 
+// ── Header-Line Detection ──────────────────────────────
+function isHeaderLine(line) {
+  return line.endsWith(':') ||
+    line.startsWith('|') ||
+    (line.startsWith('- ') && line.includes(':'));
+}
+
+function skipHeaderLine(rawFirst, fullText) {
+  if (!isHeaderLine(rawFirst)) return rawFirst;
+  return fullText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst;
+}
+
 // ═══════════════════════════════════════════════════════════════
 // Typed Parser (from src/aufgaben/parserTyped.ts)
 // ═══════════════════════════════════════════════════════════════
@@ -129,10 +141,8 @@ function parseEingabeDaten(aufgabenstellung, loesung) {
       const zeilen = item.text.split('\n').map((l) => l.trim()).filter(Boolean);
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
       const rawLoesungText = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
-      // P4: If first line is just a header (ends with ":"), take the next non-empty line
-      const loesungText = rawLoesungText.endsWith(':')
-        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawLoesungText) : rawLoesungText)
-        : rawLoesungText;
+      // P4: If first line is just a header, take the next non-empty line
+      const loesungText = skipHeaderLine(rawLoesungText, loesungItem ? loesungItem.text : '');
 
       if (zeilen.length > 1 && loesungText.includes('/')) {
         const antworten = loesungText.split('/').map((a) => a.trim());
@@ -196,9 +206,7 @@ function parseSchrittDaten(aufgabenstellung, loesung) {
 
   // P4: header-line fix
   const rawFirst = loesung.split('\n')[0].trim();
-  const fallbackAntwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
-    : rawFirst;
+  const fallbackAntwort = skipHeaderLine(rawFirst, loesung);
   return {
     typ: 'schritt',
     anweisung: aufgabenstellung.trim(),
@@ -269,9 +277,7 @@ function parseSchrittAbc(_aufgabenstellung, loesung, abcSplit) {
     const frage = item.text.split('\n')[0].trim();
     // P4: header-line fix
     const rawAntwort = loesungText.split('\n')[0].trim();
-    const antwort = rawAntwort.endsWith(':')
-      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawAntwort)
-      : rawAntwort;
+    const antwort = skipHeaderLine(rawAntwort, loesungText);
     return { label: item.label, schritte: [{ label: '1', frage, antwort }] };
   });
 
@@ -413,9 +419,7 @@ function parseUeberschlagTeilaufgabe(item, loesungText) {
   if (schritte.length === 0) {
     // P4: header-line fix
     const rawFb = loesungText.split('\n')[0].trim();
-    const fbAntwort = rawFb.endsWith(':')
-      ? (loesungText.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFb)
-      : rawFb;
+    const fbAntwort = skipHeaderLine(rawFb, loesungText);
     schritte.push({ label: '1', frage, antwort: fbAntwort });
   }
 
@@ -445,11 +449,9 @@ function parseLueckeDaten(aufgabenstellung, loesung) {
   if (split.items.length > 0) {
     const items = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      // P4: If first line is a header, take the next non-empty line
       const rawFirst = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
-      const antwort = rawFirst.endsWith(':')
-        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst) : rawFirst)
-        : rawFirst;
+      const antwort = skipHeaderLine(rawFirst, loesungItem ? loesungItem.text : '');
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
@@ -461,9 +463,7 @@ function parseLueckeDaten(aufgabenstellung, loesung) {
 
   // P4: header-line fix
   const rawFirst = loesung.split('\n')[0].trim();
-  const lueckeAntwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
-    : rawFirst;
+  const lueckeAntwort = skipHeaderLine(rawFirst, loesung);
   return {
     typ: 'luecke',
     anweisung: '',
@@ -645,11 +645,9 @@ function parseTextaufgabeDaten(aufgabenstellung, loesung) {
   if (split.items.length > 0) {
     const items = split.items.map((item) => {
       const loesungItem = loesungSplit.items.find((l) => l.label === item.label);
-      // P4: If first line is a header (ends with ":"), take the next non-empty line
+      // P4: If first line is a header, take the next non-empty line
       const rawFirst = loesungItem ? loesungItem.text.split('\n')[0].trim() : '';
-      const antwort = rawFirst.endsWith(':')
-        ? (loesungItem ? (loesungItem.text.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst) : rawFirst)
-        : rawFirst;
+      const antwort = skipHeaderLine(rawFirst, loesungItem ? loesungItem.text : '');
       return {
         label: item.label,
         frage: item.text.split('\n')[0].trim(),
@@ -665,9 +663,7 @@ function parseTextaufgabeDaten(aufgabenstellung, loesung) {
     const frage = paragraphs[paragraphs.length - 1];
     // P4: header-line fix for single-item loesung
     const rawFirst = loesung.split('\n')[0].trim();
-    const antwort = rawFirst.endsWith(':')
-      ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
-      : rawFirst;
+    const antwort = skipHeaderLine(rawFirst, loesung);
     return {
       typ: 'textaufgabe',
       anweisung: kontext,
@@ -678,9 +674,7 @@ function parseTextaufgabeDaten(aufgabenstellung, loesung) {
 
   // P4: header-line fix for single-item loesung
   const rawFirst = loesung.split('\n')[0].trim();
-  const antwort = rawFirst.endsWith(':')
-    ? (loesung.split('\n').slice(1).map(l => l.trim()).filter(Boolean)[0] || rawFirst)
-    : rawFirst;
+  const antwort = skipHeaderLine(rawFirst, loesung);
   return {
     typ: 'textaufgabe',
     anweisung: '',

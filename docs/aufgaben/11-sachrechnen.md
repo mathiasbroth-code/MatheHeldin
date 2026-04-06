@@ -434,27 +434,24 @@ Maren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten h
 Maren schafft in einer Minute durchschnittlich 50 m.
 Leo schafft in einer Minute 75 m.
 
-a) Schreibe die Informationen in eine Tabelle:
-
-| Zeit | Marens Weg | Leos Weg |
-|------|-----------|----------|
-| 4 min | ___ m | 0 m |
-| 6 min | ___ m | ___ m |
-| 8 min | ___ m | ___ m |
+a) Berechne, wie weit Maren und Leo nach 4, 6, 8, 10 und 12 Minuten sind.
 
 b) Um wie viel Uhr holt Leo seine Schwester ein?
 
 ### Lösung
 a)
-| Zeit | Marens Weg | Leos Weg |
-|------|-----------|----------|
-| 4 min | 200 m | 0 m |
-| 6 min | 300 m | 150 m |
-| 8 min | 400 m | 300 m |
-| 10 min | 500 m | 450 m |
-| 12 min | 600 m | 600 m |
+Maren nach 4 min: 4 · 50 = 200
+Leo nach 4 min: 0 · 75 = 0
+Maren nach 6 min: 6 · 50 = 300
+Leo nach 6 min: 2 · 75 = 150
+Maren nach 8 min: 8 · 50 = 400
+Leo nach 8 min: 4 · 75 = 300
+Maren nach 10 min: 10 · 50 = 500
+Leo nach 10 min: 6 · 75 = 450
+Maren nach 12 min: 12 · 50 = 600
+Leo nach 12 min: 8 · 75 = 600
 
-b) Nach 12 Minuten sind beide 600 m weit. Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).
+b) Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).
 
 ### Lösungsweg
 Maren startet bei Minute 0 und geht 50 m pro Minute.
@@ -500,27 +497,22 @@ Ina geht um 7:30 Uhr los. Vier Minuten später geht Tim los.
 Ina legt in einer Minute durchschnittlich 50 m zurück.
 Tim schafft in einer Minute 100 m.
 
-a) Fulle die Tabelle aus:
-
-| Zeit | Inas Weg | Tims Weg |
-|------|---------|---------|
-| 4 min | ___ m | 0 m |
-| 5 min | ___ m | ___ m |
-| 6 min | ___ m | ___ m |
+a) Wie weit ist Ina nach 4, 5 und 6 Minuten? Wie weit ist Tim?
 
 b) Um wie viel Uhr holt Tim seine Schwester ein?
 
 ### Lösung
 a)
-| Zeit | Inas Weg | Tims Weg |
-|------|---------|---------|
-| 4 min | 200 m | 0 m |
-| 5 min | 250 m | 100 m |
-| 6 min | 300 m | 200 m |
-| 7 min | 350 m | 300 m |
-| 8 min | 400 m | 400 m |
+Ina nach 4 min: 4 · 50 = 200
+Tim nach 4 min: 0 · 100 = 0
+Ina nach 5 min: 5 · 50 = 250
+Tim nach 5 min: 1 · 100 = 100
+Ina nach 6 min: 6 · 50 = 300
+Tim nach 6 min: 2 · 100 = 200
+Ina nach 8 min: 8 · 50 = 400
+Tim nach 8 min: 4 · 100 = 400
 
-b) Nach 8 Minuten haben beide 400 m geschafft. Tim holt Ina um 7:38 Uhr ein.
+b) Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min).
 
 ### Lösungsweg
 - Inas Weg: 50 m pro Minute, Start bei 0 min
@@ -751,14 +743,15 @@ digital: voll
 
 ### Aufgabenstellung
 Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.
-
-- Der Schnellzug fährt pro Stunde durchschnittlich 160 km.
-- Der Regionalzug fährt pro Stunde durchschnittlich 90 km.
+Der Schnellzug fährt pro Stunde durchschnittlich 160 km.
+Der Regionalzug fährt pro Stunde durchschnittlich 90 km.
 
 Wie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?
 
 ### Lösung
-Die Züge sind nach 2,5 Stunden 625 km voneinander entfernt.
+1. Strecke Schnellzug: 160 · 2,5 = 400
+2. Strecke Regionalzug: 90 · 2,5 = 225
+3. Gesamtentfernung: 400 + 225 = 625
 
 ### Lösungsweg
 Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden
@@ -1165,20 +1158,14 @@ digital: voll
 ### Aufgabenstellung
 Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.
 
-Fülle die Tabelle aus:
-
-| Woche | Gespart |
-|-------|---------|
-| 1 | ___ Euro |
-| 2 | ___ Euro |
-| 3 | ___ Euro |
-| 4 | ___ Euro |
-| 5 | ___ Euro |
-
-Nach wie vielen Wochen kann Emma das Buch kaufen?
+Wie viel hat Emma nach jeder Woche gespart? Nach wie vielen Wochen kann sie das Buch kaufen?
 
 ### Lösung
-5
+1. Woche 1: 1 · 3 = 3
+2. Woche 2: 2 · 3 = 6
+3. Woche 3: 3 · 3 = 9
+4. Woche 4: 4 · 3 = 12
+5. Woche 5: 5 · 3 = 15
 
 ### Lösungsweg
 | Woche | Gespart |
@@ -1380,20 +1367,20 @@ digital: voll
 
 ### Aufgabenstellung
 Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:
+Schule → Waldrand: 800 m,
+Waldrand → Aussichtspunkt: 1.200 m,
+Aussichtspunkt → Spielplatz: 650 m,
+Spielplatz → See: 950 m,
+See → Schule: 1.400 m.
 
-- Schule → Waldrand: 800 m
-- Waldrand → Aussichtspunkt: 1.200 m
-- Aussichtspunkt → Spielplatz: 650 m
-- Spielplatz → See: 950 m
-- See → Schule: 1.400 m
-
-Berechne die Gesamtstrecke mit einer Rechenkette:
-0 → +800 → ___ → +1.200 → ___ → +650 → ___ → +950 → ___ → +1.400 → ___
-
-Wie viele Kilometer ist die Wanderung insgesamt lang?
+Berechne die Gesamtstrecke Schritt für Schritt. Wie viele Kilometer ist die Wanderung insgesamt lang?
 
 ### Lösung
-5
+1. 0 + 800 = 800
+2. 800 + 1.200 = 2.000
+3. 2.000 + 650 = 2.650
+4. 2.650 + 950 = 3.600
+5. 3.600 + 1.400 = 5.000
 
 ### Lösungsweg
 Rechenkette:

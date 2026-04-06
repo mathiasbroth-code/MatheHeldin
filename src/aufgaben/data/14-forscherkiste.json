@@ -1145,8 +1145,8 @@
     "kapitel": "14-forscherkiste",
     "stageId": "rechenkuenstler",
     "digital": "voll",
-    "aufgabenstellung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.\n\na) Füll die Tabelle aus:\n\n| Tag | Betrag |\n|-----|--------|\n| 1 | 1 ct |\n| 2 | 2 ct |\n| 3 | 4 ct |\n| 4 | ___ ct |\n| 5 | ___ ct |\n| 6 | ___ ct |\n\nb) Wie viel hat Nelson nach 6 Tagen insgesamt?",
-    "loesung": "a) Tag 4: 8 ct, Tag 5: 16 ct, Tag 6: 32 ct\nb) 1 + 2 + 4 + 8 + 16 + 32 = 63 ct",
+    "aufgabenstellung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.\n\na) Am 1. Tag bekommt er 1 ct, am 2. Tag 2 ct, am 3. Tag 4 ct. Wie viel bekommt er an Tag 4, 5 und 6?\n\nb) Wie viel hat Nelson nach 6 Tagen insgesamt?",
+    "loesung": "a)\nTag 4: 4 · 2 = 8\nTag 5: 8 · 2 = 16\nTag 6: 16 · 2 = 32\nb) 1 + 2 + 4 + 8 + 16 + 32 = 63",
     "loesungsweg": "Immer verdoppeln: 1, 2, 4, 8, 16, 32.\nSumme: 1+2+4+8+16+32 = 63 Cent.",
     "tipps": [
       "Jeden Tag verdoppeln: Tag 3 = 4 Cent. Tag 4 = 4 · 2 = ___. Tag 5 = ___ · 2 = ___.",
@@ -1157,35 +1157,35 @@
     "didaktischerHinweis": "Exponentielles Wachstum anschaulich. Entspricht S. 131, Aufg. 6.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.\n\na) Füll die Tabelle aus:\n\n\nb) Wie viel hat Nelson nach 6 Tagen insgesamt?",
+      "anweisung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.",
       "teilaufgaben": [
         {
-          "label": "1",
+          "label": "a",
           "schritte": [
             {
               "label": "1",
-              "frage": "1 · Betrag =",
-              "antwort": ""
+              "frage": "Tag 4: 4 · 2 = ?",
+              "antwort": "8"
             },
             {
               "label": "2",
-              "frage": "2 · Betrag =",
-              "antwort": ""
+              "frage": "Tag 5: 8 · 2 = ?",
+              "antwort": "16"
             },
             {
               "label": "3",
-              "frage": "3 · Betrag =",
-              "antwort": ""
-            },
+              "frage": "Tag 6: 16 · 2 = ?",
+              "antwort": "32"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
             {
-              "label": "4",
-              "frage": "4 · Betrag =",
-              "antwort": ""
-            },
-            {
-              "label": "5",
-              "frage": "5 · Betrag =",
-              "antwort": ""
+              "label": "1",
+              "frage": "Wie viel hat Nelson nach 6 Tagen insgesamt?",
+              "antwort": "1 + 2 + 4 + 8 + 16 + 32 = 63"
             }
           ]
         }

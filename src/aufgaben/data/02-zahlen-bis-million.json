@@ -172,12 +172,12 @@
         {
           "label": "a",
           "frage": "3 Hunderter-Platten, 5 Zehner-Stangen, 2 Einer-Würfel",
-          "antwort": "| M | HT | ZT | T | H | Z | E |"
+          "antwort": "|---|----|----|---|---|---|---|"
         },
         {
           "label": "b",
           "frage": "3 Hunderttausender-Platten, 5 Zehntausender-Stangen, 2 Tausender-Würfel",
-          "antwort": "| M | HT | ZT | T | H | Z | E |"
+          "antwort": "|---|----|----|---|---|---|---|"
         }
       ]
     }

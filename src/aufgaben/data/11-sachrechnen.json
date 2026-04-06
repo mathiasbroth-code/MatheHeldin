@@ -324,8 +324,8 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Schreibe die Informationen in eine Tabelle:\n\n| Zeit | Marens Weg | Leos Weg |\n|------|-----------|----------|\n| 4 min | ___ m | 0 m |\n| 6 min | ___ m | ___ m |\n| 8 min | ___ m | ___ m |\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
-    "loesung": "a)\n| Zeit | Marens Weg | Leos Weg |\n|------|-----------|----------|\n| 4 min | 200 m | 0 m |\n| 6 min | 300 m | 150 m |\n| 8 min | 400 m | 300 m |\n| 10 min | 500 m | 450 m |\n| 12 min | 600 m | 600 m |\n\nb) Nach 12 Minuten sind beide 600 m weit. Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).",
+    "aufgabenstellung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Berechne, wie weit Maren und Leo nach 4, 6, 8, 10 und 12 Minuten sind.\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
+    "loesung": "a)\nMaren nach 4 min: 4 · 50 = 200\nLeo nach 4 min: 0 · 75 = 0\nMaren nach 6 min: 6 · 50 = 300\nLeo nach 6 min: 2 · 75 = 150\nMaren nach 8 min: 8 · 50 = 400\nLeo nach 8 min: 4 · 75 = 300\nMaren nach 10 min: 10 · 50 = 500\nLeo nach 10 min: 6 · 75 = 450\nMaren nach 12 min: 12 · 50 = 600\nLeo nach 12 min: 8 · 75 = 600\n\nb) Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).",
     "loesungsweg": "Maren startet bei Minute 0 und geht 50 m pro Minute.\nLeo startet bei Minute 4 und läuft 75 m pro Minute.\n- Marens Weg nach t Minuten: 50 · t\n- Leos Weg nach t Minuten: 75 · (t - 4), ab t = 4\n\nGleichsetzen: 50 · t = 75 · (t - 4) → 50t = 75t - 300 → 300 = 25t → t = 12\n\nNach 12 Minuten haben beide 600 m zurückgelegt.",
     "tipps": [
       "Zeichne einen Zahlenstrahl für den Schulweg. Trage ein, wo Maren und Leo nach jeder Minute sind. Wann sind sie an der gleichen Stelle?",
@@ -336,35 +336,70 @@
     "didaktischerHinweis": "Die Tabelle als Lösungshilfe macht das Einhol-Problem greifbar. Entspricht S. 114, Aufg. 1.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Schreibe die Informationen in eine Tabelle:\n\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
+      "anweisung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.",
       "teilaufgaben": [
         {
-          "label": "1",
+          "label": "a",
           "schritte": [
             {
               "label": "1",
-              "frage": "4 min · Marens Weg =",
-              "antwort": "200 m"
+              "frage": "Maren nach 4 min: 4 · 50 = ?",
+              "antwort": "200"
             },
             {
               "label": "2",
-              "frage": "4 min · Leos Weg =",
-              "antwort": "0 m"
+              "frage": "Leo nach 4 min: 0 · 75 = ?",
+              "antwort": "0"
             },
             {
               "label": "3",
-              "frage": "6 min · Marens Weg =",
-              "antwort": "300 m"
+              "frage": "Maren nach 6 min: 6 · 50 = ?",
+              "antwort": "300"
             },
             {
               "label": "4",
-              "frage": "6 min · Leos Weg =",
-              "antwort": "150 m"
+              "frage": "Leo nach 6 min: 2 · 75 = ?",
+              "antwort": "150"
             },
             {
               "label": "5",
-              "frage": "Summe:",
-              "antwort": "."
+              "frage": "Maren nach 8 min: 8 · 50 = ?",
+              "antwort": "400"
+            },
+            {
+              "label": "6",
+              "frage": "Leo nach 8 min: 4 · 75 = ?",
+              "antwort": "300"
+            },
+            {
+              "label": "7",
+              "frage": "Maren nach 10 min: 10 · 50 = ?",
+              "antwort": "500"
+            },
+            {
+              "label": "8",
+              "frage": "Leo nach 10 min: 6 · 75 = ?",
+              "antwort": "450"
+            },
+            {
+              "label": "9",
+              "frage": "Maren nach 12 min: 12 · 50 = ?",
+              "antwort": "600"
+            },
+            {
+              "label": "10",
+              "frage": "Leo nach 12 min: 8 · 75 = ?",
+              "antwort": "600"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Um wie viel Uhr holt Leo seine Schwester ein?",
+              "antwort": "Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min)."
             }
           ]
         }
@@ -380,8 +415,8 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Fulle die Tabelle aus:\n\n| Zeit | Inas Weg | Tims Weg |\n|------|---------|---------|\n| 4 min | ___ m | 0 m |\n| 5 min | ___ m | ___ m |\n| 6 min | ___ m | ___ m |\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
-    "loesung": "a)\n| Zeit | Inas Weg | Tims Weg |\n|------|---------|---------|\n| 4 min | 200 m | 0 m |\n| 5 min | 250 m | 100 m |\n| 6 min | 300 m | 200 m |\n| 7 min | 350 m | 300 m |\n| 8 min | 400 m | 400 m |\n\nb) Nach 8 Minuten haben beide 400 m geschafft. Tim holt Ina um 7:38 Uhr ein.",
+    "aufgabenstellung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Wie weit ist Ina nach 4, 5 und 6 Minuten? Wie weit ist Tim?\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
+    "loesung": "a)\nIna nach 4 min: 4 · 50 = 200\nTim nach 4 min: 0 · 100 = 0\nIna nach 5 min: 5 · 50 = 250\nTim nach 5 min: 1 · 100 = 100\nIna nach 6 min: 6 · 50 = 300\nTim nach 6 min: 2 · 100 = 200\nIna nach 8 min: 8 · 50 = 400\nTim nach 8 min: 4 · 100 = 400\n\nb) Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min).",
     "loesungsweg": "- Inas Weg: 50 m pro Minute, Start bei 0 min\n- Tims Weg: 100 m pro Minute, Start bei 4 min\n- Nach 8 Minuten: Ina bei 8 · 50 = 400 m, Tim bei 4 · 100 = 400 m — gleichauf!",
     "tipps": [
       "Zeichne zwei Pfeile auf einem Zahlenstrahl bis 800 m. Ina startet früher, Tim ist schneller. Wann treffen sich die Pfeile?",
@@ -392,35 +427,60 @@
     "didaktischerHinweis": "Gleiche Aufgabenstruktur wie Aufgabe 9, aber mit anderen Zahlen — vertieft die Methode. Entspricht S. 114, Aufg. 2.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Fulle die Tabelle aus:\n\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
+      "anweisung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.",
       "teilaufgaben": [
         {
-          "label": "1",
+          "label": "a",
           "schritte": [
             {
               "label": "1",
-              "frage": "4 min · Inas Weg =",
-              "antwort": "200 m"
+              "frage": "Ina nach 4 min: 4 · 50 = ?",
+              "antwort": "200"
             },
             {
               "label": "2",
-              "frage": "4 min · Tims Weg =",
-              "antwort": "0 m"
+              "frage": "Tim nach 4 min: 0 · 100 = ?",
+              "antwort": "0"
             },
             {
               "label": "3",
-              "frage": "5 min · Inas Weg =",
-              "antwort": "250 m"
+              "frage": "Ina nach 5 min: 5 · 50 = ?",
+              "antwort": "250"
             },
             {
               "label": "4",
-              "frage": "5 min · Tims Weg =",
-              "antwort": "100 m"
+              "frage": "Tim nach 5 min: 1 · 100 = ?",
+              "antwort": "100"
             },
             {
               "label": "5",
-              "frage": "Summe:",
-              "antwort": "."
+              "frage": "Ina nach 6 min: 6 · 50 = ?",
+              "antwort": "300"
+            },
+            {
+              "label": "6",
+              "frage": "Tim nach 6 min: 2 · 100 = ?",
+              "antwort": "200"
+            },
+            {
+              "label": "7",
+              "frage": "Ina nach 8 min: 8 · 50 = ?",
+              "antwort": "400"
+            },
+            {
+              "label": "8",
+              "frage": "Tim nach 8 min: 4 · 100 = ?",
+              "antwort": "400"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Um wie viel Uhr holt Tim seine Schwester ein?",
+              "antwort": "Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min)."
             }
           ]
         }
@@ -564,8 +624,8 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\n\n- Der Schnellzug fährt pro Stunde durchschnittlich 160 km.\n- Der Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
-    "loesung": "Die Züge sind nach 2,5 Stunden 625 km voneinander entfernt.",
+    "aufgabenstellung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\nDer Schnellzug fährt pro Stunde durchschnittlich 160 km.\nDer Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
+    "loesung": "1. Strecke Schnellzug: 160 · 2,5 = 400\n2. Strecke Regionalzug: 90 · 2,5 = 225\n3. Gesamtentfernung: 400 + 225 = 625",
     "loesungsweg": "Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden\n\nSchritt 2: Strecke Schnellzug: 160 · 2,5 = 400 km\nStrecke Regionalzug: 90 · 2,5 = 225 km\n\nSchritt 3: Gesamtentfernung: 400 + 225 = 625 km\n\n(Oder: Gemeinsame Geschwindigkeit: 160 + 90 = 250 km/h. Strecke: 250 · 2,5 = 625 km.)",
     "tipps": [
       "Zeichne einen Bahnhof in der Mitte. Ein Zug fährt nach links, einer nach rechts. Beide fahren gleichzeitig los. Die Entfernung ist die Summe beider Strecken!",
@@ -576,20 +636,25 @@
     "didaktischerHinweis": "Gegenbewegung mit Addition der Strecken. Die Skizze mit dem Bahnhof in der Mitte ist die Schlüssel-Lösungshilfe. Entspricht S. 115, Aufg. 7.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.",
+      "anweisung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\nDer Schnellzug fährt pro Stunde durchschnittlich 160 km.\nDer Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
       "teilaufgaben": [
         {
           "label": "1",
           "schritte": [
             {
               "label": "1",
-              "frage": "Der Schnellzug fährt pro Stunde durchschnittlich 160 km.",
-              "antwort": ""
+              "frage": "Strecke Schnellzug: 160 · 2,5 = ?",
+              "antwort": "400"
             },
             {
               "label": "2",
-              "frage": "Der Regionalzug fährt pro Stunde durchschnittlich 90 km.",
-              "antwort": ""
+              "frage": "Strecke Regionalzug: 90 · 2,5 = ?",
+              "antwort": "225"
+            },
+            {
+              "label": "3",
+              "frage": "Gesamtentfernung: 400 + 225 = ?",
+              "antwort": "625"
             }
           ]
         }
@@ -891,8 +956,8 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nFülle die Tabelle aus:\n\n| Woche | Gespart |\n|-------|---------|\n| 1 | ___ Euro |\n| 2 | ___ Euro |\n| 3 | ___ Euro |\n| 4 | ___ Euro |\n| 5 | ___ Euro |\n\nNach wie vielen Wochen kann Emma das Buch kaufen?",
-    "loesung": "5",
+    "aufgabenstellung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nWie viel hat Emma nach jeder Woche gespart? Nach wie vielen Wochen kann sie das Buch kaufen?",
+    "loesung": "1. Woche 1: 1 · 3 = 3\n2. Woche 2: 2 · 3 = 6\n3. Woche 3: 3 · 3 = 9\n4. Woche 4: 4 · 3 = 12\n5. Woche 5: 5 · 3 = 15",
     "loesungsweg": "| Woche | Gespart |\n|-------|---------|\n| 1 | 3 Euro |\n| 2 | 6 Euro |\n| 3 | 9 Euro |\n| 4 | 12 Euro |\n| 5 | 15 Euro |\n\nNach 5 Wochen hat Emma genau 15 Euro gespart. Rechnung: 15 : 3 = 5 Wochen.",
     "tipps": [
       "Jede Woche kommen 3 Euro dazu. Wie viel hat Emma nach 1 Woche? Nach 2 Wochen? Trage es in die Tabelle ein.",
@@ -903,35 +968,35 @@
     "didaktischerHinweis": "Die Tabelle macht den linearen Zusammenhang sichtbar und führt an systematisches Arbeiten heran. Einfache Wiederholung von Addition in Schritten.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nFülle die Tabelle aus:\n\n\nNach wie vielen Wochen kann Emma das Buch kaufen?",
+      "anweisung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nWie viel hat Emma nach jeder Woche gespart? Nach wie vielen Wochen kann sie das Buch kaufen?",
       "teilaufgaben": [
         {
           "label": "1",
           "schritte": [
             {
               "label": "1",
-              "frage": "1 · Gespart =",
-              "antwort": ""
+              "frage": "Woche 1: 1 · 3 = ?",
+              "antwort": "3"
             },
             {
               "label": "2",
-              "frage": "2 · Gespart =",
-              "antwort": ""
+              "frage": "Woche 2: 2 · 3 = ?",
+              "antwort": "6"
             },
             {
               "label": "3",
-              "frage": "3 · Gespart =",
-              "antwort": ""
+              "frage": "Woche 3: 3 · 3 = ?",
+              "antwort": "9"
             },
             {
               "label": "4",
-              "frage": "4 · Gespart =",
-              "antwort": ""
+              "frage": "Woche 4: 4 · 3 = ?",
+              "antwort": "12"
             },
             {
               "label": "5",
-              "frage": "Summe:",
-              "antwort": "5"
+              "frage": "Woche 5: 5 · 3 = ?",
+              "antwort": "15"
             }
           ]
         }
@@ -1112,8 +1177,8 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:\n\n- Schule → Waldrand: 800 m\n- Waldrand → Aussichtspunkt: 1.200 m\n- Aussichtspunkt → Spielplatz: 650 m\n- Spielplatz → See: 950 m\n- See → Schule: 1.400 m\n\nBerechne die Gesamtstrecke mit einer Rechenkette:\n0 → +800 → ___ → +1.200 → ___ → +650 → ___ → +950 → ___ → +1.400 → ___\n\nWie viele Kilometer ist die Wanderung insgesamt lang?",
-    "loesung": "5",
+    "aufgabenstellung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:\nSchule → Waldrand: 800 m,\nWaldrand → Aussichtspunkt: 1.200 m,\nAussichtspunkt → Spielplatz: 650 m,\nSpielplatz → See: 950 m,\nSee → Schule: 1.400 m.\n\nBerechne die Gesamtstrecke Schritt für Schritt. Wie viele Kilometer ist die Wanderung insgesamt lang?",
+    "loesung": "1. 0 + 800 = 800\n2. 800 + 1.200 = 2.000\n3. 2.000 + 650 = 2.650\n4. 2.650 + 950 = 3.600\n5. 3.600 + 1.400 = 5.000",
     "loesungsweg": "Rechenkette:\n0 → +800 → 800 → +1.200 → 2.000 → +650 → 2.650 → +950 → 3.600 → +1.400 → 5.000\n\n5.000 m = 5 km. Die Wanderung ist 5 km lang.",
     "tipps": [
       "Starte bei 0 und addiere jeden Abschnitt dazu. Was kommt nach 800 + 1.200?",
@@ -1124,35 +1189,35 @@
     "didaktischerHinweis": "Die Rechenkette strukturiert die schrittweise Addition und macht die Zwischenergebnisse sichtbar. Zusätzlich wird m-in-km-Umrechnung geübt.",
     "parsed": {
       "typ": "schritt",
-      "anweisung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:",
+      "anweisung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:\nSchule → Waldrand: 800 m,\nWaldrand → Aussichtspunkt: 1.200 m,\nAussichtspunkt → Spielplatz: 650 m,\nSpielplatz → See: 950 m,\nSee → Schule: 1.400 m.\n\nBerechne die Gesamtstrecke Schritt für Schritt. Wie viele Kilometer ist die Wanderung insgesamt lang?",
       "teilaufgaben": [
         {
           "label": "1",
           "schritte": [
             {
               "label": "1",
-              "frage": "Schule → Waldrand: 800 m",
-              "antwort": ""
+              "frage": "0 + 800 = ?",
+              "antwort": "800"
             },
             {
               "label": "2",
-              "frage": "Waldrand → Aussichtspunkt: 1.200 m",
-              "antwort": ""
+              "frage": "800 + 1.200 = ?",
+              "antwort": "2.000"
             },
             {
               "label": "3",
-              "frage": "Aussichtspunkt → Spielplatz: 650 m",
-              "antwort": ""
+              "frage": "2.000 + 650 = ?",
+              "antwort": "2.650"
             },
             {
               "label": "4",
-              "frage": "Spielplatz → See: 950 m",
-              "antwort": ""
+              "frage": "2.650 + 950 = ?",
+              "antwort": "3.600"
             },
             {
               "label": "5",
-              "frage": "See → Schule: 1.400 m",
-              "antwort": ""
+              "frage": "3.600 + 1.400 = ?",
+              "antwort": "5.000"
             }
           ]
         }

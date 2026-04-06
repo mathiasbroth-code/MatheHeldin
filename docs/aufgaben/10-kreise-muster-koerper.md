@@ -1070,7 +1070,7 @@ Würfel zählen in 3D-Ansichten ist die Grundlage für Schrägbilder. Entspricht
 
 ---
 titel: "Schrägbild und Bauplan — Würfelplättchen zählen"
-typ: textaufgabe
+typ: auswahl
 thema: "Schrägbilder legen und zeichnen"
 schwierigkeit: gelb
 buchseite: 110
