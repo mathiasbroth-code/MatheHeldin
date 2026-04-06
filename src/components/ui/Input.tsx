@@ -12,7 +12,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
 
     const sizes = {
       default: 'px-4 py-2.5 text-lg min-h-[44px]',
-      xl: 'px-4 py-3 text-4xl text-center tabular-nums min-h-[56px]',
+      xl: 'px-4 py-3 text-base text-center tabular-nums min-h-[52px]',
     };
 
     return (

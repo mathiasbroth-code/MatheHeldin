@@ -15,6 +15,8 @@ interface BaumDiagrammProps {
   revealLevel?: number;
   /** Kompakte Darstellung */
   compact?: boolean;
+  /** Callback wenn Kind die naechste Ebene aufdecken will */
+  onReveal?: (newLevel: number) => void;
 }
 
 interface TreeNode {
@@ -40,13 +42,21 @@ function buildTree(elemente: string[], path: string[] = []): TreeNode[] {
 const LEVEL_COLORS = ['#0d9488', '#f59e0b', '#8b5cf6', '#ec4899'];
 const LEVEL_BG = ['#ccfbf1', '#fef3c7', '#ede9fe', '#fce7f3'];
 
-export function BaumDiagramm({ elemente, revealLevel = 99, compact = false }: BaumDiagrammProps) {
+export function BaumDiagramm({ elemente, revealLevel = 99, compact = false, onReveal }: BaumDiagrammProps) {
   const tree = buildTree(elemente);
   const depth = elemente.length; // Tiefe des Baums
+  const effectiveLevel = Math.min(revealLevel, depth);
 
   if (elemente.length < 2 || elemente.length > 4) {
     return null; // Nur 2-4 Elemente unterstützt
   }
+
+  // Sichtbare Permutationen berechnen
+  const totalPerms = factorial(elemente.length);
+  const visiblePerms = effectiveLevel >= depth
+    ? totalPerms
+    : countVisiblePermutations(elemente.length, effectiveLevel);
+  const fullyRevealed = effectiveLevel >= depth;
 
   return (
     <div className="w-full overflow-x-auto py-2">
@@ -58,8 +68,8 @@ export function BaumDiagramm({ elemente, revealLevel = 99, compact = false }: Ba
               <span
                 className="inline-block px-2 py-0.5 rounded-full text-xs font-bold"
                 style={{
-                  backgroundColor: i < revealLevel ? LEVEL_BG[i % LEVEL_BG.length] : '#f3f4f6',
-                  color: i < revealLevel ? LEVEL_COLORS[i % LEVEL_COLORS.length] : '#9ca3af',
+                  backgroundColor: i < effectiveLevel ? LEVEL_BG[i % LEVEL_BG.length] : '#f3f4f6',
+                  color: i < effectiveLevel ? LEVEL_COLORS[i % LEVEL_COLORS.length] : '#9ca3af',
                 }}
               >
                 {i + 1}. Platz
@@ -72,10 +82,41 @@ export function BaumDiagramm({ elemente, revealLevel = 99, compact = false }: Ba
         </div>
 
         {/* Baumzeilen — jede Permutation ist eine Zeile */}
-        {renderBranches(tree, 0, revealLevel, depth, compact)}
+        {renderBranches(tree, 0, effectiveLevel, depth, compact)}
+
+        {/* Zaehler */}
+        <p className="text-xs text-muted text-center mt-2">
+          {fullyRevealed
+            ? `Alle ${totalPerms} Möglichkeiten`
+            : `${visiblePerms} von ${totalPerms} Möglichkeiten sichtbar`}
+        </p>
+
+        {/* Naechste-Ebene-Button */}
+        {onReveal && !fullyRevealed && (
+          <button
+            onClick={() => onReveal(effectiveLevel + 1)}
+            className="mt-2 w-full py-2.5 rounded-xl bg-primary/10 text-primary font-semibold text-sm min-h-[44px] cursor-pointer hover:bg-primary/20 transition-colors"
+          >
+            Nächste Ebene aufdecken →
+          </button>
+        )}
       </div>
     </div>
   );
+}
+
+function factorial(n: number): number {
+  let r = 1;
+  for (let i = 2; i <= n; i++) r *= i;
+  return r;
+}
+
+function countVisiblePermutations(n: number, levels: number): number {
+  // Bei L aufgedeckten Ebenen sieht man die Verzweigungen bis Ebene L
+  // Ebene 1: n Äste, Ebene 2: n*(n-1) Äste, etc.
+  let count = 1;
+  for (let i = 0; i < levels; i++) count *= (n - i);
+  return count;
 }
 
 function renderBranches(

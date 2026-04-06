@@ -27,11 +27,13 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
   const baumElemente = aufgabe.thema?.includes('Möglichkeiten') || aufgabe.aufgabenstellung?.includes('Reihenfolge')
     ? extractElemente(aufgabe.aufgabenstellung)
     : null;
+  const [baumReveal, setBaumReveal] = useState(1);
 
   useEffect(() => {
     setCurrentIdx(0);
     setInput('');
     setStatus('idle');
+    setBaumReveal(1);
   }, [aufgabe.titel]);
 
   useEffect(() => {
@@ -76,8 +78,9 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
         <Card>
           <BaumDiagramm
             elemente={baumElemente}
-            revealLevel={status === 'richtig' ? baumElemente.length : 1}
+            revealLevel={status === 'richtig' ? baumElemente.length : baumReveal}
             compact={baumElemente.length >= 4}
+            onReveal={status !== 'richtig' ? setBaumReveal : undefined}
           />
         </Card>
       )}
