@@ -1,7 +1,7 @@
-# Intensiv-Übungen: Kombinatorik, Wahrscheinlichkeit & Einheiten
-> ⚡ Extra-Aufgaben zum Pauken — aufbauend von leicht bis schwer
+# Zusätzliche Übungen: Kombinatorik, Wahrscheinlichkeit & Einheiten
+> ⚡ Extra-Aufgaben zum Pauken — nicht aus dem Fredo-Buch, sondern ergänzendes Übungsmaterial
 
-Ergänzt: [06-gewichte-laengen-skizzen.md](06-gewichte-laengen-skizzen.md) + [07-kombinatorik-wahrscheinlichkeit.md](07-kombinatorik-wahrscheinlichkeit.md) | Format: [FORMAT.md](FORMAT.md)
+Ergänzt: [06-gewichte-längen-skizzen.md](06-gewichte-längen-skizzen.md) + [07-kombinatorik-wahrscheinlichkeit.md](07-kombinatorik-wahrscheinlichkeit.md) | Format: [FORMAT.md](FORMAT.md)
 
 ---
 
@@ -15,9 +15,10 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -29,10 +30,10 @@ c) 0,8 km
 d) 12,25 km
 
 ### Lösung
-a) 3.000 m
-b) 7.500 m
-c) 800 m
-d) 12.250 m
+a) 3.000
+b) 7.500
+c) 800
+d) 12.250
 
 ### Lösungsweg
 1 km = 1.000 m. Man multipliziert die Kilometeranzahl mit 1.000:
@@ -51,7 +52,7 @@ Kilometer × 1.000 = Meter. Bei Kommazahlen: Das Komma wandert um 3 Stellen nach
 b) 7,5 km: Das sind 7 km + 0,5 km. 7 km = 7.000 m. 0,5 km = 500 m. Zusammen: 7.000 + 500 = ?
 
 ### Didaktischer Hinweis
-Grundlegende Umrechnungsaufgabe als Einstieg. Die Kommaverschiebung um 3 Stellen ist die Schluesselregel. Variante d) mit 12,25 km prueft, ob auch zwei Nachkommastellen korrekt behandelt werden.
+Grundlegende Umrechnungsaufgabe als Einstieg. Die Kommaverschiebung um 3 Stellen ist die Schlüsselregel. Variante d) mit 12,25 km prüft, ob auch zwei Nachkommastellen korrekt behandelt werden.
 
 ---
 
@@ -63,9 +64,10 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -77,10 +79,10 @@ c) 600 m
 d) 8.750 m
 
 ### Lösung
-a) 4 km
-b) 2,5 km
-c) 0,6 km
-d) 8,75 km
+a) 4
+b) 2,5
+c) 0,6
+d) 8,75
 
 ### Lösungsweg
 1.000 m = 1 km. Man teilt die Meterzahl durch 1.000:
@@ -96,10 +98,10 @@ Wie viele volle Kilometer stecken in der Meterzahl? 1.000 m = 1 km. Wie oft pass
 Meter ÷ 1.000 = Kilometer. Das Komma wandert um 3 Stellen nach links. Aus 2.500 wird 2,500 = 2,5.
 
 ### Tipp 3 (Schritt-für-Schritt)
-b) 2.500 m: 2.000 m = 2 km. Es bleiben 500 m uebrig. 500 m = 0,5 km. Also 2 + 0,5 = ?
+b) 2.500 m: 2.000 m = 2 km. Es bleiben 500 m übrig. 500 m = 0,5 km. Also 2 + 0,5 = ?
 
 ### Didaktischer Hinweis
-Rueckrichtung der Umrechnung (m nach km) erfordert Division. Das Setzen des Kommas an der richtigen Stelle ist die typische Fehlerquelle. Variante c) mit einem Ergebnis unter 1 km ist besonders lehrreich.
+Rückrichtung der Umrechnung (m nach km) erfordert Division. Das Setzen des Kommas an der richtigen Stelle ist die typische Fehlerquelle. Variante c) mit einem Ergebnis unter 1 km ist besonders lehrreich.
 
 ---
 
@@ -111,9 +113,10 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -125,10 +128,10 @@ c) 14 km 800 m
 d) 1 km 5 m
 
 ### Lösung
-a) 3,2 km
-b) 5,05 km
-c) 14,8 km
-d) 1,005 km
+a) 3,2
+b) 5,05
+c) 14,8
+d) 1,005
 
 ### Lösungsweg
 Die Kilometer bleiben vor dem Komma, die Meter werden in Kilometer umgewandelt:
@@ -143,32 +146,33 @@ Stell dir eine Stellenwerttafel vor: km | m(H) | m(Z) | m(E). Die Meter brauchen
 ### Tipp 2 (Methode)
 Zeichne eine Tabelle:
 | km | m (Hunderter) | m (Zehner) | m (Einer) |
-Die Meter kommen nach dem Komma. Leere Stellen werden mit 0 aufgefuellt.
+Die Meter kommen nach dem Komma. Leere Stellen werden mit 0 aufgefüllt.
 
 ### Tipp 3 (Schritt-für-Schritt)
 b) 5 km 50 m: 50 m = 050 m (mit drei Stellen). Also 5,050 km = 5,05 km.
 d) 1 km 5 m: 5 m = 005 m. Also 1,005 km. Achte auf die Nullen!
 
 ### Didaktischer Hinweis
-Analog zur Tonnen-Kilogramm-Umrechnung. Die fuehrenden Nullen (50 m = 0,050 km, 5 m = 0,005 km) sind die groesste Fehlerquelle. Die Stellenwerttafel macht das Muster sichtbar.
+Analog zur Tonnen-Kilogramm-Umrechnung. Die führenden Nullen (50 m = 0,050 km, 5 m = 0,005 km) sind die größte Fehlerquelle. Die Stellenwerttafel macht das Muster sichtbar.
 
 ---
 
 ## Aufgabe 4
 
 ---
-titel: "Welche Strecke ist laenger?"
+titel: "Welche Strecke ist länger?"
 typ: auswahl
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Welche Strecke ist laenger? Kreuze an.
+Welche Strecke ist länger? Kreuze an.
 
 a) 3,5 km oder 3.200 m?
 b) 800 m oder 0,9 km?
@@ -192,13 +196,13 @@ Alles in die gleiche Einheit umwandeln und vergleichen:
 Wenn zwei Strecken in unterschiedlichen Einheiten angegeben sind, wandle beide in die gleiche Einheit um. Dann kannst du die Zahlen direkt vergleichen.
 
 ### Tipp 2 (Methode)
-Wandle alles in Meter um (oder alles in km). Dann vergleiche die Zahlen: Die groessere Zahl ist die laengere Strecke.
+Wandle alles in Meter um (oder alles in km). Dann vergleiche die Zahlen: Die größere Zahl ist die längere Strecke.
 
 ### Tipp 3 (Schritt-für-Schritt)
-c) 1 km 400 m = 1.400 m. 1,04 km = 1.040 m. Was ist groesser: 1.400 oder 1.040?
+c) 1 km 400 m = 1.400 m. 1,04 km = 1.040 m. Was ist größer: 1.400 oder 1.040?
 
 ### Didaktischer Hinweis
-Vergleichsaufgaben trainieren das Einheitenverstaendnis. Besonders c) zeigt eine typische Verwechslung: 1 km 400 m ist NICHT 1,4 km sondern ... doch! Aber 1,04 km = 1 km 40 m. d) ist ein Aha-Erlebnis: Beide sind gleich!
+Vergleichsaufgaben trainieren das Einheitenverständnis. Besonders c) zeigt eine typische Verwechslung: 1 km 400 m ist NICHT 1,4 km sondern ... doch! Aber 1,04 km = 1 km 40 m. d) ist ein Aha-Erlebnis: Beide sind gleich!
 
 ---
 
@@ -210,13 +214,14 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Beim Wandertag laeuft die Klasse 3b folgende Strecken:
+Beim Wandertag läuft die Klasse 3b folgende Strecken:
 
 - Schule → Waldrand: 1,5 km
 - Waldrand → Aussichtsturm: 2,3 km
@@ -226,15 +231,15 @@ a) Wie lang ist der gesamte Wanderweg?
 b) Wie weit ist es von der Schule bis zum Aussichtsturm?
 
 ### Lösung
-a) 5,6 km
-b) 3,8 km
+a) 5,6
+b) 3,8
 
 ### Lösungsweg
 - a) 1,5 + 2,3 + 1,8 = 5,6 km
 - b) 1,5 + 2,3 = 3,8 km
 
 ### Tipp 1 (Denkanstoß)
-Stell dir den Weg wie eine Perlenkette vor: Jedes Stueck hat eine Laenge. Fuer den Gesamtweg zaehle alle Stuecke zusammen.
+Stell dir den Weg wie eine Perlenkette vor: Jedes Stück hat eine Länge. Für den Gesamtweg zähle alle Stücke zusammen.
 
 ### Tipp 2 (Methode)
 Addiere die Teilstrecken, die auf deinem Weg liegen. Bei a) alle drei, bei b) nur die ersten beiden.
@@ -243,34 +248,35 @@ Addiere die Teilstrecken, die auf deinem Weg liegen. Bei a) alle drei, bei b) nu
 a) Fang mit den ersten beiden an: 1,5 + 2,3. Rechne: 1 + 2 = 3, und 0,5 + 0,3 = 0,8. Also 3,8 km. Jetzt noch + 1,8 = ?
 
 ### Didaktischer Hinweis
-Einfache Addition von Dezimalzahlen im Kontext einer Wanderung. Teil b) prueft, ob das Kind erkennt, dass nicht immer alle Teilstrecken relevant sind. Kindgerechtes Szenario mit Wiedererkennungswert.
+Einfache Addition von Dezimalzahlen im Kontext einer Wanderung. Teil b) prüft, ob das Kind erkennt, dass nicht immer alle Teilstrecken relevant sind. Kindgerechtes Szenario mit Wiedererkennungswert.
 
 ---
 
 ## Aufgabe 6
 
 ---
-titel: "Schulweg hin und zurueck — eine Woche lang"
+titel: "Schulweg hin und zurück — eine Woche lang"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Philippas Schulweg ist 1,2 km lang. Sie laeuft jeden Tag hin und zurueck.
+Philippas Schulweg ist 1,2 km lang. Sie läuft jeden Tag hin und zurück.
 
-a) Wie viele Kilometer laeuft sie an einem Tag?
-b) Wie viele Kilometer laeuft sie in einer Schulwoche (5 Tage)?
+a) Wie viele Kilometer läuft sie an einem Tag?
+b) Wie viele Kilometer läuft sie in einer Schulwoche (5 Tage)?
 c) Wie viele Meter sind das in einer Woche?
 
 ### Lösung
-a) 2,4 km
-b) 12 km
-c) 12.000 m
+a) 2,4
+b) 12
+c) 12.000
 
 ### Lösungsweg
 - a) 1,2 × 2 = 2,4 km
@@ -278,7 +284,7 @@ c) 12.000 m
 - c) 12 km = 12.000 m
 
 ### Tipp 1 (Denkanstoß)
-Hin und zurueck = doppelt so weit! Wie viel ist 1,2 km × 2?
+Hin und zurück = doppelt so weit! Wie viel ist 1,2 km × 2?
 
 ### Tipp 2 (Methode)
 Schritt 1: Tagesstrecke = Hinweg × 2.
@@ -290,7 +296,7 @@ a) 1,2 × 2: Rechne 1 × 2 = 2 und 0,2 × 2 = 0,4. Zusammen: 2,4 km.
 b) 2,4 × 5: Rechne 2 × 5 = 10 und 0,4 × 5 = 2. Zusammen: 10 + 2 = ?
 
 ### Didaktischer Hinweis
-Alltagsbezug durch eigenen Schulweg. Die Aufgabe verbindet Verdoppelung, Multiplikation und Einheitenumrechnung in drei Schritten. Das Ergebnis (12 km pro Woche!) ueberrascht viele Kinder.
+Alltagsbezug durch eigenen Schulweg. Die Aufgabe verbindet Verdoppelung, Multiplikation und Einheitenumrechnung in drei Schritten. Das Ergebnis (12 km pro Woche!) überrascht viele Kinder.
 
 ---
 
@@ -302,13 +308,14 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Der Schulbus faehrt von der Schule ueber drei Haltestellen zum Freibad. Die Gesamtstrecke betraegt 18,5 km.
+Der Schulbus fährt von der Schule über drei Haltestellen zum Freibad. Die Gesamtstrecke beträgt 18,5 km.
 
 - Schule → Haltestelle 1: 4,3 km
 - Haltestelle 1 → Haltestelle 2: ? km
@@ -346,28 +353,29 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
 Familie Klein plant eine Radtour. Es gibt zwei Wege zum Badesee:
 
-**Weg A (ueber den Wald):**
+**Weg A (über den Wald):**
 Zuhause → Waldrand: 3,4 km → Lichtung: 2,8 km → Badesee: 4,1 km
 
-**Weg B (ueber das Dorf):**
-Zuhause → Baeckerei: 5,6 km → Dorfplatz: 1,9 km → Badesee: 3,7 km
+**Weg B (über das Dorf):**
+Zuhause → Bäckerei: 5,6 km → Dorfplatz: 1,9 km → Badesee: 3,7 km
 
 a) Wie lang ist Weg A?
 b) Wie lang ist Weg B?
-c) Welcher Weg ist kuerzer? Um wie viel?
+c) Welcher Weg ist kürzer? Um wie viel?
 
 ### Lösung
 a) 10,3 km
 b) 11,2 km
-c) Weg A ist kuerzer, um 0,9 km (= 900 m).
+c) Weg A ist kürzer, um 0,9 km (= 900 m).
 
 ### Lösungsweg
 - a) 3,4 + 2,8 + 4,1 = 10,3 km
@@ -375,32 +383,33 @@ c) Weg A ist kuerzer, um 0,9 km (= 900 m).
 - c) 11,2 − 10,3 = 0,9 km
 
 ### Tipp 1 (Denkanstoß)
-Berechne die Gesamtlaenge fuer jeden Weg getrennt. Dann vergleiche: Welche Summe ist kleiner?
+Berechne die Gesamtlänge für jeden Weg getrennt. Dann vergleiche: Welche Summe ist kleiner?
 
 ### Tipp 2 (Methode)
-Addiere fuer Weg A: 3,4 + 2,8 + 4,1. Addiere fuer Weg B: 5,6 + 1,9 + 3,7. Dann ziehe die kleinere Summe von der groesseren ab.
+Addiere für Weg A: 3,4 + 2,8 + 4,1. Addiere für Weg B: 5,6 + 1,9 + 3,7. Dann ziehe die kleinere Summe von der größeren ab.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Weg A: 3,4 + 2,8 = 6,2. Dann 6,2 + 4,1 = 10,3 km.
 Weg B: 5,6 + 1,9 = 7,5. Dann 7,5 + 3,7 = ?
-Welcher Weg ist kuerzer?
+Welcher Weg ist kürzer?
 
 ### Didaktischer Hinweis
-Vergleichende Aufgabe mit zwei Wegen. Kinder muessen zweimal addieren und dann die Differenz bilden. Das Ergebnis in Metern umzurechnen (0,9 km = 900 m) foerdert die Einheitenflexibilitaet.
+Vergleichende Aufgabe mit zwei Wegen. Kinder müssen zweimal addieren und dann die Differenz bilden. Das Ergebnis in Metern umzurechnen (0,9 km = 900 m) fördert die Einheitenflexibilität.
 
 ---
 
 ## Aufgabe 9
 
 ---
-titel: "Streckenplan lesen — Wer faehrt wie weit?"
+titel: "Streckenplan lesen — Wer fährt wie weit?"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -411,17 +420,17 @@ Auf einer Radstrecke stehen Kilometerschilder:
 | Start (Schule) | 0 km |
 | Brunnen | 2,8 km |
 | Bauernhof | 6,3 km |
-| Waldhuette | 9,1 km |
+| Waldhütte | 9,1 km |
 | See | 14,5 km |
 
 a) Wie weit ist es vom Brunnen zum Bauernhof?
 b) Wie weit ist es vom Bauernhof zum See?
-c) Wie weit ist es vom Brunnen zur Waldhuette?
+c) Wie weit ist es vom Brunnen zur Waldhütte?
 
 ### Lösung
-a) 3,5 km
-b) 8,2 km
-c) 6,3 km
+a) 3,5
+b) 8,2
+c) 6,3
 
 ### Lösungsweg
 Man zieht die Kilometerangaben voneinander ab:
@@ -433,13 +442,13 @@ Man zieht die Kilometerangaben voneinander ab:
 Stell dir einen Zahlenstrahl vor mit den Orten darauf. Die Entfernung zwischen zwei Orten ist der Unterschied ihrer Kilometerangaben.
 
 ### Tipp 2 (Methode)
-Entfernung = Groessere Kilometerangabe − Kleinere Kilometerangabe.
+Entfernung = Größere Kilometerangabe − Kleinere Kilometerangabe.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) Brunnen = 2,8 km, Bauernhof = 6,3 km. Abstand: 6,3 − 2,8 = ? Rechne: 6 − 2 = 4, und 0,3 − 0,8 geht nicht! Also: 5,3 + 1 − 0,8 = 5 + 0,5 = ... Oder: 6,3 − 3 = 3,3, dann + 0,2 = 3,5 km.
 
 ### Didaktischer Hinweis
-Streckenplaene lesen ist eine Alltagskompetenz. Kinder muessen verstehen, dass die Entfernung zwischen zwei Orten durch Subtraktion der Kilometerangaben berechnet wird — nicht durch Addition.
+Streckenpläne lesen ist eine Alltagskompetenz. Kinder müssen verstehen, dass die Entfernung zwischen zwei Orten durch Subtraktion der Kilometerangaben berechnet wird — nicht durch Addition.
 
 ---
 
@@ -451,27 +460,28 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
 Von Tims Haus zum Sportplatz sind es 2,5 km auf dem direkten Weg. Tim holt aber erst seinen Freund Lukas ab. Zu Lukas sind es 1,3 km, und von Lukas zum Sportplatz sind es 2,4 km.
 
-a) Wie lang ist Tims Weg ueber Lukas?
-b) Wie viel laenger ist der Umweg im Vergleich zum direkten Weg?
+a) Wie lang ist Tims Weg über Lukas?
+b) Wie viel länger ist der Umweg im Vergleich zum direkten Weg?
 
 ### Lösung
 a) 3,7 km
-b) 1,2 km laenger
+b) 1,2 km länger
 
 ### Lösungsweg
 - a) 1,3 + 2,4 = 3,7 km
 - b) 3,7 − 2,5 = 1,2 km
 
 ### Tipp 1 (Denkanstoß)
-Zeichne die drei Orte als Dreick: Tims Haus, Lukas, Sportplatz. Der direkte Weg ist eine gerade Linie. Der Umweg geht uebers Eck.
+Zeichne die drei Orte als Dreick: Tims Haus, Lukas, Sportplatz. Der direkte Weg ist eine gerade Linie. Der Umweg geht übers Eck.
 
 ### Tipp 2 (Methode)
 Umweg = Strecke 1 + Strecke 2. Dann: Unterschied = Umweg − direkter Weg.
@@ -481,7 +491,7 @@ a) 1,3 + 2,4 = ? Rechne: 1 + 2 = 3, und 0,3 + 0,4 = 0,7. Also 3,7 km.
 b) 3,7 − 2,5 = ? Das ist der Umweg.
 
 ### Didaktischer Hinweis
-Umwege berechnen verbindet Addition und Subtraktion. Die Dreiecks-Skizze hilft, die raeumliche Situation zu verstehen. Das Konzept "Umweg = laengerer Weg" ist fuer Kinder alltagsnah.
+Umwege berechnen verbindet Addition und Subtraktion. Die Dreiecks-Skizze hilft, die räumliche Situation zu verstehen. Das Konzept "Umweg = längerer Weg" ist für Kinder alltagsnah.
 
 ---
 
@@ -493,13 +503,14 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Ein Marathon ist 42 km lang. Die Laeuferin Mara hat folgende Zwischenzeiten:
+Ein Marathon ist 42 km lang. Die Läuferin Mara hat folgende Zwischenzeiten:
 
 - Nach 10 km: Verpflegungsstation 1
 - Nach 21 km: Halbmarathon-Marke
@@ -523,36 +534,37 @@ c) 12 km
 Stell dir den Marathon als einen langen Zahlenstrahl vor: 0 km → 10 km → 21 km → 30 km → 42 km. Die Abstände dazwischen sind die Teilstrecken.
 
 ### Tipp 2 (Methode)
-Entfernung zwischen zwei Punkten = Groessere Kilometerangabe − Kleinere Kilometerangabe. Berechne jeden Abschnitt einzeln.
+Entfernung zwischen zwei Punkten = Größere Kilometerangabe − Kleinere Kilometerangabe. Berechne jeden Abschnitt einzeln.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) Halbmarathon (21 km) − Station 1 (10 km) = 21 − 10 = 11 km.
 c) Ziel (42 km) − Station 2 (30 km) = 42 − 30 = ?
 
 ### Didaktischer Hinweis
-Ganzzahlige Subtraktionen im Kontext eines realen Sportevents. Der Marathon als motivierender Rahmen. Die Zahlenstrahl-Vorstellung wird gestärkt. Guter Uebergang von einfacher Subtraktion zu Dezimalzahlen in spaeteren Aufgaben.
+Ganzzahlige Subtraktionen im Kontext eines realen Sportevents. Der Marathon als motivierender Rahmen. Die Zahlenstrahl-Vorstellung wird gestärkt. Guter Übergang von einfacher Subtraktion zu Dezimalzahlen in späteren Aufgaben.
 
 ---
 
 ## Aufgabe 12
 
 ---
-titel: "Hin- und Rueckweg mit Umweg"
+titel: "Hin- und Rückweg mit Umweg"
 typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Pia radelt morgens zur Schule: 3,8 km. Auf dem Rueckweg holt sie ihre Schwester vom Kindergarten ab. Der Kindergarten liegt 1,5 km von der Schule entfernt, und von dort sind es noch 2,9 km nach Hause.
+Pia radelt morgens zur Schule: 3,8 km. Auf dem Rückweg holt sie ihre Schwester vom Kindergarten ab. Der Kindergarten liegt 1,5 km von der Schule entfernt, und von dort sind es noch 2,9 km nach Hause.
 
-a) Wie lang ist der Rueckweg ueber den Kindergarten?
-b) Wie viel laenger ist der Rueckweg als der Hinweg?
-c) Wie viele Kilometer faehrt Pia insgesamt an diesem Tag?
+a) Wie lang ist der Rückweg über den Kindergarten?
+b) Wie viel länger ist der Rückweg als der Hinweg?
+c) Wie viele Kilometer fährt Pia insgesamt an diesem Tag?
 
 ### Lösung
 a) 4,4 km
@@ -565,19 +577,19 @@ c) 8,2 km
 - c) 3,8 + 4,4 = 8,2 km
 
 ### Tipp 1 (Denkanstoß)
-Der Rueckweg ist nicht der gleiche Weg! Pia faehrt erst zum Kindergarten und dann nach Hause. Male die beiden Wege als Skizze.
+Der Rückweg ist nicht der gleiche Weg! Pia fährt erst zum Kindergarten und dann nach Hause. Male die beiden Wege als Skizze.
 
 ### Tipp 2 (Methode)
-Rueckweg: Schule → Kindergarten → Zuhause = 1,5 + 2,9.
+Rückweg: Schule → Kindergarten → Zuhause = 1,5 + 2,9.
 Dann: Unterschied zum Hinweg berechnen.
-Tagesstrecke: Hinweg + Rueckweg.
+Tagesstrecke: Hinweg + Rückweg.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 1,5 + 2,9 = ? Rechne: 1 + 2 = 3, und 0,5 + 0,9 = 1,4. Also 3 + 1,4 = 4,4 km.
 b) 4,4 − 3,8 = ? Das ist der Unterschied.
 
 ### Didaktischer Hinweis
-Mehrstufige Sachaufgabe: Hinweg und Rueckweg sind verschieden lang. Das Kind muss erkennen, dass der Rueckweg ueber den Kindergarten zwei Teilstrecken hat. Die Gesamttagesstrecke als Addition beider Wege ist ein weiterer Schritt.
+Mehrstufige Sachaufgabe: Hinweg und Rückweg sind verschieden lang. Das Kind muss erkennen, dass der Rückweg über den Kindergarten zwei Teilstrecken hat. Die Gesamttagesstrecke als Addition beider Wege ist ein weiterer Schritt.
 
 ---
 
@@ -589,9 +601,10 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -630,7 +643,7 @@ Etappe 4: 2 km 50 m. 50 m = 0,05 km. Also 2,05 km.
 Jetzt addiere: 4,3 + 6,75 + 3,9 + 2,05 = ?
 
 ### Didaktischer Hinweis
-Die gemischten Einheiten (km m, nur m, km mit Komma) erfordern sorgfaeltiges Umrechnen als Vorarbeit. Das glatte Ergebnis (17 km) ist eine schoene Kontrolle fuer die Kinder.
+Die gemischten Einheiten (km m, nur m, km mit Komma) erfordern sorgfältiges Umrechnen als Vorarbeit. Das glatte Ergebnis (17 km) ist eine schöne Kontrolle für die Kinder.
 
 ---
 
@@ -642,13 +655,14 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Beim Sportfest laeuft die Klasse 4a einen Staffellauf ueber 10 km. Jedes Kind laeuft eine Teilstrecke:
+Beim Sportfest läuft die Klasse 4a einen Staffellauf über 10 km. Jedes Kind läuft eine Teilstrecke:
 
 | Kind | Strecke |
 |------|---------|
@@ -658,8 +672,8 @@ Beim Sportfest laeuft die Klasse 4a einen Staffellauf ueber 10 km. Jedes Kind la
 | Noah | ? |
 
 a) Wie weit muss Noah laufen, damit die 10 km voll werden?
-b) Wer laeuft die laengste Strecke?
-c) Wie viele Meter laeuft Emma mehr als Lukas?
+b) Wer läuft die längste Strecke?
+c) Wie viele Meter läuft Emma mehr als Lukas?
 
 ### Lösung
 a) 3,4 km
@@ -684,21 +698,22 @@ a) 2,3 + 1,8 = 4,1. Dann 4,1 + 2,5 = 6,6 km. 10 − 6,6 = ?
 c) 2,3 − 1,8 = 0,5 km. Wie viele Meter sind 0,5 km?
 
 ### Didaktischer Hinweis
-Vierseitige Sachaufgabe mit Ergaenzung, Vergleich und Einheitenumrechnung. Das Staffellauf-Szenario ist motivierend und alltagsnah. Die Berechnung von Noahs Strecke erfordert Addition und Subtraktion.
+Vierseitige Sachaufgabe mit Ergänzung, Vergleich und Einheitenumrechnung. Das Staffellauf-Szenario ist motivierend und alltagsnah. Die Berechnung von Noahs Strecke erfordert Addition und Subtraktion.
 
 ---
 
 ## Aufgabe 15
 
 ---
-titel: "Wanderung ueber mehrere Tage — Diagramm lesen"
+titel: "Wanderung über mehrere Tage — Diagramm lesen"
 typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -729,10 +744,10 @@ d) 62.000 m
 - d) 62 × 1.000 = 62.000 m
 
 ### Tipp 1 (Denkanstoß)
-Lies die Tabelle sorgfaeltig. Fuer a) musst du alle Tagesstrecken zusammenzaehlen. Fuer b) musst du die kleinste Zahl finden.
+Lies die Tabelle sorgfältig. Für a) musst du alle Tagesstrecken zusammenzählen. Für b) musst du die kleinste Zahl finden.
 
 ### Tipp 2 (Methode)
-a) Addiere schrittweise: Erst die ersten beiden, dann die naechste dazu, dann die letzte.
+a) Addiere schrittweise: Erst die ersten beiden, dann die nächste dazu, dann die letzte.
 c) Subtrahiere: Dienstag − Mittwoch.
 
 ### Tipp 3 (Schritt-für-Schritt)
@@ -740,7 +755,7 @@ a) 14,5 + 18,3 = 32,8. Dann 32,8 + 12,7 = 45,5. Dann 45,5 + 16,5 = ?
 c) 18,3 − 12,7: Rechne 18 − 12 = 6, und 0,3 − 0,7 geht nicht! Also: 17,3 + 1 − 0,7 = ... Oder: 18,3 − 13 = 5,3, dann + 0,3 = 5,6.
 
 ### Didaktischer Hinweis
-Tabelle lesen und mehrere Fragen beantworten: Addition, Vergleich, Subtraktion und Umrechnung. Das glatte Ergebnis (62 km) erlaubt eine einfache Kontrolle. Die Subtraktion 18,3 − 12,7 mit Zehneruebergang ist anspruchsvoll.
+Tabelle lesen und mehrere Fragen beantworten: Addition, Vergleich, Subtraktion und Umrechnung. Das glatte Ergebnis (62 km) erlaubt eine einfache Kontrolle. Die Subtraktion 18,3 − 12,7 mit Zehnerübergang ist anspruchsvoll.
 
 ---
 
@@ -749,41 +764,42 @@ Tabelle lesen und mehrere Fragen beantworten: Addition, Vergleich, Subtraktion u
 ## Aufgabe 16
 
 ---
-titel: "Was bedeutet km/h? — Grundverstaendnis"
+titel: "Was bedeutet km/h? — Grundverständnis"
 typ: auswahl
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Ein Auto faehrt mit 60 km/h. Was bedeutet das?
+Ein Auto fährt mit 60 km/h. Was bedeutet das?
 
-a) Das Auto faehrt 60 Kilometer in einer Minute.
-b) Das Auto faehrt 60 Kilometer in einer Stunde.
-c) Das Auto faehrt 60 Meter in einer Stunde.
-d) Das Auto braucht 60 Stunden fuer einen Kilometer.
+a) Das Auto fährt 60 Kilometer in einer Minute.
+b) Das Auto fährt 60 Kilometer in einer Stunde.
+c) Das Auto fährt 60 Meter in einer Stunde.
+d) Das Auto braucht 60 Stunden für einen Kilometer.
 
 ### Lösung
-b) Das Auto faehrt 60 Kilometer in einer Stunde.
+b) Das Auto fährt 60 Kilometer in einer Stunde.
 
 ### Lösungsweg
-km/h bedeutet "Kilometer pro Stunde" (km = Kilometer, h = Stunde von "hora"). 60 km/h heisst: In einer Stunde legt das Auto 60 Kilometer zurueck.
+km/h bedeutet "Kilometer pro Stunde" (km = Kilometer, h = Stunde von "hora"). 60 km/h heißt: In einer Stunde legt das Auto 60 Kilometer zurück.
 
 ### Tipp 1 (Denkanstoß)
-Lies "km/h" Buchstabe fuer Buchstabe: km = Kilometer, / = pro (= in), h = Stunde. Was ergibt sich?
+Lies "km/h" Buchstabe für Buchstabe: km = Kilometer, / = pro (= in), h = Stunde. Was ergibt sich?
 
 ### Tipp 2 (Methode)
-Der Schraegstrich / bedeutet "pro" oder "in". Also: Kilometer pro Stunde = Wie viele Kilometer in einer Stunde.
+Der Schrägstrich / bedeutet "pro" oder "in". Also: Kilometer pro Stunde = Wie viele Kilometer in einer Stunde.
 
 ### Tipp 3 (Schritt-für-Schritt)
-60 km/h = 60 Kilometer pro Stunde. In 1 Stunde faehrt das Auto 60 Kilometer. Welche Antwort sagt genau das?
+60 km/h = 60 Kilometer pro Stunde. In 1 Stunde fährt das Auto 60 Kilometer. Welche Antwort sagt genau das?
 
 ### Didaktischer Hinweis
-Begriffsverstaendnis vor dem Rechnen: Kinder muessen km/h als "Kilometer pro Stunde" lesen koennen. Die falschen Antworten decken typische Verwechslungen auf (Minuten statt Stunden, Meter statt Kilometer).
+Begriffsverständnis vor dem Rechnen: Kinder müssen km/h als "Kilometer pro Stunde" lesen können. Die falschen Antworten decken typische Verwechslungen auf (Minuten statt Stunden, Meter statt Kilometer).
 
 ---
 
@@ -795,9 +811,10 @@ typ: zuordnung
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -808,33 +825,33 @@ Geschwindigkeiten: 5 km/h, 20 km/h, 50 km/h, 300 km/h
 Beschreibungen:
 - Auto in der Stadt
 - Schneller Radfahrer
-- Spaziergaenger
+- Spaziergänger
 - ICE-Zug
 
 ### Lösung
-- 5 km/h → Spaziergaenger
+- 5 km/h → Spaziergänger
 - 20 km/h → Schneller Radfahrer
 - 50 km/h → Auto in der Stadt
 - 300 km/h → ICE-Zug
 
 ### Lösungsweg
-Die Geschwindigkeiten nach Groesse sortieren und den Fortbewegungsarten zuordnen:
-- Am langsamsten ist der Spaziergaenger (5 km/h)
+Die Geschwindigkeiten nach Größe sortieren und den Fortbewegungsarten zuordnen:
+- Am langsamsten ist der Spaziergänger (5 km/h)
 - Ein Radfahrer ist schneller (20 km/h)
-- Ein Auto in der Stadt faehrt noch schneller (50 km/h)
+- Ein Auto in der Stadt fährt noch schneller (50 km/h)
 - Der ICE ist am schnellsten (300 km/h)
 
 ### Tipp 1 (Denkanstoß)
 Sortiere die Geschwindigkeiten von langsam nach schnell. Dann sortiere die Fortbewegungsarten genauso — und ordne zu!
 
 ### Tipp 2 (Methode)
-Ueberlege: Wie weit kommt man in einer Stunde? 5 km kann man zu Fuss schaffen. 300 km — das ist weiter als von Hamburg nach Berlin!
+Überlege: Wie weit kommt man in einer Stunde? 5 km kann man zu Fuss schaffen. 300 km — das ist weiter als von Hamburg nach Berlin!
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der Langsamste ist der Spaziergaenger. Welche Geschwindigkeit ist am kleinsten? 5 km/h! Also: Spaziergaenger = 5 km/h. Und der Schnellste? Der ICE → 300 km/h.
+Der Langsamste ist der Spaziergänger. Welche Geschwindigkeit ist am kleinsten? 5 km/h! Also: Spaziergänger = 5 km/h. Und der Schnellste? Der ICE → 300 km/h.
 
 ### Didaktischer Hinweis
-Groessenvorstellung aufbauen: Kinder sollen ein Gefuehl dafuer entwickeln, welche Geschwindigkeiten zu welchen Fortbewegungsarten gehoeren. Alltagsbezug staerkt das intuitive Verstaendnis.
+Größenvorstellung aufbauen: Kinder sollen ein Gefühl dafür entwickeln, welche Geschwindigkeiten zu welchen Fortbewegungsarten gehören. Alltagsbezug stärkt das intuitive Verständnis.
 
 ---
 
@@ -846,9 +863,10 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -860,10 +878,10 @@ c) Auto: 80 km/h
 d) Zug: 120 km/h
 
 ### Lösung
-a) 8 km
-b) 30 km
-c) 160 km
-d) 240 km
+a) 8
+b) 30
+c) 160
+d) 240
 
 ### Lösungsweg
 Strecke = Geschwindigkeit × Zeit:
@@ -895,13 +913,14 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Ein Radfahrer faehrt mit 16 km/h. Wie weit kommt er in ...
+Ein Radfahrer fährt mit 16 km/h. Wie weit kommt er in ...
 
 a) 1 Stunde?
 b) einer halben Stunde (30 min)?
@@ -909,10 +928,10 @@ c) einer Viertelstunde (15 min)?
 d) 3 Stunden?
 
 ### Lösung
-a) 16 km
-b) 8 km
-c) 4 km
-d) 48 km
+a) 16
+b) 8
+c) 4
+d) 48
 
 ### Lösungsweg
 - a) 16 km/h × 1 = 16 km
@@ -921,7 +940,7 @@ d) 48 km
 - d) 16 × 3 = 48 km
 
 ### Tipp 1 (Denkanstoß)
-In 1 Stunde: die volle Geschwindigkeit. In einer halben Stunde: die Haelfte. In einer Viertelstunde: ein Viertel.
+In 1 Stunde: die volle Geschwindigkeit. In einer halben Stunde: die Hälfte. In einer Viertelstunde: ein Viertel.
 
 ### Tipp 2 (Methode)
 Mache eine Tabelle:
@@ -932,7 +951,7 @@ Mache eine Tabelle:
 | 3 h | 16 × 3 | ? |
 
 ### Tipp 3 (Schritt-für-Schritt)
-b) Halbe Stunde = halbe Strecke. 16 ÷ 2 = ? Das ist wie 16 Gummibaerchen auf 2 Kinder verteilen.
+b) Halbe Stunde = halbe Strecke. 16 ÷ 2 = ? Das ist wie 16 Gummibärchen auf 2 Kinder verteilen.
 c) Viertelstunde = 16 ÷ 4 = ?
 
 ### Didaktischer Hinweis
@@ -948,21 +967,22 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
 Berechne die Geschwindigkeit in km/h.
 
-a) Ein Laeufer rennt 12 km in 2 Stunden. Wie schnell ist er?
-b) Ein Radfahrer faehrt 45 km in 3 Stunden. Wie schnell ist er?
+a) Ein Läufer rennt 12 km in 2 Stunden. Wie schnell ist er?
+b) Ein Radfahrer fährt 45 km in 3 Stunden. Wie schnell ist er?
 c) Wer ist schneller?
 
 ### Lösung
-a) 6 km/h
-b) 15 km/h
+a) 6
+b) 15
 c) Der Radfahrer ist schneller.
 
 ### Lösungsweg
@@ -978,7 +998,7 @@ km/h bedeutet "Kilometer pro Stunde". Wie viel Kilometer schafft jeder in EINER 
 Teile die Strecke durch die Zeit: Geschwindigkeit = Strecke ÷ Zeit.
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 12 km in 2 Stunden. In 1 Stunde die Haelfte: 12 ÷ 2 = ? km/h.
+a) 12 km in 2 Stunden. In 1 Stunde die Hälfte: 12 ÷ 2 = ? km/h.
 b) 45 km in 3 Stunden. In 1 Stunde ein Drittel: 45 ÷ 3 = ? km/h.
 
 ### Didaktischer Hinweis
@@ -994,9 +1014,10 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -1008,10 +1029,10 @@ c) 200 km mit 100 km/h
 d) 36 km mit 12 km/h
 
 ### Lösung
-a) 2 Stunden
-b) 3 Stunden
-c) 2 Stunden
-d) 3 Stunden
+a) 2
+b) 3
+c) 2
+d) 3
 
 ### Lösungsweg
 Zeit = Strecke ÷ Geschwindigkeit:
@@ -1021,13 +1042,13 @@ Zeit = Strecke ÷ Geschwindigkeit:
 - d) 36 ÷ 12 = 3 Stunden
 
 ### Tipp 1 (Denkanstoß)
-Ueberlege: Wie oft passt die Geschwindigkeit (km in 1 Stunde) in die Gesamtstrecke? So viele Stunden brauchst du!
+Überlege: Wie oft passt die Geschwindigkeit (km in 1 Stunde) in die Gesamtstrecke? So viele Stunden brauchst du!
 
 ### Tipp 2 (Methode)
 Teile die Strecke durch die Geschwindigkeit: Zeit = Strecke ÷ Geschwindigkeit.
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 50 km/h = 50 km in 1 Stunde. Fuer 100 km: 100 ÷ 50 = 2 Stunden.
+a) 50 km/h = 50 km in 1 Stunde. Für 100 km: 100 ÷ 50 = 2 Stunden.
 d) 12 km/h. Probiere: 1 h = 12 km, 2 h = 24 km, 3 h = ? km. Passt das?
 
 ### Didaktischer Hinweis
@@ -1043,31 +1064,32 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Drei Tiere machen ein Wettrennen ueber 30 Minuten:
+Drei Tiere machen ein Wettrennen über 30 Minuten:
 
 - Hase: 40 km/h
-- Schildkroete: 2 km/h
+- Schildkröte: 2 km/h
 - Katze: 20 km/h
 
 a) Wie weit kommt jedes Tier in 30 Minuten?
-b) Ordne die Tiere nach der zurueckgelegten Strecke (vom kuerzesten zum laengsten).
+b) Ordne die Tiere nach der zurückgelegten Strecke (vom kürzesten zum längsten).
 c) Wie viel weiter kommt der Hase als die Katze?
 
 ### Lösung
-a) Hase: 20 km, Schildkroete: 1 km, Katze: 10 km
-b) Schildkroete (1 km), Katze (10 km), Hase (20 km)
+a) Hase: 20 km, Schildkröte: 1 km, Katze: 10 km
+b) Schildkröte (1 km), Katze (10 km), Hase (20 km)
 c) 10 km
 
 ### Lösungsweg
 30 Minuten = halbe Stunde → Geschwindigkeit ÷ 2:
 - Hase: 40 ÷ 2 = 20 km
-- Schildkroete: 2 ÷ 2 = 1 km
+- Schildkröte: 2 ÷ 2 = 1 km
 - Katze: 20 ÷ 2 = 10 km
 - c) 20 − 10 = 10 km
 
@@ -1080,10 +1102,10 @@ Halbiere die Geschwindigkeit: Strecke in 30 min = Geschwindigkeit ÷ 2.
 ### Tipp 3 (Schritt-für-Schritt)
 Hase: 40 km/h. In 30 min: 40 ÷ 2 = 20 km.
 Katze: 20 km/h. In 30 min: 20 ÷ 2 = ?
-Schildkroete: 2 km/h. In 30 min: 2 ÷ 2 = ?
+Schildkröte: 2 km/h. In 30 min: 2 ÷ 2 = ?
 
 ### Didaktischer Hinweis
-Motivierender Tierkontext. Die Halbierung ist die Schluesselrechnung. Der Vergleich in b) und c) gibt dem Rechnen einen Sinn. Die extremen Unterschiede (1 km vs. 20 km) machen die Bedeutung von Geschwindigkeit greifbar.
+Motivierender Tierkontext. Die Halbierung ist die Schlüsselrechnung. Der Vergleich in b) und c) gibt dem Rechnen einen Sinn. Die extremen Unterschiede (1 km vs. 20 km) machen die Bedeutung von Geschwindigkeit greifbar.
 
 ---
 
@@ -1095,18 +1117,19 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Familie Mueller faehrt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:
+Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:
 
 | Abschnitt | Geschwindigkeit | Zeit |
 |-----------|----------------|------|
 | Durch die Stadt | 50 km/h | 30 min |
-| Ueber die Landstrasse | 80 km/h | 1 Stunde |
+| Über die Landstrasse | 80 km/h | 1 Stunde |
 | Auf der Autobahn | 120 km/h | 30 min |
 
 a) Wie viele Kilometer fahren sie in jedem Abschnitt?
@@ -1123,19 +1146,19 @@ b) 165 km
 - Gesamt: 25 + 80 + 60 = 165 km
 
 ### Tipp 1 (Denkanstoß)
-Berechne fuer jeden Abschnitt einzeln: Wie weit kommt man in der angegebenen Zeit mit der angegebenen Geschwindigkeit?
+Berechne für jeden Abschnitt einzeln: Wie weit kommt man in der angegebenen Zeit mit der angegebenen Geschwindigkeit?
 
 ### Tipp 2 (Methode)
 Strecke = Geschwindigkeit × Zeit. Bei 30 Minuten: Das ist eine halbe Stunde, also Geschwindigkeit ÷ 2.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Stadt: 50 km/h fuer 30 min = halbe Stunde. 50 ÷ 2 = 25 km.
-Landstrasse: 80 km/h fuer 1 Stunde = 80 km.
+Stadt: 50 km/h für 30 min = halbe Stunde. 50 ÷ 2 = 25 km.
+Landstrasse: 80 km/h für 1 Stunde = 80 km.
 Autobahn: 120 ÷ 2 = ? km.
 Gesamt: 25 + 80 + ? = ?
 
 ### Didaktischer Hinweis
-Alltagsnahe mehrstufige Aufgabe: verschiedene Geschwindigkeiten auf verschiedenen Strassentypen. Die Tabelle strukturiert die Informationen. Die Kombination aus ganzen und halben Stunden festigt das proportionale Denken.
+Alltagsnahe mehrstufige Aufgabe: verschiedene Geschwindigkeiten auf verschiedenen Straßentypen. Die Tabelle strukturiert die Informationen. Die Kombination aus ganzen und halben Stunden festigt das proportionale Denken.
 
 ---
 
@@ -1147,16 +1170,17 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
 Lisa und Tom starten gleichzeitig und wollen zum Badesee, der 12 km entfernt ist.
 
-- Lisa faehrt mit dem Fahrrad: 12 km/h
-- Tom laesst sich mit dem Auto fahren: 60 km/h, aber er muss erst 15 Minuten warten, bis das Auto losfaehrt.
+- Lisa fährt mit dem Fahrrad: 12 km/h
+- Tom lässt sich mit dem Auto fahren: 60 km/h, aber er muss erst 15 Minuten warten, bis das Auto losfährt.
 
 a) Wie lange braucht Lisa?
 b) Wie lange braucht Tom insgesamt (Wartezeit + Fahrzeit)?
@@ -1174,7 +1198,7 @@ c) Tom kommt zuerst an.
 - c) 27 min < 60 min → Tom ist schneller
 
 ### Tipp 1 (Denkanstoß)
-Berechne fuer beide die gesamte Zeit, bis sie ankommen. Vergiss Toms Wartezeit nicht!
+Berechne für beide die gesamte Zeit, bis sie ankommen. Vergiss Toms Wartezeit nicht!
 
 ### Tipp 2 (Methode)
 Lisa: Zeit = Strecke ÷ Geschwindigkeit.
@@ -1182,10 +1206,10 @@ Tom: Fahrzeit berechnen + 15 Minuten Wartezeit addieren.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Lisa: 12 km mit 12 km/h. 12 ÷ 12 = 1 Stunde = 60 Minuten.
-Tom: 12 km mit 60 km/h. In 60 min faehrt er 60 km. Fuer 12 km braucht er: 12 ÷ 60 der Stunde = ? Minuten. Tipp: 60 km in 60 min = 1 km pro Minute!
+Tom: 12 km mit 60 km/h. In 60 min fährt er 60 km. Für 12 km braucht er: 12 ÷ 60 der Stunde = ? Minuten. Tipp: 60 km in 60 min = 1 km pro Minute!
 
 ### Didaktischer Hinweis
-Vergleichsaufgabe mit einer Falle: Schnellere Geschwindigkeit heisst nicht automatisch, dass man zuerst ankommt — Wartezeiten muessen beruecksichtigt werden. Hier gewinnt Tom trotzdem. Die Umrechnung Stunden ↔ Minuten ist ein Zusatzlernziel.
+Vergleichsaufgabe mit einer Falle: Schnellere Geschwindigkeit heißt nicht automatisch, dass man zuerst ankommt — Wartezeiten müssen berücksichtigt werden. Hier gewinnt Tom trotzdem. Die Umrechnung Stunden ↔ Minuten ist ein Zusatzlernziel.
 
 ---
 
@@ -1197,17 +1221,18 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Ein Regionalzug faehrt mit 80 km/h. Die Strecke ist 160 km lang.
+Ein Regionalzug fährt mit 80 km/h. Die Strecke ist 160 km lang.
 
 a) Wie lange braucht der Zug ohne Halte?
-b) Der Zug haelt an 4 Bahnhoefen, jeder Halt dauert 5 Minuten. Wie lange dauert die gesamte Fahrt?
-c) Ein Schnellzug faehrt mit 160 km/h und haelt nicht. Wie lange braucht er?
+b) Der Zug hält an 4 Bahnhöfen, jeder Halt dauert 5 Minuten. Wie lange dauert die gesamte Fahrt?
+c) Ein Schnellzug fährt mit 160 km/h und hält nicht. Wie lange braucht er?
 
 ### Lösung
 a) 2 Stunden
@@ -1232,7 +1257,7 @@ b) 4 Halte × 5 Minuten = 20 Minuten extra. 2 Stunden + 20 Minuten = ?
 c) 160 ÷ 160 = ?
 
 ### Didaktischer Hinweis
-Erweiterung um Haltezeiten: Fahrzeit und Standzeit muessen getrennt berechnet und dann addiert werden. Teil c) zeigt: Der Schnellzug ist doppelt so schnell und braucht halb so lang — das doppelte Geschwindigkeit bedeutet halbe Zeit.
+Erweiterung um Haltezeiten: Fahrzeit und Standzeit müssen getrennt berechnet und dann addiert werden. Teil c) zeigt: Der Schnellzug ist doppelt so schnell und braucht halb so lang — das doppelte Geschwindigkeit bedeutet halbe Zeit.
 
 ---
 
@@ -1244,9 +1269,10 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -1276,11 +1302,11 @@ c) Wandle die Schnecke in km/h um: 50 m = 0,05 km.
 
 ### Tipp 3 (Schritt-für-Schritt)
 c) Schnecke: 50 m/h. Wie viele km sind 50 m? 50 ÷ 1.000 = 0,05 km/h.
-Gepard: 100 km/h. Verhaeltnis: 100 ÷ 0,05 = ?
+Gepard: 100 km/h. Verhältnis: 100 ÷ 0,05 = ?
 Tipp: 100 ÷ 0,05 = 100 × 20 = 2.000.
 
 ### Didaktischer Hinweis
-Extreme Vergleiche faszinieren Kinder. Die Einheitenumrechnung (m/h nach km/h) ist anspruchsvoll. Das riesige Verhaeltnis (2.000-mal!) macht die Unterschiede in der Tierwelt eindrucksvoll greifbar.
+Extreme Vergleiche faszinieren Kinder. Die Einheitenumrechnung (m/h nach km/h) ist anspruchsvoll. Das riesige Verhältnis (2.000-mal!) macht die Unterschiede in der Tierwelt eindrucksvoll greifbar.
 
 ---
 
@@ -1292,22 +1318,23 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Ein Zug faehrt um 9:00 Uhr los. Die Geschwindigkeit betraegt 120 km/h.
+Ein Zug fährt um 9:00 Uhr los. Die Geschwindigkeit beträgt 120 km/h.
 
 a) Wie weit ist der Zug um 9:30 Uhr gefahren?
 b) Wie weit ist der Zug um 10:00 Uhr gefahren?
-c) Um wie viel Uhr hat der Zug 180 km zurueckgelegt?
+c) Um wie viel Uhr hat der Zug 180 km zurückgelegt?
 d) Um wie viel Uhr kommt er in einer Stadt an, die 240 km entfernt ist?
 
 ### Lösung
-a) 60 km
-b) 120 km
+a) 60
+b) 120
 c) 10:30 Uhr
 d) 11:00 Uhr
 
@@ -1318,7 +1345,7 @@ d) 11:00 Uhr
 - d) 240 ÷ 120 = 2 h → 9:00 + 2:00 = 11:00 Uhr
 
 ### Tipp 1 (Denkanstoß)
-Berechne zuerst, wie lange der Zug fuer die Strecke braucht. Dann addiere die Fahrzeit zur Abfahrtszeit.
+Berechne zuerst, wie lange der Zug für die Strecke braucht. Dann addiere die Fahrzeit zur Abfahrtszeit.
 
 ### Tipp 2 (Methode)
 Fahrzeit = Strecke ÷ Geschwindigkeit. Ankunftszeit = Abfahrtszeit + Fahrzeit.
@@ -1334,18 +1361,19 @@ Verbindung von Geschwindigkeitsrechnung mit Uhrzeiten. Die Umrechnung von Dezima
 ## Aufgabe 28
 
 ---
-titel: "Wettlauf verschiedener Fahrzeuge — Tabelle ausfuellen"
+titel: "Wettlauf verschiedener Fahrzeuge — Tabelle ausfüllen"
 typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Fuelle die Tabelle aus. Berechne die fehlenden Werte.
+Fülle die Tabelle aus. Berechne die fehlenden Werte.
 
 | Fahrzeug | Strecke | Geschwindigkeit | Zeit |
 |----------|---------|----------------|------|
@@ -1369,7 +1397,7 @@ Fuelle die Tabelle aus. Berechne die fehlenden Werte.
 - Flugzeug: 1.600 ÷ 800 = 2 Stunden
 
 ### Tipp 1 (Denkanstoß)
-Es gibt drei Groessen: Strecke, Geschwindigkeit, Zeit. Wenn du zwei kennst, kannst du die dritte berechnen!
+Es gibt drei Größen: Strecke, Geschwindigkeit, Zeit. Wenn du zwei kennst, kannst du die dritte berechnen!
 
 ### Tipp 2 (Methode)
 - Strecke fehlt: Geschwindigkeit × Zeit
@@ -1377,7 +1405,7 @@ Es gibt drei Groessen: Strecke, Geschwindigkeit, Zeit. Wenn du zwei kennst, kann
 - Zeit fehlt: Strecke ÷ Geschwindigkeit
 
 ### Tipp 3 (Schritt-für-Schritt)
-Fahrrad: 15 km/h fuer 2 Stunden. 15 × 2 = ? km.
+Fahrrad: 15 km/h für 2 Stunden. 15 × 2 = ? km.
 Auto: 200 km in 4 Stunden. 200 ÷ 4 = ? km/h.
 Zug: 300 km mit 150 km/h. 300 ÷ 150 = ? Stunden.
 
@@ -1394,18 +1422,19 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Mara trainiert fuer einen Volkslauf ueber 10 km. Sie laeuft mit 8 km/h.
+Mara trainiert für einen Volkslauf über 10 km. Sie läuft mit 8 km/h.
 
-a) Wie lange braucht sie fuer die 10 km?
+a) Wie lange braucht sie für die 10 km?
 b) Der Lauf beginnt um 10:00 Uhr. Um wie viel Uhr kommt Mara ins Ziel?
-c) Ihr Bruder Tim laeuft mit 10 km/h. Um wie viel Uhr kommt er ins Ziel?
-d) Wie viele Minuten frueher als Mara kommt Tim an?
+c) Ihr Bruder Tim läuft mit 10 km/h. Um wie viel Uhr kommt er ins Ziel?
+d) Wie viele Minuten früher als Mara kommt Tim an?
 
 ### Lösung
 a) 1 Stunde 15 Minuten
@@ -1420,7 +1449,7 @@ d) 15 Minuten
 - d) 11:15 − 11:00 = 15 Minuten
 
 ### Tipp 1 (Denkanstoß)
-Wie lange braucht Mara fuer 10 km, wenn sie 8 km pro Stunde schafft? Und Tim, wenn er 10 km pro Stunde schafft?
+Wie lange braucht Mara für 10 km, wenn sie 8 km pro Stunde schafft? Und Tim, wenn er 10 km pro Stunde schafft?
 
 ### Tipp 2 (Methode)
 Zeit = Strecke ÷ Geschwindigkeit.
@@ -1431,7 +1460,7 @@ a) Mara: 10 ÷ 8 = 1,25 Stunden. 0,25 Stunden = eine Viertelstunde = 15 Minuten.
 c) Tim: 10 ÷ 10 = ? Stunden.
 
 ### Didaktischer Hinweis
-Die Division 10 ÷ 8 = 1,25 fuehrt zu einer nicht-ganzzahligen Stundenangabe. Die Umrechnung 0,25 h = 15 min ist der Schluesselschritt. Der Vergleich zwischen Mara und Tim gibt der Aufgabe einen spannenden Kontext.
+Die Division 10 ÷ 8 = 1,25 führt zu einer nicht-ganzzahligen Stundenangabe. Die Umrechnung 0,25 h = 15 min ist der Schlüsselschritt. Der Vergleich zwischen Mara und Tim gibt der Aufgabe einen spannenden Kontext.
 
 ---
 
@@ -1443,15 +1472,16 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen-intensiv"
+kapitel: "06-gewichte-längen-skizzen-intensiv"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Zwei Staedte sind 300 km voneinander entfernt. Um 8:00 Uhr faehrt ein Auto von Stadt A los (mit 80 km/h) und gleichzeitig ein Auto von Stadt B (mit 70 km/h). Die Autos fahren aufeinander zu.
+Zwei Städte sind 300 km voneinander entfernt. Um 8:00 Uhr fährt ein Auto von Stadt A los (mit 80 km/h) und gleichzeitig ein Auto von Stadt B (mit 70 km/h). Die Autos fahren aufeinander zu.
 
-a) Wie viele Kilometer legen beide Autos zusammen in einer Stunde zurueck?
+a) Wie viele Kilometer legen beide Autos zusammen in einer Stunde zurück?
 b) Nach wie vielen Stunden treffen sie sich?
 c) Um wie viel Uhr treffen sie sich?
 
@@ -1466,7 +1496,7 @@ c) 10:00 Uhr
 - c) 8:00 + 2:00 = 10:00 Uhr
 
 ### Tipp 1 (Denkanstoß)
-Wenn beide aufeinander zufahren, verringert sich der Abstand mit jedem Augenblick. Wie viele Kilometer kommen sie sich in einer Stunde naeher?
+Wenn beide aufeinander zufahren, verringert sich der Abstand mit jedem Augenblick. Wie viele Kilometer kommen sie sich in einer Stunde näher?
 
 ### Tipp 2 (Methode)
 Zeichne eine Skizze:
@@ -1480,7 +1510,7 @@ Zusammen: 80 + 70 = 150 km pro Stunde. Abstand: 300 km.
 300 ÷ 150 = ? Stunden. Dann: 8:00 Uhr + ? Stunden = Treffzeit.
 
 ### Didaktischer Hinweis
-Klassische Begegnungsaufgabe. Die Skizze mit Pfeilen hilft, die gegenlaeuifge Bewegung zu verstehen. Die Addition der Geschwindigkeiten ist der entscheidende Trick. Mit ganzzahligem Ergebnis (2 Stunden) ist die Aufgabe gut loesbar.
+Klassische Begegnungsaufgabe. Die Skizze mit Pfeilen hilft, die gegenläuifge Bewegung zu verstehen. Die Addition der Geschwindigkeiten ist der entscheidende Trick. Mit ganzzahligem Ergebnis (2 Stunden) ist die Aufgabe gut lösbar.
 
 ---
 
@@ -1497,10 +1527,11 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Philippa hat 3 T-Shirts (rot, blau, gruen) und 2 Hosen (Jeans, Jogginghose).
+Philippa hat 3 T-Shirts (rot, blau, grün) und 2 Hosen (Jeans, Jogginghose).
 
 Wie viele verschiedene Outfits kann sie zusammenstellen?
 
@@ -1508,10 +1539,10 @@ Wie viele verschiedene Outfits kann sie zusammenstellen?
 6 Outfits
 
 ### Lösungsweg
-Fuer jedes T-Shirt gibt es 2 Hosenwahlmöglichkeiten:
+Für jedes T-Shirt gibt es 2 Hosenwahlmöglichkeiten:
 - Rot + Jeans, Rot + Jogginghose
 - Blau + Jeans, Blau + Jogginghose
-- Gruen + Jeans, Gruen + Jogginghose
+- Grün + Jeans, Grün + Jogginghose
 
 3 T-Shirts × 2 Hosen = 6 Outfits
 
@@ -1528,23 +1559,23 @@ blau ——┬—— Jeans
 gruen ——┬—— Jeans
         └—— Jogginghose
 ```
-Zaehle die Enden!
+Zähle die Enden!
 
 ### Tipp 3 (Schritt-für-Schritt)
 Rotes T-Shirt: 2 Möglichkeiten (Jeans oder Jogginghose).
 Blaues T-Shirt: nochmal 2.
-Gruenes T-Shirt: nochmal 2.
+Grünes T-Shirt: nochmal 2.
 Zusammen: 2 + 2 + 2 = 6. Oder: 3 × 2 = ?
 
 ### Didaktischer Hinweis
-Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder koennen alle Möglichkeiten aufzaehlen und entdecken das Muster: Anzahl A × Anzahl B = Gesamtanzahl.
+Klassischer Einstieg in die Multiplikationsregel der Kombinatorik. Kinder können alle Möglichkeiten aufzählen und entdecken das Muster: Anzahl A × Anzahl B = Gesamtanzahl.
 
 ---
 
 ## Aufgabe 32
 
 ---
-titel: "Fruehstueck zusammenstellen"
+titel: "Frühstück zusammenstellen"
 typ: eingabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
@@ -1552,35 +1583,36 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Beim Fruehstueck gibt es:
-- **Getraenke:** Milch, Kakao, Saft
-- **Broetchen:** Laugenbroetchen, Vollkornbroetchen
+Beim Frühstück gibt es:
+- **Getränke:** Milch, Kakao, Saft
+- **Brötchen:** Laugenbrötchen, Vollkornbrötchen
 
-Philippa waehlt ein Getraenk und ein Broetchen. Wie viele verschiedene Fruehstuecks-Kombinationen gibt es?
+Philippa wählt ein Getränk und ein Brötchen. Wie viele verschiedene Frühstücks-Kombinationen gibt es?
 
 ### Lösung
-6 Kombinationen
+6
 
 ### Lösungsweg
-3 Getraenke × 2 Broetchen = 6 Kombinationen:
+3 Getränke × 2 Brötchen = 6 Kombinationen:
 - Milch + Laugen, Milch + Vollkorn
 - Kakao + Laugen, Kakao + Vollkorn
 - Saft + Laugen, Saft + Vollkorn
 
 ### Tipp 1 (Denkanstoß)
-Zu jedem Getraenk kannst du 2 Broetchen waehlen. Wie viele Getraenke gibt es? Wie viele Kombinationen also insgesamt?
+Zu jedem Getränk kannst du 2 Brötchen wählen. Wie viele Getränke gibt es? Wie viele Kombinationen also insgesamt?
 
 ### Tipp 2 (Methode)
 Mache eine Tabelle:
-| | Laugenbroetchen | Vollkornbroetchen |
+| | Laugenbrötchen | Vollkornbrötchen |
 |---|---|---|
 | Milch | ✓ | ✓ |
 | Kakao | ✓ | ✓ |
 | Saft | ✓ | ✓ |
-Zaehle die Kreuze!
+Zähle die Kreuze!
 
 ### Tipp 3 (Schritt-für-Schritt)
 Milch: 2 Möglichkeiten. Kakao: 2 Möglichkeiten. Saft: 2 Möglichkeiten. Zusammen: 3 × 2 = ?
@@ -1601,19 +1633,20 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Lena hat eine dreistellige Geheimzahl aus den Ziffern 1, 2 und 3 gewaehlt. Jede Ziffer kommt genau einmal vor.
+Lena hat eine dreistellige Geheimzahl aus den Ziffern 1, 2 und 3 gewählt. Jede Ziffer kommt genau einmal vor.
 
 a) Wie viele Möglichkeiten gibt es?
 b) Schreibe alle auf.
-c) Welche ist die kleinste, welche die groesste?
+c) Welche ist die kleinste, welche die größte?
 
 ### Lösung
-a) 6 Möglichkeiten
+a) 6
 b) 123, 132, 213, 231, 312, 321
-c) Kleinste: 123, Groesste: 321
+c) Kleinste: 123, Größte: 321
 
 ### Lösungsweg
 Baumdiagramm:
@@ -1633,10 +1666,10 @@ Baumdiagramm:
 3 × 2 × 1 = 6
 
 ### Tipp 1 (Denkanstoß)
-Welche Ziffer kann an der ersten Stelle stehen? Das sind 3 Möglichkeiten. Fuer jede: Wie viele bleiben fuer die zweite Stelle?
+Welche Ziffer kann an der ersten Stelle stehen? Das sind 3 Möglichkeiten. Für jede: Wie viele bleiben für die zweite Stelle?
 
 ### Tipp 2 (Methode)
-Zeichne ein Baumdiagramm mit 3 Aesten. Von jedem Ast gehen 2 Aeste ab. Am Ende steht die letzte Ziffer fest. Zaehle die Enden!
+Zeichne ein Baumdiagramm mit 3 Ästen. Von jedem Ast gehen 2 Äste ab. Am Ende steht die letzte Ziffer fest. Zähle die Enden!
 
 ### Tipp 3 (Schritt-für-Schritt)
 Wenn die 1 vorne steht, bleiben 2 und 3: 123, 132 → 2 Möglichkeiten.
@@ -1645,7 +1678,7 @@ Wenn die 3 vorne steht: ? und ? → nochmal 2.
 Gesamt: 3 × 2 = ?
 
 ### Didaktischer Hinweis
-Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahlen. Das Baumdiagramm mit einfachen Ziffern ist uebersichtlich. Kleinste/groesste Zahl trainiert zusaetzlich das Stellenwertverstaendnis.
+Permutation von 3 Elementen als Geheimzahl — motivierender als abstrakte Zahlen. Das Baumdiagramm mit einfachen Ziffern ist übersichtlich. Kleinste/größte Zahl trainiert zusätzlich das Stellenwertverständnis.
 
 ---
 
@@ -1660,10 +1693,11 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-In der Pizzeria gibt es 4 Belaege: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Belaege waehlen.
+In der Pizzeria gibt es 4 Beläge: Salami (S), Pilze (P), Schinken (Sc) und Mais (M). Du darfst genau 2 verschiedene Beläge wählen.
 
 Wie viele verschiedene Pizzen kannst du bestellen? Schreibe alle Möglichkeiten auf.
 
@@ -1679,7 +1713,7 @@ Systematisch alle Paare (Reihenfolge spielt keine Rolle):
 3 + 2 + 1 = 6
 
 ### Tipp 1 (Denkanstoß)
-Beginne mit Salami: Mit welchen anderen Belaegen kann Salami kombiniert werden? Das sind 3. Dann: Pilze mit den uebrigen Belaegen (ohne Salami, die ist schon gezaehlt) ...
+Beginne mit Salami: Mit welchen anderen Belägen kann Salami kombiniert werden? Das sind 3. Dann: Pilze mit den übrigen Belägen (ohne Salami, die ist schon gezählt) ...
 
 ### Tipp 2 (Methode)
 Mache eine Tabelle und trage alle Paare ein — aber jedes nur einmal!
@@ -1711,16 +1745,17 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Drei Kinder — Emma, Finn und Greta — sitzen auf der Rueckbank im Auto. Mama sitzt vorne und faehrt.
+Drei Kinder — Emma, Finn und Greta — sitzen auf der Rückbank im Auto. Mama sitzt vorne und fährt.
 
-a) Wie viele verschiedene Sitzreihenfolgen gibt es auf der Rueckbank?
+a) Wie viele verschiedene Sitzreihenfolgen gibt es auf der Rückbank?
 b) Schreibe alle auf.
 
 ### Lösung
-a) 6 Möglichkeiten
+a) 6
 
 b)
 1. Emma – Finn – Greta
@@ -1731,9 +1766,9 @@ b)
 6. Greta – Finn – Emma
 
 ### Lösungsweg
-Fuer den linken Platz: 3 Möglichkeiten.
-Fuer den mittleren Platz: 2 Möglichkeiten.
-Fuer den rechten Platz: 1 Möglichkeit.
+Für den linken Platz: 3 Möglichkeiten.
+Für den mittleren Platz: 2 Möglichkeiten.
+Für den rechten Platz: 1 Möglichkeit.
 3 × 2 × 1 = 6
 
 ### Tipp 1 (Denkanstoß)
@@ -1751,14 +1786,14 @@ Greta links: 2 Möglichkeiten.
 Gesamt: 3 × 2 = ?
 
 ### Didaktischer Hinweis
-Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das Muster. Die Autofahrt-Situation ist fuer viele Kinder unmittelbar nachvollziehbar.
+Gleiche Struktur (3! = 6), aber ein anderer Alltagskontext. Kinder festigen das Muster. Die Autofahrt-Situation ist für viele Kinder unmittelbar nachvollziehbar.
 
 ---
 
 ## Aufgabe 36
 
 ---
-titel: "Muenzen werfen — Kopf oder Zahl"
+titel: "Münzen werfen — Kopf oder Zahl"
 typ: eingabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: gelb
@@ -1766,16 +1801,17 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Du wirfst zwei Muenzen gleichzeitig. Jede Muenze zeigt Kopf (K) oder Zahl (Z).
+Du wirfst zwei Münzen gleichzeitig. Jede Münze zeigt Kopf (K) oder Zahl (Z).
 
 a) Wie viele verschiedene Ergebnisse gibt es?
 b) Schreibe alle Ergebnisse auf.
 
 ### Lösung
-a) 4 Ergebnisse
+a) 4
 
 b)
 1. K-K (beide Kopf)
@@ -1784,8 +1820,8 @@ b)
 4. Z-Z (beide Zahl)
 
 ### Lösungsweg
-Muenze 1: 2 Möglichkeiten (K oder Z).
-Muenze 2: 2 Möglichkeiten.
+Münze 1: 2 Möglichkeiten (K oder Z).
+Münze 2: 2 Möglichkeiten.
 Gesamt: 2 × 2 = 4
 
 Baumdiagramm:
@@ -1800,25 +1836,25 @@ Z ───┤
 ```
 
 ### Tipp 1 (Denkanstoß)
-Die erste Muenze kann Kopf oder Zahl zeigen. Fuer jede dieser Möglichkeiten: Was kann die zweite Muenze zeigen?
+Die erste Münze kann Kopf oder Zahl zeigen. Für jede dieser Möglichkeiten: Was kann die zweite Münze zeigen?
 
 ### Tipp 2 (Methode)
-Zeichne ein Baumdiagramm: 2 Aeste fuer Muenze 1, von jedem 2 Aeste fuer Muenze 2.
+Zeichne ein Baumdiagramm: 2 Äste für Münze 1, von jedem 2 Äste für Münze 2.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Muenze 1 zeigt Kopf: Muenze 2 kann K oder Z zeigen → K-K und K-Z.
-Muenze 1 zeigt Zahl: Muenze 2 kann K oder Z zeigen → Z-K und Z-Z.
+Münze 1 zeigt Kopf: Münze 2 kann K oder Z zeigen → K-K und K-Z.
+Münze 1 zeigt Zahl: Münze 2 kann K oder Z zeigen → Z-K und Z-Z.
 Zusammen: 2 + 2 = ?
 
 ### Didaktischer Hinweis
-Einfaches Beispiel fuer die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm ist uebersichtlich. Vorbereitung auf Wahrscheinlichkeitsaufgaben: "Wie wahrscheinlich ist K-K?"
+Einfaches Beispiel für die Multiplikationsregel (2 × 2 = 4). Das Baumdiagramm ist übersichtlich. Vorbereitung auf Wahrscheinlichkeitsaufgaben: "Wie wahrscheinlich ist K-K?"
 
 ---
 
 ## Aufgabe 37
 
 ---
-titel: "Farbkombinationen — 3 Farben auf 2 Plaetze"
+titel: "Farbkombinationen — 3 Farben auf 2 Plätze"
 typ: eingabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
@@ -1826,6 +1862,7 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -1840,14 +1877,14 @@ a) 6 Muster
 b) Rot-Blau, Rot-Gelb, Blau-Rot, Blau-Gelb, Gelb-Rot, Gelb-Blau
 
 ### Lösungsweg
-Fuer das linke Feld: 3 Farbmöglichkeiten.
-Fuer das rechte Feld: 2 Farbmöglichkeiten (die verwendete Farbe faellt weg).
+Für das linke Feld: 3 Farbmöglichkeiten.
+Für das rechte Feld: 2 Farbmöglichkeiten (die verwendete Farbe fällt weg).
 3 × 2 = 6
 
-Achtung: Rot-Blau ist NICHT dasselbe wie Blau-Rot (die Reihenfolge zaehlt!).
+Achtung: Rot-Blau ist NICHT dasselbe wie Blau-Rot (die Reihenfolge zählt!).
 
 ### Tipp 1 (Denkanstoß)
-Welche Farbe kommt links? 3 Möglichkeiten. Wenn Rot links ist, welche Farben bleiben fuer rechts?
+Welche Farbe kommt links? 3 Möglichkeiten. Wenn Rot links ist, welche Farben bleiben für rechts?
 
 ### Tipp 2 (Methode)
 Baumdiagramm:
@@ -1865,7 +1902,7 @@ Rot links → 2 Muster. Blau links → 2 Muster. Gelb links → 2 Muster.
 3 × 2 = ?
 
 ### Didaktischer Hinweis
-Hier zaehlt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. Kinder erkennen den Unterschied: Rot-Blau sieht ANDERS aus als Blau-Rot.
+Hier zählt die Reihenfolge (Variation), im Gegensatz zu Pizzabelag oder Fotos. Kinder erkennen den Unterschied: Rot-Blau sieht ANDERS aus als Blau-Rot.
 
 ---
 
@@ -1880,28 +1917,29 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Beim Voelkerball-Turnier gibt es 5 Mannschaften: A, B, C, D, E. Jede spielt einmal gegen jede andere.
+Beim Völkerball-Turnier gibt es 5 Mannschaften: A, B, C, D, E. Jede spielt einmal gegen jede andere.
 
 a) Wie viele Spiele gibt es insgesamt?
 b) Schreibe alle Spiele auf.
 
 ### Lösung
-a) 10 Spiele
+a) 10
 
 b) A-B, A-C, A-D, A-E, B-C, B-D, B-E, C-D, C-E, D-E
 
 ### Lösungsweg
 Team A: 4 Spiele (gegen B, C, D, E)
-Team B: 3 neue Spiele (gegen C, D, E — gegen A schon gezaehlt)
+Team B: 3 neue Spiele (gegen C, D, E — gegen A schon gezählt)
 Team C: 2 neue Spiele (gegen D, E)
 Team D: 1 neues Spiel (gegen E)
 4 + 3 + 2 + 1 = 10
 
 ### Tipp 1 (Denkanstoß)
-Geh der Reihe nach: Gegen wen spielt Team A? Dann: Gegen wen spielt Team B noch (ohne die Spiele, die schon gezaehlt wurden)?
+Geh der Reihe nach: Gegen wen spielt Team A? Dann: Gegen wen spielt Team B noch (ohne die Spiele, die schon gezählt wurden)?
 
 ### Tipp 2 (Methode)
 Mache eine Dreiecks-Tabelle:
@@ -1917,7 +1955,7 @@ A hat 4 Gegner: 4 Spiele. B hat noch 3 neue Gegner: 3 Spiele. C hat noch 2: 2 Sp
 4 + 3 + 2 + 1 = ?
 
 ### Didaktischer Hinweis
-Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+3+2+1=10 ist die naechste Stufe. Kinder koennen das Muster erkennen: Bei 3 Teams: 3, bei 4 Teams: 6, bei 5 Teams: 10.
+Erweiterung auf 5 Teams (von 3 und 4 in den bestehenden Aufgaben). Das Muster 4+3+2+1=10 ist die nächste Stufe. Kinder können das Muster erkennen: Bei 3 Teams: 3, bei 4 Teams: 6, bei 5 Teams: 10.
 
 ---
 
@@ -1932,6 +1970,7 @@ buchseite: 72
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -1940,11 +1979,11 @@ In der Eisdiele gibt es 4 Sorten: Vanille (V), Schoko (S), Erdbeere (E) und Zitr
 Wie viele verschiedene Eisbecher gibt es?
 
 ### Lösung
-4 verschiedene Eisbecher:
+4
 V+S+E, V+S+Z, V+E+Z, S+E+Z
 
 ### Lösungsweg
-Man waehlt 3 aus 4 Sorten. Es gibt genau eine Sorte, die NICHT im Becher ist:
+Man wählt 3 aus 4 Sorten. Es gibt genau eine Sorte, die NICHT im Becher ist:
 - Ohne Zitrone: V+S+E
 - Ohne Erdbeere: V+S+Z
 - Ohne Schoko: V+E+Z
@@ -1953,10 +1992,10 @@ Man waehlt 3 aus 4 Sorten. Es gibt genau eine Sorte, die NICHT im Becher ist:
 Also 4 Möglichkeiten (eine pro weggelassener Sorte).
 
 ### Tipp 1 (Denkanstoß)
-Statt zu ueberlegen, welche 3 Sorten du nimmst, kannst du auch fragen: Welche 1 Sorte laesst du WEG? Wie viele Möglichkeiten gibt es dafuer?
+Statt zu überlegen, welche 3 Sorten du nimmst, kannst du auch fragen: Welche 1 Sorte lässt du WEG? Wie viele Möglichkeiten gibt es dafür?
 
 ### Tipp 2 (Methode)
-3 aus 4 waehlen = 1 weglassen. Es gibt 4 Sorten, die du weglassen koenntest. Also gibt es 4 Eisbecher!
+3 aus 4 wählen = 1 weglassen. Es gibt 4 Sorten, die du weglassen könntest. Also gibt es 4 Eisbecher!
 
 ### Tipp 3 (Schritt-für-Schritt)
 Wenn du Vanille weglässt: S+E+Z.
@@ -1966,14 +2005,14 @@ Wenn du Zitrone weglässt: V+S+E.
 Das sind ? verschiedene Becher.
 
 ### Didaktischer Hinweis
-Der Trick "3 aus 4 waehlen = 1 weglassen" ist ein eleganter Perspektivwechsel. Kinder, die das entdecken, haben einen wichtigen kombinatorischen Denkschritt gemacht. Die Aufgabe zeigt: Manchmal ist Weglassen einfacher als Auswaehlen.
+Der Trick "3 aus 4 wählen = 1 weglassen" ist ein eleganter Perspektivwechsel. Kinder, die das entdecken, haben einen wichtigen kombinatorischen Denkschritt gemacht. Die Aufgabe zeigt: Manchmal ist Weglassen einfacher als Auswählen.
 
 ---
 
 ## Aufgabe 40
 
 ---
-titel: "Flaggen malen — Reihenfolge zaehlt"
+titel: "Flaggen malen — Reihenfolge zählt"
 typ: eingabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: grün
@@ -1981,14 +2020,15 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Du malst eine Flagge mit 3 waagerechten Streifen. Du hast die Farben Rot, Weiss, Blau und Schwarz. Jeder Streifen bekommt eine andere Farbe.
+Du malst eine Flagge mit 3 waagerechten Streifen. Du hast die Farben Rot, Weiß, Blau und Schwarz. Jeder Streifen bekommt eine andere Farbe.
 
-a) Wie viele Möglichkeiten gibt es fuer den oberen Streifen?
-b) Wie viele Möglichkeiten bleiben fuer den mittleren Streifen?
-c) Wie viele fuer den unteren?
+a) Wie viele Möglichkeiten gibt es für den oberen Streifen?
+b) Wie viele Möglichkeiten bleiben für den mittleren Streifen?
+c) Wie viele für den unteren?
 d) Wie viele verschiedene Flaggen gibt es insgesamt?
 
 ### Lösung
@@ -1998,10 +2038,10 @@ c) 2
 d) 24
 
 ### Lösungsweg
-4 Farben fuer Platz 1 × 3 fuer Platz 2 × 2 fuer Platz 3 = 4 × 3 × 2 = 24 Flaggen
+4 Farben für Platz 1 × 3 für Platz 2 × 2 für Platz 3 = 4 × 3 × 2 = 24 Flaggen
 
 ### Tipp 1 (Denkanstoß)
-Der obere Streifen kann jede der 4 Farben haben. Sobald du eine gewaehlt hast, bleiben nur noch 3 fuer den mittleren. Und dann?
+Der obere Streifen kann jede der 4 Farben haben. Sobald du eine gewählt hast, bleiben nur noch 3 für den mittleren. Und dann?
 
 ### Tipp 2 (Methode)
 Multipliziere die Möglichkeiten pro Platz:
@@ -2009,11 +2049,11 @@ Platz 1: 4 | Platz 2: 3 | Platz 3: 2
 4 × 3 × 2 = ?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Wenn der obere Streifen rot ist, gibt es fuer den mittleren 3 Farben. Fuer jede davon 2 fuer den unteren: 3 × 2 = 6 Flaggen mit rotem Oberstreifen.
-Das gilt fuer jede der 4 Farben oben: 4 × 6 = ?
+Wenn der obere Streifen rot ist, gibt es für den mittleren 3 Farben. Für jede davon 2 für den unteren: 3 × 2 = 6 Flaggen mit rotem Oberstreifen.
+Das gilt für jede der 4 Farben oben: 4 × 6 = ?
 
 ### Didaktischer Hinweis
-Variation von 4 Elementen auf 3 Plaetze (4 × 3 × 2 = 24). Das Baumdiagramm waere mit 24 Enden zu gross — die Multiplikationsregel ist hier noetig. Kinder lernen den Uebergang vom Zaehlen zum Rechnen.
+Variation von 4 Elementen auf 3 Plätze (4 × 3 × 2 = 24). Das Baumdiagramm wäre mit 24 Enden zu groß — die Multiplikationsregel ist hier nötig. Kinder lernen den Übergang vom Zählen zum Rechnen.
 
 ---
 
@@ -2028,10 +2068,11 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Finn hat einen 4-stelligen Code fuer sein Fahrradschloss. Er weiss noch:
+Finn hat einen 4-stelligen Code für sein Fahrradschloss. Er weiß noch:
 - Die erste Ziffer ist 3.
 - Die letzte Ziffer ist 7.
 - Die beiden mittleren Ziffern sind 5 und 9 (in unbekannter Reihenfolge).
@@ -2042,17 +2083,17 @@ Wie viele Codes muss Finn ausprobieren?
 2 Codes: 3597 und 3957
 
 ### Lösungsweg
-Die erste Ziffer (3) und die letzte (7) sind fest. Fuer die mittleren Stellen gibt es nur zwei Reihenfolgen:
+Die erste Ziffer (3) und die letzte (7) sind fest. Für die mittleren Stellen gibt es nur zwei Reihenfolgen:
 - 3-5-9-7 = 3597
 - 3-9-5-7 = 3957
 
 Also 2 Möglichkeiten.
 
 ### Tipp 1 (Denkanstoß)
-Die 3 ist fix vorne, die 7 ist fix hinten. Nur die mittleren beiden Stellen sind unklar. Wie viele Anordnungen gibt es fuer 2 Ziffern?
+Die 3 ist fix vorne, die 7 ist fix hinten. Nur die mittleren beiden Stellen sind unklar. Wie viele Anordnungen gibt es für 2 Ziffern?
 
 ### Tipp 2 (Methode)
-Zwei Ziffern (5, 9) auf zwei Plaetzen: 2 × 1 = 2 Möglichkeiten.
+Zwei Ziffern (5, 9) auf zwei Plätzen: 2 × 1 = 2 Möglichkeiten.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Code: 3 _ _ 7. An der zweiten Stelle kann die 5 oder die 9 stehen.
@@ -2061,7 +2102,7 @@ Wenn 9 an Stelle 2: 3-9-5-7.
 Wie viele sind das?
 
 ### Didaktischer Hinweis
-Fixierte Stellen reduzieren die Anzahl drastisch: Von potentiell vielen auf nur 2. Kinder lernen: Je mehr man weiss, desto weniger Möglichkeiten bleiben. Alltagsbezug (Fahrradschloss) motiviert.
+Fixierte Stellen reduzieren die Anzahl drastisch: Von potentiell vielen auf nur 2. Kinder lernen: Je mehr man weiß, desto weniger Möglichkeiten bleiben. Alltagsbezug (Fahrradschloss) motiviert.
 
 ---
 
@@ -2076,30 +2117,31 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
 6 Kinder treffen sich auf dem Spielplatz. Jedes Kind gibt jedem anderen genau einmal die Hand.
 
-a) Wie viele Handschlaege gibt es insgesamt?
-b) Wie viele Handschlaege gibt jedes einzelne Kind?
+a) Wie viele Handschläge gibt es insgesamt?
+b) Wie viele Handschläge gibt jedes einzelne Kind?
 
 ### Lösung
-a) 15 Handschlaege
-b) 5 Handschlaege pro Kind
+a) 15 Handschläge
+b) 5 Handschläge pro Kind
 
 ### Lösungsweg
-a) Kind 1: 5 Handschlaege (mit 2, 3, 4, 5, 6)
-Kind 2: 4 neue (mit 3, 4, 5, 6 — mit 1 schon gezaehlt)
+a) Kind 1: 5 Handschläge (mit 2, 3, 4, 5, 6)
+Kind 2: 4 neue (mit 3, 4, 5, 6 — mit 1 schon gezählt)
 Kind 3: 3 neue (mit 4, 5, 6)
 Kind 4: 2 neue (mit 5, 6)
 Kind 5: 1 neuer (mit 6)
 5 + 4 + 3 + 2 + 1 = 15
 
-b) Jedes Kind gibt 5 anderen die Hand → 5 Handschlaege.
+b) Jedes Kind gibt 5 anderen die Hand → 5 Handschläge.
 
 ### Tipp 1 (Denkanstoß)
-Geh der Reihe nach: Kind 1 gibt 5 anderen die Hand. Kind 2 gibt noch 4 neuen Kindern die Hand (Kind 1 schon gezaehlt). Und so weiter ...
+Geh der Reihe nach: Kind 1 gibt 5 anderen die Hand. Kind 2 gibt noch 4 neuen Kindern die Hand (Kind 1 schon gezählt). Und so weiter ...
 
 ### Tipp 2 (Methode)
 Das ist wie beim Fussballturnier: Jeder gegen jeden, aber jedes Paar nur einmal! 5 + 4 + 3 + 2 + 1 = ?
@@ -2123,10 +2165,11 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Philippa stellt 4 Tierfiguren in einer Reihe auf: Katze (K), Hund (H), Pferd (P) und Frosch (F). Aber: Die Katze und der Hund muessen immer nebeneinander stehen!
+Philippa stellt 4 Tierfiguren in einer Reihe auf: Katze (K), Hund (H), Pferd (P) und Frosch (F). Aber: Die Katze und der Hund müssen immer nebeneinander stehen!
 
 Wie viele verschiedene Reihenfolgen gibt es?
 
@@ -2134,20 +2177,20 @@ Wie viele verschiedene Reihenfolgen gibt es?
 12 Reihenfolgen
 
 ### Lösungsweg
-Katze und Hund als Paerchen behandeln → 3 "Elemente": (KH), P, F.
+Katze und Hund als Pärchen behandeln → 3 "Elemente": (KH), P, F.
 Diese 3 Elemente: 3 × 2 × 1 = 6 Reihenfolgen.
-Aber: Das Paerchen kann auch umgekehrt sein: (HK) statt (KH).
+Aber: Das Pärchen kann auch umgekehrt sein: (HK) statt (KH).
 Also: 6 × 2 = 12
 
 Beispiele: KH-P-F, KH-F-P, P-KH-F, P-F-KH, F-KH-P, F-P-KH,
 HK-P-F, HK-F-P, P-HK-F, P-F-HK, F-HK-P, F-P-HK
 
 ### Tipp 1 (Denkanstoß)
-Klebe Katze und Hund gedanklich zusammen! Dann hast du nur noch 3 Sachen zum Aufstellen. Wie viele Reihenfolgen gibt es fuer 3 Sachen?
+Klebe Katze und Hund gedanklich zusammen! Dann hast du nur noch 3 Sachen zum Aufstellen. Wie viele Reihenfolgen gibt es für 3 Sachen?
 
 ### Tipp 2 (Methode)
-Schritt 1: Katze+Hund als ein Block → 3 Bloecke anordnen: 3! = 6.
-Schritt 2: Im Block koennen K und H tauschen: × 2.
+Schritt 1: Katze+Hund als ein Block → 3 Blöcke anordnen: 3! = 6.
+Schritt 2: Im Block können K und H tauschen: × 2.
 Gesamt: 6 × 2 = ?
 
 ### Tipp 3 (Schritt-für-Schritt)
@@ -2156,7 +2199,7 @@ Hund links im Paar (HK): nochmal 6 Reihenfolgen.
 Gesamt: 6 + 6 = ?
 
 ### Didaktischer Hinweis
-Permutation mit Nebenbedingung: das "Zusammenkleben" als Loesungsstrategie. Anspruchsvolle Aufgabe, die systematisches Denken erfordert. Der Trick "Paerchen bilden" ist eine wichtige kombinatorische Technik.
+Permutation mit Nebenbedingung: das "Zusammenkleben" als Lösungsstrategie. Anspruchsvolle Aufgabe, die systematisches Denken erfordert. Der Trick "Pärchen bilden" ist eine wichtige kombinatorische Technik.
 
 ---
 
@@ -2171,10 +2214,11 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Auf einem 2×2-Raster moechtest du von der oberen linken Ecke zur unteren rechten Ecke gelangen. Du darfst nur nach rechts (→) oder nach unten (↓) gehen.
+Auf einem 2×2-Raster möchtest du von der oberen linken Ecke zur unteren rechten Ecke gelangen. Du darfst nur nach rechts (→) oder nach unten (↓) gehen.
 
 ```
 Start ─── ─── 
@@ -2213,14 +2257,14 @@ Wenn ein R zuerst, dann U, dann R: RURU und RUUR → 2 Wege.
 Probiere alle Möglichkeiten mit U am Anfang ...
 
 ### Didaktischer Hinweis
-Gitterwege sind ein schoener Einstieg in die Binomialkoeffizienten (4 ueber 2 = 6). Fuer die Grundschule reicht das systematische Aufschreiben. Die Verbindung von raeumlichem Denken und Kombinatorik macht diese Aufgabe besonders wertvoll.
+Gitterwege sind ein schöner Einstieg in die Binomialkoeffizienten (4 über 2 = 6). Für die Grundschule reicht das systematische Aufschreiben. Die Verbindung von räumlichem Denken und Kombinatorik macht diese Aufgabe besonders wertvoll.
 
 ---
 
 ## Aufgabe 45
 
 ---
-titel: "Muenzen werfen — drei Muenzen"
+titel: "Münzen werfen — drei Münzen"
 typ: eingabe
 thema: "Wie viele Möglichkeiten?"
 schwierigkeit: orange
@@ -2228,17 +2272,18 @@ buchseite: 73
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "kombinatorik"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Du wirfst drei Muenzen gleichzeitig. Jede zeigt Kopf (K) oder Zahl (Z).
+Du wirfst drei Münzen gleichzeitig. Jede zeigt Kopf (K) oder Zahl (Z).
 
 a) Wie viele verschiedene Ergebnisse gibt es insgesamt?
 b) Schreibe alle auf.
-c) Bei wie vielen Ergebnissen zeigen genau zwei Muenzen Kopf?
+c) Bei wie vielen Ergebnissen zeigen genau zwei Münzen Kopf?
 
 ### Lösung
-a) 8 Ergebnisse
+a) 8
 
 b)
 1. K-K-K
@@ -2270,22 +2315,22 @@ Z ───┤
              └── Z → ZZZ
 ```
 
-c) Genau 2 × K: KKZ, KZK, ZKK → 3 Stueck
+c) Genau 2 × K: KKZ, KZK, ZKK → 3 Stück
 
 ### Tipp 1 (Denkanstoß)
-Muenze 1: 2 Möglichkeiten. Muenze 2: 2. Muenze 3: 2. Wie viele Möglichkeiten insgesamt?
+Münze 1: 2 Möglichkeiten. Münze 2: 2. Münze 3: 2. Wie viele Möglichkeiten insgesamt?
 
 ### Tipp 2 (Methode)
-Zeichne ein Baumdiagramm mit 3 Ebenen. Jede Ebene hat 2 Aeste (K und Z). Zaehle die Enden.
+Zeichne ein Baumdiagramm mit 3 Ebenen. Jede Ebene hat 2 Äste (K und Z). Zähle die Enden.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Wenn Muenze 1 = K: Es gibt 4 Möglichkeiten fuer Muenzen 2 und 3 (KK, KZ, ZK, ZZ).
-Wenn Muenze 1 = Z: nochmal 4 Möglichkeiten.
+Wenn Münze 1 = K: Es gibt 4 Möglichkeiten für Münzen 2 und 3 (KK, KZ, ZK, ZZ).
+Wenn Münze 1 = Z: nochmal 4 Möglichkeiten.
 Gesamt: 4 + 4 = ?
 c) Suche die Ergebnisse mit genau 2 × K: K-K-Z, K-Z-K, Z-K-K. Wie viele?
 
 ### Didaktischer Hinweis
-Erweiterung auf 3 Muenzen (2^3 = 8). Das Baumdiagramm wird groesser, bleibt aber ueberschaubar. Teil c) fuehrt in die Wahrscheinlichkeit ein: 3 von 8 Ergebnissen haben genau 2 × Kopf.
+Erweiterung auf 3 Münzen (2^3 = 8). Das Baumdiagramm wird größer, bleibt aber überschaubar. Teil c) führt in die Wahrscheinlichkeit ein: 3 von 8 Ergebnissen haben genau 2 × Kopf.
 
 ---
 
@@ -2294,7 +2339,7 @@ Erweiterung auf 3 Muenzen (2^3 = 8). Das Baumdiagramm wird groesser, bleibt aber
 ## Aufgabe 46
 
 ---
-titel: "Gluecksrad — sicher, moeglich, unmoeglich"
+titel: "Glücksrad — sicher, möglich, unmöglich"
 typ: auswahl
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2302,53 +2347,54 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Gluecksrad hat 6 gleich grosse Felder: 3 rote, 2 blaue und 1 gelbes Feld.
+Ein Glücksrad hat 6 gleich große Felder: 3 rote, 2 blaue und 1 gelbes Feld.
 
-Entscheide: sicher, moeglich oder unmoeglich?
+Entscheide: sicher, möglich oder unmöglich?
 
 a) Du drehst und landest auf einem roten Feld.
-b) Du drehst und landest auf einem gruenen Feld.
+b) Du drehst und landest auf einem grünen Feld.
 c) Du drehst und landest auf einem farbigen Feld.
 d) Du drehst und landest auf einem roten oder blauen Feld.
 
 ### Lösung
-a) moeglich (3 von 6 Feldern sind rot)
-b) unmoeglich (es gibt kein gruenes Feld)
+a) möglich (3 von 6 Feldern sind rot)
+b) unmöglich (es gibt kein grünes Feld)
 c) sicher (alle Felder sind farbig)
-d) moeglich (5 von 6 Feldern, aber nicht sicher — es koennte auch gelb sein)
+d) möglich (5 von 6 Feldern, aber nicht sicher — es könnte auch gelb sein)
 
 ### Lösungsweg
-Man prueft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:
-- a) Rot gibt es 3-mal → moeglich
-- b) Gruen gibt es 0-mal → unmoeglich
+Man prüft, ob das Ereignis auf keinem, einigen oder allen Feldern eintreten kann:
+- a) Rot gibt es 3-mal → möglich
+- b) Grün gibt es 0-mal → unmöglich
 - c) Alle 6 Felder sind farbig → sicher
-- d) Rot + Blau = 5 Felder, aber Gelb (1 Feld) ist weder rot noch blau → moeglich
+- d) Rot + Blau = 5 Felder, aber Gelb (1 Feld) ist weder rot noch blau → möglich
 
 ### Tipp 1 (Denkanstoß)
-Schau dir das Gluecksrad an: Welche Farben gibt es? Welche nicht? Dann pruefe jede Aussage.
+Schau dir das Glücksrad an: Welche Farben gibt es? Welche nicht? Dann prüfe jede Aussage.
 
 ### Tipp 2 (Methode)
-- unmoeglich: Die Farbe gibt es gar nicht auf dem Rad.
-- sicher: JEDES Feld erfuellt die Bedingung.
-- moeglich: Einige Felder ja, andere nein.
+- unmöglich: Die Farbe gibt es gar nicht auf dem Rad.
+- sicher: JEDES Feld erfüllt die Bedingung.
+- möglich: Einige Felder ja, andere nein.
 
 ### Tipp 3 (Schritt-für-Schritt)
-b) Gibt es ein gruenes Feld? Nein! → unmoeglich.
+b) Gibt es ein grünes Feld? Nein! → unmöglich.
 c) Gibt es ein farbloses Feld? Nein, alle sind farbig! → sicher.
-d) Rot (3) + Blau (2) = 5 Felder. Aber Gelb (1) ist uebrig → passiert nicht immer → ?
+d) Rot (3) + Blau (2) = 5 Felder. Aber Gelb (1) ist übrig → passiert nicht immer → ?
 
 ### Didaktischer Hinweis
-Das Gluecksrad als Zufallsexperiment: anschaulicher als Wuerfel, weil die Felder "sichtbar" sind. Die Farbverteilung (3-2-1) laesst sich gut visuell vorstellen. Besonders d) erfordert genaues Nachdenken: Fast sicher, aber nicht ganz!
+Das Glücksrad als Zufallsexperiment: anschaulicher als Würfel, weil die Felder "sichtbar" sind. Die Farbverteilung (3-2-1) lässt sich gut visuell vorstellen. Besonders d) erfordert genaues Nachdenken: Fast sicher, aber nicht ganz!
 
 ---
 
 ## Aufgabe 47
 
 ---
-titel: "Kugeln ziehen — Farben einschaetzen"
+titel: "Kugeln ziehen — Farben einschätzen"
 typ: auswahl
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2356,12 +2402,13 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
 In einem Beutel liegen 5 rote Kugeln und 3 blaue Kugeln (insgesamt 8). Du ziehst ohne hinzuschauen eine Kugel.
 
-Entscheide: sicher, moeglich oder unmoeglich?
+Entscheide: sicher, möglich oder unmöglich?
 
 a) Du ziehst eine rote Kugel.
 b) Du ziehst eine gelbe Kugel.
@@ -2369,35 +2416,35 @@ c) Du ziehst eine rote oder blaue Kugel.
 d) Du ziehst eine blaue Kugel.
 
 ### Lösung
-a) moeglich (5 von 8 sind rot, aber nicht alle)
-b) unmoeglich (keine gelben Kugeln im Beutel)
+a) möglich (5 von 8 sind rot, aber nicht alle)
+b) unmöglich (keine gelben Kugeln im Beutel)
 c) sicher (es gibt nur rote und blaue, also trifft es immer zu)
-d) moeglich (3 von 8 sind blau)
+d) möglich (3 von 8 sind blau)
 
 ### Lösungsweg
-- a) 5 rote von 8 → moeglich, aber nicht sicher
-- b) 0 gelbe → unmoeglich
+- a) 5 rote von 8 → möglich, aber nicht sicher
+- b) 0 gelbe → unmöglich
 - c) Rot + Blau = alle Kugeln → sicher
-- d) 3 blaue von 8 → moeglich
+- d) 3 blaue von 8 → möglich
 
 ### Tipp 1 (Denkanstoß)
-Welche Farben sind im Beutel? Rot und Blau — sonst nichts! Jetzt pruefe jede Aussage.
+Welche Farben sind im Beutel? Rot und Blau — sonst nichts! Jetzt prüfe jede Aussage.
 
 ### Tipp 2 (Methode)
-Frage dich: Kann es passieren? Wenn ja: Passiert es JEDES Mal? Wenn nicht jedes Mal: moeglich. Wenn jedes Mal: sicher.
+Frage dich: Kann es passieren? Wenn ja: Passiert es JEDES Mal? Wenn nicht jedes Mal: möglich. Wenn jedes Mal: sicher.
 
 ### Tipp 3 (Schritt-für-Schritt)
 c) Im Beutel sind nur rote und blaue Kugeln. Egal was du ziehst — es ist immer rot ODER blau. Also: sicher!
 
 ### Didaktischer Hinweis
-Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungleiche Verteilung (5 rot, 3 blau) bereitet das Konzept "wahrscheinlicher/unwahrscheinlicher" vor, ohne es explizit einzufuehren.
+Kugeln-ziehen-Experiment: der klassische Zugang zur Wahrscheinlichkeit. Die ungleiche Verteilung (5 rot, 3 blau) bereitet das Konzept "wahrscheinlicher/unwahrscheinlicher" vor, ohne es explizit einzuführen.
 
 ---
 
 ## Aufgabe 48
 
 ---
-titel: "Alltagsaussagen beurteilen — mit Begruendung"
+titel: "Alltagsaussagen beurteilen — mit Begründung"
 typ: auswahl
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2405,53 +2452,54 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Entscheide: sicher, moeglich oder unmoeglich? Begruende kurz.
+Entscheide: sicher, möglich oder unmöglich? Begründe kurz.
 
 a) Morgen geht die Sonne auf.
-b) Im naechsten Schuljahr hast du denselben Lehrer.
+b) Im nächsten Schuljahr hast du denselben Lehrer.
 c) Du springst hoch und bleibst in der Luft schweben.
-d) Es regnet irgendwann in den naechsten 30 Tagen.
-e) Du wuerfelst mit einem normalen Wuerfel eine 7.
+d) Es regnet irgendwann in den nächsten 30 Tagen.
+e) Du würfelst mit einem normalen Würfel eine 7.
 
 ### Lösung
 a) sicher (die Sonne geht jeden Tag auf)
-b) moeglich (vielleicht ja, vielleicht nein)
-c) unmoeglich (die Schwerkraft zieht dich zurueck)
+b) möglich (vielleicht ja, vielleicht nein)
+c) unmöglich (die Schwerkraft zieht dich zurück)
 d) sicher (in 30 Tagen regnet es in Deutschland praktisch immer mindestens einmal)
-e) unmoeglich (ein normaler Wuerfel hat nur 1-6)
+e) unmöglich (ein normaler Würfel hat nur 1-6)
 
 ### Lösungsweg
-Fuer jede Aussage: Kann es nie, manchmal oder immer passieren?
+Für jede Aussage: Kann es nie, manchmal oder immer passieren?
 - a) Die Erde dreht sich → Sonnenaufgang ist sicher
-- b) Lehrerverteilung ist unsicher → moeglich
-- c) Schwerkraft → unmoeglich
-- d) In Deutschland regnet es haeufig → praktisch sicher
-- e) Wuerfel hat 6 Seiten (1-6), keine 7 → unmoeglich
+- b) Lehrerverteilung ist unsicher → möglich
+- c) Schwerkraft → unmöglich
+- d) In Deutschland regnet es häufig → praktisch sicher
+- e) Würfel hat 6 Seiten (1-6), keine 7 → unmöglich
 
 ### Tipp 1 (Denkanstoß)
-Ueberlege bei jeder Aussage: Ist das ein Naturgesetz (= sicher), eine Moeglichkeit oder etwas, das nie passieren kann?
+Überlege bei jeder Aussage: Ist das ein Naturgesetz (= sicher), eine Möglichkeit oder etwas, das nie passieren kann?
 
 ### Tipp 2 (Methode)
-Teste zuerst: Ist es unmoeglich? (Widerspricht es einem Naturgesetz?)
+Teste zuerst: Ist es unmöglich? (Widerspricht es einem Naturgesetz?)
 Dann: Ist es sicher? (Passiert es garantiert immer?)
-Sonst: moeglich.
+Sonst: möglich.
 
 ### Tipp 3 (Schritt-für-Schritt)
-c) Springst du hoch und bleibst schweben? Probier es aus — du kommst immer zurueck. → unmoeglich.
-e) Welche Zahlen stehen auf einem Wuerfel? 1, 2, 3, 4, 5, 6. Gibt es eine 7? → unmoeglich.
+c) Springst du hoch und bleibst schweben? Probier es aus — du kommst immer zurück. → unmöglich.
+e) Welche Zahlen stehen auf einem Würfel? 1, 2, 3, 4, 5, 6. Gibt es eine 7? → unmöglich.
 
 ### Didaktischer Hinweis
-Alltagsaussagen ohne Zahlen: Kinder lernen die Dreigliederung sicher/moeglich/unmoeglich an ihrer Lebenswelt. Die Begruendung ist mindestens so wichtig wie die Antwort. Aussage d) ist diskutabel — das foerdert mathematisches Argumentieren.
+Alltagsaussagen ohne Zahlen: Kinder lernen die Dreigliederung sicher/möglich/unmöglich an ihrer Lebenswelt. Die Begründung ist mindestens so wichtig wie die Antwort. Aussage d) ist diskutabel — das fördert mathematisches Argumentieren.
 
 ---
 
 ## Aufgabe 49
 
 ---
-titel: "Gluecksrad — Wer hat die bessere Chance?"
+titel: "Glücksrad — Wer hat die bessere Chance?"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2459,10 +2507,11 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Gluecksrad hat 8 gleich grosse Felder:
+Ein Glücksrad hat 8 gleich große Felder:
 - 4 rote Felder
 - 3 blaue Felder
 - 1 gelbes Feld
@@ -2471,7 +2520,7 @@ Ein Gluecksrad hat 8 gleich grosse Felder:
 
 a) Wie viele Gewinnfelder hat Kind A?
 b) Wie viele Gewinnfelder hat Kind B?
-c) Ist das Spiel fair? Begruende.
+c) Ist das Spiel fair? Begründe.
 
 ### Lösung
 a) 4 Felder
@@ -2479,12 +2528,12 @@ b) 3 Felder
 c) Nein, das Spiel ist unfair. Kind A hat 4 Gewinnfelder, Kind B nur 3.
 
 ### Lösungsweg
-- a) 4 rote Felder = 4 Gewinnfelder fuer A
-- b) 3 blaue Felder = 3 Gewinnfelder fuer B
+- a) 4 rote Felder = 4 Gewinnfelder für A
+- b) 3 blaue Felder = 3 Gewinnfelder für B
 - c) 4 > 3, also hat A mehr Chancen → unfair
 
 ### Tipp 1 (Denkanstoß)
-Zaehle die Felder fuer jedes Kind. Wer hat mehr Gewinnfelder?
+Zähle die Felder für jedes Kind. Wer hat mehr Gewinnfelder?
 
 ### Tipp 2 (Methode)
 Ein Spiel ist fair, wenn beide Kinder gleich viele Gewinnmöglichkeiten haben. Vergleiche die Anzahlen!
@@ -2493,14 +2542,14 @@ Ein Spiel ist fair, wenn beide Kinder gleich viele Gewinnmöglichkeiten haben. V
 Kind A: 4 Felder. Kind B: 3 Felder. Ist 4 = 3? Nein! Also ist das Spiel ...
 
 ### Didaktischer Hinweis
-Einfacher Fairness-Vergleich durch Zaehlen. Kinder brauchen noch keine Brueche — es reicht, die Gewinnfelder zu vergleichen. Das Gluecksrad ist anschaulicher als Wuerfel, weil man die Flaechen "sehen" kann.
+Einfacher Fairness-Vergleich durch Zählen. Kinder brauchen noch keine Brüche — es reicht, die Gewinnfelder zu vergleichen. Das Glücksrad ist anschaulicher als Würfel, weil man die Flächen "sehen" kann.
 
 ---
 
 ## Aufgabe 50
 
 ---
-titel: "Augensumme mit zwei Wuerfeln — welche kommt am oeftesten?"
+titel: "Augensumme mit zwei Würfeln — welche kommt am öftesten?"
 typ: eingabe
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2508,45 +2557,46 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Du wuerfelst mit zwei Wuerfeln und addierst die Augenzahlen.
+Du würfelst mit zwei Würfeln und addierst die Augenzahlen.
 
-a) Wie viele Möglichkeiten gibt es, die Augensumme 2 zu wuerfeln?
-b) Wie viele Möglichkeiten gibt es, die Augensumme 7 zu wuerfeln?
-c) Welche Summe wuerfelst du wahrscheinlich oefter — die 2 oder die 7?
+a) Wie viele Möglichkeiten gibt es, die Augensumme 2 zu würfeln?
+b) Wie viele Möglichkeiten gibt es, die Augensumme 7 zu würfeln?
+c) Welche Summe würfelst du wahrscheinlich öfter — die 2 oder die 7?
 
 ### Lösung
 a) 1 Möglichkeit: (1,1)
 b) 6 Möglichkeiten: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)
-c) Die 7 kommt oefter vor (6 Möglichkeiten vs. 1 Möglichkeit)
+c) Die 7 kommt öfter vor (6 Möglichkeiten vs. 1 Möglichkeit)
 
 ### Lösungsweg
 - a) Summe 2: Nur 1+1 = 2 → 1 Möglichkeit
 - b) Summe 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten
-- c) 6 > 1, also kommt die 7 haeufiger
+- c) 6 > 1, also kommt die 7 häufiger
 
 ### Tipp 1 (Denkanstoß)
-Fuer die Summe 2: Welche Zahlen muessten beide Wuerfel zeigen? Gibt es dafuer mehr als eine Möglichkeit?
+Für die Summe 2: Welche Zahlen müssten beide Würfel zeigen? Gibt es dafür mehr als eine Möglichkeit?
 
 ### Tipp 2 (Methode)
-Zaehle fuer jede Summe alle Wuerfelkombinationen:
-Summe 2: Wuerfel 1 = ?, Wuerfel 2 = ? (damit die Summe 2 ergibt)
-Summe 7: Probiere alle Möglichkeiten fuer Wuerfel 1 (1-6) und berechne, was Wuerfel 2 sein muss.
+Zähle für jede Summe alle Würfelkombinationen:
+Summe 2: Würfel 1 = ?, Würfel 2 = ? (damit die Summe 2 ergibt)
+Summe 7: Probiere alle Möglichkeiten für Würfel 1 (1-6) und berechne, was Würfel 2 sein muss.
 
 ### Tipp 3 (Schritt-für-Schritt)
-b) Summe 7: Wenn Wuerfel 1 = 1, dann Wuerfel 2 = 6 (denn 1+6=7). Wenn Wuerfel 1 = 2, dann Wuerfel 2 = 5. Wenn Wuerfel 1 = 3, dann ... Zaehle alle!
+b) Summe 7: Wenn Würfel 1 = 1, dann Würfel 2 = 6 (denn 1+6=7). Wenn Würfel 1 = 2, dann Würfel 2 = 5. Wenn Würfel 1 = 3, dann ... Zähle alle!
 
 ### Didaktischer Hinweis
-Kernaufgabe der Wuerfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrscheinlich. Die 7 hat die meisten Möglichkeiten (6), die 2 die wenigsten (1). Dieses Ergebnis widerspricht oft der kindlichen Intuition und ist ein Aha-Erlebnis.
+Kernaufgabe der Würfel-Wahrscheinlichkeit: Nicht alle Summen sind gleich wahrscheinlich. Die 7 hat die meisten Möglichkeiten (6), die 2 die wenigsten (1). Dieses Ergebnis widerspricht oft der kindlichen Intuition und ist ein Aha-Erlebnis.
 
 ---
 
 ## Aufgabe 51
 
 ---
-titel: "Lottozahlen ziehen — sicher oder unmoeglich?"
+titel: "Lottozahlen ziehen — sicher oder unmöglich?"
 typ: auswahl
 thema: "Alles Zufall?"
 schwierigkeit: gelb
@@ -2554,52 +2604,53 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Entscheide: sicher, moeglich oder unmoeglich?
+Aus einem Beutel mit den Zahlen 1 bis 10 wird EINE Zahl gezogen. Entscheide: sicher, möglich oder unmöglich?
 
 a) Die gezogene Zahl ist kleiner als 11.
 b) Die gezogene Zahl ist 5.
 c) Die gezogene Zahl ist 0.
 d) Die gezogene Zahl ist gerade.
-e) Die gezogene Zahl ist groesser als 7.
+e) Die gezogene Zahl ist größer als 7.
 
 ### Lösung
 a) sicher (alle Zahlen 1-10 sind kleiner als 11)
-b) moeglich (5 ist eine der 10 Zahlen)
-c) unmoeglich (0 ist nicht im Beutel)
-d) moeglich (2, 4, 6, 8, 10 sind gerade — aber 1, 3, 5, 7, 9 nicht)
-e) moeglich (8, 9, 10 sind groesser als 7 — aber die meisten nicht)
+b) möglich (5 ist eine der 10 Zahlen)
+c) unmöglich (0 ist nicht im Beutel)
+d) möglich (2, 4, 6, 8, 10 sind gerade — aber 1, 3, 5, 7, 9 nicht)
+e) möglich (8, 9, 10 sind größer als 7 — aber die meisten nicht)
 
 ### Lösungsweg
 Ergebnisraum: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 - a) Alle 10 Zahlen < 11 → sicher
-- b) 5 ist enthalten, aber nicht die einzige → moeglich
-- c) 0 ist nicht enthalten → unmoeglich
-- d) 5 von 10 sind gerade → moeglich
-- e) 3 von 10 sind > 7 → moeglich
+- b) 5 ist enthalten, aber nicht die einzige → möglich
+- c) 0 ist nicht enthalten → unmöglich
+- d) 5 von 10 sind gerade → möglich
+- e) 3 von 10 sind > 7 → möglich
 
 ### Tipp 1 (Denkanstoß)
-Schreibe alle Zahlen von 1 bis 10 auf. Dann pruefe: Erfuellt JEDE Zahl die Bedingung? Oder nur manche? Oder keine?
+Schreibe alle Zahlen von 1 bis 10 auf. Dann prüfe: Erfüllt JEDE Zahl die Bedingung? Oder nur manche? Oder keine?
 
 ### Tipp 2 (Methode)
 Unterstreiche alle Zahlen, die zur Aussage passen:
-d) Gerade: 2, 4, 6, 8, 10 → 5 Stueck, aber 5 andere nicht → moeglich.
+d) Gerade: 2, 4, 6, 8, 10 → 5 Stück, aber 5 andere nicht → möglich.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 1 < 11? Ja! 10 < 11? Ja! ALLE kleiner als 11 → sicher.
-c) Gibt es eine 0 im Beutel? 1, 2, 3, ..., 10 → keine 0! → unmoeglich.
+c) Gibt es eine 0 im Beutel? 1, 2, 3, ..., 10 → keine 0! → unmöglich.
 
 ### Didaktischer Hinweis
-Zahlenmenge als Ergebnisraum: uebergang vom konkreten Wuerfel/Gluecksrad zur abstrakteren Zahlenmenge. Die verschiedenen Aussagetypen (Vergleich, Gleichheit, Eigenschaft) trainieren vielfaeltiges Denken.
+Zahlenmenge als Ergebnisraum: übergang vom konkreten Würfel/Glücksrad zur abstrakteren Zahlenmenge. Die verschiedenen Aussagetypen (Vergleich, Gleichheit, Eigenschaft) trainieren vielfältiges Denken.
 
 ---
 
 ## Aufgabe 52
 
 ---
-titel: "Faires Gluecksrad gestalten"
+titel: "Faires Glücksrad gestalten"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: grün
@@ -2607,44 +2658,45 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Du sollst ein Gluecksrad mit 8 Feldern gestalten, das FAIR ist fuer 2 Spieler.
+Du sollst ein Glücksrad mit 8 Feldern gestalten, das FAIR ist für 2 Spieler.
 
 Spieler A gewinnt bei Rot. Spieler B gewinnt bei Blau.
 
 a) Wie viele rote und wie viele blaue Felder brauchst du, damit es fair ist?
-b) Duerfen auch andere Farben vorkommen? Wenn ja, welche Bedingung muessen sie erfuellen?
+b) Dürfen auch andere Farben vorkommen? Wenn ja, welche Bedingung müssen sie erfüllen?
 
 ### Lösung
 a) 4 rote und 4 blaue Felder. Oder: Gleich viele rote wie blaue.
-b) Ja, andere Farben duerfen vorkommen, aber dann muessen Rot und Blau trotzdem gleich viele Felder haben. Z.B. 3 rot, 3 blau, 2 gruen (bei Gruen gewinnt keiner).
+b) Ja, andere Farben dürfen vorkommen, aber dann müssen Rot und Blau trotzdem gleich viele Felder haben. Z.B. 3 rot, 3 blau, 2 grün (bei Grün gewinnt keiner).
 
 ### Lösungsweg
-Fair = gleiche Gewinnchancen. Spieler A und B muessen gleich viele Gewinnfelder haben.
+Fair = gleiche Gewinnchancen. Spieler A und B müssen gleich viele Gewinnfelder haben.
 - a) 8 Felder ÷ 2 Spieler = 4 Felder pro Spieler → 4 rot, 4 blau
-- b) Solange Rot und Blau gleich viele Felder haben, koennen die uebrigen Felder eine andere Farbe haben: z.B. 3R, 3B, 2G oder 2R, 2B, 4G
+- b) Solange Rot und Blau gleich viele Felder haben, können die übrigen Felder eine andere Farbe haben: z.B. 3R, 3B, 2G oder 2R, 2B, 4G
 
 ### Tipp 1 (Denkanstoß)
-Fair bedeutet: Beide haben die gleiche Chance zu gewinnen. Wie muessen die Felder verteilt sein, damit das klappt?
+Fair bedeutet: Beide haben die gleiche Chance zu gewinnen. Wie müssen die Felder verteilt sein, damit das klappt?
 
 ### Tipp 2 (Methode)
 Gleichviele rote wie blaue Felder = fair. Der Rest kann neutral sein (kein Gewinner).
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 8 Felder fuer 2 Spieler: 8 ÷ 2 = 4 Felder pro Spieler. Also 4 rote + 4 blaue.
-b) Was passiert, wenn du 3 rote, 3 blaue und 2 gruene nimmst? Hat dann jeder gleich viele? 3 = 3 → fair!
+a) 8 Felder für 2 Spieler: 8 ÷ 2 = 4 Felder pro Spieler. Also 4 rote + 4 blaue.
+b) Was passiert, wenn du 3 rote, 3 blaue und 2 grüne nimmst? Hat dann jeder gleich viele? 3 = 3 → fair!
 
 ### Didaktischer Hinweis
-Kreative Umkehraufgabe: Statt ein bestehendes Spiel zu bewerten, gestaltet das Kind selbst ein faires Spiel. Das foerdert tiefes Verstaendnis von Fairness. Teil b) zeigt: Neutrale Felder stoeren die Fairness nicht, solange beide gleich viele Gewinnfelder haben.
+Kreative Umkehraufgabe: Statt ein bestehendes Spiel zu bewerten, gestaltet das Kind selbst ein faires Spiel. Das fördert tiefes Verständnis von Fairness. Teil b) zeigt: Neutrale Felder stören die Fairness nicht, solange beide gleich viele Gewinnfelder haben.
 
 ---
 
 ## Aufgabe 53
 
 ---
-titel: "Wuerfelspiel — durch 2 oder durch 3 teilbar"
+titel: "Würfelspiel — durch 2 oder durch 3 teilbar"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: grün
@@ -2652,15 +2704,16 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Wuerfelspiel mit einem Wuerfel:
+Ein Würfelspiel mit einem Würfel:
 - Kind A bekommt einen Punkt, wenn die Augenzahl durch 2 teilbar ist.
 - Kind B bekommt einen Punkt, wenn die Augenzahl durch 3 teilbar ist.
 
-a) Welche Zahlen gewinnen fuer Kind A?
-b) Welche Zahlen gewinnen fuer Kind B?
+a) Welche Zahlen gewinnen für Kind A?
+b) Welche Zahlen gewinnen für Kind B?
 c) Ist das Spiel fair?
 
 ### Lösung
@@ -2669,23 +2722,23 @@ b) 3, 6 (2 Zahlen)
 c) Nein, unfair. Kind A hat 3 Gewinnzahlen, Kind B nur 2.
 
 ### Lösungsweg
-Zahlen auf dem Wuerfel: 1, 2, 3, 4, 5, 6
-- a) Durch 2 teilbar: 2, 4, 6 → 3 Stueck
-- b) Durch 3 teilbar: 3, 6 → 2 Stueck
-- c) 3 ≠ 2 → unfair, Kind A gewinnt haeufiger
+Zahlen auf dem Würfel: 1, 2, 3, 4, 5, 6
+- a) Durch 2 teilbar: 2, 4, 6 → 3 Stück
+- b) Durch 3 teilbar: 3, 6 → 2 Stück
+- c) 3 ≠ 2 → unfair, Kind A gewinnt häufiger
 
 ### Tipp 1 (Denkanstoß)
-Schreibe die Zahlen 1 bis 6 auf. Kreise fuer Kind A alle geraden Zahlen ein. Unterstreiche fuer Kind B alle Zahlen, die durch 3 teilbar sind.
+Schreibe die Zahlen 1 bis 6 auf. Kreise für Kind A alle geraden Zahlen ein. Unterstreiche für Kind B alle Zahlen, die durch 3 teilbar sind.
 
 ### Tipp 2 (Methode)
-Zaehle die Gewinnzahlen fuer jedes Kind. Gleichviel = fair, verschieden = unfair.
+Zähle die Gewinnzahlen für jedes Kind. Gleichviel = fair, verschieden = unfair.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Kind A: Gerade Zahlen auf dem Wuerfel: 2, 4, 6. Das sind 3 Stueck.
-Kind B: Durch 3 teilbar: 3 ÷ 3 = 1 ✓, 6 ÷ 3 = 2 ✓. Was ist mit 1, 2, 4, 5? Die sind nicht durch 3 teilbar. Also nur 2 Stueck. 3 ≠ 2 → ?
+Kind A: Gerade Zahlen auf dem Würfel: 2, 4, 6. Das sind 3 Stück.
+Kind B: Durch 3 teilbar: 3 ÷ 3 = 1 ✓, 6 ÷ 3 = 2 ✓. Was ist mit 1, 2, 4, 5? Die sind nicht durch 3 teilbar. Also nur 2 Stück. 3 ≠ 2 → ?
 
 ### Didaktischer Hinweis
-Verbindung von Teilbarkeit und Wahrscheinlichkeit. Mit nur einem Wuerfel (6 Möglichkeiten) ist die Analyse ueberschaubar. Die Erkenntnis "unfair" motiviert die Folgefrage: "Wie muesste man die Regel aendern?"
+Verbindung von Teilbarkeit und Wahrscheinlichkeit. Mit nur einem Würfel (6 Möglichkeiten) ist die Analyse überschaubar. Die Erkenntnis "unfair" motiviert die Folgefrage: "Wie müsste man die Regel ändern?"
 
 ---
 
@@ -2700,47 +2753,48 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Erfinde eine Gewinnregel fuer ein Wuerfelspiel mit einem Wuerfel, bei der es ...
+Erfinde eine Gewinnregel für ein Würfelspiel mit einem Würfel, bei der es ...
 
 a) **sicher** ist, dass du gewinnst.
-b) **moeglich** ist, dass du gewinnst.
-c) **unmoeglich** ist, dass du gewinnst.
+b) **möglich** ist, dass du gewinnst.
+c) **unmöglich** ist, dass du gewinnst.
 
 ### Lösung
 Beispiele:
 a) "Ich gewinne, wenn die Augenzahl kleiner als 7 ist." (Alle Zahlen 1-6 sind kleiner als 7.)
 b) "Ich gewinne, wenn die Augenzahl gerade ist." (2, 4, 6 — manchmal ja, manchmal nein.)
-c) "Ich gewinne, wenn die Augenzahl 8 ist." (Kein Wuerfel hat eine 8.)
+c) "Ich gewinne, wenn die Augenzahl 8 ist." (Kein Würfel hat eine 8.)
 
 ### Lösungsweg
-- a) Die Regel muss fuer ALLE Zahlen 1-6 gelten → z.B. "kleiner als 7", "groesser als 0"
-- b) Die Regel darf fuer EINIGE, aber nicht alle gelten → z.B. "gerade", "groesser als 3"
-- c) Die Regel darf fuer KEINE der Zahlen 1-6 gelten → z.B. "gleich 0", "gleich 7"
+- a) Die Regel muss für ALLE Zahlen 1-6 gelten → z.B. "kleiner als 7", "größer als 0"
+- b) Die Regel darf für EINIGE, aber nicht alle gelten → z.B. "gerade", "größer als 3"
+- c) Die Regel darf für KEINE der Zahlen 1-6 gelten → z.B. "gleich 0", "gleich 7"
 
 ### Tipp 1 (Denkanstoß)
-Denke an die Zahlen auf dem Wuerfel: 1, 2, 3, 4, 5, 6. Fuer a) muss JEDE dieser Zahlen passen. Fuer c) darf KEINE passen.
+Denke an die Zahlen auf dem Würfel: 1, 2, 3, 4, 5, 6. Für a) muss JEDE dieser Zahlen passen. Für c) darf KEINE passen.
 
 ### Tipp 2 (Methode)
-a) Waehle eine Bedingung, die alle Zahlen 1-6 erfuellen (z.B. "Zahl ist groesser als 0").
-b) Waehle eine Bedingung, die nur manche erfuellen (z.B. "Zahl ist ungerade").
-c) Waehle eine Bedingung, die keine erfuellt (z.B. "Zahl ist 10").
+a) Wähle eine Bedingung, die alle Zahlen 1-6 erfüllen (z.B. "Zahl ist größer als 0").
+b) Wähle eine Bedingung, die nur manche erfüllen (z.B. "Zahl ist ungerade").
+c) Wähle eine Bedingung, die keine erfüllt (z.B. "Zahl ist 10").
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) Was gilt fuer ALLE Zahlen 1-6? Sie sind alle kleiner als ... welche Zahl?
-c) Welche Zahl gibt es auf einem Wuerfel NICHT? 0? 7? 8?
+a) Was gilt für ALLE Zahlen 1-6? Sie sind alle kleiner als ... welche Zahl?
+c) Welche Zahl gibt es auf einem Würfel NICHT? 0? 7? 8?
 
 ### Didaktischer Hinweis
-Kreative Aufgabe, die das Verstaendnis von sicher/moeglich/unmoeglich vertieft. Kinder muessen die Konzepte aktiv anwenden, statt nur passiv zu klassifizieren. Mehrere richtige Antworten sind moeglich — das foerdert mathematische Kreativitaet.
+Kreative Aufgabe, die das Verständnis von sicher/möglich/unmöglich vertieft. Kinder müssen die Konzepte aktiv anwenden, statt nur passiv zu klassifizieren. Mehrere richtige Antworten sind möglich — das fördert mathematische Kreativität.
 
 ---
 
 ## Aufgabe 55
 
 ---
-titel: "Gluecksrad fair machen — Felder umfaerben"
+titel: "Glücksrad fair machen — Felder umfärben"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: grün
@@ -2748,44 +2802,45 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Gluecksrad hat 6 Felder: 4 rote und 2 blaue. Kind A gewinnt bei Rot, Kind B bei Blau.
+Ein Glücksrad hat 6 Felder: 4 rote und 2 blaue. Kind A gewinnt bei Rot, Kind B bei Blau.
 
 a) Ist das Spiel fair?
-b) Wie viele Felder musst du mindestens umfaerben, damit das Spiel fair wird?
-c) Beschreibe, welche Felder du umfaerbst.
+b) Wie viele Felder musst du mindestens umfärben, damit das Spiel fair wird?
+c) Beschreibe, welche Felder du umfärbst.
 
 ### Lösung
 a) Nein, unfair. A hat 4 Felder, B nur 2.
 b) 1 Feld
-c) Faerbe 1 rotes Feld blau. Dann: 3 rote, 3 blaue → fair!
+c) Färbe 1 rotes Feld blau. Dann: 3 rote, 3 blaue → fair!
 
 ### Lösungsweg
 - a) 4 rot vs. 2 blau → A hat mehr Chancen → unfair
 - b) Ziel: gleich viele rote und blaue Felder. 6 ÷ 2 = 3 pro Farbe.
-  Aktuell: 4 rot, 2 blau. 1 rotes Feld blau faerben → 3 rot, 3 blau ✓
+  Aktuell: 4 rot, 2 blau. 1 rotes Feld blau färben → 3 rot, 3 blau ✓
 - c) 1 rotes Feld wird blau.
 
 ### Tipp 1 (Denkanstoß)
-Fuer ein faires Spiel muessen beide gleich viele Felder haben. Wie viele waeren das bei 6 Feldern insgesamt?
+Für ein faires Spiel müssen beide gleich viele Felder haben. Wie viele wären das bei 6 Feldern insgesamt?
 
 ### Tipp 2 (Methode)
-Fair = gleich viele Gewinnfelder. Bei 6 Feldern: 6 ÷ 2 = 3 pro Spieler. Aktuell: 4 rot, 2 blau. Was muss sich aendern?
+Fair = gleich viele Gewinnfelder. Bei 6 Feldern: 6 ÷ 2 = 3 pro Spieler. Aktuell: 4 rot, 2 blau. Was muss sich ändern?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Du brauchst 3 rote und 3 blaue Felder. Aktuell: 4 rote, 2 blaue. Wenn du 1 rotes Feld blau faerbst: 4 − 1 = 3 rot, 2 + 1 = 3 blau. Passt das?
+Du brauchst 3 rote und 3 blaue Felder. Aktuell: 4 rote, 2 blaue. Wenn du 1 rotes Feld blau färbst: 4 − 1 = 3 rot, 2 + 1 = 3 blau. Passt das?
 
 ### Didaktischer Hinweis
-Umkehrproblem: Das Kind muss nicht nur analysieren, sondern aktiv gestalten. Die Aenderung (1 Feld umfaerben) ist minimal — Kinder erkennen, wie empfindlich Fairness ist. Eine schoene Bruecke zwischen Zaehlen und Gestalten.
+Umkehrproblem: Das Kind muss nicht nur analysieren, sondern aktiv gestalten. Die Änderung (1 Feld umfärben) ist minimal — Kinder erkennen, wie empfindlich Fairness ist. Eine schöne Brücke zwischen Zählen und Gestalten.
 
 ---
 
 ## Aufgabe 56
 
 ---
-titel: "Wuerfelsumme — groesser oder kleiner als 7?"
+titel: "Würfelsumme — größer oder kleiner als 7?"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: orange
@@ -2793,15 +2848,16 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Du wuerfelst mit zwei Wuerfeln und addierst. Spielregel:
-- Kind A gewinnt, wenn die Summe **groesser als 7** ist.
+Du würfelst mit zwei Würfeln und addierst. Spielregel:
+- Kind A gewinnt, wenn die Summe **größer als 7** ist.
 - Kind B gewinnt, wenn die Summe **kleiner als 7** ist.
 - Bei Summe 7 gewinnt keiner.
 
-a) Welche Summen gewinnen fuer Kind A?
+a) Welche Summen gewinnen für Kind A?
 b) Wie viele Möglichkeiten hat Kind A insgesamt?
 c) Wie viele Möglichkeiten hat Kind B?
 d) Ist das Spiel fair?
@@ -2822,10 +2878,10 @@ Möglichkeiten pro Summe:
 - 15 = 15 → fair!
 
 ### Tipp 1 (Denkanstoß)
-Nutze die Tabelle der Augensummen: Wie oft kommt jede Summe vor? Sortiere nach "groesser als 7" und "kleiner als 7".
+Nutze die Tabelle der Augensummen: Wie oft kommt jede Summe vor? Sortiere nach "größer als 7" und "kleiner als 7".
 
 ### Tipp 2 (Methode)
-Zaehle die Möglichkeiten:
+Zähle die Möglichkeiten:
 Summe < 7: Summen 2, 3, 4, 5, 6 → addiere die Möglichkeiten.
 Summe > 7: Summen 8, 9, 10, 11, 12 → addiere die Möglichkeiten.
 Vergleiche!
@@ -2833,10 +2889,10 @@ Vergleiche!
 ### Tipp 3 (Schritt-für-Schritt)
 Kind A: Summe 8 hat 5 Möglichkeiten. Summe 9 hat 4. Summe 10 hat 3. Summe 11 hat 2. Summe 12 hat 1.
 5 + 4 + 3 + 2 + 1 = ?
-Kind B: Summe 2 hat 1. Summe 3 hat 2. ... Zaehle genauso.
+Kind B: Summe 2 hat 1. Summe 3 hat 2. ... Zähle genauso.
 
 ### Didaktischer Hinweis
-Symmetrie der Wuerfelverteilung: Die Summen >7 und <7 haben spiegelsymmetrisch die gleiche Anzahl Möglichkeiten. Das Ergebnis (fair!) ist nicht offensichtlich und benoetigt systematisches Zaehlen. Die 6 Möglichkeiten der Summe 7 (keiner gewinnt) sind der interessante "Rest".
+Symmetrie der Würfelverteilung: Die Summen >7 und <7 haben spiegelsymmetrisch die gleiche Anzahl Möglichkeiten. Das Ergebnis (fair!) ist nicht offensichtlich und benötigt systematisches Zählen. Die 6 Möglichkeiten der Summe 7 (keiner gewinnt) sind der interessante "Rest".
 
 ---
 
@@ -2851,16 +2907,17 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Ein Wuerfelspiel mit einem Wuerfel:
+Ein Würfelspiel mit einem Würfel:
 - Kind A gewinnt bei 1, 2, 3 oder 4.
 - Kind B gewinnt bei 5 oder 6.
 
 a) Wie viele Gewinnzahlen hat Kind A? Wie viele Kind B?
 b) Ist das Spiel fair?
-c) Aendere die Regel so, dass es fair wird!
+c) Ändere die Regel so, dass es fair wird!
 
 ### Lösung
 a) Kind A: 4 Zahlen, Kind B: 2 Zahlen
@@ -2870,19 +2927,19 @@ c) Beispiel: Kind A gewinnt bei 1, 2, 3. Kind B gewinnt bei 4, 5, 6. (Je 3 Zahle
 ### Lösungsweg
 - a) A: {1, 2, 3, 4} = 4 Zahlen. B: {5, 6} = 2 Zahlen.
 - b) 4 ≠ 2 → unfair
-- c) Fuer Fairness: Jedes Kind braucht 3 Zahlen. Z.B. A: 1,2,3 und B: 4,5,6.
+- c) Für Fairness: Jedes Kind braucht 3 Zahlen. Z.B. A: 1,2,3 und B: 4,5,6.
 
 ### Tipp 1 (Denkanstoß)
-Zaehle die Gewinnzahlen. Hat jedes Kind gleich viele?
+Zähle die Gewinnzahlen. Hat jedes Kind gleich viele?
 
 ### Tipp 2 (Methode)
-6 Zahlen auf dem Wuerfel. Fair = jedes Kind bekommt die Haelfte: 6 ÷ 2 = 3 Zahlen pro Kind.
+6 Zahlen auf dem Würfel. Fair = jedes Kind bekommt die Hälfte: 6 ÷ 2 = 3 Zahlen pro Kind.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Aktuell: A hat 4, B hat 2. Fuer Fairness: beide 3. Gib eine Zahl von A an B: z.B. die 4 geht zu B. Jetzt: A hat 1,2,3 (= 3) und B hat 4,5,6 (= 3). Fair?
+Aktuell: A hat 4, B hat 2. Für Fairness: beide 3. Gib eine Zahl von A an B: z.B. die 4 geht zu B. Jetzt: A hat 1,2,3 (= 3) und B hat 4,5,6 (= 3). Fair?
 
 ### Didaktischer Hinweis
-Dreistufiger Denkprozess: Analysieren → Bewerten → Verbessern. Die kreative Umgestaltung foerdert tiefes Verstaendnis. Es gibt mehrere richtige Loesungen (z.B. A: 1,3,5 und B: 2,4,6) — das zeigt: Fairness haengt nur von der Anzahl ab, nicht von den konkreten Zahlen.
+Dreistufiger Denkprozess: Analysieren → Bewerten → Verbessern. Die kreative Umgestaltung fördert tiefes Verständnis. Es gibt mehrere richtige Lösungen (z.B. A: 1,3,5 und B: 2,4,6) — das zeigt: Fairness hängt nur von der Anzahl ab, nicht von den konkreten Zahlen.
 
 ---
 
@@ -2897,6 +2954,7 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
@@ -2908,14 +2966,14 @@ In einer Box liegen Karten mit Zahlen:
 Du ziehst aus jeder Box eine Karte.
 
 a) Aus welcher Box ist es wahrscheinlicher, eine gerade Zahl zu ziehen?
-b) Begruende mit Zahlen.
+b) Begründe mit Zahlen.
 
 ### Lösung
 a) Aus Box 2 ist es wahrscheinlicher.
-b) Box 1: 4 gerade von 8 Karten (die Haelfte). Box 2: 5 gerade von 5 Karten (alle!). In Box 2 sind ALLE Karten gerade → es ist sicher, eine gerade Zahl zu ziehen.
+b) Box 1: 4 gerade von 8 Karten (die Hälfte). Box 2: 5 gerade von 5 Karten (alle!). In Box 2 sind ALLE Karten gerade → es ist sicher, eine gerade Zahl zu ziehen.
 
 ### Lösungsweg
-- Box 1: Gerade Zahlen = {2, 4, 6, 8} = 4 von 8 → die Haelfte
+- Box 1: Gerade Zahlen = {2, 4, 6, 8} = 4 von 8 → die Hälfte
 - Box 2: Gerade Zahlen = {2, 4, 6, 8, 10} = 5 von 5 → alle!
 - In Box 2 ist es nicht nur wahrscheinlicher, sondern sogar sicher.
 
@@ -2923,25 +2981,25 @@ b) Box 1: 4 gerade von 8 Karten (die Haelfte). Box 2: 5 gerade von 5 Karten (all
 Schaue dir jede Box an: Wie viele Karten sind insgesamt drin? Wie viele davon sind gerade?
 
 ### Tipp 2 (Methode)
-Zaehle in jeder Box die geraden Zahlen und die Gesamtzahl:
+Zähle in jeder Box die geraden Zahlen und die Gesamtzahl:
 Box 1: __ gerade von __ Karten.
 Box 2: __ gerade von __ Karten.
-Wo ist der Anteil groesser?
+Wo ist der Anteil größer?
 
 ### Tipp 3 (Schritt-für-Schritt)
 Box 1: 1, 2, 3, 4, 5, 6, 7, 8. Unterstreiche die geraden: 2, 4, 6, 8 → 4 von 8.
 Box 2: 2, 4, 6, 8, 10. Unterstreiche die geraden: alle! → 5 von 5.
-In welcher Box ist die Chance groesser?
+In welcher Box ist die Chance größer?
 
 ### Didaktischer Hinweis
-Vergleich von Anteilen: "4 von 8" vs. "5 von 5". Kinder lernen, dass nicht die absolute Zahl zaehlt, sondern das Verhaeltnis zur Gesamtanzahl. Box 2 ist ein Extremfall (sicher!) — das macht den Unterschied besonders deutlich.
+Vergleich von Anteilen: "4 von 8" vs. "5 von 5". Kinder lernen, dass nicht die absolute Zahl zählt, sondern das Verhältnis zur Gesamtanzahl. Box 2 ist ein Extremfall (sicher!) — das macht den Unterschied besonders deutlich.
 
 ---
 
 ## Aufgabe 59
 
 ---
-titel: "Zufallsexperiment Muenze — Ergebnisse vorhersagen"
+titel: "Zufallsexperiment Münze — Ergebnisse vorhersagen"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: orange
@@ -2949,46 +3007,47 @@ buchseite: 74
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Du wirfst eine Muenze 20-mal. Jedes Mal notierst du Kopf (K) oder Zahl (Z).
+Du wirfst eine Münze 20-mal. Jedes Mal notierst du Kopf (K) oder Zahl (Z).
 
-a) Ist es moeglich, 20-mal hintereinander Kopf zu werfen?
+a) Ist es möglich, 20-mal hintereinander Kopf zu werfen?
 b) Ist es wahrscheinlich, 20-mal hintereinander Kopf zu werfen?
-c) Wie viele Male Kopf wuerdest du ungefaehr erwarten?
-d) Wuerde dich ein Ergebnis von 12-mal Kopf und 8-mal Zahl ueberraschen?
+c) Wie viele Male Kopf würdest du ungefähr erwarten?
+d) Würde dich ein Ergebnis von 12-mal Kopf und 8-mal Zahl überraschen?
 
 ### Lösung
-a) Moeglich (aber extrem unwahrscheinlich)
+a) Möglich (aber extrem unwahrscheinlich)
 b) Nein, sehr unwahrscheinlich
-c) Ungefaehr 10-mal Kopf (die Haelfte)
+c) Ungefähr 10-mal Kopf (die Hälfte)
 d) Nein, das ist ein normales Ergebnis. Kleine Abweichungen von 10:10 sind ganz normal.
 
 ### Lösungsweg
-- a) Theoretisch kann jeder Wurf Kopf zeigen → moeglich
+- a) Theoretisch kann jeder Wurf Kopf zeigen → möglich
 - b) Die Wahrscheinlichkeit ist extrem gering → unwahrscheinlich
-- c) Bei einer fairen Muenze: ca. 50% Kopf, 50% Zahl → ca. 10 von 20
-- d) 12:8 ist eine kleine Abweichung von 10:10 → voellig normal
+- c) Bei einer fairen Münze: ca. 50% Kopf, 50% Zahl → ca. 10 von 20
+- d) 12:8 ist eine kleine Abweichung von 10:10 → völlig normal
 
 ### Tipp 1 (Denkanstoß)
-Kopf und Zahl sind bei einer fairen Muenze gleich wahrscheinlich. Was heisst das fuer 20 Wuerfe?
+Kopf und Zahl sind bei einer fairen Münze gleich wahrscheinlich. Was heißt das für 20 Würfe?
 
 ### Tipp 2 (Methode)
-"Moeglich" bedeutet nicht "wahrscheinlich"! 20-mal Kopf kann passieren, ist aber extrem selten. Ein Ergebnis nahe 10:10 ist am wahrscheinlichsten.
+"Möglich" bedeutet nicht "wahrscheinlich"! 20-mal Kopf kann passieren, ist aber extrem selten. Ein Ergebnis nahe 10:10 ist am wahrscheinlichsten.
 
 ### Tipp 3 (Schritt-für-Schritt)
-c) Stell dir vor, du wirfst 2-mal: Ungefaehr 1-mal Kopf. Bei 20-mal: 20 ÷ 2 = ungefaehr 10-mal Kopf.
+c) Stell dir vor, du wirfst 2-mal: Ungefähr 1-mal Kopf. Bei 20-mal: 20 ÷ 2 = ungefähr 10-mal Kopf.
 
 ### Didaktischer Hinweis
-Unterscheidung "moeglich" vs. "wahrscheinlich" — ein Kernkonzept! Das Gesetz der grossen Zahlen (annaehernd 50:50 bei vielen Wuerfen) wird intuitiv eingefuehrt. Die Erkenntnis, dass 12:8 "normal" ist, bekaempft den Mythos der perfekten Gleichverteilung.
+Unterscheidung "möglich" vs. "wahrscheinlich" — ein Kernkonzept! Das Gesetz der großen Zahlen (annähernd 50:50 bei vielen Würfen) wird intuitiv eingeführt. Die Erkenntnis, dass 12:8 "normal" ist, bekämpft den Mythos der perfekten Gleichverteilung.
 
 ---
 
 ## Aufgabe 60
 
 ---
-titel: "Zwei Gluecksraeder vergleichen"
+titel: "Zwei Glücksräder vergleichen"
 typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: orange
@@ -2996,70 +3055,72 @@ buchseite: 75
 kapitel: "07-kombinatorik-intensiv"
 stage_id: "wahrscheinlichkeit"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp"
 ---
 
 ### Aufgabenstellung
-Zwei Gluecksraeder:
+Zwei Glücksräder:
 
-**Rad A:** 10 Felder — 5 rote, 3 blaue, 2 gruene
-**Rad B:** 6 Felder — 3 rote, 2 blaue, 1 gruenes
+**Rad A:** 10 Felder — 5 rote, 3 blaue, 2 grüne
+**Rad B:** 6 Felder — 3 rote, 2 blaue, 1 grünes
 
-Bei welchem Rad ist die Chance groesser, auf Rot zu landen? Oder ist sie gleich? Begruende!
+Bei welchem Rad ist die Chance größer, auf Rot zu landen? Oder ist sie gleich? Begründe!
 
 ### Lösung
 Die Chance ist bei beiden gleich!
 
 ### Lösungsweg
-- Rad A: 5 rote von 10 Feldern = die Haelfte
-- Rad B: 3 rote von 6 Feldern = die Haelfte
-- Beide: genau die Haelfte → gleiche Chance!
+- Rad A: 5 rote von 10 Feldern = die Hälfte
+- Rad B: 3 rote von 6 Feldern = die Hälfte
+- Beide: genau die Hälfte → gleiche Chance!
 
 ### Tipp 1 (Denkanstoß)
-Schau nicht nur auf die Anzahl roter Felder! Vergleiche: Wie viele rote Felder gibt es IM VERHAELTNIS zur Gesamtzahl?
+Schau nicht nur auf die Anzahl roter Felder! Vergleiche: Wie viele rote Felder gibt es IM VERHÄLTNIS zur Gesamtzahl?
 
 ### Tipp 2 (Methode)
-Rad A: 5 von 10 = ? (die Haelfte? Ein Drittel?)
-Rad B: 3 von 6 = ? (die Haelfte? Ein Drittel?)
+Rad A: 5 von 10 = ? (die Hälfte? Ein Drittel?)
+Rad B: 3 von 6 = ? (die Hälfte? Ein Drittel?)
 Vergleiche die Anteile!
 
 ### Tipp 3 (Schritt-für-Schritt)
-Rad A: 5 rote von 10. Ist die Haelfte von 10 gleich 5? Ja! Also genau die Haelfte.
-Rad B: 3 rote von 6. Ist die Haelfte von 6 gleich 3? Ja! Also auch genau die Haelfte.
-Gleiche Haelfte → gleiche Chance!
+Rad A: 5 rote von 10. Ist die Hälfte von 10 gleich 5? Ja! Also genau die Hälfte.
+Rad B: 3 rote von 6. Ist die Hälfte von 6 gleich 3? Ja! Also auch genau die Hälfte.
+Gleiche Hälfte → gleiche Chance!
 
 ### Didaktischer Hinweis
-Kernkonzept der Wahrscheinlichkeit: Nicht die absolute Zahl zaehlt, sondern der Anteil. 5 von 10 = 3 von 6 = die Haelfte. Das widerspricht der Intuition vieler Kinder, die denken: "5 > 3, also ist Rad A besser." Diese Aufgabe baut wichtiges proportionales Denken auf.
+Kernkonzept der Wahrscheinlichkeit: Nicht die absolute Zahl zählt, sondern der Anteil. 5 von 10 = 3 von 6 = die Hälfte. Das widerspricht der Intuition vieler Kinder, die denken: "5 > 3, also ist Rad A besser." Diese Aufgabe baut wichtiges proportionales Denken auf.
 
 ---
 
-# Thema 5: Buchstaben zaehlen (S. 76-77)
+# Thema 5: Buchstaben zählen (S. 76-77)
 
 ## Aufgabe 61
 
 ---
 titel: "Welche Buchstaben kommen oft vor? — Vermutung"
 typ: auswahl
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Schau dir diese 5 Woerter an:
+Schau dir diese 5 Wörter an:
 
 HASE, SCHULE, NASE, KATZE, ELEFANT
 
-a) Welcher Buchstabe kommt in allen 5 Woertern vor?
-b) Welcher Buchstabe kommt in keinem der Woerter vor: R, E oder U?
-c) Zaehle: Wie oft kommt das E in allen 5 Woertern zusammen vor?
+a) Welcher Buchstabe kommt in allen 5 Wörtern vor?
+b) Welcher Buchstabe kommt in keinem der Wörter vor: R, E oder U?
+c) Zähle: Wie oft kommt das E in allen 5 Wörtern zusammen vor?
 
 ### Lösung
 a) E (kommt in jedem Wort vor)
-b) R (kommt in keinem der 5 Woerter vor)
-c) 7-mal (HASE: 1, SCHULE: 1, NASE: 1, KATZE: 1, ELEFANT: 2, plus das E in SCHULE am Ende: nochmal zaehlen → H-A-S-E=1, S-C-H-U-L-E=1, N-A-S-E=1, K-A-T-Z-E=1, E-L-E-F-A-N-T=2 → gesamt 6)
+b) R (kommt in keinem der 5 Wörter vor)
+c) 7-mal (HASE: 1, SCHULE: 1, NASE: 1, KATZE: 1, ELEFANT: 2, plus das E in SCHULE am Ende: nochmal zählen → H-A-S-E=1, S-C-H-U-L-E=1, N-A-S-E=1, K-A-T-Z-E=1, E-L-E-F-A-N-T=2 → gesamt 6)
 
 Korrektur: HASE(1) + SCHULE(1) + NASE(1) + KATZE(1) + ELEFANT(2) = 6
 
@@ -3074,39 +3135,40 @@ c) 6-mal
 - c) HASE: 1×E, SCHULE: 1×E, NASE: 1×E, KATZE: 1×E, ELEFANT: 2×E → 1+1+1+1+2 = 6
 
 ### Tipp 1 (Denkanstoß)
-Gehe jedes Wort durch und markiere den gesuchten Buchstaben. Welcher taucht ueberall auf?
+Gehe jedes Wort durch und markiere den gesuchten Buchstaben. Welcher taucht überall auf?
 
 ### Tipp 2 (Methode)
-Schreibe die Woerter untereinander. Suche in jedem Wort nach E, dann nach R, dann nach U.
+Schreibe die Wörter untereinander. Suche in jedem Wort nach E, dann nach R, dann nach U.
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) Suche das E: H-A-S-**E**, S-C-H-U-L-**E**, N-A-S-**E**, K-A-T-Z-**E**, **E**-L-**E**-F-A-N-T. Ueberall dabei!
-c) Zaehle: 1 + 1 + 1 + 1 + 2 = ?
+a) Suche das E: H-A-S-**E**, S-C-H-U-L-**E**, N-A-S-**E**, K-A-T-Z-**E**, **E**-L-**E**-F-A-N-T. Überall dabei!
+c) Zähle: 1 + 1 + 1 + 1 + 2 = ?
 
 ### Didaktischer Hinweis
-Einfacher Einstieg: In bekannten Woertern Buchstaben suchen. Kinder entdecken intuitiv, dass das E besonders haeufig ist. Das systematische Zaehlen bereitet auf laengere Texte vor.
+Einfacher Einstieg: In bekannten Wörtern Buchstaben suchen. Kinder entdecken intuitiv, dass das E besonders häufig ist. Das systematische Zählen bereitet auf längere Texte vor.
 
 ---
 
 ## Aufgabe 62
 
 ---
-titel: "Strichliste fuer einen kurzen Satz"
+titel: "Strichliste für einen kurzen Satz"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Zaehle die Buchstaben in diesem Satz:
+Zähle die Buchstaben in diesem Satz:
 
-**"Meine Katze heisst Luna."**
+**"Meine Katze heißt Luna."**
 
-Fuelle die Strichliste aus fuer: E, I, A, N, T, S
+Fülle die Strichliste aus für: E, I, A, N, T, S
 
 ### Lösung
 | Buchstabe | Anzahl |
@@ -3118,13 +3180,13 @@ Fuelle die Strichliste aus fuer: E, I, A, N, T, S
 | T | 2 |
 | S | 2 |
 
-Text in Grossbuchstaben: M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A
+Text in Großbuchstaben: M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A
 
 ### Lösungsweg
-Buchstabe fuer Buchstabe durchgehen:
-- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, "heisst" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4
+Buchstabe für Buchstabe durchgehen:
+- E: M-**E**-I-N-**E**-K-A-T-Z-**E**-H-E-I-S-S-T-L-U-N-A → Achtung, "heißt" hat auch ein E → M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A → E an Stellen 2, 5, 10, 12 → 4
 
-Korrektur: MEINEKATZEHEISSTTLUNA → neu zaehlen:
+Korrektur: MEINEKATZEHEISSTTLUNA → neu zählen:
 M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A
 E: Positionen 2, 5, 10, 12 → 4
 
@@ -3148,43 +3210,44 @@ M-E-I-N-E-K-A-T-Z-E-H-E-I-S-S-T-L-U-N-A (20 Buchstaben)
 - S: 2 (Positionen 14, 15)
 
 ### Tipp 1 (Denkanstoß)
-Schreibe den Satz in Grossbuchstaben, ohne Leerzeichen. Dann gehe Buchstabe fuer Buchstabe durch.
+Schreibe den Satz in Großbuchstaben, ohne Leerzeichen. Dann gehe Buchstabe für Buchstabe durch.
 
 ### Tipp 2 (Methode)
-Nimm dir einen Buchstaben vor (z.B. E) und gehe den ganzen Satz durch. Mache fuer jedes gefundene E einen Strich. Dann den naechsten Buchstaben.
+Nimm dir einen Buchstaben vor (z.B. E) und gehe den ganzen Satz durch. Mache für jedes gefundene E einen Strich. Dann den nächsten Buchstaben.
 
 ### Tipp 3 (Schritt-für-Schritt)
-E suchen: "M-**E**-I-N-**E**-K-A-T-Z-**E**-H-**E**-I-S-S-T-L-U-N-A". Zaehle: 1, 2, 3, 4. Also 4 Striche fuer E.
+E suchen: "M-**E**-I-N-**E**-K-A-T-Z-**E**-H-**E**-I-S-S-T-L-U-N-A". Zähle: 1, 2, 3, 4. Also 4 Striche für E.
 
 ### Didaktischer Hinweis
-Kurzer Satz als ueberschaubarer Einstieg in die Strichliste. Die Methode "ein Buchstabe pro Durchgang" ist zuverlaessiger als alles gleichzeitig zu zaehlen. Typische Fehlerquelle: Doppelbuchstaben (SS) nicht als einen zaehlen.
+Kurzer Satz als überschaubarer Einstieg in die Strichliste. Die Methode "ein Buchstabe pro Durchgang" ist zuverlässiger als alles gleichzeitig zu zählen. Typische Fehlerquelle: Doppelbuchstaben (SS) nicht als einen zählen.
 
 ---
 
 ## Aufgabe 63
 
 ---
-titel: "Namensliste — welcher Buchstabe kommt am oeftesten?"
+titel: "Namensliste — welcher Buchstabe kommt am öftesten?"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
 In der Klasse 3b gibt es diese Vornamen:
 EMMA, LENA, TIM, MIA, LEON, FINN, SOPHIA, PAUL
 
-a) Welcher Buchstabe kommt am haeufigsten vor?
+a) Welcher Buchstabe kommt am häufigsten vor?
 b) Welche Buchstaben kommen genau 2-mal vor?
 c) Welche Buchstaben kommen gar nicht vor (von A bis F)?
 
 ### Lösung
 a) A (kommt 5-mal vor)
-b) E (2-mal), N (5-mal) — Korrektur noetig:
+b) E (2-mal), N (5-mal) — Korrektur nötig:
 E: EMMA(1) + LENA(1) + LEON(1) = 3
 A: EMMA(1) + LENA(1) + MIA(1) + SOPHIA(1) + PAUL(1) = 5
 N: LENA(1) + LEON(1) + FINN(2) = 4
@@ -3192,7 +3255,7 @@ N: LENA(1) + LEON(1) + FINN(2) = 4
 a) A (5-mal)
 b) M: EMMA(2) + TIM(1) + MIA(1) = 4. L: LENA(1) + LEON(1) + PAUL(1) = 3. I: TIM(1) + MIA(1) + FINN(1) + SOPHIA(1) = 4.
 
-Vollstaendige Zaehlung:
+Vollständige Zählung:
 A=5, N=4, I=4, M=4, E=3, L=3, P=3, O=2, S=1, H=1, F=1, T=1, U=1
 
 b) O kommt genau 2-mal vor (LEON, SOPHIA).
@@ -3205,39 +3268,40 @@ c) B, C, D kommen nicht vor
 
 ### Lösungsweg
 Alle Buchstaben: E-M-M-A-L-E-N-A-T-I-M-M-I-A-L-E-O-N-F-I-N-N-S-O-P-H-I-A-P-A-U-L
-Sortiert nach Haeufigkeit:
+Sortiert nach Häufigkeit:
 A: 5, N: 4, I: 4, M: 4, E: 3, L: 3, P: 2, O: 2, S: 1, H: 1, F: 1, T: 1, U: 1
 
 ### Tipp 1 (Denkanstoß)
-Schreibe alle Namen hintereinander in Grossbuchstaben. Dann zaehle die Buchstaben mit einer Strichliste.
+Schreibe alle Namen hintereinander in Großbuchstaben. Dann zähle die Buchstaben mit einer Strichliste.
 
 ### Tipp 2 (Methode)
-Mache eine Strichliste fuer alle vorkommenden Buchstaben. Am Ende sortiere nach Haeufigkeit.
+Mache eine Strichliste für alle vorkommenden Buchstaben. Am Ende sortiere nach Häufigkeit.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Fang mit A an: EMMA hat 1×A. LENA hat 1×A. MIA hat 1×A. SOPHIA hat 1×A. PAUL hat 1×A. Das sind 5×A!
-Jetzt zaehle E: EMMA hat 1×E. LENA hat 1×E. LEON hat 1×E. Das sind 3×E.
+Jetzt zähle E: EMMA hat 1×E. LENA hat 1×E. LEON hat 1×E. Das sind 3×E.
 
 ### Didaktischer Hinweis
-Namenlisten sind persoenlich und motivierend. Die Zaehlung trainiert Sorgfalt und Systematik. Dass A (nicht E!) am haeufigsten ist, ueberrascht — in kurzen Listen koennen sich die Verhaeltnisse umkehren. Das ist ein wichtiger Lernmoment: Kurze Texte zeigen nicht immer das Gesamtmuster.
+Namenlisten sind persönlich und motivierend. Die Zählung trainiert Sorgfalt und Systematik. Dass A (nicht E!) am häufigsten ist, überrascht — in kurzen Listen können sich die Verhältnisse umkehren. Das ist ein wichtiger Lernmoment: Kurze Texte zeigen nicht immer das Gesamtmuster.
 
 ---
 
 ## Aufgabe 64
 
 ---
-titel: "Strichliste in eine Tabelle uebertragen"
+titel: "Strichliste in eine Tabelle übertragen"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Hier ist eine Strichliste von Buchstabenhaeufigkeiten in einem Text:
+Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:
 
 | Buchstabe | Strichliste |
 |-----------|-------------|
@@ -3248,8 +3312,8 @@ Hier ist eine Strichliste von Buchstabenhaeufigkeiten in einem Text:
 | S | IIII |
 | A | III |
 
-a) Uebertrage in eine Tabelle mit Zahlen.
-b) Welcher Buchstabe kommt am haeufigsten vor?
+a) Übertrage in eine Tabelle mit Zahlen.
+b) Welcher Buchstabe kommt am häufigsten vor?
 c) Welche zwei Buchstaben kommen zusammen genauso oft vor wie E?
 
 ### Lösung
@@ -3267,23 +3331,23 @@ b) E (12-mal)
 c) R + T = 6 + 9 = 15 (zu viel), N + S = 8 + 5 = 13 (zu viel), S + R = 5 + 6 = 11 (fast), A + T = 3 + 9 = 12 ✓
 
 ### Lösungsweg
-Strichlisten zaehlen: IIII = 5, IIII I = 6, IIII III = 8, usw.
+Strichlisten zählen: IIII = 5, IIII I = 6, IIII III = 8, usw.
 - a) E: 12, N: 8, R: 6, T: 9, S: 5, A: 3
-- b) 12 > 9 > 8 > 6 > 5 > 3 → E ist am haeufigsten
+- b) 12 > 9 > 8 > 6 > 5 > 3 → E ist am häufigsten
 - c) Gesucht: zwei Buchstaben mit Summe 12. A(3) + T(9) = 12 ✓
 
 ### Tipp 1 (Denkanstoß)
-Zaehle die Striche sorgfaeltig. Tipp: IIII = 5 Striche (4 senkrechte + 1 Querstrich).
+Zähle die Striche sorgfältig. Tipp: IIII = 5 Striche (4 senkrechte + 1 Querstrich).
 
 ### Tipp 2 (Methode)
-Strichliste lesen: Jede 5er-Gruppe (IIII) zaehle als 5. Dann addiere die einzelnen Striche dazu.
+Strichliste lesen: Jede 5er-Gruppe (IIII) zähle als 5. Dann addiere die einzelnen Striche dazu.
 
 ### Tipp 3 (Schritt-für-Schritt)
 E: IIII IIII II = 5 + 5 + 2 = 12.
 c) Welche zwei Buchstaben ergeben zusammen 12? Probiere: A + T = 3 + 9 = ?
 
 ### Didaktischer Hinweis
-Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Die 5er-Buendelung (Querstrich) muss beherrscht werden. Teil c) verbindet Datenanalyse mit Addition.
+Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Die 5er-Bündelung (Querstrich) muss beherrscht werden. Teil c) verbindet Datenanalyse mit Addition.
 
 ---
 
@@ -3292,12 +3356,13 @@ Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Di
 ---
 titel: "Lieblings-Buchstabe finden — Textanalyse"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -3305,36 +3370,36 @@ Untersuche diesen Satz:
 
 **"Tim und Mia spielen im Garten mit dem Ball."**
 
-a) Zaehle alle Buchstaben insgesamt (ohne Leerzeichen und Satzzeichen).
+a) Zähle alle Buchstaben insgesamt (ohne Leerzeichen und Satzzeichen).
 b) Wie oft kommt der Buchstabe M vor?
 c) Wie oft kommt der Buchstabe I vor?
-d) Welcher Buchstabe kommt am oeftesten vor?
+d) Welcher Buchstabe kommt am öftesten vor?
 
 ### Lösung
 Text: T-I-M-U-N-D-M-I-A-S-P-I-E-L-E-N-I-M-G-A-R-T-E-N-M-I-T-D-E-M-B-A-L-L (35 Buchstaben)
 
-a) 35 Buchstaben
+a) 35
 b) M: 5-mal
 c) I: 5-mal
 d) M und I (je 5-mal)
 
 ### Lösungsweg
-Systematisches Zaehlen:
+Systematisches Zählen:
 - M: TI**M**, **M**IA, I**M**, **M**IT, **M** (in "dem") → 5
 - I: T**I**M, M**I**A, SP**I**ELEN, **I**M, M**I**T → 5
 - E: SPI**E**L**E**N, GART**E**N, D**E**M → 4
 
 ### Tipp 1 (Denkanstoß)
-Schreibe den Satz ohne Leerzeichen in Grossbuchstaben. Dann zaehle Buchstabe fuer Buchstabe.
+Schreibe den Satz ohne Leerzeichen in Großbuchstaben. Dann zähle Buchstabe für Buchstabe.
 
 ### Tipp 2 (Methode)
-Nimm dir einen Buchstaben vor und markiere ihn im ganzen Satz. Zaehle die Markierungen.
+Nimm dir einen Buchstaben vor und markiere ihn im ganzen Satz. Zähle die Markierungen.
 
 ### Tipp 3 (Schritt-für-Schritt)
-b) Suche M: "ti**M**und**M**iaspieleni**M**garten**M**itde**M**ball". Zaehle: 1, 2, 3, 4, 5!
+b) Suche M: "ti**M**und**M**iaspieleni**M**garten**M**itde**M**ball". Zähle: 1, 2, 3, 4, 5!
 
 ### Didaktischer Hinweis
-Ein Satz mit vielen M und I — ueberraschend, denn normalerweise ist E am haeufigsten. In kurzen Texten koennen andere Buchstaben ueberwiegen. Das zeigt: Haeufigkeitsmuster werden erst bei laengeren Texten stabil.
+Ein Satz mit vielen M und I — überraschend, denn normalerweise ist E am häufigsten. In kurzen Texten können andere Buchstaben überwiegen. Das zeigt: Häufigkeitsmuster werden erst bei längeren Texten stabil.
 
 ---
 
@@ -3343,27 +3408,28 @@ Ein Satz mit vielen M und I — ueberraschend, denn normalerweise ist E am haeuf
 ---
 titel: "Tabelle ablesen — Vergleiche und Fragen"
 typ: wahr-falsch
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Hier ist die Buchstabenhaeufigkeit eines Textes:
+Hier ist die Buchstabenhäufigkeit eines Textes:
 
 | Buchstabe | E | N | S | R | T | A | I |
 |-----------|---|---|---|---|---|---|---|
 | Anzahl | 18 | 12 | 9 | 9 | 8 | 6 | 5 |
 
-Stimmt das? Begruende.
+Stimmt das? Begründe.
 
 a) E kommt doppelt so oft vor wie S.
 b) N und I zusammen kommen genauso oft vor wie E.
 c) R kommt seltener vor als S.
-d) T kommt genau 2-mal oefter vor als A.
+d) T kommt genau 2-mal öfter vor als A.
 e) A und I zusammen kommen genauso oft vor wie N.
 
 ### Lösung
@@ -3374,7 +3440,7 @@ d) Stimmt. T=8, A=6, und 8 − 6 = 2 ✓
 e) Stimmt nicht. A+I = 6+5 = 11 ≠ 12
 
 ### Lösungsweg
-Jede Aussage mit den Zahlen pruefen:
+Jede Aussage mit den Zahlen prüfen:
 - a) E=18, S=9. 2 × 9 = 18 ✓
 - b) N+I = 12+5 = 17 ≠ 18 ✗
 - c) R=9, S=9 → gleich oft ✗
@@ -3382,7 +3448,7 @@ Jede Aussage mit den Zahlen pruefen:
 - e) A+I = 6+5 = 11, N=12. 11 ≠ 12 ✗
 
 ### Tipp 1 (Denkanstoß)
-Lies jede Aussage und schaue in der Tabelle nach. Rechne mit den Zahlen, um zu pruefen.
+Lies jede Aussage und schaue in der Tabelle nach. Rechne mit den Zahlen, um zu prüfen.
 
 ### Tipp 2 (Methode)
 Schreibe zu jeder Aussage die Zahlen und die Rechnung daneben:
@@ -3393,31 +3459,32 @@ b) N + I = 12 + 5 = 17. E = 18. Ist 17 = 18? Nein, es fehlt 1! → Stimmt nicht.
 c) R = 9, S = 9. Ist R < S? 9 < 9? Nein, sie sind gleich!
 
 ### Didaktischer Hinweis
-Aussagen ueber Daten pruefen: doppelt, Summe, Differenz. Kinder muessen genau lesen und rechnen. Besonders c) ist eine Falle: "seltener" ist falsch, weil beide gleich oft vorkommen. Das trainiert praezises Denken.
+Aussagen über Daten prüfen: doppelt, Summe, Differenz. Kinder müssen genau lesen und rechnen. Besonders c) ist eine Falle: "seltener" ist falsch, weil beide gleich oft vorkommen. Das trainiert präzises Denken.
 
 ---
 
 ## Aufgabe 67
 
 ---
-titel: "Saeulendiagramm zeichnen — einfache Daten"
+titel: "Säulendiagramm zeichnen — einfache Daten"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-In einem Text wurden die Vokale gezaehlt:
+In einem Text wurden die Vokale gezählt:
 
 | Vokal | A | E | I | O | U |
 |-------|---|---|---|---|---|
 | Anzahl | 6 | 14 | 8 | 4 | 2 |
 
-a) Welcher Vokal kommt am haeufigsten vor?
+a) Welcher Vokal kommt am häufigsten vor?
 b) Welcher am seltensten?
 c) Wie viele Vokale kommen insgesamt vor?
 d) Kommen mehr E als alle anderen Vokale zusammen?
@@ -3425,17 +3492,17 @@ d) Kommen mehr E als alle anderen Vokale zusammen?
 ### Lösung
 a) E (14-mal)
 b) U (2-mal)
-c) 34 Vokale insgesamt
+c) 34
 d) Nein. E=14, alle anderen: 6+8+4+2=20. 20 > 14.
 
 ### Lösungsweg
-- a) Groesster Wert: 14 (E) ✓
+- a) Größter Wert: 14 (E) ✓
 - b) Kleinster Wert: 2 (U) ✓
 - c) 6+14+8+4+2 = 34
 - d) Andere: A+I+O+U = 6+8+4+2 = 20. E = 14. 14 < 20 → Nein.
 
 ### Tipp 1 (Denkanstoß)
-Schau dir die Zahlen an: Welche ist am groessten? Welche am kleinsten?
+Schau dir die Zahlen an: Welche ist am größten? Welche am kleinsten?
 
 ### Tipp 2 (Methode)
 a+b) Vergleiche die Zahlen direkt.
@@ -3444,31 +3511,32 @@ d) Vergleiche E mit der Summe aller anderen.
 
 ### Tipp 3 (Schritt-für-Schritt)
 c) 6 + 14 = 20. 20 + 8 = 28. 28 + 4 = 32. 32 + 2 = ?
-d) Alle ausser E: 6 + 8 + 4 + 2 = 20. Ist 14 > 20? Nein!
+d) Alle außer E: 6 + 8 + 4 + 2 = 20. Ist 14 > 20? Nein!
 
 ### Didaktischer Hinweis
-Nur Vokale zaehlen reduziert die Komplexitaet (5 statt 26 Buchstaben). Die Frage d) erfordert Vergleich einer Einzelhaeufigkeit mit der Summe der anderen — ein anspruchsvoller Denkschritt.
+Nur Vokale zählen reduziert die Komplexität (5 statt 26 Buchstaben). Die Frage d) erfordert Vergleich einer Einzelhäufigkeit mit der Summe der anderen — ein anspruchsvoller Denkschritt.
 
 ---
 
 ## Aufgabe 68
 
 ---
-titel: "Haeufigsten Buchstaben im eigenen Namen finden"
+titel: "Häufigsten Buchstaben im eigenen Namen finden"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
 Untersuche die Vornamen deiner Familie. Beispiel: PHILIPPA, MATHIAS, CHARLOTTE, MAXIMILIAN
 
-a) Zaehle, wie oft jeder Buchstabe in allen Namen zusammen vorkommt.
-b) Welcher Buchstabe kommt am haeufigsten vor?
+a) Zähle, wie oft jeder Buchstabe in allen Namen zusammen vorkommt.
+b) Welcher Buchstabe kommt am häufigsten vor?
 c) Welche Buchstaben kommen gar nicht vor?
 
 ### Lösung
@@ -3490,54 +3558,55 @@ b) A und I (je 6-mal)
 c) z.B. B, D, F, G, J, K, Q, U, V, W, Y, Z
 
 ### Lösungsweg
-Systematische Zaehlung aller Buchstaben in den vier Namen.
+Systematische Zählung aller Buchstaben in den vier Namen.
 
 ### Tipp 1 (Denkanstoß)
-Schreibe alle Namen hintereinander. Dann zaehle die Buchstaben mit einer Strichliste.
+Schreibe alle Namen hintereinander. Dann zähle die Buchstaben mit einer Strichliste.
 
 ### Tipp 2 (Methode)
-Erstelle eine Strichliste fuer das gesamte Alphabet (A-Z). Gehe alle Namen Buchstabe fuer Buchstabe durch.
+Erstelle eine Strichliste für das gesamte Alphabet (A-Z). Gehe alle Namen Buchstabe für Buchstabe durch.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Fang mit A an: PHILIPP**A**, M**A**THI**A**S, CH**A**RLOTTE, M**A**XMILI**A**N. Zaehle: 1, 2, 3, 4, 5, 6.
+Fang mit A an: PHILIPP**A**, M**A**THI**A**S, CH**A**RLOTTE, M**A**XMILI**A**N. Zähle: 1, 2, 3, 4, 5, 6.
 
 ### Didaktischer Hinweis
-Persoenlicher Bezug: Die eigene Familie untersuchen macht die Aufgabe besonders motivierend. Die Zaehlung trainiert Sorgfalt. Das Ergebnis kann von der allgemeinen Buchstabenhaeufigkeit abweichen — das ist ein lehrreiches Gespraechsthema.
+Persönlicher Bezug: Die eigene Familie untersuchen macht die Aufgabe besonders motivierend. Die Zählung trainiert Sorgfalt. Das Ergebnis kann von der allgemeinen Buchstabenhäufigkeit abweichen — das ist ein lehrreiches Gesprächsthema.
 
 ---
 
 ## Aufgabe 69
 
 ---
-titel: "Zwei Texte vergleichen — gleicher Haeufigster?"
+titel: "Zwei Texte vergleichen — gleicher Häufigster?"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Hier sind die Buchstabenhaeufigkeiten aus zwei verschiedenen Texten:
+Hier sind die Buchstabenhäufigkeiten aus zwei verschiedenen Texten:
 
-**Text A (Maerchen):**
+**Text A (Märchen):**
 | Buchstabe | E | N | I | S | R | A |
 |-----------|---|---|---|---|---|---|
 | Anzahl | 20 | 14 | 10 | 8 | 12 | 9 |
 
-**Text B (Sachtext ueber Tiere):**
+**Text B (Sachtext über Tiere):**
 | Buchstabe | E | N | I | S | R | A |
 |-----------|---|---|---|---|---|---|
 | Anzahl | 16 | 11 | 12 | 6 | 10 | 8 |
 
-a) Welcher Buchstabe ist in beiden Texten am haeufigsten?
-b) In welchem Text kommt I oefter vor als R?
+a) Welcher Buchstabe ist in beiden Texten am häufigsten?
+b) In welchem Text kommt I öfter vor als R?
 c) Wie viele Buchstaben (der gezeigten) hat Text A insgesamt?
 
 ### Lösung
-a) E (in Text A: 20, in Text B: 16 — jeweils am haeufigsten)
+a) E (in Text A: 20, in Text B: 16 — jeweils am häufigsten)
 b) In Text B (I=12, R=10, also I > R). In Text A ist es umgekehrt (I=10, R=12).
 c) 20+14+10+8+12+9 = 73
 
@@ -3547,10 +3616,10 @@ c) 20+14+10+8+12+9 = 73
 - c) 20+14+10+8+12+9 = 73
 
 ### Tipp 1 (Denkanstoß)
-Vergleiche in jeder Tabelle: Welche Zahl ist die groesste? Ist es in beiden Texten derselbe Buchstabe?
+Vergleiche in jeder Tabelle: Welche Zahl ist die größte? Ist es in beiden Texten derselbe Buchstabe?
 
 ### Tipp 2 (Methode)
-Lies die Tabellen sorgfaeltig und vergleiche Spalte fuer Spalte.
+Lies die Tabellen sorgfältig und vergleiche Spalte für Spalte.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) Text A: E=20, N=14, R=12, I=10, A=9, S=8 → Maximum: E.
@@ -3558,7 +3627,7 @@ Text B: E=16, I=12, N=11, R=10, A=8, S=6 → Maximum: E.
 b) Vergleiche I und R in jedem Text: Text A: I=10 vs R=12 → ? Text B: I=12 vs R=10 → ?
 
 ### Didaktischer Hinweis
-Textvergleich trainiert analytisches Denken. Die Erkenntnis "E ist in beiden Texten am haeufigsten" bestaetigt die allgemeine Regel. Aber I und R tauschen die Plaetze — das zeigt, dass die Reihenfolge der uebrigen Buchstaben variieren kann.
+Textvergleich trainiert analytisches Denken. Die Erkenntnis "E ist in beiden Texten am häufigsten" bestätigt die allgemeine Regel. Aber I und R tauschen die Plätze — das zeigt, dass die Reihenfolge der übrigen Buchstaben variieren kann.
 
 ---
 
@@ -3567,24 +3636,25 @@ Textvergleich trainiert analytisches Denken. Die Erkenntnis "E ist in beiden Tex
 ---
 titel: "Diagramm ablesen — Wie oft kommt jeder Buchstabe vor?"
 typ: eingabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: grün
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-In einem Saeulendiagramm sind die Buchstabenhaeufigkeiten dargestellt. 1 Kaestchen = 3 Buchstaben.
+In einem Säulendiagramm sind die Buchstabenhäufigkeiten dargestellt. 1 Kästchen = 3 Buchstaben.
 
-| Buchstabe | Kaestchen |
+| Buchstabe | Kästchen |
 |-----------|-----------|
-| E | 6 Kaestchen |
-| N | 4 Kaestchen |
-| R | 3 Kaestchen |
-| T | 5 Kaestchen |
-| S | 2 Kaestchen |
+| E | 6 Kästchen |
+| N | 4 Kästchen |
+| R | 3 Kästchen |
+| T | 5 Kästchen |
+| S | 2 Kästchen |
 
 a) Wie oft kommt jeder Buchstabe vor?
 b) Wie viele dieser Buchstaben kommen insgesamt vor?
@@ -3604,7 +3674,7 @@ b) 18+12+9+15+6 = 60
 c) R + R = 9+9 = 18 (nur mit sich selbst) → geht nicht. N + S = 12 + 6 = 18 ✓
 
 ### Lösungsweg
-Kaestchen × 3 = Anzahl:
+Kästchen × 3 = Anzahl:
 - E: 6 × 3 = 18
 - N: 4 × 3 = 12
 - R: 3 × 3 = 9
@@ -3614,17 +3684,17 @@ Kaestchen × 3 = Anzahl:
 c) Gesucht: Summe = 18. N(12) + S(6) = 18 ✓
 
 ### Tipp 1 (Denkanstoß)
-Jedes Kaestchen steht fuer 3 Buchstaben. Wie rechnest du die Kaestchen in echte Anzahlen um?
+Jedes Kästchen steht für 3 Buchstaben. Wie rechnest du die Kästchen in echte Anzahlen um?
 
 ### Tipp 2 (Methode)
-Multipliziere die Anzahl der Kaestchen mit 3.
+Multipliziere die Anzahl der Kästchen mit 3.
 
 ### Tipp 3 (Schritt-für-Schritt)
-E: 6 Kaestchen × 3 = 18. N: 4 × 3 = ? T: 5 × 3 = ?
+E: 6 Kästchen × 3 = 18. N: 4 × 3 = ? T: 5 × 3 = ?
 c) Welche zwei Buchstaben ergeben zusammen 18? Probiere: N + S = 12 + 6 = ?
 
 ### Didaktischer Hinweis
-Skalierte Diagramme lesen: 1 Kaestchen ≠ 1 Buchstabe! Die Multiplikation mit dem Skalenfaktor (3) ist der Schluessel. Teil c) verbindet Diagrammlesen mit Problemloesen.
+Skalierte Diagramme lesen: 1 Kästchen ≠ 1 Buchstabe! Die Multiplikation mit dem Skalenfaktor (3) ist der Schlüssel. Teil c) verbindet Diagrammlesen mit Problemlösen.
 
 ---
 
@@ -3633,18 +3703,19 @@ Skalierte Diagramme lesen: 1 Kaestchen ≠ 1 Buchstabe! Die Multiplikation mit d
 ---
 titel: "Welches Wort ist schwer beim Buchstabenvogel?"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 76
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Beim Buchstabenvogel (wie Galgenmaennchen) versuchst du, ein Wort Buchstabe fuer Buchstabe zu erraten.
+Beim Buchstabenvogel (wie Galgenmännchen) versuchst du, ein Wort Buchstabe für Buchstabe zu erraten.
 
-Welches Wort ist am leichtesten, welches am schwersten zu erraten? Begruende!
+Welches Wort ist am leichtesten, welches am schwersten zu erraten? Begründe!
 
 a) SONNE
 b) XYLOFON
@@ -3652,144 +3723,147 @@ c) KATZE
 d) QUARZ
 
 ### Lösung
-Am leichtesten: a) SONNE (viele haeufige Buchstaben: S, O, N, N, E)
+Am leichtesten: a) SONNE (viele häufige Buchstaben: S, O, N, N, E)
 Am schwersten: d) QUARZ (Q und Z sind extrem selten, kein E!)
 
 ### Lösungsweg
-Haeufige Buchstaben im Deutschen: E, N, I, S, R, A, T
+Häufige Buchstaben im Deutschen: E, N, I, S, R, A, T
 Seltene Buchstaben: Q, X, Y, Z
 
-- a) SONNE: S✓, O, N✓, N✓, E✓ → 3 sehr haeufige, kein seltener → leicht
-- b) XYLOFON: X✗, Y✗, L, O, F, O, N✓ → 2 sehr seltene, nur 1 haeufiger → schwer
-- c) KATZE: K, A✓, T✓, Z✗, E✓ → 2 haeufige, 1 seltener → mittel
+- a) SONNE: S✓, O, N✓, N✓, E✓ → 3 sehr häufige, kein seltener → leicht
+- b) XYLOFON: X✗, Y✗, L, O, F, O, N✓ → 2 sehr seltene, nur 1 häufiger → schwer
+- c) KATZE: K, A✓, T✓, Z✗, E✓ → 2 häufige, 1 seltener → mittel
 - d) QUARZ: Q✗, U, A✓, R✓, Z✗ → 2 seltene, kein E → am schwersten
 
 ### Tipp 1 (Denkanstoß)
-Welche Buchstaben wuerdest du zuerst raten? (E, N, S, R ...) In welchem Wort kommen diese haeufigen Buchstaben vor?
+Welche Buchstaben würdest du zuerst raten? (E, N, S, R ...) In welchem Wort kommen diese häufigen Buchstaben vor?
 
 ### Tipp 2 (Methode)
-Zaehle fuer jedes Wort: Wie viele haeufige Buchstaben (E, N, S, R, A, T) sind drin? Wie viele seltene (Q, X, Y, Z)?
+Zähle für jedes Wort: Wie viele häufige Buchstaben (E, N, S, R, A, T) sind drin? Wie viele seltene (Q, X, Y, Z)?
 
 ### Tipp 3 (Schritt-für-Schritt)
-SONNE: S (haeufig!), O, N (haeufig!), N, E (haeufig!) → 3 Treffer mit den Top-Buchstaben!
-QUARZ: Q (selten!), U, A (haeufig), R (haeufig), Z (selten!) → nur 2 Treffer, aber 2 seltene!
+SONNE: S (häufig!), O, N (häufig!), N, E (häufig!) → 3 Treffer mit den Top-Buchstaben!
+QUARZ: Q (selten!), U, A (häufig), R (häufig), Z (selten!) → nur 2 Treffer, aber 2 seltene!
 
 ### Didaktischer Hinweis
-Angewandte Haeufigkeitsanalyse: Wissen ueber Buchstabenhaeufigkeiten wird strategisch genutzt. Kinder verbinden statistische Erkenntnis mit spielerischer Anwendung. Das ist der Transfer von Datenanalyse in die Praxis.
+Angewandte Häufigkeitsanalyse: Wissen über Buchstabenhäufigkeiten wird strategisch genutzt. Kinder verbinden statistische Erkenntnis mit spielerischer Anwendung. Das ist der Transfer von Datenanalyse in die Praxis.
 
 ---
 
 ## Aufgabe 72
 
 ---
-titel: "Geheimschrift knacken — haeufigste Buchstaben nutzen"
+titel: "Geheimschrift knacken — häufigste Buchstaben nutzen"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Eine Nachricht ist mit einem einfachen Code verschluesselt: Jeder Buchstabe wurde durch den naechsten im Alphabet ersetzt (A→B, B→C, ..., Z→A).
+Eine Nachricht ist mit einem einfachen Code verschlüsselt: Jeder Buchstabe wurde durch den nächsten im Alphabet ersetzt (A→B, B→C, ..., Z→A).
 
-Die verschluesselte Nachricht lautet: **NBUI JTU UPMM**
+Die verschlüsselte Nachricht lautet: **NBUI JTU UPMM**
 
-a) Entschluessele die Nachricht.
-b) Welcher Buchstabe kommt in der verschluesselten Nachricht am haeufigsten vor? Welcher steht im Original dafuer?
+a) Entschlüssele die Nachricht.
+b) Welcher Buchstabe kommt in der verschlüsselten Nachricht am häufigsten vor? Welcher steht im Original dafür?
 
 ### Lösung
 a) MATH IST TOLL
-b) In der verschluesselten Nachricht kommt "U" 2-mal vor (in NBUI und UPMM). U steht fuer T.
+b) In der verschlüsselten Nachricht kommt "U" 2-mal vor (in NBUI und UPMM). U steht für T.
 
 ### Lösungsweg
-Jeder Buchstabe wird um 1 zurueck verschoben:
+Jeder Buchstabe wird um 1 zurück verschoben:
 - N→M, B→A, U→T, I→H → MATH
 - J→I, T→S, U→T → IST
 - U→T, P→O, M→L, M→L → TOLL
 
 ### Tipp 1 (Denkanstoß)
-Wenn jeder Buchstabe um eins nach vorne verschoben wurde, musst du um eins zurueck gehen: B wurde aus A, C aus B, D aus C ...
+Wenn jeder Buchstabe um eins nach vorne verschoben wurde, musst du um eins zurück gehen: B wurde aus A, C aus B, D aus C ...
 
 ### Tipp 2 (Methode)
 Schreibe das Alphabet auf:
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Jeder verschluesselte Buchstabe kommt vom Buchstaben DAVOR.
+Jeder verschlüsselte Buchstabe kommt vom Buchstaben DAVOR.
 
 ### Tipp 3 (Schritt-für-Schritt)
 N → was kommt vor N? M! B → was kommt vor B? A! U → was kommt vor U? T! I → was kommt vor I? H! 
 Erstes Wort: M-A-T-H = MATH. Weiter: J→?, T→?, U→?
 
 ### Didaktischer Hinweis
-Buchstabenhaeufigkeiten haben eine reale Anwendung: Kryptografie! Selbst einfache Codes koennen mit Haeufigkeitsanalyse geknackt werden (der haeufigste verschluesselte Buchstabe ist wahrscheinlich E). Hier ist der Code einfach genug, dass Kinder ihn direkt entschluesseln koennen.
+Buchstabenhäufigkeiten haben eine reale Anwendung: Kryptografie! Selbst einfache Codes können mit Häufigkeitsanalyse geknackt werden (der häufigste verschlüsselte Buchstabe ist wahrscheinlich E). Hier ist der Code einfach genug, dass Kinder ihn direkt entschlüsseln können.
 
 ---
 
 ## Aufgabe 73
 
 ---
-titel: "Buchstabenhaeufigkeit in zwei Sprachen"
+titel: "Buchstabenhäufigkeit in zwei Sprachen"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Hier sind die 3 haeufigsten Buchstaben in verschiedenen Sprachen:
+Hier sind die 3 häufigsten Buchstaben in verschiedenen Sprachen:
 
 | Sprache | Platz 1 | Platz 2 | Platz 3 |
 |---------|---------|---------|---------|
 | Deutsch | E | N | I |
 | Englisch | E | T | A |
-| Franzoesisch | E | S | A |
+| Französisch | E | S | A |
 | Spanisch | E | A | O |
 
 a) Welcher Buchstabe ist in ALLEN vier Sprachen auf Platz 1?
-b) Welcher Buchstabe kommt in 3 der 4 Sprachen unter den Top 3 vor (ausser E)?
-c) Was koenntest du daraus fuer das Buchstabenraten lernen?
+b) Welcher Buchstabe kommt in 3 der 4 Sprachen unter den Top 3 vor (außer E)?
+c) Was könntest du daraus für das Buchstabenraten lernen?
 
 ### Lösung
-a) E (in allen 4 Sprachen am haeufigsten)
-b) A (in Englisch, Franzoesisch und Spanisch unter den Top 3)
+a) E (in allen 4 Sprachen am häufigsten)
+b) A (in Englisch, Französisch und Spanisch unter den Top 3)
 c) Wenn man ein unbekanntes Wort erraten will, sollte man immer zuerst E und A raten — das klappt in vielen Sprachen!
 
 ### Lösungsweg
-- a) Platz 1 in allen: Deutsch E, Englisch E, Franzoesisch E, Spanisch E → E ✓
-- b) A kommt vor in: Englisch (3.), Franzoesisch (3.), Spanisch (2.) → 3 von 4
+- a) Platz 1 in allen: Deutsch E, Englisch E, Französisch E, Spanisch E → E ✓
+- b) A kommt vor in: Englisch (3.), Französisch (3.), Spanisch (2.) → 3 von 4
 - c) E und A sind die universellsten Buchstaben
 
 ### Tipp 1 (Denkanstoß)
-Schau dir die erste Spalte an: Was steht ueberall auf Platz 1?
+Schau dir die erste Spalte an: Was steht überall auf Platz 1?
 
 ### Tipp 2 (Methode)
-Vergleiche die Tabelle Zeile fuer Zeile. Suche nach Buchstaben, die in mehreren Zeilen vorkommen.
+Vergleiche die Tabelle Zeile für Zeile. Suche nach Buchstaben, die in mehreren Zeilen vorkommen.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) Platz 1: E, E, E, E → alle gleich!
-b) Pruefe A: Deutsch? Nein. Englisch? Ja (Platz 3). Franzoesisch? Ja (Platz 3). Spanisch? Ja (Platz 2). Also 3 von 4!
+b) Prüfe A: Deutsch? Nein. Englisch? Ja (Platz 3). Französisch? Ja (Platz 3). Spanisch? Ja (Platz 2). Also 3 von 4!
 
 ### Didaktischer Hinweis
-Sprachvergleich auf internationaler Ebene: Das E als universeller "Champion" ist ein faszinierendes Muster. Kinder, die mehrere Sprachen kennen, koennen eigene Erfahrungen einbringen. Die Aufgabe verbindet Mathematik mit Sprache.
+Sprachvergleich auf internationaler Ebene: Das E als universeller "Champion" ist ein faszinierendes Muster. Kinder, die mehrere Sprachen kennen, können eigene Erfahrungen einbringen. Die Aufgabe verbindet Mathematik mit Sprache.
 
 ---
 
 ## Aufgabe 74
 
 ---
-titel: "Saeulendiagramm vergleichen — zwei Texte"
+titel: "Säulendiagramm vergleichen — zwei Texte"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -3805,34 +3879,34 @@ Zwei Kinder haben verschiedene Texte untersucht:
 |-----------|---|---|---|---|---|
 | Anzahl | 17 | 11 | 9 | 8 | 7 |
 
-a) In welchem Text kommt E oefter vor?
+a) In welchem Text kommt E öfter vor?
 b) Leon sagt: "In meinem Text kommt E fast doppelt so oft vor wie in Emmas." Hat er recht?
-c) Wer hat verhaeltnismaessig mehr E — Emma oder Leon? (Tipp: Vergleiche den Anteil!)
+c) Wer hat verhältnismässig mehr E — Emma oder Leon? (Tipp: Vergleiche den Anteil!)
 
 ### Lösung
 a) In Leons Text (17-mal vs. 9-mal)
 b) Ja, fast: 9 × 2 = 18, und Leon hat 17. Also fast doppelt.
-c) Fast gleich! Emma: 9 von 50 = fast ein Fuenftel. Leon: 17 von 100 = etwas weniger als ein Fuenftel. Der Anteil ist aehnlich!
+c) Fast gleich! Emma: 9 von 50 = fast ein Fünftel. Leon: 17 von 100 = etwas weniger als ein Fünftel. Der Anteil ist ähnlich!
 
 ### Lösungsweg
 - a) 17 > 9 → Leon hat mehr E
 - b) 9 × 2 = 18 ≈ 17 → ja, fast doppelt
-- c) Emma: 9/50 = 18/100 = 18%. Leon: 17/100 = 17%. Emmas Anteil ist sogar etwas hoeher!
+- c) Emma: 9/50 = 18/100 = 18%. Leon: 17/100 = 17%. Emmas Anteil ist sogar etwas höher!
 
 ### Tipp 1 (Denkanstoß)
 Leons Text ist doppelt so lang! Wenn sein Text doppelt so lang ist, ist es dann fair, nur die absoluten Zahlen zu vergleichen?
 
 ### Tipp 2 (Methode)
 Verdopple Emmas Zahlen (weil Leons Text doppelt so lang ist):
-Emma verdoppelt: E wuerde 18-mal vorkommen. Leon hat 17. Wer hat jetzt mehr?
+Emma verdoppelt: E würde 18-mal vorkommen. Leon hat 17. Wer hat jetzt mehr?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Emmas Text: 50 Buchstaben, 9×E. Wenn sie 100 Buchstaben haette (doppelt), waeren es ca. 18×E.
+Emmas Text: 50 Buchstaben, 9×E. Wenn sie 100 Buchstaben hätte (doppelt), wären es ca. 18×E.
 Leons Text: 100 Buchstaben, 17×E.
-18 vs. 17 — wer hat verhaeltnismaessig mehr E?
+18 vs. 17 — wer hat verhältnismässig mehr E?
 
 ### Didaktischer Hinweis
-Proportionales Denken bei Datenanalyse: "Mehr" in absoluten Zahlen bedeutet nicht "mehr" im Verhaeltnis. Leons Text hat ABSOLUT mehr E, aber RELATIV (pro 100 Buchstaben) hat Emma sogar etwas mehr. Ein wichtiger Lernschritt zum Verstaendnis von Prozenten und Anteilen.
+Proportionales Denken bei Datenanalyse: "Mehr" in absoluten Zahlen bedeutet nicht "mehr" im Verhältnis. Leons Text hat ABSOLUT mehr E, aber RELATIV (pro 100 Buchstaben) hat Emma sogar etwas mehr. Ein wichtiger Lernschritt zum Verständnis von Prozenten und Anteilen.
 
 ---
 
@@ -3841,50 +3915,51 @@ Proportionales Denken bei Datenanalyse: "Mehr" in absoluten Zahlen bedeutet nich
 ---
 titel: "Eigene Untersuchung planen"
 typ: textaufgabe
-thema: "Buchstaben zaehlen"
+thema: "Buchstaben zählen"
 schwierigkeit: orange
 buchseite: 77
 kapitel: "07-kombinatorik-intensiv"
-stage_id: "haeufigkeitsanalyse"
+stage_id: "häufigkeitsanalyse"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp"
 ---
 
 ### Aufgabenstellung
-Du moechtest herausfinden, welcher Buchstabe in einem Buch am haeufigsten vorkommt. Dafuer untersuchst du eine Seite.
+Du möchtest herausfinden, welcher Buchstabe in einem Buch am häufigsten vorkommt. Dafür untersuchst du eine Seite.
 
 a) Warum solltest du nicht nur einen einzigen Satz untersuchen, sondern eine ganze Seite?
-b) Welche 5 Buchstaben wuerdest du als "haeufigste Kandidaten" vermuten?
+b) Welche 5 Buchstaben würdest du als "häufigste Kandidaten" vermuten?
 c) Hier ist das Ergebnis einer Seiten-Untersuchung:
 
 | Buchstabe | E | N | I | S | R | A | T |
 |-----------|---|---|---|---|---|---|---|
 | Anzahl | 42 | 28 | 21 | 19 | 25 | 18 | 20 |
 
-Sortiere die Buchstaben vom haeufigsten zum seltensten. Stimmt das Ergebnis mit deiner Vermutung ueberein?
+Sortiere die Buchstaben vom häufigsten zum seltensten. Stimmt das Ergebnis mit deiner Vermutung überein?
 
 ### Lösung
-a) In einem kurzen Satz koennen zufaellig manche Buchstaben sehr oft oder sehr selten vorkommen. Je laenger der Text, desto zuverlaessiger das Ergebnis.
+a) In einem kurzen Satz können zufällig manche Buchstaben sehr oft oder sehr selten vorkommen. Je länger der Text, desto zuverlässiger das Ergebnis.
 
-b) E, N, I, S, R (oder aehnlich)
+b) E, N, I, S, R (oder ähnlich)
 
 c) Sortiert: E(42) > N(28) > R(25) > I(21) > T(20) > S(19) > A(18)
 
-Die Reihenfolge E, N, R stimmt gut mit der allgemeinen Haeufigkeit ueberein. I und S sind etwas verschoben — kleine Abweichungen sind normal.
+Die Reihenfolge E, N, R stimmt gut mit der allgemeinen Häufigkeit überein. I und S sind etwas verschoben — kleine Abweichungen sind normal.
 
 ### Lösungsweg
-- a) Groessere Stichprobe = zuverlaessigeres Ergebnis (Gesetz der grossen Zahlen)
-- b) Aus Vorwissen: E, N, I, S, R sind die haeufigsten im Deutschen
-- c) Sortieren nach Groesse der Zahlen
+- a) Größere Stichprobe = zuverlässigeres Ergebnis (Gesetz der großen Zahlen)
+- b) Aus Vorwissen: E, N, I, S, R sind die häufigsten im Deutschen
+- c) Sortieren nach Größe der Zahlen
 
 ### Tipp 1 (Denkanstoß)
-Stell dir vor, du untersuchst nur das Wort "AFFE". Dann waere F der haeufigste Buchstabe! Aber ist F wirklich der haeufigste im Deutschen? Was passiert, wenn du mehr Text untersuchst?
+Stell dir vor, du untersuchst nur das Wort "AFFE". Dann wäre F der häufigste Buchstabe! Aber ist F wirklich der häufigste im Deutschen? Was passiert, wenn du mehr Text untersuchst?
 
 ### Tipp 2 (Methode)
-a) Laengere Texte = mehr Daten = besseres Ergebnis.
-c) Ordne die Zahlen von gross nach klein und schreibe die Buchstaben daneben.
+a) Längere Texte = mehr Daten = besseres Ergebnis.
+c) Ordne die Zahlen von groß nach klein und schreibe die Buchstaben daneben.
 
 ### Tipp 3 (Schritt-für-Schritt)
-c) Groesste Zahl: 42 (= E). Zweitgroesste: 28 (= N). Drittgroesste: 25 (= R). Weiter: 21 (= I), 20 (= T), 19 (= S), 18 (= A).
+c) Größte Zahl: 42 (= E). Zweitgrösste: 28 (= N). Drittgrösste: 25 (= R). Weiter: 21 (= I), 20 (= T), 19 (= S), 18 (= A).
 
 ### Didaktischer Hinweis
-Meta-Aufgabe: Kinder reflektieren ueber die Methode der Datenerhebung. Die Einsicht "mehr Daten = besseres Ergebnis" ist eine Schluesselkompetenz in der Statistik. Die Abweichungen von der Erwartung sind normal und lehrreich — kein Text hat EXAKT die allgemeine Verteilung.
+Meta-Aufgabe: Kinder reflektieren über die Methode der Datenerhebung. Die Einsicht "mehr Daten = besseres Ergebnis" ist eine Schlüsselkompetenz in der Statistik. Die Abweichungen von der Erwartung sind normal und lehrreich — kein Text hat EXAKT die allgemeine Verteilung.

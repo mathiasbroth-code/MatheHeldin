@@ -45,6 +45,18 @@ digital: voll
 | `stage_id` | string | Stage-ID aus FREDO_MAPPING.md |
 | `digital` | enum | `voll` (komplett digital), `teilweise` (eingeschränkt), `platzhalter` (nicht digital) |
 
+### Optionale Bild-Felder
+
+| Feld | Typ | Beschreibung |
+|------|-----|-------------|
+| `erklaerung_bild` | string | Pfad zu einem Erklärbild/Merkkasten (relativ zu `public/`, z.B. `assets/erklaerungen/stellenwerttafel.webp`) |
+| `themen_intro_bild` | string | Pfad zu einem Einführungsbild für das Thema |
+| `tipp_1_bild` | string | Bild für Tipp 1 (Denkanstoß) |
+| `tipp_2_bild` | string | Bild für Tipp 2 (Methode) |
+| `tipp_3_bild` | string | Bild für Tipp 3 (Schritt-für-Schritt) |
+
+Die Bilder stammen aus dem Fredo-4-Schulbuch (PDF) und werden als WebP-Ausschnitte in `public/assets/erklaerungen/` abgelegt. Nur zugeschnittene, relevante Ausschnitte verwenden — keine ganzen Buchseiten.
+
 ---
 
 ## Die 8 Interaktionstypen

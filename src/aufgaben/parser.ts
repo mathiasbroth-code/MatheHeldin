@@ -1,4 +1,5 @@
 import type { BankAufgabe, InteraktionsTyp, Schwierigkeit, DigitalGrad } from './types';
+import { parseDaten } from './parserTyped';
 
 /**
  * Parst eine Aufgaben-Markdown-Datei (z.B. 01-wiederholung.md)
@@ -33,8 +34,8 @@ function parseAufgabenBlock(block: string): BankAufgabe | null {
   // Extract Markdown sections
   const afterYaml = block.slice(yamlMatch[0].length);
   const aufgabenstellung = extractSection(afterYaml, 'Aufgabenstellung');
-  const loesung = extractSection(afterYaml, 'Lösung');
-  const loesungsweg = extractSection(afterYaml, 'Lösungsweg');
+  const loesung = extractSection(afterYaml, 'Lösung') ?? extractSection(afterYaml, 'Loesung');
+  const loesungsweg = extractSection(afterYaml, 'Lösungsweg') ?? extractSection(afterYaml, 'Loesungsweg');
   const tipp1 = extractSection(afterYaml, 'Tipp 1');
   const tipp2 = extractSection(afterYaml, 'Tipp 2');
   const tipp3 = extractSection(afterYaml, 'Tipp 3');
@@ -42,9 +43,24 @@ function parseAufgabenBlock(block: string): BankAufgabe | null {
 
   if (!meta.titel || !meta.typ || !aufgabenstellung) return null;
 
+  const typ = meta.typ as InteraktionsTyp;
+  const loesungStr = loesung || '';
+  const parsed = parseDaten(typ, aufgabenstellung, loesungStr);
+
+  // Optionale Bild-Felder aus YAML
+  const erklaerungBild = meta.erklaerung_bild || undefined;
+  const themenIntroBild = meta.themen_intro_bild || undefined;
+  const tippBilder: [string?, string?, string?, string?] = [
+    meta.tipp_1_bild || undefined,
+    meta.tipp_2_bild || undefined,
+    meta.tipp_3_bild || undefined,
+    undefined,
+  ];
+  const hatTippBilder = tippBilder.some(Boolean);
+
   return {
     titel: meta.titel,
-    typ: meta.typ as InteraktionsTyp,
+    typ,
     thema: meta.thema || '',
     schwierigkeit: (meta.schwierigkeit || 'grün') as Schwierigkeit,
     buchseite: parseInt(meta.buchseite || '0', 10),
@@ -52,14 +68,19 @@ function parseAufgabenBlock(block: string): BankAufgabe | null {
     stageId: meta.stage_id || '',
     digital: (meta.digital || 'voll') as DigitalGrad,
     aufgabenstellung,
-    loesung: loesung || '',
+    loesung: loesungStr,
     loesungsweg: loesungsweg || '',
     tipps: [
       tipp1 || 'Lies die Aufgabe nochmal genau durch.',
       tipp2 || 'Überlege Schritt für Schritt.',
       tipp3 || 'Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.',
+      loesungsweg || loesungStr || '',
     ],
+    ...(hatTippBilder ? { tippBilder } : {}),
     didaktischerHinweis: didaktischerHinweis || undefined,
+    erklaerungBild,
+    themenIntroBild,
+    parsed,
   } as BankAufgabe;
 }
 
@@ -94,15 +115,27 @@ function parseSimpleYaml(yaml: string): Record<string, string> {
 
 /**
  * Extracts a Markdown section by heading.
- * Returns the content between `### {name}` and the next `###` or end.
+ * Returns the content between `### {name}` and the next `###` or end of string.
+ *
+ * NOTE: We intentionally avoid using a single regex with the `m` flag and `$`,
+ * because in multiline mode `$` matches at the end of every line — causing
+ * a lazy `[\s\S]*?` to stop after the first line instead of capturing the
+ * full section content.
  */
 function extractSection(markdown: string, name: string): string | null {
-  // Match heading with optional content in parentheses, e.g. "### Tipp 1 (Denkanstoß)"
-  const pattern = new RegExp(`^### ${escapeRegex(name)}[^\\n]*\\n([\\s\\S]*?)(?=^### |$)`, 'm');
-  const match = markdown.match(pattern);
-  if (!match) return null;
+  // Step 1: Find the heading line
+  const headingPattern = new RegExp(`^### ${escapeRegex(name)}[^\\n]*\\n`, 'm');
+  const headingMatch = markdown.match(headingPattern);
+  if (!headingMatch || headingMatch.index === undefined) return null;
 
-  const content = match[1].trim();
+  // Step 2: Slice everything after the heading
+  const startIdx = headingMatch.index + headingMatch[0].length;
+  const rest = markdown.slice(startIdx);
+
+  // Step 3: Find the next ### heading or --- separator (at start of line) or take the rest
+  const nextSectionIdx = rest.search(/^(### |---$)/m);
+  const content = nextSectionIdx === -1 ? rest.trim() : rest.slice(0, nextSectionIdx).trim();
+
   return content || null;
 }
 

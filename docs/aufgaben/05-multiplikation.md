@@ -16,6 +16,7 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
 ---
 
 ### Aufgabenstellung
@@ -66,6 +67,7 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
 ---
 
 ### Aufgabenstellung
@@ -116,6 +118,7 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
 ---
 
 ### Aufgabenstellung
@@ -173,6 +176,7 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
 ---
 
 ### Aufgabenstellung
@@ -224,6 +228,7 @@ buchseite: 54
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-multiplikation"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
 ---
 
 ### Aufgabenstellung
@@ -276,6 +281,7 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -324,6 +330,7 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -375,6 +382,7 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -422,6 +430,7 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -469,6 +478,7 @@ buchseite: 55
 kapitel: "05-multiplikation"
 stage_id: "kopfrechnen-division"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s55-merkkasten-division.webp"
 ---
 
 ### Aufgabenstellung
@@ -520,6 +530,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -580,6 +592,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -639,6 +653,8 @@ buchseite: 56
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -693,6 +709,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -739,6 +757,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -788,6 +808,8 @@ buchseite: 57
 kapitel: "05-multiplikation"
 stage_id: "halbschriftlich-multiplizieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s56-halbschriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -837,6 +859,8 @@ buchseite: 58
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -900,6 +924,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -960,6 +986,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1012,6 +1040,8 @@ buchseite: 58
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1069,6 +1099,8 @@ buchseite: 59
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s54-merkkasten-multiplikation.webp"
+tipp_2_bild: "assets/erklaerungen/s58-schriftlich-multiplizieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1125,6 +1157,7 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1173,6 +1206,7 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1218,6 +1252,7 @@ buchseite: 61
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1268,6 +1303,7 @@ buchseite: 60
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1311,13 +1347,14 @@ Die Entscheidung zwischen Kopfrechnen und schriftlichem Rechnen (S. 60, Aufg. 5)
 
 ---
 titel: "Fehlende Ziffern ergänzen — Detektivarbeit"
-typ: luecke
+typ: lücke
 thema: "Schriftliches Multiplizieren vertiefen"
 schwierigkeit: orange
 buchseite: 61
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1368,6 +1405,7 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1421,6 +1459,7 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1478,6 +1517,7 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1535,6 +1575,7 @@ buchseite: 62
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1584,6 +1625,7 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1635,6 +1677,7 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1689,6 +1732,7 @@ buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung
@@ -1740,13 +1784,14 @@ S. 63, Aufg. 9 enthält Aufgaben mit zweistelligem und dreistelligem Multiplikat
 
 ---
 titel: "Ziffernkarten-Rätsel — Multiplikation rückwärts"
-typ: luecke
+typ: lücke
 thema: "Schriftliches Multiplizieren mehrstelliger Zahlen"
 schwierigkeit: orange
 buchseite: 63
 kapitel: "05-multiplikation"
 stage_id: "schriftlich-multiplizieren-3"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s60-merkkasten-produkt-ueberschlag.webp"
 ---
 
 ### Aufgabenstellung

@@ -1,169 +1,169 @@
-# Kapitel 12: Massstab - Orientierung im Raum — Aufgabensammlung
+# Kapitel 12: Maßstab - Orientierung im Raum — Aufgabensammlung
 Buchseiten: 116-121 | Themen: 3 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 
-# Thema 1: Vergroessern und verkleinern (S. 116-117)
+# Thema 1: Vergrößern und verkleinern (S. 116-117)
 
 ## Aufgabe 1
 
 ---
-titel: "Massstab verstehen — Vergroesserung erkennen"
+titel: "Maßstab verstehen — Vergrößerung erkennen"
 typ: auswahl
-thema: "Vergroessern und verkleinern"
+thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 116
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 video: "S116_Merkwissen_Massstab_Vergroesserung.mp4"
 ---
 
 ### Aufgabenstellung
-Ein Marienkaefer wird im Massstab 4 : 1 abgebildet. Was bedeutet das?
+Ein Marienkäfer wird im Maßstab 4 : 1 abgebildet. Was bedeutet das?
 
-a) Der Kaefer ist im Bild 4-mal so gross wie in Wirklichkeit.
-b) Der Kaefer ist im Bild 4-mal kleiner als in Wirklichkeit.
-c) Der Kaefer ist im Bild gleich gross wie in Wirklichkeit.
+a) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.
+b) Der Käfer ist im Bild 4-mal kleiner als in Wirklichkeit.
+c) Der Käfer ist im Bild gleich groß wie in Wirklichkeit.
 
-### Loesung
-a) Der Kaefer ist im Bild 4-mal so gross wie in Wirklichkeit.
+### Lösung
+a) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.
 
-### Loesungsweg
-Beim Massstab 4 : 1 steht die groessere Zahl links. Das bedeutet: Das Bild ist groesser als das Original. 4 : 1 heisst: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Kaefer wurde also 4-mal vergroessert.
+### Lösungsweg
+Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert.
 
 ### Tipp 1 (Denkanstoß)
-Schau dir die Zahlen im Massstab genau an: 4 : 1. Die linke Zahl steht fuer das Bild, die rechte fuer die Wirklichkeit. Welche Zahl ist groesser?
+Schau dir die Zahlen im Maßstab genau an: 4 : 1. Die linke Zahl steht für das Bild, die rechte für die Wirklichkeit. Welche Zahl ist größer?
 
 ### Tipp 2 (Methode)
-Beim Massstab gilt: linke Zahl = Bild, rechte Zahl = Wirklichkeit.
-- Linke Zahl groesser → Vergroesserung
-- Rechte Zahl groesser → Verkleinerung
-- Beide gleich (1 : 1) → Originalgroesse
+Beim Maßstab gilt: linke Zahl = Bild, rechte Zahl = Wirklichkeit.
+- Linke Zahl größer → Vergrößerung
+- Rechte Zahl größer → Verkleinerung
+- Beide gleich (1 : 1) → Originalgrösse
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Massstab 4 : 1 bedeutet: 4 cm im Bild = 1 cm in echt. Ist das Bild dann groesser oder kleiner als das Original?
+### Tipp 3 (Schritt-für-Schritt)
+Maßstab 4 : 1 bedeutet: 4 cm im Bild = 1 cm in echt. Ist das Bild dann größer oder kleiner als das Original?
 
 ### Didaktischer Hinweis
-Grundverstaendnis des Massstabs als Verhaeltnis. Entspricht S. 116, Einfuehrungsbeispiel mit der Kopflaus und den Kaefern.
+Grundverständnis des Maßstabs als Verhältnis. Entspricht S. 116, Einführungsbeispiel mit der Kopflaus und den Käfern.
 
 ---
 
 ## Aufgabe 2
 
 ---
-titel: "Wirkliche Groesse berechnen — Vergroesserung"
+titel: "Wirkliche Größe berechnen — Vergrößerung"
 typ: eingabe
-thema: "Vergroessern und verkleinern"
+thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 116
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 video: "S116_Anleitung_Laenge_in_Wirklichkeit.mp4"
 ---
 
 ### Aufgabenstellung
-Ein Rosenkaefer ist im Massstab 2 : 1 abgebildet. Im Bild ist er 40 mm lang. Wie gross ist er in Wirklichkeit?
+Ein Rosenkäfer ist im Maßstab 2 : 1 abgebildet. Im Bild ist er 40 mm lang. Wie groß ist er in Wirklichkeit?
 
-### Loesung
+### Lösung
 20 mm (= 2 cm)
 
-### Loesungsweg
-Massstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.
+### Lösungsweg
+Maßstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.
 Rechnung: 40 mm : 2 = 20 mm.
-Der Rosenkaefer ist in Wirklichkeit 20 mm (also 2 cm) lang.
+Der Rosenkäfer ist in Wirklichkeit 20 mm (also 2 cm) lang.
 
 ### Tipp 1 (Denkanstoß)
-Das Bild ist vergroessert — der Kaefer ist in Wirklichkeit also kleiner. Durch welche Zahl musst du die Bildgroesse teilen?
+Das Bild ist vergrößert — der Käfer ist in Wirklichkeit also kleiner. Durch welche Zahl musst du die Bildgrösse teilen?
 
 ### Tipp 2 (Methode)
-Bei Vergroesserung (z. B. 2 : 1) gilt:
-Laenge in Wirklichkeit = Laenge im Bild : Vergroesserungszahl
+Bei Vergrößerung (z. B. 2 : 1) gilt:
+Länge in Wirklichkeit = Länge im Bild : Vergrößerungszahl
 Also: ___ mm : 2 = ?
 
-### Tipp 3 (Schritt-fuer-Schritt)
-40 mm im Bild. Massstab 2 : 1 bedeutet: durch 2 teilen.
+### Tipp 3 (Schritt-für-Schritt)
+40 mm im Bild. Maßstab 2 : 1 bedeutet: durch 2 teilen.
 40 : 2 = ___
 
 ### Didaktischer Hinweis
-Erstes Rechnen mit Vergroesserungsmassstab. Entspricht S. 116, Aufg. 2.
+Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.
 
 ---
 
 ## Aufgabe 3
 
 ---
-titel: "Wirkliche Groesse berechnen — starke Vergroesserung"
+titel: "Wirkliche Größe berechnen — starke Vergrößerung"
 typ: eingabe
-thema: "Vergroessern und verkleinern"
-schwierigkeit: gruen
+thema: "Vergrößern und verkleinern"
+schwierigkeit: grün
 buchseite: 116
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Eine Kopflaus wird im Massstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie gross ist die Kopflaus in Wirklichkeit?
+Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit?
 
-### Loesung
-3 mm
+### Lösung
+3
 
-### Loesungsweg
-Massstab 20 : 1 bedeutet: 20 mm im Bild = 1 mm in Wirklichkeit.
+### Lösungsweg
+Maßstab 20 : 1 bedeutet: 20 mm im Bild = 1 mm in Wirklichkeit.
 Rechnung: 60 mm : 20 = 3 mm.
 Die Kopflaus ist in Wirklichkeit nur 3 mm lang.
 
 ### Tipp 1 (Denkanstoß)
-Die Laus wurde 20-mal vergroessert. Stell dir vor, du machst sie im Kopf wieder 20-mal kleiner. Welche Rechnung brauchst du dafuer?
+Die Laus wurde 20-mal vergrößert. Stell dir vor, du machst sie im Kopf wieder 20-mal kleiner. Welche Rechnung brauchst du dafür?
 
 ### Tipp 2 (Methode)
-Laenge in Wirklichkeit = Laenge im Bild : Vergroesserungszahl
+Länge in Wirklichkeit = Länge im Bild : Vergrößerungszahl
 Setze ein: 60 mm : 20 = ?
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 60 : 20 — das ist wie 6 : 2 = ___. Stimmt das?
 
 ### Didaktischer Hinweis
-Vertiefung mit groesserem Massstab. Entspricht S. 116, Kopflaus-Beispiel mit Massstab 20 : 1.
+Vertiefung mit größerem Maßstab. Entspricht S. 116, Kopflaus-Beispiel mit Maßstab 20 : 1.
 
 ---
 
 ## Aufgabe 4
 
 ---
-titel: "Wirkliche Groesse berechnen — Verkleinerung"
+titel: "Wirkliche Größe berechnen — Verkleinerung"
 typ: eingabe
-thema: "Vergroessern und verkleinern"
-schwierigkeit: gruen
+thema: "Vergrößern und verkleinern"
+schwierigkeit: grün
 buchseite: 117
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 video: "S117_Merkwissen_Massstab_Verkleinerung.mp4"
 ---
 
 ### Aufgabenstellung
-Ein Blauwal wurde im Massstab 1 : 500 gezeichnet. Im Bild ist er 6 cm lang. Wie lang ist der Blauwal in Wirklichkeit? Gib das Ergebnis in Metern an.
+Ein Blauwal wurde im Maßstab 1 : 500 gezeichnet. Im Bild ist er 6 cm lang. Wie lang ist der Blauwal in Wirklichkeit? Gib das Ergebnis in Metern an.
 
-### Loesung
-30 m
+### Lösung
+30
 
-### Loesungsweg
-Massstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.
+### Lösungsweg
+Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.
 Rechnung: 6 cm · 500 = 3.000 cm = 30 m.
 Der Blauwal ist in Wirklichkeit 30 m lang.
 
 ### Tipp 1 (Denkanstoß)
-Bei einer Verkleinerung (1 : 500) ist das Original viel groesser als das Bild. Musst du die Bildlaenge mit der Zahl multiplizieren oder durch sie teilen?
+Bei einer Verkleinerung (1 : 500) ist das Original viel größer als das Bild. Musst du die Bildlänge mit der Zahl multiplizieren oder durch sie teilen?
 
 ### Tipp 2 (Methode)
 Bei Verkleinerung (z. B. 1 : 500) gilt:
-Laenge in Wirklichkeit = Laenge im Bild · Verkleinerungszahl
+Länge in Wirklichkeit = Länge im Bild · Verkleinerungszahl
 Also: 6 cm · 500 = ___
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 6 · 500 = 6 · 5 · 100 = 30 · 100 = 3.000 cm. Wie viele Meter sind 3.000 cm? (100 cm = 1 m)
 
 ### Didaktischer Hinweis
@@ -174,19 +174,19 @@ Wechsel zum Verkleinerungsmassstab. Wichtig ist die Umrechnung cm → m. Entspri
 ## Aufgabe 5
 
 ---
-titel: "Massstab zuordnen — Vergroesserung oder Verkleinerung?"
+titel: "Maßstab zuordnen — Vergrößerung oder Verkleinerung?"
 typ: zuordnung
-thema: "Vergroessern und verkleinern"
+thema: "Vergrößern und verkleinern"
 schwierigkeit: gelb
 buchseite: 117
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 video: "S117_Anleitung_VerkleinernVergroessern.mp4"
 ---
 
 ### Aufgabenstellung
-Ordne jeden Massstab zu: Ist es eine Vergroesserung oder eine Verkleinerung?
+Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?
 
 a) 3 : 1
 b) 1 : 1.000
@@ -194,123 +194,123 @@ c) 1 : 1
 d) 10 : 1
 e) 1 : 50.000
 
-### Loesung
-a) 3 : 1 → Vergroesserung
+### Lösung
+a) 3 : 1 → Vergrößerung
 b) 1 : 1.000 → Verkleinerung
-c) 1 : 1 → Originalgroesse
-d) 10 : 1 → Vergroesserung
+c) 1 : 1 → Originalgrösse
+d) 10 : 1 → Vergrößerung
 e) 1 : 50.000 → Verkleinerung
 
-### Loesungsweg
+### Lösungsweg
 Die Regel:
-- Linke Zahl groesser → Vergroesserung (Bild groesser als Original)
-- Rechte Zahl groesser → Verkleinerung (Bild kleiner als Original)
-- Beide gleich → Originalgroesse
+- Linke Zahl größer → Vergrößerung (Bild größer als Original)
+- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)
+- Beide gleich → Originalgrösse
 
 ### Tipp 1 (Denkanstoß)
-Die linke Zahl steht immer fuer das Bild, die rechte fuer die Wirklichkeit. Vergleiche die beiden Zahlen: Welche ist groesser?
+Die linke Zahl steht immer für das Bild, die rechte für die Wirklichkeit. Vergleiche die beiden Zahlen: Welche ist größer?
 
 ### Tipp 2 (Methode)
 Merk dir: Links steht das Bild, rechts die Wirklichkeit.
-- Links groesser → Vergroesserung (z. B. 3 : 1)
-- Rechts groesser → Verkleinerung (z. B. 1 : 1.000)
+- Links größer → Vergrößerung (z. B. 3 : 1)
+- Rechts größer → Verkleinerung (z. B. 1 : 1.000)
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Nimm z. B. 3 : 1. Links = 3, rechts = 1. 3 ist groesser als 1 → das Bild ist groesser → ___
+### Tipp 3 (Schritt-für-Schritt)
+Nimm z. B. 3 : 1. Links = 3, rechts = 1. 3 ist größer als 1 → das Bild ist größer → ___
 
 ### Didaktischer Hinweis
-Zuordnungsaufgabe sichert das Grundverstaendnis von Vergroesserung vs. Verkleinerung. Entspricht S. 117, Merkkasten.
+Zuordnungsaufgabe sichert das Grundverständnis von Vergrößerung vs. Verkleinerung. Entspricht S. 117, Merkkasten.
 
 ---
 
 ## Aufgabe 6
 
 ---
-titel: "Streckenlaengen bei verschiedenen Verkleinerungen berechnen"
+titel: "Streckenlängen bei verschiedenen Verkleinerungen berechnen"
 typ: eingabe
-thema: "Vergroessern und verkleinern"
-schwierigkeit: gruen
+thema: "Vergrößern und verkleinern"
+schwierigkeit: grün
 buchseite: 117
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Ein Schulgebaeude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung waere.
+Ein Schulgebäude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung wäre.
 
-a) Massstab 1 : 200
-b) Massstab 1 : 500
-c) Massstab 1 : 1.000
+a) Maßstab 1 : 200
+b) Maßstab 1 : 500
+c) Maßstab 1 : 1.000
 
-### Loesung
-a) 20 cm
-b) 8 cm
-c) 4 cm
+### Lösung
+a) 20
+b) 8
+c) 4
 
-### Loesungsweg
+### Lösungsweg
 Zuerst in cm umrechnen: 40 m = 4.000 cm.
 - a) 4.000 cm : 200 = 20 cm
 - b) 4.000 cm : 500 = 8 cm
 - c) 4.000 cm : 1.000 = 4 cm
 
-Je groesser die Verkleinerungszahl, desto kleiner die Zeichnung.
+Je größer die Verkleinerungszahl, desto kleiner die Zeichnung.
 
 ### Tipp 1 (Denkanstoß)
-Bei Verkleinerung teilst du die echte Laenge durch die Massstabszahl. Aber Achtung: Du musst zuerst alles in die gleiche Einheit bringen!
+Bei Verkleinerung teilst du die echte Länge durch die Maßstabszahl. Aber Achtung: Du musst zuerst alles in die gleiche Einheit bringen!
 
 ### Tipp 2 (Methode)
 1. Rechne 40 m in cm um: 40 · 100 = 4.000 cm
-2. Teile durch die Massstabszahl:
+2. Teile durch die Maßstabszahl:
    a) 4.000 : 200 = ?
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 a) 4.000 : 200 — das ist wie 40 : 2 = 20 cm. Jetzt mach b): 4.000 : 500 = ?
 
 ### Didaktischer Hinweis
-Umkehrrechnung: von Wirklichkeit zum Bild. Benoetigt Einheitenumrechnung m → cm. Entspricht S. 117, Aufg. 3-5.
+Umkehrrechnung: von Wirklichkeit zum Bild. Benötigt Einheitenumrechnung m → cm. Entspricht S. 117, Aufg. 3-5.
 
 ---
 
 ## Aufgabe 7
 
 ---
-titel: "Bildlaenge oder echte Laenge? — Massstab-Profi"
+titel: "Bildlänge oder echte Länge? — Maßstab-Profi"
 typ: eingabe
-thema: "Vergroessern und verkleinern"
+thema: "Vergrößern und verkleinern"
 schwierigkeit: orange
 buchseite: 117
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Berechne die fehlende Groesse.
+Berechne die fehlende Größe.
 
-a) Massstab 5 : 1, Laenge im Bild: 30 mm → Laenge in Wirklichkeit: ___
-b) Massstab 1 : 2.000, Laenge in Wirklichkeit: 80 m → Laenge im Bild: ___
-c) Massstab 1 : 100, Laenge im Bild: 15 cm → Laenge in Wirklichkeit: ___
+a) Maßstab 5 : 1, Länge im Bild: 30 mm → Länge in Wirklichkeit: ___
+b) Maßstab 1 : 2.000, Länge in Wirklichkeit: 80 m → Länge im Bild: ___
+c) Maßstab 1 : 100, Länge im Bild: 15 cm → Länge in Wirklichkeit: ___
 
-### Loesung
-a) 6 mm
-b) 4 cm
-c) 15 m
+### Lösung
+a) 6
+b) 4
+c) 15
 
-### Loesungsweg
-- a) Vergroesserung: 30 mm : 5 = 6 mm
+### Lösungsweg
+- a) Vergrößerung: 30 mm : 5 = 6 mm
 - b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm
 - c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m
 
 ### Tipp 1 (Denkanstoß)
-Pruefe zuerst: Ist es eine Vergroesserung (linke Zahl groesser) oder eine Verkleinerung (rechte Zahl groesser)? Davon haengt ab, ob du multiplizierst oder teilst.
+Prüfe zuerst: Ist es eine Vergrößerung (linke Zahl größer) oder eine Verkleinerung (rechte Zahl größer)? Davon hängt ab, ob du multiplizierst oder teilst.
 
 ### Tipp 2 (Methode)
-- Vergroesserung (z. B. 5 : 1): Bild → Wirklichkeit = teilen
+- Vergrößerung (z. B. 5 : 1): Bild → Wirklichkeit = teilen
 - Verkleinerung (z. B. 1 : 100): Bild → Wirklichkeit = multiplizieren
 - Verkleinerung: Wirklichkeit → Bild = teilen
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 a) 30 : 5 = ___
 b) 80 m = 8.000 cm, dann 8.000 : 2.000 = ___
 c) 15 · 100 = 1.500 cm = ___ m
@@ -323,42 +323,42 @@ Gemischte Aufgaben mit beiden Richtungen (Bild→Wirklichkeit und Wirklichkeit�
 ## Aufgabe 8
 
 ---
-titel: "Welcher Massstab passt? — Vergroesserungen vergleichen"
+titel: "Welcher Maßstab passt? — Vergrößerungen vergleichen"
 typ: auswahl
-thema: "Vergroessern und verkleinern"
+thema: "Vergrößern und verkleinern"
 schwierigkeit: orange
 buchseite: 116
-kapitel: "12-massstab-orientierung"
-stage_id: "massstab"
+kapitel: "12-maßstab-orientierung"
+stage_id: "maßstab"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Ein Kaefer ist in Wirklichkeit 15 mm lang. Im Bild ist er 45 mm lang. Welcher Massstab wurde verwendet?
+Ein Käfer ist in Wirklichkeit 15 mm lang. Im Bild ist er 45 mm lang. Welcher Maßstab wurde verwendet?
 
 a) 1 : 3
 b) 3 : 1
 c) 15 : 1
 d) 1 : 15
 
-### Loesung
+### Lösung
 b) 3 : 1
 
-### Loesungsweg
-Das Bild ist groesser als die Wirklichkeit → Vergroesserung.
-45 mm : 15 mm = 3. Das Bild ist 3-mal so gross → Massstab 3 : 1.
+### Lösungsweg
+Das Bild ist größer als die Wirklichkeit → Vergrößerung.
+45 mm : 15 mm = 3. Das Bild ist 3-mal so groß → Maßstab 3 : 1.
 
 ### Tipp 1 (Denkanstoß)
-Das Bild (45 mm) ist groesser als der echte Kaefer (15 mm). Also ist es eine Vergroesserung — wo steht die groessere Zahl dann?
+Das Bild (45 mm) ist größer als der echte Käfer (15 mm). Also ist es eine Vergrößerung — wo steht die größere Zahl dann?
 
 ### Tipp 2 (Methode)
-Berechne: Bildlaenge : echte Laenge = 45 : 15 = ___. Das ist der Vergroesserungsfaktor.
+Berechne: Bildlänge : echte Länge = 45 : 15 = ___. Das ist der Vergrößerungsfaktor.
 
-### Tipp 3 (Schritt-fuer-Schritt)
-45 : 15 = 3. Das Bild ist 3-mal so gross. Also Massstab ___ : 1.
+### Tipp 3 (Schritt-für-Schritt)
+45 : 15 = 3. Das Bild ist 3-mal so groß. Also Maßstab ___ : 1.
 
 ### Didaktischer Hinweis
-Umkehrdenkaufgabe: vom Ergebnis den Massstab ableiten. Entspricht S. 116, Aufg. 2b.
+Umkehrdenkaufgabe: vom Ergebnis den Maßstab ableiten. Entspricht S. 116, Aufg. 2b.
 
 ---
 
@@ -372,39 +372,39 @@ typ: eingabe
 thema: "Ansichten und Grundriss"
 schwierigkeit: gelb
 buchseite: 118
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Wie heissen die vier Himmelsrichtungen? Schreibe sie auf.
+Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.
 
 a) N = ___
 b) O = ___
 c) S = ___
 d) W = ___
 
-### Loesung
+### Lösung
 a) N = Norden
 b) O = Osten
-c) S = Sueden
+c) S = Süden
 d) W = Westen
 
-### Loesungsweg
-Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Sueden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen" — im Uhrzeigersinn gelesen.
+### Lösungsweg
+Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Süden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen" — im Uhrzeigersinn gelesen.
 
 ### Tipp 1 (Denkanstoß)
 Kennst du den Merksatz „Nie Ohne Seife Waschen"? Die Anfangsbuchstaben verraten dir die Himmelsrichtungen im Uhrzeigersinn.
 
 ### Tipp 2 (Methode)
-Stell dir eine Windrose vor: Oben ist Norden, rechts ist Osten, unten ist Sueden, links ist Westen.
+Stell dir eine Windrose vor: Oben ist Norden, rechts ist Osten, unten ist Süden, links ist Westen.
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 N = Norden. Jetzt dreh dich im Uhrzeigersinn: O = ___, S = ___, W = ___
 
 ### Didaktischer Hinweis
-Grundwissen Himmelsrichtungen als Voraussetzung fuer Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.
+Grundwissen Himmelsrichtungen als Voraussetzung für Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.
 
 ---
 
@@ -416,7 +416,7 @@ typ: zuordnung
 thema: "Ansichten und Grundriss"
 schwierigkeit: gelb
 buchseite: 118
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 ---
@@ -434,34 +434,34 @@ d) Burghof
 3) Kleine Kirche innerhalb der Burgmauern
 4) Freier Platz im Inneren der Burg
 
-### Loesung
+### Lösung
 a) Burggraben → 2) Wassergraben rund um die Burg zum Schutz
 b) Wehrgang → 1) Gang auf der Mauer, von dem man die Umgebung beobachten kann
 c) Burgkapelle → 3) Kleine Kirche innerhalb der Burgmauern
 d) Burghof → 4) Freier Platz im Inneren der Burg
 
-### Loesungsweg
-Die Begriffe erklaeren sich teilweise selbst:
+### Lösungsweg
+Die Begriffe erklären sich teilweise selbst:
 - Burg-GRABEN = ein Graben um die Burg
 - WEHR-gang = ein Gang zum Wehren (Verteidigen)
 - Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg
 - Burg-HOF = der Hof (freie Platz) in der Burg
 
 ### Tipp 1 (Denkanstoß)
-Viele Burgbegriffe sind zusammengesetzte Woerter. Zerlege sie: „Burg" + „Graben" — was koennte ein Graben bei einer Burg sein?
+Viele Burgbegriffe sind zusammengesetzte Wörter. Zerlege sie: „Burg" + „Graben" — was könnte ein Graben bei einer Burg sein?
 
 ### Tipp 2 (Methode)
-Ueberlege bei jedem Wort: Was bedeutet der zweite Teil?
+Überlege bei jedem Wort: Was bedeutet der zweite Teil?
 - Graben → Loch/Kanal mit Wasser
 - Gang → ein Weg zum Gehen
 - Kapelle → kleine Kirche
 - Hof → freier Platz
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 Der Burggraben ist ein Graben rund um die Burg → Antwort ___. Der Wehrgang ist ein Gang zum Wehren → Antwort ___.
 
 ### Didaktischer Hinweis
-Sachkundliches Verstaendnis als Grundlage fuer Grundrisslesen. Entspricht S. 118-119, Burg Wildenstein.
+Sachkundliches Verständnis als Grundlage für Grundrisslesen. Entspricht S. 118-119, Burg Wildenstein.
 
 ---
 
@@ -471,9 +471,9 @@ Sachkundliches Verstaendnis als Grundlage fuer Grundrisslesen. Entspricht S. 118
 titel: "Foto oder Grundriss? — Darstellungsarten unterscheiden"
 typ: auswahl
 thema: "Ansichten und Grundriss"
-schwierigkeit: gruen
+schwierigkeit: grün
 buchseite: 119
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
 ---
@@ -481,30 +481,30 @@ digital: voll
 ### Aufgabenstellung
 Was ist der Unterschied zwischen einer Luftaufnahme und einem Grundriss?
 
-a) Eine Luftaufnahme zeigt ein Gebaeude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.
-b) Eine Luftaufnahme zeigt ein Gebaeude von der Seite, ein Grundriss von oben.
+a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.
+b) Eine Luftaufnahme zeigt ein Gebäude von der Seite, ein Grundriss von oben.
 c) Beide zeigen genau das Gleiche.
 
-### Loesung
-a) Eine Luftaufnahme zeigt ein Gebaeude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.
+### Lösung
+a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.
 
-### Loesungsweg
+### Lösungsweg
 Beides zeigt einen Blick von oben, aber:
 - Luftaufnahme = echtes Foto aus der Vogelperspektive
-- Grundriss = vereinfachte, massstabsgetreue Zeichnung (Umrisse, keine Details wie Farben oder Schatten)
+- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)
 
 ### Tipp 1 (Denkanstoß)
-Stell dir vor, du fliegst ueber ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...
+Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...
 
 ### Tipp 2 (Methode)
 Luftaufnahme = Foto von oben (mit allen Details)
-Grundriss = Zeichnung von oben (nur Umrisse und Raeume)
+Grundriss = Zeichnung von oben (nur Umrisse und Räume)
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 Beide zeigen etwas von oben. Aber eines ist ein Foto und eines ist eine vereinfachte ___
 
 ### Didaktischer Hinweis
-Unterscheidung Foto/Plan als Grundlage fuer Kartenverstaendnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.
+Unterscheidung Foto/Plan als Grundlage für Kartenverständnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.
 
 ---
 
@@ -514,39 +514,39 @@ Unterscheidung Foto/Plan als Grundlage fuer Kartenverstaendnis. Entspricht S. 11
 titel: "Standort bestimmen — Von wo wurde fotografiert?"
 typ: auswahl
 thema: "Ansichten und Grundriss"
-schwierigkeit: gruen
+schwierigkeit: grün
 buchseite: 119
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 ---
 
 ### Aufgabenstellung
-Stell dir vor, du stehst vor einem Haus und fotografierst es. Du siehst die Haustuer und zwei Fenster. Dein Freund fotografiert das gleiche Haus von der Rueckseite. Er sieht eine Terrassentuer und ein Fenster.
+Stell dir vor, du stehst vor einem Haus und fotografierst es. Du siehst die Haustür und zwei Fenster. Dein Freund fotografiert das gleiche Haus von der Rückseite. Er sieht eine Terrassentür und ein Fenster.
 
 Welche Aussage stimmt?
 
 a) Beide Fotos sehen gleich aus, weil es das gleiche Haus ist.
-b) Die Fotos sehen unterschiedlich aus, weil man ein Gebaeude aus verschiedenen Richtungen unterschiedlich sieht.
+b) Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht.
 c) Nur das Foto von vorne ist richtig.
 
-### Loesung
-b) Die Fotos sehen unterschiedlich aus, weil man ein Gebaeude aus verschiedenen Richtungen unterschiedlich sieht.
+### Lösung
+b) Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht.
 
-### Loesungsweg
-Ein Gebaeude sieht von jeder Seite anders aus. Die Vorderseite hat oft die Haustuer, die Rueckseite hat vielleicht eine Terrassentuer. Von der Seite sieht man wieder etwas anderes. Deshalb sind Ansichten aus verschiedenen Richtungen verschieden.
+### Lösungsweg
+Ein Gebäude sieht von jeder Seite anders aus. Die Vorderseite hat oft die Haustür, die Rückseite hat vielleicht eine Terrassentür. Von der Seite sieht man wieder etwas anderes. Deshalb sind Ansichten aus verschiedenen Richtungen verschieden.
 
 ### Tipp 1 (Denkanstoß)
-Denk an dein eigenes Haus oder deine Schule. Sieht das Gebaeude von vorne genauso aus wie von hinten?
+Denk an dein eigenes Haus oder deine Schule. Sieht das Gebäude von vorne genauso aus wie von hinten?
 
 ### Tipp 2 (Methode)
-Jede Seite eines Gebaeudes heisst „Ansicht": Vorderansicht, Rueckansicht, Seitenansicht. Jede zeigt andere Details.
+Jede Seite eines Gebäudes heißt „Ansicht": Vorderansicht, Rückansicht, Seitenansicht. Jede zeigt andere Details.
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Vorne: Haustuer + 2 Fenster. Hinten: Terrassentuer + 1 Fenster. Sind diese Bilder gleich oder ___?
+### Tipp 3 (Schritt-für-Schritt)
+Vorne: Haustür + 2 Fenster. Hinten: Terrassentür + 1 Fenster. Sind diese Bilder gleich oder ___?
 
 ### Didaktischer Hinweis
-Perspektivwechsel als raeumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus vier Richtungen).
+Perspektivwechsel als räumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus vier Richtungen).
 
 ---
 
@@ -556,9 +556,9 @@ Perspektivwechsel als raeumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus v
 titel: "Himmelsrichtung auf dem Grundriss — Wo liegt was?"
 typ: eingabe
 thema: "Ansichten und Grundriss"
-schwierigkeit: gruen
+schwierigkeit: grün
 buchseite: 118
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 ---
@@ -570,16 +570,16 @@ a) Wenn du auf dem Grundriss nach rechts schaust, in welche Himmelsrichtung blic
 b) Wenn du auf dem Grundriss nach unten schaust, in welche Himmelsrichtung blickst du?
 c) Ein Turm steht auf dem Grundriss links. In welcher Himmelsrichtung steht er?
 
-### Loesung
+### Lösung
 a) Osten
-b) Sueden
+b) Süden
 c) Westen
 
-### Loesungsweg
+### Lösungsweg
 Auf Karten und Grundrissen gilt (wenn Norden oben ist):
 - Oben = Norden
 - Rechts = Osten
-- Unten = Sueden
+- Unten = Süden
 - Links = Westen
 
 ### Tipp 1 (Denkanstoß)
@@ -589,11 +589,11 @@ Stell dir die Windrose vor wie ein Kompass: Norden ist immer oben auf der Karte.
 Auf der Karte: oben = N, rechts = O, unten = S, links = W.
 Merksatz: „Nie Ohne Seife Waschen" (im Uhrzeigersinn).
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 Rechts auf der Karte = O = ___. Unten = S = ___. Links = W = ___.
 
 ### Didaktischer Hinweis
-Verknuepfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.
+Verknüpfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.
 
 ---
 
@@ -605,26 +605,26 @@ typ: auswahl
 thema: "Ansichten und Grundriss"
 schwierigkeit: orange
 buchseite: 119
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 ---
 
 ### Aufgabenstellung
-Du stehst noerdlich von einem Haus und schaust nach Sueden. Du siehst die Nordseite des Hauses. Jetzt gehst du um das Haus herum und stellst dich auf die Suedseite.
+Du stehst nördlich von einem Haus und schaust nach Süden. Du siehst die Nordseite des Hauses. Jetzt gehst du um das Haus herum und stellst dich auf die Südseite.
 
 Welche Seite des Hauses siehst du jetzt?
 
 a) Die Nordseite
-b) Die Suedseite
+b) Die Südseite
 c) Die Westseite
 d) Die Ostseite
 
-### Loesung
-b) Die Suedseite
+### Lösung
+b) Die Südseite
 
-### Loesungsweg
-Wenn du auf der Suedseite stehst und zum Haus schaust, blickst du nach Norden — aber du siehst die Seite des Hauses, die nach Sueden zeigt. Die Seite, die du siehst, wird immer nach der Himmelsrichtung benannt, in die sie zeigt.
+### Lösungsweg
+Wenn du auf der Südseite stehst und zum Haus schaust, blickst du nach Norden — aber du siehst die Seite des Hauses, die nach Süden zeigt. Die Seite, die du siehst, wird immer nach der Himmelsrichtung benannt, in die sie zeigt.
 
 ### Tipp 1 (Denkanstoß)
 Stell dir vor, du stehst unten auf dem Grundriss und schaust nach oben (Norden). Welche Seite des Hauses schaust du an?
@@ -632,93 +632,93 @@ Stell dir vor, du stehst unten auf dem Grundriss und schaust nach oben (Norden).
 ### Tipp 2 (Methode)
 Die Seite des Hauses wird nach der Richtung benannt, in die sie zeigt — nicht nach der Richtung, aus der du schaust.
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Du stehst im Sueden. Die Hausseite, die zu dir zeigt, zeigt nach ___. Also siehst du die ___-seite.
+### Tipp 3 (Schritt-für-Schritt)
+Du stehst im Süden. Die Hausseite, die zu dir zeigt, zeigt nach ___. Also siehst du die ___-seite.
 
 ### Didaktischer Hinweis
-Anspruchsvolle raeumliche Orientierung. Entspricht S. 119, Aufg. 3 (Ansichten zuordnen).
+Anspruchsvolle räumliche Orientierung. Entspricht S. 119, Aufg. 3 (Ansichten zuordnen).
 
 ---
 
 ## Aufgabe 15
 
 ---
-titel: "Grundriss lesen — Raeume zuordnen"
+titel: "Grundriss lesen — Räume zuordnen"
 typ: zuordnung
 thema: "Ansichten und Grundriss"
 schwierigkeit: orange
 buchseite: 119
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
 ---
 
 ### Aufgabenstellung
-Auf einem Grundriss siehst du verschiedene Raeume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.
+Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.
 
-a) Grosses Rechteck mit kleinem Quadrat darin → ___
+a) Großes Rechteck mit kleinem Quadrat darin → ___
 b) Kleines Rechteck mit Kreis (Waschbecken) → ___
 c) Rechteck mit Viertelkreis an der Ecke → ___
 d) Offener Bereich am Eingang → ___
 
 1) Badezimmer
-2) Kueche
-3) Tuer (Viertelkreis = Schwungbereich)
+2) Küche
+3) Tür (Viertelkreis = Schwungbereich)
 4) Flur
 
-### Loesung
-a) → 2) Kueche (Herd/Spuele als kleines Quadrat)
+### Lösung
+a) → 2) Küche (Herd/Spüle als kleines Quadrat)
 b) → 1) Badezimmer (Waschbecken-Symbol)
-c) → 3) Tuer (Schwungbereich)
+c) → 3) Tür (Schwungbereich)
 d) → 4) Flur
 
-### Loesungsweg
+### Lösungsweg
 Grundrisse verwenden Symbole:
-- Tuer = Viertelkreis (der Schwungbereich der Tuer)
+- Tür = Viertelkreis (der Schwungbereich der Tür)
 - Waschbecken = kleines Oval oder Kreis
-- Kueche hat oft Herd (Quadrat mit Kreisen) und Spuele
+- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle
 
 ### Tipp 1 (Denkanstoß)
-Wenn du in deiner Wohnung die Badezimmertuer oeffnest, macht sie einen Viertelkreis. So sieht das im Grundriss aus!
+Wenn du in deiner Wohnung die Badezimmertür öffnest, macht sie einen Viertelkreis. So sieht das im Grundriss aus!
 
 ### Tipp 2 (Methode)
-Suche nach typischen Hinweisen: Ein Raum mit Waschbecken-Symbol ist wahrscheinlich das Bad. Ein Viertelkreis an einer Wand zeigt eine Tuer.
+Suche nach typischen Hinweisen: Ein Raum mit Waschbecken-Symbol ist wahrscheinlich das Bad. Ein Viertelkreis an einer Wand zeigt eine Tür.
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Der Kreis/das Oval steht fuer ein Waschbecken → welcher Raum hat ein Waschbecken? Das ist das ___
+### Tipp 3 (Schritt-für-Schritt)
+Der Kreis/das Oval steht für ein Waschbecken → welcher Raum hat ein Waschbecken? Das ist das ___
 
 ### Didaktischer Hinweis
 Grundriss-Symbole lesen als lebenspraktische Kompetenz. Erweiterung zu S. 118-119.
 
 ---
 
-# Thema 3: Orientierung auf Karten und Plaenen (S. 120-121)
+# Thema 3: Orientierung auf Karten und Plänen (S. 120-121)
 
 ## Aufgabe 16
 
 ---
-titel: "Massstab auf der Karte — Strecken berechnen"
+titel: "Maßstab auf der Karte — Strecken berechnen"
 typ: eingabe
-thema: "Orientierung auf Karten und Plaenen"
+thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 120
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Eine Wanderkarte hat den Massstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.
+Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.
 
-a) Laenge auf der Karte: 4 cm → Laenge in Wirklichkeit: ___ m
-b) Laenge auf der Karte: 10 cm → Laenge in Wirklichkeit: ___ m
+a) Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m
+b) Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m
 
-### Loesung
+### Lösung
 a) 1.000 m (= 1 km)
 b) 2.500 m (= 2,5 km)
 
-### Loesungsweg
-Massstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.
+### Lösungsweg
+Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.
 - a) 4 cm · 25.000 = 100.000 cm = 1.000 m
 - b) 10 cm · 25.000 = 250.000 cm = 2.500 m
 
@@ -727,11 +727,11 @@ Massstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.
 
 ### Tipp 2 (Methode)
 Rechne schrittweise:
-1. Kartenlaenge · Massstabszahl = echte Laenge in cm
+1. Kartenlänge · Maßstabszahl = echte Länge in cm
 2. Teile durch 100 → Meter
 3. Teile durch 1.000 → Kilometer
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 a) 4 · 25.000 = 100.000 cm. Wie viele Meter? 100.000 : 100 = ___ m
 
 ### Didaktischer Hinweis
@@ -744,133 +744,133 @@ Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenst
 ---
 titel: "Wanderung planen — Strecke und Dauer berechnen"
 typ: schritt
-thema: "Orientierung auf Karten und Plaenen"
-schwierigkeit: gruen
+thema: "Orientierung auf Karten und Plänen"
+schwierigkeit: grün
 buchseite: 120
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Die Klasse 4b plant eine Wanderung. Auf der Karte (Massstab 1 : 25.000) ist der Weg 16 cm lang. Fuer 1 km braucht man zu Fuss etwa 20 Minuten.
+Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.
 
 a) Wie lang ist die Wanderstrecke in Wirklichkeit?
-b) Wie lange dauert die Wanderung ungefaehr?
+b) Wie lange dauert die Wanderung ungefähr?
 
-### Loesung
+### Lösung
 a) 4 km (= 4.000 m)
 b) 80 Minuten (= 1 Stunde 20 Minuten)
 
-### Loesungsweg
+### Lösungsweg
 a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km
 b) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min
 
 ### Tipp 1 (Denkanstoß)
-Rechne zuerst die Strecke aus (cm → m → km). Dann ueberleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?
+Rechne zuerst die Strecke aus (cm → m → km). Dann überleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?
 
 ### Tipp 2 (Methode)
 Schritt 1: 16 · 25.000 = 400.000 cm
 Schritt 2: 400.000 : 100 = 4.000 m = 4 km
 Schritt 3: 4 · 20 Min = ___ Min
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Die Strecke ist 4 km. Fuer 1 km braucht man 20 Minuten, also fuer 4 km: 4 · 20 = ___ Minuten. Wie viele Stunden und Minuten sind das?
+### Tipp 3 (Schritt-für-Schritt)
+Die Strecke ist 4 km. Für 1 km braucht man 20 Minuten, also für 4 km: 4 · 20 = ___ Minuten. Wie viele Stunden und Minuten sind das?
 
 ### Didaktischer Hinweis
-Mehrstufige Sachaufgabe mit Massstab und Zeitberechnung. Entspricht S. 120, Aufg. 3.
+Mehrstufige Sachaufgabe mit Maßstab und Zeitberechnung. Entspricht S. 120, Aufg. 3.
 
 ---
 
 ## Aufgabe 18
 
 ---
-titel: "Streckenlaenge bei verschiedenen Massstaben vergleichen"
+titel: "Streckenlänge bei verschiedenen Maßstaben vergleichen"
 typ: eingabe
-thema: "Orientierung auf Karten und Plaenen"
-schwierigkeit: gruen
+thema: "Orientierung auf Karten und Plänen"
+schwierigkeit: grün
 buchseite: 120
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Berechne die Streckenlaengen in Wirklichkeit. Gib in km an.
+Berechne die Streckenlängen in Wirklichkeit. Gib in km an.
 
-a) Massstab 1 : 25.000, Laenge auf der Karte: 20 cm
-b) Massstab 1 : 50.000, Laenge auf der Karte: 20 cm
-c) Massstab 1 : 100.000, Laenge auf der Karte: 20 cm
+a) Maßstab 1 : 25.000, Länge auf der Karte: 20 cm
+b) Maßstab 1 : 50.000, Länge auf der Karte: 20 cm
+c) Maßstab 1 : 100.000, Länge auf der Karte: 20 cm
 
-### Loesung
-a) 5 km
-b) 10 km
-c) 20 km
+### Lösung
+a) 5
+b) 10
+c) 20
 
-### Loesungsweg
+### Lösungsweg
 - a) 20 cm · 25.000 = 500.000 cm = 5.000 m = 5 km
 - b) 20 cm · 50.000 = 1.000.000 cm = 10.000 m = 10 km
 - c) 20 cm · 100.000 = 2.000.000 cm = 20.000 m = 20 km
 
-Je groesser die Massstabszahl, desto groesser die echte Strecke bei gleicher Kartenlaenge.
+Je größer die Maßstabszahl, desto größer die echte Strecke bei gleicher Kartenlänge.
 
 ### Tipp 1 (Denkanstoß)
-Die gleiche Laenge auf der Karte (20 cm) steht fuer unterschiedlich lange Strecken — je nach Massstab. Bei welchem Massstab ist die echte Strecke am laengsten?
+Die gleiche Länge auf der Karte (20 cm) steht für unterschiedlich lange Strecken — je nach Maßstab. Bei welchem Maßstab ist die echte Strecke am längsten?
 
 ### Tipp 2 (Methode)
-Immer die gleiche Formel: Kartenlaenge · Massstabszahl = echte Laenge in cm.
+Immer die gleiche Formel: Kartenlänge · Maßstabszahl = echte Länge in cm.
 Dann: : 100 = Meter, : 1.000 = Kilometer.
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 a) 20 · 25.000 = 500.000 cm = 5.000 m = 5 km
 b) 20 · 50.000 = 1.000.000 cm = ___ m = ___ km
 
 ### Didaktischer Hinweis
-Vergleich verschiedener Masstaebe festigt das Verstaendnis. Entspricht S. 120, Aufg. 4.
+Vergleich verschiedener Masstäbe festigt das Verständnis. Entspricht S. 120, Aufg. 4.
 
 ---
 
 ## Aufgabe 19
 
 ---
-titel: "Welcher Massstab passt? — Karte zuordnen"
+titel: "Welcher Maßstab passt? — Karte zuordnen"
 typ: auswahl
-thema: "Orientierung auf Karten und Plaenen"
-schwierigkeit: gruen
+thema: "Orientierung auf Karten und Plänen"
+schwierigkeit: grün
 buchseite: 120
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Auf einer Karte sind 5 cm eingezeichnet, die in Wirklichkeit 10 km entsprechen. Welcher Massstab hat die Karte?
+Auf einer Karte sind 5 cm eingezeichnet, die in Wirklichkeit 10 km entsprechen. Welcher Maßstab hat die Karte?
 
 a) 1 : 50.000
 b) 1 : 200.000
 c) 1 : 2.000
 d) 1 : 500.000
 
-### Loesung
+### Lösung
 b) 1 : 200.000
 
-### Loesungsweg
+### Lösungsweg
 10 km = 10.000 m = 1.000.000 cm.
-Massstab = Kartenlaenge : echte Laenge = 5 cm : 1.000.000 cm.
+Maßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.
 Vereinfacht: 1 : 200.000.
 
 ### Tipp 1 (Denkanstoß)
-Rechne zuerst 10 km in cm um: 10 km = ___ m = ___ cm. Dann teile durch die Kartenlaenge (5 cm).
+Rechne zuerst 10 km in cm um: 10 km = ___ m = ___ cm. Dann teile durch die Kartenlänge (5 cm).
 
 ### Tipp 2 (Methode)
 10 km = 10 · 1.000 m = 10.000 m = 10.000 · 100 cm = 1.000.000 cm.
-Massstab = 5 : 1.000.000 = 1 : ___
+Maßstab = 5 : 1.000.000 = 1 : ___
 
-### Tipp 3 (Schritt-fuer-Schritt)
-1.000.000 : 5 = 200.000. Also Massstab 1 : ___
+### Tipp 3 (Schritt-für-Schritt)
+1.000.000 : 5 = 200.000. Also Maßstab 1 : ___
 
 ### Didaktischer Hinweis
-Massstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.
+Maßstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.
 
 ---
 
@@ -879,10 +879,10 @@ Massstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.
 ---
 titel: "Planquadrate lesen — Orte auf dem Stadtplan finden"
 typ: eingabe
-thema: "Orientierung auf Karten und Plaenen"
+thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: gelb
 buchseite: 121
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: teilweise
 video: "S121_Beispiel_Stadtplan_lesen.mp4"
@@ -891,23 +891,23 @@ video: "S121_Beispiel_Stadtplan_lesen.mp4"
 ### Aufgabenstellung
 Auf einem Stadtplan sind die Spalten mit Zahlen (1-9) und die Zeilen mit Buchstaben (G, H) beschriftet. In welchem Planquadrat liegt ein Ort, wenn er in Spalte 5 und Zeile G ist?
 
-### Loesung
+### Lösung
 G5
 
-### Loesungsweg
-Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe fuer die Zeile, Zahl fuer die Spalte.
+### Lösungsweg
+Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte.
 
 ### Tipp 1 (Denkanstoß)
-Stell dir ein Schachbrett vor: Erst der Buchstabe (Zeile), dann die Zahl (Spalte). Wie heisst das Feld?
+Stell dir ein Schachbrett vor: Erst der Buchstabe (Zeile), dann die Zahl (Spalte). Wie heißt das Feld?
 
 ### Tipp 2 (Methode)
 Planquadrat = Zeilenbuchstabe + Spaltenzahl. Zeile G + Spalte 5 = ___
 
-### Tipp 3 (Schritt-fuer-Schritt)
-Buchstabe der Zeile: G. Nummer der Spalte: 5. Das Planquadrat heisst ___
+### Tipp 3 (Schritt-für-Schritt)
+Buchstabe der Zeile: G. Nummer der Spalte: 5. Das Planquadrat heißt ___
 
 ### Didaktischer Hinweis
-Planquadrate als Koordinatensystem-Einfuehrung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).
+Planquadrate als Koordinatensystem-Einführung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).
 
 ---
 
@@ -916,85 +916,85 @@ Planquadrate als Koordinatensystem-Einfuehrung. Entspricht S. 121, Aufg. 6 (Stad
 ---
 titel: "Entfernungen auf dem Stadtplan berechnen"
 typ: eingabe
-thema: "Orientierung auf Karten und Plaenen"
+thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: orange
 buchseite: 121
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Auf einem Stadtplan (Massstab 1 : 10.000) misst du folgende Strecken in Luftlinie.
+Auf einem Stadtplan (Maßstab 1 : 10.000) misst du folgende Strecken in Luftlinie.
 
 a) Vom Bahnhof zum Schloss: 3 cm auf der Karte → ___ m in Wirklichkeit
 b) Vom Freibad zur Stadthalle: 5 cm auf der Karte → ___ m in Wirklichkeit
 c) Von der Schule zum Park: 2,5 cm auf der Karte → ___ m in Wirklichkeit
 
-### Loesung
-a) 300 m
-b) 500 m
-c) 250 m
+### Lösung
+a) 300
+b) 500
+c) 250
 
-### Loesungsweg
-Massstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.
+### Lösungsweg
+Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.
 - a) 3 cm · 100 m = 300 m
 - b) 5 cm · 100 m = 500 m
 - c) 2,5 cm · 100 m = 250 m
 
 ### Tipp 1 (Denkanstoß)
-Bei Massstab 1 : 10.000 entspricht 1 cm auf der Karte genau 100 m in Wirklichkeit. Wie weit sind dann 3 cm?
+Bei Maßstab 1 : 10.000 entspricht 1 cm auf der Karte genau 100 m in Wirklichkeit. Wie weit sind dann 3 cm?
 
 ### Tipp 2 (Methode)
 Merke dir den Trick: Bei 1 : 10.000 ist 1 cm = 100 m.
 Also einfach die cm-Zahl mit 100 multiplizieren, und du hast die Meter.
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 a) 3 · 100 = ___ m
 b) 5 · 100 = ___ m
 c) 2,5 · 100 = ___ m
 
 ### Didaktischer Hinweis
-Stadtplan-Massstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen Sigmaringen).
+Stadtplan-Maßstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen Sigmaringen).
 
 ---
 
 ## Aufgabe 22
 
 ---
-titel: "Was ist in 1 km Luftlinie? — Entfernungen abschaetzen"
+titel: "Was ist in 1 km Luftlinie? — Entfernungen abschätzen"
 typ: auswahl
-thema: "Orientierung auf Karten und Plaenen"
+thema: "Orientierung auf Karten und Plänen"
 schwierigkeit: orange
 buchseite: 121
-kapitel: "12-massstab-orientierung"
+kapitel: "12-maßstab-orientierung"
 stage_id: "karten-orientierung"
 digital: voll
 ---
 
 ### Aufgabenstellung
-Ein Stadtplan hat den Massstab 1 : 10.000. Wie viele Zentimeter auf der Karte entsprechen 1 km in Wirklichkeit?
+Ein Stadtplan hat den Maßstab 1 : 10.000. Wie viele Zentimeter auf der Karte entsprechen 1 km in Wirklichkeit?
 
 a) 1 cm
 b) 10 cm
 c) 100 cm
 d) 0,1 cm
 
-### Loesung
+### Lösung
 b) 10 cm
 
-### Loesungsweg
+### Lösungsweg
 1 km = 1.000 m = 100.000 cm.
-Kartenlaenge = echte Laenge : Massstabszahl = 100.000 : 10.000 = 10 cm.
+Kartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm.
 
 ### Tipp 1 (Denkanstoß)
-Rechne 1 km in cm um. Dann teile durch die Massstabszahl (10.000).
+Rechne 1 km in cm um. Dann teile durch die Maßstabszahl (10.000).
 
 ### Tipp 2 (Methode)
 1 km = 100.000 cm.
 100.000 : 10.000 = ___
 
-### Tipp 3 (Schritt-fuer-Schritt)
+### Tipp 3 (Schritt-für-Schritt)
 100.000 : 10.000 = 10. Also sind 1 km in Wirklichkeit ___ cm auf der Karte.
 
 ### Didaktischer Hinweis

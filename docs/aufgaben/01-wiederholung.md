@@ -16,6 +16,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -70,6 +72,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -124,6 +128,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -176,6 +182,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -188,18 +196,19 @@ b) Die Zahl besteht aus den Ziffern 1, 3, 5, 7.
    Sie ist die kleinstmögliche Zahl mit einer 1 an der Tausenderstelle.
 
 c) Die Zahl liegt zwischen 1.200 und 1.300 und ist gerade.
-   Die Ziffern 2 und 4 kommen jeweils zweimal vor.
+   Die Ziffern 2 und 4 kommen insgesamt dreimal vor.
 
 ### Lösung
 a) 1.628 (oder 1.682, 1.648 — es gibt mehrere Möglichkeiten, aber alle beginnen mit 1.6..)
-   Eindeutig kleinste: 1.624, eindeutig größte: 1.698. Die Bedingung "größer als 1.600, kleiner als 1.700" ergibt: 1.628, 1.682, 1.648, 1.642, 1.684, 1.624, 1.692, 1.694, 1.698, 1.642, 1.246 passt nicht, da kleiner als 1.600. Gültige Zahlen: Alle vierstelligen Zahlen mit den Ziffern 2,4,6,8, die mit 16.. beginnen → 1.624, 1.628, 1.642, 1.648, 1.682, 1.684, 1.692, 1.694, 1.698 — aber jede Ziffer nur einmal! → 1.624, 1.628, 1.642, 1.648, 1.682, 1.684
+   Gültige Zahlen: Alle vierstelligen Zahlen mit den Ziffern 2, 4, 6, 8 (jede genau einmal), die mit 16.. beginnen → 1.624, 1.628, 1.642, 1.648, 1.682, 1.684
 b) 1.357
-c) 1.242 oder 1.244
+c) 1.224, 1.242 oder 1.244
+   (Zwischen 1.200 und 1.300 → beginnt mit "12". Ziffern 2 und 4 insgesamt dreimal: 1.224 hat 2,2,4 ✓, 1.242 hat 2,4,2 ✓, 1.244 hat 2,4,4 ✓. Alle sind gerade.)
 
 ### Lösungsweg
 - a) "Größer als 1.600, kleiner als 1.700" bedeutet: Die Zahl beginnt mit 16. Dann bleiben die Ziffern 2, 4, 8 für die letzten zwei Stellen. Z.B. 1.624, 1.628, 1.642 usw.
 - b) "Kleinstmöglich mit 1 an der Tausenderstelle" → T=1, dann die kleinsten Ziffern vorne: H=3, Z=5, E=7 → 1.357
-- c) Zwischen 1.200 und 1.300 → beginnt mit 12. Ziffern 2 und 4 je zweimal: 1.242 oder 1.244. "Gerade" heißt: letzte Ziffer ist 2, 4, 6 oder 8 → beide passen.
+- c) Zwischen 1.200 und 1.300 → beginnt mit "12". "Ziffern 2 und 4 insgesamt dreimal": In "12__" kommt die 2 schon einmal vor. Die letzten zwei Stellen müssen noch zweimal 2 oder 4 enthalten. Möglichkeiten: 1.224, 1.242, 1.244. Alle drei sind gerade (letzte Ziffer 4, 2 bzw. 4).
 
 ### Tipp 1 (Denkanstoß)
 Lies die Bedingungen eine nach der anderen. Welche Bedingung schränkt die Tausenderstelle ein? Welche die Hunderterstelle?
@@ -226,6 +235,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -269,6 +280,8 @@ buchseite: 6
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -319,6 +332,8 @@ buchseite: 7
 kapitel: "01-wiederholung"
 stage_id: "bis2000lesen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s08-merkkasten-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s08-dienes-stellenwerttafel.webp"
 ---
 
 ### Aufgabenstellung
@@ -331,14 +346,15 @@ b) Die Zahl ist ungerade. Sie hat dreimal so viele Einer wie Hunderter und keine
    Sie ist größer als 1.000 und kleiner als 2.000.
 
 ### Lösung
-a) Mögliche Zahlen: 1.210, 1.212, 1.214, 1.216, 1.218, 1.320, 1.322, 1.324, 1.326, 1.328
-   (H = doppelt Z → z.B. H=2,Z=1 oder H=3,Z=... Aber H muss gerade vielfach von Z sein. Bei H=2: Z=1, bei H=3: Z=1,5 geht nicht. Also nur H=2, Z=1 → 1.21_. Gerade → E=0,2,4,6,8)
+a) Mögliche Zahlen: 1.210, 1.212, 1.214, 1.216, 1.218
+   (H = doppelt Z. Bei H=2: Z=1 → passt. Bei H=3: Z=1,5 → geht nicht (keine halben Ziffern). Also nur H=2, Z=1 → 1.21_. Gerade → E=0,2,4,6,8.)
 
-b) Einer = 3 x Hunderter, Z=0. Bei H=1: E=3 → 1.103. Bei H=2: E=6 → 1.206, aber gerade! → 1.103 (ungerade, H=1,E=3). Bei H=3: E=9 → 1.309 (ungerade, passt). Mögliche Zahlen: 1.103, 1.309.
+b) Mögliche Zahlen: 1.103, 1.309.
+   (Einer = 3 × Hunderter, Z=0. Bei H=1: E=3 → 1.103 (ungerade ✓). Bei H=2: E=6 → 1.206 (gerade ✗). Bei H=3: E=9 → 1.309 (ungerade ✓).)
 
 ### Lösungsweg
-- a) "Doppelt so viele Hunderter wie Zehner" → H = 2 x Z. Mögliche Paare: Z=1,H=2 oder Z=2,H=4 (aber H=4 → >1.400!). Also Z=1, H=2. Gerade → E ist 0,2,4,6,8.
-- b) E = 3 x H, Z=0. T=1. H kann 1,2,3 sein. Ungerade → E muss ungerade sein. H=1 → E=3 (ungerade ✓). H=2 → E=6 (gerade ✗). H=3 → E=9 (ungerade ✓).
+- a) "Doppelt so viele Hunderter wie Zehner" → H = 2 × Z. Mögliche Paare: Z=1,H=2 oder Z=2,H=4 (aber H=4 → >1.400!). Also nur Z=1, H=2 → Zahlen der Form 1.21_. Gerade → E ist 0,2,4,6,8 → fünf Möglichkeiten: 1.210, 1.212, 1.214, 1.216, 1.218.
+- b) E = 3 × H, Z=0. T=1. H kann 1,2,3 sein. Ungerade → E muss ungerade sein. H=1 → E=3 (ungerade ✓). H=2 → E=6 (gerade ✗). H=3 → E=9 (ungerade ✓).
 
 ### Tipp 1 (Denkanstoß)
 Lies die Bedingungen einzeln. Welche schränkt den Tausender ein? Welche sagt etwas über das Verhältnis von Hundertern und Zehnern?
@@ -367,16 +383,23 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
 ### Aufgabenstellung
-Lege die Zahl 350 in eine Stellenwerttafel. Lege immer zu 350 ein Plättchen dazu. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+Lege die Zahl 350 in eine Stellenwerttafel. Lege immer zu 350 ein Plättchen dazu. Welche Zahlen können entstehen?
+
+a) Plättchen bei E: 350 + 1 =
+b) Plättchen bei Z: 350 + 10 =
+c) Plättchen bei H: 350 + 100 =
+d) Plättchen bei T: 350 + 1.000 =
 
 ### Lösung
-- 350 + 1 = 351 (Plättchen bei E)
-- 350 + 10 = 360 (Plättchen bei Z)
-- 350 + 100 = 450 (Plättchen bei H)
-- 350 + 1.000 = 1.350 (Plättchen bei T)
+a) 351
+b) 360
+c) 450
+d) 1.350
 
 ### Lösungsweg
 Ein Plättchen hat verschiedene Werte, je nachdem in welche Spalte der Stellenwerttafel es gelegt wird:
@@ -410,6 +433,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -458,6 +483,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -506,6 +533,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -559,6 +588,8 @@ buchseite: 8
 kapitel: "01-wiederholung"
 stage_id: "stellenwerttafel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s10-merkkasten-stellenwerttafel.webp"
+tipp_2_bild: "assets/erklaerungen/s10-stellenwerttafel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -566,12 +597,12 @@ Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.
 
 a) 1.463 — Was passiert, wenn du den Hunderter und den Zehner vertauschst?
 b) 1.825 — Was passiert, wenn du den Einer verdoppelst?
-c) 1.390 — Was passiert, wenn du den Hunderter halbierst und den Zehner verdreifachst?
+c) 1.480 — Was passiert, wenn du den Hunderter halbierst und den Zehner verdreifachst?
 
 ### Lösung
 a) 1.463 → H und Z tauschen: H=6, Z=4 → 1.643
-b) 1.825 → E verdoppeln: 5 x 2 = 10, aber E kann nur 0-9 sein! Also E=0 und 1 Zehner Übertrag → 1.830
-c) 1.390 → H halbieren: 3 : 2 = 1,5 → geht nicht mit ganzen Plättchen! Aufgabe zeigt: Nicht jede Operation ist möglich. Oder: H=3 halbiert ergibt nicht ganzzahlig → hier 1 Hunderter + 5 Zehner (150), Z verdreifacht: 9 x 3 = 27 → 2 Hunderter + 7 Zehner. Schwierig! → Vereinfachte Lösung: Die Aufgabe ist offen und regt zum Nachdenken an.
+b) 1.825 → E verdoppeln: 5 × 2 = 10, aber E kann nur 0-9 sein! Also E=0 und 1 Zehner Übertrag → 1.830
+c) 1.480 → H halbieren: 4 : 2 = 2. Z verdreifachen: 8 × 3 = 24 → Z kann nur 0-9 sein! Also Z=4 und 2 Hunderter Übertrag. H war 2 (nach dem Halbieren), plus 2 Übertrag = 4. Ergebnis: 1.440
 
 ### Lösungsweg
 Man muss die Zahl Stelle für Stelle in der Stellenwerttafel verändern und dabei auf Überträge achten.
@@ -829,6 +860,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -874,6 +907,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -918,6 +953,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -963,6 +1000,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1005,6 +1044,8 @@ buchseite: 10
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-addieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s12-merkkasten-addition.webp"
+tipp_2_bild: "assets/erklaerungen/s12-addieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1051,6 +1092,7 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1096,6 +1138,7 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1141,6 +1184,7 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1185,6 +1229,7 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1227,6 +1272,7 @@ buchseite: 11
 kapitel: "01-wiederholung"
 stage_id: "schriftlich-subtrahieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s13-merkkasten-subtraktion.webp"
 ---
 
 ### Aufgabenstellung
@@ -1271,6 +1317,7 @@ buchseite: 12
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1327,6 +1374,7 @@ buchseite: 13
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1374,6 +1422,7 @@ buchseite: 12
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1426,6 +1475,7 @@ buchseite: 13
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1464,13 +1514,14 @@ Diese Aufgabe entdeckt das Prinzip "Verdoppeln/Halbieren": Wenn man einen Faktor
 
 ---
 titel: "Multiplikationstabelle ausfüllen"
-typ: eingabe
+typ: schritt
 thema: "Große Zahlen multiplizieren"
 schwierigkeit: gelb
 buchseite: 12
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1520,6 +1571,7 @@ buchseite: 13
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1567,6 +1619,7 @@ buchseite: 13
 kapitel: "01-wiederholung"
 stage_id: "halbschriftlich-multiplizieren-intro"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s15-multiplikation-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -1619,6 +1672,7 @@ buchseite: 14
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1665,6 +1719,7 @@ buchseite: 14
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1712,6 +1767,7 @@ buchseite: 14
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1767,6 +1823,7 @@ buchseite: 14
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1817,6 +1874,7 @@ buchseite: 15
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
@@ -1866,33 +1924,17 @@ buchseite: 15
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
 Lina, Tom und Mia packen ihre Rucksäcke.
-Die Rucksäcke wiegen zusammen 24 kg.
+Die Rucksäcke wiegen zusammen 30 kg.
 Linas Rucksack ist halb so schwer wie der Rucksack von Tom und der Rucksack von Mia.
 
 Wie schwer ist jeder Rucksack?
 
 ### Lösung
-Lina = halb so schwer wie Tom = halb so schwer wie Mia.
-Also: Tom und Mia wiegen gleich viel. Lina = halbes Tom.
-
-Tom = 1 Teil, Mia = 1 Teil, Lina = 0,5 Teil → 2,5 Teile = 24 kg.
-1 Teil = 24 : 2,5 = 9,6 kg → schwierig!
-
-Alternative Deutung: "Linas Rucksack ist halb so schwer wie der von Tom und halb so schwer wie der von Mia" → Tom = Mia, Lina = Tom/2.
-Lina = x, Tom = 2x, Mia = 2x. Zusammen: x + 2x + 2x = 5x = 24 → x = 4,8 → auch nicht glatt.
-
-Weitere Deutung: "halb so schwer wie Tom UND (halb so schwer wie) Mia" → Tom = Mia = 2·Lina.
-Lina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → 5 Teile = 24 kg → nicht glatt.
-
-Korrigierte Aufgabe mit glatten Zahlen:
-Lina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → 5 Teile = 30 kg → 1 Teil = 6 kg.
-Lina = 6 kg, Tom = 12 kg, Mia = 12 kg.
-
-### Lösung (korrigiert mit 30 kg)
 Linas Rucksack = 6 kg, Toms Rucksack = 12 kg, Mias Rucksack = 12 kg.
 
 ### Lösungsweg
@@ -1925,26 +1967,19 @@ buchseite: 15
 kapitel: "01-wiederholung"
 stage_id: "sachaufgaben-tiere"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s16-waldhotel.webp"
 ---
 
 ### Aufgabenstellung
-Lina, Tom und Mia gehen gemeinsam ins Puppentheater. Ein Sitzplatz kostet doppelt so viel wie ein Stehplatz. Zusammen haben sie 36 Euro für die Karten bezahlt.
+Lina, Tom und Mia gehen gemeinsam ins Puppentheater. Ein Sitzplatz kostet doppelt so viel wie ein Stehplatz. Zusammen haben sie 35 Euro für die Karten bezahlt.
 
 Lina und Tom sitzen, Mia steht.
 
 Wie viel Euro kostet ein Sitzplatz, wie viel ein Stehplatz?
 
 ### Lösung
-Stehplatz = x, Sitzplatz = 2x.
-2 Sitzplätze + 1 Stehplatz = 36 Euro.
-2·(2x) + x = 5x = 36 → x = 7,20 Euro (Stehplatz), 2x = 14,40 Euro (Sitzplatz).
-
-Vereinfacht mit glatten Zahlen:
-5x = 35 → x = 7 Euro (Stehplatz), 2x = 14 Euro (Sitzplatz). Gesamtkosten = 35 Euro.
-
-### Lösung (mit 35 Euro)
 Stehplatz: 7 Euro, Sitzplatz: 14 Euro.
-Probe: 2 · 14 + 7 = 28 + 7 = 35 Euro ✓
+Probe: 2 × 14 + 7 = 28 + 7 = 35 Euro ✓
 
 ### Lösungsweg
 1. Sitzplatz = doppelt so teuer wie Stehplatz. Also: Sitzplatz = 2 Stehplätze.

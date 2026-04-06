@@ -1,0 +1,1593 @@
+[
+  {
+    "titel": "Tonnen in Kilogramm umwandeln — Stellenwerttafel",
+    "typ": "eingabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "gelb",
+    "buchseite": 64,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle in Kilogramm um. Nutze die Regel: 1 t = 1.000 kg.\n\na) 3,005 t\nb) 3,05 t\nc) 3,5 t",
+    "loesung": "a) 3.005\nb) 3.050\nc) 3.500",
+    "loesungsweg": "Das Komma bei Tonnen trennt Tonnen und Kilogramm. Die Stellen nach dem Komma geben die Kilogramm an — aber Achtung: Es müssen immer drei Stellen sein!\n- a) 3,005 t → 3 t und 5 kg → 3.005 kg\n- b) 3,05 t → 3 t und 50 kg → 3.050 kg\n- c) 3,5 t → 3 t und 500 kg → 3.500 kg",
+    "tipps": [
+      "Stell dir eine Tabelle vor mit zwei Spalten: t | kg. Das Komma trennt die beiden Spalten. Was steht links vom Komma? Was steht rechts?",
+      "Zeichne eine Stellenwerttafel:\n\n| t | kg (H) | kg (Z) | kg (E) |\n|---|--------|--------|--------|\n\nTrage die Ziffern ein. Leere Felder werden mit 0 aufgefüllt.",
+      "Bei 3,005 t: Links vom Komma stehen 3 t = 3.000 kg. Rechts vom Komma: 005 kg = 5 kg. Was ist 3.000 + 5?",
+      "Das Komma bei Tonnen trennt Tonnen und Kilogramm. Die Stellen nach dem Komma geben die Kilogramm an — aber Achtung: Es müssen immer drei Stellen sein!\n- a) 3,005 t → 3 t und 5 kg → 3.005 kg\n- b) 3,05 t → 3 t und 50 kg → 3.050 kg\n- c) 3,5 t → 3 t und 500 kg → 3.500 kg"
+    ],
+    "didaktischerHinweis": "Diese Aufgabe trainiert das Verständnis der Kommaschreibweise bei Tonnen. Die drei Aufgaben zeigen, wie sich die Position der Ziffer nach dem Komma auf den Wert auswirkt (5 kg vs. 50 kg vs. 500 kg). Typische Fehlerquelle: Kinder vergessen die führenden Nullen.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle in Kilogramm um. Nutze die Regel: 1 t = 1.000 kg.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "3,005 t",
+          "antwort": "3.005"
+        },
+        {
+          "label": "b",
+          "frage": "3,05 t",
+          "antwort": "3.050"
+        },
+        {
+          "label": "c",
+          "frage": "3,5 t",
+          "antwort": "3.500"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Kilogramm in Tonnen umwandeln",
+    "typ": "eingabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "gelb",
+    "buchseite": 64,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle in Tonnen um.\n\na) 8.375 kg\nb) 12.060 kg\nc) 2.700 kg",
+    "loesung": "a) 8,375\nb) 12,06\nc) 2,7",
+    "loesungsweg": "1.000 kg = 1 t. Man teilt die Kilogramm-Zahl gedanklich bei der Tausenderstelle:\n- a) 8.375 kg → 8 t 375 kg → 8,375 t\n- b) 12.060 kg → 12 t 60 kg → 12,060 t = 12,06 t\n- c) 2.700 kg → 2 t 700 kg → 2,700 t = 2,7 t",
+    "tipps": [
+      "Wie viele volle Tonnen stecken in der Kilogramm-Zahl? 1 Tonne = 1.000 kg. Wie oft passt 1.000 in die Zahl?",
+      "Trenne die Zahl bei der Tausenderstelle. Links stehen die Tonnen, rechts die restlichen Kilogramm. Schreibe ein Komma dazwischen.",
+      "Bei 8.375 kg: 8.000 kg = 8 t. Es bleiben 375 kg übrig. Also: 8 Komma ___ t. Was kommt nach dem Komma?",
+      "1.000 kg = 1 t. Man teilt die Kilogramm-Zahl gedanklich bei der Tausenderstelle:\n- a) 8.375 kg → 8 t 375 kg → 8,375 t\n- b) 12.060 kg → 12 t 60 kg → 12,060 t = 12,06 t\n- c) 2.700 kg → 2 t 700 kg → 2,700 t = 2,7 t"
+    ],
+    "didaktischerHinweis": "Die Rückrichtung (kg nach t) ist schwieriger, weil Kinder die Division durch 1.000 als Kommaverschiebung verstehen müssen. Besonders die Variante mit Nullen am Ende (2.700 kg = 2,7 t) zeigt, dass Endnullen nach dem Komma wegfallen können.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle in Tonnen um.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "8.375 kg",
+          "antwort": "8,375"
+        },
+        {
+          "label": "b",
+          "frage": "12.060 kg",
+          "antwort": "12,06"
+        },
+        {
+          "label": "c",
+          "frage": "2.700 kg",
+          "antwort": "2,7"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gemischte Gewichtsangaben in Kilogramm",
+    "typ": "eingabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "grün",
+    "buchseite": 64,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle in Kilogramm um.\n\na) 2 t 345 kg\nb) 15 t 975 kg\nc) 1 t 170 kg\nd) 7 t 50 kg\ne) 4 t 5 kg",
+    "loesung": "a) 2.345\nb) 15.975\nc) 1.170\nd) 7.050\ne) 4.005",
+    "loesungsweg": "Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:\n- a) 2 × 1.000 + 345 = 2.345 kg\n- b) 15 × 1.000 + 975 = 15.975 kg\n- c) 1 × 1.000 + 170 = 1.170 kg\n- d) 7 × 1.000 + 50 = 7.050 kg (Achtung: 50 kg, nicht 500 kg!)\n- e) 4 × 1.000 + 5 = 4.005 kg (nur 5 Kilogramm!)",
+    "tipps": [
+      "Stell dir einen großen Tausenderwürfel vor: 1 Tausenderwürfel = 1 Tonne. Wie viele Tausenderwürfel hast du? Wie viele einzelne Kilogramm kommen dazu?",
+      "Schreibe zuerst die Tonnen als Kilogramm:\n| Tonnen | = Kilogramm |\n|--------|-------------|\n| 2 t    | 2.000 kg    |\nDann addiere die restlichen kg dazu.",
+      "Bei d) 7 t 50 kg: 7 t = 7.000 kg. Jetzt kommen 50 kg dazu. Aber 50 hat nur 2 Ziffern — du brauchst 3! Also: 7.0_0 kg. Was kommt in die Lücke?",
+      "Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:\n- a) 2 × 1.000 + 345 = 2.345 kg\n- b) 15 × 1.000 + 975 = 15.975 kg\n- c) 1 × 1.000 + 170 = 1.170 kg\n- d) 7 × 1.000 + 50 = 7.050 kg (Achtung: 50 kg, nicht 500 kg!)\n- e) 4 × 1.000 + 5 = 4.005 kg (nur 5 Kilogramm!)"
+    ],
+    "didaktischerHinweis": "Die gemischte Schreibweise (t und kg) ist der natürlichste Zugang. Besonders d) und e) sind Stolpersteine: Kinder schreiben häufig 7.50 statt 7.050 oder 4.5 statt 4.005. Die führenden Nullen müssen explizit thematisiert werden.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle in Kilogramm um.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "2 t 345 kg",
+          "antwort": "2.345"
+        },
+        {
+          "label": "b",
+          "frage": "15 t 975 kg",
+          "antwort": "15.975"
+        },
+        {
+          "label": "c",
+          "frage": "1 t 170 kg",
+          "antwort": "1.170"
+        },
+        {
+          "label": "d",
+          "frage": "7 t 50 kg",
+          "antwort": "7.050"
+        },
+        {
+          "label": "e",
+          "frage": "4 t 5 kg",
+          "antwort": "4.005"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gesamtgewicht berechnen — Leergewicht und Ladung",
+    "typ": "eingabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "grün",
+    "buchseite": 65,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.\n\n| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
+    "loesung": "- Auto 1: 900 kg\n- Auto 2: 1.125 kg (= 1 t 125 kg)\n- Auto 3: 1.430 kg (= 1 t 430 kg)",
+    "loesungsweg": "Gesamtgewicht = Leergewicht + Ladung:\n- Auto 1: 720 kg + 180 kg = 900 kg\n- Auto 2: 850 kg + 275 kg = 1.125 kg\n- Auto 3: 1.000 kg + 430 kg = 1.430 kg (1 t = 1.000 kg)",
+    "tipps": [
+      "Stell dir vor, das Auto steht leer auf einer Waage. Dann legst du die Ladung hinein. Was zeigt die Waage jetzt an?",
+      "Addiere Leergewicht + Ladung. Bei Auto 3 musst du zuerst 1 t in 1.000 kg umwandeln, damit du in der gleichen Einheit rechnen kannst.",
+      "Auto 2: 850 + 275. Rechne in Schritten: 850 + 200 = 1.050. Dann 1.050 + 75 = ? Das ist das Gesamtgewicht.",
+      "Gesamtgewicht = Leergewicht + Ladung:\n- Auto 1: 720 kg + 180 kg = 900 kg\n- Auto 2: 850 kg + 275 kg = 1.125 kg\n- Auto 3: 1.000 kg + 430 kg = 1.430 kg (1 t = 1.000 kg)"
+    ],
+    "didaktischerHinweis": "Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Brücken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.\n\n| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
+          "antwort": "- Auto 1: 900 kg"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fehlende Gewichtsangaben berechnen",
+    "typ": "eingabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "grün",
+    "buchseite": 65,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne die fehlenden Gewichtsangaben.\n\n| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
+    "loesung": "- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)\n- LKW 2: Leergewicht = 8 t 550 kg (= 8.550 kg)\n- LKW 3: Ladung = 6,45 t (= 6.450 kg)",
+    "loesungsweg": "- LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t\n- LKW 2: 14.700 kg − 6.150 kg = 8.550 kg = 8 t 550 kg\n- LKW 3: 11.850 kg − 5.400 kg = 6.450 kg = 6,45 t",
+    "tipps": [
+      "Schau dir die Tabelle genau an: Welche Rechnung passt? Leergewicht + Ladung = Gesamtgewicht. Wenn du zwei Zahlen kennst, kannst du die dritte berechnen!",
+      "- Wenn das Gesamtgewicht fehlt: addiere Leergewicht + Ladung.\n- Wenn Leergewicht oder Ladung fehlt: rechne Gesamtgewicht minus das Bekannte.\n\nWandle zuerst alles in Kilogramm um, damit du leichter rechnen kannst.",
+      "LKW 2: Gesamtgewicht = 14.700 kg, Ladung = 6.150 kg. Leergewicht = 14.700 − 6.150. Rechne: 14.700 − 6.000 = 8.700. Dann 8.700 − 150 = ?",
+      "- LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t\n- LKW 2: 14.700 kg − 6.150 kg = 8.550 kg = 8 t 550 kg\n- LKW 3: 11.850 kg − 5.400 kg = 6.450 kg = 6,45 t"
+    ],
+    "didaktischerHinweis": "Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusätzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurückwandeln) ist eine Schlüsselmethode.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Berechne die fehlenden Gewichtsangaben.\n\n| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
+          "antwort": "- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Brückenbelastung — Darf der Transporter fahren?",
+    "typ": "textaufgabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "orange",
+    "buchseite": 65,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.\n\nDarf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?",
+    "loesung": "Nein, der Transporter darf nicht über die Brücke fahren.\nGesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t. Das ist zwar unter 16 t — **doch Vorsicht:** Die Aufgabe ist so gestellt, dass man genau rechnen muss.\n\nKorrektur: 15,15 t < 16 t. Ja, der Transporter darf über die Brücke fahren.",
+    "loesungsweg": "1. Leergewicht: 10,8 t = 10.800 kg\n2. Ladung: 3 × 1.450 kg = 4.350 kg\n3. Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t\n4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren.",
+    "tipps": [
+      "Du musst zwei Sachen ausrechnen: Wie schwer ist die gesamte Ladung? Und: Wie schwer ist alles zusammen? Dann vergleichst du mit der Brücke.",
+      "Schritt 1: Wandle alles in kg um.\nSchritt 2: Rechne die Ladung aus: 3 × 1.450 kg.\nSchritt 3: Addiere Leergewicht + Ladung.\nSchritt 4: Vergleiche mit 16.000 kg (= 16 t).",
+      "Das Leergewicht ist 10.800 kg. Die 3 Autos wiegen zusammen: 1.450 + 1.450 + 1.450. Rechne erst: 1.450 × 3 = 1.400 × 3 + 50 × 3 = 4.200 + 150 = ? Dann addiere zum Leergewicht.",
+      "1. Leergewicht: 10,8 t = 10.800 kg\n2. Ladung: 3 × 1.450 kg = 4.350 kg\n3. Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t\n4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren."
+    ],
+    "didaktischerHinweis": "Sachaufgaben mit Vergleich (Gewicht vs. Höchstlast) sind lebensnah und trainieren die Fähigkeit, ein Ergebnis im Kontext zu interpretieren. Die Multiplikation (3 × 1.450) ist ein natürlicher Zwischenschritt, der auch halbschriftliches Multiplizieren üben lässt.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.",
+      "kontext": "Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Darf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?",
+          "antwort": "Nein, der Transporter darf nicht über die Brücke fahren."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie viele PKWs passen auf den Transporter?",
+    "typ": "textaufgabe",
+    "thema": "Tonne und Kilogramm",
+    "schwierigkeit": "orange",
+    "buchseite": 65,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "gewichte-t-kg",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Brücke trägt höchstens 20 t.\n\nWie viele PKWs mit einem Gewicht von je 1.800 kg darf der Transporter höchstens laden, damit er gerade noch über die Brücke fahren darf?",
+    "loesung": "4 PKWs (Restkapazität reicht nicht für einen fünften).",
+    "loesungsweg": "1. Maximale Ladung: 20 t − 12,5 t = 7,5 t = 7.500 kg\n2. Anzahl PKWs: 7.500 ÷ 1.800 = 4 Rest 300\n3. Also passen höchstens 4 PKWs.\n\nProbe: 12.500 + 4 × 1.800 = 12.500 + 7.200 = 19.700 kg = 19,7 t < 20 t ✓\nMit 5 PKWs: 12.500 + 9.000 = 21.500 kg = 21,5 t > 20 t ✗",
+    "tipps": [
+      "Rechne zuerst aus, wie viel Kilogramm der Transporter noch laden darf. Ziehe dafür das Leergewicht vom Brückengewicht ab.",
+      "Maximale Ladung = Brückengrenze − Leergewicht. Dann: Wie oft passt 1.800 kg in die maximale Ladung? Probiere aus: 1 × 1.800, 2 × 1.800, 3 × 1.800 ...",
+      "Maximale Ladung: 20.000 − 12.500 = 7.500 kg. Jetzt probiere:\n- 1 PKW: 1.800 kg → passt (5.700 kg übrig)\n- 2 PKWs: 3.600 kg → passt (3.900 kg übrig)\n- 3 PKWs: 5.400 kg → passt (2.100 kg übrig)\n- 4 PKWs: 7.200 kg → passt (300 kg übrig)\n- 5 PKWs: ? → Passt das noch?",
+      "1. Maximale Ladung: 20 t − 12,5 t = 7,5 t = 7.500 kg\n2. Anzahl PKWs: 7.500 ÷ 1.800 = 4 Rest 300\n3. Also passen höchstens 4 PKWs.\n\nProbe: 12.500 + 4 × 1.800 = 12.500 + 7.200 = 19.700 kg = 19,7 t < 20 t ✓\nMit 5 PKWs: 12.500 + 9.000 = 21.500 kg = 21,5 t > 20 t ✗"
+    ],
+    "didaktischerHinweis": "Diese Aufgabe erfordert Division mit Rest im Sachkontext. Kinder müssen verstehen, dass man hier nicht aufrunden darf — ein halbes Auto kann man nicht laden. Das systematische Ausprobieren (Tipp 3) ist eine gute Strategie für Kinder, die Division noch unsicher beherrschen.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Brücke trägt höchstens 20 t.",
+      "kontext": "Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Brücke trägt höchstens 20 t.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele PKWs mit einem Gewicht von je 1.800 kg darf der Transporter höchstens laden, damit er gerade noch über die Brücke fahren darf?",
+          "antwort": "4 PKWs (Restkapazität reicht nicht für einen fünften)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tiersteckbriefe vergleichen — Gewichte",
+    "typ": "reihenfolge",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "gelb",
+    "buchseite": 66,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n| Tier | Gewicht |\n|------|---------|\n| Elefant | 6,5 t |\n| Blauwal | 110 t |\n| Strauss | 150 kg |\n| Anakonda | 150 kg |\n| Walhai | 12 t |\n| Giraffe | 750 kg |",
+    "loesung": "Strauss (150 kg) = Anakonda (150 kg) → Giraffe (750 kg) → Elefant (6,5 t = 6.500 kg) → Walhai (12 t = 12.000 kg) → Blauwal (110 t = 110.000 kg)",
+    "loesungsweg": "Zuerst alles in die gleiche Einheit bringen (kg):\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Giraffe: 750 kg\n- Elefant: 6.500 kg\n- Walhai: 12.000 kg\n- Blauwal: 110.000 kg\n\nDann nach Größe sortieren.",
+    "tipps": [
+      "Einige Gewichte stehen in Tonnen, andere in Kilogramm. Kannst du alle in die gleiche Einheit umwandeln, damit du sie besser vergleichen kannst?",
+      "Wandle zuerst alle Tonnen-Angaben in Kilogramm um (1 t = 1.000 kg). Dann kannst du alle Zahlen nebeneinander vergleichen.",
+      "Der Elefant wiegt 6,5 t. Das sind 6 × 1.000 + 500 = 6.500 kg. Ist das mehr oder weniger als die Giraffe mit 750 kg? Und der Walhai mit 12 t = ? kg?",
+      "Zuerst alles in die gleiche Einheit bringen (kg):\n- Strauss: 150 kg\n- Anakonda: 150 kg\n- Giraffe: 750 kg\n- Elefant: 6.500 kg\n- Walhai: 12.000 kg\n- Blauwal: 110.000 kg\n\nDann nach Größe sortieren."
+    ],
+    "didaktischerHinweis": "Tiere begeistern Kinder und machen das Vergleichen von Größen motivierend. Die Mischung aus t und kg zwingt zur Einheitenumrechnung. Dass Strauss und Anakonda gleich schwer sind, ist ein überraschendes Ergebnis, das zum Staunen anregt.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.\n\n| Tier | Gewicht |\n|------|---------|\n| Elefant | 6,5 t |\n| Blauwal | 110 t |\n| Strauss | 150 kg |\n| Anakonda | 150 kg |\n| Walhai | 12 t |\n| Giraffe | 750 kg |",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Hier sind die Gewichte von sechs Tieren. Ordne sie vom leichtesten zum schwersten.",
+            "Tier",
+            "Gewicht",
+            "------",
+            "---------",
+            "Elefant",
+            "6,5 t",
+            "Blauwal",
+            "110 t",
+            "Strauss",
+            "150 kg",
+            "Anakonda",
+            "150 kg",
+            "Walhai",
+            "12 t",
+            "Giraffe",
+            "750 kg"
+          ],
+          "richtigeReihenfolge": [
+            "Strauss (150 kg) = Anakonda (150 kg)",
+            "Giraffe (750 kg)",
+            "Elefant (6,5 t = 6.500 kg)",
+            "Walhai (12 t = 12.000 kg)",
+            "Blauwal (110 t = 110.000 kg)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Futterbedarf im Zoo berechnen",
+    "typ": "textaufgabe",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "gelb",
+    "buchseite": 66,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Elefant braucht am Tag 200 kg Futter. Ein Zoo hat drei Elefanten. Wie viele Kilogramm Futter fressen die Tiere ...\n\na) an einem Tag?\nb) an drei Tagen?\nc) in einer Woche?",
+    "loesung": "a) 600 kg\nb) 1.800 kg\nc) 4.200 kg",
+    "loesungsweg": "- a) 3 × 200 kg = 600 kg pro Tag\n- b) 600 kg × 3 = 1.800 kg für 3 Tage\n- c) 600 kg × 7 = 4.200 kg für 1 Woche",
+    "tipps": [
+      "Wenn ein Elefant 200 kg am Tag frisst, wie viel fressen dann drei Elefanten zusammen an einem Tag?",
+      "Rechne zuerst für einen Tag (3 Elefanten × 200 kg). Dann multipliziere das Tagesergebnis mit der Anzahl der Tage.",
+      "a) 3 × 200 = 600 kg. Das ist der Tagesbedarf.\nb) Jetzt brauchst du das für 3 Tage: 600 × 3 = ? Rechne: 6 × 3 = 18, also 600 × 3 = ?",
+      "- a) 3 × 200 kg = 600 kg pro Tag\n- b) 600 kg × 3 = 1.800 kg für 3 Tage\n- c) 600 kg × 7 = 4.200 kg für 1 Woche"
+    ],
+    "didaktischerHinweis": "Stufenweise Multiplikation: Erst pro Tag, dann für mehrere Tage. Die Aufgabe trainiert das systematische Arbeiten und die Multiplikation mit großen Zahlen (600 × 7 = 4.200). Das Tierthema hält die Motivation hoch.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ein Elefant braucht am Tag 200 kg Futter. Ein Zoo hat drei Elefanten. Wie viele Kilogramm Futter fressen die Tiere ...",
+      "kontext": "Ein Elefant braucht am Tag 200 kg Futter. Ein Zoo hat drei Elefanten. Wie viele Kilogramm Futter fressen die Tiere ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "an einem Tag?",
+          "antwort": "600 kg"
+        },
+        {
+          "label": "b",
+          "frage": "an drei Tagen?",
+          "antwort": "1.800 kg"
+        },
+        {
+          "label": "c",
+          "frage": "in einer Woche?",
+          "antwort": "4.200 kg"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tiervergleich — Wie viele Tiere wiegen so viel wie ...?",
+    "typ": "eingabe",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "grün",
+    "buchseite": 67,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...\n\na) ein Elefant (6,5 t)?\nb) ein Walhai (12 t)?",
+    "loesung": "a) ungefähr 11 Pferde\nb) 20",
+    "loesungsweg": "- a) 6.500 kg ÷ 600 kg ≈ 10,8 → ungefähr 11 Pferde\n- b) 12.000 kg ÷ 600 kg = 20 Pferde",
+    "tipps": [
+      "Wandle die Tonnen in Kilogramm um. Dann überlege: Wie oft passt das Pferdegewicht (600 kg) in das Gewicht des großen Tieres?",
+      "Rechne mit der Division: Gewicht des großen Tieres ÷ 600 kg. Du kannst auch in Schritten rechnen: 10 Pferde = 6.000 kg, 20 Pferde = 12.000 kg ...",
+      "a) Elefant: 6.500 kg. Probiere: 10 Pferde = 10 × 600 = 6.000 kg. Das ist etwas weniger als 6.500 kg. Also 11 Pferde = 11 × 600 = ? Ist das näher dran?",
+      "- a) 6.500 kg ÷ 600 kg ≈ 10,8 → ungefähr 11 Pferde\n- b) 12.000 kg ÷ 600 kg = 20 Pferde"
+    ],
+    "didaktischerHinweis": "Division im Sachkontext mit dem Konzept \"ungefähr\". Kinder lernen, dass das Ergebnis nicht immer glatt aufgeht und man sinnvoll runden muss. Die Vorstellung \"Wie viele passen hinein?\" ist ein anschaulicher Zugang zur Division.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "ein Elefant (6,5 t)?",
+          "antwort": "ungefähr 11 Pferde"
+        },
+        {
+          "label": "b",
+          "frage": "ein Walhai (12 t)?",
+          "antwort": "20"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Aussagen überprüfen — Tierische Vergleiche",
+    "typ": "wahr-falsch",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "grün",
+    "buchseite": 67,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Überprüfe die Aussagen. Berichtige falsche Aussagen.\n\nGegeben: Elefant 6,5 t, Blauwal 110 t, Strauss 150 kg, Walhai 12 t, Giraffe 750 kg, Giraffen-Baby 80 kg, Elefanten-Baby 100 kg.\n\na) 100 Strausse sind leichter als ein Walhai.\nb) 15 Giraffen-Babys sind schwerer als 10 Elefanten-Babys.\nc) 80 Elefanten-Babys sind ungefähr so schwer wie ein Elefant.",
+    "loesung": "a) Falsch. 100 Strausse = 100 × 150 = 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Also sind 100 Strausse schwerer als ein Walhai.\nb) Richtig. 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000.\nc) Falsch. 80 × 100 = 8.000 kg = 8 t. Ein Elefant wiegt nur 6,5 t. 80 Babys sind schwerer.",
+    "loesungsweg": "Bei jeder Aussage: Beide Seiten ausrechnen und vergleichen.\n- a) 100 × 150 kg = 15.000 kg = 15 t. Walhai = 12 t. 15 > 12 → falsch\n- b) 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000 → richtig\n- c) 80 × 100 = 8.000 kg = 8 t. Elefant = 6,5 t. 8 > 6,5 → falsch",
+    "tipps": [
+      "Rechne bei jeder Aussage beide Seiten aus. Links und rechts vom \"so viel wie\" — was ergibt jede Seite?",
+      "Mache eine Vergleichstabelle:\n| Links | Rechts | Stimmt? |\nRechne zuerst die Multiplikationen aus, dann vergleiche.",
+      "Bei a): 100 Strausse = 100 × 150 kg. Rechne: 100 × 150 = 15.000 kg. Wandle um: 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Was ist größer: 15 oder 12?",
+      "Bei jeder Aussage: Beide Seiten ausrechnen und vergleichen.\n- a) 100 × 150 kg = 15.000 kg = 15 t. Walhai = 12 t. 15 > 12 → falsch\n- b) 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000 → richtig\n- c) 80 × 100 = 8.000 kg = 8 t. Elefant = 6,5 t. 8 > 6,5 → falsch"
+    ],
+    "didaktischerHinweis": "Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe ügt gleichzeitig Multiplikation und Einheitenumrechnung.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Überprüfe die Aussagen. Berichtige falsche Aussagen.\n\nGegeben: Elefant 6,5 t, Blauwal 110 t, Strauss 150 kg, Walhai 12 t, Giraffe 750 kg, Giraffen-Baby 80 kg, Elefanten-Baby 100 kg.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "100 Strausse sind leichter als ein Walhai.",
+          "richtig": false,
+          "erklaerung": "Falsch. 100 Strausse = 100 × 150 = 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Also sind 100 Strausse schwerer als ein Walhai."
+        },
+        {
+          "label": "b",
+          "aussage": "15 Giraffen-Babys sind schwerer als 10 Elefanten-Babys.",
+          "richtig": true,
+          "erklaerung": "Richtig. 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000."
+        },
+        {
+          "label": "c",
+          "aussage": "80 Elefanten-Babys sind ungefähr so schwer wie ein Elefant.",
+          "richtig": false,
+          "erklaerung": "Falsch. 80 × 100 = 8.000 kg = 8 t. Ein Elefant wiegt nur 6,5 t. 80 Babys sind schwerer."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Größe der Tierbabys vergleichen",
+    "typ": "eingabe",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "grün",
+    "buchseite": 67,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Die Größe eines Menschen-Babys beträgt ungefähr 50 cm. Wie viele Babys sind ungefähr so groß wie ...\n\na) ein Elefanten-Baby (1 m)?\nb) ein Giraffen-Baby (2 m)?\nc) ein Elefant (4,5 m)?",
+    "loesung": "a) 2\nb) 4\nc) 9",
+    "loesungsweg": "Größe des Tieres ÷ Größe eines Babys:\n- a) 1 m = 100 cm. 100 ÷ 50 = 2\n- b) 2 m = 200 cm. 200 ÷ 50 = 4\n- c) 4,5 m = 450 cm. 450 ÷ 50 = 9",
+    "tipps": [
+      "Wandle die Meter in Zentimeter um (1 m = 100 cm). Dann überlege: Wie oft passt ein Baby (50 cm) in die Größe des Tieres?",
+      "Teile die Länge in cm durch 50 cm. Tipp: 50 cm = ein halber Meter. Also: 2 Babys = 1 m, 4 Babys = 2 m ...",
+      "a) 1 m = 100 cm. 100 ÷ 50 = 2. Also passen 2 Babys.\nc) 4,5 m = 450 cm. Probiere: 8 × 50 = 400, 9 × 50 = ? Passt das?",
+      "Größe des Tieres ÷ Größe eines Babys:\n- a) 1 m = 100 cm. 100 ÷ 50 = 2\n- b) 2 m = 200 cm. 200 ÷ 50 = 4\n- c) 4,5 m = 450 cm. 450 ÷ 50 = 9"
+    ],
+    "didaktischerHinweis": "Der Bezug auf die eigene Babygrösse schafft einen körperbezogenen Zugang. Die Division durch 50 ist rechnerisch zugänglich (Halbieren des Meterwertes). Bei c) wird mit 4,5 m eine Dezimalzahl eingeführt, die aber als 450 cm gut handhabbar ist.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Die Größe eines Menschen-Babys beträgt ungefähr 50 cm. Wie viele Babys sind ungefähr so groß wie ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "ein Elefanten-Baby (1 m)?",
+          "antwort": "2"
+        },
+        {
+          "label": "b",
+          "frage": "ein Giraffen-Baby (2 m)?",
+          "antwort": "4"
+        },
+        {
+          "label": "c",
+          "frage": "ein Elefant (4,5 m)?",
+          "antwort": "9"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Futtermenge berechnen — Blauwal und Elefant",
+    "typ": "textaufgabe",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "orange",
+    "buchseite": 66,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Blauwal frisst an einem Tag 4 t Plankton. Ein Elefant frisst 200 kg am Tag.\n\nFür wie viele Tage reicht die Futtermenge eines Blauwals für ...\na) einen Elefanten?\nb) eine Giraffe (Nahrung pro Tag: 80 kg)?",
+    "loesung": "a) 20 Tage\nb) 50 Tage",
+    "loesungsweg": "- a) 4 t = 4.000 kg. 4.000 ÷ 200 = 20 Tage\n- b) 4 t = 4.000 kg. 4.000 ÷ 80 = 50 Tage",
+    "tipps": [
+      "Wie viel frisst der Blauwal an einem Tag in Kilogramm? Wie viel braucht der Elefant? Wie oft passt die Elefanten-Portion in die Blauwal-Menge?",
+      "Wandle zuerst 4 t in kg um. Dann teile: Blauwal-Menge ÷ Tagesbedarf des anderen Tieres.",
+      "a) 4 t = 4.000 kg. Elefant braucht 200 kg pro Tag.\nProbiere: 10 Tage × 200 = 2.000 kg (= 2 t). 20 Tage × 200 = ?",
+      "- a) 4 t = 4.000 kg. 4.000 ÷ 200 = 20 Tage\n- b) 4 t = 4.000 kg. 4.000 ÷ 80 = 50 Tage"
+    ],
+    "didaktischerHinweis": "Diese Aufgabe verbindet Division mit Einheitenumrechnung. Für Kinder, die Division noch unsicher beherrschen, ist das schrittweise Hochrechnen (10 Tage, 20 Tage ...) eine gute Alternative. Das verblüffende Ergebnis (50 Tage für eine Giraffe!) stärkt die Motivation.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ein Blauwal frisst an einem Tag 4 t Plankton. Ein Elefant frisst 200 kg am Tag.\n\nFür wie viele Tage reicht die Futtermenge eines Blauwals für ...",
+      "kontext": "Ein Blauwal frisst an einem Tag 4 t Plankton. Ein Elefant frisst 200 kg am Tag.\n\nFür wie viele Tage reicht die Futtermenge eines Blauwals für ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "einen Elefanten?",
+          "antwort": "20 Tage"
+        },
+        {
+          "label": "b",
+          "frage": "eine Giraffe (Nahrung pro Tag: 80 kg)?",
+          "antwort": "50 Tage"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie viele Straussenküken wiegen so viel wie ein Blauwal-Baby?",
+    "typ": "eingabe",
+    "thema": "Tierische Weltrekorde",
+    "schwierigkeit": "orange",
+    "buchseite": 67,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "tierische-weltrekorde",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.\n\nWie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
+    "loesung": "Ungefähr 3.125 Straussenküken.",
+    "loesungsweg": "1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g\n2. Straussenküken: 800 g\n3. 2.500.000 ÷ 800 = 3.125\n\nOder einfacher: 2.500 kg ÷ 0,8 kg = 3.125",
+    "tipps": [
+      "Wie viel wiegt das Blauwal-Baby in Kilogramm? Und das Straussenküken — wie viel Kilogramm sind 800 g?",
+      "Wandle beide in Kilogramm um: 2,5 t = 2.500 kg, 800 g = 0,8 kg. Dann rechne: 2.500 ÷ 0,8. Das ist das Gleiche wie 25.000 ÷ 8.",
+      "2.500 kg = wie viele 800-g-Portionen? \n1 kg = 1.000 g. In 1 kg passen 1.000 ÷ 800 ≈ 1,25 Küken.\nIn 100 kg passen 125 Küken.\nIn 2.500 kg passen 25 × 125 = ?",
+      "1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g\n2. Straussenküken: 800 g\n3. 2.500.000 ÷ 800 = 3.125\n\nOder einfacher: 2.500 kg ÷ 0,8 kg = 3.125"
+    ],
+    "didaktischerHinweis": "Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.125!) lässt Kinder staunen und macht die Größenverhältnisse in der Tierwelt greifbar. Die Division mit Kommazahlen kann durch Umwandlung in ganze Zahlen vereinfacht werden.",
+    "erklaerungBild": "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.\n\nWie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?",
+          "antwort": "Ungefähr 3.125 Straussenküken."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Teilstrecken addieren — Radtour am See",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km\n\nBerechne die Gesamtlänge der Tour von Waldheim bis Brückenau.",
+    "loesung": "23,4",
+    "loesungsweg": "4,8 + 6,3 + 5,2 + 7,1 = 23,4 km\n\nSchritt für Schritt:\n- 4,8 + 6,3 = 11,1 km\n- 11,1 + 5,2 = 16,3 km\n- 16,3 + 7,1 = 23,4 km",
+    "tipps": [
+      "Stell dir die Tour als eine lange Strecke mit Haltepunkten vor. Um die Gesamtlänge zu finden, musst du alle Teilstrecken zusammenzählen.",
+      "Addiere die Teilstrecken der Reihe nach. Rechne zuerst die ersten beiden zusammen, dann addiere die nächste dazu, usw.",
+      "Fang mit den ersten beiden an: 4,8 + 6,3. Rechne: 4 + 6 = 10, und 0,8 + 0,3 = 1,1. Also 10 + 1,1 = 11,1 km. Jetzt kommt 5,2 dazu: 11,1 + 5,2 = ?",
+      "4,8 + 6,3 + 5,2 + 7,1 = 23,4 km\n\nSchritt für Schritt:\n- 4,8 + 6,3 = 11,1 km\n- 11,1 + 5,2 = 16,3 km\n- 16,3 + 7,1 = 23,4 km"
+    ],
+    "didaktischerHinweis": "Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfacher als alle vier Zahlen auf einmal. Die Radtour-Situation ist für Kinder greifbar und motivierend.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen zwischen den Orten:\n\n- Waldheim → Seeberg: 4,8 km\n- Seeberg → Bachtal: 6,3 km\n- Bachtal → Feldstadt: 5,2 km\n- Feldstadt → Brückenau: 7,1 km\n\nBerechne die Gesamtlänge der Tour von Waldheim bis Brückenau.",
+          "antwort": "23,4"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Entfernung aus Karte ablesen und berechnen",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "grün",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Auf dem Wegweiser stehen die Entfernungen:\n\n- Dorfbach → Mühlheim: 3,7 km\n- Mühlheim → Seefeld: 8,4 km\n- Seefeld → Bergheim: 12,5 km\n- Bergheim → Waldstadt: 18,6 km\n\na) Wie weit ist es von Dorfbach nach Seefeld?\nb) Wie weit ist es von Mühlheim nach Waldstadt?",
+    "loesung": "a) 3,7 + 8,4 = 12,1 km\nb) 8,4 + 12,5 + 18,6 = 39,5 km",
+    "loesungsweg": "Man addiert nur die Teilstrecken, die auf dem Weg liegen:\n- a) Dorfbach → Mühlheim → Seefeld: 3,7 + 8,4 = 12,1 km\n- b) Mühlheim → Seefeld → Bergheim → Waldstadt: 8,4 + 12,5 + 18,6 = 39,5 km",
+    "tipps": [
+      "Schau genau hin: Welche Teilstrecken brauchst du für deinen Weg? Du musst nicht alle Strecken addieren — nur die, die auf deinem Weg liegen!",
+      "Markiere Start und Ziel. Dann zähle nur die Strecken dazwischen zusammen.",
+      "b) Von Mühlheim nach Waldstadt: Mühlheim → Seefeld = 8,4 km. Seefeld → Bergheim = 12,5 km. Das sind schon 8,4 + 12,5 = 20,9 km. Jetzt kommt noch Bergheim → Waldstadt = 18,6 km dazu: 20,9 + 18,6 = ?",
+      "Man addiert nur die Teilstrecken, die auf dem Weg liegen:\n- a) Dorfbach → Mühlheim → Seefeld: 3,7 + 8,4 = 12,1 km\n- b) Mühlheim → Seefeld → Bergheim → Waldstadt: 8,4 + 12,5 + 18,6 = 39,5 km"
+    ],
+    "didaktischerHinweis": "Kinder müssen erkennen, welche Teilstrecken zum gesuchten Weg gehören. Das ist eine wichtige Lesekompetenz bei Karten und Schemata. Die Addition mit Dezimalzahlen wird hier vertieft.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Auf dem Wegweiser stehen die Entfernungen:\n\n- Dorfbach → Mühlheim: 3,7 km\n- Mühlheim → Seefeld: 8,4 km\n- Seefeld → Bergheim: 12,5 km\n- Bergheim → Waldstadt: 18,6 km",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie weit ist es von Dorfbach nach Seefeld?",
+          "antwort": "3,7 + 8,4 = 12,1 km"
+        },
+        {
+          "label": "b",
+          "frage": "Wie weit ist es von Mühlheim nach Waldstadt?",
+          "antwort": "8,4 + 12,5 + 18,6 = 39,5 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tour auf drei Tage verteilen",
+    "typ": "textaufgabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "grün",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Die Familie möchte eine Radtour über drei Tage machen. Die Orte und Entfernungen:\n\n- Ahausen → Birken: 8,5 km\n- Birken → Clausen: 12,3 km\n- Clausen → Dornheim: 9,7 km\n- Dornheim → Erlenbach: 15,2 km\n- Erlenbach → Fischbach: 6,8 km\n\nDie Gesamtstrecke soll möglichst gleichmässig auf drei Tage verteilt werden.\n\na) Wie lang ist die Gesamtstrecke?\nb) Wie viele Kilometer müssten sie pro Tag fahren, wenn sie die Strecke gleichmässig verteilen?",
+    "loesung": "a) 52,5 km\nb) 17,5 km pro Tag",
+    "loesungsweg": "- a) 8,5 + 12,3 + 9,7 + 15,2 + 6,8 = 52,5 km\n- b) 52,5 ÷ 3 = 17,5 km pro Tag",
+    "tipps": [
+      "Addiere zuerst alle Teilstrecken. Dann überlege: Wie teilt man die Gesamtstrecke gerecht auf drei Tage auf?",
+      "Schritt 1: Alle Strecken addieren → Gesamtlänge.\nSchritt 2: Gesamtlänge ÷ 3 = Kilometer pro Tag.",
+      "Gesamtstrecke: 8,5 + 12,3 = 20,8. Dann + 9,7 = 30,5. Dann + 15,2 = 45,7. Dann + 6,8 = ?\nTeile das Ergebnis durch 3. Tipp: 3 × 17 = 51 und 3 × 18 = 54. Also liegt das Ergebnis zwischen 17 und 18.",
+      "- a) 8,5 + 12,3 + 9,7 + 15,2 + 6,8 = 52,5 km\n- b) 52,5 ÷ 3 = 17,5 km pro Tag"
+    ],
+    "didaktischerHinweis": "Zweistufige Aufgabe: erst Addition, dann Division. Die Verteilung auf Tage ist eine alltagsnahe Fragestellung. Die Division von 52,5 durch 3 ergibt eine glatte Dezimalzahl (17,5), was für Kinder noch gut handhabbar ist.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Die Familie möchte eine Radtour über drei Tage machen. Die Orte und Entfernungen:\n\n- Ahausen → Birken: 8,5 km\n- Birken → Clausen: 12,3 km\n- Clausen → Dornheim: 9,7 km\n- Dornheim → Erlenbach: 15,2 km\n- Erlenbach → Fischbach: 6,8 km\n\nDie Gesamtstrecke soll möglichst gleichmässig auf drei Tage verteilt werden.",
+      "kontext": "Die Familie möchte eine Radtour über drei Tage machen. Die Orte und Entfernungen:\n\n- Ahausen → Birken: 8,5 km\n- Birken → Clausen: 12,3 km\n- Clausen → Dornheim: 9,7 km\n- Dornheim → Erlenbach: 15,2 km\n- Erlenbach → Fischbach: 6,8 km\n\nDie Gesamtstrecke soll möglichst gleichmässig auf drei Tage verteilt werden.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie lang ist die Gesamtstrecke?",
+          "antwort": "52,5 km"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kilometer müssten sie pro Tag fahren, wenn sie die Strecke gleichmässig verteilen?",
+          "antwort": "17,5 km pro Tag"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Restliche Strecke berechnen",
+    "typ": "textaufgabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "orange",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Der Radweg rund um den Silbersee ist insgesamt 42 km lang. Pia und ihr Vater sind schon 3 Tage geradelt:\n- Tag 1: 11,5 km\n- Tag 2: 14,8 km\n- Tag 3: 9,2 km\n\na) Wie viele Kilometer haben sie insgesamt schon geschafft?\nb) Wie viele Kilometer müssen sie noch fahren?\nc) Wenn sie an Tag 4 nicht mehr als 8 km fahren wollen — schaffen sie den Rest an einem Tag?",
+    "loesung": "a) 35,5 km\nb) 6,5 km\nc) Ja, 6,5 km < 8 km.",
+    "loesungsweg": "- a) 11,5 + 14,8 + 9,2 = 35,5 km\n- b) 42 − 35,5 = 6,5 km\n- c) 6,5 km < 8 km → Ja, sie schaffen es.",
+    "tipps": [
+      "Rechne zuerst aus, wie viel die Familie schon gefahren ist. Dann ziehe das vom Gesamtweg ab.",
+      "a) Addiere die drei Tagesstrecken.\nb) Subtrahiere von der Gesamtlänge (42 km).\nc) Vergleiche den Rest mit 8 km.",
+      "a) 11,5 + 14,8 = 26,3. Dann + 9,2 = ? Das ist die bisherige Strecke.\nb) 42 − dein Ergebnis = Reststrecke.",
+      "- a) 11,5 + 14,8 + 9,2 = 35,5 km\n- b) 42 − 35,5 = 6,5 km\n- c) 6,5 km < 8 km → Ja, sie schaffen es."
+    ],
+    "didaktischerHinweis": "Dreistufige Sachaufgabe mit Addition, Subtraktion und Vergleich. Teil c) fordert eine Ja/Nein-Entscheidung auf Basis des Rechenergebnisses — eine wichtige Kompetenz im Sachrechnen.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Der Radweg rund um den Silbersee ist insgesamt 42 km lang. Pia und ihr Vater sind schon 3 Tage geradelt:\n- Tag 1: 11,5 km\n- Tag 2: 14,8 km\n- Tag 3: 9,2 km",
+      "kontext": "Der Radweg rund um den Silbersee ist insgesamt 42 km lang. Pia und ihr Vater sind schon 3 Tage geradelt:\n- Tag 1: 11,5 km\n- Tag 2: 14,8 km\n- Tag 3: 9,2 km",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kilometer haben sie insgesamt schon geschafft?",
+          "antwort": "35,5 km"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kilometer müssen sie noch fahren?",
+          "antwort": "6,5 km"
+        },
+        {
+          "label": "c",
+          "frage": "Wenn sie an Tag 4 nicht mehr als 8 km fahren wollen — schaffen sie den Rest an einem Tag?",
+          "antwort": "Ja, 6,5 km < 8 km."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Hin- und Rückweg berechnen",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Kilometer sind es hin und zurück?\n\na) Schule → Schwimmbad: 3,2 km\nb) Zuhause → Sportplatz: 1,8 km\nc) Bauernhof → Marktplatz: 5,7 km",
+    "loesung": "a) 6,4\nb) 3,6\nc) 11,4",
+    "loesungsweg": "Hin und zurück = doppelte Strecke:\n- a) 3,2 × 2 = 6,4 km\n- b) 1,8 × 2 = 3,6 km\n- c) 5,7 × 2 = 11,4 km",
+    "tipps": [
+      "Wenn du irgendwo hinfährst und den gleichen Weg zurück nimmst — wie oft fährst du die Strecke?",
+      "Hin und zurück = 2 × die einfache Strecke. Verdopple die Kilometeranzahl!",
+      "a) 3,2 × 2 = ? Rechne: 3 × 2 = 6, und 0,2 × 2 = 0,4. Also 6 + 0,4 = ?",
+      "Hin und zurück = doppelte Strecke:\n- a) 3,2 × 2 = 6,4 km\n- b) 1,8 × 2 = 3,6 km\n- c) 5,7 × 2 = 11,4 km"
+    ],
+    "didaktischerHinweis": "Einfache Verdoppelungsaufgabe, die das Konzept \"Hin- und Rückweg\" festigt. Die Multiplikation mit 2 bei Dezimalzahlen wird geübt. Alltagsnaher Kontext.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele Kilometer sind es hin und zurück?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Schule → Schwimmbad: 3,2 km",
+          "antwort": "6,4"
+        },
+        {
+          "label": "b",
+          "frage": "Zuhause → Sportplatz: 1,8 km",
+          "antwort": "3,6"
+        },
+        {
+          "label": "c",
+          "frage": "Bauernhof → Marktplatz: 5,7 km",
+          "antwort": "11,4"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Geschwindigkeiten vergleichen — km/h berechnen",
+    "typ": "eingabe",
+    "thema": "Geschwindigkeiten",
+    "schwierigkeit": "gelb",
+    "buchseite": 69,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "geschwindigkeiten",
+    "digital": "voll",
+    "aufgabenstellung": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.\n\nWie viele Kilometer schafft jeder in einer Stunde?",
+    "loesung": "- Fussgänger: 4 km/h\n- Radfahrer: 16 km/h\n- Auto: 48 km/h\n- Motorrad: 120 km/h",
+    "loesungsweg": "1 Stunde = 60 Minuten.\n- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km\n- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- Auto: 60 min → 48 km → 48 km/h\n- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km",
+    "tipps": [
+      "Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Überlege: Wie oft passen die angegebenen Minuten in 60 Minuten?",
+      "Rechne hoch auf 60 Minuten:\n- 15 min × 4 = 60 min → Strecke × 4\n- 30 min × 2 = 60 min → Strecke × 2\n- 60 min × 1 = 60 min → Strecke bleibt",
+      "Der Fussgänger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.",
+      "1 Stunde = 60 Minuten.\n- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km\n- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- Auto: 60 min → 48 km → 48 km/h\n- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km"
+    ],
+    "didaktischerHinweis": "Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet (\"Wenn 15 min = 1 km, dann 60 min = ?\"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.",
+    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.\n\nWie viele Kilometer schafft jeder in einer Stunde?",
+          "antwort": "- Fussgänger: 4 km/h"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Geschwindigkeitstabelle ausfüllen",
+    "typ": "eingabe",
+    "thema": "Geschwindigkeiten",
+    "schwierigkeit": "grün",
+    "buchseite": 69,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "geschwindigkeiten",
+    "digital": "voll",
+    "aufgabenstellung": "Familie Berger schafft bei einer Radtour durchschnittlich 12 km pro Stunde. Wie weit kommen sie in ...\n\na) 30 Minuten?\nb) 2 Stunden?\nc) 3 Stunden?\nd) 4 Stunden 30 Minuten?",
+    "loesung": "a) 6\nb) 24\nc) 36\nd) 54",
+    "loesungsweg": "12 km pro Stunde = Grundwert.\n- a) 30 min = halbe Stunde → 12 ÷ 2 = 6 km\n- b) 2 h → 12 × 2 = 24 km\n- c) 3 h → 12 × 3 = 36 km\n- d) 4,5 h → 12 × 4 + 6 = 48 + 6 = 54 km",
+    "tipps": [
+      "In 1 Stunde schaffen sie 12 km. In 2 Stunden doppelt so viel, in 3 Stunden dreimal so viel. Und in einer halben Stunde?",
+      "Mache eine Tabelle:\n| Zeit | Strecke |\n|------|---------|\n| 30 min | 12 ÷ 2 = ? |\n| 1 h | 12 km |\n| 2 h | 12 × 2 = ? |\n| ... | ... |",
+      "d) 4 Stunden 30 Minuten = 4 Stunden + 30 Minuten.\n4 Stunden: 4 × 12 = 48 km.\n30 Minuten: 12 ÷ 2 = 6 km.\nZusammen: 48 + 6 = ?",
+      "12 km pro Stunde = Grundwert.\n- a) 30 min = halbe Stunde → 12 ÷ 2 = 6 km\n- b) 2 h → 12 × 2 = 24 km\n- c) 3 h → 12 × 3 = 36 km\n- d) 4,5 h → 12 × 4 + 6 = 48 + 6 = 54 km"
+    ],
+    "didaktischerHinweis": "Proportionale Zuordnung: Zeit × Geschwindigkeit = Strecke. Die Tabelle ist ein ideales visuelles Hilfsmittel. Teil d) kombiniert ganzzahlige und halbe Stunden — ein wichtiger Zwischenschritt zum flexiblen Rechnen mit Geschwindigkeiten.",
+    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Familie Berger schafft bei einer Radtour durchschnittlich 12 km pro Stunde. Wie weit kommen sie in ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "30 Minuten?",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "2 Stunden?",
+          "antwort": "24"
+        },
+        {
+          "label": "c",
+          "frage": "3 Stunden?",
+          "antwort": "36"
+        },
+        {
+          "label": "d",
+          "frage": "4 Stunden 30 Minuten?",
+          "antwort": "54"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tierstrecken berechnen — Spitzengeschwindigkeiten",
+    "typ": "eingabe",
+    "thema": "Geschwindigkeiten",
+    "schwierigkeit": "grün",
+    "buchseite": 69,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "geschwindigkeiten",
+    "digital": "voll",
+    "aufgabenstellung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...\n\na) 30 Minuten?\nb) 15 Minuten?",
+    "loesung": "a) Eule: 32 km, Schwalbe: 36 km, Antilope: 48 km\nb) Eule: 16 km, Schwalbe: 18 km, Antilope: 24 km",
+    "loesungsweg": "- 30 min = halbe Stunde → Geschwindigkeit ÷ 2\n- 15 min = Viertelstunde → Geschwindigkeit ÷ 4\n\na) Eule: 64 ÷ 2 = 32, Schwalbe: 72 ÷ 2 = 36, Antilope: 96 ÷ 2 = 48\nb) Eule: 64 ÷ 4 = 16, Schwalbe: 72 ÷ 4 = 18, Antilope: 96 ÷ 4 = 24",
+    "tipps": [
+      "km/h bedeutet \"Kilometer pro Stunde\". In einer halben Stunde (30 min) kommt man nur halb so weit. Und in einer Viertelstunde?",
+      "30 Minuten = 1/2 Stunde → teile die Geschwindigkeit durch 2.\n15 Minuten = 1/4 Stunde → teile die Geschwindigkeit durch 4.",
+      "a) Eule: 64 km/h. In 30 min: 64 ÷ 2 = ? Halbiere: 60 ÷ 2 = 30, 4 ÷ 2 = 2, also 30 + 2 = 32 km.",
+      "- 30 min = halbe Stunde → Geschwindigkeit ÷ 2\n- 15 min = Viertelstunde → Geschwindigkeit ÷ 4\n\na) Eule: 64 ÷ 2 = 32, Schwalbe: 72 ÷ 2 = 36, Antilope: 96 ÷ 2 = 48\nb) Eule: 64 ÷ 4 = 16, Schwalbe: 72 ÷ 4 = 18, Antilope: 96 ÷ 4 = 24"
+    ],
+    "didaktischerHinweis": "Halbieren und Vierteln von Geschwindigkeiten: eine elegante Alternative zur Formel \"Weg = Geschwindigkeit × Zeit\". Die Tierthema-Einbettung motiviert. Die Zahlen sind bewusst durch 2 und 4 teilbar.",
+    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "30 Minuten?",
+          "antwort": "Eule: 32 km, Schwalbe: 36 km, Antilope: 48 km"
+        },
+        {
+          "label": "b",
+          "frage": "15 Minuten?",
+          "antwort": "Eule: 16 km, Schwalbe: 18 km, Antilope: 24 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schwalben-Reise — Schaffen sie es?",
+    "typ": "textaufgabe",
+    "thema": "Geschwindigkeiten",
+    "schwierigkeit": "orange",
+    "buchseite": 69,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "geschwindigkeiten",
+    "digital": "voll",
+    "aufgabenstellung": "Schwalben sind Zugvögel und fliegen im Winter nach Südafrika. Der Weg ist ungefähr 9.000 km lang.\n\nWenn eine Schwalbe mit einer Fluggeschwindigkeit von 50 km/h fliegt — wie viele Stunden braucht sie für den Weg?",
+    "loesung": "180 Stunden",
+    "loesungsweg": "9.000 km ÷ 50 km/h = 180 Stunden\n\nKontrollrechnung: 180 × 50 = 9.000 ✓",
+    "tipps": [
+      "In einer Stunde schafft die Schwalbe 50 km. Wie viele Stunden braucht sie für 9.000 km? Überlege: Wie oft passt 50 in 9.000?",
+      "Teile die Gesamtstrecke durch die Geschwindigkeit: 9.000 ÷ 50. Tipp: 9.000 ÷ 50 ist das Gleiche wie 900 ÷ 5.",
+      "Probiere in Schritten:\n- 100 Stunden × 50 = 5.000 km (zu wenig)\n- 200 Stunden × 50 = 10.000 km (zu viel)\n- Also zwischen 100 und 200 Stunden. 150 × 50 = 7.500 km. 180 × 50 = ?",
+      "9.000 km ÷ 50 km/h = 180 Stunden\n\nKontrollrechnung: 180 × 50 = 9.000 ✓"
+    ],
+    "didaktischerHinweis": "Division grosser Zahlen im Sachkontext. Die Vereinfachung 9.000 ÷ 50 = 900 ÷ 5 ist eine Schlüsselstrategie. Das Staunen über die Leistung der Schwalbe motiviert. Man kann ergänzen: 180 h = 7,5 Tage non-stop — in Wirklichkeit brauchen Schwalben natürlich viel länger, weil sie Pausen machen.",
+    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Schwalben sind Zugvögel und fliegen im Winter nach Südafrika. Der Weg ist ungefähr 9.000 km lang.",
+      "kontext": "Schwalben sind Zugvögel und fliegen im Winter nach Südafrika. Der Weg ist ungefähr 9.000 km lang.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wenn eine Schwalbe mit einer Fluggeschwindigkeit von 50 km/h fliegt — wie viele Stunden braucht sie für den Weg?",
+          "antwort": "180 Stunden"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Geschwindigkeiten zuordnen",
+    "typ": "zuordnung",
+    "thema": "Geschwindigkeiten",
+    "schwierigkeit": "gelb",
+    "buchseite": 69,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "geschwindigkeiten",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.\n\nGeschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h\n\nFortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug",
+    "loesung": "- Fussgänger: 4 km/h\n- Radfahrer: 16 km/h\n- Auto in der Stadt: 50 km/h\n- Auto auf der Autobahn: 120 km/h\n- ICE-Zug: 250 km/h",
+    "loesungsweg": "Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:\n- Zu Fuss ist man am langsamsten → 4 km/h\n- Ein Fahrrad ist schneller als zu Fuss → 16 km/h\n- In der Stadt fährt man nicht so schnell → 50 km/h\n- Auf der Autobahn schneller → 120 km/h\n- Der ICE ist am schnellsten → 250 km/h",
+    "tipps": [
+      "Sortiere zuerst die Fortbewegungsarten: Was ist am langsamsten? Was am schnellsten? Dann ordne die Geschwindigkeiten genauso.",
+      "Überlege bei jeder Geschwindigkeit: Wie weit wäre das in einer Stunde? 4 km kann man locker laufen. 250 km — das ist weiter als von München nach Nürnberg!",
+      "Der Fussgänger ist am langsamsten — er schafft 4 km/h. Das ist ungefähr 1 km in 15 Minuten. Der Radfahrer ist schneller: 16 km/h = 4 × so schnell wie der Fussgänger. Welche Geschwindigkeit bleibt für das Auto in der Stadt?",
+      "Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:\n- Zu Fuss ist man am langsamsten → 4 km/h\n- Ein Fahrrad ist schneller als zu Fuss → 16 km/h\n- In der Stadt fährt man nicht so schnell → 50 km/h\n- Auf der Autobahn schneller → 120 km/h\n- Der ICE ist am schnellsten → 250 km/h"
+    ],
+    "didaktischerHinweis": "Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschätzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.",
+    "erklaerungBild": "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.\nGeschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h\nFortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Radtour mit drei Orten",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "gelb",
+    "buchseite": 70,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nLena macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3,5 km zum Spielplatz. Von dort geht es 5 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 13 km geradelt.\n\nWie weit ist der See von der Eisdiele entfernt?\n\n**3-Phasen-Hilfe:**\n1. **Orte ordnen:** Start → Spielplatz → Eisdiele → See\n2. **Strecken eintragen:** Start —3,5 km→ Spielplatz —5 km→ Eisdiele —? km→ See. Gesamt: 13 km.\n3. **Rechnen:** Fehlende Strecke berechnen.",
+    "loesung": "4,5 km",
+    "loesungsweg": "Phase 1 — Orte: Start → Spielplatz → Eisdiele → See\nPhase 2 — Strecken: 3,5 km + 5 km + ? = 13 km\nPhase 3 — Rechnung:\n- Bekannte Strecken: 3,5 + 5 = 8,5 km\n- Fehlende Strecke: 13 − 8,5 = 4,5 km",
+    "tipps": [
+      "Male die Orte als Punkte auf eine Linie. Schreibe die bekannten Entfernungen zwischen die Punkte. Welche Entfernung fehlt?",
+      "Zeichne eine Skizze:\n\nStart —3,5 km→ Spielplatz —5 km→ Eisdiele —? km→ See\n|←————————— 13 km ——————————→|\n\nAddiere zuerst die bekannten Teilstrecken. Dann ziehe vom Gesamtweg ab.",
+      "Die bekannten Strecken: 3,5 + 5 = 8,5 km. Insgesamt sind es 13 km. Also: 13 − 8,5 = ? Das ist die fehlende Strecke.",
+      "Phase 1 — Orte: Start → Spielplatz → Eisdiele → See\nPhase 2 — Strecken: 3,5 km + 5 km + ? = 13 km\nPhase 3 — Rechnung:\n- Bekannte Strecken: 3,5 + 5 = 8,5 km\n- Fehlende Strecke: 13 − 8,5 = 4,5 km"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Einführung in den 3-Phasen-Flow (Orte ordnen → Strecken eintragen → Rechnen). Die Skizze ist der Schlüssel: Sie hilft, die Informationen aus dem Text räumlich zu ordnen. Die Rechnung selbst (Addition + Subtraktion) ist einfach — die Herausforderung liegt im Textverständnis.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nLena macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3,5 km zum Spielplatz. Von dort geht es 5 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 13 km geradelt.\n\nWie weit ist der See von der Eisdiele entfernt?",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nLena macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3,5 km zum Spielplatz. Von dort geht es 5 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 13 km geradelt.\n\nWie weit ist der See von der Eisdiele entfernt?",
+      "items": [
+        {
+          "label": "1",
+          "frage": "**3-Phasen-Hilfe:**\n1. **Orte ordnen:** Start → Spielplatz → Eisdiele → See\n2. **Strecken eintragen:** Start —3,5 km→ Spielplatz —5 km→ Eisdiele —? km→ See. Gesamt: 13 km.\n3. **Rechnen:** Fehlende Strecke berechnen.",
+          "antwort": "4,5 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Ausflug mit Rückweg",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 70,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nTom und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 5,2 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wald. Nach dem Grillen besuchen sie noch die Eisdiele, die 3,1 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 19,4 km zurück.\n\nWie weit ist der Grillplatz vom See entfernt?",
+    "loesung": "1,4 km",
+    "loesungsweg": "Phase 1 — Orte: Start → See → Grillplatz → Eisdiele (und zurück)\nPhase 2 — Der Gesamtweg ist Hinweg + Rückweg. Da sie denselben Weg zurückfahren: Hinweg = 19,4 ÷ 2 = 9,7 km\nPhase 3 — Hinweg: 5,2 + ? + 3,1 = 9,7 km\n- 5,2 + 3,1 = 8,3 km\n- 9,7 − 8,3 = 1,4 km",
+    "tipps": [
+      "Sie fahren hin und den gleichen Weg zurück. Das bedeutet: Der Hinweg ist genau die Hälfte der Gesamtstrecke!",
+      "Zeichne eine Skizze:\nStart —5,2 km→ See —? km→ Grillplatz —3,1 km→ Eisdiele\n|←————————— Hinweg ——————————→|\nGesamtweg (hin + zurück) = 19,4 km. Also Hinweg = 19,4 ÷ 2.",
+      "Hinweg = 19,4 ÷ 2 = 9,7 km. Bekannte Strecken: 5,2 + 3,1 = 8,3 km. Fehlende Strecke: 9,7 − 8,3 = ?",
+      "Phase 1 — Orte: Start → See → Grillplatz → Eisdiele (und zurück)\nPhase 2 — Der Gesamtweg ist Hinweg + Rückweg. Da sie denselben Weg zurückfahren: Hinweg = 19,4 ÷ 2 = 9,7 km\nPhase 3 — Hinweg: 5,2 + ? + 3,1 = 9,7 km\n- 5,2 + 3,1 = 8,3 km\n- 9,7 − 8,3 = 1,4 km"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Erhöhter Schwierigkeitsgrad: Das Kind muss erkennen, dass der Hin- und Rückweg zusammen die Gesamtstrecke ergeben. Die Halbierung ist der entscheidende Zwischenschritt. Die Skizze hilft, diese Erkenntnis visuell zu stützen.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nTom und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 5,2 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wald. Nach dem Grillen besuchen sie noch die Eisdiele, die 3,1 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 19,4 km zurück.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nTom und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 5,2 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wald. Nach dem Grillen besuchen sie noch die Eisdiele, die 3,1 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 19,4 km zurück.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie weit ist der Grillplatz vom See entfernt?",
+          "antwort": "1,4 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Radtour mit Abkürzung",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 70,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nMax macht mit seiner Familie eine Radtour. Insgesamt radeln sie 24 km 500 m.\nZuerst radeln sie 4,2 km zum Waldrand. Von dort geht es weiter zum Grillplatz.\nDanach radeln sie 2.500 m zum See.\nFür den Heimweg wählen sie eine Abkürzung, die 10,3 km lang ist.\n\nWie weit ist der Grillplatz vom Waldrand entfernt?",
+    "loesung": "7,5 km",
+    "loesungsweg": "Phase 1 — Orte: Start → Waldrand → Grillplatz → See → (Abkürzung) → Start\nPhase 2 — Einheiten vereinheitlichen: 24 km 500 m = 24,5 km, 2.500 m = 2,5 km\nPhase 3 — Rechnung:\n4,2 + ? + 2,5 + 10,3 = 24,5 km\n4,2 + 2,5 + 10,3 = 17 km\n24,5 − 17 = 7,5 km",
+    "tipps": [
+      "Achtung: Einige Strecken stehen in Metern! Wandle zuerst alles in Kilometer um. 1.000 m = 1 km.",
+      "Zeichne den Weg als Skizze:\nStart —4,2 km→ Waldrand —? km→ Grillplatz —2,5 km→ See —10,3 km→ Start\n|←————————— 24,5 km ——————————→|\n\nAddiere alle bekannten Strecken und ziehe sie vom Gesamtweg ab.",
+      "Bekannte Strecken: 4,2 + 2,5 + 10,3.\nRechne: 4,2 + 2,5 = 6,7. Dann 6,7 + 10,3 = 17.\nGesamt: 24,5 km. Fehlend: 24,5 − 17 = ?",
+      "Phase 1 — Orte: Start → Waldrand → Grillplatz → See → (Abkürzung) → Start\nPhase 2 — Einheiten vereinheitlichen: 24 km 500 m = 24,5 km, 2.500 m = 2,5 km\nPhase 3 — Rechnung:\n4,2 + ? + 2,5 + 10,3 = 24,5 km\n4,2 + 2,5 + 10,3 = 17 km\n24,5 − 17 = 7,5 km"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Neue Schwierigkeit: gemischte Einheiten (km und m) und ein nicht-linearer Weg (Abkürzung zurück zum Start). Die Skizze zeigt, dass der Weg eine Schleife bildet. Kinder müssen erkennen, dass alle Teilstrecken zusammen die Gesamtstrecke ergeben — auch wenn der Rückweg anders verläuft als der Hinweg.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nMax macht mit seiner Familie eine Radtour. Insgesamt radeln sie 24 km 500 m.\nZuerst radeln sie 4,2 km zum Waldrand. Von dort geht es weiter zum Grillplatz.\nDanach radeln sie 2.500 m zum See.\nFür den Heimweg wählen sie eine Abkürzung, die 10,3 km lang ist.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nMax macht mit seiner Familie eine Radtour. Insgesamt radeln sie 24 km 500 m.\nZuerst radeln sie 4,2 km zum Waldrand. Von dort geht es weiter zum Grillplatz.\nDanach radeln sie 2.500 m zum See.\nFür den Heimweg wählen sie eine Abkürzung, die 10,3 km lang ist.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie weit ist der Grillplatz vom Waldrand entfernt?",
+          "antwort": "7,5 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Fährstrecke und Glocken",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 71,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nZwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.\n\nWie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hören sind?",
+    "loesung": "2 km",
+    "loesungsweg": "Phase 1 — Orte: Konstanz (links) ←— 4 km —→ Meersburg (rechts)\nPhase 2 — Glocke Konstanz: hörbar bis 3 km von Konstanz\n         Glocke Meersburg: hörbar bis 3 km von Meersburg (= ab 1 km von Konstanz)\nPhase 3 — Überlappung: Von 1 km bis 3 km (ab Konstanz) = 2 km\n\nSkizze:\n```\nKonstanz                                    Meersburg\n|————————————— 4 km ——————————————|\n|——— Glocke K: 3 km ———|\n              |——— Glocke M: 3 km ———|\n              |—— beide ——|\n              1 km        3 km\n              = 2 km Ueberlappung\n```",
+    "tipps": [
+      "Male Konstanz und Meersburg als Punkte mit 4 km Abstand. Dann zeichne für jede Glocke ein, wie weit sie reicht (3 km). Wo überschneiden sich die beiden Bereiche?",
+      "Die Konstanz-Glocke reicht von 0 bis 3 km (von Konstanz aus).\nDie Meersburg-Glocke reicht von 1 km bis 4 km (von Konstanz aus), denn sie reicht 3 km ab Meersburg: 4 − 3 = 1 km.\nWo überlappen sich beide?",
+      "Glocke Konstanz: hörbar bis 3 km von Konstanz.\nGlocke Meersburg: hörbar ab 4 − 3 = 1 km von Konstanz.\nBeide hörbar: von 1 km bis 3 km = 3 − 1 = ? km.",
+      "Phase 1 — Orte: Konstanz (links) ←— 4 km —→ Meersburg (rechts)\nPhase 2 — Glocke Konstanz: hörbar bis 3 km von Konstanz\n         Glocke Meersburg: hörbar bis 3 km von Meersburg (= ab 1 km von Konstanz)\nPhase 3 — Überlappung: Von 1 km bis 3 km (ab Konstanz) = 2 km\n\nSkizze:\n```\nKonstanz                                    Meersburg\n|————————————— 4 km ——————————————|\n|——— Glocke K: 3 km ———|\n              |——— Glocke M: 3 km ———|\n              |—— beide ——|\n              1 km        3 km\n              = 2 km Ueberlappung\n```"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Eine anspruchsvolle Überlappungsaufgabe. Die Skizze ist hier unverzichtbar — ohne sie ist die Aufgabe kaum lösbar. Kinder lernen, räumliche Bereiche zu visualisieren und Überschneidungen zu berechnen. Exzellente Übung für visuelles Denken.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nZwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nZwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hören sind?",
+          "antwort": "2 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Tunnelbau von zwei Seiten",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 71,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nBeim Bau eines 1.500 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 3 m, die andere sogar 4,50 m.\n\na) Nach wie vielen Tagen ist der Tunnel fertig?\nb) Wie viele Meter hat jede Firma gebaut?",
+    "loesung": "a) 200 Tage\nb) Firma 1: 600 m, Firma 2: 900 m",
+    "loesungsweg": "Phase 1 — Skizze:\n```\n|←— Firma 1 (3 m/Tag) ——→ ←—— Firma 2 (4,50 m/Tag) ——|\n|←————————— 1.500 m ———————————→|\n```\n\nPhase 2 — Pro Tag graben beide zusammen: 3 + 4,5 = 7,5 m\nPhase 3 — Tage bis fertig: 1.500 ÷ 7,5 = 200 Tage\n\nStrecke Firma 1: 200 × 3 = 600 m\nStrecke Firma 2: 200 × 4,5 = 900 m\nProbe: 600 + 900 = 1.500 ✓",
+    "tipps": [
+      "Wenn beide gleichzeitig graben, wie viel Meter schaffen sie zusammen an einem Tag? Dann überlege: Wie viele Tage brauchen sie für den ganzen Tunnel?",
+      "Schritt 1: Tagesleistung beider Firmen addieren: 3 + 4,5 = 7,5 m pro Tag.\nSchritt 2: Gesamtlänge ÷ Tagesleistung = Anzahl Tage.\nSchritt 3: Einzelleistung = Tage × Tagesleistung pro Firma.",
+      "Zusammen schaffen sie 7,5 m pro Tag.\n100 Tage: 100 × 7,5 = 750 m (Hälfte).\n200 Tage: 200 × 7,5 = ? Ist das der ganze Tunnel?",
+      "Phase 1 — Skizze:\n```\n|←— Firma 1 (3 m/Tag) ——→ ←—— Firma 2 (4,50 m/Tag) ——|\n|←————————— 1.500 m ———————————→|\n```\n\nPhase 2 — Pro Tag graben beide zusammen: 3 + 4,5 = 7,5 m\nPhase 3 — Tage bis fertig: 1.500 ÷ 7,5 = 200 Tage\n\nStrecke Firma 1: 200 × 3 = 600 m\nStrecke Firma 2: 200 × 4,5 = 900 m\nProbe: 600 + 900 = 1.500 ✓"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Klassische Begegnungsaufgabe, umformuliert als Tunnelbau. Die Skizze zeigt die Gegenläuifgkeit. Die Division 1.500 ÷ 7,5 kann durch Verdoppeln vereinfacht werden: 3.000 ÷ 15 = 200. Teil b) festigt die Rückrechnung.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nBeim Bau eines 1.500 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 3 m, die andere sogar 4,50 m.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nBeim Bau eines 1.500 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 3 m, die andere sogar 4,50 m.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Nach wie vielen Tagen ist der Tunnel fertig?",
+          "antwort": "200 Tage"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Meter hat jede Firma gebaut?",
+          "antwort": "Firma 1: 600 m, Firma 2: 900 m"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Gartenzaun und Gemüsebeet",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 71,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nEin Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 22 m Länge gekauft. Der Garten ist 7 m lang und 3 m breit. Er soll ein Tor von 1 m Breite bekommen.\n\nReicht der Zaun für den Garten mit Tor?",
+    "loesung": "Ja, der Zaun reicht. Der Umfang ohne Tor ist: 2 × 7 + 2 × 3 − 1 = 14 + 6 − 1 = 19 m. Es bleiben sogar 22 − 19 = 3 m Zaun übrig.",
+    "loesungsweg": "Phase 1 — Skizze: Rechteck mit 7 m × 3 m, ein Tor (1 m) an einer Seite\nPhase 2 — Umfang des Rechtecks: 2 × 7 + 2 × 3 = 14 + 6 = 20 m\nPhase 3 — Beim Tor braucht man keinen Zaun: 20 − 1 = 19 m\nVergleich: 19 m < 22 m → Der Zaun reicht, es bleiben 3 m übrig.",
+    "tipps": [
+      "Zeichne den Garten als Rechteck. Wie lang ist der Zaun, den du rundherum brauchst? Vergiss nicht: Beim Tor brauchst du keinen Zaun!",
+      "Schritt 1: Berechne den Umfang des Rechtecks: U = 2 × Länge + 2 × Breite.\nSchritt 2: Ziehe die Torbreite ab (dort ist kein Zaun nötig).\nSchritt 3: Vergleiche mit der verfügbaren Zaunlänge (22 m).",
+      "Umfang: 2 × 7 = 14, 2 × 3 = 6. Gesamt: 14 + 6 = 20 m. Jetzt kommt das Tor: 20 − 1 = 19 m Zaun nötig. Reichen 22 m?",
+      "Phase 1 — Skizze: Rechteck mit 7 m × 3 m, ein Tor (1 m) an einer Seite\nPhase 2 — Umfang des Rechtecks: 2 × 7 + 2 × 3 = 14 + 6 = 20 m\nPhase 3 — Beim Tor braucht man keinen Zaun: 20 − 1 = 19 m\nVergleich: 19 m < 22 m → Der Zaun reicht, es bleiben 3 m übrig."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Umfangsberechnung im Sachkontext mit einer Zusatzbedingung (Tor). Die Skizze ist wichtig, um zu verstehen, warum man die Torbreite subtrahiert. Die Ja/Nein-Frage am Ende erfordert einen Vergleich — eine wichtige Sachrechen-Kompetenz.",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.\n\nEin Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 22 m Länge gekauft. Der Garten ist 7 m lang und 3 m breit. Er soll ein Tor von 1 m Breite bekommen.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.\n\nEin Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 22 m Länge gekauft. Der Garten ist 7 m lang und 3 m breit. Er soll ein Tor von 1 m Breite bekommen.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Reicht der Zaun für den Garten mit Tor?",
+          "antwort": "Ja, der Zaun reicht. Der Umfang ohne Tor ist: 2 × 7 + 2 × 3 − 1 = 14 + 6 − 1 = 19 m. Es bleiben sogar 22 − 19 = 3 m Zaun übrig."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze zeichnen — Holzleiste zersägen",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 71,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "skizze",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\na) Eine Holzleiste ist 2 m lang. Sie wird in 50 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?\n\nb) Eine Holzleiste ist 3 m lang. Sie wird in 5 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?",
+    "loesung": "a) 4 Stücke, 3 Schnitte\nb) 60 Stücke, 59 Schnitte",
+    "loesungsweg": "a) 2 m = 200 cm. 200 ÷ 50 = 4 Stücke. Schnitte = Stücke − 1 = 3.\nb) 3 m = 300 cm. 300 ÷ 5 = 60 Stücke. Schnitte = Stücke − 1 = 59.\n\nSkizze für a):\n```\n|——50 cm——|——50 cm——|——50 cm——|——50 cm——|\n          ↑         ↑         ↑\n       Schnitt 1  Schnitt 2  Schnitt 3\n```",
+    "tipps": [
+      "Zeichne die Leiste als langen Strich. Markiere, wo du schneiden würdest. Zähle die Stücke und die Schnittlinien!",
+      "Stücke = Gesamtlänge ÷ Stücklänge. Aber Achtung: Die Anzahl Schnitte ist immer eins weniger als die Anzahl Stücke! Denn das letzte Stück wird nicht mehr geschnitten.",
+      "a) 2 m = 200 cm. 200 ÷ 50 = 4 Stücke. Male sie in eine Skizze: |—|—|—|—|. Zähle die Trennlinien: Wie viele sind es?",
+      "a) 2 m = 200 cm. 200 ÷ 50 = 4 Stücke. Schnitte = Stücke − 1 = 3.\nb) 3 m = 300 cm. 300 ÷ 5 = 60 Stücke. Schnitte = Stücke − 1 = 59.\n\nSkizze für a):\n```\n|——50 cm——|——50 cm——|——50 cm——|——50 cm——|\n          ↑         ↑         ↑\n       Schnitt 1  Schnitt 2  Schnitt 3\n```"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s70-skizze-intro.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Klassische \"Zaun-Pfosten-Aufgabe\": Die Anzahl der Schnitte ist immer eins weniger als die Anzahl der Stücke. Die Skizze macht diesen Zusammenhang sofort sichtbar. Ohne Skizze raten viele Kinder falsch (4 Stücke → 4 Schnitte).",
+    "erklaerungBild": "assets/erklaerungen/s70-skizze-intro.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "kontext": "Zeichne eine Skizze und löse die Aufgabe.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Eine Holzleiste ist 2 m lang. Sie wird in 50 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?",
+          "antwort": "4 Stücke, 3 Schnitte"
+        },
+        {
+          "label": "b",
+          "frage": "Eine Holzleiste ist 3 m lang. Sie wird in 5 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?",
+          "antwort": "60 Stücke, 59 Schnitte"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schulweg — einfache Streckenaddition",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m\n\nWie lang ist Leos gesamter Schulweg?",
+    "loesung": "750",
+    "loesungsweg": "Alle Teilstrecken addieren: 350 + 220 + 180 = 750 m.",
+    "tipps": [
+      "Wenn du alle drei Strecken hintereinander legst — wie lang ist der Weg insgesamt?",
+      "Addiere die drei Zahlen nacheinander: Erst 350 + 220, dann das Ergebnis + 180.",
+      "350 + 220 = 570. 570 + 180 = 750. Der Schulweg ist 750 m lang.",
+      "Alle Teilstrecken addieren: 350 + 220 + 180 = 750 m."
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe mit ganzen Metern (ohne Komma). Trainiert das Addieren von drei Summanden.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Leo geht jeden Tag zur Schule. Sein Weg führt:\n- Von zu Hause zum Bäcker: 350 m\n- Vom Bäcker zur Bushaltestelle: 220 m\n- Von der Bushaltestelle zur Schule: 180 m\n\nWie lang ist Leos gesamter Schulweg?",
+          "antwort": "750"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Radtour — Entfernungen mit Kommazahlen",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "grün",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km\n\nWie weit ist es von Sonnendorf nach Berghöhe?",
+    "loesung": "9,2",
+    "loesungsweg": "3,4 + 5,8 = 9,2 km.",
+    "tipps": [
+      "Wie weit muss man insgesamt radeln, wenn man beide Strecken hintereinander fährt?",
+      "Addiere die Kilometerzahlen. Achte auf das Komma: Erst die Zehntel addieren, dann die ganzen Kilometer.",
+      "Zehntel: 4 + 8 = 12 Zehntel = 1,2. Ganze km: 3 + 5 = 8. Zusammen: 8 + 1,2 = 9,2 km.",
+      "3,4 + 5,8 = 9,2 km."
+    ],
+    "didaktischerHinweis": "Erste Dezimalzahl-Addition. Der Übertrag bei den Zehntel (4+8=12) ist die Haupthürde.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Auf der Radtour-Karte stehen folgende Entfernungen:\n- Sonnendorf → Talheim: 3,4 km\n- Talheim → Berghöhe: 5,8 km\n\nWie weit ist es von Sonnendorf nach Berghöhe?",
+          "antwort": "9,2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wandertag — Hin- und Rückweg",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Die Klasse 4a wandert zum Waldspielplatz. Der Weg ist 2,5 km lang.\n\na) Wie viele Kilometer laufen die Kinder hin und zurück zusammen?\nb) Die Halbzeit-Pause ist nach 1,2 km. Wie weit ist es von der Pause zum Spielplatz?",
+    "loesung": "a) 5\nb) 1,3",
+    "loesungsweg": "a) Hin + Zurück = 2,5 + 2,5 = 5,0 km.\nb) Gesamtweg − bereits gelaufen = 2,5 − 1,2 = 1,3 km.",
+    "tipps": [
+      "Bei a): Wenn du denselben Weg zurückgehst — wie weit bist du insgesamt gelaufen?",
+      "a) Verdopple die Strecke. b) Ziehe die gelaufene Strecke vom Gesamtweg ab.",
+      "a) 2,5 + 2,5 = 5 km. b) 2,5 − 1,2 = 1,3 km.",
+      "a) Hin + Zurück = 2,5 + 2,5 = 5,0 km.\nb) Gesamtweg − bereits gelaufen = 2,5 − 1,2 = 1,3 km."
+    ],
+    "didaktischerHinweis": "Hin-und-zurück ist ein Grundkonzept. Teilaufgabe b) trainiert Subtraktion mit Dezimalzahlen.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Die Klasse 4a wandert zum Waldspielplatz. Der Weg ist 2,5 km lang.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kilometer laufen die Kinder hin und zurück zusammen?",
+          "antwort": "5"
+        },
+        {
+          "label": "b",
+          "frage": "Die Halbzeit-Pause ist nach 1,2 km. Wie weit ist es von der Pause zum Spielplatz?",
+          "antwort": "1,3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Strecke auf der Landkarte — km ablesen",
+    "typ": "auswahl",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Auf der Karte sind die Entfernungen zwischen vier Städten eingetragen:\n- Lingen → Meppen: 25 km\n- Meppen → Papenburg: 18 km\n- Papenburg → Leer: 22 km\n\nWelche Strecke ist die längste?\n\nA) Lingen → Meppen\nB) Meppen → Papenburg\nC) Papenburg → Leer",
+    "loesung": "A",
+    "loesungsweg": "Vergleiche: 25 km > 22 km > 18 km. Die längste Strecke ist Lingen → Meppen mit 25 km.",
+    "tipps": [
+      "Vergleiche die drei Kilometer-Zahlen. Welche ist am größten?",
+      "Schreibe die drei Zahlen untereinander und vergleiche Stelle für Stelle.",
+      "25, 18, 22. Die größte Zahl ist 25. Also ist Lingen → Meppen mit 25 km am längsten.",
+      "Vergleiche: 25 km > 22 km > 18 km. Die längste Strecke ist Lingen → Meppen mit 25 km."
+    ],
+    "didaktischerHinweis": "Einfache Vergleichsaufgabe — Einstieg ins Kartenthema. Trainiert das Ablesen und Vergleichen von Entfernungen.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Auf der Karte sind die Entfernungen zwischen vier Städten eingetragen:\n- Lingen → Meppen: 25 km\n- Meppen → Papenburg: 18 km\n- Papenburg → Leer: 22 km\n\nWelche Strecke ist die längste?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Lingen → Meppen"
+        },
+        {
+          "label": "B",
+          "text": "Meppen → Papenburg"
+        },
+        {
+          "label": "C",
+          "text": "Papenburg → Leer"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Umweg berechnen — Differenz zweier Routen",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "grün",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Von Ahausen nach Clausen gibt es zwei Wege:\n- Direkter Weg: 8,4 km\n- Über Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km\n\na) Wie lang ist der Weg über Birken?\nb) Wie viel länger ist der Umweg?",
+    "loesung": "a) 9,9\nb) 1,5",
+    "loesungsweg": "a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km Umweg.",
+    "tipps": [
+      "Berechne zuerst den Umweg. Dann überlege: Wie viel mehr ist das als der direkte Weg?",
+      "a) Addiere die zwei Teilstrecken. b) Ziehe den direkten Weg vom Umweg ab.",
+      "a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km. Der Umweg ist 1,5 km länger.",
+      "a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km Umweg."
+    ],
+    "didaktischerHinweis": "Kombination aus Addition und Subtraktion. Das Konzept \"Umweg = Differenz\" ist alltagsnah.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Von Ahausen nach Clausen gibt es zwei Wege:\n- Direkter Weg: 8,4 km\n- Über Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie lang ist der Weg über Birken?",
+          "antwort": "9,9"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel länger ist der Umweg?",
+          "antwort": "1,5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Marathonlauf — große Strecken",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "orange",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Marathon ist 42 km lang. Der Läufer hat schon diese Abschnitte geschafft:\n- Start → Kilometer 15: 15 km\n- Kilometer 15 → Kilometer 28: 13 km\n\na) Wie viele Kilometer hat er schon geschafft?\nb) Wie viele Kilometer fehlen noch bis ins Ziel?",
+    "loesung": "a) 28\nb) 14",
+    "loesungsweg": "a) 15 + 13 = 28 km. b) 42 − 28 = 14 km.",
+    "tipps": [
+      "Wie weit ist der Läufer insgesamt gelaufen? Und wie weit muss er noch?",
+      "a) Addiere die gelaufenen Abschnitte. b) Ziehe das Ergebnis von der Gesamtstrecke ab.",
+      "a) 15 + 13 = 28 km geschafft. b) 42 − 28 = 14 km fehlen noch.",
+      "a) 15 + 13 = 28 km. b) 42 − 28 = 14 km."
+    ],
+    "didaktischerHinweis": "Größerer Zahlenraum, aber ohne Dezimalstellen. Alltagsbezug Sport motiviert.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Marathon ist 42 km lang. Der Läufer hat schon diese Abschnitte geschafft:\n- Start → Kilometer 15: 15 km\n- Kilometer 15 → Kilometer 28: 13 km",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kilometer hat er schon geschafft?",
+          "antwort": "28"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kilometer fehlen noch bis ins Ziel?",
+          "antwort": "14"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Urlaubsfahrt — km und Pausen",
+    "typ": "schritt",
+    "thema": "Entfernungen",
+    "schwierigkeit": "grün",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Die Familie fährt in den Urlaub. Die Route:\n- Zuhause → Raststätte: 145 km\n- Raststätte → Grenze: 87 km\n- Grenze → Hotel: 63 km\n\nRechne Schritt für Schritt:\na) Wie weit ist es bis zur Raststätte?\nb) Wie weit ist es bis zur Grenze?\nc) Wie weit ist die gesamte Fahrt?",
+    "loesung": "a) 145 km\nb) 232 km\nc) 295 km",
+    "loesungsweg": "a) 145 km (direkt abgelesen). b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.",
+    "tipps": [
+      "Die Teilstrecken werden immer länger, je weiter du rechnest. Fang beim ersten Abschnitt an.",
+      "Addiere die Strecken nacheinander: erst bis zur Raststätte, dann plus nächster Abschnitt, dann plus letzter.",
+      "a) 145 km. b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.",
+      "a) 145 km (direkt abgelesen). b) 145 + 87 = 232 km. c) 232 + 63 = 295 km."
+    ],
+    "didaktischerHinweis": "Schrittweises Addieren trainiert das systematische Vorgehen. Die Zwischenergebnisse helfen als Kontrolle.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Die Familie fährt in den Urlaub. Die Route:\n- Zuhause → Raststätte: 145 km\n- Raststätte → Grenze: 87 km\n- Grenze → Hotel: 63 km\n\nRechne Schritt für Schritt:",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Zuhause → Raststätte: 145 km",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "Raststätte → Grenze: 87 km",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "Grenze → Hotel: 63 km",
+              "antwort": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wer wohnt am weitesten weg?",
+    "typ": "reihenfolge",
+    "thema": "Entfernungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:\n- Emma: 1,8 km\n- Luis: 0,9 km\n- Mia: 2,4 km\n- Ben: 1,3 km\n\nOrdne die Kinder nach ihrem Schulweg. Beginne mit dem längsten Weg.",
+    "loesung": "Mia (2,4 km) > Emma (1,8 km) > Ben (1,3 km) > Luis (0,9 km)",
+    "loesungsweg": "Vergleiche die Kilometerzahlen und ordne von groß nach klein: 2,4 > 1,8 > 1,3 > 0,9.",
+    "tipps": [
+      "Wer hat die größte Zahl vor dem Komma? Und wenn die gleich ist — schau auf die Zehntel.",
+      "Schreibe alle vier Zahlen untereinander. Sortiere von groß nach klein.",
+      "2,4 ist am größten (Mia). Dann 1,8 (Emma). Dann 1,3 (Ben). Am kürzesten: 0,9 (Luis).",
+      "Vergleiche die Kilometerzahlen und ordne von groß nach klein: 2,4 > 1,8 > 1,3 > 0,9."
+    ],
+    "didaktischerHinweis": "Sortieraufgabe mit Dezimalzahlen und Personenbezug — motivierend und alltagsnah.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:\n- Emma: 1,8 km\n- Luis: 0,9 km\n- Mia: 2,4 km\n- Ben: 1,3 km\n\nOrdne die Kinder nach ihrem Schulweg. Beginne mit dem längsten Weg.",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Mia (2,4 km)",
+            "Emma (1,8 km)",
+            "Ben (1,3 km)",
+            "Luis (0,9 km)"
+          ],
+          "richtigeReihenfolge": [
+            "Mia (2,4 km)",
+            "Emma (1,8 km)",
+            "Ben (1,3 km)",
+            "Luis (0,9 km)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fahrradtour mit Etappen — Tabelle lesen",
+    "typ": "textaufgabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "orange",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:\n\n| Tag | Von → Nach | Entfernung |\n|-----|-----------|-----------|\n| 1 | Stadtpark → Seeblick | 18,5 km |\n| 2 | Seeblick → Waldrand | 22,3 km |\n| 3 | Waldrand → Stadtpark | 16,8 km |\n\na) An welchem Tag fährt Lina am weitesten?\nb) Wie viele Kilometer fährt sie insgesamt?\nc) Wie viel weiter ist Tag 2 als Tag 3?",
+    "loesung": "a) Tag 2 (22,3 km)\nb) 57,6 km\nc) 5,5 km",
+    "loesungsweg": "a) 22,3 > 18,5 > 16,8 → Tag 2. b) 18,5 + 22,3 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.",
+    "tipps": [
+      "Lies die Tabelle: Welche Entfernung ist die größte? Für die Gesamtlänge musst du alle drei addieren.",
+      "a) Vergleiche die drei Zahlen. b) Addiere alle drei. c) Subtrahiere die kleinere von der größeren.",
+      "a) 22,3 km ist am meisten → Tag 2. b) 18,5 + 22,3 = 40,8. 40,8 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.",
+      "a) 22,3 > 18,5 > 16,8 → Tag 2. b) 18,5 + 22,3 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km."
+    ],
+    "didaktischerHinweis": "Kombination aus Tabelle lesen, Vergleichen, Addieren und Subtrahieren. Fordert mehrere Kompetenzen gleichzeitig.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:\n\n| Tag | Von → Nach | Entfernung |\n|-----|-----------|-----------|\n| 1 | Stadtpark → Seeblick | 18,5 km |\n| 2 | Seeblick → Waldrand | 22,3 km |\n| 3 | Waldrand → Stadtpark | 16,8 km |",
+      "kontext": "Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:\n\n| Tag | Von → Nach | Entfernung |\n|-----|-----------|-----------|\n| 1 | Stadtpark → Seeblick | 18,5 km |\n| 2 | Seeblick → Waldrand | 22,3 km |\n| 3 | Waldrand → Stadtpark | 16,8 km |",
+      "items": [
+        {
+          "label": "a",
+          "frage": "An welchem Tag fährt Lina am weitesten?",
+          "antwort": "Tag 2 (22,3 km)"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kilometer fährt sie insgesamt?",
+          "antwort": "57,6 km"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel weiter ist Tag 2 als Tag 3?",
+          "antwort": "5,5 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Unbekannte Teilstrecke — rückwärts rechnen",
+    "typ": "eingabe",
+    "thema": "Entfernungen",
+    "schwierigkeit": "orange",
+    "buchseite": 68,
+    "kapitel": "06-gewichte-längen-skizzen",
+    "stageId": "entfernungen-km",
+    "digital": "voll",
+    "aufgabenstellung": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km\n\nWie weit ist es von Bstadt nach Cstadt?",
+    "loesung": "7,5",
+    "loesungsweg": "Bekannte Strecken: 7,3 + 9,8 = 17,1 km. Unbekannt: 24,6 − 17,1 = 7,5 km.",
+    "tipps": [
+      "Du kennst die Gesamtstrecke und zwei von drei Teilstücken. Was ist das dritte?",
+      "Addiere die bekannten Strecken. Ziehe das Ergebnis von der Gesamtstrecke ab.",
+      "7,3 + 9,8 = 17,1 km (bekannt). 24,6 − 17,1 = 7,5 km (unbekannt).",
+      "Bekannte Strecken: 7,3 + 9,8 = 17,1 km. Unbekannt: 24,6 − 17,1 = 7,5 km."
+    ],
+    "didaktischerHinweis": "Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie für Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.",
+    "erklaerungBild": "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.\n- Astadt → Bstadt: 7,3 km\n- Cstadt → Dstadt: 9,8 km\n\nWie weit ist es von Bstadt nach Cstadt?",
+          "antwort": "7,5"
+        }
+      ]
+    }
+  }
+]

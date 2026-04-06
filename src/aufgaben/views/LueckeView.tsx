@@ -1,21 +1,24 @@
 import { useState, useRef, useEffect } from 'react';
 import type { AufgabeViewProps } from './AufgabeWrapper';
+import type { LueckeDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
+import { normalizeZahl } from '../parserHelpers';
 
 /**
- * Lücke-View: Gleichungen mit ▢-Platzhaltern, Inline-Eingabefelder.
+ * Luecke-View: Gleichungen mit Platzhaltern, Inline-Eingabefelder.
+ * Liest aufgabe.parsed (LueckeDaten) — kein eigenes Parsing.
  */
 export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
-  const items = parseLuecken(aufgabe.aufgabenstellung, aufgabe.loesung);
+  const daten = aufgabe.parsed as LueckeDaten;
   const [currentIdx, setCurrentIdx] = useState(0);
   const [input, setInput] = useState('');
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const current = items[currentIdx];
-  const isLast = currentIdx >= items.length - 1;
+  const current = daten.items[currentIdx];
+  const isLast = currentIdx >= daten.items.length - 1;
 
   useEffect(() => {
     setCurrentIdx(0);
@@ -28,8 +31,8 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
   }, [currentIdx]);
 
   function check() {
-    const normalized = input.replace(/\./g, '').replace(',', '.').trim();
-    const expected = current.antwort.replace(/\./g, '').replace(',', '.').trim();
+    const normalized = normalizeZahl(input);
+    const expected = normalizeZahl(current.antwort);
     if (normalized === expected) {
       setStatus('richtig');
       if (isLast) onRichtig();
@@ -47,11 +50,16 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
     }
   }
 
-  // Replace ▢ with visual input indicator
+  // Replace special placeholders with visual underscores
   const displayText = current.frage.replace(/▢/g, '___');
 
   return (
     <div className="space-y-3">
+      {daten.anweisung && daten.items.length > 1 && (
+        <Card>
+          <p className="text-sm font-semibold text-heading leading-relaxed">{daten.anweisung}</p>
+        </Card>
+      )}
       <Card>
         <p className="text-lg font-bold text-heading tabular-nums whitespace-pre-line">{displayText}</p>
       </Card>
@@ -70,8 +78,8 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
         />
       </Card>
 
-      {items.length > 1 && (
-        <p className="text-xs text-muted text-center">Lücke {currentIdx + 1} von {items.length}</p>
+      {daten.items.length > 1 && (
+        <p className="text-xs text-muted text-center">Lücke {currentIdx + 1} von {daten.items.length}</p>
       )}
 
       <FeedbackBanner typ={status === 'idle' ? null : status} hinweis={aufgabe.tipps[0]}>
@@ -87,18 +95,4 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
       </div>
     </div>
   );
-}
-
-function parseLuecken(aufgabenstellung: string, loesung: string) {
-  const parts = aufgabenstellung.split(/^[a-z]\)\s*/m).filter(Boolean);
-  const loesungParts = loesung.split(/^[a-z]\)\s*/m).filter(Boolean);
-
-  if (parts.length > 1) {
-    return parts.map((f, i) => ({
-      frage: `${String.fromCharCode(97 + i)}) ${f.trim()}`,
-      antwort: loesungParts[i]?.trim().split('\n')[0] || '',
-    }));
-  }
-
-  return [{ frage: aufgabenstellung, antwort: loesung.split('\n')[0].trim() }];
 }

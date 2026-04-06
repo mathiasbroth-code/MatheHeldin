@@ -1,26 +1,42 @@
 import { useState, useRef, useEffect } from 'react';
 import type { AufgabeViewProps } from './AufgabeWrapper';
+import type { SchrittDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
+import { MarkdownText } from './MarkdownText';
+import { normalizeZahl } from '../parserHelpers';
 
 /**
  * Schritt-View: Mehrstufige Rechnung, ein Schritt nach dem anderen.
- * Parst Teilaufgaben aus Aufgabenstellung und Lösung.
+ * Liest aufgabe.parsed (SchrittDaten) — kein eigenes Parsing.
+ *
+ * Unterstuetzt:
+ * - Mehrere Teilaufgaben (a/b/c) mit je mehreren Schritten
+ * - Strichlisten-Schritte (5 Felder fuer 5 Teilrechnungen)
+ * - Maltabelle, Rechenkette, Ueberschlag+genau
  */
 export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
-  const items = parseSchritte(aufgabe.aufgabenstellung, aufgabe.loesung);
-  const [currentIdx, setCurrentIdx] = useState(0);
+  const daten = aufgabe.parsed as SchrittDaten;
+  const [teilIdx, setTeilIdx] = useState(0);
+  const [schrittIdx, setSchrittIdx] = useState(0);
   const [input, setInput] = useState('');
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const [completed, setCompleted] = useState<string[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const current = items[currentIdx];
-  const isLast = currentIdx >= items.length - 1;
+  const currentTeil = daten.teilaufgaben[teilIdx];
+  const currentSchritt = currentTeil.schritte[schrittIdx];
+  const isLastSchritt = schrittIdx >= currentTeil.schritte.length - 1;
+  const isLastTeil = teilIdx >= daten.teilaufgaben.length - 1;
+  const isVeryLast = isLastSchritt && isLastTeil;
+
+  // Total steps across all Teilaufgaben for display
+  const totalSchritte = currentTeil.schritte.length;
 
   useEffect(() => {
-    setCurrentIdx(0);
+    setTeilIdx(0);
+    setSchrittIdx(0);
     setInput('');
     setStatus('idle');
     setCompleted([]);
@@ -28,35 +44,52 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
 
   useEffect(() => {
     inputRef.current?.focus();
-  }, [currentIdx]);
+  }, [teilIdx, schrittIdx]);
 
   function check() {
-    const normalized = input.replace(/\./g, '').replace(',', '.').trim();
-    const expected = current.antwort.replace(/\./g, '').replace(',', '.').trim();
+    const normalized = normalizeZahl(input);
+    const expected = normalizeZahl(currentSchritt.antwort);
 
     if (normalized === expected) {
       setStatus('richtig');
-      setCompleted((prev) => [...prev, `${current.frage} = ${current.antwort}`]);
-      if (isLast) onRichtig();
+      setCompleted((prev) => [...prev, `${currentSchritt.frage} ${currentSchritt.antwort}`]);
+      if (isVeryLast) onRichtig();
     } else {
       setStatus('falsch');
       onFalsch();
     }
   }
 
-  function next() {
-    if (!isLast) {
-      setCurrentIdx((i) => i + 1);
+  function nextSchritt() {
+    if (!isLastSchritt) {
+      setSchrittIdx((i) => i + 1);
       setInput('');
       setStatus('idle');
+    } else if (!isLastTeil) {
+      // Move to next Teilaufgabe
+      setTeilIdx((i) => i + 1);
+      setSchrittIdx(0);
+      setInput('');
+      setStatus('idle');
+      setCompleted([]);
     }
   }
 
   return (
     <div className="space-y-3">
-      <Card>
-        <p className="text-sm text-body whitespace-pre-line">{aufgabe.aufgabenstellung.split(/^[a-z]\)/m)[0].trim()}</p>
-      </Card>
+      {/* Anweisung (Intro-Text) */}
+      {daten.anweisung && (
+        <Card>
+          <MarkdownText text={daten.anweisung} className="text-sm font-semibold text-heading leading-relaxed" />
+        </Card>
+      )}
+
+      {/* Teilaufgaben-Label wenn mehrere */}
+      {daten.teilaufgaben.length > 1 && (
+        <p className="text-xs font-semibold text-primary text-center">
+          Teilaufgabe {currentTeil.label}) — {teilIdx + 1} von {daten.teilaufgaben.length}
+        </p>
+      )}
 
       {/* Erledigte Schritte */}
       {completed.length > 0 && (
@@ -70,11 +103,12 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
       {/* Aktueller Schritt */}
       <Card className="border-primary/20">
         <p className="text-xs font-semibold text-primary mb-1">
-          Schritt {currentIdx + 1} von {items.length}
+          Schritt {schrittIdx + 1} von {totalSchritte}
         </p>
-        <p className="text-base font-bold text-heading tabular-nums">{current.frage}</p>
+        <MarkdownText text={currentSchritt.frage} className="text-base font-bold text-heading tabular-nums" />
       </Card>
 
+      {/* Eingabefeld */}
       <Card>
         <input
           ref={inputRef}
@@ -89,31 +123,18 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
       </Card>
 
       <FeedbackBanner typ={status === 'idle' ? null : status} hinweis={aufgabe.tipps[0]}>
-        {status === 'richtig' && <span className="tabular-nums">{current.antwort}</span>}
+        {status === 'richtig' && <span className="tabular-nums">{currentSchritt.antwort}</span>}
       </FeedbackBanner>
 
       <div className="flex gap-2">
         {status !== 'richtig' ? (
           <Button className="flex-1" onClick={check}>Prüfen</Button>
-        ) : !isLast ? (
-          <Button className="flex-1" onClick={next}>Nächster Schritt →</Button>
+        ) : !isVeryLast ? (
+          <Button className="flex-1" onClick={nextSchritt}>
+            {isLastSchritt ? 'Nächste Teilaufgabe →' : 'Nächster Schritt →'}
+          </Button>
         ) : null}
       </div>
     </div>
   );
-}
-
-function parseSchritte(aufgabenstellung: string, loesung: string) {
-  const parts = aufgabenstellung.split(/^[a-z]\)\s*/m).filter(Boolean);
-  const loesungParts = loesung.split(/^[a-z]\)\s*/m).filter(Boolean);
-
-  if (parts.length > 1) {
-    return parts.slice(0).map((f, i) => ({
-      frage: f.trim().split('\n')[0],
-      antwort: loesungParts[i]?.trim().split('\n')[0] || '',
-    }));
-  }
-
-  // Fallback: single step
-  return [{ frage: aufgabenstellung.trim(), antwort: loesung.split('\n')[0].trim() }];
 }

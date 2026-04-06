@@ -8,11 +8,14 @@ import { ReihenfolgeView } from './ReihenfolgeView';
 import { SchrittView } from './SchrittView';
 import { WahrFalschView } from './WahrFalschView';
 import { TextaufgabeView } from './TextaufgabeView';
+import { RoutenDiagramm, parseRoutenDaten } from './RoutenDiagramm';
+import { EinheitenLeiter, detectEinheitenKette } from './EinheitenLeiter';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
   onRichtig: () => void;
   onFalsch: () => void;
+  onTeilaufgabeChange?: (label: string) => void;
 }
 
 const VIEW_MAP: Record<string, React.ComponentType<AufgabeViewProps>> = {
@@ -30,9 +33,15 @@ interface AufgabeWrapperProps {
   aufgabe: BankAufgabe;
   onRichtig: () => void;
   onFalsch: () => void;
+  onTeilaufgabeChange?: (label: string) => void;
 }
 
-export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch }: AufgabeWrapperProps) {
+/**
+ * View-Dispatcher: waehlt die passende View anhand des Aufgabentyps.
+ * Kein eigener State, kein TippSystem — nur Dispatch.
+ * Tipps werden ausschliesslich in bankStage.tsx verwaltet.
+ */
+export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange }: AufgabeWrapperProps) {
   const View = VIEW_MAP[aufgabe.typ];
 
   if (!View) {
@@ -43,5 +52,16 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch }: AufgabeWrapperP
     );
   }
 
-  return <View aufgabe={aufgabe} onRichtig={onRichtig} onFalsch={onFalsch} />;
+  const routenDaten = parseRoutenDaten(aufgabe.aufgabenstellung);
+  const einheitenDaten = !routenDaten
+    ? detectEinheitenKette(aufgabe.stageId, aufgabe.aufgabenstellung)
+    : null;
+
+  return (
+    <>
+      {routenDaten && <RoutenDiagramm {...routenDaten} />}
+      {einheitenDaten && <EinheitenLeiter {...einheitenDaten} />}
+      <View aufgabe={aufgabe} onRichtig={onRichtig} onFalsch={onFalsch} onTeilaufgabeChange={onTeilaufgabeChange} />
+    </>
+  );
 }

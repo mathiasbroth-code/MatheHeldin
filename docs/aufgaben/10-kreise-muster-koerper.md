@@ -18,7 +18,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: voll
 ---
 
@@ -66,7 +66,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: voll
 ---
 
@@ -116,31 +116,41 @@ Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greif
 
 ---
 titel: "Kreise mit dem Zirkel zeichnen — verschiedene Radien"
-typ: eingabe
+typ: auswahl
 thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
-digital: platzhalter
+stage_id: "kreise-zeichnen"
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Nicht digital umsetzbar**
+Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.
 
-Diese Aufgabe erfordert einen Zirkel und Papier.
-Original: "Zeichne vier Kreise um denselben Mittelpunkt mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm."
+a) Welcher Kreis liegt ganz aussen?
+b) Wie nennt man Kreise, die denselben Mittelpunkt haben?
 
-**Mögliche digitale Alternative:** Multiple-Choice: "Welcher der vier Kreise hat den größten Radius?" oder Sortieraufgabe: "Ordne die Kreise nach ihrer Größe."
+a1) Der Kreis mit r = 2 cm
+a2) Der Kreis mit r = 5 cm
+a3) Der Kreis mit r = 3 cm
+
+b1) Parallele Kreise
+b2) Konzentrische Kreise
+b3) Symmetrische Kreise
+
+### Lösung
+a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.
+b) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise.
 
 ### Tipp 1 (Denkanstoß)
 Stell dir die vier Kreise wie Ringe vor, die alle den gleichen Mittelpunkt haben. Welcher Kreis liegt ganz innen, welcher ganz aussen?
 
 ### Tipp 2 (Methode)
-Je größer der Radius, desto größer der Kreis. Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm.
+Je größer der Radius, desto größer der Kreis. Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der Kreis mit dem größten Radius liegt ganz aussen.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der kleinste Kreis hat r = 2 cm und liegt ganz ___. Der größte Kreis hat r = ___ cm und liegt ganz aussen.
+Der kleinste Kreis hat r = 2 cm und liegt ganz innen. Der größte Kreis hat r = 5 cm und liegt ganz aussen. Kreise um denselben Mittelpunkt haben einen besonderen Namen — er beginnt mit „kon...".
 
 ### Didaktischer Hinweis
 Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.
@@ -156,7 +166,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: grün
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: voll
 ---
 
@@ -172,11 +182,11 @@ d) Kreis D hat einen Radius von ___ mm.
 e) Kreis E hat einen Radius von ___ mm.
 
 ### Lösung
-a) 8 mm
-b) 15 mm
-c) 12 mm
-d) 20 mm
-e) 25 mm
+a) 8
+b) 15
+c) 12
+d) 20
+e) 25
 
 ### Lösungsweg
 Der Radius ist die Strecke vom Mittelpunkt (Kreuz) bis zur Kreislinie. Man misst mit dem Lineal vom Kreuz geradeaus bis zum Rand des Kreises.
@@ -204,7 +214,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: grün
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: voll
 ---
 
@@ -249,31 +259,34 @@ Die Lagebeziehungen zwischen Kreisen sind ein wichtiges Geometrie-Konzept. Entsp
 
 ---
 titel: "Kreismuster mit dem Zirkel — Anleitung befolgen"
-typ: eingabe
+typ: reihenfolge
 thema: "Kreise zeichnen"
 schwierigkeit: grün
 buchseite: 105
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
-digital: platzhalter
+stage_id: "kreise-zeichnen"
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Nicht digital umsetzbar**
+Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.
 
-Diese Aufgabe erfordert Zirkel und Geodreieck.
-Original: "Zeichne ein Muster nach dieser Anleitung: 1. Zeichne einen Kreis mit Radius 3 cm. 2. Stich auf der Kreislinie ein und zeichne einen weiteren Kreis mit Radius 3 cm. 3. Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis. 4. Verbinde die Mittelpunkte zu einem Dreieck."
+a) Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis mit demselben Radius
+b) Zeichne einen Kreis mit Radius 3 cm
+c) Verbinde die Mittelpunkte zu einem Dreieck
+d) Stich auf der Kreislinie ein und zeichne einen zweiten Kreis mit Radius 3 cm
 
-**Mögliche digitale Alternative:** Reihenfolge-Aufgabe: "Bringe die Schritte der Zeichenanleitung in die richtige Reihenfolge."
+### Lösung
+b, d, a, c
 
 ### Tipp 1 (Denkanstoß)
-Stell dir vor, du zeichnest drei Kreise, die alle den gleichen Radius haben. Was passiert, wenn du den zweiten Kreis auf dem Rand des ersten beginnst?
+Was muss zuerst da sein, bevor du auf der Kreislinie einstechen kannst? Und was braucht man, bevor es Schnittpunkte gibt?
 
 ### Tipp 2 (Methode)
 Lies die Anleitung Schritt für Schritt: Zuerst EIN Kreis, dann der Zirkel auf die Kreislinie, dann ein neuer Kreis — immer mit dem gleichen Radius!
 
 ### Tipp 3 (Schritt-für-Schritt)
-Schritt 1: Kreis mit r = 3 cm zeichnen. Schritt 2: Zirkel auf die Kreislinie setzen und einen zweiten Kreis zeichnen. Wo schneiden sich die beiden Kreise? Dort kommt der dritte Kreis hin.
+Zuerst brauchst du einen Kreis. Dann stichst du auf dessen Kreislinie ein und zeichnest einen zweiten. Erst wenn zwei Kreise sich schneiden, gibt es Schnittpunkte für den dritten. Am Ende verbindest du die Mittelpunkte.
 
 ### Didaktischer Hinweis
 Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. Entspricht S. 105, Aufg. 9.
@@ -289,7 +302,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: orange
 buchseite: 105
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: teilweise
 ---
 
@@ -335,7 +348,7 @@ thema: "Kreise zeichnen"
 schwierigkeit: orange
 buchseite: 105
 kapitel: "10-kreise-muster-körper"
-stage_id: ""
+stage_id: "kreise"
 digital: voll
 ---
 
@@ -487,7 +500,7 @@ b) In welche Richtungen wird die Grundfigur gespiegelt?
 Wähle aus: nur waagerecht / nur senkrecht / waagerecht und senkrecht / in alle Richtungen
 
 ### Lösung
-a) 2 Spiegelachsen
+a) 2
 b) waagerecht und senkrecht
 
 ### Lösungsweg
@@ -533,6 +546,15 @@ Schau dir die Grundfigur genau an. Wie sieht sie aus, wenn du sie an der rechten
 
 ### Tipp 2 (Methode)
 Spiegle die Figur zuerst nach rechts, dann nach unten. Wiederholt sich das Muster jetzt? Dann hast du eine Parkettierung!
+
+### Lösung
+Die Grundfigur wird an der senkrechten Achse gespiegelt (nach rechts). Dann wird das entstandene Doppelbild an der waagerechten Achse gespiegelt (nach unten). So entsteht ein 2×2-Block, der sich lückenlos in alle Richtungen fortsetzen lässt.
+
+### Lösungsweg
+1. Grundfigur betrachten und Spiegelachsen erkennen (senkrecht und waagerecht).
+2. Figur nach rechts spiegeln → es entsteht ein Paar.
+3. Das Paar nach unten spiegeln → es entsteht ein 2×2-Muster.
+4. Dieses Muster kann man beliebig oft nach rechts und unten wiederholen — die Parkettierung ist vollständig.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Nimm die Grundfigur und klappe sie nach rechts. Das neue Bild zusammen mit dem alten klappst du nach unten. Fertig ist ein 2x2-Muster!
@@ -637,22 +659,25 @@ Die Verbindung von Winkeln und Parkettierbarkeit ist anspruchsvoll, aber visuell
 
 ---
 titel: "Schablone aus Dreieck herstellen — Escher-Methode"
-typ: eingabe
+typ: reihenfolge
 thema: "Parkettierungen"
 schwierigkeit: orange
 buchseite: 107
 kapitel: "10-kreise-muster-körper"
 stage_id: "parkettierungen"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Nicht digital umsetzbar**
+Aus einem Dreieck kann man eine neue Form herstellen und damit parkettieren. Bringe die Schritte in die richtige Reihenfolge.
 
-Diese Aufgabe erfordert Schere, Papier und Kleber.
-Original: "Du kannst aus einem Dreieck eine neue Form als Schablone herstellen und damit parkettieren. Probiere es aus."
+a) Die neue Form als Schablone verwenden und parkettieren
+b) Ein Dreieck zeichnen
+c) Das abgeschnittene Stück an die gegenüberliegende Seite kleben
+d) Ein Stück an einer Seite des Dreiecks abschneiden
 
-**Mögliche digitale Alternative:** Reihenfolge-Aufgabe: "Bringe die Schritte der Schablonenherstellung in die richtige Reihenfolge: (1) Dreieck zeichnen, (2) Stück abschneiden, (3) An die gegenüberliegende Seite kleben, (4) Neue Form als Schablone verwenden."
+### Lösung
+b, d, c, a
 
 ### Tipp 1 (Denkanstoß)
 Was passiert, wenn du von einem Dreieck an einer Seite ein Stück abschneidest und es an eine andere Seite klebst?
@@ -661,7 +686,7 @@ Was passiert, wenn du von einem Dreieck an einer Seite ein Stück abschneidest u
 Das Prinzip ist wie beim Fisch aus dem Quadrat: Wegnehmen und gegenüber wieder dransetzen. Die Fläche bleibt gleich!
 
 ### Tipp 3 (Schritt-für-Schritt)
-Schritt 1: Zeichne ein Dreieck. Schritt 2: Schneide an einer Seite ein Stück ab. Schritt 3: Klebe es an die ___ Seite. Schritt 4: Fertig ist deine Schablone!
+Zuerst brauchst du ein Dreieck. Dann schneidest du an einer Seite ein Stück ab. Dieses Stück klebst du an die gegenüberliegende Seite. Die neue Form kannst du als Schablone verwenden.
 
 ### Didaktischer Hinweis
 Haptisches Arbeiten vertieft das Verständnis der Parkettierungsprinzipien. Entspricht S. 107, Aufg. 6-7 und Videohinweis "Anleitung: Schablone herstellen".
@@ -926,7 +951,7 @@ b) Wie viele Kanten liegen im Netz schon aneinander (Faltkanten)? ___
 c) An wie vielen Kanten brauchst du Klebelaschen? ___
 
 ### Lösung
-a) 12 Kanten
+a) 12
 b) 5 Faltkanten (die Kanten, an denen die Flächen im Netz zusammenhängen)
 c) 7 Klebelaschen (12 - 5 = 7)
 
@@ -972,9 +997,9 @@ b) Ein Treppchen: 1 Würfel links, 2 Würfel übereinander in der Mitte, 3 Würf
 c) Ein Quader: 2 Würfel breit, 2 Würfel tief, 2 Würfel hoch. Wie viele Würfel? ___
 
 ### Lösung
-a) 5 Würfel
-b) 6 Würfel
-c) 8 Würfel
+a) 5
+b) 6
+c) 8
 
 ### Lösungsweg
 Zähle systematisch Schicht für Schicht:
@@ -1149,31 +1174,34 @@ Die Invarianz der Würfelanzahl beim Kippen ist ein wichtiges Konzept. Entsprich
 
 ---
 titel: "Schrägbild zeichnen — Würfel Schritt für Schritt"
-typ: eingabe
+typ: reihenfolge
 thema: "Schrägbilder legen und zeichnen"
 schwierigkeit: orange
 buchseite: 111
 kapitel: "10-kreise-muster-körper"
 stage_id: "schraegbilder"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Nicht digital umsetzbar**
+Bringe die Schritte zum Zeichnen eines Schrägbilds (Würfel) in die richtige Reihenfolge.
 
-Diese Aufgabe erfordert ein Punktraster und Zeichenmaterial.
-Original: "Zeichne die Schrägbilder auf ein Punktraster. Färbe die Würfel unterschiedlich."
+a) Schräge Linien von jeder Ecke nach rechts oben zeichnen
+b) Die hintere Fläche zeichnen (Endpunkte verbinden)
+c) Die Vorderseite zeichnen (ein Quadrat)
+d) Unsichtbare Kanten gestrichelt zeichnen
 
-**Mögliche digitale Alternative:** Reihenfolge-Aufgabe: "Bringe die Schritte zum Zeichnen eines Schrägbilds in die richtige Reihenfolge: (1) Vordere Fläche zeichnen (Quadrat), (2) Schräge Linien nach rechts oben zeichnen, (3) Hintere Kanten zeichnen, (4) Unsichtbare Kanten gestrichelt zeichnen."
+### Lösung
+c, a, b, d
 
 ### Tipp 1 (Denkanstoß)
 Ein Schrägbild zeigt die Tiefe durch schräge Linien nach rechts oben. Beginne immer mit der Vorderseite!
 
 ### Tipp 2 (Methode)
-Schritt 1: Zeichne die Vorderseite (ein Quadrat). Schritt 2: Von jeder Ecke eine schräge Linie nach rechts oben. Schritt 3: Verbinde die Endpunkte.
+Zuerst die Vorderseite (ein Quadrat), dann die schrägen Linien für die Tiefe, dann die hintere Fläche, und am Schluss die unsichtbaren Kanten gestrichelt.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Die Vorderseite ist ein Quadrat. Von der oberen rechten Ecke geht eine Linie schräg nach ___. Von dort zeichnest du die hintere Kante.
+Die Vorderseite ist ein Quadrat — das kommt zuerst. Von den Ecken gehen schräge Linien nach rechts oben. Deren Endpunkte verbindest du zur hinteren Fläche. Zum Schluss zeichnest du die verdeckten Kanten gestrichelt.
 
 ### Didaktischer Hinweis
 Das Zeichnen von Schrägbildern wird in den Videos ausführlich gezeigt. Entspricht S. 111, Aufg. 5-10.

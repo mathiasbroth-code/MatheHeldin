@@ -18,6 +18,7 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -60,6 +61,7 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -105,6 +107,7 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -156,6 +159,7 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -198,6 +202,7 @@ buchseite: 78
 kapitel: "08-division"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -244,6 +249,7 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -289,6 +295,7 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -336,6 +343,7 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -383,6 +391,7 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -429,6 +438,7 @@ buchseite: 79
 kapitel: "08-division"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -473,6 +483,8 @@ buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -518,6 +530,8 @@ buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -556,13 +570,15 @@ Hier gibt es bewusst keinen "einzig richtigen" Weg. Die verschiedenen Rechenwege
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Umkehraufgabe"
-typ: luecke
+typ: lücke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: gelb
 buchseite: 80
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -608,6 +624,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -652,6 +670,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -696,6 +716,8 @@ buchseite: 81
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -739,6 +761,7 @@ buchseite: 82
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -785,6 +808,7 @@ buchseite: 82
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -832,6 +856,7 @@ buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -879,6 +904,7 @@ buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -916,13 +942,14 @@ Vierstellige Dividenden erfordern größere Zerlegungsschritte und ein sicheres 
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Vierstellige Zahlen"
-typ: luecke
+typ: lücke
 thema: "Halbschriftliches Dividieren vertiefen"
 schwierigkeit: grün
 buchseite: 83
 kapitel: "08-division"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -967,6 +994,8 @@ buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1009,13 +1038,15 @@ Die Teilbarkeitsregeln für 2, 5 und 10 basieren auf der Einerstelle und sind f�
 
 ---
 titel: "Fehlende Einerstelle — Teilbar machen"
-typ: luecke
+typ: lücke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: grün
 buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1060,6 +1091,8 @@ buchseite: 84
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1102,6 +1135,8 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1141,13 +1176,15 @@ Die Quersummenregel für 9 (und 3) ist ein wichtiges Werkzeug zur Teilbarkeitspr
 
 ---
 titel: "Fehlende Einerstelle für Teilbarkeit durch 9"
-typ: luecke
+typ: lücke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: orange
 buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1193,6 +1230,8 @@ buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1234,13 +1273,15 @@ Die Tabelle macht den Zusammenhang zwischen Teilbarkeit durch 3 und 9 sichtbar. 
 
 ---
 titel: "Fehlende Einerstelle — Teilbar durch 3 und/oder 9"
-typ: luecke
+typ: lücke
 thema: "Teilbarkeitsregeln"
 schwierigkeit: orange
 buchseite: 85
 kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-teilbar-durch-4.webp"
+tipp_2_bild: "assets/erklaerungen/s85-merkkasten-teilbar-durch-9.webp"
 ---
 
 ### Aufgabenstellung
@@ -1291,6 +1332,8 @@ buchseite: 86
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1343,6 +1386,8 @@ buchseite: 86
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1395,6 +1440,8 @@ buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1452,6 +1499,8 @@ buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1497,13 +1546,15 @@ Die Probe durch Multiplikation ist ein zentrales Kontrollwerkzeug. Kinder sollen
 
 ---
 titel: "Welche Ziffern fehlen? — Lückendivision"
-typ: luecke
+typ: lücke
 thema: "Schriftliches Dividieren"
 schwierigkeit: orange
 buchseite: 87
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1548,6 +1599,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1598,6 +1651,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1657,6 +1712,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1702,6 +1759,8 @@ buchseite: 88
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1743,6 +1802,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1804,6 +1865,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1850,6 +1913,8 @@ buchseite: 89
 kapitel: "08-division"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -1914,6 +1979,7 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -1924,9 +1990,9 @@ b) 6,30 € : 3 =
 c) 9,50 € : 5 =
 
 ### Lösung
-a) 1,20 €
-b) 2,10 €
-c) 1,90 €
+a) 1,20
+b) 2,10
+c) 1,90
 
 ### Lösungsweg
 Strategie aus dem Video "In Cent umwandeln und multiplizieren":
@@ -1959,6 +2025,7 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -1969,9 +2036,9 @@ b) 28,35 € auf 5 Kinder
 c) 42,56 € auf 8 Kinder
 
 ### Lösung
-a) 3,90 € pro Kind
-b) 5,67 € pro Kind
-c) 5,32 € pro Kind
+a) 3,90
+b) 5,67
+c) 5,32
 
 ### Lösungsweg
 In Cent umwandeln, teilen, zurückwandeln:
@@ -2004,6 +2071,7 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2046,6 +2114,7 @@ buchseite: 90
 kapitel: "08-division"
 stage_id: "rechnen-kommazahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2056,9 +2125,9 @@ b) 24,64 € : 4 =
 c) 7 · 3,85 € =
 
 ### Lösung
-a) 14,25 €
-b) 6,16 €
-c) 26,95 €
+a) 14,25
+b) 6,16
+c) 26,95
 
 ### Lösungsweg
 - a) 3 · 475 ct = 1.425 ct = 14,25 €
@@ -2092,6 +2161,7 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2132,6 +2202,7 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2178,6 +2249,7 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2217,6 +2289,7 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung
@@ -2259,6 +2332,7 @@ buchseite: 91
 kapitel: "08-division"
 stage_id: "sponsorenlauf"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s90-merkkasten-rate-ratenkauf.webp"
 ---
 
 ### Aufgabenstellung

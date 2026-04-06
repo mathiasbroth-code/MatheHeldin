@@ -28,6 +28,7 @@ export function Header({ title = 'Mathe-Heldin', subtitle, icon, onBack }: Heade
           <p className="text-sm text-muted truncate">{subtitle}</p>
         )}
       </div>
+      <div id="header-actions" className="flex items-center gap-1.5" />
     </header>
   );
 }

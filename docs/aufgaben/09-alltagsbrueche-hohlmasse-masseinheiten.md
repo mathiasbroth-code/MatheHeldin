@@ -13,9 +13,11 @@ typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -59,9 +61,11 @@ typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: platzhalter
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -86,9 +90,11 @@ typ: auswahl
 thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -138,9 +144,11 @@ typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -152,10 +160,10 @@ c) Wie viele Achtel ergeben ein Viertel? ___ Achtel = 1/4
 d) Wie viele Achtel ergeben ein Halbes? ___ Achtel = 1/2
 
 ### Lösung
-a) 2 Viertel = 1/2
-b) 4 Viertel = 1
-c) 2 Achtel = 1/4
-d) 4 Achtel = 1/2
+a) 2
+b) 4
+c) 2
+d) 4
 
 ### Lösungsweg
 - a) 1/4 + 1/4 = 2/4 = 1/2. Wenn du ein Halbes in zwei gleich große Teile teilst, bekommst du 2 Viertel.
@@ -186,9 +194,11 @@ typ: eingabe
 thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -237,9 +247,11 @@ typ: auswahl
 thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -277,9 +289,11 @@ typ: auswahl
 thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 93
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -328,9 +342,11 @@ typ: auswahl
 thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 92
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: "einfache-brueche"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "einfache-brüche"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
+tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
 ---
 
 ### Aufgabenstellung
@@ -381,9 +397,11 @@ typ: eingabe
 thema: "Liter und Milliliter"
 schwierigkeit: gelb
 buchseite: 94
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -397,12 +415,12 @@ e) 1/2 l = ___ ml
 f) 1/4 l = ___ ml
 
 ### Lösung
-a) 2.000 ml
-b) 5.000 ml
+a) 2.000
+b) 5.000
 c) 0,5 l (oder 1/2 l)
-d) 3 l
-e) 500 ml
-f) 250 ml
+d) 3
+e) 500
+f) 250
 
 ### Lösungsweg
 - l → ml: mit 1.000 multiplizieren. 2 l = 2 × 1.000 = 2.000 ml.
@@ -435,9 +453,11 @@ typ: zuordnung
 thema: "Liter und Milliliter"
 schwierigkeit: gelb
 buchseite: 94
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -483,13 +503,15 @@ Verbindung von Brüchen und Hohlmaßen. Der Messbecher als visuelles Hilfsmittel
 
 ---
 titel: "Lücken füllen — Bruchteile multiplizieren"
-typ: luecke
+typ: lücke
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 94
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -539,9 +561,11 @@ typ: eingabe
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 95
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -555,9 +579,9 @@ e) 5.047 ml = ___ l ___ ml
 f) 700 ml = ___ l ___ ml
 
 ### Lösung
-a) 3.190 ml
-b) 14.375 ml
-c) 1.903 ml
+a) 3.190
+b) 14.375
+c) 1.903
 d) 1 l 450 ml
 e) 5 l 47 ml
 f) 0 l 700 ml
@@ -594,9 +618,11 @@ typ: auswahl
 thema: "Liter und Milliliter"
 schwierigkeit: grün
 buchseite: 95
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -646,9 +672,11 @@ typ: zuordnung
 thema: "Liter und Milliliter"
 schwierigkeit: orange
 buchseite: 95
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -704,9 +732,11 @@ typ: textaufgabe
 thema: "Liter und Milliliter"
 schwierigkeit: orange
 buchseite: 94
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "liter-milliliter"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
+tipp_2_bild: "assets/erklaerungen/s94-messbecher-uebersicht.webp"
 ---
 
 ### Aufgabenstellung
@@ -752,9 +782,10 @@ typ: eingabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -810,9 +841,10 @@ typ: eingabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -851,9 +883,10 @@ typ: eingabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -892,9 +925,10 @@ typ: textaufgabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: orange
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -942,9 +976,10 @@ typ: eingabe
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: orange
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -987,9 +1022,10 @@ typ: reihenfolge
 thema: "Täglicher Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 96
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1034,9 +1070,10 @@ typ: auswahl
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 97
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1090,9 +1127,10 @@ typ: textaufgabe
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 97
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1131,9 +1169,10 @@ typ: reihenfolge
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: grün
 buchseite: 97
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1180,9 +1219,10 @@ typ: textaufgabe
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: orange
 buchseite: 97
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1227,9 +1267,10 @@ typ: reihenfolge
 thema: "Virtueller Wasserverbrauch"
 schwierigkeit: gelb
 buchseite: 97
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
-stage_id: ""
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
+stage_id: "liter-milliliter"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1275,9 +1316,10 @@ typ: eingabe
 thema: "Rauminhalt"
 schwierigkeit: gelb
 buchseite: 98
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1321,9 +1363,10 @@ typ: eingabe
 thema: "Rauminhalt"
 schwierigkeit: gelb
 buchseite: 98
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1333,7 +1376,7 @@ a) Wie viele Zentimeterwürfel passen in den Dezimeterwürfel?
 b) Wie rechnest du? Schreibe die Rechnung auf.
 
 ### Lösung
-a) 1.000 Zentimeterwürfel
+a) 1.000
 b) 10 · 10 · 10 = 1.000
 
 ### Lösungsweg
@@ -1365,9 +1408,10 @@ typ: eingabe
 thema: "Rauminhalt"
 schwierigkeit: grün
 buchseite: 98
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1409,9 +1453,10 @@ typ: eingabe
 thema: "Rauminhalt"
 schwierigkeit: grün
 buchseite: 99
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1454,9 +1499,10 @@ typ: textaufgabe
 thema: "Rauminhalt"
 schwierigkeit: grün
 buchseite: 99
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1496,9 +1542,10 @@ typ: auswahl
 thema: "Rauminhalt"
 schwierigkeit: orange
 buchseite: 99
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1544,9 +1591,10 @@ typ: eingabe
 thema: "Rauminhalt"
 schwierigkeit: orange
 buchseite: 99
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "rauminhalt"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1594,9 +1642,10 @@ typ: auswahl
 thema: "Maßeinheiten"
 schwierigkeit: gelb
 buchseite: 100
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1650,9 +1699,10 @@ typ: wahr-falsch
 thema: "Maßeinheiten"
 schwierigkeit: gelb
 buchseite: 100
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1696,13 +1746,14 @@ Fehlersuche fördert kritisches Denken und festigt die Zuordnung von Maßeinheit
 
 ---
 titel: "Richtige Maßeinheit einsetzen"
-typ: luecke
+typ: lücke
 thema: "Maßeinheiten"
 schwierigkeit: grün
 buchseite: 100
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1755,9 +1806,10 @@ typ: zuordnung
 thema: "Maßeinheiten"
 schwierigkeit: grün
 buchseite: 101
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1806,13 +1858,14 @@ Alltagsvergleiche helfen, ein Gefühl für Gewichtsangaben zu entwickeln. Entspr
 
 ---
 titel: "Umrechnungstabelle ausfüllen — alle Größen"
-typ: luecke
+typ: lücke
 thema: "Maßeinheiten"
 schwierigkeit: grün
 buchseite: 101
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1881,9 +1934,10 @@ typ: zuordnung
 thema: "Maßeinheiten"
 schwierigkeit: orange
 buchseite: 101
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1936,9 +1990,10 @@ typ: eingabe
 thema: "Maßeinheiten"
 schwierigkeit: orange
 buchseite: 101
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "masseinheiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1952,12 +2007,12 @@ e) 1/2 t = ___ kg
 f) 1/2 km = ___ m
 
 ### Lösung
-a) 15 min
-b) 30 min
-c) 50 cm
-d) 250 m
-e) 500 kg
-f) 500 m
+a) 15
+b) 30
+c) 50
+d) 250
+e) 500
+f) 500
 
 ### Lösungsweg
 - a) 1 h = 60 min. 1/4 davon: 60 : 4 = 15 min.
@@ -1992,9 +2047,10 @@ typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: gelb
 buchseite: 102
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2041,9 +2097,10 @@ typ: schritt
 thema: "Millionen-Fragen"
 schwierigkeit: grün
 buchseite: 102
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2090,9 +2147,10 @@ typ: eingabe
 thema: "Millionen-Fragen"
 schwierigkeit: gelb
 buchseite: 102
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2102,8 +2160,8 @@ a) 1.000.000 cm = ___ m
 b) 1.000.000 cm = ___ km
 
 ### Lösung
-a) 10.000 m
-b) 10 km
+a) 10.000
+b) 10
 
 ### Lösungsweg
 - a) 1 m = 100 cm. Also: 1.000.000 : 100 = 10.000 m.
@@ -2133,9 +2191,10 @@ typ: eingabe
 thema: "Millionen-Fragen"
 schwierigkeit: grün
 buchseite: 102
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2144,8 +2203,8 @@ b) 1.000.000 g = ___ t
 c) Ist eine Million Gramm schwerer oder leichter als ein Auto?
 
 ### Lösung
-a) 1.000 kg
-b) 1 t
+a) 1.000
+b) 1
 c) Ein kleines Auto wiegt ca. 1.000-1.500 kg = 1-1,5 t. Eine Million Gramm (= 1 t) ist also ungefähr so schwer wie ein kleines Auto.
 
 ### Lösungsweg
@@ -2175,9 +2234,10 @@ typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: grün
 buchseite: 103
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2214,9 +2274,10 @@ typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: orange
 buchseite: 103
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2258,9 +2319,10 @@ typ: auswahl
 thema: "Millionen-Fragen"
 schwierigkeit: orange
 buchseite: 103
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -2305,9 +2367,10 @@ typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: orange
 buchseite: 103
-kapitel: "09-alltagsbrueche-hohlmasse-masseinheiten"
+kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
 stage_id: "millionen-fragen"
 digital: platzhalter
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung

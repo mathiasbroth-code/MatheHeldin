@@ -1,0 +1,2078 @@
+[
+  {
+    "titel": "Pizza teilen — Bruch verstehen",
+    "typ": "eingabe",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "gelb",
+    "buchseite": 92,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Eine Pizza wird gerecht an Kinder verteilt. Schreibe den Bruch auf, den jedes Kind bekommt.\n\na) Die Pizza wird an 2 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.\nb) Die Pizza wird an 4 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.\nc) Die Pizza wird an 8 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
+    "loesung": "a) 1/2 (ein Halbes)\nb) 1/4 (ein Viertel)\nc) 1/8 (ein Achtel)",
+    "loesungsweg": "- Wenn du ein Ganzes gerecht an 2 teilst, bekommt jeder 1 von 2 Teilen → 1/2.\n- Bei 4 Kindern bekommt jeder 1 von 4 Teilen → 1/4.\n- Bei 8 Kindern bekommt jeder 1 von 8 Teilen → 1/8.\n- Die untere Zahl (Nenner) sagt, in wie viele gleiche Teile geteilt wird. Die obere Zahl (Zähler) sagt, wie viele Teile du bekommst.",
+    "tipps": [
+      "Stell dir eine runde Pizza vor. Wenn du sie in gleich große Stücke schneidest — wie viele Schnitte brauchst du für 2 Kinder? Und für 4?\n📺 Schau dir das Video \"Merkwissen: Brüche\" (S. 92) an!",
+      "Ein Bruch hat zwei Zahlen: Oben steht, wie viele Teile du bekommst (hier immer 1). Unten steht, in wie viele gleiche Teile die Pizza geschnitten wurde. Also: 1 von ___ Teilen.",
+      "Bei a): Die Pizza wird in 2 gleiche Stücke geteilt. Du bekommst 1 Stück. Also bekommst du 1 von 2 Teilen. Schreibe: 1/___. Was kommt unten hin?",
+      "- Wenn du ein Ganzes gerecht an 2 teilst, bekommt jeder 1 von 2 Teilen → 1/2.\n- Bei 4 Kindern bekommt jeder 1 von 4 Teilen → 1/4.\n- Bei 8 Kindern bekommt jeder 1 von 8 Teilen → 1/8.\n- Die untere Zahl (Nenner) sagt, in wie viele gleiche Teile geteilt wird. Die obere Zahl (Zähler) sagt, wie viele Teile du bekommst."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe zum Bruchbegriff mit dem vertrauten Kontext \"Pizza teilen\". Der Nenner wird über die Anzahl der Kinder eingeführt. Entspricht S. 92, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Eine Pizza wird gerecht an Kinder verteilt. Schreibe den Bruch auf, den jedes Kind bekommt.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Die Pizza wird an 2 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
+          "antwort": "1/2 (ein Halbes)"
+        },
+        {
+          "label": "b",
+          "frage": "Die Pizza wird an 4 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
+          "antwort": "1/4 (ein Viertel)"
+        },
+        {
+          "label": "c",
+          "frage": "Die Pizza wird an 8 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
+          "antwort": "1/8 (ein Achtel)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Rechteck aufteilen — Bruch als Fläche",
+    "typ": "eingabe",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "gelb",
+    "buchseite": 92,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "platzhalter",
+    "aufgabenstellung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe erfordert Papier und Stifte: Zeichne ein Rechteck und teile es in gleich große Teile. Färbe einen Bruchteil ein.\n\nOriginal: \"Zeichne ein Rechteck mit den Seitenlängen 6 cm und 8 cm. Teile es in vier gleich große Teile. Finde verschiedene Möglichkeiten. Färbe jeweils ein Viertel grün.\"\n\n**Mögliche digitale Alternative:** Multiple-Choice: \"Welches Bild zeigt ein Viertel des Rechtecks?\"",
+    "loesung": "",
+    "loesungsweg": "",
+    "tipps": [
+      "Lies die Aufgabe nochmal genau durch.",
+      "Überlege Schritt für Schritt.",
+      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      ""
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Das Zeichnen und Teilen von Flächen ist haptisch wertvoller als digital. Entspricht S. 92, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe erfordert Papier und Stifte: Zeichne ein Rechteck und teile es in gleich große Teile. Färbe einen Bruchteil ein.\n\nOriginal: \"Zeichne ein Rechteck mit den Seitenlängen 6 cm und 8 cm. Teile es in vier gleich große Teile. Finde verschiedene Möglichkeiten. Färbe jeweils ein Viertel grün.\"\n\n**Mögliche digitale Alternative:** Multiple-Choice: \"Welches Bild zeigt ein Viertel des Rechtecks?\"",
+          "antwort": ""
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gefärbter Anteil als Bruch — Rechteck",
+    "typ": "auswahl",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "gelb",
+    "buchseite": 92,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Schau dir das Rechteck an. Es ist in gleich große Teile geteilt. Einige Teile sind gefärbt. Schreibe den gefärbten Anteil als Bruch.\n\na) 4 gleiche Teile, davon 1 gefärbt → ___\nb) 4 gleiche Teile, davon 3 gefärbt → ___\nc) 8 gleiche Teile, davon 1 gefärbt → ___\nd) 8 gleiche Teile, davon 5 gefärbt → ___\ne) 2 gleiche Teile, davon 1 gefärbt → ___\nf) 8 gleiche Teile, davon 7 gefärbt → ___",
+    "loesung": "a) 1/4\nb) 3/4\nc) 1/8\nd) 5/8\ne) 1/2\nf) 7/8",
+    "loesungsweg": "Der Nenner (unten) ist die Gesamtzahl der gleichen Teile. Der Zähler (oben) ist die Anzahl der gefärbten Teile.\n- a) 1 von 4 Teilen gefärbt → 1/4\n- b) 3 von 4 Teilen gefärbt → 3/4\n- d) 5 von 8 Teilen gefärbt → 5/8",
+    "tipps": [
+      "Zähle erst alle gleichen Teile im Rechteck — das ist die untere Zahl im Bruch. Dann zähle die gefärbten Teile — das ist die obere Zahl.\n📺 Schau dir das Video \"Merkwissen: Brüche\" (S. 92) an!",
+      "Ein Bruch wird so aufgeschrieben: oben die gefärbten Teile, unten die Gesamtzahl. Also: gefärbte Teile / alle Teile.",
+      "Bei a): Du siehst 4 gleich große Teile. Davon ist 1 Teil gefärbt. Schreibe oben die 1, unten die 4. Das ergibt: 1/___. Welche Zahl fehlt unten?",
+      "Der Nenner (unten) ist die Gesamtzahl der gleichen Teile. Der Zähler (oben) ist die Anzahl der gefärbten Teile.\n- a) 1 von 4 Teilen gefärbt → 1/4\n- b) 3 von 4 Teilen gefärbt → 3/4\n- d) 5 von 8 Teilen gefärbt → 5/8"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Das Ablesen von Brüchen aus gefärbten Flächen trainiert das Grundverständnis für Zähler und Nenner. Entspricht S. 92, Aufg. 3.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schau dir das Rechteck an. Es ist in gleich große Teile geteilt. Einige Teile sind gefärbt. Schreibe den gefärbten Anteil als Bruch.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "4 gleiche Teile, davon 1 gefärbt → ___"
+        },
+        {
+          "label": "B",
+          "text": "4 gleiche Teile, davon 3 gefärbt → ___"
+        },
+        {
+          "label": "C",
+          "text": "8 gleiche Teile, davon 1 gefärbt → ___"
+        },
+        {
+          "label": "D",
+          "text": "8 gleiche Teile, davon 5 gefärbt → ___"
+        },
+        {
+          "label": "E",
+          "text": "2 gleiche Teile, davon 1 gefärbt → ___"
+        },
+        {
+          "label": "F",
+          "text": "8 gleiche Teile, davon 7 gefärbt → ___"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Viertel und Halbe — Zusammenhang erkennen",
+    "typ": "eingabe",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "grün",
+    "buchseite": 93,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Beantworte die Fragen.\n\na) Wie viele Viertel ergeben ein Halbes? ___ Viertel = 1/2\nb) Wie viele Viertel ergeben ein Ganzes? ___ Viertel = 1\nc) Wie viele Achtel ergeben ein Viertel? ___ Achtel = 1/4\nd) Wie viele Achtel ergeben ein Halbes? ___ Achtel = 1/2",
+    "loesung": "a) 2\nb) 4\nc) 2\nd) 4",
+    "loesungsweg": "- a) 1/4 + 1/4 = 2/4 = 1/2. Wenn du ein Halbes in zwei gleich große Teile teilst, bekommst du 2 Viertel.\n- b) 4/4 = 1 Ganzes. Vier Viertel ergeben wieder das Ganze.\n- c) 1/8 + 1/8 = 2/8 = 1/4. Zwei Achtel sind so viel wie ein Viertel.\n- d) 4 × 1/8 = 4/8 = 1/2. Vier Achtel sind ein Halbes.",
+    "tipps": [
+      "Stell dir eine Torte vor, die in 4 gleich große Stücke geschnitten ist. Wenn du die Torte in der Mitte durchschneidest, hast du 2 Hälften. Wie viele Viertel-Stücke liegen in jeder Hälfte?\n📺 Schau dir das Video \"Merkwissen: Brüche\" (S. 92) an!",
+      "Male dir einen Kreis, teile ihn in 4 Viertel. Markiere dann die Hälfte. Zähle, wie viele Viertel-Stücke in der Hälfte liegen.",
+      "Bei a): 1/4 + 1/4 = 2/4. Und 2/4 ist dasselbe wie 1/2 — denn 2 von 4 Teilen sind genau die Hälfte. Also: ___ Viertel ergeben ein Halbes.",
+      "- a) 1/4 + 1/4 = 2/4 = 1/2. Wenn du ein Halbes in zwei gleich große Teile teilst, bekommst du 2 Viertel.\n- b) 4/4 = 1 Ganzes. Vier Viertel ergeben wieder das Ganze.\n- c) 1/8 + 1/8 = 2/8 = 1/4. Zwei Achtel sind so viel wie ein Viertel.\n- d) 4 × 1/8 = 4/8 = 1/2. Vier Achtel sind ein Halbes."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Diese Aufgabe baut das Verständnis für äquivalente Brüche und den Zusammenhang zwischen Halben, Vierteln und Achteln auf. Entspricht S. 93, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Beantworte die Fragen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Viertel ergeben ein Halbes? ___ Viertel = 1/2",
+          "antwort": "2"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Viertel ergeben ein Ganzes? ___ Viertel = 1",
+          "antwort": "4"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viele Achtel ergeben ein Viertel? ___ Achtel = 1/4",
+          "antwort": "2"
+        },
+        {
+          "label": "d",
+          "frage": "Wie viele Achtel ergeben ein Halbes? ___ Achtel = 1/2",
+          "antwort": "4"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gefärbter Anteil des Kreises — Bruch ablesen",
+    "typ": "eingabe",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "grün",
+    "buchseite": 93,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Kreis ist in gleich große Teile geteilt. Schreibe den gefärbten Anteil als Bruch. Manchmal gibt es mehrere Möglichkeiten.\n\na) Kreis in 4 Teile, 3 gefärbt → ___\nb) Kreis in 4 Teile, 2 gefärbt → ___ oder ___\nc) Kreis in 8 Teile, 6 gefärbt → ___ oder ___\nd) Kreis in 8 Teile, 4 gefärbt → ___ oder ___\ne) Kreis in 2 Teile, 1 gefärbt → ___\nf) Kreis in 4 Teile, 1 gefärbt → ___",
+    "loesung": "a) 3/4\nb) 2/4 oder 1/2\nc) 6/8 oder 3/4\nd) 4/8 oder 1/2\ne) 1/2\nf) 1/4",
+    "loesungsweg": "Zähle die gefärbten Teile (Zähler) und die Gesamtzahl der Teile (Nenner).\n- b) 2/4 — und weil 2 von 4 genau die Hälfte ist, kann man auch 1/2 schreiben.\n- c) 6/8 — und weil 6 von 8 dasselbe ist wie 3 von 4, kann man auch 3/4 schreiben.\n- d) 4/8 — das ist genau die Hälfte, also auch 1/2.",
+    "tipps": [
+      "Zähle erst alle Teile im Kreis — das ist der Nenner. Dann zähle die gefärbten Teile — das ist der Zähler. Schau auch, ob der gefärbte Teil genau eine Hälfte oder ein Viertel ist!",
+      "Manche Brüche kann man vereinfachen: Wenn Zähler und Nenner beide gerade sind, kannst du sie halbieren. 2/4 → 1/2. Das sind verschiedene Schreibweisen für denselben Anteil.",
+      "Bei b): Der Kreis hat 4 Teile, 2 sind gefärbt. Das ergibt 2/4. Schau dir den Kreis an — sind genau die Hälfte der Teile gefärbt? Dann kannst du auch ___ schreiben.",
+      "Zähle die gefärbten Teile (Zähler) und die Gesamtzahl der Teile (Nenner).\n- b) 2/4 — und weil 2 von 4 genau die Hälfte ist, kann man auch 1/2 schreiben.\n- c) 6/8 — und weil 6 von 8 dasselbe ist wie 3 von 4, kann man auch 3/4 schreiben.\n- d) 4/8 — das ist genau die Hälfte, also auch 1/2."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Hier lernen Kinder zum ersten Mal, dass ein Bruchanteil auf verschiedene Weisen geschrieben werden kann (äquivalente Brüche). Entspricht S. 93, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Kreis ist in gleich große Teile geteilt. Schreibe den gefärbten Anteil als Bruch. Manchmal gibt es mehrere Möglichkeiten.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Kreis in 4 Teile, 3 gefärbt → ___",
+          "antwort": "3/4"
+        },
+        {
+          "label": "b",
+          "frage": "Kreis in 4 Teile, 2 gefärbt → ___ oder ___",
+          "antwort": "2/4 oder 1/2"
+        },
+        {
+          "label": "c",
+          "frage": "Kreis in 8 Teile, 6 gefärbt → ___ oder ___",
+          "antwort": "6/8 oder 3/4"
+        },
+        {
+          "label": "d",
+          "frage": "Kreis in 8 Teile, 4 gefärbt → ___ oder ___",
+          "antwort": "4/8 oder 1/2"
+        },
+        {
+          "label": "e",
+          "frage": "Kreis in 2 Teile, 1 gefärbt → ___",
+          "antwort": "1/2"
+        },
+        {
+          "label": "f",
+          "frage": "Kreis in 4 Teile, 1 gefärbt → ___",
+          "antwort": "1/4"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Pizza gerecht verteilen — Anteile planen",
+    "typ": "auswahl",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "grün",
+    "buchseite": 93,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "teilweise",
+    "aufgabenstellung": "3 Pizzen sollen gerecht an 4 Kinder verteilt werden. Jedes Kind soll gleich viel bekommen. Wie viel bekommt jedes Kind?\n\na) Jedes Kind bekommt ___ Viertel.\nb) Schreibe als Bruch: Jedes Kind bekommt ___ der Gesamtmenge.",
+    "loesung": "a) 3 Viertel\nb) 3/4 einer Pizza",
+    "loesungsweg": "Jede der 3 Pizzen wird in 4 gleiche Teile geschnitten. Das ergibt 3 × 4 = 12 Stücke. 12 Stücke : 4 Kinder = 3 Stücke pro Kind. Jedes Stück ist ein Viertel, also bekommt jedes Kind 3/4 einer Pizza.",
+    "tipps": [
+      "Stell dir vor, du schneidest jede der 3 Pizzen in 4 gleiche Teile. Wie viele Stücke hast du dann insgesamt? Wie teilst du die gerecht auf?",
+      "Schneide jede Pizza in so viele Teile, wie Kinder da sind: 4 Teile pro Pizza. Dann hat jede Pizza 4 Viertel. Verteile nun die Stücke Runde für Runde: In Runde 1 bekommt jedes Kind 1 Viertel von Pizza 1, in Runde 2 von Pizza 2, und so weiter.",
+      "3 Pizzen, jeweils 4 Stücke = 12 Stücke gesamt. 12 : 4 Kinder = ___ Stücke pro Kind. Jedes Stück ist 1/4 Pizza. Also bekommt jedes Kind ___/4 Pizza.",
+      "Jede der 3 Pizzen wird in 4 gleiche Teile geschnitten. Das ergibt 3 × 4 = 12 Stücke. 12 Stücke : 4 Kinder = 3 Stücke pro Kind. Jedes Stück ist ein Viertel, also bekommt jedes Kind 3/4 einer Pizza."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Diese Aufgabe führt den Bruch als Ergebnis einer fairen Aufteilung ein. Entspricht S. 93, Aufg. 6-8.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "3 Pizzen sollen gerecht an 4 Kinder verteilt werden. Jedes Kind soll gleich viel bekommen. Wie viel bekommt jedes Kind?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Jedes Kind bekommt ___ Viertel."
+        },
+        {
+          "label": "B",
+          "text": "Schreibe als Bruch: Jedes Kind bekommt ___ der Gesamtmenge."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Brüche vergleichen — Welcher ist größer?",
+    "typ": "auswahl",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "orange",
+    "buchseite": 93,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: < oder >\n\na) 1/2 ___ 1/4\nb) 3/4 ___ 1/2\nc) 1/8 ___ 1/4\nd) 7/8 ___ 3/4\ne) 2/4 ___ 4/8",
+    "loesung": "a) 1/2 > 1/4\nb) 3/4 > 1/2\nc) 1/8 < 1/4\nd) 7/8 > 3/4\ne) 2/4 = 4/8",
+    "loesungsweg": "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte.",
+    "tipps": [
+      "Stell dir zwei gleich große Pizzen vor. Die eine wird in weniger Teile geschnitten, die andere in mehr. Welche Stücke sind größer — die aus der Pizza mit wenigen oder vielen Teilen?\n📺 Schau dir das Video \"Merkwissen: Brüche\" (S. 92) an!",
+      "Trick: Mache die Nenner gleich! Dann kannst du die Zähler direkt vergleichen. Beispiel: 1/2 = 2/4. Jetzt vergleiche 2/4 mit 1/4 — welche Zahl oben ist größer?",
+      "Bei a): 1/2 = 2/4 (denn 2 Viertel sind ein Halbes). Jetzt vergleiche 2/4 mit 1/4. 2 ist ___ als 1, also ist 1/2 ___ als 1/4. Setze > oder < ein.",
+      "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Das Vergleichen von Brüchen ist eine Vertiefungsaufgabe, die das Verständnis für die Bruchgröße festigt. Entspricht weiterführenden Aufgaben zu S. 92-93.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: < oder >",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1/2 ___ 1/4"
+        },
+        {
+          "label": "B",
+          "text": "3/4 ___ 1/2"
+        },
+        {
+          "label": "C",
+          "text": "1/8 ___ 1/4"
+        },
+        {
+          "label": "D",
+          "text": "7/8 ___ 3/4"
+        },
+        {
+          "label": "E",
+          "text": "2/4 ___ 4/8"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Alltagsbrüche — Brüche im Alltag erkennen",
+    "typ": "auswahl",
+    "thema": "Einfache Brüche",
+    "schwierigkeit": "orange",
+    "buchseite": 92,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "einfache-brüche",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.\n\na) Eine halbe Stunde → ___\nb) Eine Viertelstunde → ___\nc) Ein halber Liter → ___\nd) Eine viertel Pizza → ___\ne) Ein Achtel vom Kuchen → ___\n\nAuswahl: 1/2 | 1/4 | 1/8",
+    "loesung": "a) 1/2\nb) 1/4\nc) 1/2\nd) 1/4\ne) 1/8",
+    "loesungsweg": "- \"halb\" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.\n- \"Viertel\" bedeutet immer 1/4 — das Ganze in 4 gleiche Teile geteilt.\n- \"Achtel\" bedeutet immer 1/8 — das Ganze in 8 gleiche Teile geteilt.\n- Diese Brüche begegnen dir überall im Alltag: beim Kochen, bei der Uhrzeit, beim Teilen.",
+    "tipps": [
+      "Kennst du eine \"Viertelstunde\"? Wie viele Minuten sind das? Eine Stunde hat 60 Minuten — ein Viertel davon ist 60 : 4 = 15 Minuten.",
+      "Höre auf die Wörter: \"halb\" → 1/2, \"viertel\" → 1/4, \"achtel\" → 1/8. Das Wort verrät dir den Nenner!",
+      "Bei a): Eine \"halbe\" Stunde — \"halb\" bedeutet: in 2 gleiche Teile geteilt, du bekommst 1 davon. Also: 1/___.",
+      "- \"halb\" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.\n- \"Viertel\" bedeutet immer 1/4 — das Ganze in 4 gleiche Teile geteilt.\n- \"Achtel\" bedeutet immer 1/8 — das Ganze in 8 gleiche Teile geteilt.\n- Diese Brüche begegnen dir überall im Alltag: beim Kochen, bei der Uhrzeit, beim Teilen."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Alltagsbrüche verankern den Bruchbegriff in der Lebenswelt des Kindes. Entspricht dem Titel \"Alltagsbrüche\" des Kapitels.",
+    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Eine halbe Stunde → ___"
+        },
+        {
+          "label": "B",
+          "text": "Eine Viertelstunde → ___"
+        },
+        {
+          "label": "C",
+          "text": "Ein halber Liter → ___"
+        },
+        {
+          "label": "D",
+          "text": "Eine viertel Pizza → ___"
+        },
+        {
+          "label": "E",
+          "text": "Ein Achtel vom Kuchen → ___"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Milliliter und Liter — Grundumrechnung",
+    "typ": "eingabe",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "gelb",
+    "buchseite": 94,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle um. Denke daran: 1 l = 1.000 ml.\n\na) 2 l = ___ ml\nb) 5 l = ___ ml\nc) 500 ml = ___ l\nd) 3.000 ml = ___ l\ne) 1/2 l = ___ ml\nf) 1/4 l = ___ ml",
+    "loesung": "a) 2.000\nb) 5.000\nc) 0,5 l (oder 1/2 l)\nd) 3\ne) 500\nf) 250",
+    "loesungsweg": "- l → ml: mit 1.000 multiplizieren. 2 l = 2 × 1.000 = 2.000 ml.\n- ml → l: durch 1.000 dividieren. 3.000 ml = 3.000 : 1.000 = 3 l.\n- 1/2 l = 1.000 ml : 2 = 500 ml.\n- 1/4 l = 1.000 ml : 4 = 250 ml.",
+    "tipps": [
+      "Stell dir einen vollen Messbecher vor, der genau 1 Liter fasst. Dieser Liter besteht aus 1.000 Milliliter. \"Mille\" bedeutet 1.000!\n📺 Schau dir das Video \"Merkwissen: Liter und Milliliter\" (S. 94) an!",
+      "Von Liter nach Milliliter: × 1.000 (hänge drei Nullen an).\nVon Milliliter nach Liter: : 1.000 (streiche drei Nullen).\nBei Brüchen: Teile 1.000 durch den Nenner.",
+      "Bei e): 1/2 l bedeutet: 1 Liter geteilt durch 2. Also: 1.000 ml : 2 = ___ ml.",
+      "- l → ml: mit 1.000 multiplizieren. 2 l = 2 × 1.000 = 2.000 ml.\n- ml → l: durch 1.000 dividieren. 3.000 ml = 3.000 : 1.000 = 3 l.\n- 1/2 l = 1.000 ml : 2 = 500 ml.\n- 1/4 l = 1.000 ml : 4 = 250 ml."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Grundlegende Umrechnungsaufgabe zwischen Liter und Milliliter. Der Merksatz \"Mille = 1.000\" wird aus dem Buch übernommen. Entspricht S. 94, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle um. Denke daran: 1 l = 1.000 ml.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "2 l = ___ ml",
+          "antwort": "2.000"
+        },
+        {
+          "label": "b",
+          "frage": "5 l = ___ ml",
+          "antwort": "5.000"
+        },
+        {
+          "label": "c",
+          "frage": "500 ml = ___ l",
+          "antwort": "0,5 l (oder 1/2 l)"
+        },
+        {
+          "label": "d",
+          "frage": "3.000 ml = ___ l",
+          "antwort": "3"
+        },
+        {
+          "label": "e",
+          "frage": "1/2 l = ___ ml",
+          "antwort": "500"
+        },
+        {
+          "label": "f",
+          "frage": "1/4 l = ___ ml",
+          "antwort": "250"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Messbecher beschreiben — Bruchteile eines Liters",
+    "typ": "zuordnung",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "gelb",
+    "buchseite": 94,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.\n\n| Milliliter | Bruchteil |\n|------------|-----------|\n| 500 ml | ? |\n| 250 ml | ? |\n| 125 ml | ? |\n| 750 ml | ? |\n\nAuswahl: 1/2 l | 1/4 l | 1/8 l | 3/4 l",
+    "loesung": "- 500 ml → 1/2 l\n- 250 ml → 1/4 l\n- 125 ml → 1/8 l\n- 750 ml → 3/4 l",
+    "loesungsweg": "- 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l\n- 250 ml: 1.000 : 250 = 4 → der 4. Teil von 1 Liter → 1/4 l\n- 125 ml: 1.000 : 125 = 8 → der 8. Teil von 1 Liter → 1/8 l\n- 750 ml: Das sind 3 × 250 ml = 3 × 1/4 l = 3/4 l",
+    "tipps": [
+      "Stell dir einen Messbecher mit 1.000 ml (= 1 Liter) vor. Fülle ihn halb voll — wie viele Milliliter sind das?\n📺 Schau dir das Video \"Merkwissen: Bruchteile eines Liters\" (S. 101) an!",
+      "Rechne aus, wie oft die Milliliter-Menge in 1.000 ml passt: 1.000 : ??? = Nenner des Bruchs. Beispiel: 1.000 : 250 = 4, also ist 250 ml = 1/4 l.",
+      "500 ml: Die Hälfte von 1.000 ist 500. Also sind 500 ml = 1/___ l. Welche Zahl gehört unten hin?",
+      "- 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l\n- 250 ml: 1.000 : 250 = 4 → der 4. Teil von 1 Liter → 1/4 l\n- 125 ml: 1.000 : 125 = 8 → der 8. Teil von 1 Liter → 1/8 l\n- 750 ml: Das sind 3 × 250 ml = 3 × 1/4 l = 3/4 l"
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Verbindung von Brüchen und Hohlmaßen. Der Messbecher als visuelles Hilfsmittel macht die Bruchteile greifbar. Entspricht S. 94, Aufg. 2 und 5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Milliliter-Angabe dem passenden Bruchteil eines Liters zu.\n| Milliliter | Bruchteil |\n|------------|-----------|\n| 500 ml | ? |\n| 250 ml | ? |\n| 125 ml | ? |\n| 750 ml | ? |\nAuswahl: 1/2 l | 1/4 l | 1/8 l | 3/4 l",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Lücken füllen — Bruchteile multiplizieren",
+    "typ": "lücke",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "grün",
+    "buchseite": 94,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Setze die fehlende Zahl ein.\n\na) ▢ · 500 ml = 1 l\nb) ▢ · 250 ml = 1 l\nc) ▢ · 125 ml = 1 l\nd) 1.000 ml : ▢ = 500 ml\ne) 1.000 ml : ▢ = 250 ml\nf) 1.000 ml : ▢ = 125 ml",
+    "loesung": "a) 2\nb) 4\nc) 8\nd) 2\ne) 4\nf) 8",
+    "loesungsweg": "- a) 2 × 500 ml = 1.000 ml = 1 l → 2 halbe Liter ergeben 1 Liter\n- b) 4 × 250 ml = 1.000 ml = 1 l → 4 Viertelliter ergeben 1 Liter\n- c) 8 × 125 ml = 1.000 ml = 1 l → 8 Achtelliter ergeben 1 Liter\n- Die Divisionsaufgaben zeigen das Gleiche andersherum.",
+    "tipps": [
+      "Stell dir Becher vor, die du nacheinander in einen leeren 1-Liter-Messbecher schüttest. Wie viele 500-ml-Becher brauchst du, bis er voll ist?\n📺 Schau dir das Video \"Vergleichsgrößen: Milliliter und Liter\" (S. 95) an!",
+      "Die Frage ist: Wie oft passt die Milliliter-Menge in 1 Liter (= 1.000 ml)? Rechne: 1.000 : ??? = gesuchte Zahl.",
+      "Bei a): ▢ · 500 ml = 1.000 ml. Also ▢ = 1.000 : 500 = ___.",
+      "- a) 2 × 500 ml = 1.000 ml = 1 l → 2 halbe Liter ergeben 1 Liter\n- b) 4 × 250 ml = 1.000 ml = 1 l → 4 Viertelliter ergeben 1 Liter\n- c) 8 × 125 ml = 1.000 ml = 1 l → 8 Achtelliter ergeben 1 Liter\n- Die Divisionsaufgaben zeigen das Gleiche andersherum."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Umkehraufgaben festigen das Verständnis für die Beziehung zwischen Milliliter-Mengen und dem vollen Liter. Entspricht S. 94, Aufg. 4-5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Setze die fehlende Zahl ein.\n\na) ▢ · 500 ml = 1 l\nb) ▢ · 250 ml = 1 l\nc) ▢ · 125 ml = 1 l\nd) 1.000 ml : ▢ = 500 ml\ne) 1.000 ml : ▢ = 250 ml\nf) 1.000 ml : ▢ = 125 ml",
+          "antwort": "a) 2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Gemischte Angaben umwandeln — l und ml",
+    "typ": "eingabe",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "grün",
+    "buchseite": 95,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle in Milliliter um.\n\na) 3 l 190 ml = ___ ml\nb) 14 l 375 ml = ___ ml\nc) 1 l 903 ml = ___ ml\nd) 1.450 ml = ___ l ___ ml\ne) 5.047 ml = ___ l ___ ml\nf) 700 ml = ___ l ___ ml",
+    "loesung": "a) 3.190\nb) 14.375\nc) 1.903\nd) 1 l 450 ml\ne) 5 l 47 ml\nf) 0 l 700 ml",
+    "loesungsweg": "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l 47 ml.",
+    "tipps": [
+      "Stell dir eine Stellenwerttafel vor, aber statt T|H|Z|E hast du l|ml. Die Tausender in Milliliter sind die Liter!\n📺 Schau dir das Video \"Merkwissen: Rauminhalte umrechnen\" (S. 101) an!",
+      "Nutze eine Tabelle mit zwei Spalten: l | ml. Schreibe die Zahl so auf, dass die letzten drei Ziffern in der ml-Spalte stehen und der Rest in der l-Spalte.",
+      "Bei a): 3 l 190 ml → Die 3 Liter sind 3 × 1.000 = 3.000 ml. Plus die 190 ml: 3.000 + 190 = ___ ml.",
+      "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l 47 ml."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Gemischte Schreibweise (l und ml) und reine Milliliter-Schreibweise umwandeln. Die Stellenwerttafel wird als bekannte Hilfe genutzt. Entspricht S. 95, Aufg. 9-11.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle in Milliliter um.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "3 l 190 ml = ___ ml",
+          "antwort": "3.190"
+        },
+        {
+          "label": "b",
+          "frage": "14 l 375 ml = ___ ml",
+          "antwort": "14.375"
+        },
+        {
+          "label": "c",
+          "frage": "1 l 903 ml = ___ ml",
+          "antwort": "1.903"
+        },
+        {
+          "label": "d",
+          "frage": "1.450 ml = ___ l ___ ml",
+          "antwort": "1 l 450 ml"
+        },
+        {
+          "label": "e",
+          "frage": "5.047 ml = ___ l ___ ml",
+          "antwort": "5 l 47 ml"
+        },
+        {
+          "label": "f",
+          "frage": "700 ml = ___ l ___ ml",
+          "antwort": "0 l 700 ml"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vergleichen — Liter, Milliliter und Brüche",
+    "typ": "auswahl",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "grün",
+    "buchseite": 95,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Setze das richtige Zeichen ein: <, > oder =\n\na) 725 ml ▢ 3/4 l\nb) 1.001 ml ▢ 1 l\nc) 1 1/2 l ▢ 2.000 ml\nd) 750 ml ▢ 1/2 l\ne) 250 ml ▢ 1/4 l\nf) 0,330 l ▢ 1/2 l",
+    "loesung": "a) 725 ml < 3/4 l (denn 3/4 l = 750 ml)\nb) 1.001 ml > 1 l (denn 1 l = 1.000 ml)\nc) 1 1/2 l < 2.000 ml (denn 1 1/2 l = 1.500 ml)\nd) 750 ml > 1/2 l (denn 1/2 l = 500 ml)\ne) 250 ml = 1/4 l (denn 1/4 l = 250 ml)\nf) 0,330 l < 1/2 l (denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml)",
+    "loesungsweg": "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 3/4 l = 750 ml → 725 < 750 → <\n- c) 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- e) 1/4 l = 250 ml → 250 = 250 → =",
+    "tipps": [
+      "Um Liter und Milliliter zu vergleichen, musst du beide in dieselbe Einheit bringen. Wandle alles in Milliliter um — dann kannst du die Zahlen direkt vergleichen.\n📺 Schau dir das Video \"Vergleichsgrößen: Milliliter und Liter\" (S. 95) an!",
+      "Brüche umrechnen: 1/2 l = 500 ml, 1/4 l = 250 ml, 3/4 l = 750 ml, 1/8 l = 125 ml. Lerne diese Werte auswendig!",
+      "Bei a): 3/4 l = 3 × 250 ml = 750 ml. Jetzt vergleiche: 725 ml ▢ 750 ml. Welche Zahl ist größer?",
+      "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 3/4 l = 750 ml → 725 < 750 → <\n- c) 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- e) 1/4 l = 250 ml → 250 = 250 → ="
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Das Vergleichen unterschiedlicher Schreibweisen festigt die Umrechnungskompetenz. Entspricht S. 95, Aufg. 12.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Setze das richtige Zeichen ein: <, > oder =",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "725 ml ▢ 3/4 l"
+        },
+        {
+          "label": "B",
+          "text": "1.001 ml ▢ 1 l"
+        },
+        {
+          "label": "C",
+          "text": "1 1/2 l ▢ 2.000 ml"
+        },
+        {
+          "label": "D",
+          "text": "750 ml ▢ 1/2 l"
+        },
+        {
+          "label": "E",
+          "text": "250 ml ▢ 1/4 l"
+        },
+        {
+          "label": "F",
+          "text": "0,330 l ▢ 1/2 l"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Vergleichsgrößen zuordnen — Was fasst wie viel?",
+    "typ": "zuordnung",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "orange",
+    "buchseite": 95,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Gefäße der passenden Menge zu.\n\n| Gefäß | Fassungsvermögen |\n|-------|----------------|\n| Teetasse | ? |\n| Milchtüte | ? |\n| Teelöffel | ? |\n| Eimer | ? |\n| Trinkflasche | ? |\n| Badewanne | ? |\n\nAuswahl: 5 ml | 150 ml | 500 ml | 1 l | 10 l | 150 l",
+    "loesung": "- Teetasse → 150 ml\n- Milchtüte → 1 l\n- Teelöffel → 5 ml\n- Eimer → 10 l\n- Trinkflasche → 500 ml\n- Badewanne → 150 l",
+    "loesungsweg": "Hier hilft das Schätzen aus dem Alltag:\n- Ein Teelöffel fasst ganz wenig — nur ca. 5 ml.\n- Eine Teetasse ist klein — ca. 150 ml.\n- Eine Trinkflasche für die Schule fasst ca. 500 ml (1/2 Liter).\n- Eine Milchtüte ist meistens 1 Liter.\n- Ein Eimer ist schon recht groß — ca. 10 Liter.\n- Eine Badewanne ist riesig — ca. 150 Liter.",
+    "tipps": [
+      "Stelle dir jedes Gefäß vor deinem inneren Auge vor. Sortiere sie nach Größe — das kleinste Gefäß bekommt die kleinste Zahl, das größte die größte.",
+      "Beginne mit dem, das du sicher kennst: Eine Milchtüte hat fast immer 1 Liter. Von dort kannst du die anderen schätzen: Ein Teelöffel ist viel kleiner, ein Eimer viel größer.",
+      "Der Teelöffel ist winzig → 5 ml. Die Milchtüte kennst du aus dem Kühlschrank → 1 l. Jetzt ordne die restlichen der Größe nach ein.",
+      "Hier hilft das Schätzen aus dem Alltag:\n- Ein Teelöffel fasst ganz wenig — nur ca. 5 ml.\n- Eine Teetasse ist klein — ca. 150 ml.\n- Eine Trinkflasche für die Schule fasst ca. 500 ml (1/2 Liter).\n- Eine Milchtüte ist meistens 1 Liter.\n- Ein Eimer ist schon recht groß — ca. 10 Liter.\n- Eine Badewanne ist riesig — ca. 150 Liter."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Vergleichsgrößen helfen beim Schätzen und geben ein Gefühl für Mengenangaben im Alltag. Entspricht S. 95, Aufg. 13.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Gefäße der passenden Menge zu.\n| Gefäß | Fassungsvermögen |\n|-------|----------------|\n| Teetasse | ? |\n| Milchtüte | ? |\n| Teelöffel | ? |\n| Eimer | ? |\n| Trinkflasche | ? |\n| Badewanne | ? |\nAuswahl: 5 ml | 150 ml | 500 ml | 1 l | 10 l | 150 l",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Kniffelaufgabe — 4 Liter abmessen",
+    "typ": "textaufgabe",
+    "thema": "Liter und Milliliter",
+    "schwierigkeit": "orange",
+    "buchseite": 94,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "teilweise",
+    "aufgabenstellung": "Du hast zwei Eimer: In einen passen genau 3 Liter Wasser, in den anderen genau 5 Liter. Wie kannst du damit genau 4 Liter Wasser abmessen? Beschreibe deinen Weg.",
+    "loesung": "Schritt 1: Fülle den 5-Liter-Eimer voll.\nSchritt 2: Schütte aus dem 5-Liter-Eimer in den 3-Liter-Eimer, bis er voll ist.\nSchritt 3: Im 5-Liter-Eimer bleiben 5 - 3 = 2 Liter übrig.\nSchritt 4: Leere den 3-Liter-Eimer aus.\nSchritt 5: Schütte die 2 Liter aus dem 5-Liter-Eimer in den 3-Liter-Eimer.\nSchritt 6: Fülle den 5-Liter-Eimer wieder voll.\nSchritt 7: Schütte aus dem 5-Liter-Eimer in den 3-Liter-Eimer (da passen nur noch 1 l rein).\nSchritt 8: Im 5-Liter-Eimer sind jetzt genau 4 Liter!",
+    "loesungsweg": "Das ist ein klassisches Umfüll-Rätsel. Der Trick ist, dass 5 - 3 = 2 und 2 + 2 = 4 nicht direkt geht. Stattdessen nutzt man: 5 - (3 - 2) = 5 - 1 = 4.",
+    "tipps": [
+      "Überlege: Was passiert, wenn du den 5-Liter-Eimer voll machst und dann in den 3-Liter-Eimer umschüttest? Wie viel bleibt im großen Eimer?",
+      "Male dir die beiden Eimer auf und schreibe bei jedem Schritt auf, wie viel Wasser in jedem Eimer ist. Probiere verschiedene Umfüll-Wege aus.",
+      "Start: 5-l-Eimer = voll (5 l), 3-l-Eimer = leer (0 l).\nSchritt 1: Schütte in den 3er → 5-l-Eimer hat jetzt ___ l, 3-l-Eimer hat 3 l.\nSchritt 2: Leere den 3er. Schütte die ___ l vom 5er in den 3er. Jetzt hat der 3er ___ l.\nSchritt 3: Fülle den 5er wieder voll. Schütte in den 3er (da passt noch ___ l rein) ...",
+      "Das ist ein klassisches Umfüll-Rätsel. Der Trick ist, dass 5 - 3 = 2 und 2 + 2 = 4 nicht direkt geht. Stattdessen nutzt man: 5 - (3 - 2) = 5 - 1 = 4."
+    ],
+    "tippBilder": [
+      null,
+      "assets/erklaerungen/s94-messbecher-uebersicht.webp",
+      null,
+      null
+    ],
+    "didaktischerHinweis": "Klassisches Knobelrätsel, das logisches Denken und den Umgang mit Hohlmaßen verbindet. Entspricht S. 94, Aufg. 8.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Du hast zwei Eimer: In einen passen genau 3 Liter Wasser, in den anderen genau 5 Liter. Wie kannst du damit genau 4 Liter Wasser abmessen? Beschreibe deinen Weg.",
+          "antwort": "Schritt 1: Fülle den 5-Liter-Eimer voll."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Täglicher Wasserverbrauch — Summe berechnen",
+    "typ": "eingabe",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "gelb",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |\n\nWie viel Wasser verbraucht eine Person durchschnittlich am Tag?",
+    "loesung": "12 + 45 + 44 + 19 + 7 + 6 + 10 + 2 = 145 l",
+    "loesungsweg": "Addiere alle Bereichswerte:\n- 12 + 45 = 57\n- 57 + 44 = 101\n- 101 + 19 = 120\n- 120 + 7 = 127\n- 127 + 6 = 133\n- 133 + 10 = 143\n- 143 + 2 = 145\n\nEine Person verbraucht im Durchschnitt 145 Liter Wasser am Tag.",
+    "tipps": [
+      "Schau dir die Tabelle an. Du musst alle Werte zusammenzählen. Vielleicht fällt dir auf, dass manche Zahlen zusammen schöne Summen ergeben?",
+      "Suche geschickte Päärchen: 44 + 6 = 50, 45 + 5 (von 7) = 50. Oder addiere einfach Schritt für Schritt von oben nach unten.",
+      "Fange mit den beiden größten Werten an: 45 + 44 = ___. Dann addiere 19 dazu: ___ + 19 = ___. Mach so weiter mit den anderen Werten.",
+      "Addiere alle Bereichswerte:\n- 12 + 45 = 57\n- 57 + 44 = 101\n- 101 + 19 = 120\n- 120 + 7 = 127\n- 127 + 6 = 133\n- 133 + 10 = 143\n- 143 + 2 = 145\n\nEine Person verbraucht im Durchschnitt 145 Liter Wasser am Tag."
+    ],
+    "didaktischerHinweis": "Sachbezogene Addition mit realistischen Alltagsdaten. Entspricht S. 96, Aufg. 2a.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Der durchschnittliche tägliche Wasserverbrauch einer Person setzt sich so zusammen:\n\n| Bereich | Liter pro Tag |\n|---------|--------------|\n| Körperpflege | 12 l |\n| Duschen/Baden | 45 l |\n| Toilette | 44 l |\n| Wäsche | 19 l |\n| Putzen | 7 l |\n| Kochen/Trinken | 6 l |\n| Geschirr | 10 l |\n| Sonstiges | 2 l |\n\nWie viel Wasser verbraucht eine Person durchschnittlich am Tag?",
+          "antwort": "12 + 45 + 44 + 19 + 7 + 6 + 10 + 2 = 145 l"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wasserverbrauch hochrechnen — Woche und Monat",
+    "typ": "eingabe",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "grün",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.\n\na) Wie viel Wasser verbraucht eine Person in einer Woche (7 Tage)?\nb) Wie viel Wasser verbraucht eine Person in einem Monat (30 Tage)?",
+    "loesung": "a) 145 × 7 = 1.015 l\nb) 145 × 30 = 4.350 l",
+    "loesungsweg": "- a) 145 × 7: Zerlege: 100 × 7 = 700, 40 × 7 = 280, 5 × 7 = 35 → 700 + 280 + 35 = 1.015 l\n- b) 145 × 30: Zerlege: 145 × 3 = 435, dann 435 × 10 = 4.350 l",
+    "tipps": [
+      "Eine Woche hat 7 Tage. Wenn du jeden Tag 145 Liter verbrauchst, dann musst du 145 genau 7 mal nehmen. Was rechnest du?",
+      "Zerlege die Multiplikation in einfachere Teilaufgaben: 145 × 7 = (100 + 40 + 5) × 7. Rechne jeden Teil einzeln und addiere am Ende.",
+      "Bei a): 100 × 7 = 700. Dann 40 × 7 = 280. Dann 5 × 7 = 35. Addiere: 700 + 280 + 35 = ___.",
+      "- a) 145 × 7: Zerlege: 100 × 7 = 700, 40 × 7 = 280, 5 × 7 = 35 → 700 + 280 + 35 = 1.015 l\n- b) 145 × 30: Zerlege: 145 × 3 = 435, dann 435 × 10 = 4.350 l"
+    ],
+    "didaktischerHinweis": "Multiplikation mit sachbezogenem Kontext. Die Zerlegungsmethode wird als Strategie genutzt. Entspricht S. 96, Aufg. 2-3.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viel Wasser verbraucht eine Person in einer Woche (7 Tage)?",
+          "antwort": "145 × 7 = 1.015 l"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel Wasser verbraucht eine Person in einem Monat (30 Tage)?",
+          "antwort": "145 × 30 = 4.350 l"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wasserverbrauch einer Familie",
+    "typ": "eingabe",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "grün",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Eine vierköpfige Familie verbraucht durchschnittlich 145 Liter Wasser pro Person am Tag.\n\na) Wie viel Wasser verbraucht die ganze Familie an einem Tag?\nb) Wie viel Wasser verbraucht die Familie in einem Monat (30 Tage)?",
+    "loesung": "a) 4 × 145 = 580 l\nb) 580 × 30 = 17.400 l",
+    "loesungsweg": "- a) 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + 160 + 20 = 580 l\n- b) 580 × 30 = 580 × 3 × 10 = 1.740 × 10 = 17.400 l",
+    "tipps": [
+      "Wenn eine Person 145 Liter am Tag braucht, wie viel brauchen dann 4 Personen? Welche Rechenart hilft dir?",
+      "Rechne Schritt für Schritt: Erst den Tagesverbrauch der Familie (× 4), dann den Monatsverbrauch (× 30). Zerlege die Multiplikation!",
+      "Bei a): 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + ___ + ___ = ___",
+      "- a) 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + 160 + 20 = 580 l\n- b) 580 × 30 = 580 × 3 × 10 = 1.740 × 10 = 17.400 l"
+    ],
+    "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Alltagsbezug. Entspricht S. 96, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Eine vierköpfige Familie verbraucht durchschnittlich 145 Liter Wasser pro Person am Tag.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viel Wasser verbraucht die ganze Familie an einem Tag?",
+          "antwort": "4 × 145 = 580 l"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel Wasser verbraucht die Familie in einem Monat (30 Tage)?",
+          "antwort": "580 × 30 = 17.400 l"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wasser sparen beim Zähneputzen",
+    "typ": "textaufgabe",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "orange",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Lisa putzt ihre Zähne dreimal täglich 3 Minuten lang bei fließendem Wasser. Dabei laufen in jeder Minute 12 l Wasser aus dem Hahn.\nMax putzt auch dreimal täglich. Er dreht aber bei jedem Putzen den Hahn nur zweimal für 15 Sekunden auf.\n\nWie viel Wasser spart Max im Vergleich zu Lisa ...\na) an einem Tag?\nb) in einer Woche?",
+    "loesung": "Lisa: 3 × 3 min × 12 l = 108 l pro Tag\nMax: 3 × (2 × 15 s) = 3 × 30 s = 90 s = 1,5 min → 1,5 × 12 = 18 l pro Tag (oder: 3 × 2 × (15/60) × 12 = 3 × 2 × 3 = 18 l)\n\na) Ersparnis pro Tag: 108 - 18 = 90 l\nb) Ersparnis pro Woche: 90 × 7 = 630 l",
+    "loesungsweg": "Lisa verbraucht: 3 Mal putzen × 3 Minuten × 12 l/min = 108 l pro Tag.\nMax verbraucht: 3 Mal putzen × 2 × 15 Sekunden = 90 Sekunden = 1,5 Minuten × 12 l/min = 18 l pro Tag.\nUnterschied: 108 - 18 = 90 l pro Tag.\nPro Woche: 90 × 7 = 630 l.",
+    "tipps": [
+      "Berechne zuerst, wie viele Minuten Lisa insgesamt das Wasser laufen lässt. Dann rechne aus, wie viele Liter das sind (jede Minute 12 Liter!).",
+      "Gehe in Schritten vor: 1) Lisas Gesamtzeit, 2) Lisas Wassermenge, 3) Max' Gesamtzeit, 4) Max' Wassermenge, 5) Unterschied.",
+      "Lisa: 3 × 3 min = 9 min. Bei 12 l pro Minute: 9 × 12 = ___ l.\nMax: 3 × 2 × 15 s = ___ s = ___ min. Bei 12 l pro Minute: ___ × 12 = ___ l.\nUnterschied: ___ - ___ = ___ l.",
+      "Lisa verbraucht: 3 Mal putzen × 3 Minuten × 12 l/min = 108 l pro Tag.\nMax verbraucht: 3 Mal putzen × 2 × 15 Sekunden = 90 Sekunden = 1,5 Minuten × 12 l/min = 18 l pro Tag.\nUnterschied: 108 - 18 = 90 l pro Tag.\nPro Woche: 90 × 7 = 630 l."
+    ],
+    "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Zeitumrechnung (Sekunden → Minuten) und Alltagsbezug zum Wassersparen. Entspricht S. 96, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Lisa putzt ihre Zähne dreimal täglich 3 Minuten lang bei fließendem Wasser. Dabei laufen in jeder Minute 12 l Wasser aus dem Hahn.\nMax putzt auch dreimal täglich. Er dreht aber bei jedem Putzen den Hahn nur zweimal für 15 Sekunden auf.\n\nWie viel Wasser spart Max im Vergleich zu Lisa ...",
+      "kontext": "Lisa putzt ihre Zähne dreimal täglich 3 Minuten lang bei fließendem Wasser. Dabei laufen in jeder Minute 12 l Wasser aus dem Hahn.\nMax putzt auch dreimal täglich. Er dreht aber bei jedem Putzen den Hahn nur zweimal für 15 Sekunden auf.\n\nWie viel Wasser spart Max im Vergleich zu Lisa ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "an einem Tag?",
+          "antwort": "Ersparnis pro Tag: 108 - 18 = 90 l"
+        },
+        {
+          "label": "b",
+          "frage": "in einer Woche?",
+          "antwort": "Ersparnis pro Woche: 90 × 7 = 630 l"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tropfender Wasserhahn — hochrechnen",
+    "typ": "eingabe",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "orange",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Durch das Tropfen eines Wasserhahns gehen in einer Minute 8 ml Wasser verloren. Wie viel Wasser geht verloren ...\n\na) in einer Stunde?\nb) an einem Tag (24 Stunden)?\nc) in einer Woche?",
+    "loesung": "a) 60 × 8 ml = 480 ml\nb) 24 × 480 ml = 11.520 ml = 11 l 520 ml\nc) 7 × 11.520 ml = 80.640 ml = 80 l 640 ml",
+    "loesungsweg": "- a) 1 Stunde = 60 Minuten. 60 × 8 ml = 480 ml.\n- b) 1 Tag = 24 Stunden. 24 × 480 ml = 11.520 ml = 11 l 520 ml.\n- c) 1 Woche = 7 Tage. 7 × 11.520 ml = 80.640 ml ≈ fast 81 l!",
+    "tipps": [
+      "Wie viele Minuten hat eine Stunde? In jeder Minute tropfen 8 ml. Wie rechnest du die Gesamtmenge aus?",
+      "Rechne Schritt für Schritt hoch: erst pro Stunde, dann pro Tag, dann pro Woche. Nutze immer das Ergebnis vom vorherigen Schritt.",
+      "a) 1 Stunde = 60 min. 60 × 8 = ___. Tipp: 6 × 8 = 48, also 60 × 8 = ___.\nb) 1 Tag = 24 h. 24 × 480 = 24 × 500 - 24 × 20 = ___ - ___ = ___.",
+      "- a) 1 Stunde = 60 Minuten. 60 × 8 ml = 480 ml.\n- b) 1 Tag = 24 Stunden. 24 × 480 ml = 11.520 ml = 11 l 520 ml.\n- c) 1 Woche = 7 Tage. 7 × 11.520 ml = 80.640 ml ≈ fast 81 l!"
+    ],
+    "didaktischerHinweis": "Stufenweises Hochrechnen kleiner Mengen zeigt, wie aus wenig viel wird. Die Zeitumrechnungen (min→h→Tag→Woche) sind wichtig. Entspricht S. 96, Aufg. 6.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Durch das Tropfen eines Wasserhahns gehen in einer Minute 8 ml Wasser verloren. Wie viel Wasser geht verloren ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "in einer Stunde?",
+          "antwort": "60 × 8 ml = 480 ml"
+        },
+        {
+          "label": "b",
+          "frage": "an einem Tag (24 Stunden)?",
+          "antwort": "24 × 480 ml = 11.520 ml = 11 l 520 ml"
+        },
+        {
+          "label": "c",
+          "frage": "in einer Woche?",
+          "antwort": "7 × 11.520 ml = 80.640 ml = 80 l 640 ml"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wasserverbrauch-Ranking — sortieren",
+    "typ": "reihenfolge",
+    "thema": "Täglicher Wasserverbrauch",
+    "schwierigkeit": "gelb",
+    "buchseite": 96,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l) | Toilette (44 l) | Wäsche (19 l) | Körperpflege (12 l) | Geschirr (10 l) | Putzen (7 l) | Kochen/Trinken (6 l) | Sonstiges (2 l)",
+    "loesung": "1. Duschen/Baden (45 l)\n2. Toilette (44 l)\n3. Wäsche (19 l)\n4. Körperpflege (12 l)\n5. Geschirr (10 l)\n6. Putzen (7 l)\n7. Kochen/Trinken (6 l)\n8. Sonstiges (2 l)",
+    "loesungsweg": "Vergleiche die Literzahlen und sortiere von groß nach klein: 45 > 44 > 19 > 12 > 10 > 7 > 6 > 2.",
+    "tipps": [
+      "Schau dir die Zahlen an. Welche zwei Bereiche verbrauchen am meisten? Sie liegen ganz nah beieinander!",
+      "Suche zuerst die größte Zahl (das ist Platz 1), dann die zweitgrößte (Platz 2), und so weiter.",
+      "Die größte Zahl ist 45 (Duschen/Baden). Dann kommt 44 (Toilette). Welche Zahl kommt als nächstes? Suche unter den verbleibenden die größte.",
+      "Vergleiche die Literzahlen und sortiere von groß nach klein: 45 > 44 > 19 > 12 > 10 > 7 > 6 > 2."
+    ],
+    "didaktischerHinweis": "Einfache Sortieraufgabe, die das Ablesen und Vergleichen von Zahlen in einem Sachkontext trainiert. Entspricht S. 96, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l) | Toilette (44 l) | Wäsche (19 l) | Körperpflege (12 l) | Geschirr (10 l) | Putzen (7 l) | Kochen/Trinken (6 l) | Sonstiges (2 l)",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Sortiere die Bereiche des täglichen Wasserverbrauchs. Beginne mit dem Bereich, der am meisten Wasser verbraucht.\n\nDuschen/Baden (45 l)",
+            "Toilette (44 l)",
+            "Wäsche (19 l)",
+            "Körperpflege (12 l)",
+            "Geschirr (10 l)",
+            "Putzen (7 l)",
+            "Kochen/Trinken (6 l)",
+            "Sonstiges (2 l)"
+          ],
+          "richtigeReihenfolge": [
+            "Duschen/Baden (45 l)",
+            "Toilette (44 l)",
+            "Wäsche (19 l)",
+            "Körperpflege (12 l)",
+            "Geschirr (10 l)",
+            "Putzen (7 l)",
+            "Kochen/Trinken (6 l)",
+            "Sonstiges (2 l)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Virtueller Wasserverbrauch — Tabelle lesen",
+    "typ": "auswahl",
+    "thema": "Virtueller Wasserverbrauch",
+    "schwierigkeit": "gelb",
+    "buchseite": 97,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Virtueller Wasserverbrauch (= Wasserfußabdruck) ist die Menge Wasser, die zur Herstellung eines Produkts benötigt wird.\n\nLies die Tabelle und beantworte die Fragen.\n\n| Lebensmittel | Wasserfußabdruck |\n|-------------|-----------------|\n| 1 kg Kartoffeln | 290 l |\n| 1 kg Äpfel | 800 l |\n| 1 kg Möhren | 130 l |\n| 1 kg Nudeln | 1.850 l |\n| 1 kg Käse | 5.000 l |\n| 1 kg Schokolade | 17.000 l |\n\na) Welches Lebensmittel hat den größten Wasserfußabdruck?\nb) Welches Lebensmittel hat den kleinsten Wasserfußabdruck?\nc) Wie viel mehr Wasser braucht man für 1 kg Käse als für 1 kg Kartoffeln?",
+    "loesung": "a) Schokolade (17.000 l)\nb) Möhren (130 l)\nc) 5.000 - 290 = 4.710 l",
+    "loesungsweg": "- a) Vergleiche alle Zahlen: 17.000 ist die größte → Schokolade.\n- b) 130 ist die kleinste → Möhren.\n- c) 5.000 - 290 = 4.710 l mehr.",
+    "tipps": [
+      "Schau dir die Zahlen in der rechten Spalte an. Suche die größte und die kleinste Zahl. Achte auf die Tausender!\n📺 Schau dir das Video \"Info: Wasserverbrauch\" (S. 97) an!",
+      "Sortiere die Zahlen im Kopf: 130 < 290 < 800 < 1.850 < 5.000 < 17.000. Die erste Zahl ist die kleinste, die letzte die größte.",
+      "Bei c): Käse braucht 5.000 l, Kartoffeln brauchen 290 l. Der Unterschied ist 5.000 - 290 = ___.",
+      "- a) Vergleiche alle Zahlen: 17.000 ist die größte → Schokolade.\n- b) 130 ist die kleinste → Möhren.\n- c) 5.000 - 290 = 4.710 l mehr."
+    ],
+    "didaktischerHinweis": "Tabellen lesen und vergleichen im Sachkontext. Der Begriff \"virtueller Wasserverbrauch\" wird eingeführt. Entspricht S. 97, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Virtueller Wasserverbrauch (= Wasserfußabdruck) ist die Menge Wasser, die zur Herstellung eines Produkts benötigt wird.\n\nLies die Tabelle und beantworte die Fragen.\n\n| Lebensmittel | Wasserfußabdruck |\n|-------------|-----------------|\n| 1 kg Kartoffeln | 290 l |\n| 1 kg Äpfel | 800 l |\n| 1 kg Möhren | 130 l |\n| 1 kg Nudeln | 1.850 l |\n| 1 kg Käse | 5.000 l |\n| 1 kg Schokolade | 17.000 l |",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Welches Lebensmittel hat den größten Wasserfußabdruck?"
+        },
+        {
+          "label": "B",
+          "text": "Welches Lebensmittel hat den kleinsten Wasserfußabdruck?"
+        },
+        {
+          "label": "C",
+          "text": "Wie viel mehr Wasser braucht man für 1 kg Käse als für 1 kg Kartoffeln?"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Burger-Wasserverbrauch — Vergleich mit Alltag",
+    "typ": "textaufgabe",
+    "thema": "Virtueller Wasserverbrauch",
+    "schwierigkeit": "grün",
+    "buchseite": 97,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Für die Herstellung eines Burgers werden etwa 2.450 Liter Wasser verbraucht. Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.\n\na) Wie viele Tage lang könnte eine Person mit dem \"Burger-Wasser\" ihren täglichen Wasserverbrauch decken?\nb) Reicht das \"Burger-Wasser\" für mehr als 2 Wochen?",
+    "loesung": "a) 2.450 : 145 = 16 Rest 130 → ca. 16 Tage\nb) 2 Wochen = 14 Tage. 16 > 14, also ja, es reicht für mehr als 2 Wochen.",
+    "loesungsweg": "- a) 2.450 : 145. Schätze: 145 × 10 = 1.450, 145 × 16 = 145 × 10 + 145 × 6 = 1.450 + 870 = 2.320. 145 × 17 = 2.320 + 145 = 2.465 (zu viel). Also ca. 16 Tage.\n- b) 16 Tage > 14 Tage (2 Wochen) → ja.",
+    "tipps": [
+      "Wie oft passt 145 in 2.450? Das ist eine Divisionsaufgabe. Schätze erstmal grob: 145 ist ungefähr 150, und 2.450 : 150 ist ungefähr ...?",
+      "Überschlage: 150 × 10 = 1.500. 150 × 15 = 2.250. 150 × 16 = 2.400. Also ca. 16 Tage.",
+      "Rechne in Schritten: 145 × 10 = 1.450. Du brauchst noch 2.450 - 1.450 = 1.000. Wie oft passt 145 in 1.000? 145 × 6 = 870. 145 × 7 = 1.015 (zu viel). Also insgesamt 10 + 6 = ___ Tage.",
+      "- a) 2.450 : 145. Schätze: 145 × 10 = 1.450, 145 × 16 = 145 × 10 + 145 × 6 = 1.450 + 870 = 2.320. 145 × 17 = 2.320 + 145 = 2.465 (zu viel). Also ca. 16 Tage.\n- b) 16 Tage > 14 Tage (2 Wochen) → ja."
+    ],
+    "didaktischerHinweis": "Die Division mit großen Zahlen wird über Schätzen und schrittweises Annähern gelöst. Der Vergleich Burger-Wasser vs. Alltagsverbrauch macht die Menge greifbar. Entspricht S. 97, Aufg. 1b.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Für die Herstellung eines Burgers werden etwa 2.450 Liter Wasser verbraucht. Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
+      "kontext": "Für die Herstellung eines Burgers werden etwa 2.450 Liter Wasser verbraucht. Eine Person verbraucht durchschnittlich 145 Liter Wasser am Tag.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Tage lang könnte eine Person mit dem \"Burger-Wasser\" ihren täglichen Wasserverbrauch decken?",
+          "antwort": "2.450 : 145 = 16 Rest 130 → ca. 16 Tage"
+        },
+        {
+          "label": "b",
+          "frage": "Reicht das \"Burger-Wasser\" für mehr als 2 Wochen?",
+          "antwort": "2 Wochen = 14 Tage. 16 > 14, also ja, es reicht für mehr als 2 Wochen."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wasserfußabdruck — Gegenstand vergleichen",
+    "typ": "reihenfolge",
+    "thema": "Virtueller Wasserverbrauch",
+    "schwierigkeit": "grün",
+    "buchseite": 97,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n| Gegenstand | Wasserfußabdruck |\n|-----------|-----------------|\n| 1 Blatt Papier | 12 l |\n| 1 T-Shirt | 4.000 l |\n| 1 Jeans | 11.000 l |\n| 1 Fahrrad | 5.000 l |\n| 1 Laptop | 20.000 l |",
+    "loesung": "1. 1 Blatt Papier (12 l)\n2. 1 T-Shirt (4.000 l)\n3. 1 Fahrrad (5.000 l)\n4. 1 Jeans (11.000 l)\n5. 1 Laptop (20.000 l)",
+    "loesungsweg": "Vergleiche die Zahlen: 12 < 4.000 < 5.000 < 11.000 < 20.000.\nÜberraschend: Eine Jeans braucht mehr Wasser als ein Fahrrad!",
+    "tipps": [
+      "Welcher Gegenstand braucht wohl am wenigsten Wasser bei der Herstellung? Und welcher am meisten? Denke daran: Es geht nicht um die Größe, sondern um den gesamten Herstellungsprozess!",
+      "Sortiere die Zahlen von klein nach groß. Achte besonders auf die Tausender-Stellen.",
+      "Die kleinste Zahl ist 12 (Papier). Dann kommen die Tausenderzahlen: 4.000 < 5.000 < ___ < ___. Ordne sie ein.",
+      "Vergleiche die Zahlen: 12 < 4.000 < 5.000 < 11.000 < 20.000.\nÜberraschend: Eine Jeans braucht mehr Wasser als ein Fahrrad!"
+    ],
+    "didaktischerHinweis": "Die Sortieraufgabe fördert den Umgang mit großen Zahlen und sensibilisiert für versteckten Wasserverbrauch. Entspricht S. 97, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.\n\n| Gegenstand | Wasserfußabdruck |\n|-----------|-----------------|\n| 1 Blatt Papier | 12 l |\n| 1 T-Shirt | 4.000 l |\n| 1 Jeans | 11.000 l |\n| 1 Fahrrad | 5.000 l |\n| 1 Laptop | 20.000 l |",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Sortiere diese Gegenstände nach ihrem Wasserfußabdruck. Beginne mit dem kleinsten.",
+            "Gegenstand",
+            "Wasserfußabdruck",
+            "-----------",
+            "-----------------",
+            "1 Blatt Papier",
+            "12 l",
+            "1 T-Shirt",
+            "4.000 l",
+            "1 Jeans",
+            "11.000 l",
+            "1 Fahrrad",
+            "5.000 l",
+            "1 Laptop",
+            "20.000 l"
+          ],
+          "richtigeReihenfolge": [
+            "1 Blatt Papier (12 l)",
+            "1 T-Shirt (4.000 l)",
+            "1 Fahrrad (5.000 l)",
+            "1 Jeans (11.000 l)",
+            "1 Laptop (20.000 l)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schokolade und Wasser — Kann das stimmen?",
+    "typ": "textaufgabe",
+    "thema": "Virtueller Wasserverbrauch",
+    "schwierigkeit": "orange",
+    "buchseite": 97,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Jette sagt: \"Wenn ich nur noch halb so viel Schokolade im Jahr esse, spare ich eine halbe Million Liter virtuelles Wasser im Jahr.\"\n\nFür 1 kg Schokolade werden 17.000 Liter virtuelles Wasser verbraucht. Kann Jettes Aussage stimmen? Rechne nach.\n\nTipp: Überlege zuerst, wie viel Schokolade Jette im Jahr essen müsste, damit ihre Aussage stimmt.",
+    "loesung": "Halbe Million = 500.000 l. Wenn Jette durch Halbierung 500.000 l spart, dann verbraucht sie normalerweise 2 × 500.000 = 1.000.000 l.\n1.000.000 l : 17.000 l/kg ≈ 59 kg Schokolade pro Jahr.\n59 kg pro Jahr = ca. 1,1 kg pro Woche.\nDas ist sehr viel — ca. 11 Tafeln Schokolade pro Woche! Die Aussage kann nicht stimmen.",
+    "loesungsweg": "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht.",
+    "tipps": [
+      "\"Eine halbe Million\" — wie viel ist das als Zahl? Und wenn sie durch Halbierung so viel spart, wie viel hat sie dann vorher verbraucht?",
+      "Rechne rückwärts: Wenn die Hälfte 500.000 l sind, dann ist das Ganze 1.000.000 l. Teile das durch den Wasserverbrauch pro Kilogramm Schokolade: 1.000.000 : 17.000 = ???",
+      "500.000 l Ersparnis = die Hälfte. Also vorher: 2 × 500.000 = 1.000.000 l. Jetzt rechne: 1.000.000 : 17.000. Schätze: 17.000 × 50 = 850.000, 17.000 × 60 = 1.020.000. Also ca. ___ kg. Ist das realistisch?",
+      "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht."
+    ],
+    "didaktischerHinweis": "Fermi-Aufgabe: Plausibilität einer Aussage rechnerisch überprüfen. Entspricht S. 97, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette sagt: \"Wenn ich nur noch halb so viel Schokolade im Jahr esse, spare ich eine halbe Million Liter virtuelles Wasser im Jahr.\"\n\nFür 1 kg Schokolade werden 17.000 Liter virtuelles Wasser verbraucht. Kann Jettes Aussage stimmen? Rechne nach.",
+      "kontext": "Jette sagt: \"Wenn ich nur noch halb so viel Schokolade im Jahr esse, spare ich eine halbe Million Liter virtuelles Wasser im Jahr.\"\n\nFür 1 kg Schokolade werden 17.000 Liter virtuelles Wasser verbraucht. Kann Jettes Aussage stimmen? Rechne nach.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Tipp: Überlege zuerst, wie viel Schokolade Jette im Jahr essen müsste, damit ihre Aussage stimmt.",
+          "antwort": "Halbe Million = 500.000 l. Wenn Jette durch Halbierung 500.000 l spart, dann verbraucht sie normalerweise 2 × 500.000 = 1.000.000 l."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Virtuelles Wasser im Vergleich — Lebensmittel sortieren",
+    "typ": "reihenfolge",
+    "thema": "Virtueller Wasserverbrauch",
+    "schwierigkeit": "gelb",
+    "buchseite": 97,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "liter-milliliter",
+    "digital": "voll",
+    "aufgabenstellung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l) | Möhren (130 l) | Nudeln (1.850 l) | Äpfel (800 l) | Kartoffeln (290 l) | Hühnerfleisch (4.300 l)",
+    "loesung": "1. Möhren (130 l)\n2. Kartoffeln (290 l)\n3. Äpfel (800 l)\n4. Nudeln (1.850 l)\n5. Hühnerfleisch (4.300 l)\n6. Käse (5.000 l)",
+    "loesungsweg": "Vergleiche die Zahlen: 130 < 290 < 800 < 1.850 < 4.300 < 5.000.\nGemüse und Obst brauchen wenig Wasser, tierische Produkte und verarbeitete Lebensmittel brauchen viel.",
+    "tipps": [
+      "Suche zuerst die kleinste und die größte Zahl. Sortiere dann die Zahlen dazwischen ein.",
+      "Teile die Zahlen in Gruppen: unter 1.000 und über 1.000. Sortiere dann innerhalb jeder Gruppe.",
+      "Unter 1.000: 130, 290, 800. Sortiert: 130 < 290 < 800.\nÜber 1.000: 1.850, 4.300, 5.000. Sortiert: 1.850 < ___ < ___.\nJetzt alles zusammen: 130, 290, 800, ___, ___, ___.",
+      "Vergleiche die Zahlen: 130 < 290 < 800 < 1.850 < 4.300 < 5.000.\nGemüse und Obst brauchen wenig Wasser, tierische Produkte und verarbeitete Lebensmittel brauchen viel."
+    ],
+    "didaktischerHinweis": "Sortieraufgabe mit großen Zahlen im Sachkontext. Entspricht S. 97, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l) | Möhren (130 l) | Nudeln (1.850 l) | Äpfel (800 l) | Kartoffeln (290 l) | Hühnerfleisch (4.300 l)",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Sortiere die Lebensmittel nach ihrem Wasserfußabdruck pro Kilogramm. Beginne mit dem kleinsten.\n\nKäse (5.000 l)",
+            "Möhren (130 l)",
+            "Nudeln (1.850 l)",
+            "Äpfel (800 l)",
+            "Kartoffeln (290 l)",
+            "Hühnerfleisch (4.300 l)"
+          ],
+          "richtigeReihenfolge": [
+            "Möhren (130 l)",
+            "Kartoffeln (290 l)",
+            "Äpfel (800 l)",
+            "Nudeln (1.850 l)",
+            "Hühnerfleisch (4.300 l)",
+            "Käse (5.000 l)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zentimeterwürfel zählen — Rauminhalt berechnen",
+    "typ": "eingabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "gelb",
+    "buchseite": 98,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Zentimeterwürfel passen in diese Quader? Rechne: Länge · Breite · Höhe.\n\na) Länge: 5 cm, Breite: 3 cm, Höhe: 2 cm → ___ cm³\nb) Länge: 8 cm, Breite: 4 cm, Höhe: 3 cm → ___ cm³\nc) Länge: 10 cm, Breite: 6 cm, Höhe: 4 cm → ___ cm³",
+    "loesung": "a) 5 · 3 · 2 = 30 cm³\nb) 8 · 4 · 3 = 96 cm³\nc) 10 · 6 · 4 = 240 cm³",
+    "loesungsweg": "Der Rauminhalt (das Volumen) eines Quaders = Länge × Breite × Höhe:\n- a) 5 × 3 = 15, 15 × 2 = 30 cm³ → Es passen 30 Zentimeterwürfel hinein.\n- b) 8 × 4 = 32, 32 × 3 = 96 cm³.\n- c) 10 × 6 = 60, 60 × 4 = 240 cm³.",
+    "tipps": [
+      "Stell dir vor, du legst den Boden des Quaders mit Zentimeterwürfeln aus. Wie viele passen in eine Reihe? Wie viele Reihen passen nebeneinander? Und wie viele Schichten übereinander?\n📺 Schau dir das Video \"Merkwissen: Dezimeterwürfel\" (S. 99) an!",
+      "Rechne in zwei Schritten: Erst Länge × Breite (= Würfel in einer Schicht), dann × Höhe (= Anzahl der Schichten).",
+      "Bei a): In eine Reihe passen 5 Würfel. Es gibt 3 Reihen: 5 × 3 = 15 Würfel in einer Schicht. Es gibt 2 Schichten: 15 × 2 = ___ Würfel insgesamt.",
+      "Der Rauminhalt (das Volumen) eines Quaders = Länge × Breite × Höhe:\n- a) 5 × 3 = 15, 15 × 2 = 30 cm³ → Es passen 30 Zentimeterwürfel hinein.\n- b) 8 × 4 = 32, 32 × 3 = 96 cm³.\n- c) 10 × 6 = 60, 60 × 4 = 240 cm³."
+    ],
+    "didaktischerHinweis": "Grundlegende Volumenberechnung durch Zählen/Rechnen von Einheitswürfeln. Entspricht S. 98, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader? Rechne: Länge · Breite · Höhe.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Länge: 5 cm, Breite: 3 cm, Höhe: 2 cm → ___ cm³",
+          "antwort": "5 · 3 · 2 = 30 cm³"
+        },
+        {
+          "label": "b",
+          "frage": "Länge: 8 cm, Breite: 4 cm, Höhe: 3 cm → ___ cm³",
+          "antwort": "8 · 4 · 3 = 96 cm³"
+        },
+        {
+          "label": "c",
+          "frage": "Länge: 10 cm, Breite: 6 cm, Höhe: 4 cm → ___ cm³",
+          "antwort": "10 · 6 · 4 = 240 cm³"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Würfel-Rauminhalt — Kantenlänge 10 cm",
+    "typ": "eingabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "gelb",
+    "buchseite": 98,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Würfel hat die Kantenlänge 10 cm (= 1 dm). Dieser Würfel heißt Dezimeterwürfel.\n\na) Wie viele Zentimeterwürfel passen in den Dezimeterwürfel?\nb) Wie rechnest du? Schreibe die Rechnung auf.",
+    "loesung": "a) 1.000\nb) 10 · 10 · 10 = 1.000",
+    "loesungsweg": "- In eine Reihe passen 10 Zentimeterwürfel (Länge = 10 cm).\n- Nebeneinander passen 10 Reihen (Breite = 10 cm): 10 × 10 = 100 Würfel in einer Schicht.\n- Übereinander passen 10 Schichten (Höhe = 10 cm): 100 × 10 = 1.000.\n- Ein Dezimeterwürfel fasst genau 1 Liter!",
+    "tipps": [
+      "Der Würfel hat auf jeder Seite 10 cm Kantenlänge. Stell dir vor, du legst den Boden mit Zentimeterwürfeln aus. In einer Reihe liegen 10 Stück. Wie viele Reihen passen daneben?\n📺 Schau dir das Video \"Merkwissen: Dezimeterwürfel\" (S. 99) an!",
+      "Bei einem Würfel sind alle Kanten gleich lang. Also: Rauminhalt = Kantenlänge × Kantenlänge × Kantenlänge = 10 × 10 × 10.",
+      "Eine Schicht: 10 × 10 = ___ Würfel. Anzahl Schichten: 10. Insgesamt: ___ × 10 = ___.",
+      "- In eine Reihe passen 10 Zentimeterwürfel (Länge = 10 cm).\n- Nebeneinander passen 10 Reihen (Breite = 10 cm): 10 × 10 = 100 Würfel in einer Schicht.\n- Übereinander passen 10 Schichten (Höhe = 10 cm): 100 × 10 = 1.000.\n- Ein Dezimeterwürfel fasst genau 1 Liter!"
+    ],
+    "didaktischerHinweis": "Der Dezimeterwürfel ist ein zentrales Anschauungsobjekt. Die Verbindung 1 dm³ = 1 l = 1.000 cm³ wird vorbereitet. Entspricht S. 98, Aufg. 1.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Würfel hat die Kantenlänge 10 cm (= 1 dm). Dieser Würfel heißt Dezimeterwürfel.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Zentimeterwürfel passen in den Dezimeterwürfel?",
+          "antwort": "1.000"
+        },
+        {
+          "label": "b",
+          "frage": "Wie rechnest du? Schreibe die Rechnung auf.",
+          "antwort": "10 · 10 · 10 = 1.000"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Quader-Rauminhalt — größere Maße",
+    "typ": "eingabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "grün",
+    "buchseite": 98,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Zentimeterwürfel passen in diese Quader?\n\na) Länge: 30 cm, Breite: 30 cm, Höhe: 30 cm → ___ cm³\nb) Länge: 50 cm, Breite: 30 cm, Höhe: 70 cm → ___ cm³\nc) Länge: 80 cm, Breite: 30 cm, Höhe: 60 cm → ___ cm³",
+    "loesung": "a) 30 · 30 · 30 = 27.000 cm³\nb) 50 · 30 · 70 = 105.000 cm³\nc) 80 · 30 · 60 = 144.000 cm³",
+    "loesungsweg": "- a) 30 × 30 = 900, 900 × 30 = 27.000 cm³\n- b) 50 × 30 = 1.500, 1.500 × 70 = 105.000 cm³\n- c) 80 × 30 = 2.400, 2.400 × 60 = 144.000 cm³",
+    "tipps": [
+      "Rechne wie vorher: Länge × Breite × Höhe. Die Zahlen sind größer, aber das Prinzip bleibt gleich!",
+      "Mache die Multiplikation in Schritten: Erst zwei der drei Zahlen multiplizieren (suche dir die einfachste Kombination aus), dann mit der dritten Zahl multiplizieren.",
+      "Bei a): 30 × 30 = 900. Dann 900 × 30. Tipp: 9 × 3 = 27, also 900 × 30 = ___.",
+      "- a) 30 × 30 = 900, 900 × 30 = 27.000 cm³\n- b) 50 × 30 = 1.500, 1.500 × 70 = 105.000 cm³\n- c) 80 × 30 = 2.400, 2.400 × 60 = 144.000 cm³"
+    ],
+    "didaktischerHinweis": "Skalierung der Volumenberechnung auf größere Maße. Die Multiplikation mit Zehnerzahlen wird trainiert. Entspricht S. 98, Aufg. 3.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele Zentimeterwürfel passen in diese Quader?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Länge: 30 cm, Breite: 30 cm, Höhe: 30 cm → ___ cm³",
+          "antwort": "30 · 30 · 30 = 27.000 cm³"
+        },
+        {
+          "label": "b",
+          "frage": "Länge: 50 cm, Breite: 30 cm, Höhe: 70 cm → ___ cm³",
+          "antwort": "50 · 30 · 70 = 105.000 cm³"
+        },
+        {
+          "label": "c",
+          "frage": "Länge: 80 cm, Breite: 30 cm, Höhe: 60 cm → ___ cm³",
+          "antwort": "80 · 30 · 60 = 144.000 cm³"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Dezimeterwürfel und Liter — der Zusammenhang",
+    "typ": "eingabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "grün",
+    "buchseite": 99,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Merke: 1 Dezimeterwürfel = 1 Liter. 1 Zentimeterwürfel = 1 Milliliter.\n\na) Wie viele Liter passen in einen Würfel mit der Kantenlänge 1 m?\nb) Ein Quader hat die Maße: Länge 10 cm, Breite 10 cm, Höhe 10 cm. Wie viele Milliliter fasst er?\nc) Ein Quader hat die Maße: Länge 20 cm, Breite 10 cm, Höhe 5 cm. Wie viele Milliliter fasst er? Wie viele Liter sind das?",
+    "loesung": "a) 1 m = 10 dm. 10 × 10 × 10 = 1.000 Dezimeterwürfel → 1.000 l\nb) 10 × 10 × 10 = 1.000 cm³ = 1.000 ml = 1 l\nc) 20 × 10 × 5 = 1.000 cm³ = 1.000 ml = 1 l",
+    "loesungsweg": "- a) 1 m = 10 dm. Der Würfel hat 10 × 10 × 10 = 1.000 Dezimeterwürfel. Jeder ist 1 l → 1.000 l.\n- b) 10 × 10 × 10 = 1.000 cm³. Da 1 cm³ = 1 ml, sind das 1.000 ml = 1 l.\n- c) 20 × 10 × 5 = 1.000 cm³ = 1.000 ml = 1 l. Dieser Quader fasst genauso viel wie der Würfel aus b)!",
+    "tipps": [
+      "1 Dezimeterwürfel = 1 Liter. Wie viele Dezimeterwürfel passen in einen Meterwürfel? Denke an die Kantenlänge: 1 m = 10 dm.\n📺 Schau dir das Video \"Merkwissen: Dezimeterwürfel\" (S. 99) an!",
+      "Nutze die Umrechnungskette: cm³ → ml (1:1) → l (: 1.000). Also: Rauminhalt in cm³ = Anzahl Milliliter.",
+      "Bei a): 1 m = 10 dm. Anzahl Dezimeterwürfel: 10 × 10 × 10 = ___. Jeder Dezimeterwürfel = 1 l. Also: ___ Liter.",
+      "- a) 1 m = 10 dm. Der Würfel hat 10 × 10 × 10 = 1.000 Dezimeterwürfel. Jeder ist 1 l → 1.000 l.\n- b) 10 × 10 × 10 = 1.000 cm³. Da 1 cm³ = 1 ml, sind das 1.000 ml = 1 l.\n- c) 20 × 10 × 5 = 1.000 cm³ = 1.000 ml = 1 l. Dieser Quader fasst genauso viel wie der Würfel aus b)!"
+    ],
+    "didaktischerHinweis": "Die zentrale Verbindung zwischen Rauminhalt und Hohlmaßen: 1 dm³ = 1 l, 1 cm³ = 1 ml. Entspricht S. 99, Aufg. 4.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Merke: 1 Dezimeterwürfel = 1 Liter. 1 Zentimeterwürfel = 1 Milliliter.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Liter passen in einen Würfel mit der Kantenlänge 1 m?",
+          "antwort": "1 m = 10 dm. 10 × 10 × 10 = 1.000 Dezimeterwürfel → 1.000 l"
+        },
+        {
+          "label": "b",
+          "frage": "Ein Quader hat die Maße: Länge 10 cm, Breite 10 cm, Höhe 10 cm. Wie viele Milliliter fasst er?",
+          "antwort": "10 × 10 × 10 = 1.000 cm³ = 1.000 ml = 1 l"
+        },
+        {
+          "label": "c",
+          "frage": "Ein Quader hat die Maße: Länge 20 cm, Breite 10 cm, Höhe 5 cm. Wie viele Milliliter fasst er? Wie viele Liter sind das?",
+          "antwort": "20 × 10 × 5 = 1.000 cm³ = 1.000 ml = 1 l"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Würfel mit Wasser füllen — Messbecher zählen",
+    "typ": "textaufgabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "grün",
+    "buchseite": 99,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Emma möchte einen Würfel mit Wasser füllen. Der Würfel hat die Kantenlänge 10 cm. Sie hat einen Messbecher, in den genau 1/4 Liter (250 ml) passt.\n\nWie oft muss Emma den Messbecher füllen?",
+    "loesung": "Der Würfel fasst 10 × 10 × 10 = 1.000 cm³ = 1.000 ml = 1 l.\n1.000 ml : 250 ml = 4-mal.",
+    "loesungsweg": "1. Rauminhalt berechnen: 10 × 10 × 10 = 1.000 cm³ = 1.000 ml.\n2. Messbechergröße: 1/4 l = 250 ml.\n3. Division: 1.000 : 250 = 4.\nEmma muss den Messbecher 4-mal füllen.",
+    "tipps": [
+      "Wie viel Wasser passt in den Würfel? Rechne seinen Rauminhalt aus. Dann überlege: Wie oft passt der Messbecher hinein?",
+      "Rechne in zwei Schritten: 1) Rauminhalt des Würfels in ml, 2) Teile durch die Messbechergröße in ml.",
+      "Rauminhalt: 10 × 10 × 10 = 1.000 ml = 1 l. Messbecher: 250 ml. Wie oft passt 250 in 1.000? ___ × 250 = 1.000.",
+      "1. Rauminhalt berechnen: 10 × 10 × 10 = 1.000 cm³ = 1.000 ml.\n2. Messbechergröße: 1/4 l = 250 ml.\n3. Division: 1.000 : 250 = 4.\nEmma muss den Messbecher 4-mal füllen."
+    ],
+    "didaktischerHinweis": "Verknüpfung von Volumenberechnung und Hohlmaßen in einer alltagsnahen Aufgabe. Entspricht S. 99, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Emma möchte einen Würfel mit Wasser füllen. Der Würfel hat die Kantenlänge 10 cm. Sie hat einen Messbecher, in den genau 1/4 Liter (250 ml) passt.",
+      "kontext": "Emma möchte einen Würfel mit Wasser füllen. Der Würfel hat die Kantenlänge 10 cm. Sie hat einen Messbecher, in den genau 1/4 Liter (250 ml) passt.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie oft muss Emma den Messbecher füllen?",
+          "antwort": "Der Würfel fasst 10 × 10 × 10 = 1.000 cm³ = 1.000 ml = 1 l."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Quader vergleichen — wer fasst mehr?",
+    "typ": "auswahl",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "orange",
+    "buchseite": 99,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "Zwei Quader sollen mit Wasser gefüllt werden.\n\nQuader A: Länge 50 cm, Breite 30 cm, Höhe 60 cm\nQuader B: Länge 80 cm, Breite 50 cm, Höhe 20 cm\n\na) In welchen Quader passt mehr Wasser?\nb) Um wie viel Liter mehr?",
+    "loesung": "Quader A: 50 × 30 × 60 = 90.000 cm³ = 90 l\nQuader B: 80 × 50 × 20 = 80.000 cm³ = 80 l\na) In Quader A passt mehr.\nb) 90 - 80 = 10 l mehr.",
+    "loesungsweg": "- A: 50 × 30 = 1.500, 1.500 × 60 = 90.000 cm³ = 90.000 ml = 90 l\n- B: 80 × 50 = 4.000, 4.000 × 20 = 80.000 cm³ = 80.000 ml = 80 l\n- Unterschied: 90 - 80 = 10 l",
+    "tipps": [
+      "Nur weil ein Quader breiter oder länger aussieht, muss er nicht mehr fassen! Rechne den Rauminhalt beider Quader aus und vergleiche dann.",
+      "Berechne für jeden Quader: Länge × Breite × Höhe. Wandle dann von cm³ in Liter um: 1.000 cm³ = 1 l.",
+      "Quader A: 50 × 30 = 1.500. Dann 1.500 × 60 = ___. Teile durch 1.000, um Liter zu bekommen: ___ l.\nQuader B: 80 × 50 = 4.000. Dann 4.000 × 20 = ___. Teile durch 1.000: ___ l.",
+      "- A: 50 × 30 = 1.500, 1.500 × 60 = 90.000 cm³ = 90.000 ml = 90 l\n- B: 80 × 50 = 4.000, 4.000 × 20 = 80.000 cm³ = 80.000 ml = 80 l\n- Unterschied: 90 - 80 = 10 l"
+    ],
+    "didaktischerHinweis": "Vergleich zweier Quader schult die Volumenberechnung und die Umrechnung cm³ → l. Entspricht S. 99, Aufg. 7.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Zwei Quader sollen mit Wasser gefüllt werden.\n\nQuader A: Länge 50 cm, Breite 30 cm, Höhe 60 cm\nQuader B: Länge 80 cm, Breite 50 cm, Höhe 20 cm",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "In welchen Quader passt mehr Wasser?"
+        },
+        {
+          "label": "B",
+          "text": "Um wie viel Liter mehr?"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Quader für 160 ml finden — rückwärts rechnen",
+    "typ": "eingabe",
+    "thema": "Rauminhalt",
+    "schwierigkeit": "orange",
+    "buchseite": 99,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "rauminhalt",
+    "digital": "voll",
+    "aufgabenstellung": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.\n\nGib zwei verschiedene Möglichkeiten an.",
+    "loesung": "Mögliche Lösungen (Beispiele):\n- 8 cm × 5 cm × 4 cm = 160 cm³\n- 10 cm × 4 cm × 4 cm = 160 cm³\n- 10 cm × 8 cm × 2 cm = 160 cm³\n- 20 cm × 4 cm × 2 cm = 160 cm³\n- 16 cm × 5 cm × 2 cm = 160 cm³",
+    "loesungsweg": "Finde drei Zahlen, die miteinander multipliziert 160 ergeben. Strategie:\n- Beginne mit einem Teiler von 160: z.B. 8. Dann 160 : 8 = 20. Jetzt zerlege 20: z.B. 5 × 4. → 8 × 5 × 4.\n- Oder: 10 × 16 = 160, zerlege 16: 4 × 4. → 10 × 4 × 4.",
+    "tipps": [
+      "Du suchst drei Zahlen, die multipliziert 160 ergeben. Suche dir zuerst eine Zahl, durch die sich 160 teilen lässt. Zum Beispiel: 160 : 10 = 16. Jetzt brauchst du noch zwei Zahlen, die zusammen 16 ergeben (als Produkt!).",
+      "160 ist teilbar durch 2, 4, 5, 8, 10, 16, 20, 32, 40, 80. Wähle eine Zahl als \"Länge\" und teile 160 dadurch. Dann zerlege das Ergebnis noch einmal.",
+      "Möglichkeit 1: 160 : 8 = 20. Jetzt zerlege 20: 5 × 4 = 20. Also: 8 × 5 × 4 = 160. ✓\nMöglichkeit 2: 160 : 10 = 16. Jetzt zerlege 16: ___ × ___ = 16. Also: 10 × ___ × ___ = 160.",
+      "Finde drei Zahlen, die miteinander multipliziert 160 ergeben. Strategie:\n- Beginne mit einem Teiler von 160: z.B. 8. Dann 160 : 8 = 20. Jetzt zerlege 20: z.B. 5 × 4. → 8 × 5 × 4.\n- Oder: 10 × 16 = 160, zerlege 16: 4 × 4. → 10 × 4 × 4."
+    ],
+    "didaktischerHinweis": "Offene Aufgabe mit mehreren Lösungen. Das Zerlegen in Faktoren trainiert Division und Multiplikation gleichzeitig. Entspricht S. 99, Aufg. 8.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "In einen Quader sollen genau 160 ml Wasser passen. 160 ml = 160 cm³.\n\nFinde passende Maße für den Quader (Länge, Breite, Höhe in cm), sodass Länge × Breite × Höhe = 160.\n\nGib zwei verschiedene Möglichkeiten an.",
+          "antwort": "Mögliche Lösungen (Beispiele):"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Welche Maßeinheit passt? — zuordnen",
+    "typ": "auswahl",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "gelb",
+    "buchseite": 100,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Maßeinheit passt? Wähle aus: km, m, cm, mm, kg, g, l, ml, h, min, s.\n\na) Eine Tafel Schokolade wiegt 100 ___.\nb) Ein Tag hat 24 ___.\nc) Eine Giraffe wiegt 750 ___.\nd) Ali läuft 100 ___ in 18 ___.\ne) Justus ist 141 ___ groß.\nf) Von Hamburg nach München sind es ungefähr 800 ___.\ng) Die Schule ist 300 ___ von Jettes Zuhause entfernt.",
+    "loesung": "a) g\nb) h\nc) kg\nd) m, s\ne) cm\nf) km\ng) m",
+    "loesungsweg": "- a) 100 kg wäre viel zu schwer für eine Tafel → 100 g.\n- b) Ein Tag hat 24 Stunden → h.\n- c) 750 g wäre viel zu leicht für eine Giraffe → 750 kg.\n- d) 100 m Sprint in 18 Sekunden → m und s.\n- e) 141 mm = 14 cm, das ist zu klein. 141 m = viel zu groß → 141 cm.\n- f) 800 m wäre nur eine kurze Strecke → 800 km.\n- g) 300 km wäre viel zu weit für den Schulweg → 300 m.",
+    "tipps": [
+      "Stell dir jeden Gegenstand oder jede Situation vor. Klingt die Maßangabe dann sinnvoll? Eine Schokolade, die 100 kg wiegt? Das ist so schwer wie ein Erwachsener!",
+      "Prüfe bei jeder Aufgabe: Wenn ich eine ganz große Einheit nehme — wird die Zahl unrealistisch klein? Wenn ich eine ganz kleine Einheit nehme — wird die Zahl unrealistisch groß?",
+      "Bei a): 100 kg = so schwer wie ein Erwachsener. 100 mg = wie ein Sandkorn. 100 g = wie eine Tafel Schokolade ✓.",
+      "- a) 100 kg wäre viel zu schwer für eine Tafel → 100 g.\n- b) Ein Tag hat 24 Stunden → h.\n- c) 750 g wäre viel zu leicht für eine Giraffe → 750 kg.\n- d) 100 m Sprint in 18 Sekunden → m und s.\n- e) 141 mm = 14 cm, das ist zu klein. 141 m = viel zu groß → 141 cm.\n- f) 800 m wäre nur eine kurze Strecke → 800 km.\n- g) 300 km wäre viel zu weit für den Schulweg → 300 m."
+    ],
+    "didaktischerHinweis": "Zuordnungsaufgabe, die Größenvorstellungen trainiert. Entspricht S. 100, Aufg. 1-3.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Welche Maßeinheit passt? Wähle aus: km, m, cm, mm, kg, g, l, ml, h, min, s.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Eine Tafel Schokolade wiegt 100 ___."
+        },
+        {
+          "label": "B",
+          "text": "Ein Tag hat 24 ___."
+        },
+        {
+          "label": "C",
+          "text": "Eine Giraffe wiegt 750 ___."
+        },
+        {
+          "label": "D",
+          "text": "Ali läuft 100 ___ in 18 ___."
+        },
+        {
+          "label": "E",
+          "text": "Justus ist 141 ___ groß."
+        },
+        {
+          "label": "F",
+          "text": "Von Hamburg nach München sind es ungefähr 800 ___."
+        },
+        {
+          "label": "G",
+          "text": "Die Schule ist 300 ___ von Jettes Zuhause entfernt."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Aussagen prüfen — richtige Maßeinheit?",
+    "typ": "wahr-falsch",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "gelb",
+    "buchseite": 100,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Stimmt die Maßeinheit? Korrigiere, wenn sie falsch ist.\n\na) Ein Brot kostet 4 kg. → Stimmt / Stimmt nicht?\nb) Klara wiegt 32 kg. → Stimmt / Stimmt nicht?\nc) Ein Eishockeyspiel dauert dreimal 20 h. → Stimmt / Stimmt nicht?\nd) Jette springt im Schwimmbad vom 3-dm-Turm. → Stimmt / Stimmt nicht?\ne) Ein Brötchen kostet 40 ct. → Stimmt / Stimmt nicht?\nf) Eine Packung Nudeln wiegt 500 g. → Stimmt / Stimmt nicht?",
+    "loesung": "a) Stimmt nicht → 4 Euro (€), nicht kg\nb) Stimmt ✓\nc) Stimmt nicht → dreimal 20 min (nicht Stunden)\nd) Stimmt nicht → 3-m-Turm (nicht dm)\ne) Stimmt ✓\nf) Stimmt ✓",
+    "loesungsweg": "- a) Ein Brot kostet kein Gewicht — es kostet einen Geldbetrag: 4 €.\n- c) 20 Stunden pro Drittel wären 60 Stunden! Ein Eishockeydrittel dauert 20 Minuten.\n- d) 3 dm = 30 cm — das ist kein Sprungturm! Es sind 3 m.",
+    "tipps": [
+      "Lies jeden Satz laut vor und überlege: Klingt das sinnvoll? Wenn nicht — was stimmt nicht?",
+      "Frage dich: Passt die Maßeinheit zur Situation? Gewicht → g, kg, t. Länge → mm, cm, m, km. Zeit → s, min, h. Geld → ct, €.",
+      "Bei a): \"Ein Brot kostet 4 kg.\" — kostet es 4 Kilogramm? Kann man mit Kilogramm bezahlen? Was ist die richtige Einheit für einen Preis?",
+      "- a) Ein Brot kostet kein Gewicht — es kostet einen Geldbetrag: 4 €.\n- c) 20 Stunden pro Drittel wären 60 Stunden! Ein Eishockeydrittel dauert 20 Minuten.\n- d) 3 dm = 30 cm — das ist kein Sprungturm! Es sind 3 m."
+    ],
+    "didaktischerHinweis": "Fehlersuche fördert kritisches Denken und festigt die Zuordnung von Maßeinheiten zu Größenbereichen. Entspricht S. 100, Aufg. 2.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Stimmt die Maßeinheit? Korrigiere, wenn sie falsch ist.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "Ein Brot kostet 4 kg. → Stimmt / Stimmt nicht?",
+          "richtig": false,
+          "erklaerung": "Stimmt nicht → 4 Euro (€), nicht kg"
+        },
+        {
+          "label": "b",
+          "aussage": "Klara wiegt 32 kg. → Stimmt / Stimmt nicht?",
+          "richtig": true,
+          "erklaerung": "Stimmt ✓"
+        },
+        {
+          "label": "c",
+          "aussage": "Ein Eishockeyspiel dauert dreimal 20 h. → Stimmt / Stimmt nicht?",
+          "richtig": false,
+          "erklaerung": "Stimmt nicht → dreimal 20 min (nicht Stunden)"
+        },
+        {
+          "label": "d",
+          "aussage": "Jette springt im Schwimmbad vom 3-dm-Turm. → Stimmt / Stimmt nicht?",
+          "richtig": false,
+          "erklaerung": "Stimmt nicht → 3-m-Turm (nicht dm)"
+        },
+        {
+          "label": "e",
+          "aussage": "Ein Brötchen kostet 40 ct. → Stimmt / Stimmt nicht?",
+          "richtig": true,
+          "erklaerung": "Stimmt ✓"
+        },
+        {
+          "label": "f",
+          "aussage": "Eine Packung Nudeln wiegt 500 g. → Stimmt / Stimmt nicht?",
+          "richtig": true,
+          "erklaerung": "Stimmt ✓"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Richtige Maßeinheit einsetzen",
+    "typ": "lücke",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "grün",
+    "buchseite": 100,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze die richtige Maßeinheit.\n\na) Ein kleines Auto wiegt ungefähr 1.000 ___.\nb) Die Laufbahn um den Sportplatz ist 400 ___ lang.\nc) Ein Grundschulkind braucht täglich etwa 10 ___ Schlaf.\nd) Ein Marienkäfer ist 7 ___ groß.\ne) Ein großes Lineal ist 30 ___ lang.\nf) In der Schule dauert eine Doppelstunde Sport 90 ___.\ng) Die Zugspitze, der höchste Berg in Deutschland, ist knapp 3 ___ hoch.",
+    "loesung": "a) kg\nb) m\nc) h (Stunden)\nd) mm\ne) cm\nf) min\ng) km",
+    "loesungsweg": "- a) 1.000 g = 1 kg; ein Auto wiegt ca. 1.000 kg = 1 t.\n- b) Eine Laufbahn ist nicht 400 km (zu weit) und nicht 400 cm (zu kurz) → 400 m.\n- c) 10 Minuten Schlaf wäre zu wenig, 10 Tage zu viel → 10 Stunden.\n- d) 7 cm = so groß wie ein Finger → zu groß für einen Käfer. 7 mm passt!\n- e) 30 mm = 3 cm → zu kurz. 30 m → zu lang. 30 cm ✓.\n- g) 3 m → wie ein Haus, zu niedrig. 3 km ✓ (Zugspitze: 2.962 m ≈ knapp 3 km).",
+    "tipps": [
+      "Stell dir jeden Gegenstand oder jede Situation vor. Setze verschiedene Einheiten ein und überlege, welche am besten passt.",
+      "Denke an Vergleichsgrößen: Ein Mensch ist ca. 1,5 m groß. Ein Bleistift ist ca. 20 cm lang. Eine Reißzwecke ist ca. 1 cm breit.",
+      "Bei d): Ein Marienkäfer ist winzig! 7 cm wäre so lang wie dein Daumen — das ist zu groß. 7 ___ ist viel kleiner. Welche Einheit ist kleiner als cm?",
+      "- a) 1.000 g = 1 kg; ein Auto wiegt ca. 1.000 kg = 1 t.\n- b) Eine Laufbahn ist nicht 400 km (zu weit) und nicht 400 cm (zu kurz) → 400 m.\n- c) 10 Minuten Schlaf wäre zu wenig, 10 Tage zu viel → 10 Stunden.\n- d) 7 cm = so groß wie ein Finger → zu groß für einen Käfer. 7 mm passt!\n- e) 30 mm = 3 cm → zu kurz. 30 m → zu lang. 30 cm ✓.\n- g) 3 m → wie ein Haus, zu niedrig. 3 km ✓ (Zugspitze: 2.962 m ≈ knapp 3 km)."
+    ],
+    "didaktischerHinweis": "Kontextbezogene Lückenaufgabe trainiert Größenvorstellungen für verschiedene Bereiche. Entspricht S. 100, Aufg. 3.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ergänze die richtige Maßeinheit.\n\na) Ein kleines Auto wiegt ungefähr 1.000 ___.\nb) Die Laufbahn um den Sportplatz ist 400 ___ lang.\nc) Ein Grundschulkind braucht täglich etwa 10 ___ Schlaf.\nd) Ein Marienkäfer ist 7 ___ groß.\ne) Ein großes Lineal ist 30 ___ lang.\nf) In der Schule dauert eine Doppelstunde Sport 90 ___.\ng) Die Zugspitze, der höchste Berg in Deutschland, ist knapp 3 ___ hoch.",
+          "antwort": "a) kg"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vergleichsgrößen zuordnen — Gewichte",
+    "typ": "zuordnung",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "grün",
+    "buchseite": 101,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Gewichte den Gegenständen zu.\n\n| Gegenstand | Gewicht |\n|-----------|---------|\n| Reißzwecke | ? |\n| Schokoladentafel | ? |\n| Butter | ? |\n| Packung Spaghetti | ? |\n| Packung Zucker | ? |\n\nAuswahl: 1 g | 100 g | 250 g | 500 g | 1 kg",
+    "loesung": "- Reißzwecke → 1 g\n- Schokoladentafel → 100 g\n- Butter → 250 g\n- Packung Spaghetti → 500 g\n- Packung Zucker → 1 kg",
+    "loesungsweg": "- Eine Reißzwecke ist winzig und leicht → 1 g.\n- Eine Tafel Schokolade wiegt ca. 100 g.\n- Ein Stück Butter wiegt 250 g (steht auf der Packung).\n- Eine Packung Spaghetti wiegt typisch 500 g.\n- Eine Packung Zucker wiegt 1 kg.",
+    "tipps": [
+      "Sortiere die Gegenstände im Kopf nach Gewicht: Was ist am leichtesten, was am schwersten? Ordne dann die Gewichte der Reihe nach zu.\n📺 Schau dir das Video \"Vergleichsgrößen: Gramm und Kilogramm\" (S. 101) an!",
+      "Fange mit dem an, das du sicher kennst: Eine Packung Zucker ist fast immer 1 kg. Von dort kannst du die anderen schätzen.",
+      "Die Reißzwecke ist am leichtesten → 1 g. Die Packung Zucker ist am schwersten → 1 kg. Jetzt bleiben 100 g, 250 g und 500 g für die drei mittleren.",
+      "- Eine Reißzwecke ist winzig und leicht → 1 g.\n- Eine Tafel Schokolade wiegt ca. 100 g.\n- Ein Stück Butter wiegt 250 g (steht auf der Packung).\n- Eine Packung Spaghetti wiegt typisch 500 g.\n- Eine Packung Zucker wiegt 1 kg."
+    ],
+    "didaktischerHinweis": "Alltagsvergleiche helfen, ein Gefühl für Gewichtsangaben zu entwickeln. Entspricht S. 101, Aufg. 4a.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Gewichte den Gegenständen zu.\n| Gegenstand | Gewicht |\n|-----------|---------|\n| Reißzwecke | ? |\n| Schokoladentafel | ? |\n| Butter | ? |\n| Packung Spaghetti | ? |\n| Packung Zucker | ? |\nAuswahl: 1 g | 100 g | 250 g | 500 g | 1 kg",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Umrechnungstabelle ausfüllen — alle Größen",
+    "typ": "lücke",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "grün",
+    "buchseite": 101,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Fülle die Lücken in den Umrechnungstabellen aus.\n\n**Längen:**\na) 1 cm = ___ mm\nb) 1 dm = ___ cm\nc) 1 m = ___ cm\nd) 1 km = ___ m\n\n**Gewichte:**\ne) 1 kg = ___ g\nf) 1/2 kg = ___ g\ng) 1/4 kg = ___ g\nh) 1 t = ___ kg\n\n**Rauminhalt:**\ni) 1 l = ___ ml\nj) 1/2 l = ___ ml\nk) 1/4 l = ___ ml\nl) 1/8 l = ___ ml",
+    "loesung": "a) 10 mm\nb) 10 cm\nc) 100 cm\nd) 1.000 m\ne) 1.000 g\nf) 500 g\ng) 250 g\nh) 1.000 kg\ni) 1.000 ml\nj) 500 ml\nk) 250 ml\nl) 125 ml",
+    "loesungsweg": "Merke dir die \"Umrechnungszahlen\":\n- Längen: mm → cm: ×10, cm → dm: ×10, dm → m: ×10, m → km: ×1.000\n- Gewichte: g → kg: ×1.000, kg → t: ×1.000\n- Rauminhalt: ml → l: ×1.000\n- Bruchteile: 1/2 = :2, 1/4 = :4, 1/8 = :8",
+    "tipps": [
+      "Bei vielen Einheiten ist der Umrechnungsfaktor 10, 100 oder 1.000. Schau dir die Einheiten-Paare an — welcher Faktor gehört dazu?\n📺 Schau dir die Videos \"Merkwissen: Längen umrechnen\", \"Merkwissen: Gewichte umrechnen\" und \"Merkwissen: Bruchteile eines Liters\" (S. 101) an!",
+      "Nutze dein Wissen über Bruchteile: 1/2 von 1.000 = 500. 1/4 von 1.000 = 250. 1/8 von 1.000 = 125.",
+      "Bei f): 1/2 kg = die Hälfte von 1 kg = die Hälfte von 1.000 g = ___ g.\nBei k): 1/4 l = die Hälfte von 1/2 l = die Hälfte von 500 ml = ___ ml.",
+      "Merke dir die \"Umrechnungszahlen\":\n- Längen: mm → cm: ×10, cm → dm: ×10, dm → m: ×10, m → km: ×1.000\n- Gewichte: g → kg: ×1.000, kg → t: ×1.000\n- Rauminhalt: ml → l: ×1.000\n- Bruchteile: 1/2 = :2, 1/4 = :4, 1/8 = :8"
+    ],
+    "didaktischerHinweis": "Zusammenfassende Übersicht aller Umrechnungen aus dem Kapitel. Die Bruchteile verknüpfen Thema 1 (Brüche) mit den Maßeinheiten. Entspricht S. 101, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Fülle die Lücken in den Umrechnungstabellen aus.\n\n**Längen:**\na) 1 cm = ___ mm\nb) 1 dm = ___ cm\nc) 1 m = ___ cm\nd) 1 km = ___ m\n\n**Gewichte:**\ne) 1 kg = ___ g\nf) 1/2 kg = ___ g\ng) 1/4 kg = ___ g\nh) 1 t = ___ kg\n\n**Rauminhalt:**\ni) 1 l = ___ ml\nj) 1/2 l = ___ ml\nk) 1/4 l = ___ ml\nl) 1/8 l = ___ ml",
+          "antwort": "a) 10 mm"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vergleichsgrößen zuordnen — Rauminhalt",
+    "typ": "zuordnung",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "orange",
+    "buchseite": 101,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne den Gefäßen den passenden Rauminhalt zu.\n\n| Gefäß | Rauminhalt |\n|-------|-----------|\n| Wasserflasche | ? |\n| Eimer | ? |\n| Milchtüte | ? |\n| Trinkflasche (Sport) | ? |\n| Teelöffel | ? |\n\nAuswahl: 5 ml | 0,5 l | 1 l | 1,5 l | 10 l",
+    "loesung": "- Wasserflasche → 1,5 l\n- Eimer → 10 l\n- Milchtüte → 1 l\n- Trinkflasche → 0,5 l\n- Teelöffel → 5 ml",
+    "loesungsweg": "- Ein Teelöffel fasst nur ca. 5 ml — ganz wenig.\n- Eine Sport-Trinkflasche fasst ca. 0,5 l = 500 ml.\n- Eine Milchtüte fasst meistens 1 l.\n- Eine große Wasserflasche fasst ca. 1,5 l.\n- Ein Eimer fasst ca. 10 l.",
+    "tipps": [
+      "Sortiere die Gefäße im Kopf nach Größe. Das kleinste Gefäß bekommt die kleinste Menge, das größte die größte.\n📺 Schau dir das Video \"Merkwissen: Rauminhalte umrechnen\" (S. 101) an!",
+      "Beginne mit dem, was du sicher weißt: Eine Milchtüte hat fast immer genau 1 Liter aufgedruckt.",
+      "Teelöffel → winzig → 5 ml. Milchtüte → mittelgroß → 1 l. Eimer → groß → 10 l. Jetzt bleiben 0,5 l und 1,5 l für Trinkflasche und Wasserflasche.",
+      "- Ein Teelöffel fasst nur ca. 5 ml — ganz wenig.\n- Eine Sport-Trinkflasche fasst ca. 0,5 l = 500 ml.\n- Eine Milchtüte fasst meistens 1 l.\n- Eine große Wasserflasche fasst ca. 1,5 l.\n- Ein Eimer fasst ca. 10 l."
+    ],
+    "didaktischerHinweis": "Zuordnung alltagsnaher Vergleichsgrößen zum Bereich Rauminhalt/Hohlmaße. Entspricht S. 101, Aufg. 4c.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne den Gefäßen den passenden Rauminhalt zu.\n| Gefäß | Rauminhalt |\n|-------|-----------|\n| Wasserflasche | ? |\n| Eimer | ? |\n| Milchtüte | ? |\n| Trinkflasche (Sport) | ? |\n| Teelöffel | ? |\nAuswahl: 5 ml | 0,5 l | 1 l | 1,5 l | 10 l",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Bruchteile umrechnen — Stunde, Meter, Kilogramm",
+    "typ": "eingabe",
+    "thema": "Maßeinheiten",
+    "schwierigkeit": "orange",
+    "buchseite": 101,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "masseinheiten",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne um. Nutze dein Wissen über Brüche!\n\na) 1/4 h = ___ min\nb) 1/2 h = ___ min\nc) 1/2 m = ___ cm\nd) 1/4 km = ___ m\ne) 1/2 t = ___ kg\nf) 1/2 km = ___ m",
+    "loesung": "a) 15\nb) 30\nc) 50\nd) 250\ne) 500\nf) 500",
+    "loesungsweg": "- a) 1 h = 60 min. 1/4 davon: 60 : 4 = 15 min.\n- b) 1 h = 60 min. 1/2 davon: 60 : 2 = 30 min.\n- c) 1 m = 100 cm. 1/2 davon: 100 : 2 = 50 cm.\n- d) 1 km = 1.000 m. 1/4 davon: 1.000 : 4 = 250 m.\n- e) 1 t = 1.000 kg. 1/2 davon: 1.000 : 2 = 500 kg.\n- f) 1 km = 1.000 m. 1/2 davon: 1.000 : 2 = 500 m.",
+    "tipps": [
+      "Ein Bruchteil bedeutet: Teile das Ganze durch den Nenner. Also 1/4 h = 1 Stunde geteilt durch 4. Wie viele Minuten hat eine Stunde?\n📺 Schau dir das Video \"Merkwissen: Bruchteile einer Stunde\" (S. 101) an!",
+      "Gehe in zwei Schritten vor: 1) Wie viel ist \"1 Ganzes\" in der kleineren Einheit? 2) Teile durch den Nenner des Bruchs.",
+      "Bei a): 1 h = 60 min. 1/4 von 60 = 60 : 4 = ___. Bei d): 1 km = 1.000 m. 1/4 von 1.000 = 1.000 : 4 = ___.",
+      "- a) 1 h = 60 min. 1/4 davon: 60 : 4 = 15 min.\n- b) 1 h = 60 min. 1/2 davon: 60 : 2 = 30 min.\n- c) 1 m = 100 cm. 1/2 davon: 100 : 2 = 50 cm.\n- d) 1 km = 1.000 m. 1/4 davon: 1.000 : 4 = 250 m.\n- e) 1 t = 1.000 kg. 1/2 davon: 1.000 : 2 = 500 kg.\n- f) 1 km = 1.000 m. 1/2 davon: 1.000 : 2 = 500 m."
+    ],
+    "didaktischerHinweis": "Verknüpfung von Brüchen und Maßeinheiten aus verschiedenen Bereichen. Entspricht S. 101, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s94-merkkasten-liter-milliliter.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne um. Nutze dein Wissen über Brüche!",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1/4 h = ___ min",
+          "antwort": "15"
+        },
+        {
+          "label": "b",
+          "frage": "1/2 h = ___ min",
+          "antwort": "30"
+        },
+        {
+          "label": "c",
+          "frage": "1/2 m = ___ cm",
+          "antwort": "50"
+        },
+        {
+          "label": "d",
+          "frage": "1/4 km = ___ m",
+          "antwort": "250"
+        },
+        {
+          "label": "e",
+          "frage": "1/2 t = ___ kg",
+          "antwort": "500"
+        },
+        {
+          "label": "f",
+          "frage": "1/2 km = ___ m",
+          "antwort": "500"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie weit ist eine Million Schritte?",
+    "typ": "textaufgabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "gelb",
+    "buchseite": 102,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Schritt ist ungefähr 50 cm lang.\n\na) Wie weit kommst du in 10 Schritten (in Metern)?\nb) Wie weit kommst du in 100 Schritten (in Metern)?\nc) Wie weit kommst du in 1.000 Schritten (in Metern)?\nd) Wie weit wären 1.000.000 Schritte (in Kilometern)?",
+    "loesung": "a) 10 × 50 cm = 500 cm = 5 m\nb) 100 × 50 cm = 5.000 cm = 50 m\nc) 1.000 × 50 cm = 50.000 cm = 500 m\nd) 1.000.000 × 50 cm = 50.000.000 cm = 500.000 m = 500 km",
+    "loesungsweg": "- Jeder Schritt = 50 cm = 0,5 m.\n- a) 10 × 0,5 m = 5 m\n- b) 100 × 0,5 m = 50 m\n- c) 1.000 × 0,5 m = 500 m\n- d) 1.000.000 × 0,5 m = 500.000 m = 500 km (ungefähr von München nach Hamburg!)",
+    "tipps": [
+      "50 cm ist ein halber Meter. Wenn du 10 halbe Meter gehst — wie viele ganze Meter sind das?",
+      "Nutze das Muster: Bei a) rechnest du ×10, bei b) ×100, bei c) ×1.000, bei d) ×1.000.000. Jedes Mal wird die Schrittzahl zehnmal so groß — also auch die Strecke!",
+      "Bei a): 10 × 50 cm = 500 cm. 500 cm : 100 = 5 m. ✓\nBei d): Nutze das Muster: 10 Schritte = 5 m, 100 = 50 m, 1.000 = 500 m. Bei 1.000.000 Schritten: 500 × 1.000 = ___ m = ___ km.",
+      "- Jeder Schritt = 50 cm = 0,5 m.\n- a) 10 × 0,5 m = 5 m\n- b) 100 × 0,5 m = 50 m\n- c) 1.000 × 0,5 m = 500 m\n- d) 1.000.000 × 0,5 m = 500.000 m = 500 km (ungefähr von München nach Hamburg!)"
+    ],
+    "didaktischerHinweis": "Schrittweises Hochskalieren macht die Million greifbar. Die Umrechnung cm → m → km wird geübt. Entspricht Fermi-Fragen auf S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ein Schritt ist ungefähr 50 cm lang.",
+      "kontext": "Ein Schritt ist ungefähr 50 cm lang.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie weit kommst du in 10 Schritten (in Metern)?",
+          "antwort": "10 × 50 cm = 500 cm = 5 m"
+        },
+        {
+          "label": "b",
+          "frage": "Wie weit kommst du in 100 Schritten (in Metern)?",
+          "antwort": "100 × 50 cm = 5.000 cm = 50 m"
+        },
+        {
+          "label": "c",
+          "frage": "Wie weit kommst du in 1.000 Schritten (in Metern)?",
+          "antwort": "1.000 × 50 cm = 50.000 cm = 500 m"
+        },
+        {
+          "label": "d",
+          "frage": "Wie weit wären 1.000.000 Schritte (in Kilometern)?",
+          "antwort": "1.000.000 × 50 cm = 50.000.000 cm = 500.000 m = 500 km"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eine Million Sekunden — wie viele Tage?",
+    "typ": "schritt",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "grün",
+    "buchseite": 102,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
+    "loesung": "Schritt 1: 60 Sekunden\nSchritt 2: 60 × 60 = 3.600 Sekunden\nSchritt 3: 24 × 3.600 = 86.400 Sekunden\nSchritt 4: 1.000.000 : 86.400 ≈ 11,6 → ca. 11 Tage und 14 Stunden",
+    "loesungsweg": "- 1 Minute = 60 s\n- 1 Stunde = 60 × 60 = 3.600 s\n- 1 Tag = 24 × 3.600 = 86.400 s\n- 1.000.000 : 86.400 ≈ 11,6 Tage ≈ 11 Tage und 14 Stunden\n\nEine Million Sekunden sind also knapp 12 Tage!",
+    "tipps": [
+      "Gehe Schritt für Schritt von der kleinen zur großen Einheit: Sekunden → Minuten → Stunden → Tage.",
+      "Berechne zuerst, wie viele Sekunden ein Tag hat. Dann teile 1.000.000 durch diese Zahl. Tipp: 86.400 × 10 = 864.000. Wie nah ist das an 1.000.000?",
+      "1 Tag = 86.400 s. 10 Tage = 864.000 s. 11 Tage = 864.000 + 86.400 = 950.400 s. 12 Tage = 950.400 + 86.400 = 1.036.800 s. Also liegt 1.000.000 zwischen ___ und ___ Tagen.",
+      "- 1 Minute = 60 s\n- 1 Stunde = 60 × 60 = 3.600 s\n- 1 Tag = 24 × 3.600 = 86.400 s\n- 1.000.000 : 86.400 ≈ 11,6 Tage ≈ 11 Tage und 14 Stunden\n\nEine Million Sekunden sind also knapp 12 Tage!"
+    ],
+    "didaktischerHinweis": "Mehrstufige Zeitumrechnung mit dem Ziel, ein Gefühl für die Größe \"eine Million\" zu entwickeln. Entspricht dem Konzept der \"Millionen-Fragen\" auf S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Wie viele Tage sind 1.000.000 Sekunden? Rechne Schritt für Schritt.\n\nSchritt 1: Wie viele Sekunden hat eine Minute? ___\nSchritt 2: Wie viele Sekunden hat eine Stunde? ___\nSchritt 3: Wie viele Sekunden hat ein Tag? ___\nSchritt 4: 1.000.000 : ___ = ___ Tage (runde auf ganze Tage)",
+              "antwort": "Schritt 1: 60 Sekunden"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eine Million Zentimeter — wie weit?",
+    "typ": "eingabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "gelb",
+    "buchseite": 102,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "Wandle 1.000.000 cm in größere Einheiten um.\n\na) 1.000.000 cm = ___ m\nb) 1.000.000 cm = ___ km",
+    "loesung": "a) 10.000\nb) 10",
+    "loesungsweg": "- a) 1 m = 100 cm. Also: 1.000.000 : 100 = 10.000 m.\n- b) 1 km = 1.000 m. Also: 10.000 : 1.000 = 10 km.\n\nEine Million Zentimeter = 10 Kilometer. Das ist ungefähr die Strecke von deiner Schule in die nächste größere Stadt!",
+    "tipps": [
+      "Wie viele Zentimeter sind 1 Meter? Um von cm in m umzurechnen, musst du teilen. Durch welche Zahl?",
+      "Teile durch 100 (cm → m) und dann durch 1.000 (m → km). Oder direkt: cm → km = : 100.000.",
+      "a) 1.000.000 : 100 = ___. Tipp: Streiche zwei Nullen. b) ___ : 1.000 = ___. Tipp: Streiche drei Nullen.",
+      "- a) 1 m = 100 cm. Also: 1.000.000 : 100 = 10.000 m.\n- b) 1 km = 1.000 m. Also: 10.000 : 1.000 = 10 km.\n\nEine Million Zentimeter = 10 Kilometer. Das ist ungefähr die Strecke von deiner Schule in die nächste größere Stadt!"
+    ],
+    "didaktischerHinweis": "Umrechnungsketten mit großen Zahlen trainieren den Umgang mit dem Stellenwertsystem. Entspricht S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wandle 1.000.000 cm in größere Einheiten um.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1.000.000 cm = ___ m",
+          "antwort": "10.000"
+        },
+        {
+          "label": "b",
+          "frage": "1.000.000 cm = ___ km",
+          "antwort": "10"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eine Million Gramm — wie schwer?",
+    "typ": "eingabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "grün",
+    "buchseite": 102,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "a) 1.000.000 g = ___ kg\nb) 1.000.000 g = ___ t\nc) Ist eine Million Gramm schwerer oder leichter als ein Auto?",
+    "loesung": "a) 1.000\nb) 1\nc) Ein kleines Auto wiegt ca. 1.000-1.500 kg = 1-1,5 t. Eine Million Gramm (= 1 t) ist also ungefähr so schwer wie ein kleines Auto.",
+    "loesungsweg": "- a) 1 kg = 1.000 g. Also: 1.000.000 : 1.000 = 1.000 kg.\n- b) 1 t = 1.000 kg. Also: 1.000 : 1.000 = 1 t.\n- c) 1 t ≈ 1 kleines Auto.",
+    "tipps": [
+      "Wie viele Gramm sind 1 Kilogramm? Teile 1.000.000 durch diese Zahl. Und wie viele Kilogramm sind 1 Tonne?",
+      "Umrechnungskette: g → kg: : 1.000. kg → t: : 1.000. Also: g → t: : 1.000.000.",
+      "a) 1.000.000 g : 1.000 = ___ kg. b) ___ kg : 1.000 = ___ t.",
+      "- a) 1 kg = 1.000 g. Also: 1.000.000 : 1.000 = 1.000 kg.\n- b) 1 t = 1.000 kg. Also: 1.000 : 1.000 = 1 t.\n- c) 1 t ≈ 1 kleines Auto."
+    ],
+    "didaktischerHinweis": "Umrechnungskette Gramm → Kilogramm → Tonne mit Alltagsvergleich. Entspricht S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1.000.000 g = ___ kg",
+          "antwort": "1.000"
+        },
+        {
+          "label": "b",
+          "frage": "1.000.000 g = ___ t",
+          "antwort": "1"
+        },
+        {
+          "label": "c",
+          "frage": "Ist eine Million Gramm schwerer oder leichter als ein Auto?",
+          "antwort": "Ein kleines Auto wiegt ca. 1.000-1.500 kg = 1-1,5 t. Eine Million Gramm (= 1 t) ist also ungefähr so schwer wie ein kleines Auto."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eine Million Milliliter — wie viele Badewannen?",
+    "typ": "textaufgabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "grün",
+    "buchseite": 103,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "a) 1.000.000 ml = ___ l\nb) Eine Badewanne fasst ungefähr 150 l. Wie viele Badewannen kann man mit 1.000.000 ml füllen?",
+    "loesung": "a) 1.000 l\nb) 1.000 : 150 = 6 Rest 100 → ca. 6 Badewannen (und ein bisschen übrig)",
+    "loesungsweg": "- a) 1.000.000 ml : 1.000 = 1.000 l.\n- b) 1.000 l : 150 l = 6,67... → Es reicht für 6 volle Badewannen (mit 100 l Rest).",
+    "tipps": [
+      "Wie viele Milliliter sind 1 Liter? Teile 1.000.000 durch diese Zahl. Dann überlege: Wie oft passt 150 Liter in dein Ergebnis?",
+      "Schritt 1: ml → l (: 1.000). Schritt 2: l : Badewannengröße. Überschlage: 150 × 6 = 900, 150 × 7 = 1.050.",
+      "a) 1.000.000 : 1.000 = ___ l. b) 150 × 6 = 900 l. 150 × 7 = 1.050 l. Was passt besser zu 1.000 l?",
+      "- a) 1.000.000 ml : 1.000 = 1.000 l.\n- b) 1.000 l : 150 l = 6,67... → Es reicht für 6 volle Badewannen (mit 100 l Rest)."
+    ],
+    "didaktischerHinweis": "Verbindung von Hohlmaß-Umrechnung und Division mit Alltagsvergleich. Entspricht S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1.000.000 ml = ___ l",
+          "antwort": "1.000 l"
+        },
+        {
+          "label": "b",
+          "frage": "Eine Badewanne fasst ungefähr 150 l. Wie viele Badewannen kann man mit 1.000.000 ml füllen?",
+          "antwort": "1.000 : 150 = 6 Rest 100 → ca. 6 Badewannen (und ein bisschen übrig)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie lange dauert es, bis zur Million zu zählen?",
+    "typ": "textaufgabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "orange",
+    "buchseite": 103,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "Du zählst laut von 1 bis 1.000.000. Für jede Zahl brauchst du durchschnittlich 2 Sekunden.\n\na) Wie viele Sekunden würdest du brauchen?\nb) Wie viele Stunden sind das? (Runde auf ganze Stunden.)\nc) Wie viele Tage sind das ungefähr, wenn du 8 Stunden am Tag zählst?",
+    "loesung": "a) 1.000.000 × 2 = 2.000.000 Sekunden\nb) 2.000.000 : 3.600 ≈ 556 Stunden\nc) 556 : 8 ≈ 69,5 → ca. 70 Tage",
+    "loesungsweg": "- a) 1.000.000 Zahlen × 2 s = 2.000.000 s.\n- b) 1 Stunde = 3.600 s. 2.000.000 : 3.600 ≈ 555,6 → ca. 556 Stunden.\n- c) 556 : 8 = 69,5 → ca. 70 Tage = ca. 2,5 Monate!",
+    "tipps": [
+      "Multipliziere zuerst: Wie viele Sekunden brauchst du insgesamt? Dann wandle in Stunden um (1 Stunde = 3.600 Sekunden).",
+      "Gehe in Schritten vor: s → min (: 60) → h (: 60) → Tage (: 8, weil du nur 8h am Tag zählst).",
+      "a) 1.000.000 × 2 = 2.000.000 s. b) 2.000.000 : 3.600. Überschlage: 3.600 × 500 = 1.800.000. 3.600 × 550 = 1.980.000. Also ca. ___ h.",
+      "- a) 1.000.000 Zahlen × 2 s = 2.000.000 s.\n- b) 1 Stunde = 3.600 s. 2.000.000 : 3.600 ≈ 555,6 → ca. 556 Stunden.\n- c) 556 : 8 = 69,5 → ca. 70 Tage = ca. 2,5 Monate!"
+    ],
+    "didaktischerHinweis": "Fermi-Schätzung, die die Größe einer Million erlebbar macht. Entspricht dem Konzept der S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Du zählst laut von 1 bis 1.000.000. Für jede Zahl brauchst du durchschnittlich 2 Sekunden.",
+      "kontext": "Du zählst laut von 1 bis 1.000.000. Für jede Zahl brauchst du durchschnittlich 2 Sekunden.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Sekunden würdest du brauchen?",
+          "antwort": "1.000.000 × 2 = 2.000.000 Sekunden"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Stunden sind das? (Runde auf ganze Stunden.)",
+          "antwort": "2.000.000 : 3.600 ≈ 556 Stunden"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viele Tage sind das ungefähr, wenn du 8 Stunden am Tag zählst?",
+          "antwort": "556 : 8 ≈ 69,5 → ca. 70 Tage"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Millionen-Quiz — Überschlagen und schätzen",
+    "typ": "auswahl",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "orange",
+    "buchseite": 103,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "voll",
+    "aufgabenstellung": "Was ist näher an 1.000.000? Kreuze an.\n\na) 1.000.000 mm: Ist das näher an 1 km oder an 10 km?\nb) 1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?\nc) 1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?\nd) 1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?",
+    "loesung": "a) 1 km (1.000.000 mm = 1.000 m = 1 km)\nb) 1.000 kg (1.000.000 g = 1.000 kg)\nc) 1.000 l (1.000.000 ml = 1.000 l)\nd) 10 Tage (1.000.000 s ≈ 11,6 Tage)",
+    "loesungsweg": "- a) 1.000.000 mm : 10 = 100.000 cm : 100 = 1.000 m : 1.000 = 1 km.\n- b) 1.000.000 g : 1.000 = 1.000 kg.\n- c) 1.000.000 ml : 1.000 = 1.000 l.\n- d) 1.000.000 s : 86.400 ≈ 11,6 Tage → näher an 10 als an 1.",
+    "tipps": [
+      "Rechne jede Umwandlung Schritt für Schritt. Kennst du den Umrechnungsfaktor? mm → m: teile durch 1.000. m → km: teile durch 1.000.",
+      "Bei den meisten Einheiten (g, ml) ist der Faktor 1.000. Das macht es einfach: 1.000.000 : 1.000 = 1.000. Bei mm sind es zwei Schritte: : 10 : 100 oder : 1.000.",
+      "Bei a): 1.000.000 mm = ___ cm (: 10) = ___ m (: 100). ___ m = ___ km? Ist das näher an 1 km oder an 10 km?",
+      "- a) 1.000.000 mm : 10 = 100.000 cm : 100 = 1.000 m : 1.000 = 1 km.\n- b) 1.000.000 g : 1.000 = 1.000 kg.\n- c) 1.000.000 ml : 1.000 = 1.000 l.\n- d) 1.000.000 s : 86.400 ≈ 11,6 Tage → näher an 10 als an 1."
+    ],
+    "didaktischerHinweis": "Überschlags-Aufgabe, die alle Umrechnungen des Kapitels zusammenführt und das Verständnis für die Größe \"eine Million\" vertieft. Entspricht S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Was ist näher an 1.000.000? Kreuze an.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1.000.000 mm: Ist das näher an 1 km oder an 10 km?"
+        },
+        {
+          "label": "B",
+          "text": "1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?"
+        },
+        {
+          "label": "C",
+          "text": "1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?"
+        },
+        {
+          "label": "D",
+          "text": "1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Millionenfragen erfinden — eigene Frage",
+    "typ": "textaufgabe",
+    "thema": "Millionen-Fragen",
+    "schwierigkeit": "orange",
+    "buchseite": 103,
+    "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
+    "stageId": "millionen-fragen",
+    "digital": "platzhalter",
+    "aufgabenstellung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe ist eine offene Kreativaufgabe.\nOriginal: \"Denke dir selbst eine Millionen-Frage aus und berechne die Antwort. Zum Beispiel: Wie hoch wäre ein Turm aus 1.000.000 Ein-Cent-Münzen?\"\n\n**Mögliche digitale Alternative:** Multiple-Choice: \"Welche Antwort passt zur Millionen-Frage: Wie lang ist eine Kette aus 1.000.000 Büroklammern (je 3 cm)? a) 300 m b) 3 km c) 30 km d) 300 km\"",
+    "loesung": "",
+    "loesungsweg": "",
+    "tipps": [
+      "Lies die Aufgabe nochmal genau durch.",
+      "Überlege Schritt für Schritt.",
+      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      ""
+    ],
+    "didaktischerHinweis": "Offene Fermi-Aufgaben fördern Kreativität und Größenvorstellungen. Entspricht S. 102-103.",
+    "erklaerungBild": "assets/erklaerungen/s22-merkkasten-stellenwerte.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe ist eine offene Kreativaufgabe.\nOriginal: \"Denke dir selbst eine Millionen-Frage aus und berechne die Antwort. Zum Beispiel: Wie hoch wäre ein Turm aus 1.000.000 Ein-Cent-Münzen?\"",
+      "kontext": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgabe ist eine offene Kreativaufgabe.\nOriginal: \"Denke dir selbst eine Millionen-Frage aus und berechne die Antwort. Zum Beispiel: Wie hoch wäre ein Turm aus 1.000.000 Ein-Cent-Münzen?\"",
+      "items": [
+        {
+          "label": "1",
+          "frage": "**Mögliche digitale Alternative:** Multiple-Choice: \"Welche Antwort passt zur Millionen-Frage: Wie lang ist eine Kette aus 1.000.000 Büroklammern (je 3 cm)? a) 300 m b) 3 km c) 30 km d) 300 km\"",
+          "antwort": ""
+        }
+      ]
+    }
+  }
+]

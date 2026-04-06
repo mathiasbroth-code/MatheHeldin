@@ -13,7 +13,7 @@ typ: auswahl
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: gelb
 buchseite: 46
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -62,7 +62,7 @@ typ: eingabe
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: gelb
 buchseite: 46
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -76,9 +76,9 @@ c) Ein gleichseitiges Dreieck
 d) Ein Kreis
 
 ### Lösung
-a) 4 Symmetrieachsen
-b) 2 Symmetrieachsen
-c) 3 Symmetrieachsen
+a) 4
+b) 2
+c) 3
 d) Unendlich viele Symmetrieachsen
 
 ### Lösungsweg
@@ -109,7 +109,7 @@ typ: auswahl
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: grün
 buchseite: 46
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -153,7 +153,7 @@ typ: auswahl
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: grün
 buchseite: 46
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -194,7 +194,7 @@ typ: auswahl
 thema: "Achsensymmetrische Bilder"
 schwierigkeit: orange
 buchseite: 46
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -239,18 +239,13 @@ typ: auswahl
 thema: "Faltschnitte"
 schwierigkeit: gelb
 buchseite: 47
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Teilweise digital umsetzbar**
-
-Original: Man faltet ein quadratisches Blatt einmal in der Mitte und schneidet an der geschlossenen Ecke ein kleines Dreieck ab. Welche Figur entsteht beim Auffalten?
-
-**Digitale Alternative (Multiple-Choice):**
-Ein Quadrat wird einmal in der Mitte gefaltet und an der Faltkante wird ein Dreieck ausgeschnitten. Welche Figur entsteht?
+Ein quadratisches Blatt wird einmal in der Mitte gefaltet. An der geschlossenen Ecke wird ein kleines Dreieck abgeschnitten. Welche Figur entsteht beim Auffalten?
 
 a) Ein Quadrat mit einem dreieckigen Loch in der Mitte
 b) Ein Quadrat mit einem rautenförmigen Loch in der Mitte
@@ -284,18 +279,13 @@ typ: auswahl
 thema: "Faltschnitte"
 schwierigkeit: grün
 buchseite: 47
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Teilweise digital umsetzbar**
-
-Original: Man faltet ein Quadrat zweimal (erst waagerecht, dann senkrecht) und schneidet an der geschlossenen Ecke ein Dreieck ab.
-
-**Digitale Alternative (Multiple-Choice):**
-Ein Quadrat wird zweimal gefaltet und an der Ecke, wo alle Faltkanten zusammentreffen, wird ein kleines Dreieck abgeschnitten. Welche Figur entsteht?
+Ein Quadrat wird zweimal gefaltet (erst waagerecht, dann senkrecht). An der Ecke, wo alle Faltkanten zusammentreffen, wird ein kleines Dreieck abgeschnitten. Welche Figur entsteht?
 
 a) Ein Quadrat mit einem quadratischen Loch
 b) Ein Quadrat mit einer rautenförmigen Öffnung in der Mitte
@@ -329,17 +319,12 @@ typ: auswahl
 thema: "Faltschnitte"
 schwierigkeit: grün
 buchseite: 47
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Teilweise digital umsetzbar**
-
-Original: Es sollen bestimmte Figuren entstehen — wie muss gefaltet und geschnitten werden?
-
-**Digitale Alternative (Multiple-Choice):**
 Beim Auffalten soll ein Kreuz (Pluszeichen) entstehen. Wie muss geschnitten werden?
 
 a) Das Quadrat zweimal falten und an der offenen Seite ein Rechteck ausschneiden
@@ -374,17 +359,12 @@ typ: auswahl
 thema: "Faltschnitte"
 schwierigkeit: orange
 buchseite: 47
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "faltschnitte"
-digital: platzhalter
+digital: voll
 ---
 
 ### Aufgabenstellung
-⚠️ **PLATZHALTER — Teilweise digital umsetzbar**
-
-Original: Übertrage die Figur ins Heft und spiegle an den Achsen (senkrecht + waagerecht + diagonal).
-
-**Digitale Alternative (Multiple-Choice):**
 Ein L-förmiges Muster liegt im oberen linken Viertel eines Gitters. Es wird an einer senkrechten und einer waagerechten Achse gespiegelt. Welches Gesamtbild entsteht?
 
 a) Vier L-Formen, die alle in die gleiche Richtung zeigen
@@ -419,7 +399,7 @@ typ: wahr-falsch
 thema: "Faltschnitte"
 schwierigkeit: gelb
 buchseite: 47
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "achsensymmetrie"
 digital: voll
 ---
@@ -468,7 +448,7 @@ typ: auswahl
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: gelb
 buchseite: 48
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
 ---
@@ -514,7 +494,7 @@ typ: eingabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: gelb
 buchseite: 48
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
 ---
@@ -528,9 +508,9 @@ c) Ein rechtwinkliges Dreieck
 d) Der Buchstabe T (aus geraden Linien)
 
 ### Lösung
-a) 4 rechte Winkel
-b) 4 rechte Winkel
-c) 1 rechter Winkel
+a) 4
+b) 4
+c) 1
 d) 2 rechte Winkel (links und rechts an der Verbindungsstelle)
 
 ### Lösungsweg
@@ -561,7 +541,7 @@ typ: zuordnung
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: grün
 buchseite: 48
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
 ---
@@ -615,7 +595,7 @@ typ: auswahl
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: grün
 buchseite: 49
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
 ---
@@ -660,7 +640,7 @@ typ: eingabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: grün
 buchseite: 49
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: teilweise
 ---
@@ -704,7 +684,7 @@ typ: eingabe
 thema: "Zeichnen mit dem Geodreieck"
 schwierigkeit: orange
 buchseite: 49
-kapitel: "04-achsensymmetrie-flaeche-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
 stage_id: "geodreieck-erkennen"
 digital: voll
 ---
@@ -754,8 +734,8 @@ typ: zuordnung
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: gelb
 buchseite: 50
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -806,8 +786,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: gelb
 buchseite: 50
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -852,8 +832,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -897,8 +877,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 52
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -945,8 +925,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -993,8 +973,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 51
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -1039,8 +1019,8 @@ typ: wahr-falsch
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 51
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -1086,8 +1066,8 @@ typ: textaufgabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 51
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -1141,8 +1121,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 53
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 
@@ -1184,8 +1164,8 @@ typ: eingabe
 thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 50
-kapitel: "04-achsensymmetrie-flaeche-umfang"
-stage_id: "flaecheninhalt-umfang"
+kapitel: "04-achsensymmetrie-fläche-umfang"
+stage_id: "flächeninhalt-umfang"
 digital: voll
 ---
 

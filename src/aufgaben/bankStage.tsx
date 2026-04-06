@@ -1,9 +1,13 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import type { Aufgabe, StageProps, Stage, StageFarbe } from '@/stages/types';
 import type { BankAufgabe, Schwierigkeit } from './types';
 import { aufgabenPool } from './pool';
 import { AufgabeWrapper } from './views/AufgabeWrapper';
 import { Card } from '@/components/ui/Card';
+import { TippButton, TippInhalte } from '@/components/ui/TippSystem';
+import { Zeichenfeld } from '@/components/ui/Zeichenfeld';
+import { filterTippForLabel } from './parserHelpers';
 
 /** Aufgabe aus der Bank — wraps a BankAufgabe for the Stage system. */
 export interface BankStageAufgabe extends Aufgabe {
@@ -55,6 +59,32 @@ function BankStageView({
   const [schwierigkeit, setSchwierigkeit] = useState<Schwierigkeit | null>(null);
   const startTime = useRef(Date.now());
   const [currentAufgabe, setCurrentAufgabe] = useState(aufgabe.bankAufgabe);
+  const [erklaerungOpen, setErklaerungOpen] = useState(false);
+  const [tippStufe, setTippStufe] = useState(0);
+  const [zeichenfeldOpen, setZeichenfeldOpen] = useState(false);
+  const [currentLabel, setCurrentLabel] = useState('');
+  const [headerActionsEl, setHeaderActionsEl] = useState<HTMLElement | null>(null);
+
+  useEffect(() => {
+    setHeaderActionsEl(document.getElementById('header-actions'));
+  }, []);
+
+  // Tipp-Stufe, Zeichenfeld und Label bei neuer Aufgabe zurücksetzen
+  useEffect(() => {
+    setTippStufe(0);
+    setZeichenfeldOpen(false);
+    setCurrentLabel('');
+  }, [currentAufgabe]);
+
+  const handleTeilaufgabeChange = useCallback((label: string) => {
+    setCurrentLabel(label);
+  }, []);
+
+  // Tipps fuer aktuelle Teilaufgabe filtern (entfernt Labels anderer Teilaufgaben)
+  const filteredTipps = useMemo(() => {
+    if (!currentAufgabe.tipps || !currentLabel) return currentAufgabe.tipps;
+    return currentAufgabe.tipps.map((t) => filterTippForLabel(t, currentLabel));
+  }, [currentAufgabe.tipps, currentLabel]);
 
   // Counts for filter badges
   const stageId = aufgabe.bankAufgabe.stageId;
@@ -67,6 +97,16 @@ function BankStageView({
   useEffect(() => {
     startTime.current = Date.now();
   }, [currentAufgabe]);
+
+  // Bei Filter-Wechsel sofort passende Aufgabe laden
+  function handleFilterChange(s: Schwierigkeit | null) {
+    setSchwierigkeit(s);
+    const filter = { stageId, ...(s ? { schwierigkeit: s } : {}) };
+    const next = aufgabenPool.getRandom(filter);
+    if (next) {
+      setCurrentAufgabe(next);
+    }
+  }
 
   function handleRichtig() {
     const dauerMs = Date.now() - startTime.current;
@@ -92,7 +132,50 @@ function BankStageView({
   return (
     <div className="space-y-3 mt-2">
       {/* Schwierigkeitsfilter */}
-      <SchwierigkeitsFilter aktiv={schwierigkeit} onChange={setSchwierigkeit} counts={counts} />
+      <SchwierigkeitsFilter aktiv={schwierigkeit} onChange={handleFilterChange} counts={counts} />
+
+      {/* ?-Button + Tipp-Glühbirne via Portal in den Header */}
+      {headerActionsEl &&
+        createPortal(
+          <>
+            {(currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild) && (
+              <button
+                onClick={() => setErklaerungOpen(!erklaerungOpen)}
+                className={`shrink-0 min-w-[36px] min-h-[36px] rounded-full flex items-center justify-center text-sm font-bold transition-colors cursor-pointer focus:outline-none focus:ring-3 focus:ring-primary/30 ${
+                  erklaerungOpen
+                    ? 'bg-primary text-white'
+                    : 'bg-card border border-border text-muted hover:text-primary hover:border-primary'
+                }`}
+                aria-label={erklaerungOpen ? 'Erklärung schließen' : 'Was lernst du hier?'}
+              >
+                ?
+              </button>
+            )}
+            {currentAufgabe.tipps && tippStufe === 0 && (
+              <TippButton onAdvance={() => setTippStufe(1)} />
+            )}
+            <button
+              onClick={() => setZeichenfeldOpen(!zeichenfeldOpen)}
+              className={`shrink-0 min-w-[36px] min-h-[36px] rounded-full flex items-center justify-center transition-colors cursor-pointer focus:outline-none focus:ring-3 focus:ring-primary/30 ${
+                zeichenfeldOpen
+                  ? 'bg-primary text-white'
+                  : 'bg-card border border-border text-muted hover:text-primary hover:border-primary'
+              }`}
+              aria-label={zeichenfeldOpen ? 'Zeichenfeld schließen' : 'Zeichenfeld öffnen'}
+            >
+              <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
+                <path
+                  d="M11.5 1.5L14.5 4.5L5 14H2V11L11.5 1.5Z"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </>,
+          headerActionsEl,
+        )}
 
       {/* Aufgaben-Titel */}
       <Card className="py-2">
@@ -100,11 +183,46 @@ function BankStageView({
         <p className="text-sm font-bold text-heading">{currentAufgabe.titel}</p>
       </Card>
 
+      {/* Erklärung (aufklappbar) */}
+      {erklaerungOpen && (currentAufgabe.didaktischerHinweis || currentAufgabe.erklaerungBild) && (
+        <Card className="bg-primary-light border-primary/20">
+          <p className="text-xs font-bold text-primary uppercase tracking-wide">Was lernst du hier?</p>
+          {currentAufgabe.erklaerungBild && (
+            <img
+              src={`/${currentAufgabe.erklaerungBild}`}
+              alt="Erklärung aus dem Buch"
+              className="mt-2 rounded-lg border border-border max-w-full"
+              loading="lazy"
+            />
+          )}
+          {currentAufgabe.didaktischerHinweis && (
+            <p className="text-sm text-body mt-2">{currentAufgabe.didaktischerHinweis}</p>
+          )}
+        </Card>
+      )}
+
+      {/* Zeichenfeld (Schmierzettel) */}
+      {zeichenfeldOpen && (
+        <Zeichenfeld
+          key={currentAufgabe.titel}
+          onClose={() => setZeichenfeldOpen(false)}
+        />
+      )}
+
       {/* Interaktionstyp-View */}
       <AufgabeWrapper
         aufgabe={currentAufgabe}
         onRichtig={handleRichtig}
         onFalsch={handleFalsch}
+        onTeilaufgabeChange={handleTeilaufgabeChange}
+      />
+
+      {/* Tipp-Inhalte (unter der Aufgabe, wenn aufgedeckt) — gefiltert fuer aktuelle Teilaufgabe */}
+      <TippInhalte
+        tipps={filteredTipps ?? null}
+        tippBilder={currentAufgabe.tippBilder}
+        stufe={tippStufe}
+        onAdvance={() => setTippStufe((s) => Math.min(s + 1, 4))}
       />
 
       {/* Nächste */}

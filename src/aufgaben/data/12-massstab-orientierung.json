@@ -1,0 +1,933 @@
+[
+  {
+    "titel": "Maßstab verstehen — Vergrößerung erkennen",
+    "typ": "auswahl",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "gelb",
+    "buchseite": 116,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Marienkäfer wird im Maßstab 4 : 1 abgebildet. Was bedeutet das?\n\na) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.\nb) Der Käfer ist im Bild 4-mal kleiner als in Wirklichkeit.\nc) Der Käfer ist im Bild gleich groß wie in Wirklichkeit.",
+    "loesung": "a) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.",
+    "loesungsweg": "Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert.",
+    "tipps": [
+      "Schau dir die Zahlen im Maßstab genau an: 4 : 1. Die linke Zahl steht für das Bild, die rechte für die Wirklichkeit. Welche Zahl ist größer?",
+      "Beim Maßstab gilt: linke Zahl = Bild, rechte Zahl = Wirklichkeit.\n- Linke Zahl größer → Vergrößerung\n- Rechte Zahl größer → Verkleinerung\n- Beide gleich (1 : 1) → Originalgrösse",
+      "Maßstab 4 : 1 bedeutet: 4 cm im Bild = 1 cm in echt. Ist das Bild dann größer oder kleiner als das Original?",
+      "Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert."
+    ],
+    "didaktischerHinweis": "Grundverständnis des Maßstabs als Verhältnis. Entspricht S. 116, Einführungsbeispiel mit der Kopflaus und den Käfern.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Marienkäfer wird im Maßstab 4 : 1 abgebildet. Was bedeutet das?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit."
+        },
+        {
+          "label": "B",
+          "text": "Der Käfer ist im Bild 4-mal kleiner als in Wirklichkeit."
+        },
+        {
+          "label": "C",
+          "text": "Der Käfer ist im Bild gleich groß wie in Wirklichkeit."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Wirkliche Größe berechnen — Vergrößerung",
+    "typ": "eingabe",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "gelb",
+    "buchseite": 116,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Rosenkäfer ist im Maßstab 2 : 1 abgebildet. Im Bild ist er 40 mm lang. Wie groß ist er in Wirklichkeit?",
+    "loesung": "20 mm (= 2 cm)",
+    "loesungsweg": "Maßstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.\nRechnung: 40 mm : 2 = 20 mm.\nDer Rosenkäfer ist in Wirklichkeit 20 mm (also 2 cm) lang.",
+    "tipps": [
+      "Das Bild ist vergrößert — der Käfer ist in Wirklichkeit also kleiner. Durch welche Zahl musst du die Bildgrösse teilen?",
+      "Bei Vergrößerung (z. B. 2 : 1) gilt:\nLänge in Wirklichkeit = Länge im Bild : Vergrößerungszahl\nAlso: ___ mm : 2 = ?",
+      "40 mm im Bild. Maßstab 2 : 1 bedeutet: durch 2 teilen.\n40 : 2 = ___",
+      "Maßstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.\nRechnung: 40 mm : 2 = 20 mm.\nDer Rosenkäfer ist in Wirklichkeit 20 mm (also 2 cm) lang."
+    ],
+    "didaktischerHinweis": "Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ein Rosenkäfer ist im Maßstab 2 : 1 abgebildet. Im Bild ist er 40 mm lang. Wie groß ist er in Wirklichkeit?",
+          "antwort": "20 mm (= 2 cm)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wirkliche Größe berechnen — starke Vergrößerung",
+    "typ": "eingabe",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "grün",
+    "buchseite": 116,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit?",
+    "loesung": "3",
+    "loesungsweg": "Maßstab 20 : 1 bedeutet: 20 mm im Bild = 1 mm in Wirklichkeit.\nRechnung: 60 mm : 20 = 3 mm.\nDie Kopflaus ist in Wirklichkeit nur 3 mm lang.",
+    "tipps": [
+      "Die Laus wurde 20-mal vergrößert. Stell dir vor, du machst sie im Kopf wieder 20-mal kleiner. Welche Rechnung brauchst du dafür?",
+      "Länge in Wirklichkeit = Länge im Bild : Vergrößerungszahl\nSetze ein: 60 mm : 20 = ?",
+      "60 : 20 — das ist wie 6 : 2 = ___. Stimmt das?",
+      "Maßstab 20 : 1 bedeutet: 20 mm im Bild = 1 mm in Wirklichkeit.\nRechnung: 60 mm : 20 = 3 mm.\nDie Kopflaus ist in Wirklichkeit nur 3 mm lang."
+    ],
+    "didaktischerHinweis": "Vertiefung mit größerem Maßstab. Entspricht S. 116, Kopflaus-Beispiel mit Maßstab 20 : 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit?",
+          "antwort": "3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wirkliche Größe berechnen — Verkleinerung",
+    "typ": "eingabe",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "grün",
+    "buchseite": 117,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Blauwal wurde im Maßstab 1 : 500 gezeichnet. Im Bild ist er 6 cm lang. Wie lang ist der Blauwal in Wirklichkeit? Gib das Ergebnis in Metern an.",
+    "loesung": "30",
+    "loesungsweg": "Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.\nRechnung: 6 cm · 500 = 3.000 cm = 30 m.\nDer Blauwal ist in Wirklichkeit 30 m lang.",
+    "tipps": [
+      "Bei einer Verkleinerung (1 : 500) ist das Original viel größer als das Bild. Musst du die Bildlänge mit der Zahl multiplizieren oder durch sie teilen?",
+      "Bei Verkleinerung (z. B. 1 : 500) gilt:\nLänge in Wirklichkeit = Länge im Bild · Verkleinerungszahl\nAlso: 6 cm · 500 = ___",
+      "6 · 500 = 6 · 5 · 100 = 30 · 100 = 3.000 cm. Wie viele Meter sind 3.000 cm? (100 cm = 1 m)",
+      "Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.\nRechnung: 6 cm · 500 = 3.000 cm = 30 m.\nDer Blauwal ist in Wirklichkeit 30 m lang."
+    ],
+    "didaktischerHinweis": "Wechsel zum Verkleinerungsmassstab. Wichtig ist die Umrechnung cm → m. Entspricht S. 117, Blauwal-Beispiel.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ein Blauwal wurde im Maßstab 1 : 500 gezeichnet. Im Bild ist er 6 cm lang. Wie lang ist der Blauwal in Wirklichkeit? Gib das Ergebnis in Metern an.",
+          "antwort": "30"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Maßstab zuordnen — Vergrößerung oder Verkleinerung?",
+    "typ": "zuordnung",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "gelb",
+    "buchseite": 117,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?\n\na) 3 : 1\nb) 1 : 1.000\nc) 1 : 1\nd) 10 : 1\ne) 1 : 50.000",
+    "loesung": "a) 3 : 1 → Vergrößerung\nb) 1 : 1.000 → Verkleinerung\nc) 1 : 1 → Originalgrösse\nd) 10 : 1 → Vergrößerung\ne) 1 : 50.000 → Verkleinerung",
+    "loesungsweg": "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse",
+    "tipps": [
+      "Die linke Zahl steht immer für das Bild, die rechte für die Wirklichkeit. Vergleiche die beiden Zahlen: Welche ist größer?",
+      "Merk dir: Links steht das Bild, rechts die Wirklichkeit.\n- Links größer → Vergrößerung (z. B. 3 : 1)\n- Rechts größer → Verkleinerung (z. B. 1 : 1.000)",
+      "Nimm z. B. 3 : 1. Links = 3, rechts = 1. 3 ist größer als 1 → das Bild ist größer → ___",
+      "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse"
+    ],
+    "didaktischerHinweis": "Zuordnungsaufgabe sichert das Grundverständnis von Vergrößerung vs. Verkleinerung. Entspricht S. 117, Merkkasten.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?",
+      "items": [
+        {
+          "label": "a",
+          "text": "3 : 1"
+        },
+        {
+          "label": "b",
+          "text": "1 : 1.000"
+        },
+        {
+          "label": "c",
+          "text": "1 : 1"
+        },
+        {
+          "label": "d",
+          "text": "10 : 1"
+        },
+        {
+          "label": "e",
+          "text": "1 : 50.000"
+        }
+      ],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Streckenlängen bei verschiedenen Verkleinerungen berechnen",
+    "typ": "eingabe",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "grün",
+    "buchseite": 117,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Schulgebäude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung wäre.\n\na) Maßstab 1 : 200\nb) Maßstab 1 : 500\nc) Maßstab 1 : 1.000",
+    "loesung": "a) 20\nb) 8\nc) 4",
+    "loesungsweg": "Zuerst in cm umrechnen: 40 m = 4.000 cm.\n- a) 4.000 cm : 200 = 20 cm\n- b) 4.000 cm : 500 = 8 cm\n- c) 4.000 cm : 1.000 = 4 cm\n\nJe größer die Verkleinerungszahl, desto kleiner die Zeichnung.",
+    "tipps": [
+      "Bei Verkleinerung teilst du die echte Länge durch die Maßstabszahl. Aber Achtung: Du musst zuerst alles in die gleiche Einheit bringen!",
+      "1. Rechne 40 m in cm um: 40 · 100 = 4.000 cm\n2. Teile durch die Maßstabszahl:\n   a) 4.000 : 200 = ?",
+      "a) 4.000 : 200 — das ist wie 40 : 2 = 20 cm. Jetzt mach b): 4.000 : 500 = ?",
+      "Zuerst in cm umrechnen: 40 m = 4.000 cm.\n- a) 4.000 cm : 200 = 20 cm\n- b) 4.000 cm : 500 = 8 cm\n- c) 4.000 cm : 1.000 = 4 cm\n\nJe größer die Verkleinerungszahl, desto kleiner die Zeichnung."
+    ],
+    "didaktischerHinweis": "Umkehrrechnung: von Wirklichkeit zum Bild. Benötigt Einheitenumrechnung m → cm. Entspricht S. 117, Aufg. 3-5.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Schulgebäude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung wäre.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Maßstab 1 : 200",
+          "antwort": "20"
+        },
+        {
+          "label": "b",
+          "frage": "Maßstab 1 : 500",
+          "antwort": "8"
+        },
+        {
+          "label": "c",
+          "frage": "Maßstab 1 : 1.000",
+          "antwort": "4"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Bildlänge oder echte Länge? — Maßstab-Profi",
+    "typ": "eingabe",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "orange",
+    "buchseite": 117,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne die fehlende Größe.\n\na) Maßstab 5 : 1, Länge im Bild: 30 mm → Länge in Wirklichkeit: ___\nb) Maßstab 1 : 2.000, Länge in Wirklichkeit: 80 m → Länge im Bild: ___\nc) Maßstab 1 : 100, Länge im Bild: 15 cm → Länge in Wirklichkeit: ___",
+    "loesung": "a) 6\nb) 4\nc) 15",
+    "loesungsweg": "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m",
+    "tipps": [
+      "Prüfe zuerst: Ist es eine Vergrößerung (linke Zahl größer) oder eine Verkleinerung (rechte Zahl größer)? Davon hängt ab, ob du multiplizierst oder teilst.",
+      "- Vergrößerung (z. B. 5 : 1): Bild → Wirklichkeit = teilen\n- Verkleinerung (z. B. 1 : 100): Bild → Wirklichkeit = multiplizieren\n- Verkleinerung: Wirklichkeit → Bild = teilen",
+      "a) 30 : 5 = ___\nb) 80 m = 8.000 cm, dann 8.000 : 2.000 = ___\nc) 15 · 100 = 1.500 cm = ___ m",
+      "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m"
+    ],
+    "didaktischerHinweis": "Gemischte Aufgaben mit beiden Richtungen (Bild→Wirklichkeit und Wirklichkeit→Bild). Entspricht S. 116-117 zusammenfassend.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Berechne die fehlende Größe.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Maßstab 5 : 1, Länge im Bild: 30 mm → Länge in Wirklichkeit: ___",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Maßstab 1 : 2.000, Länge in Wirklichkeit: 80 m → Länge im Bild: ___",
+          "antwort": "4"
+        },
+        {
+          "label": "c",
+          "frage": "Maßstab 1 : 100, Länge im Bild: 15 cm → Länge in Wirklichkeit: ___",
+          "antwort": "15"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Welcher Maßstab passt? — Vergrößerungen vergleichen",
+    "typ": "auswahl",
+    "thema": "Vergrößern und verkleinern",
+    "schwierigkeit": "orange",
+    "buchseite": 116,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "maßstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Käfer ist in Wirklichkeit 15 mm lang. Im Bild ist er 45 mm lang. Welcher Maßstab wurde verwendet?\n\na) 1 : 3\nb) 3 : 1\nc) 15 : 1\nd) 1 : 15",
+    "loesung": "b) 3 : 1",
+    "loesungsweg": "Das Bild ist größer als die Wirklichkeit → Vergrößerung.\n45 mm : 15 mm = 3. Das Bild ist 3-mal so groß → Maßstab 3 : 1.",
+    "tipps": [
+      "Das Bild (45 mm) ist größer als der echte Käfer (15 mm). Also ist es eine Vergrößerung — wo steht die größere Zahl dann?",
+      "Berechne: Bildlänge : echte Länge = 45 : 15 = ___. Das ist der Vergrößerungsfaktor.",
+      "45 : 15 = 3. Das Bild ist 3-mal so groß. Also Maßstab ___ : 1.",
+      "Das Bild ist größer als die Wirklichkeit → Vergrößerung.\n45 mm : 15 mm = 3. Das Bild ist 3-mal so groß → Maßstab 3 : 1."
+    ],
+    "didaktischerHinweis": "Umkehrdenkaufgabe: vom Ergebnis den Maßstab ableiten. Entspricht S. 116, Aufg. 2b.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Käfer ist in Wirklichkeit 15 mm lang. Im Bild ist er 45 mm lang. Welcher Maßstab wurde verwendet?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 1"
+        },
+        {
+          "label": "C",
+          "text": "15 : 1"
+        },
+        {
+          "label": "D",
+          "text": "1 : 15"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Himmelsrichtungen benennen",
+    "typ": "eingabe",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "gelb",
+    "buchseite": 118,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "voll",
+    "aufgabenstellung": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.\n\na) N = ___\nb) O = ___\nc) S = ___\nd) W = ___",
+    "loesung": "a) N = Norden\nb) O = Osten\nc) S = Süden\nd) W = Westen",
+    "loesungsweg": "Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Süden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen\" — im Uhrzeigersinn gelesen.",
+    "tipps": [
+      "Kennst du den Merksatz „Nie Ohne Seife Waschen\"? Die Anfangsbuchstaben verraten dir die Himmelsrichtungen im Uhrzeigersinn.",
+      "Stell dir eine Windrose vor: Oben ist Norden, rechts ist Osten, unten ist Süden, links ist Westen.",
+      "N = Norden. Jetzt dreh dich im Uhrzeigersinn: O = ___, S = ___, W = ___",
+      "Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Süden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen\" — im Uhrzeigersinn gelesen."
+    ],
+    "didaktischerHinweis": "Grundwissen Himmelsrichtungen als Voraussetzung für Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "N = ___",
+          "antwort": "N = Norden"
+        },
+        {
+          "label": "b",
+          "frage": "O = ___",
+          "antwort": "O = Osten"
+        },
+        {
+          "label": "c",
+          "frage": "S = ___",
+          "antwort": "S = Süden"
+        },
+        {
+          "label": "d",
+          "frage": "W = ___",
+          "antwort": "W = Westen"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Luftaufnahme und Grundriss vergleichen",
+    "typ": "zuordnung",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "gelb",
+    "buchseite": 118,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "teilweise",
+    "aufgabenstellung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.\n\na) Burggraben\nb) Wehrgang\nc) Burgkapelle\nd) Burghof\n\n1) Gang auf der Mauer, von dem man die Umgebung beobachten kann\n2) Wassergraben rund um die Burg zum Schutz\n3) Kleine Kirche innerhalb der Burgmauern\n4) Freier Platz im Inneren der Burg",
+    "loesung": "a) Burggraben → 2) Wassergraben rund um die Burg zum Schutz\nb) Wehrgang → 1) Gang auf der Mauer, von dem man die Umgebung beobachten kann\nc) Burgkapelle → 3) Kleine Kirche innerhalb der Burgmauern\nd) Burghof → 4) Freier Platz im Inneren der Burg",
+    "loesungsweg": "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg",
+    "tipps": [
+      "Viele Burgbegriffe sind zusammengesetzte Wörter. Zerlege sie: „Burg\" + „Graben\" — was könnte ein Graben bei einer Burg sein?",
+      "Überlege bei jedem Wort: Was bedeutet der zweite Teil?\n- Graben → Loch/Kanal mit Wasser\n- Gang → ein Weg zum Gehen\n- Kapelle → kleine Kirche\n- Hof → freier Platz",
+      "Der Burggraben ist ein Graben rund um die Burg → Antwort ___. Der Wehrgang ist ein Gang zum Wehren → Antwort ___.",
+      "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg"
+    ],
+    "didaktischerHinweis": "Sachkundliches Verständnis als Grundlage für Grundrisslesen. Entspricht S. 118-119, Burg Wildenstein.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Burggraben"
+        },
+        {
+          "label": "b",
+          "text": "Wehrgang"
+        },
+        {
+          "label": "c",
+          "text": "Burgkapelle"
+        },
+        {
+          "label": "d",
+          "text": "Burghof"
+        },
+        {
+          "label": "1",
+          "text": "Gang auf der Mauer, von dem man die Umgebung beobachten kann"
+        },
+        {
+          "label": "2",
+          "text": "Wassergraben rund um die Burg zum Schutz"
+        },
+        {
+          "label": "3",
+          "text": "Kleine Kirche innerhalb der Burgmauern"
+        },
+        {
+          "label": "4",
+          "text": "Freier Platz im Inneren der Burg"
+        }
+      ],
+      "choices": [],
+      "antworten": {
+        "a": "2",
+        "b": "1",
+        "c": "3",
+        "d": "4"
+      }
+    }
+  },
+  {
+    "titel": "Foto oder Grundriss? — Darstellungsarten unterscheiden",
+    "typ": "auswahl",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "grün",
+    "buchseite": 119,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "voll",
+    "aufgabenstellung": "Was ist der Unterschied zwischen einer Luftaufnahme und einem Grundriss?\n\na) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.\nb) Eine Luftaufnahme zeigt ein Gebäude von der Seite, ein Grundriss von oben.\nc) Beide zeigen genau das Gleiche.",
+    "loesung": "a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.",
+    "loesungsweg": "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)",
+    "tipps": [
+      "Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...",
+      "Luftaufnahme = Foto von oben (mit allen Details)\nGrundriss = Zeichnung von oben (nur Umrisse und Räume)",
+      "Beide zeigen etwas von oben. Aber eines ist ein Foto und eines ist eine vereinfachte ___",
+      "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
+    ],
+    "didaktischerHinweis": "Unterscheidung Foto/Plan als Grundlage für Kartenverständnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Was ist der Unterschied zwischen einer Luftaufnahme und einem Grundriss?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben."
+        },
+        {
+          "label": "B",
+          "text": "Eine Luftaufnahme zeigt ein Gebäude von der Seite, ein Grundriss von oben."
+        },
+        {
+          "label": "C",
+          "text": "Beide zeigen genau das Gleiche."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Standort bestimmen — Von wo wurde fotografiert?",
+    "typ": "auswahl",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "grün",
+    "buchseite": 119,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "teilweise",
+    "aufgabenstellung": "Stell dir vor, du stehst vor einem Haus und fotografierst es. Du siehst die Haustür und zwei Fenster. Dein Freund fotografiert das gleiche Haus von der Rückseite. Er sieht eine Terrassentür und ein Fenster.\n\nWelche Aussage stimmt?\n\na) Beide Fotos sehen gleich aus, weil es das gleiche Haus ist.\nb) Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht.\nc) Nur das Foto von vorne ist richtig.",
+    "loesung": "b) Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht.",
+    "loesungsweg": "Ein Gebäude sieht von jeder Seite anders aus. Die Vorderseite hat oft die Haustür, die Rückseite hat vielleicht eine Terrassentür. Von der Seite sieht man wieder etwas anderes. Deshalb sind Ansichten aus verschiedenen Richtungen verschieden.",
+    "tipps": [
+      "Denk an dein eigenes Haus oder deine Schule. Sieht das Gebäude von vorne genauso aus wie von hinten?",
+      "Jede Seite eines Gebäudes heißt „Ansicht\": Vorderansicht, Rückansicht, Seitenansicht. Jede zeigt andere Details.",
+      "Vorne: Haustür + 2 Fenster. Hinten: Terrassentür + 1 Fenster. Sind diese Bilder gleich oder ___?",
+      "Ein Gebäude sieht von jeder Seite anders aus. Die Vorderseite hat oft die Haustür, die Rückseite hat vielleicht eine Terrassentür. Von der Seite sieht man wieder etwas anderes. Deshalb sind Ansichten aus verschiedenen Richtungen verschieden."
+    ],
+    "didaktischerHinweis": "Perspektivwechsel als räumliches Denken. Entspricht S. 119, Aufg. 3 (Burg aus vier Richtungen).",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Stell dir vor, du stehst vor einem Haus und fotografierst es. Du siehst die Haustür und zwei Fenster. Dein Freund fotografiert das gleiche Haus von der Rückseite. Er sieht eine Terrassentür und ein Fenster.\n\nWelche Aussage stimmt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Beide Fotos sehen gleich aus, weil es das gleiche Haus ist."
+        },
+        {
+          "label": "B",
+          "text": "Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht."
+        },
+        {
+          "label": "C",
+          "text": "Nur das Foto von vorne ist richtig."
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Himmelsrichtung auf dem Grundriss — Wo liegt was?",
+    "typ": "eingabe",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "grün",
+    "buchseite": 118,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "teilweise",
+    "aufgabenstellung": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.\n\na) Wenn du auf dem Grundriss nach rechts schaust, in welche Himmelsrichtung blickst du?\nb) Wenn du auf dem Grundriss nach unten schaust, in welche Himmelsrichtung blickst du?\nc) Ein Turm steht auf dem Grundriss links. In welcher Himmelsrichtung steht er?",
+    "loesung": "a) Osten\nb) Süden\nc) Westen",
+    "loesungsweg": "Auf Karten und Grundrissen gilt (wenn Norden oben ist):\n- Oben = Norden\n- Rechts = Osten\n- Unten = Süden\n- Links = Westen",
+    "tipps": [
+      "Stell dir die Windrose vor wie ein Kompass: Norden ist immer oben auf der Karte. Dreh dich im Uhrzeigersinn: Was kommt nach Norden?",
+      "Auf der Karte: oben = N, rechts = O, unten = S, links = W.\nMerksatz: „Nie Ohne Seife Waschen\" (im Uhrzeigersinn).",
+      "Rechts auf der Karte = O = ___. Unten = S = ___. Links = W = ___.",
+      "Auf Karten und Grundrissen gilt (wenn Norden oben ist):\n- Oben = Norden\n- Rechts = Osten\n- Unten = Süden\n- Links = Westen"
+    ],
+    "didaktischerHinweis": "Verknüpfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wenn du auf dem Grundriss nach rechts schaust, in welche Himmelsrichtung blickst du?",
+          "antwort": "Osten"
+        },
+        {
+          "label": "b",
+          "frage": "Wenn du auf dem Grundriss nach unten schaust, in welche Himmelsrichtung blickst du?",
+          "antwort": "Süden"
+        },
+        {
+          "label": "c",
+          "frage": "Ein Turm steht auf dem Grundriss links. In welcher Himmelsrichtung steht er?",
+          "antwort": "Westen"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Perspektive wechseln — Ansicht beschreiben",
+    "typ": "auswahl",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "orange",
+    "buchseite": 119,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "teilweise",
+    "aufgabenstellung": "Du stehst nördlich von einem Haus und schaust nach Süden. Du siehst die Nordseite des Hauses. Jetzt gehst du um das Haus herum und stellst dich auf die Südseite.\n\nWelche Seite des Hauses siehst du jetzt?\n\na) Die Nordseite\nb) Die Südseite\nc) Die Westseite\nd) Die Ostseite",
+    "loesung": "b) Die Südseite",
+    "loesungsweg": "Wenn du auf der Südseite stehst und zum Haus schaust, blickst du nach Norden — aber du siehst die Seite des Hauses, die nach Süden zeigt. Die Seite, die du siehst, wird immer nach der Himmelsrichtung benannt, in die sie zeigt.",
+    "tipps": [
+      "Stell dir vor, du stehst unten auf dem Grundriss und schaust nach oben (Norden). Welche Seite des Hauses schaust du an?",
+      "Die Seite des Hauses wird nach der Richtung benannt, in die sie zeigt — nicht nach der Richtung, aus der du schaust.",
+      "Du stehst im Süden. Die Hausseite, die zu dir zeigt, zeigt nach ___. Also siehst du die ___-seite.",
+      "Wenn du auf der Südseite stehst und zum Haus schaust, blickst du nach Norden — aber du siehst die Seite des Hauses, die nach Süden zeigt. Die Seite, die du siehst, wird immer nach der Himmelsrichtung benannt, in die sie zeigt."
+    ],
+    "didaktischerHinweis": "Anspruchsvolle räumliche Orientierung. Entspricht S. 119, Aufg. 3 (Ansichten zuordnen).",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du stehst nördlich von einem Haus und schaust nach Süden. Du siehst die Nordseite des Hauses. Jetzt gehst du um das Haus herum und stellst dich auf die Südseite.\n\nWelche Seite des Hauses siehst du jetzt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Die Nordseite"
+        },
+        {
+          "label": "B",
+          "text": "Die Südseite"
+        },
+        {
+          "label": "C",
+          "text": "Die Westseite"
+        },
+        {
+          "label": "D",
+          "text": "Die Ostseite"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Grundriss lesen — Räume zuordnen",
+    "typ": "zuordnung",
+    "thema": "Ansichten und Grundriss",
+    "schwierigkeit": "orange",
+    "buchseite": 119,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "ansichten-grundriss",
+    "digital": "teilweise",
+    "aufgabenstellung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.\n\na) Großes Rechteck mit kleinem Quadrat darin → ___\nb) Kleines Rechteck mit Kreis (Waschbecken) → ___\nc) Rechteck mit Viertelkreis an der Ecke → ___\nd) Offener Bereich am Eingang → ___\n\n1) Badezimmer\n2) Küche\n3) Tür (Viertelkreis = Schwungbereich)\n4) Flur",
+    "loesung": "a) → 2) Küche (Herd/Spüle als kleines Quadrat)\nb) → 1) Badezimmer (Waschbecken-Symbol)\nc) → 3) Tür (Schwungbereich)\nd) → 4) Flur",
+    "loesungsweg": "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle",
+    "tipps": [
+      "Wenn du in deiner Wohnung die Badezimmertür öffnest, macht sie einen Viertelkreis. So sieht das im Grundriss aus!",
+      "Suche nach typischen Hinweisen: Ein Raum mit Waschbecken-Symbol ist wahrscheinlich das Bad. Ein Viertelkreis an einer Wand zeigt eine Tür.",
+      "Der Kreis/das Oval steht für ein Waschbecken → welcher Raum hat ein Waschbecken? Das ist das ___",
+      "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle"
+    ],
+    "didaktischerHinweis": "Grundriss-Symbole lesen als lebenspraktische Kompetenz. Erweiterung zu S. 118-119.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Großes Rechteck mit kleinem Quadrat darin → ___"
+        },
+        {
+          "label": "b",
+          "text": "Kleines Rechteck mit Kreis (Waschbecken) → ___"
+        },
+        {
+          "label": "c",
+          "text": "Rechteck mit Viertelkreis an der Ecke → ___"
+        },
+        {
+          "label": "d",
+          "text": "Offener Bereich am Eingang → ___"
+        },
+        {
+          "label": "1",
+          "text": "Badezimmer"
+        },
+        {
+          "label": "2",
+          "text": "Küche"
+        },
+        {
+          "label": "3",
+          "text": "Tür (Viertelkreis = Schwungbereich)"
+        },
+        {
+          "label": "4",
+          "text": "Flur"
+        }
+      ],
+      "choices": [],
+      "antworten": {
+        "a": "2",
+        "b": "1",
+        "c": "3",
+        "d": "4"
+      }
+    }
+  },
+  {
+    "titel": "Maßstab auf der Karte — Strecken berechnen",
+    "typ": "eingabe",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "gelb",
+    "buchseite": 120,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.\n\na) Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m\nb) Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m",
+    "loesung": "a) 1.000 m (= 1 km)\nb) 2.500 m (= 2,5 km)",
+    "loesungsweg": "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m",
+    "tipps": [
+      "1 cm auf der Karte = 25.000 cm in echt. Wie viele Meter sind 25.000 cm? (Teile durch 100.)",
+      "Rechne schrittweise:\n1. Kartenlänge · Maßstabszahl = echte Länge in cm\n2. Teile durch 100 → Meter\n3. Teile durch 1.000 → Kilometer",
+      "a) 4 · 25.000 = 100.000 cm. Wie viele Meter? 100.000 : 100 = ___ m",
+      "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m"
+    ],
+    "didaktischerHinweis": "Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenstein).",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m",
+          "antwort": "1.000 m (= 1 km)"
+        },
+        {
+          "label": "b",
+          "frage": "Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m",
+          "antwort": "2.500 m (= 2,5 km)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wanderung planen — Strecke und Dauer berechnen",
+    "typ": "schritt",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "grün",
+    "buchseite": 120,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.\n\na) Wie lang ist die Wanderstrecke in Wirklichkeit?\nb) Wie lange dauert die Wanderung ungefähr?",
+    "loesung": "a) 4 km (= 4.000 m)\nb) 80 Minuten (= 1 Stunde 20 Minuten)",
+    "loesungsweg": "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km\nb) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min",
+    "tipps": [
+      "Rechne zuerst die Strecke aus (cm → m → km). Dann überleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?",
+      "Schritt 1: 16 · 25.000 = 400.000 cm\nSchritt 2: 400.000 : 100 = 4.000 m = 4 km\nSchritt 3: 4 · 20 Min = ___ Min",
+      "Die Strecke ist 4 km. Für 1 km braucht man 20 Minuten, also für 4 km: 4 · 20 = ___ Minuten. Wie viele Stunden und Minuten sind das?",
+      "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km\nb) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min"
+    ],
+    "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Maßstab und Zeitberechnung. Entspricht S. 120, Aufg. 3.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.",
+      "teilaufgaben": [
+        {
+          "label": "a",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Wie lang ist die Wanderstrecke in Wirklichkeit?",
+              "antwort": "4 km (= 4.000 m)"
+            }
+          ]
+        },
+        {
+          "label": "b",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Wie lange dauert die Wanderung ungefähr?",
+              "antwort": "80 Minuten (= 1 Stunde 20 Minuten)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Streckenlänge bei verschiedenen Maßstaben vergleichen",
+    "typ": "eingabe",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "grün",
+    "buchseite": 120,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne die Streckenlängen in Wirklichkeit. Gib in km an.\n\na) Maßstab 1 : 25.000, Länge auf der Karte: 20 cm\nb) Maßstab 1 : 50.000, Länge auf der Karte: 20 cm\nc) Maßstab 1 : 100.000, Länge auf der Karte: 20 cm",
+    "loesung": "a) 5\nb) 10\nc) 20",
+    "loesungsweg": "- a) 20 cm · 25.000 = 500.000 cm = 5.000 m = 5 km\n- b) 20 cm · 50.000 = 1.000.000 cm = 10.000 m = 10 km\n- c) 20 cm · 100.000 = 2.000.000 cm = 20.000 m = 20 km\n\nJe größer die Maßstabszahl, desto größer die echte Strecke bei gleicher Kartenlänge.",
+    "tipps": [
+      "Die gleiche Länge auf der Karte (20 cm) steht für unterschiedlich lange Strecken — je nach Maßstab. Bei welchem Maßstab ist die echte Strecke am längsten?",
+      "Immer die gleiche Formel: Kartenlänge · Maßstabszahl = echte Länge in cm.\nDann: : 100 = Meter, : 1.000 = Kilometer.",
+      "a) 20 · 25.000 = 500.000 cm = 5.000 m = 5 km\nb) 20 · 50.000 = 1.000.000 cm = ___ m = ___ km",
+      "- a) 20 cm · 25.000 = 500.000 cm = 5.000 m = 5 km\n- b) 20 cm · 50.000 = 1.000.000 cm = 10.000 m = 10 km\n- c) 20 cm · 100.000 = 2.000.000 cm = 20.000 m = 20 km\n\nJe größer die Maßstabszahl, desto größer die echte Strecke bei gleicher Kartenlänge."
+    ],
+    "didaktischerHinweis": "Vergleich verschiedener Masstäbe festigt das Verständnis. Entspricht S. 120, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Berechne die Streckenlängen in Wirklichkeit. Gib in km an.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Maßstab 1 : 25.000, Länge auf der Karte: 20 cm",
+          "antwort": "5"
+        },
+        {
+          "label": "b",
+          "frage": "Maßstab 1 : 50.000, Länge auf der Karte: 20 cm",
+          "antwort": "10"
+        },
+        {
+          "label": "c",
+          "frage": "Maßstab 1 : 100.000, Länge auf der Karte: 20 cm",
+          "antwort": "20"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Welcher Maßstab passt? — Karte zuordnen",
+    "typ": "auswahl",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "grün",
+    "buchseite": 120,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Auf einer Karte sind 5 cm eingezeichnet, die in Wirklichkeit 10 km entsprechen. Welcher Maßstab hat die Karte?\n\na) 1 : 50.000\nb) 1 : 200.000\nc) 1 : 2.000\nd) 1 : 500.000",
+    "loesung": "b) 1 : 200.000",
+    "loesungsweg": "10 km = 10.000 m = 1.000.000 cm.\nMaßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.\nVereinfacht: 1 : 200.000.",
+    "tipps": [
+      "Rechne zuerst 10 km in cm um: 10 km = ___ m = ___ cm. Dann teile durch die Kartenlänge (5 cm).",
+      "10 km = 10 · 1.000 m = 10.000 m = 10.000 · 100 cm = 1.000.000 cm.\nMaßstab = 5 : 1.000.000 = 1 : ___",
+      "1.000.000 : 5 = 200.000. Also Maßstab 1 : ___",
+      "10 km = 10.000 m = 1.000.000 cm.\nMaßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.\nVereinfacht: 1 : 200.000."
+    ],
+    "didaktischerHinweis": "Maßstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Auf einer Karte sind 5 cm eingezeichnet, die in Wirklichkeit 10 km entsprechen. Welcher Maßstab hat die Karte?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1 : 50.000"
+        },
+        {
+          "label": "B",
+          "text": "1 : 200.000"
+        },
+        {
+          "label": "C",
+          "text": "1 : 2.000"
+        },
+        {
+          "label": "D",
+          "text": "1 : 500.000"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Planquadrate lesen — Orte auf dem Stadtplan finden",
+    "typ": "eingabe",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "gelb",
+    "buchseite": 121,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "teilweise",
+    "aufgabenstellung": "Auf einem Stadtplan sind die Spalten mit Zahlen (1-9) und die Zeilen mit Buchstaben (G, H) beschriftet. In welchem Planquadrat liegt ein Ort, wenn er in Spalte 5 und Zeile G ist?",
+    "loesung": "G5",
+    "loesungsweg": "Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte.",
+    "tipps": [
+      "Stell dir ein Schachbrett vor: Erst der Buchstabe (Zeile), dann die Zahl (Spalte). Wie heißt das Feld?",
+      "Planquadrat = Zeilenbuchstabe + Spaltenzahl. Zeile G + Spalte 5 = ___",
+      "Buchstabe der Zeile: G. Nummer der Spalte: 5. Das Planquadrat heißt ___",
+      "Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte."
+    ],
+    "didaktischerHinweis": "Planquadrate als Koordinatensystem-Einführung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Auf einem Stadtplan sind die Spalten mit Zahlen (1-9) und die Zeilen mit Buchstaben (G, H) beschriftet. In welchem Planquadrat liegt ein Ort, wenn er in Spalte 5 und Zeile G ist?",
+          "antwort": "G5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Entfernungen auf dem Stadtplan berechnen",
+    "typ": "eingabe",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "orange",
+    "buchseite": 121,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Auf einem Stadtplan (Maßstab 1 : 10.000) misst du folgende Strecken in Luftlinie.\n\na) Vom Bahnhof zum Schloss: 3 cm auf der Karte → ___ m in Wirklichkeit\nb) Vom Freibad zur Stadthalle: 5 cm auf der Karte → ___ m in Wirklichkeit\nc) Von der Schule zum Park: 2,5 cm auf der Karte → ___ m in Wirklichkeit",
+    "loesung": "a) 300\nb) 500\nc) 250",
+    "loesungsweg": "Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.\n- a) 3 cm · 100 m = 300 m\n- b) 5 cm · 100 m = 500 m\n- c) 2,5 cm · 100 m = 250 m",
+    "tipps": [
+      "Bei Maßstab 1 : 10.000 entspricht 1 cm auf der Karte genau 100 m in Wirklichkeit. Wie weit sind dann 3 cm?",
+      "Merke dir den Trick: Bei 1 : 10.000 ist 1 cm = 100 m.\nAlso einfach die cm-Zahl mit 100 multiplizieren, und du hast die Meter.",
+      "a) 3 · 100 = ___ m\nb) 5 · 100 = ___ m\nc) 2,5 · 100 = ___ m",
+      "Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.\n- a) 3 cm · 100 m = 300 m\n- b) 5 cm · 100 m = 500 m\n- c) 2,5 cm · 100 m = 250 m"
+    ],
+    "didaktischerHinweis": "Stadtplan-Maßstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen Sigmaringen).",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Auf einem Stadtplan (Maßstab 1 : 10.000) misst du folgende Strecken in Luftlinie.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Vom Bahnhof zum Schloss: 3 cm auf der Karte → ___ m in Wirklichkeit",
+          "antwort": "300"
+        },
+        {
+          "label": "b",
+          "frage": "Vom Freibad zur Stadthalle: 5 cm auf der Karte → ___ m in Wirklichkeit",
+          "antwort": "500"
+        },
+        {
+          "label": "c",
+          "frage": "Von der Schule zum Park: 2,5 cm auf der Karte → ___ m in Wirklichkeit",
+          "antwort": "250"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Was ist in 1 km Luftlinie? — Entfernungen abschätzen",
+    "typ": "auswahl",
+    "thema": "Orientierung auf Karten und Plänen",
+    "schwierigkeit": "orange",
+    "buchseite": 121,
+    "kapitel": "12-maßstab-orientierung",
+    "stageId": "karten-orientierung",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Stadtplan hat den Maßstab 1 : 10.000. Wie viele Zentimeter auf der Karte entsprechen 1 km in Wirklichkeit?\n\na) 1 cm\nb) 10 cm\nc) 100 cm\nd) 0,1 cm",
+    "loesung": "b) 10 cm",
+    "loesungsweg": "1 km = 1.000 m = 100.000 cm.\nKartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm.",
+    "tipps": [
+      "Rechne 1 km in cm um. Dann teile durch die Maßstabszahl (10.000).",
+      "1 km = 100.000 cm.\n100.000 : 10.000 = ___",
+      "100.000 : 10.000 = 10. Also sind 1 km in Wirklichkeit ___ cm auf der Karte.",
+      "1 km = 1.000 m = 100.000 cm.\nKartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm."
+    ],
+    "didaktischerHinweis": "Umkehrrechnung Wirklichkeit → Karte. Entspricht S. 121, Aufg. 11.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Stadtplan hat den Maßstab 1 : 10.000. Wie viele Zentimeter auf der Karte entsprechen 1 km in Wirklichkeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1 cm"
+        },
+        {
+          "label": "B",
+          "text": "10 cm"
+        },
+        {
+          "label": "C",
+          "text": "100 cm"
+        },
+        {
+          "label": "D",
+          "text": "0,1 cm"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  }
+]

@@ -13,9 +13,10 @@ typ: eingabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: gelb
 buchseite: 64
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -26,9 +27,9 @@ b) 3,05 t
 c) 3,5 t
 
 ### Lösung
-a) 3.005 kg
-b) 3.050 kg
-c) 3.500 kg
+a) 3.005
+b) 3.050
+c) 3.500
 
 ### Lösungsweg
 Das Komma bei Tonnen trennt Tonnen und Kilogramm. Die Stellen nach dem Komma geben die Kilogramm an — aber Achtung: Es müssen immer drei Stellen sein!
@@ -45,13 +46,13 @@ Zeichne eine Stellenwerttafel:
 | t | kg (H) | kg (Z) | kg (E) |
 |---|--------|--------|--------|
 
-Trage die Ziffern ein. Leere Felder werden mit 0 aufgefuellt.
+Trage die Ziffern ein. Leere Felder werden mit 0 aufgefüllt.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Bei 3,005 t: Links vom Komma stehen 3 t = 3.000 kg. Rechts vom Komma: 005 kg = 5 kg. Was ist 3.000 + 5?
 
 ### Didaktischer Hinweis
-Diese Aufgabe trainiert das Verständnis der Kommaschreibweise bei Tonnen. Die drei Aufgaben zeigen, wie sich die Position der Ziffer nach dem Komma auf den Wert auswirkt (5 kg vs. 50 kg vs. 500 kg). Typische Fehlerquelle: Kinder vergessen die fuehrenden Nullen.
+Diese Aufgabe trainiert das Verständnis der Kommaschreibweise bei Tonnen. Die drei Aufgaben zeigen, wie sich die Position der Ziffer nach dem Komma auf den Wert auswirkt (5 kg vs. 50 kg vs. 500 kg). Typische Fehlerquelle: Kinder vergessen die führenden Nullen.
 
 ---
 
@@ -63,9 +64,10 @@ typ: eingabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: gelb
 buchseite: 64
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -76,9 +78,9 @@ b) 12.060 kg
 c) 2.700 kg
 
 ### Lösung
-a) 8,375 t
-b) 12,06 t
-c) 2,7 t
+a) 8,375
+b) 12,06
+c) 2,7
 
 ### Lösungsweg
 1.000 kg = 1 t. Man teilt die Kilogramm-Zahl gedanklich bei der Tausenderstelle:
@@ -93,10 +95,10 @@ Wie viele volle Tonnen stecken in der Kilogramm-Zahl? 1 Tonne = 1.000 kg. Wie of
 Trenne die Zahl bei der Tausenderstelle. Links stehen die Tonnen, rechts die restlichen Kilogramm. Schreibe ein Komma dazwischen.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Bei 8.375 kg: 8.000 kg = 8 t. Es bleiben 375 kg uebrig. Also: 8 Komma ___ t. Was kommt nach dem Komma?
+Bei 8.375 kg: 8.000 kg = 8 t. Es bleiben 375 kg übrig. Also: 8 Komma ___ t. Was kommt nach dem Komma?
 
 ### Didaktischer Hinweis
-Die Rueckrichtung (kg nach t) ist schwieriger, weil Kinder die Division durch 1.000 als Kommaverschiebung verstehen muessen. Besonders die Variante mit Nullen am Ende (2.700 kg = 2,7 t) zeigt, dass Endnullen nach dem Komma wegfallen koennen.
+Die Rückrichtung (kg nach t) ist schwieriger, weil Kinder die Division durch 1.000 als Kommaverschiebung verstehen müssen. Besonders die Variante mit Nullen am Ende (2.700 kg = 2,7 t) zeigt, dass Endnullen nach dem Komma wegfallen können.
 
 ---
 
@@ -108,9 +110,10 @@ typ: eingabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: grün
 buchseite: 64
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -123,11 +126,11 @@ d) 7 t 50 kg
 e) 4 t 5 kg
 
 ### Lösung
-a) 2.345 kg
-b) 15.975 kg
-c) 1.170 kg
-d) 7.050 kg
-e) 4.005 kg
+a) 2.345
+b) 15.975
+c) 1.170
+d) 7.050
+e) 4.005
 
 ### Lösungsweg
 Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:
@@ -138,7 +141,7 @@ Die Tonnen werden mit 1.000 multipliziert und die Kilogramm dazuaddiert:
 - e) 4 × 1.000 + 5 = 4.005 kg (nur 5 Kilogramm!)
 
 ### Tipp 1 (Denkanstoß)
-Stell dir einen grossen Tausenderwuerfel vor: 1 Tausenderwuerfel = 1 Tonne. Wie viele Tausenderwuerfel hast du? Wie viele einzelne Kilogramm kommen dazu?
+Stell dir einen großen Tausenderwürfel vor: 1 Tausenderwürfel = 1 Tonne. Wie viele Tausenderwürfel hast du? Wie viele einzelne Kilogramm kommen dazu?
 
 ### Tipp 2 (Methode)
 Schreibe zuerst die Tonnen als Kilogramm:
@@ -148,10 +151,10 @@ Schreibe zuerst die Tonnen als Kilogramm:
 Dann addiere die restlichen kg dazu.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Bei d) 7 t 50 kg: 7 t = 7.000 kg. Jetzt kommen 50 kg dazu. Aber 50 hat nur 2 Ziffern — du brauchst 3! Also: 7.0_0 kg. Was kommt in die Luecke?
+Bei d) 7 t 50 kg: 7 t = 7.000 kg. Jetzt kommen 50 kg dazu. Aber 50 hat nur 2 Ziffern — du brauchst 3! Also: 7.0_0 kg. Was kommt in die Lücke?
 
 ### Didaktischer Hinweis
-Die gemischte Schreibweise (t und kg) ist der natuerlichste Zugang. Besonders d) und e) sind Stolpersteine: Kinder schreiben haeufig 7.50 statt 7.050 oder 4.5 statt 4.005. Die fuehrenden Nullen muessen explizit thematisiert werden.
+Die gemischte Schreibweise (t und kg) ist der natürlichste Zugang. Besonders d) und e) sind Stolpersteine: Kinder schreiben häufig 7.50 statt 7.050 oder 4.5 statt 4.005. Die führenden Nullen müssen explizit thematisiert werden.
 
 ---
 
@@ -163,9 +166,10 @@ typ: eingabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: grün
 buchseite: 65
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -198,7 +202,7 @@ Addiere Leergewicht + Ladung. Bei Auto 3 musst du zuerst 1 t in 1.000 kg umwande
 Auto 2: 850 + 275. Rechne in Schritten: 850 + 200 = 1.050. Dann 1.050 + 75 = ? Das ist das Gesamtgewicht.
 
 ### Didaktischer Hinweis
-Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Bruecken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.
+Leergewicht und Gesamtgewicht sind Alltagsbegriffe, die Kinder z.B. von Schildern an Brücken kennen. Die Aufgabe verbindet Gewichtsumrechnung mit Addition. Auto 3 erfordert die Umrechnung t in kg als Zwischenschritt.
 
 ---
 
@@ -210,9 +214,10 @@ typ: eingabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: grün
 buchseite: 65
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -247,36 +252,37 @@ Wandle zuerst alles in Kilogramm um, damit du leichter rechnen kannst.
 LKW 2: Gesamtgewicht = 14.700 kg, Ladung = 6.150 kg. Leergewicht = 14.700 − 6.150. Rechne: 14.700 − 6.000 = 8.700. Dann 8.700 − 150 = ?
 
 ### Didaktischer Hinweis
-Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusaetzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurueckwandeln) ist eine Schluesselmethode.
+Diese Aufgabe kombiniert Umrechnung mit Umkehraufgaben (Subtraktion statt Addition). LKW 3 mit Kommaschreibweise erfordert zusätzlich die Umwandlung von Dezimaltonnen. Das Dreischritt-Muster (umwandeln, rechnen, zurückwandeln) ist eine Schlüsselmethode.
 
 ---
 
 ## Aufgabe 6
 
 ---
-titel: "Brueckenbelastung — Darf der Transporter fahren?"
+titel: "Brückenbelastung — Darf der Transporter fahren?"
 typ: textaufgabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: orange
 buchseite: 65
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
 Ein Autotransporter hat ein Leergewicht von 10,8 t. Er ist mit 3 PKWs beladen, die jeweils 1.450 kg wiegen.
 
-Darf der Transporter ueber eine Bruecke fahren, die hoechstens 16 t tragen darf?
+Darf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?
 
 ### Lösung
-Nein, der Transporter darf nicht ueber die Bruecke fahren.
+Nein, der Transporter darf nicht über die Brücke fahren.
 Gesamtgewicht: 10.800 kg + 4.350 kg = 15.150 kg = 15,15 t. Das ist zwar unter 16 t — **doch Vorsicht:** Die Aufgabe ist so gestellt, dass man genau rechnen muss.
 
-Korrektur: 15,15 t < 16 t. Ja, der Transporter darf ueber die Bruecke fahren.
+Korrektur: 15,15 t < 16 t. Ja, der Transporter darf über die Brücke fahren.
 
 ### Lösung
-Ja, der Transporter darf ueber die Bruecke fahren.
+Ja, der Transporter darf über die Brücke fahren.
 Gesamtgewicht: 15,15 t < 16 t.
 
 ### Lösungsweg
@@ -286,7 +292,7 @@ Gesamtgewicht: 15,15 t < 16 t.
 4. Vergleich: 15,15 t < 16 t → Ja, er darf fahren.
 
 ### Tipp 1 (Denkanstoß)
-Du musst zwei Sachen ausrechnen: Wie schwer ist die gesamte Ladung? Und: Wie schwer ist alles zusammen? Dann vergleichst du mit der Bruecke.
+Du musst zwei Sachen ausrechnen: Wie schwer ist die gesamte Ladung? Und: Wie schwer ist alles zusammen? Dann vergleichst du mit der Brücke.
 
 ### Tipp 2 (Methode)
 Schritt 1: Wandle alles in kg um.
@@ -298,7 +304,7 @@ Schritt 4: Vergleiche mit 16.000 kg (= 16 t).
 Das Leergewicht ist 10.800 kg. Die 3 Autos wiegen zusammen: 1.450 + 1.450 + 1.450. Rechne erst: 1.450 × 3 = 1.400 × 3 + 50 × 3 = 4.200 + 150 = ? Dann addiere zum Leergewicht.
 
 ### Didaktischer Hinweis
-Sachaufgaben mit Vergleich (Gewicht vs. Hoechstlast) sind lebensnah und trainieren die Faehigkeit, ein Ergebnis im Kontext zu interpretieren. Die Multiplikation (3 × 1.450) ist ein natuerlicher Zwischenschritt, der auch halbschriftliches Multiplizieren ueben laesst.
+Sachaufgaben mit Vergleich (Gewicht vs. Höchstlast) sind lebensnah und trainieren die Fähigkeit, ein Ergebnis im Kontext zu interpretieren. Die Multiplikation (3 × 1.450) ist ein natürlicher Zwischenschritt, der auch halbschriftliches Multiplizieren üben lässt.
 
 ---
 
@@ -310,43 +316,44 @@ typ: textaufgabe
 thema: "Tonne und Kilogramm"
 schwierigkeit: orange
 buchseite: 65
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "gewichte-t-kg"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
-Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Bruecke traegt hoechstens 20 t.
+Ein Autotransporter hat ein Leergewicht von 12,5 t. Die Brücke trägt höchstens 20 t.
 
-Wie viele PKWs mit einem Gewicht von je 1.800 kg darf der Transporter hoechstens laden, damit er gerade noch ueber die Bruecke fahren darf?
+Wie viele PKWs mit einem Gewicht von je 1.800 kg darf der Transporter höchstens laden, damit er gerade noch über die Brücke fahren darf?
 
 ### Lösung
-4 PKWs (Restkapazitaet reicht nicht fuer einen fuenften).
+4 PKWs (Restkapazität reicht nicht für einen fünften).
 
 ### Lösungsweg
 1. Maximale Ladung: 20 t − 12,5 t = 7,5 t = 7.500 kg
 2. Anzahl PKWs: 7.500 ÷ 1.800 = 4 Rest 300
-3. Also passen hoechstens 4 PKWs.
+3. Also passen höchstens 4 PKWs.
 
 Probe: 12.500 + 4 × 1.800 = 12.500 + 7.200 = 19.700 kg = 19,7 t < 20 t ✓
 Mit 5 PKWs: 12.500 + 9.000 = 21.500 kg = 21,5 t > 20 t ✗
 
 ### Tipp 1 (Denkanstoß)
-Rechne zuerst aus, wie viel Kilogramm der Transporter noch laden darf. Ziehe dafuer das Leergewicht vom Brueckengewicht ab.
+Rechne zuerst aus, wie viel Kilogramm der Transporter noch laden darf. Ziehe dafür das Leergewicht vom Brückengewicht ab.
 
 ### Tipp 2 (Methode)
-Maximale Ladung = Brueckengrenze − Leergewicht. Dann: Wie oft passt 1.800 kg in die maximale Ladung? Probiere aus: 1 × 1.800, 2 × 1.800, 3 × 1.800 ...
+Maximale Ladung = Brückengrenze − Leergewicht. Dann: Wie oft passt 1.800 kg in die maximale Ladung? Probiere aus: 1 × 1.800, 2 × 1.800, 3 × 1.800 ...
 
 ### Tipp 3 (Schritt-für-Schritt)
 Maximale Ladung: 20.000 − 12.500 = 7.500 kg. Jetzt probiere:
-- 1 PKW: 1.800 kg → passt (5.700 kg uebrig)
-- 2 PKWs: 3.600 kg → passt (3.900 kg uebrig)
-- 3 PKWs: 5.400 kg → passt (2.100 kg uebrig)
-- 4 PKWs: 7.200 kg → passt (300 kg uebrig)
+- 1 PKW: 1.800 kg → passt (5.700 kg übrig)
+- 2 PKWs: 3.600 kg → passt (3.900 kg übrig)
+- 3 PKWs: 5.400 kg → passt (2.100 kg übrig)
+- 4 PKWs: 7.200 kg → passt (300 kg übrig)
 - 5 PKWs: ? → Passt das noch?
 
 ### Didaktischer Hinweis
-Diese Aufgabe erfordert Division mit Rest im Sachkontext. Kinder muessen verstehen, dass man hier nicht aufrunden darf — ein halbes Auto kann man nicht laden. Das systematische Ausprobieren (Tipp 3) ist eine gute Strategie fuer Kinder, die Division noch unsicher beherrschen.
+Diese Aufgabe erfordert Division mit Rest im Sachkontext. Kinder müssen verstehen, dass man hier nicht aufrunden darf — ein halbes Auto kann man nicht laden. Das systematische Ausprobieren (Tipp 3) ist eine gute Strategie für Kinder, die Division noch unsicher beherrschen.
 
 ---
 
@@ -360,9 +367,10 @@ typ: reihenfolge
 thema: "Tierische Weltrekorde"
 schwierigkeit: gelb
 buchseite: 66
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -389,7 +397,7 @@ Zuerst alles in die gleiche Einheit bringen (kg):
 - Walhai: 12.000 kg
 - Blauwal: 110.000 kg
 
-Dann nach Groesse sortieren.
+Dann nach Größe sortieren.
 
 ### Tipp 1 (Denkanstoß)
 Einige Gewichte stehen in Tonnen, andere in Kilogramm. Kannst du alle in die gleiche Einheit umwandeln, damit du sie besser vergleichen kannst?
@@ -401,7 +409,7 @@ Wandle zuerst alle Tonnen-Angaben in Kilogramm um (1 t = 1.000 kg). Dann kannst 
 Der Elefant wiegt 6,5 t. Das sind 6 × 1.000 + 500 = 6.500 kg. Ist das mehr oder weniger als die Giraffe mit 750 kg? Und der Walhai mit 12 t = ? kg?
 
 ### Didaktischer Hinweis
-Tiere begeistern Kinder und machen das Vergleichen von Groessen motivierend. Die Mischung aus t und kg zwingt zur Einheitenumrechnung. Dass Strauss und Anakonda gleich schwer sind, ist ein ueberraschendes Ergebnis, das zum Staunen anregt.
+Tiere begeistern Kinder und machen das Vergleichen von Größen motivierend. Die Mischung aus t und kg zwingt zur Einheitenumrechnung. Dass Strauss und Anakonda gleich schwer sind, ist ein überraschendes Ergebnis, das zum Staunen anregt.
 
 ---
 
@@ -413,9 +421,10 @@ typ: textaufgabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: gelb
 buchseite: 66
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
@@ -432,21 +441,21 @@ c) 4.200 kg
 
 ### Lösungsweg
 - a) 3 × 200 kg = 600 kg pro Tag
-- b) 600 kg × 3 = 1.800 kg fuer 3 Tage
-- c) 600 kg × 7 = 4.200 kg fuer 1 Woche
+- b) 600 kg × 3 = 1.800 kg für 3 Tage
+- c) 600 kg × 7 = 4.200 kg für 1 Woche
 
 ### Tipp 1 (Denkanstoß)
 Wenn ein Elefant 200 kg am Tag frisst, wie viel fressen dann drei Elefanten zusammen an einem Tag?
 
 ### Tipp 2 (Methode)
-Rechne zuerst fuer einen Tag (3 Elefanten × 200 kg). Dann multipliziere das Tagesergebnis mit der Anzahl der Tage.
+Rechne zuerst für einen Tag (3 Elefanten × 200 kg). Dann multipliziere das Tagesergebnis mit der Anzahl der Tage.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 3 × 200 = 600 kg. Das ist der Tagesbedarf.
-b) Jetzt brauchst du das fuer 3 Tage: 600 × 3 = ? Rechne: 6 × 3 = 18, also 600 × 3 = ?
+b) Jetzt brauchst du das für 3 Tage: 600 × 3 = ? Rechne: 6 × 3 = 18, also 600 × 3 = ?
 
 ### Didaktischer Hinweis
-Stufenweise Multiplikation: Erst pro Tag, dann fuer mehrere Tage. Die Aufgabe trainiert das systematische Arbeiten und die Multiplikation mit grossen Zahlen (600 × 7 = 4.200). Das Tierthema haelt die Motivation hoch.
+Stufenweise Multiplikation: Erst pro Tag, dann für mehrere Tage. Die Aufgabe trainiert das systematische Arbeiten und die Multiplikation mit großen Zahlen (600 × 7 = 4.200). Das Tierthema hält die Motivation hoch.
 
 ---
 
@@ -458,60 +467,62 @@ typ: eingabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: grün
 buchseite: 67
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
-Ein Pferd wiegt ungefaehr 600 kg. Wie viele Pferde wiegen ungefaehr so viel wie ...
+Ein Pferd wiegt ungefähr 600 kg. Wie viele Pferde wiegen ungefähr so viel wie ...
 
 a) ein Elefant (6,5 t)?
 b) ein Walhai (12 t)?
 
 ### Lösung
-a) ungefaehr 11 Pferde
-b) 20 Pferde
+a) ungefähr 11 Pferde
+b) 20
 
 ### Lösungsweg
-- a) 6.500 kg ÷ 600 kg ≈ 10,8 → ungefaehr 11 Pferde
+- a) 6.500 kg ÷ 600 kg ≈ 10,8 → ungefähr 11 Pferde
 - b) 12.000 kg ÷ 600 kg = 20 Pferde
 
 ### Tipp 1 (Denkanstoß)
-Wandle die Tonnen in Kilogramm um. Dann ueberlege: Wie oft passt das Pferdegewicht (600 kg) in das Gewicht des grossen Tieres?
+Wandle die Tonnen in Kilogramm um. Dann überlege: Wie oft passt das Pferdegewicht (600 kg) in das Gewicht des großen Tieres?
 
 ### Tipp 2 (Methode)
-Rechne mit der Division: Gewicht des grossen Tieres ÷ 600 kg. Du kannst auch in Schritten rechnen: 10 Pferde = 6.000 kg, 20 Pferde = 12.000 kg ...
+Rechne mit der Division: Gewicht des großen Tieres ÷ 600 kg. Du kannst auch in Schritten rechnen: 10 Pferde = 6.000 kg, 20 Pferde = 12.000 kg ...
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) Elefant: 6.500 kg. Probiere: 10 Pferde = 10 × 600 = 6.000 kg. Das ist etwas weniger als 6.500 kg. Also 11 Pferde = 11 × 600 = ? Ist das naeher dran?
+a) Elefant: 6.500 kg. Probiere: 10 Pferde = 10 × 600 = 6.000 kg. Das ist etwas weniger als 6.500 kg. Also 11 Pferde = 11 × 600 = ? Ist das näher dran?
 
 ### Didaktischer Hinweis
-Division im Sachkontext mit dem Konzept "ungefaehr". Kinder lernen, dass das Ergebnis nicht immer glatt aufgeht und man sinnvoll runden muss. Die Vorstellung "Wie viele passen hinein?" ist ein anschaulicher Zugang zur Division.
+Division im Sachkontext mit dem Konzept "ungefähr". Kinder lernen, dass das Ergebnis nicht immer glatt aufgeht und man sinnvoll runden muss. Die Vorstellung "Wie viele passen hinein?" ist ein anschaulicher Zugang zur Division.
 
 ---
 
 ## Aufgabe 11
 
 ---
-titel: "Aussagen ueberpruefen — Tierische Vergleiche"
+titel: "Aussagen überprüfen — Tierische Vergleiche"
 typ: wahr-falsch
 thema: "Tierische Weltrekorde"
 schwierigkeit: grün
 buchseite: 67
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
-Ueberprüfe die Aussagen. Berichtige falsche Aussagen.
+Überprüfe die Aussagen. Berichtige falsche Aussagen.
 
 Gegeben: Elefant 6,5 t, Blauwal 110 t, Strauss 150 kg, Walhai 12 t, Giraffe 750 kg, Giraffen-Baby 80 kg, Elefanten-Baby 100 kg.
 
 a) 100 Strausse sind leichter als ein Walhai.
 b) 15 Giraffen-Babys sind schwerer als 10 Elefanten-Babys.
-c) 80 Elefanten-Babys sind ungefaehr so schwer wie ein Elefant.
+c) 80 Elefanten-Babys sind ungefähr so schwer wie ein Elefant.
 
 ### Lösung
 a) Falsch. 100 Strausse = 100 × 150 = 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Also sind 100 Strausse schwerer als ein Walhai.
@@ -533,56 +544,57 @@ Mache eine Vergleichstabelle:
 Rechne zuerst die Multiplikationen aus, dann vergleiche.
 
 ### Tipp 3 (Schritt-für-Schritt)
-Bei a): 100 Strausse = 100 × 150 kg. Rechne: 100 × 150 = 15.000 kg. Wandle um: 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Was ist groesser: 15 oder 12?
+Bei a): 100 Strausse = 100 × 150 kg. Rechne: 100 × 150 = 15.000 kg. Wandle um: 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Was ist größer: 15 oder 12?
 
 ### Didaktischer Hinweis
-Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Pruefen von Aussagen. Kinder muessen systematisch beide Seiten berechnen. Die Aufgabe uegt gleichzeitig Multiplikation und Einheitenumrechnung.
+Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe ügt gleichzeitig Multiplikation und Einheitenumrechnung.
 
 ---
 
 ## Aufgabe 12
 
 ---
-titel: "Groesse der Tierbabys vergleichen"
+titel: "Größe der Tierbabys vergleichen"
 typ: eingabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: grün
 buchseite: 67
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
-Die Groesse eines Menschen-Babys betraegt ungefaehr 50 cm. Wie viele Babys sind ungefaehr so gross wie ...
+Die Größe eines Menschen-Babys beträgt ungefähr 50 cm. Wie viele Babys sind ungefähr so groß wie ...
 
 a) ein Elefanten-Baby (1 m)?
 b) ein Giraffen-Baby (2 m)?
 c) ein Elefant (4,5 m)?
 
 ### Lösung
-a) 2 Babys
-b) 4 Babys
-c) 9 Babys
+a) 2
+b) 4
+c) 9
 
 ### Lösungsweg
-Groesse des Tieres ÷ Groesse eines Babys:
+Größe des Tieres ÷ Größe eines Babys:
 - a) 1 m = 100 cm. 100 ÷ 50 = 2
 - b) 2 m = 200 cm. 200 ÷ 50 = 4
 - c) 4,5 m = 450 cm. 450 ÷ 50 = 9
 
 ### Tipp 1 (Denkanstoß)
-Wandle die Meter in Zentimeter um (1 m = 100 cm). Dann ueberlege: Wie oft passt ein Baby (50 cm) in die Groesse des Tieres?
+Wandle die Meter in Zentimeter um (1 m = 100 cm). Dann überlege: Wie oft passt ein Baby (50 cm) in die Größe des Tieres?
 
 ### Tipp 2 (Methode)
-Teile die Laenge in cm durch 50 cm. Tipp: 50 cm = ein halber Meter. Also: 2 Babys = 1 m, 4 Babys = 2 m ...
+Teile die Länge in cm durch 50 cm. Tipp: 50 cm = ein halber Meter. Also: 2 Babys = 1 m, 4 Babys = 2 m ...
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 1 m = 100 cm. 100 ÷ 50 = 2. Also passen 2 Babys.
 c) 4,5 m = 450 cm. Probiere: 8 × 50 = 400, 9 × 50 = ? Passt das?
 
 ### Didaktischer Hinweis
-Der Bezug auf die eigene Babygroesse schafft einen koerperbezogenen Zugang. Die Division durch 50 ist rechnerisch zugaenglich (Halbieren des Meterwertes). Bei c) wird mit 4,5 m eine Dezimalzahl eingefuehrt, die aber als 450 cm gut handhabbar ist.
+Der Bezug auf die eigene Babygrösse schafft einen körperbezogenen Zugang. Die Division durch 50 ist rechnerisch zugänglich (Halbieren des Meterwertes). Bei c) wird mit 4,5 m eine Dezimalzahl eingeführt, die aber als 450 cm gut handhabbar ist.
 
 ---
 
@@ -594,15 +606,16 @@ typ: textaufgabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: orange
 buchseite: 66
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
 Ein Blauwal frisst an einem Tag 4 t Plankton. Ein Elefant frisst 200 kg am Tag.
 
-Fuer wie viele Tage reicht die Futtermenge eines Blauwals fuer ...
+Für wie viele Tage reicht die Futtermenge eines Blauwals für ...
 a) einen Elefanten?
 b) eine Giraffe (Nahrung pro Tag: 80 kg)?
 
@@ -625,7 +638,7 @@ a) 4 t = 4.000 kg. Elefant braucht 200 kg pro Tag.
 Probiere: 10 Tage × 200 = 2.000 kg (= 2 t). 20 Tage × 200 = ?
 
 ### Didaktischer Hinweis
-Diese Aufgabe verbindet Division mit Einheitenumrechnung. Fuer Kinder, die Division noch unsicher beherrschen, ist das schrittweise Hochrechnen (10 Tage, 20 Tage ...) eine gute Alternative. Das verblüffende Ergebnis (50 Tage fuer eine Giraffe!) staerkt die Motivation.
+Diese Aufgabe verbindet Division mit Einheitenumrechnung. Für Kinder, die Division noch unsicher beherrschen, ist das schrittweise Hochrechnen (10 Tage, 20 Tage ...) eine gute Alternative. Das verblüffende Ergebnis (50 Tage für eine Giraffe!) stärkt die Motivation.
 
 ---
 
@@ -637,18 +650,19 @@ typ: eingabe
 thema: "Tierische Weltrekorde"
 schwierigkeit: orange
 buchseite: 67
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "tierische-weltrekorde"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s64-merkkasten-tonne-kilogramm.webp"
 ---
 
 ### Aufgabenstellung
 Ein Blauwal-Baby wiegt 2,5 t. Ein Straussenküken wiegt 800 g.
 
-Wie viele Straussenküken sind ungefaehr so schwer wie ein Blauwal-Baby?
+Wie viele Straussenküken sind ungefähr so schwer wie ein Blauwal-Baby?
 
 ### Lösung
-Ungefaehr 3.125 Straussenküken.
+Ungefähr 3.125 Straussenküken.
 
 ### Lösungsweg
 1. Blauwal-Baby: 2,5 t = 2.500 kg = 2.500.000 g
@@ -670,7 +684,7 @@ In 100 kg passen 125 Küken.
 In 2.500 kg passen 25 × 125 = ?
 
 ### Didaktischer Hinweis
-Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.125!) laesst Kinder staunen und macht die Groessenverhaeltnisse in der Tierwelt greifbar. Die Division mit Kommazahlen kann durch Umwandlung in ganze Zahlen vereinfacht werden.
+Eine knifflige Aufgabe mit drei Einheiten (t, kg, g). Das riesige Ergebnis (3.125!) lässt Kinder staunen und macht die Größenverhältnisse in der Tierwelt greifbar. Die Division mit Kommazahlen kann durch Umwandlung in ganze Zahlen vereinfacht werden.
 
 ---
 
@@ -684,9 +698,10 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -697,30 +712,30 @@ Mia und ihre Familie planen eine Radtour. Auf der Karte stehen die Entfernungen 
 - Bachtal → Feldstadt: 5,2 km
 - Feldstadt → Brückenau: 7,1 km
 
-Berechne die Gesamtlaenge der Tour von Waldheim bis Brückenau.
+Berechne die Gesamtlänge der Tour von Waldheim bis Brückenau.
 
 ### Lösung
-23,4 km
+23,4
 
 ### Lösungsweg
 4,8 + 6,3 + 5,2 + 7,1 = 23,4 km
 
-Schritt fuer Schritt:
+Schritt für Schritt:
 - 4,8 + 6,3 = 11,1 km
 - 11,1 + 5,2 = 16,3 km
 - 16,3 + 7,1 = 23,4 km
 
 ### Tipp 1 (Denkanstoß)
-Stell dir die Tour als eine lange Strecke mit Haltepunkten vor. Um die Gesamtlaenge zu finden, musst du alle Teilstrecken zusammenzaehlen.
+Stell dir die Tour als eine lange Strecke mit Haltepunkten vor. Um die Gesamtlänge zu finden, musst du alle Teilstrecken zusammenzählen.
 
 ### Tipp 2 (Methode)
-Addiere die Teilstrecken der Reihe nach. Rechne zuerst die ersten beiden zusammen, dann addiere die naechste dazu, usw.
+Addiere die Teilstrecken der Reihe nach. Rechne zuerst die ersten beiden zusammen, dann addiere die nächste dazu, usw.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Fang mit den ersten beiden an: 4,8 + 6,3. Rechne: 4 + 6 = 10, und 0,8 + 0,3 = 1,1. Also 10 + 1,1 = 11,1 km. Jetzt kommt 5,2 dazu: 11,1 + 5,2 = ?
 
 ### Didaktischer Hinweis
-Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfacher als alle vier Zahlen auf einmal. Die Radtour-Situation ist fuer Kinder greifbar und motivierend.
+Addition von Dezimalzahlen im Sachkontext. Die schrittweise Addition ist einfacher als alle vier Zahlen auf einmal. Die Radtour-Situation ist für Kinder greifbar und motivierend.
 
 ---
 
@@ -732,9 +747,10 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -758,16 +774,16 @@ Man addiert nur die Teilstrecken, die auf dem Weg liegen:
 - b) Mühlheim → Seefeld → Bergheim → Waldstadt: 8,4 + 12,5 + 18,6 = 39,5 km
 
 ### Tipp 1 (Denkanstoß)
-Schau genau hin: Welche Teilstrecken brauchst du fuer deinen Weg? Du musst nicht alle Strecken addieren — nur die, die auf deinem Weg liegen!
+Schau genau hin: Welche Teilstrecken brauchst du für deinen Weg? Du musst nicht alle Strecken addieren — nur die, die auf deinem Weg liegen!
 
 ### Tipp 2 (Methode)
-Markiere Start und Ziel. Dann zaehle nur die Strecken dazwischen zusammen.
+Markiere Start und Ziel. Dann zähle nur die Strecken dazwischen zusammen.
 
 ### Tipp 3 (Schritt-für-Schritt)
 b) Von Mühlheim nach Waldstadt: Mühlheim → Seefeld = 8,4 km. Seefeld → Bergheim = 12,5 km. Das sind schon 8,4 + 12,5 = 20,9 km. Jetzt kommt noch Bergheim → Waldstadt = 18,6 km dazu: 20,9 + 18,6 = ?
 
 ### Didaktischer Hinweis
-Kinder muessen erkennen, welche Teilstrecken zum gesuchten Weg gehoeren. Das ist eine wichtige Lesekompetenz bei Karten und Schemata. Die Addition mit Dezimalzahlen wird hier vertieft.
+Kinder müssen erkennen, welche Teilstrecken zum gesuchten Weg gehören. Das ist eine wichtige Lesekompetenz bei Karten und Schemata. Die Addition mit Dezimalzahlen wird hier vertieft.
 
 ---
 
@@ -779,13 +795,14 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Die Familie moechte eine Radtour ueber drei Tage machen. Die Orte und Entfernungen:
+Die Familie möchte eine Radtour über drei Tage machen. Die Orte und Entfernungen:
 
 - Ahausen → Birken: 8,5 km
 - Birken → Clausen: 12,3 km
@@ -793,10 +810,10 @@ Die Familie moechte eine Radtour ueber drei Tage machen. Die Orte und Entfernung
 - Dornheim → Erlenbach: 15,2 km
 - Erlenbach → Fischbach: 6,8 km
 
-Die Gesamtstrecke soll moeglichst gleichmaessig auf drei Tage verteilt werden.
+Die Gesamtstrecke soll möglichst gleichmässig auf drei Tage verteilt werden.
 
 a) Wie lang ist die Gesamtstrecke?
-b) Wie viele Kilometer muessten sie pro Tag fahren, wenn sie die Strecke gleichmaessig verteilen?
+b) Wie viele Kilometer müssten sie pro Tag fahren, wenn sie die Strecke gleichmässig verteilen?
 
 ### Lösung
 a) 52,5 km
@@ -807,18 +824,18 @@ b) 17,5 km pro Tag
 - b) 52,5 ÷ 3 = 17,5 km pro Tag
 
 ### Tipp 1 (Denkanstoß)
-Addiere zuerst alle Teilstrecken. Dann ueberlege: Wie teilt man die Gesamtstrecke gerecht auf drei Tage auf?
+Addiere zuerst alle Teilstrecken. Dann überlege: Wie teilt man die Gesamtstrecke gerecht auf drei Tage auf?
 
 ### Tipp 2 (Methode)
-Schritt 1: Alle Strecken addieren → Gesamtlaenge.
-Schritt 2: Gesamtlaenge ÷ 3 = Kilometer pro Tag.
+Schritt 1: Alle Strecken addieren → Gesamtlänge.
+Schritt 2: Gesamtlänge ÷ 3 = Kilometer pro Tag.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Gesamtstrecke: 8,5 + 12,3 = 20,8. Dann + 9,7 = 30,5. Dann + 15,2 = 45,7. Dann + 6,8 = ?
 Teile das Ergebnis durch 3. Tipp: 3 × 17 = 51 und 3 × 18 = 54. Also liegt das Ergebnis zwischen 17 und 18.
 
 ### Didaktischer Hinweis
-Zweistufige Aufgabe: erst Addition, dann Division. Die Verteilung auf Tage ist eine alltagsnahe Fragestellung. Die Division von 52,5 durch 3 ergibt eine glatte Dezimalzahl (17,5), was fuer Kinder noch gut handhabbar ist.
+Zweistufige Aufgabe: erst Addition, dann Division. Die Verteilung auf Tage ist eine alltagsnahe Fragestellung. Die Division von 52,5 durch 3 ergibt eine glatte Dezimalzahl (17,5), was für Kinder noch gut handhabbar ist.
 
 ---
 
@@ -830,9 +847,10 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -842,7 +860,7 @@ Der Radweg rund um den Silbersee ist insgesamt 42 km lang. Pia und ihr Vater sin
 - Tag 3: 9,2 km
 
 a) Wie viele Kilometer haben sie insgesamt schon geschafft?
-b) Wie viele Kilometer muessen sie noch fahren?
+b) Wie viele Kilometer müssen sie noch fahren?
 c) Wenn sie an Tag 4 nicht mehr als 8 km fahren wollen — schaffen sie den Rest an einem Tag?
 
 ### Lösung
@@ -860,7 +878,7 @@ Rechne zuerst aus, wie viel die Familie schon gefahren ist. Dann ziehe das vom G
 
 ### Tipp 2 (Methode)
 a) Addiere die drei Tagesstrecken.
-b) Subtrahiere von der Gesamtlaenge (42 km).
+b) Subtrahiere von der Gesamtlänge (42 km).
 c) Vergleiche den Rest mit 8 km.
 
 ### Tipp 3 (Schritt-für-Schritt)
@@ -875,45 +893,46 @@ Dreistufige Sachaufgabe mit Addition, Subtraktion und Vergleich. Teil c) fordert
 ## Aufgabe 19
 
 ---
-titel: "Hin- und Rueckweg berechnen"
+titel: "Hin- und Rückweg berechnen"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Wie viele Kilometer sind es hin und zurueck?
+Wie viele Kilometer sind es hin und zurück?
 
 a) Schule → Schwimmbad: 3,2 km
 b) Zuhause → Sportplatz: 1,8 km
 c) Bauernhof → Marktplatz: 5,7 km
 
 ### Lösung
-a) 6,4 km
-b) 3,6 km
-c) 11,4 km
+a) 6,4
+b) 3,6
+c) 11,4
 
 ### Lösungsweg
-Hin und zurueck = doppelte Strecke:
+Hin und zurück = doppelte Strecke:
 - a) 3,2 × 2 = 6,4 km
 - b) 1,8 × 2 = 3,6 km
 - c) 5,7 × 2 = 11,4 km
 
 ### Tipp 1 (Denkanstoß)
-Wenn du irgendwo hinfaehrst und den gleichen Weg zurueck nimmst — wie oft faehrst du die Strecke?
+Wenn du irgendwo hinfährst und den gleichen Weg zurück nimmst — wie oft fährst du die Strecke?
 
 ### Tipp 2 (Methode)
-Hin und zurueck = 2 × die einfache Strecke. Verdopple die Kilometeranzahl!
+Hin und zurück = 2 × die einfache Strecke. Verdopple die Kilometeranzahl!
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 3,2 × 2 = ? Rechne: 3 × 2 = 6, und 0,2 × 2 = 0,4. Also 6 + 0,4 = ?
 
 ### Didaktischer Hinweis
-Einfache Verdoppelungsaufgabe, die das Konzept "Hin- und Rueckweg" festigt. Die Multiplikation mit 2 bei Dezimalzahlen wird geuebt. Alltagsnaher Kontext.
+Einfache Verdoppelungsaufgabe, die das Konzept "Hin- und Rückweg" festigt. Die Multiplikation mit 2 bei Dezimalzahlen wird geübt. Alltagsnaher Kontext.
 
 ---
 
@@ -927,14 +946,15 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
 Verschiedene Fortbewegungsarten:
-- Ein Fussgaenger schafft 1 km in 15 Minuten.
+- Ein Fussgänger schafft 1 km in 15 Minuten.
 - Ein Radfahrer schafft 8 km in 30 Minuten.
 - Ein Auto schafft 48 km in 1 Stunde.
 - Ein Motorrad schafft 60 km in 30 Minuten.
@@ -942,20 +962,20 @@ Verschiedene Fortbewegungsarten:
 Wie viele Kilometer schafft jeder in einer Stunde?
 
 ### Lösung
-- Fussgaenger: 4 km/h
+- Fussgänger: 4 km/h
 - Radfahrer: 16 km/h
 - Auto: 48 km/h
 - Motorrad: 120 km/h
 
 ### Lösungsweg
 1 Stunde = 60 Minuten.
-- Fussgaenger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km
+- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km
 - Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km
 - Auto: 60 min → 48 km → 48 km/h
 - Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km
 
 ### Tipp 1 (Denkanstoß)
-Geschwindigkeit heisst: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Ueberlege: Wie oft passen die angegebenen Minuten in 60 Minuten?
+Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Überlege: Wie oft passen die angegebenen Minuten in 60 Minuten?
 
 ### Tipp 2 (Methode)
 Rechne hoch auf 60 Minuten:
@@ -964,24 +984,25 @@ Rechne hoch auf 60 Minuten:
 - 60 min × 1 = 60 min → Strecke bleibt
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der Fussgaenger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.
+Der Fussgänger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.
 
 ### Didaktischer Hinweis
-Die Aufgabe fuehrt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet ("Wenn 15 min = 1 km, dann 60 min = ?"). Das ist fuer Kinder der natuerlichste Zugang zu Geschwindigkeit.
+Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet ("Wenn 15 min = 1 km, dann 60 min = ?"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.
 
 ---
 
 ## Aufgabe 21
 
 ---
-titel: "Geschwindigkeitstabelle ausfuellen"
+titel: "Geschwindigkeitstabelle ausfüllen"
 typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -993,10 +1014,10 @@ c) 3 Stunden?
 d) 4 Stunden 30 Minuten?
 
 ### Lösung
-a) 6 km
-b) 24 km
-c) 36 km
-d) 54 km
+a) 6
+b) 24
+c) 36
+d) 54
 
 ### Lösungsweg
 12 km pro Stunde = Grundwert.
@@ -1036,9 +1057,10 @@ typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: grün
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -1047,7 +1069,7 @@ Spitzengeschwindigkeiten von Tieren:
 - Schwalbe: 72 km/h
 - Antilope: 96 km/h
 
-Wie weit kaemen die Tiere mit ihrer Spitzengeschwindigkeit in ...
+Wie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...
 
 a) 30 Minuten?
 b) 15 Minuten?
@@ -1086,15 +1108,16 @@ typ: textaufgabe
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
-Schwalben sind Zugvoegel und fliegen im Winter nach Suedafrika. Der Weg ist ungefaehr 9.000 km lang.
+Schwalben sind Zugvögel und fliegen im Winter nach Südafrika. Der Weg ist ungefähr 9.000 km lang.
 
-Wenn eine Schwalbe mit einer Fluggeschwindigkeit von 50 km/h fliegt — wie viele Stunden braucht sie fuer den Weg?
+Wenn eine Schwalbe mit einer Fluggeschwindigkeit von 50 km/h fliegt — wie viele Stunden braucht sie für den Weg?
 
 ### Lösung
 180 Stunden
@@ -1105,7 +1128,7 @@ Wenn eine Schwalbe mit einer Fluggeschwindigkeit von 50 km/h fliegt — wie viel
 Kontrollrechnung: 180 × 50 = 9.000 ✓
 
 ### Tipp 1 (Denkanstoß)
-In einer Stunde schafft die Schwalbe 50 km. Wie viele Stunden braucht sie fuer 9.000 km? Ueberlege: Wie oft passt 50 in 9.000?
+In einer Stunde schafft die Schwalbe 50 km. Wie viele Stunden braucht sie für 9.000 km? Überlege: Wie oft passt 50 in 9.000?
 
 ### Tipp 2 (Methode)
 Teile die Gesamtstrecke durch die Geschwindigkeit: 9.000 ÷ 50. Tipp: 9.000 ÷ 50 ist das Gleiche wie 900 ÷ 5.
@@ -1117,7 +1140,7 @@ Probiere in Schritten:
 - Also zwischen 100 und 200 Stunden. 150 × 50 = 7.500 km. 180 × 50 = ?
 
 ### Didaktischer Hinweis
-Division grosser Zahlen im Sachkontext. Die Vereinfachung 9.000 ÷ 50 = 900 ÷ 5 ist eine Schluesselstrategie. Das Staunen ueber die Leistung der Schwalbe motiviert. Man kann ergaenzen: 180 h = 7,5 Tage non-stop — in Wirklichkeit brauchen Schwalben natuerlich viel laenger, weil sie Pausen machen.
+Division grosser Zahlen im Sachkontext. Die Vereinfachung 9.000 ÷ 50 = 900 ÷ 5 ist eine Schlüsselstrategie. Das Staunen über die Leistung der Schwalbe motiviert. Man kann ergänzen: 180 h = 7,5 Tage non-stop — in Wirklichkeit brauchen Schwalben natürlich viel länger, weil sie Pausen machen.
 
 ---
 
@@ -1129,9 +1152,10 @@ typ: zuordnung
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "geschwindigkeiten"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s69-merkkasten-geschwindigkeiten-kmh.webp"
 ---
 
 ### Aufgabenstellung
@@ -1139,10 +1163,10 @@ Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.
 
 Geschwindigkeiten: 4 km/h, 16 km/h, 50 km/h, 120 km/h, 250 km/h
 
-Fortbewegungsarten: Fussgaenger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug
+Fortbewegungsarten: Fussgänger, Radfahrer, Auto in der Stadt, Auto auf der Autobahn, ICE-Zug
 
 ### Lösung
-- Fussgaenger: 4 km/h
+- Fussgänger: 4 km/h
 - Radfahrer: 16 km/h
 - Auto in der Stadt: 50 km/h
 - Auto auf der Autobahn: 120 km/h
@@ -1152,7 +1176,7 @@ Fortbewegungsarten: Fussgaenger, Radfahrer, Auto in der Stadt, Auto auf der Auto
 Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:
 - Zu Fuss ist man am langsamsten → 4 km/h
 - Ein Fahrrad ist schneller als zu Fuss → 16 km/h
-- In der Stadt faehrt man nicht so schnell → 50 km/h
+- In der Stadt fährt man nicht so schnell → 50 km/h
 - Auf der Autobahn schneller → 120 km/h
 - Der ICE ist am schnellsten → 250 km/h
 
@@ -1160,13 +1184,13 @@ Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und ar
 Sortiere zuerst die Fortbewegungsarten: Was ist am langsamsten? Was am schnellsten? Dann ordne die Geschwindigkeiten genauso.
 
 ### Tipp 2 (Methode)
-Ueberlege bei jeder Geschwindigkeit: Wie weit waere das in einer Stunde? 4 km kann man locker laufen. 250 km — das ist weiter als von München nach Nürnberg!
+Überlege bei jeder Geschwindigkeit: Wie weit wäre das in einer Stunde? 4 km kann man locker laufen. 250 km — das ist weiter als von München nach Nürnberg!
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der Fussgaenger ist am langsamsten — er schafft 4 km/h. Das ist ungefaehr 1 km in 15 Minuten. Der Radfahrer ist schneller: 16 km/h = 4 × so schnell wie der Fussgaenger. Welche Geschwindigkeit bleibt fuer das Auto in der Stadt?
+Der Fussgänger ist am langsamsten — er schafft 4 km/h. Das ist ungefähr 1 km in 15 Minuten. Der Radfahrer ist schneller: 16 km/h = 4 × so schnell wie der Fussgänger. Welche Geschwindigkeit bleibt für das Auto in der Stadt?
 
 ### Didaktischer Hinweis
-Zuordnungsaufgaben trainieren das Groessenvorstellungs-Vermoegen. Kinder muessen Geschwindigkeiten sinnvoll einschaetzen — eine Alltagskompetenz. Die Aufgabe laesst sich gut mit dem eigenen Erleben verbinden.
+Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschätzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.
 
 ---
 
@@ -1180,9 +1204,11 @@ typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: gelb
 buchseite: 70
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1222,27 +1248,29 @@ Addiere zuerst die bekannten Teilstrecken. Dann ziehe vom Gesamtweg ab.
 Die bekannten Strecken: 3,5 + 5 = 8,5 km. Insgesamt sind es 13 km. Also: 13 − 8,5 = ? Das ist die fehlende Strecke.
 
 ### Didaktischer Hinweis
-Einfuehrung in den 3-Phasen-Flow (Orte ordnen → Strecken eintragen → Rechnen). Die Skizze ist der Schluessel: Sie hilft, die Informationen aus dem Text raeumlich zu ordnen. Die Rechnung selbst (Addition + Subtraktion) ist einfach — die Herausforderung liegt im Textverstaendnis.
+Einführung in den 3-Phasen-Flow (Orte ordnen → Strecken eintragen → Rechnen). Die Skizze ist der Schlüssel: Sie hilft, die Informationen aus dem Text räumlich zu ordnen. Die Rechnung selbst (Addition + Subtraktion) ist einfach — die Herausforderung liegt im Textverständnis.
 
 ---
 
 ## Aufgabe 26
 
 ---
-titel: "Skizze zeichnen — Ausflug mit Rueckweg"
+titel: "Skizze zeichnen — Ausflug mit Rückweg"
 typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: grün
 buchseite: 70
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
 Zeichne eine Skizze und löse die Aufgabe.
 
-Tom und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 5,2 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wald. Nach dem Grillen besuchen sie noch die Eisdiele, die 3,1 km entfernt ist. Danach radeln sie denselben Weg wieder zurueck. Insgesamt legen sie 19,4 km zurueck.
+Tom und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 5,2 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wald. Nach dem Grillen besuchen sie noch die Eisdiele, die 3,1 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 19,4 km zurück.
 
 Wie weit ist der Grillplatz vom See entfernt?
 
@@ -1250,40 +1278,42 @@ Wie weit ist der Grillplatz vom See entfernt?
 1,4 km
 
 ### Lösungsweg
-Phase 1 — Orte: Start → See → Grillplatz → Eisdiele (und zurueck)
-Phase 2 — Der Gesamtweg ist Hinweg + Rueckweg. Da sie denselben Weg zurueckfahren: Hinweg = 19,4 ÷ 2 = 9,7 km
+Phase 1 — Orte: Start → See → Grillplatz → Eisdiele (und zurück)
+Phase 2 — Der Gesamtweg ist Hinweg + Rückweg. Da sie denselben Weg zurückfahren: Hinweg = 19,4 ÷ 2 = 9,7 km
 Phase 3 — Hinweg: 5,2 + ? + 3,1 = 9,7 km
 - 5,2 + 3,1 = 8,3 km
 - 9,7 − 8,3 = 1,4 km
 
 ### Tipp 1 (Denkanstoß)
-Sie fahren hin und den gleichen Weg zurueck. Das bedeutet: Der Hinweg ist genau die Haelfte der Gesamtstrecke!
+Sie fahren hin und den gleichen Weg zurück. Das bedeutet: Der Hinweg ist genau die Hälfte der Gesamtstrecke!
 
 ### Tipp 2 (Methode)
 Zeichne eine Skizze:
 Start —5,2 km→ See —? km→ Grillplatz —3,1 km→ Eisdiele
 |←————————— Hinweg ——————————→|
-Gesamtweg (hin + zurueck) = 19,4 km. Also Hinweg = 19,4 ÷ 2.
+Gesamtweg (hin + zurück) = 19,4 km. Also Hinweg = 19,4 ÷ 2.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Hinweg = 19,4 ÷ 2 = 9,7 km. Bekannte Strecken: 5,2 + 3,1 = 8,3 km. Fehlende Strecke: 9,7 − 8,3 = ?
 
 ### Didaktischer Hinweis
-Erhoehter Schwierigkeitsgrad: Das Kind muss erkennen, dass der Hin- und Rueckweg zusammen die Gesamtstrecke ergeben. Die Halbierung ist der entscheidende Zwischenschritt. Die Skizze hilft, diese Erkenntnis visuell zu stuetzen.
+Erhöhter Schwierigkeitsgrad: Das Kind muss erkennen, dass der Hin- und Rückweg zusammen die Gesamtstrecke ergeben. Die Halbierung ist der entscheidende Zwischenschritt. Die Skizze hilft, diese Erkenntnis visuell zu stützen.
 
 ---
 
 ## Aufgabe 27
 
 ---
-titel: "Skizze zeichnen — Radtour mit Abkuerzung"
+titel: "Skizze zeichnen — Radtour mit Abkürzung"
 typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: grün
 buchseite: 70
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1292,7 +1322,7 @@ Zeichne eine Skizze und löse die Aufgabe.
 Max macht mit seiner Familie eine Radtour. Insgesamt radeln sie 24 km 500 m.
 Zuerst radeln sie 4,2 km zum Waldrand. Von dort geht es weiter zum Grillplatz.
 Danach radeln sie 2.500 m zum See.
-Fuer den Heimweg waehlen sie eine Abkuerzung, die 10,3 km lang ist.
+Für den Heimweg wählen sie eine Abkürzung, die 10,3 km lang ist.
 
 Wie weit ist der Grillplatz vom Waldrand entfernt?
 
@@ -1300,7 +1330,7 @@ Wie weit ist der Grillplatz vom Waldrand entfernt?
 7,5 km
 
 ### Lösungsweg
-Phase 1 — Orte: Start → Waldrand → Grillplatz → See → (Abkuerzung) → Start
+Phase 1 — Orte: Start → Waldrand → Grillplatz → See → (Abkürzung) → Start
 Phase 2 — Einheiten vereinheitlichen: 24 km 500 m = 24,5 km, 2.500 m = 2,5 km
 Phase 3 — Rechnung:
 4,2 + ? + 2,5 + 10,3 = 24,5 km
@@ -1323,7 +1353,7 @@ Rechne: 4,2 + 2,5 = 6,7. Dann 6,7 + 10,3 = 17.
 Gesamt: 24,5 km. Fehlend: 24,5 − 17 = ?
 
 ### Didaktischer Hinweis
-Neue Schwierigkeit: gemischte Einheiten (km und m) und ein nicht-linearer Weg (Abkuerzung zurueck zum Start). Die Skizze zeigt, dass der Weg eine Schleife bildet. Kinder muessen erkennen, dass alle Teilstrecken zusammen die Gesamtstrecke ergeben — auch wenn der Rueckweg anders verlaeuft als der Hinweg.
+Neue Schwierigkeit: gemischte Einheiten (km und m) und ein nicht-linearer Weg (Abkürzung zurück zum Start). Die Skizze zeigt, dass der Weg eine Schleife bildet. Kinder müssen erkennen, dass alle Teilstrecken zusammen die Gesamtstrecke ergeben — auch wenn der Rückweg anders verläuft als der Hinweg.
 
 ---
 
@@ -1335,26 +1365,28 @@ typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: orange
 buchseite: 71
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
 Zeichne eine Skizze und löse die Aufgabe.
 
-Zwischen Konstanz und Meersburg am Bodensee verkehrt eine Faehre, die eine Strecke von 4 km zuruecklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hoeren ist.
+Zwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.
 
-Wie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hoeren sind?
+Wie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hören sind?
 
 ### Lösung
 2 km
 
 ### Lösungsweg
 Phase 1 — Orte: Konstanz (links) ←— 4 km —→ Meersburg (rechts)
-Phase 2 — Glocke Konstanz: hoerbar bis 3 km von Konstanz
-         Glocke Meersburg: hoerbar bis 3 km von Meersburg (= ab 1 km von Konstanz)
-Phase 3 — Ueberlappung: Von 1 km bis 3 km (ab Konstanz) = 2 km
+Phase 2 — Glocke Konstanz: hörbar bis 3 km von Konstanz
+         Glocke Meersburg: hörbar bis 3 km von Meersburg (= ab 1 km von Konstanz)
+Phase 3 — Überlappung: Von 1 km bis 3 km (ab Konstanz) = 2 km
 
 Skizze:
 ```
@@ -1368,20 +1400,20 @@ Konstanz                                    Meersburg
 ```
 
 ### Tipp 1 (Denkanstoß)
-Male Konstanz und Meersburg als Punkte mit 4 km Abstand. Dann zeichne fuer jede Glocke ein, wie weit sie reicht (3 km). Wo ueberschneiden sich die beiden Bereiche?
+Male Konstanz und Meersburg als Punkte mit 4 km Abstand. Dann zeichne für jede Glocke ein, wie weit sie reicht (3 km). Wo überschneiden sich die beiden Bereiche?
 
 ### Tipp 2 (Methode)
 Die Konstanz-Glocke reicht von 0 bis 3 km (von Konstanz aus).
 Die Meersburg-Glocke reicht von 1 km bis 4 km (von Konstanz aus), denn sie reicht 3 km ab Meersburg: 4 − 3 = 1 km.
-Wo ueberlappen sich beide?
+Wo überlappen sich beide?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Glocke Konstanz: hoerbar bis 3 km von Konstanz.
-Glocke Meersburg: hoerbar ab 4 − 3 = 1 km von Konstanz.
-Beide hoerbar: von 1 km bis 3 km = 3 − 1 = ? km.
+Glocke Konstanz: hörbar bis 3 km von Konstanz.
+Glocke Meersburg: hörbar ab 4 − 3 = 1 km von Konstanz.
+Beide hörbar: von 1 km bis 3 km = 3 − 1 = ? km.
 
 ### Didaktischer Hinweis
-Eine anspruchsvolle Ueberlappungsaufgabe. Die Skizze ist hier unverzichtbar — ohne sie ist die Aufgabe kaum loesbar. Kinder lernen, raeumliche Bereiche zu visualisieren und Ueberschneidungen zu berechnen. Exzellente Uebung fuer visuelles Denken.
+Eine anspruchsvolle Überlappungsaufgabe. Die Skizze ist hier unverzichtbar — ohne sie ist die Aufgabe kaum lösbar. Kinder lernen, räumliche Bereiche zu visualisieren und Überschneidungen zu berechnen. Exzellente Übung für visuelles Denken.
 
 ---
 
@@ -1393,15 +1425,17 @@ typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: orange
 buchseite: 71
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
 Zeichne eine Skizze und löse die Aufgabe.
 
-Beim Bau eines 1.500 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft taeglich 3 m, die andere sogar 4,50 m.
+Beim Bau eines 1.500 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 3 m, die andere sogar 4,50 m.
 
 a) Nach wie vielen Tagen ist der Tunnel fertig?
 b) Wie viele Meter hat jede Firma gebaut?
@@ -1425,62 +1459,64 @@ Strecke Firma 2: 200 × 4,5 = 900 m
 Probe: 600 + 900 = 1.500 ✓
 
 ### Tipp 1 (Denkanstoß)
-Wenn beide gleichzeitig graben, wie viel Meter schaffen sie zusammen an einem Tag? Dann ueberlege: Wie viele Tage brauchen sie fuer den ganzen Tunnel?
+Wenn beide gleichzeitig graben, wie viel Meter schaffen sie zusammen an einem Tag? Dann überlege: Wie viele Tage brauchen sie für den ganzen Tunnel?
 
 ### Tipp 2 (Methode)
 Schritt 1: Tagesleistung beider Firmen addieren: 3 + 4,5 = 7,5 m pro Tag.
-Schritt 2: Gesamtlaenge ÷ Tagesleistung = Anzahl Tage.
+Schritt 2: Gesamtlänge ÷ Tagesleistung = Anzahl Tage.
 Schritt 3: Einzelleistung = Tage × Tagesleistung pro Firma.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Zusammen schaffen sie 7,5 m pro Tag.
-100 Tage: 100 × 7,5 = 750 m (Haelfte).
+100 Tage: 100 × 7,5 = 750 m (Hälfte).
 200 Tage: 200 × 7,5 = ? Ist das der ganze Tunnel?
 
 ### Didaktischer Hinweis
-Klassische Begegnungsaufgabe, umformuliert als Tunnelbau. Die Skizze zeigt die Gegenlaeuifgkeit. Die Division 1.500 ÷ 7,5 kann durch Verdoppeln vereinfacht werden: 3.000 ÷ 15 = 200. Teil b) festigt die Rueckrechnung.
+Klassische Begegnungsaufgabe, umformuliert als Tunnelbau. Die Skizze zeigt die Gegenläuifgkeit. Die Division 1.500 ÷ 7,5 kann durch Verdoppeln vereinfacht werden: 3.000 ÷ 15 = 200. Teil b) festigt die Rückrechnung.
 
 ---
 
 ## Aufgabe 30
 
 ---
-titel: "Skizze zeichnen — Gartenzaun und Gemuesebeet"
+titel: "Skizze zeichnen — Gartenzaun und Gemüsebeet"
 typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: orange
 buchseite: 71
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
 Zeichne eine Skizze und löse die Aufgabe.
 
-Ein Bauer will seinen rechteckigen Garten einzaeunen. Er hat einen Zaun von 22 m Laenge gekauft. Der Garten ist 7 m lang und 3 m breit. Er soll ein Tor von 1 m Breite bekommen.
+Ein Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 22 m Länge gekauft. Der Garten ist 7 m lang und 3 m breit. Er soll ein Tor von 1 m Breite bekommen.
 
-Reicht der Zaun fuer den Garten mit Tor?
+Reicht der Zaun für den Garten mit Tor?
 
 ### Lösung
-Ja, der Zaun reicht. Der Umfang ohne Tor ist: 2 × 7 + 2 × 3 − 1 = 14 + 6 − 1 = 19 m. Es bleiben sogar 22 − 19 = 3 m Zaun uebrig.
+Ja, der Zaun reicht. Der Umfang ohne Tor ist: 2 × 7 + 2 × 3 − 1 = 14 + 6 − 1 = 19 m. Es bleiben sogar 22 − 19 = 3 m Zaun übrig.
 
 ### Lösungsweg
 Phase 1 — Skizze: Rechteck mit 7 m × 3 m, ein Tor (1 m) an einer Seite
 Phase 2 — Umfang des Rechtecks: 2 × 7 + 2 × 3 = 14 + 6 = 20 m
 Phase 3 — Beim Tor braucht man keinen Zaun: 20 − 1 = 19 m
-Vergleich: 19 m < 22 m → Der Zaun reicht, es bleiben 3 m uebrig.
+Vergleich: 19 m < 22 m → Der Zaun reicht, es bleiben 3 m übrig.
 
 ### Tipp 1 (Denkanstoß)
 Zeichne den Garten als Rechteck. Wie lang ist der Zaun, den du rundherum brauchst? Vergiss nicht: Beim Tor brauchst du keinen Zaun!
 
 ### Tipp 2 (Methode)
-Schritt 1: Berechne den Umfang des Rechtecks: U = 2 × Laenge + 2 × Breite.
-Schritt 2: Ziehe die Torbreite ab (dort ist kein Zaun noetig).
-Schritt 3: Vergleiche mit der verfuegbaren Zaunlaenge (22 m).
+Schritt 1: Berechne den Umfang des Rechtecks: U = 2 × Länge + 2 × Breite.
+Schritt 2: Ziehe die Torbreite ab (dort ist kein Zaun nötig).
+Schritt 3: Vergleiche mit der verfügbaren Zaunlänge (22 m).
 
 ### Tipp 3 (Schritt-für-Schritt)
-Umfang: 2 × 7 = 14, 2 × 3 = 6. Gesamt: 14 + 6 = 20 m. Jetzt kommt das Tor: 20 − 1 = 19 m Zaun noetig. Reichen 22 m?
+Umfang: 2 × 7 = 14, 2 × 3 = 6. Gesamt: 14 + 6 = 20 m. Jetzt kommt das Tor: 20 − 1 = 19 m Zaun nötig. Reichen 22 m?
 
 ### Didaktischer Hinweis
 Umfangsberechnung im Sachkontext mit einer Zusatzbedingung (Tor). Die Skizze ist wichtig, um zu verstehen, warum man die Torbreite subtrahiert. Die Ja/Nein-Frage am Ende erfordert einen Vergleich — eine wichtige Sachrechen-Kompetenz.
@@ -1490,32 +1526,34 @@ Umfangsberechnung im Sachkontext mit einer Zusatzbedingung (Tor). Die Skizze ist
 ## Aufgabe 31
 
 ---
-titel: "Skizze zeichnen — Holzleiste zersaegen"
+titel: "Skizze zeichnen — Holzleiste zersägen"
 typ: textaufgabe
 thema: "Lösungshilfe: Skizze"
 schwierigkeit: grün
 buchseite: 71
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "skizze"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s70-skizze-intro.webp"
+tipp_2_bild: "assets/erklaerungen/s70-skizze-intro.webp"
 ---
 
 ### Aufgabenstellung
 Zeichne eine Skizze und löse die Aufgabe.
 
-a) Eine Holzleiste ist 2 m lang. Sie wird in 50 cm lange Stuecke zersaegt. Wie viele Stuecke erhaelt man? Wie viele Schnitte sind noetig?
+a) Eine Holzleiste ist 2 m lang. Sie wird in 50 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?
 
-b) Eine Holzleiste ist 3 m lang. Sie wird in 5 cm lange Stuecke zersaegt. Wie viele Stuecke erhaelt man? Wie viele Schnitte sind noetig?
+b) Eine Holzleiste ist 3 m lang. Sie wird in 5 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?
 
 ### Lösung
-a) 4 Stuecke, 3 Schnitte
-b) 60 Stuecke, 59 Schnitte
+a) 4 Stücke, 3 Schnitte
+b) 60 Stücke, 59 Schnitte
 
 ### Lösungsweg
-a) 2 m = 200 cm. 200 ÷ 50 = 4 Stuecke. Schnitte = Stuecke − 1 = 3.
-b) 3 m = 300 cm. 300 ÷ 5 = 60 Stuecke. Schnitte = Stuecke − 1 = 59.
+a) 2 m = 200 cm. 200 ÷ 50 = 4 Stücke. Schnitte = Stücke − 1 = 3.
+b) 3 m = 300 cm. 300 ÷ 5 = 60 Stücke. Schnitte = Stücke − 1 = 59.
 
-Skizze fuer a):
+Skizze für a):
 ```
 |——50 cm——|——50 cm——|——50 cm——|——50 cm——|
           ↑         ↑         ↑
@@ -1523,16 +1561,16 @@ Skizze fuer a):
 ```
 
 ### Tipp 1 (Denkanstoß)
-Zeichne die Leiste als langen Strich. Markiere, wo du schneiden wuerdest. Zaehle die Stuecke und die Schnittlinien!
+Zeichne die Leiste als langen Strich. Markiere, wo du schneiden würdest. Zähle die Stücke und die Schnittlinien!
 
 ### Tipp 2 (Methode)
-Stuecke = Gesamtlaenge ÷ Stuecklaenge. Aber Achtung: Die Anzahl Schnitte ist immer eins weniger als die Anzahl Stuecke! Denn das letzte Stueck wird nicht mehr geschnitten.
+Stücke = Gesamtlänge ÷ Stücklänge. Aber Achtung: Die Anzahl Schnitte ist immer eins weniger als die Anzahl Stücke! Denn das letzte Stück wird nicht mehr geschnitten.
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 2 m = 200 cm. 200 ÷ 50 = 4 Stuecke. Male sie in eine Skizze: |—|—|—|—|. Zaehle die Trennlinien: Wie viele sind es?
+a) 2 m = 200 cm. 200 ÷ 50 = 4 Stücke. Male sie in eine Skizze: |—|—|—|—|. Zähle die Trennlinien: Wie viele sind es?
 
 ### Didaktischer Hinweis
-Klassische "Zaun-Pfosten-Aufgabe": Die Anzahl der Schnitte ist immer eins weniger als die Anzahl der Stuecke. Die Skizze macht diesen Zusammenhang sofort sichtbar. Ohne Skizze raten viele Kinder falsch (4 Stuecke → 4 Schnitte).
+Klassische "Zaun-Pfosten-Aufgabe": Die Anzahl der Schnitte ist immer eins weniger als die Anzahl der Stücke. Die Skizze macht diesen Zusammenhang sofort sichtbar. Ohne Skizze raten viele Kinder falsch (4 Stücke → 4 Schnitte).
 
 ---
 
@@ -1546,21 +1584,22 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Leo geht jeden Tag zur Schule. Sein Weg fuehrt:
-- Von zu Hause zum Baecker: 350 m
-- Vom Baecker zur Bushaltestelle: 220 m
+Leo geht jeden Tag zur Schule. Sein Weg führt:
+- Von zu Hause zum Bäcker: 350 m
+- Vom Bäcker zur Bushaltestelle: 220 m
 - Von der Bushaltestelle zur Schule: 180 m
 
 Wie lang ist Leos gesamter Schulweg?
 
 ### Lösung
-750 m
+750
 
 ### Lösungsweg
 Alle Teilstrecken addieren: 350 + 220 + 180 = 750 m.
@@ -1587,26 +1626,27 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
 Auf der Radtour-Karte stehen folgende Entfernungen:
 - Sonnendorf → Talheim: 3,4 km
-- Talheim → Berghoehe: 5,8 km
+- Talheim → Berghöhe: 5,8 km
 
-Wie weit ist es von Sonnendorf nach Berghoehe?
+Wie weit ist es von Sonnendorf nach Berghöhe?
 
 ### Lösung
-9,2 km
+9,2
 
 ### Lösungsweg
 3,4 + 5,8 = 9,2 km.
 
 ### Tipp 1 (Denkanstoß)
-Wie weit muss man insgesamt radeln, wenn man beide Strecken hintereinander faehrt?
+Wie weit muss man insgesamt radeln, wenn man beide Strecken hintereinander fährt?
 
 ### Tipp 2 (Methode)
 Addiere die Kilometerzahlen. Achte auf das Komma: Erst die Zehntel addieren, dann die ganzen Kilometer.
@@ -1615,39 +1655,40 @@ Addiere die Kilometerzahlen. Achte auf das Komma: Erst die Zehntel addieren, dan
 Zehntel: 4 + 8 = 12 Zehntel = 1,2. Ganze km: 3 + 5 = 8. Zusammen: 8 + 1,2 = 9,2 km.
 
 ### Didaktischer Hinweis
-Erste Dezimalzahl-Addition. Der Uebertrag bei den Zehntel (4+8=12) ist die Haupthuerde.
+Erste Dezimalzahl-Addition. Der Übertrag bei den Zehntel (4+8=12) ist die Haupthürde.
 
 ---
 
 ## Aufgabe 34
 
 ---
-titel: "Wandertag — Hin- und Rueckweg"
+titel: "Wandertag — Hin- und Rückweg"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
 Die Klasse 4a wandert zum Waldspielplatz. Der Weg ist 2,5 km lang.
 
-a) Wie viele Kilometer laufen die Kinder hin und zurueck zusammen?
+a) Wie viele Kilometer laufen die Kinder hin und zurück zusammen?
 b) Die Halbzeit-Pause ist nach 1,2 km. Wie weit ist es von der Pause zum Spielplatz?
 
 ### Lösung
-a) 5 km
-b) 1,3 km
+a) 5
+b) 1,3
 
 ### Lösungsweg
-a) Hin + Zurueck = 2,5 + 2,5 = 5,0 km.
+a) Hin + Zurück = 2,5 + 2,5 = 5,0 km.
 b) Gesamtweg − bereits gelaufen = 2,5 − 1,2 = 1,3 km.
 
 ### Tipp 1 (Denkanstoß)
-Bei a): Wenn du denselben Weg zurueckgehst — wie weit bist du insgesamt gelaufen?
+Bei a): Wenn du denselben Weg zurückgehst — wie weit bist du insgesamt gelaufen?
 
 ### Tipp 2 (Methode)
 a) Verdopple die Strecke. b) Ziehe die gelaufene Strecke vom Gesamtweg ab.
@@ -1656,7 +1697,7 @@ a) Verdopple die Strecke. b) Ziehe die gelaufene Strecke vom Gesamtweg ab.
 a) 2,5 + 2,5 = 5 km. b) 2,5 − 1,2 = 1,3 km.
 
 ### Didaktischer Hinweis
-Hin-und-zurueck ist ein Grundkonzept. Teilaufgabe b) trainiert Subtraktion mit Dezimalzahlen.
+Hin-und-zurück ist ein Grundkonzept. Teilaufgabe b) trainiert Subtraktion mit Dezimalzahlen.
 
 ---
 
@@ -1668,18 +1709,19 @@ typ: auswahl
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Auf der Karte sind die Entfernungen zwischen vier Staedten eingetragen:
+Auf der Karte sind die Entfernungen zwischen vier Städten eingetragen:
 - Lingen → Meppen: 25 km
 - Meppen → Papenburg: 18 km
 - Papenburg → Leer: 22 km
 
-Welche Strecke ist die laengste?
+Welche Strecke ist die längste?
 
 A) Lingen → Meppen
 B) Meppen → Papenburg
@@ -1689,16 +1731,16 @@ C) Papenburg → Leer
 A
 
 ### Lösungsweg
-Vergleiche: 25 km > 22 km > 18 km. Die laengste Strecke ist Lingen → Meppen mit 25 km.
+Vergleiche: 25 km > 22 km > 18 km. Die längste Strecke ist Lingen → Meppen mit 25 km.
 
 ### Tipp 1 (Denkanstoß)
-Vergleiche die drei Kilometer-Zahlen. Welche ist am groessten?
+Vergleiche die drei Kilometer-Zahlen. Welche ist am größten?
 
 ### Tipp 2 (Methode)
-Schreibe die drei Zahlen untereinander und vergleiche Stelle fuer Stelle.
+Schreibe die drei Zahlen untereinander und vergleiche Stelle für Stelle.
 
 ### Tipp 3 (Schritt-für-Schritt)
-25, 18, 22. Die groesste Zahl ist 25. Also ist Lingen → Meppen mit 25 km am laengsten.
+25, 18, 22. Die größte Zahl ist 25. Also ist Lingen → Meppen mit 25 km am längsten.
 
 ### Didaktischer Hinweis
 Einfache Vergleichsaufgabe — Einstieg ins Kartenthema. Trainiert das Ablesen und Vergleichen von Entfernungen.
@@ -1713,34 +1755,35 @@ typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
 Von Ahausen nach Clausen gibt es zwei Wege:
 - Direkter Weg: 8,4 km
-- Ueber Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km
+- Über Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km
 
-a) Wie lang ist der Weg ueber Birken?
-b) Wie viel laenger ist der Umweg?
+a) Wie lang ist der Weg über Birken?
+b) Wie viel länger ist der Umweg?
 
 ### Lösung
-a) 9,9 km
-b) 1,5 km
+a) 9,9
+b) 1,5
 
 ### Lösungsweg
 a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km Umweg.
 
 ### Tipp 1 (Denkanstoß)
-Berechne zuerst den Umweg. Dann ueberlege: Wie viel mehr ist das als der direkte Weg?
+Berechne zuerst den Umweg. Dann überlege: Wie viel mehr ist das als der direkte Weg?
 
 ### Tipp 2 (Methode)
 a) Addiere die zwei Teilstrecken. b) Ziehe den direkten Weg vom Umweg ab.
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km. Der Umweg ist 1,5 km laenger.
+a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km. Der Umweg ist 1,5 km länger.
 
 ### Didaktischer Hinweis
 Kombination aus Addition und Subtraktion. Das Konzept "Umweg = Differenz" ist alltagsnah.
@@ -1750,18 +1793,19 @@ Kombination aus Addition und Subtraktion. Das Konzept "Umweg = Differenz" ist al
 ## Aufgabe 37
 
 ---
-titel: "Marathonlauf — grosse Strecken"
+titel: "Marathonlauf — große Strecken"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Ein Marathon ist 42 km lang. Der Laeufer hat schon diese Abschnitte geschafft:
+Ein Marathon ist 42 km lang. Der Läufer hat schon diese Abschnitte geschafft:
 - Start → Kilometer 15: 15 km
 - Kilometer 15 → Kilometer 28: 13 km
 
@@ -1769,14 +1813,14 @@ a) Wie viele Kilometer hat er schon geschafft?
 b) Wie viele Kilometer fehlen noch bis ins Ziel?
 
 ### Lösung
-a) 28 km
-b) 14 km
+a) 28
+b) 14
 
 ### Lösungsweg
 a) 15 + 13 = 28 km. b) 42 − 28 = 14 km.
 
 ### Tipp 1 (Denkanstoß)
-Wie weit ist der Laeufer insgesamt gelaufen? Und wie weit muss er noch?
+Wie weit ist der Läufer insgesamt gelaufen? Und wie weit muss er noch?
 
 ### Tipp 2 (Methode)
 a) Addiere die gelaufenen Abschnitte. b) Ziehe das Ergebnis von der Gesamtstrecke ab.
@@ -1785,7 +1829,7 @@ a) Addiere die gelaufenen Abschnitte. b) Ziehe das Ergebnis von der Gesamtstreck
 a) 15 + 13 = 28 km geschafft. b) 42 − 28 = 14 km fehlen noch.
 
 ### Didaktischer Hinweis
-Groesserer Zahlenraum, aber ohne Dezimalstellen. Alltagsbezug Sport motiviert.
+Größerer Zahlenraum, aber ohne Dezimalstellen. Alltagsbezug Sport motiviert.
 
 ---
 
@@ -1797,18 +1841,19 @@ typ: schritt
 thema: "Entfernungen"
 schwierigkeit: grün
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Die Familie faehrt in den Urlaub. Die Route:
+Die Familie fährt in den Urlaub. Die Route:
 - Zuhause → Raststätte: 145 km
 - Raststätte → Grenze: 87 km
 - Grenze → Hotel: 63 km
 
-Rechne Schritt fuer Schritt:
+Rechne Schritt für Schritt:
 a) Wie weit ist es bis zur Raststätte?
 b) Wie weit ist es bis zur Grenze?
 c) Wie weit ist die gesamte Fahrt?
@@ -1822,10 +1867,10 @@ c) 295 km
 a) 145 km (direkt abgelesen). b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.
 
 ### Tipp 1 (Denkanstoß)
-Die Teilstrecken werden immer laenger, je weiter du rechnest. Fang beim ersten Abschnitt an.
+Die Teilstrecken werden immer länger, je weiter du rechnest. Fang beim ersten Abschnitt an.
 
 ### Tipp 2 (Methode)
-Addiere die Strecken nacheinander: erst bis zur Raststätte, dann plus naechster Abschnitt, dann plus letzter.
+Addiere die Strecken nacheinander: erst bis zur Raststätte, dann plus nächster Abschnitt, dann plus letzter.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 145 km. b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.
@@ -1843,9 +1888,10 @@ typ: reihenfolge
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1855,22 +1901,22 @@ Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:
 - Mia: 2,4 km
 - Ben: 1,3 km
 
-Ordne die Kinder nach ihrem Schulweg. Beginne mit dem laengsten Weg.
+Ordne die Kinder nach ihrem Schulweg. Beginne mit dem längsten Weg.
 
 ### Lösung
 Mia (2,4 km) > Emma (1,8 km) > Ben (1,3 km) > Luis (0,9 km)
 
 ### Lösungsweg
-Vergleiche die Kilometerzahlen und ordne von gross nach klein: 2,4 > 1,8 > 1,3 > 0,9.
+Vergleiche die Kilometerzahlen und ordne von groß nach klein: 2,4 > 1,8 > 1,3 > 0,9.
 
 ### Tipp 1 (Denkanstoß)
-Wer hat die groesste Zahl vor dem Komma? Und wenn die gleich ist — schau auf die Zehntel.
+Wer hat die größte Zahl vor dem Komma? Und wenn die gleich ist — schau auf die Zehntel.
 
 ### Tipp 2 (Methode)
-Schreibe alle vier Zahlen untereinander. Sortiere von gross nach klein.
+Schreibe alle vier Zahlen untereinander. Sortiere von groß nach klein.
 
 ### Tipp 3 (Schritt-für-Schritt)
-2,4 ist am groessten (Mia). Dann 1,8 (Emma). Dann 1,3 (Ben). Am kuerzesten: 0,9 (Luis).
+2,4 ist am größten (Mia). Dann 1,8 (Emma). Dann 1,3 (Ben). Am kürzesten: 0,9 (Luis).
 
 ### Didaktischer Hinweis
 Sortieraufgabe mit Dezimalzahlen und Personenbezug — motivierend und alltagsnah.
@@ -1885,9 +1931,10 @@ typ: textaufgabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
@@ -1899,8 +1946,8 @@ Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:
 | 2 | Seeblick → Waldrand | 22,3 km |
 | 3 | Waldrand → Stadtpark | 16,8 km |
 
-a) An welchem Tag faehrt Lina am weitesten?
-b) Wie viele Kilometer faehrt sie insgesamt?
+a) An welchem Tag fährt Lina am weitesten?
+b) Wie viele Kilometer fährt sie insgesamt?
 c) Wie viel weiter ist Tag 2 als Tag 3?
 
 ### Lösung
@@ -1912,10 +1959,10 @@ c) 5,5 km
 a) 22,3 > 18,5 > 16,8 → Tag 2. b) 18,5 + 22,3 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.
 
 ### Tipp 1 (Denkanstoß)
-Lies die Tabelle: Welche Entfernung ist die groesste? Fuer die Gesamtlaenge musst du alle drei addieren.
+Lies die Tabelle: Welche Entfernung ist die größte? Für die Gesamtlänge musst du alle drei addieren.
 
 ### Tipp 2 (Methode)
-a) Vergleiche die drei Zahlen. b) Addiere alle drei. c) Subtrahiere die kleinere von der groesseren.
+a) Vergleiche die drei Zahlen. b) Addiere alle drei. c) Subtrahiere die kleinere von der größeren.
 
 ### Tipp 3 (Schritt-für-Schritt)
 a) 22,3 km ist am meisten → Tag 2. b) 18,5 + 22,3 = 40,8. 40,8 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.
@@ -1928,31 +1975,32 @@ Kombination aus Tabelle lesen, Vergleichen, Addieren und Subtrahieren. Fordert m
 ## Aufgabe 41
 
 ---
-titel: "Unbekannte Teilstrecke — rueckwaerts rechnen"
+titel: "Unbekannte Teilstrecke — rückwärts rechnen"
 typ: eingabe
 thema: "Entfernungen"
 schwierigkeit: orange
 buchseite: 68
-kapitel: "06-gewichte-laengen-skizzen"
+kapitel: "06-gewichte-längen-skizzen"
 stage_id: "entfernungen-km"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s68-merkkasten-kilometer-meter.webp"
 ---
 
 ### Aufgabenstellung
-Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg fuehrt ueber Bstadt und Cstadt.
+Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg führt über Bstadt und Cstadt.
 - Astadt → Bstadt: 7,3 km
 - Cstadt → Dstadt: 9,8 km
 
 Wie weit ist es von Bstadt nach Cstadt?
 
 ### Lösung
-7,5 km
+7,5
 
 ### Lösungsweg
 Bekannte Strecken: 7,3 + 9,8 = 17,1 km. Unbekannt: 24,6 − 17,1 = 7,5 km.
 
 ### Tipp 1 (Denkanstoß)
-Du kennst die Gesamtstrecke und zwei von drei Teilstuecken. Was ist das dritte?
+Du kennst die Gesamtstrecke und zwei von drei Teilstücken. Was ist das dritte?
 
 ### Tipp 2 (Methode)
 Addiere die bekannten Strecken. Ziehe das Ergebnis von der Gesamtstrecke ab.
@@ -1961,4 +2009,4 @@ Addiere die bekannten Strecken. Ziehe das Ergebnis von der Gesamtstrecke ab.
 7,3 + 9,8 = 17,1 km (bekannt). 24,6 − 17,1 = 7,5 km (unbekannt).
 
 ### Didaktischer Hinweis
-Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie fuer Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.
+Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie für Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.

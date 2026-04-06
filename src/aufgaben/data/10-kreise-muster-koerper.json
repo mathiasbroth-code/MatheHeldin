@@ -1,0 +1,1202 @@
+[
+  {
+    "titel": "Kreis-Begriffe zuordnen — Mittelpunkt, Radius, Kreislinie",
+    "typ": "zuordnung",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Begriffe dem richtigen Teil des Kreises zu.\n\nBegriffe: Mittelpunkt (M), Radius (r), Kreislinie\n\nBeschreibungen:\nA) Die Linie, die den Kreis bildet — alle Punkte haben den gleichen Abstand vom Mittelpunkt.\nB) Der Punkt genau in der Mitte des Kreises.\nC) Die Strecke vom Mittelpunkt bis zur Kreislinie.",
+    "loesung": "A) Kreislinie\nB) Mittelpunkt (M)\nC) Radius (r)",
+    "loesungsweg": "Ein Kreis hat drei wichtige Bestandteile:\n- Der **Mittelpunkt** (M) ist der Punkt genau in der Mitte.\n- Der **Radius** (r) ist die Strecke vom Mittelpunkt bis zum Rand.\n- Die **Kreislinie** ist der Rand des Kreises — jeder Punkt auf der Kreislinie hat den gleichen Abstand zum Mittelpunkt.",
+    "tipps": [
+      "Stell dir vor, du steckst einen Zirkel in ein Blatt Papier. Wo sticht die Nadel ein? Und was zeichnet der Stift?",
+      "Zeichne einen Kreis in Gedanken: Die Nadel sticht ein — das ist der Mittelpunkt. Der Stift fährt herum — das ist die Kreislinie. Der Abstand zwischen Nadel und Stift — das ist der Radius.",
+      "Der Punkt in der Mitte heißt M = ___. Die Linie drumherum heißt ___. Und die Strecke von der Mitte zum Rand heißt r = ___.",
+      "Ein Kreis hat drei wichtige Bestandteile:\n- Der **Mittelpunkt** (M) ist der Punkt genau in der Mitte.\n- Der **Radius** (r) ist die Strecke vom Mittelpunkt bis zum Rand.\n- Die **Kreislinie** ist der Rand des Kreises — jeder Punkt auf der Kreislinie hat den gleichen Abstand zum Mittelpunkt."
+    ],
+    "didaktischerHinweis": "Grundbegriffe des Kreises müssen sicher sitzen, bevor mit dem Zirkel gearbeitet wird. Entspricht S. 104, Einleitungskasten.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Begriffe dem richtigen Teil des Kreises zu.\nBegriffe: Mittelpunkt (M), Radius (r), Kreislinie\nBeschreibungen:\nA) Die Linie, die den Kreis bildet — alle Punkte haben den gleichen Abstand vom Mittelpunkt.\nB) Der Punkt genau in der Mitte des Kreises.\nC) Die Strecke vom Mittelpunkt bis zur Kreislinie.",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Charlys Futterplatz — Welche Pflanzen erreicht die Ziege?",
+    "typ": "auswahl",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "voll",
+    "aufgabenstellung": "Die Ziege Charly ist auf einer Wiese an einem Pfosten angebunden. Das Seil ist 3 m lang. Fünf Pflanzen stehen in verschiedenen Abständen zum Pfosten:\n\nA) 2 m entfernt\nB) 3 m entfernt\nC) 4 m entfernt\nD) 1 m entfernt\nE) 5 m entfernt\n\nWelche Pflanzen kann Charly erreichen?\n\na) Wähle alle Pflanzen aus, die Charly fressen kann.\nb) Welche Form hat Charlys Futterplatz?",
+    "loesung": "a) A (2 m), B (3 m), D (1 m) — alle Pflanzen, die höchstens 3 m vom Pfosten entfernt sind.\nb) Charlys Futterplatz hat die Form eines Kreises mit dem Radius 3 m.",
+    "loesungsweg": "Charly kann sich in alle Richtungen bewegen, aber maximal 3 m weit vom Pfosten. Alles, was höchstens 3 m entfernt ist, kann sie erreichen:\n- A: 2 m — ja (2 m < 3 m)\n- B: 3 m — ja (genau am Rand)\n- C: 4 m — nein (4 m > 3 m)\n- D: 1 m — ja (1 m < 3 m)\n- E: 5 m — nein (5 m > 3 m)\n\nDer Futterplatz ist ein Kreis, weil Charly in jede Richtung gleich weit kommt.",
+    "tipps": [
+      "Stell dir vor, du bist an einem Seil festgebunden. Wie weit kannst du in jede Richtung laufen? Welche Form läuft das Seil auf dem Boden ab?",
+      "Vergleiche jeden Abstand mit der Seillänge (3 m). Ist der Abstand kleiner oder gleich 3 m? Dann kann Charly die Pflanze erreichen!",
+      "Pflanze A: 2 m — das Seil ist 3 m lang. 2 m < 3 m, also ja! Pflanze C: 4 m — das Seil ist nur 3 m lang. 4 m > 3 m, also ___. Prüfe so alle Pflanzen.",
+      "Charly kann sich in alle Richtungen bewegen, aber maximal 3 m weit vom Pfosten. Alles, was höchstens 3 m entfernt ist, kann sie erreichen:\n- A: 2 m — ja (2 m < 3 m)\n- B: 3 m — ja (genau am Rand)\n- C: 4 m — nein (4 m > 3 m)\n- D: 1 m — ja (1 m < 3 m)\n- E: 5 m — nein (5 m > 3 m)\n\nDer Futterplatz ist ein Kreis, weil Charly in jede Richtung gleich weit kommt."
+    ],
+    "didaktischerHinweis": "Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greifbar. Entspricht S. 104, Aufg. 1-2.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Die Ziege Charly ist auf einer Wiese an einem Pfosten angebunden. Das Seil ist 3 m lang. Fünf Pflanzen stehen in verschiedenen Abständen zum Pfosten:",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "2 m entfernt"
+        },
+        {
+          "label": "B",
+          "text": "3 m entfernt"
+        },
+        {
+          "label": "C",
+          "text": "4 m entfernt"
+        },
+        {
+          "label": "D",
+          "text": "1 m entfernt"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Kreise mit dem Zirkel zeichnen — verschiedene Radien",
+    "typ": "auswahl",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise-zeichnen",
+    "digital": "voll",
+    "aufgabenstellung": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.\n\na) Welcher Kreis liegt ganz aussen?\nb) Wie nennt man Kreise, die denselben Mittelpunkt haben?\n\na1) Der Kreis mit r = 2 cm\na2) Der Kreis mit r = 5 cm\na3) Der Kreis mit r = 3 cm\n\nb1) Parallele Kreise\nb2) Konzentrische Kreise\nb3) Symmetrische Kreise",
+    "loesung": "a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.\nb) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise.",
+    "loesungsweg": "",
+    "tipps": [
+      "Stell dir die vier Kreise wie Ringe vor, die alle den gleichen Mittelpunkt haben. Welcher Kreis liegt ganz innen, welcher ganz aussen?",
+      "Je größer der Radius, desto größer der Kreis. Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der Kreis mit dem größten Radius liegt ganz aussen.",
+      "Der kleinste Kreis hat r = 2 cm und liegt ganz innen. Der größte Kreis hat r = 5 cm und liegt ganz aussen. Kreise um denselben Mittelpunkt haben einen besonderen Namen — er beginnt mit „kon...\".",
+      "a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.\nb) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise."
+    ],
+    "didaktischerHinweis": "Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Welcher Kreis liegt ganz aussen?"
+        },
+        {
+          "label": "B",
+          "text": "Wie nennt man Kreise, die denselben Mittelpunkt haben?"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Radius am Kreis ablesen",
+    "typ": "eingabe",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "grün",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "voll",
+    "aufgabenstellung": "Schau dir die fünf Kreise an. Bei jedem Kreis ist der Mittelpunkt mit einem Kreuz markiert.\n\nMiss den Radius jedes Kreises (Abstand vom Mittelpunkt zur Kreislinie).\n\na) Kreis A hat einen Radius von ___ mm.\nb) Kreis B hat einen Radius von ___ mm.\nc) Kreis C hat einen Radius von ___ mm.\nd) Kreis D hat einen Radius von ___ mm.\ne) Kreis E hat einen Radius von ___ mm.",
+    "loesung": "a) 8\nb) 15\nc) 12\nd) 20\ne) 25",
+    "loesungsweg": "Der Radius ist die Strecke vom Mittelpunkt (Kreuz) bis zur Kreislinie. Man misst mit dem Lineal vom Kreuz geradeaus bis zum Rand des Kreises.",
+    "tipps": [
+      "Wo liegt der Mittelpunkt? Suche das kleine Kreuz. Der Radius geht von dort bis zum Rand.",
+      "Lege das Lineal so an, dass die 0 genau auf dem Kreuz liegt. Lies ab, wo das Lineal die Kreislinie trifft.",
+      "Bei Kreis A: Das Kreuz ist der Mittelpunkt. Vom Kreuz bis zum Rand sind es ungefähr ___ mm. Achte darauf, in Millimetern abzulesen!",
+      "Der Radius ist die Strecke vom Mittelpunkt (Kreuz) bis zur Kreislinie. Man misst mit dem Lineal vom Kreuz geradeaus bis zum Rand des Kreises."
+    ],
+    "didaktischerHinweis": "Das Ablesen des Radius verbindet Messfähigkeit mit Kreisverständnis. Entspricht S. 104, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schau dir die fünf Kreise an. Bei jedem Kreis ist der Mittelpunkt mit einem Kreuz markiert.\n\nMiss den Radius jedes Kreises (Abstand vom Mittelpunkt zur Kreislinie).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Kreis A hat einen Radius von ___ mm.",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "Kreis B hat einen Radius von ___ mm.",
+          "antwort": "15"
+        },
+        {
+          "label": "c",
+          "frage": "Kreis C hat einen Radius von ___ mm.",
+          "antwort": "12"
+        },
+        {
+          "label": "d",
+          "frage": "Kreis D hat einen Radius von ___ mm.",
+          "antwort": "20"
+        },
+        {
+          "label": "e",
+          "frage": "Kreis E hat einen Radius von ___ mm.",
+          "antwort": "25"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie liegen die Kreise zueinander?",
+    "typ": "zuordnung",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "grün",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne jedes Bild dem richtigen Begriff zu.\n\nBegriffe:\n- ineinanderliegen\n- sich schneiden\n- sich berühren\n\nBilder:\nA) Zwei Kreise, die sich an genau einem Punkt treffen\nB) Zwei Kreise, wobei einer komplett im anderen liegt\nC) Zwei Kreise, die sich an zwei Punkten kreuzen",
+    "loesung": "A) sich berühren\nB) ineinanderliegen\nC) sich schneiden",
+    "loesungsweg": "- **Ineinanderliegen:** Ein Kreis liegt komplett innerhalb des anderen — kein Schnittpunkt.\n- **Sich schneiden:** Die Kreise kreuzen sich — genau zwei Schnittpunkte.\n- **Sich berühren:** Die Kreise treffen sich an genau einem Punkt.",
+    "tipps": [
+      "Zähle die Punkte, an denen sich die Kreislinien treffen. Null Punkte, ein Punkt oder zwei Punkte?",
+      "\"Schneiden\" heißt: Die Linien kreuzen sich (2 Punkte). \"Berühren\" heißt: Die Linien treffen sich nur ganz kurz (1 Punkt). \"Ineinanderliegen\" heißt: Keine Berührung.",
+      "Bei Bild C siehst du zwei Stellen, wo sich die Kreise treffen — das sind ___ Schnittpunkte. Also heißt das: sich ___.",
+      "- **Ineinanderliegen:** Ein Kreis liegt komplett innerhalb des anderen — kein Schnittpunkt.\n- **Sich schneiden:** Die Kreise kreuzen sich — genau zwei Schnittpunkte.\n- **Sich berühren:** Die Kreise treffen sich an genau einem Punkt."
+    ],
+    "didaktischerHinweis": "Die Lagebeziehungen zwischen Kreisen sind ein wichtiges Geometrie-Konzept. Entspricht S. 104, Aufg. 3.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne jedes Bild dem richtigen Begriff zu.\nBegriffe:\n- ineinanderliegen\n- sich schneiden\n- sich berühren\nBilder:\nA) Zwei Kreise, die sich an genau einem Punkt treffen\nB) Zwei Kreise, wobei einer komplett im anderen liegt\nC) Zwei Kreise, die sich an zwei Punkten kreuzen",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Kreismuster mit dem Zirkel — Anleitung befolgen",
+    "typ": "reihenfolge",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "grün",
+    "buchseite": 105,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise-zeichnen",
+    "digital": "voll",
+    "aufgabenstellung": "Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.\n\na) Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis mit demselben Radius\nb) Zeichne einen Kreis mit Radius 3 cm\nc) Verbinde die Mittelpunkte zu einem Dreieck\nd) Stich auf der Kreislinie ein und zeichne einen zweiten Kreis mit Radius 3 cm",
+    "loesung": "b, d, a, c",
+    "loesungsweg": "",
+    "tipps": [
+      "Was muss zuerst da sein, bevor du auf der Kreislinie einstechen kannst? Und was braucht man, bevor es Schnittpunkte gibt?",
+      "Lies die Anleitung Schritt für Schritt: Zuerst EIN Kreis, dann der Zirkel auf die Kreislinie, dann ein neuer Kreis — immer mit dem gleichen Radius!",
+      "Zuerst brauchst du einen Kreis. Dann stichst du auf dessen Kreislinie ein und zeichnest einen zweiten. Erst wenn zwei Kreise sich schneiden, gibt es Schnittpunkte für den dritten. Am Ende verbindest du die Mittelpunkte.",
+      "b, d, a, c"
+    ],
+    "didaktischerHinweis": "Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. Entspricht S. 105, Aufg. 9.",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.",
+      "teilaufgaben": [
+        {
+          "label": "a",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "b",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "c",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "d",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Jettes Kreismuster analysieren — Kreise zählen",
+    "typ": "eingabe",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "orange",
+    "buchseite": 105,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "teilweise",
+    "aufgabenstellung": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:\n\na) Wie viele Kreise hat Jette gezeichnet? ___\nb) Haben alle Kreise den gleichen Radius?\nc) Was hat Jette mit dem Geodreieck gemacht?",
+    "loesung": "a) 7 Kreise\nb) Ja, alle Kreise haben den gleichen Radius.\nc) Sie hat die Schnittpunkte der Kreise mit geraden Linien verbunden und so ein Sternmuster gezeichnet.",
+    "loesungsweg": "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise",
+    "tipps": [
+      "Fahre mit dem Finger jeden Kreis einzeln nach. Zähle dabei mit. Achte darauf, keinen doppelt zu zählen!",
+      "Beginne mit dem Kreis in der Mitte. Dann zähle alle Kreise, die den mittleren Kreis schneiden. Sind es 4, 5 oder 6?",
+      "In der Mitte ist 1 Kreis. Um ihn herum liegen ___ weitere Kreise. Insgesamt sind es also 1 + ___ = ___ Kreise.",
+      "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise"
+    ],
+    "didaktischerHinweis": "Das Analysieren eines fertigen Musters fördert die visuelle Wahrnehmung und das Verständnis für geometrische Strukturen. Entspricht S. 105, Aufg. 7.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kreise hat Jette gezeichnet? ___",
+          "antwort": "7 Kreise"
+        },
+        {
+          "label": "b",
+          "frage": "Haben alle Kreise den gleichen Radius?",
+          "antwort": "Ja, alle Kreise haben den gleichen Radius."
+        },
+        {
+          "label": "c",
+          "frage": "Was hat Jette mit dem Geodreieck gemacht?",
+          "antwort": "Sie hat die Schnittpunkte der Kreise mit geraden Linien verbunden und so ein Sternmuster gezeichnet."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Kreismuster: Figuren aus Kreisen erkennen",
+    "typ": "auswahl",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "orange",
+    "buchseite": 105,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise",
+    "digital": "voll",
+    "aufgabenstellung": "Wenn man die Schnittpunkte von Kreisen mit geraden Linien verbindet, entstehen geometrische Formen. Welche Form entsteht, wenn man die drei Mittelpunkte von drei gleich großen Kreisen verbindet, die sich jeweils schneiden?\n\na) Quadrat\nb) Gleichseitiges Dreieck\nc) Rechteck\nd) Sechseck",
+    "loesung": "b) Gleichseitiges Dreieck",
+    "loesungsweg": "Drei gleich große Kreise, die sich paarweise schneiden und deren Mittelpunkte jeweils auf der Kreislinie des Nachbarkreises liegen, bilden ein gleichseitiges Dreieck:\n- Alle drei Seiten sind gleich lang (= Radius)\n- Alle drei Winkel sind gleich groß (60 Grad)",
+    "tipps": [
+      "Wenn alle drei Kreise den gleichen Radius haben und sich gegenseitig schneiden — wie weit sind die Mittelpunkte dann voneinander entfernt?",
+      "Der Abstand zwischen zwei Mittelpunkten ist genau so groß wie der Radius. Wenn alle drei Abstände gleich sind, entsteht ein Dreieck mit drei gleich langen Seiten.",
+      "Seite 1 = Radius, Seite 2 = Radius, Seite 3 = Radius. Drei gleich lange Seiten — das ist ein ___ Dreieck.",
+      "Drei gleich große Kreise, die sich paarweise schneiden und deren Mittelpunkte jeweils auf der Kreislinie des Nachbarkreises liegen, bilden ein gleichseitiges Dreieck:\n- Alle drei Seiten sind gleich lang (= Radius)\n- Alle drei Winkel sind gleich groß (60 Grad)"
+    ],
+    "didaktischerHinweis": "Die Verbindung von Kreiskonstruktion und Dreieck ist ein Klassiker der Geometrie. Entspricht S. 105, Aufg. 9 (Schritt 4).",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Wenn man die Schnittpunkte von Kreisen mit geraden Linien verbindet, entstehen geometrische Formen. Welche Form entsteht, wenn man die drei Mittelpunkte von drei gleich großen Kreisen verbindet, die sich jeweils schneiden?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Quadrat"
+        },
+        {
+          "label": "B",
+          "text": "Gleichseitiges Dreieck"
+        },
+        {
+          "label": "C",
+          "text": "Rechteck"
+        },
+        {
+          "label": "D",
+          "text": "Sechseck"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Parkettierung erkennen — Grundfigur und Spiegelachsen",
+    "typ": "auswahl",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 106,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Bei einer Parkettierung wird eine Grundfigur so oft wiederholt, dass keine Lücken und keine Überlappungen entstehen.\n\nWelche Aussage stimmt?\n\na) Bei einer Parkettierung dürfen sich die Formen überlappen.\nb) Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen.\nc) Bei einer Parkettierung dürfen Lücken zwischen den Formen sein.\nd) Eine Parkettierung funktioniert nur mit Quadraten.",
+    "loesung": "b) Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen.",
+    "loesungsweg": "Eine Parkettierung ist wie ein Fliesenboden: Die Fliesen müssen lückenlos und ohne Überlappung die gesamte Fläche bedecken. Das geht mit verschiedenen Formen — nicht nur mit Quadraten!",
+    "tipps": [
+      "Stell dir einen Fussboden mit Fliesen vor. Dürfen da Lücken oder Überlappungen sein?",
+      "Das Wort \"Parkettierung\" kommt von \"Parkett\" — einem Fussboden. Überlege: Was muss ein guter Fussboden erfüllen?",
+      "Ein Parkettboden hat keine ___. Die Fliesen überlappen sich auch nicht. Also: Die Formen liegen ___ aneinander.",
+      "Eine Parkettierung ist wie ein Fliesenboden: Die Fliesen müssen lückenlos und ohne Überlappung die gesamte Fläche bedecken. Das geht mit verschiedenen Formen — nicht nur mit Quadraten!"
+    ],
+    "didaktischerHinweis": "Die Einführung des Begriffs \"Parkettierung\" mit Alltagsbezug (Fussboden) erleichtert das Verständnis. Entspricht S. 106, Einleitung.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Bei einer Parkettierung wird eine Grundfigur so oft wiederholt, dass keine Lücken und keine Überlappungen entstehen.\n\nWelche Aussage stimmt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Bei einer Parkettierung dürfen sich die Formen überlappen."
+        },
+        {
+          "label": "B",
+          "text": "Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen."
+        },
+        {
+          "label": "C",
+          "text": "Bei einer Parkettierung dürfen Lücken zwischen den Formen sein."
+        },
+        {
+          "label": "D",
+          "text": "Eine Parkettierung funktioniert nur mit Quadraten."
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Welche Grundformen parkettieren?",
+    "typ": "auswahl",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "gelb",
+    "buchseite": 106,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Welche dieser Grundformen können die Fläche lückenlos bedecken?\n\na) Quadrat\nb) Kreis\nc) Dreieck (gleichseitig)\nd) Sechseck (regelmässig)\n\nWähle alle richtigen Antworten aus.",
+    "loesung": "a) Quadrat — ja\nb) Kreis — nein\nc) Dreieck (gleichseitig) — ja\nd) Sechseck (regelmässig) — ja",
+    "loesungsweg": "- **Quadrate** parkettieren: Man kann sie in Reihen und Spalten anordnen.\n- **Kreise** parkettieren NICHT: Zwischen Kreisen bleiben immer Lücken.\n- **Gleichseitige Dreiecke** parkettieren: Man legt sie abwechselnd normal und auf den Kopf.\n- **Regelmässige Sechsecke** parkettieren: Wie Bienenwaben!",
+    "tipps": [
+      "Stell dir jede Form als Fliese vor. Kannst du damit einen Boden lückenlos auslegen? Bei welcher Form bleiben Lücken?",
+      "Probiere es im Kopf: Lege vier Quadrate zusammen — passt! Lege vier Kreise zusammen — was ist dazwischen?",
+      "Quadrate passen, weil vier Ecken genau zusammentreffen (4 · 90° = 360°). Bei Kreisen bleiben ___ zwischen den runden Formen.",
+      "- **Quadrate** parkettieren: Man kann sie in Reihen und Spalten anordnen.\n- **Kreise** parkettieren NICHT: Zwischen Kreisen bleiben immer Lücken.\n- **Gleichseitige Dreiecke** parkettieren: Man legt sie abwechselnd normal und auf den Kopf.\n- **Regelmässige Sechsecke** parkettieren: Wie Bienenwaben!"
+    ],
+    "didaktischerHinweis": "Die Erkenntnis, dass nicht jede Form parkettiert, ist zentral. Der Kreis ist das wichtigste Gegenbeispiel. Entspricht S. 106, Aufg. 1.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Welche dieser Grundformen können die Fläche lückenlos bedecken?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Quadrat"
+        },
+        {
+          "label": "B",
+          "text": "Kreis"
+        },
+        {
+          "label": "C",
+          "text": "Dreieck (gleichseitig)"
+        },
+        {
+          "label": "D",
+          "text": "Sechseck (regelmässig)"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Spiegelachsen in der Parkettierung finden",
+    "typ": "eingabe",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "grün",
+    "buchseite": 106,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.\n\na) Wie viele Spiegelachsen hat die Grundfigur? ___\nb) In welche Richtungen wird die Grundfigur gespiegelt?\n\nWähle aus: nur waagerecht / nur senkrecht / waagerecht und senkrecht / in alle Richtungen",
+    "loesung": "a) 2\nb) waagerecht und senkrecht",
+    "loesungsweg": "Die Grundfigur (z.B. ein Dreiecksmuster) wird an einer waagerechten und einer senkrechten Achse gespiegelt. So entsteht ein sich wiederholendes Muster in beide Richtungen.",
+    "tipps": [
+      "Stell dir vor, du legst einen Spiegel an eine Seite der Grundfigur. Entsteht dann genau das Muster, das daneben liegt?",
+      "Suche die Stellen, an denen sich das Muster \"wiederholt\". Ist die rechte Seite das Spiegelbild der linken? Ist die obere Seite das Spiegelbild der unteren?",
+      "Lege einen gedachten Spiegel waagerecht durch die Mitte. Ist die obere Hälfte das Spiegelbild der unteren? Ja! Also gibt es mindestens ___ Spiegelachse(n).",
+      "Die Grundfigur (z.B. ein Dreiecksmuster) wird an einer waagerechten und einer senkrechten Achse gespiegelt. So entsteht ein sich wiederholendes Muster in beide Richtungen."
+    ],
+    "didaktischerHinweis": "Das Erkennen von Spiegelachsen in Parkettierungen vertieft das Symmetrieverständnis. Entspricht S. 106, Aufg. 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bei der abgebildeten Parkettierung wird die Grundfigur mehrfach gespiegelt.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Spiegelachsen hat die Grundfigur? ___",
+          "antwort": "2"
+        },
+        {
+          "label": "b",
+          "frage": "In welche Richtungen wird die Grundfigur gespiegelt?",
+          "antwort": "waagerecht und senkrecht"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Parkettierung fortsetzen — Muster ergänzen",
+    "typ": "eingabe",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "grün",
+    "buchseite": 106,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "teilweise",
+    "aufgabenstellung": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"\n\n**Digitale Alternative:** Multiple-Choice: \"Welches der vier Bilder zeigt die richtige Fortsetzung der Parkettierung?\"",
+    "loesung": "Die Grundfigur wird an der senkrechten Achse gespiegelt (nach rechts). Dann wird das entstandene Doppelbild an der waagerechten Achse gespiegelt (nach unten). So entsteht ein 2×2-Block, der sich lückenlos in alle Richtungen fortsetzen lässt.",
+    "loesungsweg": "1. Grundfigur betrachten und Spiegelachsen erkennen (senkrecht und waagerecht).\n2. Figur nach rechts spiegeln → es entsteht ein Paar.\n3. Das Paar nach unten spiegeln → es entsteht ein 2×2-Muster.\n4. Dieses Muster kann man beliebig oft nach rechts und unten wiederholen — die Parkettierung ist vollständig.",
+    "tipps": [
+      "Schau dir die Grundfigur genau an. Wie sieht sie aus, wenn du sie an der rechten Seite spiegelst?",
+      "Spiegle die Figur zuerst nach rechts, dann nach unten. Wiederholt sich das Muster jetzt? Dann hast du eine Parkettierung!",
+      "Nimm die Grundfigur und klappe sie nach rechts. Das neue Bild zusammen mit dem alten klappst du nach unten. Fertig ist ein 2x2-Muster!",
+      "1. Grundfigur betrachten und Spiegelachsen erkennen (senkrecht und waagerecht).\n2. Figur nach rechts spiegeln → es entsteht ein Paar.\n3. Das Paar nach unten spiegeln → es entsteht ein 2×2-Muster.\n4. Dieses Muster kann man beliebig oft nach rechts und unten wiederholen — die Parkettierung ist vollständig."
+    ],
+    "didaktischerHinweis": "Das Fortsetzen von Parkettierungen ubt systematisches Arbeiten und räumliches Denken. Entspricht S. 106, Aufg. 2-4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"\n\n**Digitale Alternative:** Multiple-Choice: \"Welches der vier Bilder zeigt die richtige Fortsetzung der Parkettierung?\"",
+          "antwort": "Die Grundfigur wird an der senkrechten Achse gespiegelt (nach rechts). Dann wird das entstandene Doppelbild an der waagerechten Achse gespiegelt (nach unten). So entsteht ein 2×2-Block, der sich lückenlos in alle Richtungen fortsetzen lässt."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Aus dem Quadrat wird ein Fisch — Grundfigur verändern",
+    "typ": "auswahl",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "grün",
+    "buchseite": 107,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Künstler verändern geometrische Formen Stück für Stück, sodass kunstvolle Grundfiguren für Parkettierungen entstehen (wie bei M.C. Escher).\n\nAus einem Quadrat entsteht ein Fisch. Was ist das Prinzip?\n\na) Man schneidet ein Stück von einer Seite ab und klebt es an die gegenüberliegende Seite.\nb) Man vergrößert das Quadrat.\nc) Man dreht das Quadrat um 45 Grad.\nd) Man halbiert das Quadrat.",
+    "loesung": "a) Man schneidet ein Stück von einer Seite ab und klebt es an die gegenüberliegende Seite.",
+    "loesungsweg": "Das Prinzip heißt \"Verschiebung\": Was man auf einer Seite wegnimmt, fügt man auf der gegenüberliegenden Seite hinzu. So bleibt die Gesamtfläche gleich und die Form passt immer noch lückenlos zusammen!",
+    "tipps": [
+      "Stell dir ein Quadrat aus Knete vor. Wenn du links ein Stück abschneidest — wo musst du es hinkleben, damit die Fliese immer noch passt?",
+      "Die Gesamtfläche darf sich nicht ändern! Was du wegnimmst, musst du woanders dransetzen. Und: Die neue Form muss immer noch lückenlos passen.",
+      "Schneide links eine \"Beule\" ab. Klebe sie ___ an. Jetzt passt die linke Seite von einem Fisch genau in die rechte Seite des nächsten Fisches!",
+      "Das Prinzip heißt \"Verschiebung\": Was man auf einer Seite wegnimmt, fügt man auf der gegenüberliegenden Seite hinzu. So bleibt die Gesamtfläche gleich und die Form passt immer noch lückenlos zusammen!"
+    ],
+    "didaktischerHinweis": "Das Escher-Prinzip verbindet Kunst mit Geometrie und macht Parkettierungen besonders anschaulich. Entspricht S. 107, Aufg. 5-6.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Künstler verändern geometrische Formen Stück für Stück, sodass kunstvolle Grundfiguren für Parkettierungen entstehen (wie bei M.C. Escher).\n\nAus einem Quadrat entsteht ein Fisch. Was ist das Prinzip?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Man schneidet ein Stück von einer Seite ab und klebt es an die gegenüberliegende Seite."
+        },
+        {
+          "label": "B",
+          "text": "Man vergrößert das Quadrat."
+        },
+        {
+          "label": "C",
+          "text": "Man dreht das Quadrat um 45 Grad."
+        },
+        {
+          "label": "D",
+          "text": "Man halbiert das Quadrat."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Formen-Check: Parkettiert das oder nicht?",
+    "typ": "wahr-falsch",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "orange",
+    "buchseite": 107,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Entscheide: Kann man mit dieser Form parkettieren?\n\na) Ein regelmässiges Fünfeck (Pentagon) — parkettiert das?\nb) Ein Parallelogramm — parkettiert das?\nc) Ein regelmässiges Achteck — parkettiert das?\nd) Ein beliebiges Dreieck — parkettiert das?",
+    "loesung": "a) Nein — ein regelmässiges Fünfeck parkettiert nicht (108° passt nicht auf 360°).\nb) Ja — ein Parallelogramm parkettiert (durch Verschieben).\nc) Nein — ein regelmässiges Achteck parkettiert nicht allein (aber zusammen mit Quadraten schon).\nd) Ja — jedes beliebige Dreieck parkettiert (durch Spiegeln und Drehen).",
+    "loesungsweg": "Ob eine Form parkettiert, hängt davon ab, ob die Winkel an jedem Treffpunkt genau 360° ergeben:\n- Fünfeck: 3 · 108° = 324° — passt nicht, Lücke bleibt\n- Parallelogramm: 2 · a + 2 · b = 360° — passt immer\n- Achteck: 3 · 135° = 405° — zu viel\n- Dreieck: 6 · 60° = 360° (oder beliebig durch Spiegelung)",
+    "tipps": [
+      "Stell dir vor, du legst mehrere gleiche Formen an einen Punkt. Kommen die Ecken genau zusammen, ohne Lücke und ohne Überlappung?",
+      "Bei einer Parkettierung müssen die Winkel an jedem Treffpunkt genau 360° ergeben. Wie groß sind die Innenwinkel der Form?",
+      "Beim Quadrat: 4 Ecken treffen sich, jede hat 90°. 4 · 90° = 360°. Beim Fünfeck: 3 Ecken treffen sich, jede hat 108°. 3 · 108° = 324°. Fehlen da 36° — das ist eine ___.",
+      "Ob eine Form parkettiert, hängt davon ab, ob die Winkel an jedem Treffpunkt genau 360° ergeben:\n- Fünfeck: 3 · 108° = 324° — passt nicht, Lücke bleibt\n- Parallelogramm: 2 · a + 2 · b = 360° — passt immer\n- Achteck: 3 · 135° = 405° — zu viel\n- Dreieck: 6 · 60° = 360° (oder beliebig durch Spiegelung)"
+    ],
+    "didaktischerHinweis": "Die Verbindung von Winkeln und Parkettierbarkeit ist anspruchsvoll, aber visuell gut zugänglich. Entspricht S. 107, Aufg. 6-7.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Entscheide: Kann man mit dieser Form parkettieren?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "Ein regelmässiges Fünfeck (Pentagon) — parkettiert das?",
+          "richtig": false,
+          "erklaerung": "Nein — ein regelmässiges Fünfeck parkettiert nicht (108° passt nicht auf 360°)."
+        },
+        {
+          "label": "b",
+          "aussage": "Ein Parallelogramm — parkettiert das?",
+          "richtig": true,
+          "erklaerung": "Ja — ein Parallelogramm parkettiert (durch Verschieben)."
+        },
+        {
+          "label": "c",
+          "aussage": "Ein regelmässiges Achteck — parkettiert das?",
+          "richtig": false,
+          "erklaerung": "Nein — ein regelmässiges Achteck parkettiert nicht allein (aber zusammen mit Quadraten schon)."
+        },
+        {
+          "label": "d",
+          "aussage": "Ein beliebiges Dreieck — parkettiert das?",
+          "richtig": true,
+          "erklaerung": "Ja — jedes beliebige Dreieck parkettiert (durch Spiegeln und Drehen)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schablone aus Dreieck herstellen — Escher-Methode",
+    "typ": "reihenfolge",
+    "thema": "Parkettierungen",
+    "schwierigkeit": "orange",
+    "buchseite": 107,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "parkettierungen",
+    "digital": "voll",
+    "aufgabenstellung": "Aus einem Dreieck kann man eine neue Form herstellen und damit parkettieren. Bringe die Schritte in die richtige Reihenfolge.\n\na) Die neue Form als Schablone verwenden und parkettieren\nb) Ein Dreieck zeichnen\nc) Das abgeschnittene Stück an die gegenüberliegende Seite kleben\nd) Ein Stück an einer Seite des Dreiecks abschneiden",
+    "loesung": "b, d, c, a",
+    "loesungsweg": "",
+    "tipps": [
+      "Was passiert, wenn du von einem Dreieck an einer Seite ein Stück abschneidest und es an eine andere Seite klebst?",
+      "Das Prinzip ist wie beim Fisch aus dem Quadrat: Wegnehmen und gegenüber wieder dransetzen. Die Fläche bleibt gleich!",
+      "Zuerst brauchst du ein Dreieck. Dann schneidest du an einer Seite ein Stück ab. Dieses Stück klebst du an die gegenüberliegende Seite. Die neue Form kannst du als Schablone verwenden.",
+      "b, d, c, a"
+    ],
+    "didaktischerHinweis": "Haptisches Arbeiten vertieft das Verständnis der Parkettierungsprinzipien. Entspricht S. 107, Aufg. 6-7 und Videohinweis \"Anleitung: Schablone herstellen\".",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Aus einem Dreieck kann man eine neue Form herstellen und damit parkettieren. Bringe die Schritte in die richtige Reihenfolge.",
+      "teilaufgaben": [
+        {
+          "label": "a",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "b",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "c",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "d",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Aus welchen Formen besteht ein Quadernetz?",
+    "typ": "auswahl",
+    "thema": "Körpernetze",
+    "schwierigkeit": "gelb",
+    "buchseite": 108,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "voll",
+    "aufgabenstellung": "Wenn man eine quaderförmige Schachtel auseinanderschneidet, entsteht ein Quadernetz. Aus welchen Formen besteht ein Quadernetz?\n\na) Aus 6 gleich großen Quadraten\nb) Aus 6 Rechtecken (jeweils 3 Paare gleicher Größe)\nc) Aus 4 Rechtecken und 2 Dreiecken\nd) Aus 8 Rechtecken",
+    "loesung": "b) Aus 6 Rechtecken (jeweils 3 Paare gleicher Größe)",
+    "loesungsweg": "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt",
+    "tipps": [
+      "Stell dir eine Schachtel vor (z.B. einen Schuhkarton). Wie viele Seiten hat sie? Haben alle Seiten die gleiche Größe?",
+      "Zähle die Flächen: Deckel, Boden, Vorderseite, Rückseite, linke Seite, rechte Seite. Welche Paare sind gleich groß?",
+      "Deckel und Boden sind gleich groß — das sind ___ Rechtecke. Vorder- und Rückseite — noch ___ Rechtecke. Links und rechts — noch ___ Rechtecke. Zusammen: ___ Rechtecke.",
+      "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt"
+    ],
+    "didaktischerHinweis": "Das Verständnis des Aufbaus eines Quadernetzes ist Voraussetzung für alle weiteren Netzaufgaben. Entspricht S. 108, Aufg. 1.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Wenn man eine quaderförmige Schachtel auseinanderschneidet, entsteht ein Quadernetz. Aus welchen Formen besteht ein Quadernetz?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Aus 6 gleich großen Quadraten"
+        },
+        {
+          "label": "B",
+          "text": "Aus 6 Rechtecken (jeweils 3 Paare gleicher Größe)"
+        },
+        {
+          "label": "C",
+          "text": "Aus 4 Rechtecken und 2 Dreiecken"
+        },
+        {
+          "label": "D",
+          "text": "Aus 8 Rechtecken"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Ist das ein Quadernetz? — Netze überprüfen",
+    "typ": "wahr-falsch",
+    "thema": "Körpernetze",
+    "schwierigkeit": "grün",
+    "buchseite": 108,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "voll",
+    "aufgabenstellung": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.\n\nA) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?\nB) Sechs Rechtecke in einer Reihe — Quadernetz?\nC) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
+    "loesung": "A) Ja — beim Falten entsteht ein Quader.\nB) Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung).\nC) Ja — beim Falten entsteht ein Quader.",
+    "loesungsweg": "Um zu prüfen, ob eine Figur ein Quadernetz ist, falte sie im Kopf zusammen:\n- Die gegenüberliegenden Flächen dürfen sich nicht überlappen.\n- Es müssen genau 6 Flächen sein.\n- Jede Kante muss genau an eine andere Kante passen.",
+    "tipps": [
+      "Stell dir vor, du faltest die Figur wie Karton zusammen. Entsteht eine geschlossene Schachtel ohne Lücken und ohne Überlappung?",
+      "Prüfe zuerst: Sind es genau 6 Flächen? Dann: Liegen gegenüberliegende Seiten sich auch wirklich gegenüber, wenn du faltest?",
+      "Bei Figur B: Zähle die Rechtecke — es sind ___. Aber wenn du sie faltest, liegen zwei Flächen ___ — das geht nicht!",
+      "Um zu prüfen, ob eine Figur ein Quadernetz ist, falte sie im Kopf zusammen:\n- Die gegenüberliegenden Flächen dürfen sich nicht überlappen.\n- Es müssen genau 6 Flächen sein.\n- Jede Kante muss genau an eine andere Kante passen."
+    ],
+    "didaktischerHinweis": "Das \"Falten im Kopf\" ist eine zentrale räumliche Fähigkeit. Entspricht S. 108, Aufg. 3 und Video \"Beispiel: Quadernetze\".",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "aussage": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.\n\nA) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?\nB) Sechs Rechtecke in einer Reihe — Quadernetz?\nC) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
+          "richtig": false,
+          "erklaerung": "A) Ja — beim Falten entsteht ein Quader."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Warum ist das kein Quadernetz? — Fehler finden",
+    "typ": "auswahl",
+    "thema": "Körpernetze",
+    "schwierigkeit": "grün",
+    "buchseite": 109,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "voll",
+    "aufgabenstellung": "Figur A besteht aus drei Rechtecken in einer Reihe und einem vierten Rechteck unten. Insgesamt sind es nur 4 Flächen.\n\nWarum ist das kein Quadernetz?\n\na) Es hat zu wenige Flächen.\nb) Es hat zu viele Flächen.\nc) Die Flächen sind nicht rechteckig.\nd) Die Flächen überlappen sich.",
+    "loesung": "a) Es hat zu wenige Flächen. (Ein Quader hat 6 Flächen, hier sind nur 4.)",
+    "loesungsweg": "Ein Quadernetz braucht immer genau 6 Flächen (3 Paare). Eine Figur mit nur 4 oder 5 Flächen kann nie ein Quadernetz sein — der Quader wäre nicht geschlossen.",
+    "tipps": [
+      "Zähle die Rechtecke in der Figur. Wie viele Flächen hat ein Quader?",
+      "Ein Quader hat 6 Flächen: oben, unten, vorne, hinten, links, rechts. Zähle: Sind in der Figur genau 6 Flächen?",
+      "In der Figur sind ___ Flächen. Ein Quader braucht aber ___. Es fehlen also ___ Flächen.",
+      "Ein Quadernetz braucht immer genau 6 Flächen (3 Paare). Eine Figur mit nur 4 oder 5 Flächen kann nie ein Quadernetz sein — der Quader wäre nicht geschlossen."
+    ],
+    "didaktischerHinweis": "Fehlersuche fördert das analytische Denken. Entspricht S. 109, Aufg. 5.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Figur A besteht aus drei Rechtecken in einer Reihe und einem vierten Rechteck unten. Insgesamt sind es nur 4 Flächen.\n\nWarum ist das kein Quadernetz?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Es hat zu wenige Flächen."
+        },
+        {
+          "label": "B",
+          "text": "Es hat zu viele Flächen."
+        },
+        {
+          "label": "C",
+          "text": "Die Flächen sind nicht rechteckig."
+        },
+        {
+          "label": "D",
+          "text": "Die Flächen überlappen sich."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Körper und Netze zuordnen",
+    "typ": "zuordnung",
+    "thema": "Körpernetze",
+    "schwierigkeit": "grün",
+    "buchseite": 109,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne jedes Netz dem richtigen Körper zu.\n\nKörper: Würfel, Quader, Zylinder, Kegel, Pyramide, Dreieckspyramide\n\nNetze:\n1) Vier Dreiecke, die von einem Punkt ausgehen\n2) Zwei Kreise, verbunden durch ein Rechteck\n3) Vier gleich große Dreiecke, von einem Quadrat ausgehend\n4) Sechs gleich große Quadrate als Kreuz\n5) Ein Kreis mit einem Kreisausschnitt (Tortenstück)\n6) Sechs Rechtecke (3 Paare)",
+    "loesung": "1) Dreieckspyramide\n2) Zylinder\n3) Pyramide (Viereckspyramide)\n4) Würfel\n5) Kegel\n6) Quader",
+    "loesungsweg": "Überlege für jeden Körper: Aus welchen Flächen besteht er?\n- **Würfel**: 6 gleiche Quadrate\n- **Quader**: 6 Rechtecke (3 Paare)\n- **Zylinder**: 2 Kreise + 1 Rechteck (Mantelfläche)\n- **Kegel**: 1 Kreis + 1 Kreisausschnitt\n- **Pyramide**: 1 Quadrat + 4 Dreiecke\n- **Dreieckspyramide**: 4 Dreiecke",
+    "tipps": [
+      "Schau dir jeden Körper an und überlege: Welche flachen Formen siehst du, wenn du ihn \"aufklappst\"? Hat er runde oder eckige Flächen?",
+      "Sortiere zuerst nach runden und eckigen Flächen: Kreise gehören zu Zylinder oder Kegel. Nur Dreiecke gehören zu Pyramiden. Nur Quadrate/Rechtecke gehören zu Würfel/Quader.",
+      "Netz 4 besteht aus 6 gleichen Quadraten — das ist ein ___. Netz 2 hat zwei Kreise und ein Rechteck — das ist ein ___. Und Netz 5 hat einen Kreis und ein Tortenstück — das ist ein ___.",
+      "Überlege für jeden Körper: Aus welchen Flächen besteht er?\n- **Würfel**: 6 gleiche Quadrate\n- **Quader**: 6 Rechtecke (3 Paare)\n- **Zylinder**: 2 Kreise + 1 Rechteck (Mantelfläche)\n- **Kegel**: 1 Kreis + 1 Kreisausschnitt\n- **Pyramide**: 1 Quadrat + 4 Dreiecke\n- **Dreieckspyramide**: 4 Dreiecke"
+    ],
+    "didaktischerHinweis": "Diese Zuordnungsaufgabe nutzt die Wiederholungsvideos zu den einzelnen Körpern. Entspricht S. 109, Aufg. 7.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne jedes Netz dem richtigen Körper zu.\nKörper: Würfel, Quader, Zylinder, Kegel, Pyramide, Dreieckspyramide\nNetze:",
+      "items": [
+        {
+          "label": "1",
+          "text": "Vier Dreiecke, die von einem Punkt ausgehen"
+        },
+        {
+          "label": "2",
+          "text": "Zwei Kreise, verbunden durch ein Rechteck"
+        },
+        {
+          "label": "3",
+          "text": "Vier gleich große Dreiecke, von einem Quadrat ausgehend"
+        },
+        {
+          "label": "4",
+          "text": "Sechs gleich große Quadrate als Kreuz"
+        },
+        {
+          "label": "5",
+          "text": "Ein Kreis mit einem Kreisausschnitt (Tortenstück)"
+        },
+        {
+          "label": "6",
+          "text": "Sechs Rechtecke (3 Paare)"
+        }
+      ],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Quadernetz ergänzen — fehlende Fläche finden",
+    "typ": "auswahl",
+    "thema": "Körpernetze",
+    "schwierigkeit": "orange",
+    "buchseite": 108,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "voll",
+    "aufgabenstellung": "Die unvollständige Figur zeigt 5 von 6 Flächen eines Quadernetzes. An welcher Stelle muss die fehlende Fläche angefügt werden, damit ein gültiges Quadernetz entsteht?\n\nGegeben: Eine L-förmige Figur aus 5 Rechtecken.\n\nDie fehlende Fläche kann an Position X, Y oder Z angefügt werden:\na) Position X (rechts neben dem oberen Rechteck)\nb) Position Y (unter dem unteren Rechteck)\nc) Position Z (links neben dem mittleren Rechteck)",
+    "loesung": "c) Position Z (links neben dem mittleren Rechteck) — dort fehlt die gegenüberliegende Seite.",
+    "loesungsweg": "Um die richtige Position zu finden, falte das vorhandene Netz im Kopf und schaue, welche Seite noch offen ist. Die fehlende Fläche muss gegenüber einer bereits vorhandenen Fläche liegen.",
+    "tipps": [
+      "Falte die 5 Flächen im Kopf zusammen. Welche Seite der Schachtel ist noch offen?",
+      "Markiere zuerst den Boden. Dann klappe die Seiten hoch. Welche Seite bleibt offen?",
+      "Das mittlere Rechteck ist der Boden. Oben, rechts und links klappen hoch. Aber eine Seite fehlt: die ___ Seite. Dort muss die fehlende Fläche hin.",
+      "Um die richtige Position zu finden, falte das vorhandene Netz im Kopf und schaue, welche Seite noch offen ist. Die fehlende Fläche muss gegenüber einer bereits vorhandenen Fläche liegen."
+    ],
+    "didaktischerHinweis": "Das Ergänzen trainiert räumliches Vorstellungsvermögen stärker als das blosse Erkennen. Entspricht S. 108, Aufg. 4.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Die unvollständige Figur zeigt 5 von 6 Flächen eines Quadernetzes. An welcher Stelle muss die fehlende Fläche angefügt werden, damit ein gültiges Quadernetz entsteht?\n\nGegeben: Eine L-förmige Figur aus 5 Rechtecken.\n\nDie fehlende Fläche kann an Position X, Y oder Z angefügt werden:",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Position X (rechts neben dem oberen Rechteck)"
+        },
+        {
+          "label": "B",
+          "text": "Position Y (unter dem unteren Rechteck)"
+        },
+        {
+          "label": "C",
+          "text": "Position Z (links neben dem mittleren Rechteck)"
+        }
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Schachtel bauen — Wie viele Laschen brauchst du?",
+    "typ": "eingabe",
+    "thema": "Körpernetze",
+    "schwierigkeit": "orange",
+    "buchseite": 109,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "koerpernetze",
+    "digital": "teilweise",
+    "aufgabenstellung": "Du möchtest aus einem Quadernetz eine Schachtel basteln. Dafür brauchst du Klebelaschen an einigen Kanten.\n\na) Wie viele Kanten hat ein Quader insgesamt? ___\nb) Wie viele Kanten liegen im Netz schon aneinander (Faltkanten)? ___\nc) An wie vielen Kanten brauchst du Klebelaschen? ___",
+    "loesung": "a) 12\nb) 5 Faltkanten (die Kanten, an denen die Flächen im Netz zusammenhängen)\nc) 7 Klebelaschen (12 - 5 = 7)",
+    "loesungsweg": "Ein Quader hat 12 Kanten. Im Netz hängen die 6 Flächen an 5 Faltkanten zusammen (wie bei einem Baum: 6 Knoten, 5 Verbindungen). Die übrigen 12 - 5 = 7 Kanten müssen geklebt werden.",
+    "tipps": [
+      "Zähle die Kanten am fertigen Quader. Dann schau dir das Netz an: An wie vielen Stellen hängen die Rechtecke schon zusammen?",
+      "Ein Quader hat 12 Kanten. Im Netz sind einige Kanten schon verbunden (Faltkanten). Der Rest braucht Klebelaschen: Klebelaschen = Gesamtkanten - Faltkanten.",
+      "Gesamtkanten: 12. Faltkanten im Netz: Zähle die Stellen, wo zwei Flächen aneinander hängen — das sind ___. Also brauchst du 12 - ___ = ___ Laschen.",
+      "Ein Quader hat 12 Kanten. Im Netz hängen die 6 Flächen an 5 Faltkanten zusammen (wie bei einem Baum: 6 Knoten, 5 Verbindungen). Die übrigen 12 - 5 = 7 Kanten müssen geklebt werden."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe verbindet Körpernetzverständnis mit Zählen und Rechnen. Entspricht S. 109, Aufg. 6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Du möchtest aus einem Quadernetz eine Schachtel basteln. Dafür brauchst du Klebelaschen an einigen Kanten.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kanten hat ein Quader insgesamt? ___",
+          "antwort": "12"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kanten liegen im Netz schon aneinander (Faltkanten)? ___",
+          "antwort": "5 Faltkanten (die Kanten, an denen die Flächen im Netz zusammenhängen)"
+        },
+        {
+          "label": "c",
+          "frage": "An wie vielen Kanten brauchst du Klebelaschen? ___",
+          "antwort": "7 Klebelaschen (12 - 5 = 7)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Würfelgebäude — Würfel zählen",
+    "typ": "eingabe",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 110,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Schau dir die Würfelgebäude an und zähle die Würfel.\n\na) Ein L-förmiges Gebäude: 3 Würfel in einer Reihe, 2 Würfel obendrauf am linken Ende. Wie viele Würfel? ___\nb) Ein Treppchen: 1 Würfel links, 2 Würfel übereinander in der Mitte, 3 Würfel übereinander rechts. Wie viele Würfel? ___\nc) Ein Quader: 2 Würfel breit, 2 Würfel tief, 2 Würfel hoch. Wie viele Würfel? ___",
+    "loesung": "a) 5\nb) 6\nc) 8",
+    "loesungsweg": "Zähle systematisch Schicht für Schicht:\n- a) Untere Reihe: 3. Oben links: 2. Gesamt: 3 + 2 = 5\n- b) Links: 1, Mitte: 2, Rechts: 3. Gesamt: 1 + 2 + 3 = 6\n- c) Untere Schicht: 2 · 2 = 4. Obere Schicht: 2 · 2 = 4. Gesamt: 4 + 4 = 8",
+    "tipps": [
+      "Manche Würfel sind versteckt! Zähle nicht nur die Würfel, die du siehst — denke auch an die dahinter oder darunter.",
+      "Zähle Schicht für Schicht: Wie viele Würfel liegen ganz unten? Wie viele darauf? Addiere die Schichten.",
+      "Bei c): Untere Schicht: 2 Reihen mit je 2 Würfeln = 4. Obere Schicht: genauso = ___. Gesamt: 4 + ___ = ___.",
+      "Zähle systematisch Schicht für Schicht:\n- a) Untere Reihe: 3. Oben links: 2. Gesamt: 3 + 2 = 5\n- b) Links: 1, Mitte: 2, Rechts: 3. Gesamt: 1 + 2 + 3 = 6\n- c) Untere Schicht: 2 · 2 = 4. Obere Schicht: 2 · 2 = 4. Gesamt: 4 + 4 = 8"
+    ],
+    "didaktischerHinweis": "Würfel zählen in 3D-Ansichten ist die Grundlage für Schrägbilder. Entspricht S. 110, Aufg. 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schau dir die Würfelgebäude an und zähle die Würfel.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Ein L-förmiges Gebäude: 3 Würfel in einer Reihe, 2 Würfel obendrauf am linken Ende. Wie viele Würfel? ___",
+          "antwort": "5"
+        },
+        {
+          "label": "b",
+          "frage": "Ein Treppchen: 1 Würfel links, 2 Würfel übereinander in der Mitte, 3 Würfel übereinander rechts. Wie viele Würfel? ___",
+          "antwort": "6"
+        },
+        {
+          "label": "c",
+          "frage": "Ein Quader: 2 Würfel breit, 2 Würfel tief, 2 Würfel hoch. Wie viele Würfel? ___",
+          "antwort": "8"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schrägbild und Bauplan — Würfelplättchen zählen",
+    "typ": "eingabe",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 110,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?\n\na) Jette und Justus haben verschiedene Gebäude gebaut.\nb) Justus hat das Schrägbild aus einer anderen Perspektive gelegt.\nc) Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen.",
+    "loesung": "c) Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen.",
+    "loesungsweg": "Beim Schrägbild können Würfel, die hinten oder unten liegen, von vorderen Würfeln verdeckt werden. Dann braucht man weniger Plättchen, obwohl das Gebäude gleich viele Würfel hat. Es kommt auf die Perspektive an!",
+    "tipps": [
+      "Stell dir vor, du schaust von schräg oben auf das Gebäude. Siehst du JEDEN Würfel? Oder sind manche versteckt?",
+      "Zähle die sichtbaren Oberflächen. Wenn ein Würfel hinter einem anderen steht, siehst du ihn vielleicht nicht — dann brauchst du auch kein Plättchen dafür.",
+      "Jette sieht von oben alle 9 Würfel = 9 Plättchen. Justus schaut von einer anderen Seite: 2 Würfel sind ___, also braucht er nur 9 - 2 = ___ Plättchen.",
+      "Beim Schrägbild können Würfel, die hinten oder unten liegen, von vorderen Würfeln verdeckt werden. Dann braucht man weniger Plättchen, obwohl das Gebäude gleich viele Würfel hat. Es kommt auf die Perspektive an!"
+    ],
+    "didaktischerHinweis": "Der Unterschied zwischen 3D-Gebäude und 2D-Schrägbild ist ein zentrales Verständnisproblem. Entspricht S. 110, Aufg. 3b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Schrägbild zeigt ein Würfelgebäude von schräg oben. Wenn du das Schrägbild mit Würfelplättchen (flache Quadrate) legen willst, brauchst du für jeden sichtbaren Würfel ein Plättchen.\n\nJette sagt: \"Ich brauche für das Gebäude 9 Würfel und 9 Plättchen.\"\nJustus sagt: \"Ich brauche auch 9 Würfel, aber nur 7 Plättchen.\"\n\nWie kann das sein?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Jette und Justus haben verschiedene Gebäude gebaut.",
+          "antwort": ""
+        },
+        {
+          "label": "b",
+          "frage": "Justus hat das Schrägbild aus einer anderen Perspektive gelegt.",
+          "antwort": ""
+        },
+        {
+          "label": "c",
+          "frage": "Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen.",
+          "antwort": "Bei Justus verdecken hintere Würfel einige vordere — man sieht weniger Flächen."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Würfelgebäude — Schrägbild dem Bauplan zuordnen",
+    "typ": "zuordnung",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "grün",
+    "buchseite": 110,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne jedes Schrägbild dem richtigen Bauplan zu.\n\nSchrägbilder:\nA) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende\nB) Turm: 1 Würfel unten, 1 Würfel obendrauf\nC) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links\nD) Reihe: 4 Würfel in einer Reihe\n\nBaupläne (Zahlen = Höhe):\n1) [1]\n   [1][1][1]\n\n2) [1][1][1][1]\n\n3) [2]\n   [1]\n\n4) [1][1]\n   [0][1]",
+    "loesung": "A) Bauplan 1\nB) Bauplan 3\nC) Bauplan 4\nD) Bauplan 2",
+    "loesungsweg": "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- A (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) = Bauplan 1\n- B (Turm): Ein Feld mit Höhe 2 = Bauplan 3\n- C (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 = Bauplan 4\n- D (Reihe): Vier Felder nebeneinander, alle Höhe 1 = Bauplan 2",
+    "tipps": [
+      "Schau dir das Schrägbild von oben an. Wie viele Felder siehst du? Das gibt dir die Form des Bauplans.",
+      "Zeichne zuerst den Grundriss (von oben): Welche Felder sind belegt? Dann zähle für jedes Feld: Wie hoch ist der Stapel?",
+      "Schrägbild A: Von oben sehe ich ein L. Die untere Reihe hat ___ Felder. Nach oben gehen ___ Felder. Alle haben Höhe ___. Das passt zu Bauplan ___.",
+      "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- A (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) = Bauplan 1\n- B (Turm): Ein Feld mit Höhe 2 = Bauplan 3\n- C (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 = Bauplan 4\n- D (Reihe): Vier Felder nebeneinander, alle Höhe 1 = Bauplan 2"
+    ],
+    "didaktischerHinweis": "Die Zuordnung Schrägbild-Bauplan trainiert den Perspektivwechsel zwischen 3D und 2D. Entspricht S. 110, Aufg. 2-3.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne jedes Schrägbild dem richtigen Bauplan zu.\nSchrägbilder:\nA) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende\nB) Turm: 1 Würfel unten, 1 Würfel obendrauf\nC) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links\nD) Reihe: 4 Würfel in einer Reihe\nBaupläne (Zahlen = Höhe):",
+      "items": [
+        {
+          "label": "1",
+          "text": "[1]"
+        }
+      ],
+      "choices": [
+        {
+          "label": "2",
+          "text": "[1][1][1][1]"
+        },
+        {
+          "label": "3",
+          "text": "[2]"
+        },
+        {
+          "label": "4",
+          "text": "[1][1]"
+        }
+      ],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Gebäude kippen — Was verändert sich?",
+    "typ": "auswahl",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "grün",
+    "buchseite": 110,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Würfelgebäude besteht aus 6 Würfeln: unten 2×2 (4 Würfel), oben links 2 Würfel übereinander.\n\nWenn du dieses Gebäude in Gedanken nach rechts kippst, was passiert?\n\na) Das Gebäude hat danach mehr Würfel.\nb) Das Gebäude hat danach weniger Würfel.\nc) Das Gebäude hat gleich viele Würfel, aber eine andere Form.\nd) Das Gebäude sieht genau gleich aus.",
+    "loesung": "c) Das Gebäude hat gleich viele Würfel, aber eine andere Form.",
+    "loesungsweg": "Beim Kippen verändert sich die Form (die Würfel, die oben waren, liegen jetzt an einer anderen Stelle), aber die Anzahl bleibt gleich — es kommen keine Würfel dazu und keine gehen weg.",
+    "tipps": [
+      "Stell dir vor, du legst ein Klotz-Gebäude auf die Seite. Verschwinden dabei Klötze oder kommen neue dazu?",
+      "Beim Kippen ändert sich die Perspektive und die Form, aber nicht die Menge. Zähle vorher und nachher die Würfel.",
+      "Vorher: ___ Würfel. Nach dem Kippen: immer noch ___ Würfel. Aber die Form hat sich ___.",
+      "Beim Kippen verändert sich die Form (die Würfel, die oben waren, liegen jetzt an einer anderen Stelle), aber die Anzahl bleibt gleich — es kommen keine Würfel dazu und keine gehen weg."
+    ],
+    "didaktischerHinweis": "Die Invarianz der Würfelanzahl beim Kippen ist ein wichtiges Konzept. Entspricht S. 110, Aufg. 4.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Würfelgebäude besteht aus 6 Würfeln: unten 2×2 (4 Würfel), oben links 2 Würfel übereinander.\n\nWenn du dieses Gebäude in Gedanken nach rechts kippst, was passiert?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Das Gebäude hat danach mehr Würfel."
+        },
+        {
+          "label": "B",
+          "text": "Das Gebäude hat danach weniger Würfel."
+        },
+        {
+          "label": "C",
+          "text": "Das Gebäude hat gleich viele Würfel, aber eine andere Form."
+        },
+        {
+          "label": "D",
+          "text": "Das Gebäude sieht genau gleich aus."
+        }
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Schrägbild zeichnen — Würfel Schritt für Schritt",
+    "typ": "reihenfolge",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "orange",
+    "buchseite": 111,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Bringe die Schritte zum Zeichnen eines Schrägbilds (Würfel) in die richtige Reihenfolge.\n\na) Schräge Linien von jeder Ecke nach rechts oben zeichnen\nb) Die hintere Fläche zeichnen (Endpunkte verbinden)\nc) Die Vorderseite zeichnen (ein Quadrat)\nd) Unsichtbare Kanten gestrichelt zeichnen",
+    "loesung": "c, a, b, d",
+    "loesungsweg": "",
+    "tipps": [
+      "Ein Schrägbild zeigt die Tiefe durch schräge Linien nach rechts oben. Beginne immer mit der Vorderseite!",
+      "Zuerst die Vorderseite (ein Quadrat), dann die schrägen Linien für die Tiefe, dann die hintere Fläche, und am Schluss die unsichtbaren Kanten gestrichelt.",
+      "Die Vorderseite ist ein Quadrat — das kommt zuerst. Von den Ecken gehen schräge Linien nach rechts oben. Deren Endpunkte verbindest du zur hinteren Fläche. Zum Schluss zeichnest du die verdeckten Kanten gestrichelt.",
+      "c, a, b, d"
+    ],
+    "didaktischerHinweis": "Das Zeichnen von Schrägbildern wird in den Videos ausführlich gezeigt. Entspricht S. 111, Aufg. 5-10.",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Bringe die Schritte zum Zeichnen eines Schrägbilds (Würfel) in die richtige Reihenfolge.",
+      "teilaufgaben": [
+        {
+          "label": "a",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "b",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "c",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        },
+        {
+          "label": "d",
+          "items": [
+            ""
+          ],
+          "richtigeReihenfolge": [
+            ""
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Perspektiven erkennen — Welches Schrägbild passt?",
+    "typ": "auswahl",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "orange",
+    "buchseite": 111,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Würfelgebäude aus 5 Würfeln: 3 Würfel in einer Reihe unten, 1 Würfel oben in der Mitte, 1 Würfel dahinter in der Mitte.\n\nWelches der folgenden Schrägbilder zeigt dieses Gebäude korrekt?\n\na) Schrägbild A: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter rechts versetzt.\nb) Schrägbild B: Man sieht 3 Würfel unten, 2 oben nebeneinander.\nc) Schrägbild C: Man sieht 4 Würfel unten, 1 oben.\nd) Schrägbild D: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter — der hintere ist teilweise verdeckt.",
+    "loesung": "d) Schrägbild D — der hintere Würfel ist teilweise verdeckt, weil er HINTER dem oberen Würfel steht.",
+    "loesungsweg": "Im Schrägbild werden Objekte, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt.",
+    "tipps": [
+      "Stell dir das Gebäude auf einem Tisch vor und schaue von schräg links oben darauf. Was siehst du? Was ist verdeckt?",
+      "Im Schrägbild geht \"nach hinten\" immer nach rechts oben. Ein Würfel hinter einem anderen wird teilweise verdeckt — du siehst nicht alles davon.",
+      "3 Würfel unten — die sieht man alle. 1 Würfel oben in der Mitte — den sieht man auch. 1 Würfel DAHINTER — der wird teilweise ___ vom vorderen Würfel.",
+      "Im Schrägbild werden Objekte, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt."
+    ],
+    "didaktischerHinweis": "Das Erkennen der korrekten Perspektive ist die Kernkompetenz bei Schrägbildern. Entspricht S. 111, Aufg. 9-10.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ein Würfelgebäude aus 5 Würfeln: 3 Würfel in einer Reihe unten, 1 Würfel oben in der Mitte, 1 Würfel dahinter in der Mitte.\n\nWelches der folgenden Schrägbilder zeigt dieses Gebäude korrekt?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Schrägbild A: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter rechts versetzt."
+        },
+        {
+          "label": "B",
+          "text": "Schrägbild B: Man sieht 3 Würfel unten, 2 oben nebeneinander."
+        },
+        {
+          "label": "C",
+          "text": "Schrägbild C: Man sieht 4 Würfel unten, 1 oben."
+        },
+        {
+          "label": "D",
+          "text": "Schrägbild D: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter — der hintere ist teilweise verdeckt."
+        }
+      ],
+      "richtigeIdx": 3
+    }
+  },
+  {
+    "titel": "Würfel aus verschiedenen Perspektiven",
+    "typ": "zuordnung",
+    "thema": "Schrägbilder legen und zeichnen",
+    "schwierigkeit": "orange",
+    "buchseite": 111,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "schraegbilder",
+    "digital": "voll",
+    "aufgabenstellung": "Vier identische Würfel werden aus verschiedenen Blickwinkeln gezeigt. Die Seiten sind rot, blau, gelb, grün, orange und weiß gefärbt.\n\nOrdne jede Perspektive der richtigen Beschreibung zu:\n\nA) Von vorne sieht man die rote Seite.\nB) Von der Seite sieht man die blaue Seite.\nC) Von oben sieht man die gelbe Seite.\nD) Von schräg oben sieht man drei Seiten: rot, blau und gelb.\n\nWelche Beschreibung passt zum Schrägbild?",
+    "loesung": "D) Von schräg oben sieht man drei Seiten: rot, blau und gelb.\n\nDas Schrägbild zeigt immer drei Seiten gleichzeitig — die Vorderseite, die Oberseite und eine Seitenseite.",
+    "loesungsweg": "Im Schrägbild sieht man immer genau drei Seiten eines Würfels:\n- Die **Vorderseite** (frontal)\n- Die **Oberseite** (von oben)\n- Eine **Seitenseite** (schräg)\n\nIn der Normalansicht (von vorne, von der Seite, von oben) sieht man jeweils nur EINE Seite.",
+    "tipps": [
+      "Halte einen Würfel vor dich hin. Wie viele Seiten siehst du von vorne? Und wenn du ihn leicht kippst?",
+      "Von vorne: 1 Seite. Von oben: 1 Seite. Schräg: 3 Seiten! Das Schrägbild ist die einzige Darstellung, die mehrere Seiten gleichzeitig zeigt.",
+      "Im Schrägbild siehst du die Vorderseite (___), die Oberseite (___) und eine Seitenseite (___) — also ___ Seiten.",
+      "Im Schrägbild sieht man immer genau drei Seiten eines Würfels:\n- Die **Vorderseite** (frontal)\n- Die **Oberseite** (von oben)\n- Eine **Seitenseite** (schräg)\n\nIn der Normalansicht (von vorne, von der Seite, von oben) sieht man jeweils nur EINE Seite."
+    ],
+    "didaktischerHinweis": "Das Verständnis, warum Schrägbilder drei Seiten zeigen, ist fundamental. Entspricht S. 111, Aufg. 10.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Vier identische Würfel werden aus verschiedenen Blickwinkeln gezeigt. Die Seiten sind rot, blau, gelb, grün, orange und weiß gefärbt.\nOrdne jede Perspektive der richtigen Beschreibung zu:\nA) Von vorne sieht man die rote Seite.\nB) Von der Seite sieht man die blaue Seite.\nC) Von oben sieht man die gelbe Seite.\nD) Von schräg oben sieht man drei Seiten: rot, blau und gelb.\nWelche Beschreibung passt zum Schrägbild?",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  }
+]

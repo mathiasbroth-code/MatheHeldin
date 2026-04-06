@@ -22,31 +22,62 @@ export type { Kategorie, KategorieMeta, StageMappingEntry } from './stageMapping
 
 /**
  * Lädt alle Aufgaben-Dateien, erstellt Bank-Stages und registriert sie.
- * Nutzt das Fredo-Buchkapitel-Mapping für Titel und Sortierung.
+ *
+ * Priorität:
+ * 1. Pre-built JSON aus src/aufgaben/data/ (erzeugt von scripts/build-aufgaben.cjs)
+ * 2. Fallback: Runtime-Parsing der MD-Dateien (für den Fall dass JSON nicht vorhanden)
  */
 export async function loadAllAufgaben(): Promise<number> {
-  const { parseAufgabenDatei } = await import('./parser');
   const { aufgabenPool } = await import('./pool');
   const { createBankStage } = await import('./bankStage');
   const { STAGE_MAPPING, getKategorieMeta } = await import('./stageMapping');
   const { registerStage } = await import('@/stages/registry');
 
-  const modules = import.meta.glob('/docs/aufgaben/[0-9]*.md', {
-    query: '?raw',
-    import: 'default',
-  });
-
   let total = 0;
 
-  for (const [path, loader] of Object.entries(modules)) {
-    const content = (await loader()) as string;
-    const aufgaben = parseAufgabenDatei(content);
-    aufgabenPool.load(aufgaben);
-    total += aufgaben.length;
+  // Versuch 1: Pre-built JSON laden
+  const jsonModules = import.meta.glob('./data/*.json', {
+    eager: true,
+  });
 
+  const hasJson = Object.keys(jsonModules).length > 0;
+
+  if (hasJson) {
+    // JSON-Dateien direkt laden — kein Parsing nötig
+    for (const [path, mod] of Object.entries(jsonModules)) {
+      const aufgaben = (mod as { default: unknown }).default as import('./types').BankAufgabe[] ??
+        mod as import('./types').BankAufgabe[];
+      if (!Array.isArray(aufgaben)) continue;
+      aufgabenPool.load(aufgaben);
+      total += aufgaben.length;
+
+      if (import.meta.env.DEV) {
+        const filename = path.split('/').pop();
+        console.log(`[Aufgaben/JSON] ${filename}: ${aufgaben.length} geladen`);
+      }
+    }
+  } else {
+    // Fallback: Runtime-Parsing der MD-Dateien
     if (import.meta.env.DEV) {
-      const filename = path.split('/').pop();
-      console.log(`[Aufgaben] ${filename}: ${aufgaben.length} geladen`);
+      console.warn('[Aufgaben] Keine JSON-Dateien gefunden — Fallback auf Runtime-Parsing');
+    }
+
+    const { parseAufgabenDatei } = await import('./parser');
+    const modules = import.meta.glob('/docs/aufgaben/{[0-9]*,intensiv-*}.md', {
+      query: '?raw',
+      import: 'default',
+    });
+
+    for (const [path, loader] of Object.entries(modules)) {
+      const content = (await loader()) as string;
+      const aufgaben = parseAufgabenDatei(content);
+      aufgabenPool.load(aufgaben);
+      total += aufgaben.length;
+
+      if (import.meta.env.DEV) {
+        const filename = path.split('/').pop();
+        console.log(`[Aufgaben/MD] ${filename}: ${aufgaben.length} geladen`);
+      }
     }
   }
 
@@ -71,7 +102,8 @@ export async function loadAllAufgaben(): Promise<number> {
   }
 
   if (import.meta.env.DEV) {
-    console.log(`[Aufgaben] Total: ${total} Aufgaben, ${registered} Bank-Stages registriert`);
+    const source = hasJson ? 'JSON' : 'MD (Fallback)';
+    console.log(`[Aufgaben] Total: ${total} Aufgaben, ${registered} Bank-Stages registriert (Quelle: ${source})`);
   }
 
   return total;

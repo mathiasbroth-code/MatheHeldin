@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build:aufgaben": "node scripts/build-aufgaben.cjs",
+    "prebuild": "node scripts/build-aufgaben.cjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },

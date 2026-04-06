@@ -5,7 +5,7 @@ import { AppShell } from '@/components/layout/AppShell';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { ProgressBar } from '@/components/ui/ProgressBar';
-import { TippSystem } from '@/components/ui/TippSystem';
+import { TippButton, TippInhalte } from '@/components/ui/TippSystem';
 import { ErklaerungButton } from '@/components/ui/ErklaerungButton';
 import { SessionSummary } from '@/components/ui/SessionSummary';
 import { useAktuelleAufgabe } from '@/hooks/useAktuelleAufgabe';
@@ -167,6 +167,9 @@ function StufeRunner({
             {fortschritt.richtig}/{stage.zielRichtige}
           </span>
           <ErklaerungButton erklaerung={stage.erklaerung} />
+          {tipp.texte && tipp.stufe === 0 && (
+            <TippButton onAdvance={tipp.advance} />
+          )}
         </div>
       </div>
 
@@ -178,8 +181,8 @@ function StufeRunner({
           fortschritt={fortschritt}
         />
 
-        {/* Tipp-System (below stage content) */}
-        <TippSystem
+        {/* Tipp-Inhalte (unter der Aufgabe, wenn aufgedeckt) */}
+        <TippInhalte
           tipps={tipp.texte}
           stufe={tipp.stufe}
           onAdvance={tipp.advance}

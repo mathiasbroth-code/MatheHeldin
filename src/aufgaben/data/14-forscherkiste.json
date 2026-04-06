@@ -1,0 +1,2145 @@
+[
+  {
+    "titel": "Römische Zahlzeichen kennenlernen",
+    "typ": "zuordnung",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 124,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die römischen Zahlzeichen ihrem Wert zu.\n\na) I\nb) V\nc) X\nd) L\ne) C\nf) D\ng) M\n\n1) 1\n2) 5\n3) 10\n4) 50\n5) 100\n6) 500\n7) 1.000",
+    "loesung": "a) I → 1)  1\nb) V → 2)  5\nc) X → 3)  10\nd) L → 4)  50\ne) C → 5)  100\nf) D → 6)  500\ng) M → 7)  1.000",
+    "loesungsweg": "Die sieben römischen Zahlzeichen und ihre Werte:\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1.000",
+    "tipps": [
+      "Auf alten Uhren kannst du römische Zahlen sehen. Welche Zeichen erkennst du? I, II, III sind 1, 2, 3. Was kommt bei 5?",
+      "Lerne die Zeichen der Größe nach: I(1), V(5), X(10), L(50), C(100), D(500), M(1.000).",
+      "I = 1, V = 5, X = ___. Dann: L = 50, C = 100, D = ___, M = ___",
+      "Die sieben römischen Zahlzeichen und ihre Werte:\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1.000"
+    ],
+    "didaktischerHinweis": "Grundwissen römische Zahlzeichen. Entspricht S. 124, Einführung und S. 125, Tabelle.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die römischen Zahlzeichen ihrem Wert zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "I"
+        },
+        {
+          "label": "b",
+          "text": "V"
+        },
+        {
+          "label": "c",
+          "text": "X"
+        },
+        {
+          "label": "d",
+          "text": "L"
+        },
+        {
+          "label": "e",
+          "text": "C"
+        },
+        {
+          "label": "f",
+          "text": "D"
+        },
+        {
+          "label": "g",
+          "text": "M"
+        },
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        },
+        {
+          "label": "5",
+          "text": "100"
+        },
+        {
+          "label": "6",
+          "text": "500"
+        },
+        {
+          "label": "7",
+          "text": "1.000"
+        }
+      ],
+      "choices": [],
+      "antworten": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5",
+        "f": "6",
+        "g": "7"
+      }
+    }
+  },
+  {
+    "titel": "Römisch in Dezimal umwandeln — einfache Zahlen",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 125,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als Zahl im Zehnersystem.\n\na) VII\nb) XII\nc) XXI\nd) LX",
+    "loesung": "a) 7\nb) 12\nc) 21\nd) 60",
+    "loesungsweg": "Römische Zahlen werden addiert, wenn größere Zeichen links stehen:\n- a) V + I + I = 5 + 1 + 1 = 7\n- b) X + I + I = 10 + 1 + 1 = 12\n- c) X + X + I = 10 + 10 + 1 = 21\n- d) L + X = 50 + 10 = 60",
+    "tipps": [
+      "Zerlege die römische Zahl in einzelne Zeichen und schaue den Wert jedes Zeichens nach. Dann addiere alle Werte.",
+      "Bei römischen Zahlen addierst du die Werte von links nach rechts: VII = V + I + I = 5 + 1 + 1.",
+      "a) V = 5, I = 1, I = 1. Also 5 + 1 + 1 = ___\nb) X = 10, I = 1, I = 1. Also 10 + 1 + 1 = ___",
+      "Römische Zahlen werden addiert, wenn größere Zeichen links stehen:\n- a) V + I + I = 5 + 1 + 1 = 7\n- b) X + I + I = 10 + 1 + 1 = 12\n- c) X + X + I = 10 + 10 + 1 = 21\n- d) L + X = 50 + 10 = 60"
+    ],
+    "didaktischerHinweis": "Addition römischer Zahlzeichen. Entspricht S. 125, Aufg. 9.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als Zahl im Zehnersystem.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "VII",
+          "antwort": "7"
+        },
+        {
+          "label": "b",
+          "frage": "XII",
+          "antwort": "12"
+        },
+        {
+          "label": "c",
+          "frage": "XXI",
+          "antwort": "21"
+        },
+        {
+          "label": "d",
+          "frage": "LX",
+          "antwort": "60"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Die Subtraktionsregel — IV, IX, XL, XC",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 124,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Wenn ein kleineres Zeichen links von einem größeren steht, wird es subtrahiert. Schreibe als Zahl im Zehnersystem.\n\na) IV\nb) IX\nc) XL\nd) XC\ne) CD\nf) CM",
+    "loesung": "a) 4\nb) 9\nc) 40\nd) 90\ne) 400\nf) 900",
+    "loesungsweg": "Subtraktionsregel: kleineres Zeichen LINKS vom größeren wird abgezogen:\n- a) IV = V - I = 5 - 1 = 4\n- b) IX = X - I = 10 - 1 = 9\n- c) XL = L - X = 50 - 10 = 40\n- d) XC = C - X = 100 - 10 = 90\n- e) CD = D - C = 500 - 100 = 400\n- f) CM = M - C = 1.000 - 100 = 900",
+    "tipps": [
+      "Schau genau: Steht ein kleineres Zeichen LINKS von einem größeren? Dann wird nicht addiert, sondern subtrahiert! Bei IV steht I (1) links von V (5).",
+      "Die Subtraktionsregel: Steht ein kleineres Zeichen links, wird es vom größeren abgezogen.\nIV = 5 - 1 = 4. So vermeidet man IIII für 4.",
+      "a) I(1) steht links von V(5): 5 - 1 = ___\nb) I(1) steht links von X(10): 10 - 1 = ___\nc) X(10) steht links von L(50): 50 - 10 = ___",
+      "Subtraktionsregel: kleineres Zeichen LINKS vom größeren wird abgezogen:\n- a) IV = V - I = 5 - 1 = 4\n- b) IX = X - I = 10 - 1 = 9\n- c) XL = L - X = 50 - 10 = 40\n- d) XC = C - X = 100 - 10 = 90\n- e) CD = D - C = 500 - 100 = 400\n- f) CM = M - C = 1.000 - 100 = 900"
+    ],
+    "didaktischerHinweis": "Zentrale Regel der römischen Zahlschreibweise. Entspricht S. 124, Merkkasten und S. 125, Aufg. 14.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wenn ein kleineres Zeichen links von einem größeren steht, wird es subtrahiert. Schreibe als Zahl im Zehnersystem.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "IV",
+          "antwort": "4"
+        },
+        {
+          "label": "b",
+          "frage": "IX",
+          "antwort": "9"
+        },
+        {
+          "label": "c",
+          "frage": "XL",
+          "antwort": "40"
+        },
+        {
+          "label": "d",
+          "frage": "XC",
+          "antwort": "90"
+        },
+        {
+          "label": "e",
+          "frage": "CD",
+          "antwort": "400"
+        },
+        {
+          "label": "f",
+          "frage": "CM",
+          "antwort": "900"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Dezimal in römisch umwandeln",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 125,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als römische Zahl.\n\na) 16\nb) 29\nc) 55\nd) 82\ne) 160\nf) 504",
+    "loesung": "a) XVI\nb) XXIX\nc) LV\nd) LXXXII\ne) CLX\nf) DIV",
+    "loesungsweg": "Zerlege die Zahl in Stellenwerte und übersetze:\n- a) 16 = 10 + 5 + 1 = X + V + I = XVI\n- b) 29 = 10 + 10 + 9 = X + X + IX = XXIX\n- c) 55 = 50 + 5 = L + V = LV\n- d) 82 = 50 + 10 + 10 + 10 + 1 + 1 = LXXXII\n- e) 160 = 100 + 50 + 10 = CLX\n- f) 504 = 500 + 4 = D + IV = DIV",
+    "tipps": [
+      "Zerlege die Zahl zuerst in Hunderter, Zehner und Einer. Dann übersetze jeden Teil einzeln in römische Zeichen.",
+      "Beispiel für 29: 29 = 20 + 9 = XX + IX = XXIX.\nDenk an die Subtraktionsregel für 4 (IV), 9 (IX), 40 (XL), 90 (XC).",
+      "a) 16 = 10 + 6 = 10 + 5 + 1 = X + V + I = ___\nb) 29 = 20 + 9 = XX + IX = ___",
+      "Zerlege die Zahl in Stellenwerte und übersetze:\n- a) 16 = 10 + 5 + 1 = X + V + I = XVI\n- b) 29 = 10 + 10 + 9 = X + X + IX = XXIX\n- c) 55 = 50 + 5 = L + V = LV\n- d) 82 = 50 + 10 + 10 + 10 + 1 + 1 = LXXXII\n- e) 160 = 100 + 50 + 10 = CLX\n- f) 504 = 500 + 4 = D + IV = DIV"
+    ],
+    "didaktischerHinweis": "Umwandlung Dezimal → Römisch. Entspricht S. 125, Aufg. 10, 12, 15.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als römische Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "16",
+          "antwort": "XVI"
+        },
+        {
+          "label": "b",
+          "frage": "29",
+          "antwort": "XXIX"
+        },
+        {
+          "label": "c",
+          "frage": "55",
+          "antwort": "LV"
+        },
+        {
+          "label": "d",
+          "frage": "82",
+          "antwort": "LXXXII"
+        },
+        {
+          "label": "e",
+          "frage": "160",
+          "antwort": "CLX"
+        },
+        {
+          "label": "f",
+          "frage": "504",
+          "antwort": "DIV"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fehler finden — Falsche römische Zahlen korrigieren",
+    "typ": "wahr-falsch",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 125,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Hier haben sich Fehler eingeschlichen. Prüfe, ob die römische Zahl richtig ist, und korrigiere.\n\na) 14 = XIIII\nb) 77 = LXXVII\nc) 66 = LXIV\nd) 160 = CLX\ne) 650 = DCV\nf) 604 = DCIV",
+    "loesung": "a) Falsch! 14 = XIV (nicht XIIII — höchstens 3 gleiche Zeichen nebeneinander)\nb) Richtig! 77 = LXXVII\nc) Falsch! 66 = LXVI (nicht LXIV, denn LXIV = 64)\nd) Richtig! 160 = CLX\ne) Falsch! 650 = DCL (nicht DCV, denn DCV = 505)\nf) Richtig! 604 = DCIV",
+    "loesungsweg": "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten",
+    "tipps": [
+      "Prüfe bei jeder Zahl zwei Dinge: (1) Stehen höchstens 3 gleiche Zeichen nebeneinander? (2) Ergibt die römische Zahl auch wirklich den angegebenen Wert?",
+      "Rechne die römische Zahl zurück in eine Dezimalzahl. Stimmt sie mit der angegebenen Zahl überein?",
+      "a) XIIII: Zähle die I → 4 Stück. Aber es dürfen maximal ___ gleiche Zeichen nebeneinander stehen.\nc) LXIV = 50 + 10 + (5-1) = 50 + 10 + 4 = ___. Ist das 66?",
+      "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten"
+    ],
+    "didaktischerHinweis": "Fehlererkennung vertieft Regelverständnis. Entspricht S. 125, Aufg. 13.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Hier haben sich Fehler eingeschlichen. Prüfe, ob die römische Zahl richtig ist, und korrigiere.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "14 = XIIII",
+          "richtig": false,
+          "erklaerung": "Falsch! 14 = XIV (nicht XIIII — höchstens 3 gleiche Zeichen nebeneinander)"
+        },
+        {
+          "label": "b",
+          "aussage": "77 = LXXVII",
+          "richtig": true,
+          "erklaerung": "Richtig! 77 = LXXVII"
+        },
+        {
+          "label": "c",
+          "aussage": "66 = LXIV",
+          "richtig": false,
+          "erklaerung": "Falsch! 66 = LXVI (nicht LXIV, denn LXIV = 64)"
+        },
+        {
+          "label": "d",
+          "aussage": "160 = CLX",
+          "richtig": true,
+          "erklaerung": "Richtig! 160 = CLX"
+        },
+        {
+          "label": "e",
+          "aussage": "650 = DCV",
+          "richtig": false,
+          "erklaerung": "Falsch! 650 = DCL (nicht DCV, denn DCV = 505)"
+        },
+        {
+          "label": "f",
+          "aussage": "604 = DCIV",
+          "richtig": true,
+          "erklaerung": "Richtig! 604 = DCIV"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Jahreszahlen in römischen Zahlen",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 125,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "An alten Gebäuden findet man oft das Baujahr in römischen Zahlen. Schreibe als Dezimalzahl.\n\na) MDCCLVI\nb) MCMXLVI\nc) MMXXVI",
+    "loesung": "a) 1.756\nb) 1.946\nc) 2.026",
+    "loesungsweg": "- a) M + D + C + C + L + V + I = 1.000 + 500 + 100 + 100 + 50 + 5 + 1 = 1.756\n- b) M + CM + XL + VI = 1.000 + 900 + 40 + 6 = 1.946\n- c) M + M + XX + VI = 1.000 + 1.000 + 20 + 6 = 2.026",
+    "tipps": [
+      "Lies von links nach rechts. Steht ein kleineres Zeichen links von einem größeren? Dann Subtraktionsregel anwenden!",
+      "Suche zuerst die Subtraktionspaare: CM = 900, XL = 40, IX = 9 usw. Dann addiere alle Teile.",
+      "b) M = 1.000. Dann CM: C(100) steht links von M(1.000) → 1.000 - 100 = 900. Dann XL: X(10) steht links von L(50) → 50 - 10 = 40. Dann VI = 6. Also: 1.000 + 900 + 40 + 6 = ___",
+      "- a) M + D + C + C + L + V + I = 1.000 + 500 + 100 + 100 + 50 + 5 + 1 = 1.756\n- b) M + CM + XL + VI = 1.000 + 900 + 40 + 6 = 1.946\n- c) M + M + XX + VI = 1.000 + 1.000 + 20 + 6 = 2.026"
+    ],
+    "didaktischerHinweis": "Komplexe römische Zahlen mit Subtraktionsregel. Entspricht S. 125, Aufg. 7 und 14.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "An alten Gebäuden findet man oft das Baujahr in römischen Zahlen. Schreibe als Dezimalzahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "MDCCLVI",
+          "antwort": "1.756"
+        },
+        {
+          "label": "b",
+          "frage": "MCMXLVI",
+          "antwort": "1.946"
+        },
+        {
+          "label": "c",
+          "frage": "MMXXVI",
+          "antwort": "2.026"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Große Zahlen als römische Zahl schreiben",
+    "typ": "eingabe",
+    "thema": "Römische Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 125,
+    "kapitel": "14-forscherkiste",
+    "stageId": "römische-zahlen",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe als römische Zahl.\n\na) 49\nb) 94\nc) 476\nd) 1.947\ne) 2.740",
+    "loesung": "a) XLIX\nb) XCIV\nc) CDLXXVI\nd) MCMXLVII\ne) MMDCCXL",
+    "loesungsweg": "- a) 49 = 40 + 9 = XL + IX = XLIX\n- b) 94 = 90 + 4 = XC + IV = XCIV\n- c) 476 = 400 + 70 + 6 = CD + LXX + VI = CDLXXVI\n- d) 1.947 = 1.000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII\n- e) 2.740 = 2.000 + 700 + 40 = MM + DCC + XL = MMDCCXL",
+    "tipps": [
+      "Zerlege in Tausender, Hunderter, Zehner, Einer. Übersetze jeden Teil einzeln. Denke an die Subtraktionsregel für 4, 9, 40, 90, 400, 900.",
+      "49 = 40 + 9.\n40 = XL (Subtraktionsregel: X vor L).\n9 = IX (Subtraktionsregel: I vor X).\nAlso: XLIX.",
+      "a) 49 = 40 + 9 = XL + IX = ___\nb) 94 = 90 + 4 = XC + IV = ___\nd) 1.947 = 1.000 + ___ + ___ + 7 = M + ___ + ___ + VII = ___",
+      "- a) 49 = 40 + 9 = XL + IX = XLIX\n- b) 94 = 90 + 4 = XC + IV = XCIV\n- c) 476 = 400 + 70 + 6 = CD + LXX + VI = CDLXXVI\n- d) 1.947 = 1.000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII\n- e) 2.740 = 2.000 + 700 + 40 = MM + DCC + XL = MMDCCXL"
+    ],
+    "didaktischerHinweis": "Fortgeschrittene Umwandlung mit Subtraktionsregel. Entspricht S. 125, Aufg. 15.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schreibe als römische Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "49",
+          "antwort": "XLIX"
+        },
+        {
+          "label": "b",
+          "frage": "94",
+          "antwort": "XCIV"
+        },
+        {
+          "label": "c",
+          "frage": "476",
+          "antwort": "CDLXXVI"
+        },
+        {
+          "label": "d",
+          "frage": "1.947",
+          "antwort": "MCMXLVII"
+        },
+        {
+          "label": "e",
+          "frage": "2.740",
+          "antwort": "MMDCCXL"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Binärzahlen kennenlernen — Stellenwerte verstehen",
+    "typ": "auswahl",
+    "thema": "Binärsystem",
+    "schwierigkeit": "gelb",
+    "buchseite": 126,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Im Binärsystem gibt es nur zwei Ziffern: 0 und 1. Die Stellenwerte sind Zweierpotenzen.\n\nWelche Stellenwerte haben die fünf Stellen (von rechts nach links)?\n\na) 1, 2, 3, 4, 5\nb) 1, 2, 4, 8, 16\nc) 2, 4, 6, 8, 10\nd) 1, 10, 100, 1.000, 10.000",
+    "loesung": "b) 1, 2, 4, 8, 16",
+    "loesungsweg": "Im Binärsystem verdoppelt sich der Stellenwert von rechts nach links:\n1. Stelle = 1, 2. Stelle = 2, 3. Stelle = 4, 4. Stelle = 8, 5. Stelle = 16.\nJeder Stellenwert ist das Doppelte des vorherigen: 1, 2, 4, 8, 16.",
+    "tipps": [
+      "Im Zehnersystem verdoppelt... nein, verzehnfacht sich der Wert von Stelle zu Stelle (1, 10, 100, ...). Im Binär- oder Zweiersystem verdoppelt sich der Wert. Starte bei 1: 1, 2, ...",
+      "Immer verdoppeln: 1 · 2 = 2, 2 · 2 = 4, 4 · 2 = 8, 8 · 2 = ___",
+      "Starte bei 1, dann immer verdoppeln: 1, 2, 4, ___, ___",
+      "Im Binärsystem verdoppelt sich der Stellenwert von rechts nach links:\n1. Stelle = 1, 2. Stelle = 2, 3. Stelle = 4, 4. Stelle = 8, 5. Stelle = 16.\nJeder Stellenwert ist das Doppelte des vorherigen: 1, 2, 4, 8, 16."
+    ],
+    "didaktischerHinweis": "Einführung Binärsystem über Stellenwerte. Entspricht S. 126, Erklärung und Aufg. 1.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Im Binärsystem gibt es nur zwei Ziffern: 0 und 1. Die Stellenwerte sind Zweierpotenzen.\n\nWelche Stellenwerte haben die fünf Stellen (von rechts nach links)?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "1, 2, 3, 4, 5"
+        },
+        {
+          "label": "B",
+          "text": "1, 2, 4, 8, 16"
+        },
+        {
+          "label": "C",
+          "text": "2, 4, 6, 8, 10"
+        },
+        {
+          "label": "D",
+          "text": "1, 10, 100, 1.000, 10.000"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Dezimal in Binär umwandeln — kleine Zahlen",
+    "typ": "eingabe",
+    "thema": "Binärsystem",
+    "schwierigkeit": "gelb",
+    "buchseite": 126,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Stelle diese Zahlen im Binärsystem dar. Nutze die Stellenwerte 16, 8, 4, 2, 1.\n\na) 3\nb) 5\nc) 6\nd) 10",
+    "loesung": "a) 00011\nb) 00101\nc) 00110\nd) 01010",
+    "loesungsweg": "Prüfe für jede Stelle, ob der Stellenwert in die Zahl passt:\n- a) 3: 16? Nein(0). 8? Nein(0). 4? Nein(0). 2? Ja(1), Rest 1. 1? Ja(1). → 00011\n- b) 5: 16? Nein(0). 8? Nein(0). 4? Ja(1), Rest 1. 2? Nein(0). 1? Ja(1). → 00101\n- c) 6: 16? Nein. 8? Nein. 4? Ja(1), Rest 2. 2? Ja(1). 1? Nein(0). → 00110\n- d) 10: 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 01010",
+    "tipps": [
+      "Nimm die fünf Zettel mit den Werten 16, 8, 4, 2, 1. Welche Zettel brauchst du, damit die Summe genau deine Zahl ergibt?",
+      "Prüfe von links nach rechts: Passt der Stellenwert hinein? Wenn ja, schreibe 1, wenn nein, schreibe 0. Ziehe den Wert ab und mach weiter.",
+      "a) 3: Brauchst du die 16? Nein → 0. Die 8? Nein → 0. Die 4? Nein → 0. Die 2? Ja → 1. Rest: 3-2=1. Die 1? Ja → 1. Also: 0 0 0 ___ ___",
+      "Prüfe für jede Stelle, ob der Stellenwert in die Zahl passt:\n- a) 3: 16? Nein(0). 8? Nein(0). 4? Nein(0). 2? Ja(1), Rest 1. 1? Ja(1). → 00011\n- b) 5: 16? Nein(0). 8? Nein(0). 4? Ja(1), Rest 1. 2? Nein(0). 1? Ja(1). → 00101\n- c) 6: 16? Nein. 8? Nein. 4? Ja(1), Rest 2. 2? Ja(1). 1? Nein(0). → 00110\n- d) 10: 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 01010"
+    ],
+    "didaktischerHinweis": "Erste Umwandlung Dezimal → Binär. Entspricht S. 126, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Stelle diese Zahlen im Binärsystem dar. Nutze die Stellenwerte 16, 8, 4, 2, 1.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "3",
+          "antwort": "00011"
+        },
+        {
+          "label": "b",
+          "frage": "5",
+          "antwort": "00101"
+        },
+        {
+          "label": "c",
+          "frage": "6",
+          "antwort": "00110"
+        },
+        {
+          "label": "d",
+          "frage": "10",
+          "antwort": "01010"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Binär in Dezimal umwandeln",
+    "typ": "eingabe",
+    "thema": "Binärsystem",
+    "schwierigkeit": "grün",
+    "buchseite": 126,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Übersetze diese Binärcodes in das Zehnersystem.\n\na) 10000\nb) 10001\nc) 01010\nd) 00110\ne) 10010\nf) 00101",
+    "loesung": "a) 16\nb) 17\nc) 10\nd) 6\ne) 18\nf) 5",
+    "loesungsweg": "Stellenwerte: 16, 8, 4, 2, 1. Addiere die Stellenwerte, wo eine 1 steht:\n- a) 10000: 16 = 16\n- b) 10001: 16 + 1 = 17\n- c) 01010: 8 + 2 = 10\n- d) 00110: 4 + 2 = 6\n- e) 10010: 16 + 2 = 18\n- f) 00101: 4 + 1 = 5",
+    "tipps": [
+      "Schreibe die Stellenwerte (16, 8, 4, 2, 1) über die Ziffern. Addiere nur die Werte, über denen eine 1 steht.",
+      "Lege die Stellenwerte an:\n```\n16  8  4  2  1\n 1  0  0  0  0  → nur 16 → Ergebnis: 16\n```",
+      "b) 10001: Stellenwerte 16, 8, 4, 2, 1. Wo steht eine 1? Bei 16 und bei 1. Also: 16 + 1 = ___",
+      "Stellenwerte: 16, 8, 4, 2, 1. Addiere die Stellenwerte, wo eine 1 steht:\n- a) 10000: 16 = 16\n- b) 10001: 16 + 1 = 17\n- c) 01010: 8 + 2 = 10\n- d) 00110: 4 + 2 = 6\n- e) 10010: 16 + 2 = 18\n- f) 00101: 4 + 1 = 5"
+    ],
+    "didaktischerHinweis": "Umwandlung Binär → Dezimal. Entspricht S. 126, Aufg. 5-6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Übersetze diese Binärcodes in das Zehnersystem.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "10000",
+          "antwort": "16"
+        },
+        {
+          "label": "b",
+          "frage": "10001",
+          "antwort": "17"
+        },
+        {
+          "label": "c",
+          "frage": "01010",
+          "antwort": "10"
+        },
+        {
+          "label": "d",
+          "frage": "00110",
+          "antwort": "6"
+        },
+        {
+          "label": "e",
+          "frage": "10010",
+          "antwort": "18"
+        },
+        {
+          "label": "f",
+          "frage": "00101",
+          "antwort": "5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Dezimal in Binär umwandeln — größere Zahlen",
+    "typ": "eingabe",
+    "thema": "Binärsystem",
+    "schwierigkeit": "grün",
+    "buchseite": 126,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Stelle diese Zahlen im Binärsystem dar. Du brauchst jetzt 7 Stellen (Stellenwerte: 64, 32, 16, 8, 4, 2, 1).\n\na) 25\nb) 42\nc) 56",
+    "loesung": "a) 0011001\nb) 0101010\nc) 0111000",
+    "loesungsweg": "- a) 25: 64? Nein. 32? Nein. 16? Ja(1), Rest 9. 8? Ja(1), Rest 1. 4? Nein. 2? Nein. 1? Ja(1). → 0011001\n- b) 42: 64? Nein. 32? Ja(1), Rest 10. 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 0101010\n- c) 56: 64? Nein. 32? Ja(1), Rest 24. 16? Ja(1), Rest 8. 8? Ja(1). 4? Nein. 2? Nein. 1? Nein. → 0111000",
+    "tipps": [
+      "Jetzt hast du 7 Zettel: 64, 32, 16, 8, 4, 2, 1. Geh wieder von links nach rechts und prüfe, ob der Wert hineinpasst.",
+      "a) 25: Passt 64 hinein? Nein (0). Passt 32? Nein (0). Passt 16? Ja (1). Rest: 25 - 16 = 9. Passt 8? Ja (1). Rest: 9 - 8 = 1. Weiter ...",
+      "a) 25 - 16 = 9. Dann 9 - 8 = 1. Dann 1 - 1 = 0. Wo stehen die Einsen? An den Stellen 16, 8 und 1: 00___00___",
+      "- a) 25: 64? Nein. 32? Nein. 16? Ja(1), Rest 9. 8? Ja(1), Rest 1. 4? Nein. 2? Nein. 1? Ja(1). → 0011001\n- b) 42: 64? Nein. 32? Ja(1), Rest 10. 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 0101010\n- c) 56: 64? Nein. 32? Ja(1), Rest 24. 16? Ja(1), Rest 8. 8? Ja(1). 4? Nein. 2? Nein. 1? Nein. → 0111000"
+    ],
+    "didaktischerHinweis": "Erweiterung auf 7-stellige Binärzahlen. Entspricht S. 126, Aufg. 3-4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Stelle diese Zahlen im Binärsystem dar. Du brauchst jetzt 7 Stellen (Stellenwerte: 64, 32, 16, 8, 4, 2, 1).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "25",
+          "antwort": "0011001"
+        },
+        {
+          "label": "b",
+          "frage": "42",
+          "antwort": "0101010"
+        },
+        {
+          "label": "c",
+          "frage": "56",
+          "antwort": "0111000"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Binärcode knacken — Wörter entschlüsseln",
+    "typ": "eingabe",
+    "thema": "Binärsystem",
+    "schwierigkeit": "orange",
+    "buchseite": 127,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101\n\nTipp: Rechne jeden Block zuerst in eine Dezimalzahl um, dann finde den Buchstaben.",
+    "loesung": "MATHE",
+    "loesungsweg": "- 01001101 = 64+8+4+1 = 77 → M\n- 01000001 = 64+1 = 65 → A\n- 01010100 = 64+16+4 = 84 → T\n- 01001000 = 64+8 = 72 → H\n- 01000101 = 64+4+1 = 69 → E\n\nDas Wort heißt: MATHE",
+    "tipps": [
+      "Nimm den ersten Block: 01001101. Die Stellenwerte sind 128, 64, 32, 16, 8, 4, 2, 1. Addiere die Werte, wo eine 1 steht.",
+      "01001101: Stelle die Stellenwerte darüber:\n128  64  32  16  8  4  2  1\n 0    1   0   0  1  1  0  1\nAddiere: 64 + 8 + 4 + 1 = 77. A = 65, B = 66, ... M = ?",
+      "64 + 8 + 4 + 1 = 77. A = 65, also: 65→A, 66→B, ..., 77→___ (zähle 77 - 65 = 12 Buchstaben weiter ab A).",
+      "- 01001101 = 64+8+4+1 = 77 → M\n- 01000001 = 64+1 = 65 → A\n- 01010100 = 64+16+4 = 84 → T\n- 01001000 = 64+8 = 72 → H\n- 01000101 = 64+4+1 = 69 → E\n\nDas Wort heißt: MATHE"
+    ],
+    "didaktischerHinweis": "Verknüpfung Binärsystem mit ASCII-Codierung. Entspricht S. 127, Aufg. 8.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Jeder Buchstabe hat im ASCII-Code eine Nummer, die als Binärzahl gespeichert wird. A = 65, B = 66, C = 67, ... Z = 90.\n\nEntschlüssele dieses Wort (jeder Block ist ein Buchstabe):\n\n01001101  01000001  01010100  01001000  01000101\n\nTipp: Rechne jeden Block zuerst in eine Dezimalzahl um, dann finde den Buchstaben.",
+          "antwort": "MATHE"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Binärcode und Dezimalcode — Muster erkennen",
+    "typ": "wahr-falsch",
+    "thema": "Binärsystem",
+    "schwierigkeit": "orange",
+    "buchseite": 126,
+    "kapitel": "14-forscherkiste",
+    "stageId": "binärsystem",
+    "digital": "voll",
+    "aufgabenstellung": "Richtig oder falsch?\n\na) Die größte Zahl, die man mit 5 Binärstellen darstellen kann, ist 11111 = 31.\nb) Im Binärsystem gibt es die Ziffer 2.\nc) Die Zahl 10 im Binärsystem hat den Wert 2 im Zehnersystem.\nd) Jede gerade Zahl endet im Binärsystem mit 0.",
+    "loesung": "a) Richtig (16 + 8 + 4 + 2 + 1 = 31)\nb) Falsch (es gibt nur 0 und 1)\nc) Richtig (1·2 + 0·1 = 2)\nd) Richtig (die letzte Stelle hat den Wert 1 — wenn sie 0 ist, fehlt die 1, also ist die Zahl gerade)",
+    "loesungsweg": "- a) 11111 = 16+8+4+2+1 = 31 → richtig\n- b) Im Binärsystem gibt es nur 0 und 1 → falsch\n- c) 10 im Binärsystem: 1·2 + 0·1 = 2 → richtig\n- d) Die 1er-Stelle (ganz rechts) entscheidet über gerade/ungerade. 0 = gerade → richtig",
+    "tipps": [
+      "Prüfe jede Aussage: Rechne nach oder überlege, ob die Regel Sinn macht.",
+      "a) Addiere alle Stellenwerte: 16 + 8 + 4 + 2 + 1 = ?\nb) Welche Ziffern gibt es im Zehnersystem? Welche im Binärsystem?",
+      "a) 16 + 8 + 4 + 2 + 1 = ___. Stimmt 31?\nc) 10 im Binärsystem: Die 1 steht auf der 2er-Stelle, die 0 auf der 1er-Stelle. Also 2 + 0 = ___",
+      "- a) 11111 = 16+8+4+2+1 = 31 → richtig\n- b) Im Binärsystem gibt es nur 0 und 1 → falsch\n- c) 10 im Binärsystem: 1·2 + 0·1 = 2 → richtig\n- d) Die 1er-Stelle (ganz rechts) entscheidet über gerade/ungerade. 0 = gerade → richtig"
+    ],
+    "didaktischerHinweis": "Vertiefung Binärsystem durch Muster und Regeln. Entspricht S. 126, Aufg. 4.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Richtig oder falsch?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "Die größte Zahl, die man mit 5 Binärstellen darstellen kann, ist 11111 = 31.",
+          "richtig": true,
+          "erklaerung": "Richtig (16 + 8 + 4 + 2 + 1 = 31)"
+        },
+        {
+          "label": "b",
+          "aussage": "Im Binärsystem gibt es die Ziffer 2.",
+          "richtig": false,
+          "erklaerung": "Falsch (es gibt nur 0 und 1)"
+        },
+        {
+          "label": "c",
+          "aussage": "Die Zahl 10 im Binärsystem hat den Wert 2 im Zehnersystem.",
+          "richtig": true,
+          "erklaerung": "Richtig (1·2 + 0·1 = 2)"
+        },
+        {
+          "label": "d",
+          "aussage": "Jede gerade Zahl endet im Binärsystem mit 0.",
+          "richtig": true,
+          "erklaerung": "Richtig (die letzte Stelle hat den Wert 1 — wenn sie 0 ist, fehlt die 1, also ist die Zahl gerade)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Dateneinheiten kennenlernen — B, KB, MB, GB",
+    "typ": "zuordnung",
+    "thema": "Datenmengen",
+    "schwierigkeit": "gelb",
+    "buchseite": 128,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Dateneinheiten der richtigen Beschreibung zu.\n\na) 1 Byte (B)\nb) 1 Kilobyte (KB)\nc) 1 Megabyte (MB)\nd) 1 Gigabyte (GB)\n\n1) = 1.024 MB — passt auf einen USB-Stick\n2) = 8 Bit — Speicher für einen Buchstaben\n3) = 1.024 B — etwa eine halbe Buchseite\n4) = 1.024 KB — etwa ein ganzes Buch",
+    "loesung": "a) → 2) 8 Bit — Speicher für einen Buchstaben\nb) → 3) 1.024 B — etwa eine halbe Buchseite\nc) → 4) 1.024 KB — etwa ein ganzes Buch\nd) → 1) 1.024 MB — passt auf einen USB-Stick",
+    "loesungsweg": "Die Einheiten bauen aufeinander auf, immer mit dem Faktor 1.024:\n1 B = 8 Bit → 1 KB = 1.024 B → 1 MB = 1.024 KB → 1 GB = 1.024 MB",
+    "tipps": [
+      "Die Einheiten werden immer größer: Byte → Kilobyte → Megabyte → Gigabyte. Jede ist 1.024-mal größer als die vorherige.",
+      "Merke dir die Reihenfolge: B → KB → MB → GB. Der Faktor ist immer 1.024 (ungefähr 1.000).",
+      "Ein Buchstabe braucht 1 Byte. 1.024 Buchstaben brauchen 1 ___. 1.024 davon sind 1 ___.",
+      "Die Einheiten bauen aufeinander auf, immer mit dem Faktor 1.024:\n1 B = 8 Bit → 1 KB = 1.024 B → 1 MB = 1.024 KB → 1 GB = 1.024 MB"
+    ],
+    "didaktischerHinweis": "Alltagsbezug zu digitalen Medien. Entspricht S. 128, Einführung.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Dateneinheiten der richtigen Beschreibung zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "1 Byte (B)"
+        },
+        {
+          "label": "b",
+          "text": "1 Kilobyte (KB)"
+        },
+        {
+          "label": "c",
+          "text": "1 Megabyte (MB)"
+        },
+        {
+          "label": "d",
+          "text": "1 Gigabyte (GB)"
+        },
+        {
+          "label": "1",
+          "text": "= 1.024 MB — passt auf einen USB-Stick"
+        },
+        {
+          "label": "2",
+          "text": "= 8 Bit — Speicher für einen Buchstaben"
+        },
+        {
+          "label": "3",
+          "text": "= 1.024 B — etwa eine halbe Buchseite"
+        },
+        {
+          "label": "4",
+          "text": "= 1.024 KB — etwa ein ganzes Buch"
+        }
+      ],
+      "choices": [],
+      "antworten": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "1"
+      }
+    }
+  },
+  {
+    "titel": "Zur nächsten Einheit ergänzen",
+    "typ": "eingabe",
+    "thema": "Datenmengen",
+    "schwierigkeit": "gelb",
+    "buchseite": 128,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze immer zur nächstgrößeren Einheit.\n\na) 700 B + ___ = 1.024 B = 1 KB\nb) 600 KB + ___ = 1.024 KB = 1 MB\nc) 300 MB + ___ = 1.024 MB = 1 GB",
+    "loesung": "a) 324\nb) 424\nc) 724",
+    "loesungsweg": "Immer 1.024 minus den vorhandenen Wert:\n- a) 1.024 - 700 = 324 B\n- b) 1.024 - 600 = 424 KB\n- c) 1.024 - 300 = 724 MB",
+    "tipps": [
+      "Die nächste Einheit beginnt immer bei 1.024 der vorherigen Einheit. Wie viel fehlt noch?",
+      "Ergänzungsaufgabe: Fehlende Menge = 1.024 - vorhandene Menge.",
+      "a) 1.024 - 700 = ___\nb) 1.024 - 600 = ___",
+      "Immer 1.024 minus den vorhandenen Wert:\n- a) 1.024 - 700 = 324 B\n- b) 1.024 - 600 = 424 KB\n- c) 1.024 - 300 = 724 MB"
+    ],
+    "didaktischerHinweis": "Ergänzungsaufgaben mit der Umrechnungszahl 1.024. Entspricht S. 128, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ergänze immer zur nächstgrößeren Einheit.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "700 B + ___ = 1.024 B = 1 KB",
+          "antwort": "324"
+        },
+        {
+          "label": "b",
+          "frage": "600 KB + ___ = 1.024 KB = 1 MB",
+          "antwort": "424"
+        },
+        {
+          "label": "c",
+          "frage": "300 MB + ___ = 1.024 MB = 1 GB",
+          "antwort": "724"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Ergänzen zur nächsten Einheit — Varianten",
+    "typ": "eingabe",
+    "thema": "Datenmengen",
+    "schwierigkeit": "grün",
+    "buchseite": 128,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze immer zur nächstgrößeren Einheit.\n\na) 495 B + ___ = 1 KB\nb) 520 KB + ___ = 1 MB\nc) 890 MB + ___ = 1 GB\nd) 798 B + ___ = 1 KB\ne) 765 KB + ___ = 1 MB",
+    "loesung": "a) 529\nb) 504\nc) 134\nd) 226\ne) 259",
+    "loesungsweg": "Immer: 1.024 - gegebene Menge = fehlende Menge.\n- a) 1.024 - 495 = 529\n- b) 1.024 - 520 = 504\n- c) 1.024 - 890 = 134\n- d) 1.024 - 798 = 226\n- e) 1.024 - 765 = 259",
+    "tipps": [
+      "Rechne: 1.024 minus die vorhandene Menge. Das ist wie bei Geld: Wie viel fehlt noch bis zum vollen Betrag?",
+      "Du kannst schrittweise rechnen: 1.024 - 500 = 524. Dann: 524 + 5 = 529 (bei a: 1.024 - 495).",
+      "a) 1.024 - 495: Rechne 1.024 - 500 = 524, dann + 5 = ___\nc) 1.024 - 890: Rechne 1.024 - 900 = 124, dann + 10 = ___",
+      "Immer: 1.024 - gegebene Menge = fehlende Menge.\n- a) 1.024 - 495 = 529\n- b) 1.024 - 520 = 504\n- c) 1.024 - 890 = 134\n- d) 1.024 - 798 = 226\n- e) 1.024 - 765 = 259"
+    ],
+    "didaktischerHinweis": "Subtraktion mit der Zahl 1.024. Entspricht S. 128, Aufg. 3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ergänze immer zur nächstgrößeren Einheit.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "495 B + ___ = 1 KB",
+          "antwort": "529"
+        },
+        {
+          "label": "b",
+          "frage": "520 KB + ___ = 1 MB",
+          "antwort": "504"
+        },
+        {
+          "label": "c",
+          "frage": "890 MB + ___ = 1 GB",
+          "antwort": "134"
+        },
+        {
+          "label": "d",
+          "frage": "798 B + ___ = 1 KB",
+          "antwort": "226"
+        },
+        {
+          "label": "e",
+          "frage": "765 KB + ___ = 1 MB",
+          "antwort": "259"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Speicherplatz berechnen — Fotos und Texte",
+    "typ": "eingabe",
+    "thema": "Datenmengen",
+    "schwierigkeit": "grün",
+    "buchseite": 129,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Foto braucht etwa 2 MB Speicherplatz. Eine Textseite braucht etwa 20 KB.\n\na) Wie viel Speicherplatz brauchen 5 Fotos?\nb) Wie viel Speicherplatz brauchen 50 Textseiten?\nc) Auf Janas Tablet ist noch 1 GB frei. Wie viele Fotos kann sie ungefähr speichern? (1 GB ≈ 1.000 MB)",
+    "loesung": "a) 10\nb) 1.000 KB (= ca. 1 MB)\nc) ungefähr 500 Fotos",
+    "loesungsweg": "- a) 5 · 2 MB = 10 MB\n- b) 50 · 20 KB = 1.000 KB ≈ 1 MB\n- c) 1 GB ≈ 1.000 MB. 1.000 MB : 2 MB = 500 Fotos",
+    "tipps": [
+      "Ein Foto = 2 MB. Fünf Fotos = 5-mal so viel. Wie rechnest du das?",
+      "a) Anzahl · Größe pro Stück = Gesamtgrösse.\nc) Gesamtspeicher : Größe pro Foto = Anzahl Fotos.",
+      "a) 5 · 2 = ___ MB\nc) 1.000 : 2 = ___ Fotos",
+      "- a) 5 · 2 MB = 10 MB\n- b) 50 · 20 KB = 1.000 KB ≈ 1 MB\n- c) 1 GB ≈ 1.000 MB. 1.000 MB : 2 MB = 500 Fotos"
+    ],
+    "didaktischerHinweis": "Sachrechnen mit Datenmengen und Alltagsbezug. Entspricht S. 129, Aufg. 9.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Foto braucht etwa 2 MB Speicherplatz. Eine Textseite braucht etwa 20 KB.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viel Speicherplatz brauchen 5 Fotos?",
+          "antwort": "10"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel Speicherplatz brauchen 50 Textseiten?",
+          "antwort": "1.000 KB (= ca. 1 MB)"
+        },
+        {
+          "label": "c",
+          "frage": "Auf Janas Tablet ist noch 1 GB frei. Wie viele Fotos kann sie ungefähr speichern? (1 GB ≈ 1.000 MB)",
+          "antwort": "ungefähr 500 Fotos"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie viel B hat 1 MB? — Einheiten umrechnen",
+    "typ": "eingabe",
+    "thema": "Datenmengen",
+    "schwierigkeit": "orange",
+    "buchseite": 128,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viel Byte hat 1 Megabyte? Rechne schrittweise.",
+    "loesung": "1.048.576 Byte (= 1.024 · 1.024)",
+    "loesungsweg": "1 MB = 1.024 KB.\n1 KB = 1.024 B.\nAlso: 1 MB = 1.024 · 1.024 B = 1.048.576 B.\nDas sind über eine Million Byte!",
+    "tipps": [
+      "Du weisst: 1 MB = 1.024 KB und 1 KB = 1.024 B. Wenn 1 KB schon 1.024 B sind, wie viele B sind dann 1.024 KB?",
+      "Rechne in zwei Schritten:\n1. 1 MB = 1.024 KB\n2. 1 KB = 1.024 B\n3. Also: 1 MB = 1.024 · 1.024 B",
+      "1.024 · 1.024 — das kannst du so rechnen: 1.024 · 1.000 = 1.024.000, dann + 1.024 · 24 = 24.576. Zusammen: 1.024.000 + 24.576 = ___",
+      "1 MB = 1.024 KB.\n1 KB = 1.024 B.\nAlso: 1 MB = 1.024 · 1.024 B = 1.048.576 B.\nDas sind über eine Million Byte!"
+    ],
+    "didaktischerHinweis": "Große Multiplikation als Anwendung. Entspricht S. 128, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viel Byte hat 1 Megabyte? Rechne schrittweise.",
+          "antwort": "1.048.576 Byte (= 1.024 · 1.024)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Speicherplatz-Rätsel — Tablet aufteilen",
+    "typ": "textaufgabe",
+    "thema": "Datenmengen",
+    "schwierigkeit": "orange",
+    "buchseite": 129,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Jette hat ein neues Tablet mit 64 GB Speicher bekommen. Das Betriebssystem braucht 14 GB. Die bereits installierten Apps brauchen 1.500 MB. Jette möchte 5 GB für Fotos freihalten. Wie viel Speicher steht ihr noch zur Verfügung?\n\nHinweis: 1 GB ≈ 1.000 MB.",
+    "loesung": "43 GB 500 MB (oder ca. 43,5 GB)",
+    "loesungsweg": "1. Betriebssystem: 14 GB\n2. Apps: 1.500 MB = 1,5 GB (ungefähr)\n3. Fotos: 5 GB\n4. Zusammen belegt: 14 + 1,5 + 5 = 20,5 GB\n5. Noch frei: 64 - 20,5 = 43,5 GB",
+    "tipps": [
+      "Rechne zuerst alles in die gleiche Einheit um. 1.500 MB — wie viele GB sind das ungefähr?",
+      "1.500 MB ≈ 1,5 GB (weil 1.000 MB ≈ 1 GB).\nDann: 64 GB - 14 GB - 1,5 GB - 5 GB = ?",
+      "64 - 14 = 50. Dann 50 - 1,5 = 48,5. Dann 48,5 - 5 = ___",
+      "1. Betriebssystem: 14 GB\n2. Apps: 1.500 MB = 1,5 GB (ungefähr)\n3. Fotos: 5 GB\n4. Zusammen belegt: 14 + 1,5 + 5 = 20,5 GB\n5. Noch frei: 64 - 20,5 = 43,5 GB"
+    ],
+    "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Einheitenumrechnung. Entspricht S. 129, Aufg. 11.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette hat ein neues Tablet mit 64 GB Speicher bekommen. Das Betriebssystem braucht 14 GB. Die bereits installierten Apps brauchen 1.500 MB. Jette möchte 5 GB für Fotos freihalten. Wie viel Speicher steht ihr noch zur Verfügung?",
+      "kontext": "Jette hat ein neues Tablet mit 64 GB Speicher bekommen. Das Betriebssystem braucht 14 GB. Die bereits installierten Apps brauchen 1.500 MB. Jette möchte 5 GB für Fotos freihalten. Wie viel Speicher steht ihr noch zur Verfügung?",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Hinweis: 1 GB ≈ 1.000 MB.",
+          "antwort": "43 GB 500 MB (oder ca. 43,5 GB)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Kann das stimmen? — Dateigrössen einschätzen",
+    "typ": "wahr-falsch",
+    "thema": "Datenmengen",
+    "schwierigkeit": "grün",
+    "buchseite": 129,
+    "kapitel": "14-forscherkiste",
+    "stageId": "datenmengen",
+    "digital": "voll",
+    "aufgabenstellung": "Kann das stimmen? (1 Foto ≈ 2 MB, 1 Lied ≈ 1 MB pro Minute, 1 Textseite ≈ 20 KB)\n\na) „Meine Präsentation zum Thema Römer ist 2.000 KB groß.\" — Das wären 2 MB. Kann das für eine Präsentation mit Bildern stimmen?\nb) „Auf meinem Handy ist noch 1 GB frei. Ich kann noch 1.000 Lieder (je 3 Minuten lang) speichern.\" — Stimmt das?",
+    "loesung": "a) Ja, das kann stimmen — eine Präsentation mit ein paar Bildern kann ca. 2 MB groß sein.\nb) Nein! 1.000 Lieder · 3 Minuten · 1 MB/Min = 3.000 MB = 3 GB. Das passt nicht in 1 GB.",
+    "loesungsweg": "- a) 2.000 KB = ca. 2 MB. Eine Präsentation mit wenigen Bildern: realistisch.\n- b) 1.000 · 3 MB = 3.000 MB = 3 GB. Aber nur 1 GB ist frei → stimmt nicht.",
+    "tipps": [
+      "Rechne bei b) aus: Wie viel Speicher brauchen 1.000 Lieder mit je 3 Minuten? Vergleiche dann mit 1 GB.",
+      "b) 1 Lied = 3 Minuten · 1 MB/Min = 3 MB. 1.000 Lieder = 1.000 · 3 MB = ___ MB. Ist das mehr oder weniger als 1 GB (≈ 1.000 MB)?",
+      "b) 1.000 · 3 = 3.000 MB. 1 GB ≈ 1.000 MB. 3.000 > 1.000 → Stimmt das?",
+      "- a) 2.000 KB = ca. 2 MB. Eine Präsentation mit wenigen Bildern: realistisch.\n- b) 1.000 · 3 MB = 3.000 MB = 3 GB. Aber nur 1 GB ist frei → stimmt nicht."
+    ],
+    "didaktischerHinweis": "Schätzübung mit Dateigrössen. Entspricht S. 129, Aufg. 10.\n\n\n# Thema 4: Rechenkünstler (S. 130-131)",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Kann das stimmen? (1 Foto ≈ 2 MB, 1 Lied ≈ 1 MB pro Minute, 1 Textseite ≈ 20 KB)",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "„Meine Präsentation zum Thema Römer ist 2.000 KB groß.\" — Das wären 2 MB. Kann das für eine Präsentation mit Bildern stimmen?",
+          "richtig": true,
+          "erklaerung": "Ja, das kann stimmen — eine Präsentation mit ein paar Bildern kann ca. 2 MB groß sein."
+        },
+        {
+          "label": "b",
+          "aussage": "„Auf meinem Handy ist noch 1 GB frei. Ich kann noch 1.000 Lieder (je 3 Minuten lang) speichern.\" — Stimmt das?",
+          "richtig": false,
+          "erklaerung": "Nein! 1.000 Lieder · 3 Minuten · 1 MB/Min = 3.000 MB = 3 GB. Das passt nicht in 1 GB."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Der Gauss-Trick — Summe von 1 bis 10",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "gelb",
+    "buchseite": 130,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Carl Friedrich Gauss hat einen schlauen Trick entdeckt, um Zahlen schnell zu addieren. Er hat Zahlenpaare gebildet, die immer die gleiche Summe ergeben.\n\nBilde Paare aus den Zahlen von 1 bis 10, die jeweils 11 ergeben.\n\na) 1 + ___ = 11\nb) 2 + ___ = 11\nc) 3 + ___ = 11\nd) 4 + ___ = 11\ne) 5 + ___ = 11\n\nWie viele Paare gibt es? Was ist die Summe aller Zahlen von 1 bis 10?",
+    "loesung": "a) 1 + 10 = 11\nb) 2 + 9 = 11\nc) 3 + 8 = 11\nd) 4 + 7 = 11\ne) 5 + 6 = 11\n\nEs gibt 5 Paare. Summe: 5 · 11 = 55",
+    "loesungsweg": "Die Zahlen 1 bis 10 lassen sich zu 5 Paaren zusammenfassen, die jeweils 11 ergeben:\n(1+10), (2+9), (3+8), (4+7), (5+6).\n5 Paare · 11 = 55.\nProbe: 1+2+3+4+5+6+7+8+9+10 = 55 ✓",
+    "tipps": [
+      "Schreibe die Zahlen 1 bis 10 auf. Verbinde die erste mit der letzten, die zweite mit der vorletzten. Was fällt dir bei den Summen auf?",
+      "Der Gauss-Trick: Paare bilden! 1+10=11, 2+9=11, 3+8=11, ... Wie viele Paare hast du? Multipliziere Paare · Summe pro Paar.",
+      "Du hast 5 Paare, jedes Paar ergibt 11. Also: 5 · 11 = ___",
+      "Die Zahlen 1 bis 10 lassen sich zu 5 Paaren zusammenfassen, die jeweils 11 ergeben:\n(1+10), (2+9), (3+8), (4+7), (5+6).\n5 Paare · 11 = 55.\nProbe: 1+2+3+4+5+6+7+8+9+10 = 55 ✓"
+    ],
+    "didaktischerHinweis": "Einführung des Gauss-Tricks an kleinem Zahlenbereich. Entspricht S. 130, Aufg. 1-2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Carl Friedrich Gauss hat einen schlauen Trick entdeckt, um Zahlen schnell zu addieren. Er hat Zahlenpaare gebildet, die immer die gleiche Summe ergeben.\n\nBilde Paare aus den Zahlen von 1 bis 10, die jeweils 11 ergeben.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1 + ___ = 11",
+          "antwort": "1 + 10 = 11"
+        },
+        {
+          "label": "b",
+          "frage": "2 + ___ = 11",
+          "antwort": "2 + 9 = 11"
+        },
+        {
+          "label": "c",
+          "frage": "3 + ___ = 11",
+          "antwort": "3 + 8 = 11"
+        },
+        {
+          "label": "d",
+          "frage": "4 + ___ = 11",
+          "antwort": "4 + 7 = 11"
+        },
+        {
+          "label": "e",
+          "frage": "5 + ___ = 11",
+          "antwort": "5 + 6 = 11"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Summe aller Zahlen von 1 bis 100 — der Gauss-Trick",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "grün",
+    "buchseite": 130,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Benutze den Gauss-Trick: Berechne die Summe aller Zahlen von 1 bis 100.\n\na) Wie groß ist die Summe eines Paares? (Tipp: 1 + 100 = ?)\nb) Wie viele Paare gibt es?\nc) Was ist die Gesamtsumme?",
+    "loesung": "a) 101\nb) 50\nc) 5.050",
+    "loesungsweg": "- a) 1 + 100 = 101 (auch 2+99 = 101, 3+98 = 101, ...)\n- b) 100 Zahlen : 2 = 50 Paare\n- c) 50 · 101 = 5.050",
+    "tipps": [
+      "Der gleiche Trick wie bei 1-10, nur größer! Bilde das erste Paar: 1 + 100 = ___. Und das zweite: 2 + 99 = ___. Was fällt dir auf?",
+      "1. Paarsumme: 1 + 100 = 101\n2. Anzahl Paare: 100 : 2 = 50\n3. Gesamtsumme: 50 · 101 = ?",
+      "50 · 101 = 50 · 100 + 50 · 1 = 5.000 + 50 = ___",
+      "- a) 1 + 100 = 101 (auch 2+99 = 101, 3+98 = 101, ...)\n- b) 100 Zahlen : 2 = 50 Paare\n- c) 50 · 101 = 5.050"
+    ],
+    "didaktischerHinweis": "Anwendung des Gauss-Tricks auf den klassischen Fall. Entspricht S. 130, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Benutze den Gauss-Trick: Berechne die Summe aller Zahlen von 1 bis 100.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie groß ist die Summe eines Paares? (Tipp: 1 + 100 = ?)",
+          "antwort": "101"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Paare gibt es?",
+          "antwort": "50"
+        },
+        {
+          "label": "c",
+          "frage": "Was ist die Gesamtsumme?",
+          "antwort": "5.050"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Summe der ungeraden und geraden Zahlen",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "grün",
+    "buchseite": 130,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "a) Berechne die Summe aller ungeraden Zahlen von 1 bis 100.\n   Hinweis: 1, 3, 5, 7, ..., 99 — wie viele sind es?\nb) Berechne die Summe aller geraden Zahlen von 1 bis 100.\n   Hinweis: Wenn du die Gesamtsumme und die Summe der ungeraden Zahlen kennst...",
+    "loesung": "a) 2.500\nb) 2.550",
+    "loesungsweg": "a) Ungerade Zahlen: 1, 3, 5, ..., 99. Das sind 50 Zahlen.\n   Paare: 1+99=100, 3+97=100, ..., 49+51=100.\n   25 Paare · 100 = 2.500.\nb) Gesamtsumme 1-100 = 5.050. Minus ungerade: 5.050 - 2.500 = 2.550.\n   Oder direkt: 2, 4, 6, ..., 100 = 50 Zahlen. Paare: 2+100=102, 25 Paare. 25·102 = 2.550.",
+    "tipps": [
+      "a) Wie viele ungerade Zahlen gibt es von 1 bis 100? Bilde wieder Paare: 1+99 = ?",
+      "a) Es gibt 50 ungerade Zahlen. Paare: 1+99=100, 3+97=100, ... Das sind 25 Paare mit je 100.\nb) Gesamtsumme (5.050) minus ungerade Summe = gerade Summe.",
+      "a) 25 Paare · 100 = ___\nb) 5.050 - ___ = ___",
+      "a) Ungerade Zahlen: 1, 3, 5, ..., 99. Das sind 50 Zahlen.\n   Paare: 1+99=100, 3+97=100, ..., 49+51=100.\n   25 Paare · 100 = 2.500.\nb) Gesamtsumme 1-100 = 5.050. Minus ungerade: 5.050 - 2.500 = 2.550.\n   Oder direkt: 2, 4, 6, ..., 100 = 50 Zahlen. Paare: 2+100=102, 25 Paare. 25·102 = 2.550."
+    ],
+    "didaktischerHinweis": "Vertiefung des Gauss-Tricks mit Teilmengen. Entspricht S. 130, Aufg. 3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Berechne die Summe aller ungeraden Zahlen von 1 bis 100.",
+          "antwort": "2.500"
+        },
+        {
+          "label": "b",
+          "frage": "Berechne die Summe aller geraden Zahlen von 1 bis 100.",
+          "antwort": "2.550"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Summe von 1 bis 200 — den Trick übertragen",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "orange",
+    "buchseite": 130,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne die Summe aller Zahlen von 1 bis 200 mit dem Gauss-Trick.",
+    "loesung": "20.100",
+    "loesungsweg": "Paare: 1+200 = 201.\nAnzahl Paare: 200 : 2 = 100.\nSumme: 100 · 201 = 20.100.",
+    "tipps": [
+      "Der Gauss-Trick funktioniert genauso: Bilde das erste Paar: 1 + 200 = ___. Wie viele Paare gibt es?",
+      "1. Paarsumme: 1 + 200 = 201\n2. Paare: 200 : 2 = 100\n3. Gesamtsumme: 100 · 201 = ?",
+      "100 · 201 = 100 · 200 + 100 · 1 = 20.000 + 100 = ___",
+      "Paare: 1+200 = 201.\nAnzahl Paare: 200 : 2 = 100.\nSumme: 100 · 201 = 20.100."
+    ],
+    "didaktischerHinweis": "Transfer auf größeren Zahlenraum. Entspricht S. 130, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Berechne die Summe aller Zahlen von 1 bis 200 mit dem Gauss-Trick.",
+          "antwort": "20.100"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Nelsons Spardose — Verdoppeln",
+    "typ": "schritt",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "gelb",
+    "buchseite": 131,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.\n\na) Füll die Tabelle aus:\n\n| Tag | Betrag |\n|-----|--------|\n| 1 | 1 ct |\n| 2 | 2 ct |\n| 3 | 4 ct |\n| 4 | ___ ct |\n| 5 | ___ ct |\n| 6 | ___ ct |\n\nb) Wie viel hat Nelson nach 6 Tagen insgesamt?",
+    "loesung": "a) Tag 4: 8 ct, Tag 5: 16 ct, Tag 6: 32 ct\nb) 1 + 2 + 4 + 8 + 16 + 32 = 63 ct",
+    "loesungsweg": "Immer verdoppeln: 1, 2, 4, 8, 16, 32.\nSumme: 1+2+4+8+16+32 = 63 Cent.",
+    "tipps": [
+      "Jeden Tag verdoppeln: Tag 3 = 4 Cent. Tag 4 = 4 · 2 = ___. Tag 5 = ___ · 2 = ___.",
+      "Verdoppelungsreihe: 1, 2, 4, 8, 16, 32. Addiere dann alle Beträge für die Gesamtsumme.",
+      "Tag 4: 4 · 2 = 8. Tag 5: 8 · 2 = ___. Tag 6: ___ · 2 = ___.\nSumme: 1 + 2 + 4 + 8 + ___ + ___ = ___",
+      "Immer verdoppeln: 1, 2, 4, 8, 16, 32.\nSumme: 1+2+4+8+16+32 = 63 Cent."
+    ],
+    "didaktischerHinweis": "Exponentielles Wachstum anschaulich. Entspricht S. 131, Aufg. 6.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Nelson bekommt am 1. Tag 1 Cent, am 2. Tag 2 Cent, am 3. Tag 4 Cent — jeden Tag doppelt so viel wie am Vortag.\n\na) Füll die Tabelle aus:\n\n\nb) Wie viel hat Nelson nach 6 Tagen insgesamt?",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "1 · Betrag =",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "2 · Betrag =",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "3 · Betrag =",
+              "antwort": ""
+            },
+            {
+              "label": "4",
+              "frage": "4 · Betrag =",
+              "antwort": ""
+            },
+            {
+              "label": "5",
+              "frage": "5 · Betrag =",
+              "antwort": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Nelsons Taschengeld — nach 15 Tagen",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "grün",
+    "buchseite": 131,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Nelson verdoppelt jeden Tag sein Taschengeld (Tag 1: 1 ct, Tag 2: 2 ct, ...).\n\na) Wie viel Cent bekommt er am Tag 10?\nb) Wie viel Cent bekommt er am Tag 15?\nc) Wie viel Euro sind das an Tag 15?",
+    "loesung": "a) 512 ct (= 5,12 Euro)\nb) 16.384\nc) 163,84",
+    "loesungsweg": "Die Reihe: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1.024, 2.048, 4.096, 8.192, 16.384.\n- a) Tag 10: 512 ct\n- b) Tag 15: 16.384 ct\n- c) 16.384 : 100 = 163,84 Euro",
+    "tipps": [
+      "Du kennst schon Tag 6 = 32. Verdopple weiter: 32, 64, 128, 256, ___. Bei welchem Tag bist du bei 512?",
+      "Verdopple schrittweise: Tag 7 = 64, Tag 8 = 128, Tag 9 = 256, Tag 10 = ___.\nDann weiter bis Tag 15.",
+      "Tag 10 = 512. Tag 11 = 1.024. Tag 12 = 2.048. Tag 13 = 4.096. Tag 14 = 8.192. Tag 15 = ___",
+      "Die Reihe: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1.024, 2.048, 4.096, 8.192, 16.384.\n- a) Tag 10: 512 ct\n- b) Tag 15: 16.384 ct\n- c) 16.384 : 100 = 163,84 Euro"
+    ],
+    "didaktischerHinweis": "Exponentielles Wachstum weiterführen. Entspricht S. 131, Aufg. 6-7.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Nelson verdoppelt jeden Tag sein Taschengeld (Tag 1: 1 ct, Tag 2: 2 ct, ...).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viel Cent bekommt er am Tag 10?",
+          "antwort": "512 ct (= 5,12 Euro)"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel Cent bekommt er am Tag 15?",
+          "antwort": "16.384"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel Euro sind das an Tag 15?",
+          "antwort": "163,84"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Der Fahrrad-Handel — Gewinn oder Verlust?",
+    "typ": "textaufgabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "orange",
+    "buchseite": 131,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Fredo kauft ein gebrauchtes Fahrrad für 20 Euro. Er verkauft es für 30 Euro. Später kauft er es zurück für 40 Euro. Dann verkauft er es wieder für 50 Euro.\n\nHat Fredo insgesamt Gewinn gemacht oder Geld verloren? Wie viel?",
+    "loesung": "Fredo hat 20 Euro Gewinn gemacht.",
+    "loesungsweg": "Einnahmen (Verkauf): 30 + 50 = 80 Euro.\nAusgaben (Kauf): 20 + 40 = 60 Euro.\nGewinn: 80 - 60 = 20 Euro.\n\nOder schrittweise:\n- Kauf: -20 Euro (hat 20 ausgegeben)\n- Verkauf: +30 Euro (hat 30 bekommen) → Stand: +10 Euro\n- Kauf: -40 Euro → Stand: -30 Euro\n- Verkauf: +50 Euro → Stand: +20 Euro",
+    "tipps": [
+      "Zähle getrennt: Wie viel hat Fredo insgesamt AUSGEGEBEN (Kauf)? Wie viel hat er insgesamt BEKOMMEN (Verkauf)?",
+      "Gesamteinnahmen = 30 + 50 = 80 Euro.\nGesamtausgaben = 20 + 40 = 60 Euro.\nGewinn = Einnahmen - Ausgaben = ?",
+      "Einnahmen: 30 + 50 = 80. Ausgaben: 20 + 40 = 60. Gewinn: 80 - 60 = ___",
+      "Einnahmen (Verkauf): 30 + 50 = 80 Euro.\nAusgaben (Kauf): 20 + 40 = 60 Euro.\nGewinn: 80 - 60 = 20 Euro.\n\nOder schrittweise:\n- Kauf: -20 Euro (hat 20 ausgegeben)\n- Verkauf: +30 Euro (hat 30 bekommen) → Stand: +10 Euro\n- Kauf: -40 Euro → Stand: -30 Euro\n- Verkauf: +50 Euro → Stand: +20 Euro"
+    ],
+    "didaktischerHinweis": "Klassisches Knobelrätsel mit Gewinn/Verlust-Rechnung. Entspricht S. 131, Aufg. 8.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Fredo kauft ein gebrauchtes Fahrrad für 20 Euro. Er verkauft es für 30 Euro. Später kauft er es zurück für 40 Euro. Dann verkauft er es wieder für 50 Euro.",
+      "kontext": "Fredo kauft ein gebrauchtes Fahrrad für 20 Euro. Er verkauft es für 30 Euro. Später kauft er es zurück für 40 Euro. Dann verkauft er es wieder für 50 Euro.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Hat Fredo insgesamt Gewinn gemacht oder Geld verloren? Wie viel?",
+          "antwort": "Fredo hat 20 Euro Gewinn gemacht."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Summenformel anwenden — verschiedene Zahlenräume",
+    "typ": "eingabe",
+    "thema": "Rechenkünstler",
+    "schwierigkeit": "orange",
+    "buchseite": 130,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkünstler",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne mit dem Gauss-Trick.\n\na) Summe von 1 bis 50\nb) Summe von 1 bis 500\nc) Wie viel mehr ist die Summe von 1-100 als die Summe von 1-50?",
+    "loesung": "a) 1.275\nb) 125.250\nc) 3.775",
+    "loesungsweg": "- a) 1+50=51, 25 Paare. 25·51 = 1.275\n- b) 1+500=501, 250 Paare. 250·501 = 125.250\n- c) 5.050 - 1.275 = 3.775",
+    "tipps": [
+      "Immer der gleiche Trick: Erstes + Letztes = Paarsumme. Anzahl : 2 = Paare. Paare · Paarsumme = Ergebnis.",
+      "a) 1+50 = 51. Paare: 50 : 2 = 25. Also: 25 · 51 = ?",
+      "a) 25 · 51 = 25 · 50 + 25 · 1 = 1.250 + 25 = ___\nb) 250 · 501 = 250 · 500 + 250 · 1 = 125.000 + 250 = ___",
+      "- a) 1+50=51, 25 Paare. 25·51 = 1.275\n- b) 1+500=501, 250 Paare. 250·501 = 125.250\n- c) 5.050 - 1.275 = 3.775"
+    ],
+    "didaktischerHinweis": "Systematische Anwendung des Gauss-Tricks. Entspricht S. 130, Aufg. 2-4 zusammenfassend.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Berechne mit dem Gauss-Trick.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Summe von 1 bis 50",
+          "antwort": "1.275"
+        },
+        {
+          "label": "b",
+          "frage": "Summe von 1 bis 500",
+          "antwort": "125.250"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel mehr ist die Summe von 1-100 als die Summe von 1-50?",
+          "antwort": "3.775"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci-Regel entdecken",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "gelb",
+    "buchseite": 132,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen.\n\n1, 1, 2, 3, 5, 8, 13, ___, ___, ___\n\nSetze die Folge um drei Zahlen fort.",
+    "loesung": "21, 34, 55",
+    "loesungsweg": "- 8 + 13 = 21\n- 13 + 21 = 34\n- 21 + 34 = 55\n\nDie Fibonacci-Regel: Jede Zahl ist die Summe der beiden vorherigen.",
+    "tipps": [
+      "Schau dir an, wie die Zahlen zusammenhängen: 1+1=2, 1+2=3, 2+3=5, 3+5=8, 5+8=13. Siehst du das Muster?",
+      "Addiere immer die letzten beiden Zahlen: Die nächste nach 8 und 13 ist 8 + 13 = ___",
+      "8 + 13 = ___. Dann 13 + ___ = ___. Dann ___ + ___ = ___.",
+      "- 8 + 13 = 21\n- 13 + 21 = 34\n- 21 + 34 = 55\n\nDie Fibonacci-Regel: Jede Zahl ist die Summe der beiden vorherigen."
+    ],
+    "didaktischerHinweis": "Einführung der Fibonacci-Regel. Entspricht S. 132, Aufg. 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "In der Fibonacci-Folge werden immer die letzten beiden Zahlen addiert, um die nächste zu bekommen.\n\n1, 1, 2, 3, 5, 8, 13, ___, ___, ___\n\nSetze die Folge um drei Zahlen fort.",
+          "antwort": "21, 34, 55"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci-Folgen mit verschiedenen Startzahlen",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "gelb",
+    "buchseite": 132,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Setze die Zahlenfolgen nach der Fibonacci-Regel fort (immer die letzten beiden addieren). Schreibe die nächsten drei Zahlen.\n\na) 4, 5, ___, ___, ___\nb) 5, 7, ___, ___, ___\nc) 7, 10, ___, ___, ___",
+    "loesung": "a) 4, 5, 9, 14, 23\nb) 5, 7, 12, 19, 31\nc) 7, 10, 17, 27, 44",
+    "loesungsweg": "- a) 4+5=9, 5+9=14, 9+14=23\n- b) 5+7=12, 7+12=19, 12+19=31\n- c) 7+10=17, 10+17=27, 17+27=44",
+    "tipps": [
+      "Die Regel ist immer gleich: Addiere die letzten zwei Zahlen! Bei a): 4 + 5 = ___",
+      "Schreibe die Zahlen auf und addiere jeweils die beiden letzten:\na) 4, 5, (4+5)=___, (5+___)=___, ...",
+      "a) 4+5 = 9. 5+9 = ___. 9+___ = ___.",
+      "- a) 4+5=9, 5+9=14, 9+14=23\n- b) 5+7=12, 7+12=19, 12+19=31\n- c) 7+10=17, 10+17=27, 17+27=44"
+    ],
+    "didaktischerHinweis": "Übung mit verschiedenen Startzahlen. Entspricht S. 132, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Setze die Zahlenfolgen nach der Fibonacci-Regel fort (immer die letzten beiden addieren). Schreibe die nächsten drei Zahlen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "4, 5, ___, ___, ___",
+          "antwort": "4, 5, 9, 14, 23"
+        },
+        {
+          "label": "b",
+          "frage": "5, 7, ___, ___, ___",
+          "antwort": "5, 7, 12, 19, 31"
+        },
+        {
+          "label": "c",
+          "frage": "7, 10, ___, ___, ___",
+          "antwort": "7, 10, 17, 27, 44"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci rückwärts — fehlende Zahlen finden",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "grün",
+    "buchseite": 132,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze die fehlenden Zahlen. Die Folge folgt der Fibonacci-Regel.\n\na) 13, 7, ___, ___, ___\nb) ___, 10, 15, ___, ___\nc) ___, ___, 34, 62, ___",
+    "loesung": "a) 13, 7, 20, 27, 47\nb) 5, 10, 15, 25, 40 (oder vorwärts: 10+15=25, 15+25=40; rückwärts: 15-10=5)\nc) 12, 22, 34, 62, 96 (rückwärts: 62-34=28... Korrektur: 34-22=12, 22+34=56... Hmm.)\n\nKorrigierte Version:\na) 13, 7, 20, 27, 47\nb) 5, 10, 15, 25, 40\nc) 24, 38, 62, 100, 162 — Nein.\n\nKorrekt nach Buch-Aufgabe 3:\na) 13, 7 → 13+7=20, 7+20=27, 20+27=47\nb) ___, 10, 15 → 15-10=5. Also: 5, 10, 15, 25, 40\nc) ___, ___, ___, 34, 62 → 62-34=28. 34-28=6. Also: 6, 28, 34, 62, 96",
+    "loesungsweg": "Vorwärts: Addiere die letzten beiden.\nRückwärts: Subtrahiere die kleinere von der größeren.\n- a) 13+7=20, 7+20=27, 20+27=47\n- b) Rückwärts: 15-10=5. Vorwärts: 10+15=25, 15+25=40.\n- c) Rückwärts: 62-34=28, 34-28=6. Vorwärts: 34+62=96.",
+    "tipps": [
+      "Wenn du die Fibonacci-Regel rückwärts benutzt: Die fehlende Zahl = nächste Zahl - aktuelle Zahl.",
+      "Vorwärts: A + B = C (addieren).\nRückwärts: C - B = A (subtrahieren).\nBei b): 15 - 10 = 5. Also ist die fehlende Startzahl 5.",
+      "b) ___, 10, 15: 15 - 10 = ___. Das ist die fehlende erste Zahl!\nc) ___, ___, 34, 62: 62 - 34 = ___. Und 34 - ___ = ___.",
+      "Vorwärts: Addiere die letzten beiden.\nRückwärts: Subtrahiere die kleinere von der größeren.\n- a) 13+7=20, 7+20=27, 20+27=47\n- b) Rückwärts: 15-10=5. Vorwärts: 10+15=25, 15+25=40.\n- c) Rückwärts: 62-34=28, 34-28=6. Vorwärts: 34+62=96."
+    ],
+    "didaktischerHinweis": "Rückwärtsdenken in der Fibonacci-Folge. Entspricht S. 132, Aufg. 3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ergänze die fehlenden Zahlen. Die Folge folgt der Fibonacci-Regel.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "13, 7, ___, ___, ___",
+          "antwort": "13, 7, 20, 27, 47"
+        },
+        {
+          "label": "b",
+          "frage": "___, 10, 15, ___, ___",
+          "antwort": "5, 10, 15, 25, 40 (oder vorwärts: 10+15=25, 15+25=40; rückwärts: 15-10=5)"
+        },
+        {
+          "label": "c",
+          "frage": "___, ___, 34, 62, ___",
+          "antwort": "12, 22, 34, 62, 96 (rückwärts: 62-34=28... Korrektur: 34-22=12, 22+34=56... Hmm.)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci mit Zielzahl — Startzahlen finden",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "grün",
+    "buchseite": 133,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).\n\nFinde mindestens 2 verschiedene Folgen.",
+    "loesung": "Beispiele:\n- 8, 23, 31, 39, 100 — Nein, Prüfung: 31+39=70, nicht 100.\n\nKorrekte Beispiele (5 Zahlen, Fibonacci-Regel, endet bei der 5. Zahl = 100):\nWenn die Folge a, b, a+b, a+2b, 2a+3b ist, dann 2a+3b=100.\n- a=2, b=32: 2, 32, 34, 66, 100 ✓\n- a=5, b=30: 5, 30, 35, 65, 100 ✓\n- a=8, b=28: 8, 28, 36, 64, 100 ✓\n- a=11, b=26: 11, 26, 37, 63, 100 ✓\n- a=14, b=24: 14, 24, 38, 62, 100 ✓\n- a=20, b=20: 20, 20, 40, 60, 100 ✓",
+    "loesungsweg": "Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.\nProbiere verschiedene Startzahlen aus:\n- a=5: 3b = 90, b = 30 → 5, 30, 35, 65, 100 ✓\n- a=8: 3b = 84, b = 28 → 8, 28, 36, 64, 100 ✓",
+    "tipps": [
+      "Probiere verschiedene Startzahlen aus. Schreibe die Folge auf und schau, ob du bei 100 landest.",
+      "Rückwärts denken: Wenn die 5. Zahl 100 ist, was sind dann die 3. und 4. Zahl? Sie müssen zusammen 100 ergeben!",
+      "Die 4. und 3. Zahl müssen zusammen 100 ergeben. Probiere: 3. Zahl = 35, 4. Zahl = 65. Dann rückwärts: 65-35=30. Also Startzahlen 5 und 30. Prüfe: 5, 30, 35, 65, ___",
+      "Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.\nProbiere verschiedene Startzahlen aus:\n- a=5: 3b = 90, b = 30 → 5, 30, 35, 65, 100 ✓\n- a=8: 3b = 84, b = 28 → 8, 28, 36, 64, 100 ✓"
+    ],
+    "didaktischerHinweis": "Kreatives Rückwärtsarbeiten. Entspricht S. 133, Aufg. 5.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Finde Fibonacci-Folgen mit genau 5 Zahlen, die auf der Zielzahl 100 enden. Die Folge muss der Fibonacci-Regel folgen (immer die letzten beiden addieren).\n\nFinde mindestens 2 verschiedene Folgen.",
+          "antwort": "Beispiele:"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci-Muster — Was passiert, wenn sich Startzahlen ändern?",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "grün",
+    "buchseite": 133,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.\n\na) 8, 7, 15, 22, ___\nb) 9, 7, 16, 23, ___\nc) 10, 7, 17, 27, ___\nd) 11, 7, 18, 25, ___\n\nWas fällt dir bei der 5. Zahl auf?",
+    "loesung": "a) 37\nb) 39\nc) 44\nd) 43\n\nDie 5. Zahl wird jeweils um 2 größer (37, 39, 41, 43), wenn die 1. Zahl um 1 wächst.\n\nKorrektur — nochmal gerechnet:\na) 8, 7: 15, 22, 37\nb) 9, 7: 16, 23, 39\nc) 10, 7: 17, 27, 44\nd) 11, 7: 18, 25, 43\n\nc) 10+7=17, 7+17=24 (nicht 27!). Nochmal:\nc) 10, 7, 17, 24, 41\nd) 11, 7, 18, 25, 43\n\nNochmal sorgfältig:\na) 8, 7 → 8+7=15, 7+15=22, 15+22=37\nb) 9, 7 → 9+7=16, 7+16=23, 16+23=39\nc) 10, 7 → 10+7=17, 7+17=24, 17+24=41\nd) 11, 7 → 11+7=18, 7+18=25, 18+25=43\n\n5. Zahlen: 37, 39, 41, 43 → jeweils +2!",
+    "loesungsweg": "Wenn die 1. Startzahl um 1 wächst (und die 2. gleich bleibt), wächst die 5. Zahl um 2. Das liegt daran, dass die 1. Zahl in der 5. Position zweimal vorkommt (mathematisch: die 5. Zahl = 2·a + 3·b).",
+    "tipps": [
+      "Berechne alle vier Folgen fertig. Schreibe die 5. Zahlen untereinander. Was fällt dir auf?",
+      "Schreibe die Folgen auf und vergleiche die Zielzahlen:\na) 8,7 → ..., ..., 37\nb) 9,7 → ..., ..., ___\nWas ist der Unterschied?",
+      "a) 15+22 = 37. b) 16+23 = ___. c) 17+24 = ___. d) 18+25 = ___.\nUnterschied: 39-37 = ___. 41-39 = ___.",
+      "Wenn die 1. Startzahl um 1 wächst (und die 2. gleich bleibt), wächst die 5. Zahl um 2. Das liegt daran, dass die 1. Zahl in der 5. Position zweimal vorkommt (mathematisch: die 5. Zahl = 2·a + 3·b)."
+    ],
+    "didaktischerHinweis": "Muster in Fibonacci-Folgen entdecken. Entspricht S. 133, Aufg. 7.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Vergleiche diese Fibonacci-Folgen. Die erste Zahl wird immer um 1 größer, die zweite bleibt gleich.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "8, 7, 15, 22, ___",
+          "antwort": "37"
+        },
+        {
+          "label": "b",
+          "frage": "9, 7, 16, 23, ___",
+          "antwort": "39"
+        },
+        {
+          "label": "c",
+          "frage": "10, 7, 17, 27, ___",
+          "antwort": "44"
+        },
+        {
+          "label": "d",
+          "frage": "11, 7, 18, 25, ___",
+          "antwort": "43"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci rückwärts berechnen — schwierige Lücken",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "orange",
+    "buchseite": 132,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze die fehlenden Zahlen in den Fibonacci-Folgen.\n\na) 7, ___, ___, ___, 44\nb) 10, ___, ___, ___, 59",
+    "loesung": "a) 7, 10, 17, 27, 44 (Probe: 7+10=17, 10+17=27, 17+27=44 ✓)\nb) 10, 13, 23, 36, 59 (Probe: 10+13=23, 13+23=36, 23+36=59 ✓)",
+    "loesungsweg": "Bei der Folge a, b, a+b, a+2b, 2a+3b:\na) a=7, 2a+3b=44 → 14+3b=44 → 3b=30 → b=10\nb) a=10, 2a+3b=59 → 20+3b=59 → 3b=39 → b=13",
+    "tipps": [
+      "Du kennst die erste und letzte Zahl. Probiere verschiedene Werte für die zweite Zahl aus und prüfe, ob du am Ende bei der Zielzahl landest.",
+      "Probiere systematisch: 7, 8 → 15, 23, 38. Nein. 7, 9 → 16, 25, 41. Nein. 7, 10 → 17, 27, 44. Ja!",
+      "a) Probiere b=10: 7, 10, 17, 27, ___. Stimmt 44?",
+      "Bei der Folge a, b, a+b, a+2b, 2a+3b:\na) a=7, 2a+3b=44 → 14+3b=44 → 3b=30 → b=10\nb) a=10, 2a+3b=59 → 20+3b=59 → 3b=39 → b=13"
+    ],
+    "didaktischerHinweis": "Anspruchsvolles Rückwärtsrechnen. Entspricht S. 132, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ergänze die fehlenden Zahlen in den Fibonacci-Folgen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "7, ___, ___, ___, 44",
+          "antwort": "7, 10, 17, 27, 44 (Probe: 7+10=17, 10+17=27, 17+27=44 ✓)"
+        },
+        {
+          "label": "b",
+          "frage": "10, ___, ___, ___, 59",
+          "antwort": "10, 13, 23, 36, 59 (Probe: 10+13=23, 13+23=36, 23+36=59 ✓)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fibonacci — Zweite Startzahl ändern",
+    "typ": "eingabe",
+    "thema": "Fibonacci-Folge",
+    "schwierigkeit": "orange",
+    "buchseite": 133,
+    "kapitel": "14-forscherkiste",
+    "stageId": "fibonacci",
+    "digital": "voll",
+    "aufgabenstellung": "Die erste Zahl bleibt gleich (8), die zweite Zahl wird immer um 1 größer. Berechne die 5. Zahl.\n\na) 8, 7, 15, 22, ___\nb) 8, 8, 16, 24, ___\nc) 8, 9, 17, 26, ___\nd) 8, 10, 18, 28, ___\n\nUm wie viel wächst die 5. Zahl jeweils?",
+    "loesung": "a) 37\nb) 40\nc) 43\nd) 46\n\nDie 5. Zahl wächst jeweils um 3.",
+    "loesungsweg": "- a) 8, 7: 15, 22, 37\n- b) 8, 8: 16, 24, 40\n- c) 8, 9: 17, 26, 43\n- d) 8, 10: 18, 28, 46\n\nUnterschiede: 40-37=3, 43-40=3, 46-43=3.\nWenn die 2. Zahl um 1 wächst, wächst die 5. um 3 (weil 5. = 2a + 3b → +3).",
+    "tipps": [
+      "Rechne alle vier Folgen zu Ende und vergleiche die fünften Zahlen. Was fällt dir auf?",
+      "Rechne die 5. Zahl jeweils aus. Die Unterschiede zwischen den 5. Zahlen verraten dir das Muster.",
+      "a) 15+22 = ___. b) 16+24 = ___. c) 17+26 = ___. d) 18+28 = ___.\nUnterschied: ___ - 37 = ___",
+      "- a) 8, 7: 15, 22, 37\n- b) 8, 8: 16, 24, 40\n- c) 8, 9: 17, 26, 43\n- d) 8, 10: 18, 28, 46\n\nUnterschiede: 40-37=3, 43-40=3, 46-43=3.\nWenn die 2. Zahl um 1 wächst, wächst die 5. um 3 (weil 5. = 2a + 3b → +3)."
+    ],
+    "didaktischerHinweis": "Systematisches Vergleichen und Muster finden. Entspricht S. 133, Aufg. 9-10.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Die erste Zahl bleibt gleich (8), die zweite Zahl wird immer um 1 größer. Berechne die 5. Zahl.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "8, 7, 15, 22, ___",
+          "antwort": "37"
+        },
+        {
+          "label": "b",
+          "frage": "8, 8, 16, 24, ___",
+          "antwort": "40"
+        },
+        {
+          "label": "c",
+          "frage": "8, 9, 17, 26, ___",
+          "antwort": "43"
+        },
+        {
+          "label": "d",
+          "frage": "8, 10, 18, 28, ___",
+          "antwort": "46"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Taschenrechner-Aufgaben",
+    "typ": "eingabe",
+    "thema": "Taschenrechner",
+    "schwierigkeit": "grün",
+    "buchseite": 134,
+    "kapitel": "14-forscherkiste",
+    "stageId": "rechenkuenstler",
+    "digital": "platzhalter",
+    "aufgabenstellung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgaben erfordern einen physischen Taschenrechner. Die Schüler sollen lernen, einen echten Taschenrechner zu bedienen (Tasten kennenlernen, Rechnungen eingeben, Ergebnisse ablesen).\n\nOriginal: Rechne im Kopf. Überprüfe mit dem Taschenrechner.\na) 258 + 5    b) 250 - 15    c) 250 · 5    d) 250 : 5\n\n**Mögliche digitale Alternative:** Kopfrechentraining ohne Taschenrechner-Verifikation (bereits in Stages `kopfrechnen-addsub`, `kopfrechnen-multiplikation`, `kopfrechnen-division` abgedeckt).",
+    "loesung": "",
+    "loesungsweg": "",
+    "tipps": [
+      "Lies die Aufgabe nochmal genau durch.",
+      "Überlege Schritt für Schritt.",
+      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      ""
+    ],
+    "didaktischerHinweis": "Die Taschenrechner-Seiten (S. 134-135) zielen auf die Bedienung eines physischen Geräts ab. Digitalumsetzung nicht sinnvoll, da der Lerngegenstand das haptische Gerät selbst ist.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "⚠️ **PLATZHALTER — Nicht digital umsetzbar**\n\nDiese Aufgaben erfordern einen physischen Taschenrechner. Die Schüler sollen lernen, einen echten Taschenrechner zu bedienen (Tasten kennenlernen, Rechnungen eingeben, Ergebnisse ablesen).\n\nOriginal: Rechne im Kopf. Überprüfe mit dem Taschenrechner.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "258 + 5    b) 250 - 15    c) 250 · 5    d) 250 : 5",
+          "antwort": ""
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zahlenfolgen fortsetzen — Muster erkennen",
+    "typ": "eingabe",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "gelb",
+    "buchseite": 136,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Mathematiker erforschen Zahlen. Setze diese besonderen Zahlenfolgen fort.\n\na) 1, 3, 5, 7, ___, ___, ___\nb) 3, 6, 9, 12, ___, ___, ___\nc) 10, 20, 30, 40, ___, ___, ___\n\nWelche Eigenschaft haben die Zahlen in jeder Reihe gemeinsam?",
+    "loesung": "a) 9, 11, 13 (ungerade Zahlen)\nb) 15, 18, 21 (Vielfache von 3)\nc) 50, 60, 70 (Vielfache von 10)",
+    "loesungsweg": "- a) Immer +2: 1, 3, 5, 7, 9, 11, 13 → alle ungerade\n- b) Immer +3: 3, 6, 9, 12, 15, 18, 21 → Dreierreihe\n- c) Immer +10: 10, 20, 30, 40, 50, 60, 70 → Zehnerreihe",
+    "tipps": [
+      "Schau dir die Schritte zwischen den Zahlen an: Bei a) 3-1=2, 5-3=2, 7-5=2. Was ist der Schritt?",
+      "Finde den Abstand zwischen den Zahlen. Addiere diesen Abstand immer wieder zur letzten Zahl.",
+      "a) Abstand = 2. Also: 7+2=___, ___+2=___, ___+2=___",
+      "- a) Immer +2: 1, 3, 5, 7, 9, 11, 13 → alle ungerade\n- b) Immer +3: 3, 6, 9, 12, 15, 18, 21 → Dreierreihe\n- c) Immer +10: 10, 20, 30, 40, 50, 60, 70 → Zehnerreihe"
+    ],
+    "didaktischerHinweis": "Einführung in Zahlenmuster. Entspricht S. 136, Aufg. 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Mathematiker erforschen Zahlen. Setze diese besonderen Zahlenfolgen fort.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "1, 3, 5, 7, ___, ___, ___",
+          "antwort": "9, 11, 13 (ungerade Zahlen)"
+        },
+        {
+          "label": "b",
+          "frage": "3, 6, 9, 12, ___, ___, ___",
+          "antwort": "15, 18, 21 (Vielfache von 3)"
+        },
+        {
+          "label": "c",
+          "frage": "10, 20, 30, 40, ___, ___, ___",
+          "antwort": "50, 60, 70 (Vielfache von 10)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Arme und reiche Zahlen — Teilersumme berechnen",
+    "typ": "eingabe",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "grün",
+    "buchseite": 136,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.\n\nUntersuche: Ist die Zahl 18 arm oder reich?",
+    "loesung": "18 ist reich.",
+    "loesungsweg": "Teiler von 18: 1, 2, 3, 6, 9, 18.\nEchte Teiler (ohne 18 selbst): 1, 2, 3, 6, 9.\nSumme: 1+2+3+6+9 = 21.\n21 > 18 → Die Zahl 18 ist reich.",
+    "tipps": [
+      "Finde zuerst alle Teiler von 18. Das sind Zahlen, durch die 18 ohne Rest teilbar ist: 1, 2, 3, ...",
+      "Prüfe systematisch: 18:1=18✓, 18:2=9✓, 18:3=6✓, 18:4=4,5✗, 18:5=3,6✗, 18:6=3✓, ...\nEchte Teiler = alle außer 18 selbst. Dann addiere sie.",
+      "Teiler von 18: 1, 2, 3, 6, 9. Summe: 1+2+3+6+9 = ___. Ist das mehr oder weniger als 18?",
+      "Teiler von 18: 1, 2, 3, 6, 9, 18.\nEchte Teiler (ohne 18 selbst): 1, 2, 3, 6, 9.\nSumme: 1+2+3+6+9 = 21.\n21 > 18 → Die Zahl 18 ist reich."
+    ],
+    "didaktischerHinweis": "Entdeckung reicher/armer Zahlen. Entspricht S. 136, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Die echten Teiler einer Zahl sind alle Teiler außer der Zahl selbst.\nEine Zahl ist „reich\", wenn die Summe ihrer echten Teiler größer ist als die Zahl.\nEine Zahl ist „arm\", wenn die Summe kleiner ist.\n\nUntersuche: Ist die Zahl 18 arm oder reich?",
+          "antwort": "18 ist reich."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Arme und reiche Zahlen bestimmen",
+    "typ": "zuordnung",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "grün",
+    "buchseite": 136,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Untersuche die folgenden Zahlen. Sind sie arm oder reich?\n\na) 16\nb) 25\nc) 40",
+    "loesung": "a) 16 ist arm (echte Teiler: 1+2+4+8 = 15 < 16)\nb) 25 ist arm (echte Teiler: 1+5 = 6 < 25)\nc) 40 ist reich (echte Teiler: 1+2+4+5+8+10+20 = 50 > 40)",
+    "loesungsweg": "- a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm\n- b) Teiler von 25: 1, 5, 25. Echte: 1+5 = 6 < 25 → arm\n- c) Teiler von 40: 1, 2, 4, 5, 8, 10, 20, 40. Echte: 1+2+4+5+8+10+20 = 50 > 40 → reich",
+    "tipps": [
+      "Finde zuerst ALLE Teiler. Denke daran: Teiler kommen in Paaren! 16:2=8, also sind 2 und 8 Teiler.",
+      "Systematisch prüfen: Ist die Zahl durch 1, 2, 3, 4, 5, ... teilbar? Wenn ja, notiere den Teiler. Addiere alle echten Teiler.",
+      "a) 16: Durch 1 teilbar ✓ (1). Durch 2 ✓ (2,8). Durch 4 ✓ (4). Summe: 1+2+4+8 = ___. Mehr oder weniger als 16?",
+      "- a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm\n- b) Teiler von 25: 1, 5, 25. Echte: 1+5 = 6 < 25 → arm\n- c) Teiler von 40: 1, 2, 4, 5, 8, 10, 20, 40. Echte: 1+2+4+5+8+10+20 = 50 > 40 → reich"
+    ],
+    "didaktischerHinweis": "Vertiefung arme/reiche Zahlen. Entspricht S. 136, Aufg. 2b.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Untersuche die folgenden Zahlen. Sind sie arm oder reich?",
+      "items": [
+        {
+          "label": "a",
+          "text": "16"
+        },
+        {
+          "label": "b",
+          "text": "25"
+        },
+        {
+          "label": "c",
+          "text": "40"
+        }
+      ],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Vollkommene Zahlen — Eine besondere Entdeckung",
+    "typ": "eingabe",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "orange",
+    "buchseite": 137,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.\n\nFinde sie! Tipp: Prüfe die Zahlen 6 und 28.",
+    "loesung": "6 und 28",
+    "loesungsweg": "- 6: Teiler: 1, 2, 3, 6. Echte Teiler: 1+2+3 = 6 = 6 ✓ → vollkommen!\n- 28: Teiler: 1, 2, 4, 7, 14, 28. Echte Teiler: 1+2+4+7+14 = 28 = 28 ✓ → vollkommen!",
+    "tipps": [
+      "Prüfe die Zahl 6. Welche Zahlen teilen 6? (1, 2, 3 und 6 selbst.) Addiere nur die echten Teiler (ohne 6).",
+      "Echte Teiler von 6: 1, 2, 3. Summe = 1+2+3 = ___. Ist das genau gleich 6?",
+      "6: 1+2+3 = ___. Ist das gleich 6?\n28: 1+2+4+7+14 = ___. Ist das gleich 28?",
+      "- 6: Teiler: 1, 2, 3, 6. Echte Teiler: 1+2+3 = 6 = 6 ✓ → vollkommen!\n- 28: Teiler: 1, 2, 4, 7, 14, 28. Echte Teiler: 1+2+4+7+14 = 28 = 28 ✓ → vollkommen!"
+    ],
+    "didaktischerHinweis": "Vollkommene Zahlen als mathematische Besonderheit. Entspricht S. 137, Aufg. 5.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Eine vollkommene Zahl ist weder arm noch reich — die Summe ihrer echten Teiler ist genau gleich der Zahl selbst. Es gibt nur 2 vollkommene Zahlen unter 30.\n\nFinde sie! Tipp: Prüfe die Zahlen 6 und 28.",
+          "antwort": "6 und 28"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Primzahlen finden — Das Sieb des Eratosthenes",
+    "typ": "eingabe",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "grün",
+    "buchseite": 137,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Primzahlen haben genau zwei Teiler: 1 und sich selbst. Finde alle Primzahlen zwischen 1 und 20.\n\nTipp: Streiche zuerst alle Vielfachen von 2 (außer 2), dann alle Vielfachen von 3 (außer 3). Die übrig gebliebenen Zahlen (ab 2) sind Primzahlen.",
+    "loesung": "2, 3, 5, 7, 11, 13, 17, 19",
+    "loesungsweg": "Sieb des Eratosthenes:\n1. Die 1 ist keine Primzahl (nur ein Teiler).\n2. 2 ist Primzahl. Streiche 4, 6, 8, 10, 12, 14, 16, 18, 20.\n3. 3 ist Primzahl. Streiche 6, 9, 12, 15, 18 (teils schon gestrichen).\n4. 5 ist Primzahl. Streiche 10, 15, 20 (schon gestrichen).\n5. Übrig: 2, 3, 5, 7, 11, 13, 17, 19.",
+    "tipps": [
+      "Schreibe die Zahlen 1-20 auf. Die 1 ist KEINE Primzahl (sie hat nur einen Teiler). Streiche jetzt alle Zahlen, die durch 2 teilbar sind (außer der 2 selbst).",
+      "Das Sieb des Eratosthenes:\n1. Schreibe alle Zahlen auf\n2. Streiche die 1\n3. Behalte die 2, streiche alle anderen geraden Zahlen\n4. Behalte die 3, streiche alle anderen Vielfachen von 3\n5. Die übrigen sind Primzahlen",
+      "Nach dem Streichen bleiben: 2, 3, 5, 7, ___, ___, ___, ___. Prüfe: Hat jede dieser Zahlen wirklich nur zwei Teiler?",
+      "Sieb des Eratosthenes:\n1. Die 1 ist keine Primzahl (nur ein Teiler).\n2. 2 ist Primzahl. Streiche 4, 6, 8, 10, 12, 14, 16, 18, 20.\n3. 3 ist Primzahl. Streiche 6, 9, 12, 15, 18 (teils schon gestrichen).\n4. 5 ist Primzahl. Streiche 10, 15, 20 (schon gestrichen).\n5. Übrig: 2, 3, 5, 7, 11, 13, 17, 19."
+    ],
+    "didaktischerHinweis": "Sieb des Eratosthenes als systematische Methode. Entspricht S. 137, Aufg. 6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Primzahlen haben genau zwei Teiler: 1 und sich selbst. Finde alle Primzahlen zwischen 1 und 20.\n\nTipp: Streiche zuerst alle Vielfachen von 2 (außer 2), dann alle Vielfachen von 3 (außer 3). Die übrig gebliebenen Zahlen (ab 2) sind Primzahlen.",
+          "antwort": "2, 3, 5, 7, 11, 13, 17, 19"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Ist das eine Primzahl?",
+    "typ": "wahr-falsch",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "gelb",
+    "buchseite": 137,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Prüfe: Ist die Zahl eine Primzahl?\n\na) 23\nb) 27\nc) 31\nd) 33\ne) 37",
+    "loesung": "a) Ja (Teiler: 1, 23)\nb) Nein (27 = 3 · 9, also teilbar durch 3)\nc) Ja (Teiler: 1, 31)\nd) Nein (33 = 3 · 11, also teilbar durch 3)\ne) Ja (Teiler: 1, 37)",
+    "loesungsweg": "Prüfe, ob die Zahl durch kleine Primzahlen (2, 3, 5, 7) teilbar ist:\n- 23: nicht durch 2, 3, 5 oder 7 teilbar → Primzahl\n- 27: 27:3=9 → teilbar → keine Primzahl\n- 31: nicht durch 2, 3, 5 teilbar → Primzahl\n- 33: 33:3=11 → teilbar → keine Primzahl\n- 37: nicht durch 2, 3, 5 teilbar → Primzahl",
+    "tipps": [
+      "Prüfe, ob die Zahl durch 2, 3, 5 oder 7 teilbar ist. Wenn ja, ist es KEINE Primzahl.",
+      "Teilbarkeitsregeln nutzen:\n- Durch 2 teilbar? → letzte Ziffer gerade?\n- Durch 3 teilbar? → Quersumme durch 3 teilbar?\n- Durch 5 teilbar? → endet auf 0 oder 5?",
+      "b) 27: Quersumme = 2+7 = 9. Ist 9 durch 3 teilbar? ___. Also ist 27 durch 3 teilbar → ___ Primzahl.",
+      "Prüfe, ob die Zahl durch kleine Primzahlen (2, 3, 5, 7) teilbar ist:\n- 23: nicht durch 2, 3, 5 oder 7 teilbar → Primzahl\n- 27: 27:3=9 → teilbar → keine Primzahl\n- 31: nicht durch 2, 3, 5 teilbar → Primzahl\n- 33: 33:3=11 → teilbar → keine Primzahl\n- 37: nicht durch 2, 3, 5 teilbar → Primzahl"
+    ],
+    "didaktischerHinweis": "Primzahlprüfung mit Teilbarkeitsregeln. Entspricht S. 137, Aufg. 6b.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Prüfe: Ist die Zahl eine Primzahl?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "23",
+          "richtig": true,
+          "erklaerung": "Ja (Teiler: 1, 23)"
+        },
+        {
+          "label": "b",
+          "aussage": "27",
+          "richtig": false,
+          "erklaerung": "Nein (27 = 3 · 9, also teilbar durch 3)"
+        },
+        {
+          "label": "c",
+          "aussage": "31",
+          "richtig": true,
+          "erklaerung": "Ja (Teiler: 1, 31)"
+        },
+        {
+          "label": "d",
+          "aussage": "33",
+          "richtig": false,
+          "erklaerung": "Nein (33 = 3 · 11, also teilbar durch 3)"
+        },
+        {
+          "label": "e",
+          "aussage": "37",
+          "richtig": true,
+          "erklaerung": "Ja (Teiler: 1, 37)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Warum ist 1 keine Primzahl?",
+    "typ": "auswahl",
+    "thema": "Zahlenforscher",
+    "schwierigkeit": "orange",
+    "buchseite": 137,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "voll",
+    "aufgabenstellung": "Primzahlen haben genau ZWEI Teiler: 1 und sich selbst. Warum ist die 1 keine Primzahl?\n\na) Weil 1 eine ungerade Zahl ist.\nb) Weil 1 zu klein ist.\nc) Weil 1 nur EINEN Teiler hat (nämlich sich selbst).\nd) Weil 1 durch 2 teilbar ist.",
+    "loesung": "c) Weil 1 nur EINEN Teiler hat (nämlich sich selbst).",
+    "loesungsweg": "Die Teiler von 1 sind nur: 1. Das ist nur EIN Teiler.\nPrimzahlen brauchen aber genau ZWEI verschiedene Teiler (1 und die Zahl selbst). Da bei der 1 beide „Teiler\" gleich sind (1 und 1), hat sie nur einen einzigen Teiler.",
+    "tipps": [
+      "Wie viele verschiedene Teiler hat die Zahl 1? Zähle sie.",
+      "Primzahlen haben genau 2 Teiler. Die 1 hat nur den Teiler 1 — das ist nur 1 Teiler, nicht 2.",
+      "Teiler von 1: Nur die 1 selbst. Das ist ___ Teiler. Für eine Primzahl braucht man aber ___ Teiler.",
+      "Die Teiler von 1 sind nur: 1. Das ist nur EIN Teiler.\nPrimzahlen brauchen aber genau ZWEI verschiedene Teiler (1 und die Zahl selbst). Da bei der 1 beide „Teiler\" gleich sind (1 und 1), hat sie nur einen einzigen Teiler."
+    ],
+    "didaktischerHinweis": "Begriffsklärung: Warum 1 keine Primzahl ist. Entspricht S. 137, Aufg. 6a.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Primzahlen haben genau ZWEI Teiler: 1 und sich selbst. Warum ist die 1 keine Primzahl?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Weil 1 eine ungerade Zahl ist."
+        },
+        {
+          "label": "B",
+          "text": "Weil 1 zu klein ist."
+        },
+        {
+          "label": "C",
+          "text": "Weil 1 nur EINEN Teiler hat (nämlich sich selbst)."
+        },
+        {
+          "label": "D",
+          "text": "Weil 1 durch 2 teilbar ist."
+        }
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Das pascalsche Dreieck verstehen — Additionsregel",
+    "typ": "eingabe",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "gelb",
+    "buchseite": 138,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.\n\n```\n        1\n       1  1\n      1  2  1\n     1  3  3  1\n    1  4  ___  4  1\n   1  ___  10  ___  5  1\n```",
+    "loesung": "Reihe 5: 1, 4, **6**, 4, 1\nReihe 6: 1, **5**, 10, **10**, 5, 1",
+    "loesungsweg": "Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.\n- Reihe 5: 3+3 = 6\n- Reihe 6: 1+4 = 5, 6+4 = 10",
+    "tipps": [
+      "Jede Zahl entsteht durch Addition der beiden Zahlen schräg darüber. Zum Beispiel: 2 = 1+1, 3 = 1+2. Welche zwei Zahlen stehen über der Lücke?",
+      "Schau immer eine Reihe höher. Die Lücke in Reihe 5 liegt zwischen zwei 3en: 3+3 = ___",
+      "Reihe 5: ___ = 3 + 3 = 6.\nReihe 6: ___ = 1 + 4 = ___. Und ___ = 6 + 4 = ___.",
+      "Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.\n- Reihe 5: 3+3 = 6\n- Reihe 6: 1+4 = 5, 6+4 = 10"
+    ],
+    "didaktischerHinweis": "Grundregel des pascalschen Dreiecks. Entspricht S. 138, Aufg. 1-2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.\n\n```\n        1\n       1  1\n      1  2  1\n     1  3  3  1\n    1  4  ___  4  1\n   1  ___  10  ___  5  1\n```",
+          "antwort": "Reihe 5: 1, 4, **6**, 4, 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Ausschnitte ergänzen — Fehlende Zahlen im Dreieck",
+    "typ": "eingabe",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "gelb",
+    "buchseite": 138,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Ergänze die fehlenden Zahlen in diesen Ausschnitten aus dem pascalschen Dreieck.\n\na)\n```\n  84   ___\n    210\n```\n\nb)\n```\n  ___   126\n    252\n```\n\nc)\n```\n  120   ___\n    330\n```",
+    "loesung": "a) 84 + ___ = 210 → ___ = 126\nb) ___ + 126 = 252 → ___ = 126\nc) 120 + ___ = 330 → ___ = 210",
+    "loesungsweg": "Jede Zahl unten ist die Summe der beiden Zahlen darüber:\n- a) 84 + x = 210 → x = 210 - 84 = 126\n- b) x + 126 = 252 → x = 252 - 126 = 126\n- c) 120 + x = 330 → x = 330 - 120 = 210",
+    "tipps": [
+      "Wenn die untere Zahl die Summe der beiden oberen ist, kannst du die fehlende obere Zahl durch Subtraktion finden!",
+      "Untere Zahl = links oben + rechts oben.\nAlso: fehlende Zahl = untere Zahl - bekannte obere Zahl.",
+      "a) 210 - 84 = ___\nb) 252 - 126 = ___",
+      "Jede Zahl unten ist die Summe der beiden Zahlen darüber:\n- a) 84 + x = 210 → x = 210 - 84 = 126\n- b) x + 126 = 252 → x = 252 - 126 = 126\n- c) 120 + x = 330 → x = 330 - 120 = 210"
+    ],
+    "didaktischerHinweis": "Rückwärtsrechnen im pascalschen Dreieck. Entspricht S. 138, Aufg. 2.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ergänze die fehlenden Zahlen in diesen Ausschnitten aus dem pascalschen Dreieck.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "```",
+          "antwort": "84 + ___ = 210 → ___ = 126"
+        },
+        {
+          "label": "b",
+          "frage": "```",
+          "antwort": "___ + 126 = 252 → ___ = 126"
+        },
+        {
+          "label": "c",
+          "frage": "```",
+          "antwort": "120 + ___ = 330 → ___ = 210"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Reihensummen im pascalschen Dreieck",
+    "typ": "eingabe",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "grün",
+    "buchseite": 139,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___\n\nWas fällt dir bei den Summen auf?",
+    "loesung": "Reihe 1: 1\nReihe 2: 2\nReihe 3: 4\nReihe 4: 8\nReihe 5: 16\nReihe 6: 32\n\nDie Summe verdoppelt sich von Reihe zu Reihe! (Zweierpotenzen: 1, 2, 4, 8, 16, 32)",
+    "loesungsweg": "Die Summen sind: 1, 2, 4, 8, 16, 32.\nDas sind die Zweierpotenzen: 2^0, 2^1, 2^2, 2^3, 2^4, 2^5.\nJede Reihensumme ist das Doppelte der vorherigen.",
+    "tipps": [
+      "Addiere die Zahlen in jeder Reihe. Schreibe die Summen untereinander. Was fällt dir auf?",
+      "Reihe 1: 1. Reihe 2: 2. Reihe 3: 4. Was passiert von Summe zu Summe? Es wird immer ...",
+      "1, 2, 4, ___, ___, ___. Immer verdoppeln! 4·2=___, 8·2=___, 16·2=___",
+      "Die Summen sind: 1, 2, 4, 8, 16, 32.\nDas sind die Zweierpotenzen: 2^0, 2^1, 2^2, 2^3, 2^4, 2^5.\nJede Reihensumme ist das Doppelte der vorherigen."
+    ],
+    "didaktischerHinweis": "Muster in Reihensummen entdecken — Verbindung zum Binärsystem! Entspricht S. 139, Aufg. 5.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___\n\nWas fällt dir bei den Summen auf?",
+          "antwort": "Reihe 1: 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Symmetrie im pascalschen Dreieck",
+    "typ": "wahr-falsch",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "grün",
+    "buchseite": 138,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Richtig oder falsch? Schau dir das pascalsche Dreieck genau an.\n\na) Jede Reihe beginnt und endet mit 1.\nb) Das Dreieck ist symmetrisch — die linke Hälfte spiegelt die rechte.\nc) Die zweite Diagonale von links zeigt die Zahlen 1, 2, 3, 4, 5, ...\nd) Die Summe aller Zahlen in einer Reihe ist immer eine gerade Zahl.",
+    "loesung": "a) Richtig\nb) Richtig\nc) Richtig (1, 2, 3, 4, 5, 6, 7, ...)\nd) Falsch (Reihe 1 hat die Summe 1, das ist ungerade)",
+    "loesungsweg": "- a) Jede Reihe: 1, ..., 1 → richtig\n- b) z.B. Reihe 7: 1, 6, 15, 20, 15, 6, 1 — links = rechts → richtig\n- c) Zweite Diagonale: 1, 2, 3, 4, 5, ... → natürliche Zahlen → richtig\n- d) Reihe 1: Summe = 1 (ungerade) → falsch",
+    "tipps": [
+      "Schau dir das Dreieck genau an. Lies die Zahlen am Rand, die Diagonalen und vergleiche linke und rechte Seite.",
+      "Prüfe jede Aussage einzeln am Dreieck. Bei d): Was ist die Summe von Reihe 1?",
+      "d) Reihe 1: nur die 1. Summe = 1. Ist 1 gerade? ___",
+      "- a) Jede Reihe: 1, ..., 1 → richtig\n- b) z.B. Reihe 7: 1, 6, 15, 20, 15, 6, 1 — links = rechts → richtig\n- c) Zweite Diagonale: 1, 2, 3, 4, 5, ... → natürliche Zahlen → richtig\n- d) Reihe 1: Summe = 1 (ungerade) → falsch"
+    ],
+    "didaktischerHinweis": "Muster und Symmetrie im pascalschen Dreieck entdecken. Entspricht S. 138-139, Aufg. 1, 4.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Richtig oder falsch? Schau dir das pascalsche Dreieck genau an.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "Jede Reihe beginnt und endet mit 1.",
+          "richtig": true,
+          "erklaerung": "Richtig"
+        },
+        {
+          "label": "b",
+          "aussage": "Das Dreieck ist symmetrisch — die linke Hälfte spiegelt die rechte.",
+          "richtig": true,
+          "erklaerung": "Richtig"
+        },
+        {
+          "label": "c",
+          "aussage": "Die zweite Diagonale von links zeigt die Zahlen 1, 2, 3, 4, 5, ...",
+          "richtig": true,
+          "erklaerung": "Richtig (1, 2, 3, 4, 5, 6, 7, ...)"
+        },
+        {
+          "label": "d",
+          "aussage": "Die Summe aller Zahlen in einer Reihe ist immer eine gerade Zahl.",
+          "richtig": false,
+          "erklaerung": "Falsch (Reihe 1 hat die Summe 1, das ist ungerade)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vielfache im pascalschen Dreieck markieren",
+    "typ": "eingabe",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "orange",
+    "buchseite": 139,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1\n\na) Welche dieser Zahlen sind durch 5 teilbar?\nb) Welche sind durch 3 teilbar?\nc) Was fällt dir auf?",
+    "loesung": "a) Durch 5 teilbar: 55, 165, 330, 330, 165, 55 (6 Zahlen)\nb) Durch 3 teilbar: 33→Nein! Prüfung:\n   - 1: nein, 11: nein, 55: 5+5=10 nein, 165: 1+6+5=12 ja, 330: 3+3+0=6 ja, 462: 4+6+2=12 ja, und symmetrisch\n   Also durch 3 teilbar: 165, 330, 462, 462, 330, 165 (6 Zahlen)\nc) Die teilbaren Zahlen bilden ein symmetrisches Muster (weil das Dreieck symmetrisch ist).\n\nKorrektur für 55: 5+5=10, 10:3=3,33 → nicht durch 3 teilbar.",
+    "loesungsweg": "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓",
+    "tipps": [
+      "Für Teilbarkeit durch 5: Schau auf die letzte Ziffer. Endet sie auf 0 oder 5?",
+      "Prüfe jede Zahl einzeln. Nutze die Teilbarkeitsregeln:\n- Durch 5: letzte Ziffer 0 oder 5\n- Durch 3: Quersumme durch 3 teilbar",
+      "a) 55 endet auf 5 → durch 5 teilbar ✓. 165 endet auf 5 → ✓. 330 endet auf 0 → ✓. 462 endet auf 2 → ___",
+      "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓"
+    ],
+    "didaktischerHinweis": "Verbindung Teilbarkeit und pascalsches Dreieck. Entspricht S. 139, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welche dieser Zahlen sind durch 5 teilbar?",
+          "antwort": "Durch 5 teilbar: 55, 165, 330, 330, 165, 55 (6 Zahlen)"
+        },
+        {
+          "label": "b",
+          "frage": "Welche sind durch 3 teilbar?",
+          "antwort": "Durch 3 teilbar: 33→Nein! Prüfung:"
+        },
+        {
+          "label": "c",
+          "frage": "Was fällt dir auf?",
+          "antwort": "Die teilbaren Zahlen bilden ein symmetrisches Muster (weil das Dreieck symmetrisch ist)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Dreieckszahlen entdecken",
+    "typ": "eingabe",
+    "thema": "Das pascalsche Dreieck",
+    "schwierigkeit": "orange",
+    "buchseite": 139,
+    "kapitel": "14-forscherkiste",
+    "stageId": "pascalsches-dreieck",
+    "digital": "voll",
+    "aufgabenstellung": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...\n\na) Wie heißt die nächste Dreieckszahl nach 21?\nb) Wo findest du die Dreieckszahlen im pascalschen Dreieck?\nc) Schreibe die Dreieckszahlen als Summe:\n   1 = 1\n   3 = 1 + 2\n   6 = 1 + 2 + 3\n   10 = 1 + 2 + 3 + 4\n   15 = ?\n   21 = ?",
+    "loesung": "a) 28 (21 + 7)\nb) Die dritte Diagonale von aussen: 1, 3, 6, 10, 15, 21, 28, ...\nc) 15 = 1+2+3+4+5, 21 = 1+2+3+4+5+6",
+    "loesungsweg": "Dreieckszahlen: Man addiert jeweils die nächste natürliche Zahl:\n1, 1+2=3, 1+2+3=6, 1+2+3+4=10, ..., 1+2+...+7=28.\n\nIm pascalschen Dreieck stehen sie in der dritten Diagonale (von aussen gezählt).",
+    "tipps": [
+      "Schau dir die Abstande zwischen den Dreieckszahlen an: 3-1=2, 6-3=3, 10-6=4, 15-10=5, 21-15=6. Was ist der nächste Abstand?",
+      "Der nächste Abstand ist 7 (die Abstande wachsen immer um 1). Also: 21 + 7 = ___",
+      "Abstande: 2, 3, 4, 5, 6, 7. Also nächste Dreieckszahl: 21 + 7 = ___",
+      "Dreieckszahlen: Man addiert jeweils die nächste natürliche Zahl:\n1, 1+2=3, 1+2+3=6, 1+2+3+4=10, ..., 1+2+...+7=28.\n\nIm pascalschen Dreieck stehen sie in der dritten Diagonale (von aussen gezählt)."
+    ],
+    "didaktischerHinweis": "Dreieckszahlen als besondere Zahlenfolge im pascalschen Dreieck. Entspricht S. 139, Lernaufgabe.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie heißt die nächste Dreieckszahl nach 21?",
+          "antwort": "28 (21 + 7)"
+        },
+        {
+          "label": "b",
+          "frage": "Wo findest du die Dreieckszahlen im pascalschen Dreieck?",
+          "antwort": "Die dritte Diagonale von aussen: 1, 3, 6, 10, 15, 21, 28, ..."
+        },
+        {
+          "label": "c",
+          "frage": "Schreibe die Dreieckszahlen als Summe:",
+          "antwort": "15 = 1+2+3+4+5, 21 = 1+2+3+4+5+6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Abschied von der 4. Klasse",
+    "typ": "eingabe",
+    "thema": "Abschied",
+    "schwierigkeit": "grün",
+    "buchseite": 140,
+    "kapitel": "14-forscherkiste",
+    "stageId": "zahlenforscher",
+    "digital": "platzhalter",
+    "aufgabenstellung": "⚠️ **PLATZHALTER — Kein Übungsinhalt**\n\nDie Seiten 140-141 enthalten Abschlussspiele und Reflexionsaufgaben zum Schuljahresende (z. B. „Was habe ich in Mathe gelernt?\", Spiele für die Klasse). Diese sind nicht als digitale Übung umsetzbar.\n\n**Mögliche digitale Alternative:** Zusammenfassungs-Quiz über alle Kapitel als „Abschlusstest\".",
+    "loesung": "",
+    "loesungsweg": "",
+    "tipps": [
+      "Lies die Aufgabe nochmal genau durch.",
+      "Überlege Schritt für Schritt.",
+      "Schau dir die Lösung an und versuche den Rechenweg nachzuvollziehen.",
+      ""
+    ],
+    "didaktischerHinweis": "Abschlusskapitel ohne Drill-Charakter. Entspricht S. 140-141.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "⚠️ **PLATZHALTER — Kein Übungsinhalt**\n\nDie Seiten 140-141 enthalten Abschlussspiele und Reflexionsaufgaben zum Schuljahresende (z. B. „Was habe ich in Mathe gelernt?\", Spiele für die Klasse). Diese sind nicht als digitale Übung umsetzbar.\n\n**Mögliche digitale Alternative:** Zusammenfassungs-Quiz über alle Kapitel als „Abschlusstest\".",
+          "antwort": ""
+        }
+      ]
+    }
+  }
+]

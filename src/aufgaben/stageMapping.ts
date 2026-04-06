@@ -75,6 +75,7 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'nachbarzahlen', titel: 'Nachbarzahlen', kategorie: 'zahlen', sortierung: 8, icon: '↔️' },
   { stageId: 'runden', titel: 'Runden', kategorie: 'zahlen', sortierung: 9, icon: '🔄' },
   { stageId: 'runden-zahlenstrahl', titel: 'Runden & Darstellen', kategorie: 'zahlen', sortierung: 10, icon: '📐' },
+  { stageId: 'hohe-hausnummer', titel: 'Hohe Hausnummer', kategorie: 'zahlen', sortierung: 11, icon: '🎲' },
 
   // ── Addition & Subtraktion (Kap. 3, S. 34–45) ──
   { stageId: 'kopfrechnen-addsub', titel: 'Rechnen im Kopf', kategorie: 'rechnen-add-sub', sortierung: 1, icon: '🧠' },
@@ -111,6 +112,7 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'kombinatorik', titel: 'Wie viele Möglichkeiten?', kategorie: 'daten-zufall', sortierung: 1, icon: '🎲' },
   { stageId: 'wahrscheinlichkeit', titel: 'Alles Zufall?', kategorie: 'daten-zufall', sortierung: 2, icon: '🎯' },
   { stageId: 'haeufigkeitsanalyse', titel: 'Buchstaben zählen', kategorie: 'daten-zufall', sortierung: 3, icon: '📊' },
+  { stageId: 'wuerfelspiele', titel: 'Würfelspiele', kategorie: 'daten-zufall', sortierung: 4, icon: '🎲' },
 
   // ── Division (Kap. 8, S. 78–91) ──
   { stageId: 'vielfache', titel: 'Vielfache', kategorie: 'division', sortierung: 1, icon: '🔢' },
@@ -131,30 +133,30 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'millionen-fragen', titel: 'Millionen-Fragen', kategorie: 'brueche-masse', sortierung: 5, icon: '❓' },
 
   // ── Kreise & Körper (Kap. 10, S. 104–111) ──
-  { stageId: 'parkettierungen', titel: 'Parkettierungen', kategorie: 'kreise-koerper', sortierung: 1, icon: '🔷' },
-  { stageId: 'koerpernetze', titel: 'Körpernetze', kategorie: 'kreise-koerper', sortierung: 2, icon: '📦' },
-  { stageId: 'schraegbilder', titel: 'Schrägbilder', kategorie: 'kreise-koerper', sortierung: 3, icon: '🎨' },
+  { stageId: 'kreise', titel: 'Kreise zeichnen', kategorie: 'kreise-koerper', sortierung: 1, icon: '⭕' },
+  { stageId: 'parkettierungen', titel: 'Parkettierungen', kategorie: 'kreise-koerper', sortierung: 2, icon: '🔷' },
+  { stageId: 'koerpernetze', titel: 'Körpernetze', kategorie: 'kreise-koerper', sortierung: 3, icon: '📦' },
+  { stageId: 'schraegbilder', titel: 'Schrägbilder', kategorie: 'kreise-koerper', sortierung: 4, icon: '🎨' },
 
   // ── Sachrechnen (Kap. 11, S. 112–115) ──
-  { stageId: 'sachaufgaben-schwimmbad', titel: 'Schwimmbad-Aufgaben', kategorie: 'sachrechnen', sortierung: 1, icon: '🏊' },
-  { stageId: 'loesungshilfen', titel: 'Lösungshilfen', kategorie: 'sachrechnen', sortierung: 2, icon: '💡' },
+  { stageId: 'sachaufgaben', titel: 'Sachaufgaben', kategorie: 'sachrechnen', sortierung: 1, icon: '🧩' },
 
   // ── Maßstab & Orientierung (Kap. 12, S. 116–121) ──
   { stageId: 'massstab', titel: 'Vergrößern & Verkleinern', kategorie: 'massstab', sortierung: 1, icon: '🔎' },
   { stageId: 'ansichten-grundriss', titel: 'Ansichten & Grundriss', kategorie: 'massstab', sortierung: 2, icon: '🏠' },
   { stageId: 'karten-orientierung', titel: 'Karten & Pläne', kategorie: 'massstab', sortierung: 3, icon: '🗺️' },
 
-  // ── Schaubilder & Daten (Kap. 13, S. 122–129) ──
+  // ── Schaubilder & Daten (Kap. 13, S. 122–123) ──
   { stageId: 'tabellen-diagramme', titel: 'Tabellen & Diagramme', kategorie: 'schaubilder', sortierung: 1, icon: '📊' },
-  { stageId: 'roemische-zahlen', titel: 'Römische Zahlen', kategorie: 'schaubilder', sortierung: 2, icon: '🏛️' },
-  { stageId: 'binaersystem', titel: 'Binärsystem', kategorie: 'schaubilder', sortierung: 3, icon: '💻' },
-  { stageId: 'datenmengen', titel: 'Datenmengen', kategorie: 'schaubilder', sortierung: 4, icon: '📈' },
 
-  // ── Forscherkiste (Kap. 14, S. 130–141) ──
-  { stageId: 'rechenkuenstler', titel: 'Rechenkünstler', kategorie: 'forscherkiste', sortierung: 1, icon: '🎩' },
-  { stageId: 'fibonacci', titel: 'Fibonacci-Folge', kategorie: 'forscherkiste', sortierung: 2, icon: '🐚' },
-  { stageId: 'zahlenforscher', titel: 'Zahlenforscher', kategorie: 'forscherkiste', sortierung: 3, icon: '🔬' },
-  { stageId: 'pascalsches-dreieck', titel: 'Pascalsches Dreieck', kategorie: 'forscherkiste', sortierung: 4, icon: '🔺' },
+  // ── Forscherkiste (Kap. 14, S. 124–141) ──
+  { stageId: 'roemische-zahlen', titel: 'Römische Zahlen', kategorie: 'forscherkiste', sortierung: 1, icon: '🏛️' },
+  { stageId: 'binaersystem', titel: 'Binärsystem', kategorie: 'forscherkiste', sortierung: 2, icon: '💻' },
+  { stageId: 'datenmengen', titel: 'Datenmengen', kategorie: 'forscherkiste', sortierung: 3, icon: '📈' },
+  { stageId: 'rechenkuenstler', titel: 'Rechenkünstler', kategorie: 'forscherkiste', sortierung: 4, icon: '🎩' },
+  { stageId: 'fibonacci', titel: 'Fibonacci-Folge', kategorie: 'forscherkiste', sortierung: 5, icon: '🐚' },
+  { stageId: 'zahlenforscher', titel: 'Zahlenforscher', kategorie: 'forscherkiste', sortierung: 6, icon: '🔬' },
+  { stageId: 'pascalsches-dreieck', titel: 'Pascalsches Dreieck', kategorie: 'forscherkiste', sortierung: 7, icon: '🔺' },
 ];
 
 /** Lookup: stageId → Mapping-Eintrag. */

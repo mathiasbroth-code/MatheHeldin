@@ -1,0 +1,1253 @@
+[
+  {
+    "titel": "Eintrittspreise vergleichen — Welches Ticket lohnt sich?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "gelb",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette geht im Juli und August jede Woche mindestens einmal ins Schwimmbad. Sie überlegt, welche Eintrittskarte sie kaufen soll.\n\nEintrittspreise:\n- 3-Stunden-Ticket Kind: 8 Euro\n- Tageskarte Kind: 11 Euro\n- 10er-Karte Kind: 85 Euro\n\nJette bleibt meistens nur 3 Stunden. In 8 Wochen geht sie 8-mal schwimmen.\n\na) Was kosten 8 Einzeltickets (3-Stunden)? ___\nb) Was kostet eine 10er-Karte? ___\nc) Welches Angebot ist für Jette günstiger?",
+    "loesung": "a) 8 · 8 Euro = 64 Euro\nb) 85 Euro\nc) Die 8 Einzeltickets sind günstiger (64 Euro < 85 Euro).",
+    "loesungsweg": "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich erst ab 11 Besuchen (10 · 8 = 80 < 85? Nein! 85 : 8 = 10,6 — ab dem 11. Besuch würde sie sich lohnen).",
+    "tipps": [
+      "Rechne aus: Wie viel kosten 8 einzelne Tickets? Und wie viel kostet eine 10er-Karte? Vergleiche die Beträge.",
+      "Multipliziere: Anzahl der Besuche mal Preis pro Besuch. Dann vergleiche mit dem Paketpreis.",
+      "8 Besuche · 8 Euro = ___. Die 10er-Karte kostet 85 Euro. Was ist weniger: ___ oder 85? Also ist ___ günstiger.",
+      "Vergleiche die Gesamtkosten:\n- 8 Einzeltickets: 8 · 8 = 64 Euro\n- 10er-Karte: 85 Euro (sie braucht nur 8 Besuche, hätte also 2 übrig)\n- 64 Euro < 85 Euro, also sind Einzeltickets günstiger.\n\nDie 10er-Karte lohnt sich erst ab 11 Besuchen (10 · 8 = 80 < 85? Nein! 85 : 8 = 10,6 — ab dem 11. Besuch würde sie sich lohnen)."
+    ],
+    "didaktischerHinweis": "Preisvergleich ist eine alltagsnahe Anwendung von Multiplikation. Entspricht S. 112, Aufg. 1.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette geht im Juli und August jede Woche mindestens einmal ins Schwimmbad. Sie überlegt, welche Eintrittskarte sie kaufen soll.\n\nEintrittspreise:\n- 3-Stunden-Ticket Kind: 8 Euro\n- Tageskarte Kind: 11 Euro\n- 10er-Karte Kind: 85 Euro\n\nJette bleibt meistens nur 3 Stunden. In 8 Wochen geht sie 8-mal schwimmen.",
+      "kontext": "Jette geht im Juli und August jede Woche mindestens einmal ins Schwimmbad. Sie überlegt, welche Eintrittskarte sie kaufen soll.\n\nEintrittspreise:\n- 3-Stunden-Ticket Kind: 8 Euro\n- Tageskarte Kind: 11 Euro\n- 10er-Karte Kind: 85 Euro\n\nJette bleibt meistens nur 3 Stunden. In 8 Wochen geht sie 8-mal schwimmen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kosten 8 Einzeltickets (3-Stunden)? ___",
+          "antwort": "8 · 8 Euro = 64 Euro"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet eine 10er-Karte? ___",
+          "antwort": "85 Euro"
+        },
+        {
+          "label": "c",
+          "frage": "Welches Angebot ist für Jette günstiger?",
+          "antwort": "Die 8 Einzeltickets sind günstiger (64 Euro < 85 Euro)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tageskarte oder 3-Stunden-Ticket?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "gelb",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Lenas Familie geht ins Schwimmbad: 2 Erwachsene und 3 Kinder. Sie wollen den ganzen Tag bleiben.\n\nEintrittspreise:\n- 3-Stunden-Ticket: Erwachsene 11 Euro, Kinder 8 Euro\n- Tageskarte: Erwachsene 14 Euro, Kinder 11 Euro\n\na) Was kosten Tageskarten für die ganze Familie? ___\nb) Was würden 3-Stunden-Tickets kosten? ___\nc) Wie viel mehr zahlt die Familie für Tageskarten? ___",
+    "loesung": "a) 2 · 14 + 3 · 11 = 28 + 33 = 61 Euro\nb) 2 · 11 + 3 · 8 = 22 + 24 = 46 Euro\nc) 61 - 46 = 15 Euro mehr",
+    "loesungsweg": "- Tageskarten: 2 Erwachsene · 14 Euro = 28 Euro, 3 Kinder · 11 Euro = 33 Euro, zusammen: 28 + 33 = 61 Euro\n- 3-Stunden-Tickets: 2 Erwachsene · 11 Euro = 22 Euro, 3 Kinder · 8 Euro = 24 Euro, zusammen: 22 + 24 = 46 Euro\n- Unterschied: 61 - 46 = 15 Euro",
+    "tipps": [
+      "Rechne zuerst für die Erwachsenen, dann für die Kinder. Addiere dann beides.",
+      "Erstelle eine kleine Tabelle: Erwachsene links, Kinder rechts. Trage die Preise ein und addiere.",
+      "Tageskarten: 2 · 14 = ___ (Erwachsene) + 3 · 11 = ___ (Kinder) = ___. 3-Stunden: 2 · 11 = ___ + 3 · 8 = ___ = ___. Unterschied: ___ - ___ = ___.",
+      "- Tageskarten: 2 Erwachsene · 14 Euro = 28 Euro, 3 Kinder · 11 Euro = 33 Euro, zusammen: 28 + 33 = 61 Euro\n- 3-Stunden-Tickets: 2 Erwachsene · 11 Euro = 22 Euro, 3 Kinder · 8 Euro = 24 Euro, zusammen: 22 + 24 = 46 Euro\n- Unterschied: 61 - 46 = 15 Euro"
+    ],
+    "didaktischerHinweis": "Preisberechnungen für Gruppen mit unterschiedlichen Tarifen sind ein typisches Sachaufgaben-Muster. Entspricht S. 112, Aufg. 1.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Lenas Familie geht ins Schwimmbad: 2 Erwachsene und 3 Kinder. Sie wollen den ganzen Tag bleiben.\n\nEintrittspreise:\n- 3-Stunden-Ticket: Erwachsene 11 Euro, Kinder 8 Euro\n- Tageskarte: Erwachsene 14 Euro, Kinder 11 Euro",
+      "kontext": "Lenas Familie geht ins Schwimmbad: 2 Erwachsene und 3 Kinder. Sie wollen den ganzen Tag bleiben.\n\nEintrittspreise:\n- 3-Stunden-Ticket: Erwachsene 11 Euro, Kinder 8 Euro\n- Tageskarte: Erwachsene 14 Euro, Kinder 11 Euro",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kosten Tageskarten für die ganze Familie? ___",
+          "antwort": "2 · 14 + 3 · 11 = 28 + 33 = 61 Euro"
+        },
+        {
+          "label": "b",
+          "frage": "Was würden 3-Stunden-Tickets kosten? ___",
+          "antwort": "2 · 11 + 3 · 8 = 22 + 24 = 46 Euro"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel mehr zahlt die Familie für Tageskarten? ___",
+          "antwort": "61 - 46 = 15 Euro mehr"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Die Rutsche — Wie viele Kinder passen drauf?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Im Freibad gibt es eine neue Rutsche, die 73 m lang ist. Ein Kind ist ungefähr 1 m 30 cm groß.\n\nWie viele Kinder könnten sich hintereinanderlegen, damit die Rutsche von oben bis unten \"belegt\" ist?",
+    "loesung": "73 m : 1,30 m = 56 (Rest 0,20 m)\n\nEs passen ungefähr 56 Kinder auf die Rutsche.",
+    "loesungsweg": "1. Wandle um: 1 m 30 cm = 1,30 m = 130 cm\n2. Rechne: 73 m = 7.300 cm\n3. Teile: 7.300 : 130 = 56 Rest 20\n4. Es passen 56 Kinder — für ein weiteres Kind reicht der Platz nicht mehr (nur noch 20 cm übrig).",
+    "tipps": [
+      "Die Rutsche ist 73 m lang. Ein Kind ist etwa 1 m 30 cm groß. Wie oft passt 1 m 30 cm in 73 m?",
+      "Das ist eine Divisionsaufgabe: Gesamtlänge geteilt durch Länge pro Kind. Wandle zuerst alles in die gleiche Einheit um (cm oder m).",
+      "73 m = 7.300 cm. Ein Kind: 130 cm. 7.300 : 130 = ? Überschlage: 130 · 50 = 6.500. 130 · 56 = 7.280. Passt! Also ___ Kinder.",
+      "1. Wandle um: 1 m 30 cm = 1,30 m = 130 cm\n2. Rechne: 73 m = 7.300 cm\n3. Teile: 7.300 : 130 = 56 Rest 20\n4. Es passen 56 Kinder — für ein weiteres Kind reicht der Platz nicht mehr (nur noch 20 cm übrig)."
+    ],
+    "didaktischerHinweis": "Division mit Längen und Einheitenumrechnung in einem Sachkontext. Entspricht S. 112, Aufg. 2.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Im Freibad gibt es eine neue Rutsche, die 73 m lang ist. Ein Kind ist ungefähr 1 m 30 cm groß.",
+      "kontext": "Im Freibad gibt es eine neue Rutsche, die 73 m lang ist. Ein Kind ist ungefähr 1 m 30 cm groß.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Kinder könnten sich hintereinanderlegen, damit die Rutsche von oben bis unten \"belegt\" ist?",
+          "antwort": "73 m : 1,30 m = 56 (Rest 0,20 m)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wartezeit an der Rutsche",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Vor Jette stehen 28 Kinder an der Rutsche an. Immer nach 15 Sekunden darf das nächste Kind rutschen.\n\nWie lange muss Jette ungefähr warten, bis sie rutschen kann?",
+    "loesung": "28 · 15 Sekunden = 420 Sekunden = 7 Minuten",
+    "loesungsweg": "1. Jedes Kind braucht 15 Sekunden, bis es los darf.\n2. 28 Kinder · 15 Sekunden = 420 Sekunden\n3. Umrechnen: 420 : 60 = 7 Minuten",
+    "tipps": [
+      "Wie viele Sekunden muss Jette warten? Rechne: Anzahl Kinder mal Wartezeit pro Kind. Dann rechne in Minuten um.",
+      "28 · 15 ist die Gesamtwartezeit in Sekunden. Teile das Ergebnis durch 60, um Minuten zu bekommen.",
+      "28 · 15 = ? Zerlege: 28 · 10 = 280, 28 · 5 = 140. Zusammen: 280 + 140 = ___. In Minuten: ___ : 60 = ___.",
+      "1. Jedes Kind braucht 15 Sekunden, bis es los darf.\n2. 28 Kinder · 15 Sekunden = 420 Sekunden\n3. Umrechnen: 420 : 60 = 7 Minuten"
+    ],
+    "didaktischerHinweis": "Zeitberechnungen mit Sekundenumrechnung. Entspricht S. 112, Aufg. 3.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Vor Jette stehen 28 Kinder an der Rutsche an. Immer nach 15 Sekunden darf das nächste Kind rutschen.",
+      "kontext": "Vor Jette stehen 28 Kinder an der Rutsche an. Immer nach 15 Sekunden darf das nächste Kind rutschen.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie lange muss Jette ungefähr warten, bis sie rutschen kann?",
+          "antwort": "28 · 15 Sekunden = 420 Sekunden = 7 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Geburtstagsfeier im Schwimmbad — Budget planen",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette möchte ihren Geburtstag im Schwimmbad feiern. Das Budget beträgt höchstens 150 Euro.\n\nInformationen:\n- Eintritt Kinder: 8 Euro (3-Stunden-Ticket)\n- Eintritt Erwachsene: 11 Euro (3-Stunden-Ticket)\n- Geburtstagskind und 1 Begleitperson: frei (im Angebot enthalten)\n- Angebot (gedeckter Tisch + Geschenk): 25 Euro\n- Essen mitbringen: Kuchen 7 Euro, Baguette 3 Euro\n- Getränke mitbringen: 3 Flaschen Wasser je 0,50 Euro, 3 Flaschen Saft je 1,50 Euro\n\nJette lädt 6 Freundinnen ein. Mama kommt mit.\n\na) Was kosten die Eintritte? (Jette + Mama frei, 6 Kinder zahlen) ___\nb) Was kostet das Angebot? ___\nc) Was kostet das mitgebrachte Essen und Trinken? ___\nd) Wie viel kostet die Feier insgesamt? Bleibt sie unter 150 Euro?",
+    "loesung": "a) 6 · 8 = 48 Euro (Jette + Mama frei)\nb) 25 Euro\nc) Essen: 7 + 3 = 10 Euro. Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro. Gesamt: 10 + 6 = 16 Euro.\nd) 48 + 25 + 16 = 89 Euro. Ja, das ist unter 150 Euro!",
+    "loesungsweg": "Rechne jeden Posten einzeln aus und addiere am Schluss:\n1. Eintritt: 6 Kinder · 8 Euro = 48 Euro\n2. Angebot: 25 Euro\n3. Essen: Kuchen (7 Euro) + Baguette (3 Euro) = 10 Euro\n4. Getränke: 3 · 0,50 Euro + 3 · 1,50 Euro = 1,50 + 4,50 = 6 Euro\n5. Summe: 48 + 25 + 10 + 6 = 89 Euro\n6. 89 Euro < 150 Euro — passt!",
+    "tipps": [
+      "Sortiere die Kosten: Was kostet der Eintritt? Was das Essen? Was die Getränke? Rechne alles einzeln aus und addiere dann.",
+      "Mache eine Liste mit allen Kosten. Rechne jeden Posten aus. Addiere am Ende alles und vergleiche mit 150 Euro.",
+      "Eintritt: 6 · 8 = ___. Angebot: 25. Essen: 7 + 3 = ___. Getränke: 3 · 0,50 + 3 · 1,50 = ___. Alles zusammen: ___ + 25 + ___ + ___ = ___. Ist das weniger als 150?",
+      "Rechne jeden Posten einzeln aus und addiere am Schluss:\n1. Eintritt: 6 Kinder · 8 Euro = 48 Euro\n2. Angebot: 25 Euro\n3. Essen: Kuchen (7 Euro) + Baguette (3 Euro) = 10 Euro\n4. Getränke: 3 · 0,50 Euro + 3 · 1,50 Euro = 1,50 + 4,50 = 6 Euro\n5. Summe: 48 + 25 + 10 + 6 = 89 Euro\n6. 89 Euro < 150 Euro — passt!"
+    ],
+    "didaktischerHinweis": "Budgetplanung mit mehreren Posten ist ein komplexes, aber alltagsnahes Sachproblem. Entspricht S. 113, Aufg. 4.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette möchte ihren Geburtstag im Schwimmbad feiern. Das Budget beträgt höchstens 150 Euro.\n\nInformationen:\n- Eintritt Kinder: 8 Euro (3-Stunden-Ticket)\n- Eintritt Erwachsene: 11 Euro (3-Stunden-Ticket)\n- Geburtstagskind und 1 Begleitperson: frei (im Angebot enthalten)\n- Angebot (gedeckter Tisch + Geschenk): 25 Euro\n- Essen mitbringen: Kuchen 7 Euro, Baguette 3 Euro\n- Getränke mitbringen: 3 Flaschen Wasser je 0,50 Euro, 3 Flaschen Saft je 1,50 Euro\n\nJette lädt 6 Freundinnen ein. Mama kommt mit.",
+      "kontext": "Jette möchte ihren Geburtstag im Schwimmbad feiern. Das Budget beträgt höchstens 150 Euro.\n\nInformationen:\n- Eintritt Kinder: 8 Euro (3-Stunden-Ticket)\n- Eintritt Erwachsene: 11 Euro (3-Stunden-Ticket)\n- Geburtstagskind und 1 Begleitperson: frei (im Angebot enthalten)\n- Angebot (gedeckter Tisch + Geschenk): 25 Euro\n- Essen mitbringen: Kuchen 7 Euro, Baguette 3 Euro\n- Getränke mitbringen: 3 Flaschen Wasser je 0,50 Euro, 3 Flaschen Saft je 1,50 Euro\n\nJette lädt 6 Freundinnen ein. Mama kommt mit.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kosten die Eintritte? (Jette + Mama frei, 6 Kinder zahlen) ___",
+          "antwort": "6 · 8 = 48 Euro (Jette + Mama frei)"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet das Angebot? ___",
+          "antwort": "25 Euro"
+        },
+        {
+          "label": "c",
+          "frage": "Was kostet das mitgebrachte Essen und Trinken? ___",
+          "antwort": "Essen: 7 + 3 = 10 Euro. Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro. Gesamt: 10 + 6 = 16 Euro."
+        },
+        {
+          "label": "d",
+          "frage": "Wie viel kostet die Feier insgesamt? Bleibt sie unter 150 Euro?",
+          "antwort": "48 + 25 + 16 = 89 Euro. Ja, das ist unter 150 Euro!"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schwimmbad-Feier — andere Variante planen",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "orange",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette überlegt, ob sie statt des mitgebrachten Essens lieber im Schwimmbad essen soll.\n\nSpeisekarte:\n- Flipper (Würstchen mit Pommes): 6,50 Euro\n- Moby Dick (Chicken Nuggets mit Pommes): 8,50 Euro\n- Nemo (Vanilleeis mit bunten Streuseln): 4,50 Euro\n\nJette lädt 6 Freundinnen ein (+ sich selbst + Mama = 8 Personen).\n\na) Was kostet es, wenn alle den Flipper bestellen? ___\nb) Was kostet es, wenn alle Nemo bestellen? ___\nc) Jette hat insgesamt 150 Euro Budget. Der Eintritt kostet 48 Euro (6 Kinder), das Angebot 25 Euro. Wie viel bleibt für Essen und Trinken? ___",
+    "loesung": "a) 8 · 6,50 = 52 Euro\nb) 8 · 4,50 = 36 Euro\nc) 150 - 48 - 25 = 77 Euro für Essen und Trinken",
+    "loesungsweg": "a) 8 Personen · 6,50 Euro = 52 Euro\nb) 8 Personen · 4,50 Euro = 36 Euro\nc) Restbudget: 150 - 48 (Eintritt) - 25 (Angebot) = 77 Euro\n\nMit 77 Euro kann man sogar den Flipper für alle bezahlen (52 Euro) und hat noch 25 Euro für Getränke übrig.",
+    "tipps": [
+      "Wie viele Personen essen mit? Multipliziere die Anzahl mit dem Preis pro Portion.",
+      "Rechne zuerst das Restbudget aus: Gesamtbudget minus Eintritt minus Angebot. Dann prüfe, ob das Essen in das Restbudget passt.",
+      "Restbudget: 150 - 48 - 25 = ___. Flipper für alle: 8 · 6,50 = ___. Passt ___ in das Budget von ___? ___ (ja/nein).",
+      "a) 8 Personen · 6,50 Euro = 52 Euro\nb) 8 Personen · 4,50 Euro = 36 Euro\nc) Restbudget: 150 - 48 (Eintritt) - 25 (Angebot) = 77 Euro\n\nMit 77 Euro kann man sogar den Flipper für alle bezahlen (52 Euro) und hat noch 25 Euro für Getränke übrig."
+    ],
+    "didaktischerHinweis": "Mehrstufige Budgetplanung mit Kommazahlen. Entspricht S. 113, Aufg. 4 (erweitert).",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette überlegt, ob sie statt des mitgebrachten Essens lieber im Schwimmbad essen soll.\n\nSpeisekarte:\n- Flipper (Würstchen mit Pommes): 6,50 Euro\n- Moby Dick (Chicken Nuggets mit Pommes): 8,50 Euro\n- Nemo (Vanilleeis mit bunten Streuseln): 4,50 Euro\n\nJette lädt 6 Freundinnen ein (+ sich selbst + Mama = 8 Personen).",
+      "kontext": "Jette überlegt, ob sie statt des mitgebrachten Essens lieber im Schwimmbad essen soll.\n\nSpeisekarte:\n- Flipper (Würstchen mit Pommes): 6,50 Euro\n- Moby Dick (Chicken Nuggets mit Pommes): 8,50 Euro\n- Nemo (Vanilleeis mit bunten Streuseln): 4,50 Euro\n\nJette lädt 6 Freundinnen ein (+ sich selbst + Mama = 8 Personen).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kostet es, wenn alle den Flipper bestellen? ___",
+          "antwort": "8 · 6,50 = 52 Euro"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet es, wenn alle Nemo bestellen? ___",
+          "antwort": "8 · 4,50 = 36 Euro"
+        },
+        {
+          "label": "c",
+          "frage": "Jette hat insgesamt 150 Euro Budget. Der Eintritt kostet 48 Euro (6 Kinder), das Angebot 25 Euro. Wie viel bleibt für Essen und Trinken? ___",
+          "antwort": "150 - 48 - 25 = 77 Euro für Essen und Trinken"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Sparvergleich — Essen kaufen oder mitbringen?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "orange",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Vergleiche die Kosten: Essen im Schwimmbad kaufen oder selbst mitbringen?\n\nVariante A — Essen mitbringen (für 8 Personen):\n- 1 Kuchen: 7 Euro\n- 10 Schnitzel: 15 Euro\n- Kartoffelsalat: 8 Euro\n- 1 Baguette: 3 Euro\n- 3 Flaschen Wasser (je 0,50 Euro) + 3 Flaschen Saft (je 1,50 Euro)\n\nVariante B — Essen im Schwimmbad kaufen:\n- 8 · Flipper (6,50 Euro) + 8 · Wasser (2,10 Euro)\n\na) Was kostet Variante A? ___\nb) Was kostet Variante B? ___\nc) Wie viel spart man mit Variante A? ___",
+    "loesung": "a) 7 + 15 + 8 + 3 + (3 · 0,50) + (3 · 1,50) = 7 + 15 + 8 + 3 + 1,50 + 4,50 = 39 Euro\nb) 8 · 6,50 + 8 · 2,10 = 52 + 16,80 = 68,80 Euro\nc) 68,80 - 39 = 29,80 Euro gespart",
+    "loesungsweg": "Variante A:\n- Essen: 7 + 15 + 8 + 3 = 33 Euro\n- Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro\n- Gesamt: 33 + 6 = 39 Euro\n\nVariante B:\n- Essen: 8 · 6,50 = 52 Euro\n- Getränke: 8 · 2,10 = 16,80 Euro\n- Gesamt: 52 + 16,80 = 68,80 Euro\n\nErsparnis: 68,80 - 39 = 29,80 Euro",
+    "tipps": [
+      "Rechne jede Variante einzeln aus: Alle Posten addieren. Dann vergleiche die Summen.",
+      "Mache zwei Listen — eine für \"Mitbringen\", eine für \"Kaufen\". Addiere jeweils alle Posten und vergleiche am Ende.",
+      "Variante A: 7 + 15 + 8 + 3 = ___ (Essen) + 1,50 + 4,50 = ___ (Getränke) = ___ gesamt. Variante B: 52 + 16,80 = ___. Unterschied: ___ - ___ = ___.",
+      "Variante A:\n- Essen: 7 + 15 + 8 + 3 = 33 Euro\n- Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro\n- Gesamt: 33 + 6 = 39 Euro\n\nVariante B:\n- Essen: 8 · 6,50 = 52 Euro\n- Getränke: 8 · 2,10 = 16,80 Euro\n- Gesamt: 52 + 16,80 = 68,80 Euro\n\nErsparnis: 68,80 - 39 = 29,80 Euro"
+    ],
+    "didaktischerHinweis": "Kostenvergleich mit Kommazahlen und mehreren Posten ist eine anspruchsvolle, aber realitätsnahe Aufgabe. Entspricht S. 113, Aufg. 4 (Vertiefung).",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Vergleiche die Kosten: Essen im Schwimmbad kaufen oder selbst mitbringen?\n\nVariante A — Essen mitbringen (für 8 Personen):\n- 1 Kuchen: 7 Euro\n- 10 Schnitzel: 15 Euro\n- Kartoffelsalat: 8 Euro\n- 1 Baguette: 3 Euro\n- 3 Flaschen Wasser (je 0,50 Euro) + 3 Flaschen Saft (je 1,50 Euro)\n\nVariante B — Essen im Schwimmbad kaufen:\n- 8 · Flipper (6,50 Euro) + 8 · Wasser (2,10 Euro)",
+      "kontext": "Vergleiche die Kosten: Essen im Schwimmbad kaufen oder selbst mitbringen?\n\nVariante A — Essen mitbringen (für 8 Personen):\n- 1 Kuchen: 7 Euro\n- 10 Schnitzel: 15 Euro\n- Kartoffelsalat: 8 Euro\n- 1 Baguette: 3 Euro\n- 3 Flaschen Wasser (je 0,50 Euro) + 3 Flaschen Saft (je 1,50 Euro)\n\nVariante B — Essen im Schwimmbad kaufen:\n- 8 · Flipper (6,50 Euro) + 8 · Wasser (2,10 Euro)",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kostet Variante A? ___",
+          "antwort": "7 + 15 + 8 + 3 + (3 · 0,50) + (3 · 1,50) = 7 + 15 + 8 + 3 + 1,50 + 4,50 = 39 Euro"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet Variante B? ___",
+          "antwort": "8 · 6,50 + 8 · 2,10 = 52 + 16,80 = 68,80 Euro"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel spart man mit Variante A? ___",
+          "antwort": "68,80 - 39 = 29,80 Euro gespart"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "10er-Karte oder Einzeltickets — Ab wann lohnt sich die Karte?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "orange",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Die 10er-Karte für Kinder kostet 85 Euro. Ein einzelnes 3-Stunden-Ticket kostet 8 Euro.\n\na) Ab wie vielen Besuchen ist die 10er-Karte günstiger als Einzeltickets?\nb) Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
+    "loesung": "a) Ab 11 Besuchen (10 · 8 = 80 < 85, also bei genau 10 Besuchen ist die Einzelkarte noch günstiger!)\n   Eigentlich: Die 10er-Karte ist bei 10 Besuchen teurer (85 > 80). Sie lohnt sich nie, wenn man nur die 10 vorgegebenen Besuche macht!\n\nb) Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist sogar 5 Euro TEURER.",
+    "loesungsweg": "- 10 Einzeltickets: 10 · 8 = 80 Euro\n- 10er-Karte: 85 Euro\n- 80 < 85 — die Einzeltickets sind günstiger!\n\nDie 10er-Karte hat andere Vorteile (z.B. kein Anstehen an der Kasse), aber rein rechnerisch lohnt sie sich in diesem Fall nicht.",
+    "tipps": [
+      "Rechne aus: Was kosten 10 einzelne Tickets? Vergleiche das mit dem Preis der 10er-Karte.",
+      "Multipliziere: 10 · 8 Euro = ___. Ist das mehr oder weniger als 85 Euro?",
+      "10 · 8 = ___. Die 10er-Karte kostet 85 Euro. ___ ist (mehr/weniger) als 85. Also sind die Einzeltickets ___.",
+      "- 10 Einzeltickets: 10 · 8 = 80 Euro\n- 10er-Karte: 85 Euro\n- 80 < 85 — die Einzeltickets sind günstiger!\n\nDie 10er-Karte hat andere Vorteile (z.B. kein Anstehen an der Kasse), aber rein rechnerisch lohnt sie sich in diesem Fall nicht."
+    ],
+    "didaktischerHinweis": "Überraschendes Ergebnis: Die 10er-Karte ist teurer! Das fördert kritisches Denken und zeigt, dass man nicht blind \"Sparangeboten\" vertrauen sollte. Entspricht S. 112, Aufg. 1 (erweitert).",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Die 10er-Karte für Kinder kostet 85 Euro. Ein einzelnes 3-Stunden-Ticket kostet 8 Euro.",
+      "kontext": "Die 10er-Karte für Kinder kostet 85 Euro. Ein einzelnes 3-Stunden-Ticket kostet 8 Euro.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Ab wie vielen Besuchen ist die 10er-Karte günstiger als Einzeltickets?",
+          "antwort": "Ab 11 Besuchen (10 · 8 = 80 < 85, also bei genau 10 Besuchen ist die Einzelkarte noch günstiger!)"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
+          "antwort": "Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist sogar 5 Euro TEURER."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schulweg — Wann holt Leo seine Schwester ein?",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "gelb",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Schreibe die Informationen in eine Tabelle:\n\n| Zeit | Marens Weg | Leos Weg |\n|------|-----------|----------|\n| 4 min | ___ m | 0 m |\n| 6 min | ___ m | ___ m |\n| 8 min | ___ m | ___ m |\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
+    "loesung": "a)\n| Zeit | Marens Weg | Leos Weg |\n|------|-----------|----------|\n| 4 min | 200 m | 0 m |\n| 6 min | 300 m | 150 m |\n| 8 min | 400 m | 300 m |\n| 10 min | 500 m | 450 m |\n| 12 min | 600 m | 600 m |\n\nb) Nach 12 Minuten sind beide 600 m weit. Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).",
+    "loesungsweg": "Maren startet bei Minute 0 und geht 50 m pro Minute.\nLeo startet bei Minute 4 und läuft 75 m pro Minute.\n- Marens Weg nach t Minuten: 50 · t\n- Leos Weg nach t Minuten: 75 · (t - 4), ab t = 4\n\nGleichsetzen: 50 · t = 75 · (t - 4) → 50t = 75t - 300 → 300 = 25t → t = 12\n\nNach 12 Minuten haben beide 600 m zurückgelegt.",
+    "tipps": [
+      "Zeichne einen Zahlenstrahl für den Schulweg. Trage ein, wo Maren und Leo nach jeder Minute sind. Wann sind sie an der gleichen Stelle?",
+      "Erstelle eine Tabelle: Für jede Minute rechnest du aus, wie weit Maren und Leo sind. Wann steht bei beiden die gleiche Zahl?",
+      "Nach 4 Minuten: Maren ist bei 4 · 50 = 200 m. Leo startet gerade (0 m). Nach 6 Minuten: Maren bei 6 · 50 = ___ m. Leo bei 2 · 75 = ___ m. Mach weiter bis die Zahlen gleich sind.",
+      "Maren startet bei Minute 0 und geht 50 m pro Minute.\nLeo startet bei Minute 4 und läuft 75 m pro Minute.\n- Marens Weg nach t Minuten: 50 · t\n- Leos Weg nach t Minuten: 75 · (t - 4), ab t = 4\n\nGleichsetzen: 50 · t = 75 · (t - 4) → 50t = 75t - 300 → 300 = 25t → t = 12\n\nNach 12 Minuten haben beide 600 m zurückgelegt."
+    ],
+    "didaktischerHinweis": "Die Tabelle als Lösungshilfe macht das Einhol-Problem greifbar. Entspricht S. 114, Aufg. 1.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Schreibe die Informationen in eine Tabelle:\n\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "4 min · Marens Weg =",
+              "antwort": "200 m"
+            },
+            {
+              "label": "2",
+              "frage": "4 min · Leos Weg =",
+              "antwort": "0 m"
+            },
+            {
+              "label": "3",
+              "frage": "6 min · Marens Weg =",
+              "antwort": "300 m"
+            },
+            {
+              "label": "4",
+              "frage": "6 min · Leos Weg =",
+              "antwort": "150 m"
+            },
+            {
+              "label": "5",
+              "frage": "Summe:",
+              "antwort": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tim und Ina — Schulweg mit Tabelle lösen",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "gelb",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Fulle die Tabelle aus:\n\n| Zeit | Inas Weg | Tims Weg |\n|------|---------|---------|\n| 4 min | ___ m | 0 m |\n| 5 min | ___ m | ___ m |\n| 6 min | ___ m | ___ m |\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
+    "loesung": "a)\n| Zeit | Inas Weg | Tims Weg |\n|------|---------|---------|\n| 4 min | 200 m | 0 m |\n| 5 min | 250 m | 100 m |\n| 6 min | 300 m | 200 m |\n| 7 min | 350 m | 300 m |\n| 8 min | 400 m | 400 m |\n\nb) Nach 8 Minuten haben beide 400 m geschafft. Tim holt Ina um 7:38 Uhr ein.",
+    "loesungsweg": "- Inas Weg: 50 m pro Minute, Start bei 0 min\n- Tims Weg: 100 m pro Minute, Start bei 4 min\n- Nach 8 Minuten: Ina bei 8 · 50 = 400 m, Tim bei 4 · 100 = 400 m — gleichauf!",
+    "tipps": [
+      "Zeichne zwei Pfeile auf einem Zahlenstrahl bis 800 m. Ina startet früher, Tim ist schneller. Wann treffen sich die Pfeile?",
+      "Erstelle eine Tabelle mit Minutenschritten. Ina bekommt 4 Minuten Vorsprung. Füge für jede Minute 50 m (Ina) bzw. 100 m (Tim) hinzu.",
+      "Nach 4 Minuten: Ina bei 200 m, Tim bei 0 m. Pro Minute holt Tim 50 m auf (100 - 50 = 50). Er muss 200 m aufholen: 200 : 50 = ___ Minuten. Also bei Minute 4 + ___ = ___.",
+      "- Inas Weg: 50 m pro Minute, Start bei 0 min\n- Tims Weg: 100 m pro Minute, Start bei 4 min\n- Nach 8 Minuten: Ina bei 8 · 50 = 400 m, Tim bei 4 · 100 = 400 m — gleichauf!"
+    ],
+    "didaktischerHinweis": "Gleiche Aufgabenstruktur wie Aufgabe 9, aber mit anderen Zahlen — vertieft die Methode. Entspricht S. 114, Aufg. 2.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Fulle die Tabelle aus:\n\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "4 min · Inas Weg =",
+              "antwort": "200 m"
+            },
+            {
+              "label": "2",
+              "frage": "4 min · Tims Weg =",
+              "antwort": "0 m"
+            },
+            {
+              "label": "3",
+              "frage": "5 min · Inas Weg =",
+              "antwort": "250 m"
+            },
+            {
+              "label": "4",
+              "frage": "5 min · Tims Weg =",
+              "antwort": "100 m"
+            },
+            {
+              "label": "5",
+              "frage": "Summe:",
+              "antwort": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Anna und Marie — Wettlauf mit Vorsprung",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Anna und Marie laufen um die Wette. In der Zeit, in der Anna 100 m läuft, schafft Marie 75 m.\n\nAnna gibt Marie 100 m Vorsprung.\n\nNach wie vielen Metern hat Anna Marie eingeholt?",
+    "loesung": "Nach 400 m hat Anna Marie eingeholt.",
+    "loesungsweg": "Maries Vorsprung: 100 m. Während Anna 100 m läuft, holt sie 25 m auf (100 - 75 = 25).\n\nSie muss 100 m aufholen: 100 : 25 = 4 Durchgänge.\nAnna läuft 4 · 100 = 400 m, Marie läuft 100 + 4 · 75 = 100 + 300 = 400 m.\n\nOder mit Tabelle:\n| Annas Weg | Maries Weg |\n|-----------|-----------|\n| 100 m | 175 m |\n| 200 m | 250 m |\n| 300 m | 325 m |\n| 400 m | 400 m |",
+    "tipps": [
+      "Marie hat 100 m Vorsprung. In jedem \"Abschnitt\" holt Anna ein Stück auf. Wie viel holt Anna pro Abschnitt auf?",
+      "Zeichne einen Zahlenstrahl. Anna startet bei 0 m, Marie bei 100 m. Pro Zeiteinheit läuft Anna 100 m weiter, Marie 75 m. Wann stehen sie auf der gleichen Zahl?",
+      "Pro Abschnitt holt Anna 100 - 75 = ___ m auf. Sie muss 100 m aufholen. 100 : 25 = ___ Abschnitte. Anna läuft ___ · 100 = ___ m.",
+      "Maries Vorsprung: 100 m. Während Anna 100 m läuft, holt sie 25 m auf (100 - 75 = 25).\n\nSie muss 100 m aufholen: 100 : 25 = 4 Durchgänge.\nAnna läuft 4 · 100 = 400 m, Marie läuft 100 + 4 · 75 = 100 + 300 = 400 m.\n\nOder mit Tabelle:\n| Annas Weg | Maries Weg |\n|-----------|-----------|\n| 100 m | 175 m |\n| 200 m | 250 m |\n| 300 m | 325 m |\n| 400 m | 400 m |"
+    ],
+    "didaktischerHinweis": "Einhol-Aufgabe mit Vorsprung statt Zeitversatz. Der Zahlenstrahl als Skizze ist hier besonders hilfreich. Entspricht S. 114, Aufg. 3.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Anna und Marie laufen um die Wette. In der Zeit, in der Anna 100 m läuft, schafft Marie 75 m.\n\nAnna gibt Marie 100 m Vorsprung.",
+      "kontext": "Anna und Marie laufen um die Wette. In der Zeit, in der Anna 100 m läuft, schafft Marie 75 m.\n\nAnna gibt Marie 100 m Vorsprung.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Nach wie vielen Metern hat Anna Marie eingeholt?",
+          "antwort": "Nach 400 m hat Anna Marie eingeholt."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Sackhüpfen — Wer ist zuerst im Ziel?",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Ali und sein Vater treten beim Sackhüpfen gegeneinander an.\n\n- Ali schafft in 2 Sekunden einen Sprung von 40 cm.\n- Sein Vater schafft in 3 Sekunden einen Sprung von 50 cm.\n- Das Ziel ist 8 m entfernt.\n\nWer ist zuerst im Ziel?",
+    "loesung": "Ali ist zuerst im Ziel.\n\n- Ali: 40 cm in 2 s = 20 cm/s. Für 8 m = 800 cm braucht er: 800 : 20 = 40 Sekunden.\n- Vater: 50 cm in 3 s = ca. 16,7 cm/s. Für 800 cm braucht er: 800 : 16,7 ≈ 48 Sekunden.",
+    "loesungsweg": "Berechne die Geschwindigkeit (cm pro Sekunde):\n- Ali: 40 cm : 2 s = 20 cm pro Sekunde\n- Vater: 50 cm : 3 s ≈ 16,7 cm pro Sekunde\n\nAli ist schneller (20 > 16,7)!\n\nBerechne die Zeit bis zum Ziel:\n- Ali: 800 cm : 20 cm/s = 40 Sekunden\n- Vater: 800 cm : 16,7 cm/s ≈ 48 Sekunden\n\nAli ist 8 Sekunden früher im Ziel.",
+    "tipps": [
+      "Der Vater springt zwar weiter (50 cm > 40 cm), aber er braucht auch länger (3 s > 2 s). Wer kommt pro Sekunde weiter?",
+      "Rechne für beide die Strecke pro Sekunde aus: Ali: 40 : 2 = ___. Vater: 50 : 3 = ___. Wer hat den größeren Wert?",
+      "Ali: 40 cm in 2 Sekunden = ___ cm pro Sekunde. Vater: 50 cm in 3 Sekunden = ___ cm pro Sekunde. ___ cm/s > ___ cm/s, also ist ___ schneller.",
+      "Berechne die Geschwindigkeit (cm pro Sekunde):\n- Ali: 40 cm : 2 s = 20 cm pro Sekunde\n- Vater: 50 cm : 3 s ≈ 16,7 cm pro Sekunde\n\nAli ist schneller (20 > 16,7)!\n\nBerechne die Zeit bis zum Ziel:\n- Ali: 800 cm : 20 cm/s = 40 Sekunden\n- Vater: 800 cm : 16,7 cm/s ≈ 48 Sekunden\n\nAli ist 8 Sekunden früher im Ziel."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe erfordert Geschwindigkeitsvergleich — nicht der längere Sprung gewinnt, sondern der schnellere! Entspricht S. 114, Aufg. 4.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ali und sein Vater treten beim Sackhüpfen gegeneinander an.\n\n- Ali schafft in 2 Sekunden einen Sprung von 40 cm.\n- Sein Vater schafft in 3 Sekunden einen Sprung von 50 cm.\n- Das Ziel ist 8 m entfernt.",
+      "kontext": "Ali und sein Vater treten beim Sackhüpfen gegeneinander an.\n\n- Ali schafft in 2 Sekunden einen Sprung von 40 cm.\n- Sein Vater schafft in 3 Sekunden einen Sprung von 50 cm.\n- Das Ziel ist 8 m entfernt.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wer ist zuerst im Ziel?",
+          "antwort": "Ali ist zuerst im Ziel."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fahrradtour — Wer ist wie weit gefahren?",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Simon und Alex wohnen 36 km voneinander entfernt. In den Ferien wollen sie sich mit dem Fahrrad treffen. Sie starten zur selben Zeit und kommen sich entgegen.\n\nNach einer Stunde sind sie noch 12 km voneinander entfernt. Alex ist in dieser Zeit 14 km geradelt.\n\nWie viele Kilometer ist Simon in einer Stunde gefahren?",
+    "loesung": "Simon ist 10 km gefahren.",
+    "loesungsweg": "Zusammen haben sie in einer Stunde die Strecke verringert von 36 km auf 12 km:\n36 - 12 = 24 km wurden insgesamt zurückgelegt.\n\nAlex hat 14 km geschafft, also hat Simon: 24 - 14 = 10 km geschafft.",
+    "tipps": [
+      "Zeichne einen Strich für die 36 km. Alex fährt von links, Simon von rechts. Nach einer Stunde sind noch 12 km übrig. Wie viel haben sie zusammen geschafft?",
+      "Zusammen zurückgelegt: 36 km - 12 km = 24 km. Alex hat davon 14 km geschafft. Den Rest hat Simon gemacht.",
+      "Gesamtstrecke: 36 km. Nach 1 Stunde übrig: 12 km. Also zusammen gefahren: 36 - 12 = ___ km. Alex: 14 km. Simon: ___ - 14 = ___ km.",
+      "Zusammen haben sie in einer Stunde die Strecke verringert von 36 km auf 12 km:\n36 - 12 = 24 km wurden insgesamt zurückgelegt.\n\nAlex hat 14 km geschafft, also hat Simon: 24 - 14 = 10 km geschafft."
+    ],
+    "didaktischerHinweis": "Die Skizze (Zahlenstrahl mit Gegenbewegung) ist hier das wichtigste Werkzeug. Entspricht S. 115, Aufg. 5.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Simon und Alex wohnen 36 km voneinander entfernt. In den Ferien wollen sie sich mit dem Fahrrad treffen. Sie starten zur selben Zeit und kommen sich entgegen.\n\nNach einer Stunde sind sie noch 12 km voneinander entfernt. Alex ist in dieser Zeit 14 km geradelt.",
+      "kontext": "Simon und Alex wohnen 36 km voneinander entfernt. In den Ferien wollen sie sich mit dem Fahrrad treffen. Sie starten zur selben Zeit und kommen sich entgegen.\n\nNach einer Stunde sind sie noch 12 km voneinander entfernt. Alex ist in dieser Zeit 14 km geradelt.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Kilometer ist Simon in einer Stunde gefahren?",
+          "antwort": "Simon ist 10 km gefahren."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "400-Meter-Bahn — Wann hat Felix Marco eingeholt?",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "orange",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Felix aus dem 4. Schuljahr und Marco aus dem 2. Schuljahr trainieren auf der 400-Meter-Bahn rund um den Sportplatz. Beide Jungen laufen zur selben Zeit los.\n\nIn der Zeit, in der Felix 100 m läuft, schafft Marco 50 m.\n\nNach wie vielen Metern hat Felix Marco wieder eingeholt? (Felix muss Marco also einmal überrunden.)",
+    "loesung": "Nach 800 m hat Felix Marco eingeholt (Felix hat 2 Runden, Marco 1 Runde geschafft).",
+    "loesungsweg": "Felix muss eine ganze Runde (400 m) Vorsprung herauslaufen.\nPro 100 m, die Felix läuft, holt er 50 m auf (100 - 50 = 50).\nUm 400 m aufzuholen: 400 : 50 = 8 Abschnitte.\nFelix läuft: 8 · 100 = 800 m (= 2 Runden).\nMarco läuft: 8 · 50 = 400 m (= 1 Runde).\n\nFelix hat Marco nach 800 m (2 Runden) eingeholt — Marco hat dann genau 1 Runde geschafft.",
+    "tipps": [
+      "\"Einholen\" auf einer Rundstrecke heißt: Felix muss eine ganze Runde mehr als Marco laufen. Wie groß ist der Unterschied pro Abschnitt?",
+      "Felix muss 400 m mehr als Marco laufen. Pro Zeiteinheit ist Felix 50 m schneller (100 - 50). Wie viele Zeiteinheiten braucht er für 400 m Vorsprung?",
+      "Aufzuholen: 400 m. Pro Abschnitt holt Felix ___ m auf. 400 : 50 = ___ Abschnitte. Felix läuft ___ · 100 = ___ m.",
+      "Felix muss eine ganze Runde (400 m) Vorsprung herauslaufen.\nPro 100 m, die Felix läuft, holt er 50 m auf (100 - 50 = 50).\nUm 400 m aufzuholen: 400 : 50 = 8 Abschnitte.\nFelix läuft: 8 · 100 = 800 m (= 2 Runden).\nMarco läuft: 8 · 50 = 400 m (= 1 Runde).\n\nFelix hat Marco nach 800 m (2 Runden) eingeholt — Marco hat dann genau 1 Runde geschafft."
+    ],
+    "didaktischerHinweis": "Rundbahn-Aufgabe ist eine Erweiterung der linearen Einhol-Aufgabe. Entspricht S. 115, Aufg. 6.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Felix aus dem 4. Schuljahr und Marco aus dem 2. Schuljahr trainieren auf der 400-Meter-Bahn rund um den Sportplatz. Beide Jungen laufen zur selben Zeit los.\n\nIn der Zeit, in der Felix 100 m läuft, schafft Marco 50 m.",
+      "kontext": "Felix aus dem 4. Schuljahr und Marco aus dem 2. Schuljahr trainieren auf der 400-Meter-Bahn rund um den Sportplatz. Beide Jungen laufen zur selben Zeit los.\n\nIn der Zeit, in der Felix 100 m läuft, schafft Marco 50 m.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Nach wie vielen Metern hat Felix Marco wieder eingeholt? (Felix muss Marco also einmal überrunden.)",
+          "antwort": "Nach 800 m hat Felix Marco eingeholt (Felix hat 2 Runden, Marco 1 Runde geschafft)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Züge fahren auseinander — Entfernung berechnen",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "orange",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\n\n- Der Schnellzug fährt pro Stunde durchschnittlich 160 km.\n- Der Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
+    "loesung": "Die Züge sind nach 2,5 Stunden 625 km voneinander entfernt.",
+    "loesungsweg": "Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden\n\nSchritt 2: Strecke Schnellzug: 160 · 2,5 = 400 km\nStrecke Regionalzug: 90 · 2,5 = 225 km\n\nSchritt 3: Gesamtentfernung: 400 + 225 = 625 km\n\n(Oder: Gemeinsame Geschwindigkeit: 160 + 90 = 250 km/h. Strecke: 250 · 2,5 = 625 km.)",
+    "tipps": [
+      "Zeichne einen Bahnhof in der Mitte. Ein Zug fährt nach links, einer nach rechts. Beide fahren gleichzeitig los. Die Entfernung ist die Summe beider Strecken!",
+      "Rechne zuerst die Strecke für jeden Zug einzeln aus (Geschwindigkeit mal Zeit). Dann addiere beide Strecken — weil sie in entgegengesetzte Richtungen fahren.",
+      "2 Stunden 30 Minuten = 2,5 Stunden. Schnellzug: 160 · 2,5 = ___. Regionalzug: 90 · 2,5 = ___. Entfernung: ___ + ___ = ___.",
+      "Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden\n\nSchritt 2: Strecke Schnellzug: 160 · 2,5 = 400 km\nStrecke Regionalzug: 90 · 2,5 = 225 km\n\nSchritt 3: Gesamtentfernung: 400 + 225 = 625 km\n\n(Oder: Gemeinsame Geschwindigkeit: 160 + 90 = 250 km/h. Strecke: 250 · 2,5 = 625 km.)"
+    ],
+    "didaktischerHinweis": "Gegenbewegung mit Addition der Strecken. Die Skizze mit dem Bahnhof in der Mitte ist die Schlüssel-Lösungshilfe. Entspricht S. 115, Aufg. 7.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Der Schnellzug fährt pro Stunde durchschnittlich 160 km.",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "Der Regionalzug fährt pro Stunde durchschnittlich 90 km.",
+              "antwort": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Züge — Geschwindigkeit berechnen",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "orange",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\n\nDer eine Zug fährt durchschnittlich 120 km pro Stunde.\nNach 2 Stunden und 30 Minuten sind die Züge 500 km voneinander entfernt.\n\nWie schnell ist der andere Zug durchschnittlich gefahren?",
+    "loesung": "Der andere Zug fährt 80 km/h.",
+    "loesungsweg": "Schritt 1: Strecke des ersten Zuges: 120 · 2,5 = 300 km\nSchritt 2: Strecke des zweiten Zuges: 500 - 300 = 200 km\nSchritt 3: Geschwindigkeit: 200 km : 2,5 h = 80 km/h",
+    "tipps": [
+      "Du kennst die Gesamtentfernung (500 km) und die Strecke eines Zuges. Der Rest ist die Strecke des anderen Zuges. Daraus kannst du die Geschwindigkeit ausrechnen.",
+      "Rechne rückwärts: Gesamtentfernung minus Strecke des bekannten Zuges = Strecke des unbekannten Zuges. Dann: Strecke geteilt durch Zeit = Geschwindigkeit.",
+      "Zug 1: 120 · 2,5 = ___ km. Zug 2: 500 - ___ = ___ km. Geschwindigkeit Zug 2: ___ : 2,5 = ___ km/h.",
+      "Schritt 1: Strecke des ersten Zuges: 120 · 2,5 = 300 km\nSchritt 2: Strecke des zweiten Zuges: 500 - 300 = 200 km\nSchritt 3: Geschwindigkeit: 200 km : 2,5 h = 80 km/h"
+    ],
+    "didaktischerHinweis": "Umkehraufgabe zur vorherigen Aufgabe — die Geschwindigkeit wird gesucht statt der Entfernung. Entspricht S. 115, Aufg. 8.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\n\nDer eine Zug fährt durchschnittlich 120 km pro Stunde.\nNach 2 Stunden und 30 Minuten sind die Züge 500 km voneinander entfernt.",
+      "kontext": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\n\nDer eine Zug fährt durchschnittlich 120 km pro Stunde.\nNach 2 Stunden und 30 Minuten sind die Züge 500 km voneinander entfernt.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie schnell ist der andere Zug durchschnittlich gefahren?",
+          "antwort": "Der andere Zug fährt 80 km/h."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eintritt bezahlen — Wie viel Rückgeld?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "gelb",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette kauft ein 3-Stunden-Ticket für Kinder. Es kostet 8 Euro. Sie bezahlt mit einem 20-Euro-Schein.\n\nWie viel Rückgeld bekommt Jette?",
+    "loesung": "12",
+    "loesungsweg": "20 - 8 = 12 Euro Rückgeld.",
+    "tipps": [
+      "Stell dir vor, du hast 20 Euro auf dem Tisch. Du gibst 8 Euro ab. Wie viel bleibt liegen?",
+      "Ziehe den Ticketpreis vom Geldschein ab: 20 - 8 = ?",
+      "20 - 8 = ___. So viel Euro bekommt Jette zurück.",
+      "20 - 8 = 12 Euro Rückgeld."
+    ],
+    "didaktischerHinweis": "Einfache Rückgeld-Berechnung als Einstieg in alltagsnahe Subtraktionsaufgaben. Gelb-Niveau zum Warmwerden.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette kauft ein 3-Stunden-Ticket für Kinder. Es kostet 8 Euro. Sie bezahlt mit einem 20-Euro-Schein.",
+      "kontext": "Jette kauft ein 3-Stunden-Ticket für Kinder. Es kostet 8 Euro. Sie bezahlt mit einem 20-Euro-Schein.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viel Rückgeld bekommt Jette?",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Pommes und Eis — Rückgeld berechnen",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "gelb",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette kauft sich im Schwimmbad-Kiosk:\n- 1 Portion Pommes: 3,50 Euro\n- 1 Kugel Eis: 1,50 Euro\n\nSie bezahlt mit einem 10-Euro-Schein.\n\na) Was kosten Pommes und Eis zusammen?\nb) Wie viel Rückgeld bekommt Jette?",
+    "loesung": "a) 5\nb) 5",
+    "loesungsweg": "a) 3,50 + 1,50 = 5 Euro\nb) 10 - 5 = 5 Euro Rückgeld",
+    "tipps": [
+      "Addiere zuerst die Preise der beiden Sachen. Dann ziehe die Summe vom 10-Euro-Schein ab.",
+      "Zuerst: Gesamtpreis = 3,50 + 1,50. Dann: Rückgeld = 10 - Gesamtpreis.",
+      "3,50 + 1,50 = ___. Dann: 10 - ___ = ___. Das ist das Rückgeld.",
+      "a) 3,50 + 1,50 = 5 Euro\nb) 10 - 5 = 5 Euro Rückgeld"
+    ],
+    "didaktischerHinweis": "Zwei-Schritt-Aufgabe: Zuerst addieren, dann subtrahieren. Alltagsnahes Szenario mit glatten Kommazahlen.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette kauft sich im Schwimmbad-Kiosk:\n- 1 Portion Pommes: 3,50 Euro\n- 1 Kugel Eis: 1,50 Euro\n\nSie bezahlt mit einem 10-Euro-Schein.",
+      "kontext": "Jette kauft sich im Schwimmbad-Kiosk:\n- 1 Portion Pommes: 3,50 Euro\n- 1 Kugel Eis: 1,50 Euro\n\nSie bezahlt mit einem 10-Euro-Schein.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was kosten Pommes und Eis zusammen?",
+          "antwort": "5"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viel Rückgeld bekommt Jette?",
+          "antwort": "5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schwimmbad-Öffnungszeiten — Wie lange ist geöffnet?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "gelb",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Das Freibad hat folgende Öffnungszeiten:\n- Montag bis Freitag: 9:00 bis 19:00 Uhr\n- Samstag und Sonntag: 8:00 bis 20:00 Uhr\n\na) Wie viele Stunden hat das Bad an einem Werktag geöffnet?\nb) Wie viele Stunden hat das Bad an einem Wochenendtag geöffnet?\nc) Wie viele Stunden mehr ist es am Wochenende geöffnet?",
+    "loesung": "a) 10\nb) 12\nc) 2",
+    "loesungsweg": "a) Von 9:00 bis 19:00 Uhr = 19 - 9 = 10 Stunden\nb) Von 8:00 bis 20:00 Uhr = 20 - 8 = 12 Stunden\nc) 12 - 10 = 2 Stunden mehr",
+    "tipps": [
+      "Zeichne dir einen Zeitstrahl von 8 Uhr bis 20 Uhr. Markiere die Öffnungszeiten farbig. Zähle die Stunden ab.",
+      "Geöffnete Stunden = Schließzeit minus Öffnungszeit. Rechne: 19 - 9 = ? und 20 - 8 = ?",
+      "Werktag: 19 - 9 = ___ Stunden. Wochenende: 20 - 8 = ___ Stunden. Unterschied: ___ - ___ = ___ Stunden.",
+      "a) Von 9:00 bis 19:00 Uhr = 19 - 9 = 10 Stunden\nb) Von 8:00 bis 20:00 Uhr = 20 - 8 = 12 Stunden\nc) 12 - 10 = 2 Stunden mehr"
+    ],
+    "didaktischerHinweis": "Zeitdauer-Berechnung mit vollen Stunden als sanfter Einstieg in Zeitaufgaben. Kein Umrechnen nötig.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Das Freibad hat folgende Öffnungszeiten:\n- Montag bis Freitag: 9:00 bis 19:00 Uhr\n- Samstag und Sonntag: 8:00 bis 20:00 Uhr",
+      "kontext": "Das Freibad hat folgende Öffnungszeiten:\n- Montag bis Freitag: 9:00 bis 19:00 Uhr\n- Samstag und Sonntag: 8:00 bis 20:00 Uhr",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Stunden hat das Bad an einem Werktag geöffnet?",
+          "antwort": "10"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Stunden hat das Bad an einem Wochenendtag geöffnet?",
+          "antwort": "12"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viele Stunden mehr ist es am Wochenende geöffnet?",
+          "antwort": "2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wechselgeld prüfen — Stimmt das Rückgeld?",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Lenas Familie kauft an der Schwimmbad-Kasse:\n- 2 Tageskarten Erwachsene (je 14 Euro)\n- 3 Tageskarten Kinder (je 11 Euro)\n\nLenas Mama bezahlt mit einem 100-Euro-Schein. Der Kassierer gibt 31 Euro zurück.\n\nStimmt das Rückgeld? Wenn nicht: Wie viel Rückgeld wäre richtig?",
+    "loesung": "39",
+    "loesungsweg": "1. Kosten Erwachsene: 2 · 14 = 28 Euro\n2. Kosten Kinder: 3 · 11 = 33 Euro\n3. Gesamtkosten: 28 + 33 = 61 Euro\n4. Richtiges Rückgeld: 100 - 61 = 39 Euro\n5. Der Kassierer hat nur 31 Euro zurückgegeben — das sind 8 Euro zu wenig!",
+    "tipps": [
+      "Berechne zuerst den Gesamtpreis. Dann ziehe ihn von 100 Euro ab. Vergleiche mit den 31 Euro.",
+      "Erst die Eintritte zusammenrechnen: 2 · 14 + 3 · 11. Dann vom 100-Euro-Schein abziehen. Stimmt das mit den 31 Euro überein?",
+      "2 · 14 = ___. 3 · 11 = ___. Zusammen: ___ + ___ = ___. Rückgeld: 100 - ___ = ___. Ist ___ dasselbe wie 31?",
+      "1. Kosten Erwachsene: 2 · 14 = 28 Euro\n2. Kosten Kinder: 3 · 11 = 33 Euro\n3. Gesamtkosten: 28 + 33 = 61 Euro\n4. Richtiges Rückgeld: 100 - 61 = 39 Euro\n5. Der Kassierer hat nur 31 Euro zurückgegeben — das sind 8 Euro zu wenig!"
+    ],
+    "didaktischerHinweis": "Rückgeld-Kontrolle fördert kritisches Denken und verbindet Multiplikation, Addition und Subtraktion in einem Sachkontext.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Lenas Familie kauft an der Schwimmbad-Kasse:\n- 2 Tageskarten Erwachsene (je 14 Euro)\n- 3 Tageskarten Kinder (je 11 Euro)\n\nLenas Mama bezahlt mit einem 100-Euro-Schein. Der Kassierer gibt 31 Euro zurück.",
+      "kontext": "Lenas Familie kauft an der Schwimmbad-Kasse:\n- 2 Tageskarten Erwachsene (je 14 Euro)\n- 3 Tageskarten Kinder (je 11 Euro)\n\nLenas Mama bezahlt mit einem 100-Euro-Schein. Der Kassierer gibt 31 Euro zurück.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Stimmt das Rückgeld? Wenn nicht: Wie viel Rückgeld wäre richtig?",
+          "antwort": "39"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schwimmkurs — Kosten und Dauer berechnen",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 113,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jette möchte einen Schwimmkurs im Freibad machen.\n\nInformationen:\n- Der Kurs hat 12 Termine.\n- Jeder Termin dauert 45 Minuten.\n- Der Kurs kostet insgesamt 96 Euro.\n\na) Wie viele Stunden dauert der gesamte Kurs?\nb) Was kostet eine einzelne Kursstunde (pro Termin)?",
+    "loesung": "a) 9\nb) 8",
+    "loesungsweg": "a) 12 Termine · 45 Minuten = 540 Minuten. 540 : 60 = 9 Stunden.\nb) 96 Euro : 12 Termine = 8 Euro pro Termin.",
+    "tipps": [
+      "Wie viele Minuten dauert der ganze Kurs? Rechne dann in Stunden um. Für den Preis pro Termin: Teile den Gesamtpreis durch die Anzahl der Termine.",
+      "Gesamtdauer: Anzahl · Dauer pro Termin. In Stunden umrechnen: Minuten geteilt durch 60. Preis pro Termin: Gesamtpreis geteilt durch Anzahl.",
+      "a) 12 · 45 = ___ Minuten. ___ : 60 = ___ Stunden.\nb) 96 : 12 = ___ Euro pro Termin.",
+      "a) 12 Termine · 45 Minuten = 540 Minuten. 540 : 60 = 9 Stunden.\nb) 96 Euro : 12 Termine = 8 Euro pro Termin."
+    ],
+    "didaktischerHinweis": "Verbindet Multiplikation, Division und Zeitumrechnung in einem alltagsnahen Kontext. Zwei unabhängige Teilaufgaben.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jette möchte einen Schwimmkurs im Freibad machen.\n\nInformationen:\n- Der Kurs hat 12 Termine.\n- Jeder Termin dauert 45 Minuten.\n- Der Kurs kostet insgesamt 96 Euro.",
+      "kontext": "Jette möchte einen Schwimmkurs im Freibad machen.\n\nInformationen:\n- Der Kurs hat 12 Termine.\n- Jeder Termin dauert 45 Minuten.\n- Der Kurs kostet insgesamt 96 Euro.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Stunden dauert der gesamte Kurs?",
+          "antwort": "9"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet eine einzelne Kursstunde (pro Termin)?",
+          "antwort": "8"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Schwimmbad-Ausflug — Zeitplanung",
+    "typ": "textaufgabe",
+    "thema": "Sachaufgaben lösen",
+    "schwierigkeit": "grün",
+    "buchseite": 112,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Jettes Familie plant einen Schwimmbad-Ausflug.\n\n- Abfahrt von zu Hause: 9:15 Uhr\n- Fahrtzeit zum Schwimmbad: 35 Minuten\n- Sie kaufen ein 3-Stunden-Ticket.\n- Fahrtzeit zurück: 35 Minuten\n\na) Wann kommen sie im Schwimmbad an?\nb) Wann müssen sie das Schwimmbad spätestens verlassen (3-Stunden-Ticket)?\nc) Wann sind sie wieder zu Hause?",
+    "loesung": "a) 9:50\nb) 12:50\nc) 13:25",
+    "loesungsweg": "a) 9:15 + 35 Minuten = 9:50 Uhr\nb) 9:50 + 3 Stunden = 12:50 Uhr\nc) 12:50 + 35 Minuten = 13:25 Uhr",
+    "tipps": [
+      "Zeichne einen Zeitstrahl. Trage die Abfahrt, die Ankunft, das Ticketende und die Rückkehr als Punkte ein. Rechne die Abstände aus.",
+      "Addiere Schritt für Schritt: Abfahrt + Fahrtzeit = Ankunft. Ankunft + 3 Stunden = Ticketende. Ticketende + Fahrtzeit = Ankunft zu Hause.",
+      "9:15 + 35 min: 9:15 + 30 = 9:45, + 5 = 9:50. Ticket endet: 9:50 + 3 h = ___. Rückfahrt: ___ + 35 min = ___.",
+      "a) 9:15 + 35 Minuten = 9:50 Uhr\nb) 9:50 + 3 Stunden = 12:50 Uhr\nc) 12:50 + 35 Minuten = 13:25 Uhr"
+    ],
+    "didaktischerHinweis": "Zeitplanung in mehreren Schritten. Uhrzeiten addieren ist ein häufiges Alltagsproblem und trainiert flexibles Rechnen mit Zeiteinheiten.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Jettes Familie plant einen Schwimmbad-Ausflug.\n\n- Abfahrt von zu Hause: 9:15 Uhr\n- Fahrtzeit zum Schwimmbad: 35 Minuten\n- Sie kaufen ein 3-Stunden-Ticket.\n- Fahrtzeit zurück: 35 Minuten",
+      "kontext": "Jettes Familie plant einen Schwimmbad-Ausflug.\n\n- Abfahrt von zu Hause: 9:15 Uhr\n- Fahrtzeit zum Schwimmbad: 35 Minuten\n- Sie kaufen ein 3-Stunden-Ticket.\n- Fahrtzeit zurück: 35 Minuten",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wann kommen sie im Schwimmbad an?",
+          "antwort": "9:50"
+        },
+        {
+          "label": "b",
+          "frage": "Wann müssen sie das Schwimmbad spätestens verlassen (3-Stunden-Ticket)?",
+          "antwort": "12:50"
+        },
+        {
+          "label": "c",
+          "frage": "Wann sind sie wieder zu Hause?",
+          "antwort": "13:25"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze hilft — Apfelbäume im Garten",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "gelb",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Familie Müller pflanzt Apfelbäume in ihrem Garten. Der Garten ist 24 m lang. Die Bäume sollen 6 m Abstand voneinander haben. Der erste Baum steht ganz am Anfang, der letzte ganz am Ende.\n\nWie viele Bäume werden gepflanzt?",
+    "loesung": "5",
+    "loesungsweg": "Zeichne eine Skizze: Ein Strich für den Garten (24 m). Markiere alle 6 m einen Punkt.\n- Baum 1: 0 m\n- Baum 2: 6 m\n- Baum 3: 12 m\n- Baum 4: 18 m\n- Baum 5: 24 m\n\n24 : 6 = 4 Abstände, also 4 + 1 = 5 Bäume (Zaunpfahl-Prinzip!).",
+    "tipps": [
+      "Zeichne einen langen Strich und markiere alle 6 m einen Punkt. Zähle die Punkte. Achtung: Es sind mehr Punkte als Abstände!",
+      "Teile die Gesamtlänge durch den Abstand: 24 : 6. Aber Vorsicht: Bei so einer Aufgabe gibt es immer einen Baum mehr als Abstände. Zeichne es auf!",
+      "24 : 6 = ___ Abstände. Bäume = Abstände + 1 = ___ + 1 = ___.",
+      "Zeichne eine Skizze: Ein Strich für den Garten (24 m). Markiere alle 6 m einen Punkt.\n- Baum 1: 0 m\n- Baum 2: 6 m\n- Baum 3: 12 m\n- Baum 4: 18 m\n- Baum 5: 24 m\n\n24 : 6 = 4 Abstände, also 4 + 1 = 5 Bäume (Zaunpfahl-Prinzip!)."
+    ],
+    "didaktischerHinweis": "Das Zaunpfahl-Problem (Anzahl Pfosten vs. Abstände) ist ein klassischer Denkfehler. Die Skizze macht den Fehler sichtbar.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Familie Müller pflanzt Apfelbäume in ihrem Garten. Der Garten ist 24 m lang. Die Bäume sollen 6 m Abstand voneinander haben. Der erste Baum steht ganz am Anfang, der letzte ganz am Ende.",
+      "kontext": "Familie Müller pflanzt Apfelbäume in ihrem Garten. Der Garten ist 24 m lang. Die Bäume sollen 6 m Abstand voneinander haben. Der erste Baum steht ganz am Anfang, der letzte ganz am Ende.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Bäume werden gepflanzt?",
+          "antwort": "5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tabelle hilft — Taschengeld sparen",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "gelb",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nFülle die Tabelle aus:\n\n| Woche | Gespart |\n|-------|---------|\n| 1 | ___ Euro |\n| 2 | ___ Euro |\n| 3 | ___ Euro |\n| 4 | ___ Euro |\n| 5 | ___ Euro |\n\nNach wie vielen Wochen kann Emma das Buch kaufen?",
+    "loesung": "5",
+    "loesungsweg": "| Woche | Gespart |\n|-------|---------|\n| 1 | 3 Euro |\n| 2 | 6 Euro |\n| 3 | 9 Euro |\n| 4 | 12 Euro |\n| 5 | 15 Euro |\n\nNach 5 Wochen hat Emma genau 15 Euro gespart. Rechnung: 15 : 3 = 5 Wochen.",
+    "tipps": [
+      "Jede Woche kommen 3 Euro dazu. Wie viel hat Emma nach 1 Woche? Nach 2 Wochen? Trage es in die Tabelle ein.",
+      "Fülle die Tabelle Zeile für Zeile: In Woche 1 hat sie 3 Euro, in Woche 2 hat sie 3 + 3 = 6 Euro, und so weiter. In welcher Woche steht 15?",
+      "Woche 1: 3 Euro. Woche 2: 3 + 3 = ___ Euro. Woche 3: ___ + 3 = ___ Euro. Weiter bis du bei 15 Euro bist.",
+      "| Woche | Gespart |\n|-------|---------|\n| 1 | 3 Euro |\n| 2 | 6 Euro |\n| 3 | 9 Euro |\n| 4 | 12 Euro |\n| 5 | 15 Euro |\n\nNach 5 Wochen hat Emma genau 15 Euro gespart. Rechnung: 15 : 3 = 5 Wochen."
+    ],
+    "didaktischerHinweis": "Die Tabelle macht den linearen Zusammenhang sichtbar und führt an systematisches Arbeiten heran. Einfache Wiederholung von Addition in Schritten.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Emma bekommt jede Woche 3 Euro Taschengeld. Sie spart alles für ein Buch, das 15 Euro kostet.\n\nFülle die Tabelle aus:\n\n\nNach wie vielen Wochen kann Emma das Buch kaufen?",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "1 · Gespart =",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "2 · Gespart =",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "3 · Gespart =",
+              "antwort": ""
+            },
+            {
+              "label": "4",
+              "frage": "4 · Gespart =",
+              "antwort": ""
+            },
+            {
+              "label": "5",
+              "frage": "Summe:",
+              "antwort": "5"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Rechenkette hilft — Einkauf auf dem Schulfest",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "gelb",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Auf dem Schulfest kauft Tom:\n- 1 Bratwurst: 2 Euro\n- 1 Waffel: 1 Euro\n- 1 Getränk: 2 Euro\n\nEr hat 10 Euro dabei.\n\nLöse die Aufgabe mit einer Rechenkette:\n10 → -2 → ___ → -1 → ___ → -2 → ___\n\nWie viel Geld hat Tom noch übrig?",
+    "loesung": "5",
+    "loesungsweg": "Rechenkette:\n10 → -2 → 8 → -1 → 7 → -2 → 5\n\nTom hat noch 5 Euro übrig.\n\nOder: 2 + 1 + 2 = 5 Euro ausgegeben. 10 - 5 = 5 Euro übrig.",
+    "tipps": [
+      "Starte mit 10 Euro. Ziehe Schritt für Schritt jeden Einkauf ab. Was bleibt am Ende übrig?",
+      "Folge der Rechenkette: Erst 10 - 2 rechnen, dann vom Ergebnis 1 abziehen, dann nochmal 2 abziehen.",
+      "10 - 2 = ___. Dann: ___ - 1 = ___. Dann: ___ - 2 = ___. Das ist Toms Restgeld.",
+      "Rechenkette:\n10 → -2 → 8 → -1 → 7 → -2 → 5\n\nTom hat noch 5 Euro übrig.\n\nOder: 2 + 1 + 2 = 5 Euro ausgegeben. 10 - 5 = 5 Euro übrig."
+    ],
+    "didaktischerHinweis": "Die Rechenkette strukturiert eine mehrstufige Subtraktion. Kinder sehen den Geldbetrag Schritt für Schritt schrumpfen — das macht den Prozess greifbar.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Auf dem Schulfest kauft Tom:",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "1 Bratwurst: 2 Euro",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "1 Waffel: 1 Euro",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "1 Getränk: 2 Euro",
+              "antwort": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Skizze hilft — Laternen auf dem Schulweg",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 114,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Auf dem Schulweg stehen Laternen. Der Weg ist 480 m lang. Die Laternen stehen alle 60 m. Die erste Laterne steht am Anfang, die letzte am Ende des Weges.\n\na) Wie viele Laternen stehen auf dem Schulweg?\nb) Lisa geht von zu Hause los. Nach 5 Laternen trifft sie ihre Freundin. Wie weit ist Lisa schon gegangen?",
+    "loesung": "a) 9\nb) 240",
+    "loesungsweg": "a) Skizze zeichnen: Strich von 0 m bis 480 m, alle 60 m eine Markierung.\n480 : 60 = 8 Abstände → 8 + 1 = 9 Laternen.\n\nb) Lisa startet bei Laterne 1 (0 m). Nach 5 Laternen ist sie bei Laterne 5.\nVon Laterne 1 bis Laterne 5 sind es 4 Abstände: 4 · 60 = 240 m.",
+    "tipps": [
+      "Zeichne den Schulweg als Strich. Setze alle 60 m einen Punkt für eine Laterne. Wie viele Punkte brauchst du?",
+      "Teile 480 durch 60 — das gibt die Anzahl der Abstände. Die Anzahl der Laternen ist eins mehr! Für b): Von Laterne 1 bis Laterne 5 sind es 4 Abstände.",
+      "a) 480 : 60 = ___ Abstände. Laternen: ___ + 1 = ___.\nb) 5 Laternen = 4 Abstände. 4 · 60 = ___ m.",
+      "a) Skizze zeichnen: Strich von 0 m bis 480 m, alle 60 m eine Markierung.\n480 : 60 = 8 Abstände → 8 + 1 = 9 Laternen.\n\nb) Lisa startet bei Laterne 1 (0 m). Nach 5 Laternen ist sie bei Laterne 5.\nVon Laterne 1 bis Laterne 5 sind es 4 Abstände: 4 · 60 = 240 m."
+    ],
+    "didaktischerHinweis": "Erweiterung des Zaunpfahl-Prinzips mit einer Zusatzfrage. Die Skizze ist unverzichtbar, um den Unterschied zwischen \"5 Laternen gesehen\" und \"5 Abstände gelaufen\" zu verstehen.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Auf dem Schulweg stehen Laternen. Der Weg ist 480 m lang. Die Laternen stehen alle 60 m. Die erste Laterne steht am Anfang, die letzte am Ende des Weges.",
+      "kontext": "Auf dem Schulweg stehen Laternen. Der Weg ist 480 m lang. Die Laternen stehen alle 60 m. Die erste Laterne steht am Anfang, die letzte am Ende des Weges.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Laternen stehen auf dem Schulweg?",
+          "antwort": "9"
+        },
+        {
+          "label": "b",
+          "frage": "Lisa geht von zu Hause los. Nach 5 Laternen trifft sie ihre Freundin. Wie weit ist Lisa schon gegangen?",
+          "antwort": "240"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Tabelle hilft — Getränkestand auf dem Schulfest",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Die Klasse 4a verkauft auf dem Schulfest selbstgemachte Limonade. Ein Becher kostet 2 Euro. Am Anfang haben sie 50 Becher vorbereitet.\n\nFülle die Tabelle aus:\n\n| Uhrzeit | Verkaufte Becher | Übrig | Einnahmen |\n|---------|-----------------|-------|-----------|\n| 14:00 | 0 | 50 | 0 Euro |\n| 14:30 | 8 | ___ | ___ Euro |\n| 15:00 | 15 | ___ | ___ Euro |\n| 15:30 | 27 | ___ | ___ Euro |\n| 16:00 | 42 | ___ | ___ Euro |\n\nReichen die 50 Becher bis 16:30 Uhr, wenn es so weitergeht?",
+    "loesung": "Die 50 Becher reichen wahrscheinlich nicht bis 16:30 Uhr.\n\n| Uhrzeit | Verkaufte Becher | Übrig | Einnahmen |\n|---------|-----------------|-------|-----------|\n| 14:00 | 0 | 50 | 0 Euro |\n| 14:30 | 8 | 42 | 16 Euro |\n| 15:00 | 15 | 35 | 30 Euro |\n| 15:30 | 27 | 23 | 54 Euro |\n| 16:00 | 42 | 8 | 84 Euro |\n\nUm 16:00 sind nur noch 8 Becher übrig. Pro halbe Stunde werden etwa 15 Becher verkauft — das reicht nicht.",
+    "loesungsweg": "- Übrig = 50 - Verkaufte Becher\n- Einnahmen = Verkaufte Becher · 2 Euro\n- Um 14:30: 50 - 8 = 42 übrig, 8 · 2 = 16 Euro\n- Um 15:00: 50 - 15 = 35 übrig, 15 · 2 = 30 Euro\n- Um 15:30: 50 - 27 = 23 übrig, 27 · 2 = 54 Euro\n- Um 16:00: 50 - 42 = 8 übrig, 42 · 2 = 84 Euro\n- Trend: Pro 30 Minuten werden ca. 15 Becher verkauft, aber nur 8 sind übrig.",
+    "tipps": [
+      "Schau dir die Tabelle an. Wie berechnest du die Spalte \"Übrig\"? Wie die Spalte \"Einnahmen\"? Fülle Zeile für Zeile aus.",
+      "Übrig = Startmenge minus Verkaufte Becher. Einnahmen = Verkaufte Becher mal 2 Euro. Für die Vorhersage: Wie viele Becher werden pro halbe Stunde ungefähr verkauft?",
+      "Um 14:30: Übrig = 50 - 8 = ___. Einnahmen = 8 · 2 = ___ Euro. Um 15:00: Übrig = 50 - 15 = ___. Einnahmen = 15 · 2 = ___. Mach weiter bis 16:00.",
+      "- Übrig = 50 - Verkaufte Becher\n- Einnahmen = Verkaufte Becher · 2 Euro\n- Um 14:30: 50 - 8 = 42 übrig, 8 · 2 = 16 Euro\n- Um 15:00: 50 - 15 = 35 übrig, 15 · 2 = 30 Euro\n- Um 15:30: 50 - 27 = 23 übrig, 27 · 2 = 54 Euro\n- Um 16:00: 50 - 42 = 8 übrig, 42 · 2 = 84 Euro\n- Trend: Pro 30 Minuten werden ca. 15 Becher verkauft, aber nur 8 sind übrig."
+    ],
+    "didaktischerHinweis": "Die Tabelle als Werkzeug zum Organisieren von Daten und Erkennen von Trends. Verbindet Subtraktion, Multiplikation und Vorhersage.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Die Klasse 4a verkauft auf dem Schulfest selbstgemachte Limonade. Ein Becher kostet 2 Euro. Am Anfang haben sie 50 Becher vorbereitet.\n\nFülle die Tabelle aus:\n\n\nReichen die 50 Becher bis 16:30 Uhr, wenn es so weitergeht?",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "14:00 · Verkaufte Becher =",
+              "antwort": "0"
+            },
+            {
+              "label": "2",
+              "frage": "14:00 · Übrig =",
+              "antwort": "50"
+            },
+            {
+              "label": "3",
+              "frage": "14:00 · Einnahmen =",
+              "antwort": "0 Euro"
+            },
+            {
+              "label": "4",
+              "frage": "14:30 · Verkaufte Becher =",
+              "antwort": "8"
+            },
+            {
+              "label": "5",
+              "frage": "14:30 · Übrig =",
+              "antwort": "42"
+            },
+            {
+              "label": "6",
+              "frage": "14:30 · Einnahmen =",
+              "antwort": "16 Euro"
+            },
+            {
+              "label": "7",
+              "frage": "15:00 · Verkaufte Becher =",
+              "antwort": "15"
+            },
+            {
+              "label": "8",
+              "frage": "15:00 · Übrig =",
+              "antwort": "35"
+            },
+            {
+              "label": "9",
+              "frage": "15:00 · Einnahmen =",
+              "antwort": "30 Euro"
+            },
+            {
+              "label": "10",
+              "frage": "15:30 · Verkaufte Becher =",
+              "antwort": "27"
+            },
+            {
+              "label": "11",
+              "frage": "15:30 · Übrig =",
+              "antwort": "23"
+            },
+            {
+              "label": "12",
+              "frage": "15:30 · Einnahmen =",
+              "antwort": "54 Euro"
+            },
+            {
+              "label": "13",
+              "frage": "Summe:",
+              "antwort": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Rechenkette hilft — Wandertag mit mehreren Stationen",
+    "typ": "schritt",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "grün",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:\n\n- Schule → Waldrand: 800 m\n- Waldrand → Aussichtspunkt: 1.200 m\n- Aussichtspunkt → Spielplatz: 650 m\n- Spielplatz → See: 950 m\n- See → Schule: 1.400 m\n\nBerechne die Gesamtstrecke mit einer Rechenkette:\n0 → +800 → ___ → +1.200 → ___ → +650 → ___ → +950 → ___ → +1.400 → ___\n\nWie viele Kilometer ist die Wanderung insgesamt lang?",
+    "loesung": "5",
+    "loesungsweg": "Rechenkette:\n0 → +800 → 800 → +1.200 → 2.000 → +650 → 2.650 → +950 → 3.600 → +1.400 → 5.000\n\n5.000 m = 5 km. Die Wanderung ist 5 km lang.",
+    "tipps": [
+      "Starte bei 0 und addiere jeden Abschnitt dazu. Was kommt nach 800 + 1.200?",
+      "Folge der Rechenkette Schritt für Schritt. Addiere immer den nächsten Abschnitt zum bisherigen Ergebnis. Am Ende steht die Gesamtstrecke in Metern. Wandle in km um (: 1.000).",
+      "0 + 800 = 800. 800 + 1.200 = ___. ___ + 650 = ___. ___ + 950 = ___. ___ + 1.400 = ___. Das sind ___ m = ___ km.",
+      "Rechenkette:\n0 → +800 → 800 → +1.200 → 2.000 → +650 → 2.650 → +950 → 3.600 → +1.400 → 5.000\n\n5.000 m = 5 km. Die Wanderung ist 5 km lang."
+    ],
+    "didaktischerHinweis": "Die Rechenkette strukturiert die schrittweise Addition und macht die Zwischenergebnisse sichtbar. Zusätzlich wird m-in-km-Umrechnung geübt.",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Die Klasse 4a macht einen Wandertag. Ihre Wanderung hat 5 Abschnitte:",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Schule → Waldrand: 800 m",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "Waldrand → Aussichtspunkt: 1.200 m",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "Aussichtspunkt → Spielplatz: 650 m",
+              "antwort": ""
+            },
+            {
+              "label": "4",
+              "frage": "Spielplatz → See: 950 m",
+              "antwort": ""
+            },
+            {
+              "label": "5",
+              "frage": "See → Schule: 1.400 m",
+              "antwort": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Verschiedene Lösungswege — Klassenausflug planen",
+    "typ": "auswahl",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "orange",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Die 4a plant einen Ausflug ins Museum.\n\nInformationen:\n- 24 Kinder + 3 Erwachsene\n- Eintritt Kind: 4 Euro, Erwachsene: 8 Euro\n- Gruppenrabatt ab 20 Personen: 3 Euro pro Person (alle zahlen gleich)\n\nFrage: Ist der Gruppenrabatt günstiger als Einzeltickets?\n\nWelche Lösungshilfe passt am besten?\na) Skizze zeichnen\nb) Tabelle anlegen\nc) Rechenkette aufschreiben\n\nLöse die Aufgabe dann mit der passenden Hilfe.",
+    "loesung": "b) Tabelle anlegen\n\nEinzeltickets: 24 · 4 + 3 · 8 = 96 + 24 = 120 Euro\nGruppenrabatt: 27 · 3 = 81 Euro\nDer Gruppenrabatt spart 39 Euro.",
+    "loesungsweg": "Eine Tabelle hilft hier am besten, um die Varianten zu vergleichen:\n\n| Variante | Kinder | Erwachsene | Gesamt |\n|----------|--------|------------|--------|\n| Einzeltickets | 24 · 4 = 96 Euro | 3 · 8 = 24 Euro | 120 Euro |\n| Gruppenrabatt | 27 · 3 = 81 Euro (alle gleich) | — | 81 Euro |\n\nErsparnis: 120 - 81 = 39 Euro.",
+    "tipps": [
+      "Es gibt hier zwei Varianten zum Vergleichen. Welche Lösungshilfe eignet sich, wenn du Sachen nebeneinanderstellen willst?",
+      "Erstelle eine Tabelle mit einer Zeile pro Variante. Rechne jede Variante einzeln aus und vergleiche die Ergebnisse.",
+      "Einzeltickets: 24 · 4 = ___ + 3 · 8 = ___ = ___ Euro gesamt. Gruppe: (24 + 3) · 3 = ___ · 3 = ___ Euro. Was ist weniger?",
+      "Eine Tabelle hilft hier am besten, um die Varianten zu vergleichen:\n\n| Variante | Kinder | Erwachsene | Gesamt |\n|----------|--------|------------|--------|\n| Einzeltickets | 24 · 4 = 96 Euro | 3 · 8 = 24 Euro | 120 Euro |\n| Gruppenrabatt | 27 · 3 = 81 Euro (alle gleich) | — | 81 Euro |\n\nErsparnis: 120 - 81 = 39 Euro."
+    ],
+    "didaktischerHinweis": "Meta-Aufgabe: Das Kind wählt zuerst die Lösungsstrategie und wendet sie dann an. Fördert bewusstes Nachdenken über den Lösungsweg.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Die 4a plant einen Ausflug ins Museum.\n\nInformationen:\n- 24 Kinder + 3 Erwachsene\n- Eintritt Kind: 4 Euro, Erwachsene: 8 Euro\n- Gruppenrabatt ab 20 Personen: 3 Euro pro Person (alle zahlen gleich)\n\nFrage: Ist der Gruppenrabatt günstiger als Einzeltickets?\n\nWelche Lösungshilfe passt am besten?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Skizze zeichnen"
+        },
+        {
+          "label": "B",
+          "text": "Tabelle anlegen"
+        },
+        {
+          "label": "C",
+          "text": "Rechenkette aufschreiben"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Skizze oder Rechenkette? — Gartenzaun streichen",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfen anwenden",
+    "schwierigkeit": "orange",
+    "buchseite": 115,
+    "kapitel": "11-sachrechnen",
+    "stageId": "sachaufgaben",
+    "digital": "voll",
+    "aufgabenstellung": "Toms Familie streicht den Gartenzaun. Der Zaun hat 4 Seiten:\n- Vorderseite: 12 m\n- Rückseite: 12 m\n- Linke Seite: 8 m\n- Rechte Seite: 8 m\n\nAn der Vorderseite gibt es ein Tor von 3 m Breite, das nicht gestrichen werden muss.\n\na) Wie viele Meter Zaun müssen gestrichen werden?\nb) Ein Eimer Farbe reicht für 10 m Zaun. Wie viele Eimer brauchen sie?",
+    "loesung": "a) 37\nb) 4",
+    "loesungsweg": "Skizze: Zeichne ein Rechteck (12 m × 8 m) und markiere das Tor (3 m) an der Vorderseite.\n\na) Gesamter Zaun: 12 + 12 + 8 + 8 = 40 m\n   Minus Tor: 40 - 3 = 37 m\n\nb) 37 : 10 = 3 Rest 7. Für die restlichen 7 m braucht man noch einen Eimer.\n   Also 4 Eimer (aufrunden!).",
+    "tipps": [
+      "Zeichne den Garten von oben als Rechteck. Schreibe die Längen an die Seiten. Wo ist das Tor? Wie lang ist der Zaun ohne das Tor?",
+      "Berechne zuerst den gesamten Umfang: Alle 4 Seiten addieren. Dann das Tor abziehen. Für die Eimer: Teile durch 10 und runde auf!",
+      "Umfang: 12 + 12 + 8 + 8 = ___. Minus Tor: ___ - 3 = ___ m. Eimer: ___ : 10 = ___ Rest ___. Also ___ Eimer (man kann keinen halben kaufen!).",
+      "Skizze: Zeichne ein Rechteck (12 m × 8 m) und markiere das Tor (3 m) an der Vorderseite.\n\na) Gesamter Zaun: 12 + 12 + 8 + 8 = 40 m\n   Minus Tor: 40 - 3 = 37 m\n\nb) 37 : 10 = 3 Rest 7. Für die restlichen 7 m braucht man noch einen Eimer.\n   Also 4 Eimer (aufrunden!)."
+    ],
+    "didaktischerHinweis": "Kombination aus Skizze (Rechteck mit Tor) und Rechenkette (Umfang, Subtraktion, Division mit Aufrunden). Das Aufrunden bei Rest ist eine wichtige Alltagskompetenz.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Toms Familie streicht den Gartenzaun. Der Zaun hat 4 Seiten:\n- Vorderseite: 12 m\n- Rückseite: 12 m\n- Linke Seite: 8 m\n- Rechte Seite: 8 m\n\nAn der Vorderseite gibt es ein Tor von 3 m Breite, das nicht gestrichen werden muss.",
+      "kontext": "Toms Familie streicht den Gartenzaun. Der Zaun hat 4 Seiten:\n- Vorderseite: 12 m\n- Rückseite: 12 m\n- Linke Seite: 8 m\n- Rechte Seite: 8 m\n\nAn der Vorderseite gibt es ein Tor von 3 m Breite, das nicht gestrichen werden muss.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Meter Zaun müssen gestrichen werden?",
+          "antwort": "37"
+        },
+        {
+          "label": "b",
+          "frage": "Ein Eimer Farbe reicht für 10 m Zaun. Wie viele Eimer brauchen sie?",
+          "antwort": "4"
+        }
+      ]
+    }
+  }
+]

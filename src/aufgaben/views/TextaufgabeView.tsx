@@ -1,23 +1,26 @@
 import { useState, useRef, useEffect } from 'react';
 import type { AufgabeViewProps } from './AufgabeWrapper';
+import type { TextaufgabeDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
+import { MarkdownText } from './MarkdownText';
+import { normalizeZahl } from '../parserHelpers';
 
 /**
  * Textaufgabe-View: Kontext-Text oben, Frage(n) unten mit Eingabefeldern.
- * Ähnlich wie Eingabe, aber mit prominentem Textblock.
+ * Liest aufgabe.parsed (TextaufgabeDaten) — kein eigenes Parsing.
  */
 export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
-  const items = parseTextaufgabe(aufgabe.aufgabenstellung, aufgabe.loesung);
+  const daten = aufgabe.parsed as TextaufgabeDaten;
   const [currentIdx, setCurrentIdx] = useState(0);
   const [input, setInput] = useState('');
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const current = items[currentIdx];
-  const isLast = currentIdx >= items.length - 1;
+  const current = daten.items[currentIdx];
+  const isLast = currentIdx >= daten.items.length - 1;
 
   useEffect(() => {
     setCurrentIdx(0);
@@ -30,8 +33,8 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
   }, [currentIdx]);
 
   function check() {
-    const normalized = input.replace(/\./g, '').replace(',', '.').trim().toLowerCase();
-    const expected = current.antwort.replace(/\./g, '').replace(',', '.').trim().toLowerCase();
+    const normalized = normalizeZahl(input).toLowerCase();
+    const expected = normalizeZahl(current.antwort).toLowerCase();
 
     // Check if the answer contains the expected value
     if (normalized === expected || expected.includes(normalized) || normalized.includes(expected)) {
@@ -54,15 +57,17 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
   return (
     <div className="space-y-3">
       {/* Kontext-Text */}
-      <Card className="bg-primary-light/50 border-primary/10">
-        <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1">Sachaufgabe</p>
-        <p className="text-sm text-body whitespace-pre-line leading-relaxed">{current.kontext}</p>
-      </Card>
+      {daten.kontext && (
+        <Card className="bg-primary-light/50 border-primary/10">
+          <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1">Sachaufgabe</p>
+          <MarkdownText text={daten.kontext} />
+        </Card>
+      )}
 
       {/* Frage */}
       {current.frage && (
         <Card>
-          <p className="text-sm font-semibold text-heading">{current.frage}</p>
+          <MarkdownText text={current.frage} className="text-sm font-semibold text-heading leading-relaxed" />
         </Card>
       )}
 
@@ -79,9 +84,9 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
         />
       </Card>
 
-      {items.length > 1 && (
+      {daten.items.length > 1 && (
         <p className="text-xs text-muted text-center">
-          Frage {currentIdx + 1} von {items.length}
+          Frage {currentIdx + 1} von {daten.items.length}
         </p>
       )}
 
@@ -101,21 +106,4 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
       </div>
     </div>
   );
-}
-
-function parseTextaufgabe(aufgabenstellung: string, loesung: string) {
-  // Split at a)/b)/c) boundaries
-  const parts = aufgabenstellung.split(/^[a-z]\)\s*/m);
-  const loesungParts = loesung.split(/^[a-z]\)\s*/m);
-
-  if (parts.length > 1) {
-    const kontext = parts[0].trim();
-    return parts.slice(1).map((f, i) => ({
-      kontext,
-      frage: `${String.fromCharCode(97 + i)}) ${f.trim()}`,
-      antwort: loesungParts[i + 1]?.trim().split('\n')[0] || loesungParts[0]?.trim().split('\n')[0] || '',
-    }));
-  }
-
-  return [{ kontext: aufgabenstellung, frage: '', antwort: loesung.split('\n')[0].trim() }];
 }

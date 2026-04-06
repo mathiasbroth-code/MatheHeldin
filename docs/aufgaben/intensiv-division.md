@@ -1,5 +1,5 @@
-# Intensiv-Übungen: Division
-> ⚡ Extra-Aufgaben zum Pauken — aufbauend von leicht bis schwer
+# Zusätzliche Übungen: Division
+> ⚡ Extra-Aufgaben zum Pauken — nicht aus dem Fredo-Buch, sondern ergänzendes Übungsmaterial
 
 Ergänzt: [08-division.md](08-division.md) | Format: [FORMAT.md](FORMAT.md)
 
@@ -18,6 +18,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -60,6 +61,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -108,6 +110,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -159,6 +162,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -204,6 +208,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -248,6 +253,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -289,6 +295,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -332,6 +339,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -377,6 +385,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -388,7 +397,7 @@ c) Wie viele Eier bräuchte sie, damit kein Ei übrig bleibt?
 
 ### Lösung
 a) 8 volle Kartons
-b) 2 Eier bleiben übrig
+b) 2
 c) Sie bräuchte 48 Eier (oder 54 Eier)
 
 ### Lösungsweg
@@ -421,6 +430,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -468,6 +478,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -512,6 +523,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -553,6 +565,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -597,6 +610,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -641,6 +655,7 @@ buchseite: 78
 kapitel: "08-division-intensiv"
 stage_id: "vielfache"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s78-merkkasten-vielfache.webp"
 ---
 
 ### Aufgabenstellung
@@ -690,6 +705,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -735,6 +751,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -786,6 +803,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -828,6 +846,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -871,6 +890,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -915,6 +935,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -958,6 +979,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1009,6 +1031,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1055,6 +1078,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1096,6 +1120,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1149,6 +1174,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1194,6 +1220,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1235,6 +1262,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1285,6 +1313,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1333,6 +1362,7 @@ buchseite: 79
 kapitel: "08-division-intensiv"
 stage_id: "teiler"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s79-merkkasten-teiler.webp"
 ---
 
 ### Aufgabenstellung
@@ -1378,6 +1408,8 @@ buchseite: 80
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1422,6 +1454,8 @@ buchseite: 80
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1459,13 +1493,15 @@ Hier ist die Zerlegung nicht mehr so offensichtlich (76 = 40 + 36, nicht 70 + 6)
 
 ---
 titel: "Halbschriftlich — Lücke im Zerlegungsweg"
-typ: luecke
+typ: lücke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: gelb
 buchseite: 80
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1514,6 +1550,8 @@ buchseite: 81
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1558,6 +1596,8 @@ buchseite: 80
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1595,13 +1635,15 @@ Zeigt explizit, dass es mehrere korrekte Rechenwege gibt. Fördert Flexibilität
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Umkehren"
-typ: luecke
+typ: lücke
 thema: "Halbschriftliches Dividieren"
 schwierigkeit: grün
 buchseite: 80
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1647,6 +1689,8 @@ buchseite: 81
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1691,6 +1735,8 @@ buchseite: 81
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s80-halbschriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -1735,6 +1781,7 @@ buchseite: 82
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1781,6 +1828,7 @@ buchseite: 82
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1825,6 +1873,7 @@ buchseite: 83
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1869,6 +1918,7 @@ buchseite: 81
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1913,6 +1963,7 @@ buchseite: 83
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1960,6 +2011,7 @@ buchseite: 83
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -1999,13 +2051,14 @@ Muster erkennen: "Faktor 10 beim Dividenden → Faktor 10 beim Quotienten". Vert
 
 ---
 titel: "Durch welche Zahl wird geteilt? — Große Zahlen"
-typ: luecke
+typ: lücke
 thema: "Halbschriftliches Dividieren vertiefen"
 schwierigkeit: orange
 buchseite: 83
 kapitel: "08-division-intensiv"
 stage_id: "halbschriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
 ---
 
 ### Aufgabenstellung
@@ -2053,6 +2106,8 @@ buchseite: 86
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2108,6 +2163,8 @@ buchseite: 86
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2166,6 +2223,8 @@ buchseite: 86
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2216,6 +2275,8 @@ buchseite: 86
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2274,6 +2335,8 @@ buchseite: 87
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2315,13 +2378,15 @@ Explizite Übung zum Erkennen und Notieren der Null. Zwei verschiedene Situation
 
 ---
 titel: "Fehlende Ziffern finden — Lückendivision"
-typ: luecke
+typ: lücke
 thema: "Schriftliches Dividieren"
 schwierigkeit: grün
 buchseite: 87
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-1"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s86-schriftlich-dividieren-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -2364,6 +2429,8 @@ buchseite: 88
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2412,6 +2479,8 @@ buchseite: 88
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2457,6 +2526,8 @@ buchseite: 89
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2514,6 +2585,8 @@ buchseite: 89
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2564,6 +2637,8 @@ buchseite: 89
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2608,6 +2683,8 @@ buchseite: 88
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2651,6 +2728,8 @@ buchseite: 88
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2707,6 +2786,8 @@ buchseite: 89
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung
@@ -2757,6 +2838,8 @@ buchseite: 89
 kapitel: "08-division-intensiv"
 stage_id: "schriftlich-dividieren-2"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s84-merkkasten-dividend-divisor-quotient.webp"
+tipp_2_bild: "assets/erklaerungen/s88-schriftlich-dividieren-rest.webp"
 ---
 
 ### Aufgabenstellung

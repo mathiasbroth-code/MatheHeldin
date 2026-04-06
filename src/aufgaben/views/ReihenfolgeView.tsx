@@ -1,24 +1,37 @@
 import { useState, useEffect } from 'react';
 import type { AufgabeViewProps } from './AufgabeWrapper';
+import type { ReihenfolgeDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
+import { MarkdownText } from './MarkdownText';
 
 /**
  * Reihenfolge-View: Items durch Antippen in die richtige Reihenfolge bringen.
- * Touch-friendly: tap to select next item.
+ * Liest aufgabe.parsed (ReihenfolgeDaten) — kein eigenes Parsing.
  */
 export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
-  const { items, richtigeReihenfolge, anweisung } = parseReihenfolge(aufgabe.aufgabenstellung, aufgabe.loesung);
+  const daten = aufgabe.parsed as ReihenfolgeDaten;
+  const [currentSubIdx, setCurrentSubIdx] = useState(0);
   const [placed, setPlaced] = useState<string[]>([]);
   const [remaining, setRemaining] = useState<string[]>([]);
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
 
+  const currentTask = daten.teilaufgaben[currentSubIdx];
+  const isLastSub = currentSubIdx >= daten.teilaufgaben.length - 1;
+
   useEffect(() => {
+    setCurrentSubIdx(0);
     setPlaced([]);
-    setRemaining(shuffle(items));
+    setRemaining(shuffle(daten.teilaufgaben[0].items));
     setStatus('idle');
   }, [aufgabe.titel]);
+
+  useEffect(() => {
+    setPlaced([]);
+    setRemaining(shuffle(currentTask.items));
+    setStatus('idle');
+  }, [currentSubIdx]);
 
   function handleTap(item: string) {
     if (status !== 'idle') return;
@@ -28,24 +41,30 @@ export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
     setRemaining((prev) => prev.filter((r) => r !== item));
 
     // Check when all placed
-    if (newPlaced.length === items.length) {
-      const isCorrect = newPlaced.every((p, i) => p === richtigeReihenfolge[i]);
+    if (newPlaced.length === currentTask.items.length) {
+      const isCorrect = newPlaced.every((p, i) => p === currentTask.richtigeReihenfolge[i]);
       setStatus(isCorrect ? 'richtig' : 'falsch');
-      if (isCorrect) onRichtig();
-      else onFalsch();
+      if (isCorrect && isLastSub) onRichtig();
+      else if (!isCorrect) onFalsch();
     }
   }
 
   function reset() {
     setPlaced([]);
-    setRemaining(shuffle(items));
+    setRemaining(shuffle(currentTask.items));
     setStatus('idle');
+  }
+
+  function nextSub() {
+    if (!isLastSub) {
+      setCurrentSubIdx((i) => i + 1);
+    }
   }
 
   return (
     <div className="space-y-3">
       <Card>
-        <p className="text-sm text-body whitespace-pre-line">{anweisung}</p>
+        <MarkdownText text={daten.anweisung} />
       </Card>
 
       {/* Platzierte Items */}
@@ -77,8 +96,14 @@ export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
         </div>
       )}
 
+      {daten.teilaufgaben.length > 1 && (
+        <p className="text-xs text-muted text-center">
+          Teilaufgabe {currentSubIdx + 1} von {daten.teilaufgaben.length}
+        </p>
+      )}
+
       <FeedbackBanner typ={status === 'idle' ? null : status} hinweis={aufgabe.tipps[0]}>
-        {status === 'richtig' && <span className="text-xs">{richtigeReihenfolge.join(' → ')}</span>}
+        {status === 'richtig' && <span className="text-xs">{currentTask.richtigeReihenfolge.join(' → ')}</span>}
       </FeedbackBanner>
 
       {status === 'falsch' && (
@@ -86,23 +111,12 @@ export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
           Nochmal versuchen
         </Button>
       )}
+
+      {status === 'richtig' && !isLastSub && (
+        <Button className="w-full" onClick={nextSub}>Weiter →</Button>
+      )}
     </div>
   );
-}
-
-function parseReihenfolge(aufgabenstellung: string, loesung: string) {
-  // Extract items from loesung (usually separated by > or →)
-  const loesungClean = loesung.replace(/^[a-z]\)\s*/gm, '');
-  const separators = /[>→]/;
-  const richtigeReihenfolge = loesungClean.split(separators).map((s) => s.trim()).filter(Boolean);
-
-  // Items are the same but unordered
-  const items = [...richtigeReihenfolge];
-
-  // Anweisung is the main text
-  const anweisung = aufgabenstellung.split(/^[a-z]\)/m)[0].trim();
-
-  return { items, richtigeReihenfolge, anweisung };
 }
 
 function shuffle<T>(arr: T[]): T[] {

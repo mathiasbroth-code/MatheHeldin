@@ -1,5 +1,5 @@
 # Kapitel 2: Zahlen bis zur Million — Aufgabensammlung
-Buchseiten: 18-33 | Themen: 10 | Format: [FORMAT.md](FORMAT.md)
+Buchseiten: 18-33 | Themen: 11 | Format: [FORMAT.md](FORMAT.md)
 
 ---
 
@@ -14,8 +14,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 18
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -72,8 +74,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 18
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -116,8 +120,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -167,8 +173,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -214,8 +222,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -261,8 +271,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -305,8 +317,10 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: orange
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-wuerfel"
+stage_id: "millionen-würfel"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-stellenwerte.webp"
+tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 ---
 
 ### Aufgabenstellung
@@ -354,6 +368,7 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -397,6 +412,7 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -442,6 +458,7 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -490,6 +507,7 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -535,6 +553,7 @@ buchseite: 20
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-lesen-schreiben"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -580,8 +599,9 @@ thema: "Zahlen zerlegen"
 schwierigkeit: gelb
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-gross"
+stage_id: "zerlegen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -625,8 +645,9 @@ thema: "Zahlen zerlegen"
 schwierigkeit: grün
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-gross"
+stage_id: "zerlegen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -670,8 +691,9 @@ thema: "Zahlen zerlegen"
 schwierigkeit: orange
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-gross"
+stage_id: "zerlegen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -681,8 +703,8 @@ a) Die Zahl hat doppelt so viele ZT wie HT und doppelt so viele Z wie ZT. Sie ha
 b) Meine Zahl liegt zwischen 400.000 und 500.000. Sie hat doppelt so viele ZT wie H. Sie hat keine T, Z und E. Welche vier Zahlen können es sein?
 
 ### Lösung
-a) 120.020 und 240.040
-(Muster: HT=x, ZT=2x, Z=4x, Rest=0. Mit x=1: 120.020, mit x=2: 240.040)
+a) 120.040 und 240.080
+(Muster: HT=x, ZT=2x, Z=4x, Rest=0. Mit x=1: HT=1, ZT=2, Z=4 → 120.040. Mit x=2: HT=2, ZT=4, Z=8 → 240.080.)
 
 b) 410.100, 420.200, 430.300, 440.400
 (Muster: HT=4, ZT=y, H=y/2. y muss gerade sein: y=1→H=0.5✗, y=2→420.200✓ usw.
@@ -715,8 +737,9 @@ thema: "Zahlen zerlegen"
 schwierigkeit: grün
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-gross"
+stage_id: "zerlegen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -762,6 +785,7 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -808,6 +832,7 @@ buchseite: 22
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -859,17 +884,20 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
-Lege die Zahl 427.000 mit Plättchen in eine Stellenwerttafel. Nimm immer von 427.000 ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+Lege die Zahl 427.000 mit Plättchen in eine Stellenwerttafel. Nimm immer von 427.000 ein Plättchen weg. Welche Zahlen können entstehen?
+
+a) Plättchen bei HT wegnehmen: 427.000 − 100.000 =
+b) Plättchen bei ZT wegnehmen: 427.000 − 10.000 =
+c) Plättchen bei T wegnehmen: 427.000 − 1.000 =
 
 ### Lösung
-- 427.000 − 100.000 = 327.000 (ein HT-Plättchen weg)
-- 427.000 − 10.000 = 417.000 (ein ZT-Plättchen weg)
-- 427.000 − 1.000 = 426.000 (ein T-Plättchen weg)
-
-Es gibt 3 Möglichkeiten, denn nur an den Stellen mit Plättchen (HT=4, ZT=2, T=7) kann eines weggenommen werden.
+a) 327.000
+b) 417.000
+c) 426.000
 
 ### Lösungsweg
 In der Stellenwerttafel liegen Plättchen bei HT (4 Stück), ZT (2 Stück) und T (7 Stück). An jeder besetzten Stelle kann ein Plättchen entfernt werden:
@@ -902,20 +930,26 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
-Lege die Zahl 315.420 mit Plättchen in eine Stellenwerttafel. Lege immer zu 315.420 ein Plättchen dazu. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+Lege die Zahl 315.420 mit Plättchen in eine Stellenwerttafel. Lege immer zu 315.420 ein Plättchen dazu. Welche Zahlen können entstehen?
+
+a) Plättchen bei HT: 315.420 + 100.000 =
+b) Plättchen bei ZT: 315.420 + 10.000 =
+c) Plättchen bei T: 315.420 + 1.000 =
+d) Plättchen bei H: 315.420 + 100 =
+e) Plättchen bei Z: 315.420 + 10 =
+f) Plättchen bei E: 315.420 + 1 =
 
 ### Lösung
-- 315.420 + 100.000 = 415.420 (ein HT-Plättchen dazu)
-- 315.420 + 10.000 = 325.420 (ein ZT-Plättchen dazu)
-- 315.420 + 1.000 = 316.420 (ein T-Plättchen dazu)
-- 315.420 + 100 = 315.520 (ein H-Plättchen dazu)
-- 315.420 + 10 = 315.430 (ein Z-Plättchen dazu)
-- 315.420 + 1 = 315.421 (ein E-Plättchen dazu)
-
-Es gibt 6 Möglichkeiten, denn an jeder der 6 Stellen kann ein Plättchen dazugelegt werden.
+a) 415.420
+b) 325.420
+c) 316.420
+d) 315.520
+e) 315.430
+f) 315.421
 
 ### Lösungsweg
 An jeder Stelle der Stellenwerttafel kann ein Plättchen dazugelegt werden (auch an Stellen mit 0):
@@ -951,27 +985,21 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
 Wie heißt die Zahl?
 
-a) Meine Zahl hat doppelt so viele H wie E und halb so viele Z wie E. Die Zahl hat 5 T, 3 ZT und 2 HT. Ich brauche 18 Plättchen, um die Zahl zu legen.
+a) Meine Zahl hat doppelt so viele H wie E und halb so viele Z wie E. Die Zahl hat 5 T, 3 ZT und 2 HT. Ich brauche 24 Plättchen, um die Zahl zu legen.
 b) Ich brauche 22 Plättchen, um meine Zahl zu legen. Sie hat 7 E, 4 Z, doppelt so viele HT wie T und dreimal so viele ZT wie T.
 
 ### Lösung
-a) 235.482 (E=2, H=4, Z=1, T=5, ZT=3, HT=2 → Summe: 2+3+5+4+1+2 = 17... Korrektur:)
-   E=4, H=8, Z=2, T=5, ZT=3, HT=2 → 235.824, Plättchen: 2+3+5+8+2+4 = 24... 
-   E=2, H=4, Z=1, T=5, ZT=3, HT=2 → 235.412, Plättchen: 2+3+5+4+1+2 = 17...
-   Korrektur: E=3, H=6, Z=1 (nicht ganzzahlig)... E=4, H=8, Z=2: Plättchen = 2+3+5+8+2+4=24. 
-   Neujustierung: E=2, H=4, Z=1: 2+3+5+4+1+2=17. 
-   **Lösung: 235.412** (17 Plättchen, Bedingung angepasst zu 17 Plättchen — oder E=4, H=8, Z=2, 24 Plättchen)
-   
-   Korrigierte Aufgabe mit 24 Plättchen: E=4, H=8, Z=2. Die Zahl ist **235.824**.
+a) Die Zahl ist 235.824.
+   (E=4, H=2×4=8, Z=4/2=2, T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24.)
 
-b) T=x, HT=2x, ZT=3x. Plättchen gesamt: 7 + 4 + x + 2x + 3x + H = 22, also 11 + 6x + H = 22. 
-   Wenn H=5, x=1: 213.547 → Plättchen: 2+1+3+5+4+7 = 22 ✓
-   Die Zahl ist **213.547**.
+b) Die Zahl ist 213.547.
+   (E=7, Z=4, T=1, HT=2×1=2, ZT=3×1=3, H=5. Plättchen: 2+1+3+5+4+7 = 22 ✓)
 
 ### Lösungsweg
 - a) Bedingungen: H = 2·E und Z = E/2. Teste E=4: H=8, Z=2. Plus T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24. Die Zahl: 235.824.
@@ -1002,6 +1030,7 @@ buchseite: 23
 kapitel: "02-zahlen-bis-million"
 stage_id: "zahlen-vergleichen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1050,8 +1079,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1103,8 +1133,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1167,8 +1198,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1215,8 +1247,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1255,13 +1288,14 @@ Die Paarung "runde Aufgabe / krumme Aufgabe" (600 vs. 660) hilft Kindern, die sc
 
 ---
 titel: "Plusaufgaben bilden — Ergebnis im Bereich"
-typ: eingabe
+typ: textaufgabe
 thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1305,8 +1339,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1351,8 +1386,9 @@ thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-gross"
+stage_id: "kopfrechnen-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
 ---
 
 ### Aufgabenstellung
@@ -1398,8 +1434,9 @@ thema: "Große Anzahlen schätzen"
 schwierigkeit: gelb
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1436,13 +1473,14 @@ Schätzen durch Hochrechnen einer Stichprobe ist eine zentrale Alltagskompetenz.
 
 ---
 titel: "Anzahl schätzen — Nudeln in der Packung"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Anzahlen schätzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1451,7 +1489,7 @@ Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung pas
 Wie viele Buchstabennudeln sind ungefähr in der Packung?
 
 ### Lösung
-Ungefähr 4.500 Buchstabennudeln.
+Ungefähr 4.500
 
 (Genau: 87 × 52 = 4.524, gerundet ≈ 4.500)
 
@@ -1477,13 +1515,14 @@ Die Kombination aus Zählen einer Stichprobe und Hochrechnen auf die Gesamtmenge
 
 ---
 titel: "Anzahl schätzen — Maiskörner in der Packung"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Anzahlen schätzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1492,7 +1531,7 @@ Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.
 Wie viele Reiskörner sind ungefähr in der Packung?
 
 ### Lösung
-Ungefähr 4.600 Reiskörner.
+Ungefähr 4.600
 
 (Genau: 500 : 10 = 50 Portionen. 50 × 92 = 4.600)
 
@@ -1524,8 +1563,9 @@ thema: "Große Anzahlen schätzen"
 schwierigkeit: gelb
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1574,8 +1614,9 @@ thema: "Große Anzahlen schätzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1614,13 +1655,14 @@ Die Aufgabe nutzt die Multiplikation als Flächenmodell (Reihen × Plätze pro R
 
 ---
 titel: "Schätzen — Wie viele passen auf die Fläche?"
-typ: eingabe
+typ: textaufgabe
 thema: "Große Anzahlen schätzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1629,7 +1671,7 @@ Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneina
 Wie viele Smarties passen ungefähr auf das Blatt?
 
 ### Lösung
-Ungefähr 300 Smarties.
+Ungefähr 300
 
 (15 × 20 = 300)
 
@@ -1660,8 +1702,9 @@ thema: "Große Anzahlen schätzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schaetzen"
+stage_id: "schätzen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s26-merkkasten-schaetzen.webp"
 ---
 
 ### Aufgabenstellung
@@ -1706,8 +1749,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1760,8 +1804,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1814,8 +1859,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1866,8 +1912,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 29
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1920,8 +1967,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: orange
 buchseite: 29
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -1970,8 +2018,9 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: orange
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-gross"
+stage_id: "zahlenstrahl-groß"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2029,6 +2078,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2084,6 +2134,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2133,6 +2184,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2195,6 +2247,7 @@ buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2239,13 +2292,14 @@ Diese Aufgabe ist die direkte Vorbereitung auf das Runden: Beim Runden auf Tause
 
 ---
 titel: "Nachbar-Tabelle ausfüllen"
-typ: eingabe
+typ: schritt
 thema: "Nachbarzahlen"
 schwierigkeit: orange
 buchseite: 30
 kapitel: "02-zahlen-bis-million"
 stage_id: "nachbarzahlen"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2294,6 +2348,7 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2351,6 +2406,7 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2405,6 +2461,7 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2459,6 +2516,7 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2513,6 +2571,7 @@ buchseite: 31
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2566,6 +2625,7 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2617,6 +2677,7 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2673,6 +2734,7 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2721,6 +2783,7 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2775,6 +2838,7 @@ buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2826,6 +2890,7 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2883,6 +2948,7 @@ buchseite: 33
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: voll
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2925,13 +2991,14 @@ Offene Aufgaben zum Runden fördern das Verständnis des Rundungsintervalls. Bes
 
 ---
 titel: "Diagramm mit gerundeten Zahlen erstellen"
-typ: eingabe
+typ: schritt
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: gelb
 buchseite: 32
 kapitel: "02-zahlen-bis-million"
 stage_id: "runden-zahlenstrahl"
 digital: teilweise
+erklaerung_bild: "assets/erklaerungen/s28-merkkasten-zahlenstrahl.webp"
 ---
 
 ### Aufgabenstellung
@@ -2978,3 +3045,249 @@ Trier: 111.528. T = 1 → abrunden → 110.000. Jena: 111.407. T = 1 → abrunde
 
 ### Didaktischer Hinweis
 Diese Aufgabe zeigt eine wichtige Eigenschaft des Rundens: Verschiedene Zahlen können auf denselben Wert gerundet werden, was zu einem Informationsverlust führt. Dies ist eine bewusste pädagogische Erkenntnis — Runden vereinfacht, aber macht auch ungenauer.
+
+---
+
+# Thema 11: Hohe Hausnummer — Würfelspiel (S. 22-23)
+
+## Aufgabe 61
+
+---
+titel: "Hohe Hausnummer — Strategie verstehen"
+typ: auswahl
+thema: "Hohe Hausnummer — Würfelspiel"
+schwierigkeit: gelb
+buchseite: 22
+kapitel: "02-zahlen-bis-million"
+stage_id: "hohe-hausnummer"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+---
+
+### Aufgabenstellung
+Du spielst "Hohe Hausnummer" und würfelst als Erstes eine 6. In welche Stelle der Stellenwerttafel solltest du die 6 legen, um eine möglichst hohe Zahl zu bekommen?
+
+a) Einerstelle
+b) Hunderterstelle
+c) Hunderttausenderstelle
+
+### Lösung
+c) Hunderttausenderstelle
+
+### Lösungsweg
+Bei "Hohe Hausnummer" gewinnt, wer die größte sechsstellige Zahl legt. Die Hunderttausenderstelle hat den höchsten Wert (100.000). Eine 6 dort bedeutet mindestens 600.000. Auf der Einerstelle wäre die 6 nur 6 wert — das ist 100.000-mal weniger!
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Stellenwerttafel vor: HT | ZT | T | H | Z | E. Wo ist eine Ziffer am meisten wert?
+
+### Tipp 2 (Methode)
+Vergleiche: Eine 6 auf der Einerstelle = 6. Eine 6 auf der Hunderterstelle = 600. Eine 6 auf der Hunderttausenderstelle = 600.000. Wo bringt die 6 am meisten?
+
+### Tipp 3 (Schritt-für-Schritt)
+Die 6 ist die höchste Würfelzahl. Die Hunderttausenderstelle ist die wertvollste Stelle. Hohe Zahl + hoher Stellenwert = beste Kombination. Also gehört die 6 auf die ...?
+
+### Didaktischer Hinweis
+Einstiegsaufgabe zum Würfelspiel. Das Kind soll intuitiv erfassen, dass der Wert einer Ziffer vom Stellenwert abhängt. Die 6 als Maximum auf dem höchsten Stellenwert ist die offensichtlich beste Strategie — das stärkt das Stellenwertverständnis spielerisch.
+
+---
+
+## Aufgabe 62
+
+---
+titel: "Würfelergebnis ablesen"
+typ: textaufgabe
+thema: "Hohe Hausnummer — Würfelspiel"
+schwierigkeit: gelb
+buchseite: 22
+kapitel: "02-zahlen-bis-million"
+stage_id: "hohe-hausnummer"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+---
+
+### Aufgabenstellung
+Bei "Hohe Hausnummer" hat Justus seine Würfelergebnisse so in die Stellenwerttafel gelegt:
+
+| HT | ZT | T | H | Z | E |
+|----|----|---|---|---|---|
+| 0  | 3  | 6 | 5 | 1 | 4 |
+
+Welche Zahl hat Justus?
+
+### Lösung
+36.514
+
+### Lösungsweg
+Die Stellenwerte werden zusammengezählt:
+- HT = 0 → 0
+- ZT = 3 → 30.000
+- T = 6 → 6.000
+- H = 5 → 500
+- Z = 1 → 10
+- E = 4 → 4
+
+30.000 + 6.000 + 500 + 10 + 4 = 36.514
+
+### Tipp 1 (Denkanstoß)
+Lies die Ziffern von links nach rechts ab. Die HT-Stelle ist 0, also beginnt die Zahl mit der Zehntausenderstelle. Was steht dort?
+
+### Tipp 2 (Methode)
+Schreibe die Ziffern der Reihe nach auf: 0-3-6-5-1-4. Wenn die erste Ziffer 0 ist, fällt sie weg. Welche Zahl liest du?
+
+### Tipp 3 (Schritt-für-Schritt)
+ZT = 3, also 30.000. T = 6, also 6.000. Zusammen: 36.000. Jetzt noch H = 5 (500), Z = 1 (10), E = 4. Was ergibt 36.000 + 500 + 10 + 4?
+
+### Didaktischer Hinweis
+Stellenwerttafel lesen ist eine Kernkompetenz dieses Kapitels. Die 0 auf der HT-Stelle ist bewusst gewählt: Das Kind muss erkennen, dass eine führende Null die Stellenanzahl reduziert. Justus hat also "nur" eine fünfstellige Zahl — ungünstig beim Spiel!
+
+---
+
+## Aufgabe 63
+
+---
+titel: "Wer gewinnt?"
+typ: auswahl
+thema: "Hohe Hausnummer — Würfelspiel"
+schwierigkeit: grün
+buchseite: 23
+kapitel: "02-zahlen-bis-million"
+stage_id: "hohe-hausnummer"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+---
+
+### Aufgabenstellung
+Justus und Jette spielen "Hohe Hausnummer". Beide haben alle 6 Würfel gelegt.
+
+Justus hat die Zahl: **463.521**
+Jette hat die Zahl: **465.312**
+
+Wer hat gewonnen?
+
+a) Justus
+b) Jette
+c) Unentschieden
+
+### Lösung
+b) Jette
+
+### Lösungsweg
+Vergleiche Stelle für Stelle von links nach rechts:
+- HT: 4 = 4 → gleich
+- ZT: 6 = 6 → gleich
+- T: 3 < 5 → Jette hat mehr!
+
+Ab der Tausenderstelle ist Jettes Zahl größer: 465.312 > 463.521. Die restlichen Stellen müssen gar nicht mehr verglichen werden.
+
+### Tipp 1 (Denkanstoß)
+Schreibe beide Zahlen untereinander und vergleiche Stelle für Stelle. Wo unterscheiden sie sich zum ersten Mal?
+
+### Tipp 2 (Methode)
+Beim Vergleichen großer Zahlen startest du immer bei der höchsten Stelle (links). Sobald eine Ziffer größer ist, steht der Gewinner fest — egal was danach kommt.
+
+### Tipp 3 (Schritt-für-Schritt)
+HT: Justus 4, Jette 4 → gleich. ZT: Justus 6, Jette 6 → gleich. T: Justus 3, Jette 5 → wer hat mehr? Damit steht fest: Die Zahl mit der 5 auf der Tausenderstelle ist ...?
+
+### Didaktischer Hinweis
+Zahlenvergleich ist ein zentrales Thema in Kapitel 2. Der Spielkontext motiviert das systematische Vergleichen von links nach rechts. Wichtig: Die Zahlen sind bewusst so gewählt, dass die ersten zwei Stellen gleich sind — das Kind muss bis zur Tausenderstelle schauen.
+
+---
+
+## Aufgabe 64
+
+---
+titel: "Fehlende Würfelzahl — größtmöglich legen"
+typ: textaufgabe
+thema: "Hohe Hausnummer — Würfelspiel"
+schwierigkeit: grün
+buchseite: 23
+kapitel: "02-zahlen-bis-million"
+stage_id: "hohe-hausnummer"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+---
+
+### Aufgabenstellung
+Du hast schon 5 Würfel in die Stellenwerttafel gelegt:
+
+| HT | ZT | T | H | Z | E |
+|----|----|---|---|---|---|
+| 4  | ?  | 5 | 6 | 2 | 1 |
+
+Der letzte Wurf ist eine **3**. Die Zehntausenderstelle ist noch frei — dort musst du die 3 hinlegen.
+
+Welche Zahl ergibt sich?
+
+### Lösung
+435.621
+
+### Lösungsweg
+Die 3 kommt auf die einzige freie Stelle (ZT):
+
+| HT | ZT | T | H | Z | E |
+|----|----|---|---|---|---|
+| 4  | 3  | 5 | 6 | 2 | 1 |
+
+400.000 + 30.000 + 5.000 + 600 + 20 + 1 = 435.621
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Stellenwerttafel an. Welche Stelle hat noch ein Fragezeichen? Dort muss die 3 hin.
+
+### Tipp 2 (Methode)
+Setze die 3 auf die freie ZT-Stelle ein. Lies dann die Zahl ab: HT=4, ZT=3, T=5, H=6, Z=2, E=1. Schreibe die Ziffern hintereinander.
+
+### Tipp 3 (Schritt-für-Schritt)
+Die Tafel ist jetzt: 4 | 3 | 5 | 6 | 2 | 1. Lies von links: Vierhundert... dreißig... fünftausend... Nein, von vorne: 4 Hunderttausender = 400.000. Plus 3 Zehntausender = 30.000. Plus 5 Tausender = 5.000. Was ergibt das zusammen?
+
+### Didaktischer Hinweis
+Diese Aufgabe verbindet Spielmechanik mit Stellenwertverständnis. Das Kind muss die Ziffer einsetzen und dann die Gesamtzahl ablesen. Die Tatsache, dass nur eine Stelle frei ist, vereinfacht die Entscheidung — es geht hier primär ums korrekte Ablesen der sechsstelligen Zahl.
+
+---
+
+## Aufgabe 65
+
+---
+titel: "Hohe Hausnummer — Strategie-Aussagen beurteilen"
+typ: wahr-falsch
+thema: "Hohe Hausnummer — Würfelspiel"
+schwierigkeit: orange
+buchseite: 23
+kapitel: "02-zahlen-bis-million"
+stage_id: "hohe-hausnummer"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s22-merkkasten-stellenwerte.webp"
+---
+
+### Aufgabenstellung
+Beurteile die folgenden Aussagen über das Spiel "Hohe Hausnummer". Stimmt das oder stimmt das nicht?
+
+a) "Eine 6 sollte man immer auf die Hunderttausenderstelle legen."
+b) "Eine 1 sollte man möglichst auf die Einerstelle legen."
+c) "Wer zuerst dran ist, hat immer einen Vorteil."
+d) "Die höchstmögliche Zahl bei 6 Würfeln ist 666.666."
+
+### Lösung
+a) Richtig — Die 6 ist die höchste Würfelzahl und bringt auf der HT-Stelle den größten Wert.
+b) Richtig — Die 1 ist die niedrigste Würfelzahl und richtet auf der Einerstelle am wenigsten "Schaden" an.
+c) Falsch — Die Reihenfolge spielt keine Rolle, weil die Würfelergebnisse zufällig sind. Keiner hat einen Vorteil.
+d) Richtig — Wenn man sechsmal eine 6 würfelt und jede auf eine Stelle legt: 666.666.
+
+### Lösungsweg
+- a) Die 6 hat den größten Einzelwert. Auf der HT-Stelle ist sie 600.000 wert — das ist das Maximum.
+- b) Die 1 hat den kleinsten Wert. Auf der E-Stelle ist sie nur 1 wert — minimaler Verlust.
+- c) Das Würfeln ist Zufall. Ob man zuerst oder zuletzt dran ist, ändert nichts an der Wahrscheinlichkeit, hohe oder niedrige Zahlen zu würfeln.
+- d) Der Würfel zeigt maximal 6. Auf allen 6 Stellen eine 6: 6·100.000 + 6·10.000 + 6·1.000 + 6·100 + 6·10 + 6·1 = 666.666.
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Stellenwerttafel vor. Wo hat eine hohe Zahl den größten Einfluss? Wo schadet eine niedrige Zahl am wenigsten?
+
+### Tipp 2 (Methode)
+Berechne den Wert einer 6 auf verschiedenen Stellen: E=6, Z=60, H=600, T=6.000, ZT=60.000, HT=600.000. Mache das Gleiche mit der 1. Was fällt dir auf?
+
+### Tipp 3 (Schritt-für-Schritt)
+a) und b) folgen der gleichen Logik: hohe Ziffern nach links, niedrige nach rechts.
+c) Überlege: Kann man beeinflussen, was der Würfel zeigt? Nein — also ist es ...?
+d) Welche Zahl zeigt der Würfel maximal? 6. Und 6 auf allen 6 Stellen ergibt ...?
+
+### Didaktischer Hinweis
+Diese Wahr-Falsch-Aufgabe erfordert strategisches Denken und Argumentieren. Besonders Aussage c) ist anspruchsvoll: Kinder vermuten oft, dass die Reihenfolge einen Vorteil bringt. Das Verständnis, dass Zufall keine "Reihenfolge" kennt, ist ein wichtiger Baustein für das Wahrscheinlichkeitsverständnis in Kapitel 7.

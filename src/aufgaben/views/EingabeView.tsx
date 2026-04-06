@@ -1,23 +1,32 @@
 import { useState, useRef, useEffect } from 'react';
 import type { AufgabeViewProps } from './AufgabeWrapper';
+import type { EingabeDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
+import { MarkdownText } from './MarkdownText';
+import { normalizeZahl } from '../parserHelpers';
+import { BaumDiagramm, extractElemente } from '@/components/kombinatorik/BaumDiagramm';
 
 /**
- * Eingabe-View: Aufgabenstellung anzeigen, Zahleneingabe.
- * Parst Teilaufgaben (a, b, c, ...) aus der Aufgabenstellung.
+ * Eingabe-View: Zahleneingabe mit Teilaufgaben.
+ * Liest aufgabe.parsed (EingabeDaten) — kein eigenes Parsing.
  */
-export function EingabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
-  const items = parseItems(aufgabe.aufgabenstellung, aufgabe.loesung);
+export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange }: AufgabeViewProps) {
+  const daten = aufgabe.parsed as EingabeDaten;
   const [currentIdx, setCurrentIdx] = useState(0);
   const [input, setInput] = useState('');
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const current = items[currentIdx];
-  const isLast = currentIdx >= items.length - 1;
+  const current = daten.items[currentIdx];
+  const isLast = currentIdx >= daten.items.length - 1;
+
+  // Baumdiagramm für Kombinatorik-Aufgaben
+  const baumElemente = aufgabe.thema?.includes('Möglichkeiten') || aufgabe.aufgabenstellung?.includes('Reihenfolge')
+    ? extractElemente(aufgabe.aufgabenstellung)
+    : null;
 
   useEffect(() => {
     setCurrentIdx(0);
@@ -27,11 +36,12 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
 
   useEffect(() => {
     inputRef.current?.focus();
-  }, [currentIdx]);
+    onTeilaufgabeChange?.(daten.items[currentIdx]?.label ?? '');
+  }, [currentIdx, daten.items, onTeilaufgabeChange]);
 
   function check() {
-    const normalized = input.replace(/\./g, '').replace(',', '.').trim();
-    const expected = current.antwort.replace(/\./g, '').replace(',', '.').trim();
+    const normalized = normalizeZahl(input);
+    const expected = normalizeZahl(current.antwort);
 
     if (normalized === expected) {
       setStatus('richtig');
@@ -52,9 +62,25 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
 
   return (
     <div className="space-y-3">
+      {daten.anweisung && daten.items.length > 1 && (
+        <Card>
+          <MarkdownText text={daten.anweisung} className="text-sm font-semibold text-heading leading-relaxed" />
+        </Card>
+      )}
       <Card>
-        <p className="text-sm text-body whitespace-pre-line">{current.frage}</p>
+        <MarkdownText text={current.frage} />
       </Card>
+
+      {/* Baumdiagramm bei Kombinatorik-Aufgaben */}
+      {baumElemente && (
+        <Card>
+          <BaumDiagramm
+            elemente={baumElemente}
+            revealLevel={status === 'richtig' ? baumElemente.length : 1}
+            compact={baumElemente.length >= 4}
+          />
+        </Card>
+      )}
 
       <Card>
         <Input
@@ -69,9 +95,9 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
         />
       </Card>
 
-      {items.length > 1 && (
+      {daten.items.length > 1 && (
         <p className="text-xs text-muted text-center">
-          Teilaufgabe {currentIdx + 1} von {items.length}
+          Teilaufgabe {currentIdx + 1} von {daten.items.length}
         </p>
       )}
 
@@ -91,19 +117,4 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
       </div>
     </div>
   );
-}
-
-function parseItems(aufgabenstellung: string, loesung: string): { frage: string; antwort: string }[] {
-  const fragenParts = aufgabenstellung.split(/^[a-z]\)\s*/m).filter(Boolean);
-  const loesungParts = loesung.split(/^[a-z]\)\s*/m).filter(Boolean);
-
-  if (fragenParts.length > 1 && loesungParts.length >= fragenParts.length) {
-    return fragenParts.map((f, i) => ({
-      frage: `${String.fromCharCode(97 + i)}) ${f.trim()}`,
-      antwort: loesungParts[i]?.trim().split('\n')[0] || '',
-    }));
-  }
-
-  // Fallback: single item
-  return [{ frage: aufgabenstellung, antwort: loesung.split('\n')[0].trim() }];
 }

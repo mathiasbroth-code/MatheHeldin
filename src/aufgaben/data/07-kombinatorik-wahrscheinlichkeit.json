@@ -1,0 +1,1161 @@
+[
+  {
+    "titel": "Anordnung von drei Freunden — Baumdiagramm",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "gelb",
+    "buchseite": 72,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Drei Freunde — Lena, Tom und Mia — wollen nebeneinander auf einem Foto stehen.\n\na) Wie viele verschiedene Reihenfolgen gibt es?\nb) Zähle alle Möglichkeiten auf.",
+    "loesung": "a) 6\n\nb)\n1. Lena – Tom – Mia\n2. Lena – Mia – Tom\n3. Tom – Lena – Mia\n4. Tom – Mia – Lena\n5. Mia – Lena – Tom\n6. Mia – Tom – Lena",
+    "loesungsweg": "Baumdiagramm:\n```\n       ┌── Tom ── Mia     → Lena, Tom, Mia\nLena ──┤\n       └── Mia ── Tom     → Lena, Mia, Tom\n\n       ┌── Lena ── Mia    → Tom, Lena, Mia\nTom ───┤\n       └── Mia ── Lena    → Tom, Mia, Lena\n\n       ┌── Lena ── Tom    → Mia, Lena, Tom\nMia ───┤\n       └── Tom ── Lena    → Mia, Tom, Lena\n```\n\nFür den 1. Platz gibt es 3 Wahlmöglichkeiten, für den 2. Platz noch 2, für den 3. Platz nur 1.\n3 × 2 × 1 = 6",
+    "tipps": [
+      "Wer kann ganz links stehen? Es gibt 3 Möglichkeiten. Für jede dieser Möglichkeiten: Wer kann dann daneben stehen?",
+      "Zeichne ein Baumdiagramm: Beginne mit den 3 Kindern als Äste. Von jedem Ast gehen 2 weitere Äste ab (die beiden übrigen Kinder). Am Ende steht das letzte Kind fest. Zähle die Enden!\n\n```\nPlatz 1 → Platz 2 → Platz 3\n3 Aeste → je 2 Aeste → je 1 Ast\n```",
+      "Wenn Lena links steht, gibt es 2 Möglichkeiten: Tom–Mia oder Mia–Tom.\nWenn Tom links steht, gibt es auch 2 Möglichkeiten.\nWenn Mia links steht, noch einmal 2.\nAlso: 3 × 2 = ?",
+      "Baumdiagramm:\n```\n       ┌── Tom ── Mia     → Lena, Tom, Mia\nLena ──┤\n       └── Mia ── Tom     → Lena, Mia, Tom\n\n       ┌── Lena ── Mia    → Tom, Lena, Mia\nTom ───┤\n       └── Mia ── Lena    → Tom, Mia, Lena\n\n       ┌── Lena ── Tom    → Mia, Lena, Tom\nMia ───┤\n       └── Tom ── Lena    → Mia, Tom, Lena\n```\n\nFür den 1. Platz gibt es 3 Wahlmöglichkeiten, für den 2. Platz noch 2, für den 3. Platz nur 1.\n3 × 2 × 1 = 6"
+    ],
+    "didaktischerHinweis": "Einstieg in die Kombinatorik über das Baumdiagramm. Drei Elemente sind ideal, weil die Anzahl (6) überschaubar bleibt und das Baumdiagramm auf ein Blatt passt. Das Prinzip \"3 × 2 × 1\" wird hier entdeckt, nicht als Formel vorgegeben.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Drei Freunde — Lena, Tom und Mia — wollen nebeneinander auf einem Foto stehen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele verschiedene Reihenfolgen gibt es?",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Zähle alle Möglichkeiten auf.",
+          "antwort": "1. Lena – Tom – Mia"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fotos zu zweit — Kombination vs. Reihenfolge",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "gelb",
+    "buchseite": 72,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Immer zwei der vier Freunde — Ali, Jana, Tobi und Pia — sollen zusammen auf ein Foto. Wie viele verschiedene Fotos können entstehen?\n\n(Hinweis: Ali+Jana ist das gleiche Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)",
+    "loesung": "6 verschiedene Fotos.\n\nAli+Jana, Ali+Tobi, Ali+Pia, Jana+Tobi, Jana+Pia, Tobi+Pia",
+    "loesungsweg": "Systematisch alle Paare aufschreiben — dabei Doppelungen vermeiden:\n\n| | Jana | Tobi | Pia |\n|-----|------|------|-----|\n| Ali | Ali+Jana | Ali+Tobi | Ali+Pia |\n| Jana | — | Jana+Tobi | Jana+Pia |\n| Tobi | — | — | Tobi+Pia |\n\n6 Paare insgesamt.\n\nOder: Ali hat 3 Partner (Jana, Tobi, Pia). Jana hat noch 2 neue Partner (Tobi, Pia). Tobi hat noch 1 neuen Partner (Pia).\n3 + 2 + 1 = 6",
+    "tipps": [
+      "Geh systematisch vor: Beginne mit Ali. Mit wem kann Ali zusammen aufs Foto? Dann nimm Jana — mit wem war sie noch nicht auf einem Foto?",
+      "Mache eine Tabelle: Schreibe alle Namen als Zeilen und Spalten. Kreuze jedes Paar an — aber nur einmal! (Wenn Ali+Jana schon da ist, brauchst du Jana+Ali nicht nochmal.)",
+      "Ali kann mit 3 Kindern fotografiert werden: Jana, Tobi, Pia → 3 Fotos.\nJana war schon mit Ali. Sie kann noch mit Tobi und Pia → 2 neue Fotos.\nTobi war schon mit Ali und Jana. Er kann noch mit Pia → 1 neues Foto.\nZusammen: 3 + 2 + 1 = ?",
+      "Systematisch alle Paare aufschreiben — dabei Doppelungen vermeiden:\n\n| | Jana | Tobi | Pia |\n|-----|------|------|-----|\n| Ali | Ali+Jana | Ali+Tobi | Ali+Pia |\n| Jana | — | Jana+Tobi | Jana+Pia |\n| Tobi | — | — | Tobi+Pia |\n\n6 Paare insgesamt.\n\nOder: Ali hat 3 Partner (Jana, Tobi, Pia). Jana hat noch 2 neue Partner (Tobi, Pia). Tobi hat noch 1 neuen Partner (Pia).\n3 + 2 + 1 = 6"
+    ],
+    "didaktischerHinweis": "Hier geht es um Kombinationen (ohne Reihenfolge), im Gegensatz zu Aufgabe 1 (Permutationen). Der Unterschied muss nicht begrifflich benannt werden, aber das Kind soll erkennen: \"Ali+Jana ist das Gleiche wie Jana+Ali.\" Die Tabelle ist ein starkes visuelles Hilfsmittel gegen Doppelzählungen.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Immer zwei der vier Freunde — Ali, Jana, Tobi und Pia — sollen zusammen auf ein Foto. Wie viele verschiedene Fotos können entstehen?\n\n(Hinweis: Ali+Jana ist das gleiche Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)",
+          "antwort": "6 verschiedene Fotos."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zahlenschloss — Ziffernkombinationen finden",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Lara hat die Ziffernkombination für ihr Zahlenschloss vergessen. Sie weiß noch, dass die Ziffern 2, 5 und 8 darin vorkommen. Jede Ziffer kommt genau einmal vor.\n\na) Wie viele Kombinationen muss Lara höchstens ausprobieren?\nb) Schreibe alle Möglichkeiten auf.",
+    "loesung": "a) 6\n\nb)\n258, 285, 528, 582, 825, 852",
+    "loesungsweg": "Baumdiagramm:\n```\n     ┌── 5 ── 8  → 258\n2 ───┤\n     └── 8 ── 5  → 285\n\n     ┌── 2 ── 8  → 528\n5 ───┤\n     └── 8 ── 2  → 582\n\n     ┌── 2 ── 5  → 825\n8 ───┤\n     └── 5 ── 2  → 852\n```\n3 × 2 × 1 = 6",
+    "tipps": [
+      "Welche Ziffer könnte an der ersten Stelle stehen? Das sind 3 Möglichkeiten. Dann bleiben für die zweite Stelle nur noch 2 Ziffern übrig ...",
+      "Zeichne ein Baumdiagramm mit 3 Startästen (für die erste Ziffer). Von jedem Ast gehen 2 Äste ab (zweite Ziffer). Am Ende steht die letzte Ziffer fest.",
+      "Wenn die 2 vorne steht: _ _ _ → 2 _ _. Für die zweite Stelle bleiben 5 und 8: 258 und 285.\nWenn die 5 vorne steht: 5 _ _. Was sind die Möglichkeiten?",
+      "Baumdiagramm:\n```\n     ┌── 5 ── 8  → 258\n2 ───┤\n     └── 8 ── 5  → 285\n\n     ┌── 2 ── 8  → 528\n5 ───┤\n     └── 8 ── 2  → 582\n\n     ┌── 2 ── 5  → 825\n8 ───┤\n     └── 5 ── 2  → 852\n```\n3 × 2 × 1 = 6"
+    ],
+    "didaktischerHinweis": "Gleiche Struktur wie Aufgabe 1, aber mit Ziffern statt Personen. Das Baumdiagramm ist identisch — Kinder erkennen das Muster. Der Alltagsbezug (Zahlenschloss) macht die Aufgabe spannend. \"Höchstens\" ist wichtig: Im besten Fall trifft man beim ersten Versuch.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Lara hat die Ziffernkombination für ihr Zahlenschloss vergessen. Sie weiß noch, dass die Ziffern 2, 5 und 8 darin vorkommen. Jede Ziffer kommt genau einmal vor.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kombinationen muss Lara höchstens ausprobieren?",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Schreibe alle Möglichkeiten auf.",
+          "antwort": "258, 285, 528, 582, 825, 852"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vierstelliger Code — Erste Ziffer bekannt",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).\n\nWie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
+    "loesung": "6 Möglichkeiten:\n5139, 5193, 5319, 5391, 5913, 5931",
+    "loesungsweg": "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```",
+    "tipps": [
+      "Die erste Ziffer ist die 5 — die ist fix. Jetzt musst du nur noch die drei übrigen Ziffern (1, 3, 9) anordnen. Wie viele Möglichkeiten gibt es dafür?",
+      "Zeichne ein Baumdiagramm für die Stellen 2, 3 und 4. Beginne mit den 3 Möglichkeiten für Stelle 2. Von dort aus verzweige für Stelle 3 und 4.",
+      "Wenn nach der 5 die 1 kommt: 51_ _. Es bleiben 3 und 9 → 5139 und 5193.\nWenn nach der 5 die 3 kommt: 53_ _. Es bleiben 1 und 9 → zwei Möglichkeiten.\nUnd wenn die 9 kommt?",
+      "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```"
+    ],
+    "didaktischerHinweis": "Eine fixierte erste Stelle reduziert das Problem auf 3 × 2 × 1. Kinder erkennen: Weniger freie Stellen → weniger Möglichkeiten. Das ist ein wichtiger Baustein für das kombinatorische Denken.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).\n\nWie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
+          "antwort": "6 Möglichkeiten:"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Fussballturnier — Spiele in einer Gruppe zählen",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Bei einem Fussballturnier gibt es eine Gruppe mit 4 Mannschaften: A, B, C, D. Jede Mannschaft spielt einmal gegen jede andere.\n\na) Wie viele Spiele gibt es insgesamt?\nb) Schreibe alle Spiele auf.",
+    "loesung": "a) 6\n\nb)\nA–B, A–C, A–D, B–C, B–D, C–D",
+    "loesungsweg": "Systematisch alle Paarungen aufschreiben (A gegen B ist dasselbe wie B gegen A):\n\nTeam A spielt gegen: B, C, D → 3 Spiele\nTeam B spielt noch gegen: C, D → 2 neue Spiele\nTeam C spielt noch gegen: D → 1 neues Spiel\n3 + 2 + 1 = 6\n\nOder als Tabelle:\n| | B | C | D |\n|---|---|---|---|\n| A | A–B | A–C | A–D |\n| B | — | B–C | B–D |\n| C | — | — | C–D |",
+    "tipps": [
+      "Geh der Reihe nach: Gegen wen spielt Team A? Dann: Gegen wen spielt Team B — aber ohne die Spiele, die schon gezählt sind?",
+      "Mache eine Tabelle mit allen Teams als Zeilen und Spalten. Kreuze jedes Spiel an — aber nur einmal! (A gegen B = B gegen A, das zählt nur als 1 Spiel.)",
+      "Team A: 3 Spiele (gegen B, C, D).\nTeam B: nur noch 2 neue Spiele (gegen C, D) — gegen A wurde schon gezählt.\nTeam C: noch 1 neues Spiel (gegen D).\nZusammen: 3 + 2 + 1 = ?",
+      "Systematisch alle Paarungen aufschreiben (A gegen B ist dasselbe wie B gegen A):\n\nTeam A spielt gegen: B, C, D → 3 Spiele\nTeam B spielt noch gegen: C, D → 2 neue Spiele\nTeam C spielt noch gegen: D → 1 neues Spiel\n3 + 2 + 1 = 6\n\nOder als Tabelle:\n| | B | C | D |\n|---|---|---|---|\n| A | A–B | A–C | A–D |\n| B | — | B–C | B–D |\n| C | — | — | C–D |"
+    ],
+    "didaktischerHinweis": "Identische Struktur wie Aufgabe 2 (Fotos zu zweit), aber im Fussball-Kontext. Kinder erkennen hoffentlich das Muster: 3 + 2 + 1 = 6 kommt wieder! Der Sportkontext ist besonders motivierend für viele Kinder.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bei einem Fussballturnier gibt es eine Gruppe mit 4 Mannschaften: A, B, C, D. Jede Mannschaft spielt einmal gegen jede andere.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Spiele gibt es insgesamt?",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Schreibe alle Spiele auf.",
+          "antwort": "A–B, A–C, A–D, B–C, B–D, C–D"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zwei Gruppen — Gesamtanzahl der Spiele",
+    "typ": "textaufgabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "orange",
+    "buchseite": 73,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Bei einem Fussballturnier gibt es zwei Gruppen mit je 3 Mannschaften.\n\n**Gruppe A:** Löwen, Tiger, Bären\n**Gruppe B:** Adler, Falken, Eulen\n\nIn jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.\n\na) Wie viele Spiele gibt es in Gruppe A?\nb) Wie viele Spiele gibt es in Gruppe B?\nc) Wie viele Spiele gibt es insgesamt in beiden Gruppen?\nd) Wenn jedes Spiel 15 Minuten dauert — wie lang ist die gesamte Spielzeit?",
+    "loesung": "a) 3 Spiele\nb) 3 Spiele\nc) 6 Spiele\nd) 90 Minuten = 1 Stunde 30 Minuten",
+    "loesungsweg": "a) Gruppe A: Löwen–Tiger, Löwen–Bären, Tiger–Bären = 3 Spiele\n   (2 + 1 = 3)\nb) Gruppe B: gleiche Rechnung = 3 Spiele\nc) 3 + 3 = 6 Spiele\nd) 6 × 15 = 90 Minuten = 1 h 30 min",
+    "tipps": [
+      "Wie viele Spiele gibt es in einer Gruppe mit 3 Teams? Zähle systematisch (wie bei den Fotos): Team 1 hat 2 Gegner, Team 2 hat noch 1 neuen Gegner ...",
+      "3 Teams in einer Gruppe: 2 + 1 = 3 Spiele. Das gilt für beide Gruppen! Für die Gesamtspielzeit: Anzahl Spiele × Spieldauer.",
+      "Gruppe A: Löwen–Tiger, Löwen–Bären → 2 Spiele für die Löwen. Tiger–Bären → 1 weiteres Spiel. Zusammen: 3 Spiele.\nBei d): 6 Spiele × 15 Minuten. Rechne: 6 × 15 = 6 × 10 + 6 × 5 = 60 + 30 = ?",
+      "a) Gruppe A: Löwen–Tiger, Löwen–Bären, Tiger–Bären = 3 Spiele\n   (2 + 1 = 3)\nb) Gruppe B: gleiche Rechnung = 3 Spiele\nc) 3 + 3 = 6 Spiele\nd) 6 × 15 = 90 Minuten = 1 h 30 min"
+    ],
+    "didaktischerHinweis": "Aufbau auf Aufgabe 5: Jetzt zwei Gruppen, die unabhängig voneinander gespielt werden. Teil d) verbindet Kombinatorik mit Zeitrechnung. Die Umwandlung 90 min = 1 h 30 min ist ein zusätzliches Lernziel.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Bei einem Fussballturnier gibt es zwei Gruppen mit je 3 Mannschaften.\n\n**Gruppe A:** Löwen, Tiger, Bären\n**Gruppe B:** Adler, Falken, Eulen\n\nIn jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.",
+      "kontext": "Bei einem Fussballturnier gibt es zwei Gruppen mit je 3 Mannschaften.\n\n**Gruppe A:** Löwen, Tiger, Bären\n**Gruppe B:** Adler, Falken, Eulen\n\nIn jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Spiele gibt es in Gruppe A?",
+          "antwort": "3 Spiele"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Spiele gibt es in Gruppe B?",
+          "antwort": "3 Spiele"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viele Spiele gibt es insgesamt in beiden Gruppen?",
+          "antwort": "6 Spiele"
+        },
+        {
+          "label": "d",
+          "frage": "Wenn jedes Spiel 15 Minuten dauert — wie lang ist die gesamte Spielzeit?",
+          "antwort": "90 Minuten = 1 Stunde 30 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vierstellige Zahlen aus Ziffernkarten bilden",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "orange",
+    "buchseite": 73,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "Du hast die Ziffernkarten 2, 4, 6 und 8. Jede Karte darf nur einmal verwendet werden.\n\na) Wie viele verschiedene vierstellige Zahlen kannst du bilden?\nb) Welches ist die kleinste Zahl? Welches die größte?",
+    "loesung": "a) 24\n\nb) Kleinste: 2.468, Größte: 8.642",
+    "loesungsweg": "a) 4 Möglichkeiten für die erste Stelle × 3 für die zweite × 2 für die dritte × 1 für die letzte = 4 × 3 × 2 × 1 = 24\n\nb) Für die kleinste Zahl: kleinste Ziffer nach vorne → 2.468\n   Für die größte Zahl: größte Ziffer nach vorne → 8.642",
+    "tipps": [
+      "Für die Tausenderstelle hast du 4 Karten zur Auswahl. Nachdem du eine gelegt hast, bleiben noch 3 für die Hunderterstelle. Wie geht es weiter?",
+      "Stelle dir ein Baumdiagramm vor — es wäre sehr groß! Stattdessen rechne:\nPlatz 1: 4 Möglichkeiten\nPlatz 2: 3 Möglichkeiten (eine Karte ist schon vergeben)\nPlatz 3: 2 Möglichkeiten\nPlatz 4: 1 Möglichkeit\nMultipliziere alle miteinander.",
+      "Wenn die 2 vorne steht, gibt es 3 × 2 × 1 = 6 Zahlen (wie beim Zahlenschloss!).\nDas gilt auch für die 4, die 6 und die 8 vorne.\nAlso: 4 × 6 = ?\n\nb) Für die kleinste Zahl: Lege die Karten von klein nach groß: 2, 4, 6, 8 → ?",
+      "a) 4 Möglichkeiten für die erste Stelle × 3 für die zweite × 2 für die dritte × 1 für die letzte = 4 × 3 × 2 × 1 = 24\n\nb) Für die kleinste Zahl: kleinste Ziffer nach vorne → 2.468\n   Für die größte Zahl: größte Ziffer nach vorne → 8.642"
+    ],
+    "didaktischerHinweis": "Erweiterung auf 4 Elemente. Das Baumdiagramm wäre mit 24 Enden sehr groß — hier lernen Kinder, mit der Multiplikationsregel zu rechnen statt alle aufzuzählen. Teil b) fördert das Stellenwertverständnis: Die größte Ziffer an der höchsten Stelle ergibt die größte Zahl.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Du hast die Ziffernkarten 2, 4, 6 und 8. Jede Karte darf nur einmal verwendet werden.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele verschiedene vierstellige Zahlen kannst du bilden?",
+          "antwort": "24"
+        },
+        {
+          "label": "b",
+          "frage": "Welches ist die kleinste Zahl? Welches die größte?",
+          "antwort": "Kleinste: 2.468, Größte: 8.642"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eissorten kombinieren — Baumdiagramm",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "gelb",
+    "buchseite": 72,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "kombinatorik",
+    "digital": "voll",
+    "aufgabenstellung": "In der Eisdiele gibt es 3 Sorten Eis: Vanille (V), Schoko (S) und Erdbeere (E). Du darfst 2 verschiedene Kugeln wählen.\n\nWie viele verschiedene Kombinationen gibt es?\n(Hinweis: Vanille+Schoko ist dasselbe wie Schoko+Vanille.)",
+    "loesung": "3 Kombinationen: V+S, V+E, S+E",
+    "loesungsweg": "Systematisch alle Paare:\n- Vanille + Schoko\n- Vanille + Erdbeere\n- Schoko + Erdbeere\n\nDas sind 3 verschiedene Becher.\n\nTabelle:\n| | S | E |\n|---|---|---|\n| V | V+S | V+E |\n| S | — | S+E |\n\n2 + 1 = 3",
+    "tipps": [
+      "Wie viele Partner hat Vanille? (2: Schoko und Erdbeere). Wie viele neue Partner hat Schoko? (1: Erdbeere — mit Vanille wurde schon gezählt.)",
+      "Schreibe alle Sorten untereinander. Kombiniere die erste mit allen folgenden. Dann die zweite mit allen folgenden (aber nicht mehr mit der ersten!).",
+      "Vanille kann mit Schoko oder Erdbeere kombiniert werden → 2 Möglichkeiten.\nSchoko kann noch mit Erdbeere kombiniert werden → 1 neue Möglichkeit.\nZusammen: 2 + 1 = ?",
+      "Systematisch alle Paare:\n- Vanille + Schoko\n- Vanille + Erdbeere\n- Schoko + Erdbeere\n\nDas sind 3 verschiedene Becher.\n\nTabelle:\n| | S | E |\n|---|---|---|\n| V | V+S | V+E |\n| S | — | S+E |\n\n2 + 1 = 3"
+    ],
+    "didaktischerHinweis": "Einfacher Einstieg in Kombinationen über einen motivierenden Alltagskontext. Nur 3 Elemente, nur Paare — das ist überschaubar. Die Tabelle als visuelles Hilfsmittel verhindert Doppelzählungen.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "In der Eisdiele gibt es 3 Sorten Eis: Vanille (V), Schoko (S) und Erdbeere (E). Du darfst 2 verschiedene Kugeln wählen.\n\nWie viele verschiedene Kombinationen gibt es?\n(Hinweis: Vanille+Schoko ist dasselbe wie Schoko+Vanille.)",
+          "antwort": "3 Kombinationen: V+S, V+E, S+E"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Augensummen mit zwei Würfeln",
+    "typ": "eingabe",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "gelb",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.\n\na) Welche Augensumme ist die kleinste mögliche?\nb) Welche ist die größte mögliche?\nc) Ist die Augensumme 1 möglich? Begründe.",
+    "loesung": "a) 2 (1 + 1)\nb) 12 (6 + 6)\nc) Nein, die Augensumme 1 ist unmöglich. Der kleinste Wert pro Würfel ist 1, also ist die kleinste Summe 1 + 1 = 2.",
+    "loesungsweg": "- Kleinste Augenzahl pro Würfel: 1\n- Größte Augenzahl pro Würfel: 6\n- Kleinste Summe: 1 + 1 = 2\n- Größte Summe: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "tipps": [
+      "Stell dir die zwei Würfel vor. Welche ist die kleinste Zahl, die ein Würfel zeigen kann? Und die größte?",
+      "Für die kleinste Summe: Beide Würfel zeigen die kleinste Zahl.\nFür die größte Summe: Beide zeigen die größte Zahl.\nFür c): Kann die Summe von zwei positiven Zahlen kleiner als 2 sein?",
+      "a) Kleinste Augenzahl: 1. Zwei Würfel: 1 + 1 = ?\nb) Größte Augenzahl: 6. Zwei Würfel: 6 + 6 = ?",
+      "- Kleinste Augenzahl pro Würfel: 1\n- Größte Augenzahl pro Würfel: 6\n- Kleinste Summe: 1 + 1 = 2\n- Größte Summe: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12"
+    ],
+    "didaktischerHinweis": "Grundlagen der Wahrscheinlichkeit: den Ergebnisraum bestimmen. Kinder müssen verstehen, dass mit zwei Würfeln Summen von 2 bis 12 möglich sind — nicht von 1 bis 12. Das ist eine häufige Fehlvorstellung.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welche Augensumme ist die kleinste mögliche?",
+          "antwort": "2 (1 + 1)"
+        },
+        {
+          "label": "b",
+          "frage": "Welche ist die größte mögliche?",
+          "antwort": "12 (6 + 6)"
+        },
+        {
+          "label": "c",
+          "frage": "Ist die Augensumme 1 möglich? Begründe.",
+          "antwort": "Nein, die Augensumme 1 ist unmöglich. Der kleinste Wert pro Würfel ist 1, also ist die kleinste Summe 1 + 1 = 2."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Möglichkeiten für Augensummen zählen",
+    "typ": "eingabe",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "grün",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:\n\n| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
+    "loesung": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | 1 | 2 | 3 | 4 | 5 | 6 |",
+    "loesungsweg": "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten",
+    "tipps": [
+      "Für die Augensumme 3: Welche Zahlen kann der erste Würfel zeigen, damit die Summe 3 wird? Überlege für jede Möglichkeit, was der zweite Würfel zeigen muss.",
+      "Mache eine Tabelle: Würfel 1 in die Zeilen (1-6), Würfel 2 in die Spalten (1-6). Berechne jede Summe. Zähle dann, wie oft jede Summe vorkommt.\n\n| | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| 2 | 3 | 4 | ... | ... | ... | ... |",
+      "Augensumme 4: Der erste Würfel zeigt 1 → zweiter muss 3 zeigen (1+3=4). Erster zeigt 2 → zweiter zeigt 2 (2+2=4). Erster zeigt 3 → zweiter zeigt ? (3+?=4). Das sind 3 Möglichkeiten.",
+      "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten"
+    ],
+    "didaktischerHinweis": "Die systematische Tabelle aller 36 Kombinationen ist das zentrale Werkzeug. Kinder entdecken das Muster: Die 7 hat die meisten Möglichkeiten (6), die 2 und 12 die wenigsten (je 1). Das erklärt, warum manche Summen häufiger gewürfelt werden als andere — ein Aha-Erlebnis!",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:\n\n| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
+          "antwort": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Sicher, möglich oder unmöglich?",
+    "typ": "auswahl",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "gelb",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?\n\na) Die Augensumme ist größer als 1.\nb) Die Augensumme ist 7.\nc) Die Augensumme ist 13.\nd) Die Augensumme ist eine gerade Zahl.\ne) Die Augensumme ist kleiner als 13.",
+    "loesung": "a) sicher (kleinste Summe ist 2, also immer größer als 1)\nb) möglich (z.B. 3+4=7, aber nicht bei jedem Wurf)\nc) unmöglich (größte Summe ist 12)\nd) möglich (z.B. 2+4=6, aber nicht immer)\ne) sicher (größte Summe ist 12, also immer kleiner als 13)",
+    "loesungsweg": "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu",
+    "tipps": [
+      "Erinnere dich: Die kleinste Augensumme ist 2, die größte ist 12. Prüfe jede Aussage: Passiert das immer? Manchmal? Oder nie?",
+      "Drei Fragen für jede Aussage:\n1. Kann es passieren? → Wenn nein: unmöglich\n2. Passiert es immer? → Wenn ja: sicher\n3. Passiert es manchmal? → Wenn ja: möglich",
+      "a) \"Größer als 1\" — die kleinste Summe ist 2. Ist 2 > 1? Ja! Dann gilt das immer → sicher.\nc) \"Ist 13\" — die größte Summe ist 12. Kann 13 vorkommen? Nein → unmöglich.\nd) Gerade Summen: 2, 4, 6, 8, 10, 12 — die gibt es. Aber auch ungerade: 3, 5, 7 ... → nicht immer gerade → ?",
+      "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu"
+    ],
+    "didaktischerHinweis": "Die Dreigliederung sicher/möglich/unmöglich ist der Kern der Wahrscheinlichkeitslehre in der Grundschule. Keine Brüche oder Prozente — nur qualitative Einschätzung. Besonders d) und e) erfordern sorgfältiges Nachdenken.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Die Augensumme ist größer als 1."
+        },
+        {
+          "label": "B",
+          "text": "Die Augensumme ist 7."
+        },
+        {
+          "label": "C",
+          "text": "Die Augensumme ist 13."
+        },
+        {
+          "label": "D",
+          "text": "Die Augensumme ist eine gerade Zahl."
+        },
+        {
+          "label": "E",
+          "text": "Die Augensumme ist kleiner als 13."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Sicher, möglich oder unmöglich — drei Würfel",
+    "typ": "auswahl",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "grün",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Entscheide: sicher, möglich oder unmöglich?\n\na) Die Augensumme ist größer als 2.\nb) Die Augensumme ist 10.\nc) Die Augensumme ist 2.\nd) Die Augensumme ist kleiner als 19.",
+    "loesung": "a) sicher (kleinste Summe: 1+1+1=3, also immer größer als 2)\nb) möglich (z.B. 3+3+4=10)\nc) unmöglich (kleinste Summe: 3)\nd) sicher (größte Summe: 18, also immer kleiner als 19)",
+    "loesungsweg": "Ergebnisraum bei drei Würfeln:\n- Kleinste Summe: 1+1+1 = 3\n- Größte Summe: 6+6+6 = 18\n- Mögliche Summen: 3 bis 18",
+    "tipps": [
+      "Drei Würfel: Was ist die kleinste Zahl, die alle drei zusammen zeigen können? Und die größte?",
+      "Bestimme zuerst den Bereich: kleinste Summe = 3 × 1 = 3, größte = 3 × 6 = 18. Dann prüfe jede Aussage wie vorher: sicher, möglich oder unmöglich.",
+      "c) Augensumme 2: Dafür müssten zwei Würfel 1 zeigen und einer 0. Aber ein Würfel hat keine 0! Also 1+1+0 geht nicht. Minimum ist 1+1+1 = ?",
+      "Ergebnisraum bei drei Würfeln:\n- Kleinste Summe: 1+1+1 = 3\n- Größte Summe: 6+6+6 = 18\n- Mögliche Summen: 3 bis 18"
+    ],
+    "didaktischerHinweis": "Erweiterung auf drei Würfel: Der Ergebnisraum verschiebt sich (3 bis 18 statt 2 bis 12). Kinder transferieren die Methode aus Aufgabe 11. Besonders c) ist lehrreich: Die Summe 2 ist mit drei Würfeln unmöglich, obwohl sie mit zwei Würfeln noch möglich war.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du würfelst mit **drei** Würfeln und addierst die Augenzahlen. Entscheide: sicher, möglich oder unmöglich?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Die Augensumme ist größer als 2."
+        },
+        {
+          "label": "B",
+          "text": "Die Augensumme ist 10."
+        },
+        {
+          "label": "C",
+          "text": "Die Augensumme ist 2."
+        },
+        {
+          "label": "D",
+          "text": "Die Augensumme ist kleiner als 19."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Faire und unfaire Spielregeln",
+    "typ": "auswahl",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "grün",
+    "buchseite": 75,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?\n\n**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\n\n**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.",
+    "loesung": "Regel A: **fair** — es gibt jeweils 18 Möglichkeiten für gerade und ungerade Summen.\n\nRegel B: **unfair** — Augensumme > 7: 15 Möglichkeiten, Augensumme < 7: 15 Möglichkeiten. Aber bei Summe 7 (6 Möglichkeiten) bekommt keiner einen Punkt. Also ist die Regel eigentlich fair für die Punkte, aber es gibt viele Runden ohne Punkte.\n\nKorrektur: Regel B ist **fair**, weil beide gleich viele Gewinnmöglichkeiten haben (je 15 von 36).",
+    "loesungsweg": "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓",
+    "tipps": [
+      "Um zu entscheiden, ob eine Regel fair ist, musst du zählen: Wie viele Möglichkeiten hat Kind 1? Wie viele hat Kind 2? Wenn beide gleich viel haben, ist es fair.",
+      "Nutze die große 6×6-Tabelle aller Würfelkombinationen. Färbe die Felder ein:\n- Eine Farbe für \"Kind 1 gewinnt\"\n- Eine andere Farbe für \"Kind 2 gewinnt\"\nZähle die Felder!",
+      "Regel A: Gerade Summen bei zwei Würfeln: 2 (1 Möglichkeit), 4 (3 Möglichkeiten), 6 (5 Möglichkeiten), 8 (5), 10 (3), 12 (1) = 1+3+5+5+3+1 = ?\nUngerade Summen: 3 (2), 5 (4), 7 (6), 9 (4), 11 (2) = 2+4+6+4+2 = ?\nGleich? → fair oder unfair?",
+      "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓"
+    ],
+    "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme."
+        },
+        {
+          "label": "B",
+          "text": "**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Gewinnchance — durch 4 oder durch 3 teilbar?",
+    "typ": "textaufgabe",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "orange",
+    "buchseite": 75,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Zwei Kinder spielen mit zwei Würfeln. Die Spielregel:\n\n- Kind 1 bekommt einen Punkt, wenn die Augensumme durch 4 teilbar ist.\n- Kind 2 bekommt einen Punkt, wenn die Augensumme durch 3 teilbar ist.\n\na) Welches Kind hat die größere Gewinnchance?\nb) Ist das Spiel fair?",
+    "loesung": "a) Kind 2 hat die größere Gewinnchance.\nb) Nein, das Spiel ist unfair.",
+    "loesungsweg": "Durch 4 teilbare Summen: 4, 8, 12\n- 4: 3 Möglichkeiten, 8: 5 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 3 + 5 + 1 = **9** Möglichkeiten\n\nDurch 3 teilbare Summen: 3, 6, 9, 12\n- 3: 2 Möglichkeiten, 6: 5 Möglichkeiten, 9: 4 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 2 + 5 + 4 + 1 = **12** Möglichkeiten\n\nKind 2 hat 12 vs. 9 Möglichkeiten → unfair, Kind 2 gewinnt häufiger.",
+    "tipps": [
+      "Welche Augensummen sind durch 4 teilbar? (4, 8, 12.) Welche durch 3? (3, 6, 9, 12.) Zähle für jede Summe die Möglichkeiten.",
+      "Nutze die Tabelle der Augensummen aus Aufgabe 10. Markiere alle Summen, die durch 4 teilbar sind (für Kind 1) und alle, die durch 3 teilbar sind (für Kind 2). Zähle jeweils.",
+      "Kind 1 (durch 4 teilbar):\nSumme 4: (1,3), (2,2), (3,1) → 3 Möglichkeiten.\nSumme 8: (2,6), (3,5), (4,4), (5,3), (6,2) → 5 Möglichkeiten.\nSumme 12: (6,6) → 1 Möglichkeit.\nZusammen: 3 + 5 + 1 = 9.\n\nKind 2: Zähle genauso für Summen 3, 6, 9, 12. Wer hat mehr?",
+      "Durch 4 teilbare Summen: 4, 8, 12\n- 4: 3 Möglichkeiten, 8: 5 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 3 + 5 + 1 = **9** Möglichkeiten\n\nDurch 3 teilbare Summen: 3, 6, 9, 12\n- 3: 2 Möglichkeiten, 6: 5 Möglichkeiten, 9: 4 Möglichkeiten, 12: 1 Möglichkeit\n- Gesamt: 2 + 5 + 4 + 1 = **12** Möglichkeiten\n\nKind 2 hat 12 vs. 9 Möglichkeiten → unfair, Kind 2 gewinnt häufiger."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe verbindet Teilbarkeit mit Wahrscheinlichkeit. Kinder müssen zwei Konzepte gleichzeitig anwenden: Teilbarkeitsregeln (aus Kap. 8) und Würfelmöglichkeiten. Das Ergebnis (unfair!) ist nicht intuitiv offensichtlich und fördert kritisches Denken.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zwei Kinder spielen mit zwei Würfeln. Die Spielregel:\n\n- Kind 1 bekommt einen Punkt, wenn die Augensumme durch 4 teilbar ist.\n- Kind 2 bekommt einen Punkt, wenn die Augensumme durch 3 teilbar ist.",
+      "kontext": "Zwei Kinder spielen mit zwei Würfeln. Die Spielregel:\n\n- Kind 1 bekommt einen Punkt, wenn die Augensumme durch 4 teilbar ist.\n- Kind 2 bekommt einen Punkt, wenn die Augensumme durch 3 teilbar ist.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welches Kind hat die größere Gewinnchance?",
+          "antwort": "Kind 2 hat die größere Gewinnchance."
+        },
+        {
+          "label": "b",
+          "frage": "Ist das Spiel fair?",
+          "antwort": "Nein, das Spiel ist unfair."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Würfelprodukt — Welche Ergebniszahl gewinnt?",
+    "typ": "textaufgabe",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "orange",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Du spielst mit zwei Würfeln und **multiplizierst** die Augenzahlen (statt sie zu addieren).\n\na) Welches ist das kleinste mögliche Ergebnis?\nb) Welches das größte?\nc) Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.",
+    "loesung": "a) 1 (1 × 1)\nb) 36 (6 × 6)\nc) Die 6 hat die größte Chance (4 Möglichkeiten: 1×6, 2×3, 3×2, 6×1).",
+    "loesungsweg": "Alle Produkte in einer 6×6-Tabelle:\n\n| × | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 1 | 2 | 3 | 4 | 5 | 6 |\n| 2 | 2 | 4 | 6 | 8 | 10 | 12 |\n| 3 | 3 | 6 | 9 | 12 | 15 | 18 |\n| 4 | 4 | 8 | 12 | 16 | 20 | 24 |\n| 5 | 5 | 10 | 15 | 20 | 25 | 30 |\n| 6 | 6 | 12 | 18 | 24 | 30 | 36 |\n\nDie 6 kommt 4-mal vor: (1,6), (2,3), (3,2), (6,1).\nDie 12 kommt auch 4-mal vor: (2,6), (3,4), (4,3), (6,2).",
+    "tipps": [
+      "Erstelle eine Tabelle: Würfel 1 (Zeilen) mal Würfel 2 (Spalten). Welches Ergebnis kommt am häufigsten vor?",
+      "Fülle die Multiplikationstabelle aus. Zähle dann, wie oft jede Zahl vorkommt. Die Zahl mit den meisten Vorkommen hat die größte Chance.",
+      "Produkt 6: Wie kann man 6 als Produkt zweier Würfelzahlen (1-6) schreiben?\n1 × 6 = 6 ✓, 2 × 3 = 6 ✓, 3 × 2 = 6 ✓, 6 × 1 = 6 ✓. Das sind 4 Möglichkeiten.\nPrüfe: Hat eine andere Zahl mehr als 4 Möglichkeiten?",
+      "Alle Produkte in einer 6×6-Tabelle:\n\n| × | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 1 | 2 | 3 | 4 | 5 | 6 |\n| 2 | 2 | 4 | 6 | 8 | 10 | 12 |\n| 3 | 3 | 6 | 9 | 12 | 15 | 18 |\n| 4 | 4 | 8 | 12 | 16 | 20 | 24 |\n| 5 | 5 | 10 | 15 | 20 | 25 | 30 |\n| 6 | 6 | 12 | 18 | 24 | 30 | 36 |\n\nDie 6 kommt 4-mal vor: (1,6), (2,3), (3,2), (6,1).\nDie 12 kommt auch 4-mal vor: (2,6), (3,4), (4,3), (6,2)."
+    ],
+    "didaktischerHinweis": "Eine kreative Variation des Würfelspiels: Multiplikation statt Addition. Die Produkttabelle ist gleichzeitig Einmaleins-Übung! Das Ergebnis überrascht: Die häufigsten Produkte (6 und 12 mit je 4) sind nicht die mittleren Zahlen. Die Struktur ist völlig anders als bei der Addition.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Du spielst mit zwei Würfeln und **multiplizierst** die Augenzahlen (statt sie zu addieren).",
+      "kontext": "Du spielst mit zwei Würfeln und **multiplizierst** die Augenzahlen (statt sie zu addieren).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welches ist das kleinste mögliche Ergebnis?",
+          "antwort": "1 (1 × 1)"
+        },
+        {
+          "label": "b",
+          "frage": "Welches das größte?",
+          "antwort": "36 (6 × 6)"
+        },
+        {
+          "label": "c",
+          "frage": "Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.",
+          "antwort": "Die 6 hat die größte Chance (4 Möglichkeiten: 1×6, 2×3, 3×2, 6×1)."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Alltagsaussagen — sicher, möglich, unmöglich",
+    "typ": "auswahl",
+    "thema": "Alles Zufall?",
+    "schwierigkeit": "gelb",
+    "buchseite": 75,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wahrscheinlichkeit",
+    "digital": "voll",
+    "aufgabenstellung": "Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?\n\na) Es schneit im Juli in Deutschland.\nb) Nach Mittwoch kommt Donnerstag.\nc) Du wirfst einen Stein hoch und er fällt wieder herunter.\nd) Morgen scheint den ganzen Tag die Sonne.\ne) Ein Hund kann fliegen.",
+    "loesung": "a) möglich (sehr unwahrscheinlich, aber in den Bergen theoretisch denkbar)\nb) sicher (die Reihenfolge der Wochentage ist festgelegt)\nc) sicher (die Schwerkraft wirkt immer)\nd) möglich (das Wetter kann man nicht sicher vorhersagen)\ne) unmöglich (Hunde haben keine Flügel und können nicht fliegen)",
+    "loesungsweg": "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich",
+    "tipps": [
+      "Stell dir jede Situation bildlich vor. Passiert das jedes Mal so? Oder nur manchmal? Oder nie?",
+      "Drei Fragen nacheinander:\n1. Ist es unmöglich? → Wenn ja: unmöglich.\n2. Ist es sicher (passiert es 100% immer)? → Wenn ja: sicher.\n3. Alles andere: möglich.",
+      "b) Welcher Tag kommt nach Mittwoch? Immer Donnerstag? Ja! → sicher.\ne) Kannst du dir einen fliegenden Hund vorstellen (ohne Flugzeug)? Nein → unmöglich.\nd) Ist es garantiert, dass morgen die Sonne scheint? → ?",
+      "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich"
+    ],
+    "didaktischerHinweis": "Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre. Kinder lernen die drei Grundbegriffe an Beispielen aus ihrer Lebenswelt. Wichtig: \"möglich, aber unwahrscheinlich\" (wie Schnee im Juli) ist trotzdem \"möglich\" — das unterscheidet Grundschul-Wahrscheinlichkeit von exakter Stochastik.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Entscheide: Ist die Aussage **sicher**, **möglich** oder **unmöglich**?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Es schneit im Juli in Deutschland."
+        },
+        {
+          "label": "B",
+          "text": "Nach Mittwoch kommt Donnerstag."
+        },
+        {
+          "label": "C",
+          "text": "Du wirfst einen Stein hoch und er fällt wieder herunter."
+        },
+        {
+          "label": "D",
+          "text": "Morgen scheint den ganzen Tag die Sonne."
+        },
+        {
+          "label": "E",
+          "text": "Ein Hund kann fliegen."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Häufige und seltene Buchstaben — Vermutung",
+    "typ": "auswahl",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "gelb",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?\n\nWähle aus:\nZuerst raten: E, N, I, S, R, A, T\nAuf keinen Fall: X, Y, Q, J, C",
+    "loesung": "Zuerst raten (z.B.): E, N, S (häufigste Buchstaben im Deutschen)\nAuf keinen Fall (z.B.): X, Y, Q (seltenste Buchstaben)",
+    "loesungsweg": "Im Deutschen kommen manche Buchstaben viel häufiger vor als andere:\n- Sehr häufig: E, N, I, S, R, A, T\n- Sehr selten: Q, X, Y, J, C\n\nDer häufigste Buchstabe ist das E — es kommt in fast jedem Wort vor!",
+    "tipps": [
+      "Denke an Wörter, die du kennst: \"Schule\", \"Hase\", \"Katze\", \"Sonne\". Welcher Buchstabe kommt in besonders vielen Wörtern vor?",
+      "Überlege: Welche Buchstaben brauchst du fast nie, wenn du schreibst? Das sind die seltenen. Welche brauchst du ständig? Das sind die häufigen.",
+      "Der Buchstabe E kommt in diesen Wörtern vor: Heft, Lesen, Rechnen, Schreiber. Fallen dir Wörter OHNE E ein? Das ist schwer! Also ist E ein guter erster Tipp.",
+      "Im Deutschen kommen manche Buchstaben viel häufiger vor als andere:\n- Sehr häufig: E, N, I, S, R, A, T\n- Sehr selten: Q, X, Y, J, C\n\nDer häufigste Buchstabe ist das E — es kommt in fast jedem Wort vor!"
+    ],
+    "didaktischerHinweis": "Intuitiver Einstieg in die Häufigkeitsanalyse. Kinder nutzen ihr Sprachgefühl, bevor sie zählen. Das Spiel \"Buchstabenvogel\" motiviert und schafft einen natürlichen Anlass, über Buchstabenhäufigkeiten nachzudenken.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Wähle aus:"
+        },
+        {
+          "label": "B",
+          "text": "Zuerst raten: E, N, I, S, R, A, T"
+        },
+        {
+          "label": "C",
+          "text": "Auf keinen Fall: X, Y, Q, J, C"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Buchstaben in einem Satz zählen",
+    "typ": "eingabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "gelb",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**\n\nTrage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
+    "loesung": "| Buchstabe | Strichliste | Anzahl |\n|-----------|-------------|--------|\n| D | II | 2 |\n| E | IIII | 4 |\n| R | III | 3 |\n| N | III | 3 |\n| I | II | 2 |\n| G | II | 2 |\n| S | I | 1 |\n| T | II | 2 |",
+    "loesungsweg": "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E → 4\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2",
+    "tipps": [
+      "Gehe den Satz Buchstabe für Buchstabe durch. Mache für jeden gesuchten Buchstaben einen Strich in der Tabelle.",
+      "Am besten: Nimm dir einen Buchstaben vor und gehe den ganzen Satz durch. Mache einen Strich für jedes Vorkommen. Dann den nächsten Buchstaben.\n\nStrichliste: IIII = 4, IIII I = 5 usw.",
+      "Fang mit E an: \"D**e**r Hund spi**e**lt g**e**rn**e** im Gart**e**n.\" Zähle: 1...2...3...4... Stimmt das? Dann nimm dir R vor.\n\nAchtung: Schau genau — das E in \"spielt\" und das E in \"gerne\" nicht vergessen!",
+      "Satz in Großbuchstaben: D E R H U N D S P I E L T G E R N E I M G A R T E N\n\nBuchstabe für Buchstabe zählen:\n- D: D...D → 2\n- E: E...E...E...E → 4\n- R: R...R...R → 3\n- N: N...N...N → 3\n- I: I...I → 2\n- G: G...G → 2\n- S: S → 1\n- T: T...T → 2"
+    ],
+    "didaktischerHinweis": "Strichlisten sind das einfachste Werkzeug der Datenerhebung. Die Aufgabe trainiert Konzentration und Systematik. Typische Fehlerquelle: Buchstaben übersehen oder doppelt zählen. Die Methode \"ein Buchstabe pro Durchgang\" ist zuverlässiger.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**\n\nTrage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
+          "antwort": "| Buchstabe | Strichliste | Anzahl |"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Buchstaben in einem kurzen Text zählen",
+    "typ": "eingabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "grün",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
+    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 8 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| I | 3 |\n| S | 3 |\n| G | 2 |\n| D | 2 |\n| O | 2 |\n| L | 2 |\n| H | 2 |\n| A | 2 |\n| M | 2 |\n| F | 2 |\n| Z | 1 |\n| C | 1 |\n\nDie fünf häufigsten: E (8), N (5), R (5), T (5), I oder S (3)",
+    "loesungsweg": "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.",
+    "tipps": [
+      "Geh den Text Buchstabe für Buchstabe durch. Welchen Buchstaben siehst du am öftesten? Tipp: Es ist ein Vokal!",
+      "Erstelle eine Strichliste für alle vorkommenden Buchstaben. Am Ende sortierst du nach Häufigkeit (der mit den meisten Strichen steht oben).",
+      "Färbe zuerst alle E im Text ein: \"Fr**e**do r**e**chn**e**t g**e**rn**e** mit groß**e**n Zahl**e**n. **E**r find**e**t Math**e** toll.\"\nZähle: 1, 2, 3, 4, 5, 6, 7, ... Wie viele E findest du?",
+      "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit."
+    ],
+    "didaktischerHinweis": "Längerer Text = mehr Daten = zuverlässigeres Ergebnis. Kinder entdecken: Das E ist tatsächlich der häufigste Buchstabe! Das bestätigt die Vermutung aus Aufgabe 17. Der Übergang von Strichliste zur Rangfolge ist ein wichtiger Schritt in der Datenauswertung.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
+          "antwort": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Säulendiagramm aus Buchstabenhäufigkeiten erstellen",
+    "typ": "eingabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "grün",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |\n\na) Zeichne das Diagramm.\nb) Welcher Buchstabe kommt am häufigsten vor?\nc) Welche zwei Buchstaben kommen gleich oft vor?",
+    "loesung": "b) E (12-mal)\nc) R und S (je 6-mal)\n\na) Säulendiagramm:\n```\n12 |  █\n10 |  █        █\n 8 |  █  █     █\n 6 |  █  █  █  █  █\n 4 |  █  █  █  █  █  █\n 2 |  █  █  █  █  █  █  █\n   |  E  N  R  S  T  A  I\n```",
+    "loesungsweg": "Für jede Säule: Anzahl ÷ 2 = Kästchenhöhe.\n- E: 12 ÷ 2 = 6 Kästchen\n- N: 8 ÷ 2 = 4 Kästchen\n- R: 6 ÷ 2 = 3 Kästchen\n- S: 6 ÷ 2 = 3 Kästchen\n- T: 10 ÷ 2 = 5 Kästchen\n- A: 4 ÷ 2 = 2 Kästchen\n- I: 5 ÷ 2 = 2,5 Kästchen (halbes Kästchen)",
+    "tipps": [
+      "Ein Säulendiagramm zeigt Zahlen als Balken. Je größer die Zahl, desto höher der Balken. Welcher Buchstabe bekommt den höchsten Balken?",
+      "Zeichne für jeden Buchstaben eine Säule. 1 Kästchen = 2 Buchstaben. Also: E hat 12 Buchstaben → 12 ÷ 2 = 6 Kästchen hoch. Mache das für alle Buchstaben.",
+      "Fang mit E an: 12 Buchstaben ÷ 2 = 6 Kästchen. Zeichne eine Säule, die 6 Kästchen hoch ist.\nDann N: 8 ÷ 2 = 4 Kästchen.\nR und S: 6 ÷ 2 = 3 Kästchen — gleich hoch!",
+      "Für jede Säule: Anzahl ÷ 2 = Kästchenhöhe.\n- E: 12 ÷ 2 = 6 Kästchen\n- N: 8 ÷ 2 = 4 Kästchen\n- R: 6 ÷ 2 = 3 Kästchen\n- S: 6 ÷ 2 = 3 Kästchen\n- T: 10 ÷ 2 = 5 Kästchen\n- A: 4 ÷ 2 = 2 Kästchen\n- I: 5 ÷ 2 = 2,5 Kästchen (halbes Kästchen)"
+    ],
+    "didaktischerHinweis": "Säulendiagramme sind das zentrale Visualisierungswerkzeug für Häufigkeiten. Die Skalierung (1 Kästchen = 2) ist ein wichtiges Konzept: Kinder müssen teilen und ggf. mit halben Kästchen umgehen. Das Ablesen von Informationen aus dem Diagramm (b und c) trainiert die Diagrammkompetenz.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Zeichne das Diagramm.",
+          "antwort": "Säulendiagramm:"
+        },
+        {
+          "label": "b",
+          "frage": "Welcher Buchstabe kommt am häufigsten vor?",
+          "antwort": "E (12-mal)"
+        },
+        {
+          "label": "c",
+          "frage": "Welche zwei Buchstaben kommen gleich oft vor?",
+          "antwort": "R und S (je 6-mal)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Diagramm ablesen — Vergleichende Aussagen",
+    "typ": "auswahl",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "grün",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Schau dir die Buchstabenhäufigkeiten an:\n\n| Buchstabe | E | N | R | S | T | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 15 | 10 | 7 | 5 | 9 | 8 |\n\nWelche Aussage stimmt? Welche stimmt nicht?\n\na) E kommt am häufigsten vor.\nb) S kommt häufiger vor als R.\nc) N kommt doppelt so oft vor wie S.\nd) A kommt seltener vor als T.\ne) R und A zusammen kommen genauso oft vor wie E.",
+    "loesung": "a) Stimmt (15 ist der höchste Wert)\nb) Stimmt nicht (S=5, R=7, also R kommt häufiger vor)\nc) Stimmt (N=10, S=5, und 10 = 2 × 5)\nd) Stimmt (A=8, T=9, also A < T)\ne) Stimmt (R+A = 7+8 = 15 = E)",
+    "loesungsweg": "Jede Aussage einzeln prüfen:\n- a) E=15, nächsthöchster N=10 → E ist am häufigsten ✓\n- b) S=5, R=7 → S < R, also S kommt seltener vor, nicht häufiger ✗\n- c) N=10, S=5 → 10 = 2 × 5 ✓\n- d) A=8, T=9 → 8 < 9 ✓\n- e) R+A = 7+8 = 15 = E ✓",
+    "tipps": [
+      "Lies jede Aussage und schau in der Tabelle nach: Welche Zahlen brauchst du? Vergleiche sie direkt.",
+      "Schreibe zu jeder Aussage die Zahlen daneben:\na) E=15, ist das das Maximum?\nb) S=5, R=7, ist 5 > 7?\n...",
+      "b) S kommt 5-mal vor, R kommt 7-mal vor. 5 ist weniger als 7. Also kommt S seltener vor als R — die Aussage sagt aber \"häufiger\". Stimmt das?",
+      "Jede Aussage einzeln prüfen:\n- a) E=15, nächsthöchster N=10 → E ist am häufigsten ✓\n- b) S=5, R=7 → S < R, also S kommt seltener vor, nicht häufiger ✗\n- c) N=10, S=5 → 10 = 2 × 5 ✓\n- d) A=8, T=9 → 8 < 9 ✓\n- e) R+A = 7+8 = 15 = E ✓"
+    ],
+    "didaktischerHinweis": "Daten interpretieren und Aussagen kritisch prüfen — eine Kernkompetenz der Datenanalyse. Besonders die Begriffe \"häufiger als\", \"doppelt so oft\" und \"genauso oft wie\" müssen verstanden werden. Die Aufgabe trainiert auch Addition und Vergleich.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Schau dir die Buchstabenhäufigkeiten an:\n\n| Buchstabe | E | N | R | S | T | A |\n|-----------|---|---|---|---|---|---|\n| Anzahl | 15 | 10 | 7 | 5 | 9 | 8 |\n\nWelche Aussage stimmt? Welche stimmt nicht?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "E kommt am häufigsten vor."
+        },
+        {
+          "label": "B",
+          "text": "S kommt häufiger vor als R."
+        },
+        {
+          "label": "C",
+          "text": "N kommt doppelt so oft vor wie S."
+        },
+        {
+          "label": "D",
+          "text": "A kommt seltener vor als T."
+        },
+        {
+          "label": "E",
+          "text": "R und A zusammen kommen genauso oft vor wie E."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Welche Wörter sind schwer zu erraten?",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "orange",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "voll",
+    "aufgabenstellung": "Beim Spiel \"Buchstabenvogel\" musst du ein Wort erraten, indem du Buchstaben rätst. Falsche Buchstaben kosten einen Versuch.\n\nWelches der folgenden Wörter wäre am **schwersten** zu erraten? Begründe deine Antwort.\n\na) SCHULHEFT\nb) RHYTHMUS\nc) ELEFANT\nd) GYMNASIUM",
+    "loesung": "b) RHYTHMUS ist am schwersten zu erraten.",
+    "loesungsweg": "Man schaut, wie viele seltene Buchstaben im Wort stecken:\n- a) SCHULHEFT: S, C, H, U, L, H, E, F, T → E und S sind häufig, leicht zu erraten\n- b) RHYTHMUS: R, H, Y, T, H, M, U, S → Y ist sehr selten! Kein E!\n- c) ELEFANT: E, L, E, F, A, N, T → zwei E, viele häufige Buchstaben\n- d) GYMNASIUM: G, Y, M, N, A, S, I, U, M → Y ist selten, aber A, N, S, I sind häufig\n\nRHYTHMUS hat kein E (der häufigste Buchstabe!) und enthält Y (sehr selten). Deshalb ist es am schwersten.",
+    "tipps": [
+      "Welches Wort enthält die meisten seltenen Buchstaben? Und: Welches Wort hat keinen der Top-Buchstaben (E, N, S, R)?",
+      "Prüfe für jedes Wort: Enthält es E? Enthält es N? Enthält es häufige Buchstaben? Je weniger häufige Buchstaben, desto schwerer ist es zu erraten.",
+      "Suche in jedem Wort nach dem Buchstaben E:\n- SCHULHEFT: E ist drin! → einfacher zu erraten\n- RHYTHMUS: kein E! → schwerer\n- ELEFANT: sogar 2 × E! → am einfachsten\nWelches Wort hat also die wenigsten häufigen Buchstaben?",
+      "Man schaut, wie viele seltene Buchstaben im Wort stecken:\n- a) SCHULHEFT: S, C, H, U, L, H, E, F, T → E und S sind häufig, leicht zu erraten\n- b) RHYTHMUS: R, H, Y, T, H, M, U, S → Y ist sehr selten! Kein E!\n- c) ELEFANT: E, L, E, F, A, N, T → zwei E, viele häufige Buchstaben\n- d) GYMNASIUM: G, Y, M, N, A, S, I, U, M → Y ist selten, aber A, N, S, I sind häufig\n\nRHYTHMUS hat kein E (der häufigste Buchstabe!) und enthält Y (sehr selten). Deshalb ist es am schwersten."
+    ],
+    "didaktischerHinweis": "Diese Aufgabe verbindet Buchstabenhäufigkeiten mit strategischem Denken. Kinder lernen, dass Wissen über Häufigkeiten einen praktischen Nutzen hat (bessere Strategie beim Buchstabenraten). Das ist angewandte Statistik auf Grundschulniveau!",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Beim Spiel \"Buchstabenvogel\" musst du ein Wort erraten, indem du Buchstaben rätst. Falsche Buchstaben kosten einen Versuch.\n\nWelches der folgenden Wörter wäre am **schwersten** zu erraten? Begründe deine Antwort.",
+      "kontext": "Beim Spiel \"Buchstabenvogel\" musst du ein Wort erraten, indem du Buchstaben rätst. Falsche Buchstaben kosten einen Versuch.\n\nWelches der folgenden Wörter wäre am **schwersten** zu erraten? Begründe deine Antwort.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "SCHULHEFT",
+          "antwort": ""
+        },
+        {
+          "label": "b",
+          "frage": "RHYTHMUS",
+          "antwort": "RHYTHMUS ist am schwersten zu erraten."
+        },
+        {
+          "label": "c",
+          "frage": "ELEFANT",
+          "antwort": ""
+        },
+        {
+          "label": "d",
+          "frage": "GYMNASIUM",
+          "antwort": ""
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eigenen Text untersuchen — Buchstabenverteilung",
+    "typ": "eingabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "orange",
+    "buchseite": 76,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "teilweise",
+    "aufgabenstellung": "Untersuche diesen Zeitungstext. Zähle die Buchstaben und beantworte die Fragen.\n\n**\"Die Feuerwehr rettete gestern einen Kater vom Dach. Der Kater hatte sich erschreckt und war auf den höchsten Baum geklettert.\"**\n\na) Welcher Buchstabe kommt am häufigsten vor?\nb) Welcher Buchstabe kommt am seltensten vor (aber mindestens einmal)?\nc) Welche Buchstaben kommen gar nicht vor?",
+    "loesung": "a) E (kommt am häufigsten vor, ca. 14-mal)\nb) z.B. F (1-mal), W (1-mal) oder B (1-mal)\nc) z.B. J, Q, X, Y, Z kommen nicht vor (variiert je nach Zählung)",
+    "loesungsweg": "Systematisches Zählen aller Buchstaben im Text:\nE: ca. 14 — mit grossem Abstand am häufigsten\nR: ca. 7\nT: ca. 7\nN: ca. 5\n...\nSelten: F, W, B (je 1-mal)\nNicht vorhanden: J, Q, X, Y (oder weitere)",
+    "tipps": [
+      "Beginne mit dem E — färbe alle E im Text ein. Dann zähle sie. Wiederhole das für andere Buchstaben, die dir auffallen.",
+      "Mache eine Strichliste für das gesamte Alphabet (A bis Z). Gehe den Text Buchstabe für Buchstabe durch und mache für jeden einen Strich.",
+      "Fang mit den Vokalen an (A, E, I, O, U) — die sind leicht zu finden. Zähle dann die häufigsten Konsonanten: R, N, S, T. Am Ende schau, welche Buchstaben des Alphabets gar keinen Strich haben.",
+      "Systematisches Zählen aller Buchstaben im Text:\nE: ca. 14 — mit grossem Abstand am häufigsten\nR: ca. 7\nT: ca. 7\nN: ca. 5\n...\nSelten: F, W, B (je 1-mal)\nNicht vorhanden: J, Q, X, Y (oder weitere)"
+    ],
+    "didaktischerHinweis": "Längerer Text mit realistischem Inhalt. Die vollständige Auszählung ist aufwändig und trainiert Ausdauer und Systematik. Das Ergebnis (E am häufigsten, seltene Buchstaben wie Q, X, Y fehlen) bestätigt die Erkenntnisse aus den vorherigen Aufgaben. Kinder sehen: Die Muster gelten für ALLE deutschen Texte.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Untersuche diesen Zeitungstext. Zähle die Buchstaben und beantworte die Fragen.\n\n**\"Die Feuerwehr rettete gestern einen Kater vom Dach. Der Kater hatte sich erschreckt und war auf den höchsten Baum geklettert.\"**",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welcher Buchstabe kommt am häufigsten vor?",
+          "antwort": "E (kommt am häufigsten vor, ca. 14-mal)"
+        },
+        {
+          "label": "b",
+          "frage": "Welcher Buchstabe kommt am seltensten vor (aber mindestens einmal)?",
+          "antwort": "z.B. F (1-mal), W (1-mal) oder B (1-mal)"
+        },
+        {
+          "label": "c",
+          "frage": "Welche Buchstaben kommen gar nicht vor?",
+          "antwort": "z.B. J, Q, X, Y, Z kommen nicht vor (variiert je nach Zählung)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Buchstabenverteilung vergleichen — Deutsch vs. andere Sprache",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben zählen",
+    "schwierigkeit": "orange",
+    "buchseite": 77,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "häufigkeitsanalyse",
+    "digital": "teilweise",
+    "aufgabenstellung": "Hier sind die fünf häufigsten Buchstaben in zwei Sprachen:\n\n**Deutsch:** E, N, I, S, R\n**Englisch:** E, T, A, O, I\n\na) Welcher Buchstabe ist in beiden Sprachen unter den Top 5?\nb) Welcher Buchstabe ist im Deutschen häufig, aber nicht im Englischen (unter den Top 5)?\nc) Warum könnte das E in beiden Sprachen der häufigste Buchstabe sein?",
+    "loesung": "a) E und I sind in beiden Listen.\nb) N, S und R sind im Deutschen unter den Top 5, aber nicht im Englischen.\nc) Das E kommt in sehr vielen Wörtern vor — sowohl im Deutschen als auch im Englischen. Es wird für viele Endungen und Vorsilben gebraucht.",
+    "loesungsweg": "Vergleich der Listen:\n- Deutsch: {E, N, I, S, R}\n- Englisch: {E, T, A, O, I}\n- Schnittmenge (in beiden): {E, I}\n- Nur Deutsch: {N, S, R}\n- Nur Englisch: {T, A, O}",
+    "tipps": [
+      "Schreibe beide Listen nebeneinander. Welche Buchstaben tauchen in BEIDEN auf?",
+      "Kreise die gemeinsamen Buchstaben ein. Unterstreiche die, die nur in einer Liste vorkommen.",
+      "Deutsch: E, N, I, S, R\nEnglisch: E, T, A, O, I\nPrüfe: Ist E in beiden? Ja! Ist N in beiden? N ist nicht im Englischen. Ist I in beiden? ...",
+      "Vergleich der Listen:\n- Deutsch: {E, N, I, S, R}\n- Englisch: {E, T, A, O, I}\n- Schnittmenge (in beiden): {E, I}\n- Nur Deutsch: {N, S, R}\n- Nur Englisch: {T, A, O}"
+    ],
+    "didaktischerHinweis": "Sprachvergleiche wecken Neugier und zeigen, dass Buchstabenhäufigkeiten sprachspezifisch sind. Das E als universell häufiger Buchstabe ist ein spannendes Ergebnis. Die Aufgabe lässt sich gut mit dem Deutschunterricht verknüpfen. Für mehrsprachige Kinder besonders motivierend.",
+    "erklaerungBild": "assets/erklaerungen/s72-merkkasten-baumdiagramm.webp",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Hier sind die fünf häufigsten Buchstaben in zwei Sprachen:\n\n**Deutsch:** E, N, I, S, R\n**Englisch:** E, T, A, O, I",
+      "kontext": "Hier sind die fünf häufigsten Buchstaben in zwei Sprachen:\n\n**Deutsch:** E, N, I, S, R\n**Englisch:** E, T, A, O, I",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welcher Buchstabe ist in beiden Sprachen unter den Top 5?",
+          "antwort": "E und I sind in beiden Listen."
+        },
+        {
+          "label": "b",
+          "frage": "Welcher Buchstabe ist im Deutschen häufig, aber nicht im Englischen (unter den Top 5)?",
+          "antwort": "N, S und R sind im Deutschen unter den Top 5, aber nicht im Englischen."
+        },
+        {
+          "label": "c",
+          "frage": "Warum könnte das E in beiden Sprachen der häufigste Buchstabe sein?",
+          "antwort": "Das E kommt in sehr vielen Wörtern vor — sowohl im Deutschen als auch im Englischen. Es wird für viele Endungen und Vorsilben gebraucht."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Augensummen mit zwei Würfeln — möglich oder unmöglich?",
+    "typ": "wahr-falsch",
+    "thema": "Würfelspiele — Augensummen",
+    "schwierigkeit": "gelb",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wuerfelspiele",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Stimmen die folgenden Aussagen?\n\na) \"Die Augensumme 1 ist möglich.\"\nb) \"Die Augensumme 7 ist möglich.\"\nc) \"Die Augensumme 12 ist möglich.\"\nd) \"Die Augensumme 13 ist unmöglich.\"",
+    "loesung": "a) Falsch — Die kleinste Augensumme mit zwei Würfeln ist 1 + 1 = 2. Die Summe 1 ist unmöglich.\nb) Richtig — Zum Beispiel 3 + 4 = 7 oder 1 + 6 = 7.\nc) Richtig — 6 + 6 = 12. Das ist die größtmögliche Augensumme.\nd) Richtig — Die größte Augensumme ist 6 + 6 = 12. Eine Summe von 13 ist unmöglich.",
+    "loesungsweg": "Zwei Würfel zeigen jeweils mindestens 1 und höchstens 6.\n- Kleinste Augensumme: 1 + 1 = 2\n- Größte Augensumme: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n\nDaraus folgt: 1 ist unmöglich (< 2), 7 ist möglich, 12 ist möglich (Maximum), 13 ist unmöglich (> 12).",
+    "tipps": [
+      "Was ist die kleinste Zahl, die ein Würfel zeigen kann? Und wenn du zwei davon addierst? Was ist die größte?",
+      "Schreibe dir die Grenzen auf:\n- Minimum: 1 + 1 = 2\n- Maximum: 6 + 6 = 12\nJede Augensumme zwischen 2 und 12 ist möglich. Alles darunter oder darüber ist unmöglich.",
+      "a) Kann die Summe 1 sein? Der kleinste Wert pro Würfel ist 1. Also ist 1 + 1 = 2 das Minimum. Ist 1 kleiner als 2? Dann ist die Summe 1 ...?\nb) Kann die Summe 7 sein? Zum Beispiel: 3 + ? = 7. Welche Zahl fehlt? Zeigt der Würfel diese Zahl?",
+      "Zwei Würfel zeigen jeweils mindestens 1 und höchstens 6.\n- Kleinste Augensumme: 1 + 1 = 2\n- Größte Augensumme: 6 + 6 = 12\n- Mögliche Summen: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n\nDaraus folgt: 1 ist unmöglich (< 2), 7 ist möglich, 12 ist möglich (Maximum), 13 ist unmöglich (> 12)."
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe, die das Grundverständnis für den Wertebereich bei zwei Würfeln sichert. Die Grenzen (Minimum 2, Maximum 12) bilden die Basis für alle weiteren Aufgaben zu Augensummen. Das Kind soll diese Grenzen selbst herleiten, nicht auswendig lernen.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Stimmen die folgenden Aussagen?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "\"Die Augensumme 1 ist möglich.\"",
+          "richtig": false,
+          "erklaerung": "Falsch — Die kleinste Augensumme mit zwei Würfeln ist 1 + 1 = 2. Die Summe 1 ist unmöglich."
+        },
+        {
+          "label": "b",
+          "aussage": "\"Die Augensumme 7 ist möglich.\"",
+          "richtig": true,
+          "erklaerung": "Richtig — Zum Beispiel 3 + 4 = 7 oder 1 + 6 = 7."
+        },
+        {
+          "label": "c",
+          "aussage": "\"Die Augensumme 12 ist möglich.\"",
+          "richtig": true,
+          "erklaerung": "Richtig — 6 + 6 = 12. Das ist die größtmögliche Augensumme."
+        },
+        {
+          "label": "d",
+          "aussage": "\"Die Augensumme 13 ist unmöglich.\"",
+          "richtig": true,
+          "erklaerung": "Richtig — Die größte Augensumme ist 6 + 6 = 12. Eine Summe von 13 ist unmöglich."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Welche Augensumme hat die meisten Möglichkeiten?",
+    "typ": "auswahl",
+    "thema": "Würfelspiele — Augensummen",
+    "schwierigkeit": "gelb",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wuerfelspiele",
+    "digital": "voll",
+    "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Welche Augensumme hat die meisten Möglichkeiten, gewürfelt zu werden?\n\na) 2\nb) 7\nc) 12",
+    "loesung": "b) 7",
+    "loesungsweg": "Zähle für jede Summe die Kombinationen:\n- Augensumme 2: nur 1+1 → 1 Möglichkeit\n- Augensumme 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten\n- Augensumme 12: nur 6+6 → 1 Möglichkeit\n\nDie 7 hat mit 6 Möglichkeiten die meisten Kombinationen aller Augensummen.",
+    "tipps": [
+      "Überlege: Auf wie viele verschiedene Arten kann man 2 würfeln? Und auf wie viele Arten kann man 7 würfeln? Male dir die Würfel auf!",
+      "Schreibe für jede Summe alle Kombinationen auf. Zum Beispiel für 7: Welcher erste Würfel + welcher zweite Würfel ergibt zusammen 7?\n- 1 + ? = 7\n- 2 + ? = 7\n- 3 + ? = 7\n- ...",
+      "Summe 2: Nur 1+1 — das ist 1 Möglichkeit.\nSumme 7: 1+6 ist eine Möglichkeit. 2+5 ist eine weitere. 3+4 auch. Aber auch 4+3, 5+2 und 6+1! Das sind zusammen ...? Möglichkeiten.",
+      "Zähle für jede Summe die Kombinationen:\n- Augensumme 2: nur 1+1 → 1 Möglichkeit\n- Augensumme 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1 → 6 Möglichkeiten\n- Augensumme 12: nur 6+6 → 1 Möglichkeit\n\nDie 7 hat mit 6 Möglichkeiten die meisten Kombinationen aller Augensummen."
+    ],
+    "didaktischerHinweis": "Zentrale Erkenntnis der Wahrscheinlichkeitslehre: Nicht alle Augensummen sind gleich wahrscheinlich. Die 7 als \"Champion\" mit 6 Kombinationen wird oft in Spielen ausgenutzt. Das systematische Aufzählen der Kombinationen trainiert gleichzeitig kombinatorisches Denken.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Welche Augensumme hat die meisten Möglichkeiten, gewürfelt zu werden?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "sicher — möglich — unmöglich",
+    "typ": "zuordnung",
+    "thema": "Würfelspiele — Augensummen",
+    "schwierigkeit": "grün",
+    "buchseite": 74,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wuerfelspiele",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die folgenden Aussagen den Begriffen **sicher**, **möglich** oder **unmöglich** zu.\n\nBeim Würfeln mit zwei Würfeln ...\n\n| Aussage | sicher / möglich / unmöglich? |\n|---------|-------------------------------|\n| a) Die Augensumme ist kleiner als 13. | ? |\n| b) Die Augensumme ist genau 6. | ? |\n| c) Die Augensumme ist 1. | ? |\n| d) Die Augensumme ist eine gerade Zahl. | ? |\n| e) Die Augensumme ist größer als 1. | ? |",
+    "loesung": "- a) Die Augensumme ist kleiner als 13. → **sicher** (Maximum ist 12, also immer kleiner als 13)\n- b) Die Augensumme ist genau 6. → **möglich** (z.B. 1+5, 2+4, 3+3 — aber nicht bei jedem Wurf)\n- c) Die Augensumme ist 1. → **unmöglich** (Minimum ist 1+1 = 2)\n- d) Die Augensumme ist eine gerade Zahl. → **möglich** (z.B. 1+1 = 2, aber auch 1+2 = 3 ist ungerade)\n- e) Die Augensumme ist größer als 1. → **sicher** (Minimum ist 2, also immer größer als 1)",
+    "loesungsweg": "- **sicher** = tritt bei JEDEM Wurf ein, es gibt keine Ausnahme\n- **möglich** = tritt manchmal ein, aber nicht immer\n- **unmöglich** = kann nie eintreten, egal was man würfelt\n\nPrüfe für jede Aussage: Gibt es einen Wurf, bei dem sie NICHT gilt? → dann ist sie nicht sicher. Gibt es einen Wurf, bei dem sie gilt? → dann ist sie nicht unmöglich.",
+    "tipps": [
+      "Denke an die Grenzen: Die kleinste Augensumme ist 2, die größte ist 12. Welche Aussagen gelten IMMER, welche nur MANCHMAL, welche NIE?",
+      "Prüfe jede Aussage mit einem Gegenbeispiel:\n- Kann die Aussage falsch sein? → Dann ist sie nicht \"sicher\".\n- Kann die Aussage wahr sein? → Dann ist sie nicht \"unmöglich\".\n- Kann sie sowohl wahr als auch falsch sein? → Dann ist sie \"möglich\".",
+      "a) Ist die Augensumme immer kleiner als 13? Die größte Summe ist 12. Ist 12 < 13? Ja! Gibt es eine Summe ≥ 13? Nein! Also ist es ...?\nc) Kann die Summe 1 sein? Das Minimum ist 1+1 = 2. Ist 2 > 1? Dann ist eine Summe von 1 ...?",
+      "- **sicher** = tritt bei JEDEM Wurf ein, es gibt keine Ausnahme\n- **möglich** = tritt manchmal ein, aber nicht immer\n- **unmöglich** = kann nie eintreten, egal was man würfelt\n\nPrüfe für jede Aussage: Gibt es einen Wurf, bei dem sie NICHT gilt? → dann ist sie nicht sicher. Gibt es einen Wurf, bei dem sie gilt? → dann ist sie nicht unmöglich."
+    ],
+    "didaktischerHinweis": "Die Dreistufung sicher/möglich/unmöglich ist ein Kernbegriff der Wahrscheinlichkeitslehre in der Grundschule. Die Aufgabe verlangt, dass das Kind nicht nur einzelne Beispiele betrachtet, sondern über ALLE möglichen Würfe nachdenkt. Aussage d) ist besonders lehrreich: Gerade Summen kommen vor (2, 4, 6, ...), aber nicht immer — also \"möglich\", nicht \"sicher\".",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die folgenden Aussagen den Begriffen **sicher**, **möglich** oder **unmöglich** zu.\nBeim Würfeln mit zwei Würfeln ...\n| Aussage | sicher / möglich / unmöglich? |\n|---------|-------------------------------|\n| a) Die Augensumme ist kleiner als 13. | ? |\n| b) Die Augensumme ist genau 6. | ? |\n| c) Die Augensumme ist 1. | ? |\n| d) Die Augensumme ist eine gerade Zahl. | ? |\n| e) Die Augensumme ist größer als 1. | ? |",
+      "items": [],
+      "choices": [],
+      "antworten": {}
+    }
+  },
+  {
+    "titel": "Faire Gewinnregel?",
+    "typ": "auswahl",
+    "thema": "Würfelspiele — Augensummen",
+    "schwierigkeit": "grün",
+    "buchseite": 75,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wuerfelspiele",
+    "digital": "voll",
+    "aufgabenstellung": "Zwei Kinder spielen ein Würfelspiel mit zwei Würfeln. Die Regel lautet:\n\n- **Kind A** bekommt einen Punkt, wenn die Augensumme **gerade** ist (2, 4, 6, 8, 10, 12).\n- **Kind B** bekommt einen Punkt, wenn die Augensumme **ungerade** ist (3, 5, 7, 9, 11).\n\nIst das Spiel fair?\n\na) Ja, das ist fair — beide haben gleich viele Möglichkeiten.\nb) Nein, gerade Summen kommen häufiger vor.\nc) Nein, ungerade Summen kommen häufiger vor.",
+    "loesung": "a) Ja, das ist fair — beide haben gleich viele Möglichkeiten.",
+    "loesungsweg": "Von den 36 möglichen Kombinationen (6 × 6) ergeben:\n- **18 Kombinationen** eine gerade Summe\n- **18 Kombinationen** eine ungerade Summe\n\nGerade Summen: 1+1, 1+3, 1+5, 2+2, 2+4, 2+6, 3+1, 3+3, 3+5, 4+2, 4+4, 4+6, 5+1, 5+3, 5+5, 6+2, 6+4, 6+6 → 18\nUngerade Summen: 1+2, 1+4, 1+6, 2+1, 2+3, 2+5, 3+2, 3+4, 3+6, 4+1, 4+3, 4+5, 5+2, 5+4, 5+6, 6+1, 6+3, 6+5 → 18\n\nBeide haben exakt gleich viele Möglichkeiten, also ist das Spiel fair.",
+    "tipps": [
+      "Überlege: Wann ist eine Summe gerade? Wenn beide Würfel gerade ODER beide ungerade sind. Wann ist sie ungerade? Wenn ein Würfel gerade und der andere ungerade ist.",
+      "Male eine Tabelle mit allen 36 Kombinationen (6 Zeilen × 6 Spalten). Färbe gerade Summen blau und ungerade Summen rot. Zähle dann die blauen und roten Felder.\n\n```\n    1   2   3   4   5   6\n1 | 2 | 3 | 4 | 5 | 6 | 7 |\n2 | 3 | 4 | 5 | 6 | 7 | 8 |\n3 | 4 | 5 | 6 | 7 | 8 | 9 |\n4 | 5 | 6 | 7 | 8 | 9 |10 |\n5 | 6 | 7 | 8 | 9 |10 |11 |\n6 | 7 | 8 | 9 |10 |11 |12 |\n```",
+      "In der Tabelle bildet sich ein Schachbrettmuster: gerade und ungerade wechseln sich ab. In einem 6×6-Schachbrett gibt es 18 helle und 18 dunkle Felder. Also gibt es 18 gerade und 18 ungerade Summen. Ist das fair?",
+      "Von den 36 möglichen Kombinationen (6 × 6) ergeben:\n- **18 Kombinationen** eine gerade Summe\n- **18 Kombinationen** eine ungerade Summe\n\nGerade Summen: 1+1, 1+3, 1+5, 2+2, 2+4, 2+6, 3+1, 3+3, 3+5, 4+2, 4+4, 4+6, 5+1, 5+3, 5+5, 6+2, 6+4, 6+6 → 18\nUngerade Summen: 1+2, 1+4, 1+6, 2+1, 2+3, 2+5, 3+2, 3+4, 3+6, 4+1, 4+3, 4+5, 5+2, 5+4, 5+6, 6+1, 6+3, 6+5 → 18\n\nBeide haben exakt gleich viele Möglichkeiten, also ist das Spiel fair."
+    ],
+    "didaktischerHinweis": "Fairness beurteilen ist ein zentrales Thema der Wahrscheinlichkeitslehre. Das Kind lernt, dass \"fair\" bedeutet: gleich viele günstige Ausgänge für beide Spieler. Die Erkenntnis, dass gerade und ungerade Summen gleich häufig sind, ist nicht offensichtlich — das Schachbrettmuster in der Tabelle macht es visuell erfahrbar.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Zwei Kinder spielen ein Würfelspiel mit zwei Würfeln. Die Regel lautet:\n\n- **Kind A** bekommt einen Punkt, wenn die Augensumme **gerade** ist (2, 4, 6, 8, 10, 12).\n- **Kind B** bekommt einen Punkt, wenn die Augensumme **ungerade** ist (3, 5, 7, 9, 11).\n\nIst das Spiel fair?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Ja, das ist fair — beide haben gleich viele Möglichkeiten."
+        },
+        {
+          "label": "B",
+          "text": "Nein, gerade Summen kommen häufiger vor."
+        },
+        {
+          "label": "C",
+          "text": "Nein, ungerade Summen kommen häufiger vor."
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Augensummen mit drei Würfeln",
+    "typ": "eingabe",
+    "thema": "Würfelspiele — Augensummen",
+    "schwierigkeit": "orange",
+    "buchseite": 75,
+    "kapitel": "07-kombinatorik-wahrscheinlichkeit",
+    "stageId": "wuerfelspiele",
+    "digital": "voll",
+    "aufgabenstellung": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.\n\na) Was ist die kleinste mögliche Augensumme?\nb) Was ist die größte mögliche Augensumme?\nc) Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen a und b.)",
+    "loesung": "a) 3\nb) 18\nc) 10 (oder 11 — beide haben jeweils 27 Kombinationen und sind gleich häufig)",
+    "loesungsweg": "- a) Minimum: Jeder Würfel zeigt 1 → 1 + 1 + 1 = 3\n- b) Maximum: Jeder Würfel zeigt 6 → 6 + 6 + 6 = 18\n- c) Die möglichen Summen reichen von 3 bis 18. Die Mitte liegt bei (3 + 18) / 2 = 10,5. Die Summen 10 und 11 haben tatsächlich beide die meisten Kombinationen (je 27 von 216 möglichen).",
+    "tipps": [
+      "Stell dir drei Würfel vor. Was zeigen sie, wenn alle die kleinste Zahl zeigen? Und wenn alle die größte Zahl zeigen?",
+      "Für a): Jeder Würfel zeigt mindestens 1. Drei Würfel zeigen zusammen mindestens 1 + 1 + 1 = ?\nFür b): Jeder Würfel zeigt höchstens 6. Drei Würfel zeigen zusammen höchstens 6 + 6 + 6 = ?\nFür c): Die häufigste Summe liegt in der Mitte zwischen dem Minimum und Maximum.",
+      "a) 1 + 1 + 1 = ?\nb) 6 + 6 + 6 = ?\nc) Die Mitte zwischen deinen Antworten a) und b): Addiere beide und teile durch 2. (3 + 18) / 2 = ? Runde auf eine ganze Zahl — das ist die häufigste Summe!",
+      "- a) Minimum: Jeder Würfel zeigt 1 → 1 + 1 + 1 = 3\n- b) Maximum: Jeder Würfel zeigt 6 → 6 + 6 + 6 = 18\n- c) Die möglichen Summen reichen von 3 bis 18. Die Mitte liegt bei (3 + 18) / 2 = 10,5. Die Summen 10 und 11 haben tatsächlich beide die meisten Kombinationen (je 27 von 216 möglichen)."
+    ],
+    "didaktischerHinweis": "Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.",
+    "erklaerungBild": "assets/erklaerungen/s74-merkkasten-wahrscheinlichkeit.webp",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was ist die kleinste mögliche Augensumme?",
+          "antwort": "3"
+        },
+        {
+          "label": "b",
+          "frage": "Was ist die größte mögliche Augensumme?",
+          "antwort": "18"
+        },
+        {
+          "label": "c",
+          "frage": "Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen a und b.)",
+          "antwort": "10 (oder 11 — beide haben jeweils 27 Kombinationen und sind gleich häufig)"
+        }
+      ]
+    }
+  }
+]

@@ -58,6 +58,7 @@ export function Uebersicht() {
   const profileAvatar = useProfileStore((s) => s.activeProfileAvatar);
   const [stagesReady, setStagesReady] = useState(STAGES.length);
   const [openId, setOpenId] = useState<string | null>('grund');
+  const [suche, setSuche] = useState('');
 
   useEffect(() => {
     if (profileId == null) {
@@ -72,11 +73,29 @@ export function Uebersicht() {
 
   const gruppen = useMemo(() => gruppiereStages(STAGES), [stagesReady]);
 
+  const gefilterteGruppen = useMemo(() => {
+    const q = suche.trim().toLowerCase();
+    if (!q) return gruppen;
+    return gruppen
+      .map((g) => ({
+        ...g,
+        stages: g.stages.filter(
+          (s) =>
+            s.titel.toLowerCase().includes(q) ||
+            s.sub.toLowerCase().includes(q) ||
+            g.titel.toLowerCase().includes(q),
+        ),
+      }))
+      .filter((g) => g.stages.length > 0);
+  }, [gruppen, suche]);
+
   function toggle(id: string) {
     setOpenId((prev) => (prev === id ? null : id));
   }
 
   if (profileId == null) return null;
+
+  const istSuche = suche.trim().length > 0;
 
   return (
     <AppShell showTabBar>
@@ -97,16 +116,54 @@ export function Uebersicht() {
           </button>
         </div>
 
+        {/* Suchleiste */}
+        <div className="relative mb-3">
+          <svg
+            width="18" height="18" viewBox="0 0 18 18" fill="none"
+            className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none"
+            aria-hidden="true"
+          >
+            <circle cx="8" cy="8" r="5.5" stroke="currentColor" strokeWidth="1.8" />
+            <path d="M12.5 12.5L16 16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+          </svg>
+          <input
+            type="text"
+            value={suche}
+            onChange={(e) => {
+              setSuche(e.target.value);
+              if (e.target.value.trim()) setOpenId(null);
+            }}
+            placeholder="Aufgabentyp suchen..."
+            className="w-full pl-10 pr-9 py-2.5 min-h-[44px] text-sm border-2 border-border rounded-xl bg-card placeholder:text-muted focus:border-primary focus:ring-3 focus:ring-primary/20 outline-none transition-colors"
+          />
+          {suche && (
+            <button
+              onClick={() => setSuche('')}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 flex items-center justify-center rounded-lg text-muted hover:text-heading hover:bg-border/50 cursor-pointer transition-colors"
+              aria-label="Suche leeren"
+            >
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3 3L11 11M11 3L3 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+            </button>
+          )}
+        </div>
+
         <div className="space-y-2">
-          {gruppen.map((gruppe) => (
+          {gefilterteGruppen.map((gruppe) => (
             <AkkordeonSection
               key={gruppe.id}
               gruppe={gruppe}
-              isOpen={openId === gruppe.id}
+              isOpen={istSuche || openId === gruppe.id}
               onToggle={() => toggle(gruppe.id)}
               onStageClick={(id) => navigate(`/stufe/${id}`)}
             />
           ))}
+          {istSuche && gefilterteGruppen.length === 0 && (
+            <p className="text-center text-muted text-sm py-8">
+              Kein Aufgabentyp gefunden für „{suche}"
+            </p>
+          )}
         </div>
       </main>
     </AppShell>

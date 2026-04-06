@@ -1,0 +1,277 @@
+[
+  {
+    "titel": "Tabelle lesen — Werte ablesen und vergleichen",
+    "typ": "eingabe",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "gelb",
+    "buchseite": 122,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "In einer Tabelle stehen die Körpergrössen von Kindern der Klasse 4b:\n\n| Name | Alter | Größe in cm |\n|------|-------|--------------|\n| Sofie | 10 | 142 |\n| Lena | 10 | 152 |\n| Emine | 10 | 129 |\n| Tobi | 10 | 152 |\n| Emilio | 10 | 128 |\n\na) Wer ist das größte Kind? Wie groß ist es?\nb) Wer ist das kleinste Kind? Wie groß ist es?\nc) Wie groß ist der Größenunterschied zwischen dem größten und dem kleinsten Kind?",
+    "loesung": "a) Lena und Tobi sind gleich groß: 152 cm\nb) Emilio: 128 cm\nc) 152 - 128 = 24 cm",
+    "loesungsweg": "Lies die Größen aus der Tabelle ab und vergleiche:\n129, 142, 152, 128, 152. Die größte Zahl ist 152 (Lena und Tobi), die kleinste ist 128 (Emilio).\nUnterschied: 152 - 128 = 24 cm.",
+    "tipps": [
+      "Schau dir alle Zahlen in der Spalte „Größe\" an. Welche Zahl ist am größten? Welche am kleinsten?",
+      "Sortiere die Größen im Kopf von klein nach groß: 128, 129, 142, 152, 152. Jetzt siehst du sofort, wer der Größte und wer der Kleinste ist.",
+      "Die größte Zahl ist 152 — das sind ___ und ___. Die kleinste ist 128 — das ist ___. Unterschied: 152 - 128 = ___",
+      "Lies die Größen aus der Tabelle ab und vergleiche:\n129, 142, 152, 128, 152. Die größte Zahl ist 152 (Lena und Tobi), die kleinste ist 128 (Emilio).\nUnterschied: 152 - 128 = 24 cm."
+    ],
+    "didaktischerHinweis": "Tabellenlesen als Grundkompetenz für Datenarbeit. Entspricht S. 122, Aufg. 1-3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "In einer Tabelle stehen die Körpergrössen von Kindern der Klasse 4b:\n\n| Name | Alter | Größe in cm |\n|------|-------|--------------|\n| Sofie | 10 | 142 |\n| Lena | 10 | 152 |\n| Emine | 10 | 129 |\n| Tobi | 10 | 152 |\n| Emilio | 10 | 128 |",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wer ist das größte Kind? Wie groß ist es?",
+          "antwort": "Lena und Tobi sind gleich groß: 152 cm"
+        },
+        {
+          "label": "b",
+          "frage": "Wer ist das kleinste Kind? Wie groß ist es?",
+          "antwort": "Emilio: 128 cm"
+        },
+        {
+          "label": "c",
+          "frage": "Wie groß ist der Größenunterschied zwischen dem größten und dem kleinsten Kind?",
+          "antwort": "152 - 128 = 24 cm"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Größenunterschiede berechnen",
+    "typ": "eingabe",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "gelb",
+    "buchseite": 122,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "Berechne die Größenunterschiede.\n\na) Olli ist 144 cm groß, Lars ist 141 cm groß. Wie viele cm Unterschied?\nb) Pia ist 137 cm groß, Noemi ist 140 cm groß. Wie viele cm Unterschied?\nc) Ali ist 153 cm groß, Emine ist 129 cm groß. Wie viele cm Unterschied?",
+    "loesung": "a) 3\nb) 3\nc) 24",
+    "loesungsweg": "- a) 144 - 141 = 3 cm\n- b) 140 - 137 = 3 cm\n- c) 153 - 129 = 24 cm",
+    "tipps": [
+      "Für den Unterschied rechnest du: größere Zahl minus kleinere Zahl. Egal, wer zuerst genannt wird.",
+      "Unterschied = größere Zahl - kleinere Zahl.\na) 144 - 141 = ?",
+      "a) 144 - 141 = ___\nb) 140 - 137 = ___\nc) 153 - 129 = ___",
+      "- a) 144 - 141 = 3 cm\n- b) 140 - 137 = 3 cm\n- c) 153 - 129 = 24 cm"
+    ],
+    "didaktischerHinweis": "Subtraktion im Kontext von Tabellendaten. Entspricht S. 122, Aufg. 3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Berechne die Größenunterschiede.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Olli ist 144 cm groß, Lars ist 141 cm groß. Wie viele cm Unterschied?",
+          "antwort": "3"
+        },
+        {
+          "label": "b",
+          "frage": "Pia ist 137 cm groß, Noemi ist 140 cm groß. Wie viele cm Unterschied?",
+          "antwort": "3"
+        },
+        {
+          "label": "c",
+          "frage": "Ali ist 153 cm groß, Emine ist 129 cm groß. Wie viele cm Unterschied?",
+          "antwort": "24"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Mittelwert verstehen — Größe in der Mitte",
+    "typ": "eingabe",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "grün",
+    "buchseite": 122,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "Fünf Mädchen haben ihre Körpergrösse gemessen und sich der Größe nach aufgestellt:\n129 cm, 137 cm, 140 cm, 142 cm, 152 cm.\n\na) Welche Größe steht genau in der Mitte?\nb) Das ist der Mittelwert. Wie groß ist er?",
+    "loesung": "a) 140\nb) 140",
+    "loesungsweg": "Bei einer ungeraden Anzahl von Werten ist der Mittelwert (Median) der Wert, der genau in der Mitte steht, wenn alle der Größe nach geordnet sind:\n129, 137, **140**, 142, 152 → 140 cm steht in der Mitte (2 Werte links, 2 Werte rechts).",
+    "tipps": [
+      "Stell dir die fünf Kinder in einer Reihe vor, von klein nach groß. Welches Kind steht genau in der Mitte?",
+      "Es sind 5 Kinder. Das Kind in der Mitte ist das 3. Kind. Zähle: 1., 2., **3.**, 4., 5.",
+      "129, 137, ___, 142, 152. Links stehen 2 Zahlen, rechts stehen 2 Zahlen. Die Zahl in der Mitte ist ___",
+      "Bei einer ungeraden Anzahl von Werten ist der Mittelwert (Median) der Wert, der genau in der Mitte steht, wenn alle der Größe nach geordnet sind:\n129, 137, **140**, 142, 152 → 140 cm steht in der Mitte (2 Werte links, 2 Werte rechts)."
+    ],
+    "didaktischerHinweis": "Einführung Median (Mittelwert als „Wert in der Mitte\"). Entspricht S. 122, Aufg. 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Fünf Mädchen haben ihre Körpergrösse gemessen und sich der Größe nach aufgestellt:\n129 cm, 137 cm, 140 cm, 142 cm, 152 cm.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Welche Größe steht genau in der Mitte?",
+          "antwort": "140"
+        },
+        {
+          "label": "b",
+          "frage": "Das ist der Mittelwert. Wie groß ist er?",
+          "antwort": "140"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Diagramm lesen — Werte ablesen",
+    "typ": "wahr-falsch",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "grün",
+    "buchseite": 123,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "In einem Diagramm zur Körpergrösse von Kindern (Alter 2-18 Jahre) kannst du ablesen, wie groß Kinder in verschiedenem Alter durchschnittlich sind. Sind diese Aussagen richtig oder falsch?\n\na) Mit 10 Jahren sind Jungen und Mädchen ungefähr gleich groß.\nb) Jungen werden am Ende in der Regel größer als Mädchen.\nc) Neugeborene sind etwa 100 cm groß.\nd) Mit 18 Jahren sind Mädchen im Durchschnitt größer als Jungen.",
+    "loesung": "a) Richtig (beide ca. 140 cm)\nb) Richtig (Jungen ca. 180 cm, Mädchen ca. 168 cm)\nc) Falsch (Neugeborene sind ca. 50 cm groß)\nd) Falsch (Jungen sind mit 18 größer)",
+    "loesungsweg": "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch",
+    "tipps": [
+      "Lies bei jedem Alter den Wert auf der y-Achse (Körpergrösse) ab. Vergleiche dann die beiden Linien (Jungen und Mädchen).",
+      "Gehe bei jeder Aussage so vor:\n1. Finde das genannte Alter auf der x-Achse\n2. Lies den Größenwert auf der y-Achse ab\n3. Prüfe die Aussage",
+      "a) Bei 10 Jahren: Jungen ≈ 140 cm, Mädchen ≈ 140 cm. Ungefähr gleich? ___\nc) Bei 0 Jahren (Geburt): Die Linie startet bei ca. ___ cm. Ist das 100 cm?",
+      "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch"
+    ],
+    "didaktischerHinweis": "Diagramme lesen und Aussagen prüfen. Entspricht S. 123, Aufg. 7-9.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "In einem Diagramm zur Körpergrösse von Kindern (Alter 2-18 Jahre) kannst du ablesen, wie groß Kinder in verschiedenem Alter durchschnittlich sind. Sind diese Aussagen richtig oder falsch?",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "Mit 10 Jahren sind Jungen und Mädchen ungefähr gleich groß.",
+          "richtig": true,
+          "erklaerung": "Richtig (beide ca. 140 cm)"
+        },
+        {
+          "label": "b",
+          "aussage": "Jungen werden am Ende in der Regel größer als Mädchen.",
+          "richtig": true,
+          "erklaerung": "Richtig (Jungen ca. 180 cm, Mädchen ca. 168 cm)"
+        },
+        {
+          "label": "c",
+          "aussage": "Neugeborene sind etwa 100 cm groß.",
+          "richtig": false,
+          "erklaerung": "Falsch (Neugeborene sind ca. 50 cm groß)"
+        },
+        {
+          "label": "d",
+          "aussage": "Mit 18 Jahren sind Mädchen im Durchschnitt größer als Jungen.",
+          "richtig": false,
+          "erklaerung": "Falsch (Jungen sind mit 18 größer)"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Rechnen mit Körpergrössen — Dreifaches und Vierfaches",
+    "typ": "eingabe",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "grün",
+    "buchseite": 122,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "Paul ist jetzt 141 cm groß. Er ist 3-mal so groß wie bei seiner Geburt. Pauls Vater ist 4-mal so groß wie Paul bei seiner Geburt.\n\na) Wie groß war Paul bei seiner Geburt?\nb) Wie groß ist Pauls Vater?\nc) Wie viel größer ist Pauls Vater als Paul?",
+    "loesung": "a) 47\nb) 188\nc) 47",
+    "loesungsweg": "- a) Paul jetzt : 3 = Geburtsgrösse → 141 : 3 = 47 cm\n- b) Geburtsgrösse · 4 = Vater → 47 · 4 = 188 cm\n- c) 188 - 141 = 47 cm",
+    "tipps": [
+      "Paul ist 3-mal so groß wie bei der Geburt. Das heißt: Geburtsgrösse · 3 = 141. Welche Zahl mal 3 ergibt 141?",
+      "Teile Pauls jetzige Größe durch 3, um seine Geburtsgrösse zu bekommen. Dann multipliziere die Geburtsgrösse mit 4 für den Vater.",
+      "a) 141 : 3 = ___\nb) ___ · 4 = ___\nc) ___ - 141 = ___",
+      "- a) Paul jetzt : 3 = Geburtsgrösse → 141 : 3 = 47 cm\n- b) Geburtsgrösse · 4 = Vater → 47 · 4 = 188 cm\n- c) 188 - 141 = 47 cm"
+    ],
+    "didaktischerHinweis": "Sachrechnen mit Tabellendaten. Entspricht S. 122, Aufg. 6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Paul ist jetzt 141 cm groß. Er ist 3-mal so groß wie bei seiner Geburt. Pauls Vater ist 4-mal so groß wie Paul bei seiner Geburt.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie groß war Paul bei seiner Geburt?",
+          "antwort": "47"
+        },
+        {
+          "label": "b",
+          "frage": "Wie groß ist Pauls Vater?",
+          "antwort": "188"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel größer ist Pauls Vater als Paul?",
+          "antwort": "47"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Daten ordnen — Reihenfolge nach Größe",
+    "typ": "reihenfolge",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "gelb",
+    "buchseite": 122,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)",
+    "loesung": "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)",
+    "loesungsweg": "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm).",
+    "tipps": [
+      "Suche zuerst die kleinste Zahl. Dann die nächstgrößere. Achtung: Zwei Kinder können gleich groß sein!",
+      "Schreibe alle Größen nebeneinander: 137, 140, 143, 137, 138. Sortiere sie von klein nach groß.",
+      "Die kleinste Zahl ist 137 — das sind ___ und ___. Die nächste ist 138 — das ist ___. Weiter!",
+      "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm)."
+    ],
+    "didaktischerHinweis": "Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "items": [
+            "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)"
+          ],
+          "richtigeReihenfolge": [
+            "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Eigene Größe einschätzen — Wie groß wirst du?",
+    "typ": "eingabe",
+    "thema": "Tabellen und Diagramme",
+    "schwierigkeit": "orange",
+    "buchseite": 123,
+    "kapitel": "13-schaubilder-daten",
+    "stageId": "tabellen-diagramme",
+    "digital": "voll",
+    "aufgabenstellung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters) : 2 - 6 cm\n\nPhilippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
+    "loesung": "169",
+    "loesungsweg": "1. Größen addieren: 168 + 182 = 350\n2. Durch 2 teilen: 350 : 2 = 175\n3. 6 cm abziehen (für Mädchen): 175 - 6 = 169 cm",
+    "tipps": [
+      "Die Formel hat drei Schritte: addieren, halbieren, 6 abziehen. Fange mit dem Addieren an!",
+      "Schritt 1: Mutter + Vater = 168 + 182 = ___\nSchritt 2: Ergebnis : 2 = ___\nSchritt 3: Ergebnis - 6 = ___",
+      "168 + 182 = 350. Jetzt 350 : 2 = 175. Und 175 - 6 = ___",
+      "1. Größen addieren: 168 + 182 = 350\n2. Durch 2 teilen: 350 : 2 = 175\n3. 6 cm abziehen (für Mädchen): 175 - 6 = 169 cm"
+    ],
+    "didaktischerHinweis": "Mehrstufige Rechnung mit persönlichem Bezug. Entspricht S. 123, Formel-Aufgabe.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters) : 2 - 6 cm\n\nPhilippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
+          "antwort": "169"
+        }
+      ]
+    }
+  }
+]
