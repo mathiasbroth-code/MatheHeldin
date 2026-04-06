@@ -14,7 +14,7 @@ thema: "Römische Zahlen"
 schwierigkeit: gelb
 buchseite: 124
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 video: "S125_Roemische_Zahlen.mp4"
 merkkasten_typ: regel
@@ -76,7 +76,7 @@ thema: "Römische Zahlen"
 schwierigkeit: gelb
 buchseite: 125
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -127,7 +127,7 @@ thema: "Römische Zahlen"
 schwierigkeit: grün
 buchseite: 124
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -186,7 +186,7 @@ thema: "Römische Zahlen"
 schwierigkeit: grün
 buchseite: 125
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -244,7 +244,7 @@ thema: "Römische Zahlen"
 schwierigkeit: grün
 buchseite: 125
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -298,7 +298,7 @@ thema: "Römische Zahlen"
 schwierigkeit: orange
 buchseite: 125
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -344,7 +344,7 @@ thema: "Römische Zahlen"
 schwierigkeit: orange
 buchseite: 125
 kapitel: "14-forscherkiste"
-stage_id: "römische-zahlen"
+stage_id: "roemische-zahlen"
 digital: voll
 merkkasten_typ: regel
 merkkasten_text: "Es stehen höchstens drei gleiche Zeichen nebeneinander.\nSteht ein kleineres Zeichen links von einem größeren, wird es subtrahiert."
@@ -403,7 +403,7 @@ thema: "Binärsystem"
 schwierigkeit: gelb
 buchseite: 126
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 video: "S126_Das_Binaersystem.mp4"
 merkkasten_typ: begriffe
@@ -451,7 +451,7 @@ thema: "Binärsystem"
 schwierigkeit: gelb
 buchseite: 126
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
@@ -501,7 +501,7 @@ thema: "Binärsystem"
 schwierigkeit: grün
 buchseite: 126
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
@@ -561,7 +561,7 @@ thema: "Binärsystem"
 schwierigkeit: grün
 buchseite: 126
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
@@ -607,7 +607,7 @@ thema: "Binärsystem"
 schwierigkeit: orange
 buchseite: 127
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
@@ -660,7 +660,7 @@ thema: "Binärsystem"
 schwierigkeit: orange
 buchseite: 126
 kapitel: "14-forscherkiste"
-stage_id: "binärsystem"
+stage_id: "binaersystem"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Zehnersystem (Dezimalsystem), das Zweiersystem (Binärsystem), der Binärcode"
@@ -987,7 +987,7 @@ Mehrstufige Sachaufgabe mit Einheitenumrechnung. Entspricht S. 129, Aufg. 11.
 ## Aufgabe 20
 
 ---
-titel: "Kann das stimmen? — Dateigrössen einschätzen"
+titel: "Kann das stimmen? — Dateigrössen einschaetzen"
 typ: wahr-falsch
 thema: "Datenmengen"
 schwierigkeit: grün

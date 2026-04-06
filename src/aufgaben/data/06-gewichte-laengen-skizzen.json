@@ -890,7 +890,7 @@
       "Der Fussgänger ist am langsamsten — er schafft 4 km/h. Das ist ungefähr 1 km in 15 Minuten. Der Radfahrer ist schneller: 16 km/h = 4 × so schnell wie der Fussgänger. Welche Geschwindigkeit bleibt für das Auto in der Stadt?",
       "Man ordnet die langsamste Geschwindigkeit der langsamsten Fortbewegung zu und arbeitet sich nach oben:\n- Zu Fuss ist man am langsamsten → 4 km/h\n- Ein Fahrrad ist schneller als zu Fuss → 16 km/h\n- In der Stadt fährt man nicht so schnell → 50 km/h\n- Auf der Autobahn schneller → 120 km/h\n- Der ICE ist am schnellsten → 250 km/h"
     ],
-    "didaktischerHinweis": "Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschätzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.",
+    "didaktischerHinweis": "Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschaetzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Geschwindigkeiten den richtigen Fortbewegungsarten zu.",

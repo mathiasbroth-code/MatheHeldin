@@ -5,8 +5,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "gelb",
     "buchseite": 116,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ein Marienkäfer wird im Maßstab 4 : 1 abgebildet. Was bedeutet das?\n\na) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.\nb) Der Käfer ist im Bild 4-mal kleiner als in Wirklichkeit.\nc) Der Käfer ist im Bild gleich groß wie in Wirklichkeit.",
     "loesung": "a) Der Käfer ist im Bild 4-mal so groß wie in Wirklichkeit.",
@@ -45,8 +45,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "gelb",
     "buchseite": 116,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ein Rosenkäfer ist im Maßstab 2 : 1 abgebildet. Im Bild ist er 40 mm lang. Wie groß ist er in Wirklichkeit?",
     "loesung": "20 mm (= 2 cm)",
@@ -76,8 +76,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "grün",
     "buchseite": 116,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit?",
     "loesung": "3",
@@ -107,8 +107,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "grün",
     "buchseite": 117,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ein Blauwal wurde im Maßstab 1 : 500 gezeichnet. Im Bild ist er 6 cm lang. Wie lang ist der Blauwal in Wirklichkeit? Gib das Ergebnis in Metern an.",
     "loesung": "30",
@@ -138,8 +138,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "gelb",
     "buchseite": 117,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ordne jeden Maßstab zu: Ist es eine Vergrößerung oder eine Verkleinerung?\n\na) 3 : 1\nb) 1 : 1.000\nc) 1 : 1\nd) 10 : 1\ne) 1 : 50.000\n\nA) Vergrößerung\nB) Verkleinerung\nC) Originalgrösse",
     "loesung": "a) → A\nb) → B\nc) → C\nd) → A\ne) → B",
@@ -205,8 +205,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "grün",
     "buchseite": 117,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ein Schulgebäude ist 40 m lang. Berechne, wie lang es auf einer Zeichnung wäre.\n\na) Maßstab 1 : 200\nb) Maßstab 1 : 500\nc) Maßstab 1 : 1.000",
     "loesung": "a) 20\nb) 8\nc) 4",
@@ -246,8 +246,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "orange",
     "buchseite": 117,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Berechne die fehlende Größe.\n\na) Maßstab 5 : 1, Länge im Bild: 30 mm → Länge in Wirklichkeit: ___\nb) Maßstab 1 : 2.000, Länge in Wirklichkeit: 80 m → Länge im Bild: ___\nc) Maßstab 1 : 100, Länge im Bild: 15 cm → Länge in Wirklichkeit: ___",
     "loesung": "a) 6\nb) 4\nc) 15",
@@ -287,8 +287,8 @@
     "thema": "Vergrößern und verkleinern",
     "schwierigkeit": "orange",
     "buchseite": 116,
-    "kapitel": "12-maßstab-orientierung",
-    "stageId": "maßstab",
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
     "digital": "voll",
     "aufgabenstellung": "Ein Käfer ist in Wirklichkeit 15 mm lang. Im Bild ist er 45 mm lang. Welcher Maßstab wurde verwendet?\n\na) 1 : 3\nb) 3 : 1\nc) 15 : 1\nd) 1 : 15",
     "loesung": "b) 3 : 1",
@@ -331,7 +331,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "gelb",
     "buchseite": 118,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "voll",
     "aufgabenstellung": "Wie heißen die vier Himmelsrichtungen? Schreibe sie auf.\n\na) N = ___\nb) O = ___\nc) S = ___\nd) W = ___",
@@ -378,7 +378,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "gelb",
     "buchseite": 118,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
     "aufgabenstellung": "Eine Burg hat verschiedene Teile. Ordne die Begriffe der richtigen Beschreibung zu.\n\na) Burggraben\nb) Wehrgang\nc) Burgkapelle\nd) Burghof\n\nA) Gang auf der Mauer, von dem man die Umgebung beobachten kann\nB) Wassergraben rund um die Burg zum Schutz\nC) Kleine Kirche innerhalb der Burgmauern\nD) Freier Platz im Inneren der Burg",
@@ -444,17 +444,17 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "grün",
     "buchseite": 119,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "voll",
     "aufgabenstellung": "Was ist der Unterschied zwischen einer Luftaufnahme und einem Grundriss?\n\na) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.\nb) Eine Luftaufnahme zeigt ein Gebäude von der Seite, ein Grundriss von oben.\nc) Beide zeigen genau das Gleiche.",
     "loesung": "a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.",
-    "loesungsweg": "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)",
+    "loesungsweg": "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, massstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)",
     "tipps": [
       "Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...",
       "Luftaufnahme = Foto von oben (mit allen Details)\nGrundriss = Zeichnung von oben (nur Umrisse und Räume)",
       "Beide zeigen etwas von oben. Aber eines ist ein Foto und eines ist eine vereinfachte ___",
-      "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
+      "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, massstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
     ],
     "didaktischerHinweis": "Unterscheidung Foto/Plan als Grundlage für Kartenverständnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.",
     "parsed": {
@@ -484,7 +484,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "grün",
     "buchseite": 119,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
     "aufgabenstellung": "Stell dir vor, du stehst vor einem Haus und fotografierst es. Du siehst die Haustür und zwei Fenster. Dein Freund fotografiert das gleiche Haus von der Rückseite. Er sieht eine Terrassentür und ein Fenster.\n\nWelche Aussage stimmt?\n\na) Beide Fotos sehen gleich aus, weil es das gleiche Haus ist.\nb) Die Fotos sehen unterschiedlich aus, weil man ein Gebäude aus verschiedenen Richtungen unterschiedlich sieht.\nc) Nur das Foto von vorne ist richtig.",
@@ -524,7 +524,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "grün",
     "buchseite": 118,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
     "aufgabenstellung": "Auf einem Grundriss zeigt die Windrose nach oben = Norden. Beantworte die Fragen.\n\na) Wenn du auf dem Grundriss nach rechts schaust, in welche Himmelsrichtung blickst du?\nb) Wenn du auf dem Grundriss nach unten schaust, in welche Himmelsrichtung blickst du?\nc) Ein Turm steht auf dem Grundriss links. In welcher Himmelsrichtung steht er?",
@@ -566,7 +566,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "orange",
     "buchseite": 119,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
     "aufgabenstellung": "Du stehst nördlich von einem Haus und schaust nach Süden. Du siehst die Nordseite des Hauses. Jetzt gehst du um das Haus herum und stellst dich auf die Südseite.\n\nWelche Seite des Hauses siehst du jetzt?\n\na) Die Nordseite\nb) Die Südseite\nc) Die Westseite\nd) Die Ostseite",
@@ -610,7 +610,7 @@
     "thema": "Ansichten und Grundriss",
     "schwierigkeit": "orange",
     "buchseite": 119,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "ansichten-grundriss",
     "digital": "teilweise",
     "aufgabenstellung": "Auf einem Grundriss siehst du verschiedene Räume einer Wohnung. Ordne die Symbole der richtigen Bedeutung zu.\n\na) Großes Rechteck mit kleinem Quadrat darin\nb) Kleines Rechteck mit Kreis (Waschbecken)\nc) Rechteck mit Viertelkreis an der Ecke\nd) Offener Bereich am Eingang\n\nA) Badezimmer\nB) Küche\nC) Tür (Viertelkreis = Schwungbereich)\nD) Flur",
@@ -676,7 +676,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "gelb",
     "buchseite": 120,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.\n\na) Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m\nb) Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m",
@@ -713,7 +713,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "grün",
     "buchseite": 120,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.\n\na) Wie lang ist die Wanderstrecke in Wirklichkeit?\nb) Wie lange dauert die Wanderung ungefähr?",
@@ -759,7 +759,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "grün",
     "buchseite": 120,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Berechne die Streckenlängen in Wirklichkeit. Gib in km an.\n\na) Maßstab 1 : 25.000, Länge auf der Karte: 20 cm\nb) Maßstab 1 : 50.000, Länge auf der Karte: 20 cm\nc) Maßstab 1 : 100.000, Länge auf der Karte: 20 cm",
@@ -800,7 +800,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "grün",
     "buchseite": 120,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Auf einer Karte sind 5 cm eingezeichnet, die in Wirklichkeit 10 km entsprechen. Welcher Maßstab hat die Karte?\n\na) 1 : 50.000\nb) 1 : 200.000\nc) 1 : 2.000\nd) 1 : 500.000",
@@ -844,7 +844,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "gelb",
     "buchseite": 121,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "teilweise",
     "aufgabenstellung": "Auf einem Stadtplan sind die Spalten mit Zahlen (1-9) und die Zeilen mit Buchstaben (G, H) beschriftet. In welchem Planquadrat liegt ein Ort, wenn er in Spalte 5 und Zeile G ist?",
@@ -875,7 +875,7 @@
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "orange",
     "buchseite": 121,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Auf einem Stadtplan (Maßstab 1 : 10.000) misst du folgende Strecken in Luftlinie.\n\na) Vom Bahnhof zum Schloss: 3 cm auf der Karte → ___ m in Wirklichkeit\nb) Vom Freibad zur Stadthalle: 5 cm auf der Karte → ___ m in Wirklichkeit\nc) Von der Schule zum Park: 2,5 cm auf der Karte → ___ m in Wirklichkeit",
@@ -911,12 +911,12 @@
     }
   },
   {
-    "titel": "Was ist in 1 km Luftlinie? — Entfernungen abschätzen",
+    "titel": "Was ist in 1 km Luftlinie? — Entfernungen abschaetzen",
     "typ": "auswahl",
     "thema": "Orientierung auf Karten und Plänen",
     "schwierigkeit": "orange",
     "buchseite": 121,
-    "kapitel": "12-maßstab-orientierung",
+    "kapitel": "12-massstab-orientierung",
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Ein Stadtplan hat den Maßstab 1 : 10.000. Wie viele Zentimeter auf der Karte entsprechen 1 km in Wirklichkeit?\n\na) 1 cm\nb) 10 cm\nc) 100 cm\nd) 0,1 cm",
@@ -952,6 +952,217 @@
         }
       ],
       "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Von Wirklichkeit zur Zeichnung — Maßstab 1 : 10",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "gelb",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Tisch ist in Wirklichkeit 80 cm lang. Im Maßstab 1 : 10 zeichnest du ihn ___ cm lang. Berechne die Zeichnungslänge für verschiedene Gegenstände.\n\na) Tisch: 80 cm in Wirklichkeit → ___ cm auf der Zeichnung\nb) Regal: 120 cm in Wirklichkeit → ___ cm auf der Zeichnung\nc) Stuhl: 50 cm in Wirklichkeit → ___ cm auf der Zeichnung",
+    "loesung": "a) 8\nb) 12\nc) 5",
+    "loesungsweg": "Maßstab 1 : 10 bedeutet: Die Zeichnung ist 10-mal kleiner als die Wirklichkeit.\nMan teilt die echte Länge durch 10.\n- a) 80 cm : 10 = 8 cm\n- b) 120 cm : 10 = 12 cm\n- c) 50 cm : 10 = 5 cm",
+    "tipps": [
+      "Maßstab 1 : 10 heißt: Die Zeichnung ist kleiner als das Original. Durch welche Zahl musst du die echte Länge teilen?",
+      "Zeichne dir ein Lineal auf Karopapier. Male 80 Kästchen (= 80 cm) und teile sie in 10er-Gruppen. Wie viele Gruppen bekommst du? Das ist die Zeichnungslänge in cm.",
+      "Teile die echte Länge durch 10:\na) 80 : 10 = ___\nb) 120 : 10 = ___\nc) 50 : 10 = ___",
+      "Maßstab 1 : 10 bedeutet: Die Zeichnung ist 10-mal kleiner als die Wirklichkeit.\nMan teilt die echte Länge durch 10.\n- a) 80 cm : 10 = 8 cm\n- b) 120 cm : 10 = 12 cm\n- c) 50 cm : 10 = 5 cm"
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe zum Verkleinern mit dem alltagsnahen Maßstab 1 : 10. Kinder teilen durch 10 — das ist eine bekannte Rechenoperation. Entspricht S. 118, Einführung Verkleinerungsmassstab.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Tisch ist in Wirklichkeit 80 cm lang. Im Maßstab 1 : 10 zeichnest du ihn ___ cm lang. Berechne die Zeichnungslänge für verschiedene Gegenstände.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Tisch: 80 cm in Wirklichkeit → ___ cm auf der Zeichnung",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "Regal: 120 cm in Wirklichkeit → ___ cm auf der Zeichnung",
+          "antwort": "12"
+        },
+        {
+          "label": "c",
+          "frage": "Stuhl: 50 cm in Wirklichkeit → ___ cm auf der Zeichnung",
+          "antwort": "5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Von der Zeichnung zur Wirklichkeit — Maßstab 1 : 10",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "gelb",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Im Maßstab 1 : 10 ist ein Schrank auf der Zeichnung 15 cm hoch. Wie hoch ist er in Wirklichkeit? Berechne die echte Höhe.\n\na) Schrank: 15 cm auf der Zeichnung → ___ cm in Wirklichkeit\nb) Tür: 9 cm auf der Zeichnung → ___ cm in Wirklichkeit\nc) Fenster: 22 cm auf der Zeichnung → ___ cm in Wirklichkeit",
+    "loesung": "a) 150\nb) 90\nc) 220",
+    "loesungsweg": "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung = 10 cm in Wirklichkeit.\nMan multipliziert die Zeichnungslänge mit 10.\n- a) 15 cm · 10 = 150 cm\n- b) 9 cm · 10 = 90 cm\n- c) 22 cm · 10 = 220 cm",
+    "tipps": [
+      "Die Zeichnung ist verkleinert. In Wirklichkeit ist der Gegenstand also größer. Mit welcher Zahl musst du die Zeichnungslänge multiplizieren?",
+      "Zeichne auf Karopapier 15 Kästchen nebeneinander. Jedes Kästchen steht für 10 cm in Wirklichkeit. Zähle: 15 × 10 = ? Das ist die echte Höhe.",
+      "Multipliziere die Zeichnungslänge mit 10:\na) 15 · 10 = ___\nb) 9 · 10 = ___\nc) 22 · 10 = ___",
+      "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung = 10 cm in Wirklichkeit.\nMan multipliziert die Zeichnungslänge mit 10.\n- a) 15 cm · 10 = 150 cm\n- b) 9 cm · 10 = 90 cm\n- c) 22 cm · 10 = 220 cm"
+    ],
+    "didaktischerHinweis": "Umkehrung von Aufgabe 23: Vom Bild zur Wirklichkeit. Kinder multiplizieren mit 10. Wichtig ist das Verständnis, dass die Richtung (Bild→Wirklichkeit) das Gegenteil (Multiplikation statt Division) erfordert. Entspricht S. 118.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Im Maßstab 1 : 10 ist ein Schrank auf der Zeichnung 15 cm hoch. Wie hoch ist er in Wirklichkeit? Berechne die echte Höhe.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Schrank: 15 cm auf der Zeichnung → ___ cm in Wirklichkeit",
+          "antwort": "150"
+        },
+        {
+          "label": "b",
+          "frage": "Tür: 9 cm auf der Zeichnung → ___ cm in Wirklichkeit",
+          "antwort": "90"
+        },
+        {
+          "label": "c",
+          "frage": "Fenster: 22 cm auf der Zeichnung → ___ cm in Wirklichkeit",
+          "antwort": "220"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Klassenzimmer im Maßstab 1 : 100 zeichnen",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "grün",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Klassenzimmer ist 8 m lang und 6 m breit. Du sollst es im Maßstab 1 : 100 zeichnen. Wie groß wird die Zeichnung?\n\na) Länge: 8 m in Wirklichkeit → ___ cm auf der Zeichnung\nb) Breite: 6 m in Wirklichkeit → ___ cm auf der Zeichnung",
+    "loesung": "a) 8\nb) 6",
+    "loesungsweg": "Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung = 100 cm = 1 m in Wirklichkeit.\nDas heißt: Die Meterzahl ergibt direkt die Zentimeterzahl auf der Zeichnung.\n- a) 8 m = 800 cm → 800 cm : 100 = 8 cm\n- b) 6 m = 600 cm → 600 cm : 100 = 6 cm",
+    "tipps": [
+      "Beim Maßstab 1 : 100 ist 1 m in Wirklichkeit genau 1 cm auf der Zeichnung. Wie viele Meter ist das Klassenzimmer lang? Dann weißt du schon die Antwort!",
+      "Nimm Karopapier und zeichne ein Rechteck. Jedes Kästchen (1 cm) steht für 1 m in Wirklichkeit. Zeichne 8 Kästchen in die Länge und 6 Kästchen in die Breite.",
+      "Rechne die Meter in cm um und teile durch 100:\na) 8 m = 800 cm → 800 : 100 = ___\nb) 6 m = 600 cm → 600 : 100 = ___",
+      "Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung = 100 cm = 1 m in Wirklichkeit.\nDas heißt: Die Meterzahl ergibt direkt die Zentimeterzahl auf der Zeichnung.\n- a) 8 m = 800 cm → 800 cm : 100 = 8 cm\n- b) 6 m = 600 cm → 600 cm : 100 = 6 cm"
+    ],
+    "didaktischerHinweis": "Praxisnahe Aufgabe: Ein echtes Klassenzimmer verkleinern. Bei 1 : 100 entspricht 1 m genau 1 cm — diesen Zusammenhang sollen Kinder erkennen und nutzen. Entspricht S. 118.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ein Klassenzimmer ist 8 m lang und 6 m breit. Du sollst es im Maßstab 1 : 100 zeichnen. Wie groß wird die Zeichnung?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Länge: 8 m in Wirklichkeit → ___ cm auf der Zeichnung",
+          "antwort": "8"
+        },
+        {
+          "label": "b",
+          "frage": "Breite: 6 m in Wirklichkeit → ___ cm auf der Zeichnung",
+          "antwort": "6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Entfernungen auf einer Karte berechnen — Maßstab 1 : 1.000",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "grün",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Auf einer Karte im Maßstab 1 : 1.000 sind zwei Häuser 5 cm voneinander entfernt. Wie weit sind sie in Wirklichkeit auseinander? Gib das Ergebnis in Metern an.",
+    "loesung": "50",
+    "loesungsweg": "Maßstab 1 : 1.000 bedeutet: 1 cm auf der Karte = 1.000 cm in Wirklichkeit.\nRechnung: 5 cm · 1.000 = 5.000 cm.\nUmrechnung: 5.000 cm = 50 m.\nDie beiden Häuser sind in Wirklichkeit 50 m auseinander.",
+    "tipps": [
+      "Maßstab 1 : 1.000 heißt: Alles in Wirklichkeit ist 1.000-mal so groß wie auf der Karte. Was passiert, wenn du die 5 cm mit 1.000 multiplizierst?",
+      "Zeichne einen Zahlenstrahl auf Karopapier. Markiere 5 cm. Schreibe unter jedes Kästchen (1 cm) die echte Entfernung: 1 cm = 10 m. Zähle zusammen: 5 × 10 m = ?",
+      "1. 5 cm · 1.000 = 5.000 cm\n2. Rechne in Meter um: 5.000 : 100 = ___ m",
+      "Maßstab 1 : 1.000 bedeutet: 1 cm auf der Karte = 1.000 cm in Wirklichkeit.\nRechnung: 5 cm · 1.000 = 5.000 cm.\nUmrechnung: 5.000 cm = 50 m.\nDie beiden Häuser sind in Wirklichkeit 50 m auseinander."
+    ],
+    "didaktischerHinweis": "Kartenmassstab anwenden mit Einheitenumrechnung cm → m. Kinder müssen zwei Schritte verketten: multiplizieren und Einheit umrechnen. Entspricht S. 118.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Auf einer Karte im Maßstab 1 : 1.000 sind zwei Häuser 5 cm voneinander entfernt. Wie weit sind sie in Wirklichkeit auseinander? Gib das Ergebnis in Metern an.",
+          "antwort": "50"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Passenden Maßstab für ein DIN-A4-Blatt finden",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "orange",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Welcher Maßstab passt, damit die Zeichnung auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) passt? Probiere aus und begründe.\n\nWelchen Maßstab wählst du? 1 : ___",
+    "loesung": "250",
+    "loesungsweg": "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).\nAuch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm).",
+    "tipps": [
+      "Rechne den Schulhof in cm um. Dann überlege: Durch welche Zahl musst du teilen, damit 6.000 cm auf weniger als 29 cm schrumpft?",
+      "Nimm ein DIN-A4-Blatt und ein Lineal. Zeichne die lange Seite (29 cm). Jetzt probiere: Wenn 1 cm = 2 m wäre (Maßstab 1 : 200), bräuchtest du 60 : 2 = 30 cm — das passt knapp nicht. Versuch 1 cm = 2,5 m (Maßstab 1 : 250): 60 : 2,5 = 24 cm — das passt!",
+      "1. Schulhof: 60 m = 6.000 cm, 40 m = 4.000 cm\n2. Probiere Maßstab 1 : 250:\n   Länge: 6.000 : 250 = 24 cm ✓ (passt auf 29 cm)\n   Breite: 4.000 : 250 = 16 cm ✓ (passt auf 21 cm)\n3. Also: Maßstab 1 : ___ passt.",
+      "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).\nAuch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm)."
+    ],
+    "didaktischerHinweis": "Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (1 : 250, 1 : 300). Entspricht S. 118, weiterführende Aufgabe.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Der Schulhof ist 60 m lang und 40 m breit. Welcher Maßstab passt, damit die Zeichnung auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) passt? Probiere aus und begründe.\n\nWelchen Maßstab wählst du? 1 : ___",
+          "antwort": "250"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Vergrößerungsmassstab eines Insekts bestimmen",
+    "typ": "eingabe",
+    "thema": "Vergrößern und Verkleinern",
+    "schwierigkeit": "orange",
+    "buchseite": 118,
+    "kapitel": "12-massstab-orientierung",
+    "stageId": "massstab",
+    "digital": "voll",
+    "aufgabenstellung": "Ein Insekt ist in Wirklichkeit 3 mm lang. Unter der Lupe sieht es 6 cm groß aus. Welcher Vergrößerungs-Maßstab ist das?\n\n___ : 1",
+    "loesung": "20",
+    "loesungsweg": "Zuerst beide Längen in die gleiche Einheit bringen:\n- Insekt in Wirklichkeit: 3 mm\n- Insekt unter der Lupe: 6 cm = 60 mm\nVergrößerungsfaktor: 60 mm : 3 mm = 20.\nDer Maßstab ist 20 : 1 (das Bild ist 20-mal so groß wie das Original).",
+    "tipps": [
+      "Rechne zuerst beide Längen in mm um. Wie viele mm sind 6 cm? Und wie oft passt 3 mm in diese Zahl hinein?",
+      "Zeichne auf Karopapier einen Strich von 3 mm (das ist das echte Insekt). Zeichne daneben einen Strich von 6 cm (das ist das Lupen-Bild). Wie oft passt der kleine Strich in den großen?",
+      "1. 6 cm in mm umrechnen: 6 · 10 = 60 mm\n2. Vergrößerung berechnen: 60 : 3 = ___\n3. Maßstab: ___ : 1",
+      "Zuerst beide Längen in die gleiche Einheit bringen:\n- Insekt in Wirklichkeit: 3 mm\n- Insekt unter der Lupe: 6 cm = 60 mm\nVergrößerungsfaktor: 60 mm : 3 mm = 20.\nDer Maßstab ist 20 : 1 (das Bild ist 20-mal so groß wie das Original)."
+    ],
+    "didaktischerHinweis": "Umkehraufgabe: Maßstab aus zwei Längen bestimmen. Erfordert Einheitenumrechnung cm ↔ mm und Division. Fördert Verständnis, dass Vergrößerungsmassstab die größere Zahl links hat. Entspricht S. 118.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Ein Insekt ist in Wirklichkeit 3 mm lang. Unter der Lupe sieht es 6 cm groß aus. Welcher Vergrößerungs-Maßstab ist das?\n\n___ : 1",
+          "antwort": "20"
+        }
+      ]
     }
   }
 ]

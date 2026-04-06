@@ -273,10 +273,14 @@ merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ### Aufgabenstellung
 Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.
 
-Lukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)
+a) Lukas (137 cm)
+b) Justus (140 cm)
+c) Daniel (143 cm)
+d) Jan (137 cm)
+e) Ole (138 cm)
 
 ### Lösung
-Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)
+a, d, e, b, c
 
 ### Lösungsweg
 Sortiere die Zahlen: 137, 137, 138, 140, 143.
@@ -299,7 +303,7 @@ Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.
 ## Aufgabe 7
 
 ---
-titel: "Eigene Größe einschätzen — Wie groß wirst du?"
+titel: "Eigene Größe einschaetzen — Wie groß wirst du?"
 typ: textaufgabe
 thema: "Tabellen und Diagramme"
 schwierigkeit: orange
@@ -312,7 +316,7 @@ merkkasten_begriffe: "der Unterschied, der Mittelwert"
 ---
 
 ### Aufgabenstellung
-Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:
+Es gibt eine Formel, um die spätere Größe eines Mädchens zu schaetzen:
 (Größe der Mutter + Größe des Vaters - 13 cm) : 2
 
 Philippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?

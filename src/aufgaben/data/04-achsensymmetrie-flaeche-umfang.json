@@ -451,8 +451,8 @@
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "geodreieck-erkennen",
     "digital": "voll",
-    "aufgabenstellung": "Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?\n\na) Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen → senkrecht oder parallel?\nb) Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben → senkrecht oder parallel?\nc) Zwei Linien, die sich in einem spitzen Winkel kreuzen → senkrecht oder parallel?",
-    "loesung": "a) senkrecht\nb) parallel\nc) weder senkrecht noch parallel (sie kreuzen sich, aber nicht im rechten Winkel)",
+    "aufgabenstellung": "Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?\n\na) Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen\nb) Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben\nc) Zwei Linien, die sich in einem spitzen Winkel kreuzen\n\nA) senkrecht\nB) parallel\nC) weder noch",
+    "loesung": "a) → A\nb) → B\nc) → C",
     "loesungsweg": "- **Senkrecht** bedeutet: Die Linien bilden einen rechten Winkel (90°), wie das Kreuz bei einem Plus-Zeichen (+).\n- **Parallel** bedeutet: Die Linien laufen in die gleiche Richtung und haben überall den gleichen Abstand. Sie kreuzen sich nie, auch wenn man sie verlängert.\n- Wenn sich Linien kreuzen, aber keinen rechten Winkel bilden, sind sie weder senkrecht noch parallel.",
     "tipps": [
       "Stell dir die Ecke eines Blattes Papier vor — die zwei Seiten stehen senkrecht aufeinander. Und die obere und untere Kante des Blattes? Die sind parallel.",
@@ -467,19 +467,36 @@
       "items": [
         {
           "label": "a",
-          "text": "Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen → senkrecht oder parallel?"
+          "text": "Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen"
         },
         {
           "label": "b",
-          "text": "Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben → senkrecht oder parallel?"
+          "text": "Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben"
         },
         {
           "label": "c",
-          "text": "Zwei Linien, die sich in einem spitzen Winkel kreuzen → senkrecht oder parallel?"
+          "text": "Zwei Linien, die sich in einem spitzen Winkel kreuzen"
         }
       ],
-      "choices": [],
-      "antworten": {}
+      "choices": [
+        {
+          "label": "A",
+          "text": "senkrecht"
+        },
+        {
+          "label": "B",
+          "text": "parallel"
+        },
+        {
+          "label": "C",
+          "text": "weder noch"
+        }
+      ],
+      "antworten": {
+        "a": "A",
+        "b": "B",
+        "c": "C"
+      }
     }
   },
   {
@@ -727,7 +744,7 @@
     "schwierigkeit": "gelb",
     "buchseite": 50,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Ordne die Beschreibungen dem richtigen Begriff zu.\n\na) \"Wie lang ist der Zaun um den Garten?\"\nb) \"Wie viel Rasen passt in den Garten?\"\nc) \"Wie viel Band brauche ich, um das Geschenk zu umwickeln?\"\nd) \"Wie viele Fliesen brauche ich für den Boden?\"\n\nA) Umfang\nB) Flächeninhalt",
     "loesung": "a) → A\nb) → B\nc) → A\nd) → B",
@@ -786,7 +803,7 @@
     "schwierigkeit": "gelb",
     "buchseite": 50,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Bestimme den Flächeninhalt in Einheitsquadraten (EQ).\n\na) Ein Rechteck, das 5 Kästchen breit und 3 Kästchen hoch ist.\nb) Ein Quadrat mit 4 Kästchen Seitenlänge.\nc) Ein L-förmige Figur: Ein Rechteck 4 × 2 Kästchen, oben rechts fehlt ein 2 × 1 Kästchen großes Stück.",
     "loesung": "a) 5 · 3 = 15 EQ\nb) 4 · 4 = 16 EQ\nc) 4 · 2 − 2 · 1 = 8 − 2 = 6 EQ",
@@ -828,7 +845,7 @@
     "schwierigkeit": "grün",
     "buchseite": 53,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Berechne den Umfang der Rechtecke.\n\na) Länge 7 cm, Breite 3 cm\nb) Länge 10 cm, Breite 1 cm\nc) Länge 5 cm, Breite 5 cm (Quadrat!)",
     "loesung": "a) U = 2 · (7 + 3) = 2 · 10 = 20 cm\nb) U = 2 · (10 + 1) = 2 · 11 = 22 cm\nc) U = 2 · (5 + 5) = 2 · 10 = 20 cm (oder: 4 · 5 = 20 cm)",
@@ -870,7 +887,7 @@
     "schwierigkeit": "grün",
     "buchseite": 52,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Bestimme den Flächeninhalt der Figuren in Quadratzentimetern (qcm). Ein Kästchen = 1 qcm.\n\na) Ein Rechteck: 6 cm breit, 3 cm hoch.\nb) Ein Quadrat: 5 cm Seitenlänge.\nc) Ein L-förmige Figur: Unten ein Rechteck 6 × 2 cm, links oben ein Rechteck 2 × 3 cm.",
     "loesung": "a) 6 · 3 = 18 qcm\nb) 5 · 5 = 25 qcm\nc) (6 · 2) + (2 · 3) = 12 + 6 = 18 qcm",
@@ -912,7 +929,7 @@
     "schwierigkeit": "grün",
     "buchseite": 53,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Der Umfang eines Rechtecks ist bekannt. Eine Seite ist gegeben. Wie lang sind die anderen Seiten?\n\na) Umfang = 20 cm, eine Seite ist 6 cm lang.\nb) Umfang = 26 cm, eine Seite ist 5 cm lang.\nc) Umfang = 32 cm, eine Seite ist 10 cm lang.",
     "loesung": "a) Die andere Seite ist 4 cm lang. (2 · (6 + x) = 20 → 6 + x = 10 → x = 4)\nb) Die andere Seite ist 8 cm lang. (2 · (5 + x) = 26 → 5 + x = 13 → x = 8)\nc) Die andere Seite ist 6 cm lang. (2 · (10 + x) = 32 → 10 + x = 16 → x = 6)",
@@ -954,7 +971,7 @@
     "schwierigkeit": "orange",
     "buchseite": 51,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Finde alle Rechtecke mit dem Umfang 16 cm (nur ganze Zentimeter als Seitenlängen). Berechne für jedes Rechteck auch den Flächeninhalt.",
     "loesung": "- 1 cm × 7 cm → Flächeninhalt = 7 qcm\n- 2 cm × 6 cm → Flächeninhalt = 12 qcm\n- 3 cm × 5 cm → Flächeninhalt = 15 qcm\n- 4 cm × 4 cm → Flächeninhalt = 16 qcm (Quadrat)",
@@ -985,7 +1002,7 @@
     "schwierigkeit": "grün",
     "buchseite": 51,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Stimmt das? Beurteile jede Aussage.\n\na) Figuren mit dem gleichen Flächeninhalt haben immer auch den gleichen Umfang.\nb) Es gibt Figuren, die den gleichen Umfang haben, aber nicht den gleichen Flächeninhalt.\nc) Ein Quadrat mit der Seitenlänge 4 cm hat den Umfang 16 cm und den Flächeninhalt 16 qcm.\nd) Der Umfang wird in cm gemessen, der Flächeninhalt in qcm.",
     "loesung": "a) Stimmt nicht — verschiedene Formen können den gleichen Flächeninhalt, aber unterschiedlichen Umfang haben.\nb) Stimmt — z.B. ein 1 × 7 Rechteck und ein 3 × 5 Rechteck haben beide den Umfang 16 cm, aber verschiedene Flächeninhalte (7 qcm und 15 qcm).\nc) Stimmt — U = 4 · 4 = 16 cm, F = 4 · 4 = 16 qcm.\nd) Stimmt — Umfang ist eine Länge (cm), Flächeninhalt ist eine Fläche (qcm).",
@@ -1035,7 +1052,7 @@
     "schwierigkeit": "orange",
     "buchseite": 51,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Die Klasse plant ein rechteckiges Blumenbeet mit einem Flächeninhalt von 12 Quadratmetern. Das Beet soll mit Zaunlatten umrandet werden. Jede Zaunlatte ist 1 m lang.\n\na) Finde alle möglichen Rechtecke (ganze Meter).\nb) Wie viele Zaunlatten braucht man für jedes Beet?\nc) Die Klassenkasse reicht nur für 16 Zaunlatten. Welche Beete kommen in Frage?",
     "loesung": "a) Mögliche Rechtecke (Länge × Breite = 12):\n- 1 m × 12 m\n- 2 m × 6 m\n- 3 m × 4 m\n\nb) Zaunlatten = Umfang:\n- 1 × 12: U = 2 · (1 + 12) = 26 Latten\n- 2 × 6: U = 2 · (2 + 6) = 16 Latten\n- 3 × 4: U = 2 · (3 + 4) = 14 Latten\n\nc) Maximal 16 Zaunlatten: 2 × 6 (16 Latten) und 3 × 4 (14 Latten) kommen in Frage.",
@@ -1077,7 +1094,7 @@
     "schwierigkeit": "orange",
     "buchseite": 53,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Bestimme den Umfang der Figuren. Jedes Kästchen hat eine Seitenlänge von 1 cm.\n\na) Eine Treppenfigur: 3 Stufen, die jeweils 1 Kästchen breit und 1 Kästchen hoch sind (von links unten nach rechts oben).\nb) Ein T-förmige Figur: Oben ein Rechteck 4 × 1, darunter mittig ein Rechteck 2 × 2.",
     "loesung": "a) Umfang = 12 cm (Man zählt: 3 cm unten + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 3 cm runter = 12 cm. Oder man geht einmal komplett um die Figur und zählt alle Kanten.)\nb) Umfang = 14 cm (Oben: 4 cm, rechts runter: 1 cm, nach links: 1 cm, runter: 2 cm, nach links: 2 cm, hoch: 2 cm, nach links: 1 cm, hoch: 1 cm = 14 cm)",
@@ -1114,7 +1131,7 @@
     "schwierigkeit": "orange",
     "buchseite": 50,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
-    "stageId": "flächeninhalt-umfang",
+    "stageId": "flaecheninhalt-umfang",
     "digital": "voll",
     "aufgabenstellung": "Du hast 16 Streichhölzer (jedes ist 1 Einheit lang). Du legst damit den Rand einer rechteckigen Figur.\n\na) Welches Rechteck hat den größten Flächeninhalt?\nb) Welches Rechteck hat den kleinsten Flächeninhalt?",
     "loesung": "a) Quadrat 4 × 4: Umfang = 16, Flächeninhalt = 16 EQ (größter Flächeninhalt)\nb) Rechteck 1 × 7: Umfang = 16, Flächeninhalt = 7 EQ (kleinster Flächeninhalt)\n\nAlle Möglichkeiten:\n- 1 × 7 → F = 7 EQ\n- 2 × 6 → F = 12 EQ\n- 3 × 5 → F = 15 EQ\n- 4 × 4 → F = 16 EQ ← größter!",

@@ -14,7 +14,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 18
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -77,7 +77,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 18
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -123,7 +123,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: gelb
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -176,7 +176,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -225,7 +225,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -274,7 +274,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -320,7 +320,7 @@ thema: "Der Millionen-Würfel"
 schwierigkeit: orange
 buchseite: 19
 kapitel: "02-zahlen-bis-million"
-stage_id: "millionen-würfel"
+stage_id: "millionen-wuerfel"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
 tipp_2_bild: "assets/erklaerungen/s20-millionenwuerfel-intro.webp"
@@ -607,7 +607,7 @@ thema: "Zahlen zerlegen"
 schwierigkeit: gelb
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-groß"
+stage_id: "zerlegen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
@@ -654,7 +654,7 @@ thema: "Zahlen zerlegen"
 schwierigkeit: grün
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-groß"
+stage_id: "zerlegen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
@@ -701,7 +701,7 @@ thema: "Zahlen zerlegen"
 schwierigkeit: orange
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-groß"
+stage_id: "zerlegen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
@@ -747,7 +747,7 @@ thema: "Zahlen zerlegen"
 schwierigkeit: grün
 buchseite: 21
 kapitel: "02-zahlen-bis-million"
-stage_id: "zerlegen-groß"
+stage_id: "zerlegen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tausender (T), der Hunderter (H), der Zehner (Z), der Einer (E)"
@@ -1096,7 +1096,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1151,7 +1151,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1217,7 +1217,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1267,7 +1267,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1314,7 +1314,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1361,7 +1361,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1409,7 +1409,7 @@ thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
 kapitel: "02-zahlen-bis-million"
-stage_id: "kopfrechnen-groß"
+stage_id: "kopfrechnen-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, die Tausenderstelle"
@@ -1447,21 +1447,21 @@ Aufgaben mit Übertrag beim Kopfrechnen sind deutlich anspruchsvoller. Die Strat
 
 ---
 
-# Thema 6: Große Anzahlen schätzen (S. 26-27)
+# Thema 6: Große Anzahlen schaetzen (S. 26-27)
 
 ## Aufgabe 30
 
 ---
-titel: "Anzahl schätzen — Bonbons in der Tüte"
+titel: "Anzahl schaetzen — Bonbons in der Tüte"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: gelb
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1497,16 +1497,16 @@ Schätzen durch Hochrechnen einer Stichprobe ist eine zentrale Alltagskompetenz.
 ## Aufgabe 31
 
 ---
-titel: "Anzahl schätzen — Nudeln in der Packung"
+titel: "Anzahl schaetzen — Nudeln in der Packung"
 typ: textaufgabe
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1540,16 +1540,16 @@ Die Kombination aus Zählen einer Stichprobe und Hochrechnen auf die Gesamtmenge
 ## Aufgabe 32
 
 ---
-titel: "Anzahl schätzen — Maiskörner in der Packung"
+titel: "Anzahl schaetzen — Maiskörner in der Packung"
 typ: textaufgabe
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1586,14 +1586,14 @@ Hier wird zusätzlich zum Hochrechnen das Gewicht als Hilfsmittel genutzt (Wiege
 ---
 titel: "Schätzstrategie wählen"
 typ: textaufgabe
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: gelb
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1629,23 +1629,23 @@ Denk an die Größe der Objekte: Sehr kleine Dinge → Waage. Dinge auf einer Fl
 Bei a): Linsen sind winzig. Du könntest 10 g abwiegen und die Linsen darin zählen. Dann hochrechnen: Wenn die Packung 500 g hat, brauchst du 50 × die gezählte Menge. Welches Werkzeug nutzt du zum Abwiegen?
 
 ### Didaktischer Hinweis
-Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schätzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.
+Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schaetzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.
 
 ---
 
 ## Aufgabe 34
 
 ---
-titel: "Anzahl schätzen — Menschenmenge"
+titel: "Anzahl schaetzen — Menschenmenge"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1685,14 +1685,14 @@ Die Aufgabe nutzt die Multiplikation als Flächenmodell (Reihen × Plätze pro R
 ---
 titel: "Schätzen — Wie viele passen auf die Fläche?"
 typ: textaufgabe
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1728,14 +1728,14 @@ Das Raster-Prinzip ist eine universelle Schätzstrategie für Flächen. Es verbi
 ---
 titel: "Schätzung überprüfen"
 typ: wahr-falsch
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 27
 kapitel: "02-zahlen-bis-million"
-stage_id: "schätzen"
+stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl"
 ---
 
 ### Aufgabenstellung
@@ -1780,7 +1780,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -1837,7 +1837,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -1894,7 +1894,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -1949,7 +1949,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 29
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -2006,7 +2006,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: orange
 buchseite: 29
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -2059,7 +2059,7 @@ thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: orange
 buchseite: 28
 kapitel: "02-zahlen-bis-million"
-stage_id: "zahlenstrahl-groß"
+stage_id: "zahlenstrahl-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Zahlenstrahl, der Zehntausenderstrich, der Fünftausenderstrich, der Tausenderstrich"
@@ -2111,7 +2111,7 @@ Halbiere immer wieder: 500.000 ist die Mitte. 250.000 ist die Mitte der linken H
 A = 100.000: Das ist 1/10 von 1.000.000 → ganz am Anfang. B = 250.000: Das ist die Hälfte von 500.000 → auf halbem Weg zur Mitte. Wo liegt C = 400.000? Nah an der Mitte, aber links davon.
 
 ### Didaktischer Hinweis
-Das freie Einordnen ohne Skalierung trainiert das Zahlenverständnis und die Proportionalität. Es ist anspruchsvoller als das Ablesen, weil das Kind selbst die relative Position abschätzen muss.
+Das freie Einordnen ohne Skalierung trainiert das Zahlenverständnis und die Proportionalität. Es ist anspruchsvoller als das Ablesen, weil das Kind selbst die relative Position abschaetzen muss.
 
 ---
 
@@ -2839,7 +2839,7 @@ Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie "Genauigkeit" funktio
 
 ---
 titel: "Gerundete Zahlen zuordnen — welche Zahl passt?"
-typ: zuordnung
+typ: textaufgabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: grün
 buchseite: 33
@@ -3367,21 +3367,21 @@ Diese Wahr-Falsch-Aufgabe erfordert strategisches Denken und Argumentieren. Beso
 
 ---
 
-# Thema 12: Große Anzahlen schätzen (S. 26)
+# Thema 12: Große Anzahlen schaetzen (S. 26)
 
 ## Aufgabe 66
 
 ---
 titel: "Schätzen — Äpfel in einer Kiste"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: gelb
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Portionen zählen"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, Portionen zählen"
 ---
 
 ### Aufgabenstellung
@@ -3407,7 +3407,7 @@ Zähle in Portionen: Stell dir vor, du legst die Äpfel in Reihen. In eine Reihe
 Eine Reihe hat ungefähr 10 Äpfel. Die Kiste hat ungefähr 5 Reihen (nebeneinander und übereinander). Also: 5 × 10 = 50. Welche Antwort passt?
 
 ### Didaktischer Hinweis
-Diese Einstiegsaufgabe trainiert das Schätzen mit Alltagsgegenständen. Das Kind soll lernen, Größenordnungen einzuschätzen, indem es sich die Situation konkret vorstellt. Die Strategie "in Portionen aufteilen" (Reihen zählen, dann multiplizieren) ist eine Schlüsselmethode für alle weiteren Schätzaufgaben.
+Diese Einstiegsaufgabe trainiert das Schätzen mit Alltagsgegenständen. Das Kind soll lernen, Größenordnungen einzuschaetzen, indem es sich die Situation konkret vorstellt. Die Strategie "in Portionen aufteilen" (Reihen zählen, dann multiplizieren) ist eine Schlüsselmethode für alle weiteren Schätzaufgaben.
 
 ---
 
@@ -3416,14 +3416,14 @@ Diese Einstiegsaufgabe trainiert das Schätzen mit Alltagsgegenständen. Das Kin
 ---
 titel: "Schätzen — Seiten in einem dicken Buch"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: gelb
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Vergleichsgröße"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, Vergleichsgröße"
 ---
 
 ### Aufgabenstellung
@@ -3449,7 +3449,7 @@ Nutze eine Vergleichsgröße: Dein Mathebuch hat ungefähr 100 Seiten. Ein Harry
 30 Seiten — das ist nur ein dünnes Heft. ✗ 3.000 Seiten — das wäre ein riesiger Stapel Papier, dicker als dein Arm. ✗ 300 Seiten — das ist ungefähr so dick wie 3 Schulhefte übereinander. Klingt das nach einem dicken Buch? ✓
 
 ### Didaktischer Hinweis
-Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden sich jeweils um den Faktor 10. Das Kind soll nicht exakt rechnen, sondern mit bekannten Vergleichsgrößen (Schulheft, Mathebuch) abschätzen, welche Zehnerpotenz passt.
+Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden sich jeweils um den Faktor 10. Das Kind soll nicht exakt rechnen, sondern mit bekannten Vergleichsgrößen (Schulheft, Mathebuch) abschaetzen, welche Zehnerpotenz passt.
 
 ---
 
@@ -3458,14 +3458,14 @@ Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden
 ---
 titel: "Schätzen — Sitzplätze im Kino"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Plätze"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Plätze"
 ---
 
 ### Aufgabenstellung
@@ -3500,14 +3500,14 @@ Diese Aufgabe vertieft die Portionen-Strategie (Reihen × Plätze pro Reihe) in 
 ---
 titel: "Schätzen — Punkte in einem Feld"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Spalten"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, Reihen und Spalten"
 ---
 
 ### Aufgabenstellung
@@ -3544,14 +3544,14 @@ Diese Aufgabe kombiniert Schätzen mit konkretem Rechnen. Da Reihen und Spalten 
 ---
 titel: "Schätzen — Haare auf dem Kopf"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, sehr große Zahlen"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, sehr große Zahlen"
 ---
 
 ### Aufgabenstellung
@@ -3577,7 +3577,7 @@ Denke in Größenordnungen: Die drei Antworten sind 10.000, 100.000 und 1.000.00
 Stell dir vor, du zählst jeden Tag 100 Haare (die fallen auch wirklich ungefähr so viele aus!). Dann hättest du nach 1.000 Tagen (knapp 3 Jahre) alle gezählt: 1.000 × 100 = 100.000. Welche Antwort passt?
 
 ### Didaktischer Hinweis
-Diese Aufgabe konfrontiert das Kind mit einer sehr großen Zahl aus dem eigenen Körper — das erzeugt Staunen und Neugier. Die Strategie "Größenordnung abschätzen durch Ausschließen" (zu wenig / passt / zu viel) ist hier besonders wichtig, weil man Haare nicht einfach in Reihen aufteilen kann.
+Diese Aufgabe konfrontiert das Kind mit einer sehr großen Zahl aus dem eigenen Körper — das erzeugt Staunen und Neugier. Die Strategie "Größenordnung abschaetzen durch Ausschließen" (zu wenig / passt / zu viel) ist hier besonders wichtig, weil man Haare nicht einfach in Reihen aufteilen kann.
 
 ---
 
@@ -3586,14 +3586,14 @@ Diese Aufgabe konfrontiert das Kind mit einer sehr großen Zahl aus dem eigenen 
 ---
 titel: "Schätzen — Sekunden am Tag"
 typ: auswahl
-thema: "Große Anzahlen schätzen"
+thema: "Große Anzahlen schaetzen"
 schwierigkeit: orange
 buchseite: 26
 kapitel: "02-zahlen-bis-million"
 stage_id: "schaetzen"
 digital: voll
 merkkasten_typ: begriffe
-merkkasten_begriffe: "schätzen, die genaue Anzahl, die geschätzte Anzahl, Zeiteinheiten umrechnen"
+merkkasten_begriffe: "schaetzen, die genaue Anzahl, die geschätzte Anzahl, Zeiteinheiten umrechnen"
 ---
 
 ### Aufgabenstellung
@@ -3620,3 +3620,262 @@ Rechne in Schritten: Zuerst Sekunden pro Stunde (60 × 60), dann Sekunden pro Ta
 
 ### Didaktischer Hinweis
 Diese Aufgabe verbindet Schätzen mit konkretem Rechnen in Zeiteinheiten. Das schrittweise Umrechnen (Minuten → Stunden → Tag) ist eine wichtige Strategie. Die drei Antwortmöglichkeiten unterscheiden sich wieder um den Faktor 10, sodass das Kind auch ohne exakte Rechnung durch Größenordnungsdenken die richtige Antwort eingrenzen kann.
+
+---
+
+# Thema 13: Der Millionen-Würfel (S. 18)
+
+## Aufgabe 72
+
+---
+titel: "Tausender in einer Zahl bestimmen"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: gelb
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Wie viele Tausender hat die Zahl 45.000?
+
+### Lösung
+45
+
+### Lösungsweg
+45.000 : 1.000 = 45. Die Zahl 45.000 besteht aus 45 Tausendern, denn 45 × 1.000 = 45.000.
+
+### Tipp 1 (Denkanstoß)
+Stell dir vor, du hast einen Haufen Tausender-Würfel. Wie viele brauchst du, um genau 45.000 zu legen?
+
+### Tipp 2 (Methode)
+Um die Anzahl der Tausender herauszufinden, teile die Zahl durch 1.000. Das ist dasselbe wie die letzten drei Nullen wegzustreichen.
+
+### Tipp 3 (Schritt-für-Schritt)
+45.000 : 1.000 — streiche bei 45.000 die letzten drei Nullen weg. Was bleibt übrig?
+
+### Didaktischer Hinweis
+Diese Aufgabe festigt das Verständnis des Stellenwerts „Tausender". Das Kind soll erkennen, dass man die Anzahl der Tausender bestimmt, indem man die Zahl durch 1.000 teilt — bzw. anschaulich die letzten drei Ziffern „abtrennt".
+
+---
+
+## Aufgabe 73
+
+---
+titel: "Hunderter in einer Zahl bestimmen"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: gelb
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Wie viele Hunderter hat die Zahl 3.200?
+
+### Lösung
+32
+
+### Lösungsweg
+3.200 : 100 = 32. Die Zahl 3.200 besteht aus 32 Hundertern, denn 32 × 100 = 3.200.
+
+### Tipp 1 (Denkanstoß)
+Stell dir Hunderter-Platten vor. Wie viele brauchst du, um genau 3.200 zu bauen?
+
+### Tipp 2 (Methode)
+Um die Anzahl der Hunderter herauszufinden, teile die Zahl durch 100. Das ist dasselbe wie die letzten zwei Nullen wegzustreichen.
+
+### Tipp 3 (Schritt-für-Schritt)
+3.200 : 100 — streiche die letzten zwei Nullen weg: 3.200 → 32. Das ist deine Antwort!
+
+### Didaktischer Hinweis
+Diese Aufgabe trainiert das gleiche Prinzip wie Aufgabe 72, aber auf der Hunderter-Ebene. Das Kind soll die Gemeinsamkeit erkennen: Die Anzahl eines bestimmten Stellenwerts ergibt sich durch Division durch den Stellenwert.
+
+---
+
+## Aufgabe 74
+
+---
+titel: "Zahl in Stellenwerte zerlegen"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: grün
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Zerlege die Zahl 2.345.678 in Stellenwerte.
+
+a) Wie viele Millionen?
+b) Wie viele Hunderttausender?
+c) Wie viele Zehntausender?
+d) Wie viele Tausender?
+
+### Lösung
+a) 2
+b) 3
+c) 4
+d) 5
+
+### Lösungsweg
+Die Zahl 2.345.678 hat folgende Stellenwerte:
+- 2 Millionen (2.000.000)
+- 3 Hunderttausender (300.000)
+- 4 Zehntausender (40.000)
+- 5 Tausender (5.000)
+- 6 Hunderter (600)
+- 7 Zehner (70)
+- 8 Einer (8)
+
+Man liest die Ziffern von links nach rechts ab: 2–3–4–5–6–7–8. Jede Ziffer steht an einem bestimmten Stellenwert.
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahl 2.345.678 in eine Stellenwerttafel. Welche Ziffer steht an welcher Stelle?
+
+### Tipp 2 (Methode)
+Nutze die Stellenwerttafel: M – HT – ZT – T – H – Z – E. Schreibe die Ziffern der Reihe nach ein: 2 | 3 | 4 | 5 | 6 | 7 | 8.
+
+### Tipp 3 (Schritt-für-Schritt)
+Die erste Ziffer (ganz links) ist die Millionen-Stelle: 2. Die nächste Ziffer ist die Hunderttausender-Stelle: 3. Dann Zehntausender: 4. Und Tausender: 5.
+
+### Didaktischer Hinweis
+Das Zerlegen in Stellenwerte ist eine Kernkompetenz im Millionenbereich. Das Kind lernt, jede Ziffer einer großen Zahl einem konkreten Stellenwert zuzuordnen. Die Teilaufgaben a)–d) fokussieren bewusst auf die oberen Stellenwerte (Million bis Tausender), um den erweiterten Zahlenraum zu üben.
+
+---
+
+## Aufgabe 75
+
+---
+titel: "Aus Stellenwerten eine Zahl zusammensetzen"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: grün
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Setze zusammen: 5 Zehntausender + 3 Tausender + 7 Hunderter + 2 Zehner
+
+Welche Zahl ergibt das?
+
+### Lösung
+53.720
+
+### Lösungsweg
+- 5 Zehntausender = 5 × 10.000 = 50.000
+- 3 Tausender = 3 × 1.000 = 3.000
+- 7 Hunderter = 7 × 100 = 700
+- 2 Zehner = 2 × 10 = 20
+- Einer = 0
+
+Zusammen: 50.000 + 3.000 + 700 + 20 = 53.720
+
+### Tipp 1 (Denkanstoß)
+Rechne jeden Stellenwert einzeln aus. Wie viel sind 5 Zehntausender? Und 3 Tausender?
+
+### Tipp 2 (Methode)
+Schreibe die Ziffern in eine Stellenwerttafel: ZT=5, T=3, H=7, Z=2, E=0. Lies die Zahl dann von links nach rechts ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+5 Zehntausender = 50.000. Plus 3 Tausender = 53.000. Plus 7 Hunderter = 53.700. Plus 2 Zehner = 53.720. Vergiss nicht: Die Einer-Stelle ist 0!
+
+### Didaktischer Hinweis
+Diese Aufgabe ist die Umkehrung des Zerlegens: Aus einzelnen Stellenwerten wird eine Zahl zusammengesetzt. Wichtig ist, dass das Kind erkennt, dass fehlende Stellenwerte (hier: Einer) als 0 eingesetzt werden müssen. Das Nutzen der Stellenwerttafel als Hilfsmittel ist hier besonders sinnvoll.
+
+---
+
+## Aufgabe 76
+
+---
+titel: "Kurzschreibweise in Zahl umwandeln"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: orange
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Welche Zahl ist das? Schreibe die Zahl.
+
+a) 3HT 7ZT 2T 4H
+b) 5HT 0ZT 8T 1H
+c) 9HT 9ZT 9T 9H
+
+### Lösung
+a) 372.400
+b) 508.100
+c) 999.900
+
+### Lösungsweg
+Die Abkürzungen bedeuten: HT = Hunderttausender, ZT = Zehntausender, T = Tausender, H = Hunderter.
+
+a) 3 × 100.000 + 7 × 10.000 + 2 × 1.000 + 4 × 100 = 300.000 + 70.000 + 2.000 + 400 = 372.400
+b) 5 × 100.000 + 0 × 10.000 + 8 × 1.000 + 1 × 100 = 500.000 + 0 + 8.000 + 100 = 508.100
+c) 9 × 100.000 + 9 × 10.000 + 9 × 1.000 + 9 × 100 = 900.000 + 90.000 + 9.000 + 900 = 999.900
+
+### Tipp 1 (Denkanstoß)
+Kennst du die Abkürzungen? HT steht für Hunderttausender, ZT für Zehntausender. Was bedeuten T und H?
+
+### Tipp 2 (Methode)
+Schreibe die Ziffern in eine Stellenwerttafel: HT | ZT | T | H | Z | E. Setze die angegebenen Ziffern ein und fülle leere Stellen mit 0.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): HT=3, ZT=7, T=2, H=4. Die Zehner- und Einer-Stelle fehlen, also sind sie 0. In der Stellenwerttafel steht: 3 | 7 | 2 | 4 | 0 | 0. Lies ab: 372.400.
+
+### Didaktischer Hinweis
+Die Kurzschreibweise (HT, ZT, T, H) ist eine gängige Schulnotation, die das Kind aus dem Unterricht kennen sollte. Diese Aufgabe fordert das Übersetzen zwischen Kurzform und ausgeschriebener Zahl. Teilaufgabe b) enthält bewusst eine 0 bei den Zehntausendern, um das Verständnis für Null an einer Stelle zu prüfen. Teilaufgabe c) zeigt den Grenzfall mit lauter Neunern.
+
+---
+
+## Aufgabe 77
+
+---
+titel: "Eine Million als tausend Tausender"
+typ: eingabe
+thema: "Der Millionen-Würfel"
+schwierigkeit: orange
+buchseite: 18
+kapitel: "02-zahlen-bis-million"
+stage_id: "millionen-wuerfel"
+digital: voll
+---
+
+### Aufgabenstellung
+Lisa sagt: „Eine Million sind tausend Tausender." Hat sie recht? Erkläre.
+
+a) Rechne nach: 1.000 × 1.000 = ?
+b) Stimmt Lisas Aussage? (ja / nein)
+
+### Lösung
+a) 1.000.000
+b) ja
+
+### Lösungsweg
+1.000 × 1.000 = 1.000.000. Das bedeutet: Wenn man 1.000 Tausender-Würfel zusammenlegt, ergibt das genau 1 Million. Lisa hat also recht.
+
+Man kann sich das auch mit dem Dienes-Material vorstellen: 10 Tausender-Würfel = 1 Zehntausender-Stange. 10 Zehntausender-Stangen = 1 Hunderttausender-Platte. 10 Hunderttausender-Platten = 1 Millionen-Würfel. Also: 10 × 10 × 10 = 1.000 Tausender-Würfel.
+
+### Tipp 1 (Denkanstoß)
+Rechne einfach 1.000 × 1.000 aus. Was kommt raus? Wie heißt diese Zahl?
+
+### Tipp 2 (Methode)
+Bei der Multiplikation von 1.000 × 1.000 kannst du die Nullen zählen: 1.000 hat drei Nullen, 1.000 hat drei Nullen. Zusammen sind das sechs Nullen: 1.000.000.
+
+### Tipp 3 (Schritt-für-Schritt)
+1.000 × 1.000: Schreibe 1 und hänge alle Nullen dran — 3 Nullen von der ersten 1.000 und 3 Nullen von der zweiten 1.000. Das ergibt 1.000.000 = eine Million. Also hat Lisa recht!
+
+### Didaktischer Hinweis
+Diese Aufgabe fördert das multiplikative Denken im Stellenwertsystem. Das Kind soll nicht nur rechnerisch nachweisen, dass 1.000 × 1.000 = 1.000.000 ist, sondern auch verstehen, warum das so ist — idealerweise über die Dienes-Anschauung (10 Tausender-Würfel = 1 Zehntausender-Stange usw.). Die Aussage „tausend Tausender = eine Million" ist ein zentrales Verständniselement für den Millionenbereich.

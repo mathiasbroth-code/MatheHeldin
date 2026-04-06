@@ -219,8 +219,8 @@
     "kapitel": "13-schaubilder-daten",
     "stageId": "tabellen-diagramme",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)",
-    "loesung": "Lukas (137 cm) = Jan (137 cm), Ole (138 cm), Justus (140 cm), Daniel (143 cm)",
+    "aufgabenstellung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\na) Lukas (137 cm)\nb) Justus (140 cm)\nc) Daniel (143 cm)\nd) Jan (137 cm)\ne) Ole (138 cm)",
+    "loesung": "a, d, e, b, c",
     "loesungsweg": "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm).",
     "tipps": [
       "Suche zuerst die kleinste Zahl. Dann die nächstgrößere. Achtung: Zwei Kinder können gleich groß sein!",
@@ -231,12 +231,12 @@
     "didaktischerHinweis": "Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.",
     "parsed": {
       "typ": "reihenfolge",
-      "anweisung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm), Justus (140 cm), Daniel (143 cm), Jan (137 cm), Ole (138 cm)",
+      "anweisung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.",
       "teilaufgaben": [
         {
           "label": "1",
           "items": [
-            "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\nLukas (137 cm)",
+            "Lukas (137 cm)",
             "Justus (140 cm)",
             "Daniel (143 cm)",
             "Jan (137 cm)",
@@ -254,7 +254,7 @@
     }
   },
   {
-    "titel": "Eigene Größe einschätzen — Wie groß wirst du?",
+    "titel": "Eigene Größe einschaetzen — Wie groß wirst du?",
     "typ": "textaufgabe",
     "thema": "Tabellen und Diagramme",
     "schwierigkeit": "orange",
@@ -262,7 +262,7 @@
     "kapitel": "13-schaubilder-daten",
     "stageId": "tabellen-diagramme",
     "digital": "voll",
-    "aufgabenstellung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2\n\nPhilippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
+    "aufgabenstellung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schaetzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2\n\nPhilippas Mutter ist 168 cm groß, ihr Vater ist 182 cm groß. Wie groß wird Philippa ungefähr?",
     "loesung": "169",
     "loesungsweg": "1. Größen addieren: 168 + 182 = 350\n2. 13 cm abziehen (Mädchen-Formel): 350 - 13 = 337\n3. Durch 2 teilen: 337 : 2 = 168,5 ≈ 169 cm",
     "tipps": [
@@ -274,8 +274,8 @@
     "didaktischerHinweis": "Mehrstufige Rechnung mit persönlichem Bezug. Entspricht S. 123, Formel-Aufgabe.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2",
-      "kontext": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schätzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2",
+      "anweisung": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schaetzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2",
+      "kontext": "Es gibt eine Formel, um die spätere Größe eines Mädchens zu schaetzen:\n(Größe der Mutter + Größe des Vaters - 13 cm) : 2",
       "items": [
         {
           "label": "1",

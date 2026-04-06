@@ -478,14 +478,18 @@ merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, 
 ### Aufgabenstellung
 Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?
 
-a) Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen → senkrecht oder parallel?
-b) Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben → senkrecht oder parallel?
-c) Zwei Linien, die sich in einem spitzen Winkel kreuzen → senkrecht oder parallel?
+a) Zwei Linien, die sich in einem rechten Winkel (90°) kreuzen
+b) Zwei Linien, die nebeneinander laufen und den gleichen Abstand haben
+c) Zwei Linien, die sich in einem spitzen Winkel kreuzen
+
+A) senkrecht
+B) parallel
+C) weder noch
 
 ### Lösung
-a) senkrecht
-b) parallel
-c) weder senkrecht noch parallel (sie kreuzen sich, aber nicht im rechten Winkel)
+a) → A
+b) → B
+c) → C
 
 ### Lösungsweg
 - **Senkrecht** bedeutet: Die Linien bilden einen rechten Winkel (90°), wie das Kreuz bei einem Plus-Zeichen (+).
@@ -765,7 +769,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: gelb
 buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -818,7 +822,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: gelb
 buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -866,7 +870,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -913,7 +917,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 52
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -963,7 +967,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -1013,7 +1017,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -1061,7 +1065,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: grün
 buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -1110,7 +1114,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 51
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -1167,7 +1171,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 53
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
@@ -1212,7 +1216,7 @@ thema: "Flächeninhalt und Umfang"
 schwierigkeit: orange
 buchseite: 50
 kapitel: "04-achsensymmetrie-fläche-umfang"
-stage_id: "flächeninhalt-umfang"
+stage_id: "flaecheninhalt-umfang"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "der Umfang, der Flächeninhalt"
