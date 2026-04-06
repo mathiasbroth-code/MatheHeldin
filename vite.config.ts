@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import path from 'path';
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? '/MatheHeldin/' : '/',
   plugins: [
     react(),
     tailwindcss(),
@@ -27,8 +28,8 @@ export default defineConfig({
           { src: 'icons/icon-512x512.png', sizes: '512x512', type: 'image/png' },
           { src: 'icons/icon-maskable-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
-        start_url: '/',
-        scope: '/',
+        start_url: './',
+        scope: './',
       },
     }),
   ],
