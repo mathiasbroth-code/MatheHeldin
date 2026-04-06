@@ -1533,3 +1533,432 @@ a) 2 m = 200 cm. 200 ÷ 50 = 4 Stuecke. Male sie in eine Skizze: |—|—|—|�
 
 ### Didaktischer Hinweis
 Klassische "Zaun-Pfosten-Aufgabe": Die Anzahl der Schnitte ist immer eins weniger als die Anzahl der Stuecke. Die Skizze macht diesen Zusammenhang sofort sichtbar. Ohne Skizze raten viele Kinder falsch (4 Stuecke → 4 Schnitte).
+
+---
+
+# Zusatzaufgaben: Entfernungen (erweitert)
+
+## Aufgabe 32
+
+---
+titel: "Schulweg — einfache Streckenaddition"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: gelb
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Leo geht jeden Tag zur Schule. Sein Weg fuehrt:
+- Von zu Hause zum Baecker: 350 m
+- Vom Baecker zur Bushaltestelle: 220 m
+- Von der Bushaltestelle zur Schule: 180 m
+
+Wie lang ist Leos gesamter Schulweg?
+
+### Lösung
+750 m
+
+### Lösungsweg
+Alle Teilstrecken addieren: 350 + 220 + 180 = 750 m.
+
+### Tipp 1 (Denkanstoß)
+Wenn du alle drei Strecken hintereinander legst — wie lang ist der Weg insgesamt?
+
+### Tipp 2 (Methode)
+Addiere die drei Zahlen nacheinander: Erst 350 + 220, dann das Ergebnis + 180.
+
+### Tipp 3 (Schritt-für-Schritt)
+350 + 220 = 570. 570 + 180 = 750. Der Schulweg ist 750 m lang.
+
+### Didaktischer Hinweis
+Einstiegsaufgabe mit ganzen Metern (ohne Komma). Trainiert das Addieren von drei Summanden.
+
+---
+
+## Aufgabe 33
+
+---
+titel: "Radtour — Entfernungen mit Kommazahlen"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: grün
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Auf der Radtour-Karte stehen folgende Entfernungen:
+- Sonnendorf → Talheim: 3,4 km
+- Talheim → Berghoehe: 5,8 km
+
+Wie weit ist es von Sonnendorf nach Berghoehe?
+
+### Lösung
+9,2 km
+
+### Lösungsweg
+3,4 + 5,8 = 9,2 km.
+
+### Tipp 1 (Denkanstoß)
+Wie weit muss man insgesamt radeln, wenn man beide Strecken hintereinander faehrt?
+
+### Tipp 2 (Methode)
+Addiere die Kilometerzahlen. Achte auf das Komma: Erst die Zehntel addieren, dann die ganzen Kilometer.
+
+### Tipp 3 (Schritt-für-Schritt)
+Zehntel: 4 + 8 = 12 Zehntel = 1,2. Ganze km: 3 + 5 = 8. Zusammen: 8 + 1,2 = 9,2 km.
+
+### Didaktischer Hinweis
+Erste Dezimalzahl-Addition. Der Uebertrag bei den Zehntel (4+8=12) ist die Haupthuerde.
+
+---
+
+## Aufgabe 34
+
+---
+titel: "Wandertag — Hin- und Rueckweg"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: gelb
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Die Klasse 4a wandert zum Waldspielplatz. Der Weg ist 2,5 km lang.
+
+a) Wie viele Kilometer laufen die Kinder hin und zurueck zusammen?
+b) Die Halbzeit-Pause ist nach 1,2 km. Wie weit ist es von der Pause zum Spielplatz?
+
+### Lösung
+a) 5 km
+b) 1,3 km
+
+### Lösungsweg
+a) Hin + Zurueck = 2,5 + 2,5 = 5,0 km.
+b) Gesamtweg − bereits gelaufen = 2,5 − 1,2 = 1,3 km.
+
+### Tipp 1 (Denkanstoß)
+Bei a): Wenn du denselben Weg zurueckgehst — wie weit bist du insgesamt gelaufen?
+
+### Tipp 2 (Methode)
+a) Verdopple die Strecke. b) Ziehe die gelaufene Strecke vom Gesamtweg ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 2,5 + 2,5 = 5 km. b) 2,5 − 1,2 = 1,3 km.
+
+### Didaktischer Hinweis
+Hin-und-zurueck ist ein Grundkonzept. Teilaufgabe b) trainiert Subtraktion mit Dezimalzahlen.
+
+---
+
+## Aufgabe 35
+
+---
+titel: "Strecke auf der Landkarte — km ablesen"
+typ: auswahl
+thema: "Entfernungen"
+schwierigkeit: gelb
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Auf der Karte sind die Entfernungen zwischen vier Staedten eingetragen:
+- Lingen → Meppen: 25 km
+- Meppen → Papenburg: 18 km
+- Papenburg → Leer: 22 km
+
+Welche Strecke ist die laengste?
+
+A) Lingen → Meppen
+B) Meppen → Papenburg
+C) Papenburg → Leer
+
+### Lösung
+A
+
+### Lösungsweg
+Vergleiche: 25 km > 22 km > 18 km. Die laengste Strecke ist Lingen → Meppen mit 25 km.
+
+### Tipp 1 (Denkanstoß)
+Vergleiche die drei Kilometer-Zahlen. Welche ist am groessten?
+
+### Tipp 2 (Methode)
+Schreibe die drei Zahlen untereinander und vergleiche Stelle fuer Stelle.
+
+### Tipp 3 (Schritt-für-Schritt)
+25, 18, 22. Die groesste Zahl ist 25. Also ist Lingen → Meppen mit 25 km am laengsten.
+
+### Didaktischer Hinweis
+Einfache Vergleichsaufgabe — Einstieg ins Kartenthema. Trainiert das Ablesen und Vergleichen von Entfernungen.
+
+---
+
+## Aufgabe 36
+
+---
+titel: "Umweg berechnen — Differenz zweier Routen"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: grün
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Von Ahausen nach Clausen gibt es zwei Wege:
+- Direkter Weg: 8,4 km
+- Ueber Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km
+
+a) Wie lang ist der Weg ueber Birken?
+b) Wie viel laenger ist der Umweg?
+
+### Lösung
+a) 9,9 km
+b) 1,5 km
+
+### Lösungsweg
+a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km Umweg.
+
+### Tipp 1 (Denkanstoß)
+Berechne zuerst den Umweg. Dann ueberlege: Wie viel mehr ist das als der direkte Weg?
+
+### Tipp 2 (Methode)
+a) Addiere die zwei Teilstrecken. b) Ziehe den direkten Weg vom Umweg ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 3,7 + 6,2 = 9,9 km. b) 9,9 − 8,4 = 1,5 km. Der Umweg ist 1,5 km laenger.
+
+### Didaktischer Hinweis
+Kombination aus Addition und Subtraktion. Das Konzept "Umweg = Differenz" ist alltagsnah.
+
+---
+
+## Aufgabe 37
+
+---
+titel: "Marathonlauf — grosse Strecken"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: orange
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Ein Marathon ist 42 km lang. Der Laeufer hat schon diese Abschnitte geschafft:
+- Start → Kilometer 15: 15 km
+- Kilometer 15 → Kilometer 28: 13 km
+
+a) Wie viele Kilometer hat er schon geschafft?
+b) Wie viele Kilometer fehlen noch bis ins Ziel?
+
+### Lösung
+a) 28 km
+b) 14 km
+
+### Lösungsweg
+a) 15 + 13 = 28 km. b) 42 − 28 = 14 km.
+
+### Tipp 1 (Denkanstoß)
+Wie weit ist der Laeufer insgesamt gelaufen? Und wie weit muss er noch?
+
+### Tipp 2 (Methode)
+a) Addiere die gelaufenen Abschnitte. b) Ziehe das Ergebnis von der Gesamtstrecke ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 15 + 13 = 28 km geschafft. b) 42 − 28 = 14 km fehlen noch.
+
+### Didaktischer Hinweis
+Groesserer Zahlenraum, aber ohne Dezimalstellen. Alltagsbezug Sport motiviert.
+
+---
+
+## Aufgabe 38
+
+---
+titel: "Urlaubsfahrt — km und Pausen"
+typ: schritt
+thema: "Entfernungen"
+schwierigkeit: grün
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Die Familie faehrt in den Urlaub. Die Route:
+- Zuhause → Raststätte: 145 km
+- Raststätte → Grenze: 87 km
+- Grenze → Hotel: 63 km
+
+Rechne Schritt fuer Schritt:
+a) Wie weit ist es bis zur Raststätte?
+b) Wie weit ist es bis zur Grenze?
+c) Wie weit ist die gesamte Fahrt?
+
+### Lösung
+a) 145 km
+b) 232 km
+c) 295 km
+
+### Lösungsweg
+a) 145 km (direkt abgelesen). b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.
+
+### Tipp 1 (Denkanstoß)
+Die Teilstrecken werden immer laenger, je weiter du rechnest. Fang beim ersten Abschnitt an.
+
+### Tipp 2 (Methode)
+Addiere die Strecken nacheinander: erst bis zur Raststätte, dann plus naechster Abschnitt, dann plus letzter.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 145 km. b) 145 + 87 = 232 km. c) 232 + 63 = 295 km.
+
+### Didaktischer Hinweis
+Schrittweises Addieren trainiert das systematische Vorgehen. Die Zwischenergebnisse helfen als Kontrolle.
+
+---
+
+## Aufgabe 39
+
+---
+titel: "Wer wohnt am weitesten weg?"
+typ: reihenfolge
+thema: "Entfernungen"
+schwierigkeit: gelb
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:
+- Emma: 1,8 km
+- Luis: 0,9 km
+- Mia: 2,4 km
+- Ben: 1,3 km
+
+Ordne die Kinder nach ihrem Schulweg. Beginne mit dem laengsten Weg.
+
+### Lösung
+Mia (2,4 km) > Emma (1,8 km) > Ben (1,3 km) > Luis (0,9 km)
+
+### Lösungsweg
+Vergleiche die Kilometerzahlen und ordne von gross nach klein: 2,4 > 1,8 > 1,3 > 0,9.
+
+### Tipp 1 (Denkanstoß)
+Wer hat die groesste Zahl vor dem Komma? Und wenn die gleich ist — schau auf die Zehntel.
+
+### Tipp 2 (Methode)
+Schreibe alle vier Zahlen untereinander. Sortiere von gross nach klein.
+
+### Tipp 3 (Schritt-für-Schritt)
+2,4 ist am groessten (Mia). Dann 1,8 (Emma). Dann 1,3 (Ben). Am kuerzesten: 0,9 (Luis).
+
+### Didaktischer Hinweis
+Sortieraufgabe mit Dezimalzahlen und Personenbezug — motivierend und alltagsnah.
+
+---
+
+## Aufgabe 40
+
+---
+titel: "Fahrradtour mit Etappen — Tabelle lesen"
+typ: textaufgabe
+thema: "Entfernungen"
+schwierigkeit: orange
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:
+
+| Tag | Von → Nach | Entfernung |
+|-----|-----------|-----------|
+| 1 | Stadtpark → Seeblick | 18,5 km |
+| 2 | Seeblick → Waldrand | 22,3 km |
+| 3 | Waldrand → Stadtpark | 16,8 km |
+
+a) An welchem Tag faehrt Lina am weitesten?
+b) Wie viele Kilometer faehrt sie insgesamt?
+c) Wie viel weiter ist Tag 2 als Tag 3?
+
+### Lösung
+a) Tag 2 (22,3 km)
+b) 57,6 km
+c) 5,5 km
+
+### Lösungsweg
+a) 22,3 > 18,5 > 16,8 → Tag 2. b) 18,5 + 22,3 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.
+
+### Tipp 1 (Denkanstoß)
+Lies die Tabelle: Welche Entfernung ist die groesste? Fuer die Gesamtlaenge musst du alle drei addieren.
+
+### Tipp 2 (Methode)
+a) Vergleiche die drei Zahlen. b) Addiere alle drei. c) Subtrahiere die kleinere von der groesseren.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 22,3 km ist am meisten → Tag 2. b) 18,5 + 22,3 = 40,8. 40,8 + 16,8 = 57,6 km. c) 22,3 − 16,8 = 5,5 km.
+
+### Didaktischer Hinweis
+Kombination aus Tabelle lesen, Vergleichen, Addieren und Subtrahieren. Fordert mehrere Kompetenzen gleichzeitig.
+
+---
+
+## Aufgabe 41
+
+---
+titel: "Unbekannte Teilstrecke — rueckwaerts rechnen"
+typ: eingabe
+thema: "Entfernungen"
+schwierigkeit: orange
+buchseite: 68
+kapitel: "06-gewichte-laengen-skizzen"
+stage_id: "entfernungen-km"
+digital: voll
+---
+
+### Aufgabenstellung
+Von Astadt nach Dstadt sind es insgesamt 24,6 km. Der Weg fuehrt ueber Bstadt und Cstadt.
+- Astadt → Bstadt: 7,3 km
+- Cstadt → Dstadt: 9,8 km
+
+Wie weit ist es von Bstadt nach Cstadt?
+
+### Lösung
+7,5 km
+
+### Lösungsweg
+Bekannte Strecken: 7,3 + 9,8 = 17,1 km. Unbekannt: 24,6 − 17,1 = 7,5 km.
+
+### Tipp 1 (Denkanstoß)
+Du kennst die Gesamtstrecke und zwei von drei Teilstuecken. Was ist das dritte?
+
+### Tipp 2 (Methode)
+Addiere die bekannten Strecken. Ziehe das Ergebnis von der Gesamtstrecke ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+7,3 + 9,8 = 17,1 km (bekannt). 24,6 − 17,1 = 7,5 km (unbekannt).
+
+### Didaktischer Hinweis
+Umkehraufgabe — vom Ganzen die bekannten Teile abziehen. Wichtige Strategie fuer Sachaufgaben. Direkte Vorbereitung auf das Skizze-Modul.
