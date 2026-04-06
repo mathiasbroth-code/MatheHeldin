@@ -19,6 +19,7 @@ export function useAntwortRecorder(stufeId: string) {
       richtig: boolean,
       dauerMs: number,
       tippBenutzt = false,
+      tippStufe = 0,
     ) => {
       if (profileId == null || sessionId == null) return;
 
@@ -32,6 +33,7 @@ export function useAntwortRecorder(stufeId: string) {
         richtig,
         dauerMs,
         tippBenutzt,
+        tippStufe,
         erstelltAm: Date.now(),
       });
     },

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Accessoire: Kopfhörer -->
+  <!-- Bügel -->
+  <path d="M24,62 Q24,30 60,28 Q96,30 96,62" fill="none" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <!-- Linke Muschel -->
+  <rect x="14" y="56" width="14" height="20" rx="6" fill="#334155"/>
+  <rect x="16" y="59" width="10" height="14" rx="4" fill="#475569"/>
+  <circle cx="21" cy="66" r="2.5" fill="#64748b"/>
+  <!-- Rechte Muschel -->
+  <rect x="92" y="56" width="14" height="20" rx="6" fill="#334155"/>
+  <rect x="94" y="59" width="10" height="14" rx="4" fill="#475569"/>
+  <circle cx="99" cy="66" r="2.5" fill="#64748b"/>
+  <!-- Polster-Highlight -->
+  <path d="M17,60 Q21,58 25,60" fill="none" stroke="#64748b" stroke-width="1" stroke-linecap="round"/>
+  <path d="M95,60 Q99,58 103,60" fill="none" stroke="#64748b" stroke-width="1" stroke-linecap="round"/>
+</svg>

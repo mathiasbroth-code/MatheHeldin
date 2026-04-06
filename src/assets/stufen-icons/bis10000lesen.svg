@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Zahlen bis 10000 lesen: mit Tausendern -->
+  <!-- Tausender-Würfel (3D-Ansicht) -->
+  <rect x="6" y="14" width="16" height="16" fill="#f59e0b" stroke="#78350f" stroke-width="1"/>
+  <polygon points="6,14 14,6 30,6 22,14" fill="#fcd34d" stroke="#78350f" stroke-width="1"/>
+  <polygon points="22,14 30,6 30,22 22,30" fill="#d97706" stroke="#78350f" stroke-width="1"/>
+  <!-- Pfeil -->
+  <path d="M28,32 L32,32" fill="none" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="32,30 36,32 32,34" fill="#64748b"/>
+  <!-- Zahl -->
+  <text x="40" y="20" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="7" font-weight="700" fill="#0d9488">1.000</text>
+  <!-- Auge -->
+  <ellipse cx="40" cy="40" rx="4.5" ry="3" fill="none" stroke="#0d9488" stroke-width="1.2"/>
+  <circle cx="40" cy="40" r="1.5" fill="#0d9488"/>
+</svg>

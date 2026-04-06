@@ -22,7 +22,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
-  overscroll-behavior: contain;
+  overscroll-behavior: none;
 }
 
 body {
@@ -55,6 +55,12 @@ input[type="number"] {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Prevent text selection on interactive elements (not inputs) */
+button, [role="button"] {
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /* Safe area padding for notch devices */

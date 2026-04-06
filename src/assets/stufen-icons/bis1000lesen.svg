@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Zahlen bis 1000 lesen: mit Hundertern -->
+  <!-- Hunderterplatte -->
+  <rect x="4" y="6" width="18" height="18" rx="2" fill="#fbbf24" stroke="#92400e" stroke-width="1"/>
+  <!-- Gitterlinien -->
+  <line x1="6" y1="6" x2="6" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="8" y1="6" x2="8" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="10" y1="6" x2="10" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="12" y1="6" x2="12" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="14" y1="6" x2="14" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="16" y1="6" x2="16" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="18" y1="6" x2="18" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="20" y1="6" x2="20" y2="24" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="8" x2="22" y2="8" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="10" x2="22" y2="10" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="12" x2="22" y2="12" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="14" x2="22" y2="14" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="16" x2="22" y2="16" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="18" x2="22" y2="18" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="20" x2="22" y2="20" stroke="#92400e" stroke-width="0.3"/>
+  <line x1="4" y1="22" x2="22" y2="22" stroke="#92400e" stroke-width="0.3"/>
+  <!-- Zehnerstab daneben -->
+  <rect x="26" y="6" width="10" height="3" rx="1" fill="#fcd34d" stroke="#b45309" stroke-width="0.8"/>
+  <rect x="26" y="11" width="10" height="3" rx="1" fill="#fcd34d" stroke="#b45309" stroke-width="0.8"/>
+  <!-- Einer -->
+  <rect x="26" y="18" width="3.5" height="3.5" rx="1" fill="#fde68a" stroke="#b45309" stroke-width="0.8"/>
+  <rect x="31" y="18" width="3.5" height="3.5" rx="1" fill="#fde68a" stroke="#b45309" stroke-width="0.8"/>
+  <!-- Pfeil + Zahl -->
+  <path d="M20,30 L24,30" fill="none" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="24,28 28,30 24,32" fill="#64748b"/>
+  <text x="36" y="34" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0d9488">122</text>
+  <!-- Auge -->
+  <ellipse cx="36" cy="42" rx="4.5" ry="3" fill="none" stroke="#0d9488" stroke-width="1.2"/>
+  <circle cx="36" cy="42" r="1.5" fill="#0d9488"/>
+</svg>

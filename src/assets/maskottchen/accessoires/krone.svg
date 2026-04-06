@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Accessoire: Krone (auf dem Kopf, leicht schräg) -->
+  <g transform="translate(60, 28) rotate(-5)">
+    <!-- Krone-Körper -->
+    <polygon points="-20,5 -22,-10 -12,-2 0,-14 12,-2 22,-10 20,5" fill="#fbbf24" stroke="#d97706" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Basis -->
+    <rect x="-20" y="5" width="40" height="6" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+    <!-- Juwelen -->
+    <circle cx="0" cy="-6" r="2.5" fill="#ef4444"/>
+    <circle cx="-14" cy="-1" r="2" fill="#3b82f6"/>
+    <circle cx="14" cy="-1" r="2" fill="#10b981"/>
+  </g>
+</svg>

@@ -36,10 +36,14 @@ export function StufeKarte({
     >
       <div className="flex items-center gap-3">
         <div
-          className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg shrink-0 ${FARBE_ICON[farbe]}`}
+          className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg shrink-0 ${FARBE_ICON[farbe]} overflow-hidden`}
           aria-hidden="true"
         >
-          {icon}
+          {icon.startsWith('/') || icon.startsWith('data:') || icon.startsWith('http') ? (
+            <img src={icon} alt="" className="w-7 h-7" />
+          ) : (
+            icon
+          )}
         </div>
         <div className="flex-1 min-w-0">
           <div className="font-semibold text-heading truncate">{titel}</div>

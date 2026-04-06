@@ -1,10 +1,13 @@
+import { StageIcon } from '../ui/StageIcon';
+
 interface HeaderProps {
   title?: string;
   subtitle?: string;
+  icon?: string;
   onBack?: () => void;
 }
 
-export function Header({ title = 'Mathe-Heldin', subtitle, onBack }: HeaderProps) {
+export function Header({ title = 'Mathe-Heldin', subtitle, icon, onBack }: HeaderProps) {
   return (
     <header className="flex items-center gap-3 px-4 py-3 safe-area-top">
       {onBack && (
@@ -18,6 +21,7 @@ export function Header({ title = 'Mathe-Heldin', subtitle, onBack }: HeaderProps
           </svg>
         </button>
       )}
+      {icon && <StageIcon icon={icon} size={32} />}
       <div className="flex-1 min-w-0">
         <h1 className="text-xl font-semibold text-heading truncate">{title}</h1>
         {subtitle && (

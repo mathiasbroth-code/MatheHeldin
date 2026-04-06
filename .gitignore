@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Large reference files (not for git)
+_reference/Fredo4_Schulbuch.pdf
+_reference/videos/
+_reference/video-keyframes/
+_reference/video-content-frames/
+_reference/video-beschreibungen/
+Buch PNG/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

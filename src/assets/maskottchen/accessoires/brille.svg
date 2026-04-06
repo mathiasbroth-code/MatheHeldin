@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Accessoire: Runde Brille -->
+  <!-- Linkes Glas -->
+  <circle cx="42" cy="65" r="12" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <!-- Rechtes Glas -->
+  <circle cx="78" cy="65" r="12" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <!-- Brücke -->
+  <path d="M54,63 Q60,58 66,63" fill="none" stroke="#475569" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bügel links -->
+  <line x1="30" y1="63" x2="22" y2="58" stroke="#475569" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bügel rechts -->
+  <line x1="90" y1="63" x2="98" y2="58" stroke="#475569" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Glasreflexion links -->
+  <path d="M36,59 L39,57" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Glasreflexion rechts -->
+  <path d="M72,59 L75,57" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

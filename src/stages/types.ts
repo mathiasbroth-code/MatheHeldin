@@ -17,6 +17,12 @@ export interface StageProps<T extends Aufgabe> {
 /** Farben, die für Stufen-Karten verwendet werden. */
 export type StageFarbe = 'sky' | 'amber' | 'emerald' | 'rose' | 'indigo' | 'purple';
 
+/** Erklärung einer Stufe ("Was lernst du hier?"). */
+export interface StageErklaerung {
+  wasLernstDu: string;
+  soGehts: string;
+}
+
 /** Vollständige Definition einer Übungsstufe. */
 export interface Stage<T extends Aufgabe = Aufgabe> {
   id: string;
@@ -28,4 +34,8 @@ export interface Stage<T extends Aufgabe = Aufgabe> {
   generator: () => T;
   validator: (aufgabe: T, antwort: string) => boolean;
   View: ComponentType<StageProps<T>>;
+  /** Optional: "Was lernst du hier?" + "So geht's" */
+  erklaerung?: StageErklaerung;
+  /** Optional: 3-stufige Tipps [Denkanstoß, Methode, Schritt-für-Schritt] */
+  tipps?: (aufgabe: T) => [string, string, string];
 }

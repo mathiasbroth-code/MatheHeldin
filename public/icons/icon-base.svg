@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- MatheHeldin PWA Icon — Mia-Fuchs auf Teal-Hintergrund -->
+
+  <!-- Hintergrund (abgerundetes Quadrat) -->
+  <rect width="512" height="512" rx="96" fill="#0d9488"/>
+
+  <!-- Subtiler Gradient-Overlay -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#glow)"/>
+
+  <!-- Mia (skaliert auf Icon-Größe, zentriert) -->
+  <g transform="translate(136, 68) scale(2)">
+    <!-- Linkes Ohr -->
+    <polygon points="18,52 38,12 58,52" fill="#115e59"/>
+    <polygon points="25,49 38,20 51,49" fill="#5eead4"/>
+
+    <!-- Rechtes Ohr -->
+    <polygon points="62,52 82,12 102,52" fill="#115e59"/>
+    <polygon points="69,49 82,20 95,49" fill="#5eead4"/>
+
+    <!-- Kopf -->
+    <circle cx="60" cy="72" r="44" fill="#f0fdfa"/>
+
+    <!-- Gesichtsfleck -->
+    <ellipse cx="60" cy="82" rx="28" ry="24" fill="#ccfbf1"/>
+
+    <!-- Augen -->
+    <circle cx="42" cy="65" r="6.5" fill="#0f172a"/>
+    <circle cx="78" cy="65" r="6.5" fill="#0f172a"/>
+
+    <!-- Augenlicht -->
+    <circle cx="44.5" cy="62.5" r="2.5" fill="#ffffff"/>
+    <circle cx="80.5" cy="62.5" r="2.5" fill="#ffffff"/>
+
+    <!-- Nase -->
+    <ellipse cx="60" cy="78" rx="5" ry="3.5" fill="#0f172a"/>
+
+    <!-- Lächeln -->
+    <path d="M48,86 Q60,96 72,86" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Stern -->
+    <polygon points="60,42 62.5,48 69,48 63.5,52 65.5,58 60,54 54.5,58 56.5,52 51,48 57.5,48"
+             fill="#fbbf24"/>
+  </g>
+</svg>

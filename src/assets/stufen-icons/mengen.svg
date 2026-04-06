@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Mengen bis 20: Einzelne Blöcke zählen -->
+  <!-- 6 kleine Würfel in 2x3 Anordnung -->
+  <rect x="6" y="8" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <rect x="19" y="8" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <rect x="32" y="8" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <rect x="6" y="21" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <rect x="19" y="21" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <rect x="32" y="21" width="10" height="10" rx="2" fill="#fde68a" stroke="#b45309" stroke-width="1.2"/>
+  <!-- Zählanzeige -->
+  <text x="24" y="42" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8" font-weight="700" fill="#0d9488">= 6</text>
+</svg>
