@@ -1,11 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
+import { useSchwierigkeitStore } from '@/stores/schwierigkeitStore';
 import { AppShell } from '@/components/layout/AppShell';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
-import { getProfiles, getProfileOverview, getProfileStageBreakdown } from '@/db/repository';
+import { getProfiles, getProfileOverview, getProfileStageBreakdown, getLetzteAntworten } from '@/db/repository';
+import { berechneSchwierigkeit } from '@/hooks/useSchwierigkeit';
 import type { ProfileOverview, StageBreakdown } from '@/db/repository';
 import type { Profile } from '@/db/schema';
 import { STAGES } from '@/stages/registry';
@@ -204,6 +206,108 @@ function formatRelativeDate(ts: number): string {
   return new Date(ts).toLocaleDateString('de-DE');
 }
 
+/** Steuerung der Schwierigkeit pro Stufe (nur für Stufen mit schwierigkeit-Def). */
+function SchwierigkeitSteuerung({
+  profileId,
+  stufeId,
+  maxStufe,
+  labels,
+}: {
+  profileId: number;
+  stufeId: string;
+  maxStufe: number;
+  labels: readonly string[];
+}) {
+  const getOverride = useSchwierigkeitStore((s) => s.getOverride);
+  const setOverride = useSchwierigkeitStore((s) => s.setOverride);
+  const removeOverride = useSchwierigkeitStore((s) => s.removeOverride);
+  const override = getOverride(profileId, stufeId);
+
+  const [autoLevel, setAutoLevel] = useState<number>(0);
+
+  // Lade das vom Algorithmus berechnete Level
+  useEffect(() => {
+    getLetzteAntworten(profileId, stufeId, 10).then((antworten) => {
+      setAutoLevel(berechneSchwierigkeit(antworten, maxStufe - 1));
+    });
+  }, [profileId, stufeId, maxStufe]);
+
+  const isAdaptiv = !override || override.adaptiv;
+  const currentLevel = isAdaptiv ? autoLevel : override.fixedLevel;
+
+  function handleToggle() {
+    if (isAdaptiv) {
+      // Fixieren auf aktuellem Auto-Level
+      setOverride(profileId, stufeId, { adaptiv: false, fixedLevel: autoLevel });
+    } else {
+      // Zurück auf adaptiv
+      removeOverride(profileId, stufeId);
+    }
+  }
+
+  function handleLevelChange(newLevel: number) {
+    const clamped = Math.max(0, Math.min(newLevel, maxStufe - 1));
+    setOverride(profileId, stufeId, { adaptiv: false, fixedLevel: clamped });
+  }
+
+  return (
+    <div className="ml-9 mt-1.5 mb-1 p-2 bg-surface rounded-lg border border-border/50">
+      <div className="flex items-center justify-between gap-2">
+        <span className="text-[10px] text-muted font-semibold uppercase tracking-wide">
+          Schwierigkeit
+        </span>
+        <button
+          onClick={handleToggle}
+          className={`text-[10px] font-semibold px-2 py-0.5 rounded-full border cursor-pointer transition-colors ${
+            isAdaptiv
+              ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+              : 'bg-amber-50 text-amber-700 border-amber-200'
+          }`}
+        >
+          {isAdaptiv ? 'Automatisch' : 'Fixiert'}
+        </button>
+      </div>
+
+      <div className="flex items-center gap-2 mt-1.5">
+        {!isAdaptiv && (
+          <button
+            onClick={() => handleLevelChange(currentLevel - 1)}
+            disabled={currentLevel <= 0}
+            className="w-7 h-7 rounded-lg border border-border flex items-center justify-center text-sm font-bold text-muted hover:bg-surface disabled:opacity-30 cursor-pointer disabled:cursor-default"
+          >
+            −
+          </button>
+        )}
+
+        <div className="flex-1 flex items-center gap-1">
+          {Array.from({ length: maxStufe }, (_, i) => (
+            <div
+              key={i}
+              className={`h-1.5 flex-1 rounded-full transition-colors ${
+                i <= currentLevel ? 'bg-primary' : 'bg-border'
+              }`}
+            />
+          ))}
+        </div>
+
+        {!isAdaptiv && (
+          <button
+            onClick={() => handleLevelChange(currentLevel + 1)}
+            disabled={currentLevel >= maxStufe - 1}
+            className="w-7 h-7 rounded-lg border border-border flex items-center justify-center text-sm font-bold text-muted hover:bg-surface disabled:opacity-30 cursor-pointer disabled:cursor-default"
+          >
+            +
+          </button>
+        )}
+      </div>
+
+      <p className="text-[10px] text-muted mt-1">
+        Stufe {currentLevel + 1}/{maxStufe}: {labels[currentLevel] ?? `Level ${currentLevel}`}
+      </p>
+    </div>
+  );
+}
+
 function ElternDashboard() {
   const clearElternPin = useProfileStore((s) => s.clearElternPin);
   const [profiles, setProfiles] = useState<Profile[]>([]);
@@ -327,6 +431,15 @@ function ElternDashboard() {
                               {entry.richtig}/{entry.versuche} · Tipp {entry.tippQuote}%
                             </span>
                           </div>
+                          {/* Schwierigkeits-Steuerung (nur für adaptive Stufen) */}
+                          {stage.schwierigkeit && profile.id != null && (
+                            <SchwierigkeitSteuerung
+                              profileId={profile.id}
+                              stufeId={stage.id}
+                              maxStufe={stage.schwierigkeit.stufen}
+                              labels={stage.schwierigkeit.labels}
+                            />
+                          )}
                         </div>
                       );
                     })}

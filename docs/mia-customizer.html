@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avatar-Customizer — MatheHeldin</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Inter, system-ui, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #64748b; margin-bottom: 2rem; font-size: 0.95rem; }
+
+  .customizer {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    width: 100%;
+  }
+  @media (max-width: 750px) {
+    .customizer { grid-template-columns: 1fr; }
+    .preview { position: static !important; }
+  }
+
+  /* Preview */
+  .preview {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 24px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+  .preview-stage {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  .preview-stage img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+  }
+  .preview-desc {
+    font-size: 0.85rem;
+    color: #64748b;
+    text-align: center;
+  }
+  .name-input {
+    width: 100%;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px 16px;
+    color: #0d9488;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .name-input:focus { border-color: #14b8a6; box-shadow: 0 0 0 3px rgba(20,184,166,0.15); }
+
+  /* Controls */
+  .controls { display: flex; flex-direction: column; gap: 1.25rem; }
+  .control-section {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.25rem;
+  }
+  .control-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #94a3b8;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Mascot Picker */
+  .mascot-options {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .mascot-btn {
+    width: 72px;
+    height: 80px;
+    border-radius: 16px;
+    border: 2px solid #e2e8f0;
+    background: #f8fafc;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px;
+  }
+  .mascot-btn img { width: 44px; height: 44px; }
+  .mascot-btn .mascot-name { font-size: 0.6rem; color: #64748b; font-weight: 600; }
+  .mascot-btn:hover { border-color: #0d9488; background: #f0fdfa; }
+  .mascot-btn.active { border-color: #0d9488; background: #ccfbf1; box-shadow: 0 0 0 2px #99f6e4; }
+
+  /* Color Picker */
+  .color-options { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .color-btn {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+  .color-btn:hover { transform: scale(1.1); }
+  .color-btn.active { border-color: #0f172a; box-shadow: 0 0 0 2px white, 0 0 0 4px #0f172a; }
+
+  /* Accessory Picker */
+  .acc-options { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .acc-btn {
+    width: 64px; height: 64px;
+    border-radius: 12px;
+    border: 2px solid #e2e8f0;
+    background: #f8fafc;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    gap: 2px;
+  }
+  .acc-btn svg { width: 28px; height: 28px; }
+  .acc-btn:hover { border-color: #0d9488; background: #f0fdfa; }
+  .acc-btn.active { border-color: #0d9488; background: #ccfbf1; box-shadow: 0 0 0 2px #99f6e4; }
+  .acc-btn .acc-label { font-size: 0.5rem; color: #64748b; font-weight: 500; }
+
+  /* Summary */
+  .summary {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 12px;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #166534;
+    line-height: 1.6;
+  }
+  .summary code {
+    background: #dcfce7;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>Avatar-Customizer</h1>
+<p class="subtitle">Wähle dein Maskottchen, deine Farbe und dein Accessoire!</p>
+
+<div class="customizer">
+  <!-- Preview -->
+  <div class="preview">
+    <div class="preview-stage" id="preview"></div>
+    <input class="name-input" id="nameInput" value="Mia" placeholder="Name eingeben..." maxlength="12">
+    <div class="preview-desc">Dein Mathe-Begleiter</div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+
+    <!-- Maskottchen-Auswahl -->
+    <div class="control-section">
+      <div class="control-label">Maskottchen</div>
+      <div class="mascot-options" id="mascotPicker">
+        <button class="mascot-btn active" data-mascot="fuchs" data-default-name="Mia">
+          <img src="../src/assets/maskottchen/farben/mia-teal.svg" alt="Fuchs" id="mascotThumb-fuchs">
+          <span class="mascot-name">Fuchs</span>
+        </button>
+        <button class="mascot-btn" data-mascot="eule" data-default-name="Hugo">
+          <img src="../src/assets/maskottchen/eule.svg" alt="Eule">
+          <span class="mascot-name">Eule</span>
+        </button>
+        <button class="mascot-btn" data-mascot="katze" data-default-name="Luna">
+          <img src="../src/assets/maskottchen/katze.svg" alt="Katze">
+          <span class="mascot-name">Katze</span>
+        </button>
+        <button class="mascot-btn" data-mascot="hase" data-default-name="Flocke">
+          <img src="../src/assets/maskottchen/hase.svg" alt="Hase">
+          <span class="mascot-name">Hase</span>
+        </button>
+        <button class="mascot-btn" data-mascot="drache" data-default-name="Zap">
+          <img src="../src/assets/maskottchen/drache.svg" alt="Drache">
+          <span class="mascot-name">Drache</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Fellfarbe -->
+    <div class="control-section">
+      <div class="control-label">Fellfarbe</div>
+      <div class="color-options" id="colorPicker">
+        <button class="color-btn active" data-color="teal" style="background:#14b8a6;">Teal</button>
+        <button class="color-btn" data-color="rose" style="background:#fb7185;">Rose</button>
+        <button class="color-btn" data-color="violet" style="background:#a78bfa;">Violet</button>
+        <button class="color-btn" data-color="sky" style="background:#38bdf8;">Sky</button>
+        <button class="color-btn" data-color="amber" style="background:#fbbf24; color:#78350f; text-shadow:none;">Amber</button>
+        <button class="color-btn" data-color="emerald" style="background:#34d399;">Emerald</button>
+      </div>
+    </div>
+
+    <!-- Accessoires -->
+    <div class="control-section">
+      <div class="control-label">Accessoire</div>
+      <div class="acc-options" id="accPicker">
+        <button class="acc-btn active" data-acc="none">
+          <svg viewBox="0 0 28 28"><line x1="8" y1="8" x2="20" y2="20" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><line x1="20" y1="8" x2="8" y2="20" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/></svg>
+          <span class="acc-label">Keins</span>
+        </button>
+        <button class="acc-btn" data-acc="krone">
+          <svg viewBox="0 0 28 28"><polygon points="3,18 1,6 7,12 14,3 21,12 27,6 25,18" fill="#fbbf24" stroke="#d97706" stroke-width="1.2" stroke-linejoin="round"/><rect x="3" y="18" width="22" height="4" rx="1.5" fill="#f59e0b" stroke="#d97706" stroke-width="1"/><circle cx="14" cy="9" r="1.5" fill="#ef4444"/><circle cx="7.5" cy="12.5" r="1.2" fill="#3b82f6"/><circle cx="20.5" cy="12.5" r="1.2" fill="#10b981"/></svg>
+          <span class="acc-label">Krone</span>
+        </button>
+        <button class="acc-btn" data-acc="brille">
+          <svg viewBox="0 0 28 28"><circle cx="9" cy="14" r="5" fill="none" stroke="#475569" stroke-width="1.8"/><circle cx="19" cy="14" r="5" fill="none" stroke="#475569" stroke-width="1.8"/><path d="M14,13 Q14.5,11 15,13" fill="none" stroke="#475569" stroke-width="1.8"/><line x1="4" y1="13" x2="1" y2="12" stroke="#475569" stroke-width="1.8" stroke-linecap="round"/><line x1="24" y1="13" x2="27" y2="12" stroke="#475569" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <span class="acc-label">Brille</span>
+        </button>
+        <button class="acc-btn" data-acc="sonnenbrille">
+          <svg viewBox="0 0 28 28"><rect x="2" y="11" width="10" height="7" rx="2.5" fill="#0f172a" opacity="0.8" stroke="#334155" stroke-width="1.2"/><rect x="16" y="11" width="10" height="7" rx="2.5" fill="#0f172a" opacity="0.8" stroke="#334155" stroke-width="1.2"/><path d="M12,13.5 Q14,11 16,13.5" fill="none" stroke="#334155" stroke-width="1.5"/><line x1="2" y1="13" x2="0" y2="12" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/><line x1="26" y1="13" x2="28" y2="12" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/><line x1="4" y1="13" x2="8" y2="13" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity="0.3"/></svg>
+          <span class="acc-label">Sonnenbr.</span>
+        </button>
+        <button class="acc-btn" data-acc="schleife">
+          <svg viewBox="0 0 28 28"><ellipse cx="9" cy="14" rx="6" ry="4" fill="#f9a8d4" stroke="#ec4899" stroke-width="1" transform="rotate(-10,9,14)"/><ellipse cx="19" cy="14" rx="6" ry="4" fill="#f9a8d4" stroke="#ec4899" stroke-width="1" transform="rotate(10,19,14)"/><circle cx="14" cy="14" r="2.5" fill="#ec4899"/><line x1="13" y1="16.5" x2="11" y2="22" stroke="#ec4899" stroke-width="1.5" stroke-linecap="round"/><line x1="15" y1="16.5" x2="17" y2="22" stroke="#ec4899" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span class="acc-label">Schleife</span>
+        </button>
+        <button class="acc-btn" data-acc="blume">
+          <svg viewBox="0 0 28 28"><ellipse cx="14" cy="8" rx="3.5" ry="5" fill="#f9a8d4" opacity="0.8"/><ellipse cx="14" cy="8" rx="3.5" ry="5" fill="#f9a8d4" opacity="0.8" transform="rotate(72,14,14)"/><ellipse cx="14" cy="8" rx="3.5" ry="5" fill="#f9a8d4" opacity="0.8" transform="rotate(144,14,14)"/><ellipse cx="14" cy="8" rx="3.5" ry="5" fill="#f9a8d4" opacity="0.8" transform="rotate(216,14,14)"/><ellipse cx="14" cy="8" rx="3.5" ry="5" fill="#f9a8d4" opacity="0.8" transform="rotate(288,14,14)"/><circle cx="14" cy="14" r="3.5" fill="#fbbf24"/></svg>
+          <span class="acc-label">Blume</span>
+        </button>
+        <button class="acc-btn" data-acc="zauberstab">
+          <svg viewBox="0 0 28 28"><rect x="12.5" y="12" width="3" height="14" rx="1.5" fill="#475569" transform="rotate(-30,14,19)"/><polygon points="14,2 15.5,7 20,7 16.5,10 17.5,15 14,12 10.5,15 11.5,10 8,7 12.5,7" fill="#fbbf24" stroke="#d97706" stroke-width="0.6"/><circle cx="20" cy="4" r="1" fill="#fcd34d" opacity="0.7"/><circle cx="8" cy="5" r="0.8" fill="#fcd34d" opacity="0.5"/></svg>
+          <span class="acc-label">Zauberstab</span>
+        </button>
+        <button class="acc-btn" data-acc="kopfhoerer">
+          <svg viewBox="0 0 28 28"><path d="M5,15 Q5,6 14,5 Q23,6 23,15" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round"/><rect x="2" y="13" width="5" height="9" rx="2.5" fill="#334155"/><rect x="21" y="13" width="5" height="9" rx="2.5" fill="#334155"/><rect x="3" y="14.5" width="3" height="6" rx="1.5" fill="#475569"/><rect x="22" y="14.5" width="3" height="6" rx="1.5" fill="#475569"/></svg>
+          <span class="acc-label">Kopfhörer</span>
+        </button>
+        <button class="acc-btn" data-acc="muetze">
+          <svg viewBox="0 0 28 28"><path d="M5,16 Q5,6 14,4 Q23,6 23,16" fill="#6366f1"/><path d="M4,16 Q4,13.5 14,12.5 Q24,13.5 24,16 Q24,18.5 14,17.5 Q4,18.5 4,16 Z" fill="#818cf8"/><circle cx="14" cy="3" r="3" fill="#818cf8"/><path d="M7,10 Q14,7 21,10" fill="none" stroke="#818cf8" stroke-width="1.5"/></svg>
+          <span class="acc-label">Mütze</span>
+        </button>
+        <button class="acc-btn" data-acc="piratenhut">
+          <svg viewBox="0 0 28 28"><path d="M4,17 Q2,7 14,3 Q26,7 24,17 Z" fill="#1e293b"/><ellipse cx="14" cy="17" rx="12" ry="3" fill="#334155"/><circle cx="14" cy="10" r="4" fill="#e2e8f0"/><circle cx="12.5" cy="9.5" r="1" fill="#1e293b"/><circle cx="15.5" cy="9.5" r="1" fill="#1e293b"/><path d="M12,12 Q14,13 16,12" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-linecap="round"/></svg>
+          <span class="acc-label">Pirat</span>
+        </button>
+        <button class="acc-btn" data-acc="haarreif">
+          <svg viewBox="0 0 28 28"><path d="M4,18 Q4,8 14,6 Q24,8 24,18" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/><polygon points="9,11 10,14 12,14 10.5,15.5 11,18 9,16.5 7,18 7.5,15.5 6,14 8,14" fill="#fbbf24"/><polygon points="14,7 15.5,11 19,11 16,13.5 17,17 14,14.5 11,17 12,13.5 9,11 12.5,11" fill="#fbbf24" stroke="#d97706" stroke-width="0.5"/><polygon points="19,11 20,14 22,14 20.5,15.5 21,18 19,16.5 17,18 17.5,15.5 16,14 18,14" fill="#fbbf24"/></svg>
+          <span class="acc-label">Haarreif</span>
+        </button>
+        <button class="acc-btn" data-acc="fliege">
+          <svg viewBox="0 0 28 28"><polygon points="2,11 14,14 2,17" fill="#ef4444"/><polygon points="26,11 14,14 26,17" fill="#ef4444"/><circle cx="14" cy="14" r="2.5" fill="#dc2626"/><circle cx="7" cy="13" r="0.8" fill="#fca5a5" opacity="0.5"/><circle cx="21" cy="13" r="0.8" fill="#fca5a5" opacity="0.5"/></svg>
+          <span class="acc-label">Fliege</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Datenmodell -->
+    <div class="control-section">
+      <div class="control-label">Profil-Store Vorschlag</div>
+      <div class="summary" id="dataModel">
+        <code>avatar: { tier: "fuchs", farbe: "teal", accessoire: "none", name: "Mia" }</code>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const basePath = '../src/assets/maskottchen/';
+  const accPath = '../src/assets/maskottchen/accessoires/';
+
+  // Color palettes per mascot
+  const colorMap = {
+    teal:    { dark: '#0d9488', main: '#14b8a6', light: '#5eead4', face: '#99f6e4', star: '#fbbf24' },
+    rose:    { dark: '#e11d48', main: '#fb7185', light: '#fda4af', face: '#ffe4e6', star: '#fbbf24' },
+    violet:  { dark: '#7c3aed', main: '#a78bfa', light: '#c4b5fd', face: '#ede9fe', star: '#fbbf24' },
+    sky:     { dark: '#0284c7', main: '#38bdf8', light: '#7dd3fc', face: '#e0f2fe', star: '#fbbf24' },
+    amber:   { dark: '#d97706', main: '#fbbf24', light: '#fcd34d', face: '#fef3c7', star: '#a78bfa' },
+    emerald: { dark: '#059669', main: '#34d399', light: '#6ee7b7', face: '#d1fae5', star: '#fbbf24' },
+  };
+
+  // Mascot file mapping
+  const mascotFiles = {
+    fuchs: 'farben/mia-teal.svg',
+    eule: 'eule.svg',
+    katze: 'katze.svg',
+    hase: 'hase.svg',
+    drache: 'drache.svg',
+  };
+
+  let currentMascot = 'fuchs';
+  let currentColor = 'teal';
+  let currentAcc = 'none';
+
+  function updatePreview() {
+    const preview = document.getElementById('preview');
+    const mascotSrc = currentMascot === 'fuchs'
+      ? `${basePath}farben/mia-${currentColor}.svg`
+      : `${basePath}${mascotFiles[currentMascot]}`;
+
+    let html = `<img src="${mascotSrc}" alt="${currentMascot}" style="z-index:1;">`;
+
+    if (currentAcc !== 'none') {
+      html += `<img src="${accPath}${currentAcc}.svg" alt="${currentAcc}" style="z-index:2;">`;
+    }
+
+    // For non-fox mascots, apply color via CSS filter (hue rotation)
+    // This is a preview approximation — real app would use inline SVG with color props
+    if (currentMascot !== 'fuchs' && currentColor !== getDefaultColor(currentMascot)) {
+      const img = preview.querySelector('img');
+      // We'll apply hue-rotate after rendering
+    }
+
+    preview.innerHTML = html;
+    updateDataModel();
+  }
+
+  function getDefaultColor(mascot) {
+    const defaults = { fuchs: 'teal', eule: 'violet', katze: 'rose', hase: 'sky', drache: 'emerald' };
+    return defaults[mascot];
+  }
+
+  function updateDataModel() {
+    const name = document.getElementById('nameInput').value || 'Mia';
+    const dm = document.getElementById('dataModel');
+    dm.innerHTML = `<code>avatar: { tier: "${currentMascot}", farbe: "${currentColor}", accessoire: "${currentAcc}", name: "${name}" }</code>`;
+  }
+
+  // Mascot picker
+  document.getElementById('mascotPicker').addEventListener('click', (e) => {
+    const btn = e.target.closest('.mascot-btn');
+    if (!btn) return;
+    document.querySelectorAll('.mascot-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentMascot = btn.dataset.mascot;
+
+    // Set default name suggestion
+    const nameInput = document.getElementById('nameInput');
+    if (!nameInput.dataset.userEdited) {
+      nameInput.value = btn.dataset.defaultName;
+    }
+
+    // Set default color for this mascot
+    const defaultColor = getDefaultColor(currentMascot);
+    currentColor = defaultColor;
+    document.querySelectorAll('.color-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.color === defaultColor);
+    });
+
+    updatePreview();
+  });
+
+  // Color picker
+  document.getElementById('colorPicker').addEventListener('click', (e) => {
+    const btn = e.target.closest('.color-btn');
+    if (!btn) return;
+    document.querySelectorAll('.color-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentColor = btn.dataset.color;
+    updatePreview();
+  });
+
+  // Accessoire picker
+  document.getElementById('accPicker').addEventListener('click', (e) => {
+    const btn = e.target.closest('.acc-btn');
+    if (!btn) return;
+    document.querySelectorAll('.acc-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentAcc = btn.dataset.acc;
+    updatePreview();
+  });
+
+  // Name input
+  document.getElementById('nameInput').addEventListener('input', (e) => {
+    e.target.dataset.userEdited = 'true';
+    updateDataModel();
+  });
+
+  // Init
+  updatePreview();
+</script>
+
+</body>
+</html>

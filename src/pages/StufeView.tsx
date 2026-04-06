@@ -11,6 +11,7 @@ import { SessionSummary } from '@/components/ui/SessionSummary';
 import { useAktuelleAufgabe } from '@/hooks/useAktuelleAufgabe';
 import { useAntwortRecorder } from '@/hooks/useAntwortRecorder';
 import { useStufenFortschritt } from '@/hooks/useStufenFortschritt';
+import { useSchwierigkeit, useRefreshSchwierigkeit } from '@/hooks/useSchwierigkeit';
 import { useTipp } from '@/hooks/useTipp';
 import { useProfileStore } from '@/stores/profileStore';
 import { useSessionStore } from '@/stores/sessionStore';
@@ -92,7 +93,21 @@ function StufeRunner({
   onBack: () => void;
 }) {
   const navigate = useNavigate();
-  const { aufgabe, naechste } = useAktuelleAufgabe(stage);
+
+  // Adaptive Schwierigkeit: Level kommt aus den letzten 10 Antworten
+  const maxStufe = stage.schwierigkeit?.stufen;
+  const initialLevel = useSchwierigkeit(stage.id, maxStufe);
+  const [level, setLevel] = useState<number | undefined>(initialLevel);
+  const refreshLevel = useRefreshSchwierigkeit(stage.id, maxStufe, setLevel);
+
+  // Sync initial level when it loads from DB
+  useEffect(() => {
+    if (initialLevel !== undefined && level === undefined) {
+      setLevel(initialLevel);
+    }
+  }, [initialLevel, level]);
+
+  const { aufgabe, naechste } = useAktuelleAufgabe(stage, level);
   const { logAntwort } = useAntwortRecorder(stage.id);
   const [fortschritt, setFortschritt] = useState({ richtig: 0, versuche: 0 });
   const fortschrittFromDb = useStufenFortschritt(stage.id);
@@ -111,8 +126,10 @@ function StufeRunner({
   }, [aufgabe.id]);
 
   const handleAntwort = useCallback(
-    (antwort: string, richtig: boolean, dauerMs: number) => {
-      logAntwort(aufgabe, antwort, richtig, dauerMs, tipp.stufe > 0, tipp.stufe);
+    async (antwort: string, richtig: boolean, dauerMs: number) => {
+      await logAntwort(aufgabe, antwort, richtig, dauerMs, tipp.stufe > 0, tipp.stufe);
+      // Re-evaluate difficulty after logging the answer
+      await refreshLevel();
       setFortschritt((prev) => {
         const next = {
           richtig: prev.richtig + (richtig ? 1 : 0),
@@ -126,12 +143,12 @@ function StufeRunner({
         return next;
       });
     },
-    [aufgabe, logAntwort, tipp.stufe, stage.zielRichtige],
+    [aufgabe, logAntwort, tipp.stufe, stage.zielRichtige, refreshLevel],
   );
 
   const handleNaechste = useCallback(() => {
-    naechste();
-  }, [naechste]);
+    naechste(level);
+  }, [naechste, level]);
 
   const StageView = stage.View;
 

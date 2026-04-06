@@ -5,14 +5,12 @@ import { useProfileStore } from '@/stores/profileStore';
 import { AppShell } from '@/components/layout/AppShell';
 import { Header } from '@/components/layout/Header';
 import { StufeKarte } from '@/components/ui/StufeKarte';
-import { Card } from '@/components/ui/Card';
 import { useStufenFortschritt } from '@/hooks/useStufenFortschritt';
 import { AvatarPreview, parseAvatar } from '@/components/avatar/AvatarPreview';
 import { KATEGORIEN } from '@/aufgaben/stageMapping';
-import type { Stage } from '@/stages/types';
+import type { Stage, StageFarbe } from '@/stages/types';
 
-/** Kategorien-Farben für Abschnitt-Header. */
-const FARBE_BG: Record<string, string> = {
+const FARBE_HEADER: Record<StageFarbe, string> = {
   sky: 'bg-sky-50 text-sky-700 border-sky-200',
   amber: 'bg-amber-50 text-amber-700 border-amber-200',
   emerald: 'bg-emerald-50 text-emerald-700 border-emerald-200',
@@ -21,45 +19,33 @@ const FARBE_BG: Record<string, string> = {
   rose: 'bg-rose-50 text-rose-700 border-rose-200',
 };
 
-/** Gruppiert Stages nach Kategorie basierend auf der Stage-ID. */
-function gruppiereStages(stages: Stage[]) {
-  // Original-Stages (die 11 ohne "bank-" Prefix)
+interface Gruppe {
+  id: string;
+  titel: string;
+  farbe: StageFarbe;
+  stages: Stage[];
+}
+
+function gruppiereStages(stages: Stage[]): Gruppe[] {
   const originals = stages.filter((s) => !s.id.startsWith('bank-'));
-
-  // Bank-Stages nach Kategorie gruppieren
   const bankStages = stages.filter((s) => s.id.startsWith('bank-'));
-
-  // Gruppen: erst Grundübungen, dann nach Fredo-Kapitel
-  const gruppen: { titel: string; farbe: string; stages: Stage[] }[] = [];
+  const gruppen: Gruppe[] = [];
 
   if (originals.length > 0) {
-    gruppen.push({
-      titel: 'Grundübungen',
-      farbe: 'sky',
-      stages: originals,
-    });
+    gruppen.push({ id: 'grund', titel: 'Grundübungen', farbe: 'sky', stages: originals });
   }
 
   for (const kat of KATEGORIEN) {
     const matching = bankStages.filter((s) => s.sub.includes(kat.titel));
     if (matching.length > 0) {
-      gruppen.push({
-        titel: kat.titel,
-        farbe: kat.farbe,
-        stages: matching,
-      });
+      gruppen.push({ id: kat.id, titel: kat.titel, farbe: kat.farbe, stages: matching });
     }
   }
 
-  // Übrige Bank-Stages die keiner Kategorie zugeordnet wurden
   const zugeordnet = new Set(gruppen.flatMap((g) => g.stages.map((s) => s.id)));
   const uebrige = bankStages.filter((s) => !zugeordnet.has(s.id));
   if (uebrige.length > 0) {
-    gruppen.push({
-      titel: 'Weitere Übungen',
-      farbe: 'purple',
-      stages: uebrige,
-    });
+    gruppen.push({ id: 'weitere', titel: 'Weitere Übungen', farbe: 'purple', stages: uebrige });
   }
 
   return gruppen;
@@ -71,13 +57,13 @@ export function Uebersicht() {
   const profileName = useProfileStore((s) => s.activeProfileName);
   const profileAvatar = useProfileStore((s) => s.activeProfileAvatar);
   const [stagesReady, setStagesReady] = useState(STAGES.length);
+  const [openId, setOpenId] = useState<string | null>('grund');
 
   useEffect(() => {
     if (profileId == null) {
       navigate('/', { replace: true });
       return;
     }
-    // Re-check STAGES after async loading
     const interval = setInterval(() => {
       if (STAGES.length !== stagesReady) setStagesReady(STAGES.length);
     }, 500);
@@ -85,6 +71,10 @@ export function Uebersicht() {
   }, [profileId, navigate, stagesReady]);
 
   const gruppen = useMemo(() => gruppiereStages(STAGES), [stagesReady]);
+
+  function toggle(id: string) {
+    setOpenId((prev) => (prev === id ? null : id));
+  }
 
   if (profileId == null) return null;
 
@@ -96,8 +86,7 @@ export function Uebersicht() {
       />
 
       <main className="px-4 pb-8">
-        {/* Profil-Wechsel */}
-        <div className="flex justify-end mb-2">
+        <div className="flex justify-end mb-3">
           <button
             onClick={() => navigate('/')}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card border border-border text-sm text-muted hover:border-primary hover:text-primary transition-colors cursor-pointer min-h-[36px]"
@@ -108,46 +97,74 @@ export function Uebersicht() {
           </button>
         </div>
 
-        {gruppen.length === 0 ? (
-          <Card className="text-center mt-8">
-            <p className="text-body">Wird geladen...</p>
-          </Card>
-        ) : (
-          <div className="space-y-6">
-            {gruppen.map((gruppe) => (
-              <section key={gruppe.titel}>
-                {/* Kategorie-Header */}
-                <div className={`px-3 py-1.5 rounded-lg border text-xs font-bold uppercase tracking-wide mb-2 ${FARBE_BG[gruppe.farbe] || FARBE_BG.sky}`}>
-                  {gruppe.titel}
-                </div>
-
-                <div className="grid gap-2">
-                  {gruppe.stages.map((stage) => (
-                    <StufeKarteWithProgress
-                      key={stage.id}
-                      stage={stage}
-                      onClick={() => navigate(`/stufe/${stage.id}`)}
-                    />
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
-        )}
+        <div className="space-y-2">
+          {gruppen.map((gruppe) => (
+            <AkkordeonSection
+              key={gruppe.id}
+              gruppe={gruppe}
+              isOpen={openId === gruppe.id}
+              onToggle={() => toggle(gruppe.id)}
+              onStageClick={(id) => navigate(`/stufe/${id}`)}
+            />
+          ))}
+        </div>
       </main>
     </AppShell>
   );
 }
 
-function StufeKarteWithProgress({
-  stage,
-  onClick,
+function AkkordeonSection({
+  gruppe,
+  isOpen,
+  onToggle,
+  onStageClick,
 }: {
-  stage: Stage;
-  onClick: () => void;
+  gruppe: Gruppe;
+  isOpen: boolean;
+  onToggle: () => void;
+  onStageClick: (id: string) => void;
 }) {
-  const fortschritt = useStufenFortschritt(stage.id);
+  return (
+    <div className="rounded-2xl border border-border overflow-hidden">
+      <button
+        onClick={onToggle}
+        className={`w-full flex items-center justify-between px-4 py-3 min-h-[52px] cursor-pointer transition-colors ${
+          isOpen ? FARBE_HEADER[gruppe.farbe] : 'bg-card hover:bg-card/80'
+        }`}
+      >
+        <div className="flex items-center gap-2">
+          <span className={`text-sm font-bold ${isOpen ? '' : 'text-heading'}`}>
+            {gruppe.titel}
+          </span>
+          <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full ${
+            isOpen ? 'bg-white/60' : 'bg-border text-muted'
+          }`}>
+            {gruppe.stages.length}
+          </span>
+        </div>
+        <svg
+          width="16" height="16" viewBox="0 0 16 16" fill="none"
+          className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+        >
+          <path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
 
+      <div className={`transition-all duration-300 ease-in-out overflow-hidden ${
+        isOpen ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'
+      }`}>
+        <div className="p-2 space-y-2">
+          {gruppe.stages.map((stage) => (
+            <StufeKarteCompact key={stage.id} stage={stage} onClick={() => onStageClick(stage.id)} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function StufeKarteCompact({ stage, onClick }: { stage: Stage; onClick: () => void }) {
+  const fortschritt = useStufenFortschritt(stage.id);
   return (
     <StufeKarte
       icon={stage.icon}

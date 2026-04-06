@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Luna — Katze happy/feiernd -->
+  <polygon points="22,52 30,8 48,48" fill="#e11d48"/>
+  <polygon points="28,48 30,16 44,46" fill="#fda4af"/>
+  <polygon points="72,48 90,8 98,52" fill="#e11d48"/>
+  <polygon points="76,46 90,16 92,48" fill="#fda4af"/>
+  <ellipse cx="60" cy="72" rx="40" ry="42" fill="#fb7185"/>
+  <ellipse cx="60" cy="80" rx="28" ry="24" fill="#ffe4e6"/>
+  <!-- Happy Augen (geschlossen) -->
+  <path d="M35,65 Q42,57 49,65" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M71,65 Q78,57 85,65" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="57,77 60,80 63,77" fill="#e11d48"/>
+  <line x1="60" y1="80" x2="60" y2="84" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50,86 Q60,94 70,86" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="74" x2="36" y2="78" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="18" y1="80" x2="35" y2="82" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="84" y1="78" x2="100" y2="74" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="85" y1="82" x2="102" y2="80" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Wangenröte -->
+  <circle cx="30" cy="78" r="6" fill="#f0abfc" opacity="0.3"/>
+  <circle cx="90" cy="78" r="6" fill="#f0abfc" opacity="0.3"/>
+  <polygon points="60,40 62.5,46 69,46 63.5,50 65.5,56 60,52 54.5,56 56.5,50 51,46 57.5,46" fill="#fbbf24" opacity="0.9"/>
+  <!-- Konfetti -->
+  <polygon points="16,22 17.5,26 21,26 18,28.5 19,32 16,30 13,32 14,28.5 11,26 14.5,26" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="104" cy="28" r="2.5" fill="#5eead4" opacity="0.6"/>
+</svg>

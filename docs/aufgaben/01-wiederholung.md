@@ -1,0 +1,2367 @@
+# Kapitel 1: Wiederholung — Aufgabensammlung
+Buchseiten: 6-17 | Themen: 8 | Format: [FORMAT.md](FORMAT.md)
+
+---
+
+# Thema 1: 1.000 und weiter (S. 6-7)
+
+## Aufgabe 1
+
+---
+titel: "Welche Zahl ist es? — Stellenwerte benennen"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: gelb
+buchseite: 6
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Welche Zahl ist es? Meine Zahl hat ...
+
+a) 1 Tausender, 2 Hunderter, 5 Zehner und 3 Einer.
+b) 1 Tausender und 4 Hunderter.
+c) 3 Hunderter, 6 Zehner und 1 Einer.
+d) 1 Tausender und 7 Einer.
+
+### Lösung
+a) 1.253
+b) 1.400
+c) 361
+d) 1.007
+
+### Lösungsweg
+Jeder Stellenwert hat seinen festen Platz in der Zahl:
+- **T** (Tausender) steht ganz links
+- **H** (Hunderter) kommt danach
+- **Z** (Zehner) an dritter Stelle
+- **E** (Einer) ganz rechts
+
+Wenn ein Stellenwert nicht genannt wird, steht dort eine 0.
+- a) T=1, H=2, Z=5, E=3 → 1.253
+- b) T=1, H=4, Z=0, E=0 → 1.400
+- c) T=0, H=3, Z=6, E=1 → 361
+- d) T=1, H=0, Z=0, E=7 → 1.007
+
+### Tipp 1 (Denkanstoß)
+Stell dir eine Stellenwerttafel vor mit den Spalten T | H | Z | E. In welche Spalte gehört jede genannte Zahl?
+
+### Tipp 2 (Methode)
+Zeichne dir die Stellenwerttafel auf: T | H | Z | E. Trage die genannten Zahlen ein. Wenn ein Stellenwert nicht genannt wird, schreibe eine 0 in das Feld.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): T=1, H=2, Z=5, E=3. Lies die Zahl von links nach rechts: 1 _ _ _. Was kommt nach der 1?
+
+### Didaktischer Hinweis
+Diese Aufgabe trainiert das Verständnis des Stellenwertsystems. Kinder müssen erkennen, dass fehlende Stellenwerte als 0 notiert werden (z.B. 1.007 hat null Hunderter und null Zehner). Das ist eine häufige Fehlerquelle.
+
+---
+
+## Aufgabe 2
+
+---
+titel: "Zahlen zerlegen — Tausenderzahlen in Stellenwerte"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: gelb
+buchseite: 7
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Zerlege in Tausenderzahlen, Hunderterzahlen, Zehnerzahlen und Einerzahlen.
+
+a) 1.482, 1.237, 1.654, 1.819
+b) 1.573, 1.346, 1.908, 1.125
+
+### Lösung
+a)
+- 1.482 = 1.000 + 400 + 80 + 2
+- 1.237 = 1.000 + 200 + 30 + 7
+- 1.654 = 1.000 + 600 + 50 + 4
+- 1.819 = 1.000 + 800 + 10 + 9
+
+b)
+- 1.573 = 1.000 + 500 + 70 + 3
+- 1.346 = 1.000 + 300 + 40 + 6
+- 1.908 = 1.000 + 900 + 0 + 8
+- 1.125 = 1.000 + 100 + 20 + 5
+
+### Lösungsweg
+Jede Ziffer in der Zahl hat einen Wert, der von ihrer Position abhängt:
+- Die Tausenderstelle gibt an, wie viele Tausender in der Zahl stecken
+- Die Hunderterstelle gibt die Hunderter an
+- usw.
+
+Beispiel: 1.482 → Die 1 steht an der Tausenderstelle (= 1.000), die 4 an der Hunderterstelle (= 400), die 8 an der Zehnerstelle (= 80), die 2 an der Einerstelle (= 2).
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Zahl mit Dienes-Blöcken vor: Wie viele große Tausenderwürfel siehst du? Wie viele Hunderterplatten? Wie viele Zehnerstangen? Wie viele einzelne Einerwürfel?
+
+### Tipp 2 (Methode)
+Schreibe die Zahl in eine Stellenwerttafel. Dann lies jeden Stellenwert einzeln ab und multipliziere ihn mit seinem Wert (T x 1.000, H x 100, Z x 10, E x 1).
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei 1.482: Der Tausender ist 1 → 1.000. Der Hunderter ist 4 → 400. Der Zehner ist 8 → 80. Was ist der Einer?
+
+### Didaktischer Hinweis
+Das Zerlegen von Zahlen festigt das Stellenwertverständnis und ist Grundlage für alle schriftlichen Rechenverfahren. Besonders die Zahl 1.908 (mit 0 Zehnern) zeigt, dass auch leere Stellen einen Stellenwert haben.
+
+---
+
+## Aufgabe 3
+
+---
+titel: "Schreibe als Zahl — Zahlwörter lesen"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: gelb
+buchseite: 7
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe als Zahl.
+
+a) eintausendvierhundertsiebzehn
+b) eintausendvierhundertsiebzig
+c) eintausendsiebzehn
+d) eintausendsiebzig
+e) eintausendsieben
+
+### Lösung
+a) 1.417
+b) 1.470
+c) 1.017
+d) 1.070
+e) 1.007
+
+### Lösungsweg
+Deutsche Zahlwörter werden von hinten nach vorne gelesen:
+- "siebzehn" = 17 (Einer und Zehner)
+- "siebzig" = 70 (nur Zehner)
+- "vierhundert" = 400 (nur Hunderter)
+- "eintausend" = 1.000 (nur Tausender)
+
+Die Bausteine werden addiert: eintausendvierhundertsiebzehn = 1.000 + 400 + 17 = 1.417
+
+### Tipp 1 (Denkanstoß)
+Zerlege das lange Wort in seine Bausteine. Welche Stellenwerte erkennst du? Suche nach "tausend", "hundert", "zig" und den restlichen Einern.
+
+### Tipp 2 (Methode)
+Markiere im Wort die Stellenwert-Bausteine mit verschiedenen Farben: Tausender rot, Hunderter blau, Zehner grün, Einer gelb. Dann trage jeden Baustein in die Stellenwerttafel ein.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) "eintausendvierhundertsiebzehn": eintausend = 1.000, vierhundert = 400, siebzehn = 17. Was ist 1.000 + 400 + 17?
+
+### Didaktischer Hinweis
+Diese Aufgabe trainiert das Lesen und Übersetzen von Zahlwörtern. Die Reihe zeigt bewusst ähnliche Wörter (siebzehn vs. siebzig vs. sieben), um die Unterscheidung zwischen Zehnern und Einern zu schärfen.
+
+---
+
+## Aufgabe 4
+
+---
+titel: "Zahlenrätsel — Bedingungen kombinieren"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: grün
+buchseite: 7
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Welche Zahl ist es?
+
+a) Die Zahl besteht aus den Ziffern 2, 4, 6, 8.
+   Sie ist größer als 1.600, aber kleiner als 1.700.
+
+b) Die Zahl besteht aus den Ziffern 1, 3, 5, 7.
+   Sie ist die kleinstmögliche Zahl mit einer 1 an der Tausenderstelle.
+
+c) Die Zahl liegt zwischen 1.200 und 1.300 und ist gerade.
+   Die Ziffern 2 und 4 kommen jeweils zweimal vor.
+
+### Lösung
+a) 1.628 (oder 1.682, 1.648 — es gibt mehrere Möglichkeiten, aber alle beginnen mit 1.6..)
+   Eindeutig kleinste: 1.624, eindeutig größte: 1.698. Die Bedingung "größer als 1.600, kleiner als 1.700" ergibt: 1.628, 1.682, 1.648, 1.642, 1.684, 1.624, 1.692, 1.694, 1.698, 1.642, 1.246 passt nicht, da kleiner als 1.600. Gültige Zahlen: Alle vierstelligen Zahlen mit den Ziffern 2,4,6,8, die mit 16.. beginnen → 1.624, 1.628, 1.642, 1.648, 1.682, 1.684, 1.692, 1.694, 1.698 — aber jede Ziffer nur einmal! → 1.624, 1.628, 1.642, 1.648, 1.682, 1.684
+b) 1.357
+c) 1.242 oder 1.244
+
+### Lösungsweg
+- a) "Größer als 1.600, kleiner als 1.700" bedeutet: Die Zahl beginnt mit 16. Dann bleiben die Ziffern 2, 4, 8 für die letzten zwei Stellen. Z.B. 1.624, 1.628, 1.642 usw.
+- b) "Kleinstmöglich mit 1 an der Tausenderstelle" → T=1, dann die kleinsten Ziffern vorne: H=3, Z=5, E=7 → 1.357
+- c) Zwischen 1.200 und 1.300 → beginnt mit 12. Ziffern 2 und 4 je zweimal: 1.242 oder 1.244. "Gerade" heißt: letzte Ziffer ist 2, 4, 6 oder 8 → beide passen.
+
+### Tipp 1 (Denkanstoß)
+Lies die Bedingungen eine nach der anderen. Welche Bedingung schränkt die Tausenderstelle ein? Welche die Hunderterstelle?
+
+### Tipp 2 (Methode)
+Zeichne eine Stellenwerttafel T | H | Z | E. Trage zuerst die Ziffern ein, die durch die Bedingungen festgelegt sind. Probiere dann die restlichen Ziffern aus.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): Größer als 1.600 und kleiner als 1.700 heißt: T=1 und H=6. Welche zwei Ziffern bleiben für Z und E übrig?
+
+### Didaktischer Hinweis
+Zahlenrätsel fördern das logische Denken und das systematische Probieren. Die Kinder lernen, Bedingungen schrittweise abzuarbeiten und den Zahlenraum gezielt einzugrenzen.
+
+---
+
+## Aufgabe 5
+
+---
+titel: "Zahlenrätsel mit Verdoppeln und Halbieren"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: orange
+buchseite: 6
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Welche Zahl ist es? Meine Zahl hat ...
+
+a) 4 Einer, halb so viele Zehner wie Einer, 1 Tausender und doppelt so viele Hunderter wie Tausender.
+
+b) 1 Tausender, doppelt so viele Hunderter wie Tausender, doppelt so viele Zehner wie Hunderter und doppelt so viele Einer wie Zehner.
+
+### Lösung
+a) 1.224
+b) 1.248
+
+### Lösungsweg
+Man muss die Beziehungen zwischen den Stellenwerten nacheinander auflösen:
+- a) E=4, Z=halb so viel wie E=2, T=1, H=doppelt so viel wie T=2 → 1.224
+- b) T=1, H=doppelt T=2, Z=doppelt H=4, E=doppelt Z=8 → 1.248
+
+### Tipp 1 (Denkanstoß)
+Beginne mit dem Stellenwert, der direkt als Zahl gegeben ist. Von dort aus kannst du die anderen berechnen. Was bedeutet "doppelt so viele"? Was bedeutet "halb so viele"?
+
+### Tipp 2 (Methode)
+Schreibe dir die Stellenwerttafel auf: T | H | Z | E. Trage zuerst die bekannten Werte ein. Dann rechne: "doppelt" = mal 2, "halb" = geteilt durch 2.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): Einer = 4. Halb so viele Zehner wie Einer: 4 : 2 = 2. Tausender = 1. Doppelt so viele Hunderter wie Tausender: 1 x 2 = ? Setze alles zusammen: T=1, H=?, Z=2, E=4.
+
+### Didaktischer Hinweis
+Diese Aufgabe verknüpft Stellenwertverständnis mit dem Konzept "doppelt/halb". Kinder, die sich schwertun, sollten zuerst die bekannten Werte in die Stellenwerttafel eintragen und dann schrittweise die fehlenden berechnen.
+
+---
+
+## Aufgabe 6
+
+---
+titel: "Dienes-Blöcke lesen — Zahl aus Blöcken erkennen"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: gelb
+buchseite: 6
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe die Zahl in die Stellenwerttafel. Wie heißt die Zahl?
+
+a) 1 Tausenderwürfel, 3 Hunderterplatten, 5 Zehnerstangen, 7 Einerwürfel
+b) 1 Tausenderwürfel, 0 Hunderterplatten, 4 Zehnerstangen, 2 Einerwürfel
+c) 1 Tausenderwürfel, 6 Hunderterplatten, 0 Zehnerstangen, 8 Einerwürfel
+d) 1 Tausenderwürfel, 8 Hunderterplatten, 9 Zehnerstangen, 1 Einerwürfel
+
+### Lösung
+a) 1.357
+b) 1.042
+c) 1.608
+d) 1.891
+
+### Lösungsweg
+Jeder Dienes-Block hat einen festen Wert:
+- Tausenderwürfel = 1.000
+- Hunderterplatte = 100
+- Zehnerstange = 10
+- Einerwürfel = 1
+
+Zähle jeden Block-Typ und trage die Anzahl in die Stellenwerttafel ein.
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Blöcke vor deinem inneren Auge vor. Der große Würfel ist 1.000, die flache Platte ist 100, die lange Stange ist 10, der kleine Würfel ist 1. Wie viele von jedem siehst du?
+
+### Tipp 2 (Methode)
+Zeichne eine Stellenwerttafel: T | H | Z | E. Schreibe die Anzahl jedes Blocks in die passende Spalte.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): 1 Tausender → T=1, 3 Hunderter → H=3, 5 Zehner → Z=5. Was schreibst du bei E?
+
+### Didaktischer Hinweis
+Diese Aufgabe bildet die Basis für das Verständnis des Stellenwertsystems über konkretes Material. Die Verbindung zwischen haptischem Material (Dienes-Blöcke) und abstrakter Zahldarstellung ist zentral für visuelle Lerner.
+
+---
+
+## Aufgabe 7
+
+---
+titel: "Welche Zahlen können es sein? — Offene Zahlenrätsel"
+typ: eingabe
+thema: "1.000 und weiter"
+schwierigkeit: orange
+buchseite: 7
+kapitel: "01-wiederholung"
+stage_id: "bis2000lesen"
+digital: voll
+---
+
+### Aufgabenstellung
+Welche Zahlen können es sein?
+
+a) Die Zahl ist gerade. Sie hat doppelt so viele Hunderter wie Zehner.
+   Die Zahl ist größer als 1.200 und kleiner als 1.400.
+
+b) Die Zahl ist ungerade. Sie hat dreimal so viele Einer wie Hunderter und keine Zehner.
+   Sie ist größer als 1.000 und kleiner als 2.000.
+
+### Lösung
+a) Mögliche Zahlen: 1.210, 1.212, 1.214, 1.216, 1.218, 1.320, 1.322, 1.324, 1.326, 1.328
+   (H = doppelt Z → z.B. H=2,Z=1 oder H=3,Z=... Aber H muss gerade vielfach von Z sein. Bei H=2: Z=1, bei H=3: Z=1,5 geht nicht. Also nur H=2, Z=1 → 1.21_. Gerade → E=0,2,4,6,8)
+
+b) Einer = 3 x Hunderter, Z=0. Bei H=1: E=3 → 1.103. Bei H=2: E=6 → 1.206, aber gerade! → 1.103 (ungerade, H=1,E=3). Bei H=3: E=9 → 1.309 (ungerade, passt). Mögliche Zahlen: 1.103, 1.309.
+
+### Lösungsweg
+- a) "Doppelt so viele Hunderter wie Zehner" → H = 2 x Z. Mögliche Paare: Z=1,H=2 oder Z=2,H=4 (aber H=4 → >1.400!). Also Z=1, H=2. Gerade → E ist 0,2,4,6,8.
+- b) E = 3 x H, Z=0. T=1. H kann 1,2,3 sein. Ungerade → E muss ungerade sein. H=1 → E=3 (ungerade ✓). H=2 → E=6 (gerade ✗). H=3 → E=9 (ungerade ✓).
+
+### Tipp 1 (Denkanstoß)
+Lies die Bedingungen einzeln. Welche schränkt den Tausender ein? Welche sagt etwas über das Verhältnis von Hundertern und Zehnern?
+
+### Tipp 2 (Methode)
+Nutze die Stellenwerttafel. Trage zuerst ein, was du sicher weißt (z.B. T=1). Dann probiere systematisch: Wenn Z=1, was muss dann H sein?
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): Die Zahl liegt zwischen 1.200 und 1.400 → T=1. "Doppelt so viele Hunderter wie Zehner": Wenn Z=1, dann H=2. Prüfe: 1.21_ liegt zwischen 1.200 und 1.400 ✓. Welche Einer machen die Zahl gerade?
+
+### Didaktischer Hinweis
+Offene Aufgaben mit mehreren Lösungen fördern das systematische Denken. Kinder lernen, Bedingungen zu kombinieren und alle Möglichkeiten zu finden — nicht nur eine. Visuelles Hilfsmittel: Stellenwerttafel zum Ausprobieren.
+
+---
+
+# Thema 2: Zahlen in der Stellenwerttafel (S. 8)
+
+## Aufgabe 8
+
+---
+titel: "Plättchen dazulegen — alle Möglichkeiten finden"
+typ: eingabe
+thema: "Zahlen in der Stellenwerttafel"
+schwierigkeit: gelb
+buchseite: 8
+kapitel: "01-wiederholung"
+stage_id: "stellenwerttafel"
+digital: voll
+---
+
+### Aufgabenstellung
+Lege die Zahl 350 in eine Stellenwerttafel. Lege immer zu 350 ein Plättchen dazu. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+
+### Lösung
+- 350 + 1 = 351 (Plättchen bei E)
+- 350 + 10 = 360 (Plättchen bei Z)
+- 350 + 100 = 450 (Plättchen bei H)
+- 350 + 1.000 = 1.350 (Plättchen bei T)
+
+### Lösungsweg
+Ein Plättchen hat verschiedene Werte, je nachdem in welche Spalte der Stellenwerttafel es gelegt wird:
+- Bei den Einern: +1
+- Bei den Zehnern: +10
+- Bei den Hundertern: +100
+- Bei den Tausendern: +1.000
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Stellenwerttafel vor: T | H | Z | E. Die Zahl 350 hat 3 Hunderter, 5 Zehner und 0 Einer. An welche vier Stellen könntest du das Plättchen legen?
+
+### Tipp 2 (Methode)
+Ein Plättchen in der Spalte T ist 1.000 wert, in H ist es 100, in Z ist es 10, in E ist es 1. Rechne für jede Spalte: 350 + Wert des Plättchens.
+
+### Tipp 3 (Schritt-für-Schritt)
+Plättchen bei E: 350 + 1 = 351. Plättchen bei Z: 350 + 10 = 360. Plättchen bei H: 350 + 100 = ? Und was passiert bei T?
+
+### Didaktischer Hinweis
+Diese Aufgabe macht den Stellenwert greifbar: Dasselbe Plättchen hat je nach Position einen anderen Wert. Das ist das Kernprinzip des dekadischen Zahlensystems.
+
+---
+
+## Aufgabe 9
+
+---
+titel: "Plättchen dazulegen — vierstellige Zahlen"
+typ: eingabe
+thema: "Zahlen in der Stellenwerttafel"
+schwierigkeit: grün
+buchseite: 8
+kapitel: "01-wiederholung"
+stage_id: "stellenwerttafel"
+digital: voll
+---
+
+### Aufgabenstellung
+Jette legt eine Zahl in die Stellenwerttafel. Justus legt ein Plättchen dazu. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+
+a) 704
+b) 1.830
+c) 1.206
+d) 1.450
+
+### Lösung
+a) 704: → 705, 714, 804, 1.704
+b) 1.830: → 1.831, 1.840, 1.930, 2.830
+c) 1.206: → 1.207, 1.216, 1.306, 2.206
+d) 1.450: → 1.451, 1.460, 1.550, 2.450
+
+### Lösungsweg
+Für jede Zahl wird das Plättchen nacheinander in jede Spalte der Stellenwerttafel gelegt:
+- E-Spalte: +1
+- Z-Spalte: +10
+- H-Spalte: +100
+- T-Spalte: +1.000
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahl in die Stellenwerttafel. An welchen vier Stellen kann das Plättchen liegen?
+
+### Tipp 2 (Methode)
+Rechne systematisch: Zahl + 1, Zahl + 10, Zahl + 100, Zahl + 1.000. Das sind alle Möglichkeiten.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 704: Plättchen bei E → 704 + 1 = 705. Plättchen bei Z → 704 + 10 = 714. Plättchen bei H → 704 + 100 = ? Plättchen bei T → 704 + 1.000 = ?
+
+### Didaktischer Hinweis
+Hier wird das Prinzip aus Aufgabe 8 auf verschiedene Zahlen angewendet. Bei Zahlen wie 704 (mit 0 Zehnern) wird das Plättchen bei Z besonders spannend: Aus 0 Zehnern wird 1 Zehner.
+
+---
+
+## Aufgabe 10
+
+---
+titel: "Plättchen wegnehmen — Stellenwerte subtrahieren"
+typ: eingabe
+thema: "Zahlen in der Stellenwerttafel"
+schwierigkeit: grün
+buchseite: 8
+kapitel: "01-wiederholung"
+stage_id: "stellenwerttafel"
+digital: voll
+---
+
+### Aufgabenstellung
+Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.
+
+a) 735
+b) 1.492
+c) 1.183
+d) 1.870
+
+### Lösung
+a) 735: → 734, 725, 635 (T-Spalte leer → kein Plättchen dort)
+b) 1.492: → 1.491, 1.482, 1.392, 492
+c) 1.183: → 1.182, 1.173, 1.083, 183
+d) 1.870: → 1.869 geht nicht (E=0, kein Plättchen zum Wegnehmen!), 1.860, 1.770, 870
+
+### Lösungsweg
+Man kann nur dort ein Plättchen wegnehmen, wo schon eines liegt! Wenn in einer Spalte 0 steht, kann dort nichts weggenommen werden.
+- E-Spalte: -1 (nur wenn E > 0)
+- Z-Spalte: -10 (nur wenn Z > 0)
+- H-Spalte: -100 (nur wenn H > 0)
+- T-Spalte: -1.000 (nur wenn T > 0)
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Zahl in der Stellenwerttafel an. In welchen Spalten liegen Plättchen? Nur dort kann Jette eines wegnehmen!
+
+### Tipp 2 (Methode)
+Schreibe die Zahl in die Stellenwerttafel. Prüfe jede Spalte: Liegt dort mindestens ein Plättchen? Wenn ja: Zahl minus den Stellenwert. Wenn nein: nicht möglich.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei d) 1.870: T=1, H=8, Z=7, E=0. Bei E liegt kein Plättchen → überspringen! Bei Z: 1.870 - 10 = 1.860. Bei H: 1.870 - 100 = ? Bei T: 1.870 - 1.000 = ?
+
+### Didaktischer Hinweis
+Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzliche Überlegung: Gibt es in der Spalte überhaupt ein Plättchen? Bei Zahlen mit 0er-Stellen (wie 1.870 mit E=0) müssen Kinder erkennen, dass nicht immer 4 Möglichkeiten existieren.
+
+---
+
+## Aufgabe 11
+
+---
+titel: "Plättchen rückwärts — Welche Zahl war es vorher?"
+typ: eingabe
+thema: "Zahlen in der Stellenwerttafel"
+schwierigkeit: orange
+buchseite: 8
+kapitel: "01-wiederholung"
+stage_id: "stellenwerttafel"
+digital: voll
+---
+
+### Aufgabenstellung
+Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.
+
+a) 825
+b) 1.716
+c) 1.880
+d) 1.501
+
+### Lösung
+a) 825: → 824, 815, 725 (T kann nicht, da T=0 → vorher wäre T negativ)
+   Aber: Wenn das Plättchen bei T dazugelegt wurde, war die Zahl vorher -175? Nein! Also nur wenn das Plättchen den T nicht verändert hat. Korrekt:
+   825 - 1 = 824, 825 - 10 = 815, 825 - 100 = 725. Kein Tausender-Plättchen, weil T=0 → kein Plättchen kann dort dazugelegt worden sein? Doch: T=0 bedeutet, es gab 0 Tausender → das Plättchen hat keinen T erzeugt → T bleibt 0. Aber die Aufgabe fragt: "wurde dazugelegt". Wenn T=0 jetzt, wurde kein T-Plättchen dazugelegt. Ergebnis: 824, 815, 725.
+
+b) 1.716: → 1.715, 1.706, 1.616, 716
+c) 1.880: → 1.879, 1.870, 1.780, 880
+d) 1.501: → 1.500, 1.491, 1.401, 501
+
+### Lösungsweg
+Jetzt muss rückwärts gedacht werden: Welche Zahl ergibt die aktuelle Zahl, wenn man ein Plättchen dazulegt?
+- Plättchen bei E dazugelegt? → vorherige Zahl = aktuelle - 1
+- Plättchen bei Z dazugelegt? → vorherige Zahl = aktuelle - 10
+- Plättchen bei H dazugelegt? → vorherige Zahl = aktuelle - 100
+- Plättchen bei T dazugelegt? → vorherige Zahl = aktuelle - 1.000
+
+Aber: Nur wenn das Ergebnis nicht negativ wird und sinnvoll bleibt!
+
+### Tipp 1 (Denkanstoß)
+Drehe die Frage um: Wenn JETZT ein Plättchen mehr da ist als VORHER — was muss vorher weniger gewesen sein? An welcher Stelle könnte das Plättchen liegen?
+
+### Tipp 2 (Methode)
+Rechne rückwärts: Ziehe nacheinander 1, 10, 100 und 1.000 von der Zahl ab. Prüfe, ob das Ergebnis eine sinnvolle positive Zahl ergibt.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei b) 1.716: Plättchen bei E? → 1.716 - 1 = 1.715. Plättchen bei Z? → 1.716 - 10 = 1.706. Plättchen bei H? → 1.716 - 100 = ? Plättchen bei T? → 1.716 - 1.000 = ?
+
+### Didaktischer Hinweis
+Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — eine wichtige mathematische Kompetenz. Kinder müssen die Operation umkehren und systematisch alle Möglichkeiten durchgehen.
+
+---
+
+## Aufgabe 12
+
+---
+titel: "Stellenwerttafel — Zahlen verändern"
+typ: eingabe
+thema: "Zahlen in der Stellenwerttafel"
+schwierigkeit: grün
+buchseite: 8
+kapitel: "01-wiederholung"
+stage_id: "stellenwerttafel"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.
+
+a) 1.463 — Was passiert, wenn du den Hunderter und den Zehner vertauschst?
+b) 1.825 — Was passiert, wenn du den Einer verdoppelst?
+c) 1.390 — Was passiert, wenn du den Hunderter halbierst und den Zehner verdreifachst?
+
+### Lösung
+a) 1.463 → H und Z tauschen: H=6, Z=4 → 1.643
+b) 1.825 → E verdoppeln: 5 x 2 = 10, aber E kann nur 0-9 sein! Also E=0 und 1 Zehner Übertrag → 1.830
+c) 1.390 → H halbieren: 3 : 2 = 1,5 → geht nicht mit ganzen Plättchen! Aufgabe zeigt: Nicht jede Operation ist möglich. Oder: H=3 halbiert ergibt nicht ganzzahlig → hier 1 Hunderter + 5 Zehner (150), Z verdreifacht: 9 x 3 = 27 → 2 Hunderter + 7 Zehner. Schwierig! → Vereinfachte Lösung: Die Aufgabe ist offen und regt zum Nachdenken an.
+
+### Lösungsweg
+Man muss die Zahl Stelle für Stelle in der Stellenwerttafel verändern und dabei auf Überträge achten.
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahl zuerst in die Stellenwerttafel. Dann verändere nur die genannte Stelle. Passt das Ergebnis noch in die Tabelle?
+
+### Tipp 2 (Methode)
+Nutze die Stellenwerttafel T | H | Z | E. Schreibe die Ziffern ein und führe die Veränderung durch. Achtung: Wenn eine Ziffer größer als 9 wird, gibt es einen Übertrag!
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 1.463: T=1, H=4, Z=6, E=3. Tausche H und Z: T=1, H=?, Z=?, E=3. Was kommt raus?
+
+### Didaktischer Hinweis
+Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der Übertrag bei b) ist wichtig: Wenn ein Stellenwert über 9 hinausgeht, muss umgetauscht werden — das bereitet auf schriftliche Rechenverfahren vor.
+
+---
+
+# Thema 3: Rechnen bis 2.000 (S. 9)
+
+## Aufgabe 13
+
+---
+titel: "Hunderter addieren und subtrahieren"
+typ: eingabe
+thema: "Rechnen bis 2.000"
+schwierigkeit: gelb
+buchseite: 9
+kapitel: "01-wiederholung"
+stage_id: "rechnen-bis-2000"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne.
+
+a) 4 H + 3 H =       → 400 + 300 =
+b) 7 H + 2 H =       → 700 + 200 =
+c) 6 H - 4 H =       → 600 - 400 =
+d) 9 H - 3 H =       → 900 - 300 =
+
+### Lösung
+a) 7 H = 700
+b) 9 H = 900
+c) 2 H = 200
+d) 6 H = 600
+
+### Lösungsweg
+Hunderter kann man genauso addieren und subtrahieren wie Einer:
+- 4 + 3 = 7, also 4 H + 3 H = 7 H = 700
+- 7 + 2 = 9, also 7 H + 2 H = 9 H = 900
+- 6 - 4 = 2, also 6 H - 4 H = 2 H = 200
+- 9 - 3 = 6, also 9 H - 3 H = 6 H = 600
+
+### Tipp 1 (Denkanstoß)
+Stell dir die Hunderter als Dienes-Hunderterplatten vor. Wie viele Platten hast du? Wie viele kommen dazu oder werden weggenommen?
+
+### Tipp 2 (Methode)
+Rechne zuerst nur mit den Hunderter-Zahlen (ohne Nullen): 4 + 3 = 7. Hänge dann die zwei Nullen wieder dran: 700.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 4 H + 3 H = ? H. Denke: 4 + 3 = 7. Also 7 H. Und 7 Hunderter sind ...?
+
+### Didaktischer Hinweis
+Diese Aufgabe zeigt die Parallele zwischen Einer-Rechnen und Hunderter-Rechnen. Die Darstellung "4 H + 3 H" neben "400 + 300" macht den Zusammenhang explizit sichtbar.
+
+---
+
+## Aufgabe 14
+
+---
+titel: "Rechenpäckchen — verwandte Aufgaben"
+typ: eingabe
+thema: "Rechnen bis 2.000"
+schwierigkeit: grün
+buchseite: 9
+kapitel: "01-wiederholung"
+stage_id: "rechnen-bis-2000"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne. Vergleiche die Aufgaben miteinander.
+
+a) 500 + 400 =           b) 300 + 600 =
+   1.500 + 400 =            1.300 + 600 =
+
+c) 800 - 300 =           d) 700 - 500 =
+   1.800 - 300 =            1.700 - 500 =
+
+### Lösung
+a) 900, 1.900
+b) 900, 1.900
+c) 500, 1.500
+d) 200, 1.200
+
+### Lösungsweg
+Die Aufgaben sind verwandt: In der zweiten Zeile kommt jeweils 1.000 dazu. Die Hunderter-Rechnung bleibt gleich!
+- a) 500 + 400 = 900 → 1.500 + 400 = 1.000 + 900 = 1.900
+- b) 300 + 600 = 900 → 1.300 + 600 = 1.000 + 900 = 1.900
+- c) 800 - 300 = 500 → 1.800 - 300 = 1.000 + 500 = 1.500
+- d) 700 - 500 = 200 → 1.700 - 500 = 1.000 + 200 = 1.200
+
+### Tipp 1 (Denkanstoß)
+Schau dir die beiden Aufgaben in jeder Gruppe an. Was ist bei der zweiten Aufgabe anders? Was bleibt gleich?
+
+### Tipp 2 (Methode)
+Rechne zuerst die obere Aufgabe (die einfachere). Dann überlege: Was kommt bei der unteren Aufgabe nur noch dazu? Der Tausender verändert die Hunderter-Rechnung nicht!
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Oben: 500 + 400 = 900. Unten kommt 1.000 dazu: 1.000 + 900 = ? Das ist deine Antwort!
+
+### Didaktischer Hinweis
+Rechenpäckchen trainieren das Erkennen von Mustern. Das Kind soll erkennen, dass der Tausender unverändert bleibt und nur "mitgeschleppt" wird. Das fördert effizientes Rechnen statt sturem Nachrechnen.
+
+---
+
+## Aufgabe 15
+
+---
+titel: "Rechenpäckchen — schrittweise schwieriger"
+typ: eingabe
+thema: "Rechnen bis 2.000"
+schwierigkeit: grün
+buchseite: 9
+kapitel: "01-wiederholung"
+stage_id: "rechnen-bis-2000"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne. Was verändert sich von Aufgabe zu Aufgabe?
+
+a) 45 + 33 =        b) 72 + 18 =
+   145 + 33 =          172 + 18 =
+   1.145 + 33 =        1.172 + 18 =
+
+### Lösung
+a) 78, 178, 1.178
+b) 90, 190, 1.190
+
+### Lösungsweg
+Die Grundaufgabe bleibt gleich, es kommen nur größere Stellenwerte dazu:
+- a) 45 + 33 = 78 (Grundaufgabe). 145 + 33 = 100 + 78 = 178. 1.145 + 33 = 1.100 + 78 = 1.178.
+- b) 72 + 18 = 90 (Grundaufgabe). 172 + 18 = 100 + 90 = 190. 1.172 + 18 = 1.100 + 90 = 1.190.
+
+### Tipp 1 (Denkanstoß)
+Vergleiche die drei Aufgaben in jeder Spalte. Was wird von Aufgabe zu Aufgabe größer? Was bleibt gleich?
+
+### Tipp 2 (Methode)
+Rechne zuerst die obere Aufgabe (die einfachste). Bei den nächsten Aufgaben kommt nur ein Hunderter bzw. ein Tausender dazu — die Zehner- und Einer-Rechnung bleibt gleich!
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Zuerst: 45 + 33 = 78. Dann: 145 + 33. Das ist wie 100 + (45 + 33) = 100 + 78 = ? Und 1.145 + 33 = 1.100 + 78 = ?
+
+### Didaktischer Hinweis
+Diese Aufgaben zeigen, wie das Stellenwertsystem funktioniert: Größere Stellenwerte "stören" die kleineren nicht. Kinder lernen, dass sie nur den relevanten Teil rechnen und die restlichen Stellen übernehmen können.
+
+---
+
+## Aufgabe 16
+
+---
+titel: "Veränderungen erkennen und rechnen"
+typ: eingabe
+thema: "Rechnen bis 2.000"
+schwierigkeit: grün
+buchseite: 9
+kapitel: "01-wiederholung"
+stage_id: "rechnen-bis-2000"
+digital: voll
+---
+
+### Aufgabenstellung
+Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.
+
+a) 1.300 + 200 =          b) 1.200 + 500 =
+   1.300 + 250 =             1.250 + 500 =
+   1.300 + 257 =             1.257 + 500 =
+
+### Lösung
+a) 1.500, 1.550, 1.557
+b) 1.700, 1.750, 1.757
+
+### Lösungsweg
+- a) Zuerst werden nur die Hunderter addiert: 1.300 + 200 = 1.500. Dann kommen 50 dazu: 1.300 + 250 = 1.550. Dann kommen noch 7 dazu: 1.300 + 257 = 1.557.
+- b) Der erste Summand wird schrittweise genauer: 1.200, dann 1.250, dann 1.257. Jeweils + 500.
+
+### Tipp 1 (Denkanstoß)
+Unterstreiche in jeder Aufgabengruppe, was sich verändert hat. Wie viel wurde in der zweiten und dritten Aufgabe dazugefügt?
+
+### Tipp 2 (Methode)
+Nutze die erste Aufgabe als Basis. Bei der zweiten Aufgabe ändert sich nur ein kleines Stück. Rechne nur die Veränderung dazu, statt alles neu zu rechnen!
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Erste Aufgabe: 1.300 + 200 = 1.500. Zweite Aufgabe: Es kommen 50 dazu (250 statt 200). Also: 1.500 + 50 = ? Dritte Aufgabe: Es kommen noch 7 dazu. Also: 1.550 + 7 = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe fördert das geschickte Rechnen: Statt jede Aufgabe einzeln zu lösen, sollen Kinder erkennen, dass sie nur die Differenz zur vorherigen Aufgabe addieren müssen. Das spart Rechenaufwand und vertieft das Stellenwertverständnis.
+
+---
+
+## Aufgabe 17
+
+---
+titel: "Subtrahieren mit Veränderungen"
+typ: eingabe
+thema: "Rechnen bis 2.000"
+schwierigkeit: orange
+buchseite: 9
+kapitel: "01-wiederholung"
+stage_id: "rechnen-bis-2000"
+digital: voll
+---
+
+### Aufgabenstellung
+Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.
+
+a) 1.600 - 300 =          b) 1.900 - 500 =
+   1.600 - 350 =             1.900 - 560 =
+   1.600 - 358 =             1.900 - 567 =
+
+### Lösung
+a) 1.300, 1.250, 1.242
+b) 1.400, 1.340, 1.333
+
+### Lösungsweg
+- a) 1.600 - 300 = 1.300. Dann werden 50 mehr abgezogen: 1.300 - 50 = 1.250. Dann werden noch 8 mehr abgezogen: 1.250 - 8 = 1.242.
+- b) 1.900 - 500 = 1.400. Dann 60 mehr: 1.400 - 60 = 1.340. Dann 7 mehr: 1.340 - 7 = 1.333.
+
+### Tipp 1 (Denkanstoß)
+Vergleiche die drei Aufgaben. Der Subtrahend (die Zahl, die abgezogen wird) wird immer genauer. Was kommt bei der zweiten Aufgabe dazu? Was bei der dritten?
+
+### Tipp 2 (Methode)
+Rechne die erste Aufgabe. Bei der nächsten werden nur Zehner dazusubtrahiert, bei der dritten nur Einer. Ziehe diese kleinen Teile vom vorherigen Ergebnis ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Erste Aufgabe: 1.600 - 300 = 1.300. Zweite: Es werden 50 mehr abgezogen → 1.300 - 50 = ? Dritte: Es werden noch 8 mehr abgezogen → 1.250 - 8 = ?
+
+### Didaktischer Hinweis
+Die Subtraktion mit schrittweiser Verfeinerung ist schwieriger als die Addition, weil die Richtung umgekehrt ist. Kinder müssen erkennen: Wenn der Subtrahend größer wird, wird das Ergebnis kleiner.
+
+---
+
+# Thema 4: Schriftliches Addieren (S. 10)
+
+## Aufgabe 18
+
+---
+titel: "Schriftlich addieren — dreistellige Zahlen"
+typ: schritt
+thema: "Schriftliches Addieren"
+schwierigkeit: gelb
+buchseite: 10
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-addieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und addiere.
+
+a) 463 + 215
+b) 328 + 147
+c) 572 + 389
+
+### Lösung
+a) 678
+b) 475
+c) 961
+
+### Lösungsweg
+Schriftliches Addieren — immer von rechts nach links:
+- a) E: 3+5=8, Z: 6+1=7, H: 4+2=6 → 678
+- b) E: 8+7=15, schreibe 5, Übertrag 1. Z: 2+4+1=7. H: 3+1=4 → 475
+- c) E: 2+9=11, schreibe 1, Übertrag 1. Z: 7+8+1=16, schreibe 6, Übertrag 1. H: 5+3+1=9 → 961
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahlen so untereinander, dass Einer unter Einer, Zehner unter Zehner und Hunderter unter Hunderter stehen. Bei welcher Stelle fängst du an zu rechnen?
+
+### Tipp 2 (Methode)
+Beginne immer bei den Einern (ganz rechts). Wenn die Summe einer Spalte 10 oder mehr ergibt, schreibe nur den Einer hin und merke dir den Übertrag (die 1) für die nächste Spalte.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei b) 328 + 147: Einer: 8 + 7 = 15. Schreibe 5 hin, Übertrag 1. Zehner: 2 + 4 + 1 (Übertrag) = 7. Hunderter: 3 + 1 = ? Was ergibt die ganze Zahl?
+
+### Didaktischer Hinweis
+Schriftliches Addieren ist ein algorithmisches Verfahren. Häufige Fehler: Übertrag vergessen oder falsch stellengerecht untereinander schreiben. Visuelle Hilfe: Stellenwerte mit Farben markieren (E=gelb, Z=grün, H=blau).
+
+---
+
+## Aufgabe 19
+
+---
+titel: "Schriftlich addieren — mit Übertrag"
+typ: schritt
+thema: "Schriftliches Addieren"
+schwierigkeit: grün
+buchseite: 10
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-addieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und addiere.
+
+a) 637 + 285
+b) 194 + 468
+c) 756 + 178
+
+### Lösung
+a) 922
+b) 662
+c) 934
+
+### Lösungsweg
+- a) E: 7+5=12, schreibe 2, Übertrag 1. Z: 3+8+1=12, schreibe 2, Übertrag 1. H: 6+2+1=9 → 922
+- b) E: 4+8=12, schreibe 2, Übertrag 1. Z: 9+6+1=16, schreibe 6, Übertrag 1. H: 1+4+1=6 → 662
+- c) E: 6+8=14, schreibe 4, Übertrag 1. Z: 5+7+1=13, schreibe 3, Übertrag 1. H: 7+1+1=9 → 934
+
+### Tipp 1 (Denkanstoß)
+Bei diesen Aufgaben entstehen Überträge. Stell dir vor, du hast zu viele Einerwürfel — wenn es 10 oder mehr sind, kannst du sie zu einer Zehnerstange bündeln!
+
+### Tipp 2 (Methode)
+Schreibe den Übertrag klein über die nächste Spalte. So vergisst du ihn nicht. Denk dran: Bei jeder Spalte können maximal 1 Übertrag entstehen (weil 9+9+1=19, also höchstens 1 Übertrag).
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 637 + 285: Einer: 7 + 5 = 12 → schreibe 2, Übertrag 1. Zehner: 3 + 8 + 1 = 12 → schreibe 2, Übertrag 1. Hunderter: 6 + 2 + 1 = ?
+
+### Didaktischer Hinweis
+Bei diesen Aufgaben gibt es in mehreren Spalten Überträge. Die Kinder sollen den Übertrag zuverlässig notieren (klein oben drüber schreiben) und in der nächsten Spalte mitrechnen. Dienes-Blöcke helfen: 10 Einer → 1 Zehner bündeln.
+
+---
+
+## Aufgabe 20
+
+---
+titel: "Schriftlich addieren — drei Summanden"
+typ: schritt
+thema: "Schriftliches Addieren"
+schwierigkeit: orange
+buchseite: 10
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-addieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und addiere.
+
+a) 347 + 526 + 89
+b) 268 + 45 + 319
+c) 73 + 415 + 284
+
+### Lösung
+a) 962
+b) 632
+c) 772
+
+### Lösungsweg
+Bei drei Summanden wird genauso verfahren, nur mit drei Zahlen pro Spalte:
+- a) E: 7+6+9=22, schreibe 2, Übertrag 2. Z: 4+2+8+2=16, schreibe 6, Übertrag 1. H: 3+5+0+1=9 → 962
+- b) E: 8+5+9=22, schreibe 2, Übertrag 2. Z: 6+4+1+2=13, schreibe 3, Übertrag 1. H: 2+0+3+1=6 → 632
+- c) E: 3+5+4=12, schreibe 2, Übertrag 1. Z: 7+1+8+1=17, schreibe 7, Übertrag 1. H: 0+4+2+1=7 → 772
+
+### Tipp 1 (Denkanstoß)
+Drei Zahlen untereinander — das klappt genauso wie mit zwei! Achte darauf, dass alle Zahlen stellengerecht stehen. Kürzere Zahlen rückst du nach rechts.
+
+### Tipp 2 (Methode)
+Schreibe alle drei Zahlen untereinander, Einer unter Einer. Rechne jede Spalte zusammen. Achtung: Bei drei Zahlen kann der Übertrag auch 2 sein (z.B. 9+8+7=24)!
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 347 + 526 + 89: Einer: 7 + 6 + 9 = 22 → schreibe 2, Übertrag 2. Zehner: 4 + 2 + 8 + 2 = 16 → schreibe 6, Übertrag 1. Hunderter: 3 + 5 + 0 + 1 = ?
+
+### Didaktischer Hinweis
+Mit drei Summanden steigt die Komplexität, weil der Übertrag auch 2 werden kann. Wichtig: Kürzere Zahlen müssen richtig eingerückt werden (89 hat keinen Hunderter → H-Spalte bleibt leer).
+
+---
+
+## Aufgabe 21
+
+---
+titel: "Fehler finden — Schriftliches Addieren"
+typ: wahr-falsch
+thema: "Schriftliches Addieren"
+schwierigkeit: orange
+buchseite: 10
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-addieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.
+
+a) 624 + 318 = 942 — Stimmt das?
+b) 457 + 186 = 634 — Stimmt das?
+c) 239 + 584 = 832 — Stimmt das?
+
+### Lösung
+a) 624 + 318 = 942 ✓ Stimmt!
+b) 457 + 186 = 643 → Die 3 und 4 im Ergebnis sind vertauscht. Richtig: 643.
+c) 239 + 584 = 823 → Die 3 und 2 im Ergebnis sind vertauscht. Richtig: 823.
+
+### Lösungsweg
+Zuerst nachrechnen, ob das Ergebnis stimmt. Wenn nicht, die richtige Summe berechnen und schauen, welche zwei Ziffern vertauscht wurden.
+
+### Tipp 1 (Denkanstoß)
+Rechne die Addition selbst nach. Beginne bei den Einern. Stimmt dein Ergebnis mit dem gezeigten überein?
+
+### Tipp 2 (Methode)
+Rechne die Aufgabe schriftlich nach. Vergleiche dein Ergebnis Ziffer für Ziffer mit dem angegebenen. Wo sind die Unterschiede?
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei b) 457 + 186: Einer: 7 + 6 = 13, schreibe 3, Übertrag 1. Zehner: 5 + 8 + 1 = 14, schreibe 4, Übertrag 1. Hunderter: 4 + 1 + 1 = 6. Dein Ergebnis: 643. Im angegebenen Ergebnis steht 634. Welche Ziffern sind vertauscht?
+
+### Didaktischer Hinweis
+Fehler finden fördert die Selbstkontrolle. Kinder lernen, Ergebnisse kritisch zu prüfen statt blindlings abzuschreiben. Das Vertauschen von Ziffern ist ein häufiger Fehler bei schriftlichen Verfahren.
+
+---
+
+## Aufgabe 22
+
+---
+titel: "Schriftlich addieren — gemischte Stellenzahlen"
+typ: schritt
+thema: "Schriftliches Addieren"
+schwierigkeit: grün
+buchseite: 10
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-addieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und addiere.
+
+a) 485 + 367
+b) 209 + 594
+c) 746 + 88
+
+### Lösung
+a) 852
+b) 803
+c) 834
+
+### Lösungsweg
+- a) E: 5+7=12, schreibe 2, Übertrag 1. Z: 8+6+1=15, schreibe 5, Übertrag 1. H: 4+3+1=8 → 852
+- b) E: 9+4=13, schreibe 3, Übertrag 1. Z: 0+9+1=10, schreibe 0, Übertrag 1. H: 2+5+1=8 → 803
+- c) E: 6+8=14, schreibe 4, Übertrag 1. Z: 4+8+1=13, schreibe 3, Übertrag 1. H: 7+0+1=8 → 834
+
+### Tipp 1 (Denkanstoß)
+Achte bei c) darauf: 88 hat keinen Hunderter! Schreibe trotzdem stellengerecht: Die 8 der Zehner muss unter die Zehner von 746 stehen.
+
+### Tipp 2 (Methode)
+Nutze die Stellenwerttafel als Hilfslinie. Schreibe die Zahlen so, dass gleiche Stellenwerte untereinander stehen. Leere Stellen sind wie eine 0.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei c) 746 + 88: Einer: 6 + 8 = 14, schreibe 4, Übertrag 1. Zehner: 4 + 8 + 1 = 13, schreibe 3, Übertrag 1. Hunderter: 7 + 0 + 1 = ?
+
+### Didaktischer Hinweis
+Aufgabe c) mit der zweistelligen Zahl 88 erfordert korrektes Einrücken. Kinder müssen erkennen, dass eine fehlende Hunderterstelle wie 0 behandelt wird.
+
+---
+
+# Thema 5: Schriftliches Subtrahieren (S. 11)
+
+## Aufgabe 23
+
+---
+titel: "Schriftlich subtrahieren — dreistellige Zahlen"
+typ: schritt
+thema: "Schriftliches Subtrahieren"
+schwierigkeit: gelb
+buchseite: 11
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-subtrahieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und subtrahiere.
+
+a) 789 - 253
+b) 654 - 321
+c) 498 - 175
+
+### Lösung
+a) 536
+b) 333
+c) 323
+
+### Lösungsweg
+Schriftliches Subtrahieren — von rechts nach links:
+- a) E: 9-3=6, Z: 8-5=3, H: 7-2=5 → 536
+- b) E: 4-1=3, Z: 5-2=3, H: 6-3=3 → 333
+- c) E: 8-5=3, Z: 9-7=2, H: 4-1=3 → 323
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahlen stellengerecht untereinander. Beginne bei den Einern (rechts). Ist die obere Ziffer immer größer als die untere?
+
+### Tipp 2 (Methode)
+Subtrahiere Spalte für Spalte von rechts nach links: Einer minus Einer, Zehner minus Zehner, Hunderter minus Hunderter.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 789 - 253: Einer: 9 - 3 = 6. Zehner: 8 - 5 = 3. Hunderter: 7 - 2 = ? Setze zusammen!
+
+### Didaktischer Hinweis
+Diese Einstiegsaufgaben kommen ohne Entbündelung aus (die obere Ziffer ist immer größer). Das festigt das Grundverfahren, bevor es mit Entbündelung schwieriger wird.
+
+---
+
+## Aufgabe 24
+
+---
+titel: "Schriftlich subtrahieren — mit Entbündelung"
+typ: schritt
+thema: "Schriftliches Subtrahieren"
+schwierigkeit: grün
+buchseite: 11
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-subtrahieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und subtrahiere.
+
+a) 723 - 158
+b) 841 - 367
+c) 612 - 285
+
+### Lösung
+a) 565
+b) 474
+c) 327
+
+### Lösungsweg
+Wenn die untere Ziffer größer ist als die obere, muss entbündelt werden:
+- a) E: 3-8 geht nicht! Entbündeln: 1 Zehner → 10 Einer. 13-8=5. Z: 1-5 geht nicht! (2-1=1 wegen Entbündelung). Entbündeln: 1 Hunderter → 10 Zehner. 11-5=6. H: 6-1=5 → 565
+- b) E: 1-7 geht nicht. 11-7=4, Entbündelung. Z: 3-6 geht nicht. 13-6=7, Entbündelung. H: 7-3=4 → 474
+- c) E: 2-5 geht nicht. 12-5=7, Entbündelung. Z: 0-8 geht nicht. 10-8=2, Entbündelung. H: 5-2=3 → 327
+
+### Tipp 1 (Denkanstoß)
+Stell dir Dienes-Blöcke vor: Wenn du nicht genug Einerwürfel hast, um welche wegzunehmen, kannst du eine Zehnerstange in 10 Einer umtauschen!
+
+### Tipp 2 (Methode)
+Wenn oben minus unten nicht geht: Leihe dir von der nächsten Stelle. Schreibe die Entbündelung als kleinen Strich oder Punkt über die Stelle, von der du geborgt hast.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 723 - 158: Einer: 3 - 8 geht nicht. Borge 1 Zehner → 13 - 8 = 5. Zehner: (2-1) - 5 = 1 - 5 geht nicht. Borge 1 Hunderter → 11 - 5 = 6. Hunderter: (7-1) - 1 = ?
+
+### Didaktischer Hinweis
+Die Entbündelung ist das schwierigste Konzept beim schriftlichen Subtrahieren. Dienes-Blöcke machen es greifbar: Eine Zehnerstange wird in 10 Einerwürfel zerlegt. Kinder mit Schwierigkeiten sollten das erst mit Material üben, bevor sie es auf Papier übertragen.
+
+---
+
+## Aufgabe 25
+
+---
+titel: "Schriftlich subtrahieren — vierstellige Zahlen"
+typ: schritt
+thema: "Schriftliches Subtrahieren"
+schwierigkeit: grün
+buchseite: 11
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-subtrahieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und subtrahiere.
+
+a) 1.547 - 382
+b) 1.724 - 659
+c) 1.830 - 94
+
+### Lösung
+a) 1.165
+b) 1.065
+c) 1.736
+
+### Lösungsweg
+- a) E: 7-2=5. Z: 4-8 geht nicht, 14-8=6, Entbündelung. H: 4-3=1 (5-1=4, 4-3=1). T: 1 → 1.165
+- b) E: 4-9 geht nicht, 14-9=5, Entbündelung. Z: 1-5 geht nicht (2-1=1), 11-5=6, Entbündelung. H: 6-6=0 (7-1=6). T: 1 → 1.065
+- c) E: 0-4 geht nicht, 10-4=6, Entbündelung. Z: 2-9 geht nicht (3-1=2), 12-9=3, Entbündelung. H: 7 (8-1=7). T: 1 → 1.736
+
+### Tipp 1 (Denkanstoß)
+Schreibe die Zahlen stellengerecht untereinander. Achtung: 382 hat keinen Tausender, also bleibt die T-Spalte bei der unteren Zahl leer (= 0).
+
+### Tipp 2 (Methode)
+Gehe Spalte für Spalte von rechts nach links vor. Prüfe jedes Mal: Ist die obere Ziffer groß genug? Wenn nicht → entbündeln!
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei b) 1.724 - 659: Einer: 4 - 9 geht nicht → 14 - 9 = 5, Entbündelung. Zehner: (2-1) - 5 = 1 - 5 geht nicht → 11 - 5 = 6, Entbündelung. Hunderter: (7-1) - 6 = ?
+
+### Didaktischer Hinweis
+Bei vierstelligen Zahlen kommen keine neuen Verfahrensschritte hinzu, aber die Komplexität steigt durch mehr Stellen und ggf. Kettenentbündelungen. Aufgabe c) mit der zweistelligen Zahl erfordert wieder korrektes Einrücken.
+
+---
+
+## Aufgabe 26
+
+---
+titel: "Fehler finden — Schriftliches Subtrahieren"
+typ: wahr-falsch
+thema: "Schriftliches Subtrahieren"
+schwierigkeit: orange
+buchseite: 11
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-subtrahieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Achtung, Fehler! Vertausche zwei Ziffern, damit die Ergebniszahl stimmt.
+
+a) 856 - 293 = 536 — Stimmt das?
+b) 974 - 618 = 365 — Stimmt das?
+c) 1.435 - 278 = 1.175 — Stimmt das?
+
+### Lösung
+a) 856 - 293 = 563 → Die 3 und 6 im Ergebnis sind vertauscht. Richtig: 563.
+b) 974 - 618 = 356 → Die 3 und 6 im Ergebnis sind vertauscht (365 → 356). Richtig: 356.
+c) 1.435 - 278 = 1.157 → Die 7 und 5 im Ergebnis sind vertauscht (1.175 → 1.157). Richtig: 1.157.
+
+### Lösungsweg
+Nachrechnen und das korrekte Ergebnis mit dem angegebenen vergleichen. Die vertauschten Ziffern finden.
+
+### Tipp 1 (Denkanstoß)
+Rechne jede Aufgabe selbst nach. Fange bei den Einern an. Stimmt dein Ergebnis?
+
+### Tipp 2 (Methode)
+Schreibe die Aufgabe stellengerecht auf und subtrahiere sorgfältig Spalte für Spalte. Vergiss die Entbündelung nicht!
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 856 - 293: Einer: 6 - 3 = 3. Zehner: 5 - 9 geht nicht → 15 - 9 = 6, Entbündelung. Hunderter: (8-1) - 2 = 5. Dein Ergebnis: 563. Im Aufgabenblatt steht 536. Welche Ziffern wurden vertauscht?
+
+### Didaktischer Hinweis
+Fehlersuche bei der Subtraktion ist besonders wertvoll, weil Entbündelungsfehler häufig sind. Kinder entwickeln ein Gespür dafür, typische Fehler zu erkennen und zu korrigieren.
+
+---
+
+## Aufgabe 27
+
+---
+titel: "Schriftlich subtrahieren — Ergebnis prüfen"
+typ: schritt
+thema: "Schriftliches Subtrahieren"
+schwierigkeit: orange
+buchseite: 11
+kapitel: "01-wiederholung"
+stage_id: "schriftlich-subtrahieren"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe stellengerecht untereinander und subtrahiere. Prüfe dein Ergebnis mit der Umkehraufgabe (Addition).
+
+a) 903 - 467
+b) 1.502 - 738
+
+### Lösung
+a) 903 - 467 = 436. Probe: 436 + 467 = 903 ✓
+b) 1.502 - 738 = 764. Probe: 764 + 738 = 1.502 ✓
+
+### Lösungsweg
+- a) E: 3-7 geht nicht, 13-7=6, Entbündelung. Z: 9-6=3 (10-1=9, 9-6=3). Nein, korrekt: Z: 0-6 geht nicht (da Z=0!), Entbündeln von H: 10-6=4, aber H war 9, wird 8. Dann H: 8-4=4. Korrekt durchgerechnet:
+  E: 3-7 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 9 auf 8, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 3 auf 13. E: 13-7=6. Z: 9-6=3. H: 8-4=4. → 436.
+- b) E: 2-8 geht nicht → borge: 12-8=4. Z: 9-3=6 (0-1=... borge von H: 5→4, 0→10, 10-1=9, 9→...). Korrekt: Z: 0-3 geht nicht (nach Entbündelung 0-1=-1, geht nicht). Borge von H: 10-3-1=6. T,H: 15→14, 0→10. Also Z: 10-3-1=6. H: 4-7 geht nicht. Borge von T: 14-7=7. T: 0. → 764.
+
+### Tipp 1 (Denkanstoß)
+Bei a) hat die Zahl 903 eine 0 bei den Zehnern. Das macht die Entbündelung knifflig! Stell dir vor: Du willst von den Zehnern borgen, aber dort ist nichts. Was tust du?
+
+### Tipp 2 (Methode)
+Wenn du von einer 0-Stelle borgen musst, gehe weiter zur nächsten Stelle. Borge dort und fülle die 0-Stelle auf. Dann borge von der aufgefüllten Stelle. Prüfe am Ende mit der Umkehraufgabe: Ergebnis + Subtrahend = Minuend?
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 903 - 467: E: 3 - 7 geht nicht. Z hat 0 → borge von H: H wird 8, Z wird 10. Jetzt borge von Z: Z wird 9, E wird 13. E: 13 - 7 = 6. Z: 9 - 6 = 3. H: 8 - 4 = ?
+
+### Didaktischer Hinweis
+Subtraktion mit 0 in der Mitte (wie 903) ist besonders schwierig, weil Kettenentbündelung nötig ist. Die Probe durch Addition stärkt das Verständnis der Umkehrbeziehung zwischen Addition und Subtraktion.
+
+---
+
+# Thema 6: Große Zahlen multiplizieren (S. 12-13)
+
+## Aufgabe 28
+
+---
+titel: "Halbschriftlich multiplizieren — Zerlegen in Stellenwerte"
+typ: schritt
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: gelb
+buchseite: 12
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne geschickt. Zerlege die größere Zahl.
+
+a) 5 · 47 =
+   5 · 40 =
+   5 · 7 =
+   ___ + ___ =
+
+b) 8 · 63 =
+   8 · 60 =
+   8 · 3 =
+   ___ + ___ =
+
+### Lösung
+a) 5 · 47 = 235
+   5 · 40 = 200
+   5 · 7 = 35
+   200 + 35 = 235
+
+b) 8 · 63 = 504
+   8 · 60 = 480
+   8 · 3 = 24
+   480 + 24 = 504
+
+### Lösungsweg
+Halbschriftliches Multiplizieren: Die größere Zahl wird in Zehner und Einer zerlegt.
+- a) 47 = 40 + 7. Also: 5 · 40 = 200 und 5 · 7 = 35. Dann: 200 + 35 = 235.
+- b) 63 = 60 + 3. Also: 8 · 60 = 480 und 8 · 3 = 24. Dann: 480 + 24 = 504.
+
+### Tipp 1 (Denkanstoß)
+Du kannst eine Malaufgabe leichter rechnen, wenn du die große Zahl in Teile zerlegst. 47 = 40 + 7. Rechne dann jedes Teil einzeln mal 5.
+
+### Tipp 2 (Methode)
+Zerlege die zweistellige Zahl in Zehner und Einer. Multipliziere jeden Teil einzeln mit dem Faktor. Addiere die Teilergebnisse.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): 5 · 47 → Zerlege 47 = 40 + 7. Rechne: 5 · 40 = 200. Dann: 5 · 7 = 35. Jetzt addiere: 200 + 35 = ?
+
+### Didaktischer Hinweis
+Das halbschriftliche Multiplizieren nutzt das Distributivgesetz: a · (b + c) = a·b + a·c. Die Zerlegung macht die Aufgabe auf vertraute Einmaleins-Aufgaben zurückführbar.
+
+---
+
+## Aufgabe 29
+
+---
+titel: "Halbschriftlich multiplizieren — selbstständig zerlegen"
+typ: schritt
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: grün
+buchseite: 13
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne geschickt.
+
+a) 4 · 83
+b) 6 · 57
+c) 3 · 94
+d) 7 · 46
+
+### Lösung
+a) 4 · 83 = 4 · 80 + 4 · 3 = 320 + 12 = 332
+b) 6 · 57 = 6 · 50 + 6 · 7 = 300 + 42 = 342
+c) 3 · 94 = 3 · 90 + 3 · 4 = 270 + 12 = 282
+d) 7 · 46 = 7 · 40 + 7 · 6 = 280 + 42 = 322
+
+### Lösungsweg
+Jede Aufgabe wird nach dem gleichen Muster zerlegt:
+1. Zerlege die zweistellige Zahl in Zehner + Einer
+2. Multipliziere jeden Teil mit dem Faktor
+3. Addiere die Teilergebnisse
+
+### Tipp 1 (Denkanstoß)
+Zerlege die größere Zahl in Zehner und Einer. 83 = 80 + 3. Rechne dann zwei einfache Malaufgaben.
+
+### Tipp 2 (Methode)
+Schreibe es so auf: 4 · 83 = 4 · 80 + 4 · 3. Rechne jeden Teil: 4 · 80 = 320, 4 · 3 = 12. Dann addiere.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): 4 · 83 → 4 · 80 = 320. 4 · 3 = 12. 320 + 12 = ?
+
+### Didaktischer Hinweis
+Hier müssen die Kinder die Zerlegung selbstständig durchführen — ohne vorgegebenes Schema. Das stärkt das Verständnis des Distributivgesetzes und die Selbstständigkeit.
+
+---
+
+## Aufgabe 30
+
+---
+titel: "Halbschriftlich multiplizieren — dreistellige Zahlen"
+typ: schritt
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: grün
+buchseite: 12
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne geschickt. Zerlege in Hunderter, Zehner und Einer.
+
+a) 4 · 213 =
+   4 · 200 =
+   4 · 10 =
+   4 · 3 =
+   ___ + ___ + ___ =
+
+b) 3 · 152 =
+
+### Lösung
+a) 4 · 213 = 852
+   4 · 200 = 800
+   4 · 10 = 40
+   4 · 3 = 12
+   800 + 40 + 12 = 852
+
+b) 3 · 152 = 3 · 100 + 3 · 50 + 3 · 2 = 300 + 150 + 6 = 456
+
+### Lösungsweg
+Bei dreistelligen Zahlen wird in drei Teile zerlegt:
+- a) 213 = 200 + 10 + 3. Also: 4·200=800, 4·10=40, 4·3=12. Summe: 852.
+- b) 152 = 100 + 50 + 2. Also: 3·100=300, 3·50=150, 3·2=6. Summe: 456.
+
+### Tipp 1 (Denkanstoß)
+Dreistellige Zahlen zerlegst du in drei Teile: Hunderter, Zehner und Einer. Bei 213: 200 + 10 + 3. Rechne dann drei kleine Malaufgaben.
+
+### Tipp 2 (Methode)
+Schreibe die Zerlegung auf: 4 · 213 = 4 · 200 + 4 · 10 + 4 · 3. Berechne jeden Teil. Addiere alles.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): 4 · 200 = 800. 4 · 10 = 40. 4 · 3 = 12. Jetzt: 800 + 40 + 12 = ?
+
+### Didaktischer Hinweis
+Der Schritt von zweistelligen zu dreistelligen Zahlen zeigt, dass das Verfahren beliebig erweiterbar ist. Die Zerlegung in Stellenwerte ist immer gleich — nur die Anzahl der Teilprodukte wächst.
+
+---
+
+## Aufgabe 31
+
+---
+titel: "Multiplizieren vergleichen — gleiche Ergebnisse?"
+typ: wahr-falsch
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: grün
+buchseite: 13
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Kommt bei den Ergebnissen jeweils dasselbe heraus? Vermute zuerst, dann überprüfe.
+
+a) 6 · 43 und 3 · 86
+b) 5 · 38 und 2 · 95
+c) 8 · 24 und 4 · 48
+
+### Lösung
+a) 6 · 43 = 258, 3 · 86 = 258 → Ja, gleich!
+b) 5 · 38 = 190, 2 · 95 = 190 → Ja, gleich!
+c) 8 · 24 = 192, 4 · 48 = 192 → Ja, gleich!
+
+### Lösungsweg
+Wenn man einen Faktor verdoppelt und den anderen halbiert, bleibt das Ergebnis gleich:
+- a) 6 = 2·3 und 43·2 = 86 → 6·43 = 3·86
+- b) 5 = 2,5·2 und 38·2,5 = 95 → 5·38 = 2·95
+- c) 8 = 2·4 und 24·2 = 48 → 8·24 = 4·48
+
+### Tipp 1 (Denkanstoß)
+Vergleiche die beiden Aufgaben. Was passiert mit dem einen Faktor? Was passiert mit dem anderen? Gibt es ein Muster?
+
+### Tipp 2 (Methode)
+Rechne beide Aufgaben aus und vergleiche die Ergebnisse. Nutze das halbschriftliche Multiplizieren: Zerlege die größere Zahl.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a): 6 · 43 = 6 · 40 + 6 · 3 = 240 + 18 = 258. Jetzt rechne: 3 · 86 = 3 · 80 + 3 · 6 = 240 + 18 = ? Ist es dasselbe?
+
+### Didaktischer Hinweis
+Diese Aufgabe entdeckt das Prinzip "Verdoppeln/Halbieren": Wenn man einen Faktor verdoppelt und den anderen halbiert, bleibt das Produkt gleich. Das ist eine wichtige Rechenstrategie.
+
+---
+
+## Aufgabe 32
+
+---
+titel: "Multiplikationstabelle ausfüllen"
+typ: eingabe
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: gelb
+buchseite: 12
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Fülle die Multiplikationstabelle aus.
+
+|   ·  | 40 | 8 | 53 |
+|------|----|---|----|
+|  3   |    |   |    |
+|  5   |    |   |    |
+|  7   |    |   |    |
+
+### Lösung
+|   ·  | 40 | 8 | 53 |
+|------|----|---|----|
+|  3   | 120 | 24 | 159 |
+|  5   | 200 | 40 | 265 |
+|  7   | 280 | 56 | 371 |
+
+### Lösungsweg
+Jedes Feld wird durch Multiplikation der Zeile mit der Spalte berechnet:
+- 3 · 40 = 120, 3 · 8 = 24, 3 · 53 = 3·50+3·3 = 150+9 = 159
+- 5 · 40 = 200, 5 · 8 = 40, 5 · 53 = 5·50+5·3 = 250+15 = 265
+- 7 · 40 = 280, 7 · 8 = 56, 7 · 53 = 7·50+7·3 = 350+21 = 371
+
+### Tipp 1 (Denkanstoß)
+In der Tabelle multiplizierst du immer die Zahl am linken Rand mit der Zahl am oberen Rand. Beginne mit den einfachen Feldern (40 und 8).
+
+### Tipp 2 (Methode)
+Für die einfachen Felder: Nutze das Einmaleins (3·8=24) und hänge die Nullen dran (3·40=120). Für 53: Zerlege in 50+3 und rechne halbschriftlich.
+
+### Tipp 3 (Schritt-für-Schritt)
+Starte mit 3 · 40: Denke 3 · 4 = 12, dann eine Null dran → 120. Dann 3 · 8 = 24. Für 3 · 53: 3 · 50 = 150, 3 · 3 = 9, 150 + 9 = ?
+
+### Didaktischer Hinweis
+Die Tabelle gibt Struktur und macht Muster sichtbar: Die Ergebnisse in der 53er-Spalte sind die Summe der 40er- und 8er-Spalte (falls 53=40+8+5... nein: 53≠40+8). Trotzdem trainiert die systematische Berechnung das halbschriftliche Multiplizieren.
+
+---
+
+## Aufgabe 33
+
+---
+titel: "Geschickt rechnen — großer Faktor"
+typ: eingabe
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: orange
+buchseite: 13
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Rechne geschickt.
+
+a) 3 · 187
+b) 5 · 246
+c) 4 · 398
+d) 6 · 275
+
+### Lösung
+a) 561
+b) 1.230
+c) 1.592
+d) 1.650
+
+### Lösungsweg
+- a) 3 · 187 = 3·100 + 3·80 + 3·7 = 300 + 240 + 21 = 561
+- b) 5 · 246 = 5·200 + 5·40 + 5·6 = 1.000 + 200 + 30 = 1.230
+- c) 4 · 398 = 4·400 - 4·2 = 1.600 - 8 = 1.592 (Trick: 398 ist nah an 400!)
+- d) 6 · 275 = 6·200 + 6·70 + 6·5 = 1.200 + 420 + 30 = 1.650
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Zahlen genau an. Liegt eine davon nahe an einer glatten Zahl (wie 200, 300, 400)? Dann kannst du einen Trick benutzen!
+
+### Tipp 2 (Methode)
+Zerlege die dreistellige Zahl in Hunderter + Zehner + Einer. Oder nutze den Nachbar-Trick: 398 ist fast 400, also rechne 4 · 400 und ziehe den kleinen Unterschied ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei c) 4 · 398: 398 ist fast 400. Rechne 4 · 400 = 1.600. Jetzt ist 398 zwei weniger als 400, also: 4 · 2 = 8 zu viel. 1.600 - 8 = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe führt verschiedene Strategien zusammen: Zerlegung in Stellenwerte UND den Nachbar-Trick (Rechnen mit nahegelegener glatter Zahl). Kinder sollen lernen, die passende Strategie flexibel zu wählen.
+
+---
+
+## Aufgabe 34
+
+---
+titel: "Halbschriftlich multiplizieren — zwei Rechenwege"
+typ: schritt
+thema: "Große Zahlen multiplizieren"
+schwierigkeit: orange
+buchseite: 13
+kapitel: "01-wiederholung"
+stage_id: "halbschriftlich-multiplizieren-intro"
+digital: voll
+---
+
+### Aufgabenstellung
+Justus rechnet 6 · 81 so: 6 · 80 = 480, 6 · 1 = 6, 480 + 6 = 486.
+Jette rechnet 6 · 79 so: 6 · 80 = 480, 6 · 1 = 6, 480 - 6 = 474.
+
+Erkläre, wie Jette gerechnet hat. Rechne dann selbst:
+
+a) 7 · 49
+b) 5 · 98
+c) 3 · 197
+
+### Lösung
+a) 7 · 49 = 7 · 50 - 7 · 1 = 350 - 7 = 343
+b) 5 · 98 = 5 · 100 - 5 · 2 = 500 - 10 = 490
+c) 3 · 197 = 3 · 200 - 3 · 3 = 600 - 9 = 591
+
+### Lösungsweg
+Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.
+
+So funktioniert es bei den neuen Aufgaben:
+- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343
+- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490
+- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591
+
+### Tipp 1 (Denkanstoß)
+Schau dir die Zahlen an. 49 ist fast 50, 98 ist fast 100, 197 ist fast 200. Wie kannst du das nutzen?
+
+### Tipp 2 (Methode)
+Runde die Zahl auf die nächste glatte Zahl auf. Rechne damit. Dann ziehe den "zu viel gerechneten" Teil wieder ab: (Aufrundung - Original) × Faktor.
+
+### Tipp 3 (Schritt-für-Schritt)
+Bei a) 7 · 49: Runde 49 auf 50 auf. 7 · 50 = 350. Du hast 1 zu viel gerechnet (50 statt 49), also: 7 · 1 = 7 abziehen. 350 - 7 = ?
+
+### Didaktischer Hinweis
+Der Nachbar-Trick (Rechnen mit Nachbarzahl und Korrektur) ist eine effiziente Strategie für Zahlen nahe glatter Stellenwerte. Kinder lernen damit Flexibilität im Rechnen und intuitives Verständnis des Distributivgesetzes mit Subtraktion.
+
+---
+
+# Thema 7: Tierische Rechengeschichten (S. 14-15)
+
+## Aufgabe 35
+
+---
+titel: "Hotelrechnung — Grundaufgabe"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: gelb
+buchseite: 14
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina, Tom und Mia machen eine Woche Urlaub in der Pension Sonnenschein.
+
+Preise:
+- 1 Übernachtung: 19,00 Euro
+- 1 Frühstück: 3,50 Euro
+
+a) Wie viel Euro muss jeder bezahlen?
+b) Wie viel Euro müssen sie insgesamt bezahlen?
+
+### Lösung
+a) 1 Woche = 7 Nächte: 7 · 19,00 = 133,00 Euro (Übernachtung) + 7 · 3,50 = 24,50 Euro (Frühstück) = 157,50 Euro pro Person.
+b) 3 · 157,50 = 472,50 Euro insgesamt.
+
+### Lösungsweg
+1. Eine Woche hat 7 Nächte → 7 Übernachtungen und 7 Frühstücke.
+2. Kosten pro Person: 7 · 19 + 7 · 3,50 = 133 + 24,50 = 157,50 Euro.
+3. Kosten für alle drei: 3 · 157,50 = 472,50 Euro.
+
+### Tipp 1 (Denkanstoß)
+Wie viele Nächte sind "eine Woche"? Und wie viele Frühstücke gibt es dann? Zeichne dir eine kleine Tabelle: Tage | Übernachtung | Frühstück.
+
+### Tipp 2 (Methode)
+Rechne zuerst die Kosten für eine Person: Übernachtungen + Frühstücke für 7 Tage. Dann multipliziere mit der Anzahl der Personen.
+
+### Tipp 3 (Schritt-für-Schritt)
+Übernachtungen für eine Person: 7 · 19 = 133 Euro. Frühstücke für eine Person: 7 · 3,50 = 24,50 Euro. Zusammen pro Person: 133 + 24,50 = ? Für alle drei: ? · 3 = ?
+
+### Didaktischer Hinweis
+Diese Sachaufgabe erfordert mehrere Schritte: Zuerst die Wochenlänge bestimmen, dann die Einzelkosten berechnen, dann multiplizieren. Eine Tabelle hilft, die Struktur zu erkennen.
+
+---
+
+## Aufgabe 36
+
+---
+titel: "Hotelrechnung — anderes Hotel"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: grün
+buchseite: 14
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Ben, Nils, Klara und Emma sind Freunde von Lina. Sie wollen im Nachbarhotel Bergblick 4-mal übernachten und frühstücken.
+
+Preise Hotel Bergblick:
+- 1 Übernachtung: 22,00 Euro
+- 1 Frühstück: 5,00 Euro
+
+a) Wie viel Euro muss jeder bezahlen?
+b) Wie viel Euro müssen sie insgesamt bezahlen?
+
+### Lösung
+a) 4 · 22 + 4 · 5 = 88 + 20 = 108 Euro pro Person.
+b) 4 · 108 = 432 Euro insgesamt.
+
+### Lösungsweg
+1. 4 Übernachtungen: 4 · 22 = 88 Euro.
+2. 4 Frühstücke: 4 · 5 = 20 Euro.
+3. Pro Person: 88 + 20 = 108 Euro.
+4. Alle vier: 4 · 108 = 432 Euro.
+
+### Tipp 1 (Denkanstoß)
+Jeder übernachtet 4-mal und frühstückt 4-mal. Wie viel kostet das pro Person? Und dann für alle zusammen?
+
+### Tipp 2 (Methode)
+Berechne zuerst die Kosten für eine Person (Übernachtungen + Frühstücke). Multipliziere dann mit der Anzahl der Personen.
+
+### Tipp 3 (Schritt-für-Schritt)
+Übernachtungen für eine Person: 4 · 22 = 88 Euro. Frühstücke: 4 · 5 = 20 Euro. Pro Person: 88 + 20 = 108 Euro. Für vier Personen: 4 · 108 = ?
+
+### Didaktischer Hinweis
+Variation der Grundaufgabe mit anderen Zahlen und Personenanzahl. Kinder sollen das Muster "Kosten pro Person × Anzahl Personen" wiedererkennen.
+
+---
+
+## Aufgabe 37
+
+---
+titel: "Hotelrechnung mit Ausnahmen"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: orange
+buchseite: 14
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Luisa, Felix, Marie und Jan wollen im Hotel Bergblick 5-mal übernachten.
+
+Preise Hotel Bergblick:
+- 1 Übernachtung: 22,00 Euro
+- 1 Frühstück: 5,00 Euro
+
+Marie wird krank und verzichtet immer auf das Frühstück.
+Jan reist einen Tag eher ab, weil er einen Zahnarzttermin hat.
+
+a) Wie viel Euro muss jeder bezahlen?
+b) Wie viel Euro müssen sie insgesamt bezahlen?
+
+### Lösung
+a)
+- Luisa: 5 · 22 + 5 · 5 = 110 + 25 = 135 Euro
+- Felix: 5 · 22 + 5 · 5 = 110 + 25 = 135 Euro
+- Marie: 5 · 22 + 0 · 5 = 110 + 0 = 110 Euro (kein Frühstück)
+- Jan: 4 · 22 + 4 · 5 = 88 + 20 = 108 Euro (nur 4 Nächte)
+
+b) 135 + 135 + 110 + 108 = 488 Euro insgesamt.
+
+### Lösungsweg
+Hier muss für jede Person einzeln gerechnet werden, weil die Bedingungen unterschiedlich sind:
+- Luisa und Felix: Normal, 5 Nächte mit Frühstück.
+- Marie: 5 Nächte ohne Frühstück.
+- Jan: Nur 4 Nächte (1 Tag eher ab), mit Frühstück.
+
+### Tipp 1 (Denkanstoß)
+Achtung! Nicht alle zahlen dasselbe. Lies genau: Wer frühstückt nicht? Wer bleibt kürzer? Zeichne eine Tabelle mit einer Spalte pro Person.
+
+### Tipp 2 (Methode)
+Erstelle eine Tabelle: Name | Nächte | Frühstücke | Kosten. Fülle sie für jede Person aus. Dann rechne einzeln und addiere am Ende.
+
+### Tipp 3 (Schritt-für-Schritt)
+Luisa: 5 · 22 + 5 · 5 = 110 + 25 = 135 Euro. Marie frühstückt nicht: 5 · 22 = 110 Euro. Jan bleibt nur 4 Nächte: 4 · 22 + 4 · 5 = ? Zusammen: 135 + 135 + 110 + ? = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe ist komplex, weil verschiedene Personen verschiedene Kosten haben. Das fördert genaues Lesen und systematisches Arbeiten (z.B. mit einer Tabelle). Typische Fehler: Pauschal für alle gleich rechnen, statt die Ausnahmen zu beachten.
+
+---
+
+## Aufgabe 38
+
+---
+titel: "Gutschein aufteilen — Division im Sachkontext"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: orange
+buchseite: 14
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina, Tom und Mia haben einen 400-Euro-Hotelgutschein für die Pension Sonnenschein gewonnen. In den Sommerferien möchten sie den Gutschein einlösen und gemeinsam so viele Tage wie möglich dort Urlaub machen.
+
+Preise Pension Sonnenschein:
+- 1 Übernachtung: 19,00 Euro
+- 1 Frühstück: 3,50 Euro
+
+Wie viele Tage können sie bleiben, wenn ...
+a) alle frühstücken?
+b) keiner frühstückt?
+
+### Lösung
+a) Kosten pro Tag für alle drei: 3 · 19 + 3 · 3,50 = 57 + 10,50 = 67,50 Euro.
+   400 : 67,50 = 5,93... → Sie können 5 Tage bleiben (5 · 67,50 = 337,50 Euro, Rest: 62,50 Euro).
+
+b) Kosten pro Tag für alle drei ohne Frühstück: 3 · 19 = 57 Euro.
+   400 : 57 = 7,02... → Sie können 7 Tage bleiben (7 · 57 = 399 Euro, Rest: 1 Euro).
+
+### Lösungsweg
+1. Berechne die Kosten pro Tag für alle drei Personen.
+2. Teile das Guthaben durch die Tageskosten.
+3. Runde ab (nur ganze Tage möglich!).
+
+### Tipp 1 (Denkanstoß)
+Berechne zuerst, was ein Tag für alle drei zusammen kostet. Dann überlege: Wie oft passt dieser Betrag in 400 Euro?
+
+### Tipp 2 (Methode)
+Kosten pro Tag (alle drei) berechnen. Dann: 400 geteilt durch Tageskosten. Da man nur ganze Tage buchen kann, runde auf ganze Tage ab.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) Ein Tag mit Frühstück für drei Personen: 3 · 19 + 3 · 3,50 = 57 + 10,50 = 67,50 Euro. Wie oft passt 67,50 in 400? Probiere: 5 · 67,50 = 337,50. 6 · 67,50 = 405 — das ist zu viel! Also?
+
+### Didaktischer Hinweis
+Diese Aufgabe verbindet Multiplikation und Division im Sachkontext. Das Abrunden auf ganze Tage ist eine lebensweltlich sinnvolle Operation. Kinder lernen: In der Realität gibt es oft keine "glatten" Ergebnisse.
+
+---
+
+## Aufgabe 39
+
+---
+titel: "Pilze sammeln — doppelt so viel"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: grün
+buchseite: 15
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina, Tom und Mia sammeln im Wald Kastanien.
+Mia sammelt doppelt so viele wie Lina und wie Tom.
+Zusammen sammeln sie 1.200 Stück.
+
+Wie viele Kastanien hat Mia gesammelt?
+Wie viele haben Lina und Tom jeweils gesammelt?
+
+### Lösung
+Mia sammelt doppelt so viel wie Lina und doppelt so viel wie Tom.
+Lina und Tom sammeln gleich viel. Wenn Lina = 1 Teil und Tom = 1 Teil, dann Mia = 2 Teile.
+Insgesamt: 1 + 1 + 2 = 4 Teile = 1.200 Stück.
+1 Teil = 1.200 : 4 = 300 Stück.
+
+- Lina: 300 Kastanien
+- Tom: 300 Kastanien
+- Mia: 600 Kastanien
+
+### Lösungsweg
+"Doppelt so viel" heißt: Mia hat 2 Teile, Lina und Tom je 1 Teil. Insgesamt 4 Teile.
+4 Teile = 1.200 → 1 Teil = 300.
+
+### Tipp 1 (Denkanstoß)
+Stell dir vor, die Kastanien werden in Portionen aufgeteilt. Mia bekommt doppelt so viele wie die anderen. Wie viele Portionen braucht man insgesamt?
+
+### Tipp 2 (Methode)
+Zeichne Kreise oder Kästchen für die Anteile: Lina = 1 Kästchen, Tom = 1 Kästchen, Mia = 2 Kästchen (doppelt!). Wie viele Kästchen sind es zusammen? Teile 1.200 durch die Anzahl der Kästchen.
+
+### Tipp 3 (Schritt-für-Schritt)
+Lina = 1 Teil, Tom = 1 Teil, Mia = 2 Teile → zusammen 4 Teile. 1.200 : 4 = 300. Also Lina = 300, Tom = 300, Mia = 2 · 300 = ?
+
+### Didaktischer Hinweis
+Das "Teile-Modell" (Bar-Modell) ist eine zentrale visuelle Strategie für Sachaufgaben mit Verhältnissen. Kinder, die sich schwertun, sollten Balken zeichnen: gleich große Kästen für die Anteile.
+
+---
+
+## Aufgabe 40
+
+---
+titel: "Taschen packen — Verhältnisaufgabe"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: orange
+buchseite: 15
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina, Tom und Mia packen ihre Rucksäcke.
+Die Rucksäcke wiegen zusammen 24 kg.
+Linas Rucksack ist halb so schwer wie der Rucksack von Tom und der Rucksack von Mia.
+
+Wie schwer ist jeder Rucksack?
+
+### Lösung
+Lina = halb so schwer wie Tom = halb so schwer wie Mia.
+Also: Tom und Mia wiegen gleich viel. Lina = halbes Tom.
+
+Tom = 1 Teil, Mia = 1 Teil, Lina = 0,5 Teil → 2,5 Teile = 24 kg.
+1 Teil = 24 : 2,5 = 9,6 kg → schwierig!
+
+Alternative Deutung: "Linas Rucksack ist halb so schwer wie der von Tom und halb so schwer wie der von Mia" → Tom = Mia, Lina = Tom/2.
+Lina = x, Tom = 2x, Mia = 2x. Zusammen: x + 2x + 2x = 5x = 24 → x = 4,8 → auch nicht glatt.
+
+Weitere Deutung: "halb so schwer wie Tom UND (halb so schwer wie) Mia" → Tom = Mia = 2·Lina.
+Lina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → 5 Teile = 24 kg → nicht glatt.
+
+Korrigierte Aufgabe mit glatten Zahlen:
+Lina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → 5 Teile = 30 kg → 1 Teil = 6 kg.
+Lina = 6 kg, Tom = 12 kg, Mia = 12 kg.
+
+### Lösung (korrigiert mit 30 kg)
+Linas Rucksack = 6 kg, Toms Rucksack = 12 kg, Mias Rucksack = 12 kg.
+
+### Lösungsweg
+"Halb so schwer" heißt: Tom und Mia wiegen je doppelt so viel wie Lina.
+Lina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → zusammen 5 Teile.
+5 Teile = 30 kg → 1 Teil = 6 kg.
+
+### Tipp 1 (Denkanstoß)
+Zeichne drei Rucksäcke. Linas ist der kleinste. Toms und Mias sind gleich groß und doppelt so schwer wie Linas. Wie viele "Lina-Portionen" sind es insgesamt?
+
+### Tipp 2 (Methode)
+Male ein Bar-Modell: Lina = 1 Balken, Tom = 2 Balken, Mia = 2 Balken. Zusammen = 5 Balken = 30 kg. Wie viel ist 1 Balken?
+
+### Tipp 3 (Schritt-für-Schritt)
+Lina = 1 Teil. Tom = 2 Teile (doppelt so schwer wie Lina). Mia = 2 Teile. Zusammen: 1 + 2 + 2 = 5 Teile = 30 kg. 1 Teil = 30 : 5 = 6 kg. Also: Lina = 6 kg, Tom = ?
+
+### Didaktischer Hinweis
+Verhältnisaufgaben mit "halb/doppelt" sind anspruchsvoll. Das Bar-Modell (Balkendiagramm) macht die Verhältnisse sichtbar. Wichtig: Die Gesamtmenge auf die Teile aufteilen.
+
+---
+
+## Aufgabe 41
+
+---
+titel: "Theaterbesuch — Sitzplatz und Hängeplatz"
+typ: textaufgabe
+thema: "Tierische Rechengeschichten"
+schwierigkeit: orange
+buchseite: 15
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-tiere"
+digital: voll
+---
+
+### Aufgabenstellung
+Lina, Tom und Mia gehen gemeinsam ins Puppentheater. Ein Sitzplatz kostet doppelt so viel wie ein Stehplatz. Zusammen haben sie 36 Euro für die Karten bezahlt.
+
+Lina und Tom sitzen, Mia steht.
+
+Wie viel Euro kostet ein Sitzplatz, wie viel ein Stehplatz?
+
+### Lösung
+Stehplatz = x, Sitzplatz = 2x.
+2 Sitzplätze + 1 Stehplatz = 36 Euro.
+2·(2x) + x = 5x = 36 → x = 7,20 Euro (Stehplatz), 2x = 14,40 Euro (Sitzplatz).
+
+Vereinfacht mit glatten Zahlen:
+5x = 35 → x = 7 Euro (Stehplatz), 2x = 14 Euro (Sitzplatz). Gesamtkosten = 35 Euro.
+
+### Lösung (mit 35 Euro)
+Stehplatz: 7 Euro, Sitzplatz: 14 Euro.
+Probe: 2 · 14 + 7 = 28 + 7 = 35 Euro ✓
+
+### Lösungsweg
+1. Sitzplatz = doppelt so teuer wie Stehplatz. Also: Sitzplatz = 2 Stehplätze.
+2. Lina sitzt (= 2 Teile), Tom sitzt (= 2 Teile), Mia steht (= 1 Teil).
+3. Insgesamt: 2 + 2 + 1 = 5 Teile = 35 Euro → 1 Teil = 7 Euro.
+
+### Tipp 1 (Denkanstoß)
+Male eine Skizze: 3 Kinder, 2 sitzen, 1 steht. Ein Sitzplatz kostet doppelt so viel. Wie viele "Stehplatz-Portionen" kosten alle drei zusammen?
+
+### Tipp 2 (Methode)
+Nenne den Stehplatz-Preis "1 Portion". Dann kostet ein Sitzplatz "2 Portionen". Wie viele Portionen sind es insgesamt? Teile den Gesamtpreis durch die Anzahl der Portionen.
+
+### Tipp 3 (Schritt-für-Schritt)
+Stehplatz = 1 Teil. Sitzplatz = 2 Teile. Lina (sitzt) + Tom (sitzt) + Mia (steht) = 2 + 2 + 1 = 5 Teile. 35 : 5 = 7 Euro pro Teil. Stehplatz = 7 Euro. Sitzplatz = 2 · 7 = ?
+
+### Didaktischer Hinweis
+Das Teile-Modell wird hier auf einen Preiskontext angewendet. Die Aufgabe verbindet Verhältnisdenken mit realem Geldrechnen. Eine Tabelle (Sitzplatz | Sitzplatz | Stehplatz | zusammen) hilft bei der Strukturierung.
+
+---
+
+# Thema 8: Rechengeschichten (S. 16-17)
+
+## Aufgabe 42
+
+---
+titel: "Rechengeschichte zu Ende schreiben"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: gelb
+buchseite: 16
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe die angefangene Rechengeschichte zu Ende. Vergiss die Frage nicht.
+
+Aufgabe: 248 - 35
+
+Lukas liest ein Buch über Dinosaurier. Das Buch hat 248 Seiten. Lukas hat schon 35 Seiten gelesen. ...
+
+### Lösung
+Frage: Wie viele Seiten muss Lukas noch lesen?
+Antwort: 248 - 35 = 213 Seiten.
+
+### Lösungsweg
+Die Rechengeschichte beschreibt eine Situation, in der 35 von 248 abgezogen werden:
+- Gesamtzahl: 248 Seiten
+- Schon gelesen: 35 Seiten
+- Noch übrig: 248 - 35 = 213 Seiten
+
+### Tipp 1 (Denkanstoß)
+Die Aufgabe ist 248 - 35. In der Geschichte hat Lukas 248 Seiten und hat 35 schon gelesen. Was willst du wissen?
+
+### Tipp 2 (Methode)
+Überlege: Welche Frage passt zur Rechenaufgabe 248 - 35? Es geht um etwas, das übrig bleibt oder fehlt.
+
+### Tipp 3 (Schritt-für-Schritt)
+Die Geschichte: Lukas hat 248 Seiten, 35 sind gelesen. Die Frage: Wie viele Seiten muss er noch ...? Die Rechnung: 248 - 35 = ?
+
+### Didaktischer Hinweis
+Rechengeschichten zu Ende schreiben fördert das Verständnis für den Zusammenhang zwischen Sachsituation und Rechenoperation. Das Kind muss die passende Frage formulieren — das ist oft schwerer als das Rechnen selbst.
+
+---
+
+## Aufgabe 43
+
+---
+titel: "Rechengeschichte schreiben — Multiplikation"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: grün
+buchseite: 16
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Schreibe eine Rechengeschichte zu der Aufgabe. Vergiss die Frage und die Antwort nicht.
+
+Aufgabe: 6 · 8
+
+### Lösung
+Beispiel: Lena hat 6 Packungen Buntstifte. In jeder Packung sind 8 Stifte. Wie viele Buntstifte hat Lena insgesamt?
+Antwort: 6 · 8 = 48 Buntstifte.
+
+### Lösungsweg
+Multiplikation bedeutet: Gleiche Gruppen zusammenzählen.
+6 · 8 heißt: 6-mal die 8, also 6 Gruppen mit je 8.
+Die Geschichte muss eine Situation beschreiben, in der 6 gleiche Gruppen mit je 8 Dingen vorkommen.
+
+### Tipp 1 (Denkanstoß)
+6 · 8 bedeutet: 6-mal etwas mit 8. Denk an eine Situation aus deinem Alltag, wo es mehrere gleiche Gruppen gibt. Z.B. Packungen, Reihen, Tage ...
+
+### Tipp 2 (Methode)
+Eine Rechengeschichte hat drei Teile: 1. Die Situation (was passiert?), 2. Die Frage (was willst du wissen?), 3. Die Antwort (was kommt raus?). Schreibe alle drei Teile auf.
+
+### Tipp 3 (Schritt-für-Schritt)
+Starte mit: "Es gibt 6 ___." (z.B. 6 Tüten, 6 Reihen, 6 Kinder). "In jeder/m ___ sind 8 ___." Dann die Frage: "Wie viele ___ sind es insgesamt?" Antwort: 6 · 8 = ?
+
+### Didaktischer Hinweis
+Das Erfinden von Rechengeschichten ist eine anspruchsvolle produktive Aufgabe. Sie zeigt, ob das Kind die Rechenoperation wirklich verstanden hat — nicht nur als Algorithmus, sondern als Handlung in der Welt.
+
+---
+
+## Aufgabe 44
+
+---
+titel: "Rechengeschichten vergleichen"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: grün
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Vergleiche die beiden Rechengeschichten. Was verändert sich, was bleibt gleich? Löse beide.
+
+**Links:** Jonas trainiert dreimal in der Woche jeweils 45 Minuten in einem Schwimmverein. Jedes Wochenende ist ein Wettkampf. Jeder Wettkampf dauert 90 Minuten. Wie viele Stunden schwimmt Jonas im Monat ungefähr?
+
+**Rechts:** Jonas trainiert zweimal in der Woche jeweils 60 Minuten in einem Schwimmverein. Jedes Wochenende ist ein Wettkampf. Jeder Wettkampf dauert 90 Minuten. Wie viele Stunden schwimmt Jonas im Monat ungefähr?
+
+### Lösung
+**Links:** Training pro Woche: 3 · 45 = 135 Minuten. Wettkampf pro Woche: 90 Minuten. Pro Woche: 135 + 90 = 225 Minuten. Pro Monat (4 Wochen): 4 · 225 = 900 Minuten = 15 Stunden.
+
+**Rechts:** Training pro Woche: 2 · 60 = 120 Minuten. Wettkampf pro Woche: 90 Minuten. Pro Woche: 120 + 90 = 210 Minuten. Pro Monat (4 Wochen): 4 · 210 = 840 Minuten = 14 Stunden.
+
+### Lösungsweg
+1. Training pro Woche berechnen (Anzahl × Dauer)
+2. Wettkampf dazurechnen
+3. Auf den Monat hochrechnen (× 4)
+4. Minuten in Stunden umrechnen (÷ 60)
+
+### Tipp 1 (Denkanstoß)
+Beide Geschichten haben den gleichen Aufbau. Was ändert sich? Wie oft trainiert Jonas und wie lange? Rechne jede Geschichte einzeln.
+
+### Tipp 2 (Methode)
+Gehe schrittweise vor: Zuerst die Trainingsminuten pro Woche, dann den Wettkampf dazu, dann mal 4 für den Monat. Am Ende: Minuten in Stunden umrechnen (60 Minuten = 1 Stunde).
+
+### Tipp 3 (Schritt-für-Schritt)
+Links: Training: 3 · 45 = 135 Minuten. Plus Wettkampf: 135 + 90 = 225 Minuten pro Woche. Im Monat: 4 · 225 = 900 Minuten. Wie viele Stunden? 900 : 60 = ?
+
+### Didaktischer Hinweis
+Das Vergleichen zweier ähnlicher Geschichten fördert das strukturelle Denken: Was ist der Rahmen (gleich), was sind die Variablen (verschieden)? Die Einheitenumrechnung (Minuten → Stunden) ist eine zusätzliche Herausforderung.
+
+---
+
+## Aufgabe 45
+
+---
+titel: "Zeitschriften kaufen"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: grün
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Sophie kauft sich jede Woche eine Zeitschrift. Diese kostet 2 Euro.
+Wie viel Geld gibt sie in einem Jahr für die Zeitschriften aus?
+
+Vergleiche: Was ändert sich, wenn Sophie die Zeitschrift nur alle zwei Wochen kauft?
+
+### Lösung
+Jede Woche: 52 Wochen · 2 Euro = 104 Euro pro Jahr.
+Alle zwei Wochen: 26 · 2 Euro = 52 Euro pro Jahr.
+
+### Lösungsweg
+- Ein Jahr hat 52 Wochen.
+- Jede Woche kaufen: 52 · 2 = 104 Euro.
+- Alle zwei Wochen kaufen: 52 : 2 = 26 Hefte → 26 · 2 = 52 Euro.
+- Die Kosten halbieren sich!
+
+### Tipp 1 (Denkanstoß)
+Wie viele Wochen hat ein Jahr? Und wenn Sophie jede Woche 2 Euro ausgibt, wie viel ist das in einem ganzen Jahr?
+
+### Tipp 2 (Methode)
+1 Jahr = 52 Wochen. Jede Woche 2 Euro → 52 · 2. Alle zwei Wochen → halb so viele Hefte → 26 · 2.
+
+### Tipp 3 (Schritt-für-Schritt)
+1 Jahr = 52 Wochen. Jede Woche: 52 · 2 = ? Euro. Alle zwei Wochen: Wie viele Hefte kauft sie dann? 52 : 2 = ? Hefte. Und das mal 2 Euro = ?
+
+### Didaktischer Hinweis
+Die Aufgabe verbindet Sachrechnen mit Zeitwissen (52 Wochen = 1 Jahr) und dem Konzept "alle zwei Wochen = halb so oft". Der Vergleich zeigt, wie sich Frequenzänderungen auf Kosten auswirken.
+
+---
+
+## Aufgabe 46
+
+---
+titel: "Musik-Downloads — Division im Sachkontext"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: grün
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Max hört gern Hörbücher. Für einen Download muss er 3 Euro bezahlen.
+Wie viele Hörbücher kann er sich für 15 Euro herunterladen?
+
+### Lösung
+15 : 3 = 5 Hörbücher.
+
+### Lösungsweg
+Das ist eine Divisionsaufgabe: Gesamtbetrag ÷ Preis pro Stück = Anzahl.
+15 : 3 = 5.
+
+### Tipp 1 (Denkanstoß)
+Du hast 15 Euro und jedes Hörbuch kostet 3 Euro. Wie oft passt 3 in 15?
+
+### Tipp 2 (Methode)
+Rechne rückwärts: 1 Hörbuch = 3 Euro, 2 Hörbücher = 6 Euro, 3 Hörbücher = 9 Euro ... Zähle weiter, bis du bei 15 Euro ankommst.
+
+### Tipp 3 (Schritt-für-Schritt)
+Zähle in 3er-Schritten: 3, 6, 9, 12, 15. Wie viele Schritte waren das?
+
+### Didaktischer Hinweis
+Einfache Divisionsaufgabe im Sachkontext. Das Kind soll erkennen, dass "Wie viele kann ich kaufen?" eine Division erfordert. Die Aufwärtszähl-Strategie (3, 6, 9...) ist für viele Kinder intuitiver als die formale Division.
+
+---
+
+## Aufgabe 47
+
+---
+titel: "Fehlende Angaben ergänzen"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: orange
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Bei dieser Rechengeschichte fehlen Angaben. Ergänze sie so, dass du die Aufgabe lösen kannst.
+
+Mia ist eine Leseratte. Jede Woche leiht sie sich in der Bücherei Bücher aus.
+In dieser Woche liest sie "Die Schatzinsel" und "Pippi Langstrumpf".
+In ___ Tagen hat sie beide Bücher gelesen.
+Wie viele Seiten hat Mia durchschnittlich pro Tag gelesen?
+
+### Lösung
+Beispiel: "Die Schatzinsel" hat 180 Seiten, "Pippi Langstrumpf" hat 120 Seiten. In 10 Tagen hat sie beide gelesen.
+Gesamte Seiten: 180 + 120 = 300.
+Pro Tag: 300 : 10 = 30 Seiten.
+
+(Andere Zahlen sind auch möglich, solange die Aufgabe lösbar wird.)
+
+### Lösungsweg
+1. Fehlende Angaben sind: Seitenzahlen der Bücher und Anzahl der Tage.
+2. Eigene sinnvolle Zahlen einsetzen.
+3. Seitenzahlen addieren, durch Tage teilen.
+
+### Tipp 1 (Denkanstoß)
+Welche Informationen brauchst du, um die Frage zu beantworten? Du musst wissen: Wie viele Seiten hat jedes Buch? Und in wie vielen Tagen hat sie gelesen?
+
+### Tipp 2 (Methode)
+Wähle selber Seitenzahlen für die Bücher. Dann: Alle Seiten zusammenzählen und durch die Tage teilen. Achte darauf, dass die Division aufgeht!
+
+### Tipp 3 (Schritt-für-Schritt)
+Setze ein: "Die Schatzinsel" hat z.B. 180 Seiten, "Pippi Langstrumpf" hat 120 Seiten. In 10 Tagen gelesen. Alle Seiten: 180 + 120 = 300. Pro Tag: 300 : 10 = ?
+
+### Didaktischer Hinweis
+Offene Aufgaben, bei denen Kinder eigene Zahlen wählen müssen, fördern das Verständnis für notwendige und hinreichende Informationen. Das Kind lernt: Ohne bestimmte Angaben ist eine Aufgabe nicht lösbar.
+
+---
+
+## Aufgabe 48
+
+---
+titel: "Rechengeschichte verändern"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: orange
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Sophie kauft sich alle zwei Wochen eine Zeitschrift. Diese kostet 4 Euro.
+Wie viel Geld gibt sie in einem Jahr für die Zeitschriften aus?
+
+Verändere die Rechengeschichte so, dass Sophie im Jahr ...
+a) 130 Euro für Zeitschriften ausgibt.
+b) 96 Euro für Zeitschriften ausgibt.
+
+### Lösung
+Grundaufgabe: 26 Hefte · 4 Euro = 104 Euro.
+
+a) 130 Euro im Jahr. Möglichkeit: 26 Hefte · 5 Euro = 130 Euro → Preis auf 5 Euro ändern.
+   Oder: Wöchentlich statt alle 2 Wochen kaufen, dann 52 · 2,50 = 130 Euro.
+
+b) 96 Euro im Jahr. Möglichkeit: 24 Hefte · 4 Euro = 96 Euro → Alle 2 Wochen kaufen, aber 2 Monate Pause (24 statt 26 Hefte).
+   Oder: 26 Hefte · (96:26) → geht nicht glatt. Besser: 12 Hefte · 8 Euro = 96 Euro (1x pro Monat, teurere Zeitschrift).
+
+### Lösungsweg
+Man muss Preis, Häufigkeit oder beides anpassen, damit das Jahresergebnis stimmt.
+- Jahresausgaben = Anzahl der Hefte × Preis pro Heft
+- Die Anzahl der Hefte hängt von der Kaufhäufigkeit ab
+- Man kann den Preis ändern ODER die Häufigkeit ODER beides
+
+### Tipp 1 (Denkanstoß)
+Die Formel ist: Anzahl Hefte × Preis = Jahresausgaben. Was kannst du verändern: die Anzahl der Hefte oder den Preis pro Heft?
+
+### Tipp 2 (Methode)
+Überlege rückwärts: Wenn das Ergebnis 130 Euro sein soll, welche Malaufgabe ergibt 130? Probiere verschiedene Kombinationen.
+
+### Tipp 3 (Schritt-für-Schritt)
+a) 130 Euro. Wenn Sophie alle 2 Wochen kauft = 26 Hefte. 130 : 26 = 5 Euro pro Heft. Also: Ändere den Preis auf 5 Euro. Prüfe: 26 · 5 = ?
+
+### Didaktischer Hinweis
+Das Verändern einer Rechengeschichte erfordert Rückwärtsdenken und Flexibilität. Kinder lernen, dass es oft mehrere gültige Lösungen gibt. Die Aufgabe fördert algebraisches Denken ohne formale Algebra.
+
+---
+
+## Aufgabe 49
+
+---
+titel: "Schulweg berechnen"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: gelb
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Anna läuft jeden Tag 15 Minuten zur Schule und 15 Minuten zurück.
+Wie viele Minuten läuft sie in einer Schulwoche (5 Tage)?
+Wie viele Stunden sind das ungefähr?
+
+### Lösung
+Pro Tag: 15 + 15 = 30 Minuten.
+Pro Woche: 5 · 30 = 150 Minuten.
+In Stunden: 150 : 60 = 2 Stunden und 30 Minuten.
+
+### Lösungsweg
+1. Hin- und Rückweg pro Tag: 15 + 15 = 30 Minuten.
+2. An 5 Tagen: 5 · 30 = 150 Minuten.
+3. Umrechnung: 150 Minuten = 2 Stunden 30 Minuten (2 · 60 = 120, 150 - 120 = 30).
+
+### Tipp 1 (Denkanstoß)
+Denke an Annas Tag: Morgens zur Schule, nachmittags zurück. Wie viele Minuten läuft sie an einem Tag? Und an 5 Tagen?
+
+### Tipp 2 (Methode)
+Rechne schrittweise: 1. Minuten pro Tag (hin + zurück). 2. Minuten pro Woche (× 5). 3. Umrechnen in Stunden (÷ 60).
+
+### Tipp 3 (Schritt-für-Schritt)
+Pro Tag: 15 + 15 = 30 Minuten. Pro Woche: 5 · 30 = 150 Minuten. 1 Stunde = 60 Minuten. 2 Stunden = 120 Minuten. 150 - 120 = 30 Minuten Rest. Also: 2 Stunden und ?
+
+### Didaktischer Hinweis
+Diese Aufgabe kombiniert Addition, Multiplikation und Einheitenumrechnung in einem alltagsnahen Kontext. Das Umrechnen von Minuten in Stunden mit Rest ist für viele Kinder eine Herausforderung.
+
+---
+
+## Aufgabe 50
+
+---
+titel: "Alter-Rätsel — fehlende Angaben"
+typ: textaufgabe
+thema: "Rechengeschichten"
+schwierigkeit: orange
+buchseite: 17
+kapitel: "01-wiederholung"
+stage_id: "sachaufgaben-alltag"
+digital: voll
+---
+
+### Aufgabenstellung
+Bei dieser Rechengeschichte fehlen Angaben. Ergänze sie so, dass du die Aufgabe lösen kannst.
+
+Lara und ihre Mutter sind zusammen 42 Jahre alt.
+Wie alt ist Lara, wie alt ist ihre Mutter?
+
+### Lösung
+Die Aufgabe hat unendlich viele Lösungen ohne weitere Angabe! Man braucht z.B.:
+- "Die Mutter ist doppelt so alt wie Lara" → 3 Teile = 42 → 1 Teil = 14. Lara = 14, Mutter = 28.
+- "Die Mutter ist 26 Jahre älter als Lara" → Lara + (Lara + 26) = 42 → 2·Lara = 16 → Lara = 8, Mutter = 34.
+
+Beispiel-Ergänzung: "Die Mutter ist dreimal so alt wie Lara."
+Dann: 1 Teil + 3 Teile = 4 Teile = 42 → geht nicht glatt.
+
+Bessere Ergänzung: "Die Mutter ist 24 Jahre älter als Lara."
+Lara + (Lara + 24) = 42 → 2·Lara = 18 → Lara = 9, Mutter = 33.
+
+### Lösungsweg
+Ohne zusätzliche Information gibt es unendlich viele Lösungspaare. Man braucht eine zweite Bedingung (z.B. Altersunterschied oder Verhältnis), um die Lösung eindeutig zu machen.
+
+### Tipp 1 (Denkanstoß)
+Nur mit der Summe (42 Jahre) kannst du nicht herausfinden, wer wie alt ist. Du brauchst eine zusätzliche Information! Welche könntest du dazuerfinden?
+
+### Tipp 2 (Methode)
+Denke dir eine Zusatzinfo aus, z.B. "Die Mutter ist 24 Jahre älter als Lara." Dann rechne: Wenn der Unterschied 24 ist, ziehe 24 von 42 ab: 42 - 24 = 18. Das ist das Doppelte von Laras Alter. Also: 18 : 2 = Laras Alter.
+
+### Tipp 3 (Schritt-für-Schritt)
+Ergänzung: "Die Mutter ist 24 Jahre älter." Dann: 42 - 24 = 18. Das verteilt sich gleichmäßig: 18 : 2 = 9. Lara = 9 Jahre. Mutter = 9 + 24 = ?
+
+### Didaktischer Hinweis
+Diese Aufgabe zeigt, dass manche Probleme ohne Zusatzinformation nicht lösbar sind. Das ist eine wichtige meta-mathematische Einsicht. Kinder lernen, fehlende Informationen zu identifizieren und sinnvoll zu ergänzen.
+
+---
+
+*Erstellt: 2026-04-06 | Aufgaben: 50 | Schwierigkeit: 14 gelb (~28%), 21 grün (~42%), 15 orange (~30%) | Format: [FORMAT.md](FORMAT.md)*

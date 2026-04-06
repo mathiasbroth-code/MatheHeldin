@@ -18,6 +18,10 @@ export const mitteStage: Stage<MitteAufgabe> = {
     return !isNaN(n) && n === aufgabe.middle;
   },
   View: MitteView,
+  schwierigkeit: {
+    stufen: 5,
+    labels: ['bis 100', 'bis 1.000 (glatt)', 'bis 1.000 (krumm)', 'bis 10.000', 'bis 100.000'],
+  },
   erklaerung: {
     wasLernstDu: 'Du lernst, die Zahl genau zwischen zwei Zahlen zu finden — den Mittelwert auf dem Zahlenstrahl.',
     soGehts: 'Rechne den Abstand zwischen den beiden Zahlen aus, teile ihn durch 2, und zähle das Ergebnis zur kleineren Zahl dazu.',

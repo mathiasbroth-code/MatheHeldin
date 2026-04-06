@@ -1,4 +1,7 @@
 import { Card } from './Card';
+import { useProfileStore } from '@/stores/profileStore';
+import { AvatarDisplay, type AvatarConfig } from './AvatarDisplay';
+import type { MaskottchenTier, MaskottchenFarbe } from './MaskottchenSvg';
 
 interface TippSystemProps {
   tipps: [string, string, string] | null;
@@ -10,7 +13,16 @@ const labels = ['💡 Denkanstoß', '🔍 Methode', '📝 Schritt für Schritt']
 const buttonLabels = ['Tipp', 'Mehr Hilfe', 'Lösung zeigen'];
 
 export function TippSystem({ tipps, stufe, onAdvance }: TippSystemProps) {
+  const avatarConfig = useProfileStore((s) => s.activeAvatarConfig);
+
   if (!tipps) return null;
+
+  const config: AvatarConfig = {
+    tier: (avatarConfig.tier ?? 'fuchs') as MaskottchenTier,
+    farbe: (avatarConfig.farbe ?? 'teal') as MaskottchenFarbe,
+    accessoire: avatarConfig.accessoire as AvatarConfig['accessoire'] ?? 'none',
+    name: avatarConfig.name ?? 'Mia',
+  };
 
   if (stufe === 0) {
     return (
@@ -32,13 +44,16 @@ export function TippSystem({ tipps, stufe, onAdvance }: TippSystemProps) {
 
   return (
     <Card className="bg-warning-bg border-warning/20">
-      <div className="space-y-3">
-        {tipps.slice(0, stufe).map((text, i) => (
-          <div key={i}>
-            <p className="text-xs font-bold text-heading">{labels[i]}</p>
-            <p className="text-sm text-body mt-0.5">{text}</p>
-          </div>
-        ))}
+      <div className="flex gap-3">
+        <AvatarDisplay config={config} emotion="thinking" size={40} className="shrink-0 mt-0.5" />
+        <div className="space-y-3 flex-1">
+          {tipps.slice(0, stufe).map((text, i) => (
+            <div key={i}>
+              <p className="text-xs font-bold text-heading">{labels[i]}</p>
+              <p className="text-sm text-body mt-0.5">{text}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
       {stufe < 3 && (

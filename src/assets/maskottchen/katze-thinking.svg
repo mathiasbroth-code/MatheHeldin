@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Luna — Katze thinking/nachdenkend -->
+  <polygon points="22,52 30,8 48,48" fill="#e11d48"/>
+  <polygon points="28,48 30,16 44,46" fill="#fda4af"/>
+  <polygon points="72,48 90,8 98,52" fill="#e11d48"/>
+  <polygon points="76,46 90,16 92,48" fill="#fda4af"/>
+  <ellipse cx="60" cy="72" rx="40" ry="42" fill="#fb7185"/>
+  <ellipse cx="60" cy="80" rx="28" ry="24" fill="#ffe4e6"/>
+  <!-- Linkes Auge normal -->
+  <ellipse cx="42" cy="65" rx="7" ry="8" fill="#0f172a"/>
+  <ellipse cx="42" cy="65" rx="2.5" ry="6" fill="#10b981"/>
+  <ellipse cx="42" cy="65" rx="1" ry="5.5" fill="#0f172a"/>
+  <circle cx="44.5" cy="62" r="2" fill="#ffffff"/>
+  <!-- Rechtes Auge nach oben -->
+  <ellipse cx="78" cy="62" rx="7" ry="8" fill="#0f172a"/>
+  <ellipse cx="78" cy="62" rx="2.5" ry="6" fill="#10b981"/>
+  <ellipse cx="78" cy="62" rx="1" ry="5.5" fill="#0f172a"/>
+  <circle cx="80" cy="59" r="2" fill="#ffffff"/>
+  <!-- Augenbraue -->
+  <path d="M70,50 Q78,45 86,49" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="57,77 60,80 63,77" fill="#e11d48"/>
+  <!-- Nachdenklicher Mund -->
+  <path d="M55,88 Q63,86 68,89" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="74" x2="36" y2="78" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="18" y1="80" x2="35" y2="82" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="84" y1="78" x2="100" y2="74" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="85" y1="82" x2="102" y2="80" stroke="#0f172a" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="60,40 62.5,46 69,46 63.5,50 65.5,56 60,52 54.5,56 56.5,50 51,46 57.5,46" fill="#fbbf24" opacity="0.9"/>
+  <!-- Denkblasen -->
+  <circle cx="105" cy="30" r="8" fill="#e2e8f0" opacity="0.7"/>
+  <circle cx="96" cy="42" r="4.5" fill="#e2e8f0" opacity="0.5"/>
+  <circle cx="92" cy="50" r="2.5" fill="#e2e8f0" opacity="0.4"/>
+</svg>

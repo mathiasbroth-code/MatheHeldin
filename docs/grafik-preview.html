@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MatheHeldin — Grafik Preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Inter, system-ui, sans-serif; background: #f8fafc; color: #0f172a; padding: 2rem; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.3rem; margin: 2rem 0 1rem; color: #0d9488; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+  .subtitle { color: #64748b; margin-bottom: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1.5rem; }
+  .card {
+    background: white; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.5rem;
+    display: flex; flex-direction: column; align-items: center; gap: 0.75rem; text-align: center;
+  }
+  .card img { max-width: 100%; height: auto; }
+  .card .label { font-size: 0.85rem; color: #64748b; font-weight: 500; }
+  .card .size { font-size: 0.7rem; color: #94a3b8; }
+  .maskottchen-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+  .icons-row { display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: end; }
+  .icon-card {
+    background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;
+    display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+  }
+  .checkerboard {
+    background-image: linear-gradient(45deg, #e2e8f0 25%, transparent 25%),
+      linear-gradient(-45deg, #e2e8f0 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #e2e8f0 75%),
+      linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+    background-size: 16px 16px; background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    border-radius: 8px; padding: 8px; display: inline-flex;
+  }
+</style>
+</head>
+<body>
+
+<h1>MatheHeldin — Grafik Preview</h1>
+<p class="subtitle">Alle erstellten Grafiken auf einen Blick</p>
+
+<h2>1. Maskottchen "Mia" — 4 Emotionen</h2>
+<div class="maskottchen-grid">
+  <div class="card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="120" height="120" alt="Mia default">
+    <div class="label">Default (freundlich)</div>
+    <div class="size">mia-default.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/maskottchen/mia-happy.svg" width="120" height="120" alt="Mia happy">
+    <div class="label">Happy (feiernd)</div>
+    <div class="size">mia-happy.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/maskottchen/mia-thinking.svg" width="120" height="120" alt="Mia thinking">
+    <div class="label">Thinking (nachdenkend)</div>
+    <div class="size">mia-thinking.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/maskottchen/mia-encouraging.svg" width="120" height="120" alt="Mia encouraging">
+    <div class="label">Encouraging (ermutigend)</div>
+    <div class="size">mia-encouraging.svg</div>
+  </div>
+</div>
+
+<h2>2. Stufen-Icons (48×48)</h2>
+<div class="grid">
+  <div class="card">
+    <img src="../src/assets/stufen-icons/mengen.svg" width="48" height="48" alt="mengen">
+    <div class="label">Mengen bis 20</div>
+    <div class="size">mengen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/buendeln.svg" width="48" height="48" alt="buendeln">
+    <div class="label">Zehner bündeln</div>
+    <div class="size">buendeln.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis100lesen.svg" width="48" height="48" alt="bis100lesen">
+    <div class="label">Bis 100 lesen</div>
+    <div class="size">bis100lesen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis100legen.svg" width="48" height="48" alt="bis100legen">
+    <div class="label">Bis 100 legen</div>
+    <div class="size">bis100legen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis1000lesen.svg" width="48" height="48" alt="bis1000lesen">
+    <div class="label">Bis 1.000 lesen</div>
+    <div class="size">bis1000lesen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis1000legen.svg" width="48" height="48" alt="bis1000legen">
+    <div class="label">Bis 1.000 legen</div>
+    <div class="size">bis1000legen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis10000lesen.svg" width="48" height="48" alt="bis10000lesen">
+    <div class="label">Bis 10.000 lesen</div>
+    <div class="size">bis10000lesen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/bis10000legen.svg" width="48" height="48" alt="bis10000legen">
+    <div class="label">Bis 10.000 legen</div>
+    <div class="size">bis10000legen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/zerlegen.svg" width="48" height="48" alt="zerlegen">
+    <div class="label">Zahlen zerlegen</div>
+    <div class="size">zerlegen.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/mitte.svg" width="48" height="48" alt="mitte">
+    <div class="label">Zahl in der Mitte</div>
+    <div class="size">mitte.svg</div>
+  </div>
+  <div class="card">
+    <img src="../src/assets/stufen-icons/skizze.svg" width="48" height="48" alt="skizze">
+    <div class="label">Sachaufgaben Skizze</div>
+    <div class="size">skizze.svg</div>
+  </div>
+</div>
+
+<h2>3. PWA-Icons & Favicon</h2>
+<div class="icons-row">
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/icons/icon-512x512.png" width="128" height="128" alt="512px icon">
+    </div>
+    <div class="label">512×512</div>
+    <div class="size">icon-512x512.png</div>
+  </div>
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/icons/icon-maskable-512x512.png" width="128" height="128" alt="maskable icon">
+    </div>
+    <div class="label">Maskable 512×512</div>
+    <div class="size">icon-maskable-512x512.png</div>
+  </div>
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/icons/icon-192x192.png" width="96" height="96" alt="192px icon">
+    </div>
+    <div class="label">192×192</div>
+    <div class="size">icon-192x192.png</div>
+  </div>
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/icons/apple-touch-icon.png" width="90" height="90" alt="apple touch">
+    </div>
+    <div class="label">Apple Touch 180×180</div>
+    <div class="size">apple-touch-icon.png</div>
+  </div>
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/favicon.svg" width="32" height="32" alt="favicon svg">
+    </div>
+    <div class="label">Favicon SVG 32×32</div>
+    <div class="size">favicon.svg</div>
+  </div>
+  <div class="icon-card">
+    <div class="checkerboard">
+      <img src="../public/favicon.ico" width="32" height="32" alt="favicon ico">
+    </div>
+    <div class="label">Favicon ICO</div>
+    <div class="size">favicon.ico</div>
+  </div>
+</div>
+
+<h2>Größenvergleich Maskottchen</h2>
+<div style="display: flex; gap: 2rem; align-items: end; flex-wrap: wrap;">
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="24" height="24">
+    <div class="size">24px</div>
+  </div>
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="32" height="32">
+    <div class="size">32px</div>
+  </div>
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="48" height="48">
+    <div class="size">48px</div>
+  </div>
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="64" height="64">
+    <div class="size">64px</div>
+  </div>
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="96" height="96">
+    <div class="size">96px</div>
+  </div>
+  <div class="icon-card">
+    <img src="../src/assets/maskottchen/mia-default.svg" width="120" height="120">
+    <div class="size">120px (Original)</div>
+  </div>
+</div>
+
+</body>
+</html>

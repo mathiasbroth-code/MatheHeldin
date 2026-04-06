@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Hugo — Eule happy/feiernd -->
+  <polygon points="26,44 18,14 38,36" fill="#7c3aed"/>
+  <polygon points="29,42 22,20 36,36" fill="#c4b5fd"/>
+  <polygon points="94,44 102,14 82,36" fill="#7c3aed"/>
+  <polygon points="91,42 98,20 84,36" fill="#c4b5fd"/>
+  <ellipse cx="60" cy="74" rx="42" ry="44" fill="#a78bfa"/>
+  <ellipse cx="60" cy="84" rx="26" ry="28" fill="#ede9fe"/>
+  <circle cx="42" cy="65" r="14" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="78" cy="65" r="14" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1.5"/>
+  <!-- Happy Augen (geschlossen ^_^) -->
+  <path d="M35,65 Q42,57 49,65" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M71,65 Q78,57 85,65" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Schnabel offen (lachend) -->
+  <polygon points="52,76 60,86 68,76" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <path d="M54,80 L66,80" stroke="#d97706" stroke-width="0.8"/>
+  <!-- Wangenröte -->
+  <circle cx="28" cy="78" r="6" fill="#f0abfc" opacity="0.25"/>
+  <circle cx="92" cy="78" r="6" fill="#f0abfc" opacity="0.25"/>
+  <path d="M18,72 Q12,85 20,100" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M102,72 Q108,85 100,100" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M46,114 L42,118 M46,114 L46,119 M46,114 L50,118" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M74,114 L70,118 M74,114 L74,119 M74,114 L78,118" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="60,38 62.5,44 69,44 63.5,48 65.5,54 60,50 54.5,54 56.5,48 51,44 57.5,44" fill="#fbbf24" opacity="0.9"/>
+  <!-- Konfetti -->
+  <polygon points="16,22 17.5,26 21,26 18,28.5 19,32 16,30 13,32 14,28.5 11,26 14.5,26" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="104" cy="28" r="2.5" fill="#5eead4" opacity="0.6"/>
+</svg>

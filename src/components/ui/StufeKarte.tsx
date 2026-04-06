@@ -1,6 +1,8 @@
 import { ProgressBar } from './ProgressBar';
 import type { StageFarbe } from '@/stages/types';
 
+export type UebungsBadge = 'uebe-mich' | 'neu' | null;
+
 interface StufeKarteProps {
   icon: string;
   titel: string;
@@ -9,6 +11,7 @@ interface StufeKarteProps {
   fortschritt: { richtig: number; versuche: number };
   zielRichtige: number;
   onClick: () => void;
+  badge?: UebungsBadge;
 }
 
 const FARBE_ICON: Record<StageFarbe, string> = {
@@ -20,6 +23,17 @@ const FARBE_ICON: Record<StageFarbe, string> = {
   purple: 'bg-purple-100 text-purple-700',
 };
 
+const BADGE_STYLES: Record<NonNullable<UebungsBadge>, { text: string; className: string }> = {
+  'uebe-mich': {
+    text: 'Übe mich!',
+    className: 'bg-amber-100 text-amber-700 border-amber-200',
+  },
+  'neu': {
+    text: 'Neu',
+    className: 'bg-emerald-100 text-emerald-700 border-emerald-200',
+  },
+};
+
 export function StufeKarte({
   icon,
   titel,
@@ -28,6 +42,7 @@ export function StufeKarte({
   fortschritt,
   zielRichtige,
   onClick,
+  badge,
 }: StufeKarteProps) {
   return (
     <button
@@ -46,7 +61,16 @@ export function StufeKarte({
           )}
         </div>
         <div className="flex-1 min-w-0">
-          <div className="font-semibold text-heading truncate">{titel}</div>
+          <div className="flex items-center gap-2">
+            <span className="font-semibold text-heading truncate">{titel}</span>
+            {badge && (
+              <span
+                className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full border whitespace-nowrap ${BADGE_STYLES[badge].className}`}
+              >
+                {BADGE_STYLES[badge].text}
+              </span>
+            )}
+          </div>
           <div className="text-sm text-muted truncate">{sub}</div>
           <ProgressBar
             value={fortschritt.richtig}

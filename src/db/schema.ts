@@ -1,9 +1,17 @@
 import Dexie, { type Table } from 'dexie';
 
+export interface AvatarConfig {
+  tier: string;
+  farbe: string;
+  accessoire: string;
+  name: string;
+}
+
 export interface Profile {
   id?: number;
   name: string;
   avatar: string;
+  avatarConfig?: AvatarConfig;
   farbe: string;
   erstelltAm: number;
 }
@@ -64,6 +72,23 @@ class MatheDB extends Dexie {
       return tx.table('antworten').toCollection().modify(entry => {
         if ((entry as Record<string, unknown>).tippStufe === undefined) {
           (entry as Record<string, unknown>).tippStufe = 0;
+        }
+      });
+    });
+
+    this.version(4).stores({
+      profiles: '++id, name',
+      sessions: '++id, profileId, stufeId, gestartetAm',
+      antworten: '++id, [profileId+stufeId], sessionId, erstelltAm, richtig',
+    }).upgrade(tx => {
+      return tx.table('profiles').toCollection().modify(profile => {
+        if (!(profile as Record<string, unknown>).avatarConfig) {
+          (profile as Record<string, unknown>).avatarConfig = {
+            tier: 'fuchs',
+            farbe: 'teal',
+            accessoire: 'none',
+            name: 'Mia',
+          };
         }
       });
     });
