@@ -6,9 +6,11 @@ import { StufeView } from '@/pages/StufeView';
 import { Fortschritt } from '@/pages/Fortschritt';
 import { ElternGate } from '@/pages/ElternGate';
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<ProfilAuswahl />} />
         <Route path="/profil/neu" element={<ProfilErstellen />} />
