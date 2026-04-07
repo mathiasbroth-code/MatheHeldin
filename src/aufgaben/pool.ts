@@ -37,6 +37,16 @@ class AufgabenPool {
     return matching[randInt(0, matching.length - 1)];
   }
 
+  /** Nächste Aufgabe in Ladereihenfolge (für sequentielle Stages). */
+  getNext(filter?: AufgabenFilter, afterPoolId?: string): BankAufgabe | null {
+    const matching = this.applyFilter(filter);
+    if (matching.length === 0) return null;
+    if (!afterPoolId) return matching[0];
+    const idx = matching.findIndex((a) => a._poolId === afterPoolId);
+    if (idx === -1 || idx >= matching.length - 1) return matching[0]; // wrap around
+    return matching[idx + 1];
+  }
+
   /** Alle eindeutigen Stage-IDs im Pool. */
   getStageIds(): string[] {
     return [...new Set(this.aufgaben.map((a) => a.stageId))].filter(Boolean);

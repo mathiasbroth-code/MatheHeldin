@@ -137,10 +137,14 @@ function BankStageView({
     onAntwort('falsch', false, dauerMs);
   }
 
+  // Buch-Original-Stages: sequentielle Reihenfolge statt Zufall
+  const isSequential = stageId.endsWith('-original');
+
   function handleNaechste() {
-    // Get next aufgabe from pool with current filter (ohne deaktivierte)
     const filter = { stageId, excludeIds, ...(schwierigkeit ? { schwierigkeit } : {}) };
-    const next = aufgabenPool.getRandom(filter);
+    const next = isSequential
+      ? aufgabenPool.getNext(filter, currentAufgabe._poolId)
+      : aufgabenPool.getRandom(filter);
     if (next && next.titel !== currentAufgabe.titel) {
       setCurrentAufgabe(next);
     } else {
@@ -332,7 +336,11 @@ export function createBankStage(
     farbe,
     zielRichtige: Math.min(5, count),
     generator: () => {
-      const bankAufgabe = aufgabenPool.getRandom({ stageId });
+      // Original-Stages (sequentiell) starten bei der ersten Aufgabe
+      const isSeq = stageId.endsWith('-original');
+      const bankAufgabe = isSeq
+        ? aufgabenPool.getAll({ stageId })[0] ?? null
+        : aufgabenPool.getRandom({ stageId });
       if (!bankAufgabe) {
         throw new Error(`Keine Aufgaben für stageId: ${stageId}`);
       }

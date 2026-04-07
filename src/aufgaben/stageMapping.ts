@@ -172,6 +172,7 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   // ── Original aus dem Buch ──
   { stageId: 'vielfache-original', titel: 'Vielfache von Zahlen (S.78)', kategorie: 'buch-original', sortierung: 1, icon: '📖' },
   { stageId: 'teiler-original', titel: 'Teiler von Zahlen (S.79)', kategorie: 'buch-original', sortierung: 2, icon: '📖' },
+  { stageId: 'halbschriftlich-div-original', titel: 'Halbschriftlich Dividieren (S.80–81)', kategorie: 'buch-original', sortierung: 3, icon: '📖' },
 ];
 
 /** Lookup: stageId → Mapping-Eintrag. */

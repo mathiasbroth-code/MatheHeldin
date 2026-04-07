@@ -69,6 +69,12 @@ export function normalizeZahl(input: string): string {
   const eqParts = cleaned.split('=');
   const valueStr = eqParts.length > 1 ? eqParts[eqParts.length - 1].trim() : cleaned;
 
+  // Division mit Rest: "109 R 2" oder "109 Rest 2" → normalisiert zu "109 R 2"
+  const restMatch = valueStr.match(/^(\d+)\s*[Rr](?:est)?\s*(\d+)$/);
+  if (restMatch) {
+    return `${parseInt(restMatch[1], 10)} R ${parseInt(restMatch[2], 10)}`;
+  }
+
   // Uhrzeiten-Format (H:MM oder HH:MM) — Doppelpunkt erhalten, auf H:MM normalisieren
   const zeitMatch = valueStr.match(/^(\d{1,2}):(\d{2})$/);
   if (zeitMatch) {

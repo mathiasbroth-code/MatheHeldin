@@ -1,0 +1,2850 @@
+[
+  {
+    "titel": "S.78 Nr.2 — Vielfache notieren",
+    "typ": "eingabe",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "Notiere die ersten zehn Vielfachen von 5 und 10.\nKreise die gemeinsamen Vielfachen ein.\n\n[vielfache:5,10:einkreisen]",
+    "loesung": "V5: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50\nV10: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100\nGemeinsame: 10, 20, 30, 40, 50",
+    "loesungsweg": "Vielfache von 5: Zähle in 5er-Schritten → 5, 10, 15, 20, 25, 30, 35, 40, 45, 50.\nVielfache von 10: Zähle in 10er-Schritten → 10, 20, 30, 40, 50, 60, 70, 80, 90, 100.\nGemeinsame Vielfache sind die Zahlen, die in BEIDEN Reihen vorkommen: 10, 20, 30, 40, 50.",
+    "tipps": [
+      "Ein Vielfaches von 5 bekommst du, wenn du immer wieder 5 dazuzählst: 5, 10, 15, ...",
+      "Schreibe zuerst alle Vielfachen von 5 auf (10 Stück), dann alle Vielfachen von 10.",
+      "V5: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50. Jetzt V10: 10, 20, 30, ...",
+      "V5: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50\nV10: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100\nGemeinsame: 10, 20, 30, 40, 50"
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 2. Einführung gemeinsamer Vielfacher durch Vergleich zweier Reihen.",
+    "merkkasten": {
+      "typ": "regel",
+      "text": "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation mit dieser Zahl. 15 ist das Dreifache von 5. 15 ist ein Vielfaches von 5."
+    },
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Notiere die ersten zehn Vielfachen von 5 und 10. Kreise die gemeinsamen Vielfachen ein.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[vielfache:5,10:einkreisen]",
+          "antwort": "interaktiv"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.78 Nr.3a — Vielfache von 4 und 8",
+    "typ": "eingabe",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "a) Notiere die ersten zehn Vielfachen von 4 und 8.\nKreise die gemeinsamen Vielfachen ein.\n\n[vielfache:4,8:einkreisen]",
+    "loesung": "V4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40\nV8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80\nGemeinsame: 8, 16, 24, 32, 40",
+    "loesungsweg": "Vielfache von 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40.\nVielfache von 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80.\nGemeinsame Vielfache: 8, 16, 24, 32, 40 — das sind genau die Vielfachen von 8!",
+    "tipps": [
+      "Zähle in 4er-Schritten: 4, 8, 12, 16, ... und in 8er-Schritten: 8, 16, 24, ...",
+      "Tipp: Jedes zweite Vielfache von 4 ist auch ein Vielfaches von 8.",
+      "V4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40. Welche davon sind auch in der 8er-Reihe?",
+      "V4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40\nV8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80\nGemeinsame: 8, 16, 24, 32, 40"
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 3a. Vorbereitung für die Erkenntnis in 3b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Notiere die ersten zehn Vielfachen von 4 und 8. Kreise die gemeinsamen Vielfachen ein.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[vielfache:4,8:einkreisen]",
+          "antwort": "interaktiv"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.78 Nr.3b — Was fällt euch auf?",
+    "typ": "textaufgabe",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "b) Was fällt euch auf?",
+    "loesung": "Alle gemeinsamen Vielfachen von 4 und 8 sind genau die Vielfachen von 8. Jedes Vielfache von 8 ist auch ein Vielfaches von 4, weil 8 = 2 × 4.",
+    "loesungsweg": "Die gemeinsamen Vielfachen von 4 und 8 sind: 8, 16, 24, 32, 40, ...\nDas sind genau die Vielfachen von 8!\nDas liegt daran, dass 8 selbst ein Vielfaches von 4 ist (8 = 2 × 4).\nDeshalb ist jedes Vielfache von 8 automatisch auch ein Vielfaches von 4.",
+    "tipps": [
+      "Schau dir die gemeinsamen Vielfachen von 4 und 8 an: 8, 16, 24, 32, 40. Kommt dir die Reihe bekannt vor?",
+      "Vergleiche: Die gemeinsamen Vielfachen sind genau die Vielfachen von ___.",
+      "Die gemeinsamen Vielfachen von 4 und 8 sind die Vielfachen von 8. Warum? Weil 8 = 2 × 4.",
+      "Jedes Vielfache von 8 ist auch ein Vielfaches von 4, weil 8 selbst ein Vielfaches von 4 ist."
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 3b. Offene Reflexionsaufgabe — Kind soll die Einsicht mündlich formulieren.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Du hast gerade die Vielfachen von 4 und 8 aufgeschrieben und die gemeinsamen eingekreist.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "💬 Was fällt dir auf? Erkläre es laut!",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.78 Nr.4 — Richtig oder falsch?",
+    "typ": "wahr-falsch",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "Richtig oder falsch? Überprüfe und schreibe die richtigen Aussagen auf.\n\na) 55 ist das Elffache von 5.\nb) Jedes Vielfache von 5 ist auch ein Vielfaches von 10.\nc) Jedes Vielfache von 10 ist auch ein Vielfaches von 5.\nd) Jedes Vielfache von 5 ist eine ungerade Zahl.\ne) 80 ist das Zehnfache von 4.\nf) Jedes Vielfache von 8 ist auch ein Vielfaches von 4.\ng) Jedes Vielfache von 4 ist eine gerade Zahl.",
+    "loesung": "a) richtig\nb) falsch\nc) richtig\nd) falsch\ne) falsch\nf) richtig\ng) richtig",
+    "loesungsweg": "a) 11 × 5 = 55 ✓\nb) Falsch: z.B. 5, 15, 25, 35 sind Vielfache von 5, aber nicht von 10.\nc) Richtig: Jedes Vielfache von 10 endet auf 0, und Zahlen die auf 0 enden sind durch 5 teilbar.\nd) Falsch: 10, 20, 30 sind Vielfache von 5 und gerade.\ne) Falsch: 10 × 4 = 40, nicht 80. 80 ist das Zwanzigfache von 4.\nf) Richtig: 8 = 2 × 4, also ist jedes Vielfache von 8 auch durch 4 teilbar.\ng) Richtig: 4 ist gerade, und gerade × beliebig = gerade.",
+    "tipps": [
+      "Prüfe jede Aussage mit einem Beispiel oder einer Rechnung.",
+      "Bei b) überlege: Ist 5 ein Vielfaches von 10? Ist 15 ein Vielfaches von 10?",
+      "e) Rechne: 10 × 4 = ___. Ist das 80?",
+      "a) richtig (11×5=55) b) falsch (5 ist kein Vielfaches von 10) c) richtig d) falsch (10 ist gerade) e) falsch (10×4=40) f) richtig g) richtig"
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 4. Wahr/Falsch-Aussagen über Vielfache — fördert kritisches Prüfen mathematischer Behauptungen.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Richtig oder falsch? Überprüfe.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "55 ist das Elffache von 5.",
+          "richtig": true,
+          "erklaerung": "Richtig: 11 × 5 = 55."
+        },
+        {
+          "label": "b",
+          "aussage": "Jedes Vielfache von 5 ist auch ein Vielfaches von 10.",
+          "richtig": false,
+          "erklaerung": "Falsch: z.B. 5, 15, 25 sind Vielfache von 5, aber nicht von 10."
+        },
+        {
+          "label": "c",
+          "aussage": "Jedes Vielfache von 10 ist auch ein Vielfaches von 5.",
+          "richtig": true,
+          "erklaerung": "Richtig: 10 = 2 × 5, also ist jedes Vielfache von 10 durch 5 teilbar."
+        },
+        {
+          "label": "d",
+          "aussage": "Jedes Vielfache von 5 ist eine ungerade Zahl.",
+          "richtig": false,
+          "erklaerung": "Falsch: 10, 20, 30 sind Vielfache von 5 und gerade."
+        },
+        {
+          "label": "e",
+          "aussage": "80 ist das Zehnfache von 4.",
+          "richtig": false,
+          "erklaerung": "Falsch: 10 × 4 = 40, nicht 80. 80 = 20 × 4."
+        },
+        {
+          "label": "f",
+          "aussage": "Jedes Vielfache von 8 ist auch ein Vielfaches von 4.",
+          "richtig": true,
+          "erklaerung": "Richtig: 8 = 2 × 4, also ist jedes Vielfache von 8 durch 4 teilbar."
+        },
+        {
+          "label": "g",
+          "aussage": "Jedes Vielfache von 4 ist eine gerade Zahl.",
+          "richtig": true,
+          "erklaerung": "Richtig: 4 ist gerade, und gerade mal beliebig ergibt immer eine gerade Zahl."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.78 Nr.5 — Welche Zahl ist es?",
+    "typ": "eingabe",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Zahl ist es?\n\na) Subtrahiere von 500 das Fünffache von 9.\nb) Addiere zum Sechsfachen von 40 das Dreifache von 200.",
+    "loesung": "a) 455\nb) 840",
+    "loesungsweg": "a) Fünffaches von 9 = 5 × 9 = 45. Dann: 500 − 45 = 455.\nb) Sechsfaches von 40 = 6 × 40 = 240. Dreifaches von 200 = 3 × 200 = 600. Dann: 240 + 600 = 840.",
+    "tipps": [
+      "\"Fünffache von 9\" heißt: 5 mal 9. Rechne zuerst dieses Ergebnis aus.",
+      "a) 5 × 9 = 45. Jetzt: 500 − 45 = ___.",
+      "b) Sechsfaches von 40: 6 × 40 = 240. Dreifaches von 200: 3 × 200 = 600. Zusammen: 240 + 600 = ___.",
+      "a) 500 − 45 = 455. b) 240 + 600 = 840."
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 5. Anwendung des Vielfache-Begriffs in Rechenaufgaben.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Zahl ist es?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Subtrahiere von 500 das Fünffache von 9.",
+          "antwort": "455"
+        },
+        {
+          "label": "b",
+          "frage": "Addiere zum Sechsfachen von 40 das Dreifache von 200.",
+          "antwort": "840"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.78 Nr.6 — Wie heißt die Zahl?",
+    "typ": "eingabe",
+    "thema": "Vielfache von Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 78,
+    "kapitel": "buch-original",
+    "stageId": "vielfache-original",
+    "digital": "voll",
+    "aufgabenstellung": "Wie heißt die Zahl?\n\na) Olga addiert zum Neunfachen von 60 das Sechsfache ihrer Zahl. Als Ergebnis erhält sie 900.\nb) Tobi subtrahiert vom Achtfachen seiner Zahl das Siebenfache von 60 und erhält das Dreifache von 100.",
+    "loesung": "a) 60\nb) 90",
+    "loesungsweg": "a) 9 × 60 = 540. Olgas Ergebnis: 540 + 6 × Zahl = 900. Also: 6 × Zahl = 900 − 540 = 360. Zahl = 360 ÷ 6 = 60.\nb) 7 × 60 = 420. 3 × 100 = 300. Also: 8 × Zahl − 420 = 300. 8 × Zahl = 300 + 420 = 720. Zahl = 720 ÷ 8 = 90.",
+    "tipps": [
+      "a) Rechne zuerst das Neunfache von 60 aus. Wie viel fehlt dann noch bis 900?",
+      "a) 9 × 60 = 540. Bis 900 fehlen noch: 900 − 540 = 360. Das ist das Sechsfache der gesuchten Zahl.",
+      "a) 360 ÷ 6 = ___. b) 8 × Zahl − 420 = 300. Also: 8 × Zahl = 300 + 420 = 720. Zahl = 720 ÷ ___.",
+      "a) Zahl = 60. b) Zahl = 90."
+    ],
+    "didaktischerHinweis": "Fredo S.78, Aufgabe 6. Rückwärts-Rechnen mit Vielfachen — algebraisches Denken auf Grundschulniveau.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie heißt die Zahl?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Olga addiert zum Neunfachen von 60 das Sechsfache ihrer Zahl. Als Ergebnis erhält sie 900.",
+          "antwort": "60"
+        },
+        {
+          "label": "b",
+          "frage": "Tobi subtrahiert vom Achtfachen seiner Zahl das Siebenfache von 60 und erhält das Dreifache von 100.",
+          "antwort": "90"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.1 — Teiler von 24",
+    "typ": "textaufgabe",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "a) Zähle alle Teiler von 24 auf. Wie gehst du vor?\nb) Wie geht Jette vor? Erkläre.",
+    "loesung": "T24: 1, 2, 3, 4, 6, 8, 12, 24",
+    "loesungsweg": "Jettes Methode: Teilerpaare finden.\n1 × 24 = 24 → Teiler: 1 und 24\n2 × 12 = 24 → Teiler: 2 und 12\n3 × 8 = 24 → Teiler: 3 und 8\n4 × 6 = 24 → Teiler: 4 und 6\n5 × ? = 24 → geht nicht (24 ÷ 5 = 4 Rest 4)\nAlle Teiler gefunden: 1, 2, 3, 4, 6, 8, 12, 24.",
+    "tipps": [
+      "Probiere der Reihe nach: Ist 24 durch 1 teilbar? Durch 2? Durch 3? ...",
+      "Jettes Trick: Suche immer PAARE! 1 × 24, 2 × 12, 3 × 8, 4 × 6. So findest du alle Teiler.",
+      "24 ÷ 1 = 24 ✓, 24 ÷ 2 = 12 ✓, 24 ÷ 3 = 8 ✓, 24 ÷ 4 = 6 ✓, 24 ÷ 5 = ? ✗, 24 ÷ 6 = 4 ✓ (schon gefunden!)",
+      "T24: 1, 2, 3, 4, 6, 8, 12, 24"
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 1. Einführung Teiler + Jettes Paarbildungsstrategie.",
+    "merkkasten": {
+      "typ": "regel",
+      "text": "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist. Die Teiler von 10 sind 1, 2, 5 und 10. 10 ist teilbar durch 1, 2, 5 und 10."
+    },
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl ohne Rest teilbar ist.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Zähle alle Teiler von 24 auf.",
+          "antwort": "1, 2, 3, 4, 6, 8, 12, 24"
+        },
+        {
+          "label": "b",
+          "frage": "💬 Wie geht Jette vor? Erkläre laut, wie man Teilerpaare findet!",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.2 — Teiler notieren",
+    "typ": "eingabe",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "Notiere die Teiler von …\n\na) 12\nb) 16\nc) 18",
+    "loesung": "a) 1, 2, 3, 4, 6, 12\nb) 1, 2, 4, 8, 16\nc) 1, 2, 3, 6, 9, 18",
+    "loesungsweg": "a) T12: 1×12, 2×6, 3×4 → Teiler: 1, 2, 3, 4, 6, 12.\nb) T16: 1×16, 2×8, 4×4 → Teiler: 1, 2, 4, 8, 16.\nc) T18: 1×18, 2×9, 3×6 → Teiler: 1, 2, 3, 6, 9, 18.",
+    "tipps": [
+      "Suche Teilerpaare: Welche zwei Zahlen ergeben multipliziert die gesuchte Zahl?",
+      "a) 1 × 12, 2 × 6, 3 × 4. Gibt es noch ein Paar mit 5? 12 ÷ 5 hat Rest → nein.",
+      "b) 1 × 16, 2 × 8, 4 × 4. c) 1 × 18, 2 × 9, 3 × 6.",
+      "a) 1, 2, 3, 4, 6, 12. b) 1, 2, 4, 8, 16. c) 1, 2, 3, 6, 9, 18."
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 2. Systematisches Teiler-Finden durch Paarbildung.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Notiere die Teiler von …",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Teiler von 12",
+          "antwort": "1, 2, 3, 4, 6, 12"
+        },
+        {
+          "label": "b",
+          "frage": "Teiler von 16",
+          "antwort": "1, 2, 4, 8, 16"
+        },
+        {
+          "label": "c",
+          "frage": "Teiler von 18",
+          "antwort": "1, 2, 3, 6, 9, 18"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.3 — Gemeinsame Teiler",
+    "typ": "eingabe",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "Notiere die Teiler zu den Zahlen. Kreise die gemeinsamen Teiler ein.\n\na) 10, 30, 50\nb) 35, 45, 55\nc) 49, 25, 9\nd) 13, 17, 19",
+    "loesung": "a) T10: 1,2,5,10 / T30: 1,2,3,5,6,10,15,30 / T50: 1,2,5,10,25,50 → Gemeinsame: 1, 2, 5, 10\nb) T35: 1,5,7,35 / T45: 1,3,5,9,15,45 / T55: 1,5,11,55 → Gemeinsame: 1, 5\nc) T49: 1,7,49 / T25: 1,5,25 / T9: 1,3,9 → Gemeinsame: 1\nd) T13: 1,13 / T17: 1,17 / T19: 1,19 → Gemeinsame: 1",
+    "loesungsweg": "a) Teiler aufschreiben, dann vergleichen:\nT10: 1, 2, 5, 10\nT30: 1, 2, 3, 5, 6, 10, 15, 30\nT50: 1, 2, 5, 10, 25, 50\nIn allen drei Listen: 1, 2, 5, 10.\n\nb) T35: 1, 5, 7, 35 / T45: 1, 3, 5, 9, 15, 45 / T55: 1, 5, 11, 55 → Gemeinsam: 1, 5.\nc) T49: 1, 7, 49 / T25: 1, 5, 25 / T9: 1, 3, 9 → Nur 1 ist in allen.\nd) 13, 17, 19 sind Primzahlen — nur Teiler 1 und sich selbst → Gemeinsam: 1.",
+    "tipps": [
+      "Schreibe zuerst die Teiler jeder Zahl auf. Dann vergleiche: Welche Teiler kommen überall vor?",
+      "a) Teiler von 10: 1, 2, 5, 10. Teiler von 30: 1, 2, 3, 5, ...",
+      "d) 13, 17 und 19 sind besondere Zahlen: Sie haben nur die Teiler 1 und sich selbst. Das sind Primzahlen!",
+      "a) 1, 2, 5, 10. b) 1, 5. c) 1. d) 1."
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 3. Gemeinsame Teiler finden. Teil d) führt implizit Primzahlen ein.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Notiere die Teiler zu den Zahlen. Kreise die gemeinsamen Teiler ein.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Gemeinsame Teiler von 10, 30 und 50",
+          "antwort": "1, 2, 5, 10"
+        },
+        {
+          "label": "b",
+          "frage": "Gemeinsame Teiler von 35, 45 und 55",
+          "antwort": "1, 5"
+        },
+        {
+          "label": "c",
+          "frage": "Gemeinsame Teiler von 49, 25 und 9",
+          "antwort": "1"
+        },
+        {
+          "label": "d",
+          "frage": "Gemeinsame Teiler von 13, 17 und 19",
+          "antwort": "1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.4 — Richtig oder falsch?",
+    "typ": "wahr-falsch",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "Richtig oder falsch? Überprüfe und schreibe die richtigen Aussagen auf.\n\na) 5 ist ein Teiler von 45.\nb) Die Zahl 30 ist nur durch gerade Zahlen teilbar.\nc) Die Zahl 27 hat nur ungerade Zahlen als Teiler.\nd) 28 ist teilbar durch 1, 2, 3, 7.\ne) Jeder Teiler von 12 ist auch Teiler von 30.\nf) Die Zahl 40 hat acht Teiler.\ng) Die Teiler von 15 sind auch Teiler von 30.",
+    "loesung": "a) richtig\nb) falsch\nc) richtig\nd) falsch\ne) falsch\nf) richtig\ng) richtig",
+    "loesungsweg": "a) 45 ÷ 5 = 9 ✓\nb) Falsch: 30 ist auch durch 1, 3, 5, 15 teilbar (ungerade Zahlen).\nc) Richtig: T27 = 1, 3, 9, 27 — alles ungerade.\nd) Falsch: 28 ÷ 3 = 9 Rest 1. 3 ist kein Teiler von 28.\ne) Falsch: 4 ist Teiler von 12, aber 30 ÷ 4 = 7 Rest 2.\nf) Richtig: T40 = 1, 2, 4, 5, 8, 10, 20, 40 = 8 Teiler.\ng) Richtig: T15 = 1, 3, 5, 15. Alle sind auch Teiler von 30.",
+    "tipps": [
+      "Prüfe jede Aussage: Rechne die Division aus. Geht sie ohne Rest auf?",
+      "b) Ist 30 nur durch gerade Zahlen teilbar? Probiere: 30 ÷ 3 = 10 (geht auf!) → 3 ist ungerade.",
+      "d) 28 ÷ 3 = ? Geht das ohne Rest? e) Ist 4 ein Teiler von 12? Ist 4 auch ein Teiler von 30?",
+      "a) richtig b) falsch c) richtig d) falsch (3 ist kein Teiler von 28) e) falsch (4 teilt 12, aber nicht 30) f) richtig g) richtig"
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 4. Wahr/Falsch über Teiler — trainiert systematisches Überprüfen.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Richtig oder falsch? Überprüfe.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "5 ist ein Teiler von 45.",
+          "richtig": true,
+          "erklaerung": "Richtig: 45 ÷ 5 = 9, geht ohne Rest auf."
+        },
+        {
+          "label": "b",
+          "aussage": "Die Zahl 30 ist nur durch gerade Zahlen teilbar.",
+          "richtig": false,
+          "erklaerung": "Falsch: 30 ÷ 3 = 10, und 3 ist ungerade."
+        },
+        {
+          "label": "c",
+          "aussage": "Die Zahl 27 hat nur ungerade Zahlen als Teiler.",
+          "richtig": true,
+          "erklaerung": "Richtig: T27 = 1, 3, 9, 27 — alles ungerade Zahlen."
+        },
+        {
+          "label": "d",
+          "aussage": "28 ist teilbar durch 1, 2, 3, 7.",
+          "richtig": false,
+          "erklaerung": "Falsch: 28 ÷ 3 = 9 Rest 1. Die Zahl 3 ist kein Teiler von 28."
+        },
+        {
+          "label": "e",
+          "aussage": "Jeder Teiler von 12 ist auch Teiler von 30.",
+          "richtig": false,
+          "erklaerung": "Falsch: 4 ist Teiler von 12, aber 30 ÷ 4 = 7 Rest 2."
+        },
+        {
+          "label": "f",
+          "aussage": "Die Zahl 40 hat acht Teiler.",
+          "richtig": true,
+          "erklaerung": "Richtig: T40 = 1, 2, 4, 5, 8, 10, 20, 40 = 8 Stück."
+        },
+        {
+          "label": "g",
+          "aussage": "Die Teiler von 15 sind auch Teiler von 30.",
+          "richtig": true,
+          "erklaerung": "Richtig: T15 = 1, 3, 5, 15 — alle teilen auch 30."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.5 — Gruppen bilden",
+    "typ": "eingabe",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "grün",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bilde Gruppen. In jeder Gruppe sollen gleich viele Kinder sein. Welche Möglichkeiten gibt es?\n\na) 21 Kinder\nb) 26 Kinder\nc) 24 Kinder",
+    "loesung": "a) 1, 3, 7, 21\nb) 1, 2, 13, 26\nc) 1, 2, 3, 4, 6, 8, 12, 24",
+    "loesungsweg": "Die Gruppengröße muss ein Teiler der Kinderzahl sein.\na) T21 = 1, 3, 7, 21 → Gruppen mit 1, 3, 7 oder 21 Kindern.\nb) T26 = 1, 2, 13, 26 → Gruppen mit 1, 2, 13 oder 26 Kindern.\nc) T24 = 1, 2, 3, 4, 6, 8, 12, 24 → 8 Möglichkeiten! 24 hat die meisten Teiler.",
+    "tipps": [
+      "Die Frage ist: Durch welche Zahlen lässt sich die Kinderzahl ohne Rest teilen?",
+      "a) 21 ÷ 1 = 21 ✓, 21 ÷ 2 = ? Rest, 21 ÷ 3 = 7 ✓, ...",
+      "c) 24 hat besonders viele Teiler. Finde alle Teilerpaare: 1×24, 2×12, 3×8, 4×6.",
+      "a) 1, 3, 7, 21. b) 1, 2, 13, 26. c) 1, 2, 3, 4, 6, 8, 12, 24 (die meisten!)."
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 5. Alltagsanwendung: Teiler = mögliche Gruppengrößen. Teil c) zeigt: 24 hat die meisten Möglichkeiten.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bilde Gruppen. In jeder Gruppe sollen gleich viele Kinder sein. Welche Gruppengrößen sind möglich?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "21 Kinder: Mögliche Gruppengrößen?",
+          "antwort": "1, 3, 7, 21"
+        },
+        {
+          "label": "b",
+          "frage": "26 Kinder: Mögliche Gruppengrößen?",
+          "antwort": "1, 2, 13, 26"
+        },
+        {
+          "label": "c",
+          "frage": "24 Kinder: Mögliche Gruppengrößen?",
+          "antwort": "1, 2, 3, 4, 6, 8, 12, 24"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.79 Nr.6 — Nelsons Ferienlager",
+    "typ": "eingabe",
+    "thema": "Teiler von Zahlen",
+    "schwierigkeit": "orange",
+    "buchseite": 79,
+    "kapitel": "buch-original",
+    "stageId": "teiler-original",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Kinder sind in Nelsons Ferienlager?\n\nWir sind mehr als 30, aber weniger als 40 Kinder. Egal, ob wir uns in Zweier-, Dreier- oder Viererreihen aufstellen, es bleibt immer ein Kind übrig.",
+    "loesung": "37",
+    "loesungsweg": "Die Kinderzahl liegt zwischen 31 und 39.\nDie Zahl geteilt durch 2, 3 und 4 ergibt immer Rest 1.\nAlso: Zahl − 1 muss durch 2, 3 UND 4 teilbar sein.\n2 × 3 × 4 ÷ 2 = 12 (kgV von 2, 3, 4 ist 12).\nVielfache von 12: 12, 24, 36, 48, ...\n36 + 1 = 37. Liegt 37 zwischen 30 und 40? Ja! ✓\nAntwort: 37 Kinder.",
+    "tipps": [
+      "Die Zahl liegt zwischen 31 und 39. Bei Zweier-, Dreier- UND Viererreihen bleibt immer 1 Kind übrig.",
+      "Wenn immer 1 übrig bleibt, dann ist (Zahl − 1) durch 2, 3 und 4 teilbar.",
+      "Welche Zahl zwischen 30 und 38 ist durch 2, 3 und 4 teilbar? Probiere: 32? 33? 34? 35? 36?",
+      "36 ist durch 2, 3 und 4 teilbar. 36 + 1 = 37. Es sind 37 Kinder."
+    ],
+    "didaktischerHinweis": "Fredo S.79, Aufgabe 6. Knobelaufgabe mit Rest-Bedingung. Führt implizit zum kgV-Konzept.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele Kinder sind in Nelsons Ferienlager?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wir sind mehr als 30, aber weniger als 40 Kinder. Egal, ob wir uns in Zweier-, Dreier- oder Viererreihen aufstellen, es bleibt immer ein Kind übrig.",
+          "antwort": "37"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.1 — Wie haben die Kinder gerechnet?",
+    "typ": "textaufgabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "78 : 3\n\nJette: 30:3=10, 30:3=10, 18:3=6 → 26\nNoemi: 33:3=11, 33:3=11, 12:3=4 → 26\nJustus: 60:3=20, 18:3=6 → 26\n\na) Wie haben die Kinder die Aufgabe gelöst? Beschreibe.\nb) Was meint Fredo? Bei der halbschriftlichen Division kannst du nicht stellenweise vorgehen! (78:3 → 70:3=? 8:3=?)",
+    "loesung": "Alle drei Kinder zerlegen 78 in Teile, die sich leicht durch 3 teilen lassen, und addieren die Teilergebnisse.",
+    "loesungsweg": "Jette zerlegt in 30+30+18, Noemi in 33+33+12, Justus in 60+18. Alle Zerlegungen ergeben 78, und alle Teile sind durch 3 teilbar.\nFredo warnt: 70:3 und 8:3 gehen NICHT auf. Man muss geschickt zerlegen, nicht einfach stellenweise!",
+    "tipps": [
+      "Schau dir an, wie jedes Kind die 78 zerlegt hat. In welche Teile?",
+      "Jette nimmt 30+30+18. Alle drei Teile sind durch 3 teilbar: 30:3=10, 30:3=10, 18:3=6.",
+      "Justus ist am schnellsten: Nur zwei Schritte! 60:3=20, 18:3=6. Zusammen: 26.",
+      "Fredo erklärt: 70:3 geht nicht auf! Deshalb darf man NICHT stellenweise rechnen. Man muss Teile wählen, die ohne Rest teilbar sind."
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 1. Einstieg: Verschiedene Zerlegungsstrategien vergleichen. Wichtig: stellenweises Vorgehen funktioniert bei Division NICHT.",
+    "merkkasten": {
+      "typ": "regel",
+      "text": "Bei der halbschriftlichen Division zerlegst du die Zahl in Teile, die sich leicht teilen lassen. Stellenweises Vorgehen funktioniert nicht!"
+    },
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "78 : 3\n\nJette: 30:3=10, 30:3=10, 18:3=6 → 26\nNoemi: 33:3=11, 33:3=11, 12:3=4 → 26\nJustus: 60:3=20, 18:3=6 → 26",
+      "items": [
+        {
+          "label": "a",
+          "frage": "💬 Wie haben die Kinder die Aufgabe gelöst? Beschreibe, wie jedes Kind die 78 zerlegt hat!",
+          "antwort": "_mündlich"
+        },
+        {
+          "label": "b",
+          "frage": "💬 Was meint Fredo? Warum kann man bei der Division NICHT stellenweise vorgehen?",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2a — 85 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n85 : 5",
+    "loesung": "17",
+    "loesungsweg": "85:5 → 50:5=10, 35:5=7 → 10+7=17",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Nimm zuerst 50 weg: 50:5=10. Rest: 85−50=35.",
+      "35:5=7. Zusammen: 10+7=?",
+      "85:5=17"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "85 : 5",
+          "antwort": "17"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2b — 96 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n96 : 8",
+    "loesung": "12",
+    "loesungsweg": "96:8 → 80:8=10, 16:8=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Nimm zuerst 80 weg: 80:8=10. Rest: 96−80=16.",
+      "16:8=2. Zusammen: 10+2=?",
+      "96:8=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "b",
+          "frage": "96 : 8",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2c — 91 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n91 : 7",
+    "loesung": "13",
+    "loesungsweg": "91:7 → 70:7=10, 21:7=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 91−70=21.",
+      "21:7=3. Zusammen: 10+3=?",
+      "91:7=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "c",
+          "frage": "91 : 7",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2d — 64 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n64 : 4",
+    "loesung": "16",
+    "loesungsweg": "64:4 → 40:4=10, 24:4=6 → 10+6=16",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 40 weg: 40:4=10. Rest: 64−40=24.",
+      "24:4=6. Zusammen: 10+6=?",
+      "64:4=16"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "d",
+          "frage": "64 : 4",
+          "antwort": "16"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2e — 72 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n72 : 6",
+    "loesung": "12",
+    "loesungsweg": "72:6 → 60:6=10, 12:6=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:6=10. Rest: 72−60=12.",
+      "12:6=2. Zusammen: 10+2=?",
+      "72:6=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "e",
+          "frage": "72 : 6",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2f — 51 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n51 : 3",
+    "loesung": "17",
+    "loesungsweg": "51:3 → 30:3=10, 21:3=7 → 10+7=17",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Nimm zuerst 30 weg: 30:3=10. Rest: 51−30=21.",
+      "21:3=7. Zusammen: 10+7=?",
+      "51:3=17"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "f",
+          "frage": "51 : 3",
+          "antwort": "17"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2g — 77 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n77 : 7",
+    "loesung": "11",
+    "loesungsweg": "77:7 → 70:7=10, 7:7=1 → 10+1=11",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 77−70=7.",
+      "7:7=1. Zusammen: 10+1=?",
+      "77:7=11"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2g.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "g",
+          "frage": "77 : 7",
+          "antwort": "11"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2h — 56 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n56 : 4",
+    "loesung": "14",
+    "loesungsweg": "56:4 → 40:4=10, 16:4=4 → 10+4=14",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 40 weg: 40:4=10. Rest: 56−40=16.",
+      "16:4=4. Zusammen: 10+4=?",
+      "56:4=14"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2h.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "h",
+          "frage": "56 : 4",
+          "antwort": "14"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2i — 54 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n54 : 3",
+    "loesung": "18",
+    "loesungsweg": "54:3 → 30:3=10, 24:3=8 → 10+8=18",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Nimm zuerst 30 weg: 30:3=10. Rest: 54−30=24.",
+      "24:3=8. Zusammen: 10+8=?",
+      "54:3=18"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2i.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "i",
+          "frage": "54 : 3",
+          "antwort": "18"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2j — 90 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n90 : 6",
+    "loesung": "15",
+    "loesungsweg": "90:6 → 60:6=10, 30:6=5 → 10+5=15",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:6=10. Rest: 90−60=30.",
+      "30:6=5. Zusammen: 10+5=?",
+      "90:6=15"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2j.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "j",
+          "frage": "90 : 6",
+          "antwort": "15"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2k — 48 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n48 : 4",
+    "loesung": "12",
+    "loesungsweg": "48:4 → 40:4=10, 8:4=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 40 weg: 40:4=10. Rest: 48−40=8.",
+      "8:4=2. Zusammen: 10+2=?",
+      "48:4=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2k.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "k",
+          "frage": "48 : 4",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.2l — 84 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n84 : 7",
+    "loesung": "12",
+    "loesungsweg": "84:7 → 70:7=10, 14:7=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 84−70=14.",
+      "14:7=2. Zusammen: 10+2=?",
+      "84:7=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 2l.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "l",
+          "frage": "84 : 7",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 45 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n45 : 3",
+    "loesung": "15",
+    "loesungsweg": "45:3 → 30:3=10, 15:3=5 → 10+5=15",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Nimm zuerst 30 weg: 30:3=10. Rest: 45−30=15.",
+      "15:3=5. Zusammen: 10+5=?",
+      "45:3=15"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "a1",
+          "frage": "45 : 3",
+          "antwort": "15"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 57 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n57 : 3",
+    "loesung": "19",
+    "loesungsweg": "57:3 → 30:3=10, 27:3=9 → 10+9=19",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Nimm zuerst 30 weg: 30:3=10. Rest: 57−30=27.",
+      "27:3=9. Zusammen: 10+9=?",
+      "57:3=19"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "a2",
+          "frage": "57 : 3",
+          "antwort": "19"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 72 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n72 : 3",
+    "loesung": "24",
+    "loesungsweg": "72:3 → 60:3=20, 12:3=4 → 20+4=24",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:3=20. Rest: 72−60=12.",
+      "12:3=4. Zusammen: 20+4=?",
+      "72:3=24"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "a3",
+          "frage": "72 : 3",
+          "antwort": "24"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 52 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n52 : 4",
+    "loesung": "13",
+    "loesungsweg": "52:4 → 40:4=10, 12:4=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 40 weg: 40:4=10. Rest: 52−40=12.",
+      "12:4=3. Zusammen: 10+3=?",
+      "52:4=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "b1",
+          "frage": "52 : 4",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 68 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n68 : 4",
+    "loesung": "17",
+    "loesungsweg": "68:4 → 40:4=10, 28:4=7 → 10+7=17",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 40 weg: 40:4=10. Rest: 68−40=28.",
+      "28:4=7. Zusammen: 10+7=?",
+      "68:4=17"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "b2",
+          "frage": "68 : 4",
+          "antwort": "17"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 96 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n96 : 4",
+    "loesung": "24",
+    "loesungsweg": "96:4 → 80:4=20, 16:4=4 → 20+4=24",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Nimm zuerst 80 weg: 80:4=20. Rest: 96−80=16.",
+      "16:4=4. Zusammen: 20+4=?",
+      "96:4=24"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "b3",
+          "frage": "96 : 4",
+          "antwort": "24"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 75 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n75 : 5",
+    "loesung": "15",
+    "loesungsweg": "75:5 → 50:5=10, 25:5=5 → 10+5=15",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Nimm zuerst 50 weg: 50:5=10. Rest: 75−50=25.",
+      "25:5=5. Zusammen: 10+5=?",
+      "75:5=15"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "c1",
+          "frage": "75 : 5",
+          "antwort": "15"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 90 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n90 : 5",
+    "loesung": "18",
+    "loesungsweg": "90:5 → 50:5=10, 40:5=8 → 10+8=18",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Nimm zuerst 50 weg: 50:5=10. Rest: 90−50=40.",
+      "40:5=8. Zusammen: 10+8=?",
+      "90:5=18"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "c2",
+          "frage": "90 : 5",
+          "antwort": "18"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 65 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n65 : 5",
+    "loesung": "13",
+    "loesungsweg": "65:5 → 50:5=10, 15:5=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Nimm zuerst 50 weg: 50:5=10. Rest: 65−50=15.",
+      "15:5=3. Zusammen: 10+3=?",
+      "65:5=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "c3",
+          "frage": "65 : 5",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 84 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n84 : 6",
+    "loesung": "14",
+    "loesungsweg": "84:6 → 60:6=10, 24:6=4 → 10+4=14",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:6=10. Rest: 84−60=24.",
+      "24:6=4. Zusammen: 10+4=?",
+      "84:6=14"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "d1",
+          "frage": "84 : 6",
+          "antwort": "14"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 96 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n96 : 6",
+    "loesung": "16",
+    "loesungsweg": "96:6 → 60:6=10, 36:6=6 → 10+6=16",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:6=10. Rest: 96−60=36.",
+      "36:6=6. Zusammen: 10+6=?",
+      "96:6=16"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "d2",
+          "frage": "96 : 6",
+          "antwort": "16"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 78 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n78 : 6",
+    "loesung": "13",
+    "loesungsweg": "78:6 → 60:6=10, 18:6=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Nimm zuerst 60 weg: 60:6=10. Rest: 78−60=18.",
+      "18:6=3. Zusammen: 10+3=?",
+      "78:6=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "d3",
+          "frage": "78 : 6",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 98 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n98 : 7",
+    "loesung": "14",
+    "loesungsweg": "98:7 → 70:7=10, 28:7=4 → 10+4=14",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 98−70=28.",
+      "28:7=4. Zusammen: 10+4=?",
+      "98:7=14"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "e1",
+          "frage": "98 : 7",
+          "antwort": "14"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 84 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n84 : 7",
+    "loesung": "12",
+    "loesungsweg": "84:7 → 70:7=10, 14:7=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 84−70=14.",
+      "14:7=2. Zusammen: 10+2=?",
+      "84:7=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "e2",
+          "frage": "84 : 7",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 91 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n91 : 7",
+    "loesung": "13",
+    "loesungsweg": "91:7 → 70:7=10, 21:7=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Nimm zuerst 70 weg: 70:7=10. Rest: 91−70=21.",
+      "21:7=3. Zusammen: 10+3=?",
+      "91:7=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "e3",
+          "frage": "91 : 7",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 96 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n96 : 8",
+    "loesung": "12",
+    "loesungsweg": "96:8 → 80:8=10, 16:8=2 → 10+2=12",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Nimm zuerst 80 weg: 80:8=10. Rest: 96−80=16.",
+      "16:8=2. Zusammen: 10+2=?",
+      "96:8=12"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "f1",
+          "frage": "96 : 8",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 120 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n120 : 8",
+    "loesung": "15",
+    "loesungsweg": "120:8 → 80:8=10, 40:8=5 → 10+5=15",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Nimm zuerst 80 weg: 80:8=10. Rest: 120−80=40.",
+      "40:8=5. Zusammen: 10+5=?",
+      "120:8=15"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "f2",
+          "frage": "120 : 8",
+          "antwort": "15"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.3 — 104 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n104 : 8",
+    "loesung": "13",
+    "loesungsweg": "104:8 → 80:8=10, 24:8=3 → 10+3=13",
+    "tipps": [
+      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Nimm zuerst 80 weg: 80:8=10. Rest: 104−80=24.",
+      "24:8=3. Zusammen: 10+3=?",
+      "104:8=13"
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "f3",
+          "frage": "104 : 8",
+          "antwort": "13"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.4 — Durch welche Zahl wird geteilt?",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Durch welche Zahl wird geteilt?\n\na) 84 : ___ = 12\nb) 91 : ___ = 13\nc) 96 : ___ = 12\nd) 84 : ___ = 14\n\n56 : ___ = 14\n45 : ___ = 15\n85 : ___ = 17\n78 : ___ = 13\n\n96 : ___ = 16\n54 : ___ = 18\n57 : ___ = 19\n48 : ___ = 16",
+    "loesung": "a) 7, 4, 6\nb) 7, 3, 3\nc) 8, 5, 3\nd) 6, 6, 3",
+    "loesungsweg": "Teiler = Dividend ÷ Ergebnis.\na) 84:12=7, 56:14=4, 96:16=6\nb) 91:13=7, 45:15=3, 54:18=3\nc) 96:12=8, 85:17=5, 57:19=3\nd) 84:14=6, 78:13=6, 48:16=3",
+    "tipps": [
+      "Wenn du das Ergebnis kennst, kannst du rückwärts rechnen: Dividend ÷ Ergebnis = Teiler.",
+      "a) 84 : ___ = 12. Also: 84 ÷ 12 = ___. Rechne: 12 × 7 = 84 ✓",
+      "Tipp: Überlege 'Welche Zahl mal 12 ergibt 84?' Das ist die Umkehraufgabe!",
+      "a) 7, 4, 6. b) 7, 3, 3. c) 8, 5, 3. d) 6, 6, 3."
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 4. Umkehroperation: Divisor finden. Fördert flexibles Denken.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Durch welche Zahl wird geteilt?",
+      "items": [
+        {
+          "label": "a1",
+          "frage": "84 : ___ = 12",
+          "antwort": "7"
+        },
+        {
+          "label": "a2",
+          "frage": "56 : ___ = 14",
+          "antwort": "4"
+        },
+        {
+          "label": "a3",
+          "frage": "96 : ___ = 16",
+          "antwort": "6"
+        },
+        {
+          "label": "b1",
+          "frage": "91 : ___ = 13",
+          "antwort": "7"
+        },
+        {
+          "label": "b2",
+          "frage": "45 : ___ = 15",
+          "antwort": "3"
+        },
+        {
+          "label": "b3",
+          "frage": "54 : ___ = 18",
+          "antwort": "3"
+        },
+        {
+          "label": "c1",
+          "frage": "96 : ___ = 12",
+          "antwort": "8"
+        },
+        {
+          "label": "c2",
+          "frage": "85 : ___ = 17",
+          "antwort": "5"
+        },
+        {
+          "label": "c3",
+          "frage": "57 : ___ = 19",
+          "antwort": "3"
+        },
+        {
+          "label": "d1",
+          "frage": "84 : ___ = 14",
+          "antwort": "6"
+        },
+        {
+          "label": "d2",
+          "frage": "78 : ___ = 13",
+          "antwort": "6"
+        },
+        {
+          "label": "d3",
+          "frage": "48 : ___ = 16",
+          "antwort": "3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.80 Nr.5 — Welche Ziffern können es sein?",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 80,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern können es sein? Das Ergebnis hat keinen Rest. Notiere alle Möglichkeiten und rechne.\n\na) _7 : 6\nb) _9 : 7\nc) _6 : 4\nd) _8 : 3\ne) _7 : 5",
+    "loesung": "a) 42:6=7 → Ziffer 4\nb) 49:7=7, 91:7=13 → Ziffern 4 oder 9 (Korrektur: 49 hat Einerstelle 9? Nein, _9:7 → 49:7=7, 98... nein. Lass mich neu rechnen)\na) ?7 : 6: 17÷6 Rest, 27÷6 Rest, 37÷6 Rest, 47÷6 Rest, 57÷6 Rest, 67÷6 Rest, 77÷6 Rest, 87÷6 Rest, 97÷6 Rest → Keine geht auf! Hmm, zweistellig mit 7 als Einerstelle...\nKorrektur: Die Aufgabe ist _7:6 wobei _ eine Ziffer an der ZEHNERSTELLE ist.\n17:6 Rest, 27:6=4R3, 37:6 Rest, 42:6=7 → nein 42 hat nicht 7 als Einerstelle.\nHmm. 12:6=2, 18:6=3, 24:6=4, 30:6=5, 36:6=6, 42:6=7, 48:6=8, 54:6=9, 60:6=10...\nMit Einerstelle 7: 17, 27, 37, 47, 57, 67, 77, 87, 97.\n42:6=7 → 42 endet auf 2, nicht 7.\nKeines der _7 ist durch 6 teilbar! Das kann nicht stimmen.\n\nWarten — vielleicht ist das Format anders: 7_ : 6 (7 an der Zehnerstelle)?\n72:6=12 ✓, 78:6=13 ✓ → Ziffern: 2 und 8.",
+    "loesungsweg": "Die erste Ziffer ist vorgegeben, die zweite (_) wird gesucht.\na) 7_ : 6 ohne Rest: 72:6=12, 78:6=13 → _ = 2 oder 8\nb) 9_ : 7 ohne Rest: 91:7=13, 98:7=14 → _ = 1 oder 8\nc) 6_ : 4 ohne Rest: 60:4=15, 64:4=16, 68:4=17 → _ = 0, 4 oder 8\nd) 8_ : 3 ohne Rest: 81:3=27, 84:3=28, 87:3=29 → _ = 1, 4 oder 7\ne) 7_ : 5 ohne Rest: 70:5=14, 75:5=15 → _ = 0 oder 5",
+    "tipps": [
+      "Setze nacheinander alle Ziffern 0–9 ein und prüfe, ob die Division ohne Rest aufgeht.",
+      "a) 7_ : 6: Probiere 70:6, 71:6, 72:6, ... Welche gehen ohne Rest auf?",
+      "a) 72:6=12 ✓ und 78:6=13 ✓. Also: _ = 2 oder 8.",
+      "a) 2, 8. b) 1, 8. c) 0, 4, 8. d) 1, 4, 7. e) 0, 5."
+    ],
+    "didaktischerHinweis": "Fredo S.80, Aufgabe 5. Knobelaufgabe: Systematisches Probieren + Teilbarkeitsverständnis.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Ziffern können es sein? Notiere alle Möglichkeiten (kommagetrennt).",
+      "items": [
+        {
+          "label": "a",
+          "frage": "7_ : 6 ohne Rest. Welche Ziffern passen für _?",
+          "antwort": "2, 8"
+        },
+        {
+          "label": "b",
+          "frage": "9_ : 7 ohne Rest. Welche Ziffern passen für _?",
+          "antwort": "1, 8"
+        },
+        {
+          "label": "c",
+          "frage": "6_ : 4 ohne Rest. Welche Ziffern passen für _?",
+          "antwort": "0, 4, 8"
+        },
+        {
+          "label": "d",
+          "frage": "8_ : 3 ohne Rest. Welche Ziffern passen für _?",
+          "antwort": "1, 4, 7"
+        },
+        {
+          "label": "e",
+          "frage": "7_ : 5 ohne Rest. Welche Ziffern passen für _?",
+          "antwort": "0, 5"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.6 — Wie haben die Kinder gerechnet? (642:3)",
+    "typ": "textaufgabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "gelb",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "642 : 3\n\nJette: 300:3=100, 300:3=100, 30:3=10, 12:3=4 → 214\nJustus: 600:3=200, 30:3=10, 12:3=4 → 214\nOlli: 630:3=210, 12:3=4 → 214\nNoemi: 600:3=200, 33:3=11, 9:3=3 → 214\n\nWie haben die Kinder die Aufgabe gelöst? Beschreibe. Wie rechnest du?",
+    "loesung": "Alle vier Kinder zerlegen 642 in Teile, die durch 3 teilbar sind. Olli ist am schnellsten (nur 2 Schritte). Justus nutzt die Hunderter geschickt.",
+    "loesungsweg": "Jette: 300+300+30+12=642, je durch 3: 100+100+10+4=214\nJustus: 600+30+12=642, je durch 3: 200+10+4=214\nOlli: 630+12=642, je durch 3: 210+4=214\nNoemi: 600+33+9=642, je durch 3: 200+11+3=214\nAlle Wege sind richtig! Olli braucht am wenigsten Schritte.",
+    "tipps": [
+      "Vergleiche: Wie zerlegt jedes Kind die 642? In wie viele Teile?",
+      "Olli ist besonders geschickt: 630 ist durch 3 teilbar (weil 6+3+0=9, und 9 ist durch 3 teilbar).",
+      "Zähle die Schritte: Jette 4, Justus 3, Olli 2, Noemi 3. Weniger Schritte = schneller!",
+      "Alle Wege ergeben 214. Der beste Weg ist der, den DU am schnellsten und sichersten rechnen kannst."
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 6. Verschiedene Strategien bei 3-stelliger Division. Vergleich der Effizienz.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "642 : 3\n\nJette: 300:3=100, 300:3=100, 30:3=10, 12:3=4 → 214\nJustus: 600:3=200, 30:3=10, 12:3=4 → 214\nOlli: 630:3=210, 12:3=4 → 214\nNoemi: 600:3=200, 33:3=11, 9:3=3 → 214",
+      "items": [
+        {
+          "label": "a",
+          "frage": "💬 Wie haben die Kinder die Aufgabe gelöst? Beschreibe und erkläre, wie DU rechnen würdest!",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7a — 840 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n840 : 7",
+    "loesung": "120",
+    "loesungsweg": "840:7 → 700:7=100, 140:7=20 → 100+20=120",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 700 weg: 700:7=100. Rest: 840−700=140.",
+      "140:7=20. Zusammen: 100+20=?",
+      "840:7=120"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "840 : 7",
+          "antwort": "120"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7b — 642 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n642 : 6",
+    "loesung": "107",
+    "loesungsweg": "642:6 → 600:6=100, 42:6=7 → 100+7=107",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 600 weg: 600:6=100. Rest: 642−600=42.",
+      "42:6=7. Zusammen: 100+7=?",
+      "642:6=107"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "b",
+          "frage": "642 : 6",
+          "antwort": "107"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7c — 520 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n520 : 4",
+    "loesung": "130",
+    "loesungsweg": "520:4 → 400:4=100, 120:4=30 → 100+30=130",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 400 weg: 400:4=100. Rest: 520−400=120.",
+      "120:4=30. Zusammen: 100+30=?",
+      "520:4=130"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "c",
+          "frage": "520 : 4",
+          "antwort": "130"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7d — 960 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n960 : 8",
+    "loesung": "120",
+    "loesungsweg": "960:8 → 800:8=100, 160:8=20 → 100+20=120",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 800 weg: 800:8=100. Rest: 960−800=160.",
+      "160:8=20. Zusammen: 100+20=?",
+      "960:8=120"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "d",
+          "frage": "960 : 8",
+          "antwort": "120"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7e — 545 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n545 : 5",
+    "loesung": "109",
+    "loesungsweg": "545:5 → 500:5=100, 45:5=9 → 100+9=109",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 500 weg: 500:5=100. Rest: 545−500=45.",
+      "45:5=9. Zusammen: 100+9=?",
+      "545:5=109"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "e",
+          "frage": "545 : 5",
+          "antwort": "109"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7f — 420 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n420 : 3",
+    "loesung": "140",
+    "loesungsweg": "420:3 → 300:3=100, 120:3=40 → 100+40=140",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 300 weg: 300:3=100. Rest: 420−300=120.",
+      "120:3=40. Zusammen: 100+40=?",
+      "420:3=140"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "f",
+          "frage": "420 : 3",
+          "antwort": "140"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7g — 880 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n880 : 8",
+    "loesung": "110",
+    "loesungsweg": "880:8 → 800:8=100, 80:8=10 → 100+10=110",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 800 weg: 800:8=100. Rest: 880−800=80.",
+      "80:8=10. Zusammen: 100+10=?",
+      "880:8=110"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7g.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "g",
+          "frage": "880 : 8",
+          "antwort": "110"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7h — 640 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n640 : 4",
+    "loesung": "160",
+    "loesungsweg": "640:4 → 400:4=100, 240:4=60 → 100+60=160",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 400 weg: 400:4=100. Rest: 640−400=240.",
+      "240:4=60. Zusammen: 100+60=?",
+      "640:4=160"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7h.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "h",
+          "frage": "640 : 4",
+          "antwort": "160"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7i — 510 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n510 : 3",
+    "loesung": "170",
+    "loesungsweg": "510:3 → 300:3=100, 210:3=70 → 100+70=170",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 300 weg: 300:3=100. Rest: 510−300=210.",
+      "210:3=70. Zusammen: 100+70=?",
+      "510:3=170"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7i.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "i",
+          "frage": "510 : 3",
+          "antwort": "170"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7j — 910 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n910 : 7",
+    "loesung": "130",
+    "loesungsweg": "910:7 → 700:7=100, 210:7=30 → 100+30=130",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 700 weg: 700:7=100. Rest: 910−700=210.",
+      "210:7=30. Zusammen: 100+30=?",
+      "910:7=130"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7j.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "j",
+          "frage": "910 : 7",
+          "antwort": "130"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7k — 720 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n720 : 6",
+    "loesung": "120",
+    "loesungsweg": "720:6 → 600:6=100, 120:6=20 → 100+20=120",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 600 weg: 600:6=100. Rest: 720−600=120.",
+      "120:6=20. Zusammen: 100+20=?",
+      "720:6=120"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7k.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "k",
+          "frage": "720 : 6",
+          "antwort": "120"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.7l — 530 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich.\n\n530 : 5",
+    "loesung": "106",
+    "loesungsweg": "530:5 → 500:5=100, 30:5=6 → 100+6=106",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 500 weg: 500:5=100. Rest: 530−500=30.",
+      "30:5=6. Zusammen: 100+6=?",
+      "530:5=106"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 7l.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich.",
+      "items": [
+        {
+          "label": "l",
+          "frage": "530 : 5",
+          "antwort": "106"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8a — 968 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n968 : 8",
+    "loesung": "121",
+    "loesungsweg": "968:8 → 800:8=100, 168:8=21 → 100+21=121",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 800 weg: 800:8=100. Rest: 968−800=168.",
+      "168:8=21. Zusammen: 100+21=?",
+      "968:8=121"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8a.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "968 : 8",
+          "antwort": "121"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8b — 927 : 9",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n927 : 9",
+    "loesung": "103",
+    "loesungsweg": "927:9 → 900:9=100, 27:9=3 → 100+3=103",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 900 weg: 900:9=100. Rest: 927−900=27.",
+      "27:9=3. Zusammen: 100+3=?",
+      "927:9=103"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8b.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "b",
+          "frage": "927 : 9",
+          "antwort": "103"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8c — 246 : 2",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n246 : 2",
+    "loesung": "123",
+    "loesungsweg": "246:2 → 200:2=100, 46:2=23 → 100+23=123",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 200 weg: 200:2=100. Rest: 246−200=46.",
+      "46:2=23. Zusammen: 100+23=?",
+      "246:2=123"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8c.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "c",
+          "frage": "246 : 2",
+          "antwort": "123"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8d — 665 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n665 : 5",
+    "loesung": "133",
+    "loesungsweg": "665:5 → 500:5=100, 165:5=33 → 100+33=133",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 500 weg: 500:5=100. Rest: 665−500=165.",
+      "165:5=33. Zusammen: 100+33=?",
+      "665:5=133"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8d.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "d",
+          "frage": "665 : 5",
+          "antwort": "133"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8e — 640 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n640 : 4",
+    "loesung": "160",
+    "loesungsweg": "640:4 → 400:4=100, 240:4=60 → 100+60=160",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 400 weg: 400:4=100. Rest: 640−400=240.",
+      "240:4=60. Zusammen: 100+60=?",
+      "640:4=160"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8e.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "e",
+          "frage": "640 : 4",
+          "antwort": "160"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8f — 726 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n726 : 3",
+    "loesung": "242",
+    "loesungsweg": "726:3 → 600:3=200, 126:3=42 → 200+42=242",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 600 weg: 600:3=200. Rest: 726−600=126.",
+      "126:3=42. Zusammen: 200+42=?",
+      "726:3=242"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8f.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "f",
+          "frage": "726 : 3",
+          "antwort": "242"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8g — 896 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n896 : 8",
+    "loesung": "112",
+    "loesungsweg": "896:8 → 800:8=100, 96:8=12 → 100+12=112",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 800 weg: 800:8=100. Rest: 896−800=96.",
+      "96:8=12. Zusammen: 100+12=?",
+      "896:8=112"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8g.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "g",
+          "frage": "896 : 8",
+          "antwort": "112"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8h — 564 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n564 : 4",
+    "loesung": "141",
+    "loesungsweg": "564:4 → 400:4=100, 164:4=41 → 100+41=141",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 400 weg: 400:4=100. Rest: 564−400=164.",
+      "164:4=41. Zusammen: 100+41=?",
+      "564:4=141"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8h.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "h",
+          "frage": "564 : 4",
+          "antwort": "141"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8i — 650 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n650 : 5",
+    "loesung": "130",
+    "loesungsweg": "650:5 → 500:5=100, 150:5=30 → 100+30=130",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 500 weg: 500:5=100. Rest: 650−500=150.",
+      "150:5=30. Zusammen: 100+30=?",
+      "650:5=130"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8i.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "i",
+          "frage": "650 : 5",
+          "antwort": "130"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8j — 696 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n696 : 6",
+    "loesung": "116",
+    "loesungsweg": "696:6 → 600:6=100, 96:6=16 → 100+16=116",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 600 weg: 600:6=100. Rest: 696−600=96.",
+      "96:6=16. Zusammen: 100+16=?",
+      "696:6=116"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8j.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "j",
+          "frage": "696 : 6",
+          "antwort": "116"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8k — 765 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n765 : 3",
+    "loesung": "255",
+    "loesungsweg": "765:3 → 600:3=200, 165:3=55 → 200+55=255",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 600 weg: 600:3=200. Rest: 765−600=165.",
+      "165:3=55. Zusammen: 200+55=?",
+      "765:3=255"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8k.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "k",
+          "frage": "765 : 3",
+          "antwort": "255"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.8l — 847 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "grün",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\n847 : 7",
+    "loesung": "121",
+    "loesungsweg": "847:7 → 700:7=100, 147:7=21 → 100+21=121",
+    "tipps": [
+      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Nimm 700 weg: 700:7=100. Rest: 847−700=147.",
+      "147:7=21. Zusammen: 100+21=?",
+      "847:7=121"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 8l.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne halbschriftlich auf deinem Weg.",
+      "items": [
+        {
+          "label": "l",
+          "frage": "847 : 7",
+          "antwort": "121"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9a — 765 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n765 : 7",
+    "loesung": "109 R 2",
+    "loesungsweg": "765:7 → 700:7=100, 63:7=9 → 109, Rest 2",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 700 weg: 700:7=100. Rest: 765−700=65.",
+      "65 durch 7: 63:7=9. Es bleibt Rest 2.",
+      "Probe: 109×7+2=765. Also: 109 R 2"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9a. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "765 : 7",
+          "antwort": "109 R 2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9b — 413 : 2",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n413 : 2",
+    "loesung": "206 R 1",
+    "loesungsweg": "413:2 → 400:2=200, 12:2=6 → 206, Rest 1",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 400 weg: 400:2=200. Rest: 413−400=13.",
+      "13 durch 2: 12:2=6. Es bleibt Rest 1.",
+      "Probe: 206×2+1=413. Also: 206 R 1"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9b. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "b",
+          "frage": "413 : 2",
+          "antwort": "206 R 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9c — 785 : 7",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n785 : 7",
+    "loesung": "112 R 1",
+    "loesungsweg": "785:7 → 700:7=100, 84:7=12 → 112, Rest 1",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 700 weg: 700:7=100. Rest: 785−700=85.",
+      "85 durch 7: 84:7=12. Es bleibt Rest 1.",
+      "Probe: 112×7+1=785. Also: 112 R 1"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9c. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "c",
+          "frage": "785 : 7",
+          "antwort": "112 R 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9d — 632 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n632 : 3",
+    "loesung": "210 R 2",
+    "loesungsweg": "632:3 → 600:3=200, 30:3=10 → 210, Rest 2",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 600 weg: 600:3=200. Rest: 632−600=32.",
+      "32 durch 3: 30:3=10. Es bleibt Rest 2.",
+      "Probe: 210×3+2=632. Also: 210 R 2"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9d. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "d",
+          "frage": "632 : 3",
+          "antwort": "210 R 2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9e — 653 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n653 : 5",
+    "loesung": "130 R 3",
+    "loesungsweg": "653:5 → 500:5=100, 150:5=30 → 130, Rest 3",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 500 weg: 500:5=100. Rest: 653−500=153.",
+      "153 durch 5: 150:5=30. Es bleibt Rest 3.",
+      "Probe: 130×5+3=653. Also: 130 R 3"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9e. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "e",
+          "frage": "653 : 5",
+          "antwort": "130 R 3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9f — 545 : 2",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n545 : 2",
+    "loesung": "272 R 1",
+    "loesungsweg": "545:2 → 400:2=200, 144:2=72 → 272, Rest 1",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 400 weg: 400:2=200. Rest: 545−400=145.",
+      "145 durch 2: 144:2=72. Es bleibt Rest 1.",
+      "Probe: 272×2+1=545. Also: 272 R 1"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9f. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "f",
+          "frage": "545 : 2",
+          "antwort": "272 R 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9g — 526 : 5",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n526 : 5",
+    "loesung": "105 R 1",
+    "loesungsweg": "526:5 → 500:5=100, 25:5=5 → 105, Rest 1",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 500 weg: 500:5=100. Rest: 526−500=26.",
+      "26 durch 5: 25:5=5. Es bleibt Rest 1.",
+      "Probe: 105×5+1=526. Also: 105 R 1"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9g. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "g",
+          "frage": "526 : 5",
+          "antwort": "105 R 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9h — 838 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n838 : 4",
+    "loesung": "209 R 2",
+    "loesungsweg": "838:4 → 800:4=200, 36:4=9 → 209, Rest 2",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 800 weg: 800:4=200. Rest: 838−800=38.",
+      "38 durch 4: 36:4=9. Es bleibt Rest 2.",
+      "Probe: 209×4+2=838. Also: 209 R 2"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9h. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "h",
+          "frage": "838 : 4",
+          "antwort": "209 R 2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9i — 855 : 4",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n855 : 4",
+    "loesung": "213 R 3",
+    "loesungsweg": "855:4 → 800:4=200, 52:4=13 → 213, Rest 3",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 800 weg: 800:4=200. Rest: 855−800=55.",
+      "55 durch 4: 52:4=13. Es bleibt Rest 3.",
+      "Probe: 213×4+3=855. Also: 213 R 3"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9i. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "i",
+          "frage": "855 : 4",
+          "antwort": "213 R 3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9j — 337 : 3",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n337 : 3",
+    "loesung": "112 R 1",
+    "loesungsweg": "337:3 → 300:3=100, 36:3=12 → 112, Rest 1",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 300 weg: 300:3=100. Rest: 337−300=37.",
+      "37 durch 3: 36:3=12. Es bleibt Rest 1.",
+      "Probe: 112×3+1=337. Also: 112 R 1"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9j. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "j",
+          "frage": "337 : 3",
+          "antwort": "112 R 1"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9k — 777 : 6",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n777 : 6",
+    "loesung": "129 R 3",
+    "loesungsweg": "777:6 → 600:6=100, 174:6=29 → 129, Rest 3",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 600 weg: 600:6=100. Rest: 777−600=177.",
+      "177 durch 6: 174:6=29. Es bleibt Rest 3.",
+      "Probe: 129×6+3=777. Also: 129 R 3"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9k. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "k",
+          "frage": "777 : 6",
+          "antwort": "129 R 3"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.9l — 962 : 8",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne.\n\n962 : 8",
+    "loesung": "120 R 2",
+    "loesungsweg": "962:8 → 800:8=100, 160:8=20 → 120, Rest 2",
+    "tipps": [
+      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Nimm 800 weg: 800:8=100. Rest: 962−800=162.",
+      "162 durch 8: 160:8=20. Es bleibt Rest 2.",
+      "Probe: 120×8+2=962. Also: 120 R 2"
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 9l. Division mit Rest.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Aufgaben mit Rest: Rechne. Schreibe z.B. '109 R 2'.",
+      "items": [
+        {
+          "label": "l",
+          "frage": "962 : 8",
+          "antwort": "120 R 2"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.81 Nr.10 — Rest + nächstgrößere Zahl",
+    "typ": "eingabe",
+    "thema": "Halbschriftlich Dividieren",
+    "schwierigkeit": "orange",
+    "buchseite": 81,
+    "kapitel": "buch-original",
+    "stageId": "halbschriftlich-div-original",
+    "digital": "voll",
+    "aufgabenstellung": "Aufgaben mit Rest: Rechne und notiere jeweils die nächstgrößere Zahl, die sich ohne Rest teilen lässt.\n\nBeispiel: 675 : 4 = 168 R 3 → 676 : 4 = 169\n\na) 874 : 4\nb) 789 : 6\nc) 857 : 7\nd) 992 : 9\ne) 552 : 5\nf) 962 : 8",
+    "loesung": "a) 218 R 2, 876:4=219\nb) 131 R 3, 792:6=132\nc) 122 R 3, 861:7=123\nd) 110 R 2, 999:9=111\ne) 110 R 2, 555:5=111\nf) 120 R 2, 968:8=121",
+    "loesungsweg": "a) 874:4=218 R 2. Rest 2, also fehlen 4−2=2 bis zur nächsten glatten Zahl: 874+2=876. 876:4=219.\nb) 789:6=131 R 3. Fehlen 6−3=3: 789+3=792. 792:6=132.\nc) 857:7=122 R 3. Fehlen 7−3=4: 857+4=861. 861:7=123.\nd) 992:9=110 R 2. Fehlen 9−2=7: 992+7=999. 999:9=111.\ne) 552:5=110 R 2. Fehlen 5−2=3: 552+3=555. 555:5=111.\nf) 962:8=120 R 2. Fehlen 8−2=6: 962+6=968. 968:8=121.",
+    "tipps": [
+      "Rechne zuerst die Division mit Rest. Dann: Wie viel fehlt zum nächsten Vielfachen?",
+      "Wenn der Rest R ist und du durch Z teilst, fehlen Z−R bis zur nächsten glatten Zahl.",
+      "a) 874:4=218 R 2. Es fehlen 4−2=2. Also: 874+2=876. Probe: 876:4=?",
+      "a) 218 R 2, nächste: 876:4=219. b) 131 R 3, nächste: 792:6=132."
+    ],
+    "didaktischerHinweis": "Fredo S.81, Aufgabe 10. Vertiefung: Vom Rest zur nächsten teilbaren Zahl. Fördert Verständnis der Teilbarkeit.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Rechne mit Rest und notiere die nächstgrößere Zahl ohne Rest.",
+      "items": [
+        {
+          "label": "a1",
+          "frage": "874 : 4 =",
+          "antwort": "218 R 2"
+        },
+        {
+          "label": "a2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 4 = ___",
+          "antwort": "219"
+        },
+        {
+          "label": "b1",
+          "frage": "789 : 6 =",
+          "antwort": "131 R 3"
+        },
+        {
+          "label": "b2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 6 = ___",
+          "antwort": "132"
+        },
+        {
+          "label": "c1",
+          "frage": "857 : 7 =",
+          "antwort": "122 R 3"
+        },
+        {
+          "label": "c2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 7 = ___",
+          "antwort": "123"
+        },
+        {
+          "label": "d1",
+          "frage": "992 : 9 =",
+          "antwort": "110 R 2"
+        },
+        {
+          "label": "d2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 9 = ___",
+          "antwort": "111"
+        },
+        {
+          "label": "e1",
+          "frage": "552 : 5 =",
+          "antwort": "110 R 2"
+        },
+        {
+          "label": "e2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 5 = ___",
+          "antwort": "111"
+        },
+        {
+          "label": "f1",
+          "frage": "962 : 8 =",
+          "antwort": "120 R 2"
+        },
+        {
+          "label": "f2",
+          "frage": "Nächstgrößere Zahl ohne Rest: ___ : 8 = ___",
+          "antwort": "121"
+        }
+      ]
+    }
+  }
+]

@@ -257,7 +257,7 @@ interface DivisionInteraktivDaten {
 function parseDivisionInteraktiv(stageId: string, text: string): DivisionInteraktivDaten | null {
   // Nur für Division-Stages
   const istSchriftlich = stageId.includes('schriftlich-dividieren') && !stageId.includes('halbschriftlich');
-  const istHalbschriftlich = stageId.includes('halbschriftlich-dividieren');
+  const istHalbschriftlich = stageId.includes('halbschriftlich-dividieren') || stageId.includes('halbschriftlich-div');
   if (!istSchriftlich && !istHalbschriftlich) return null;
 
   // Dividend : Divisor extrahieren
