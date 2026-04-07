@@ -14,6 +14,8 @@ export interface Profile {
   avatarConfig?: AvatarConfig;
   farbe: string;
   erstelltAm: number;
+  syncId?: string;
+  updatedAt?: number;
 }
 
 export interface Session {
@@ -22,6 +24,8 @@ export interface Session {
   stufeId: string;
   gestartetAm: number;
   beendetAm?: number;
+  syncId?: string;
+  updatedAt?: number;
 }
 
 export interface AntwortLog {
@@ -37,6 +41,8 @@ export interface AntwortLog {
   tippBenutzt: boolean;
   tippStufe: number;
   erstelltAm: number;
+  syncId?: string;
+  updatedAt?: number;
 }
 
 class MatheDB extends Dexie {
@@ -91,6 +97,13 @@ class MatheDB extends Dexie {
           };
         }
       });
+    });
+
+    // Version 5: syncId + updatedAt für Cloud-Sync
+    this.version(5).stores({
+      profiles: '++id, name, syncId',
+      sessions: '++id, profileId, stufeId, gestartetAm, syncId',
+      antworten: '++id, [profileId+stufeId], sessionId, erstelltAm, richtig, syncId',
     });
   }
 }

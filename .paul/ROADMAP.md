@@ -67,5 +67,15 @@ Phases: 4 of 4 complete (20-23)
 | 22 | Geometrie/Sach-Erweiterungen | ✓ | DatenmengenLeiter, ansichten→IsometricGrid, 2026-04-06 |
 | 23 | Mathe-Lexikon | ✓ | In Phase 20 mit gebaut, 2026-04-06 |
 
+### v0.5 Adaptives Lernen
+Status: In progress
+Phases: 0 of 1 complete
+
+## v0.5 Phases
+
+| Phase | Name | Status | Notes |
+|-------|------|--------|-------|
+| 24 | Adaptives Lernsystem | ✓ | Kompetenz + Rostfaktor + Eltern-Modus, 2026-04-07 |
+
 ---
-*Roadmap updated: 2026-04-06*
+*Roadmap updated: 2026-04-07*

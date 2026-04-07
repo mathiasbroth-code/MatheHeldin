@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
 import { useSchwierigkeitStore } from '@/stores/schwierigkeitStore';
+import { useLernmodusStore, type Lernmodus } from '@/stores/lernmodusStore';
 import { AppShell } from '@/components/layout/AppShell';
 import { Header } from '@/components/layout/Header';
 import { Card } from '@/components/ui/Card';
@@ -13,6 +14,7 @@ import type { Profile } from '@/db/schema';
 import { STAGES } from '@/stages/registry';
 import { StageIcon } from '@/components/ui/StageIcon';
 import { AvatarPreview, parseAvatar } from '@/components/avatar/AvatarPreview';
+import { AufgabenPruefer } from './AufgabenPruefer';
 
 export function ElternGate() {
   const elternPin = useProfileStore((s) => s.elternPin);
@@ -309,8 +311,47 @@ function SchwierigkeitSteuerung({
   );
 }
 
+type ElternTab = 'dashboard' | 'pruefer';
+
+const LERNMODUS_OPTIONEN: { id: Lernmodus; label: string; desc: string }[] = [
+  { id: 'frei', label: 'Frei', desc: 'Alle Themen frei wählbar' },
+  { id: 'sanft', label: 'Sanft gelenkt', desc: 'Empfehlungen + angepasste Schwierigkeit' },
+  { id: 'gezielt', label: 'Gezielt', desc: 'Schwache Themen werden betont' },
+];
+
+function LernmodusRegler({ profileId }: { profileId: number }) {
+  const getLernmodus = useLernmodusStore((s) => s.getLernmodus);
+  const setLernmodus = useLernmodusStore((s) => s.setLernmodus);
+  const aktiv = getLernmodus(profileId);
+
+  return (
+    <div className="mt-3 pt-3 border-t border-border">
+      <p className="text-xs font-bold text-heading mb-2">Lernmodus</p>
+      <div className="flex gap-1.5">
+        {LERNMODUS_OPTIONEN.map((opt) => (
+          <button
+            key={opt.id}
+            onClick={() => setLernmodus(profileId, opt.id)}
+            className={`flex-1 py-2 px-2 rounded-lg text-center transition-colors cursor-pointer border ${
+              aktiv === opt.id
+                ? 'bg-primary text-white border-primary font-semibold'
+                : 'bg-card text-muted border-border hover:border-primary/40'
+            }`}
+          >
+            <span className="text-xs font-semibold block">{opt.label}</span>
+            <span className={`text-[9px] block mt-0.5 ${aktiv === opt.id ? 'text-white/80' : 'text-muted'}`}>
+              {opt.desc}
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function ElternDashboard() {
   const clearElternPin = useProfileStore((s) => s.clearElternPin);
+  const [tab, setTab] = useState<ElternTab>('dashboard');
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [overviews, setOverviews] = useState<Map<number, ProfileOverview>>(new Map());
   const [expanded, setExpanded] = useState<number | null>(null);
@@ -353,7 +394,31 @@ function ElternDashboard() {
     <AppShell showTabBar>
       <Header title="Eltern-Dashboard" />
       <main className="px-4 pb-8 space-y-4">
-        {profiles.length === 0 ? (
+        {/* Tab-Leiste */}
+        <div className="flex gap-1 bg-surface rounded-xl p-1">
+          {([
+            { id: 'dashboard' as ElternTab, label: 'Fortschritt' },
+            { id: 'pruefer' as ElternTab, label: 'Aufgaben prüfen' },
+          ]).map((t) => (
+            <button
+              key={t.id}
+              onClick={() => setTab(t.id)}
+              className={`flex-1 py-2 px-3 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
+                tab === t.id
+                  ? 'bg-white text-heading shadow-sm'
+                  : 'text-muted hover:text-heading'
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Aufgaben-Prüfer Tab */}
+        {tab === 'pruefer' && <AufgabenPruefer />}
+
+        {/* Dashboard Tab */}
+        {tab === 'dashboard' && (profiles.length === 0 ? (
           <Card className="text-center">
             <p className="text-muted">Noch keine Profile angelegt.</p>
           </Card>
@@ -388,6 +453,11 @@ function ElternDashboard() {
                     {isExpanded ? '▲' : '▼'}
                   </span>
                 </button>
+
+                {/* Lernmodus-Regler */}
+                {isExpanded && profile.id != null && (
+                  <LernmodusRegler profileId={profile.id} />
+                )}
 
                 {/* Expanded detail */}
                 {isExpanded && bd && (
@@ -449,9 +519,9 @@ function ElternDashboard() {
               </Card>
             );
           })
-        )}
+        ))}
 
-        {/* PIN Reset */}
+        {/* PIN Reset — immer sichtbar */}
         <div className="text-center pt-4">
           <button
             onClick={handleResetPin}

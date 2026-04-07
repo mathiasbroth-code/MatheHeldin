@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.local
 
 # Large reference files (not for git)
 _reference/Fredo4_Schulbuch.pdf

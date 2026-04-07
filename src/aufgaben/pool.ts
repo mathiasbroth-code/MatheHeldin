@@ -7,8 +7,16 @@ import { randInt } from '@/lib/helpers';
 class AufgabenPool {
   private aufgaben: BankAufgabe[] = [];
 
-  /** Fügt Aufgaben zum Pool hinzu. */
+  /** Zähler pro stageId für stabile ID-Vergabe. */
+  private idCounters = new Map<string, number>();
+
+  /** Fügt Aufgaben zum Pool hinzu und vergibt stabile _poolId. */
   load(aufgaben: BankAufgabe[]): void {
+    for (const a of aufgaben) {
+      const count = (this.idCounters.get(a.stageId) ?? 0) + 1;
+      this.idCounters.set(a.stageId, count);
+      a._poolId = `${a.stageId}#${count}`;
+    }
     this.aufgaben.push(...aufgaben);
   }
 
@@ -50,6 +58,7 @@ class AufgabenPool {
       if (filter.typ && a.typ !== filter.typ) return false;
       if (filter.kapitel && a.kapitel !== filter.kapitel) return false;
       if (filter.digital && a.digital !== filter.digital) return false;
+      if (filter.excludeIds && filter.excludeIds.includes(a._poolId)) return false;
       return true;
     });
   }

@@ -58,13 +58,9 @@ function Box({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ── 2) Skizze A: Teilstrecken + vertikaler Gesamtpfeil ──
-// Links:  Tim —2,8km— Lena
-//         Lena —?—— Olli
-//         Olli —5,2km— See
-// Rechts: Tim ↓ 10,6km ↓ See (vertikal)
+// ── 2a) Teilstrecken (Tim—Lena, Lena—Olli, Olli—See) ────
 
-function SkizzeA() {
+function Teilstrecken() {
   const zeilen = [
     { von: 'Tim', distanz: '2,8 km', zu: 'Lena' },
     { von: 'Lena', distanz: '?', zu: 'Olli' },
@@ -72,37 +68,42 @@ function SkizzeA() {
   ];
 
   return (
-    <div className="flex gap-5">
-      {/* Links: Teilstrecken */}
-      <div className="space-y-3">
-        {zeilen.map((z, i) => (
-          <div key={i} className="flex items-center gap-1">
-            <Box>{z.von}</Box>
-            <div className="flex flex-col items-center min-w-[40px]">
-              <span className="text-[9px] tabular-nums text-gray-500 leading-none mb-0.5">{z.distanz}</span>
-              <div className="w-full border-t border-gray-600" />
-            </div>
-            <Box>{z.zu}</Box>
+    <div className="space-y-3">
+      {zeilen.map((z, i) => (
+        <div key={i} className="flex items-center gap-1">
+          <Box>{z.von}</Box>
+          <div className="flex flex-col items-center min-w-[40px]">
+            <span className="text-[9px] tabular-nums text-gray-500 leading-none mb-0.5">{z.distanz}</span>
+            <div className="w-full border-t border-gray-600" />
           </div>
-        ))}
-      </div>
-
-      {/* Rechts: Vertikaler Gesamtpfeil Tim → See */}
-      <div className="flex flex-col items-center gap-0">
-        <Box>Tim</Box>
-        <div className="relative" style={{ width: 60, height: 70 }}>
-          {/* Vertikale Linie */}
-          <div style={{ position: 'absolute', left: 10, top: 0, width: 2, height: 62, backgroundColor: '#1e293b' }} />
-          {/* Pfeilspitze */}
-          <div style={{ position: 'absolute', left: 4, top: 62, width: 0, height: 0, borderLeft: '7px solid transparent', borderRight: '7px solid transparent', borderTop: '8px solid #1e293b' }} />
-          {/* Label */}
-          <span className="absolute text-[9px] tabular-nums text-gray-500 whitespace-nowrap" style={{ left: 20, top: 24 }}>
-            10,6 km
-          </span>
+          <Box>{z.zu}</Box>
         </div>
-        <Box>See</Box>
-      </div>
+      ))}
     </div>
+  );
+}
+
+// ── 2b) Vertikaler Gesamtpfeil Tim → See ────────────────
+
+function GesamtPfeil() {
+  return (
+    <svg width="80" height="100" viewBox="0 0 80 100">
+      {/* Tim-Box */}
+      <rect x="14" y="2" width="42" height="22" rx="4" fill="white" stroke="#334155" strokeWidth="2" />
+      <text x="35" y="17" textAnchor="middle" fontSize="11" fontWeight="bold" fill="#1e293b">Tim</text>
+
+      {/* Pfeil-Linie */}
+      <line x1="35" y1="24" x2="35" y2="72" stroke="#1e293b" strokeWidth="2" />
+      {/* Pfeilspitze */}
+      <polygon points="30,72 35,80 40,72" fill="#1e293b" />
+
+      {/* Label */}
+      <text x="48" y="54" fontSize="9" fill="#64748b">10,6 km</text>
+
+      {/* See-Box */}
+      <rect x="14" y="80" width="42" height="22" rx="4" fill="white" stroke="#334155" strokeWidth="2" />
+      <text x="35" y="95" textAnchor="middle" fontSize="11" fontWeight="bold" fill="#1e293b">See</text>
+    </svg>
   );
 }
 
@@ -164,11 +165,17 @@ export function SkizzeMerkkasten() {
         <StreckenSkizze />
       </div>
 
-      {/* Zwei Skizzen-Varianten nebeneinander */}
-      <div className="grid grid-cols-2 gap-3">
+      {/* Drei Skizzen-Varianten */}
+      <div className="grid grid-cols-3 gap-2">
+        {/* Teilstrecken */}
         <div className="border border-gray-300 rounded-lg p-3 bg-white">
-          <SkizzeA />
+          <Teilstrecken />
         </div>
+        {/* Vertikaler Gesamtpfeil */}
+        <div className="border border-gray-300 rounded-lg p-2 bg-white flex items-center justify-center">
+          <GesamtPfeil />
+        </div>
+        {/* Alle Strecken horizontal */}
         <div className="border border-gray-300 rounded-lg p-3 bg-white">
           <SkizzeB />
         </div>

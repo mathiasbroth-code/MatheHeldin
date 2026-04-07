@@ -39,7 +39,6 @@ function ZuordnungInteraktiv({
   const [selected, setSelected] = useState<string | null>(null);
   const [status, setStatus] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const [completed, setCompleted] = useState<{ item: string; choice: string; correct: boolean }[]>([]);
-  const [usedChoices, setUsedChoices] = useState<Set<string>>(new Set());
 
   const current = daten.items[currentIdx];
   const isLast = currentIdx >= daten.items.length - 1;
@@ -49,7 +48,6 @@ function ZuordnungInteraktiv({
     setSelected(null);
     setStatus('idle');
     setCompleted([]);
-    setUsedChoices(new Set());
   }, [aufgabe.titel]);
 
   function check() {
@@ -61,8 +59,6 @@ function ZuordnungInteraktiv({
       ...prev,
       { item: `${current.label} ${current.text}`, choice: selected, correct: isCorrect },
     ]);
-    setUsedChoices((prev) => new Set([...prev, selected]));
-
     if (isCorrect) {
       setStatus('richtig');
       if (isLast) onRichtig();
@@ -80,7 +76,7 @@ function ZuordnungInteraktiv({
     }
   }
 
-  const availableChoices = daten.choices.filter((c) => !usedChoices.has(c.label));
+  const availableChoices = daten.choices;
 
   return (
     <div className="space-y-3">

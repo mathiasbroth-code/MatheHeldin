@@ -16,6 +16,8 @@ import { MillionenWuerfel } from '@/components/dienes/MillionenWuerfel';
 import { MultiplikationZerlegung } from '@/components/ui/MultiplikationZerlegung';
 import { SkizzeMerkkasten } from '@/components/ui/SkizzeMerkkasten';
 import { filterTippForLabel } from './parserHelpers';
+import { useDeaktivierteAufgaben } from '@/stores/deaktivierteAufgabenStore';
+import { useAdaptiv } from '@/hooks/useAdaptiv';
 
 /** Aufgabe aus der Bank — wraps a BankAufgabe for the Stage system. */
 export interface BankStageAufgabe extends Aufgabe {
@@ -64,9 +66,11 @@ function BankStageView({
   onAntwort,
   onNaechste,
 }: StageProps<BankStageAufgabe>) {
-  const [schwierigkeit, setSchwierigkeit] = useState<Schwierigkeit | null>(null);
+  const { schwierigkeitDefault } = useAdaptiv();
+  const [schwierigkeit, setSchwierigkeit] = useState<Schwierigkeit | null>(() => schwierigkeitDefault(aufgabe.bankAufgabe.stageId));
   const startTime = useRef(Date.now());
   const [currentAufgabe, setCurrentAufgabe] = useState(aufgabe.bankAufgabe);
+  const deaktiviert = useDeaktivierteAufgaben((s) => s.deaktiviert);
   const [erklaerungOpen, setErklaerungOpen] = useState(false);
   const [tippStufe, setTippStufe] = useState(0);
   const [zeichenfeldOpen, setZeichenfeldOpen] = useState(false);
@@ -94,12 +98,13 @@ function BankStageView({
     return currentAufgabe.tipps.map((t) => filterTippForLabel(t, currentLabel));
   }, [currentAufgabe.tipps, currentLabel]);
 
-  // Counts for filter badges
+  // Counts for filter badges (ohne deaktivierte)
   const stageId = aufgabe.bankAufgabe.stageId;
+  const excludeIds = deaktiviert;
   const counts = {
-    gelb: aufgabenPool.getCount({ stageId, schwierigkeit: 'gelb' }),
-    grün: aufgabenPool.getCount({ stageId, schwierigkeit: 'grün' }),
-    orange: aufgabenPool.getCount({ stageId, schwierigkeit: 'orange' }),
+    gelb: aufgabenPool.getCount({ stageId, schwierigkeit: 'gelb', excludeIds }),
+    grün: aufgabenPool.getCount({ stageId, schwierigkeit: 'grün', excludeIds }),
+    orange: aufgabenPool.getCount({ stageId, schwierigkeit: 'orange', excludeIds }),
   };
 
   useEffect(() => {
@@ -109,7 +114,7 @@ function BankStageView({
   // Bei Filter-Wechsel sofort passende Aufgabe laden
   function handleFilterChange(s: Schwierigkeit | null) {
     setSchwierigkeit(s);
-    const filter = { stageId, ...(s ? { schwierigkeit: s } : {}) };
+    const filter = { stageId, excludeIds, ...(s ? { schwierigkeit: s } : {}) };
     const next = aufgabenPool.getRandom(filter);
     if (next) {
       setCurrentAufgabe(next);
@@ -127,8 +132,8 @@ function BankStageView({
   }
 
   function handleNaechste() {
-    // Get next aufgabe from pool with current filter
-    const filter = { stageId, ...(schwierigkeit ? { schwierigkeit } : {}) };
+    // Get next aufgabe from pool with current filter (ohne deaktivierte)
+    const filter = { stageId, excludeIds, ...(schwierigkeit ? { schwierigkeit } : {}) };
     const next = aufgabenPool.getRandom(filter);
     if (next && next.titel !== currentAufgabe.titel) {
       setCurrentAufgabe(next);

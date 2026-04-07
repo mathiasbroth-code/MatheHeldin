@@ -2,6 +2,7 @@ import { useCallback } from 'react';
 import { recordAntwort } from '@/db/repository';
 import { useProfileStore } from '@/stores/profileStore';
 import { useSessionStore } from '@/stores/sessionStore';
+import { pushAfterWrite } from '@/sync/syncEngine';
 import type { Aufgabe } from '@/stages/types';
 
 /**
@@ -35,7 +36,11 @@ export function useAntwortRecorder(stufeId: string) {
         tippBenutzt,
         tippStufe,
         erstelltAm: Date.now(),
+        updatedAt: Date.now(),
       });
+
+      // Im Hintergrund zum Server pushen (fire-and-forget)
+      pushAfterWrite().catch(() => {});
     },
     [profileId, sessionId, stufeId],
   );

@@ -1285,7 +1285,7 @@
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wuerfelspiele",
     "digital": "voll",
-    "aufgabenstellung": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.\n\na) Was ist die kleinste mögliche Augensumme?\nb) Was ist die größte mögliche Augensumme?\nc) Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen a und b.)",
+    "aufgabenstellung": "Jetzt würfelst du mit **drei** Würfeln und addierst alle Augenzahlen.\n\na) Was ist die kleinste mögliche Augensumme?\nb) Was ist die größte mögliche Augensumme?\nc) Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen 3 und 18.)",
     "loesung": "a) 3\nb) 18\nc) 10 (oder 11 — beide haben jeweils 27 Kombinationen und sind gleich häufig)",
     "loesungsweg": "- a) Minimum: Jeder Würfel zeigt 1 → 1 + 1 + 1 = 3\n- b) Maximum: Jeder Würfel zeigt 6 → 6 + 6 + 6 = 18\n- c) Die möglichen Summen reichen von 3 bis 18. Die Mitte liegt bei (3 + 18) / 2 = 10,5. Die Summen 10 und 11 haben tatsächlich beide die meisten Kombinationen (je 27 von 216 möglichen).",
     "tipps": [
@@ -1312,7 +1312,7 @@
         },
         {
           "label": "c",
-          "frage": "Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen a und b.)",
+          "frage": "Welche Augensumme kommt am häufigsten vor? (Tipp: Sie liegt genau in der Mitte zwischen 3 und 18.)",
           "antwort": "10 (oder 11 — beide haben jeweils 27 Kombinationen und sind gleich häufig)"
         }
       ]

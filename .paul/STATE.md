@@ -9,13 +9,11 @@ See: .paul/PROJECT.md (updated 2026-04-06)
 
 ## Current Position
 
-Milestone: v0.3 Vertiefung & Interaktivität
-Milestone: v0.4 Spezial & Forscherkiste
-Milestone: v0.4 Spezial & Forscherkiste — COMPLETE
-Phase: 23 (Mathe-Lexikon) — Complete
-Plan: All plans complete
-Status: Milestone v0.4 complete — all 4 milestones done
-Last activity: 2026-04-06 — Milestone v0.4 transition
+Milestone: v0.5 Adaptives Lernen — In progress
+Phase: 24 (Adaptives Lernsystem) — Planning
+Plan: 24-01 created, awaiting approval
+Status: Phase 24 complete — loop closed
+Last activity: 2026-04-07 — UNIFY complete, SUMMARY created
 
 Progress:
 - Milestone v0.1: [██████████] 100% ✓
@@ -27,7 +25,7 @@ Progress:
 
 ```
 PLAN ──▶ APPLY ──▶ UNIFY
-  ✓        ✓        ✓     [Milestone v0.4 complete]
+  ✓        ✓        ✓     [Loop complete — Phase 24 done]
 ```
 
 ## Accumulated Context

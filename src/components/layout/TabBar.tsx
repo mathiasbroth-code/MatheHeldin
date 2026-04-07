@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { useSyncStore } from '@/stores/syncStore';
 
 interface Tab {
   path: string;
@@ -41,7 +42,30 @@ const tabs: Tab[] = [
       </svg>
     ),
   },
+  {
+    path: '/sync',
+    label: 'Sync',
+    icon: (_active) => <SyncIcon />,
+  },
 ];
+
+function SyncIcon() {
+  const status = useSyncStore((s) => s.status);
+  const colors: Record<string, string> = {
+    offline: '#9CA3AF',
+    syncing: '#14B8A6',
+    synced: '#14B8A6',
+    error: '#F59E0B',
+  };
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={colors[status] ?? '#9CA3AF'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={status === 'syncing' ? 'animate-spin' : ''}>
+      <path d="M4 14a8 8 0 0 1 14-4" />
+      <path d="M20 10a8 8 0 0 1-14 4" />
+      <polyline points="4 10 4 14 8 14" />
+      <polyline points="20 14 20 10 16 10" />
+    </svg>
+  );
+}
 
 export function TabBar() {
   const location = useLocation();

@@ -8,6 +8,7 @@ import { StufeKarte } from '@/components/ui/StufeKarte';
 import { useStufenFortschritt } from '@/hooks/useStufenFortschritt';
 import { AvatarPreview, parseAvatar } from '@/components/avatar/AvatarPreview';
 import { KATEGORIEN } from '@/aufgaben/stageMapping';
+import { useAdaptiv } from '@/hooks/useAdaptiv';
 import type { Stage, StageFarbe } from '@/stages/types';
 
 const FARBE_HEADER: Record<StageFarbe, string> = {
@@ -56,6 +57,7 @@ export function Uebersicht() {
   const profileId = useProfileStore((s) => s.activeProfileId);
   const profileName = useProfileStore((s) => s.activeProfileName);
   const profileAvatar = useProfileStore((s) => s.activeProfileAvatar);
+  const { empfohleneStages, lernmodus } = useAdaptiv();
   const [stagesReady, setStagesReady] = useState(STAGES.length);
   const [openId, setOpenId] = useState<string | null>('grund');
   const [suche, setSuche] = useState('');
@@ -148,6 +150,28 @@ export function Uebersicht() {
             </button>
           )}
         </div>
+
+        {/* Vorgeschlagen für dich (nur bei sanft/gezielt + Empfehlungen vorhanden + keine Suche) */}
+        {!istSuche && lernmodus !== 'frei' && empfohleneStages.length > 0 && (
+          <div className={`mb-4 rounded-xl p-3 ${lernmodus === 'gezielt' ? 'bg-primary/5 border-2 border-primary/20' : 'bg-card border border-border'}`}>
+            <p className="text-xs font-bold text-primary mb-2">
+              {lernmodus === 'gezielt' ? 'Diese Themen brauchen Übung:' : 'Vorgeschlagen für dich'}
+            </p>
+            <div className="space-y-1.5">
+              {empfohleneStages.map((emp) => {
+                const stage = STAGES.find((s) => s.id === `bank-${emp.stageId}`) || STAGES.find((s) => s.id === emp.stageId);
+                if (!stage) return null;
+                return (
+                  <StufeKarteCompact
+                    key={stage.id}
+                    stage={stage}
+                    onClick={() => navigate(`/stufe/${stage.id}`)}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         <div className="space-y-2">
           {gefilterteGruppen.map((gruppe) => (

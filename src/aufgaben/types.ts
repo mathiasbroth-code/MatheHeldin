@@ -130,6 +130,8 @@ export type ParsedAufgabenDaten =
 
 /** Gemeinsame Basis für alle Aufgaben aus der Aufgabenbank. */
 export interface BankAufgabeBase {
+  /** Stabile Pool-ID, automatisch vergeben beim Laden (Format: stageId#N). */
+  _poolId: string;
   titel: string;
   typ: InteraktionsTyp;
   thema: string;
@@ -212,4 +214,6 @@ export interface AufgabenFilter {
   typ?: InteraktionsTyp;
   kapitel?: string;
   digital?: DigitalGrad;
+  /** _poolIds die ausgeschlossen werden sollen (deaktivierte Aufgaben). */
+  excludeIds?: string[];
 }
