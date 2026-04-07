@@ -61,7 +61,7 @@
     "stageId": "bis2000lesen",
     "digital": "voll",
     "aufgabenstellung": "Zerlege in Tausenderzahlen, Hunderterzahlen, Zehnerzahlen und Einerzahlen.\n\na) 1.482, 1.237, 1.654, 1.819\nb) 1.573, 1.346, 1.908, 1.125",
-    "loesung": "a)\n- 1.482 = 1.000 + 400 + 80 + 2\n- 1.237 = 1.000 + 200 + 30 + 7\n- 1.654 = 1.000 + 600 + 50 + 4\n- 1.819 = 1.000 + 800 + 10 + 9\n\nb)\n- 1.573 = 1.000 + 500 + 70 + 3\n- 1.346 = 1.000 + 300 + 40 + 6\n- 1.908 = 1.000 + 900 + 0 + 8\n- 1.125 = 1.000 + 100 + 20 + 5",
+    "loesung": "a) 1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9\nb) 1.000 + 500 + 70 + 3 / 1.000 + 300 + 40 + 6 / 1.000 + 900 + 0 + 8 / 1.000 + 100 + 20 + 5",
     "loesungsweg": "Jede Ziffer in der Zahl hat einen Wert, der von ihrer Position abhängt:\n- Die Tausenderstelle gibt an, wie viele Tausender in der Zahl stecken\n- Die Hunderterstelle gibt die Hunderter an\n- usw.\n\nBeispiel: 1.482 → Die 1 steht an der Tausenderstelle (= 1.000), die 4 an der Hunderterstelle (= 400), die 8 an der Zehnerstelle (= 80), die 2 an der Einerstelle (= 2).",
     "tipps": [
       "Stell dir die Zahl mit Dienes-Blöcken vor: Wie viele große Tausenderwürfel siehst du? Wie viele Hunderterplatten? Wie viele Zehnerstangen? Wie viele einzelne Einerwürfel?",
@@ -83,12 +83,12 @@
         {
           "label": "a",
           "frage": "1.482, 1.237, 1.654, 1.819",
-          "antwort": "- 1.482 = 1.000 + 400 + 80 + 2"
+          "antwort": "1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9"
         },
         {
           "label": "b",
           "frage": "1.573, 1.346, 1.908, 1.125",
-          "antwort": "- 1.573 = 1.000 + 500 + 70 + 3"
+          "antwort": "1.000 + 500 + 70 + 3 / 1.000 + 300 + 40 + 6 / 1.000 + 900 + 0 + 8 / 1.000 + 100 + 20 + 5"
         }
       ]
     }
@@ -441,7 +441,7 @@
   },
   {
     "titel": "Plättchen wegnehmen — Stellenwerte subtrahieren",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "grün",
     "buchseite": 8,
@@ -465,9 +465,8 @@
     ],
     "didaktischerHinweis": "Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzliche Überlegung: Gibt es in der Spalte überhaupt ein Plättchen? Bei Zahlen mit 0er-Stellen (wie 1.870 mit E=0) müssen Kinder erkennen, dass nicht immer 4 Möglichkeiten existieren.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
-      "kontext": "Justus legt eine Zahl in die Stellenwerttafel. Jette nimmt ein Plättchen weg. Welche Zahlen können entstehen? Notiere alle Möglichkeiten.",
       "items": [
         {
           "label": "a",
@@ -494,7 +493,7 @@
   },
   {
     "titel": "Plättchen rückwärts — Welche Zahl war es vorher?",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "orange",
     "buchseite": 8,
@@ -518,9 +517,8 @@
     ],
     "didaktischerHinweis": "Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — eine wichtige mathematische Kompetenz. Kinder müssen die Operation umkehren und systematisch alle Möglichkeiten durchgehen.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.",
-      "kontext": "Ein Plättchen wurde bereits dazugelegt. Welche Zahlen könnten es vorher gewesen sein? Notiere alle Möglichkeiten.",
       "items": [
         {
           "label": "a",
@@ -547,7 +545,7 @@
   },
   {
     "titel": "Stellenwerttafel — Zahlen verändern",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Zahlen in der Stellenwerttafel",
     "schwierigkeit": "grün",
     "buchseite": 8,
@@ -571,9 +569,8 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der Übertrag bei b) ist wichtig: Wenn ein Stellenwert über 9 hinausgeht, muss umgetauscht werden — das bereitet auf schriftliche Rechenverfahren vor.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.",
-      "kontext": "Schreibe die Zahlen in die Stellenwerttafel und beantworte die Fragen.",
       "items": [
         {
           "label": "a",
@@ -595,7 +592,7 @@
   },
   {
     "titel": "Hunderter addieren und subtrahieren",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen bis 2.000",
     "schwierigkeit": "gelb",
     "buchseite": 9,
@@ -619,9 +616,8 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe zeigt die Parallele zwischen Einer-Rechnen und Hunderter-Rechnen. Die Darstellung \"4 H + 3 H\" neben \"400 + 300\" macht den Zusammenhang explizit sichtbar.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne.",
-      "kontext": "Rechne.",
       "items": [
         {
           "label": "a",
@@ -655,8 +651,8 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Rechne. Vergleiche die Aufgaben miteinander.\n\na) 500 + 400 =           b) 300 + 600 =\n   1.500 + 400 =            1.300 + 600 =\n\nc) 800 - 300 =           d) 700 - 500 =\n   1.800 - 300 =            1.700 - 500 =",
-    "loesung": "a) 900, 1.900\nb) 900, 1.900\nc) 500, 1.500\nd) 200, 1.200",
+    "aufgabenstellung": "Rechne. Vergleiche die Aufgaben miteinander.\n\na) 500 + 400 =\n   1.500 + 400 =\n\nb) 300 + 600 =\n   1.300 + 600 =\n\nc) 800 - 300 =\n   1.800 - 300 =\n\nd) 700 - 500 =\n   1.700 - 500 =",
+    "loesung": "a) 900 / 1.900\nb) 900 / 1.900\nc) 500 / 1.500\nd) 200 / 1.200",
     "loesungsweg": "Die Aufgaben sind verwandt: In der zweiten Zeile kommt jeweils 1.000 dazu. Die Hunderter-Rechnung bleibt gleich!\n- a) 500 + 400 = 900 → 1.500 + 400 = 1.000 + 900 = 1.900\n- b) 300 + 600 = 900 → 1.300 + 600 = 1.000 + 900 = 1.900\n- c) 800 - 300 = 500 → 1.800 - 300 = 1.000 + 500 = 1.500\n- d) 700 - 500 = 200 → 1.700 - 500 = 1.000 + 200 = 1.200",
     "tipps": [
       "Schau dir die beiden Aufgaben in jeder Gruppe an. Was ist bei der zweiten Aufgabe anders? Was bleibt gleich?",
@@ -677,13 +673,43 @@
       "items": [
         {
           "label": "a",
-          "frage": "500 + 400 =           b) 300 + 600 =",
-          "antwort": "900, 1.900"
+          "frage": "500 + 400 =",
+          "antwort": "900"
+        },
+        {
+          "label": "a2",
+          "frage": "1.500 + 400 =",
+          "antwort": "1.900"
+        },
+        {
+          "label": "b",
+          "frage": "300 + 600 =",
+          "antwort": "900"
+        },
+        {
+          "label": "b2",
+          "frage": "1.300 + 600 =",
+          "antwort": "1.900"
         },
         {
           "label": "c",
-          "frage": "800 - 300 =           d) 700 - 500 =",
-          "antwort": "500, 1.500"
+          "frage": "800 - 300 =",
+          "antwort": "500"
+        },
+        {
+          "label": "c2",
+          "frage": "1.800 - 300 =",
+          "antwort": "1.500"
+        },
+        {
+          "label": "d",
+          "frage": "700 - 500 =",
+          "antwort": "200"
+        },
+        {
+          "label": "d2",
+          "frage": "1.700 - 500 =",
+          "antwort": "1.200"
         }
       ]
     }
@@ -697,8 +723,8 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Rechne. Was verändert sich von Aufgabe zu Aufgabe?\n\na) 45 + 33 =        b) 72 + 18 =\n   145 + 33 =          172 + 18 =\n   1.145 + 33 =        1.172 + 18 =",
-    "loesung": "a) 78, 178, 1.178\nb) 90, 190, 1.190",
+    "aufgabenstellung": "Rechne. Was verändert sich von Aufgabe zu Aufgabe?\n\na) 45 + 33 =\n   145 + 33 =\n   1.145 + 33 =\n\nb) 72 + 18 =\n   172 + 18 =\n   1.172 + 18 =",
+    "loesung": "a) 78 / 178 / 1.178\nb) 90 / 190 / 1.190",
     "loesungsweg": "Die Grundaufgabe bleibt gleich, es kommen nur größere Stellenwerte dazu:\n- a) 45 + 33 = 78 (Grundaufgabe). 145 + 33 = 100 + 78 = 178. 1.145 + 33 = 1.100 + 78 = 1.178.\n- b) 72 + 18 = 90 (Grundaufgabe). 172 + 18 = 100 + 90 = 190. 1.172 + 18 = 1.100 + 90 = 1.190.",
     "tipps": [
       "Vergleiche die drei Aufgaben in jeder Spalte. Was wird von Aufgabe zu Aufgabe größer? Was bleibt gleich?",
@@ -719,8 +745,33 @@
       "items": [
         {
           "label": "a",
-          "frage": "45 + 33 =        b) 72 + 18 =",
-          "antwort": "78, 178, 1.178"
+          "frage": "45 + 33 =",
+          "antwort": "78"
+        },
+        {
+          "label": "a2",
+          "frage": "145 + 33 =",
+          "antwort": "178"
+        },
+        {
+          "label": "a3",
+          "frage": "1.145 + 33 =",
+          "antwort": "1.178"
+        },
+        {
+          "label": "b",
+          "frage": "72 + 18 =",
+          "antwort": "90"
+        },
+        {
+          "label": "b2",
+          "frage": "172 + 18 =",
+          "antwort": "190"
+        },
+        {
+          "label": "b3",
+          "frage": "1.172 + 18 =",
+          "antwort": "1.190"
         }
       ]
     }
@@ -734,8 +785,8 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.\n\na) 1.300 + 200 =          b) 1.200 + 500 =\n   1.300 + 250 =             1.250 + 500 =\n   1.300 + 257 =             1.257 + 500 =",
-    "loesung": "a) 1.500, 1.550, 1.557\nb) 1.700, 1.750, 1.757",
+    "aufgabenstellung": "Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.\n\na) 1.300 + 200 =\n   1.300 + 250 =\n   1.300 + 257 =\n\nb) 1.200 + 500 =\n   1.250 + 500 =\n   1.257 + 500 =",
+    "loesung": "a) 1.500 / 1.550 / 1.557\nb) 1.700 / 1.750 / 1.757",
     "loesungsweg": "- a) Zuerst werden nur die Hunderter addiert: 1.300 + 200 = 1.500. Dann kommen 50 dazu: 1.300 + 250 = 1.550. Dann kommen noch 7 dazu: 1.300 + 257 = 1.557.\n- b) Der erste Summand wird schrittweise genauer: 1.200, dann 1.250, dann 1.257. Jeweils + 500.",
     "tipps": [
       "Unterstreiche in jeder Aufgabengruppe, was sich verändert hat. Wie viel wurde in der zweiten und dritten Aufgabe dazugefügt?",
@@ -756,8 +807,33 @@
       "items": [
         {
           "label": "a",
-          "frage": "1.300 + 200 =          b) 1.200 + 500 =",
-          "antwort": "1.500, 1.550, 1.557"
+          "frage": "1.300 + 200 =",
+          "antwort": "1.500"
+        },
+        {
+          "label": "a2",
+          "frage": "1.300 + 250 =",
+          "antwort": "1.550"
+        },
+        {
+          "label": "a3",
+          "frage": "1.300 + 257 =",
+          "antwort": "1.557"
+        },
+        {
+          "label": "b",
+          "frage": "1.200 + 500 =",
+          "antwort": "1.700"
+        },
+        {
+          "label": "b2",
+          "frage": "1.250 + 500 =",
+          "antwort": "1.750"
+        },
+        {
+          "label": "b3",
+          "frage": "1.257 + 500 =",
+          "antwort": "1.757"
         }
       ]
     }
@@ -771,8 +847,8 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.\n\na) 1.600 - 300 =          b) 1.900 - 500 =\n   1.600 - 350 =             1.900 - 560 =\n   1.600 - 358 =             1.900 - 567 =",
-    "loesung": "a) 1.300, 1.250, 1.242\nb) 1.400, 1.340, 1.333",
+    "aufgabenstellung": "Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.\n\na) 1.600 - 300 =\n   1.600 - 350 =\n   1.600 - 358 =\n\nb) 1.900 - 500 =\n   1.900 - 560 =\n   1.900 - 567 =",
+    "loesung": "a) 1.300 / 1.250 / 1.242\nb) 1.400 / 1.340 / 1.333",
     "loesungsweg": "- a) 1.600 - 300 = 1.300. Dann werden 50 mehr abgezogen: 1.300 - 50 = 1.250. Dann werden noch 8 mehr abgezogen: 1.250 - 8 = 1.242.\n- b) 1.900 - 500 = 1.400. Dann 60 mehr: 1.400 - 60 = 1.340. Dann 7 mehr: 1.340 - 7 = 1.333.",
     "tipps": [
       "Vergleiche die drei Aufgaben. Der Subtrahend (die Zahl, die abgezogen wird) wird immer genauer. Was kommt bei der zweiten Aufgabe dazu? Was bei der dritten?",
@@ -793,8 +869,33 @@
       "items": [
         {
           "label": "a",
-          "frage": "1.600 - 300 =          b) 1.900 - 500 =",
-          "antwort": "1.300, 1.250, 1.242"
+          "frage": "1.600 - 300 =",
+          "antwort": "1.300"
+        },
+        {
+          "label": "a2",
+          "frage": "1.600 - 350 =",
+          "antwort": "1.250"
+        },
+        {
+          "label": "a3",
+          "frage": "1.600 - 358 =",
+          "antwort": "1.242"
+        },
+        {
+          "label": "b",
+          "frage": "1.900 - 500 =",
+          "antwort": "1.400"
+        },
+        {
+          "label": "b2",
+          "frage": "1.900 - 560 =",
+          "antwort": "1.340"
+        },
+        {
+          "label": "b3",
+          "frage": "1.900 - 567 =",
+          "antwort": "1.333"
         }
       ]
     }
@@ -1000,7 +1101,7 @@
     "tipps": [
       "Rechne die Addition selbst nach. Beginne bei den Einern. Stimmt dein Ergebnis mit dem gezeigten überein?",
       "Rechne die Aufgabe schriftlich nach. Vergleiche dein Ergebnis Ziffer für Ziffer mit dem angegebenen. Wo sind die Unterschiede?",
-      "Bei b) 457 + 186: Einer: 7 + 6 = 13, schreibe 3, Übertrag 1. Zehner: 5 + 8 + 1 = 14, schreibe 4, Übertrag 1. Hunderter: 4 + 1 + 1 = 6. Dein Ergebnis: 643. Im angegebenen Ergebnis steht 634. Welche Ziffern sind vertauscht?",
+      "Bei b) 457 + 186: Einer: 7 + 6 = 13, schreibe 3, Übertrag 1. Zehner: 5 + 8 + 1 = 14, schreibe 4, Übertrag 1. Was ergibt dann die Hunderterstelle (4 + 1 + Übertrag)? Und welche zwei Ziffern im angegebenen Ergebnis 634 sind vertauscht?",
       "Zuerst nachrechnen, ob das Ergebnis stimmt. Wenn nicht, die richtige Summe berechnen und schauen, welche zwei Ziffern vertauscht wurden."
     ],
     "tippBilder": [
