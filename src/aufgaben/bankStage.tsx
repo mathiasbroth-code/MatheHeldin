@@ -69,7 +69,13 @@ function BankStageView({
   const { schwierigkeitDefault } = useAdaptiv();
   const [schwierigkeit, setSchwierigkeit] = useState<Schwierigkeit | null>(() => schwierigkeitDefault(aufgabe.bankAufgabe.stageId));
   const startTime = useRef(Date.now());
-  const [currentAufgabe, setCurrentAufgabe] = useState(aufgabe.bankAufgabe);
+  // Aufgabe stabilisieren: bei HMR-Reloads bleibt die gleiche Aufgabe
+  const stableAufgabe = useRef(aufgabe.bankAufgabe);
+  const [currentAufgabe, setCurrentAufgabeRaw] = useState(stableAufgabe.current);
+  const setCurrentAufgabe = useCallback((a: BankAufgabe) => {
+    stableAufgabe.current = a;
+    setCurrentAufgabeRaw(a);
+  }, []);
   const deaktiviert = useDeaktivierteAufgaben((s) => s.deaktiviert);
   const [erklaerungOpen, setErklaerungOpen] = useState(false);
   const [tippStufe, setTippStufe] = useState(0);

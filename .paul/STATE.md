@@ -12,8 +12,8 @@ See: .paul/PROJECT.md (updated 2026-04-06)
 Milestone: v0.5 Adaptives Lernen — In progress
 Phase: 24 (Adaptives Lernsystem) — Planning
 Plan: 24-01 created, awaiting approval
-Status: Phase 24 complete — loop closed
-Last activity: 2026-04-07 — UNIFY complete, SUMMARY created
+Status: Phase 25 complete — loop closed
+Last activity: 2026-04-07 — Division interaktiv implementiert
 
 Progress:
 - Milestone v0.1: [██████████] 100% ✓
@@ -25,7 +25,7 @@ Progress:
 
 ```
 PLAN ──▶ APPLY ──▶ UNIFY
-  ✓        ✓        ✓     [Loop complete — Phase 24 done]
+  ✓        ✓        ✓     [Loop complete — Phase 25 done]
 ```
 
 ## Accumulated Context

@@ -722,7 +722,7 @@
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich. Es bleibt ein Rest.\n\na) 765 : 7\nb) 653 : 5\nc) 545 : 2",
     "loesung": "a) 700 : 7 = 100\n63 : 7 = 9\n100 + 9 = 109 R 2\nb) 500 : 5 = 100\n150 : 5 = 30\n100 + 30 = 130 R 3\nc) 400 : 2 = 200\n140 : 2 = 70\n4 : 2 = 2\n200 + 70 + 2 = 272 R 1",
-    "loesungsweg": "- a) 765 : 7 → 700 : 7 = 100, 63 : 7 = 9, Rest: 765 − 700 − 63 = 2 → 109 R 2\n- b) 653 : 5 → 500 : 5 = 100, 150 : 5 = 30, Rest: 653 − 500 − 150 = 3 → 130 R 3\n- c) 545 : 2 → 400 : 2 = 200, 140 : 2 = 70, 4 : 2 = 2, Rest: 545 − 400 − 140 − 4 = 1 → 272 R 1",
+    "loesungsweg": "a) 700 : 7 = 100\n63 : 7 = 9\n100 + 9 = 109 R 2\nb) 500 : 5 = 100\n150 : 5 = 30\n100 + 30 = 130 R 3\nc) 400 : 2 = 200\n140 : 2 = 70\n4 : 2 = 2\n200 + 70 + 2 = 272 R 1",
     "tipps": [
       "Rechne wie gewohnt halbschriftlich. Wenn am Ende ein kleiner Rest bleibt, der nicht mehr durch den Divisor teilbar ist, schreibe ihn als \"R\" dahinter. Tipp aus dem Video \"Division mit Rest\": Der Rest ist immer kleiner als der Divisor!",
       "Zerlege die Zahl und teile Stück für Stück. Wenn etwas übrig bleibt, das du nicht mehr teilen kannst, ist das der Rest. Wichtig: Der Rest muss kleiner als der Divisor sein!",

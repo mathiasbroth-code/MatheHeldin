@@ -1359,7 +1359,7 @@
   },
   {
     "titel": "Halbschriftlich — Lücke im Zerlegungsweg",
-    "typ": "luecke",
+    "typ": "schritt",
     "thema": "Halbschriftliches Dividieren",
     "schwierigkeit": "gelb",
     "buchseite": 80,
@@ -1383,18 +1383,48 @@
     ],
     "didaktischerHinweis": "Lückenformat fördert das Verständnis der Zerlegungsmethode. Das Kind sieht die Struktur und ergänzt, statt selbst zu zerlegen.",
     "parsed": {
-      "typ": "luecke",
+      "typ": "schritt",
       "anweisung": "Ergänze die fehlenden Zahlen im Zerlegungsweg.",
-      "items": [
+      "teilaufgaben": [
         {
           "label": "a",
-          "frage": "96 : 8",
-          "antwort": "12"
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "96 : 8 — Erster Schritt: 80 : 8 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "Rest: 96 − 80 = 16. Nächster Schritt: ___ : 8 = 2. Welche Zahl fehlt?",
+              "antwort": "16"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 2 = ? (Endergebnis)",
+              "antwort": "12"
+            }
+          ]
         },
         {
           "label": "b",
-          "frage": "78 : 6",
-          "antwort": "13"
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "78 : 6 — Erster Schritt: 60 : 6 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "Rest: 78 − 60 = 18. Nächster Schritt: ___ : 6 = 3. Welche Zahl fehlt?",
+              "antwort": "18"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 3 = ? (Endergebnis)",
+              "antwort": "13"
+            }
+          ]
         }
       ]
     }
@@ -1526,9 +1556,9 @@
     "loesung": "a) 8\nb) 7\nc) 9",
     "loesungsweg": "Nutze die Umkehrung (Multiplikation):\n- a) 9 · ___ = 72 → 9 · 8 = 72 → Divisor = 8\n- b) 13 · ___ = 91 → 13 · 7 = 91 → Divisor = 7\n- c) 12 · ___ = 108 → 12 · 9 = 108 → Divisor = 9",
     "tipps": [
-      "Drehe die Division um: 72 : ___ = 9 bedeutet 9 · ___ = 72. Welche Zahl passt?",
-      "Teile den Dividenden durch den Quotienten: 72 : 9 = 8. Das ist der gesuchte Divisor!",
-      "Bei c): 12 · ? = 108. Probiere: 12 · 8 = 96 (zu klein), 12 · 9 = ___. Ist das 108?",
+      "Drehe die Division um: Wenn A : ___ = B, dann ist B · ___ = A. Welche Zahl passt?",
+      "Teile den Dividenden durch das Ergebnis — das gibt den gesuchten Divisor!",
+      "a) 9·8=72 b) 13·7=91 c) 12·?=108. Probiere: 12·8=96 (zu klein), 12·9=___.",
       "Nutze die Umkehrung (Multiplikation):\n- a) 9 · ___ = 72 → 9 · 8 = 72 → Divisor = 8\n- b) 13 · ___ = 91 → 13 · 7 = 91 → Divisor = 7\n- c) 12 · ___ = 108 → 12 · 9 = 108 → Divisor = 9"
     ],
     "tippBilder": [

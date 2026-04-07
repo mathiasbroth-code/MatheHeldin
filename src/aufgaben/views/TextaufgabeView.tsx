@@ -168,6 +168,50 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
     );
   }
 
+  // ── Mündliche Aufgabe (kein Eingabefeld) ─────────────────
+
+  const isMuendlich = current.antwort === '_mündlich';
+
+  if (isMuendlich) {
+    return (
+      <div className="space-y-3">
+        {daten.kontext && (
+          <Card className="bg-primary-light/50 border-primary/10">
+            <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1">Sachaufgabe</p>
+            <MarkdownText text={daten.kontext} />
+          </Card>
+        )}
+        {current.frage && (
+          <Card className="bg-amber-50/50 border-amber-200/50">
+            <p className="text-lg text-center mb-2">💬</p>
+            <MarkdownText text={current.frage} className="text-sm font-semibold text-heading leading-relaxed" />
+            <p className="text-xs text-muted mt-2 italic">
+              Das ist eine Denkaufgabe! Erkläre es laut deinen Eltern.
+            </p>
+          </Card>
+        )}
+        <FeedbackBanner
+          typ={status === 'idle' ? null : 'richtig'}
+          hinweis={aufgabe.tipps[0]}
+        >
+          {status === 'richtig' && <span className="text-xs">Super, weiter so!</span>}
+        </FeedbackBanner>
+        {status !== 'richtig' ? (
+          <Button className="w-full" onClick={() => { setStatus('richtig'); if (isLast) onRichtig(); }}>
+            Verstanden ✓
+          </Button>
+        ) : !isLast ? (
+          <Button className="w-full" onClick={next}>Weiter →</Button>
+        ) : null}
+        {daten.items.length > 1 && (
+          <p className="text-xs text-muted text-center">
+            Frage {currentIdx + 1} von {daten.items.length}
+          </p>
+        )}
+      </div>
+    );
+  }
+
   // ── Normaler Textaufgabe-Flow ───────────────────────────
 
   const isListAnswer = current.antwort.includes(',') && current.antwort.split(',').length > 2;

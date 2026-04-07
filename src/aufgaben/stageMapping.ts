@@ -16,7 +16,8 @@ export type Kategorie =
   | 'massstab'
   | 'schaubilder'
   | 'forscherkiste'
-  | 'uhrzeiten';
+  | 'uhrzeiten'
+  | 'buch-original';
 
 export interface KategorieMeta {
   id: Kategorie;
@@ -41,6 +42,7 @@ export const KATEGORIEN: KategorieMeta[] = [
   { id: 'schaubilder', titel: 'Schaubilder & Daten', farbe: 'purple', sortierung: 13 },
   { id: 'forscherkiste', titel: 'Forscherkiste', farbe: 'rose', sortierung: 14 },
   { id: 'uhrzeiten', titel: 'Uhrzeiten & Zeitspannen', farbe: 'sky', sortierung: 15 },
+  { id: 'buch-original', titel: 'Original aus dem Buch', farbe: 'rose', sortierung: 16 },
 ];
 
 export interface StageMappingEntry {
@@ -166,6 +168,10 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'uhrzeiten-sprechweise', titel: 'So sagt man die Uhrzeit', kategorie: 'uhrzeiten', sortierung: 2, icon: '🗣️' },
   { stageId: 'uhrzeiten-stellen', titel: 'Zeig mir die Uhrzeit!', kategorie: 'uhrzeiten', sortierung: 3, icon: '🎯' },
   { stageId: 'zeitspannen', titel: 'Wie lange dauert es?', kategorie: 'uhrzeiten', sortierung: 4, icon: '⏱️' },
+
+  // ── Original aus dem Buch ──
+  { stageId: 'vielfache-original', titel: 'Vielfache von Zahlen (S.78)', kategorie: 'buch-original', sortierung: 1, icon: '📖' },
+  { stageId: 'teiler-original', titel: 'Teiler von Zahlen (S.79)', kategorie: 'buch-original', sortierung: 2, icon: '📖' },
 ];
 
 /** Lookup: stageId → Mapping-Eintrag. */

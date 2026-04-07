@@ -76,6 +76,7 @@ Phases: 0 of 1 complete
 | Phase | Name | Status | Notes |
 |-------|------|--------|-------|
 | 24 | Adaptives Lernsystem | ✓ | Kompetenz + Rostfaktor + Eltern-Modus, 2026-04-07 |
+| 25 | Division interaktiv | ✓ | Kästchenpapier + Zerlegung + Probe, 2026-04-07 |
 
 ---
 *Roadmap updated: 2026-04-07*

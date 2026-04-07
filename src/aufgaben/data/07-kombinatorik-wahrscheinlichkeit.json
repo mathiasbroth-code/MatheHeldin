@@ -30,7 +30,7 @@
         },
         {
           "label": "b",
-          "frage": "Zähle alle Möglichkeiten auf.",
+          "frage": "Wie viele Möglichkeiten gibt es insgesamt?",
           "antwort": "6"
         }
       ]

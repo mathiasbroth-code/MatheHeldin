@@ -17,6 +17,8 @@ import { KreiseDiagramm, parseKreiseDaten } from './KreiseDiagramm';
 import { StellenwertTafel, parseStellenwertDaten } from './StellenwertTafel';
 import { ZahlenstrahlDiagramm, parseZahlenstrahlDaten } from './ZahlenstrahlDiagramm';
 import { SchriftlicheRechnung, parseSchriftlicheRechnung } from './SchriftlicheRechnung';
+import { SchriftlicheDivision } from './SchriftlicheDivision';
+import { HalbschriftlicheDivision } from './HalbschriftlicheDivision';
 import { BruchVisualisierung, parseBruchDaten } from './BruchVisualisierung';
 import { IsometricGrid } from '@/components/geometrie/IsometricGrid';
 import { ParkettMuster } from '@/components/geometrie/ParkettMuster';
@@ -29,6 +31,7 @@ import { FibonacciReihe } from '@/components/forscherkiste/FibonacciReihe';
 import { PrimzahlSieb } from '@/components/forscherkiste/PrimzahlSieb';
 import { DatenmengenLeiter } from '@/components/daten/DatenmengenLeiter';
 import { MassstabVergleich, parseMassstab } from '@/components/geometrie/MassstabVergleich';
+import { VielfacheReihe } from '@/components/ui/VielfacheReihe';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
@@ -241,6 +244,54 @@ function findAktiveTeilFrage(aufgabe: BankAufgabe, label: string): string | unde
   return undefined;
 }
 
+// ── Interaktive Division erkennen ────────────────────────
+
+interface DivisionInteraktivDaten {
+  typ: 'schriftlich' | 'halbschriftlich';
+  dividend: number;
+  divisor: number;
+  vielfacheAuswahl?: number[];
+  ersteZahlAuswahl?: number[];
+}
+
+function parseDivisionInteraktiv(stageId: string, text: string): DivisionInteraktivDaten | null {
+  // Nur für Division-Stages
+  const istSchriftlich = stageId.includes('schriftlich-dividieren') && !stageId.includes('halbschriftlich');
+  const istHalbschriftlich = stageId.includes('halbschriftlich-dividieren');
+  if (!istSchriftlich && !istHalbschriftlich) return null;
+
+  // Dividend : Divisor extrahieren
+  const match = text.match(/(\d[\d.]*)\s*:\s*(\d+)/);
+  if (!match) return null;
+
+  const dividend = parseInt(match[1].replace(/\./g, ''), 10);
+  const divisor = parseInt(match[2], 10);
+  if (isNaN(dividend) || isNaN(divisor) || divisor === 0) return null;
+
+  // Vielfache-Auswahl erkennen (z.B. "Vielfache von 8: 80, 160, 240, ...")
+  let vielfacheAuswahl: number[] | undefined;
+  let ersteZahlAuswahl: number[] | undefined;
+
+  const vielfacheMatch = text.match(/Vielfache[^:]*:\s*([\d,\s.]+)/i);
+  if (vielfacheMatch && istHalbschriftlich) {
+    vielfacheAuswahl = vielfacheMatch[1].split(/[,\s]+/).map((s) => parseInt(s.replace(/\./g, ''), 10)).filter((n) => !isNaN(n) && n > 0);
+  }
+
+  // Erste-Zahl-Auswahl für schriftlich (z.B. "40 45 50" über der Aufgabe)
+  const ersteZahlMatch = text.match(/(\d+)\s+(\d+)\s+(\d+)\s*\n/);
+  if (ersteZahlMatch && istSchriftlich && text.toLowerCase().includes('welche zahl')) {
+    ersteZahlAuswahl = [parseInt(ersteZahlMatch[1]), parseInt(ersteZahlMatch[2]), parseInt(ersteZahlMatch[3])];
+  }
+
+  return {
+    typ: istHalbschriftlich ? 'halbschriftlich' : 'schriftlich',
+    dividend,
+    divisor,
+    vielfacheAuswahl,
+    ersteZahlAuswahl,
+  };
+}
+
 /**
  * View-Dispatcher: waehlt die passende View anhand des Aufgabentyps.
  * Kein eigener State fuer Tipps — nur Dispatch + Teilaufgaben-Tracking.
@@ -271,12 +322,37 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
     );
   }
 
+  // Vielfache-Interaktion: [vielfache:5,10] oder [vielfache:4,8:einkreisen]
+  const vielfacheMatch = aufgabe.aufgabenstellung.match(/\[vielfache:([\d,]+)(?::einkreisen)?\]/);
+  const vielfacheDaten = vielfacheMatch ? {
+    zahlen: vielfacheMatch[1].split(',').map(Number),
+    mitEinkreisen: aufgabe.aufgabenstellung.includes(':einkreisen]'),
+  } : null;
+
+  if (vielfacheDaten) {
+    return (
+      <VielfacheReihe
+        zahlen={vielfacheDaten.zahlen}
+        mitEinkreisen={vielfacheDaten.mitEinkreisen}
+        onRichtig={handleRichtig}
+        onFalsch={onFalsch}
+      />
+    );
+  }
+
+  // Interaktive Division (VOR der allgemeinen Kaskade)
+  const aktiveTeilFrageDiv = findAktiveTeilFrage(aufgabe, activeLabel);
+  const divInteraktiv = parseDivisionInteraktiv(
+    aufgabe.stageId,
+    aktiveTeilFrageDiv ?? aufgabe.aufgabenstellung,
+  );
+
   // Kaskadierte Visualisierungs-Erkennung: max. eine pro Aufgabe
-  const routenDaten = parseRoutenDaten(aufgabe.aufgabenstellung);
-  const einheitenDaten = !routenDaten
+  const routenDaten = !divInteraktiv ? parseRoutenDaten(aufgabe.aufgabenstellung) : null;
+  const einheitenDaten = !divInteraktiv && !routenDaten
     ? detectEinheitenKette(aufgabe.stageId, aufgabe.aufgabenstellung)
     : null;
-  const divisionsDaten = !routenDaten && !einheitenDaten
+  const divisionsDaten = !divInteraktiv && !routenDaten && !einheitenDaten
     ? parseDivisionsDaten(aufgabe.stageId, aufgabe.aufgabenstellung)
     : null;
   const werteBalkenDaten = !routenDaten && !einheitenDaten && !divisionsDaten
@@ -311,11 +387,38 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
     ? parseKreiseDaten(aufgabe.aufgabenstellung, aufgabe.loesung)
     : null;
 
+  // Division interaktiv ersetzt die normale View
+  const divInteraktivKomponente = divInteraktiv && (aufgabe.typ === 'schritt' || aufgabe.typ === 'eingabe');
+
   return (
     <>
+      {/* Interaktive Division */}
+      {divInteraktivKomponente && divInteraktiv.typ === 'schriftlich' && (
+        <Card className="py-2 px-3">
+          <SchriftlicheDivision
+            dividend={divInteraktiv.dividend}
+            divisor={divInteraktiv.divisor}
+            ersteZahlAuswahl={divInteraktiv.ersteZahlAuswahl}
+            mitProbe={/probe|kontrolliere/i.test(aufgabe.aufgabenstellung)}
+            onRichtig={onRichtig}
+            onFalsch={onFalsch}
+          />
+        </Card>
+      )}
+      {divInteraktivKomponente && divInteraktiv.typ === 'halbschriftlich' && (
+        <Card className="py-3 px-3">
+          <HalbschriftlicheDivision
+            dividend={divInteraktiv.dividend}
+            divisor={divInteraktiv.divisor}
+            vielfacheAuswahl={divInteraktiv.vielfacheAuswahl}
+            onRichtig={onRichtig}
+            onFalsch={onFalsch}
+          />
+        </Card>
+      )}
       {routenDaten && <RoutenDiagramm {...routenDaten} />}
       {einheitenDaten && <EinheitenLeiter {...einheitenDaten} />}
-      {divisionsDaten && <DivisionsZerlegung {...divisionsDaten} />}
+      {divisionsDaten && !divInteraktivKomponente && <DivisionsZerlegung {...divisionsDaten} />}
       {werteBalkenDaten && <WerteBalken {...werteBalkenDaten} />}
       {stellenwertDaten && <StellenwertTafel {...stellenwertDaten} />}
       {zahlenstrahlDaten && <ZahlenstrahlDiagramm {...zahlenstrahlDaten} />}
@@ -376,7 +479,7 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
         <Card className="py-2 px-3"><DatenmengenLeiter /></Card>
       )}
       {kreiseDaten && <KreiseDiagramm {...kreiseDaten} />}
-      {!schriftlichInteraktiv && (
+      {!schriftlichInteraktiv && !divInteraktivKomponente && (
         <View aufgabe={aufgabe} onRichtig={handleRichtig} onFalsch={onFalsch} onTeilaufgabeChange={handleTeilaufgabeChange} />
       )}
     </>
