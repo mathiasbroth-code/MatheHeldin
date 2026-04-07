@@ -35,6 +35,7 @@ import { MassstabVergleich, parseMassstab } from '@/components/geometrie/Masssta
 import { VielfacheReihe } from '@/components/ui/VielfacheReihe';
 import { KombinationenSammler } from '@/components/ui/KombinationenSammler';
 import { MarkdownText } from './MarkdownText';
+import { BuchstabenChart } from '@/components/daten/BuchstabenChart';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
@@ -295,6 +296,50 @@ function parseDivisionInteraktiv(stageId: string, text: string): DivisionInterak
   };
 }
 
+/** Sturmglocken-Skizze: Zwei Glocken an einer 4km-Strecke, je 3km Reichweite, 2km Überlappung. */
+function SturmglockenSkizze() {
+  const w = 320;
+  const h = 90;
+  const y = 35;
+  const left = 30;
+  const right = 290;
+  const kmPx = (right - left) / 4; // 1 km in px
+
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} className="max-w-full">
+      {/* Strecke */}
+      <line x1={left} y1={y} x2={right} y2={y} stroke="#334155" strokeWidth={2} />
+
+      {/* km-Markierungen */}
+      {[0, 1, 2, 3, 4].map((km) => (
+        <g key={km}>
+          <line x1={left + km * kmPx} y1={y - 4} x2={left + km * kmPx} y2={y + 4} stroke="#334155" strokeWidth={1.5} />
+          <text x={left + km * kmPx} y={y + 16} textAnchor="middle" fontSize={9} fill="#64748b">{km} km</text>
+        </g>
+      ))}
+
+      {/* Glocke Konstanz: 0-3 km (blau) */}
+      <rect x={left} y={y - 14} width={3 * kmPx} height={10} rx={3} fill="#93c5fd" opacity={0.5} stroke="#3b82f6" strokeWidth={1} />
+      <text x={left + 1.5 * kmPx} y={y - 7} textAnchor="middle" fontSize={8} fill="#1d4ed8">Glocke K (3 km)</text>
+
+      {/* Glocke Meersburg: 1-4 km (orange) */}
+      <rect x={left + 1 * kmPx} y={y - 26} width={3 * kmPx} height={10} rx={3} fill="#fed7aa" opacity={0.5} stroke="#f97316" strokeWidth={1} />
+      <text x={left + 2.5 * kmPx} y={y - 19} textAnchor="middle" fontSize={8} fill="#c2410c">Glocke M (3 km)</text>
+
+      {/* Überlappung: 1-3 km (grün) */}
+      <rect x={left + 1 * kmPx} y={y + 22} width={2 * kmPx} height={8} rx={3} fill="#86efac" stroke="#16a34a" strokeWidth={1} />
+      <text x={left + 2 * kmPx} y={y + 40} textAnchor="middle" fontSize={8} fontWeight="bold" fill="#15803d">Beide: 2 km</text>
+
+      {/* Orte */}
+      <text x={left} y={y + 55} textAnchor="middle" fontSize={9} fontWeight="bold" fill="#334155">Konstanz</text>
+      <text x={right} y={y + 55} textAnchor="middle" fontSize={9} fontWeight="bold" fill="#334155">Meersburg</text>
+
+      {/* Gesamtstrecke */}
+      <text x={(left + right) / 2} y={y + 55} textAnchor="middle" fontSize={9} fill="#64748b">4 km</text>
+    </svg>
+  );
+}
+
 /**
  * View-Dispatcher: waehlt die passende View anhand des Aufgabentyps.
  * Kein eigener State fuer Tipps — nur Dispatch + Teilaufgaben-Tracking.
@@ -445,6 +490,18 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
 
   return (
     <>
+      {/* Aufgabenspezifische Skizzen */}
+      {/Sturmwarnglocke/i.test(aufgabe.aufgabenstellung) && (
+        <Card className="py-2 px-3">
+          <SturmglockenSkizze />
+        </Card>
+      )}
+      {/* Buchstabenhäufigkeits-Diagramm für Diagramm-Aufgaben */}
+      {/\[buchstaben-chart\]/.test(aufgabe.aufgabenstellung) && (
+        <Card className="py-2 px-3">
+          <BuchstabenChart />
+        </Card>
+      )}
       {/* Interaktive Maltabelle */}
       {malTabelleInteraktiv && malTabelleDaten && (
         <Card className="py-3 px-2">

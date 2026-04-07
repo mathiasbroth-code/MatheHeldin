@@ -173,6 +173,7 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'vielfache-original', titel: 'Vielfache von Zahlen (S.78)', kategorie: 'buch-original', sortierung: 1, icon: '📖' },
   { stageId: 'teiler-original', titel: 'Teiler von Zahlen (S.79)', kategorie: 'buch-original', sortierung: 2, icon: '📖' },
   { stageId: 'kombinatorik-original', titel: 'Wie viele Möglichkeiten? (S.72–73)', kategorie: 'buch-original', sortierung: 3, icon: '📖' },
+  { stageId: 'buchstaben-zaehlen-original', titel: 'Buchstaben zählen (S.76–77)', kategorie: 'buch-original', sortierung: 4, icon: '📖' },
   { stageId: 'skizze-original', titel: 'Lösungshilfe: Skizze (S.70–71)', kategorie: 'buch-original', sortierung: 4, icon: '📖' },
   { stageId: 'halbschriftlich-div-original', titel: 'Halbschriftlich Dividieren (S.80–81)', kategorie: 'buch-original', sortierung: 4, icon: '📖' },
 ];

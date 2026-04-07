@@ -1,0 +1,262 @@
+[
+  {
+    "titel": "S.76 Nr.1 — Buchstabenvogel: Welche Buchstaben?",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 76,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Ali und Jette spielen das Spiel \u201eBuchstabenvogel\u201c. Welche drei Buchstaben w\u00fcrdest du zuerst nennen, welche drei Buchstaben auf keinen Fall? Begr\u00fcnde.",
+    "loesung": "Zuerst nennen: E, N, I (h\u00e4ufige Buchstaben). Auf keinen Fall: X, Y, Q (seltene Buchstaben).",
+    "loesungsweg": "In deutschen Texten kommen E, N und I am h\u00e4ufigsten vor. X, Y und Q sind sehr selten. Wer h\u00e4ufige Buchstaben nennt, hat eine h\u00f6here Chance zu gewinnen.",
+    "tipps": [
+      "\u00dcberlege: Welche Buchstaben kommen in vielen deutschen W\u00f6rtern vor?",
+      "Denke an h\u00e4ufige W\u00f6rter wie 'ein', 'und', 'der', 'die'. Welche Buchstaben tauchen dort immer wieder auf?",
+      "E ist der h\u00e4ufigste Buchstabe im Deutschen! Danach kommen N und I.",
+      "Zuerst: E, N, I (sehr h\u00e4ufig). Nie: X, Y, Q (sehr selten)."
+    ],
+    "didaktischerHinweis": "Fredo S.76, Aufgabe 1. Einstieg: Intuition \u00fcber Buchstabenh\u00e4ufigkeit aktivieren.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Ali und Jette spielen das Spiel \u201eBuchstabenvogel\u201c.",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Welche drei Buchstaben w\u00fcrdest du zuerst nennen, welche drei auf keinen Fall? Erkl\u00e4re deinen Eltern warum!", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.76 Nr.2 — Buchstabenvogel spielen",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gelb",
+    "buchseite": 76,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Spiele mit einem Partnerkind das Spiel \u201eBuchstabenvogel\u201c. Welche Buchstaben kommen h\u00e4ufig vor, welche weniger oft?",
+    "loesung": "H\u00e4ufig: E, N, I, S, R, T. Selten: X, Y, Q, J.",
+    "loesungsweg": "Beim Spielen merkt man schnell: E kommt fast immer vor. N, I, S, R und T sind ebenfalls sehr h\u00e4ufig. X, Y, Q und J findet man kaum.",
+    "tipps": [
+      "Spiel das Spiel mit Mama oder Papa. Einer denkt sich ein Wort, der andere r\u00e4t Buchstaben.",
+      "Achte darauf: Welche Buchstaben treffen oft, welche fast nie?",
+      "Mach dir nach dem Spielen eine Liste: h\u00e4ufige und seltene Buchstaben.",
+      "H\u00e4ufig: E, N, I, S, R, T. Selten: X, Y, Q, J."
+    ],
+    "didaktischerHinweis": "Fredo S.76, Aufgabe 2. Partnerarbeit \u2014 spielerisches Erkunden der Buchstabenh\u00e4ufigkeit.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Spiele \u201eBuchstabenvogel\u201c mit Mama oder Papa. Welche Buchstaben kommen h\u00e4ufig vor, welche weniger oft?", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.76 Nr.3 — Zeitungsartikel: Buchstaben z\u00e4hlen",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 76,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Untersucht diesen Zeitungsartikel. Z\u00e4hlt, wie oft die Buchstaben E, N, I, R und S im Text vorkommen.",
+    "loesung": "E: 68, N: 39, I: 20, R: 23, S: 20",
+    "loesungsweg": "Den Text sorgf\u00e4ltig durchgehen und jeden Buchstaben einzeln z\u00e4hlen. Am besten jeden Buchstaben separat durchgehen und Striche machen.\nE kommt mit Abstand am h\u00e4ufigsten vor.",
+    "tipps": [
+      "Gehe den Text Wort f\u00fcr Wort durch. Mache f\u00fcr jeden gefundenen Buchstaben einen Strich.",
+      "Tipp: Z\u00e4hle erst alle E im Text, dann alle N, dann alle I, und so weiter.",
+      "Das E kommt besonders oft vor \u2014 in W\u00f6rtern wie 'der', 'seinen', 'Gehege', 'Kletterprofi'.",
+      "E: 68, N: 39, I: 20, R: 23, S: 20"
+    ],
+    "didaktischerHinweis": "Fredo S.76, Aufgabe 3. Datenerhebung: Buchstaben z\u00e4hlen im Text.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Z\u00e4hle, wie oft die Buchstaben E, N, I, R und S im Text vorkommen.",
+      "kontext": "**Norbert ist schon wieder weg**\n\nDer Osnabr\u00fccker Zoo vermisst seinen sechs Jahre alten Nasenb\u00e4ren Norbert. Innerhalb weniger Monate ist er nun bereits zum zweiten Mal aus seinem Gehege ausgeb\u00fcxt, obwohl der Zoo versucht hatte, das Gehege ausbruchsicher zu machen. Nasenb\u00e4ren k\u00f6nnen sehr gut klettern. Norbert ist offensichtlich ein Kletterprofi. Vor einigen Tagen wurde er im benachbarten Wald auf einem Baum gesichtet. Ein Einfangversuch wurde unternommen, schlug aber fehl. Seitdem fehlt von Norbert jede Spur.",
+      "items": [
+        { "label": "a", "frage": "Wie oft kommt E im Text vor?", "antwort": "68" },
+        { "label": "b", "frage": "Wie oft kommt N im Text vor?", "antwort": "39" },
+        { "label": "c", "frage": "Wie oft kommt I im Text vor?", "antwort": "20" },
+        { "label": "d", "frage": "Wie oft kommt R im Text vor?", "antwort": "23" },
+        { "label": "e", "frage": "Wie oft kommt S im Text vor?", "antwort": "20" }
+      ]
+    }
+  },
+  {
+    "titel": "S.76 Nr.4 — S\u00e4ulendiagramm erstellen",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 76,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Stelle die Daten von Aufgabe 3 in einem S\u00e4ulendiagramm dar. W\u00e4hle immer eine K\u00e4stchenh\u00f6he f\u00fcr f\u00fcnf Buchstaben.",
+    "loesung": "S\u00e4ulendiagramm mit E(68), N(39), I(20), R(23), S(20).",
+    "loesungsweg": "Zeichne ein Koordinatensystem. x-Achse: Buchstaben. y-Achse: H\u00e4ufigkeit (je 5). Dann S\u00e4ulen zeichnen.\nE: 68 \u00f7 5 \u2248 14 K\u00e4stchen. N: 39 \u00f7 5 \u2248 8 K\u00e4stchen. I: 20 \u00f7 5 = 4 K\u00e4stchen.",
+    "tipps": [
+      "Ein K\u00e4stchen = 5 Buchstaben. F\u00fcr E (68-mal) brauchst du also 68 \u00f7 5 \u2248 14 K\u00e4stchen.",
+      "Zeichne 5 S\u00e4ulen nebeneinander: E, N, I, R, S. Die E-S\u00e4ule ist die h\u00f6chste.",
+      "Beschrifte die y-Achse: 0, 5, 10, 15, 20, ... bis mindestens 70.",
+      "\ud83d\udcac Zeichne das Diagramm auf Papier und zeige es deinen Eltern!"
+    ],
+    "didaktischerHinweis": "Fredo S.76, Aufgabe 4. Datenvisualisierung: Von Zahlen zum Diagramm.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Du hast in Aufgabe 3 gez\u00e4hlt: E: 68, N: 39, I: 20, R: 23, S: 20.",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Zeichne das S\u00e4ulendiagramm auf Papier (1 K\u00e4stchen = 5 Buchstaben) und zeige es deinen Eltern!", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.76 Nr.5 — Was sagt das Diagramm?",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 76,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Schreibe auf, was du aus dem Diagramm ablesen kannst.",
+    "loesung": "E kommt am h\u00e4ufigsten vor. I und S kommen am seltensten vor.",
+    "loesungsweg": "Aus den Z\u00e4hlergebnissen: E(68) > N(39) > R(23) > I(20) = S(20).\nE ist mit Abstand am h\u00e4ufigsten. I und S teilen sich den letzten Platz.",
+    "tipps": [
+      "Schau auf deine Z\u00e4hlergebnisse: E: 68, N: 39, I: 20, R: 23, S: 20. Welcher ist der gr\u00f6\u00dfte Wert?",
+      "Am h\u00e4ufigsten = gr\u00f6\u00dfte Zahl. Am seltensten = kleinste Zahl.",
+      "E(68) kommt h\u00e4ufiger vor als N(39). R(23) kommt h\u00e4ufiger vor als I(20).",
+      "\ud83d\udcac Vervollst\u00e4ndige: Der Buchstabe ___ kommt am h\u00e4ufigsten vor. Der Buchstabe ___ kommt am seltensten vor."
+    ],
+    "didaktischerHinweis": "Fredo S.76, Aufgabe 5. Diagramme lesen und Aussagen formulieren.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Z\u00e4hlergebnisse: E: 68, N: 39, I: 20, R: 23, S: 20.",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Vervollst\u00e4ndige die S\u00e4tze und lies sie laut vor:\n\u2022 Der Buchstabe ___ kommt am h\u00e4ufigsten vor.\n\u2022 Der Buchstabe ___ kommt am seltensten vor.", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.77 Nr.6 — Buchstabenh\u00e4ufigkeit: Deutsch vs. Englisch",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 77,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Das Diagramm zeigt dir die Buchstabenverteilung in Texten mit 1.000 Buchstaben in der deutschen und in der englischen Sprache.\n\n[buchstaben-chart]\n\nKommen die einzelnen Buchstaben in verschiedenen Sprachen gleich h\u00e4ufig vor? Was kannst du dar\u00fcber aus dem Diagramm ablesen?",
+    "loesung": "Nein, die Buchstaben kommen nicht gleich h\u00e4ufig vor.",
+    "loesungsweg": "Das Diagramm zeigt deutliche Unterschiede:\n- E ist in beiden Sprachen am h\u00e4ufigsten, aber im Deutschen noch h\u00e4ufiger.\n- O kommt im Englischen viel h\u00e4ufiger vor (77 vs. 23).\n- T kommt im Englischen h\u00e4ufiger vor (93 vs. 60).\n- \u00c4, \u00d6, \u00dc, \u00df gibt es nur im Deutschen.",
+    "tipps": [
+      "Vergleiche die blauen (Deutsch) und roten (Englisch) Balken. Sind sie immer gleich hoch?",
+      "Bei manchen Buchstaben ist der deutsche Balken h\u00f6her, bei anderen der englische.",
+      "Z.B. O: Deutsch \u2248 23, Englisch \u2248 77 \u2014 ein gro\u00dfer Unterschied!",
+      "Die Buchstaben kommen NICHT gleich h\u00e4ufig vor. Jede Sprache hat ihre eigene Verteilung."
+    ],
+    "didaktischerHinweis": "Fredo S.77, Aufgabe 6. Einstieg in den Diagrammvergleich.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "[buchstaben-chart]",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Kommen die Buchstaben in verschiedenen Sprachen gleich h\u00e4ufig vor? Was kannst du aus dem Diagramm ablesen? Erkl\u00e4re!", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.77 Nr.7 — Fragen zum Diagramm (a\u2013d)",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 77,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Beantworte die Fragen mithilfe des Diagramms.\n\n[buchstaben-chart]",
+    "loesung": "a) A, F, H, O, T, W, Y\nb) \u00c4, \u00d6, \u00dc, \u00df\nc) O, Y\nd) S, X, K, M",
+    "loesungsweg": "a) Roter Balken h\u00f6her: A(83>55), F(20>15), H(62>50), O(77>23), T(93>60), W(20>18), Y(20>1).\nb) Kein roter Balken: \u00c4, \u00d6, \u00dc, \u00df.\nc) Mehr als doppelt: O (77 > 2\u00d723=46), Y (20 > 2\u00d71=2).\nd) Beide Balken fast gleich: S(65/62), X(1/1), K(13/11), M(28/25).",
+    "tipps": [
+      "a) Suche alle Buchstaben, wo der rote Balken (Englisch) h\u00f6her ist als der blaue (Deutsch).",
+      "b) Welche Buchstaben haben GAR KEINEN roten Balken?",
+      "c) 'Mehr als doppelt' hei\u00dft: Der rote Balken ist mehr als 2\u00d7 so hoch wie der blaue.",
+      "a) A, F, H, O, T, W, Y. b) \u00c4, \u00d6, \u00dc, \u00df. c) O, Y. d) S, X, K, M."
+    ],
+    "didaktischerHinweis": "Fredo S.77, Aufgabe 7a\u2013d. Diagramm ablesen: Vergleiche, Nullwerte, Verh\u00e4ltnisse.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Beantworte die Fragen mithilfe des Diagramms.",
+      "kontext": "[buchstaben-chart]",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Welche Buchstaben kommen in der englischen Sprache h\u00e4ufiger vor als in der deutschen?", "antwort": "_m\u00fcndlich" },
+        { "label": "b", "frage": "Welche Buchstaben kommen in der englischen Sprache \u00fcberhaupt nicht vor?", "antwort": "\u00c4, \u00d6, \u00dc, \u00df" },
+        { "label": "c", "frage": "\ud83d\udcac Welche Buchstaben kommen im Englischen mehr als doppelt so h\u00e4ufig vor wie im Deutschen?", "antwort": "_m\u00fcndlich" },
+        { "label": "d", "frage": "\ud83d\udcac Welche Buchstaben kommen in beiden Sprachen fast gleich h\u00e4ufig vor?", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.77 Nr.7 — Fragen zum Diagramm (e\u2013g)",
+    "typ": "eingabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "gr\u00fcn",
+    "buchseite": 77,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Beantworte die Fragen mithilfe des Diagramms.\n\n[buchstaben-chart]",
+    "loesung": "e) E\nf) A\ng) I (deutsch 80), Y (englisch 20)",
+    "loesungsweg": "e) E ist in beiden Sprachen der h\u00f6chste Balken (Deutsch: 169, Englisch: 126).\nf) Englisch sortiert: E(126), T(93), A(83). A ist der 3. Im Deutschen ca. der 8.\ng) Blauer Balken bei 80: I. Roter Balken bei 20: Y.",
+    "tipps": [
+      "e) Welcher Buchstabe hat in BEIDEN Spalten den h\u00f6chsten Balken?",
+      "f) Sortiere die englischen Werte: E(126), T(93), A(83). Der 3. ist A.",
+      "g) Suche den blauen Balken, der genau bei 80 steht. Suche den roten Balken bei 20.",
+      "e) E. f) A. g) Deutsch 80: I, Englisch 20: Y."
+    ],
+    "didaktischerHinweis": "Fredo S.77, Aufgabe 7e\u2013g. Diagramm ablesen: Rangfolge, exakte Werte.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Beantworte die Fragen mithilfe des Diagramms.",
+      "items": [
+        { "label": "e", "frage": "[buchstaben-chart]\n\nWelcher Buchstabe kommt in beiden Sprachen am h\u00e4ufigsten vor?", "antwort": "E" },
+        { "label": "f", "frage": "Welches ist der dritth\u00e4ufigste Buchstabe in der englischen Sprache?", "antwort": "A" },
+        { "label": "g", "frage": "Welcher Buchstabe kommt in deutschen Texten mit 1.000 Buchstaben 80-mal vor?", "antwort": "I" }
+      ]
+    }
+  },
+  {
+    "titel": "S.77 Nr.8 — Scrabble: Warum gibt Y 10 Punkte?",
+    "typ": "textaufgabe",
+    "thema": "Buchstaben z\u00e4hlen",
+    "schwierigkeit": "orange",
+    "buchseite": 77,
+    "kapitel": "buch-original",
+    "stageId": "buchstaben-zaehlen-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bei der deutschen Version des Spiels Scrabble gibt es f\u00fcr den Buchstaben Y 10 Punkte. In der englischen Version gibt es f\u00fcr den Buchstaben Y nur 2 Punkte.\n\n[buchstaben-chart]\n\nErkl\u00e4re.",
+    "loesung": "Im Deutschen kommt Y kaum vor (ca. 1 von 1.000), daher 10 Punkte. Im Englischen kommt Y viel h\u00e4ufiger vor (ca. 20 von 1.000), daher nur 2 Punkte.",
+    "loesungsweg": "Y kommt im Deutschen nur ca. 1\u00d7 pro 1.000 Buchstaben vor, im Englischen aber ca. 20\u00d7.\nBei Scrabble gibt es f\u00fcr seltene Buchstaben mehr Punkte.\nY ist im Deutschen 20\u00d7 seltener als im Englischen.",
+    "tipps": [
+      "Schau im Diagramm: Wie oft kommt Y in deutschen Texten vor? Wie oft in englischen?",
+      "Im Deutschen: Y \u2248 1 pro 1.000. Im Englischen: Y \u2248 20 pro 1.000. Das ist 20\u00d7 mehr!",
+      "Bei Scrabble gilt: Je seltener ein Buchstabe, desto mehr Punkte. Warum?",
+      "Y ist im Deutschen sehr selten (nur in Fremdw\u00f6rtern wie 'Yoga'), daher 10 Punkte. Im Englischen ist Y h\u00e4ufig ('you', 'yes', 'happy'), daher nur 2 Punkte."
+    ],
+    "didaktischerHinweis": "Fredo S.77, Aufgabe 8. Transfer: Buchstabenh\u00e4ufigkeit \u2192 Spielmechanik.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Bei der deutschen Version von Scrabble gibt es f\u00fcr Y 10 Punkte. In der englischen Version nur 2 Punkte.\n\n[buchstaben-chart]",
+      "items": [
+        { "label": "a", "frage": "\ud83d\udcac Erkl\u00e4re, warum Y im Deutschen 10 Punkte gibt, aber im Englischen nur 2!", "antwort": "_m\u00fcndlich" }
+      ]
+    }
+  }
+]
