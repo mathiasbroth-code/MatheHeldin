@@ -181,7 +181,7 @@ Zentrale Regel der römischen Zahlschreibweise. Entspricht S. 124, Merkkasten un
 
 ---
 titel: "Dezimal in römisch umwandeln"
-typ: textaufgabe
+typ: eingabe
 thema: "Römische Zahlen"
 schwierigkeit: grün
 buchseite: 125
@@ -339,7 +339,7 @@ Komplexe römische Zahlen mit Subtraktionsregel. Entspricht S. 125, Aufg. 7 und 
 
 ---
 titel: "Große Zahlen als römische Zahl schreiben"
-typ: textaufgabe
+typ: eingabe
 thema: "Römische Zahlen"
 schwierigkeit: orange
 buchseite: 125
@@ -1030,7 +1030,7 @@ Schätzübung mit Dateigrössen. Entspricht S. 129, Aufg. 10.
 
 ---
 titel: "Der Gauss-Trick — Summe von 1 bis 10"
-typ: textaufgabe
+typ: luecke
 thema: "Rechenkünstler"
 schwierigkeit: gelb
 buchseite: 130
@@ -1053,18 +1053,20 @@ e) 5 + ___ = 11
 Wie viele Paare gibt es? Was ist die Summe aller Zahlen von 1 bis 10?
 
 ### Lösung
-a) 1 + 10 = 11
-b) 2 + 9 = 11
-c) 3 + 8 = 11
-d) 4 + 7 = 11
-e) 5 + 6 = 11
-
-Es gibt 5 Paare. Summe: 5 · 11 = 55
+a) 10
+b) 9
+c) 8
+d) 7
+e) 6
 
 ### Lösungsweg
 Die Zahlen 1 bis 10 lassen sich zu 5 Paaren zusammenfassen, die jeweils 11 ergeben:
-(1+10), (2+9), (3+8), (4+7), (5+6).
-5 Paare · 11 = 55.
+- a) 1 + 10 = 11
+- b) 2 + 9 = 11
+- c) 3 + 8 = 11
+- d) 4 + 7 = 11
+- e) 5 + 6 = 11
+Es gibt 5 Paare · 11 = 55.
 Probe: 1+2+3+4+5+6+7+8+9+10 = 55 ✓
 
 ### Tipp 1 (Denkanstoß)
@@ -2138,18 +2140,20 @@ Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. 
        1  1
       1  2  1
      1  3  3  1
-    1  4  ___  4  1
-   1  ___  10  ___  5  1
+    1  4  a)___  4  1
+   1  b)___  10  c)___  5  1
 ```
 
 ### Lösung
-Reihe 5: 1, 4, **6**, 4, 1
-Reihe 6: 1, **5**, 10, **10**, 5, 1
+a) 6 (fehlende Zahl in Reihe 5)
+b) 5 (fehlende Zahl in Reihe 6)
+c) 10 (fehlende Zahl in Reihe 6)
 
 ### Lösungsweg
 Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.
-- Reihe 5: 3+3 = 6
-- Reihe 6: 1+4 = 5, 6+4 = 10
+- a) Reihe 5: 3+3 = 6 → Reihe 5: 1, 4, **6**, 4, 1
+- b) Reihe 6: 1+4 = 5 → ergibt **5** (linke Lücke)
+- c) Reihe 6: 6+4 = 10 → Reihe 6: 1, **5**, 10, **10**, 5, 1
 
 ### Tipp 1 (Denkanstoß)
 Jede Zahl entsteht durch Addition der beiden Zahlen schräg darüber. Zum Beispiel: 2 = 1+1, 3 = 1+2. Welche zwei Zahlen stehen über der Lücke?

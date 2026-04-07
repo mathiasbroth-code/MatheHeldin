@@ -29,13 +29,13 @@ a) Vielfache von 6: 6, 12, 18, ___, ___, ___, ___, ___, ___, ___
 b) Vielfache von 9: 9, 18, ___, ___, ___, ___, ___, ___, ___, ___
 
 ### Lösung
-a) 6, 12, 18, 24, 30, 36, 42, 48, 54, 60
-b) 9, 18, 27, 36, 45, 54, 63, 72, 81, 90
+a) 60
+b) 90
 
 ### Lösungsweg
 Das Vielfache einer Zahl bekommst du, indem du die Zahl immer wieder dazu addierst (oder mit 1, 2, 3, ... multiplizierst):
-- a) 1 · 6 = 6, 2 · 6 = 12, 3 · 6 = 18, 4 · 6 = 24 ... und so weiter bis 10 · 6 = 60
-- b) 1 · 9 = 9, 2 · 9 = 18, 3 · 9 = 27, 4 · 9 = 36 ... und so weiter bis 10 · 9 = 90
+- a) 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 → letztes (10.) Vielfaches: 60
+- b) 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 → letztes (10.) Vielfaches: 90
 
 ### Tipp 1 (Denkanstoß)
 Stell dir vor, du zählst immer in gleich großen Schritten auf einem Zahlenstrahl weiter. Bei a) machst du immer 6er-Schritte. Wo landest du als Nächstes nach der 18?
@@ -70,10 +70,7 @@ merkkasten_text: "Das Vielfache einer Zahl ist das Ergebnis jeder Multiplikation
 Schreibe die ersten zehn Vielfachen von 4 und von 8 auf. Welche Vielfachen kommen in beiden Reihen vor?
 
 ### Lösung
-Vielfache von 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40
-Vielfache von 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80
-
-Gemeinsame Vielfache: 8, 16, 24, 32, 40
+Gemeinsame Vielfache von 4 und 8 bis 40: 8, 16, 24, 32, 40
 
 ### Lösungsweg
 Schreibe zuerst beide Reihen untereinander und vergleiche:
@@ -247,7 +244,7 @@ Zahlenrätsel mit Vielfachen trainieren rückwärts gerichtetes Denken und die V
 
 ---
 titel: "Teiler einer Zahl finden"
-typ: eingabe
+typ: textaufgabe
 thema: "Teiler von Zahlen"
 schwierigkeit: gelb
 buchseite: 79
@@ -924,7 +921,7 @@ merkkasten_begriffe: "der Dividend, der Divisor, der Quotient"
 ---
 
 ### Aufgabenstellung
-Vergleiche die vier Aufgaben. Wie verändern sie sich? Rechne.
+Vergleiche die drei Aufgaben. Wie verändern sie sich? Rechne.
 
 a) 255 : 3 =
 b) 2.550 : 3 =
@@ -1068,7 +1065,7 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 2 teilbar, wenn die letzte Ziffer gerade ist (0, 2, 4, 6, 8). Durch 5 teilbar bei Endziffer 0 oder 5. Durch 10 teilbar bei Endziffer 0."
 ---
 
 ### Aufgabenstellung
@@ -1119,15 +1116,15 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 2 teilbar, wenn die letzte Ziffer gerade ist (0, 2, 4, 6, 8). Durch 5 teilbar bei Endziffer 0 oder 5. Durch 10 teilbar bei Endziffer 0."
 ---
 
 ### Aufgabenstellung
 Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...
 
-a) durch 5 teilbar sind? 78__, 43__, 63__, 19__
-b) durch 2 teilbar sind? 78__, 43__, 63__, 19__
-c) durch 5 UND durch 2 teilbar sind? 78__, 43__, 63__, 19__
+a) durch 5 teilbar sind? 78___, 43__, 63__, 19__
+b) durch 2 teilbar sind? 78___, 43__, 63__, 19__
+c) durch 5 UND durch 2 teilbar sind? 78___, 43__, 63__, 19__
 
 ### Lösung
 a) Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195
@@ -1209,7 +1206,7 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist. Durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1257,7 +1254,7 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist. Durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1304,7 +1301,7 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist. Durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist."
 ---
 
 ### Aufgabenstellung
@@ -1363,7 +1360,7 @@ kapitel: "08-division"
 stage_id: "teilbarkeitsregeln"
 digital: voll
 merkkasten_typ: regel
-merkkasten_text: "Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist."
+merkkasten_text: "Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist. Durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist."
 ---
 
 ### Aufgabenstellung

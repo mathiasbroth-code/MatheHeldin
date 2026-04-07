@@ -120,8 +120,8 @@ Der Alltagsbezug (angebundene Ziege) macht den Kreis als geometrischen Ort greif
 ## Aufgabe 3
 
 ---
-titel: "Kreise mit dem Zirkel zeichnen — verschiedene Radien"
-typ: textaufgabe
+titel: "Welcher Kreis ist der größte? — Radien vergleichen"
+typ: auswahl
 thema: "Kreise zeichnen"
 schwierigkeit: gelb
 buchseite: 104
@@ -132,34 +132,72 @@ erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
 ---
 
 ### Aufgabenstellung
-Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.
+Vier Kreise liegen ineinander. Sie haben alle denselben Mittelpunkt und die Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.
 
-a) Welcher Kreis liegt ganz aussen?
-b) Wie nennt man Kreise, die denselben Mittelpunkt haben?
+Welcher ist der Kreis mit dem Radius r = 5 cm (der größte)?
 
-a1) Der Kreis mit r = 2 cm
-a2) Der Kreis mit r = 5 cm
-a3) Der Kreis mit r = 3 cm
-
-b1) Parallele Kreise
-b2) Konzentrische Kreise
-b3) Symmetrische Kreise
+a) Der innerste Kreis
+b) Der mittlere Kreis
+c) Der äußerste Kreis
 
 ### Lösung
-a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.
-b) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise.
+c)
+
+### Lösungsweg
+Je größer der Radius, desto größer der Kreis. Der Kreis mit r = 5 cm hat den größten Radius — er liegt daher ganz außen.
 
 ### Tipp 1 (Denkanstoß)
-Stell dir die vier Kreise wie Ringe vor, die alle den gleichen Mittelpunkt haben. Welcher Kreis liegt ganz innen, welcher ganz aussen?
+Stell dir die vier Kreise wie Ringe vor. Welcher Ring liegt ganz außen — der kleinste oder der größte?
 
 ### Tipp 2 (Methode)
-Je größer der Radius, desto größer der Kreis. Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der Kreis mit dem größten Radius liegt ganz aussen.
+Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der größte Radius ergibt den größten Kreis. Wo liegt der größte Kreis?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der kleinste Kreis hat r = 2 cm und liegt ganz innen. Der größte Kreis hat r = 5 cm und liegt ganz aussen. Kreise um denselben Mittelpunkt haben einen besonderen Namen — er beginnt mit „kon...".
+r = 2 cm ist der kleinste Kreis — er liegt ganz innen. r = 5 cm ist der größte Kreis — er liegt ganz ___.
 
 ### Didaktischer Hinweis
 Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.
+
+---
+
+## Aufgabe 29
+
+---
+titel: "Wie heißen Kreise mit demselben Mittelpunkt?"
+typ: auswahl
+thema: "Kreise zeichnen"
+schwierigkeit: gelb
+buchseite: 104
+kapitel: "10-kreise-muster-körper"
+stage_id: "kreise-zeichnen"
+digital: voll
+erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
+---
+
+### Aufgabenstellung
+Vier Kreise haben alle denselben Mittelpunkt. Wie nennt man solche Kreise?
+
+a) Parallele Kreise
+b) Konzentrische Kreise
+c) Symmetrische Kreise
+
+### Lösung
+b)
+
+### Lösungsweg
+Kreise, die denselben Mittelpunkt teilen, heißen konzentrische Kreise (von lateinisch „concentricus" = den gleichen Mittelpunkt habend).
+
+### Tipp 1 (Denkanstoß)
+Das Wort beginnt mit „kon..." und kommt aus dem Lateinischen. Was könnte es bedeuten, wenn Kreise denselben Mittelpunkt haben?
+
+### Tipp 2 (Methode)
+Parallele Linien laufen nebeneinander. Symmetrische Figuren sind gespiegelt. Welcher Begriff passt zu Kreisen mit gleichem Mittelpunkt?
+
+### Tipp 3 (Schritt-für-Schritt)
+Der Fachbegriff hat die Silben „kon-zen-trisch". Konzentrische Kreise haben alle den ___ Mittelpunkt.
+
+### Didaktischer Hinweis
+Der Begriff „konzentrisch" ist Fachvokabular, das Kinder in diesem Alter kennenlernen. Entspricht S. 104, Aufg. 5.
 
 ---
 
@@ -173,7 +211,7 @@ schwierigkeit: grün
 buchseite: 104
 kapitel: "10-kreise-muster-körper"
 stage_id: "kreise"
-digital: voll
+digital: platzhalter
 erklaerung_bild: "assets/erklaerungen/s104-merkkasten-kreis-radius.webp"
 ---
 
@@ -788,14 +826,14 @@ merkkasten_begriffe: "der Körper, der Quader, das Körpernetz, das Quadernetz"
 ### Aufgabenstellung
 Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.
 
-A) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?
-B) Sechs Rechtecke in einer Reihe — Quadernetz?
-C) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?
+a) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?
+b) Sechs Rechtecke in einer Reihe — Quadernetz?
+c) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?
 
 ### Lösung
-A) Ja — beim Falten entsteht ein Quader.
-B) Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung).
-C) Ja — beim Falten entsteht ein Quader.
+a) Ja — beim Falten entsteht ein Quader.
+b) Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung).
+c) Ja — beim Falten entsteht ein Quader.
 
 ### Lösungsweg
 Um zu prüfen, ob eine Figur ein Quadernetz ist, falte sie im Kopf zusammen:
@@ -1314,22 +1352,20 @@ merkkasten_begriffe: "das Würfelgebäude, das Schrägbild, die Ansicht"
 ---
 
 ### Aufgabenstellung
-Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu. Die Würfelseiten sind rot, blau, gelb, grün, orange und weiß.
+Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu.
 
 a) Von vorne
 b) Von der Seite
 c) Von oben
 d) Von schräg oben (Schrägbild)
 
-A) Man sieht 3 Seiten gleichzeitig (z. B. rot, blau und gelb)
-B) Man sieht 1 Seite (z. B. die rote Seite)
-C) Man sieht 1 Seite (z. B. die blaue Seite)
-D) Man sieht 1 Seite (z. B. die gelbe Seite)
+A) Man sieht 3 Seiten gleichzeitig (Schrägbild)
+B) Man sieht nur 1 Seite (Normalansicht)
 
 ### Lösung
 a) → B
-b) → C
-c) → D
+b) → B
+c) → B
 d) → A
 
 ### Lösungsweg

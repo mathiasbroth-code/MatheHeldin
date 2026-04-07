@@ -18,7 +18,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -67,7 +66,6 @@ stage_id: "einfache-brueche"
 digital: platzhalter
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -106,7 +104,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -161,7 +158,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -212,7 +208,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -266,7 +261,6 @@ stage_id: "einfache-brueche"
 digital: teilweise
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -309,7 +303,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -322,18 +315,18 @@ d) 7/8 ___ 3/4
 e) 2/4 ___ 4/8
 
 ### Lösung
-a) 1/2 > 1/4
-b) 3/4 > 1/2
-c) 1/8 < 1/4
-d) 7/8 > 3/4
-e) 2/4 = 4/8
+a) >
+b) >
+c) <
+d) >
+e) =
 
 ### Lösungsweg
-- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.
-- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.
-- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.
-- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.
-- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte.
+- a) 1/2 > 1/4 — Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.
+- b) 3/4 > 1/2 — denn 1/2 = 2/4, und 3/4 > 2/4.
+- c) 1/8 < 1/4 — Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.
+- d) 7/8 > 3/4 — denn 3/4 = 6/8, und 7/8 > 6/8.
+- e) 2/4 = 4/8 — beides ist genau die Hälfte.
 
 ### Tipp 1 (Denkanstoß)
 Stell dir zwei gleich große Pizzen vor. Die eine wird in weniger Teile geschnitten, die andere in mehr. Welche Stücke sind größer — die aus der Pizza mit wenigen oder vielen Teilen?
@@ -363,7 +356,6 @@ stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
-tipp_1_bild: "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp"
 ---
 
 ### Aufgabenstellung
@@ -598,17 +590,20 @@ Wandle in Milliliter um.
 a) 3 l 190 ml = ___ ml
 b) 14 l 375 ml = ___ ml
 c) 1 l 903 ml = ___ ml
-d) 1.450 ml = ___ l ___ ml
-e) 5.047 ml = ___ l ___ ml
-f) 700 ml = ___ l ___ ml
+
+Wie viele ganze Liter stecken in der Menge? (Gib nur die Liter-Zahl an)
+
+d) 1.450 ml = ___ l (Rest in ml)
+e) 5.047 ml = ___ l (Rest in ml)
+f) 700 ml = ___ l (Rest in ml)
 
 ### Lösung
 a) 3.190
 b) 14.375
 c) 1.903
-d) 1 l 450 ml
-e) 5 l 47 ml
-f) 0 l 700 ml
+d) 1
+e) 5
+f) 0
 
 ### Lösungsweg
 l + ml → nur ml: Liter × 1.000 + Milliliter.
@@ -616,8 +611,9 @@ l + ml → nur ml: Liter × 1.000 + Milliliter.
 - b) 14 × 1.000 + 375 = 14.375 ml.
 
 ml → l + ml: Tausender sind Liter, Rest sind ml.
-- d) 1.450 = 1 × 1.000 + 450 → 1 l 450 ml.
-- e) 5.047 = 5 × 1.000 + 47 → 5 l 47 ml.
+- d) 1.450 = 1 × 1.000 + 450 → 1 l, Rest 450 ml.
+- e) 5.047 = 5 × 1.000 + 47 → 5 l, Rest 47 ml.
+- f) 700 = 0 × 1.000 + 700 → 0 l, Rest 700 ml.
 
 ### Tipp 1 (Denkanstoß)
 Stell dir eine Stellenwerttafel vor, aber statt T|H|Z|E hast du l|ml. Die Tausender in Milliliter sind die Liter!
@@ -661,18 +657,21 @@ e) 250 ml ▢ 1/4 l
 f) 0,330 l ▢ 1/2 l
 
 ### Lösung
-a) 725 ml < 3/4 l (denn 3/4 l = 750 ml)
-b) 1.001 ml > 1 l (denn 1 l = 1.000 ml)
-c) 1 1/2 l < 2.000 ml (denn 1 1/2 l = 1.500 ml)
-d) 750 ml > 1/2 l (denn 1/2 l = 500 ml)
-e) 250 ml = 1/4 l (denn 1/4 l = 250 ml)
-f) 0,330 l < 1/2 l (denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml)
+a) <
+b) >
+c) <
+d) >
+e) =
+f) <
 
 ### Lösungsweg
 Wandle zuerst alles in Milliliter um, dann vergleiche:
-- a) 3/4 l = 750 ml → 725 < 750 → <
-- c) 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <
-- e) 1/4 l = 250 ml → 250 = 250 → =
+- a) 725 ml < 3/4 l — denn 3/4 l = 750 ml → 725 < 750 → <
+- b) 1.001 ml > 1 l — denn 1 l = 1.000 ml → 1.001 > 1.000 → >
+- c) 1 1/2 l < 2.000 ml — denn 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <
+- d) 750 ml > 1/2 l — denn 1/2 l = 500 ml → 750 > 500 → >
+- e) 250 ml = 1/4 l — denn 1/4 l = 250 ml → 250 = 250 → =
+- f) 0,330 l < 1/2 l — denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml → <
 
 ### Tipp 1 (Denkanstoß)
 Um Liter und Milliliter zu vergleichen, musst du beide in dieselbe Einheit bringen. Wandle alles in Milliliter um — dann kannst du die Zahlen direkt vergleichen.
@@ -1287,7 +1286,7 @@ Das ist sehr viel — ca. 11 Tafeln Schokolade pro Woche! Die Aussage kann nicht
 - Jettes Ersparnis wäre 500.000 l.
 - Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.
 - 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.
-- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.
+- Das sind ca. 590 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.
 - Kein Kind isst so viel Schokolade → die Aussage stimmt nicht.
 
 ### Tipp 1 (Denkanstoß)
@@ -2390,7 +2389,7 @@ Fermi-Schätzung, die die Größe einer Million erlebbar macht. Entspricht dem K
 
 ---
 titel: "Millionen-Quiz — Überschlagen und schaetzen"
-typ: textaufgabe
+typ: auswahl
 thema: "Millionen-Fragen"
 schwierigkeit: orange
 buchseite: 103
@@ -2402,18 +2401,29 @@ merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tau
 ---
 
 ### Aufgabenstellung
-Was ist näher an 1.000.000? Kreuze an.
+Was ist näher an 1.000.000? Wähle die richtige Antwort.
 
-a) 1.000.000 mm: Ist das näher an 1 km oder an 10 km?
-b) 1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?
-c) 1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?
-d) 1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?
+a) 1.000.000 mm =
+[ ] 1 km
+[ ] 10 km
+
+b) 1.000.000 g =
+[ ] 100 kg
+[ ] 1.000 kg
+
+c) 1.000.000 ml =
+[ ] 100 l
+[ ] 1.000 l
+
+d) 1.000.000 s =
+[ ] 1 Tag
+[ ] 10 Tage
 
 ### Lösung
-a) 1 km (1.000.000 mm = 1.000 m = 1 km)
-b) 1.000 kg (1.000.000 g = 1.000 kg)
-c) 1.000 l (1.000.000 ml = 1.000 l)
-d) 10 Tage (1.000.000 s ≈ 11,6 Tage)
+a) 1 km
+b) 1.000 kg
+c) 1.000 l
+d) 10 Tage
 
 ### Lösungsweg
 - a) 1.000.000 mm : 10 = 100.000 cm : 100 = 1.000 m : 1.000 = 1 km.

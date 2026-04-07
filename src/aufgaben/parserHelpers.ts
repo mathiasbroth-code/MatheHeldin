@@ -104,6 +104,14 @@ export function extractAntwortAusLoesung(loesungZeile: string): string {
   const eqMatch = trimmed.match(/=\s*([\d.,]+)/);
   if (eqMatch) return eqMatch[1];
 
+  // Uhrzeit-Pattern "HH:MM" (vor colonMatch, da : sonst als Trenner greift)
+  const zeitMatch = trimmed.match(/(\d{1,2}:\d{2})/);
+  if (zeitMatch) return zeitMatch[1];
+
+  // Bruch-Pattern "Z/N" (z.B. "1/2", "3/4")
+  const bruchMatch = trimmed.match(/(\d+\/\d+)/);
+  if (bruchMatch) return bruchMatch[1];
+
   // Pattern: "Summe: 611" oder "Ergebnis: 12"
   const colonMatch = trimmed.match(/:\s*([\d.,]+)/);
   if (colonMatch) return colonMatch[1];

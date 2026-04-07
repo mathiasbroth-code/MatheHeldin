@@ -210,7 +210,7 @@ Das Ergänzen auf glatte Zahlen trainiert das Verständnis für den Zusammenhang
 
 ---
 titel: "Zahlenmauern mit Ergänzungsaufgaben"
-typ: eingabe
+typ: luecke
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 35
@@ -591,7 +591,7 @@ merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die
 ---
 
 ### Aufgabenstellung
-Rechne.
+Rechne schriftlich.
 
 a) Addiere die Zahlen 452.780 und 319.645.
 b) Subtrahiere von 76.430 die Zahl 28.975.
@@ -651,9 +651,12 @@ e) 5.135
 f) 8.118
 
 ### Lösung
-ANNA-Zahlen: a) 6.336, b) 4.554, c) 2.332, d) 7.887, f) 8.118
-
-Keine ANNA-Zahl: e) 5.135 (die Ziffernfolge ist ABCA, nicht ABBA)
+a) stimmt ✓ — 6.336 (6-3-3-6)
+b) stimmt ✓ — 4.554 (4-5-5-4)
+c) stimmt ✓ — 2.332 (2-3-3-2)
+d) stimmt ✓ — 7.887 (7-8-8-7)
+e) stimmt nicht ✗ — 5.135 (5-1-3-5, die mittleren Ziffern 1 und 3 sind verschieden)
+f) stimmt ✓ — 8.118 (8-1-1-8)
 
 ### Lösungsweg
 Eine ANNA-Zahl hat das Muster ABBA:
@@ -1257,7 +1260,7 @@ f) → A
 Runde jede Zahl auf Hunderter und rechne den Überschlag:
 - 3.500 + 1.300 = 4.800 → 4.000-5.000
 - 1.200 + 1.400 = 2.600 → 2.000-3.000
-- 6.200 − 2.900 = 3.300 → keine der Spalten!
+- 6.200 − 2.900 = 3.300 → 3.000–4.000 (Spalte C)
 - 5.300 − 2.800 = 2.500 → 2.000-3.000
 - 2.100 + 2.500 = 4.600 → 4.000-5.000
 - 8.700 − 3.900 = 4.800 → 4.000-5.000
@@ -1266,7 +1269,7 @@ Runde jede Zahl auf Hunderter und rechne den Überschlag:
 Du musst nicht genau rechnen! Runde auf Hunderter und überschlage. In welchen Bereich fällt das Ergebnis?
 
 ### Tipp 2 (Methode)
-Runde beide Zahlen auf Hunderter. Rechne den Überschlag und schau, ob er zwischen 2.000-3.000 oder 4.000-5.000 liegt.
+Runde beide Zahlen auf Hunderter. Rechne dann den Überschlag. Schau in welchen Bereich das Ergebnis fällt: 2.000–3.000, 3.000–4.000 oder 4.000–5.000.
 
 ### Tipp 3 (Schritt-für-Schritt)
 1.245 ≈ 1.200 und 1.398 ≈ 1.400. Überschlag: 1.200 + 1.400 = 2.600. Liegt 2.600 zwischen 2.000 und 3.000?
@@ -2352,7 +2355,7 @@ c) 40
 
 ### Lösungsweg
 - a) Links: 45 + 65 = 110. Rechts: 55 + ▢ = 110 → ▢ = 55
-- - b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3
+- b) Links: 60 + 60 = 120. Rechts: 40 · ▢ = 120 → ▢ = 120 : 40 = 3
 - c) Links: 120 − 30 = 90. Rechts: 50 + ▢ = 90 → ▢ = 40
 
 ### Tipp 1 (Denkanstoß)
@@ -2633,7 +2636,7 @@ schwierigkeit: orange
 buchseite: 45
 kapitel: "03-addition-subtraktion-rechenregeln"
 stage_id: "gleichungen"
-digital: voll
+digital: platzhalter
 merkkasten_typ: begriffe
 merkkasten_begriffe: "gleich (=), die Gleichung"
 tipp_3_bild: "assets/erklaerungen/s47-regel-ungleichungen.webp"
@@ -2801,18 +2804,12 @@ c) ungefähr 9 €
 d) ungefähr 10 €
 
 ### Lösung
-c) ungefähr 9 €
+b) ungefähr 8 €
 
-0,79 € ≈ 1 €, 2,35 € ≈ 2 € und 5,49 € ≈ 5 €. Zusammen: 1 + 2 + 5 = 8 €.
-Genauer Überschlag: 1 + 2 + 5 = 8, aber 0,79 rundet auf, 5,49 rundet auch knapp auf → eher 9 €.
+Runde auf ganze Euro: 0,79 € → 1 €, 2,35 € → 2 €, 5,49 € → 5 €. Überschlag: 1 + 2 + 5 = 8 €.
 
 ### Lösungsweg
-1. Runde die Preise:
-   - 0,79 € → 1 € (aufgerundet)
-   - 2,35 € → 2 € (abgerundet)
-   - 5,49 € → 5 € (abgerundet, knapp unter 50 Cent)
-2. Addiere: 1 + 2 + 5 = 8 €
-3. Genau: 0,79 + 2,35 + 5,49 = 8,63 € → ungefähr 9 € ist die beste Antwort
+Runde auf ganze Euro: 0,79 € → 1 €, 2,35 € → 2 €, 5,49 € → 5 €. Überschlag: 1 + 2 + 5 = 8 €.
 
 ### Tipp 1 (Denkanstoß)
 Runde jeden Preis einzeln auf volle Euro. Dann zähle die drei gerundeten Preise zusammen.

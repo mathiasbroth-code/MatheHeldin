@@ -31,10 +31,11 @@ d) M
 e) S
 
 ### Lösung
-Achsensymmetrisch sind: A und M.
-- A hat eine senkrechte Symmetrieachse.
-- M hat eine senkrechte Symmetrieachse.
-- B, F und S sind nicht achsensymmetrisch.
+a) stimmt ✓ — A hat eine senkrechte Symmetrieachse
+b) stimmt nicht ✗ — B hat keine Symmetrieachse
+c) stimmt nicht ✗ — F hat keine Symmetrieachse
+d) stimmt ✓ — M hat eine senkrechte Symmetrieachse
+e) stimmt nicht ✗ — S hat keine Symmetrieachse
 
 ### Lösungsweg
 Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?
@@ -428,7 +429,7 @@ merkkasten_begriffe: "der Faltschnitt"
 Stimmt das? Beurteile jede Aussage.
 
 a) Ein Quadrat hat genau 2 Symmetrieachsen.
-b) Jedes Rechteck hat 2 Symmetrieachsen.
+b) Jedes Rechteck hat mindestens 2 Symmetrieachsen.
 c) Ein Dreieck hat immer 3 Symmetrieachsen.
 d) Der Buchstabe X ist achsensymmetrisch.
 

@@ -61,7 +61,7 @@ Das Multiplizieren mit vollen Hunderten und Tausendern ist die Grundlage für al
 
 ---
 titel: "Tausender multiplizieren — Päckchen rechnen"
-typ: textaufgabe
+typ: eingabe
 thema: "Multiplizieren im Kopf"
 schwierigkeit: gelb
 buchseite: 54
@@ -330,7 +330,7 @@ Das Dividieren mit vollen Hunderten/Tausendern nutzt das Kürzen gemeinsamer Nul
 
 ---
 titel: "Divisionspäckchen — Muster erkennen"
-typ: textaufgabe
+typ: eingabe
 thema: "Dividieren im Kopf"
 schwierigkeit: gelb
 buchseite: 55
@@ -1383,12 +1383,12 @@ merkkasten_begriffe: "das Produkt, der Überschlag"
 ### Aufgabenstellung
 Berechne die fehlenden Ziffern.
 
-a) _43_ · 2 = 4.862
+a) ___43___ · 2 = 4.862
 b) 6__7 · 4 = 24.828
 c) 3_5_ · 3 = 10.962
 
 ### Lösung
-a) 2.431 · 2 = 4.862
+a) 2.431
 b) 6.207 · 4 = 24.828
 c) 3.654 · 3 = 10.962
 
@@ -1592,7 +1592,7 @@ S. 62, Aufg. 3-4. Verschiedene Einer- und Zehnerziffern im Multiplikator erhöhe
 
 ---
 titel: "Tauschaufgaben — Welche Reihenfolge ist einfacher?"
-typ: eingabe
+typ: auswahl
 thema: "Schriftliches Multiplizieren mehrstelliger Zahlen"
 schwierigkeit: grün
 buchseite: 62
@@ -1604,11 +1604,19 @@ merkkasten_begriffe: "das Produkt, der Überschlag"
 ---
 
 ### Aufgabenstellung
-Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit?
+Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit? Wähle jeweils die einfachere Reihenfolge.
 
-a) 318 · 22 oder 22 · 318?
-b) 15 · 3.107 oder 3.107 · 15?
-c) 59 · 4.256 oder 4.256 · 59?
+a)
+A) 318 · 22
+B) 22 · 318
+
+b)
+A) 15 · 3.107
+B) 3.107 · 15
+
+c)
+A) 59 · 4.256
+B) 4.256 · 59
 
 ### Lösung
 a) 22 · 318 ist einfacher (weniger Stellen im Multiplikand → kürzere Zeilen)
@@ -1830,10 +1838,7 @@ a) ___ · __ = 10.395
 b) ___ · __ = 6.408
 
 ### Lösung
-a) 231 · 45 = 10.395 (oder 315 · 33 geht nicht, da 3 doppelt)
-   Prüfe: 231 · 45 = 231 · 5 = 1.155, 231 · 40 = 9.240, Summe = 10.395 ✓
-   Alternative: 213 · 45? 213 · 45 = 9.585 ✗. Also: 231 · 45.
-
+a) 231 · 45
 b) 534 · 12 = 6.408
    Prüfe: 534 · 2 = 1.068, 534 · 10 = 5.340, Summe = 6.408 ✓
 

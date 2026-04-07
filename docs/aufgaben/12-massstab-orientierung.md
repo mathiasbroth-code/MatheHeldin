@@ -395,8 +395,6 @@ buchseite: 118
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -441,8 +439,6 @@ buchseite: 118
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -500,8 +496,6 @@ buchseite: 119
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: voll
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -545,8 +539,6 @@ buchseite: 119
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -589,8 +581,6 @@ buchseite: 118
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -638,8 +628,6 @@ buchseite: 119
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -683,8 +671,6 @@ buchseite: 119
 kapitel: "12-massstab-orientierung"
 stage_id: "ansichten-grundriss"
 digital: teilweise
-merkkasten_typ: regel
-merkkasten_text: "Maßstab 20:1 bedeutet: 20 mm im Bild entsprechen 1 mm in Wirklichkeit (vergrößert)."
 ---
 
 ### Aufgabenstellung
@@ -751,12 +737,12 @@ b) Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m
 
 ### Lösung
 a) 1.000 m (= 1 km)
-b) 2.500 m (= 2,5 km)
+b) 2.500
 
 ### Lösungsweg
 Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.
 - a) 4 cm · 25.000 = 100.000 cm = 1.000 m
-- b) 10 cm · 25.000 = 250.000 cm = 2.500 m
+- b) 10 cm · 25.000 = 250.000 cm = 2.500 m (= 2,5 km)
 
 ### Tipp 1 (Denkanstoß)
 1 cm auf der Karte = 25.000 cm in echt. Wie viele Meter sind 25.000 cm? (Teile durch 100.)
@@ -797,12 +783,12 @@ a) Wie lang ist die Wanderstrecke in Wirklichkeit?
 b) Wie lange dauert die Wanderung ungefähr?
 
 ### Lösung
-a) 4 km (= 4.000 m)
-b) 80 Minuten (= 1 Stunde 20 Minuten)
+a) 4
+b) 80
 
 ### Lösungsweg
-a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km
-b) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min
+a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km (= 4.000 m)
+b) 4 km · 20 Minuten = 80 Minuten (= 1 Stunde 20 Minuten)
 
 ### Tipp 1 (Denkanstoß)
 Rechne zuerst die Strecke aus (cm → m → km). Dann überleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?
@@ -1273,7 +1259,6 @@ Für die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.
 Für die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.
 Der größere Wert bestimmt: mindestens 1 : 207.
 Ein praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).
-Auch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm).
 
 ### Tipp 1 (Denkanstoß)
 Rechne den Schulhof in cm um. Dann überlege: Durch welche Zahl musst du teilen, damit 6.000 cm auf weniger als 29 cm schrumpft?
@@ -1289,7 +1274,7 @@ Nimm ein DIN-A4-Blatt und ein Lineal. Zeichne die lange Seite (29 cm). Jetzt pro
 3. Also: Maßstab 1 : ___ passt.
 
 ### Didaktischer Hinweis
-Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (1 : 250, 1 : 300). Entspricht S. 118, weiterführende Aufgabe.
+Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (z. B. 1 : 250 oder 1 : 300). Entspricht S. 118, weiterführende Aufgabe.
 
 ---
 

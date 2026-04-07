@@ -626,9 +626,9 @@ function parseZuordnungDaten(aufgabenstellung: string, loesung: string): Zuordnu
   let section: 'intro' | 'items' | 'gap' | 'choices' = 'intro';
 
   for (const line of lines) {
-    const isLettered = /^[a-g]\)\s/.test(line);
+    const isLettered = /^[a-z]\)\s/.test(line);
     const isNumbered = /^\d+\)\s/.test(line);
-    const isUpperLettered = /^[A-G][.)]\s/.test(line);
+    const isUpperLettered = /^[A-Z][.)]\s/.test(line);
 
     if (section === 'intro') {
       if (isLettered || isNumbered) {
@@ -640,7 +640,7 @@ function parseZuordnungDaten(aufgabenstellung: string, loesung: string): Zuordnu
     } else if (section === 'items') {
       if (isLettered || isNumbered) {
         itemLines.push(line);
-      } else if (isUpperLettered || (itemLines.some((l) => /^[a-g]\)/.test(l)) && /^\d+\)/.test(line))) {
+      } else if (isUpperLettered || (itemLines.some((l) => /^[a-z]\)/.test(l)) && /^\d+\)/.test(line))) {
         section = 'choices';
         choiceLines.push(line);
       } else if (line.match(/^(Begriffe|Beschreibungen|Antworten|Werte|Rechenketten):/i)) {
@@ -649,10 +649,10 @@ function parseZuordnungDaten(aufgabenstellung: string, loesung: string): Zuordnu
         section = 'gap';
       }
     } else if (section === 'gap') {
-      if (isUpperLettered || isNumbered || /^[A-G][.:]\s/.test(line)) {
+      if (isUpperLettered || isNumbered || /^[A-Z][.:]\s/.test(line)) {
         section = 'choices';
         choiceLines.push(line);
-      } else if (/^[-•]\s*[A-G][:.]/.test(line)) {
+      } else if (/^[-•]\s*[A-Z][:.]/.test(line)) {
         section = 'choices';
         choiceLines.push(line.replace(/^[-•]\s*/, ''));
       } else if (isLettered) {
@@ -660,7 +660,7 @@ function parseZuordnungDaten(aufgabenstellung: string, loesung: string): Zuordnu
         choiceLines.push(line);
       }
     } else if (section === 'choices') {
-      if (isUpperLettered || isNumbered || /^[A-G][.:]\s/.test(line) || /^[-•]\s*[A-G][:.]/.test(line)) {
+      if (isUpperLettered || isNumbered || /^[A-Z][.:]\s/.test(line) || /^[-•]\s*[A-Z][:.]/.test(line)) {
         choiceLines.push(line.replace(/^[-•]\s*/, ''));
       }
     }
@@ -668,19 +668,19 @@ function parseZuordnungDaten(aufgabenstellung: string, loesung: string): Zuordnu
 
   // Parse items
   const items = itemLines.map((l) => {
-    const match = l.match(/^([a-g0-9]+)\)\s*(.*)/);
+    const match = l.match(/^([a-z0-9]+)\)\s*(.*)/);
     return match ? { label: match[1], text: match[2].trim() } : null;
   }).filter((x): x is { label: string; text: string } => x !== null);
 
   const choices = choiceLines.map((l) => {
-    const match = l.match(/^([A-G0-9]+)[.):]?\s*(.*)/);
+    const match = l.match(/^([A-Z0-9]+)[.):]?\s*(.*)/);
     return match ? { label: match[1], text: match[2].trim() } : null;
   }).filter((x): x is { label: string; text: string } => x !== null);
 
   // Parse answers from Loesung
   const antworten: Record<string, string> = {};
   for (const line of loesung.split('\n')) {
-    const match = line.match(/^([a-g0-9]+)\)?\s*.*?→\s*([A-G0-9]+)\)?/);
+    const match = line.match(/^([a-z0-9]+)\)?\s*.*?→\s*([A-Z0-9]+)\)?/);
     if (match) {
       antworten[match[1]] = match[2];
     }

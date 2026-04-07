@@ -186,9 +186,9 @@ Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladun
 | Gesamtgewicht | ? | ? | ? |
 
 ### Lösung
-- Auto 1: 900 kg
-- Auto 2: 1.125 kg (= 1 t 125 kg)
-- Auto 3: 1.430 kg (= 1 t 430 kg)
+a) 900 kg
+b) 1.125 kg (= 1 t 125 kg)
+c) 1.430 kg (= 1 t 430 kg)
 
 ### Lösungsweg
 Gesamtgewicht = Leergewicht + Ladung:
@@ -235,9 +235,9 @@ Berechne die fehlenden Gewichtsangaben.
 | Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |
 
 ### Lösung
-- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)
-- LKW 2: Leergewicht = 8 t 550 kg (= 8.550 kg)
-- LKW 3: Ladung = 6,45 t (= 6.450 kg)
+a) 12 t (= 12.000 kg)
+b) 8 t 550 kg (= 8.550 kg)
+c) 6,45 t (= 6.450 kg)
 
 ### Lösungsweg
 - LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t
@@ -550,7 +550,7 @@ Rechne zuerst die Multiplikationen aus, dann vergleiche.
 Bei a): 100 Strausse = 100 × 150 kg. Rechne: 100 × 150 = 15.000 kg. Wandle um: 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Was ist größer: 15 oder 12?
 
 ### Didaktischer Hinweis
-Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe ügt gleichzeitig Multiplikation und Einheitenumrechnung.
+Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe übt gleichzeitig Multiplikation und Einheitenumrechnung.
 
 ---
 
@@ -594,7 +594,8 @@ Wandle die Meter in Zentimeter um (1 m = 100 cm). Dann überlege: Wie oft passt 
 Teile die Länge in cm durch 50 cm. Tipp: 50 cm = ein halber Meter. Also: 2 Babys = 1 m, 4 Babys = 2 m ...
 
 ### Tipp 3 (Schritt-für-Schritt)
-a) 1 m = 100 cm. 100 ÷ 50 = 2. Also passen 2 Babys.
+a) 1 m = 100 cm. 100 ÷ 50 = ? Wie viele Babys passen?
+b) 2 m = 200 cm. 200 ÷ 50 = ? Wie viele Babys passen?
 c) 4,5 m = 450 cm. Probiere: 8 × 50 = 400, 9 × 50 = ? Passt das?
 
 ### Didaktischer Hinweis
@@ -953,7 +954,7 @@ Einfache Verdoppelungsaufgabe, die das Konzept "Hin- und Rückweg" festigt. Die 
 
 ---
 titel: "Geschwindigkeiten vergleichen — km/h berechnen"
-typ: textaufgabe
+typ: eingabe
 thema: "Geschwindigkeiten"
 schwierigkeit: gelb
 buchseite: 69
@@ -965,26 +966,25 @@ merkkasten_text: "Geschwindigkeiten werden in der Regel in Kilometer pro Stunde 
 ---
 
 ### Aufgabenstellung
-Verschiedene Fortbewegungsarten:
-- Ein Fussgänger schafft 1 km in 15 Minuten.
-- Ein Radfahrer schafft 8 km in 30 Minuten.
-- Ein Auto schafft 48 km in 1 Stunde.
-- Ein Motorrad schafft 60 km in 30 Minuten.
-
 Wie viele Kilometer schafft jeder in einer Stunde?
 
+a) Fussgänger (4 km in 15 min)
+b) Radfahrer (8 km in 30 min)
+c) Auto (12 km in 15 min)
+d) Motorrad (30 km in 15 min)
+
 ### Lösung
-- Fussgänger: 4 km/h
-- Radfahrer: 16 km/h
-- Auto: 48 km/h
-- Motorrad: 120 km/h
+a) 16
+b) 16
+c) 48
+d) 120
 
 ### Lösungsweg
 1 Stunde = 60 Minuten.
-- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km
-- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km
-- Auto: 60 min → 48 km → 48 km/h
-- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km
+- a) Fussgänger: 15 min → 4 km, also 60 min → 4 × 4 = 16 km
+- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km
+- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km
+- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km
 
 ### Tipp 1 (Denkanstoß)
 Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Überlege: Wie oft passen die angegebenen Minuten in 60 Minuten?
@@ -993,10 +993,9 @@ Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Mi
 Rechne hoch auf 60 Minuten:
 - 15 min × 4 = 60 min → Strecke × 4
 - 30 min × 2 = 60 min → Strecke × 2
-- 60 min × 1 = 60 min → Strecke bleibt
 
 ### Tipp 3 (Schritt-für-Schritt)
-Der Fussgänger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.
+Der Fussgänger: In 15 Minuten schafft er 4 km. In 30 Minuten (= 2 × 15) sind es 8 km. In 60 Minuten (= 4 × 15) sind es ? km.
 
 ### Didaktischer Hinweis
 Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet ("Wenn 15 min = 1 km, dann 60 min = ?"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.
@@ -1083,14 +1082,25 @@ Spitzengeschwindigkeiten von Tieren:
 - Schwalbe: 72 km/h
 - Antilope: 96 km/h
 
-Wie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...
+Wie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 30 Minuten?
 
-a) 30 Minuten?
-b) 15 Minuten?
+a) Eule
+b) Schwalbe
+c) Antilope
+
+Wie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 15 Minuten?
+
+d) Eule
+e) Schwalbe
+f) Antilope
 
 ### Lösung
-a) Eule: 32 km, Schwalbe: 36 km, Antilope: 48 km
-b) Eule: 16 km, Schwalbe: 18 km, Antilope: 24 km
+a) 32
+b) 36
+c) 48
+d) 16
+e) 18
+f) 24
 
 ### Lösungsweg
 - 30 min = halbe Stunde → Geschwindigkeit ÷ 2

@@ -220,7 +220,7 @@ Hier wird die Stellenwerttafel als zentrales Ordnungswerkzeug genutzt. Besonders
 
 ---
 titel: "Zahlen und Blöcke vergleichen — Was ist gleich?"
-typ: auswahl
+typ: wahr-falsch
 thema: "Der Millionen-Würfel"
 schwierigkeit: grün
 buchseite: 19
@@ -239,14 +239,14 @@ b) 562 und 562.000
 c) 187 und 187.000
 
 Wähle jeweils die richtige Aussage:
-A) Die Ziffern sind gleich, aber die Stellenwerte sind verschieden.
+A) Die Ziffern sind gleich, stehen aber an verschiedenen Stellen.
 B) Beide Zahlen sind gleich groß.
 C) Die Stellenwerte sind gleich, die Ziffern sind verschieden.
 
 ### Lösung
-a) A
-b) A
-c) A
+a) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)
+b) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)
+c) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)
 
 ### Lösungsweg
 Bei allen drei Paaren gilt: Die Ziffernfolge ist identisch (2-4-3, 5-6-2, 1-8-7), aber die Stellenwerte unterscheiden sich um den Faktor 1.000. Zum Beispiel: Bei 243 steht die 2 an der Hunderterstelle, bei 243.000 steht die 2 an der Hunderttausenderstelle.
@@ -851,11 +851,11 @@ merkkasten_begriffe: "der Hunderttausender (HT), der Zehntausender (ZT), der Tau
 ### Aufgabenstellung
 Setze das richtige Zeichen ein: < oder >
 
-a) 527.194 ○ 518.963
-b) 184.732 ○ 184.927
-c) 356.841 ○ 749.215
-d) 623.478 ○ 623.487
-e) 891.302 ○ 890.999
+a) 527.194 ▢ 518.963
+b) 184.732 ▢ 184.927
+c) 356.841 ▢ 749.215
+d) 623.478 ▢ 623.487
+e) 891.302 ▢ 890.999
 
 ### Lösung
 a) 527.194 > 518.963
@@ -1091,7 +1091,7 @@ Diese offene Aufgabe fördert das strategische Denken über Stellenwerte. Kinder
 
 ---
 titel: "Rechenpäckchen — Welche Stelle ändert sich?"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
@@ -1212,7 +1212,7 @@ Die Ergänzung der fehlenden Summanden fordert das Erkennen des Musters heraus. 
 
 ---
 titel: "Kopfrechnen mit Tausendern"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
@@ -1224,7 +1224,7 @@ merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, di
 ---
 
 ### Aufgabenstellung
-Rechne.
+Rechne im Kopf.
 
 a) 348 T + 5 T = ___ T → ___
 b) 521 T + 7 T = ___ T → ___
@@ -1262,7 +1262,7 @@ Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufga
 
 ---
 titel: "Kopfrechnen — Addition und Subtraktion mit Hundertern"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: grün
 buchseite: 25
@@ -1274,7 +1274,7 @@ merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, di
 ---
 
 ### Aufgabenstellung
-Rechne.
+Rechne im Kopf.
 
 a) 471.000 + 600 =
    471.000 + 660 =
@@ -1309,7 +1309,7 @@ Die Paarung "runde Aufgabe / krumme Aufgabe" (600 vs. 660) hilft Kindern, die sc
 
 ---
 titel: "Plusaufgaben bilden — Ergebnis im Bereich"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
@@ -1356,7 +1356,7 @@ Diese offene Aufgabe fördert das Überschlagen und strategische Denken. Es gibt
 
 ---
 titel: "Kopfrechnen — verwandte Aufgaben mit Hundertern und Tausendern"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: gelb
 buchseite: 24
@@ -1404,7 +1404,7 @@ Durch das bewusste Markieren der sich ändernden Stelle wird das Rechnen mit gro
 
 ---
 titel: "Kopfrechnen — gemischte Addition mit Hundertern und Tausendern"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen im Kopf"
 schwierigkeit: orange
 buchseite: 25
@@ -1416,7 +1416,7 @@ merkkasten_begriffe: "die Einerstelle, die Zehnerstelle, die Hunderterstelle, di
 ---
 
 ### Aufgabenstellung
-Rechne.
+Rechne im Kopf.
 
 a) 458.300 + 700 =
    458.300 + 770 =
@@ -1498,7 +1498,7 @@ Schätzen durch Hochrechnen einer Stichprobe ist eine zentrale Alltagskompetenz.
 
 ---
 titel: "Anzahl schaetzen — Nudeln in der Packung"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 27
@@ -1541,7 +1541,7 @@ Die Kombination aus Zählen einer Stichprobe und Hochrechnen auf die Gesamtmenge
 
 ---
 titel: "Anzahl schaetzen — Maiskörner in der Packung"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Anzahlen schaetzen"
 schwierigkeit: grün
 buchseite: 27
@@ -1585,7 +1585,7 @@ Hier wird zusätzlich zum Hochrechnen das Gewicht als Hilfsmittel genutzt (Wiege
 
 ---
 titel: "Schätzstrategie wählen"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Anzahlen schaetzen"
 schwierigkeit: gelb
 buchseite: 27
@@ -1684,7 +1684,7 @@ Die Aufgabe nutzt die Multiplikation als Flächenmodell (Reihen × Plätze pro R
 
 ---
 titel: "Schätzen — Wie viele passen auf die Fläche?"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Anzahlen schaetzen"
 schwierigkeit: orange
 buchseite: 26
@@ -1832,7 +1832,7 @@ Das Ablesen am Zahlenstrahl mit großen Zahlen erfordert zunächst die Analyse d
 
 ---
 titel: "Zahlenstrahl — verschiedene Ausschnitte"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: grün
 buchseite: 28
@@ -1889,7 +1889,7 @@ Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen tr
 
 ---
 titel: "Vorgänger und Nachfolger am Zahlenstrahl"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen am Zahlenstrahl"
 schwierigkeit: gelb
 buchseite: 28
@@ -2121,7 +2121,7 @@ Das freie Einordnen ohne Skalierung trainiert das Zahlenverständnis und die Pro
 
 ---
 titel: "Nachbar-Tausender bestimmen"
-typ: textaufgabe
+typ: eingabe
 thema: "Nachbarzahlen"
 schwierigkeit: gelb
 buchseite: 30
@@ -2178,7 +2178,7 @@ Nachbar-Tausender sind die Grundlage für das Runden auf Tausender. Das Kind sol
 
 ---
 titel: "Nachbar-Hunderter bestimmen und Abstand berechnen"
-typ: textaufgabe
+typ: eingabe
 thema: "Nachbarzahlen"
 schwierigkeit: grün
 buchseite: 30
@@ -2229,7 +2229,7 @@ Die Abstandsberechnung bereitet das Runden vor: Die Zahl wird zum näheren Nachb
 
 ---
 titel: "Nachbar-T, Nachbar-ZT und Nachbar-HT bestimmen"
-typ: textaufgabe
+typ: eingabe
 thema: "Nachbarzahlen"
 schwierigkeit: grün
 buchseite: 30
@@ -2346,7 +2346,7 @@ Diese Aufgabe ist die direkte Vorbereitung auf das Runden: Beim Runden auf Tause
 
 ---
 titel: "Nachbar-Tabelle ausfüllen"
-typ: schritt
+typ: eingabe
 thema: "Nachbarzahlen"
 schwierigkeit: orange
 buchseite: 30
@@ -2358,20 +2358,22 @@ merkkasten_begriffe: "die Nachbarzahlen, der Nachbar-Hunderter, der Nachbar-Taus
 ---
 
 ### Aufgabenstellung
-Trage die Zahlen in die Tabelle ein. Bestimme den kleineren und größeren Nachbar-T, Nachbar-ZT und Nachbar-HT.
+Bestimme die Nachbar-Hunderttausender, -Zehntausender und -Tausender.
 
-| Nachbar-HT↓ | Nachbar-ZT↓ | Nachbar-T↓ | Zahl | Nachbar-T↑ | Nachbar-ZT↑ | Nachbar-HT↑ |
-|---|---|---|---|---|---|---|
-| ? | ? | ? | 62.400 | ? | ? | ? |
-| ? | ? | ? | 347.850 | ? | ? | ? |
-| ? | ? | ? | 795.100 | ? | ? | ? |
+a) Nachbar-HT von 352.481: ___ und ___
+b) Nachbar-ZT von 352.481: ___ und ___
+c) Nachbar-T von 352.481: ___ und ___
+d) Nachbar-HT von 849.250: ___ und ___
+e) Nachbar-ZT von 849.250: ___ und ___
+f) Nachbar-T von 849.250: ___ und ___
 
 ### Lösung
-| Nachbar-HT↓ | Nachbar-ZT↓ | Nachbar-T↓ | Zahl | Nachbar-T↑ | Nachbar-ZT↑ | Nachbar-HT↑ |
-|---|---|---|---|---|---|---|
-| 0 | 60.000 | 62.000 | 62.400 | 63.000 | 70.000 | 100.000 |
-| 300.000 | 340.000 | 347.000 | 347.850 | 348.000 | 350.000 | 400.000 |
-| 700.000 | 790.000 | 795.000 | 795.100 | 796.000 | 800.000 | 800.000 |
+a) 300.000 und 400.000
+b) 350.000 und 360.000
+c) 352.000 und 353.000
+d) 800.000 und 900.000
+e) 840.000 und 850.000
+f) 849.000 und 850.000
 
 ### Lösungsweg
 Für jede Zahl wird systematisch auf den jeweiligen Stellenwert abgerundet (unterer Nachbar) und aufgerundet (oberer Nachbar).
@@ -2455,7 +2457,7 @@ Das Runden ist eine Schlüsselkompetenz für das Überschlagen und den Alltag. D
 
 ---
 titel: "Runden auf Tausender — ohne markierte Stelle"
-typ: textaufgabe
+typ: eingabe
 thema: "Runden"
 schwierigkeit: grün
 buchseite: 31
@@ -2511,7 +2513,7 @@ Der Schritt "zuerst die Entscheidungsstelle markieren" ist ein wichtiger Zwische
 
 ---
 titel: "Stadion-Zuschauerzahlen runden"
-typ: textaufgabe
+typ: eingabe
 thema: "Runden"
 schwierigkeit: grün
 buchseite: 31
@@ -2789,7 +2791,7 @@ Das Runden auf Zehntausender erweitert das Prinzip auf eine höhere Stellenwerte
 
 ---
 titel: "Verschiedene Rundungen vergleichen"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: grün
 buchseite: 33
@@ -2839,7 +2841,7 @@ Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie "Genauigkeit" funktio
 
 ---
 titel: "Gerundete Zahlen zuordnen — welche Zahl passt?"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: grün
 buchseite: 33
@@ -2895,7 +2897,7 @@ Die Umkehr-Aufgabe "Welche Zahl ergibt gerundet X?" erfordert das Verständnis d
 
 ---
 titel: "Einwohnerzahlen runden und vergleichen"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: gelb
 buchseite: 32
@@ -2948,7 +2950,7 @@ Einwohnerzahlen sind ein idealer Alltagskontext für das Runden: Niemand nennt d
 
 ---
 titel: "Runden und am Zahlenstrahl einordnen"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: orange
 buchseite: 33
@@ -3007,7 +3009,7 @@ Die Kombination von Runden und Einordnen am Zahlenstrahl verbindet zwei Kompeten
 
 ---
 titel: "Zahlen runden — offene Aufgabe"
-typ: textaufgabe
+typ: eingabe
 thema: "Große Zahlen runden und darstellen"
 schwierigkeit: orange
 buchseite: 33

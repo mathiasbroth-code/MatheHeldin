@@ -29,13 +29,13 @@ a) Vielfache von 3: 3, 6, ___, ___, ___, ___, ___, ___
 b) Vielfache von 7: 7, 14, ___, ___, ___, ___, ___, ___
 
 ### Lösung
-a) 3, 6, 9, 12, 15, 18, 21, 24
-b) 7, 14, 21, 28, 35, 42, 49, 56
+a) 24
+b) 56
 
 ### Lösungsweg
 Zähle immer die gleiche Zahl dazu:
-- a) 3, 3+3=6, 6+3=9, 9+3=12 ... bis du acht Zahlen hast
-- b) 7, 7+7=14, 14+7=21, 21+7=28 ... bis du acht Zahlen hast
+- a) 3, 6, 9, 12, 15, 18, 21, 24 → letztes (8.) Vielfaches: 24
+- b) 7, 14, 21, 28, 35, 42, 49, 56 → letztes (8.) Vielfaches: 56
 
 ### Tipp 1 (Denkanstoß)
 Stell dir einen Zahlenstrahl vor. Du startest bei 0 und machst immer gleich große Sprünge. Bei a) sind es 3er-Sprünge. Wo landest du nach dem dritten Sprung?
@@ -1294,7 +1294,7 @@ merkkasten_text: "Die Teiler einer Zahl sind alle Zahlen, durch die diese Zahl o
 ---
 
 ### Aufgabenstellung
-Finde die Zahl.
+Finde die Zahlen, die alle Bedingungen erfüllen.
 
 Ich habe genau 6 Teiler. Ich bin kleiner als 20. Ich bin eine gerade Zahl.
 
@@ -1551,8 +1551,8 @@ b) 78 : 6
    Ergebnis: ___
 
 ### Lösung
-a) 80 : 8 = 10, 16 : 8 = 2, Ergebnis: 12
-b) 60 : 6 = 10, 18 : 6 = 3, Ergebnis: 13
+a) 12
+b) 13
 
 ### Lösungsweg
 - a) 96 − 80 = 16. Also: 80:8=10, 16:8=2, Ergebnis: 10+2=12

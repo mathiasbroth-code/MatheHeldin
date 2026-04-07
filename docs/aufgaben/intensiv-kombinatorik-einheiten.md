@@ -164,7 +164,7 @@ Analog zur Tonnen-Kilogramm-Umrechnung. Die führenden Nullen (50 m = 0,050 km, 
 
 ---
 titel: "Welche Strecke ist länger?"
-typ: eingabe
+typ: auswahl
 thema: "Entfernungen"
 schwierigkeit: gelb
 buchseite: 68
@@ -176,18 +176,33 @@ merkkasten_text: "1 km = 1.000 m\n4,5 km = 4 km 500 m"
 ---
 
 ### Aufgabenstellung
-Welche Strecke ist länger? Kreuze an.
+Welche Strecke ist länger? Wähle die richtige Antwort.
 
 a) 3,5 km oder 3.200 m?
+   - 3,5 km
+   - 3.200 m
+   - Gleich lang
+
 b) 800 m oder 0,9 km?
+   - 800 m
+   - 0,9 km
+   - Gleich lang
+
 c) 1 km 400 m oder 1,04 km?
+   - 1 km 400 m
+   - 1,04 km
+   - Gleich lang
+
 d) 10,5 km oder 10 km 500 m?
+   - 10,5 km
+   - 10 km 500 m
+   - Gleich lang
 
 ### Lösung
-a) 3,5 km (= 3.500 m > 3.200 m)
-b) 0,9 km (= 900 m > 800 m)
-c) 1 km 400 m (= 1,4 km > 1,04 km)
-d) Gleich lang! 10,5 km = 10 km 500 m
+a) 3,5 km
+b) 0,9 km
+c) 1 km 400 m
+d) Gleich lang
 
 ### Lösungsweg
 Alles in die gleiche Einheit umwandeln und vergleichen:
@@ -1005,7 +1020,7 @@ c) Wer ist schneller?
 ### Lösung
 a) 6
 b) 15
-c) Der Radfahrer ist schneller.
+c) Radfahrer (20 km/h > 10 km/h)
 
 ### Lösungsweg
 Geschwindigkeit = Strecke ÷ Zeit:
@@ -1157,18 +1172,24 @@ Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:
 | Über die Landstrasse | 80 km/h | 1 Stunde |
 | Auf der Autobahn | 120 km/h | 30 min |
 
-a) Wie viele Kilometer fahren sie in jedem Abschnitt?
-b) Wie weit wohnt Oma insgesamt entfernt?
+Wie viele Kilometer fahren sie in jedem Abschnitt?
+
+a) Durch die Stadt: ___ km
+b) Über die Landstrasse: ___ km
+c) Auf der Autobahn: ___ km
+d) Wie weit wohnt Oma insgesamt entfernt? ___ km
 
 ### Lösung
-a) Stadt: 25 km, Landstrasse: 80 km, Autobahn: 60 km
-b) 165 km
+a) 25
+b) 80
+c) 60
+d) 165
 
 ### Lösungsweg
-- Stadt: 50 km/h × 0,5 h = 25 km
-- Landstrasse: 80 km/h × 1 h = 80 km
-- Autobahn: 120 km/h × 0,5 h = 60 km
-- Gesamt: 25 + 80 + 60 = 165 km
+- a) Stadt: 50 km/h × 0,5 h = 25 km
+- b) Landstrasse: 80 km/h × 1 h = 80 km
+- c) Autobahn: 120 km/h × 0,5 h = 60 km
+- d) Gesamt: 25 + 80 + 60 = 165 km
 
 ### Tipp 1 (Denkanstoß)
 Berechne für jeden Abschnitt einzeln: Wie weit kommt man in der angegebenen Zeit mit der angegebenen Geschwindigkeit?
@@ -1391,7 +1412,7 @@ Verbindung von Geschwindigkeitsrechnung mit Uhrzeiten. Die Umrechnung von Dezima
 
 ---
 titel: "Wettlauf verschiedener Fahrzeuge — Tabelle ausfüllen"
-typ: textaufgabe
+typ: schritt
 thema: "Geschwindigkeiten"
 schwierigkeit: orange
 buchseite: 69
@@ -1413,6 +1434,13 @@ Fülle die Tabelle aus. Berechne die fehlenden Werte.
 | Flugzeug | 1.600 km | 800 km/h | ? |
 
 ### Lösung
+1. Fahrrad: Strecke = 30 km
+2. Auto: Geschwindigkeit = 50 km/h
+3. Zug: Zeit = 2 Stunden
+4. Flugzeug: Zeit = 2 Stunden
+
+### Lösungsweg
+Vollständige Tabelle:
 | Fahrzeug | Strecke | Geschwindigkeit | Zeit |
 |----------|---------|----------------|------|
 | Fahrrad | 30 km | 15 km/h | 2 Stunden |
@@ -1420,11 +1448,11 @@ Fülle die Tabelle aus. Berechne die fehlenden Werte.
 | Zug | 300 km | 150 km/h | 2 Stunden |
 | Flugzeug | 1.600 km | 800 km/h | 2 Stunden |
 
-### Lösungsweg
-- Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)
-- Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)
-- Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)
-- Flugzeug: 1.600 ÷ 800 = 2 Stunden
+Rechenweg:
+- Schritt 1 — Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)
+- Schritt 2 — Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)
+- Schritt 3 — Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)
+- Schritt 4 — Flugzeug: 1.600 ÷ 800 = 2 Stunden
 
 ### Tipp 1 (Denkanstoß)
 Es gibt drei Größen: Strecke, Geschwindigkeit, Zeit. Wenn du zwei kennst, kannst du die dritte berechnen!
@@ -1469,8 +1497,8 @@ d) Wie viele Minuten früher als Mara kommt Tim an?
 
 ### Lösung
 a) 1 Stunde 15 Minuten
-b) 11:15 Uhr
-c) 11:00 Uhr
+b) 11:15
+c) 11:00
 d) 15 Minuten
 
 ### Lösungsweg
@@ -1520,7 +1548,7 @@ c) Um wie viel Uhr treffen sie sich?
 ### Lösung
 a) 150 km
 b) 2 Stunden
-c) 10:00 Uhr
+c) 10:00
 
 ### Lösungsweg
 - a) 80 + 70 = 150 km pro Stunde (zusammen)

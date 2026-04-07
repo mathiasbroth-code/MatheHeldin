@@ -85,17 +85,8 @@ a) 1.482, 1.237, 1.654, 1.819
 b) 1.573, 1.346, 1.908, 1.125
 
 ### Lösung
-a)
-- 1.482 = 1.000 + 400 + 80 + 2
-- 1.237 = 1.000 + 200 + 30 + 7
-- 1.654 = 1.000 + 600 + 50 + 4
-- 1.819 = 1.000 + 800 + 10 + 9
-
-b)
-- 1.573 = 1.000 + 500 + 70 + 3
-- 1.346 = 1.000 + 300 + 40 + 6
-- 1.908 = 1.000 + 900 + 0 + 8
-- 1.125 = 1.000 + 100 + 20 + 5
+a) 1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9
+b) 1.000 + 500 + 70 + 3 / 1.000 + 300 + 40 + 6 / 1.000 + 900 + 0 + 8 / 1.000 + 100 + 20 + 5
 
 ### Lösungsweg
 Jede Ziffer in der Zahl hat einen Wert, der von ihrer Position abhängt:
@@ -485,7 +476,7 @@ Hier wird das Prinzip aus Aufgabe 8 auf verschiedene Zahlen angewendet. Bei Zahl
 
 ---
 titel: "Plättchen wegnehmen — Stellenwerte subtrahieren"
-typ: textaufgabe
+typ: eingabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: grün
 buchseite: 8
@@ -536,7 +527,7 @@ Die Umkehroperation (Wegnehmen statt Dazulegen) erfordert eine wichtige zusätzl
 
 ---
 titel: "Plättchen rückwärts — Welche Zahl war es vorher?"
-typ: textaufgabe
+typ: eingabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: orange
 buchseite: 8
@@ -592,7 +583,7 @@ Diese Umkehraufgabe fördert das Rückwärtsdenken und die Reversibilität — e
 
 ---
 titel: "Stellenwerttafel — Zahlen verändern"
-typ: textaufgabe
+typ: eingabe
 thema: "Zahlen in der Stellenwerttafel"
 schwierigkeit: grün
 buchseite: 8
@@ -639,7 +630,7 @@ Diese Aufgabe verbindet Stellenwertverständnis mit Operationen. Besonders der �
 
 ---
 titel: "Hunderter addieren und subtrahieren"
-typ: textaufgabe
+typ: eingabe
 thema: "Rechnen bis 2.000"
 schwierigkeit: gelb
 buchseite: 9
@@ -650,7 +641,7 @@ tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ---
 
 ### Aufgabenstellung
-Rechne.
+Rechne im Kopf.
 
 a) 4 H + 3 H =       → 400 + 300 =
 b) 7 H + 2 H =       → 700 + 200 =
@@ -701,17 +692,23 @@ tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ### Aufgabenstellung
 Rechne. Vergleiche die Aufgaben miteinander.
 
-a) 500 + 400 =           b) 300 + 600 =
-   1.500 + 400 =            1.300 + 600 =
+a) 500 + 400 =
+   1.500 + 400 =
 
-c) 800 - 300 =           d) 700 - 500 =
-   1.800 - 300 =            1.700 - 500 =
+b) 300 + 600 =
+   1.300 + 600 =
+
+c) 800 - 300 =
+   1.800 - 300 =
+
+d) 700 - 500 =
+   1.700 - 500 =
 
 ### Lösung
-a) 900, 1.900
-b) 900, 1.900
-c) 500, 1.500
-d) 200, 1.200
+a) 900 / 1.900
+b) 900 / 1.900
+c) 500 / 1.500
+d) 200 / 1.200
 
 ### Lösungsweg
 Die Aufgaben sind verwandt: In der zweiten Zeile kommt jeweils 1.000 dazu. Die Hunderter-Rechnung bleibt gleich!
@@ -751,13 +748,17 @@ tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ### Aufgabenstellung
 Rechne. Was verändert sich von Aufgabe zu Aufgabe?
 
-a) 45 + 33 =        b) 72 + 18 =
-   145 + 33 =          172 + 18 =
-   1.145 + 33 =        1.172 + 18 =
+a) 45 + 33 =
+   145 + 33 =
+   1.145 + 33 =
+
+b) 72 + 18 =
+   172 + 18 =
+   1.172 + 18 =
 
 ### Lösung
-a) 78, 178, 1.178
-b) 90, 190, 1.190
+a) 78 / 178 / 1.178
+b) 90 / 190 / 1.190
 
 ### Lösungsweg
 Die Grundaufgabe bleibt gleich, es kommen nur größere Stellenwerte dazu:
@@ -795,13 +796,17 @@ tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ### Aufgabenstellung
 Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.
 
-a) 1.300 + 200 =          b) 1.200 + 500 =
-   1.300 + 250 =             1.250 + 500 =
-   1.300 + 257 =             1.257 + 500 =
+a) 1.300 + 200 =
+   1.300 + 250 =
+   1.300 + 257 =
+
+b) 1.200 + 500 =
+   1.250 + 500 =
+   1.257 + 500 =
 
 ### Lösung
-a) 1.500, 1.550, 1.557
-b) 1.700, 1.750, 1.757
+a) 1.500 / 1.550 / 1.557
+b) 1.700 / 1.750 / 1.757
 
 ### Lösungsweg
 - a) Zuerst werden nur die Hunderter addiert: 1.300 + 200 = 1.500. Dann kommen 50 dazu: 1.300 + 250 = 1.550. Dann kommen noch 7 dazu: 1.300 + 257 = 1.557.
@@ -838,13 +843,17 @@ tipp_1_bild: "assets/erklaerungen/s11-rechnen-bis-2000-intro.webp"
 ### Aufgabenstellung
 Markiere, was sich von Aufgabe zu Aufgabe ändert. Rechne.
 
-a) 1.600 - 300 =          b) 1.900 - 500 =
-   1.600 - 350 =             1.900 - 560 =
-   1.600 - 358 =             1.900 - 567 =
+a) 1.600 - 300 =
+   1.600 - 350 =
+   1.600 - 358 =
+
+b) 1.900 - 500 =
+   1.900 - 560 =
+   1.900 - 567 =
 
 ### Lösung
-a) 1.300, 1.250, 1.242
-b) 1.400, 1.340, 1.333
+a) 1.300 / 1.250 / 1.242
+b) 1.400 / 1.340 / 1.333
 
 ### Lösungsweg
 - a) 1.600 - 300 = 1.300. Dann werden 50 mehr abgezogen: 1.300 - 50 = 1.250. Dann werden noch 8 mehr abgezogen: 1.250 - 8 = 1.242.
@@ -1047,7 +1056,7 @@ Rechne die Addition selbst nach. Beginne bei den Einern. Stimmt dein Ergebnis mi
 Rechne die Aufgabe schriftlich nach. Vergleiche dein Ergebnis Ziffer für Ziffer mit dem angegebenen. Wo sind die Unterschiede?
 
 ### Tipp 3 (Schritt-für-Schritt)
-Bei b) 457 + 186: Einer: 7 + 6 = 13, schreibe 3, Übertrag 1. Zehner: 5 + 8 + 1 = 14, schreibe 4, Übertrag 1. Hunderter: 4 + 1 + 1 = 6. Dein Ergebnis: 643. Im angegebenen Ergebnis steht 634. Welche Ziffern sind vertauscht?
+Bei b) 457 + 186: Einer: 7 + 6 = 13, schreibe 3, Übertrag 1. Zehner: 5 + 8 + 1 = 14, schreibe 4, Übertrag 1. Was ergibt dann die Hunderterstelle (4 + 1 + Übertrag)? Und welche zwei Ziffern im angegebenen Ergebnis 634 sind vertauscht?
 
 ### Didaktischer Hinweis
 Fehler finden fördert die Selbstkontrolle. Kinder lernen, Ergebnisse kritisch zu prüfen statt blindlings abzuschreiben. Das Vertauschen von Ziffern ist ein häufiger Fehler bei schriftlichen Verfahren.

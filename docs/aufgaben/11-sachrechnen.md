@@ -126,6 +126,7 @@ Im Freibad gibt es eine neue Rutsche, die 73 m lang ist. Ein Kind ist ungefähr 
 Wie viele Kinder könnten sich hintereinanderlegen, damit die Rutsche von oben bis unten "belegt" ist?
 
 ### Lösung
+56
 73 m : 1,30 m = 56 (Rest 0,20 m)
 
 Es passen ungefähr 56 Kinder auf die Rutsche.
@@ -385,17 +386,15 @@ a) Ab wie vielen Besuchen ist die 10er-Karte günstiger als Einzeltickets?
 b) Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?
 
 ### Lösung
-a) Ab 11 Besuchen (10 · 8 = 80 < 85, also bei genau 10 Besuchen ist die Einzelkarte noch günstiger!)
-   Eigentlich: Die 10er-Karte ist bei 10 Besuchen teurer (85 > 80). Sie lohnt sich nie, wenn man nur die 10 vorgegebenen Besuche macht!
+a) 11
+Ab 11 Besuchen ist die 10er-Karte günstiger: 11 · 8 € = 88 € > 85 €.
 
-b) Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist sogar 5 Euro TEURER.
+b) Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist 5 Euro teurer.
 
 ### Lösungsweg
-- 10 Einzeltickets: 10 · 8 = 80 Euro
-- 10er-Karte: 85 Euro
-- 80 < 85 — die Einzeltickets sind günstiger!
-
-Die 10er-Karte hat andere Vorteile (z.B. kein Anstehen an der Kasse), aber rein rechnerisch lohnt sie sich in diesem Fall nicht.
+- 10 Einzeltickets: 10 · 8 = 80 Euro → noch günstiger als 85 Euro (10er-Karte)
+- 11 Einzeltickets: 11 · 8 = 88 Euro → teurer als 85 Euro (10er-Karte)
+- Ab 11 Besuchen lohnt sich die 10er-Karte.
 
 ### Tipp 1 (Denkanstoß)
 Rechne aus: Was kosten 10 einzelne Tickets? Vergleiche das mit dem Preis der 10er-Karte.
@@ -451,7 +450,8 @@ Leo nach 10 min: 6 · 75 = 450
 Maren nach 12 min: 12 · 50 = 600
 Leo nach 12 min: 8 · 75 = 600
 
-b) Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).
+b) 7:42
+Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).
 
 ### Lösungsweg
 Maren startet bei Minute 0 und geht 50 m pro Minute.
@@ -512,7 +512,8 @@ Tim nach 6 min: 2 · 100 = 200
 Ina nach 8 min: 8 · 50 = 400
 Tim nach 8 min: 4 · 100 = 400
 
-b) Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min).
+b) 7:38
+Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min).
 
 ### Lösungsweg
 - Inas Weg: 50 m pro Minute, Start bei 0 min
@@ -749,9 +750,9 @@ Der Regionalzug fährt pro Stunde durchschnittlich 90 km.
 Wie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?
 
 ### Lösung
-1. Strecke Schnellzug: 160 · 2,5 = 400
-2. Strecke Regionalzug: 90 · 2,5 = 225
-3. Gesamtentfernung: 400 + 225 = 625
+a) 400 km (Schnellzug: 160 · 2,5)
+b) 225 km (Regionalzug: 90 · 2,5)
+c) 625 km (Gesamt: 400 + 225)
 
 ### Lösungsweg
 Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden

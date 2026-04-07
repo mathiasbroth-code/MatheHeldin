@@ -214,8 +214,8 @@ Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code
 Wie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.
 
 ### Lösung
-6 Möglichkeiten:
-5139, 5193, 5319, 5391, 5913, 5931
+6
+Möglichkeiten: 5139, 5193, 5319, 5391, 5913, 5931
 
 ### Lösungsweg
 Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:
@@ -484,7 +484,7 @@ Einfacher Einstieg in Kombinationen über einen motivierenden Alltagskontext. Nu
 
 ---
 titel: "Augensummen mit zwei Würfeln"
-typ: eingabe
+typ: textaufgabe
 thema: "Alles Zufall?"
 schwierigkeit: gelb
 buchseite: 74
@@ -541,7 +541,7 @@ schwierigkeit: grün
 buchseite: 74
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "wahrscheinlichkeit"
-digital: voll
+digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchance, sicher, möglich, unmöglich"
 ---
@@ -705,7 +705,7 @@ Erweiterung auf drei Würfel: Der Ergebnisraum verschiebt sich (3 bis 18 statt 2
 
 ---
 titel: "Faire und unfaire Spielregeln"
-typ: wahr-falsch
+typ: auswahl
 thema: "Alles Zufall?"
 schwierigkeit: grün
 buchseite: 75
@@ -719,23 +719,35 @@ merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchanc
 ### Aufgabenstellung
 Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?
 
-a) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme." — Ist diese Regel fair?
-b) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt." — Ist diese Regel fair?
+a) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme."
+b) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt."
+
+Was gilt für beide Regeln?
+
+A) Beide fair
+B) Beide unfair
+C) Nur Regel A fair
+D) Nur Regel B fair
 
 ### Lösung
-a) Richtig — fair (18 gerade, 18 ungerade Kombinationen)
-b) Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)
+A) Beide fair
+
+Regel A: 18 gerade Kombinationen vs. 18 ungerade Kombinationen — fair.
+Regel B: 15 Kombinationen mit Summe > 7 vs. 15 Kombinationen mit Summe < 7 — fair (bei Summe 7 bekommt keiner einen Punkt, aber beide Seiten haben gleich viele Gewinnmöglichkeiten).
 
 ### Lösungsweg
 Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:
 
 Gerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18
 Ungerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18
-→ Regel A: 18 vs. 18 = fair ✓
+→ Regel A: 18 vs. 18 → fair
 
 Summe > 7 (8,9,10,11,12): 5+4+3+2+1 = 15
 Summe < 7 (2,3,4,5,6): 1+2+3+4+5 = 15
-→ Regel B: 15 vs. 15 = fair ✓
+Summe = 7 (6 Kombinationen): bekommt keiner einen Punkt
+→ Regel B: 15 vs. 15 → fair
+
+Beide Regeln sind fair → Antwort A
 
 ### Tipp 1 (Denkanstoß)
 Um zu entscheiden, ob eine Regel fair ist, musst du zählen: Wie viele Möglichkeiten hat Kind 1? Wie viele hat Kind 2? Wenn beide gleich viel haben, ist es fair.
@@ -939,7 +951,7 @@ Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre
 
 ---
 titel: "Häufige und seltene Buchstaben — Vermutung"
-typ: eingabe
+typ: auswahl
 thema: "Buchstaben zählen"
 schwierigkeit: gelb
 buchseite: 76
@@ -951,15 +963,15 @@ merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
 
 ### Aufgabenstellung
-Ali und Jette spielen "Buchstabenvogel" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?
+Ali und Jette spielen "Buchstabenvogel" (wie Galgenmännchen). Welche Buchstaben solltest du **zuerst** raten, um möglichst schnell zu gewinnen?
 
-Wähle aus:
-Zuerst raten: E, N, I, S, R, A, T
-Auf keinen Fall: X, Y, Q, J, C
+A) X, Y, Q — diese kommen fast nie vor
+B) E, N, S — diese kommen sehr häufig vor
+C) A, B, C — die ersten Buchstaben des Alphabets
+D) Z, J, V — diese klingen interessant
 
 ### Lösung
-Zuerst raten (z.B.): E, N, S (häufigste Buchstaben im Deutschen)
-Auf keinen Fall (z.B.): X, Y, Q (seltenste Buchstaben)
+B) E, N, S — diese kommen sehr häufig vor
 
 ### Lösungsweg
 Im Deutschen kommen manche Buchstaben viel häufiger vor als andere:
@@ -1089,6 +1101,8 @@ Vollständige Zählung (ohne Leerzeichen und Satzzeichen):
 | Z | 1 |
 | ß | 1 |
 
+Hinweis: S kommt in diesem Text nicht vor.
+
 Die fünf häufigsten: E (10), N (5), R (5), T (5), H/L/O (je 3)
 
 ### Lösungsweg
@@ -1119,7 +1133,7 @@ schwierigkeit: grün
 buchseite: 76
 kapitel: "07-kombinatorik-wahrscheinlichkeit"
 stage_id: "haeufigkeitsanalyse"
-digital: voll
+digital: teilweise
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Baumdiagramm, die Möglichkeit, die Reihenfolge"
 ---
@@ -1702,7 +1716,7 @@ Für c): Die häufigste Summe liegt in der Mitte zwischen dem Minimum und Maximu
 ### Tipp 3 (Schritt-für-Schritt)
 a) 1 + 1 + 1 = ?
 b) 6 + 6 + 6 = ?
-c) Die Mitte zwischen deinen Antworten a) und b): Addiere beide und teile durch 2. (3 + 18) / 2 = ? Runde auf eine ganze Zahl — das ist die häufigste Summe!
+c) Die mittlere Augensumme ist (3+18) ÷ 2 = 10,5. Das liegt genau zwischen 10 und 11 — und tatsächlich kommen beide gleich häufig vor. Welche zwei Zahlen sind es also?
 
 ### Didaktischer Hinweis
 Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.
