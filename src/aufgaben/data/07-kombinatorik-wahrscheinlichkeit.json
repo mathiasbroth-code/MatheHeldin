@@ -13,7 +13,7 @@
     "loesungsweg": "Baumdiagramm:\n```\n       ┌── Tom ── Mia     → Lena, Tom, Mia\nLena ──┤\n       └── Mia ── Tom     → Lena, Mia, Tom\n\n       ┌── Lena ── Mia    → Tom, Lena, Mia\nTom ───┤\n       └── Mia ── Lena    → Tom, Mia, Lena\n\n       ┌── Lena ── Tom    → Mia, Lena, Tom\nMia ───┤\n       └── Tom ── Lena    → Mia, Tom, Lena\n```\n\nFür den 1. Platz gibt es 3 Wahlmöglichkeiten, für den 2. Platz noch 2, für den 3. Platz nur 1.\n3 × 2 × 1 = 6",
     "tipps": [
       "Wer kann ganz links stehen? Es gibt 3 Möglichkeiten. Für jede dieser Möglichkeiten: Wer kann dann daneben stehen?",
-      "Zeichne ein Baumdiagramm: Beginne mit den 3 Kindern als Äste. Von jedem Ast gehen 2 weitere Äste ab (die beiden übrigen Kinder). Am Ende steht das letzte Kind fest. Zähle die Enden!\n\n```\nPlatz 1 → Platz 2 → Platz 3\n3 Aeste → je 2 Aeste → je 1 Ast\n```",
+      "Zeichne ein Baumdiagramm: Beginne mit den 3 Kindern als Äste. Von jedem Ast gehen 2 weitere Äste ab (die beiden übrigen Kinder). Am Ende steht das letzte Kind fest. Zähle die Enden!\n\n```\nPlatz 1 → Platz 2 → Platz 3\n3 Aeste → je 2 Aeste → je 1 Ast\n```.",
       "Wenn Lena links steht, gibt es 2 Möglichkeiten: Tom–Mia oder Mia–Tom.\nWenn Tom links steht, gibt es auch 2 Möglichkeiten.\nWenn Mia links steht, noch einmal 2.\nAlso: 3 × 2 = ?",
       "Baumdiagramm:\n```\n       ┌── Tom ── Mia     → Lena, Tom, Mia\nLena ──┤\n       └── Mia ── Tom     → Lena, Mia, Tom\n\n       ┌── Lena ── Mia    → Tom, Lena, Mia\nTom ───┤\n       └── Mia ── Lena    → Tom, Mia, Lena\n\n       ┌── Lena ── Tom    → Mia, Lena, Tom\nMia ───┤\n       └── Tom ── Lena    → Mia, Tom, Lena\n```\n\nFür den 1. Platz gibt es 3 Wahlmöglichkeiten, für den 2. Platz noch 2, für den 3. Platz nur 1.\n3 × 2 × 1 = 6"
     ],
@@ -62,8 +62,8 @@
       "items": [
         {
           "label": "1",
-          "frage": "(Hinweis: Ali+Jana ist das gleiche Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)",
-          "antwort": "6 verschiedene Fotos."
+          "frage": "Wie viele verschiedene Fotos können entstehen?",
+          "antwort": "6"
         }
       ]
     }
@@ -120,7 +120,7 @@
       "Die erste Ziffer ist die 5 — die ist fix. Jetzt musst du nur noch die drei übrigen Ziffern (1, 3, 9) anordnen. Wie viele Möglichkeiten gibt es dafür?",
       "Zeichne ein Baumdiagramm für die Stellen 2, 3 und 4. Beginne mit den 3 Möglichkeiten für Stelle 2. Von dort aus verzweige für Stelle 3 und 4.",
       "Wenn nach der 5 die 1 kommt: 51_ _. Es bleiben 3 und 9 → 5139 und 5193.\nWenn nach der 5 die 3 kommt: 53_ _. Es bleiben 1 und 9 → zwei Möglichkeiten.\nUnd wenn die 9 kommt?",
-      "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```"
+      "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```."
     ],
     "didaktischerHinweis": "Eine fixierte erste Stelle reduziert das Problem auf 3 × 2 × 1. Kinder erkennen: Weniger freie Stellen → weniger Möglichkeiten. Das ist ein wichtiger Baustein für das kombinatorische Denken.",
     "parsed": {
@@ -157,7 +157,7 @@
       "Geh der Reihe nach: Gegen wen spielt Team A? Dann: Gegen wen spielt Team B — aber ohne die Spiele, die schon gezählt sind?",
       "Mache eine Tabelle mit allen Teams als Zeilen und Spalten. Kreuze jedes Spiel an — aber nur einmal! (A gegen B = B gegen A, das zählt nur als 1 Spiel.)",
       "Team A: 3 Spiele (gegen B, C, D).\nTeam B: nur noch 2 neue Spiele (gegen C, D) — gegen A wurde schon gezählt.\nTeam C: noch 1 neues Spiel (gegen D).\nZusammen: 3 + 2 + 1 = ?",
-      "Systematisch alle Paarungen aufschreiben (A gegen B ist dasselbe wie B gegen A):\n\nTeam A spielt gegen: B, C, D → 3 Spiele\nTeam B spielt noch gegen: C, D → 2 neue Spiele\nTeam C spielt noch gegen: D → 1 neues Spiel\n3 + 2 + 1 = 6\n\nOder als Tabelle:\n| | B | C | D |\n|---|---|---|---|\n| A | A–B | A–C | A–D |\n| B | — | B–C | B–D |\n| C | — | — | C–D |"
+      "Systematisch alle Paarungen aufschreiben (A gegen B ist dasselbe wie B gegen A):\n\nTeam A spielt gegen: B, C, D → 3 Spiele\nTeam B spielt noch gegen: C, D → 2 neue Spiele\nTeam C spielt noch gegen: D → 1 neues Spiel\n3 + 2 + 1 = 6\n\nOder als Tabelle:\n| | B | C | D |\n|---|---|---|---|\n| A | A–B | A–C | A–D |\n| B | — | B–C | B–D |\n| C | — | — | C–D |."
     ],
     "didaktischerHinweis": "Identische Struktur wie Aufgabe 2 (Fotos zu zweit), aber im Fussball-Kontext. Kinder erkennen hoffentlich das Muster: 3 + 2 + 1 = 6 kommt wieder! Der Sportkontext ist besonders motivierend für viele Kinder.",
     "parsed": {
@@ -194,7 +194,7 @@
       "Wie viele Spiele gibt es in einer Gruppe mit 3 Teams? Zähle systematisch (wie bei den Fotos): Team 1 hat 2 Gegner, Team 2 hat noch 1 neuen Gegner ...",
       "3 Teams in einer Gruppe: 2 + 1 = 3 Spiele. Das gilt für beide Gruppen! Für die Gesamtspielzeit: Anzahl Spiele × Spieldauer.",
       "Gruppe A: Löwen–Tiger, Löwen–Bären → 2 Spiele für die Löwen. Tiger–Bären → 1 weiteres Spiel. Zusammen: 3 Spiele.\nBei d): 6 Spiele × 15 Minuten. Rechne: 6 × 15 = 6 × 10 + 6 × 5 = 60 + 30 = ?",
-      "a) Gruppe A: Löwen–Tiger, Löwen–Bären, Tiger–Bären = 3 Spiele\n   (2 + 1 = 3)\nb) Gruppe B: gleiche Rechnung = 3 Spiele\nc) 3 + 3 = 6 Spiele\nd) 6 × 15 = 90 Minuten = 1 h 30 min"
+      "a) Gruppe A: Löwen–Tiger, Löwen–Bären, Tiger–Bären = 3 Spiele\n   (2 + 1 = 3)\nb) Gruppe B: gleiche Rechnung = 3 Spiele\nc) 3 + 3 = 6 Spiele\nd) 6 × 15 = 90 Minuten = 1 h 30 min."
     ],
     "didaktischerHinweis": "Aufbau auf Aufgabe 5: Jetzt zwei Gruppen, die unabhängig voneinander gespielt werden. Teil d) verbindet Kombinatorik mit Zeitrechnung. Die Umwandlung 90 min = 1 h 30 min ist ein zusätzliches Lernziel.",
     "parsed": {
@@ -289,7 +289,7 @@
         {
           "label": "1",
           "frage": "Wie viele verschiedene Kombinationen gibt es?\n(Hinweis: Vanille+Schoko ist dasselbe wie Schoko+Vanille.)",
-          "antwort": "3 Kombinationen: V+S, V+E, S+E"
+          "antwort": "3"
         }
       ]
     }
@@ -350,9 +350,9 @@
     "loesungsweg": "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten",
     "tipps": [
       "Für die Augensumme 3: Welche Zahlen kann der erste Würfel zeigen, damit die Summe 3 wird? Überlege für jede Möglichkeit, was der zweite Würfel zeigen muss.",
-      "Mache eine Tabelle: Würfel 1 in die Zeilen (1-6), Würfel 2 in die Spalten (1-6). Berechne jede Summe. Zähle dann, wie oft jede Summe vorkommt.\n\n| | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| 2 | 3 | 4 | ... | ... | ... | ... |",
+      "Mache eine Tabelle: Würfel 1 in die Zeilen (1-6), Würfel 2 in die Spalten (1-6). Berechne jede Summe. Zähle dann, wie oft jede Summe vorkommt.\n\n| | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n| 2 | 3 | 4 | ... | ... | ... | ... |.",
       "Augensumme 4: Der erste Würfel zeigt 1 → zweiter muss 3 zeigen (1+3=4). Erster zeigt 2 → zweiter zeigt 2 (2+2=4). Erster zeigt 3 → zweiter zeigt ? (3+?=4). Das sind 3 Möglichkeiten.",
-      "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten"
+      "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten."
     ],
     "didaktischerHinweis": "Die systematische Tabelle aller 36 Kombinationen ist das zentrale Werkzeug. Kinder entdecken das Muster: Die 7 hat die meisten Möglichkeiten (6), die 2 und 12 die wenigsten (je 1). Das erklärt, warum manche Summen häufiger gewürfelt werden als andere — ein Aha-Erlebnis!",
     "parsed": {
@@ -404,12 +404,12 @@
     "digital": "voll",
     "aufgabenstellung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen. Ordne jeder Aussage zu: sicher, möglich oder unmöglich.\n\na) Die Augensumme ist größer als 1.\nb) Die Augensumme ist 7.\nc) Die Augensumme ist 13.\nd) Die Augensumme ist eine gerade Zahl.\ne) Die Augensumme ist kleiner als 13.\n\nA) sicher\nB) möglich\nC) unmöglich",
     "loesung": "a) → A\nb) → B\nc) → C\nd) → B\ne) → A",
-    "loesungsweg": "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu",
+    "loesungsweg": "Man prüft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu",
     "tipps": [
       "Erinnere dich: Die kleinste Augensumme ist 2, die größte ist 12. Prüfe jede Aussage: Passiert das immer? Manchmal? Oder nie?",
-      "Drei Fragen für jede Aussage:\n1. Kann es passieren? → Wenn nein: unmöglich\n2. Passiert es immer? → Wenn ja: sicher\n3. Passiert es manchmal? → Wenn ja: möglich",
+      "Drei Fragen für jede Aussage:\n1. Kann es passieren? → Wenn nein: unmöglich\n2. Passiert es immer? → Wenn ja: sicher\n3. Passiert es manchmal? → Wenn ja: möglich.",
       "a) \"Größer als 1\" — die kleinste Summe ist 2. Ist 2 > 1? Ja! Dann gilt das immer → sicher.\nc) \"Ist 13\" — die größte Summe ist 12. Kann 13 vorkommen? Nein → unmöglich.\nd) Gerade Summen: 2, 4, 6, 8, 10, 12 — die gibt es. Aber auch ungerade: 3, 5, 7 ... → nicht immer gerade → ?",
-      "Man prüeft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu"
+      "Man prüft jede Aussage gegen den Ergebnisraum (Summen von 2 bis 12):\n- **sicher:** trifft auf ALLE möglichen Ergebnisse zu\n- **möglich:** trifft auf EINIGE, aber nicht alle zu\n- **unmöglich:** trifft auf KEIN mögliches Ergebnis zu."
     ],
     "didaktischerHinweis": "Die Dreigliederung sicher/möglich/unmöglich ist der Kern der Wahrscheinlichkeitslehre in der Grundschule. Keine Brüche oder Prozente — nur qualitative Einschätzung. Besonders d) und e) erfordern sorgfältiges Nachdenken.",
     "parsed": {
@@ -538,7 +538,7 @@
       "Um zu entscheiden, ob eine Regel fair ist, musst du zählen: Wie viele Möglichkeiten hat Kind 1? Wie viele hat Kind 2? Wenn beide gleich viel haben, ist es fair.",
       "Nutze die große 6×6-Tabelle aller Würfelkombinationen. Färbe die Felder ein:\n- Eine Farbe für \"Kind 1 gewinnt\"\n- Eine andere Farbe für \"Kind 2 gewinnt\"\nZähle die Felder!",
       "Regel A: Gerade Summen bei zwei Würfeln: 2 (1 Möglichkeit), 4 (3 Möglichkeiten), 6 (5 Möglichkeiten), 8 (5), 10 (3), 12 (1) = 1+3+5+5+3+1 = ?\nUngerade Summen: 3 (2), 5 (4), 7 (6), 9 (4), 11 (2) = 2+4+6+4+2 = ?\nGleich? → fair oder unfair?",
-      "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 → fair\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\nSumme = 7 (6 Kombinationen): bekommt keiner einen Punkt\n→ Regel B: 15 vs. 15 → fair\n\nBeide Regeln sind fair → Antwort A"
+      "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 → fair\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\nSumme = 7 (6 Kombinationen): bekommt keiner einen Punkt\n→ Regel B: 15 vs. 15 → fair\n\nBeide Regeln sind fair → Antwort A."
     ],
     "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
     "parsed": {
@@ -593,12 +593,12 @@
         {
           "label": "a",
           "frage": "Welches Kind hat die größere Gewinnchance?",
-          "antwort": "Kind 2 hat die größere Gewinnchance."
+          "antwort": "Kind 2"
         },
         {
           "label": "b",
           "frage": "Ist das Spiel fair?",
-          "antwort": "Nein, das Spiel ist unfair."
+          "antwort": "Nein"
         }
       ]
     }
@@ -640,7 +640,7 @@
         {
           "label": "c",
           "frage": "Welche Ergebniszahl hat die größte Chance, gewürfelt zu werden? Begründe.",
-          "antwort": "Die 6 und die 12 haben die größte Chance (jeweils 4 Möglichkeiten: 6→1×6, 2×3, 3×2, 6×1; 12→2×6, 3×4, 4×3, 6×2)."
+          "antwort": "6 und 12"
         }
       ]
     }
@@ -661,7 +661,7 @@
       "Stell dir jede Situation bildlich vor. Passiert das jedes Mal so? Oder nur manchmal? Oder nie?",
       "Drei Fragen nacheinander:\n1. Ist es unmöglich? → Wenn ja: unmöglich.\n2. Ist es sicher (passiert es 100% immer)? → Wenn ja: sicher.\n3. Alles andere: möglich.",
       "b) Welcher Tag kommt nach Mittwoch? Immer Donnerstag? Ja! → sicher.\ne) Kannst du dir einen fliegenden Hund vorstellen (ohne Flugzeug)? Nein → unmöglich.\nd) Ist es garantiert, dass morgen die Sonne scheint? → ?",
-      "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich"
+      "Bei jeder Aussage fragen:\n- Kann es NIEMALS passieren? → unmöglich\n- Passiert es IMMER? → sicher\n- Kann es passieren, muss aber nicht? → möglich."
     ],
     "didaktischerHinweis": "Alltagsbezogene Aussagen sind der beste Einstieg in die Wahrscheinlichkeitslehre. Kinder lernen die drei Grundbegriffe an Beispielen aus ihrer Lebenswelt. Wichtig: \"möglich, aber unwahrscheinlich\" (wie Schnee im Juli) ist trotzdem \"möglich\" — das unterscheidet Grundschul-Wahrscheinlichkeit von exakter Stochastik.",
     "parsed": {
@@ -850,7 +850,7 @@
         {
           "label": "1",
           "frage": "Notiere die fünf häufigsten Buchstaben in \"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"",
-          "antwort": "E, N, R, T, H"
+          "antwort": "E, N/R/T (je 5×), H/L/O (je 3×)"
         }
       ]
     }
@@ -908,7 +908,7 @@
       "Lies jede Aussage und schau in der Tabelle nach: Welche Zahlen brauchst du? Vergleiche sie direkt.",
       "Schreibe zu jeder Aussage die Zahlen daneben:\na) E=15, ist das das Maximum?\nb) S=5, R=7, ist 5 > 7?\n...",
       "b) S kommt 5-mal vor, R kommt 7-mal vor. 5 ist weniger als 7. Also kommt S seltener vor als R — die Aussage sagt aber \"häufiger\". Stimmt das?",
-      "Jede Aussage einzeln prüfen:\n- a) E=15, nächsthöchster N=10 → E ist am häufigsten ✓\n- b) S=5, R=7 → S < R, also S kommt seltener vor, nicht häufiger ✗\n- c) N=10, S=5 → 10 = 2 × 5 ✓\n- d) A=8, T=9 → 8 < 9 ✓\n- e) R+A = 7+8 = 15 = E ✓"
+      "Jede Aussage einzeln prüfen:\n- a) E=15, nächsthöchster N=10 → E ist am häufigsten ✓\n- b) S=5, R=7 → S < R, also S kommt seltener vor, nicht häufiger ✗\n- c) N=10, S=5 → 10 = 2 × 5 ✓\n- d) A=8, T=9 → 8 < 9 ✓\n- e) R+A = 7+8 = 15 = E ✓."
     ],
     "didaktischerHinweis": "Daten interpretieren und Aussagen kritisch prüfen — eine Kernkompetenz der Datenanalyse. Besonders die Begriffe \"häufiger als\", \"doppelt so oft\" und \"genauso oft wie\" müssen verstanden werden. Die Aufgabe trainiert auch Addition und Vergleich.",
     "parsed": {
@@ -956,7 +956,7 @@
     "buchseite": 76,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "haeufigkeitsanalyse",
-    "digital": "teilweise",
+    "digital": "platzhalter",
     "aufgabenstellung": "Beim Spiel \"Buchstabenvogel\" musst du ein Wort erraten, indem du Buchstaben rätst. Falsche Buchstaben kosten einen Versuch.\n\nWelches der folgenden Wörter wäre am **schwersten** zu erraten? Begründe deine Antwort.\n\na) SCHULHEFT\nb) RHYTHMUS\nc) ELEFANT\nd) GYMNASIUM",
     "loesung": "b) RHYTHMUS ist am schwersten zu erraten.",
     "loesungsweg": "Man schaut, wie viele seltene Buchstaben im Wort stecken:\n- a) SCHULHEFT: S, C, H, U, L, H, E, F, T → E und S sind häufig, leicht zu erraten\n- b) RHYTHMUS: R, H, Y, T, H, M, U, S → Y ist sehr selten! Kein E!\n- c) ELEFANT: E, L, E, F, A, N, T → zwei E, viele häufige Buchstaben\n- d) GYMNASIUM: G, Y, M, N, A, S, I, U, M → Y ist selten, aber A, N, S, I sind häufig\n\nRHYTHMUS hat kein E (der häufigste Buchstabe!) und enthält Y (sehr selten). Deshalb ist es am schwersten.",
@@ -1011,7 +1011,7 @@
       "Beginne mit dem E — färbe alle E im Text ein. Dann zähle sie. Wiederhole das für andere Buchstaben, die dir auffallen.",
       "Mache eine Strichliste für das gesamte Alphabet (A bis Z). Gehe den Text Buchstabe für Buchstabe durch und mache für jeden einen Strich.",
       "Fang mit den Vokalen an (A, E, I, O, U) — die sind leicht zu finden. Zähle dann die häufigsten Konsonanten: R, N, S, T. Am Ende schau, welche Buchstaben des Alphabets gar keinen Strich haben.",
-      "Systematisches Zählen aller Buchstaben im Text:\nE: 22 — mit großem Abstand am häufigsten\nT: 13\nR: 11\nA: 7, H: 7\nN: 6\nSelten: B, L, O, Ö, V (je 1-mal)\nNicht vorhanden: J, P, Q, X, Y, Z"
+      "Systematisches Zählen aller Buchstaben im Text:\nE: 22 — mit großem Abstand am häufigsten\nT: 13\nR: 11\nA: 7, H: 7\nN: 6\nSelten: B, L, O, Ö, V (je 1-mal)\nNicht vorhanden: J, P, Q, X, Y, Z."
     ],
     "didaktischerHinweis": "Längerer Text mit realistischem Inhalt. Die vollständige Auszählung ist aufwändig und trainiert Ausdauer und Systematik. Das Ergebnis (E am häufigsten, seltene Buchstaben wie Q, X, Y fehlen) bestätigt die Erkenntnisse aus den vorherigen Aufgaben. Kinder sehen: Die Muster gelten für ALLE deutschen Texte.",
     "parsed": {
@@ -1053,7 +1053,7 @@
       "Schreibe beide Listen nebeneinander. Welche Buchstaben tauchen in BEIDEN auf?",
       "Kreise die gemeinsamen Buchstaben ein. Unterstreiche die, die nur in einer Liste vorkommen.",
       "Deutsch: E, N, I, S, R\nEnglisch: E, T, A, O, I\nPrüfe: Ist E in beiden? Ja! Ist N in beiden? N ist nicht im Englischen. Ist I in beiden? ...",
-      "Vergleich der Listen:\n- Deutsch: {E, N, I, S, R}\n- Englisch: {E, T, A, O, I}\n- Schnittmenge (in beiden): {E, I}\n- Nur Deutsch: {N, S, R}\n- Nur Englisch: {T, A, O}"
+      "Vergleich der Listen:\n- Deutsch: {E, N, I, S, R}\n- Englisch: {E, T, A, O, I}\n- Schnittmenge (in beiden): {E, I}\n- Nur Deutsch: {N, S, R}\n- Nur Englisch: {T, A, O}."
     ],
     "didaktischerHinweis": "Sprachvergleiche wecken Neugier und zeigen, dass Buchstabenhäufigkeiten sprachspezifisch sind. Das E als universell häufiger Buchstabe ist ein spannendes Ergebnis. Die Aufgabe lässt sich gut mit dem Deutschunterricht verknüpfen. Für mehrsprachige Kinder besonders motivierend.",
     "parsed": {
@@ -1250,7 +1250,7 @@
     "loesungsweg": "Von den 36 möglichen Kombinationen (6 × 6) ergeben:\n- **18 Kombinationen** eine gerade Summe\n- **18 Kombinationen** eine ungerade Summe\n\nGerade Summen: 1+1, 1+3, 1+5, 2+2, 2+4, 2+6, 3+1, 3+3, 3+5, 4+2, 4+4, 4+6, 5+1, 5+3, 5+5, 6+2, 6+4, 6+6 → 18\nUngerade Summen: 1+2, 1+4, 1+6, 2+1, 2+3, 2+5, 3+2, 3+4, 3+6, 4+1, 4+3, 4+5, 5+2, 5+4, 5+6, 6+1, 6+3, 6+5 → 18\n\nBeide haben exakt gleich viele Möglichkeiten, also ist das Spiel fair.",
     "tipps": [
       "Überlege: Wann ist eine Summe gerade? Wenn beide Würfel gerade ODER beide ungerade sind. Wann ist sie ungerade? Wenn ein Würfel gerade und der andere ungerade ist.",
-      "Male eine Tabelle mit allen 36 Kombinationen (6 Zeilen × 6 Spalten). Färbe gerade Summen blau und ungerade Summen rot. Zähle dann die blauen und roten Felder.\n\n```\n    1   2   3   4   5   6\n1 | 2 | 3 | 4 | 5 | 6 | 7 |\n2 | 3 | 4 | 5 | 6 | 7 | 8 |\n3 | 4 | 5 | 6 | 7 | 8 | 9 |\n4 | 5 | 6 | 7 | 8 | 9 |10 |\n5 | 6 | 7 | 8 | 9 |10 |11 |\n6 | 7 | 8 | 9 |10 |11 |12 |\n```",
+      "Male eine Tabelle mit allen 36 Kombinationen (6 Zeilen × 6 Spalten). Färbe gerade Summen blau und ungerade Summen rot. Zähle dann die blauen und roten Felder.\n\n```\n    1   2   3   4   5   6\n1 | 2 | 3 | 4 | 5 | 6 | 7 |\n2 | 3 | 4 | 5 | 6 | 7 | 8 |\n3 | 4 | 5 | 6 | 7 | 8 | 9 |\n4 | 5 | 6 | 7 | 8 | 9 |10 |\n5 | 6 | 7 | 8 | 9 |10 |11 |\n6 | 7 | 8 | 9 |10 |11 |12 |\n```.",
       "In der Tabelle bildet sich ein Schachbrettmuster: gerade und ungerade wechseln sich ab. In einem 6×6-Schachbrett gibt es 18 helle und 18 dunkle Felder. Also gibt es 18 gerade und 18 ungerade Summen. Ist das fair?",
       "Von den 36 möglichen Kombinationen (6 × 6) ergeben:\n- **18 Kombinationen** eine gerade Summe\n- **18 Kombinationen** eine ungerade Summe\n\nGerade Summen: 1+1, 1+3, 1+5, 2+2, 2+4, 2+6, 3+1, 3+3, 3+5, 4+2, 4+4, 4+6, 5+1, 5+3, 5+5, 6+2, 6+4, 6+6 → 18\nUngerade Summen: 1+2, 1+4, 1+6, 2+1, 2+3, 2+5, 3+2, 3+4, 3+6, 4+1, 4+3, 4+5, 5+2, 5+4, 5+6, 6+1, 6+3, 6+5 → 18\n\nBeide haben exakt gleich viele Möglichkeiten, also ist das Spiel fair."
     ],
@@ -1334,7 +1334,7 @@
       "Geh das Wort langsam Buchstabe für Buchstabe durch. Mach bei jedem E einen Strich.",
       "Schreibe das Wort ERDBEERE auf und kreise jeden Buchstaben E mit einem Stift ein. Zähle dann die Kreise.",
       "E-R-D-B-E-E-R-E — der erste Buchstabe ist ein E (1), dann kommen R, D, B (kein E), dann wieder E (2), E (3), dann R (kein E), und am Ende noch ein E (4). Wie viele E hast du gezählt?",
-      "Wir gehen das Wort Buchstabe für Buchstabe durch und markieren jedes E:\n**E**-R-D-B-**E**-**E**-R-**E**\nPosition 1: E ✓\nPosition 2: R\nPosition 3: D\nPosition 4: B\nPosition 5: E ✓\nPosition 6: E ✓\nPosition 7: R\nPosition 8: E ✓\n→ 4 × E"
+      "Wir gehen das Wort Buchstabe für Buchstabe durch und markieren jedes E:\n**E**-R-D-B-**E**-**E**-R-**E**\nPosition 1: E ✓\nPosition 2: R\nPosition 3: D\nPosition 4: B\nPosition 5: E ✓\nPosition 6: E ✓\nPosition 7: R\nPosition 8: E ✓\n→ 4 × E."
     ],
     "didaktischerHinweis": "Einstieg in die Häufigkeitsanalyse über eine einfache Zählübung. Das Wort ERDBEERE eignet sich gut, weil der Buchstabe E sowohl am Anfang, in der Mitte als auch am Ende vorkommt. Kinder neigen dazu, das erste oder letzte E zu übersehen — sorgfältiges Durchgehen wird geübt.",
     "parsed": {
@@ -1365,7 +1365,7 @@
       "Geh jedes Wort einzeln durch und mach für jedes A einen Strich auf einem Zettel.",
       "Schreibe jedes Wort groß auf und unterstreiche alle A. Zähle dann die Unterstreichungen für jedes Wort getrennt.",
       "a) ANANAS: A am Anfang (1), dann N, dann A (2), dann N, dann A (3), dann S. Also 3.\nb) BANANE: B, dann A (1), dann N, dann A (2), dann N, dann E. Wie viele A?\nc) PAPAYA: P, dann A (1), dann P, dann A (2), dann Y, dann A (3). Wie viele?",
-      "a) **A**-N-**A**-N-**A**-S → 3 × A\nb) B-**A**-N-**A**-N-E → 2 × A\nc) P-**A**-P-**A**-Y-**A** → 3 × A"
+      "a) **A**-N-**A**-N-**A**-S → 3 × A\nb) B-**A**-N-**A**-N-E → 2 × A\nc) P-**A**-P-**A**-Y-**A** → 3 × A."
     ],
     "didaktischerHinweis": "Erweiterung des Zählens auf mehrere Wörter. Die Wörter sind bewusst gewählt, weil sie viele A enthalten und sich Kinder leicht verzählen können. Besonders BANANE ist eine typische Falle: Kinder erwarten 3 A, weil die anderen Wörter auch 3 haben. Genaues Hinschauen wird belohnt.",
     "parsed": {
@@ -1437,7 +1437,7 @@
       "Vokale sind die Buchstaben A, E, I, O und U. Schreibe das Wort DINOSAURIER groß auf und unterstreiche alle Vokale.",
       "Zeichne eine Tabelle mit 5 Zeilen (A, E, I, O, U). Geh das Wort Buchstabe für Buchstabe durch. Bei jedem Vokal machst du einen Strich in der passenden Zeile.",
       "D → kein Vokal. I → Strich bei I. N → kein Vokal. O → Strich bei O. S → kein Vokal. A → Strich bei A. U → Strich bei U. R → kein Vokal. I → Strich bei I. E → Strich bei E. R → kein Vokal. Zähle jetzt die Striche in jeder Zeile!",
-      "Wir gehen das Wort Buchstabe für Buchstabe durch:\nD-**I**-N-**O**-S-**A**-**U**-R-**I**-**E**-R\n\n| Vokal | Strichliste | Anzahl |\n|-------|-------------|--------|\n| A     | \\|          | 1      |\n| E     | \\|          | 1      |\n| I     | \\|\\|        | 2      |\n| O     | \\|          | 1      |\n| U     | \\|          | 1      |"
+      "Wir gehen das Wort Buchstabe für Buchstabe durch:\nD-**I**-N-**O**-S-**A**-**U**-R-**I**-**E**-R\n\n| Vokal | Strichliste | Anzahl |\n|-------|-------------|--------|\n| A     | \\|          | 1      |\n| E     | \\|          | 1      |\n| I     | \\|\\|        | 2      |\n| O     | \\|          | 1      |\n| U     | \\|          | 1      |."
     ],
     "didaktischerHinweis": "Diese Aufgabe führt die Strichliste als Werkzeug ein. Statt nur einen Buchstaben zu zählen, müssen die Kinder mehrere Kategorien gleichzeitig im Blick behalten. Die tabellarische Darstellung ist eine Vorstufe zur Häufigkeitstabelle. DINOSAURIER ist ein motivierendes Wort, das alle fünf Vokale enthält.",
     "parsed": {
@@ -1519,7 +1519,7 @@
       "Vokale sind A, E, I, O und U. Das Ü in \"über\" ist ein Umlaut und zählt hier nicht mit. Geh den Satz Wort für Wort durch!",
       "Schreibe den Satz ab und kreise jeden Vokal (A, E, I, O, U) ein — egal ob groß oder klein. Achtung: Das Ü in \"über\" ist kein normaler Vokal! Zähle dann alle Kreise.",
       "Zähle Wort für Wort:\n\"Die\" → 2. \"Sonne\" → 2. \"scheint\" → 2. \"über\" → 1 (nur das e, nicht das ü). \"dem\" → 1. \"blauen\" → 3. \"Meer\" → 2.\nAddiere: 2 + 2 + 2 + 1 + 1 + 3 + 2 = ?",
-      "Wir gehen den Satz Wort für Wort durch und zählen A, E, I, O, U:\n\nD-**i**-**e** = 2 (i, e)\nS-**o**-n-n-**e** = 2 (o, e)\ns-c-h-**e**-**i**-n-t = 2 (e, i)\nü-b-**e**-r = 1 (e — das ü zählt nicht)\nd-**e**-m = 1 (e)\nb-l-**a**-**u**-**e**-n = 3 (a, u, e)\nM-**e**-**e**-r = 2 (e, e)\n\n2 + 2 + 2 + 1 + 1 + 3 + 2 = 13\n\n| Vokal | Anzahl |\n|-------|--------|\n| A     | 1      |\n| E     | 8      |\n| I     | 2      |\n| O     | 1      |\n| U     | 1      |\n| **Gesamt** | **13** |"
+      "Wir gehen den Satz Wort für Wort durch und zählen A, E, I, O, U:\n\nD-**i**-**e** = 2 (i, e)\nS-**o**-n-n-**e** = 2 (o, e)\ns-c-h-**e**-**i**-n-t = 2 (e, i)\nü-b-**e**-r = 1 (e — das ü zählt nicht)\nd-**e**-m = 1 (e)\nb-l-**a**-**u**-**e**-n = 3 (a, u, e)\nM-**e**-**e**-r = 2 (e, e)\n\n2 + 2 + 2 + 1 + 1 + 3 + 2 = 13\n\n| Vokal | Anzahl |\n|-------|--------|\n| A     | 1      |\n| E     | 8      |\n| I     | 2      |\n| O     | 1      |\n| U     | 1      |\n| **Gesamt** | **13** |."
     ],
     "didaktischerHinweis": "Diese Aufgabe kombiniert Vokalzählung mit einem ganzen Satz — die Königsdisziplin der Buchstabenanalyse auf dieser Stufe. Die Unterscheidung zwischen Umlauten (Ü) und regulären Vokalen wird explizit thematisiert. Die Häufigkeitstabelle am Ende des Lösungswegs zeigt, dass E mit Abstand der häufigste Vokal ist — eine typische Eigenschaft der deutschen Sprache, die Kinder hier entdecken können.",
     "parsed": {

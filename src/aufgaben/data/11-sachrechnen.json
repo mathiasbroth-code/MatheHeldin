@@ -31,12 +31,12 @@
         {
           "label": "b",
           "frage": "Was kostet eine 10er-Karte? ___",
-          "antwort": "85 Euro"
+          "antwort": "85"
         },
         {
           "label": "c",
           "frage": "Welches Angebot ist für Jette günstiger?",
-          "antwort": "64"
+          "antwort": "Einzeltickets"
         }
       ]
     }
@@ -57,7 +57,7 @@
       "Rechne zuerst für die Erwachsenen, dann für die Kinder. Addiere dann beides.",
       "Erstelle eine kleine Tabelle: Erwachsene links, Kinder rechts. Trage die Preise ein und addiere.",
       "Tageskarten: 2 · 14 = ___ (Erwachsene) + 3 · 11 = ___ (Kinder) = ___. 3-Stunden: 2 · 11 = ___ + 3 · 8 = ___ = ___. Unterschied: ___ - ___ = ___.",
-      "- Tageskarten: 2 Erwachsene · 14 Euro = 28 Euro, 3 Kinder · 11 Euro = 33 Euro, zusammen: 28 + 33 = 61 Euro\n- 3-Stunden-Tickets: 2 Erwachsene · 11 Euro = 22 Euro, 3 Kinder · 8 Euro = 24 Euro, zusammen: 22 + 24 = 46 Euro\n- Unterschied: 61 - 46 = 15 Euro"
+      "- Tageskarten: 2 Erwachsene · 14 Euro = 28 Euro, 3 Kinder · 11 Euro = 33 Euro, zusammen: 28 + 33 = 61 Euro\n- 3-Stunden-Tickets: 2 Erwachsene · 11 Euro = 22 Euro, 3 Kinder · 8 Euro = 24 Euro, zusammen: 22 + 24 = 46 Euro\n- Unterschied: 61 - 46 = 15 Euro."
     ],
     "didaktischerHinweis": "Preisberechnungen für Gruppen mit unterschiedlichen Tarifen sind ein typisches Sachaufgaben-Muster. Entspricht S. 112, Aufg. 1.",
     "parsed": {
@@ -68,12 +68,12 @@
         {
           "label": "a",
           "frage": "Was kosten Tageskarten für die ganze Familie? ___",
-          "antwort": "28"
+          "antwort": "61"
         },
         {
           "label": "b",
           "frage": "Was würden 3-Stunden-Tickets kosten? ___",
-          "antwort": "22"
+          "antwort": "46"
         },
         {
           "label": "c",
@@ -124,14 +124,14 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Vor Jette stehen 28 Kinder an der Rutsche an. Immer nach 15 Sekunden darf das nächste Kind rutschen.\n\nWie lange muss Jette ungefähr warten, bis sie rutschen kann?",
+    "aufgabenstellung": "Vor Jette stehen 28 Kinder an der Rutsche an. Immer nach 15 Sekunden darf das nächste Kind rutschen.\n\nWie viele Sekunden muss Jette ungefähr warten, bis sie rutschen kann?",
     "loesung": "28 · 15 Sekunden = 420 Sekunden = 7 Minuten",
     "loesungsweg": "1. Jedes Kind braucht 15 Sekunden, bis es los darf.\n2. 28 Kinder · 15 Sekunden = 420 Sekunden\n3. Umrechnen: 420 : 60 = 7 Minuten",
     "tipps": [
       "Wie viele Sekunden muss Jette warten? Rechne: Anzahl Kinder mal Wartezeit pro Kind. Dann rechne in Minuten um.",
       "28 · 15 ist die Gesamtwartezeit in Sekunden. Teile das Ergebnis durch 60, um Minuten zu bekommen.",
       "28 · 15 = ? Zerlege: 28 · 10 = 280, 28 · 5 = 140. Zusammen: 280 + 140 = ___. In Minuten: ___ : 60 = ___.",
-      "1. Jedes Kind braucht 15 Sekunden, bis es los darf.\n2. 28 Kinder · 15 Sekunden = 420 Sekunden\n3. Umrechnen: 420 : 60 = 7 Minuten"
+      "1. Jedes Kind braucht 15 Sekunden, bis es los darf.\n2. 28 Kinder · 15 Sekunden = 420 Sekunden\n3. Umrechnen: 420 : 60 = 7 Minuten."
     ],
     "didaktischerHinweis": "Zeitberechnungen mit Sekundenumrechnung. Entspricht S. 112, Aufg. 3.",
     "parsed": {
@@ -141,7 +141,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Wie lange muss Jette ungefähr warten, bis sie rutschen kann?",
+          "frage": "Wie viele Sekunden muss Jette ungefähr warten, bis sie rutschen kann?",
           "antwort": "420"
         }
       ]
@@ -156,7 +156,7 @@
     "kapitel": "11-sachrechnen",
     "stageId": "sachaufgaben",
     "digital": "voll",
-    "aufgabenstellung": "Jette möchte ihren Geburtstag im Schwimmbad feiern. Das Budget beträgt höchstens 150 Euro.\n\nInformationen:\n- Eintritt Kinder: 8 Euro (3-Stunden-Ticket)\n- Eintritt Erwachsene: 11 Euro (3-Stunden-Ticket)\n- Geburtstagskind und 1 Begleitperson: frei (im Angebot enthalten)\n- Angebot (gedeckter Tisch + Geschenk): 25 Euro\n- Essen mitbringen: Kuchen 7 Euro, Baguette 3 Euro\n- Getränke mitbringen: 3 Flaschen Wasser je 0,50 Euro, 3 Flaschen Saft je 1,50 Euro\n\nJette lädt 6 Freundinnen ein. Mama kommt mit.\n\na) Was kosten die Eintritte? (Jette + Mama frei, 6 Kinder zahlen) ___\nb) Was kostet das Angebot? ___\nc) Was kostet das mitgebrachte Essen und Trinken? ___\nd) Wie viel kostet die Feier insgesamt? Bleibt sie unter 150 Euro?",
+    "aufgabenstellung": "Jette feiert Geburtstag im Schwimmbad. Budget: höchstens 150 €.\n\n- Eintritt Kinder: 8 € (3-Stunden-Ticket)\n- Eintritt Erwachsene: 11 €\n- Geburtstagskind + 1 Begleitperson: frei\n- Angebot (gedeckter Tisch + Geschenk): 25 €\n- Essen: Kuchen 7 €, Baguette 3 €\n- Getränke: 3 × Wasser je 0,50 €, 3 × Saft je 1,50 €\n\nJette lädt 6 Freundinnen ein. Mama kommt mit.\n\na) Was kosten die Eintritte? (Jette + Mama frei, 6 Kinder zahlen)\nb) Was kostet das Angebot?\nc) Was kosten Essen und Getränke?\nd) Gesamtkosten? Bleibt sie unter 150 €?",
     "loesung": "a) 6 · 8 = 48 Euro (Jette + Mama frei)\nb) 25 Euro\nc) Essen: 7 + 3 = 10 Euro. Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro. Gesamt: 10 + 6 = 16 Euro.\nd) 48 + 25 + 16 = 89 Euro. Ja, das ist unter 150 Euro!",
     "loesungsweg": "Rechne jeden Posten einzeln aus und addiere am Schluss:\n1. Eintritt: 6 Kinder · 8 Euro = 48 Euro\n2. Angebot: 25 Euro\n3. Essen: Kuchen (7 Euro) + Baguette (3 Euro) = 10 Euro\n4. Getränke: 3 · 0,50 Euro + 3 · 1,50 Euro = 1,50 + 4,50 = 6 Euro\n5. Summe: 48 + 25 + 10 + 6 = 89 Euro\n6. 89 Euro < 150 Euro — passt!",
     "tipps": [
@@ -179,12 +179,12 @@
         {
           "label": "b",
           "frage": "Was kostet das Angebot? ___",
-          "antwort": "25 Euro"
+          "antwort": "25"
         },
         {
           "label": "c",
           "frage": "Was kostet das mitgebrachte Essen und Trinken? ___",
-          "antwort": "10"
+          "antwort": "16"
         },
         {
           "label": "d",
@@ -252,7 +252,7 @@
       "Rechne jede Variante einzeln aus: Alle Posten addieren. Dann vergleiche die Summen.",
       "Mache zwei Listen — eine für \"Mitbringen\", eine für \"Kaufen\". Addiere jeweils alle Posten und vergleiche am Ende.",
       "Variante A: 7 + 15 + 8 + 3 = ___ (Essen) + 1,50 + 4,50 = ___ (Getränke) = ___ gesamt. Variante B: 52 + 16,80 = ___. Unterschied: ___ - ___ = ___.",
-      "Variante A:\n- Essen: 7 + 15 + 8 + 3 = 33 Euro\n- Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro\n- Gesamt: 33 + 6 = 39 Euro\n\nVariante B:\n- Essen: 8 · 6,50 = 52 Euro\n- Getränke: 8 · 2,10 = 16,80 Euro\n- Gesamt: 52 + 16,80 = 68,80 Euro\n\nErsparnis: 68,80 - 39 = 29,80 Euro"
+      "Variante A:\n- Essen: 7 + 15 + 8 + 3 = 33 Euro\n- Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro\n- Gesamt: 33 + 6 = 39 Euro\n\nVariante B:\n- Essen: 8 · 6,50 = 52 Euro\n- Getränke: 8 · 2,10 = 16,80 Euro\n- Gesamt: 52 + 16,80 = 68,80 Euro\n\nErsparnis: 68,80 - 39 = 29,80 Euro."
     ],
     "didaktischerHinweis": "Kostenvergleich mit Kommazahlen und mehreren Posten ist eine anspruchsvolle, aber realitätsnahe Aufgabe. Entspricht S. 113, Aufg. 4 (Vertiefung).",
     "parsed": {
@@ -263,12 +263,12 @@
         {
           "label": "a",
           "frage": "Was kostet Variante A? ___",
-          "antwort": "7"
+          "antwort": "39"
         },
         {
           "label": "b",
           "frage": "Was kostet Variante B? ___",
-          "antwort": "52"
+          "antwort": "68,80"
         },
         {
           "label": "c",
@@ -309,8 +309,8 @@
         },
         {
           "label": "b",
-          "frage": "Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
-          "antwort": "80"
+          "frage": "Wie viel teurer ist die 10er-Karte bei 10 Besuchen im Vergleich zu Einzeltickets?",
+          "antwort": "5"
         }
       ]
     }
@@ -331,7 +331,7 @@
       "Zeichne einen Zahlenstrahl für den Schulweg. Trage ein, wo Maren und Leo nach jeder Minute sind. Wann sind sie an der gleichen Stelle?",
       "Erstelle eine Tabelle: Für jede Minute rechnest du aus, wie weit Maren und Leo sind. Wann steht bei beiden die gleiche Zahl?",
       "Nach 4 Minuten: Maren ist bei 4 · 50 = 200 m. Leo startet gerade (0 m). Nach 6 Minuten: Maren bei 6 · 50 = ___ m. Leo bei 2 · 75 = ___ m. Mach weiter bis die Zahlen gleich sind.",
-      "Maren startet bei Minute 0 und geht 50 m pro Minute.\nLeo startet bei Minute 4 und läuft 75 m pro Minute.\n- Marens Weg nach t Minuten: 50 · t\n- Leos Weg nach t Minuten: 75 · (t - 4), ab t = 4\n\nGleichsetzen: 50 · t = 75 · (t - 4) → 50t = 75t - 300 → 300 = 25t → t = 12\n\nNach 12 Minuten haben beide 600 m zurückgelegt."
+      "Schau dir die Tabelle an:\n\nMinute | Maren | Leo\n4      | 200 m | 0 m\n6      | 300 m | 150 m\n8      | 400 m | 300 m\n10     | 500 m | 450 m\n12     | 600 m | 600 m\n\nNach 12 Minuten haben beide 600 m zurückgelegt. Leo holt 7:30 + 12 Minuten = 7:42 Uhr seine Schwester ein."
     ],
     "didaktischerHinweis": "Die Tabelle als Lösungshilfe macht das Einhol-Problem greifbar. Entspricht S. 114, Aufg. 1.",
     "parsed": {
@@ -503,7 +503,7 @@
       "Marie hat 100 m Vorsprung. In jedem \"Abschnitt\" holt Anna ein Stück auf. Wie viel holt Anna pro Abschnitt auf?",
       "Zeichne einen Zahlenstrahl. Anna startet bei 0 m, Marie bei 100 m. Pro Zeiteinheit läuft Anna 100 m weiter, Marie 75 m. Wann stehen sie auf der gleichen Zahl?",
       "Pro Abschnitt holt Anna 100 - 75 = ___ m auf. Sie muss 100 m aufholen. 100 : 25 = ___ Abschnitte. Anna läuft ___ · 100 = ___ m.",
-      "Maries Vorsprung: 100 m. Während Anna 100 m läuft, holt sie 25 m auf (100 - 75 = 25).\n\nSie muss 100 m aufholen: 100 : 25 = 4 Durchgänge.\nAnna läuft 4 · 100 = 400 m, Marie läuft 100 + 4 · 75 = 100 + 300 = 400 m.\n\nOder mit Tabelle:\n| Annas Weg | Maries Weg |\n|-----------|-----------|\n| 100 m | 175 m |\n| 200 m | 250 m |\n| 300 m | 325 m |\n| 400 m | 400 m |"
+      "Maries Vorsprung: 100 m. Während Anna 100 m läuft, holt sie 25 m auf (100 - 75 = 25).\n\nSie muss 100 m aufholen: 100 : 25 = 4 Durchgänge.\nAnna läuft 4 · 100 = 400 m, Marie läuft 100 + 4 · 75 = 100 + 300 = 400 m.\n\nOder mit Tabelle:\n| Annas Weg | Maries Weg |\n|-----------|-----------|\n| 100 m | 175 m |\n| 200 m | 250 m |\n| 300 m | 325 m |\n| 400 m | 400 m |."
     ],
     "didaktischerHinweis": "Einhol-Aufgabe mit Vorsprung statt Zeitversatz. Der Zahlenstrahl als Skizze ist hier besonders hilfreich. Entspricht S. 114, Aufg. 3.",
     "parsed": {
@@ -514,7 +514,7 @@
         {
           "label": "1",
           "frage": "Nach wie vielen Metern hat Anna Marie eingeholt?",
-          "antwort": "Nach"
+          "antwort": "400"
         }
       ]
     }
@@ -578,7 +578,7 @@
         {
           "label": "1",
           "frage": "Wie viele Kilometer ist Simon in einer Stunde gefahren?",
-          "antwort": "Simon"
+          "antwort": "10"
         }
       ]
     }
@@ -610,7 +610,7 @@
         {
           "label": "1",
           "frage": "Nach wie vielen Metern hat Felix Marco wieder eingeholt? (Felix muss Marco also einmal überrunden.)",
-          "antwort": "Nach"
+          "antwort": "800"
         }
       ]
     }
@@ -643,8 +643,18 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\nDer Schnellzug fährt pro Stunde durchschnittlich 160 km.\nDer Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
-              "antwort": "a) 400 km (Schnellzug: 160 · 2,5)"
+              "frage": "Wie weit fährt der Schnellzug in 2 Stunden 30 Minuten? (160 · 2,5 = ?)",
+              "antwort": "400"
+            },
+            {
+              "label": "2",
+              "frage": "Wie weit fährt der Regionalzug in 2 Stunden 30 Minuten? (90 · 2,5 = ?)",
+              "antwort": "225"
+            },
+            {
+              "label": "3",
+              "frage": "Wie weit sind die Züge insgesamt voneinander entfernt? (400 + 225 = ?)",
+              "antwort": "625"
             }
           ]
         }
@@ -667,7 +677,7 @@
       "Du kennst die Gesamtentfernung (500 km) und die Strecke eines Zuges. Der Rest ist die Strecke des anderen Zuges. Daraus kannst du die Geschwindigkeit ausrechnen.",
       "Rechne rückwärts: Gesamtentfernung minus Strecke des bekannten Zuges = Strecke des unbekannten Zuges. Dann: Strecke geteilt durch Zeit = Geschwindigkeit.",
       "Zug 1: 120 · 2,5 = ___ km. Zug 2: 500 - ___ = ___ km. Geschwindigkeit Zug 2: ___ : 2,5 = ___ km/h.",
-      "Schritt 1: Strecke des ersten Zuges: 120 · 2,5 = 300 km\nSchritt 2: Strecke des zweiten Zuges: 500 - 300 = 200 km\nSchritt 3: Geschwindigkeit: 200 km : 2,5 h = 80 km/h"
+      "Schritt 1: Strecke des ersten Zuges: 120 · 2,5 = 300 km\nSchritt 2: Strecke des zweiten Zuges: 500 - 300 = 200 km\nSchritt 3: Geschwindigkeit: 200 km : 2,5 h = 80 km/h."
     ],
     "didaktischerHinweis": "Umkehraufgabe zur vorherigen Aufgabe — die Geschwindigkeit wird gesucht statt der Entfernung. Entspricht S. 115, Aufg. 8.",
     "parsed": {
@@ -678,7 +688,7 @@
         {
           "label": "1",
           "frage": "Wie schnell ist der andere Zug durchschnittlich gefahren?",
-          "antwort": "Der"
+          "antwort": "80"
         }
       ]
     }
@@ -696,10 +706,10 @@
     "loesung": "12",
     "loesungsweg": "20 - 8 = 12 Euro Rückgeld.",
     "tipps": [
-      "Stell dir vor, du hast 20 Euro auf dem Tisch. Du gibst 8 Euro ab. Wie viel bleibt liegen?",
+      "Wie viel bleibt von 20 Euro, wenn du 8 Euro bezahlst?",
       "Ziehe den Ticketpreis vom Geldschein ab: 20 - 8 = ?",
       "20 - 8 = ___. So viel Euro bekommt Jette zurück.",
-      "20 - 8 = 12 Euro Rückgeld."
+      "Vom Bezahlgeld die Kosten abziehen: 20 − 8 = 12 Euro Rückgeld."
     ],
     "didaktischerHinweis": "Einfache Rückgeld-Berechnung als Einstieg in alltagsnahe Subtraktionsaufgaben. Gelb-Niveau zum Warmwerden.",
     "parsed": {
@@ -728,10 +738,10 @@
     "loesung": "a) 5\nb) 5",
     "loesungsweg": "a) 3,50 + 1,50 = 5 Euro\nb) 10 - 5 = 5 Euro Rückgeld",
     "tipps": [
-      "Addiere zuerst die Preise der beiden Sachen. Dann ziehe die Summe vom 10-Euro-Schein ab.",
+      "Was kosten beide Sachen zusammen? Ziehe das von 10 Euro ab.",
       "Zuerst: Gesamtpreis = 3,50 + 1,50. Dann: Rückgeld = 10 - Gesamtpreis.",
       "3,50 + 1,50 = ___. Dann: 10 - ___ = ___. Das ist das Rückgeld.",
-      "a) 3,50 + 1,50 = 5 Euro\nb) 10 - 5 = 5 Euro Rückgeld"
+      "a) 3,50 + 1,50 = 5 Euro\nb) 10 - 5 = 5 Euro Rückgeld."
     ],
     "didaktischerHinweis": "Zwei-Schritt-Aufgabe: Zuerst addieren, dann subtrahieren. Alltagsnahes Szenario mit glatten Kommazahlen.",
     "parsed": {
@@ -768,7 +778,7 @@
       "Zeichne dir einen Zeitstrahl von 8 Uhr bis 20 Uhr. Markiere die Öffnungszeiten farbig. Zähle die Stunden ab.",
       "Geöffnete Stunden = Schließzeit minus Öffnungszeit. Rechne: 19 - 9 = ? und 20 - 8 = ?",
       "Werktag: 19 - 9 = ___ Stunden. Wochenende: 20 - 8 = ___ Stunden. Unterschied: ___ - ___ = ___ Stunden.",
-      "a) Von 9:00 bis 19:00 Uhr = 19 - 9 = 10 Stunden\nb) Von 8:00 bis 20:00 Uhr = 20 - 8 = 12 Stunden\nc) 12 - 10 = 2 Stunden mehr"
+      "a) Von 9:00 bis 19:00 Uhr = 19 - 9 = 10 Stunden\nb) Von 8:00 bis 20:00 Uhr = 20 - 8 = 12 Stunden\nc) 12 - 10 = 2 Stunden mehr."
     ],
     "didaktischerHinweis": "Zeitdauer-Berechnung mit vollen Stunden als sanfter Einstieg in Zeitaufgaben. Kein Umrechnen nötig.",
     "parsed": {
@@ -879,7 +889,7 @@
       "Zeichne einen Zeitstrahl. Trage die Abfahrt, die Ankunft, das Ticketende und die Rückkehr als Punkte ein. Rechne die Abstände aus.",
       "Addiere Schritt für Schritt: Abfahrt + Fahrtzeit = Ankunft. Ankunft + 3 Stunden = Ticketende. Ticketende + Fahrtzeit = Ankunft zu Hause.",
       "9:15 + 35 min: 9:15 + 30 = 9:45, + 5 = 9:50. Ticket endet: 9:50 + 3 h = ___. Rückfahrt: ___ + 35 min = ___.",
-      "a) 9:15 + 35 Minuten = 9:50 Uhr\nb) 9:50 + 3 Stunden = 12:50 Uhr\nc) 12:50 + 35 Minuten = 13:25 Uhr"
+      "a) 9:15 + 35 Minuten = 9:50 Uhr\nb) 9:50 + 3 Stunden = 12:50 Uhr\nc) 12:50 + 35 Minuten = 13:25 Uhr."
     ],
     "didaktischerHinweis": "Zeitplanung in mehreren Schritten. Uhrzeiten addieren ist ein häufiges Alltagsproblem und trainiert flexibles Rechnen mit Zeiteinheiten.",
     "parsed": {
@@ -1150,8 +1160,23 @@
             },
             {
               "label": "13",
-              "frage": "Summe:",
-              "antwort": "."
+              "frage": "16:00 · Verkaufte Becher =",
+              "antwort": "42"
+            },
+            {
+              "label": "14",
+              "frage": "16:00 · Übrig =",
+              "antwort": "8"
+            },
+            {
+              "label": "15",
+              "frage": "16:00 · Einnahmen =",
+              "antwort": "84 Euro"
+            },
+            {
+              "label": "16",
+              "frage": "Reichen die 50 Becher bis 16:30 Uhr? (ja/nein)",
+              "antwort": "nein"
             }
           ]
         }

@@ -328,7 +328,7 @@
         {
           "label": "1",
           "frage": "Finde mindestens zwei Möglichkeiten.",
-          "antwort": "- 100.000 − 64.815 = 35.185"
+          "antwort": "- 100.000 − 64.815 = 35.185\n- 100.000 − 61.548 = 38.452"
         }
       ]
     }
@@ -344,12 +344,12 @@
     "digital": "voll",
     "aufgabenstellung": "Rechne schriftlich. Kontrolliere mit der Umkehraufgabe.\n\na) 5.483 − 2.167 =\nb) 9.214 − 3.856 =\nc) 7.605 − 4.328 =",
     "loesung": "a) 3.316\nb) 5.358\nc) 3.277",
-    "loesungsweg": "Schriftliche Subtraktion Stelle für Stelle (von rechts nach links):\n- a) E: 3 − 7 → Übertrag → 13 − 7 = 6, Z: 7 − 6 = 1 (mit Übertrag: 8 − 1 − 6 = 1), H: 4 − 1 = 3 (mit Anpassung), T: 5 − 2 = 3 → 3.316\n- Kontrolle: 3.316 + 2.167 = 5.483 ✓",
+    "loesungsweg": "Schriftliche Subtraktion Stelle für Stelle (von rechts nach links):\n- a) E: 3 − 7 → Übertrag → 13 − 7 = 6, Z: 8 − 1 − 6 = 1, H: 4 − 1 = 3 (mit Anpassung), T: 5 − 2 = 3 → 3.316\n- Kontrolle: 3.316 + 2.167 = 5.483 ✓",
     "tipps": [
       "Schreibe die Zahlen untereinander, Stelle für Stelle. Fange bei den Einern an — was passiert, wenn die obere Ziffer kleiner ist als die untere?",
       "Benutze das Abziehverfahren: Wenn die obere Ziffer kleiner ist, borgst du dir eine vom nächsten Stellenwert. Schreibe die Rechnung in eine Stellenwerttafel: T | H | Z | E.",
       "a) Einer: 3 − 7 geht nicht → borge 1 Zehner: 13 − 7 = 6. Schreibe 6 hin. Jetzt die Zehner: 8 − 1 (Übertrag) − 6 = ?",
-      "Schriftliche Subtraktion Stelle für Stelle (von rechts nach links):\n- a) E: 3 − 7 → Übertrag → 13 − 7 = 6, Z: 7 − 6 = 1 (mit Übertrag: 8 − 1 − 6 = 1), H: 4 − 1 = 3 (mit Anpassung), T: 5 − 2 = 3 → 3.316\n- Kontrolle: 3.316 + 2.167 = 5.483 ✓"
+      "Schriftliche Subtraktion Stelle für Stelle (von rechts nach links):\n- a) E: 3 − 7 → Übertrag → 13 − 7 = 6, Z: 8 − 1 − 6 = 1, H: 4 − 1 = 3 (mit Anpassung), T: 5 − 2 = 3 → 3.316\n- Kontrolle: 3.316 + 2.167 = 5.483 ✓."
     ],
     "didaktischerHinweis": "Das schriftliche Subtrahieren wird hier in den größeren Zahlenraum übertragen. Die Umkehraufgabe dient als Selbstkontrolle — das stärkt die Eigenständigkeit des Kindes.",
     "parsed": {
@@ -388,7 +388,7 @@
     "loesungsweg": "- a) „Subtrahiere A von B\" bedeutet: B − A = 94.238 − 23.415 = 70.823\n- b) Summe = 37.652 + 18.794 = 56.446\n- c) Differenz = 610.000 − 485.000 = 125.000\n- d) 543.180 + 276.420 = 819.600",
     "tipps": [
       "Kennst du die Fachbegriffe? Summe = Ergebnis der Addition. Differenz = Ergebnis der Subtraktion. Was bedeutet „subtrahiere A von B\"?",
-      "Schreibe zuerst die Rechenaufgabe mit Zahlen und Zeichen auf:\n- „Subtrahiere A von B\" → B − A\n- „Bilde die Summe aus A und B\" → A + B\n- „Bilde die Differenz aus A und B\" → A − B",
+      "Schreibe zuerst die Rechenaufgabe mit Zahlen und Zeichen auf:\n- „Subtrahiere A von B\" → B − A\n- „Bilde die Summe aus A und B\" → A + B\n- „Bilde die Differenz aus A und B\" → A − B.",
       "a) „Subtrahiere 23.415 von 94.238\" heißt: 94.238 − 23.415. Schreibe es untereinander und rechne Stelle für Stelle.",
       "- a) „Subtrahiere A von B\" bedeutet: B − A = 94.238 − 23.415 = 70.823\n- b) Summe = 37.652 + 18.794 = 56.446\n- c) Differenz = 610.000 − 485.000 = 125.000\n- d) 543.180 + 276.420 = 819.600"
     ],
@@ -544,7 +544,7 @@
       "Schau dir bei jeder Zahl die vier Ziffern an: Sind die äußeren beiden gleich UND die inneren beiden gleich?",
       "Schreibe die Ziffern einzeln auf: _ _ _ _. Prüfe: 1. Ziffer = 4. Ziffer? Und 2. Ziffer = 3. Ziffer? Wenn beides stimmt, ist es eine ANNA-Zahl.",
       "Nimm z.B. 5.135: Die Ziffern sind 5, 1, 3, 5. Außen: 5 und 5 — gleich ✓. Innen: 1 und 3 — verschieden ✗. Also keine ANNA-Zahl.",
-      "Eine ANNA-Zahl hat das Muster ABBA:\n- 6.336 → 6-3-3-6 → ABBA ✓\n- 4.554 → 4-5-5-4 → ABBA ✓\n- 2.332 → 2-3-3-2 → ABBA ✓\n- 7.887 → 7-8-8-7 → ABBA ✓\n- 5.135 → 5-1-3-5 → die mittleren Ziffern (1 und 3) sind verschieden → ✗\n- 8.118 → 8-1-1-8 → ABBA ✓"
+      "Eine ANNA-Zahl hat das Muster ABBA:\n- 6.336 → 6-3-3-6 → ABBA ✓\n- 4.554 → 4-5-5-4 → ABBA ✓\n- 2.332 → 2-3-3-2 → ABBA ✓\n- 7.887 → 7-8-8-7 → ABBA ✓\n- 5.135 → 5-1-3-5 → die mittleren Ziffern (1 und 3) sind verschieden → ✗\n- 8.118 → 8-1-1-8 → ABBA ✓."
     ],
     "didaktischerHinweis": "ANNA-Zahlen sind ein motivierendes Muster, das zum Entdecken einlädt. Das Kind lernt, Zahlmuster zu erkennen und systematisch zu prüfen.",
     "parsed": {
@@ -756,7 +756,7 @@
       "Beim Überschlagen rundest du die Preise auf glatte Zahlen. Was ist die nächste glatte Zahl zu 498?",
       "Runde jeden Preis auf den nächsten Zehner oder Hunderter. Dann addiere die gerundeten Zahlen im Kopf. Ist die Summe kleiner als 1.800?",
       "Mini-Tor ≈ 280 Euro, Reckstange ≈ 500 Euro, Basketballkorb ≈ 110 Euro. Rechne: 280 + 500 = 780. Dann 780 + 110 = ?",
-      "1. Runde die Preise auf glatte Zahlen:\n   - Mini-Tor: 275 ≈ 280 Euro\n   - Reckstange: 498 ≈ 500 Euro\n   - Basketballkorb: 109 ≈ 110 Euro\n2. Überschlag: 280 + 500 + 110 = 890 Euro\n3. 890 < 1.800 → Es reicht!\n4. Genaue Rechnung: 275 + 498 + 109 = 882 Euro"
+      "1. Runde die Preise auf glatte Zahlen:\n   - Mini-Tor: 275 ≈ 280 Euro\n   - Reckstange: 498 ≈ 500 Euro\n   - Basketballkorb: 109 ≈ 110 Euro\n2. Überschlag: 280 + 500 + 110 = 890 Euro\n3. 890 < 1.800 → Es reicht!\n4. Genaue Rechnung: 275 + 498 + 109 = 882 Euro."
     ],
     "didaktischerHinweis": "Überschlagen ist eine alltagsnahe Strategie. Das Kind lernt, wann genaues Rechnen nötig ist und wann ein Überschlag reicht — eine wichtige mathematische Urteilsfähigkeit.",
     "parsed": {
@@ -820,7 +820,7 @@
       "Überleg zuerst: Muss ich hier auf den Cent genau rechnen? Oder reicht es zu wissen, ob das Geld reicht?",
       "Runde alle Preise und addiere. Wenn die Summe deutlich unter 1.350 liegt, reicht das Geld sicher. Für den genauen Rest rechnest du dann exakt.",
       "275 ≈ 280, 498 ≈ 500, 5,80 ≈ 6. Jetzt: 280 + 500 = 780. Dann 780 + 6 = ?",
-      "1. Überschlag: 275 ≈ 280, 498 ≈ 500, 5,80 ≈ 6\n2. 280 + 500 + 6 = 786 Euro\n3. 1.350 − 786 ≈ 564 → Es reicht deutlich\n4. Für den Restbetrag: 275 + 498 = 773, + 5,80 = 778,80. Rest: 1.350 − 778,80 = 571,20 Euro"
+      "1. Überschlag: 275 ≈ 280, 498 ≈ 500, 5,80 ≈ 6\n2. 280 + 500 + 6 = 786 Euro\n3. 1.350 − 786 ≈ 564 → Es reicht deutlich\n4. Für den Restbetrag: 275 + 498 = 773, + 5,80 = 778,80. Rest: 1.350 − 778,80 = 571,20 Euro."
     ],
     "didaktischerHinweis": "Die Unterscheidung „Reicht Überschlag oder brauche ich genaues Rechnen?\" ist eine wichtige Alltagskompetenz. Das Kind lernt situationsangemessen zu entscheiden.",
     "parsed": {
@@ -852,7 +852,7 @@
       "Wie viel kostet ein Seil im Sonderangebot? Und wie viel kosten dann 25 Seile? Überschlage zuerst!",
       "Zerlege die Multiplikation: 25 · 5,40 = 25 · 5 + 25 · 0,40. Rechne die Teile einzeln aus und addiere.",
       "Ein Seil kostet 5,40 Euro. 25 · 5 = 125 Euro. 25 · 0,40 = 10 Euro. Zusammen: 125 + 10 = ?",
-      "1. Sonderpreis berechnen: 5,80 − 0,40 = 5,40 Euro\n2. Überschlag: 25 · 5,40 ≈ 25 · 5 = 125 Euro → reicht wahrscheinlich\n3. Genau: 25 · 5 = 125, 25 · 0,40 = 10. Zusammen: 125 + 10 = 135 Euro\n4. 140 − 135 = 5 Euro übrig ✓"
+      "1. Sonderpreis berechnen: 5,80 − 0,40 = 5,40 Euro\n2. Überschlag: 25 · 5,40 ≈ 25 · 5 = 125 Euro → reicht wahrscheinlich\n3. Genau: 25 · 5 = 125, 25 · 0,40 = 10. Zusammen: 125 + 10 = 135 Euro\n4. 140 − 135 = 5 Euro übrig ✓."
     ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Überschlagen mit genauem Rechnen und dem Umgang mit Kommazahlen. Die Zerlegungsstrategie bei der Multiplikation ist ein wichtiges Werkzeug.",
     "parsed": {
@@ -884,7 +884,7 @@
       "Beginne mit den teuersten Geräten und rechne den Rest aus. Welche Geräte passen noch dazu?",
       "Runde alle Preise auf glatte Zahlen und überschlage. Dann rechne genau nach. Probiere verschiedene Kombinationen!",
       "Starte mit Mini-Tor ≈ 280 + Basketballkorb ≈ 110 + Pedalo ≈ 140 = 530. Es bleiben noch 1.500 − 530 = 970 Euro. Was passt noch?",
-      "Strategie: Überschlage die Preise und probiere verschiedene Kombinationen:\n1. Kaufe zuerst die teuren Geräte: 275 + 109 + 135 = 519 Euro\n2. Bleiben 1.500 − 519 = 981 Euro für weitere Geräte\n3. Probiere weitere Kombinationen und zähle zusammen"
+      "Strategie: Überschlage die Preise und probiere verschiedene Kombinationen:\n1. Kaufe zuerst die teuren Geräte: 275 + 109 + 135 = 519 Euro\n2. Bleiben 1.500 − 519 = 981 Euro für weitere Geräte\n3. Probiere weitere Kombinationen und zähle zusammen."
     ],
     "didaktischerHinweis": "Offene Aufgaben mit Budgetplanung trainieren strategisches Denken und den Umgang mit Geld. Das Kind muss abwägen, probieren und überschlagen — genau wie im Alltag.",
     "parsed": {
@@ -895,7 +895,7 @@
         {
           "label": "1",
           "frage": "Stelle eine Einkaufsliste zusammen, die möglichst nahe an 1.500 Euro herankommt.",
-          "antwort": "Eine mögliche Lösung: Mini-Tor (275) + Basketballkorb (109) + Pedalo (135) + Softbälle (89) + Tischtennisset (22) + Frisbee (4,90) = 634,90 Euro."
+          "antwort": "2 Mini-Tore (550) + 2 Basketballkörbe (218) + 2 Pedalos (270) + 2 Softbälle (178) + 2 Tischtennissets (44) + 2 Frisbees (9,80) + 1 Pedalo (135) + 1 Softbälle (89) = 1.493,80 Euro"
         }
       ]
     }
@@ -916,7 +916,7 @@
       "Runde beide Zahlen auf Zehner und rechne im Kopf. Liegt das angegebene Ergebnis in der Nähe deines Überschlags?",
       "Überschlag: Runde auf die nächsten Zehner. Wenn das angegebene Ergebnis weit vom Überschlag abweicht (mehr als 20-30), dann stimmt es wahrscheinlich nicht.",
       "b) Runde: 326 ≈ 330 und 189 ≈ 190. Rechne: 330 − 190 = 140. Das Ergebnis 237 ist viel größer als 140. Also stimmt es nicht. Rechne genau: 326 − 189 = ?",
-      "Beim Überschlag rundest du beide Zahlen und rechnest im Kopf:\n- a) 480 + 220 = 700, das Ergebnis 693 liegt nahe dran → stimmt vermutlich\n- b) 330 − 190 = 140, aber das angegebene Ergebnis ist 237 — viel zu groß! → stimmt nicht\n- c) 860 + 120 = 980, das Ergebnis 975 liegt nahe dran → stimmt vermutlich"
+      "Beim Überschlag rundest du beide Zahlen und rechnest im Kopf:\n- a) 480 + 220 = 700, das Ergebnis 693 liegt nahe dran → stimmt vermutlich\n- b) 330 − 190 = 140, aber das angegebene Ergebnis ist 237 — viel zu groß! → stimmt nicht\n- c) 860 + 120 = 980, das Ergebnis 975 liegt nahe dran → stimmt vermutlich."
     ],
     "didaktischerHinweis": "Der Überschlag als Kontrollinstrument ist eine Schlüsselkompetenz. Das Kind lernt, Ergebnisse kritisch zu hinterfragen, statt blind dem Rechenergebnis zu vertrauen.",
     "parsed": {
@@ -960,7 +960,7 @@
       "Runde die Zahlen auf Hunderter und rechne den Überschlag. Welches Ergebnis weicht stark ab?",
       "Überschlagsregel: Runde auf Hunderter. Bei einer Abweichung von mehr als 500 zum Überschlag ist das Ergebnis verdächtig!",
       "b) 3.645 ≈ 3.600, 5.207 ≈ 5.200. Überschlag: 3.600 + 5.200 = 8.800. Angegeben ist 9.852. Die Differenz ist über 1.000 — das kann nicht stimmen! Rechne genau nach.",
-      "- a) 4.900 + 1.300 = 6.200, Ergebnis 6.181 liegt nahe → ✓\n- b) 3.600 + 5.200 = 8.800, Ergebnis 9.852 ist ca. 1.000 zu groß → ✗ (richtig: 8.852)\n- c) 2.800 + 3.400 = 6.200, Ergebnis 6.213 liegt nahe → ✓"
+      "- a) 4.900 + 1.300 = 6.200, Ergebnis 6.181 liegt nahe → ✓\n- b) 3.600 + 5.200 = 8.800, Ergebnis 9.852 ist ca. 1.000 zu groß → ✗ (richtig: 8.852)\n- c) 2.800 + 3.400 = 6.200, Ergebnis 6.213 liegt nahe → ✓."
     ],
     "didaktischerHinweis": "Vierstellige Zahlen erfordern das Runden auf Hunderter. Das Kind trainiert, den Überschlag als Werkzeug zur Fehlersuche einzusetzen.",
     "parsed": {
@@ -1161,7 +1161,7 @@
     "loesung": "72 → · 5 → 360 → − 20 → 340",
     "loesungsweg": "1. Start: 72\n2. · 5: 72 · 5 = 360\n3. − 20: 360 − 20 = 340",
     "tipps": [
-      "Eine Rechenkette geht von links nach rechts. Starte bei 72 und führe die Rechenoperation aus. Was ist der nächste Schritt?",
+      "Starte bei 72 und rechne Schritt für Schritt von links nach rechts.",
       "Schritt für Schritt: Zuerst 72 · 5 rechnen. Dann vom Ergebnis 20 abziehen. Nutze die Zerlegung: 72 · 5 = 70 · 5 + 2 · 5.",
       "72 · 5: Zerlege in 70 · 5 = 350 und 2 · 5 = 10. Zusammen: 350 + 10 = 360. Jetzt: 360 − 20 = ?",
       "1. Start: 72\n2. · 5: 72 · 5 = 360\n3. − 20: 360 − 20 = 340"
@@ -1284,7 +1284,7 @@
     "loesung": "420 → : 6 → 70 → · 8 → 560 → + 140 → 700",
     "loesungsweg": "1. 420 : 6 = 70\n2. 70 · 8 = 560\n3. 560 + 140 = 700",
     "tipps": [
-      "Starte bei 420 und gehe Schritt für Schritt vor. Was ist die erste Operation?",
+      "Starte bei 420 und rechne Schritt für Schritt. Was kommt zuerst?",
       "Zeichne die Rechenkette als Diagramm mit Kästchen:\n420 → : 6 → ▢ → · 8 → ▢ → + 140 → ▢\nFülle jedes Kästchen von links nach rechts.",
       "420 : 6: Zerlege in 420 = 6 · 70. Also 420 : 6 = 70. Dann: 70 · 8 = ?",
       "1. 420 : 6 = 70\n2. 70 · 8 = 560\n3. 560 + 140 = 700"
@@ -1431,7 +1431,7 @@
       "Zeichne die Rechenkette als Diagramm. Welche Zahl steht am Ende? Rechne von dort rückwärts!",
       "Jede Operation hat eine Umkehrung: + ↔ −, · ↔ :. Starte beim Ergebnis (360) und kehre jede Operation um.",
       "Das letzte war „+ 120\". Umkehrung: 360 − 120 = 240. Davor war „· 4\". Umkehrung: 240 : 4 = ?",
-      "1. Rechenkette aufschreiben: ? → · 4 → ? → + 120 → 360\n2. Rückwärts rechnen:\n   - 360 − 120 = 240\n   - 240 : 4 = 60\n3. Probe: 60 · 4 = 240, 240 + 120 = 360 ✓"
+      "1. Rechenkette aufschreiben: ? → · 4 → ? → + 120 → 360\n2. Rückwärts rechnen:\n   - 360 − 120 = 240\n   - 240 : 4 = 60\n3. Probe: 60 · 4 = 240, 240 + 120 = 360 ✓."
     ],
     "didaktischerHinweis": "Zahlenrätsel verpacken algebraische Gleichungen in eine kindgerechte Form. Die Rechenkette macht die Struktur sichtbar, das Rückwärtsrechnen ist die Lösungsstrategie.",
     "parsed": {
@@ -1463,7 +1463,7 @@
       "Zeichne die Rechenkette. Am Ende steht 40. Was war der vorletzte Schritt?",
       "Umkehroperationen anwenden: − 35 wird zu + 35, : 8 wird zu · 8. Rechne vom Ende nach vorne.",
       "Letzter Schritt war „− 35 = 40\". Umkehrung: 40 + 35 = 75. Voriger Schritt war „: 8\". Umkehrung: 75 · 8 = ?",
-      "1. Rückwärts rechnen:\n   - 40 + 35 = 75 (Umkehrung von − 35)\n   - 75 · 8 = 600 (Umkehrung von : 8)\n2. Probe: 600 : 8 = 75, 75 − 35 = 40 ✓"
+      "1. Rückwärts rechnen:\n   - 40 + 35 = 75 (Umkehrung von − 35)\n   - 75 · 8 = 600 (Umkehrung von : 8)\n2. Probe: 600 : 8 = 75, 75 − 35 = 40 ✓."
     ],
     "didaktischerHinweis": "Division und Multiplikation als Umkehroperationen werden hier gezielt geübt. Die Probe am Ende gibt dem Kind Sicherheit und Kontrolle.",
     "parsed": {
@@ -1495,7 +1495,7 @@
       "Bei drei Operationen musst du dreimal rückwärts rechnen. Starte beim Ergebnis und kehre eine Operation nach der anderen um.",
       "Schreibe die ganze Kette auf: ? → · 5 → ? → + 50 → ? → : 3 → 100. Dann rechne von rechts nach links mit den Umkehroperationen.",
       "Letzter Schritt: : 3 → 100. Umkehrung: 100 · 3 = 300. Vorletzter: + 50 → 300. Umkehrung: 300 − 50 = 250. Erster: · 5 → 250. Umkehrung: 250 : 5 = ?",
-      "1. Rechenkette: ? → · 5 → ? → + 50 → ? → : 3 → 100\n2. Rückwärts:\n   - 100 · 3 = 300\n   - 300 − 50 = 250\n   - 250 : 5 = 50\n3. Probe: 50 · 5 = 250, 250 + 50 = 300, 300 : 3 = 100 ✓"
+      "1. Rechenkette: ? → · 5 → ? → + 50 → ? → : 3 → 100\n2. Rückwärts:\n   - 100 · 3 = 300\n   - 300 − 50 = 250\n   - 250 : 5 = 50\n3. Probe: 50 · 5 = 250, 250 + 50 = 300, 300 : 3 = 100 ✓."
     ],
     "didaktischerHinweis": "Drei Operationen erfordern systematisches Rückwärtsrechnen. Das Kind übt, die Kette sauber zu notieren und Schritt für Schritt abzuarbeiten. Die Probe gibt Sicherheit.",
     "parsed": {
@@ -1527,7 +1527,7 @@
       "Was bedeutet „verdopple\"? Das ist „· 2\". Schreibe die ganze Rechenkette auf und rechne rückwärts.",
       "Übersetze die Wörter: „subtrahiere 280\" = − 280, „verdopple\" = · 2, „addiere 190\" = + 190. Dann kehre alles um.",
       "450 − 190 = 260. 260 : 2 = 130 (Umkehrung von „verdopple\"). 130 + 280 = ?",
-      "1. Rückwärts rechnen:\n   - 450 − 190 = 260\n   - 260 : 2 = 130\n   - 130 + 280 = 410\n2. Probe: 410 − 280 = 130, 130 · 2 = 260, 260 + 190 = 450 ✓"
+      "1. Rückwärts rechnen:\n   - 450 − 190 = 260\n   - 260 : 2 = 130\n   - 130 + 280 = 410\n2. Probe: 410 − 280 = 130, 130 · 2 = 260, 260 + 190 = 450 ✓."
     ],
     "didaktischerHinweis": "Die sprachliche Vielfalt (subtrahieren, verdoppeln, addieren) trainiert das Übersetzen. Das Rückwärtsrechnen über mehrere Schritte erfordert systematisches Arbeiten.",
     "parsed": {
@@ -1559,7 +1559,7 @@
       "Die Rechenkette hat drei Schritte. Starte am Ende (400) und kehre jeden Schritt um. Was ist die Umkehrung von „· 5\"?",
       "400 : 5 = 80. Dann die Umkehrung von : 4 → also · 4: 80 · 4 = 320. Zuletzt die Umkehrung von + 56 → also − 56.",
       "400 : 5 = 80. 80 · 4 = 320. 320 − 56 = ? Zerlege: 320 − 50 = 270, dann 270 − 6 = ?",
-      "1. Rückwärts rechnen:\n   - 400 : 5 = 80\n   - 80 · 4 = 320\n   - 320 − 56 = 264\n2. Probe: 264 + 56 = 320, 320 : 4 = 80, 80 · 5 = 400 ✓"
+      "1. Rückwärts rechnen:\n   - 400 : 5 = 80\n   - 80 · 4 = 320\n   - 320 − 56 = 264\n2. Probe: 264 + 56 = 320, 320 : 4 = 80, 80 · 5 = 400 ✓."
     ],
     "didaktischerHinweis": "Komplexere Zahlenrätsel mit drei verschiedenen Operationen trainieren die Sicherheit im Umgang mit Umkehroperationen. Die Probe gibt Kontrolle und Erfolgserlebnis.",
     "parsed": {
@@ -1811,7 +1811,7 @@
       "Rechne die Aufgabe OHNE Klammern (mit Punkt vor Strich). Stimmt das Ergebnis? Wenn nicht, probiere verschiedene Klammerpaare.",
       "Die Klammer ändert die Reihenfolge. Probiere: Welche zwei Zahlen musst du zuerst zusammenrechnen, damit das Ergebnis stimmt?",
       "a) Ohne Klammer: 90 + 30 · 4 = 90 + 120 = 210. Das ist nicht 480. Probiere: (90 + 30) · 4 = 120 · 4 = ?",
-      "Ohne Klammern würde Punkt vor Strich gelten — und das Ergebnis wäre anders:\n- a) Ohne Klammer: 90 + 120 = 210 ≠ 480. Mit Klammer: (90 + 30) · 4 = 120 · 4 = 480 ✓\n- b) Ohne Klammer: 50 + 40 = 90 ≠ 10. Mit Klammer: 500 : (10 + 40) = 500 : 50 = 10 ✓\n- c) Ohne Klammer: 50 + 480 = 530 ≠ 880. Mit Klammer: (50 + 60) · 8 = 110 · 8 = 880 ✓\n- d) Ohne Klammer: 180 − 20 = 160 ≠ 70. Mit Klammer: (180 − 40) : 2 = 140 : 2 = 70 ✓"
+      "Ohne Klammern würde Punkt vor Strich gelten — und das Ergebnis wäre anders:\n- a) Ohne Klammer: 90 + 120 = 210 ≠ 480. Mit Klammer: (90 + 30) · 4 = 120 · 4 = 480 ✓\n- b) Ohne Klammer: 50 + 40 = 90 ≠ 10. Mit Klammer: 500 : (10 + 40) = 500 : 50 = 10 ✓\n- c) Ohne Klammer: 50 + 480 = 530 ≠ 880. Mit Klammer: (50 + 60) · 8 = 110 · 8 = 880 ✓\n- d) Ohne Klammer: 180 − 20 = 160 ≠ 70. Mit Klammer: (180 − 40) : 2 = 140 : 2 = 70 ✓."
     ],
     "didaktischerHinweis": "Das rückwärtige Klammern-Setzen fördert tiefes Verständnis der Rechenregeln. Das Kind muss die Wirkung der Klammer verstehen und kreativ einsetzen — eine höhere kognitive Anforderung.",
     "parsed": {
@@ -2133,7 +2133,7 @@
       "Achte auf die Fachbegriffe! Summe → +, Differenz → −, Produkt → ·, Quotient → :. Übersetze jedes Rätsel in eine Gleichung.",
       "Schreibe das Rätsel als Gleichung: „Summe aus meiner Zahl und 7\" = ▢ + 7 (oder 7 + ▢). Vergleiche mit den vorgegebenen Gleichungen.",
       "Rätsel 2: „Produkt aus 7 und meiner Zahl\" = 7 · ▢. „Summe aus 10 und 4\" = 14. Also: 7 · ▢ = 14 → ▢ = ?",
-      "1. Übersetze die Fachbegriffe: Summe = +, Differenz = −, Produkt = ·, Quotient = :\n2. Ordne die Rätsel den Gleichungen zu\n3. Löse mit Umkehroperationen"
+      "1. Übersetze die Fachbegriffe: Summe = +, Differenz = −, Produkt = ·, Quotient = :\n2. Ordne die Rätsel den Gleichungen zu\n3. Löse mit Umkehroperationen."
     ],
     "tippBilder": [
       null,
@@ -2205,7 +2205,7 @@
       "Rechne beide Seiten getrennt aus. Welche Seite hat den größeren Wert? Das Zeichen zeigt immer zum kleineren Wert (wie ein hungriger Mund, der den Größeren fressen will).",
       "Links ausrechnen, rechts ausrechnen, vergleichen. Das „Krokodil\" frisst die größere Zahl: Der offene Teil zeigt zur größeren Zahl.",
       "a) Links: 80 · 4 = 320. Rechts: 450 − 120 = 330. 320 ist kleiner als 330. Also: 320 ? 330. Welches Zeichen?",
-      "Rechne beide Seiten aus und vergleiche:\n- a) 80 · 4 = 320 und 450 − 120 = 330. 320 < 330 → <\n- b) 260 + 150 = 410 und 95 · 5 = 475. 410 < 475 → <\n- c) 6 · 45 = 270 und 9 · 32 = 288. 270 < 288 → <\n- d) 540 : 9 = 60 und 7 · 9 = 63. 60 < 63 → <"
+      "Rechne beide Seiten aus und vergleiche:\n- a) 80 · 4 = 320 und 450 − 120 = 330. 320 < 330 → <\n- b) 260 + 150 = 410 und 95 · 5 = 475. 410 < 475 → <\n- c) 6 · 45 = 270 und 9 · 32 = 288. 270 < 288 → <\n- d) 540 : 9 = 60 und 7 · 9 = 63. 60 < 63 → <."
     ],
     "tippBilder": [
       null,
@@ -2352,7 +2352,7 @@
       "Schau dir die Cent-Beträge an: Sind sie näher an 0 Cent oder an 100 Cent (= 1 €)?",
       "Beim Runden: Ab 50 Cent rundest du auf zum nächsten Euro, unter 50 Cent rundest du ab. Dann addierst du die gerundeten Werte.",
       "2,89 € → die 89 Cent sind fast 1 €, also runde auf 3 €. 1,15 € → die 15 Cent sind wenig, also runde auf 1 €. Jetzt rechne: 3 + 1 = ?",
-      "1. Runde jeden Preis auf den nächsten vollen Euro:\n   - 2,89 € → 3 € (aufgerundet, weil 89 Cent > 50 Cent)\n   - 1,15 € → 1 € (abgerundet, weil 15 Cent < 50 Cent)\n2. Addiere die gerundeten Beträge: 3 + 1 = 4 €"
+      "1. Runde jeden Preis auf den nächsten vollen Euro:\n   - 2,89 € → 3 € (aufgerundet, weil 89 Cent > 50 Cent)\n   - 1,15 € → 1 € (abgerundet, weil 15 Cent < 50 Cent)\n2. Addiere die gerundeten Beträge: 3 + 1 = 4 €."
     ],
     "didaktischerHinweis": "Das Runden von Geldbeträgen ist eine alltagsnahe Fähigkeit. Das Kind lernt, mit gerundeten Werten schnell abzuschaetzen, bevor es genau rechnet.",
     "parsed": {
@@ -2396,7 +2396,7 @@
       "Runde beide Preise auf volle Euro. Welcher wird aufgerundet, welcher abgerundet?",
       "7,49 € — sind 49 Cent mehr oder weniger als 50 Cent? Und 4,95 € — sind 95 Cent mehr oder weniger als 50 Cent? Runde entsprechend und addiere.",
       "7,49 € ≈ 7 € (49 Cent ist knapp unter 50, also abrunden). 4,95 € ≈ 5 € (95 Cent ist fast 1 €, also aufrunden). Jetzt: 7 + 5 = ?",
-      "1. Runde die Preise:\n   - 7,49 € → 7 € (abgerundet, weil 49 Cent < 50 Cent)\n   - 4,95 € → 5 € (aufgerundet, weil 95 Cent > 50 Cent)\n2. Addiere: 7 + 5 = 12 €"
+      "1. Runde die Preise:\n   - 7,49 € → 7 € (abgerundet, weil 49 Cent < 50 Cent)\n   - 4,95 € → 5 € (aufgerundet, weil 95 Cent > 50 Cent)\n2. Addiere: 7 + 5 = 12 €."
     ],
     "didaktischerHinweis": "Das Kind übt das Runden in beide Richtungen (auf und ab) und erlebt, dass der Überschlag eine gute Näherung an den genauen Preis liefert.",
     "parsed": {
@@ -2484,7 +2484,7 @@
       "Runde jeden Preis auf volle Euro und addiere alles. Vergleiche dann die Summe mit 15 €.",
       "Vier Preise runden, addieren, dann von 15 € abziehen. Wenn die Summe unter 15 € liegt, reicht das Geld.",
       "Runde: 3 + 2 + 2 + 4 = 11 €. Jetzt: 15 − 11 = 4 €. Weil du etwas abgerundet hast, ist der echte Rest etwas kleiner. Welche Antwort passt?",
-      "1. Runde alle Preise auf volle Euro:\n   - 3,29 € → 3 €, 1,89 € → 2 €, 2,49 € → 2 €, 4,15 € → 4 €\n2. Addiere: 3 + 2 + 2 + 4 = 11 €\n3. Vom Budget abziehen: 15 − 11 = 4 € übrig (Überschlag)\n4. Genau: 15 − 11,82 = 3,18 € → ungefähr 3 € übrig"
+      "1. Runde alle Preise auf volle Euro:\n   - 3,29 € → 3 €, 1,89 € → 2 €, 2,49 € → 2 €, 4,15 € → 4 €\n2. Addiere: 3 + 2 + 2 + 4 = 11 €\n3. Vom Budget abziehen: 15 − 11 = 4 € übrig (Überschlag)\n4. Genau: 15 − 11,82 = 3,18 € → ungefähr 3 € übrig."
     ],
     "didaktischerHinweis": "Hier wird der Überschlag als Entscheidungsinstrument eingesetzt: „Reicht das Geld?\" ist eine alltagsnahe Frage, die den praktischen Nutzen des Überschlagens zeigt.",
     "parsed": {
@@ -2528,7 +2528,7 @@
       "Runde die Preise in jedem Geschäft einzeln auf volle Euro. Addiere und vergleiche die Summen.",
       "Geschäft A: 29,90 ≈ 30 €, 14,95 ≈ 15 €, 9,99 ≈ 10 €. Geschäft B: 34,50 ≈ 35 €, 11,90 ≈ 12 €, 8,49 ≈ 8 €. Addiere jeweils und vergleiche.",
       "Geschäft A: 30 + 15 + 10 = 55 €. Geschäft B: 35 + 12 + 8 = 55 €. Beide ergeben 55 €! Schau genauer hin: Welche Rundungen waren großzügiger?",
-      "1. Runde die Preise in Geschäft A: 30 + 15 + 10 = 55 €\n2. Runde die Preise in Geschäft B: 35 + 12 + 8 = 55 €\n3. Überschlag: Beide ungefähr gleich! Für den genauen Vergleich genau rechnen:\n   - A: 54,84 €, B: 54,89 € → A ist 5 Cent günstiger"
+      "1. Runde die Preise in Geschäft A: 30 + 15 + 10 = 55 €\n2. Runde die Preise in Geschäft B: 35 + 12 + 8 = 55 €\n3. Überschlag: Beide ungefähr gleich! Für den genauen Vergleich genau rechnen:\n   - A: 54,84 €, B: 54,89 € → A ist 5 Cent günstiger."
     ],
     "didaktischerHinweis": "Der Vergleich zweier Einkaufsoptionen per Überschlag zeigt, dass gerundete Werte manchmal kein klares Ergebnis liefern. Das Kind lernt, wann es doch genau rechnen muss.",
     "parsed": {
@@ -2572,7 +2572,7 @@
       "Runde alle Preise auf volle Euro und addiere für jede Option getrennt. Vergleiche die beiden Summen.",
       "Option 1 hat zwei Artikel, Option 2 hat drei. Runde jeden Preis, addiere und vergleiche. Ziehe dann jeweils von 20 € ab.",
       "Option 1: 9 + 4 = 13 €. Option 2: 6 + 4 + 3 = 13 €. Beide ergeben ungefähr 13 €. Hat Mia genug? 20 − 13 = ?",
-      "1. Option 1 runden: 8,95 ≈ 9 €, 3,50 ≈ 4 €. Summe: 9 + 4 = 13 €.\n2. Option 2 runden: 6,49 ≈ 6 €, 4,29 ≈ 4 €, 2,79 ≈ 3 €. Summe: 6 + 4 + 3 = 13 €.\n3. Beide ≈ 13 €. Mia hat 20 € → bei beiden bleiben ca. 7 € übrig ✓"
+      "1. Option 1 runden: 8,95 ≈ 9 €, 3,50 ≈ 4 €. Summe: 9 + 4 = 13 €.\n2. Option 2 runden: 6,49 ≈ 6 €, 4,29 ≈ 4 €, 2,79 ≈ 3 €. Summe: 6 + 4 + 3 = 13 €.\n3. Beide ≈ 13 €. Mia hat 20 € → bei beiden bleiben ca. 7 € übrig ✓."
     ],
     "didaktischerHinweis": "Dieser Vergleich erfordert mehrere Schritte: runden, addieren, vergleichen und eine Entscheidung treffen. Das Kind lernt, den Überschlag als Planungswerkzeug für Alltagsentscheidungen einzusetzen.",
     "parsed": {
@@ -2616,7 +2616,7 @@
       "Mache zuerst einen Überschlag: Runde beide Zahlen und rechne im Kopf. Liegt das Ergebnis in der Nähe?",
       "Wenn der Überschlag nicht passt, rechne genau nach. Achte besonders auf die Zehner-Stelle — dort passieren die meisten Fehler beim Übertrag.",
       "b) Rechne genau: Einer: 7 − 8 → Übertrag! 17 − 8 = 9. Zehner: 6 − 1 − 3 = 2. Hunderter: 5 − 2 = 3. Also 329, nicht 339.",
-      "Prüfe jede Rechnung mit dem Überschlag und dann genau:\n- a) Überschlag: 320 + 190 = 510 → 513 passt. Genau: 324 + 189 = 513 ✓\n- b) Überschlag: 570 − 240 = 330 → 339 weicht ab! Genau: 567 − 238 = 329, nicht 339. Der Zehner ist falsch (Übertragsefehler).\n- c) Überschlag: 450 + 240 = 690 → 688 passt. Genau: 451 + 237 = 688 ✓"
+      "Prüfe jede Rechnung mit dem Überschlag und dann genau:\n- a) Überschlag: 320 + 190 = 510 → 513 passt. Genau: 324 + 189 = 513 ✓\n- b) Überschlag: 570 − 240 = 330 → 339 weicht ab! Genau: 567 − 238 = 329, nicht 339. Der Zehner ist falsch (Übertragsefehler).\n- c) Überschlag: 450 + 240 = 690 → 688 passt. Genau: 451 + 237 = 688 ✓."
     ],
     "didaktischerHinweis": "Das Prüfen von Ergebnissen ist eine zentrale mathematische Kompetenz. Das Kind lernt, nicht blind einem Ergebnis zu vertrauen, sondern systematisch zu kontrollieren.",
     "parsed": {
@@ -2660,7 +2660,7 @@
       "Runde auf Zehner und rechne im Kopf. Passt das angegebene Ergebnis ungefähr?",
       "Wenn dein Überschlag nahe am Ergebnis liegt, stimmt es wahrscheinlich. Wenn es um mehr als 10 abweicht, rechne genau nach!",
       "b) Rechne genau: Einer: 3 + 9 = 12, schreibe 2, Übertrag 1. Zehner: 8 + 7 + 1 = 16, schreibe 6, Übertrag 1. Hunderter: 4 + 2 + 1 = 7. Ergebnis: 762.",
-      "- a) Überschlag: 260 + 150 = 410 → 404 ist plausibel. Genau: 256 + 148 = 404 ✓\n- b) Überschlag: 480 + 280 = 760 → 752 weicht etwas ab. Genau: 483 + 279 = 762 → Fehler in der Zehnerstelle!\n- c) Überschlag: 620 − 390 = 230 → 228 ist plausibel. Genau: 615 − 387 = 228 ✓"
+      "- a) Überschlag: 260 + 150 = 410 → 404 ist plausibel. Genau: 256 + 148 = 404 ✓\n- b) Überschlag: 480 + 280 = 760 → 752 weicht etwas ab. Genau: 483 + 279 = 762 → Fehler in der Zehnerstelle!\n- c) Überschlag: 620 − 390 = 230 → 228 ist plausibel. Genau: 615 − 387 = 228 ✓."
     ],
     "didaktischerHinweis": "Die Übertragsefehler bei b) sind typisch für Kinder. Das Prüfen schärft das Bewusstsein für häufige Fehlerquellen beim schriftlichen Rechnen.",
     "parsed": {
@@ -2704,7 +2704,7 @@
       "Runde auf Zehner und rechne im Kopf. Bei vierstelligen Zahlen achte besonders auf die Hunderter!",
       "Überschlag: Runde beide Zahlen auf Zehner. Wenn das Ergebnis mehr als 50 vom Überschlag abweicht, stimmt es wahrscheinlich nicht.",
       "b) Rechne genau: 3.508 − 1.729. Einer: 8 − 9 → Übertrag! 18 − 9 = 9. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 7 → Übertrag! 15 − 8 = 7. Tausender: 3 − 1 − 1 = 1. Ergebnis: 1.779.",
-      "- a) Überschlag: 1.250 + 880 = 2.130 → 2.121 ist plausibel. Genau: 1.245 + 876 = 2.121 ✓\n- b) Überschlag: 3.510 − 1.730 = 1.780 → 1.889 weicht stark ab! Genau: 3.508 − 1.729 = 1.779 → Hunderter- und Zehnerstelle falsch.\n- c) Überschlag: 2.360 + 1.590 = 3.950 → 3.951 passt. Genau: 2.364 + 1.587 = 3.951 ✓"
+      "- a) Überschlag: 1.250 + 880 = 2.130 → 2.121 ist plausibel. Genau: 1.245 + 876 = 2.121 ✓\n- b) Überschlag: 3.510 − 1.730 = 1.780 → 1.889 weicht stark ab! Genau: 3.508 − 1.729 = 1.779 → Hunderter- und Zehnerstelle falsch.\n- c) Überschlag: 2.360 + 1.590 = 3.950 → 3.951 passt. Genau: 2.364 + 1.587 = 3.951 ✓."
     ],
     "didaktischerHinweis": "Bei vierstelligen Zahlen werden Übertragsefehler wahrscheinlicher. Das Kind lernt, auch bei größeren Zahlen systematisch Stelle für Stelle zu prüfen.",
     "parsed": {
@@ -2748,7 +2748,7 @@
       "Achte bei c) besonders darauf: Hier entsteht eine fünfstellige Zahl! Prüfe, ob der Tausender-Übertrag stimmt.",
       "Mache bei jeder Aufgabe zuerst einen Überschlag. Bei c) überlegst du: 6.000 + 4.000 = 10.000 — also muss das Ergebnis über 10.000 liegen.",
       "c) Einer: 3 + 8 = 11, schreibe 1, Übertrag 1. Zehner: 2 + 9 + 1 = 12, schreibe 2, Übertrag 1. Hunderter: 1 + 8 + 1 = 10, schreibe 0, Übertrag 1. Tausender: 6 + 3 + 1 = 10. Ergebnis: 10.021.",
-      "- a) Überschlag: 4.210 + 2.890 = 7.100 → 7.101 passt perfekt. Genau: 4.207 + 2.894 = 7.101 ✓\n- b) Überschlag: 5.630 − 2.750 = 2.880 → 2.885 ist plausibel. Genau: 5.630 − 2.745 = 2.885 ✓\n- c) Überschlag: 6.120 + 3.900 = 10.020 → 10.021 passt. Genau: 6.123 + 3.898 = 10.021 ✓"
+      "- a) Überschlag: 4.210 + 2.890 = 7.100 → 7.101 passt perfekt. Genau: 4.207 + 2.894 = 7.101 ✓\n- b) Überschlag: 5.630 − 2.750 = 2.880 → 2.885 ist plausibel. Genau: 5.630 − 2.745 = 2.885 ✓\n- c) Überschlag: 6.120 + 3.900 = 10.020 → 10.021 passt. Genau: 6.123 + 3.898 = 10.021 ✓."
     ],
     "didaktischerHinweis": "Bei c) erleben Kinder den Übergang in den fünfstelligen Bereich. Alle drei Aufgaben stimmen diesmal — das Kind lernt, dass „Prüfen\" nicht immer „Fehler finden\" bedeutet.",
     "parsed": {
@@ -2792,7 +2792,7 @@
       "Mache bei jeder Rechnung einen schnellen Überschlag. Bei welchen weicht das Ergebnis deutlich ab?",
       "Runde auf Zehner und rechne im Kopf. Eine Abweichung von mehr als 30 ist verdächtig. Rechne diese dann genau nach.",
       "d) Rechne genau: 7.500 − 4.826. Einer: 0 − 6 → Übertrag! 10 − 6 = 4. Zehner: 0 − 1 − 2 → Übertrag! 10 − 3 = 7. Hunderter: 5 − 1 − 8 → Übertrag! 15 − 9 = 6. Tausender: 7 − 1 − 4 = 2. Ergebnis: 2.674.",
-      "Prüfe jede Rechnung mit Überschlag:\n- a) 2.460 + 1.380 = 3.840 → 3.834 passt ✓\n- b) 8.000 − 3.570 = 4.430 → 4.534 weicht ab! Genau: 8.001 − 3.567 = 4.434 ✗\n- c) 4.790 + 3.220 = 8.010 → 8.004 passt ✓\n- d) 7.500 − 4.830 = 2.670 → 2.774 weicht ab! Genau: 7.500 − 4.826 = 2.674 ✗\n- e) 2.000 + 2.000 = 4.000 → stimmt exakt ✓"
+      "Prüfe jede Rechnung mit Überschlag:\n- a) 2.460 + 1.380 = 3.840 → 3.834 passt ✓\n- b) 8.000 − 3.570 = 4.430 → 4.534 weicht ab! Genau: 8.001 − 3.567 = 4.434 ✗\n- c) 4.790 + 3.220 = 8.010 → 8.004 passt ✓\n- d) 7.500 − 4.830 = 2.670 → 2.774 weicht ab! Genau: 7.500 − 4.826 = 2.674 ✗\n- e) 2.000 + 2.000 = 4.000 → stimmt exakt ✓."
     ],
     "didaktischerHinweis": "Bei fünf Rechnungen zum Prüfen muss das Kind den Überschlag systematisch anwenden. Es lernt, gezielt die verdächtigen Aufgaben herauszufiltern und nur diese genau nachzurechnen.",
     "parsed": {
@@ -2848,7 +2848,7 @@
       "Überschlage jede Rechnung. Bei welcher stimmt etwas nicht?",
       "Bei Subtraktionen mit vielen Überträgen (wie 9.010 − 4.563) passieren leicht Fehler. Rechne diese besonders sorgfältig nach.",
       "b) 9.010 − 4.563: Einer: 0 − 3 → Übertrag! 10 − 3 = 7. Zehner: 1 − 1 − 6 → Übertrag! 11 − 7 = 4. Hunderter: 0 − 1 − 5 → Übertrag! 10 − 6 = 4. Tausender: 9 − 1 − 4 = 4. Ergebnis: 4.447.",
-      "- a) Überschlag: 3.460 + 2.790 = 6.250 → 6.245 passt ✓\n- b) Überschlag: 9.010 − 4.560 = 4.450 → 4.557 weicht ab! Genau: 9.010 − 4.563 = 4.447. Jan hat bei den Zehnern einen Fehler gemacht (5 statt 4).\n- c) Überschlag: 5.680 + 1.230 = 6.910 → 6.912 passt ✓\n- d) Überschlag: 10.000 − 6.440 = 3.560 → 3.562 passt ✓"
+      "- a) Überschlag: 3.460 + 2.790 = 6.250 → 6.245 passt ✓\n- b) Überschlag: 9.010 − 4.560 = 4.450 → 4.557 weicht ab! Genau: 9.010 − 4.563 = 4.447. Jan hat bei den Zehnern einen Fehler gemacht (5 statt 4).\n- c) Überschlag: 5.680 + 1.230 = 6.910 → 6.912 passt ✓\n- d) Überschlag: 10.000 − 6.440 = 3.560 → 3.562 passt ✓."
     ],
     "didaktischerHinweis": "Die Einbettung in eine Alltagssituation (Hausaufgaben prüfen) macht das Kontrollieren motivierender. Das Kind schlüpft in die Rolle des „Lehrers\" und prüft kritisch.",
     "parsed": {
@@ -2898,7 +2898,7 @@
       "Was musst du zu 300 addieren, damit 500 herauskommt? Denk rückwärts!",
       "Wenn ▢ + eine Zahl = Ergebnis, dann ist ▢ = Ergebnis − die Zahl. Die Umkehrung der Addition ist die Subtraktion.",
       "a) 500 − 300 = ? Zähle von 300 bis 500: 300 → 400 → 500, das sind 200 Schritte.",
-      "Nutze die Umkehroperation (Subtraktion):\n- a) ▢ = 500 − 300 = 200\n- b) ▢ = 400 − 150 = 250\n- c) ▢ = 750 − 200 = 550\n\nProbe:\n- a) 200 + 300 = 500 ✓\n- b) 250 + 150 = 400 ✓\n- c) 200 + 550 = 750 ✓"
+      "Nutze die Umkehroperation (Subtraktion):\n- a) ▢ = 500 − 300 = 200\n- b) ▢ = 400 − 150 = 250\n- c) ▢ = 750 − 200 = 550\n\nProbe:\n- a) 200 + 300 = 500 ✓\n- b) 250 + 150 = 400 ✓\n- c) 200 + 550 = 750 ✓."
     ],
     "didaktischerHinweis": "Einfache Platzhalteraufgaben mit runden Zahlen führen in das Konzept der Umkehroperation ein. Das Kind kann die Lösung auch durch Überlegen oder Zählen finden.",
     "parsed": {
@@ -2939,7 +2939,7 @@
       "Wenn du von 800 etwas abziehst und 350 übrig bleibt — wie viel hast du abgezogen?",
       "Bei 800 − ▢ = 350 gilt: ▢ = 800 − 350. Bei ▢ − 120 = 280 gilt: ▢ = 280 + 120. Achte darauf, wo der Platzhalter steht!",
       "a) 800 − 350 = ? Rechne: 800 − 300 = 500, dann 500 − 50 = 450. Also ▢ = 450.",
-      "Nutze die Umkehroperation:\n- a) ▢ = 800 − 350 = 450\n- b) ▢ = 280 + 120 = 400\n- c) ▢ = 600 − 175 = 425\n\nProbe:\n- a) 800 − 450 = 350 ✓\n- b) 400 − 120 = 280 ✓\n- c) 600 − 425 = 175 ✓"
+      "Nutze die Umkehroperation:\n- a) ▢ = 800 − 350 = 450\n- b) ▢ = 280 + 120 = 400\n- c) ▢ = 600 − 175 = 425\n\nProbe:\n- a) 800 − 450 = 350 ✓\n- b) 400 − 120 = 280 ✓\n- c) 600 − 425 = 175 ✓."
     ],
     "didaktischerHinweis": "Die Position des Platzhalters (Minuend vs. Subtrahend) erfordert unterschiedliche Umkehrstrategien. Das Kind muss verstehen, ob es addieren oder subtrahieren muss.",
     "parsed": {
@@ -2980,7 +2980,7 @@
       "Was fehlt von 340 bis 1.000? Denke an die Ergänzung: Wie viel musst du zu 340 addieren, um auf 1.000 zu kommen?",
       "Bei a) gilt: ▢ = 1.000 − 340. Rechne schrittweise: erst die Einer ergänzen (340 → 400), dann die Hunderter (400 → 1.000).",
       "a) Von 340 bis 1.000: 340 + 60 = 400, 400 + 600 = 1.000. Also: 60 + 600 = 660. ▢ = 660.",
-      "Nutze die Umkehroperation:\n- a) ▢ = 1.000 − 340 = 660\n- b) ▢ = 2.000 − 1.250 = 750\n- c) ▢ = 3.000 − 1.460 = 1.540\n\nProbe:\n- a) 1.000 − 660 = 340 ✓\n- b) 750 + 1.250 = 2.000 ✓\n- c) 3.000 − 1.540 = 1.460 ✓"
+      "Nutze die Umkehroperation:\n- a) ▢ = 1.000 − 340 = 660\n- b) ▢ = 2.000 − 1.250 = 750\n- c) ▢ = 3.000 − 1.460 = 1.540\n\nProbe:\n- a) 1.000 − 660 = 340 ✓\n- b) 750 + 1.250 = 2.000 ✓\n- c) 3.000 − 1.540 = 1.460 ✓."
     ],
     "didaktischerHinweis": "Die Ergänzung zu Tausenderzahlen ist eine wichtige Grundfertigkeit. Das schrittweise Ergänzen (erst zur nächsten Hunderterzahl, dann zum Tausender) gibt dem Kind eine konkrete Strategie.",
     "parsed": {
@@ -3021,7 +3021,7 @@
       "Bei a) und b): Welche Zahl mal 5 ergibt 450? Welche Zahl in 720 geteilt ergibt 8?",
       "Bei Multiplikation: Umkehrung ist Division. Bei c) musst du zwei Schritte rückwärts rechnen: zuerst „+ 30\" umkehren, dann „· 7\" umkehren.",
       "c) Schritt 1: 240 − 30 = 210. Schritt 2: 210 : 7 = ? Denke an die 7er-Reihe: 7 · ? = 210. Tipp: 7 · 30 = 210.",
-      "Nutze Umkehroperationen:\n- a) ▢ = 450 : 5 = 90\n- b) ▢ = 720 : 8 = 90\n- c) Zuerst „+ 30\" rückgängig machen: 240 − 30 = 210. Dann: ▢ = 210 : 7 = 30\n\nProbe:\n- a) 90 · 5 = 450 ✓\n- b) 720 : 90 = 8 ✓\n- c) 30 · 7 + 30 = 210 + 30 = 240 ✓"
+      "Nutze Umkehroperationen:\n- a) ▢ = 450 : 5 = 90\n- b) ▢ = 720 : 8 = 90\n- c) Zuerst „+ 30\" rückgängig machen: 240 − 30 = 210. Dann: ▢ = 210 : 7 = 30\n\nProbe:\n- a) 90 · 5 = 450 ✓\n- b) 720 : 90 = 8 ✓\n- c) 30 · 7 + 30 = 210 + 30 = 240 ✓."
     ],
     "didaktischerHinweis": "Aufgabe c) erfordert zweistufiges Umkehrrechnen. Das Kind muss die Operationen in der richtigen Reihenfolge rückwärts abarbeiten — eine Vorstufe zum Gleichungslösen.",
     "parsed": {
@@ -3062,7 +3062,7 @@
       "Zeichne dir eine Rechenkette: Zahl → · 4 → ? → + 20 → 100. Arbeite vom Ende rückwärts!",
       "Der letzte Schritt war „+ 20 = 100\". Die Umkehrung ist: 100 − 20 = 80. Jetzt hast du den Zwischenwert. Weiter rückwärts: „· 4 = 80\" → Umkehrung?",
       "Rückwärts: 100 − 20 = 80. Dann: 80 : 4 = ?. Denke an die 4er-Reihe: 4 · ? = 80.",
-      "1. Rechenkette aufschreiben: ▢ → · 4 → ▢ → + 20 → 100\n2. Rückwärts rechnen:\n   - 100 − 20 = 80 (Umkehrung von „+ 20\")\n   - 80 : 4 = 20 (Umkehrung von „· 4\")\n3. Probe: 20 · 4 = 80, 80 + 20 = 100 ✓"
+      "1. Rechenkette aufschreiben: ▢ → · 4 → ▢ → + 20 → 100\n2. Rückwärts rechnen:\n   - 100 − 20 = 80 (Umkehrung von „+ 20\")\n   - 80 : 4 = 20 (Umkehrung von „· 4\")\n3. Probe: 20 · 4 = 80, 80 + 20 = 100 ✓."
     ],
     "didaktischerHinweis": "Textbasierte Zahlenrätsel fördern das Leseverständnis und die Übersetzung von Sprache in Mathematik. Die Rechenkette als Hilfsmittel macht die Struktur sichtbar.",
     "parsed": {
@@ -3093,7 +3093,7 @@
       "„Halbieren\" bedeutet „durch 2 teilen\". Zeichne die Rechenkette und arbeite vom Ergebnis 30 rückwärts.",
       "Umkehroperationen: „− 45\" wird zu „+ 45\". „Halbieren (: 2)\" wird zu „verdoppeln (· 2)\". Rechne Schritt für Schritt vom Ende zum Anfang.",
       "Letzter Schritt war „− 45 = 30\". Umkehrung: 30 + 45 = 75. Voriger Schritt war „: 2\". Umkehrung: 75 · 2 = ?",
-      "1. Rechenkette aufschreiben: ▢ → : 2 → ▢ → − 45 → 30\n2. Rückwärts rechnen:\n   - 30 + 45 = 75 (Umkehrung von „− 45\")\n   - 75 · 2 = 150 (Umkehrung von „: 2\", also „halbieren\")\n3. Probe: 150 : 2 = 75, 75 − 45 = 30 ✓"
+      "1. Rechenkette aufschreiben: ▢ → : 2 → ▢ → − 45 → 30\n2. Rückwärts rechnen:\n   - 30 + 45 = 75 (Umkehrung von „− 45\")\n   - 75 · 2 = 150 (Umkehrung von „: 2\", also „halbieren\")\n3. Probe: 150 : 2 = 75, 75 − 45 = 30 ✓."
     ],
     "didaktischerHinweis": "Das Wort „halbieren\" muss als „: 2\" erkannt werden. Kinder, die das verstanden haben, können auch „verdreifachen\" (· 3) oder „vierteln\" (: 4) als Rechenoperationen übersetzen.",
     "parsed": {

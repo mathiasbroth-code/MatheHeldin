@@ -5,7 +5,7 @@
   </style>
 
   <!-- Titel -->
-  <text x="160" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Parkettierung: luckenlos und ohne Uberlappung</text>
+  <text x="160" y="16" style="font-size: 13px; font-weight: bold; fill: #1F2937;">Parkettierung: luckenlos und ohne Überlappung</text>
 
   <!-- Tessellation pattern: Quadrate und Dreiecke -->
   <!-- Raster: 8 Spalten x 3 Zeilen, Quadrate 30x30 mit Dreieck-Ecken -->
@@ -67,5 +67,5 @@
   <text x="37" y="56" style="font-size: 8px; fill: #EF4444; font-weight: bold;">figur</text>
 
   <!-- Pfeile zeigen Wiederholung -->
-  <text x="160" y="150" class="label">Keine Lucken, keine Uberlappungen!</text>
+  <text x="160" y="150" class="label">Keine Lücken, keine Überlappungen!</text>
 </svg>

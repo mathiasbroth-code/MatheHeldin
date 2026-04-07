@@ -69,6 +69,36 @@ export function normalizeZahl(input: string): string {
   const eqParts = cleaned.split('=');
   const valueStr = eqParts.length > 1 ? eqParts[eqParts.length - 1].trim() : cleaned;
 
+  // Uhrzeiten-Format (H:MM oder HH:MM) — Doppelpunkt erhalten, auf H:MM normalisieren
+  const zeitMatch = valueStr.match(/^(\d{1,2}):(\d{2})$/);
+  if (zeitMatch) {
+    const h = parseInt(zeitMatch[1], 10);
+    const m = parseInt(zeitMatch[2], 10);
+    return `${h}:${String(m).padStart(2, '0')}`;
+  }
+
+  // "X Uhr" → als volle Stunde interpretieren (z.B. "3 Uhr" → "3:00")
+  const uhrMatch = valueStr.match(/^(\d{1,2})\s*Uhr$/i);
+  if (uhrMatch) {
+    return `${parseInt(uhrMatch[1], 10)}:00`;
+  }
+
+  // Zeitspannen-Format: "X Stunde(n) Y Minuten" → in Minuten normalisieren
+  const zeitspanneMatch = valueStr.match(/(\d+)\s*Stunde[n]?\s*(\d+)\s*Minute[n]?/i);
+  if (zeitspanneMatch) {
+    return String(parseInt(zeitspanneMatch[1], 10) * 60 + parseInt(zeitspanneMatch[2], 10));
+  }
+  // "X Stunde(n)" ohne Minuten
+  const nurStundenMatch = valueStr.match(/^(\d+)\s*Stunde[n]?$/i);
+  if (nurStundenMatch) {
+    return String(parseInt(nurStundenMatch[1], 10) * 60);
+  }
+  // "X Minuten" ohne Stunden
+  const nurMinutenMatch = valueStr.match(/^(\d+)\s*Minute[n]?$/i);
+  if (nurMinutenMatch) {
+    return nurMinutenMatch[1];
+  }
+
   // Zahl extrahieren falls vorhanden
   const zahlenMatch = valueStr.match(/-?[\d.,]+/);
   if (zahlenMatch) return zahlenMatch[0].replace(/\./g, '').replace(',', '.');

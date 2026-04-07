@@ -25,12 +25,12 @@
         {
           "label": "a",
           "frage": "Vielfache von 3: 3, 6, ___, ___, ___, ___, ___, ___",
-          "antwort": "24"
+          "antwort": "9, 12, 15, 18, 21, 24"
         },
         {
           "label": "b",
           "frage": "Vielfache von 7: 7, 14, ___, ___, ___, ___, ___, ___",
-          "antwort": "56"
+          "antwort": "21, 28, 35, 42, 49, 56"
         }
       ]
     }
@@ -97,7 +97,7 @@
       "Ein Vielfaches einer Zahl erkennst du daran, dass die Division ohne Rest aufgeht. Probiere es aus: Teile die große Zahl durch die kleine.",
       "Zähle die Malreihe durch! Bei b): 6er-Reihe: 6, 12, 18, 24, 30, 36 ... Kommt 32 in der 6er-Reihe vor? Wenn ja → Vielfaches. Wenn nein → kein Vielfaches.",
       "Bei d): 4er-Reihe: 4, 8, 12, 16, 20, 24, 28, 32, 36 ... Ist 35 dabei? ___ Also ist 35 ___ Vielfaches von 4.",
-      "Prüfe: Geht die Division ohne Rest auf?\n- a) 45 : 5 = 9 ✓ → Vielfaches\n- b) 32 : 6 = 5 R 2 ✗ → kein Vielfaches\n- c) 56 : 8 = 7 ✓ → Vielfaches\n- d) 35 : 4 = 8 R 3 ✗ → kein Vielfaches\n- e) 27 : 9 = 3 ✓ → Vielfaches"
+      "Prüfe: Geht die Division ohne Rest auf?\n- a) 45 : 5 = 9 ✓ → Vielfaches\n- b) 32 : 6 = 5 R 2 ✗ → kein Vielfaches\n- c) 56 : 8 = 7 ✓ → Vielfaches\n- d) 35 : 4 = 8 R 3 ✗ → kein Vielfaches\n- e) 27 : 9 = 3 ✓ → Vielfaches."
     ],
     "didaktischerHinweis": "Wahr-falsch-Format senkt die Einstiegshürde. Kinder müssen nur prüfen, nicht selbst Vielfache finden.",
     "parsed": {
@@ -183,7 +183,7 @@
     "tipps": [
       "\"Das Siebenfache\" bedeutet: 7 mal die Zahl. Also musst du multiplizieren!",
       "Übersetze den Text in eine Rechnung: \"Siebenfache von 8\" → 7 · 8. \"Vierfache von 12\" → 4 · 12.",
-      "Bei b): 4 · 12. Zerlege: 4 · 10 = 40, 4 · 2 = 8. Zusammen: 40 + 8 = ___",
+      "Bei b): 4 · 12. Zerlege: 4 · 10 = 40, 4 · 2 = 8. Zusammen: 40 + 8 = ___.",
       "- a) 7 · 8 = 56\n- b) 4 · 12 = 48\n- c) 3 · 25 = 75"
     ],
     "didaktischerHinweis": "Einfache Textaufgabe zum Aufwärmen. Das Kind übersetzt Fachbegriffe in Rechnungen.",
@@ -224,7 +224,7 @@
     "tipps": [
       "Teile die Aufgabe in Stücke. Rechne zuerst das Vielfache aus, das du kennst: Was ist das Achtfache von 9?",
       "Schreibe den Text als Rechnung: \"Achtfaches von 9\" = 8 · 9 = ___. \"Dreifaches von 7\" = 3 · 7 = ___. \"Subtrahiere\" = minus.",
-      "Bei a): 8 · 9 = 72. 3 · 7 = 21. Jetzt: 72 − 21 = ___",
+      "Bei a): 8 · 9 = 72. 3 · 7 = 21. Jetzt: 72 − 21 = ___.",
       "- a) 8 · 9 = 72, 3 · 7 = 21, 72 − 21 = 51\n- b) 5 · 11 = 55, 2 · 30 = 60, 55 + 60 = 115"
     ],
     "didaktischerHinweis": "Kombination aus Vielfachen und Grundrechenarten. Trainiert das Lesen mathematischer Fachsprache.",
@@ -260,7 +260,7 @@
     "tipps": [
       "Schreibe beide Reihen nebeneinander. Markiere alle Zahlen, die du in BEIDEN Reihen findest.",
       "Fange bei der 9er-Reihe an (die hat weniger \"Treffer\" in der 6er-Reihe). Prüfe für jedes Vielfache von 9: Ist es auch in der 6er-Reihe?",
-      "9 → in der 6er-Reihe? Nein. 18 → in der 6er-Reihe? Ja! 27 → in der 6er-Reihe? Nein. 36 → in der 6er-Reihe? ___",
+      "9 → in der 6er-Reihe? Nein. 18 → in der 6er-Reihe? Ja! 27 → in der 6er-Reihe? Nein. 36 → in der 6er-Reihe? ___.",
       "Beide Reihen aufschreiben und vergleichen:\n- V₆: 6, 12, **18**, 24, 30, **36**, 42, 48, **54**, 60\n- V₉: 9, **18**, 27, **36**, 45, **54**, 63, 72, 81, 90"
     ],
     "didaktischerHinweis": "Die gemeinsamen Vielfachen von 6 und 9 sind die Vielfachen von 18 (dem kgV). Die Beobachtung \"jedes dritte\" fördert Mustererkennung.",
@@ -290,7 +290,7 @@
     "loesungsweg": "Prüfe jede Zahl:\n- 25 : 3 = 8 R 1 ✗ (nicht durch 3 teilbar)\n- 30 : 3 = 10 ✓, 30 : 5 = 6 ✓ → Vielfaches von 3 UND 5\n- 35 : 3 = 11 R 2 ✗ (nicht durch 3 teilbar)\n- 40 : 3 = 13 R 1 ✗ (nicht durch 3 teilbar)",
     "tipps": [
       "Du suchst eine Zahl, die sowohl in der 3er-Reihe als auch in der 5er-Reihe vorkommt. Schreibe beide Reihen auf und vergleiche!",
-      "Ein schneller Check: Ist die Zahl durch 5 teilbar? (Einerstelle 0 oder 5). Ist die Zahl auch durch 3 teilbar? (Probiere die Division.)",
+      "Eine schnelle Probe: Ist die Zahl durch 5 teilbar? (Einerstelle 0 oder 5). Ist die Zahl auch durch 3 teilbar? (Probiere die Division.)",
       "Alle vier Zahlen enden auf 0 oder 5, also sind sie durch 5 teilbar. Jetzt prüfe durch 3: 25 : 3 = ? (Rest!), 30 : 3 = ? (kein Rest?), ...",
       "Prüfe jede Zahl:\n- 25 : 3 = 8 R 1 ✗ (nicht durch 3 teilbar)\n- 30 : 3 = 10 ✓, 30 : 5 = 6 ✓ → Vielfaches von 3 UND 5\n- 35 : 3 = 11 R 2 ✗ (nicht durch 3 teilbar)\n- 40 : 3 = 13 R 1 ✗ (nicht durch 3 teilbar)"
     ],
@@ -329,14 +329,14 @@
     "kapitel": "08-division-intensiv",
     "stageId": "vielfache",
     "digital": "voll",
-    "aufgabenstellung": "In einen Eierkarton passen 6 Eier. Die Bäuerin hat 50 Eier.\n\na) Wie viele volle Kartons kann sie füllen?\nb) Wie viele Eier bleiben übrig?\nc) Wie viele Eier bräuchte sie, damit kein Ei übrig bleibt?",
-    "loesung": "a) 8 volle Kartons\nb) 2\nc) Sie bräuchte 48 Eier (oder 54 Eier)",
-    "loesungsweg": "- a) 50 : 6 = 8 R 2 → 8 volle Kartons\n- b) Rest = 2 Eier\n- c) Das nächstkleinere Vielfache von 6 ist 48 (= 8 · 6). Das nächstgrößere ist 54 (= 9 · 6).",
+    "aufgabenstellung": "In einen Eierkarton passen 6 Eier. Die Bäuerin hat 50 Eier.\n\na) Wie viele volle Kartons kann sie füllen?\nb) Wie viele Eier bleiben übrig?\nc) Wie viele Eier bräuchte sie mindestens, damit kein Ei übrig bleibt und sie so wenig wie möglich wegwerfen muss?",
+    "loesung": "a) 8 volle Kartons\nb) 2\nc) 48 Eier",
+    "loesungsweg": "- a) 50 : 6 = 8 R 2 → 8 volle Kartons\n- b) Rest = 2 Eier\n- c) Das nächstkleinere Vielfache von 6 ist 48 (= 8 · 6). Da die Bäuerin so wenig wie möglich wegwerfen soll, nimmt sie 48 Eier (sie legt 2 beiseite).",
     "tipps": [
       "Wie viele 6er-Gruppen kannst du aus 50 Eiern bilden? Denke an die 6er-Reihe: 6, 12, 18, 24, 30, 36, 42, 48, 54 ...",
       "Teile 50 durch 6. Das Ergebnis (ohne Rest) sagt dir die Anzahl der vollen Kartons. Der Rest sind die übrigen Eier.",
-      "50 : 6 = 8 Rest ___. 8 volle Kartons, ___ Eier übrig. Damit kein Ei übrig bleibt, muss die Eierzahl ein Vielfaches von 6 sein. Das nächste Vielfache von 6, das kleiner als 50 ist, ist ___",
-      "- a) 50 : 6 = 8 R 2 → 8 volle Kartons\n- b) Rest = 2 Eier\n- c) Das nächstkleinere Vielfache von 6 ist 48 (= 8 · 6). Das nächstgrößere ist 54 (= 9 · 6)."
+      "50 : 6 = 8 Rest ___. 8 volle Kartons, ___ Eier übrig. Damit kein Ei übrig bleibt, muss die Eierzahl ein Vielfaches von 6 sein. Das nächste Vielfache von 6, das kleiner als 50 ist, ist ___.",
+      "- a) 50 : 6 = 8 R 2 → 8 volle Kartons\n- b) Rest = 2 Eier\n- c) Das nächstkleinere Vielfache von 6 ist 48 (= 8 · 6). Die Bäuerin legt 2 Eier beiseite → 48 Eier."
     ],
     "didaktischerHinweis": "Alltagsbezug macht Vielfache und Division mit Rest greifbar. Die Frage c) verbindet Vielfache und Division.",
     "parsed": {
@@ -356,8 +356,8 @@
         },
         {
           "label": "c",
-          "frage": "Wie viele Eier bräuchte sie, damit kein Ei übrig bleibt?",
-          "antwort": "Sie bräuchte 48 Eier (oder 54 Eier)"
+          "frage": "Wie viele Eier bräuchte sie mindestens, damit kein Ei übrig bleibt und sie so wenig wie möglich wegwerfen muss?",
+          "antwort": "48"
         }
       ]
     }
@@ -378,7 +378,7 @@
       "Bei \"richtig oder falsch\"-Aussagen: Suche ein Gegenbeispiel! Findest du eine Zahl, bei der die Aussage nicht stimmt? Dann ist sie falsch.",
       "Schreibe die Vielfachen auf und prüfe die Aussage. Bei c): Vielfache von 3 sind: 3, 6, 9, 12, 15 ... Sind ALLE davon auch Vielfache von 6?",
       "Bei c): Vielfache von 3: 3, 6, 9, 12, 15. Ist 3 ein Vielfaches von 6? 3 : 6 = ___. Geht das auf? ___. Also stimmt die Aussage ___.",
-      "- a) 20 · 5 = 100 ✓\n- b) Jedes Vielfache von 10: 10, 20, 30 ... sind alle durch 5 teilbar, weil 10 = 2 · 5 ✓\n- c) Gegenbeispiel: 3 ist Vielfaches von 3, aber 3 : 6 geht nicht auf → falsch\n- d) 4 · 1 = 4 (gerade), 4 · 2 = 8 (gerade), ... jedes Vielfache von 4 enthält den Faktor 2 → immer gerade ✓"
+      "- a) 20 · 5 = 100 ✓\n- b) Jedes Vielfache von 10: 10, 20, 30 ... sind alle durch 5 teilbar, weil 10 = 2 · 5 ✓\n- c) Gegenbeispiel: 3 ist Vielfaches von 3, aber 3 : 6 geht nicht auf → falsch\n- d) 4 · 1 = 4 (gerade), 4 · 2 = 8 (gerade), ... jedes Vielfache von 4 enthält den Faktor 2 → immer gerade ✓."
     ],
     "didaktischerHinweis": "Fördert logisches Denken und das Argumentieren mit Gegenbeispielen. Die Unterscheidung \"jedes Vielfache von A ist auch Vielfaches von B\" vs. umgekehrt ist anspruchsvoll.",
     "parsed": {
@@ -439,17 +439,17 @@
         {
           "label": "a",
           "frage": "Ich bin ein Vielfaches von 7. Ich bin größer als 40 und kleiner als 50.",
-          "antwort": "42 (6 · 7 = 42) oder 49 (7 · 7 = 49)"
+          "antwort": "42 oder 49"
         },
         {
           "label": "b",
           "frage": "Ich bin ein Vielfaches von 8. Ich bin größer als 50 und kleiner als 70.",
-          "antwort": "56 (7 · 8 = 56) oder 64 (8 · 8 = 64)"
+          "antwort": "56 oder 64"
         },
         {
           "label": "c",
           "frage": "Ich bin ein Vielfaches von 6 UND von 4. Ich bin kleiner als 30.",
-          "antwort": "12 (3 · 4 = 12, 2 · 6 = 12) oder 24 (6 · 4 = 24, 4 · 6 = 24)"
+          "antwort": "12 oder 24"
         }
       ]
     }
@@ -469,7 +469,7 @@
     "tipps": [
       "Rechne zuerst den Teil aus, den du schon kennst. Bei a): Was ist das Fünffache von 60?",
       "Wenn du den bekannten Teil ausgerechnet hast, überlege: Wie viel fehlt bis zum Ergebnis? Bei a): 5 · 60 = 300. Bis 330 fehlen 330 − 300 = 30. Das ist das Dreifache der gesuchten Zahl.",
-      "Bei a): 5 · 60 = 300. Es fehlen 330 − 300 = 30. Das Dreifache der Zahl ist 30. Also: 30 : 3 = ___",
+      "Bei a): 5 · 60 = 300. Es fehlen 330 − 300 = 30. Das Dreifache der Zahl ist 30. Also: 30 : 3 = ___.",
       "- a) 5 · 60 = 300. 300 + 3 · Zahl = 330. 3 · Zahl = 30. Zahl = 10.\n- b) 9 · 100 = 900. 900 − 6 · Zahl = 750. 6 · Zahl = 150. Zahl = 25."
     ],
     "didaktischerHinweis": "Rückwärts rechnen mit Vielfachen verbindet Multiplikation, Division und Textverständnis. Anspruchsvoller als direkte Berechnung.",
@@ -505,7 +505,7 @@
     "tipps": [
       "Teile jede Aufgabe in zwei Rechnungen. Rechne erst beide Vielfachen aus und kombiniere sie dann mit der richtigen Rechenart.",
       "\"Achtfache von 7\" = 8 · 7. \"Dreifache von 90\" = 3 · 90. \"Plus\" = addieren. Schritt für Schritt!",
-      "Bei b): 6 · 50 = ___. 9 · 20 = ___. Jetzt: ___ − ___ = ___",
+      "Bei b): 6 · 50 = ___. 9 · 20 = ___. Jetzt: ___ − ___ = ___.",
       "- a) 8 · 7 = 56, 3 · 90 = 270, 56 + 270 = 326\n- b) 6 · 50 = 300, 9 · 20 = 180, 300 − 180 = 120\n- c) 4 · 125 = 500, 2 · 200 = 400, 500 − 400 = 100"
     ],
     "didaktischerHinweis": "Kombinierte Rechnung mit größeren Zahlen. Die Kinder müssen die Texte systematisch in Rechnungen übersetzen und auf die Rechenart achten.",
@@ -588,8 +588,8 @@
     "tipps": [
       "Schreibe zuerst alle Vielfachen von 8 auf, die zwischen 70 und 100 liegen. Wie viele findest du?",
       "8er-Reihe: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104. Welche liegen zwischen 70 und 100? Dann prüfe bei jeder die Quersumme.",
-      "Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96. Quersumme von 72: 7 + 2 = 9 → ungerade ✓. Quersumme von 80: 8 + 0 = ___. Ungerade? ___",
-      "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 (gerade) ✗\n   - 96: 9 + 6 = 15 (ungerade) ✓"
+      "Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96. Quersumme von 72: 7 + 2 = 9 → ungerade ✓. Quersumme von 80: 8 + 0 = ___. Ungerade? ___.",
+      "1. Vielfache von 8 zwischen 70 und 100: 72, 80, 88, 96\n2. Quersummen prüfen:\n   - 72: 7 + 2 = 9 (ungerade) ✓\n   - 80: 8 + 0 = 8 (gerade) ✗\n   - 88: 8 + 8 = 16 (gerade) ✗\n   - 96: 9 + 6 = 15 (ungerade) ✓."
     ],
     "didaktischerHinweis": "Mehrstufiges Rätsel mit drei Bedingungen. Das Kind muss systematisch eingrenzen: erst Vielfache finden, dann filtern.",
     "parsed": {
@@ -621,7 +621,7 @@
       "Teiler sind alle Zahlen, durch die du ohne Rest teilen kannst. Fange bei 1 an: 8 : 1 = 8 (kein Rest → 1 ist Teiler!). Probiere 2, 3, 4 ...",
       "Trick: Teiler kommen immer als Paar! Wenn 8 : 2 = 4, dann sind SOWOHL 2 als auch 4 Teiler. So findest du zwei auf einmal.",
       "Bei a): 8 : 1 = 8 → Teiler: 1 und 8. 8 : 2 = 4 → Teiler: 2 und 4. Probiere 8 : 3 = ___. Geht es auf? Falls ja, hast du weitere Teiler.",
-      "Probiere von 1 aufwärts — Teiler kommen als Paare:\n- a) 8 : 1 = 8 → Paar: 1 und 8. 8 : 2 = 4 → Paar: 2 und 4. 8 : 3 = 2 R 2 ✗. Fertig! → {1, 2, 4, 8}\n- b) 15 : 1 = 15 → 1 und 15. 15 : 3 = 5 → 3 und 5. 15 : 2 = 7 R 1 ✗. → {1, 3, 5, 15}\n- c) 10 : 1 = 10 → 1 und 10. 10 : 2 = 5 → 2 und 5. → {1, 2, 5, 10}"
+      "Probiere von 1 aufwärts — Teiler kommen als Paare:\n- a) 8 : 1 = 8 → Paar: 1 und 8. 8 : 2 = 4 → Paar: 2 und 4. 8 : 3 = 2 R 2 ✗. Fertig! → {1, 2, 4, 8}\n- b) 15 : 1 = 15 → 1 und 15. 15 : 3 = 5 → 3 und 5. 15 : 2 = 7 R 1 ✗. → {1, 3, 5, 15}\n- c) 10 : 1 = 10 → 1 und 10. 10 : 2 = 5 → 2 und 5. → {1, 2, 5, 10}."
     ],
     "didaktischerHinweis": "Leichter Einstieg mit kleinen, überschaubaren Zahlen. Die Paar-Strategie wird hier natürlich angewendet.",
     "parsed": {
@@ -662,7 +662,7 @@
       "\"Ist 4 ein Teiler von 28?\" bedeutet: Geht 28 : 4 ohne Rest auf?",
       "Nutze die Malreihe als Schnellcheck: Kommt 28 in der 4er-Reihe vor? 4, 8, 12, 16, 20, 24, 28 — ja!",
       "Bei b): 33 : 5 = ? Rechne: 5 · 6 = 30, 5 · 7 = 35. 33 liegt dazwischen → es gibt einen Rest → 5 ist ___ Teiler von 33.",
-      "Rechne die Division aus. Bleibt kein Rest? Dann ist die Zahl ein Teiler.\n- a) 28 : 4 = 7 ✓\n- b) 33 : 5 = 6 R 3 ✗\n- c) 63 : 7 = 9 ✓\n- d) 25 : 3 = 8 R 1 ✗\n- e) 81 : 9 = 9 ✓"
+      "Rechne die Division aus. Bleibt kein Rest? Dann ist die Zahl ein Teiler.\n- a) 28 : 4 = 7 ✓\n- b) 33 : 5 = 6 R 3 ✗\n- c) 63 : 7 = 9 ✓\n- d) 25 : 3 = 8 R 1 ✗\n- e) 81 : 9 = 9 ✓."
     ],
     "didaktischerHinweis": "Wahr-falsch senkt die Einstiegshürde. Das Kind prüft nur, statt selbst alle Teiler zu finden.",
     "parsed": {
@@ -718,7 +718,7 @@
       "Fange bei 1 an und probiere jede Zahl der Reihe nach. Vergiss nicht: Jeder Teiler hat einen Partner! Wenn du 24 : 3 = 8 rechnest, sind BEIDE Teiler.",
       "Schreibe die Paare auf: 1 × 24, 2 × 12, 3 × 8, 4 × 6. Jetzt hast du alle Teiler!",
       "Bei b): 30 : 1 = 30 → Paar: 1, 30. 30 : 2 = 15 → Paar: 2, 15. 30 : 3 = ___ → Paar: 3, ___. 30 : 4 = ? (Rest?) 30 : 5 = ___ → Paar: 5, ___. Fertig!",
-      "Systematisch mit Paaren:\n- a) 24:1=24, 24:2=12, 24:3=8, 24:4=6 → ab hier wiederholen sich die Partner → {1, 2, 3, 4, 6, 8, 12, 24}\n- b) 30:1=30, 30:2=15, 30:3=10, 30:5=6 → {1, 2, 3, 5, 6, 10, 15, 30}"
+      "Systematisch mit Paaren:\n- a) 24:1=24, 24:2=12, 24:3=8, 24:4=6 → ab hier wiederholen sich die Partner → {1, 2, 3, 4, 6, 8, 12, 24}\n- b) 30:1=30, 30:2=15, 30:3=10, 30:5=6 → {1, 2, 3, 5, 6, 10, 15, 30}."
     ],
     "didaktischerHinweis": "Zahlen mit vielen Teilern (24 hat 8 Teiler) sind gutes Übungsmaterial. Die Paar-Strategie wird gefestigt.",
     "parsed": {
@@ -754,7 +754,7 @@
       "Finde erst alle Teiler, dann zähle sie. Denke an die Teiler-Paare!",
       "Bei 16: 16:1=16, 16:2=8, 16:3=? (Rest!), 16:4=4. Wenn beide Partner gleich sind (4×4), zähle die Zahl nur einmal!",
       "Bei a): 16:1=16 (Paar: 1, 16), 16:2=8 (Paar: 2, 8), 16:4=4 (Paar: 4, 4 — aber 4 nur einmal zählen!). Sortiere: 1, 2, 4, 8, 16 → ___ Teiler.",
-      "- a) 16: 1×16, 2×8, 4×4. Achtung: 4 zählt nur einmal! → {1, 2, 4, 8, 16} = 5 Teiler\n- b) 21: 1×21, 3×7. → {1, 3, 7, 21} = 4 Teiler"
+      "- a) 16: 1×16, 2×8, 4×4. Achtung: 4 zählt nur einmal! → {1, 2, 4, 8, 16} = 5 Teiler\n- b) 21: 1×21, 3×7. → {1, 3, 7, 21} = 4 Teiler."
     ],
     "didaktischerHinweis": "Zählen der Teiler fördert sorgfältiges Arbeiten. Die Besonderheit der \"Quadratzahl\" 16 (wo 4 × 4 = 16) ist ein Lernmoment.",
     "parsed": {
@@ -795,7 +795,7 @@
     "tipps": [
       "Schreibe die Teiler beider Zahlen in zwei Zeilen und suche die Überschneidungen.",
       "Tipp: Finde zuerst die Teiler der kleineren Zahl. Dann prüfe für jeden dieser Teiler, ob er auch die größere Zahl teilt.",
-      "Bei a): Teiler von 12: 1, 2, 3, 4, 6, 12. Jetzt prüfe jeden bei 18: 18:1=18 ✓, 18:2=9 ✓, 18:3=6 ✓, 18:4=4 R 2 ✗, 18:6=3 ✓, 18:12=1 R 6 ✗. Gemeinsam: 1, 2, 3, ___",
+      "Bei a): Teiler von 12: 1, 2, 3, 4, 6, 12. Jetzt prüfe jeden bei 18: 18:1=18 ✓, 18:2=9 ✓, 18:3=6 ✓, 18:4=4 R 2 ✗, 18:6=3 ✓, 18:12=1 R 6 ✗. Gemeinsam: 1, 2, 3, ___.",
       "1. Alle Teiler jeder Zahl aufschreiben.\n2. Die Teiler vergleichen und gemeinsame markieren."
     ],
     "didaktischerHinweis": "Vorstufe zum ggT. Das systematische Vergleichen zweier Teilermengen ist eine zentrale mathematische Tätigkeit.",
@@ -874,8 +874,8 @@
     "tipps": [
       "Bei c): Suche ein Gegenbeispiel. Gibt es eine gerade Zahl, die nicht durch 4 teilbar ist? Denke an kleine gerade Zahlen: 2, 4, 6, 8 ...",
       "Bei b) und e): Schreibe ALLE Teiler auf und zähle. Nutze die Paar-Strategie, damit du keinen vergisst.",
-      "Bei e): 36:1=36, 36:2=18, 36:3=12, 36:4=9, 36:6=6. Alle Partner auflisten: 1,2,3,4,6,9,12,18,36. Zähle: ___",
-      "Jede Aussage einzeln prüfen:\n- a) Jede Zahl N : 1 = N, kein Rest → 1 ist immer Teiler ✓\n- b) 15: 1, 3, 5, 15 → 4 Teiler ✓\n- c) 6 : 4 = 1 R 2 → 6 ist gerade, aber NICHT durch 4 teilbar → falsch\n- d) 56 : 7 = 8 ✓\n- e) 36: 1, 2, 3, 4, 6, 9, 12, 18, 36 → 9 Teiler ✓"
+      "Bei e): 36:1=36, 36:2=18, 36:3=12, 36:4=9, 36:6=6. Alle Partner auflisten: 1,2,3,4,6,9,12,18,36. Zähle: ___.",
+      "Jede Aussage einzeln prüfen:\n- a) Jede Zahl N : 1 = N, kein Rest → 1 ist immer Teiler ✓\n- b) 15: 1, 3, 5, 15 → 4 Teiler ✓\n- c) 6 : 4 = 1 R 2 → 6 ist gerade, aber NICHT durch 4 teilbar → falsch\n- d) 56 : 7 = 8 ✓\n- e) 36: 1, 2, 3, 4, 6, 9, 12, 18, 36 → 9 Teiler ✓."
     ],
     "didaktischerHinweis": "Aussage c) ist ein typischer Denkfehler. \"Gerade\" bedeutet nur \"durch 2 teilbar\", nicht \"durch 4 teilbar\".",
     "parsed": {
@@ -928,7 +928,7 @@
     "loesung": "a) 16: 1, 2, 4, 8, 16 → 5 Teiler\nb) 18: 1, 2, 3, 6, 9, 18 → 6 Teiler\nc) 20: 1, 2, 4, 5, 10, 20 → 6 Teiler\nd) 24: 1, 2, 3, 4, 6, 8, 12, 24 → 8 Teiler\n\nDie 24 hat die meisten Teiler (8 Stück).",
     "loesungsweg": "Alle Teiler jeder Zahl systematisch finden und zählen.",
     "tipps": [
-      "Nutze die Teiler-Paare! Bei 24: 1×24, 2×12, 3×8, 4×6. Jedes Paar gibt dir zwei Teiler.",
+      "Finde alle Teiler-Paare jeder Zahl und zähle die Teiler.",
       "Schreibe für jede Zahl die Paare auf: z.B. 18: 1×18, 2×9, 3×6. Das sind 6 Teiler. Mach das für alle vier Zahlen.",
       "Bei d): 24:1=24, 24:2=12, 24:3=8, 24:4=6. Dann: 24:5=? (Rest!). 4 Paare × 2 = ___ Teiler.",
       "Alle Teiler jeder Zahl systematisch finden und zählen."
@@ -971,14 +971,14 @@
     "kapitel": "08-division-intensiv",
     "stageId": "teiler",
     "digital": "voll",
-    "aufgabenstellung": "Finde die Zahl.\n\na) Ich bin eine Zahl zwischen 20 und 30. Ich bin durch 3, durch 4 und durch 6 teilbar.\nb) Ich bin eine Zahl zwischen 30 und 50. Ich bin durch 2, durch 3 und durch 5 teilbar.",
+    "aufgabenstellung": "Finde die Zahl.\n\na) Ich bin eine Zahl zwischen 20 und 30. Ich bin durch 3, durch 4 und durch 6 teilbar.\nb) Ich bin eine Zahl von 30 bis 50. Ich bin durch 2, durch 3 und durch 5 teilbar.",
     "loesung": "a) 24 (24:3=8, 24:4=6, 24:6=4)\nb) 30 (30:2=15, 30:3=10, 30:5=6)",
-    "loesungsweg": "- a) Zahlen 20-30, teilbar durch 3 UND 4 UND 6: 21(÷4✗), 22(÷3✗), 23, 24(÷3=8✓, ÷4=6✓, ÷6=4✓), 25, 26, 27(÷4✗), 28(÷3✗), 29 → 24\n- b) Zahlen 30-50, teilbar durch 2 UND 3 UND 5: Durch 2 UND 5 → Einerstelle muss 0 sein → 30, 40, 50. 30:3=10✓, 40:3=13R1✗ → 30",
+    "loesungsweg": "- a) Zahlen 20-30, teilbar durch 3 UND 4 UND 6: 21(÷4✗), 22(÷3✗), 23, 24(÷3=8✓, ÷4=6✓, ÷6=4✓), 25, 26, 27(÷4✗), 28(÷3✗), 29 → 24\n- b) Zahlen von 30 bis 50, teilbar durch 2 UND 3 UND 5: Durch 2 UND 5 → Einerstelle muss 0 sein → 30, 40, 50. 30:3=10✓, 40:3=13R1✗ → 30",
     "tipps": [
       "Schreibe alle Zahlen im Bereich auf und streiche die durch, die NICHT durch alle genannten Zahlen teilbar sind.",
       "Tipp: Fange mit der strengsten Bedingung an! Bei b) muss die Zahl durch 2 UND durch 5 teilbar sein → also durch 10 teilbar → Einerstelle ist 0.",
       "Bei a): Zahlen 20-30, die durch 4 teilbar sind: 20, 24, 28. Welche davon sind auch durch 3 teilbar? 20:3=? 24:3=? 28:3=?",
-      "- a) Zahlen 20-30, teilbar durch 3 UND 4 UND 6: 21(÷4✗), 22(÷3✗), 23, 24(÷3=8✓, ÷4=6✓, ÷6=4✓), 25, 26, 27(÷4✗), 28(÷3✗), 29 → 24\n- b) Zahlen 30-50, teilbar durch 2 UND 3 UND 5: Durch 2 UND 5 → Einerstelle muss 0 sein → 30, 40, 50. 30:3=10✓, 40:3=13R1✗ → 30"
+      "- a) Zahlen 20-30, teilbar durch 3 UND 4 UND 6: 21(÷4✗), 22(÷3✗), 23, 24(÷3=8✓, ÷4=6✓, ÷6=4✓), 25, 26, 27(÷4✗), 28(÷3✗), 29 → 24\n- b) Zahlen von 30 bis 50, teilbar durch 2 UND 3 UND 5: Durch 2 UND 5 → Einerstelle muss 0 sein → 30, 40, 50. 30:3=10✓, 40:3=13R1✗ → 30"
     ],
     "didaktischerHinweis": "Systematisches Ausschlussverfahren mit mehreren Bedingungen. Die Strategie \"mit der strengsten Bedingung beginnen\" ist effizient.",
     "parsed": {
@@ -992,7 +992,7 @@
         },
         {
           "label": "b",
-          "frage": "Ich bin eine Zahl zwischen 30 und 50. Ich bin durch 2, durch 3 und durch 5 teilbar.",
+          "frage": "Ich bin eine Zahl von 30 bis 50. Ich bin durch 2, durch 3 und durch 5 teilbar.",
           "antwort": "30 (30:2=15, 30:3=10, 30:5=6)"
         }
       ]
@@ -1014,7 +1014,7 @@
       "Probiere für jede Zahl: Geht die Zahl durch 2 auf? Durch 3? Durch 4? Wenn du keinen Teiler außer 1 und der Zahl selbst findest, hat sie genau 2 Teiler.",
       "Du musst nur bis zur Hälfte der Zahl probieren! Bei 17 reicht es, 2, 3, 4, 5, 6, 7, 8 zu testen. Kein Treffer → nur 2 Teiler.",
       "Bei b): 14 : 2 = 7 (kein Rest!). Also hat 14 mehr als 2 Teiler: 1, 2, 7, 14. Bei c): 17 : 2 = 8 R 1, 17 : 3 = 5 R 2, 17 : 4 = 4 R 1 ... Findest du einen Teiler?",
-      "Probiere für jede Zahl systematisch: Ist sie durch 2, 3, 4, 5, ... teilbar?\n- 11: 11:2=5R1, 11:3=3R2, 11:4=2R3 → nur 1 und 11\n- 14: 14:2=7 → auch durch 2 und 7 teilbar\n- 17: 17:2=8R1, 17:3=5R2, 17:4=4R1 → nur 1 und 17\n- 19: 19:2=9R1, 19:3=6R1, 19:4=4R3 → nur 1 und 19\n- 21: 21:3=7 → auch durch 3 und 7 teilbar"
+      "Probiere für jede Zahl systematisch: Ist sie durch 2, 3, 4, 5, ... teilbar?\n- 11: 11:2=5R1, 11:3=3R2, 11:4=2R3 → nur 1 und 11\n- 14: 14:2=7 → auch durch 2 und 7 teilbar\n- 17: 17:2=8R1, 17:3=5R2, 17:4=4R1 → nur 1 und 17\n- 19: 19:2=9R1, 19:3=6R1, 19:4=4R3 → nur 1 und 19\n- 21: 21:3=7 → auch durch 3 und 7 teilbar."
     ],
     "didaktischerHinweis": "Spielerische Einführung des Primzahl-Begriffs. Das Kind entdeckt selbst, dass manche Zahlen \"besonders wenige\" Teiler haben.",
     "parsed": {
@@ -1097,7 +1097,7 @@
     "tipps": [
       "\"Gerecht verteilen, nichts bleibt übrig\" heißt: Die Anzahl der Freunde muss ein Teiler von 32 sein.",
       "Finde alle Teiler von 32. Nutze die Paare: 32:1=32, 32:2=16, 32:4=8. Fertig!",
-      "Bei a): 32:1=32, 32:2=16, 32:4=8. Teiler: 1, 2, 4, 8, 16, 32. Bei b): 32:6 = 5 Rest ___",
+      "Bei a): 32:1=32, 32:2=16, 32:4=8. Teiler: 1, 2, 4, 8, 16, 32. Bei b): 32:6 = 5 Rest ___.",
       "- a) Teiler von 32: 1, 2, 4, 8, 16, 32. An so viele Freunde kann sie gerecht teilen.\n- b) 32 : 6 = 5 R 2 → 6 ist kein Teiler von 32, es bleiben 2 Stücke übrig."
     ],
     "didaktischerHinweis": "Alltagsbezug Schokolade. Teil b) zeigt: Nicht jede Aufteilung geht auf — das macht Teiler greifbar.",
@@ -1128,25 +1128,25 @@
     "kapitel": "08-division-intensiv",
     "stageId": "teiler",
     "digital": "voll",
-    "aufgabenstellung": "Finde die Zahlen, die alle Bedingungen erfüllen.\n\nIch habe genau 6 Teiler. Ich bin kleiner als 20. Ich bin eine gerade Zahl.",
+    "aufgabenstellung": "Finde die Zahl, die alle Bedingungen erfüllt.\n\nIch habe genau 6 Teiler. Ich bin kleiner als 15. Ich bin eine gerade Zahl.",
     "loesung": "12.",
-    "loesungsweg": "Gerade Zahlen unter 20: 2, 4, 6, 8, 10, 12, 14, 16, 18.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n- 16: {1,2,4,8,16} → 5 Teiler\n- 18: {1,2,3,6,9,18} → 6 Teiler ✓\n\nHm, auch 18 hat 6 Teiler! Aber die Aufgabe sagt \"die Zahl\" (Einzahl) — beide Antworten (12 und 18) sind akzeptabel.",
+    "loesungsweg": "Gerade Zahlen unter 15: 2, 4, 6, 8, 10, 12, 14.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n\n→ Nur 12 erfüllt alle Bedingungen.",
     "tipps": [
-      "Schreibe alle geraden Zahlen unter 20 auf. Finde zu jeder die Teiler und zähle sie. Welche hat genau 6?",
+      "Schreibe alle geraden Zahlen unter 15 auf. Finde zu jeder die Teiler und zähle sie. Welche hat genau 6?",
       "Nutze die Paar-Strategie. 6 Teiler heißt: 3 Teiler-Paare. Bei 12: 1×12, 2×6, 3×4 → 3 Paare = 6 Teiler!",
-      "Probiere die größeren geraden Zahlen zuerst: 18: Teiler 1,2,3,6,9,18 → 6 Teiler! 16: Teiler 1,2,4,8,16 → 5 Teiler. 14: Teiler 1,2,7,14 → 4 Teiler. 12: Teiler 1,2,3,4,6,12 → ___ Teiler!",
-      "Gerade Zahlen unter 20: 2, 4, 6, 8, 10, 12, 14, 16, 18.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n- 16: {1,2,4,8,16} → 5 Teiler\n- 18: {1,2,3,6,9,18} → 6 Teiler ✓\n\nHm, auch 18 hat 6 Teiler! Aber die Aufgabe sagt \"die Zahl\" (Einzahl) — beide Antworten (12 und 18) sind akzeptabel."
+      "Probiere alle geraden Zahlen unter 15: 2, 4, 6, 8, 10, 12, 14. Zähle die Teiler jeder Zahl. Welche hat genau 6? Beginne z.B. bei 12: Teiler 1, 2, 3, 4, 6, 12 → ___ Teiler!",
+      "Gerade Zahlen unter 15: 2, 4, 6, 8, 10, 12, 14.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n\n→ Nur 12 erfüllt alle Bedingungen."
     ],
     "didaktischerHinweis": "Rückwärts denken: Statt Teiler zu finden, muss das Kind die Zahl finden. Das ist anspruchsvoller und fördert Flexibilität.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Finde die Zahlen, die alle Bedingungen erfüllen.",
-      "kontext": "Finde die Zahlen, die alle Bedingungen erfüllen.",
+      "anweisung": "Finde die Zahl, die alle Bedingungen erfüllt.",
+      "kontext": "Finde die Zahl, die alle Bedingungen erfüllt.",
       "items": [
         {
           "label": "1",
-          "frage": "Ich habe genau 6 Teiler. Ich bin kleiner als 20. Ich bin eine gerade Zahl.",
-          "antwort": "12."
+          "frage": "Ich habe genau 6 Teiler. Ich bin kleiner als 15. Ich bin eine gerade Zahl.",
+          "antwort": "12"
         }
       ]
     }
@@ -1167,7 +1167,7 @@
       "Teiler und Vielfaches sind zwei Seiten derselben Medaille: \"6 ist Teiler von 42\" und \"42 ist Vielfaches von 6\" bedeuten DASSELBE.",
       "Prüfe: Geht die Division auf? 42 : 6 = 7 (ja!) → 6 ist Teiler UND 42 ist Vielfaches. Bei d): 9 : 27 — geht das?",
       "Bei d): \"9 ist ein Vielfaches von 27\" → das hieße 27 · ? = 9. Geht das? 27 ist schon größer als 9! Also stimmt das ___.",
-      "Der Zusammenhang: Wenn A ein Teiler von B ist, dann ist B ein Vielfaches von A. Und umgekehrt.\n- a) 6 ist Teiler von 42 ↔ 42 ist Vielfaches von 6 ✓\n- b) 24 = 3 · 8 → 24 ist Vielfaches von 8 ↔ 8 ist Teiler von 24 ✓\n- c) 35 = 7 · 5 → 35 ist Vielfaches von 5 ✓\n- d) 9 ist KEIN Vielfaches von 27 (9 < 27). 27 ist ein Vielfaches von 9! → falsch"
+      "Der Zusammenhang: Wenn A ein Teiler von B ist, dann ist B ein Vielfaches von A. Und umgekehrt.\n- a) 6 ist Teiler von 42 ↔ 42 ist Vielfaches von 6 ✓\n- b) 24 = 3 · 8 → 24 ist Vielfaches von 8 ↔ 8 ist Teiler von 24 ✓\n- c) 35 = 7 · 5 → 35 ist Vielfaches von 5 ✓\n- d) 9 ist KEIN Vielfaches von 27 (9 < 27). 27 ist ein Vielfaches von 9! → falsch."
     ],
     "didaktischerHinweis": "Verbindung Teiler ↔ Vielfaches explizit machen. Aufgabe d) zeigt den häufigen Fehler der Verwechslung von \"Teiler von\" und \"Vielfaches von\".",
     "parsed": {
@@ -1248,7 +1248,7 @@
     "tipps": [
       "Stell dir vor, du teilst 48 Bonbons auf 4 Kinder auf. Nimm zuerst einen großen Haufen, den du leicht teilen kannst (z.B. 40), dann den Rest.",
       "Beim halbschriftlichen Dividieren zerlegst du die Zahl: 48 = 40 + 8. Dann teilst du jeden Teil einzeln: 40 : 4 = 10 und 8 : 4 = 2. Am Ende addierst du: 10 + 2 = 12.",
-      "Bei a): 48 : 4. Schritt 1: 40 : 4 = ___. Schritt 2: 48 − 40 = 8. 8 : 4 = ___. Ergebnis: ___ + ___ = ___",
+      "Bei a): 48 : 4. Schritt 1: 40 : 4 = ___. Schritt 2: 48 − 40 = 8. 8 : 4 = ___. Ergebnis: ___ + ___ = ___.",
       "- a) 48 : 4 → 40 : 4 = 10, 8 : 4 = 2 → 10 + 2 = 12\n- b) 63 : 3 → 60 : 3 = 20, 3 : 3 = 1 → 20 + 1 = 21\n- c) 55 : 5 → 50 : 5 = 10, 5 : 5 = 1 → 10 + 1 = 11"
     ],
     "tippBilder": [
@@ -1310,7 +1310,7 @@
     "tipps": [
       "Welches Vielfache des Divisors kennst du, das nahe an der Zahl liegt? Bei 76 : 4: Welches Vielfache von 4 ist nahe an 76, aber kleiner?",
       "Suche ein \"schönes\" Vielfaches als ersten Schritt. Bei 76 : 4 passt 40 (= 10 · 4). Dann bleibt 76 − 40 = 36 übrig. 36 : 4 = 9.",
-      "Bei b): 91 : 7. Welches Vielfache von 7 ist kleiner als 91? 70 (= 10 · 7). Rest: 91 − 70 = ___. ___ : 7 = ___. Ergebnis: 10 + ___ = ___",
+      "Bei b): 91 : 7. Welches Vielfache von 7 ist kleiner als 91? 70 (= 10 · 7). Rest: 91 − 70 = ___. ___ : 7 = ___. Ergebnis: 10 + ___ = ___.",
       "- a) 76 : 4 → 40 : 4 = 10, 36 : 4 = 9 → 10 + 9 = 19\n- b) 91 : 7 → 70 : 7 = 10, 21 : 7 = 3 → 10 + 3 = 13\n- c) 85 : 5 → 50 : 5 = 10, 35 : 5 = 7 → 10 + 7 = 17"
     ],
     "tippBilder": [
@@ -1371,8 +1371,8 @@
     "loesungsweg": "- a) 96 − 80 = 16. Also: 80:8=10, 16:8=2, Ergebnis: 10+2=12\n- b) 78 − 60 = 18. Also: 60:6=10, 18:6=3, Ergebnis: 10+3=13",
     "tipps": [
       "Bei a): Du weißt, dass der erste Teil 80 ist. Der Rest ist 96 − 80 = ___. Und 80 : 8 = ?",
-      "Der fehlende Dividend im zweiten Schritt ist der Rest: Gesamtzahl minus erster Teil. Bei a): 96 − 80 = 16. Prüfe: 16 : 8 = 2 ✓",
-      "Bei b): 78 − 60 = ___. Prüfe: ___ : 6 = 3? Ergebnis: 10 + 3 = ___",
+      "Der fehlende Dividend im zweiten Schritt ist der Rest: Gesamtzahl minus erster Teil. Bei a): 96 − 80 = 16. Prüfe: 16 : 8 = 2 ✓.",
+      "Bei b): 78 − 60 = ___. Prüfe: ___ : 6 = 3? Ergebnis: 10 + 3 = ___.",
       "- a) 96 − 80 = 16. Also: 80:8=10, 16:8=2, Ergebnis: 10+2=12\n- b) 78 − 60 = 18. Also: 60:6=10, 18:6=3, Ergebnis: 10+3=13"
     ],
     "tippBilder": [
@@ -1414,7 +1414,7 @@
     "tipps": [
       "Bei dreistelligen Zahlen: Fange mit den Hundertern an. 400 : 4 ist leicht! Dann kümmere dich um den Rest.",
       "Zerlege in Hunderter und Zehner. Bei 480: 400 + 80. Teile jeden Teil einzeln durch den Divisor.",
-      "Bei a): 400 : 4 = ___. 80 : 4 = ___. Zusammen: ___ + ___ = ___",
+      "Bei a): 400 : 4 = ___. 80 : 4 = ___. Zusammen: ___ + ___ = ___.",
       "- a) 480 : 4 → 400 : 4 = 100, 80 : 4 = 20 → 100 + 20 = 120\n- b) 630 : 3 → 600 : 3 = 200, 30 : 3 = 10 → 200 + 10 = 210\n- c) 560 : 8 → 560 : 8 → 480 : 8 = 60, 80 : 8 = 10 → 60 + 10 = 70"
     ],
     "tippBilder": [
@@ -1575,7 +1575,7 @@
     "tipps": [
       "Suche ein Vielfaches des Divisors, das möglichst nah am Dividenden ist. Bei 728 : 8: Welches Vielfache von 8 ist nah an 728?",
       "Bei 728 : 8: 8 · 90 = 720. Das passt fast perfekt! Rest: 728 − 720 = 8. Und 8 : 8 = 1. Ergebnis: 91.",
-      "Bei b): 504 : 6. Ein großes Vielfaches von 6: 480 (= 80 · 6). Rest: 504 − 480 = ___. ___ : 6 = ___. Ergebnis: 80 + ___ = ___",
+      "Bei b): 504 : 6. Ein großes Vielfaches von 6: 480 (= 80 · 6). Rest: 504 − 480 = ___. ___ : 6 = ___. Ergebnis: 80 + ___ = ___.",
       "- a) 728 : 8 → 720 : 8 = 90, 8 : 8 = 1 → 90 + 1 = 91\n- b) 504 : 6 → 480 : 6 = 80, 24 : 6 = 4 → 80 + 4 = 84\n- c) 665 : 5 → 500 : 5 = 100, 150 : 5 = 30, 15 : 5 = 3 → 100 + 30 + 3 = 133"
     ],
     "tippBilder": [
@@ -1637,7 +1637,7 @@
     "tipps": [
       "Rechne wie gewohnt halbschriftlich. Wenn am Ende ein kleiner Rest bleibt, der nicht mehr durch den Divisor passt, schreibe ihn als \"R\" dazu.",
       "Wichtig: Der Rest muss KLEINER sein als der Divisor! Bei : 3 kann der Rest nur 0, 1 oder 2 sein. Bei : 4 nur 0, 1, 2 oder 3.",
-      "Bei a): 30 : 3 = 10. Rest: 50 − 30 = 20. 18 : 3 = 6. Rest: 20 − 18 = ___. Dieser Rest ist kleiner als 3. Ergebnis: 16 R ___",
+      "Bei a): 30 : 3 = 10. Rest: 50 − 30 = 20. 18 : 3 = 6. Rest: 20 − 18 = ___. Dieser Rest ist kleiner als 3. Ergebnis: 16 R ___.",
       "- a) 50 : 3 → 30 : 3 = 10, 18 : 3 = 6, Rest: 50 − 30 − 18 = 2 → 16 R 2\n- b) 67 : 4 → 40 : 4 = 10, 24 : 4 = 6, Rest: 67 − 40 − 24 = 3 → 16 R 3\n- c) 83 : 5 → 50 : 5 = 10, 30 : 5 = 6, Rest: 83 − 50 − 30 = 3 → 16 R 3"
     ],
     "tippBilder": [
@@ -1699,7 +1699,7 @@
     "tipps": [
       "Schau dir die Vielfachen-Liste an. Welches Vielfache von 7 ist am nächsten an deiner Zahl dran, aber kleiner?",
       "Bei 371 : 7: Suche in der Liste: 350 passt (350 < 371). 350 : 7 = 50. Rest: 371 − 350 = 21. 21 : 7 = 3. Fertig!",
-      "Bei b): 574. Aus der Liste: 560 (= 80 · 7). Rest: 574 − 560 = ___. ___ : 7 = ___. Ergebnis: 80 + ___ = ___",
+      "Bei b): 574. Aus der Liste: 560 (= 80 · 7). Rest: 574 − 560 = ___. ___ : 7 = ___. Ergebnis: 80 + ___ = ___.",
       "- a) 371 : 7 → 350 : 7 = 50, 21 : 7 = 3 → 50 + 3 = 53\n- b) 574 : 7 → 560 : 7 = 80, 14 : 7 = 2 → 80 + 2 = 82\n- c) 315 : 7 → 280 : 7 = 40, 35 : 7 = 5 → 40 + 5 = 45"
     ],
     "didaktischerHinweis": "Die Vielfachen-Liste gibt Sicherheit. Das Kind lernt, die \"Startrampe\" für die Zerlegung abzulesen.",
@@ -1755,7 +1755,7 @@
     "tipps": [
       "Du hast keine Vielfachen-Liste mehr — aber du kannst dir selbst eine machen! Welches Vielfache von 6 kennst du, das nah an 396 liegt?",
       "Denke an die Malreihe mit vollen Zehnern: 6 · 10 = 60, 6 · 20 = 120, 6 · 30 = 180, 6 · 40 = 240, 6 · 50 = 300, 6 · 60 = 360. 360 passt!",
-      "Bei a): 6 · 60 = 360. 396 − 360 = ___. ___ : 6 = ___. Ergebnis: 60 + ___ = ___",
+      "Bei a): 6 · 60 = 360. 396 − 360 = ___. ___ : 6 = ___. Ergebnis: 60 + ___ = ___.",
       "- a) 396 : 6 → 360 : 6 = 60, 36 : 6 = 6 → 60 + 6 = 66\n- b) 492 : 4 → 400 : 4 = 100, 92 : 4 → 80 : 4 = 20, 12 : 4 = 3 → 100 + 20 + 3 = 123\n- c) 738 : 9 → 720 : 9 = 80, 18 : 9 = 2 → 80 + 2 = 82"
     ],
     "didaktischerHinweis": "Übergang zum selbstständigen Zerlegen ohne Hilfsliste. Das Kind baut sich die Vielfachen im Kopf zusammen.",
@@ -1811,7 +1811,7 @@
     "tipps": [
       "Beginne mit den Tausendern! Bei 4.560 : 8: Wie viele Tausender passen durch 8? 4.000 : 8 = ?",
       "Zerlege in Tausender + Hunderter + Rest. Bei 4.560 = 4.000 + 560. Teile jeden Teil einzeln.",
-      "Bei c): 5.000 : 5 = 1.000. 425 : 5 → 400 : 5 = 80. 25 : 5 = 5. Ergebnis: 1.000 + 80 + ___ = ___",
+      "Bei c): 5.000 : 5 = 1.000. 425 : 5 → 400 : 5 = 80. 25 : 5 = 5. Ergebnis: 1.000 + 80 + ___ = ___.",
       "- a) 4.560 : 8 → 4.000 : 8 = 500, 560 : 8 = 70 → 500 + 70 = 570\n- b) 2.730 : 3 → 2.700 : 3 = 900, 30 : 3 = 10 → 900 + 10 = 910\n- c) 5.425 : 5 → 5.000 : 5 = 1.000, 400 : 5 = 80, 25 : 5 = 5 → 1.000 + 80 + 5 = 1.085"
     ],
     "didaktischerHinweis": "Vierstellige Dividenden mit glatter Zerlegung. Schrittweiser Aufbau zur schriftlichen Division.",
@@ -1923,7 +1923,7 @@
     "tipps": [
       "Manche Aufgaben sind \"glatte\" Teilungen, die du im Kopf schaffst. Bei 360 : 6: Denke an 36 : 6 und hänge eine Null dran!",
       "Kopf-Trick: Wenn der Dividend ein Vielfaches von 10 (oder 100) ist und durch den Divisor glatt aufgeht, rechne die kleinere Aufgabe und passe die Stellenwerte an.",
-      "Bei d): 1.246 : 7. 700 : 7 = 100. Rest: 1.246 − 700 = 546. 490 : 7 = 70. Rest: 546 − 490 = 56. 56 : 7 = ___. Ergebnis: 100 + 70 + ___ = ___",
+      "Bei d): 1.246 : 7. 700 : 7 = 100. Rest: 1.246 − 700 = 546. 490 : 7 = 70. Rest: 546 − 490 = 56. 56 : 7 = ___. Ergebnis: 100 + 70 + ___ = ___.",
       "- a) Kopfrechnen: 36 Zehner : 6 = 6 Zehner = 60\n- b) Halbschriftlich: 473:8 → 400:8=50, 72:8=9, Rest 473−400−72=1 → 59 R 1\n- c) Kopfrechnen: 9 Hunderter : 3 = 3 Hunderter = 300\n- d) Halbschriftlich: 1.246:7 → 700:7=100, 490:7=70, 56:7=8 → 178"
     ],
     "didaktischerHinweis": "Metakognitive Aufgabe: Das Kind entscheidet selbst über den Rechenweg. Fördert Effizienz und Selbsteinschätzung.",
@@ -1989,7 +1989,7 @@
     "tipps": [
       "Löse zuerst die kleinste Aufgabe. Dann schau: Wie hängen die drei Zahlen zusammen?",
       "132 → 1.320 → 13.200. Jede Zahl ist 10-mal so groß wie die vorige. Also wird auch das Ergebnis 10-mal so groß!",
-      "a) 132 : 4 = 33. b) 1.320 ist 10 · 132, also 1.320 : 4 = 10 · 33 = ___. c) 13.200 : 4 = ___",
+      "a) 132 : 4 = 33. b) 1.320 ist 10 · 132, also 1.320 : 4 = 10 · 33 = ___. c) 13.200 : 4 = ___.",
       "- a) 132 : 4 → 120 : 4 = 30, 12 : 4 = 3 → 33\n- b) 1.320 : 4 → gleiche Grundaufgabe × 10 → 330\n- c) 13.200 : 4 → gleiche Grundaufgabe × 100 → 3.300\n\nMuster: Wird der Dividend 10-mal so groß, wird das Ergebnis 10-mal so groß!"
     ],
     "didaktischerHinweis": "Muster erkennen: \"Faktor 10 beim Dividenden → Faktor 10 beim Quotienten\". Vertieft Stellenwertverständnis.",
@@ -2069,7 +2069,7 @@
     "loesung": "a) 423\nb) 213\nc) 122",
     "loesungsweg": "a) 846 : 2 = 423\n   - 8 : 2 = 4, Rest 0 → 0 dazu, nächste Ziffer: 4\n   - 4 : 2 = 2, Rest 0 → nächste Ziffer: 6\n   - 6 : 2 = 3, Rest 0\n\nb) 639 : 3 = 213\n   - 6 : 3 = 2, Rest 0 → 3\n   - 3 : 3 = 1, Rest 0 → 9\n   - 9 : 3 = 3, Rest 0\n\nc) 488 : 4 = 122\n   - 4 : 4 = 1, Rest 0 → 8\n   - 8 : 4 = 2, Rest 0 → 8\n   - 8 : 4 = 2, Rest 0",
     "tipps": [
-      "Frage dich bei jeder Stelle: \"Wie oft passt die 2 (oder 3 oder 4) in diese Ziffer?\" Schreibe die Antwort oben hin. Dann: \"Was bleibt übrig?\"",
+      "Frage dich bei jeder Stelle: \"Wie oft passt die 2 (oder 3 oder 4) in diese Ziffer?\" Schreibe die Antwort oben hin. Dann: \"Was bleibt übrig?\".",
       "Die Schritte: 1) Teilen (wie oft passt der Divisor?) 2) Multiplizieren (Divisor · Ergebnis) 3) Subtrahieren (Differenz bilden) 4) Nächste Stelle herunterholen. Dann wieder von vorn!",
       "Bei a): 8 : 2 = 4 (schreibe 4 oben). 4 · 2 = 8. 8 − 8 = 0. Nächste Ziffer (4) runter: 04 → 4 : 2 = ___. Weiter!",
       "a) 846 : 2 = 423\n   - 8 : 2 = 4, Rest 0 → 0 dazu, nächste Ziffer: 4\n   - 4 : 2 = 2, Rest 0 → nächste Ziffer: 6\n   - 6 : 2 = 3, Rest 0\n\nb) 639 : 3 = 213\n   - 6 : 3 = 2, Rest 0 → 3\n   - 3 : 3 = 1, Rest 0 → 9\n   - 9 : 3 = 3, Rest 0\n\nc) 488 : 4 = 122\n   - 4 : 4 = 1, Rest 0 → 8\n   - 8 : 4 = 2, Rest 0 → 8\n   - 8 : 4 = 2, Rest 0"
@@ -2133,7 +2133,7 @@
     "tipps": [
       "Wenn die erste Ziffer kleiner als der Divisor ist, nimm die ersten ZWEI Ziffern zusammen. Bei 3.528 : 4: 3 < 4, also starte mit 35.",
       "Frage dich: \"Wie oft passt 4 in 35?\" 4 · 8 = 32 (passt!). 4 · 9 = 36 (zu groß!). Also 8 mal. Rest: 35 − 32 = 3. Nächste Ziffer dazu: 32 → heruntergeholt die 2, ergibt 32.",
-      "Bei b): 2 < 5, also 25 : 5 = 5. Rest 0. Nächste Ziffer: 6. 6 : 5 = 1 R 1. Nächste Ziffer dazu: 15. 15 : 5 = ___",
+      "Bei b): 2 < 5, also 25 : 5 = 5. Rest 0. Nächste Ziffer: 6. 6 : 5 = 1 R 1. Nächste Ziffer dazu: 15. 15 : 5 = ___.",
       "a) 3.528 : 4 = 882\n   - 3 : 4 geht nicht → nimm 35\n   - 35 : 4 = 8 R 3 → 32\n   - 32 : 4 = 8 R 0 → 08\n   - 8 : 4 = 2 R 0\n\nb) 2.565 : 5 = 513\n   - 2 : 5 geht nicht → nimm 25\n   - 25 : 5 = 5 R 0 → 06\n   - 6 : 5 = 1 R 1 → 15\n   - 15 : 5 = 3 R 0\n\nc) 4.914 : 6 = 819\n   - 4 : 6 geht nicht → nimm 49\n   - 49 : 6 = 8 R 1 → 11\n   - 11 : 6 = 1 R 5 → 54\n   - 54 : 6 = 9 R 0"
     ],
     "tippBilder": [
@@ -2247,7 +2247,7 @@
     "tipps": [
       "Bei fünfstelligen Zahlen: Genauso vorgehen wie bei vierstelligen — nur eine Stelle mehr. Und aufpassen: Kann es eine Null im Ergebnis geben?",
       "Bei b): Wenn eine Zahl kleiner als der Divisor ist (z.B. 1 < 8), schreibe eine 0 ins Ergebnis und nimm die nächste Stelle dazu!",
-      "Bei b): 63 : 8 = 7 R 7. 72 : 8 = 9 R 0. 01 → 1 : 8 = 0 R 1 → schreibe 0 oben! 16 : 8 = ___",
+      "Bei b): 63 : 8 = 7 R 7. 72 : 8 = 9 R 0. 01 → 1 : 8 = 0 R 1 → schreibe 0 oben! 16 : 8 = ___.",
       "a) 42.735 : 5 = 8.547\n   - 42 : 5 = 8 R 2 → 27\n   - 27 : 5 = 5 R 2 → 23\n   - 23 : 5 = 4 R 3 → 35\n   - 35 : 5 = 7 R 0\n\nb) 63.216 : 8 = 7.902\n   - 63 : 8 = 7 R 7 → 72\n   - 72 : 8 = 9 R 0 → 01\n   - 1 : 8 = 0 R 1 → 16 (Achtung: 0 ins Ergebnis!)\n   - 16 : 8 = 2 R 0\n\nc) 37.926 : 6 = 6.321\n   - 37 : 6 = 6 R 1 → 19\n   - 19 : 6 = 3 R 1 → 12\n   - 12 : 6 = 2 R 0 → 06\n   - 6 : 6 = 1 R 0"
     ],
     "tippBilder": [
@@ -2309,7 +2309,7 @@
     "tipps": [
       "Wenn du bei einer Stelle feststellst, dass der Divisor nicht hineinpasst (z.B. 1 : 7), schreibe eine 0 ins Ergebnis! Vergiss die Null nicht — sonst stimmt dein Ergebnis nicht.",
       "Stellenwert-Kontrolle: Ein 4-stelliger Dividend geteilt durch eine einstellige Zahl ergibt ein 3- oder 4-stelliges Ergebnis. Wenn dein Ergebnis nur 2 Stellen hat, fehlt eine Null!",
-      "Bei a): 42 : 7 = 6. 01 → 1 : 7 = 0 (0 schreiben!). 18 : 7 = 2 R 4. Ergebnis: 6_2 → Was steht in der Mitte? ___",
+      "Bei a): 42 : 7 = 6. 01 → 1 : 7 = 0 (0 schreiben!). 18 : 7 = 2 R 4. Ergebnis: 6_2 → Was steht in der Mitte? ___.",
       "a) 4.218 : 7 = 602 R 4\n   - 42 : 7 = 6 R 0 → 01\n   - 1 : 7 = 0 R 1 → 18 (0 ins Ergebnis!)\n   - 18 : 7 = 2 R 4\n\nb) 5.040 : 6 = 840\n   - 50 : 6 = 8 R 2 → 24\n   - 24 : 6 = 4 R 0 → 00\n   - 0 : 6 = 0 R 0"
     ],
     "tippBilder": [
@@ -2453,9 +2453,9 @@
     "loesung": "a) 495, kein Rest (Einerstelle 5 → durch 5 teilbar). Probe: 495 · 5 = 2.475 ✓\nb) 263 R 2 (keine einfache Teilbarkeitsregel für 7). Probe: 263 · 7 + 2 = 1.841 + 2 = 1.843 ✓",
     "loesungsweg": "Teilbarkeits-Schnellcheck:\n- a) 2.475 → Einerstelle 5 → durch 5 teilbar → kein Rest erwartet\n- b) 1.843 → keine einfache Regel für 7 → rechnen und schauen\n\na) 2.475 : 5 = 495: 24:5=4 R4 → 47:5=9 R2 → 25:5=5 R0\nb) 1.843 : 7 = 263 R 2: 18:7=2 R4 → 44:7=6 R2 → 23:7=3 R2",
     "tipps": [
-      "Teilbarkeits-Check vor dem Rechnen! Bei : 5 schaust du auf die Einerstelle. Endet sie auf 0 oder 5? Dann gibt es keinen Rest.",
+      "Teilbarkeits-Probe vor dem Rechnen! Bei : 5 schaust du auf die Einerstelle. Endet sie auf 0 oder 5? Dann gibt es keinen Rest.",
       "Nutze die Teilbarkeitsregeln als Vorhersage: Durch 5 → Einerstelle. Durch 3 → Quersumme. Durch 2 → gerade/ungerade. So weißt du vorher, ob ein Rest kommt!",
-      "Bei a): Einerstelle von 2.475 ist 5 → durch 5 teilbar → kein Rest. Rechne: 24 : 5 = 4 R 4. 47 : 5 = 9 R 2. 25 : 5 = ___",
+      "Bei a): Einerstelle von 2.475 ist 5 → durch 5 teilbar → kein Rest. Rechne: 24 : 5 = 4 R 4. 47 : 5 = 9 R 2. 25 : 5 = ___.",
       "Teilbarkeits-Schnellcheck:\n- a) 2.475 → Einerstelle 5 → durch 5 teilbar → kein Rest erwartet\n- b) 1.843 → keine einfache Regel für 7 → rechnen und schauen\n\na) 2.475 : 5 = 495: 24:5=4 R4 → 47:5=9 R2 → 25:5=5 R0\nb) 1.843 : 7 = 263 R 2: 18:7=2 R4 → 44:7=6 R2 → 23:7=3 R2"
     ],
     "tippBilder": [
@@ -2507,7 +2507,7 @@
     "tipps": [
       "Wenn die Zahl, die du teilen sollst, kleiner als der Divisor ist, schreibe eine 0 ins Ergebnis. Das passiert hier MEHRMALS — pass auf!",
       "Zähle die Stellen deines Ergebnisses. Bei 6.042 : 6 muss ein vierstelliges Ergebnis rauskommen (6 > 6? Nein, also 4 Stellen). Wenn dein Ergebnis weniger Stellen hat, hast du Nullen vergessen!",
-      "Bei a): 6 : 6 = 1 R 0. Nächste: 0 : 6 = 0 (0 schreiben!). Nächste: 4 : 6 = 0 (nochmal 0!). 42 : 6 = ___. Ergebnis: 1.00_",
+      "Bei a): 6 : 6 = 1 R 0. Nächste: 0 : 6 = 0 (0 schreiben!). Nächste: 4 : 6 = 0 (nochmal 0!). 42 : 6 = ___. Ergebnis: 1.00_.",
       "a) 6.042 : 6 = 1.007\n   - 6 : 6 = 1 R 0 → 00\n   - 0 : 6 = 0 R 0 → 04 (0 ins Ergebnis!)\n   - 4 : 6 = 0 R 4 → 42 (nochmal 0 ins Ergebnis!)\n   - 42 : 6 = 7 R 0\n\nb) 4.024 : 8 = 503\n   - 40 : 8 = 5 R 0 → 02\n   - 2 : 8 = 0 R 2 → 24 (0 ins Ergebnis!)\n   - 24 : 8 = 3 R 0\n\nc) 21.035 : 7 = 3.005\n   - 21 : 7 = 3 R 0 → 00\n   - 0 : 7 = 0 R 0 → 03 (0 ins Ergebnis!)\n   - 3 : 7 = 0 R 3 → 35 (nochmal 0!)\n   - 35 : 7 = 5 R 0"
     ],
     "tippBilder": [
@@ -2621,7 +2621,7 @@
     "tipps": [
       "Mache bei jeder Aufgabe die Probe: Ergebnis · Divisor. Kommt der Dividend raus? Wenn nicht, ist ein Fehler passiert!",
       "Bei c): Das Ergebnis 76 hat nur 2 Stellen. Aber 3.024 hat 4 Stellen. Ein 4-stelliger Dividend geteilt durch 4 ergibt mindestens ein 3-stelliges Ergebnis. Da stimmt was nicht!",
-      "Bei c): 76 · 4 = 304. Aber der Dividend ist 3.024! Das ist viel zu groß. Es wurde eine Null vergessen. Rechne neu: 30 : 4 = 7 R 2, 22 : 4 = 5 R 2, 24 : 4 = ___",
+      "Bei c): 76 · 4 = 304. Aber der Dividend ist 3.024! Das ist viel zu groß. Es wurde eine Null vergessen. Rechne neu: 30 : 4 = 7 R 2, 22 : 4 = 5 R 2, 24 : 4 = ___.",
       "- a) 567 · 8: 7·8=56, 6·8=48+5=53, 5·8=40+5=45 → 4.536 ✓\n- b) 1.423 · 5: 3·5=15, 2·5=10+1=11, 4·5=20+1=21, 1·5=5+2=7 → 7.115 ≠ 7.215 → falsch\n- c) 76 · 4: 6·4=24, 7·4=28+2=30 → 304 ≠ 3.024 → Null wurde vergessen! Richtig: 756"
     ],
     "tippBilder": [
@@ -2671,8 +2671,8 @@
     "tipps": [
       "\"Gleich viele Sitze pro Reihe\" heißt: Die Gesamtzahl wird gleichmäßig auf die Reihen aufgeteilt. Welche Rechenart brauchst du?",
       "Teile die Gesamtzahl durch die Anzahl der Reihen: 2.184 : 8. Rechne schriftlich!",
-      "2.184 : 8. 2 < 8, also nimm 21. 21 : 8 = 2 R 5. 58 : 8 = 7 R 2. 24 : 8 = ___",
-      "2.184 : 8 = 273\n- 21 : 8 = 2 R 5 → 58\n- 58 : 8 = 7 R 2 → 24\n- 24 : 8 = 3 R 0\n\nProbe: 273 · 8 = 2.184 ✓"
+      "2.184 : 8. 2 < 8, also nimm 21. 21 : 8 = 2 R 5. 58 : 8 = 7 R 2. 24 : 8 = ___.",
+      "2.184 : 8 = 273\n- 21 : 8 = 2 R 5 → 58\n- 58 : 8 = 7 R 2 → 24\n- 24 : 8 = 3 R 0\n\nProbe: 273 · 8 = 2.184 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2709,8 +2709,8 @@
     "tipps": [
       "Berechne für jede Abteilung: Wie viel bekommt EINE Person? Dann vergleiche die beiden Beträge.",
       "Teile jeweils den Gesamtbetrag durch die Anzahl der Mitarbeiter. Dann: Wer bekommt mehr? Rechne die Differenz.",
-      "Abteilung A: 34.272 : 6. 34:6=5 R4, 42:6=7, 07:6=1 R1, 12:6=2. Ergebnis: 5.712. Abteilung B: 31.360 : 5 = ___. Differenz: ___ − 5.712 = ___",
-      "a) 34.272 : 6 = 5.712\n   - 34 : 6 = 5 R 4 → 42\n   - 42 : 6 = 7 R 0 → 07\n   - 7 : 6 = 1 R 1 → 12\n   - 12 : 6 = 2 R 0\n\nb) 31.360 : 5 = 6.272\n   - 31 : 5 = 6 R 1 → 13\n   - 13 : 5 = 2 R 3 → 36\n   - 36 : 5 = 7 R 1 → 10\n   - 10 : 5 = 2 R 0\n\nDifferenz: 6.272 − 5.712 = 560 Euro"
+      "Abteilung A: 34.272 : 6. 34:6=5 R4, 42:6=7, 07:6=1 R1, 12:6=2. Ergebnis: 5.712. Abteilung B: 31.360 : 5 = ___. Differenz: ___ − 5.712 = ___.",
+      "a) 34.272 : 6 = 5.712\n   - 34 : 6 = 5 R 4 → 42\n   - 42 : 6 = 7 R 0 → 07\n   - 7 : 6 = 1 R 1 → 12\n   - 12 : 6 = 2 R 0\n\nb) 31.360 : 5 = 6.272\n   - 31 : 5 = 6 R 1 → 13\n   - 13 : 5 = 2 R 3 → 36\n   - 36 : 5 = 7 R 1 → 10\n   - 10 : 5 = 2 R 0\n\nDifferenz: 6.272 − 5.712 = 560 Euro."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2746,8 +2746,8 @@
     "loesungsweg": "a) 56.042 : 7 = 8.006\n   - 56 : 7 = 8 R 0 → 00\n   - 0 : 7 = 0 R 0 → 04 (0 ins Ergebnis!)\n   - 4 : 7 = 0 R 4 → 42 (nochmal 0!)\n   - 42 : 7 = 6 R 0\n\nb) 48.024 : 8 = 6.003\n   - 48 : 8 = 6 R 0 → 00\n   - 0 : 8 = 0 R 0 → 02 (0 ins Ergebnis!)\n   - 2 : 8 = 0 R 2 → 24 (nochmal 0!)\n   - 24 : 8 = 3 R 0",
     "tipps": [
       "Hier kommen ZWEI Nullen hintereinander im Ergebnis! Lass dich davon nicht verwirren. Bei jeder Stelle, die kleiner als der Divisor ist: 0 schreiben und nächste Stelle dazunehmen.",
-      "Stellenzahl-Check: 56.042 hat 5 Stellen. 56 : 7 = 8, also startet das Ergebnis mit 8 → 4 Stellen im Ergebnis. Wenn dein Ergebnis weniger hat, fehlen Nullen!",
-      "Bei a): 56 : 7 = 8. Dann: 0 : 7 = 0 → 0 schreiben! Dann: 4 : 7 = 0 → nochmal 0! Dann: 42 : 7 = ___. Ergebnis: 8.00___",
+      "Stellenzahl-Prüfung: 56.042 hat 5 Stellen. 56 : 7 = 8, also startet das Ergebnis mit 8 → 4 Stellen im Ergebnis. Wenn dein Ergebnis weniger hat, fehlen Nullen!",
+      "Bei a): 56 : 7 = 8. Dann: 0 : 7 = 0 → 0 schreiben! Dann: 4 : 7 = 0 → nochmal 0! Dann: 42 : 7 = ___. Ergebnis: 8.00___.",
       "a) 56.042 : 7 = 8.006\n   - 56 : 7 = 8 R 0 → 00\n   - 0 : 7 = 0 R 0 → 04 (0 ins Ergebnis!)\n   - 4 : 7 = 0 R 4 → 42 (nochmal 0!)\n   - 42 : 7 = 6 R 0\n\nb) 48.024 : 8 = 6.003\n   - 48 : 8 = 6 R 0 → 00\n   - 0 : 8 = 0 R 0 → 02 (0 ins Ergebnis!)\n   - 2 : 8 = 0 R 2 → 24 (nochmal 0!)\n   - 24 : 8 = 3 R 0"
     ],
     "tippBilder": [
@@ -2800,7 +2800,7 @@
       "Division und Multiplikation sind Umkehroperationen — wie Hin- und Rückweg. Wenn du die Division gelöst hast, kannst du mit der Multiplikation prüfen.",
       "Rechne die Division sauber Schritt für Schritt. Dann multipliziere dein Ergebnis mit dem Divisor. Kommt der Dividend raus? Perfekt!",
       "Bei b): 18 : 3 = 6. 9 : 3 = 3. 6 : 3 = 2. 3 : 3 = 1. Ergebnis: 6.321. Probe: 6.321 · 3 = ?",
-      "a) 25.956 : 4 = 6.489\n   - 25 : 4 = 6 R 1 → 19\n   - 19 : 4 = 4 R 3 → 35\n   - 35 : 4 = 8 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 6.489 · 4 = 25.956 ✓\n\nb) 18.963 : 3 = 6.321\n   - 18 : 3 = 6 R 0 → 09\n   - 9 : 3 = 3 R 0 → 06\n   - 6 : 3 = 2 R 0 → 03\n   - 3 : 3 = 1 R 0\n   Probe: 6.321 · 3 = 18.963 ✓"
+      "a) 25.956 : 4 = 6.489\n   - 25 : 4 = 6 R 1 → 19\n   - 19 : 4 = 4 R 3 → 35\n   - 35 : 4 = 8 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 6.489 · 4 = 25.956 ✓\n\nb) 18.963 : 3 = 6.321\n   - 18 : 3 = 6 R 0 → 09\n   - 9 : 3 = 3 R 0 → 06\n   - 6 : 3 = 2 R 0 → 03\n   - 3 : 3 = 1 R 0\n   Probe: 6.321 · 3 = 18.963 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",

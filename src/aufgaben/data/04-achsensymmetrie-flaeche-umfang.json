@@ -10,12 +10,12 @@
     "digital": "voll",
     "aufgabenstellung": "Schau dir die Buchstaben an. Welche davon sind achsensymmetrisch?\n\na) A\nb) B\nc) F\nd) M\ne) S",
     "loesung": "a) stimmt ✓ — A hat eine senkrechte Symmetrieachse\nb) stimmt nicht ✗ — B hat keine Symmetrieachse\nc) stimmt nicht ✗ — F hat keine Symmetrieachse\nd) stimmt ✓ — M hat eine senkrechte Symmetrieachse\ne) stimmt nicht ✗ — S hat keine Symmetrieachse",
-    "loesungsweg": "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau.\n- F und S: Keine Achse möglich.",
+    "loesungsweg": "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau. Auch an einer waagerechten Achse passt es nicht, weil die untere Rundung größer ist als die obere — also keine Symmetrieachse.\n- F und S: Keine Achse möglich.",
     "tipps": [
       "Stell dir vor, du legst einen Spiegel genau in die Mitte des Buchstabens. Sieht die gespiegelte Hälfte genauso aus wie die andere?",
       "Zeichne den Buchstaben auf Papier und falte es in der Mitte — erst senkrecht, dann waagerecht. Wenn beide Hälften genau aufeinander passen, ist der Buchstabe achsensymmetrisch.",
       "Schau dir den Buchstaben A an. Wenn du eine senkrechte Linie von der Spitze nach unten zeichnest — sieht die linke Seite genauso aus wie die rechte? Probiere das jetzt mit dem Buchstaben F.",
-      "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau.\n- F und S: Keine Achse möglich."
+      "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau. Auch an einer waagerechten Achse passt es nicht, weil die untere Rundung größer ist als die obere — also keine Symmetrieachse.\n- F und S: Keine Achse möglich."
     ],
     "didaktischerHinweis": "Diese Aufgabe trainiert das visuelle Erkennen von Symmetrieachsen an vertrauten Formen (Buchstaben). Kinder sollen lernen, Symmetrie nicht nur zu „fühlen\", sondern systematisch zu prüfen (Spiegelprobe, Faltprobe).",
     "themenIntroBild": "assets/erklaerungen/symmetrieachsen-beispiele.svg",
@@ -154,12 +154,12 @@
     "digital": "voll",
     "aufgabenstellung": "Schau dir die Figur an (ein Herz). Wo liegt die Symmetrieachse?\n\na) Senkrecht durch die Mitte\nb) Waagerecht durch die Mitte\nc) Diagonal von links oben nach rechts unten\nd) Die Figur hat keine Symmetrieachse",
     "loesung": "a) Senkrecht durch die Mitte.",
-    "loesungsweg": "Ein Herz hat eine senkrechte Symmetrieachse: Die linke Hälfte sieht genauso aus wie die rechte Hälfte, nur gespiegelt. Eine waagerechte Achse funktioniert nicht, weil die obere Hälfte (zwei Bögen) anders aussieht als die untere Hälfte (Spitze).",
+    "loesungsweg": "Ein Herz hat eine senkrechte Symmetrieachse: Die linke Hälfte sieht genauso aus wie die rechte Hälfte, nur gespiegelt. Eine waagerechte Achse klappt nicht, weil die obere Hälfte (zwei Bögen) anders aussieht als die untere Hälfte (Spitze).",
     "tipps": [
       "Stell dir vor, du faltest das Herz zusammen. In welche Richtung musst du falten, damit beide Hälften genau aufeinander liegen?",
       "Vergleiche die linke und die rechte Hälfte des Herzens. Dann vergleiche die obere und die untere Hälfte. Bei welchem Vergleich sehen beide Hälften gleich aus?",
       "Schau dir die obere Hälfte an: Zwei runde Bögen. Schau dir die untere Hälfte an: Eine Spitze. Die sind verschieden → waagerecht geht nicht. Was ist mit senkrecht? Linke und rechte Hälfte sehen ___ aus.",
-      "Ein Herz hat eine senkrechte Symmetrieachse: Die linke Hälfte sieht genauso aus wie die rechte Hälfte, nur gespiegelt. Eine waagerechte Achse funktioniert nicht, weil die obere Hälfte (zwei Bögen) anders aussieht als die untere Hälfte (Spitze)."
+      "Ein Herz hat eine senkrechte Symmetrieachse: Die linke Hälfte sieht genauso aus wie die rechte Hälfte, nur gespiegelt. Eine waagerechte Achse klappt nicht, weil die obere Hälfte (zwei Bögen) anders aussieht als die untere Hälfte (Spitze)."
     ],
     "didaktischerHinweis": "Das Erkennen der Lage der Symmetrieachse ist eine wichtige Fähigkeit. Kinder lernen, dass die Achse nicht immer senkrecht sein muss und dass man systematisch verschiedene Möglichkeiten prüfen kann.",
     "parsed": {
@@ -395,7 +395,7 @@
   {
     "titel": "Symmetrisch oder nicht? — Figuren beurteilen",
     "typ": "wahr-falsch",
-    "thema": "Faltschnitte",
+    "thema": "Achsensymmetrische Bilder",
     "schwierigkeit": "gelb",
     "buchseite": 47,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
@@ -542,7 +542,7 @@
         {
           "label": "d",
           "frage": "Der Buchstabe T (aus geraden Linien)",
-          "antwort": "2 rechte Winkel (links und rechts an der Verbindungsstelle)"
+          "antwort": "Der Buchstabe T hat 2 rechte Winkel (links und rechts an der Verbindungsstelle)."
         }
       ]
     }
@@ -674,8 +674,8 @@
     "tipps": [
       "Der Umfang ist wie ein Spaziergang einmal um das Rechteck herum. Wie weit läufst du insgesamt?",
       "Ein Rechteck hat 4 Seiten: 2 lange und 2 kurze. Rechne alle 4 Seiten zusammen. Oder nutze die Abkürzung: 2 mal (lange Seite + kurze Seite).",
-      "Oben: 8 cm. Rechts: 3 cm. Unten: 8 cm. Links: 3 cm. Insgesamt: 8 + 3 + 8 + 3 = ___",
-      "Der Umfang eines Rechtecks ist die Summe aller 4 Seiten:\n- Zwei Seiten sind 8 cm lang (oben und unten)\n- Zwei Seiten sind 3 cm lang (links und rechts)\n- Umfang = 8 + 3 + 8 + 3 = 22 cm\n- Oder mit Formel: U = 2 · (Länge + Breite) = 2 · (8 + 3) = 2 · 11 = 22 cm"
+      "Oben: 8 cm. Rechts: 3 cm. Unten: 8 cm. Links: 3 cm. Insgesamt: 8 + 3 + 8 + 3 = ___.",
+      "Der Umfang eines Rechtecks ist die Summe aller 4 Seiten:\n- Zwei Seiten sind 8 cm lang (oben und unten)\n- Zwei Seiten sind 3 cm lang (links und rechts)\n- Umfang = 8 + 3 + 8 + 3 = 22 cm\n- Oder mit Formel: U = 2 · (Länge + Breite) = 2 · (8 + 3) = 2 · 11 = 22 cm."
     ],
     "didaktischerHinweis": "Die Aufgabe kombiniert Zeichnen (haptisch, mit Geodreieck) und Rechnen (Umfang). Teil b) ist digital nicht umsetzbar, aber Teil a) trainiert die Umfangformel. Entspricht Buch S. 49, Aufg. 6.",
     "parsed": {
@@ -686,7 +686,7 @@
         {
           "label": "a",
           "frage": "Wie lang ist der Umfang des Rechtecks?",
-          "antwort": "Umfang = 2 · (8 cm + 3 cm) = 2 · 11 cm = 22 cm"
+          "antwort": "22 cm"
         },
         {
           "label": "b",
@@ -812,7 +812,7 @@
     "tipps": [
       "Stell dir die Figur auf Karopapier vor. Zähle einfach alle Kästchen, die innerhalb der Figur liegen.",
       "Bei Rechtecken: Breite × Höhe = Anzahl Kästchen.\nBei unregelmäßigen Formen: Zähle einzeln oder rechne ein großes Rechteck minus die fehlenden Teile.",
-      "Bei a): 5 Kästchen nebeneinander, davon 3 Reihen übereinander. 5 + 5 + 5 = ___ oder 5 · 3 = ___",
+      "Bei a): 5 Kästchen nebeneinander, davon 3 Reihen übereinander. 5 + 5 + 5 = ___ oder 5 · 3 = ___.",
       "Der Flächeninhalt gibt an, wie viele Einheitsquadrate (kleine Kästchen) in die Figur passen.\n- a) Rechteck: Breite × Höhe = 5 × 3 = 15 Kästchen\n- b) Quadrat: Seite × Seite = 4 × 4 = 16 Kästchen\n- c) L-Form: Zähle alle Kästchen oder rechne das volle Rechteck minus das fehlende Stück: 4 × 2 = 8, minus 2 × 1 = 2, ergibt 6 Kästchen."
     ],
     "didaktischerHinweis": "Das Zählen von Einheitsquadraten legt den Grundstein für die Flächenformel (Länge × Breite). Kinder sollen erst durch Zählen verstehen, was Flächeninhalt bedeutet, bevor sie die Formel anwenden. Entspricht S. 50, Aufg. 2.",
@@ -854,8 +854,8 @@
     "tipps": [
       "Stell dir vor, du gehst einmal um das Rechteck herum und zählst deine Schritte. Du gehst erst nach rechts, dann nach oben, dann nach links und dann nach unten — zurück zum Start. Wie weit bist du gelaufen?",
       "Ein Rechteck hat 2 lange und 2 kurze Seiten. Rechne: 2 · (lange Seite + kurze Seite).",
-      "Bei a): Oben: 7 cm. Rechts: 3 cm. Unten: 7 cm. Links: 3 cm. Zusammen: 7 + 3 + 7 + 3 = ___ cm. Oder kürzer: 2 · (7 + 3) = 2 · ___ = ___",
-      "Der Umfang ist die Gesamtlänge des Randes:\n- Umfang = Seite 1 + Seite 2 + Seite 3 + Seite 4\n- Bei einem Rechteck: U = Länge + Breite + Länge + Breite = 2 · (Länge + Breite)\n- Bei einem Quadrat: U = 4 · Seitenlänge"
+      "Bei a): Oben: 7 cm. Rechts: 3 cm. Unten: 7 cm. Links: 3 cm. Zusammen: 7 + 3 + 7 + 3 = ___ cm. Oder kürzer: 2 · (7 + 3) = 2 · ___ = ___.",
+      "Der Umfang ist die Gesamtlänge des Randes:\n- Umfang = Seite 1 + Seite 2 + Seite 3 + Seite 4\n- Bei einem Rechteck: U = Länge + Breite + Länge + Breite = 2 · (Länge + Breite)\n- Bei einem Quadrat: U = 4 · Seitenlänge."
     ],
     "didaktischerHinweis": "Die Umfangberechnung entspricht S. 53, Aufg. 8. Das Quadrat in c) ist bewusst enthalten, damit Kinder erkennen: Ein Quadrat ist ein besonderes Rechteck, bei dem die Formel noch einfacher wird (4 × Seite).",
     "parsed": {
@@ -866,17 +866,17 @@
         {
           "label": "a",
           "frage": "Länge 7 cm, Breite 3 cm",
-          "antwort": "U = 2 · (7 + 3) = 2 · 10 = 20 cm"
+          "antwort": "20 cm"
         },
         {
           "label": "b",
           "frage": "Länge 10 cm, Breite 1 cm",
-          "antwort": "U = 2 · (10 + 1) = 2 · 11 = 22 cm"
+          "antwort": "22 cm"
         },
         {
           "label": "c",
           "frage": "Länge 5 cm, Breite 5 cm (Quadrat!)",
-          "antwort": "U = 2 · (5 + 5) = 2 · 10 = 20 cm (oder: 4 · 5 = 20 cm)"
+          "antwort": "20 cm"
         }
       ]
     }
@@ -896,8 +896,8 @@
     "tipps": [
       "Stell dir die Figur auf Karopapier vor. Jedes Kästchen ist 1 qcm groß. Wie viele Kästchen passen in die Figur?",
       "Bei einfachen Rechtecken: Länge × Breite.\nBei zusammengesetzten Figuren: Teile die Figur in einfache Rechtecke auf und addiere die Flächeninhalte.",
-      "Bei c): Teile die L-Form in 2 Rechtecke. Das untere ist 6 cm breit und 2 cm hoch: 6 · 2 = 12 qcm. Das obere ist 2 cm breit und 3 cm hoch: 2 · 3 = ___ qcm. Zusammen: 12 + ___ = ___",
-      "- a) Rechteck: Länge × Breite = 6 × 3 = 18 qcm\n- b) Quadrat: Seite × Seite = 5 × 5 = 25 qcm\n- c) L-Form: Teile die Figur in zwei Rechtecke auf:\n  - Unteres Rechteck: 6 × 2 = 12 qcm\n  - Oberes Rechteck (links): 2 × 3 = 6 qcm\n  - Zusammen: 12 + 6 = 18 qcm"
+      "Bei c): Teile die L-Form in 2 Rechtecke. Das untere ist 6 cm breit und 2 cm hoch: 6 · 2 = 12 qcm. Das obere ist 2 cm breit und 3 cm hoch: 2 · 3 = ___ qcm. Zusammen: 12 + ___ = ___.",
+      "- a) Rechteck: Länge × Breite = 6 × 3 = 18 qcm\n- b) Quadrat: Seite × Seite = 5 × 5 = 25 qcm\n- c) L-Form: Teile die Figur in zwei Rechtecke auf:\n  - Unteres Rechteck: 6 × 2 = 12 qcm\n  - Oberes Rechteck (links): 2 × 3 = 6 qcm\n  - Zusammen: 12 + 6 = 18 qcm."
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 52, Aufg. 2-3. Die Einheit Quadratzentimeter (qcm) wird hier als Weiterentwicklung der Einheitsquadrate eingeführt. Das Zerlegen zusammengesetzter Figuren ist eine wichtige Problemlösestrategie.",
     "parsed": {
@@ -908,17 +908,17 @@
         {
           "label": "a",
           "frage": "Ein Rechteck: 6 cm breit, 3 cm hoch.",
-          "antwort": "6 · 3 = 18 qcm"
+          "antwort": "18 qcm"
         },
         {
           "label": "b",
           "frage": "Ein Quadrat: 5 cm Seitenlänge.",
-          "antwort": "5 · 5 = 25 qcm"
+          "antwort": "25 qcm"
         },
         {
           "label": "c",
           "frage": "Ein L-förmige Figur: Unten ein Rechteck 6 × 2 cm, links oben ein Rechteck 2 × 3 cm.",
-          "antwort": "(6 · 2) + (2 · 3) = 12 + 6 = 18 qcm"
+          "antwort": "18 qcm"
         }
       ]
     }
@@ -937,8 +937,8 @@
     "loesungsweg": "Wenn du den Umfang und eine Seite kennst:\n1. Halbiere den Umfang → das ergibt die Summe von Länge und Breite.\n2. Ziehe die bekannte Seite ab → das ergibt die fehlende Seite.\n\nBeispiel a): U = 20 cm → Hälfte = 10 cm → 10 − 6 = 4 cm.",
     "tipps": [
       "Der Umfang besteht aus 2 langen und 2 kurzen Seiten. Wenn du den Umfang halbierst, bekommst du: eine lange + eine kurze Seite zusammen.",
-      "Formel rückwärts lösen:\n1. Umfang ÷ 2 = Länge + Breite\n2. (Länge + Breite) − bekannte Seite = fehlende Seite",
-      "Bei a): Umfang ist 20 cm. Halbiere: 20 ÷ 2 = 10. Das ist die Summe beider Seiten. Eine Seite ist 6 cm. Also: 10 − 6 = ___",
+      "Formel rückwärts lösen:\n1. Umfang ÷ 2 = Länge + Breite\n2. (Länge + Breite) − bekannte Seite = fehlende Seite.",
+      "Bei a): Umfang ist 20 cm. Halbiere: 20 ÷ 2 = 10. Das ist die Summe beider Seiten. Eine Seite ist 6 cm. Also: 10 − 6 = ___.",
       "Wenn du den Umfang und eine Seite kennst:\n1. Halbiere den Umfang → das ergibt die Summe von Länge und Breite.\n2. Ziehe die bekannte Seite ab → das ergibt die fehlende Seite.\n\nBeispiel a): U = 20 cm → Hälfte = 10 cm → 10 − 6 = 4 cm."
     ],
     "didaktischerHinweis": "Das Rückwärtsrechnen mit der Umfangformel entspricht S. 53, Aufg. 9 im Buch. Es trainiert algebraisches Denken (Gleichungen umstellen) auf kindgerechtem Niveau und vertieft das Verständnis der Umfangformel.",
@@ -950,17 +950,17 @@
         {
           "label": "a",
           "frage": "Umfang = 20 cm, eine Seite ist 6 cm lang.",
-          "antwort": "Die andere Seite ist 4 cm lang. (2 · (6 + x) = 20 → 6 + x = 10 → x = 4)"
+          "antwort": "4 cm"
         },
         {
           "label": "b",
           "frage": "Umfang = 26 cm, eine Seite ist 5 cm lang.",
-          "antwort": "Die andere Seite ist 8 cm lang. (2 · (5 + x) = 26 → 5 + x = 13 → x = 8)"
+          "antwort": "8 cm"
         },
         {
           "label": "c",
           "frage": "Umfang = 32 cm, eine Seite ist 10 cm lang.",
-          "antwort": "Die andere Seite ist 6 cm lang. (2 · (10 + x) = 32 → 10 + x = 16 → x = 6)"
+          "antwort": "6 cm"
         }
       ]
     }
@@ -992,22 +992,22 @@
         {
           "label": "a",
           "frage": "1. Rechteck (schmalste Form)",
-          "antwort": "1 cm × 7 cm → 7 qcm"
+          "antwort": "1 cm × 7 cm, Fläche: 7 qcm"
         },
         {
           "label": "b",
           "frage": "2. Rechteck",
-          "antwort": "2 cm × 6 cm → 12 qcm"
+          "antwort": "2 cm × 6 cm, Fläche: 12 qcm"
         },
         {
           "label": "c",
           "frage": "3. Rechteck",
-          "antwort": "3 cm × 5 cm → 15 qcm"
+          "antwort": "3 cm × 5 cm, Fläche: 15 qcm"
         },
         {
           "label": "d",
           "frage": "4. Rechteck (Quadrat)",
-          "antwort": "4 cm × 4 cm → 16 qcm"
+          "antwort": "4 cm × 4 cm, Fläche: 16 qcm"
         }
       ]
     }
@@ -1027,7 +1027,7 @@
     "tipps": [
       "Denke an die Aufgabe mit dem Umfang 16 cm: Hatten da alle Rechtecke auch den gleichen Flächeninhalt? Wenn nicht, dann kann a) nicht stimmen.",
       "Bei Wahr-Falsch-Aufgaben: Suche ein Gegenbeispiel! Wenn du auch nur EIN Gegenbeispiel findest, ist die Aussage falsch.",
-      "Für a): Nimm zwei Rechtecke mit dem gleichen Flächeninhalt, z.B. 12 qcm. Das kann 2 × 6 sein (U = 2 · 8 = 16) oder 3 × 4 (U = 2 · 7 = 14). Ist der Umfang gleich? ___ → Also stimmt die Aussage ___",
+      "Für a): Nimm zwei Rechtecke mit dem gleichen Flächeninhalt, z.B. 12 qcm. Das kann 2 × 6 sein (U = 2 · 8 = 16) oder 3 × 4 (U = 2 · 7 = 14). Ist der Umfang gleich? ___ → Also stimmt die Aussage ___.",
       "- a) Gegenbeispiel: Ein 2 × 6 Rechteck (F = 12 qcm, U = 16 cm) und ein 3 × 4 Rechteck (F = 12 qcm, U = 14 cm) haben den gleichen Flächeninhalt, aber verschiedenen Umfang.\n- b) Beispiel: Siehe Aufgabe 22 — bei gleichem Umfang können verschiedene Flächeninhalte entstehen.\n- c) Berechnung: U = 4 · 4 = 16 cm ✓, F = 4 · 4 = 16 qcm ✓. Aber Achtung: Die Zahlenwerte sind zufällig gleich, die Einheiten sind verschieden!\n- d) Umfang = Länge → cm; Flächeninhalt = Fläche → qcm (oder m², km²)."
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 51, Aufg. 9 und ist zentral für das Verständnis: Umfang und Flächeninhalt sind zwei verschiedene Größen, die unabhängig voneinander variieren können. Die meisten Kinder nehmen fälschlicherweise an, dass gleicher Flächeninhalt auch gleichen Umfang bedeutet.",
@@ -1099,7 +1099,7 @@
         {
           "label": "c",
           "frage": "Die Klassenkasse reicht nur für 16 Zaunlatten. Welche Beete kommen in Frage?",
-          "antwort": "Maximal 16 Zaunlatten: 2 × 6 (16 Latten) und 3 × 4 (14 Latten) kommen in Frage."
+          "antwort": "2 × 6 m (16 Latten) und 3 × 4 m (14 Latten)"
         }
       ]
     }
@@ -1131,12 +1131,12 @@
         {
           "label": "a",
           "frage": "Eine Treppenfigur: 3 Stufen, die jeweils 1 Kästchen breit und 1 Kästchen hoch sind (von links unten nach rechts oben).",
-          "antwort": "Umfang = 12 cm (Man zählt: 3 cm unten + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 3 cm runter = 12 cm. Oder man geht einmal komplett um die Figur und zählt alle Kanten.)"
+          "antwort": "12 cm"
         },
         {
           "label": "b",
           "frage": "Ein T-förmige Figur: Oben ein Rechteck 4 × 1, darunter mittig ein Rechteck 2 × 2.",
-          "antwort": "Umfang = 14 cm (Oben: 4 cm, rechts runter: 1 cm, nach links: 1 cm, runter: 2 cm, nach links: 2 cm, hoch: 2 cm, nach links: 1 cm, hoch: 1 cm = 14 cm)"
+          "antwort": "14 cm"
         }
       ]
     }
@@ -1168,12 +1168,12 @@
         {
           "label": "a",
           "frage": "Welches Rechteck hat den größten Flächeninhalt?",
-          "antwort": "Quadrat 4 × 4: Umfang = 16, Flächeninhalt = 16 EQ (größter Flächeninhalt)"
+          "antwort": "4 × 4 (Quadrat), Flächeninhalt = 16 EQ"
         },
         {
           "label": "b",
           "frage": "Welches Rechteck hat den kleinsten Flächeninhalt?",
-          "antwort": "Rechteck 1 × 7: Umfang = 16, Flächeninhalt = 7 EQ (kleinster Flächeninhalt)"
+          "antwort": "1 × 7, Flächeninhalt = 7 EQ"
         }
       ]
     }

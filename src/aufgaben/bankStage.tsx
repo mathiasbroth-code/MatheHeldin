@@ -8,6 +8,13 @@ import { Card } from '@/components/ui/Card';
 import { TippButton, TippInhalte } from '@/components/ui/TippSystem';
 import { Zeichenfeld } from '@/components/ui/Zeichenfeld';
 import { MerkkastenCard } from '@/components/ui/MerkkastenCard';
+import { BruchMerkkasten } from '@/components/ui/BruchKreis';
+import { KreisMerkkasten } from '@/components/geometrie/KreisMerkkasten';
+import { PascalDreieck } from '@/components/forscherkiste/PascalDreieck';
+import { TaschenrechnerTasten } from '@/components/forscherkiste/TaschenrechnerTasten';
+import { MillionenWuerfel } from '@/components/dienes/MillionenWuerfel';
+import { MultiplikationZerlegung } from '@/components/ui/MultiplikationZerlegung';
+import { SkizzeMerkkasten } from '@/components/ui/SkizzeMerkkasten';
 import { filterTippForLabel } from './parserHelpers';
 
 /** Aufgabe aus der Bank — wraps a BankAufgabe for the Stage system. */
@@ -190,6 +197,34 @@ function BankStageView({
           <p className="text-xs font-bold text-primary uppercase tracking-wide">Was lernst du hier?</p>
           {currentAufgabe.merkkasten ? (
             <MerkkastenCard daten={currentAufgabe.merkkasten} className="mt-2" />
+          ) : currentAufgabe.erklaerungBild?.includes('merkkasten-brueche') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <BruchMerkkasten />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('merkkasten-kreis-radius') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <KreisMerkkasten />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('pascalsches-dreieck') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <PascalDreieck />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('taschenrechner-tasten') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <TaschenrechnerTasten />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('millionenwuerfel') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <MillionenWuerfel />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('multiplikation-zerlegung') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <MultiplikationZerlegung />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('skizze-intro') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <SkizzeMerkkasten />
+            </div>
           ) : currentAufgabe.erklaerungBild ? (
             <img
               src={`/${currentAufgabe.erklaerungBild}`}
@@ -213,7 +248,11 @@ function BankStageView({
       )}
 
       {/* Aufgabenbild (direkt sichtbar, z.B. Kreismuster) */}
-      {currentAufgabe.themenIntroBild && (
+      {currentAufgabe.themenIntroBild?.includes('merkkasten-kreis-radius') ? (
+        <Card className="py-2 px-3">
+          <KreisMerkkasten />
+        </Card>
+      ) : currentAufgabe.themenIntroBild && (
         <Card>
           <img
             src={`/${currentAufgabe.themenIntroBild}`}

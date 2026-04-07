@@ -6,6 +6,7 @@ import { StufeView } from '@/pages/StufeView';
 import { Fortschritt } from '@/pages/Fortschritt';
 import { ElternGate } from '@/pages/ElternGate';
 import { Lexikon } from '@/pages/Lexikon';
+import PreviewBilder from '@/pages/PreviewBilder';
 
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
 
@@ -20,6 +21,7 @@ export function App() {
         <Route path="/fortschritt" element={<Fortschritt />} />
         <Route path="/eltern" element={<ElternGate />} />
         <Route path="/lexikon" element={<Lexikon />} />
+        <Route path="/dev/preview-bilder" element={<PreviewBilder />} />
       </Routes>
     </BrowserRouter>
   );

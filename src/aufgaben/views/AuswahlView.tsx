@@ -3,7 +3,7 @@ import type { AufgabeViewProps } from './AufgabeWrapper';
 import type { AuswahlDaten } from '../types';
 import { Card } from '@/components/ui/Card';
 import { FeedbackBanner } from '@/components/ui/FeedbackBanner';
-import { MarkdownText } from './MarkdownText';
+import { MarkdownText, renderTextMitUhr } from './MarkdownText';
 
 /**
  * Auswahl-View: Multiple-Choice mit tappbaren Optionen.
@@ -32,13 +32,16 @@ export function AuswahlView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
     }
   }
 
+  // Uhren-Modus: 2x2 Grid mit Uhren als Optionen
+  const hatUhren = daten.optionen.some((o) => o.text.includes('[uhr:'));
+
   return (
     <div className="space-y-3">
       <Card>
         <MarkdownText text={daten.frageText} className="text-sm font-semibold text-heading leading-relaxed" />
       </Card>
 
-      <div className="grid gap-2">
+      <div className={hatUhren ? 'grid grid-cols-2 gap-2' : 'grid gap-2'}>
         {daten.optionen.map((opt, i) => {
           const isSelected = selected === i;
           const isCorrect = i === daten.richtigeIdx;
@@ -53,12 +56,12 @@ export function AuswahlView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
               key={i}
               onClick={() => handleSelect(i)}
               disabled={status !== 'idle'}
-              className={`w-full text-left p-3 rounded-xl border-2 min-h-[44px] transition-colors cursor-pointer disabled:cursor-default ${bg}`}
+              className={`w-full p-3 rounded-xl border-2 min-h-[44px] transition-colors cursor-pointer disabled:cursor-default ${bg} ${hatUhren ? 'flex flex-col items-center text-center' : 'text-left'}`}
             >
               <span className="font-bold text-muted mr-2">
                 {opt.label})
               </span>
-              <span className="text-body">{opt.text}</span>
+              <span className="text-body">{renderTextMitUhr(opt.text, hatUhren ? 110 : 100)}</span>
             </button>
           );
         })}

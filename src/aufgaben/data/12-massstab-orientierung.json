@@ -13,7 +13,7 @@
     "loesungsweg": "Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert.",
     "tipps": [
       "Schau dir die Zahlen im Maßstab genau an: 4 : 1. Die linke Zahl steht für das Bild, die rechte für die Wirklichkeit. Welche Zahl ist größer?",
-      "Beim Maßstab gilt: linke Zahl = Bild, rechte Zahl = Wirklichkeit.\n- Linke Zahl größer → Vergrößerung\n- Rechte Zahl größer → Verkleinerung\n- Beide gleich (1 : 1) → Originalgrösse",
+      "Beim Maßstab gilt: linke Zahl = Bild, rechte Zahl = Wirklichkeit.\n- Linke Zahl größer → Vergrößerung\n- Rechte Zahl größer → Verkleinerung\n- Beide gleich (1 : 1) → Originalgrösse.",
       "Maßstab 4 : 1 bedeutet: 4 cm im Bild = 1 cm in echt. Ist das Bild dann größer oder kleiner als das Original?",
       "Beim Maßstab 4 : 1 steht die größere Zahl links. Das bedeutet: Das Bild ist größer als das Original. 4 : 1 heißt: 4 cm im Bild entsprechen 1 cm in Wirklichkeit. Der Käfer wurde also 4-mal vergrößert."
     ],
@@ -54,7 +54,7 @@
     "tipps": [
       "Das Bild ist vergrößert — der Käfer ist in Wirklichkeit also kleiner. Durch welche Zahl musst du die Bildgrösse teilen?",
       "Bei Vergrößerung (z. B. 2 : 1) gilt:\nLänge in Wirklichkeit = Länge im Bild : Vergrößerungszahl\nAlso: ___ mm : 2 = ?",
-      "40 mm im Bild. Maßstab 2 : 1 bedeutet: durch 2 teilen.\n40 : 2 = ___",
+      "40 mm im Bild. Maßstab 2 : 1 bedeutet: durch 2 teilen.\n40 : 2 = ___.",
       "Maßstab 2 : 1 bedeutet: 2 mm im Bild entsprechen 1 mm in Wirklichkeit.\nRechnung: 40 mm : 2 = 20 mm.\nDer Rosenkäfer ist in Wirklichkeit 20 mm (also 2 cm) lang."
     ],
     "didaktischerHinweis": "Erstes Rechnen mit Vergrößerungsmassstab. Entspricht S. 116, Aufg. 2.",
@@ -95,7 +95,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit?",
+          "frage": "Eine Kopflaus wird im Maßstab 20 : 1 abgebildet. Im Bild ist sie 60 mm lang. Wie groß ist die Kopflaus in Wirklichkeit? (in mm)",
           "antwort": "3"
         }
       ]
@@ -115,7 +115,7 @@
     "loesungsweg": "Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.\nRechnung: 6 cm · 500 = 3.000 cm = 30 m.\nDer Blauwal ist in Wirklichkeit 30 m lang.",
     "tipps": [
       "Bei einer Verkleinerung (1 : 500) ist das Original viel größer als das Bild. Musst du die Bildlänge mit der Zahl multiplizieren oder durch sie teilen?",
-      "Bei Verkleinerung (z. B. 1 : 500) gilt:\nLänge in Wirklichkeit = Länge im Bild · Verkleinerungszahl\nAlso: 6 cm · 500 = ___",
+      "Bei Verkleinerung (z. B. 1 : 500) gilt:\nLänge in Wirklichkeit = Länge im Bild · Verkleinerungszahl\nAlso: 6 cm · 500 = ___.",
       "6 · 500 = 6 · 5 · 100 = 30 · 100 = 3.000 cm. Wie viele Meter sind 3.000 cm? (100 cm = 1 m)",
       "Maßstab 1 : 500 bedeutet: 1 cm im Bild entspricht 500 cm in Wirklichkeit.\nRechnung: 6 cm · 500 = 3.000 cm = 30 m.\nDer Blauwal ist in Wirklichkeit 30 m lang."
     ],
@@ -147,8 +147,8 @@
     "tipps": [
       "Die linke Zahl steht immer für das Bild, die rechte für die Wirklichkeit. Vergleiche die beiden Zahlen: Welche ist größer?",
       "Merk dir: Links steht das Bild, rechts die Wirklichkeit.\n- Links größer → Vergrößerung (z. B. 3 : 1)\n- Rechts größer → Verkleinerung (z. B. 1 : 1.000)",
-      "Nimm z. B. 3 : 1. Links = 3, rechts = 1. 3 ist größer als 1 → das Bild ist größer → ___",
-      "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse"
+      "Nimm z. B. 3 : 1. Links = 3, rechts = 1. 3 ist größer als 1 → das Bild ist größer → ___.",
+      "Die Regel:\n- Linke Zahl größer → Vergrößerung (Bild größer als Original)\n- Rechte Zahl größer → Verkleinerung (Bild kleiner als Original)\n- Beide gleich → Originalgrösse."
     ],
     "didaktischerHinweis": "Zuordnungsaufgabe sichert das Grundverständnis von Vergrößerung vs. Verkleinerung. Entspricht S. 117, Merkkasten.",
     "parsed": {
@@ -254,9 +254,9 @@
     "loesungsweg": "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m",
     "tipps": [
       "Prüfe zuerst: Ist es eine Vergrößerung (linke Zahl größer) oder eine Verkleinerung (rechte Zahl größer)? Davon hängt ab, ob du multiplizierst oder teilst.",
-      "- Vergrößerung (z. B. 5 : 1): Bild → Wirklichkeit = teilen\n- Verkleinerung (z. B. 1 : 100): Bild → Wirklichkeit = multiplizieren\n- Verkleinerung: Wirklichkeit → Bild = teilen",
-      "a) 30 : 5 = ___\nb) 80 m = 8.000 cm, dann 8.000 : 2.000 = ___\nc) 15 · 100 = 1.500 cm = ___ m",
-      "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m"
+      "- Vergrößerung (z. B. 5 : 1): Bild → Wirklichkeit = teilen\n- Verkleinerung (z. B. 1 : 100): Bild → Wirklichkeit = multiplizieren\n- Verkleinerung: Wirklichkeit → Bild = teilen.",
+      "a) 30 : 5 = ___\nb) 80 m = 8.000 cm, dann 8.000 : 2.000 = ___\nc) 15 · 100 = 1.500 cm = ___ m.",
+      "- a) Vergrößerung: 30 mm : 5 = 6 mm\n- b) Verkleinerung (Bild berechnen): 80 m = 8.000 cm → 8.000 : 2.000 = 4 cm\n- c) Verkleinerung (Wirklichkeit berechnen): 15 cm · 100 = 1.500 cm = 15 m."
     ],
     "didaktischerHinweis": "Gemischte Aufgaben mit beiden Richtungen (Bild→Wirklichkeit und Wirklichkeit→Bild). Entspricht S. 116-117 zusammenfassend.",
     "parsed": {
@@ -340,7 +340,7 @@
     "tipps": [
       "Kennst du den Merksatz „Nie Ohne Seife Waschen\"? Die Anfangsbuchstaben verraten dir die Himmelsrichtungen im Uhrzeigersinn.",
       "Stell dir eine Windrose vor: Oben ist Norden, rechts ist Osten, unten ist Süden, links ist Westen.",
-      "N = Norden. Jetzt dreh dich im Uhrzeigersinn: O = ___, S = ___, W = ___",
+      "N = Norden. Jetzt dreh dich im Uhrzeigersinn: O = ___, S = ___, W = ___.",
       "Die vier Haupthimmelsrichtungen sind: Norden (N), Osten (O), Süden (S), Westen (W). Ein Merksatz: „Nie Ohne Seife Waschen\" — im Uhrzeigersinn gelesen."
     ],
     "didaktischerHinweis": "Grundwissen Himmelsrichtungen als Voraussetzung für Kartenarbeit. Entspricht S. 118, Windrose und Grundriss.",
@@ -386,9 +386,9 @@
     "loesungsweg": "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg",
     "tipps": [
       "Viele Burgbegriffe sind zusammengesetzte Wörter. Zerlege sie: „Burg\" + „Graben\" — was könnte ein Graben bei einer Burg sein?",
-      "Überlege bei jedem Wort: Was bedeutet der zweite Teil?\n- Graben → Loch/Kanal mit Wasser\n- Gang → ein Weg zum Gehen\n- Kapelle → kleine Kirche\n- Hof → freier Platz",
+      "Überlege bei jedem Wort: Was bedeutet der zweite Teil?\n- Graben → Loch/Kanal mit Wasser\n- Gang → ein Weg zum Gehen\n- Kapelle → kleine Kirche\n- Hof → freier Platz.",
       "Der Burggraben ist ein Graben rund um die Burg → Antwort ___. Der Wehrgang ist ein Gang zum Wehren → Antwort ___.",
-      "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg"
+      "Die Begriffe erklären sich teilweise selbst:\n- Burg-GRABEN = ein Graben um die Burg\n- WEHR-gang = ein Gang zum Wehren (Verteidigen)\n- Burg-KAPELLE = eine Kapelle (kleine Kirche) in der Burg\n- Burg-HOF = der Hof (freie Platz) in der Burg."
     ],
     "didaktischerHinweis": "Sachkundliches Verständnis als Grundlage für Grundrisslesen. Entspricht S. 118-119, Burg Wildenstein.",
     "parsed": {
@@ -453,8 +453,8 @@
     "tipps": [
       "Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...",
       "Luftaufnahme = Foto von oben (mit allen Details)\nGrundriss = Zeichnung von oben (nur Umrisse und Räume)",
-      "Beide zeigen etwas von oben. Aber eines ist ein Foto und eines ist eine vereinfachte ___",
-      "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, massstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
+      "Beide zeigen etwas von oben. Aber eines ist ein Foto und eines ist eine vereinfachte ___.",
+      "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreue Zeichnung (Umrisse, keine Details wie Farben oder Schatten)"
     ],
     "didaktischerHinweis": "Unterscheidung Foto/Plan als Grundlage für Kartenverständnis. Entspricht S. 118-119, Vergleich Luftaufnahme/Grundriss.",
     "parsed": {
@@ -534,7 +534,7 @@
       "Stell dir die Windrose vor wie ein Kompass: Norden ist immer oben auf der Karte. Dreh dich im Uhrzeigersinn: Was kommt nach Norden?",
       "Auf der Karte: oben = N, rechts = O, unten = S, links = W.\nMerksatz: „Nie Ohne Seife Waschen\" (im Uhrzeigersinn).",
       "Rechts auf der Karte = O = ___. Unten = S = ___. Links = W = ___.",
-      "Auf Karten und Grundrissen gilt (wenn Norden oben ist):\n- Oben = Norden\n- Rechts = Osten\n- Unten = Süden\n- Links = Westen"
+      "Auf Karten und Grundrissen gilt (wenn Norden oben ist):\n- Oben = Norden\n- Rechts = Osten\n- Unten = Süden\n- Links = Westen."
     ],
     "didaktischerHinweis": "Verknüpfung Himmelsrichtungen mit Kartenlesen. Entspricht S. 118, Windrose auf dem Grundriss.",
     "parsed": {
@@ -619,8 +619,8 @@
     "tipps": [
       "Wenn du in deiner Wohnung die Badezimmertür öffnest, macht sie einen Viertelkreis. So sieht das im Grundriss aus!",
       "Suche nach typischen Hinweisen: Ein Raum mit Waschbecken-Symbol ist wahrscheinlich das Bad. Ein Viertelkreis an einer Wand zeigt eine Tür.",
-      "Der Kreis/das Oval steht für ein Waschbecken → welcher Raum hat ein Waschbecken? Das ist das ___",
-      "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle"
+      "Der Kreis/das Oval steht für ein Waschbecken → welcher Raum hat ein Waschbecken? Das ist das ___.",
+      "Grundrisse verwenden Symbole:\n- Tür = Viertelkreis (der Schwungbereich der Tür)\n- Waschbecken = kleines Oval oder Kreis\n- Küche hat oft Herd (Quadrat mit Kreisen) und Spüle."
     ],
     "didaktischerHinweis": "Grundriss-Symbole lesen als lebenspraktische Kompetenz. Erweiterung zu S. 118-119.",
     "parsed": {
@@ -684,8 +684,8 @@
     "loesungsweg": "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m (= 2,5 km)",
     "tipps": [
       "1 cm auf der Karte = 25.000 cm in echt. Wie viele Meter sind 25.000 cm? (Teile durch 100.)",
-      "Rechne schrittweise:\n1. Kartenlänge · Maßstabszahl = echte Länge in cm\n2. Teile durch 100 → Meter\n3. Teile durch 1.000 → Kilometer",
-      "a) 4 · 25.000 = 100.000 cm. Wie viele Meter? 100.000 : 100 = ___ m",
+      "Rechne schrittweise:\n1. Kartenlänge · Maßstabszahl = echte Länge in cm\n2. Teile durch 100 → Meter\n3. Teile durch 1.000 → Kilometer.",
+      "a) 4 · 25.000 = 100.000 cm. Wie viele Meter? 100.000 : 100 = ___ m.",
       "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m (= 2,5 km)"
     ],
     "didaktischerHinweis": "Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenstein).",
@@ -697,7 +697,7 @@
         {
           "label": "a",
           "frage": "Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m",
-          "antwort": "1.000 m"
+          "antwort": "1000"
         },
         {
           "label": "b",
@@ -721,7 +721,7 @@
     "loesungsweg": "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km (= 4.000 m)\nb) 4 km · 20 Minuten = 80 Minuten (= 1 Stunde 20 Minuten)",
     "tipps": [
       "Rechne zuerst die Strecke aus (cm → m → km). Dann überleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?",
-      "Schritt 1: 16 · 25.000 = 400.000 cm\nSchritt 2: 400.000 : 100 = 4.000 m = 4 km\nSchritt 3: 4 · 20 Min = ___ Min",
+      "Schritt 1: 16 · 25.000 = 400.000 cm\nSchritt 2: 400.000 : 100 = 4.000 m = 4 km\nSchritt 3: 4 · 20 Min = ___ Min.",
       "Die Strecke ist 4 km. Für 1 km braucht man 20 Minuten, also für 4 km: 4 · 20 = ___ Minuten. Wie viele Stunden und Minuten sind das?",
       "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km (= 4.000 m)\nb) 4 km · 20 Minuten = 80 Minuten (= 1 Stunde 20 Minuten)"
     ],
@@ -768,7 +768,7 @@
     "tipps": [
       "Die gleiche Länge auf der Karte (20 cm) steht für unterschiedlich lange Strecken — je nach Maßstab. Bei welchem Maßstab ist die echte Strecke am längsten?",
       "Immer die gleiche Formel: Kartenlänge · Maßstabszahl = echte Länge in cm.\nDann: : 100 = Meter, : 1.000 = Kilometer.",
-      "a) 20 · 25.000 = 500.000 cm = 5.000 m = 5 km\nb) 20 · 50.000 = 1.000.000 cm = ___ m = ___ km",
+      "a) 20 · 25.000 = 500.000 cm = 5.000 m = 5 km\nb) 20 · 50.000 = 1.000.000 cm = ___ m = ___ km.",
       "- a) 20 cm · 25.000 = 500.000 cm = 5.000 m = 5 km\n- b) 20 cm · 50.000 = 1.000.000 cm = 10.000 m = 10 km\n- c) 20 cm · 100.000 = 2.000.000 cm = 20.000 m = 20 km\n\nJe größer die Maßstabszahl, desto größer die echte Strecke bei gleicher Kartenlänge."
     ],
     "didaktischerHinweis": "Vergleich verschiedener Masstäbe festigt das Verständnis. Entspricht S. 120, Aufg. 4.",
@@ -778,17 +778,17 @@
       "items": [
         {
           "label": "a",
-          "frage": "Maßstab 1 : 25.000, Länge auf der Karte: 20 cm",
+          "frage": "Maßstab 1 : 25.000, Länge auf der Karte: 20 cm (in km)",
           "antwort": "5"
         },
         {
           "label": "b",
-          "frage": "Maßstab 1 : 50.000, Länge auf der Karte: 20 cm",
+          "frage": "Maßstab 1 : 50.000, Länge auf der Karte: 20 cm (in km)",
           "antwort": "10"
         },
         {
           "label": "c",
-          "frage": "Maßstab 1 : 100.000, Länge auf der Karte: 20 cm",
+          "frage": "Maßstab 1 : 100.000, Länge auf der Karte: 20 cm (in km)",
           "antwort": "20"
         }
       ]
@@ -808,8 +808,8 @@
     "loesungsweg": "10 km = 10.000 m = 1.000.000 cm.\nMaßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.\nVereinfacht: 1 : 200.000.",
     "tipps": [
       "Rechne zuerst 10 km in cm um: 10 km = ___ m = ___ cm. Dann teile durch die Kartenlänge (5 cm).",
-      "10 km = 10 · 1.000 m = 10.000 m = 10.000 · 100 cm = 1.000.000 cm.\nMaßstab = 5 : 1.000.000 = 1 : ___",
-      "1.000.000 : 5 = 200.000. Also Maßstab 1 : ___",
+      "10 km = 10 · 1.000 m = 10.000 m = 10.000 · 100 cm = 1.000.000 cm.\nMaßstab = 5 : 1.000.000 = 1 : ___.",
+      "1.000.000 : 5 = 200.000. Also Maßstab 1 : ___.",
       "10 km = 10.000 m = 1.000.000 cm.\nMaßstab = Kartenlänge : echte Länge = 5 cm : 1.000.000 cm.\nVereinfacht: 1 : 200.000."
     ],
     "didaktischerHinweis": "Maßstab aus gegebenen Daten berechnen. Entspricht S. 120, Aufg. 5.",
@@ -852,8 +852,8 @@
     "loesungsweg": "Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte.",
     "tipps": [
       "Stell dir ein Schachbrett vor: Erst der Buchstabe (Zeile), dann die Zahl (Spalte). Wie heißt das Feld?",
-      "Planquadrat = Zeilenbuchstabe + Spaltenzahl. Zeile G + Spalte 5 = ___",
-      "Buchstabe der Zeile: G. Nummer der Spalte: 5. Das Planquadrat heißt ___",
+      "Planquadrat = Zeilenbuchstabe + Spaltenzahl. Zeile G + Spalte 5 = ___.",
+      "Buchstabe der Zeile: G. Nummer der Spalte: 5. Das Planquadrat heißt ___.",
       "Ein Planquadrat wird mit Buchstabe + Zahl angegeben: erst die Zeile (G), dann die Spalte (5) → G5. Das ist wie bei einem Schachbrett: Buchstabe für die Zeile, Zahl für die Spalte."
     ],
     "didaktischerHinweis": "Planquadrate als Koordinatensystem-Einführung. Entspricht S. 121, Aufg. 6 (Stadtplan Sigmaringen).",
@@ -884,8 +884,8 @@
     "tipps": [
       "Bei Maßstab 1 : 10.000 entspricht 1 cm auf der Karte genau 100 m in Wirklichkeit. Wie weit sind dann 3 cm?",
       "Merke dir den Trick: Bei 1 : 10.000 ist 1 cm = 100 m.\nAlso einfach die cm-Zahl mit 100 multiplizieren, und du hast die Meter.",
-      "a) 3 · 100 = ___ m\nb) 5 · 100 = ___ m\nc) 2,5 · 100 = ___ m",
-      "Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.\n- a) 3 cm · 100 m = 300 m\n- b) 5 cm · 100 m = 500 m\n- c) 2,5 cm · 100 m = 250 m"
+      "a) 3 · 100 = ___ m\nb) 5 · 100 = ___ m\nc) 2,5 · 100 = ___ m.",
+      "Maßstab 1 : 10.000 bedeutet: 1 cm auf der Karte = 10.000 cm = 100 m in Wirklichkeit.\n- a) 3 cm · 100 m = 300 m\n- b) 5 cm · 100 m = 500 m\n- c) 2,5 cm · 100 m = 250 m."
     ],
     "didaktischerHinweis": "Stadtplan-Maßstab 1 : 10.000 anwenden. Entspricht S. 121, Aufg. 9 (Entfernungen Sigmaringen).",
     "parsed": {
@@ -924,7 +924,7 @@
     "loesungsweg": "1 km = 1.000 m = 100.000 cm.\nKartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm.",
     "tipps": [
       "Rechne 1 km in cm um. Dann teile durch die Maßstabszahl (10.000).",
-      "1 km = 100.000 cm.\n100.000 : 10.000 = ___",
+      "1 km = 100.000 cm.\n100.000 : 10.000 = ___.",
       "100.000 : 10.000 = 10. Also sind 1 km in Wirklichkeit ___ cm auf der Karte.",
       "1 km = 1.000 m = 100.000 cm.\nKartenlänge = echte Länge : Maßstabszahl = 100.000 : 10.000 = 10 cm."
     ],
@@ -969,8 +969,8 @@
     "tipps": [
       "Maßstab 1 : 10 heißt: Die Zeichnung ist kleiner als das Original. Durch welche Zahl musst du die echte Länge teilen?",
       "Zeichne dir ein Lineal auf Karopapier. Male 80 Kästchen (= 80 cm) und teile sie in 10er-Gruppen. Wie viele Gruppen bekommst du? Das ist die Zeichnungslänge in cm.",
-      "Teile die echte Länge durch 10:\na) 80 : 10 = ___\nb) 120 : 10 = ___\nc) 50 : 10 = ___",
-      "Maßstab 1 : 10 bedeutet: Die Zeichnung ist 10-mal kleiner als die Wirklichkeit.\nMan teilt die echte Länge durch 10.\n- a) 80 cm : 10 = 8 cm\n- b) 120 cm : 10 = 12 cm\n- c) 50 cm : 10 = 5 cm"
+      "Teile die echte Länge durch 10:\na) 80 : 10 = ___\nb) 120 : 10 = ___\nc) 50 : 10 = ___.",
+      "Maßstab 1 : 10 bedeutet: Die Zeichnung ist 10-mal kleiner als die Wirklichkeit.\nMan teilt die echte Länge durch 10.\n- a) 80 cm : 10 = 8 cm\n- b) 120 cm : 10 = 12 cm\n- c) 50 cm : 10 = 5 cm."
     ],
     "didaktischerHinweis": "Einstiegsaufgabe zum Verkleinern mit dem alltagsnahen Maßstab 1 : 10. Kinder teilen durch 10 — das ist eine bekannte Rechenoperation. Entspricht S. 118, Einführung Verkleinerungsmassstab.",
     "parsed": {
@@ -1010,8 +1010,8 @@
     "tipps": [
       "Die Zeichnung ist verkleinert. In Wirklichkeit ist der Gegenstand also größer. Mit welcher Zahl musst du die Zeichnungslänge multiplizieren?",
       "Zeichne auf Karopapier 15 Kästchen nebeneinander. Jedes Kästchen steht für 10 cm in Wirklichkeit. Zähle: 15 × 10 = ? Das ist die echte Höhe.",
-      "Multipliziere die Zeichnungslänge mit 10:\na) 15 · 10 = ___\nb) 9 · 10 = ___\nc) 22 · 10 = ___",
-      "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung = 10 cm in Wirklichkeit.\nMan multipliziert die Zeichnungslänge mit 10.\n- a) 15 cm · 10 = 150 cm\n- b) 9 cm · 10 = 90 cm\n- c) 22 cm · 10 = 220 cm"
+      "Multipliziere die Zeichnungslänge mit 10:\na) 15 · 10 = ___\nb) 9 · 10 = ___\nc) 22 · 10 = ___.",
+      "Maßstab 1 : 10 bedeutet: 1 cm auf der Zeichnung = 10 cm in Wirklichkeit.\nMan multipliziert die Zeichnungslänge mit 10.\n- a) 15 cm · 10 = 150 cm\n- b) 9 cm · 10 = 90 cm\n- c) 22 cm · 10 = 220 cm."
     ],
     "didaktischerHinweis": "Umkehrung von Aufgabe 23: Vom Bild zur Wirklichkeit. Kinder multiplizieren mit 10. Wichtig ist das Verständnis, dass die Richtung (Bild→Wirklichkeit) das Gegenteil (Multiplikation statt Division) erfordert. Entspricht S. 118.",
     "parsed": {
@@ -1051,8 +1051,8 @@
     "tipps": [
       "Beim Maßstab 1 : 100 ist 1 m in Wirklichkeit genau 1 cm auf der Zeichnung. Wie viele Meter ist das Klassenzimmer lang? Dann weißt du schon die Antwort!",
       "Nimm Karopapier und zeichne ein Rechteck. Jedes Kästchen (1 cm) steht für 1 m in Wirklichkeit. Zeichne 8 Kästchen in die Länge und 6 Kästchen in die Breite.",
-      "Rechne die Meter in cm um und teile durch 100:\na) 8 m = 800 cm → 800 : 100 = ___\nb) 6 m = 600 cm → 600 : 100 = ___",
-      "Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung = 100 cm = 1 m in Wirklichkeit.\nDas heißt: Die Meterzahl ergibt direkt die Zentimeterzahl auf der Zeichnung.\n- a) 8 m = 800 cm → 800 cm : 100 = 8 cm\n- b) 6 m = 600 cm → 600 cm : 100 = 6 cm"
+      "Rechne die Meter in cm um und teile durch 100:\na) 8 m = 800 cm → 800 : 100 = ___\nb) 6 m = 600 cm → 600 : 100 = ___.",
+      "Maßstab 1 : 100 bedeutet: 1 cm auf der Zeichnung = 100 cm = 1 m in Wirklichkeit.\nDas heißt: Die Meterzahl ergibt direkt die Zentimeterzahl auf der Zeichnung.\n- a) 8 m = 800 cm → 800 cm : 100 = 8 cm\n- b) 6 m = 600 cm → 600 cm : 100 = 6 cm."
     ],
     "didaktischerHinweis": "Praxisnahe Aufgabe: Ein echtes Klassenzimmer verkleinern. Bei 1 : 100 entspricht 1 m genau 1 cm — diesen Zusammenhang sollen Kinder erkennen und nutzen. Entspricht S. 118.",
     "parsed": {
@@ -1087,7 +1087,7 @@
     "tipps": [
       "Maßstab 1 : 1.000 heißt: Alles in Wirklichkeit ist 1.000-mal so groß wie auf der Karte. Was passiert, wenn du die 5 cm mit 1.000 multiplizierst?",
       "Zeichne einen Zahlenstrahl auf Karopapier. Markiere 5 cm. Schreibe unter jedes Kästchen (1 cm) die echte Entfernung: 1 cm = 10 m. Zähle zusammen: 5 × 10 m = ?",
-      "1. 5 cm · 1.000 = 5.000 cm\n2. Rechne in Meter um: 5.000 : 100 = ___ m",
+      "1. 5 cm · 1.000 = 5.000 cm\n2. Rechne in Meter um: 5.000 : 100 = ___ m.",
       "Maßstab 1 : 1.000 bedeutet: 1 cm auf der Karte = 1.000 cm in Wirklichkeit.\nRechnung: 5 cm · 1.000 = 5.000 cm.\nUmrechnung: 5.000 cm = 50 m.\nDie beiden Häuser sind in Wirklichkeit 50 m auseinander."
     ],
     "didaktischerHinweis": "Kartenmassstab anwenden mit Einheitenumrechnung cm → m. Kinder müssen zwei Schritte verketten: multiplizieren und Einheit umrechnen. Entspricht S. 118.",
@@ -1105,33 +1105,46 @@
   },
   {
     "titel": "Passenden Maßstab für ein DIN-A4-Blatt finden",
-    "typ": "eingabe",
+    "typ": "auswahl",
     "thema": "Vergrößern und Verkleinern",
     "schwierigkeit": "orange",
     "buchseite": 118,
     "kapitel": "12-massstab-orientierung",
     "stageId": "massstab",
     "digital": "voll",
-    "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du? 1 : ___",
-    "loesung": "250",
-    "loesungsweg": "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).",
+    "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du?\n\na) 1 : 200\nb) 1 : 250\nc) 1 : 300\nd) 1 : 400",
+    "loesung": "b) 1 : 250",
+    "loesungsweg": "Schulhof in cm: 60 m = 6.000 cm, 40 m = 4.000 cm.\nProbieren:\n- 1 : 200: 6.000 : 200 = 30 cm → passt nicht auf 29 cm ✗\n- 1 : 250: 6.000 : 250 = 24 cm ✓, 4.000 : 250 = 16 cm ✓ — passt!\n- 1 : 300 und 1 : 400 würden auch passen, ergeben aber eine kleinere Zeichnung.",
     "tipps": [
-      "Rechne den Schulhof in cm um. Dann überlege: Durch welche Zahl musst du teilen, damit 6.000 cm auf weniger als 29 cm schrumpft?",
-      "Nimm ein DIN-A4-Blatt und ein Lineal. Zeichne die lange Seite (29 cm). Jetzt probiere: Wenn 1 cm = 2 m wäre (Maßstab 1 : 200), bräuchtest du 60 : 2 = 30 cm — das passt knapp nicht. Versuch 1 cm = 2,5 m (Maßstab 1 : 250): 60 : 2,5 = 24 cm — das passt!",
-      "1. Schulhof: 60 m = 6.000 cm, 40 m = 4.000 cm\n2. Probiere Maßstab 1 : 250:\n   Länge: 6.000 : 250 = 24 cm ✓ (passt auf 29 cm)\n   Breite: 4.000 : 250 = 16 cm ✓ (passt auf 21 cm)\n3. Also: Maßstab 1 : ___ passt.",
-      "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut)."
+      "Rechne den Schulhof in cm um: 60 m = 6.000 cm. Dann probiere jeden Maßstab: 6.000 : Maßstabszahl = Länge auf dem Blatt. Die muss kleiner als 29 cm sein.",
+      "Nimm Maßstab 1 : 200: 6.000 : 200 = 30 cm — das ist zu lang für 29 cm. Was passiert bei 1 : 250?",
+      "1 : 250: Länge = 6.000 : 250 = 24 cm ✓ (passt auf 29 cm)\n1 : 250: Breite = 4.000 : 250 = 16 cm ✓ (passt auf 21 cm)\nAlso passt 1 : 250!",
+      "Schulhof in cm: 60 m = 6.000 cm, 40 m = 4.000 cm.\n- 1 : 200: 6.000 : 200 = 30 cm → passt nicht auf 29 cm ✗\n- 1 : 250: 6.000 : 250 = 24 cm ✓, 4.000 : 250 = 16 cm ✓ — passt!"
     ],
-    "didaktischerHinweis": "Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (z. B. 1 : 250 oder 1 : 300). Entspricht S. 118, weiterführende Aufgabe.",
+    "didaktischerHinweis": "Maßstab auswählen durch Ausprobieren. Die Auswahl-Optionen sind so gewählt, dass 1 : 200 als einzige Option nicht passt (30 cm > 29 cm), während 1 : 250 der kleinste passende Maßstab aus der Liste ist — eindeutige Lösung ohne Mehrdeutigkeit. Entspricht S. 118, weiterführende Aufgabe.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden. Welchen Maßstab wählst du?",
+      "frageText": "Welchen Maßstab wählst du?",
+      "optionen": [
         {
-          "label": "1",
-          "frage": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du? 1 : ___",
-          "antwort": "250"
+          "label": "A",
+          "text": "1 : 200"
+        },
+        {
+          "label": "B",
+          "text": "1 : 250"
+        },
+        {
+          "label": "C",
+          "text": "1 : 300"
+        },
+        {
+          "label": "D",
+          "text": "1 : 400"
         }
-      ]
+      ],
+      "richtigeIdx": 1
     }
   },
   {

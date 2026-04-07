@@ -10,14 +10,14 @@
     <circle cx="-25" cy="0" r="30" class="kreis" stroke="#3B82F6" fill="#3B82F6" fill-opacity="0.1" />
     <circle cx="25" cy="0" r="30" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.1" />
     <circle cx="0" cy="0" r="3" fill="#F59E0B" />
-    <text y="48" class="label">a)</text>
+    <text y="48" class="label">a) berühren</text>
   </g>
 
   <!-- b) ineinanderliegen — einer im anderen -->
   <g transform="translate(180,55)">
     <circle cx="0" cy="0" r="40" class="kreis" stroke="#3B82F6" fill="#3B82F6" fill-opacity="0.1" />
     <circle cx="8" cy="0" r="18" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.15" />
-    <text y="48" class="label">b)</text>
+    <text y="48" class="label">b) ineinander</text>
   </g>
 
   <!-- c) sich schneiden — 2 Schnittpunkte -->
@@ -26,6 +26,6 @@
     <circle cx="18" cy="0" r="30" class="kreis" stroke="#EF4444" fill="#EF4444" fill-opacity="0.1" />
     <circle cx="0" cy="-22" r="3" fill="#F59E0B" />
     <circle cx="0" cy="22" r="3" fill="#F59E0B" />
-    <text y="48" class="label">c)</text>
+    <text y="48" class="label">c) schneiden</text>
   </g>
 </svg>

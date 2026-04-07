@@ -62,7 +62,11 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
     const normalized = normalizeZahl(input);
     const expected = normalizeZahl(current.antwort);
 
-    if (normalized === expected) {
+    // Uhrzeiten-Toleranz: Kind tippt "3" statt "3:00" → als volle Stunde akzeptieren
+    const isMatch = normalized === expected
+      || (expected.match(/^\d{1,2}:00$/) && `${normalized}:00` === expected);
+
+    if (isMatch) {
       setStatus('richtig');
       if (isLast) onRichtig();
     } else {

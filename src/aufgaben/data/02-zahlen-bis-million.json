@@ -19,12 +19,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe sichert das Grundverständnis der Dienes-Systematik im erweiterten Zahlenraum. Das Kind soll verinnerlichen, dass jeder Block das Zehnfache des vorherigen darstellt — das ist die Basis für das Stellenwertverständnis bis zur Million.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Dienes-Blöcke den richtigen Stellenwerten zu.",
@@ -106,16 +105,15 @@
       "Stell dir vor, du baust den Millionen-Würfel aus Tausender-Würfeln zusammen. Wie viele brauchst du?",
       "Teile 1.000.000 durch den Wert des Blocks. Zum Beispiel: 1.000.000 : 1.000 = ?",
       "1.000.000 geteilt durch 1.000 ... streich bei beiden Zahlen die gleiche Anzahl Nullen weg. Was bleibt übrig?",
-      "- a) 1.000.000 : 1.000 = 1.000 Tausender-Würfel\n- b) 1.000.000 : 10.000 = 100 Zehntausender-Stangen\n- c) 1.000.000 : 100.000 = 10 Hunderttausender-Platten"
+      "- a) 1.000.000 : 1.000 = 1.000 Tausender-Würfel\n- b) 1.000.000 : 10.000 = 100 Zehntausender-Stangen\n- c) 1.000.000 : 100.000 = 10 Hunderttausender-Platten."
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe fördert das Verständnis der Beziehungen zwischen Stellenwerten. Das Kind soll die multiplikative Struktur des Zehnersystems erkennen: Jede Stufe ist das Zehnfache der vorherigen.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beantworte die Fragen.",
@@ -158,12 +156,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Die Parallelität zwischen a) und b) ist zentral: 352 und 352.000 haben dieselbe Ziffernfolge, aber die Stellenwerte sind um den Faktor 1.000 verschoben. Dies verdeutlicht das Prinzip der Bündelung im Zehnersystem.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Trage die Zahlen in eine Stellenwerttafel ein.",
@@ -172,12 +169,12 @@
         {
           "label": "a",
           "frage": "3 Hunderter-Platten, 5 Zehner-Stangen, 2 Einer-Würfel",
-          "antwort": "|---|----|----|---|---|---|---|"
+          "antwort": "352"
         },
         {
           "label": "b",
           "frage": "3 Hunderttausender-Platten, 5 Zehntausender-Stangen, 2 Tausender-Würfel",
-          "antwort": "|---|----|----|---|---|---|---|"
+          "antwort": "352.000"
         }
       ]
     }
@@ -202,12 +199,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Hier wird die Stellenwerttafel als zentrales Ordnungswerkzeug genutzt. Besonders wichtig: Stellen ohne explizite Blöcke müssen mit Null aufgefüllt werden. Das ist ein häufiger Fehler bei Kindern.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Trage die Zahlen in eine Stellenwerttafel ein und schreibe die Zahl.",
@@ -249,18 +245,17 @@
     "loesungsweg": "Bei allen drei Paaren gilt: Die Ziffernfolge ist identisch (2-4-3, 5-6-2, 1-8-7), aber die Stellenwerte unterscheiden sich um den Faktor 1.000. Zum Beispiel: Bei 243 steht die 2 an der Hunderterstelle, bei 243.000 steht die 2 an der Hunderttausenderstelle.",
     "tipps": [
       "Trage beide Zahlen in eine Stellenwerttafel ein. Stehen die Ziffern an den gleichen Stellen?",
-      "Vergleiche Stelle für Stelle: Wo steht die 2 bei 243? Und wo bei 243.000? Nutze die Stellenwerttafel: M | HT | ZT | T | H | Z | E",
+      "Vergleiche Stelle für Stelle: Wo steht die 2 bei 243? Und wo bei 243.000? Nutze die Stellenwerttafel: M | HT | ZT | T | H | Z | E.",
       "243 in der Tafel: H=2, Z=4, E=3. 243.000 in der Tafel: HT=2, ZT=4, T=3, H=0, Z=0, E=0. Die Ziffern 2, 4, 3 sind gleich — aber an welchen Stellen stehen sie?",
       "Bei allen drei Paaren gilt: Die Ziffernfolge ist identisch (2-4-3, 5-6-2, 1-8-7), aber die Stellenwerte unterscheiden sich um den Faktor 1.000. Zum Beispiel: Bei 243 steht die 2 an der Hunderterstelle, bei 243.000 steht die 2 an der Hunderttausenderstelle."
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe schärft das Bewusstsein, dass gleiche Ziffern unterschiedliche Werte haben können, je nach Position. Das ist der Kern des Stellenwertprinzips und muss sicher verstanden sein, bevor größere Zahlen bearbeitet werden.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "auswahl",
       "anweisung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?\n\nWähle jeweils die richtige Aussage.",
@@ -302,12 +297,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Die Aufgabe vertieft die multiplikative Beziehung zwischen Stellenwerten und bereitet auf das Zerlegen großer Zahlen vor. Das Kürzen von Nullen ist eine wichtige Rechenstrategie.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beantworte die Fragen.",
@@ -350,12 +344,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Das Überspringen von Stellenwerten und das korrekte Platzieren der Null ist eine typische Fehlerquelle. Kinder neigen dazu, die Null zu vergessen und z.B. 6083 statt 600.083 zu schreiben. Die Stellenwerttafel dient hier als Sicherheitsnetz.",
-    "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Trage die Blöcke in eine Stellenwerttafel ein und lies die Zahl.",
@@ -391,7 +384,7 @@
     "loesung": "a) 372.514\nb) 816.937",
     "loesungsweg": "Die Abkürzungen stehen für:\n- HT = Hunderttausender, ZT = Zehntausender, T = Tausender, H = Hunderter, Z = Zehner, E = Einer\n- a) 3·100.000 + 7·10.000 + 2·1.000 + 5·100 + 1·10 + 4·1 = 372.514\n- b) 8·100.000 + 1·10.000 + 6·1.000 + 9·100 + 3·10 + 7·1 = 816.937",
     "tipps": [
-      "Was bedeuten die Abkürzungen? HT steht für Hunderttausender. Stell dir die Stellenwerttafel vor: M | HT | ZT | T | H | Z | E",
+      "Was bedeuten die Abkürzungen? HT steht für Hunderttausender. Stell dir die Stellenwerttafel vor: M | HT | ZT | T | H | Z | E.",
       "Schreibe jede Ziffer unter den richtigen Stellenwert in der Tafel. Dann lies die Zahl von links nach rechts ab.",
       "Bei a): HT=3, ZT=7, T=2, H=5, Z=1, E=4. Lies von links: 3 7 2 . 5 1 4. Wie spricht man diese Zahl?",
       "Die Abkürzungen stehen für:\n- HT = Hunderttausender, ZT = Zehntausender, T = Tausender, H = Hunderter, Z = Zehner, E = Einer\n- a) 3·100.000 + 7·10.000 + 2·1.000 + 5·100 + 1·10 + 4·1 = 372.514\n- b) 8·100.000 + 1·10.000 + 6·1.000 + 9·100 + 3·10 + 7·1 = 816.937"
@@ -976,13 +969,13 @@
     "stageId": "zahlen-vergleichen",
     "digital": "voll",
     "aufgabenstellung": "Wie heißt die Zahl?\n\na) Meine Zahl hat doppelt so viele H wie E und halb so viele Z wie E. Die Zahl hat 5 T, 3 ZT und 2 HT. Ich brauche 24 Plättchen, um die Zahl zu legen.\nb) Ich brauche 22 Plättchen, um meine Zahl zu legen. Sie hat 7 E, 4 Z, doppelt so viele HT wie T und dreimal so viele ZT wie T.",
-    "loesung": "a) Die Zahl ist 235.824.\n   (E=4, H=2×4=8, Z=4/2=2, T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24.)\n\nb) Die Zahl ist 213.547.\n   (E=7, Z=4, T=1, HT=2×1=2, ZT=3×1=3, H=5. Plättchen: 2+1+3+5+4+7 = 22 ✓)",
-    "loesungsweg": "- a) Bedingungen: H = 2·E und Z = E/2. Teste E=4: H=8, Z=2. Plus T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24. Die Zahl: 235.824.\n- b) E=7, Z=4, HT=2·T, ZT=3·T. Plättchen: 7+4+T+H+2T+3T = 22 → 11+6T+H = 22. Mit T=1: H=5 → 213.547. Plättchen: 2+1+3+5+4+7 = 22 ✓",
+    "loesung": "a) Die Zahl ist 235.824.\n   (E=4, H=2×4=8, Z=4/2=2, T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24.)\n\nb) Die Zahl ist 231.547.\n   (E=7, Z=4, T=1, HT=2×1=2, ZT=3×1=3, H=5. Plättchen: 2+3+1+5+4+7 = 22 ✓)",
+    "loesungsweg": "- a) Bedingungen: H = 2·E und Z = E/2. Teste E=4: H=8, Z=2. Plus T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24. Die Zahl: 235.824.\n- b) E=7, Z=4, HT=2·T, ZT=3·T. Plättchen: 7+4+T+H+2T+3T = 22 → 11+6T+H = 22. Mit T=1: H=5 → 231.547. Plättchen: 2+3+1+5+4+7 = 22 ✓",
     "tipps": [
       "Schreibe die Bedingungen auf und nutze die Stellenwerttafel. Wie viele Plättchen brauchst du für die bekannten Stellen?",
       "Zähle die Plättchen der bekannten Stellen zusammen. Die übrigen Plättchen verteilen sich auf die unbekannten Stellen — mit den gegebenen Bedingungen.",
       "Bei b): E=7, Z=4 sind bekannt → 7+4 = 11 Plättchen. Es bleiben 22 − 11 = 11 Plättchen für HT, ZT, T und H. Wenn T = 1, dann HT = 2 und ZT = 3. Das sind 1+2+3 = 6 Plättchen. Wie viele bleiben für H?",
-      "- a) Bedingungen: H = 2·E und Z = E/2. Teste E=4: H=8, Z=2. Plus T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24. Die Zahl: 235.824.\n- b) E=7, Z=4, HT=2·T, ZT=3·T. Plättchen: 7+4+T+H+2T+3T = 22 → 11+6T+H = 22. Mit T=1: H=5 → 213.547. Plättchen: 2+1+3+5+4+7 = 22 ✓"
+      "- a) Bedingungen: H = 2·E und Z = E/2. Teste E=4: H=8, Z=2. Plus T=5, ZT=3, HT=2. Plättchen: 2+3+5+8+2+4 = 24. Die Zahl: 235.824.\n- b) E=7, Z=4, HT=2·T, ZT=3·T. Plättchen: 7+4+T+H+2T+3T = 22 → 11+6T+H = 22. Mit T=1: H=5 → 231.547. Plättchen: 2+3+1+5+4+7 = 22 ✓."
     ],
     "didaktischerHinweis": "Diese Zahlenrätsel verknüpfen das Stellenwertverständnis mit logischem Denken. Das systematische Einsetzen von Bedingungen ist eine Vorstufe algebraischen Denkens. Die \"Plättchenzahl\" als Quersumme zu erkennen ist eine wichtige Einsicht.",
     "parsed": {
@@ -998,13 +991,13 @@
         {
           "label": "b",
           "frage": "Ich brauche 22 Plättchen, um meine Zahl zu legen. Sie hat 7 E, 4 Z, doppelt so viele HT wie T und dreimal so viele ZT wie T.",
-          "antwort": "213.547"
+          "antwort": "231.547"
         }
       ]
     }
   },
   {
-    "titel": "Vier Plättchen in der Stellenwerttafel — größte und kleinste Zahl",
+    "titel": "Fünf Plättchen in der Stellenwerttafel — größte und kleinste Zahl",
     "typ": "textaufgabe",
     "thema": "Zahlen vergleichen und verändern",
     "schwierigkeit": "orange",
@@ -1122,7 +1115,7 @@
     "tipps": [
       "Wenn du \"T\" wie \"Tausender\" liest — kannst du 348 + 5 im Kopf rechnen? Dann hänge einfach drei Nullen an!",
       "Ignoriere erst die Tausender und rechne nur die kleine Aufgabe. Dann mache aus dem Ergebnis wieder Tausender. Zum Beispiel: 348 + 5 = 353, also 353.000.",
-      "Bei a): 348 + 5 = ? 8 + 5 = 13, also 3 schreiben und 1 Zehner übertragen: 348 + 5 = 353. Jetzt hänge \"000\" an: 353.___",
+      "Bei a): 348 + 5 = ? 8 + 5 = 13, also 3 schreiben und 1 Zehner übertragen: 348 + 5 = 353. Jetzt hänge \"000\" an: 353.___.",
       "Rechne mit den Tausendern wie mit kleinen Zahlen:\n- a) 348 + 5 = 353, also 353 T = 353.000\n- b) 521 + 7 = 528, also 528 T = 528.000\n- c) 463 − 6 = 457, also 457 T = 457.000\n- d) 894 − 3 = 891, also 891 T = 891.000"
     ],
     "didaktischerHinweis": "Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufgaben im kleinen Zahlenraum. Dieses \"Analogierechnen\" ist eine Schlüsselstrategie für das Kopfrechnen mit großen Zahlen.",
@@ -1225,7 +1218,7 @@
         {
           "label": "1",
           "frage": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.\n\nWähle jeweils zwei Zahlen aus: 56.000 | 185.000 | 72.000 | 128.000 | 9.000 | 234.000",
-          "antwort": "Mögliche Aufgaben (mehrere Lösungen möglich):"
+          "antwort": "241.000"
         }
       ]
     }
@@ -1345,7 +1338,7 @@
     "loesung": "c) etwa 100",
     "loesungsweg": "8 Griffe × 12 Bonbons pro Griff = 96 Bonbons ≈ etwa 100.",
     "tipps": [
-      "Stell dir vor, Leon greift 8-mal in die Tüte. Jedes Mal holt er ungefähr 12 Bonbons raus. Was rechnest du?",
+      "Leon greift 8-mal in die Tüte und holt immer etwa 12 Bonbons. Was rechnest du?",
       "Multipliziere: Anzahl der Griffe × Bonbons pro Griff. Also 8 × 12 = ?",
       "8 × 12: Rechne 8 × 10 = 80 und 8 × 2 = 16. Zusammen: 80 + 16 = 96. Welche Antwort passt am besten zu 96?",
       "8 Griffe × 12 Bonbons pro Griff = 96 Bonbons ≈ etwa 100."
@@ -1446,7 +1439,7 @@
     "buchseite": 27,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "schaetzen",
-    "digital": "teilweise",
+    "digital": "platzhalter",
     "aufgabenstellung": "Welches Hilfsmittel eignet sich am besten zum Schätzen?\n\na) Wie viele Linsen sind in einer Packung?\n   A) Löffel  B) Waage  C) Raster  D) Becher\n\nb) Wie viele Pflastersteine sind auf dem Schulhof?\n   A) Löffel  B) Waage  C) Raster  D) Becher\n\nc) Wie viele Gummibärchen sind in der Tüte?\n   A) Löffel  B) Waage  C) Raster  D) Becher",
     "loesung": "a) B) Waage (10 g abwiegen, zählen, hochrechnen)\nb) C) Raster (ein Quadrat zählen, Fläche berechnen)\nc) A) Löffel oder D) Becher (eine Handvoll zählen, hochrechnen)",
     "loesungsweg": "Das richtige Hilfsmittel hängt von der Art der Objekte ab:\n- Kleine, gleichmäßige Dinge (Linsen, Reis) → Waage: Eine kleine Menge abwiegen und zählen.\n- Flächen (Pflastersteine, Fliesen) → Raster: Einen Ausschnitt zählen und auf die Gesamtfläche hochrechnen.\n- Mittelgroße Dinge in einem Behälter (Gummibärchen) → Löffel/Becher: Eine Portion entnehmen und zählen.",
@@ -1708,7 +1701,7 @@
     "kapitel": "02-zahlen-bis-million",
     "stageId": "zahlenstrahl-gross",
     "digital": "voll",
-    "aufgabenstellung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.\n\na) Zahlenstrahl von 740.000 bis 840.000 (Zehntausenderstrich alle 10.000):\n   A liegt 1 Strich nach 750.000.\n   B liegt 1 Strich nach 790.000.\n   C liegt bei 820.000.\n\nb) Zahlenstrahl von 432.000 bis 433.000 (Hunderterstrich alle 100):\n   D liegt bei 432.300.\n   E liegt bei 432.700.\n   F liegt bei 432.900.",
+    "aufgabenstellung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.\n\na) Zahlenstrahl von 740.000 bis 840.000 (Zehntausenderstrich alle 10.000):\n   A liegt auf dem kleinen Strich zwischen 750.000 und 760.000.\n   B liegt auf dem kleinen Strich zwischen 790.000 und 800.000.\n   C liegt bei 820.000.\n\nb) Zahlenstrahl von 432.000 bis 433.000 (Hunderterstrich alle 100):\n   D liegt bei 432.300.\n   E liegt bei 432.700.\n   F liegt bei 432.900.",
     "loesung": "a) A = 755.000, B = 795.000, C = 820.000\nb) D = 432.300, E = 432.700, F = 432.900",
     "loesungsweg": "- a) Abstand 840.000 − 740.000 = 100.000, 10 Abschnitte → Strich = 10.000. Zwischen den Zehntausender-Strichen: 5.000-Strich.\n  A: 750.000 + 5.000 = 755.000\n  B: 790.000 + 5.000 = 795.000\n  C: genau auf 820.000\n- b) Abstand 433.000 − 432.000 = 1.000, 10 Abschnitte → Strich = 100.\n  D: 432.000 + 300 = 432.300\n  E: 432.000 + 700 = 432.700\n  F: 432.000 + 900 = 432.900",
     "tipps": [
@@ -2645,7 +2638,7 @@
       "Vergleiche die beiden Zahlen. Ab welcher Stelle stehen nur noch Nullen im gerundeten Ergebnis?",
       "Die letzte Stelle, die sich verändert hat (oder gleich geblieben ist), ist die Rundungsstelle. Alle Stellen rechts davon werden zu 0.",
       "Bei a): 738.564 → 740.000. Die ZT-Stelle hat sich verändert (3→4), alles danach ist 0. Also wurde auf welche Stelle gerundet?",
-      "Vergleiche die Originalzahl mit dem gerundeten Ergebnis. Wo beginnen die Nullen?\n- a) 740.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender\n- b) 292.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- c) 456.300 → ab der Zehnerstelle nur Nullen → gerundet auf Hunderter\n- d) 816.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- e) 500.000 → ab der Zehntausenderstelle nur Nullen → gerundet auf Hunderttausender\n- f) 650.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender"
+      "Vergleiche die Originalzahl mit dem gerundeten Ergebnis. Wo beginnen die Nullen?\n- a) 740.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender\n- b) 292.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- c) 456.300 → ab der Zehnerstelle nur Nullen → gerundet auf Hunderter\n- d) 816.000 → ab der Hunderterstelle nur Nullen → gerundet auf Tausender\n- e) 500.000 → ab der Zehntausenderstelle nur Nullen → gerundet auf Hunderttausender\n- f) 650.000 → ab der Tausenderstelle nur Nullen → gerundet auf Zehntausender."
     ],
     "didaktischerHinweis": "Diese Umkehr-Aufgabe erfordert ein tiefes Verständnis des Rundungsprozesses. Das Kind muss rückwärts denken: Vom Ergebnis auf die Methode schließen. Das stärkt das metakognitive Verständnis des Rundens.",
     "parsed": {
@@ -3429,7 +3422,7 @@
     "tipps": [
       "Denke an dein Schulheft — das hat ungefähr 30 Seiten. Ist ein dickes Buch genauso dick oder viel dicker?",
       "Nutze eine Vergleichsgröße: Dein Mathebuch hat ungefähr 100 Seiten. Ein Harry-Potter-Band ist ungefähr 3-mal so dick. Also ungefähr 3 × 100 = ?",
-      "30 Seiten — das ist nur ein dünnes Heft. ✗ 3.000 Seiten — das wäre ein riesiger Stapel Papier, dicker als dein Arm. ✗ 300 Seiten — das ist ungefähr so dick wie 3 Schulhefte übereinander. Klingt das nach einem dicken Buch? ✓",
+      "30 Seiten — das ist nur ein dünnes Heft. ✗ 3.000 Seiten — das wäre ein riesiger Stapel Papier, dicker als dein Arm. ✗ 300 Seiten — das ist ungefähr so dick wie 3 Schulhefte übereinander. Klingt das nach einem dicken Buch? ✓.",
       "Ein dünnes Heft hat ungefähr 30 Seiten — ein dickes Buch ist viel dicker als ein Heft. 3.000 Seiten wären so dick wie 10 dicke Bücher zusammen. Ein normales dickes Buch hat ungefähr 200 bis 400 Seiten, also passt 300 am besten."
     ],
     "didaktischerHinweis": "Hier wird das Größenordnungsdenken trainiert: Die drei Antworten unterscheiden sich jeweils um den Faktor 10. Das Kind soll nicht exakt rechnen, sondern mit bekannten Vergleichsgrößen (Schulheft, Mathebuch) abschaetzen, welche Zehnerpotenz passt.",
@@ -3547,7 +3540,7 @@
     "loesung": "Die richtige Antwort ist b) 100.000.",
     "loesungsweg": "Ein Mensch hat ungefähr 100.000 Haare auf dem Kopf. 10.000 wären zu wenig — dann könnte man die Kopfhaut durchsehen. 1.000.000 wären zu viel — so viele Haare hätten gar nicht Platz auf einem Kopf. Die Kopfhaut ist ungefähr 600 cm² groß, und pro cm² wachsen ungefähr 150 bis 200 Haare: 600 × 170 ≈ 100.000.",
     "tipps": [
-      "Stell dir eine kleine Stelle auf deinem Kopf vor, ungefähr so groß wie dein Daumennagel. Wie viele Haare wachsen dort wohl? Bestimmt mehr als 10, oder? Und jetzt stell dir den ganzen Kopf vor …",
+      "Stell dir eine kleine Stelle auf deinem Kopf vor, ungefähr so groß wie dein Daumennagel. Wie viele Haare wachsen dort wohl? Bestimmt mehr als 10, oder? Und jetzt stell dir den ganzen Kopf vor ….",
       "Denke in Größenordnungen: Die drei Antworten sind 10.000, 100.000 und 1.000.000. Jede ist 10-mal so groß wie die vorherige. Überlege: 10.000 — ist das genug für einen vollen Haarschopf? Und 1.000.000 — wäre das nicht unglaublich viel?",
       "Stell dir vor, du zählst jeden Tag 100 Haare (die fallen auch wirklich ungefähr so viele aus!). Dann hättest du nach 1.000 Tagen (knapp 3 Jahre) alle gezählt: 1.000 × 100 = 100.000. Welche Antwort passt?",
       "Ein Mensch hat ungefähr 100.000 Haare auf dem Kopf. 10.000 wären zu wenig — dann könnte man die Kopfhaut durchsehen. 1.000.000 wären zu viel — so viele Haare hätten gar nicht Platz auf einem Kopf. Die Kopfhaut ist ungefähr 600 cm² groß, und pro cm² wachsen ungefähr 150 bis 200 Haare: 600 × 170 ≈ 100.000."

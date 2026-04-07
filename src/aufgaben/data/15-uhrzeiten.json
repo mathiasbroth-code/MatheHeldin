@@ -1,0 +1,1260 @@
+[
+  {
+    "titel": "Volle Stunden ablesen",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Lies die Uhrzeit ab.\n\n[uhr:3:00]\n\na) Wie spät ist es?",
+    "loesung": "3:00",
+    "loesungsweg": "Der kurze Zeiger steht auf der 3, der lange Zeiger steht auf der 12. Also ist es 3 Uhr.",
+    "tipps": [
+      "Schau zuerst auf den kurzen Zeiger — er zeigt die Stunde.",
+      "Der kurze Zeiger zeigt auf eine Zahl. Der lange Zeiger steht auf der 12 — das bedeutet 'genau'.",
+      "Der kurze Zeiger steht auf der 3. Der lange Zeiger steht auf der 12. Also ist es ___ Uhr.",
+      "Der kurze Zeiger steht auf der 3, der lange auf der 12. Es ist 3:00 Uhr."
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe: Volle Stunden ablesen. Der Minutenzeiger steht auf 12, das Kind konzentriert sich nur auf den Stundenzeiger.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Lies die Uhrzeit ab.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:3:00] Wie spät ist es?",
+          "antwort": "3:00"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Volle Stunden ablesen — verschiedene Zeiten",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Lies die Uhrzeit ab.\n\na) [uhr:7:00]\nb) [uhr:11:00]\nc) [uhr:6:00]\nd) [uhr:9:00]",
+    "loesung": "a) 7:00\nb) 11:00\nc) 6:00\nd) 9:00",
+    "loesungsweg": "Bei jeder Uhr steht der lange Zeiger auf der 12 (= volle Stunde). Der kurze Zeiger zeigt die Stunde an.",
+    "tipps": [
+      "Schau auf den langen Zeiger — er steht auf der 12.",
+      "Schau auf den kurzen Zeiger. Auf welche Zahl zeigt er?",
+      "a) Kurzer Zeiger auf 7 → 7:00. b) Kurzer Zeiger auf 11 → ?",
+      "Die richtigen Uhrzeiten: a) 7:00 b) 11:00 c) 6:00 d) 9:00"
+    ],
+    "didaktischerHinweis": "Mehrere volle Stunden ablesen. Festigung des Prinzips: langer Zeiger auf 12 = volle Stunde.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Lies die Uhrzeit ab.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:7:00] Wie spät ist es?",
+          "antwort": "7:00"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:11:00] Wie spät ist es?",
+          "antwort": "11:00"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:6:00] Wie spät ist es?",
+          "antwort": "6:00"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:9:00] Wie spät ist es?",
+          "antwort": "9:00"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Halbe Stunden ablesen",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Der lange Zeiger steht auf der 6 — das bedeutet 'halb'.\n\na) [uhr:3:30]\nb) [uhr:8:30]\nc) [uhr:12:30]\nd) [uhr:5:30]",
+    "loesung": "a) 3:30\nb) 8:30\nc) 12:30\nd) 5:30",
+    "loesungsweg": "Der lange Zeiger auf der 6 bedeutet 'halb'. Der kurze Zeiger steht zwischen zwei Zahlen — die kleinere Zahl ist die Stunde.\na) Zwischen 3 und 4 → 3:30\nb) Zwischen 8 und 9 → 8:30\nc) Zwischen 12 und 1 → 12:30\nd) Zwischen 5 und 6 → 5:30",
+    "tipps": [
+      "Wenn der lange Zeiger unten auf der 6 steht, ist es 'halb'. Aber halb was?",
+      "Schau auf den kurzen Zeiger. Er steht zwischen zwei Zahlen. Die kleinere Zahl ist die Stunde.",
+      "a) Der kurze Zeiger steht zwischen 3 und 4. Es ist halb 4, also ___:30.",
+      "a) 3:30 (halb 4) b) 8:30 (halb 9) c) 12:30 (halb 1) d) 5:30 (halb 6)"
+    ],
+    "didaktischerHinweis": "Halbe Stunden: Minutenzeiger auf 6. Wichtig: 'halb 4' = 3:30. Der Stundenzeiger steht bereits zwischen 3 und 4.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Der lange Zeiger steht auf der 6 — das bedeutet 'halb'.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:3:30] Wie spät ist es?",
+          "antwort": "3:30"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:8:30] Wie spät ist es?",
+          "antwort": "8:30"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:12:30] Wie spät ist es?",
+          "antwort": "12:30"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:5:30] Wie spät ist es?",
+          "antwort": "5:30"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Viertelstunden ablesen",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Lies die Uhrzeit ab.\n\na) [uhr:2:15]\nb) [uhr:10:45]\nc) [uhr:6:15]\nd) [uhr:4:45]",
+    "loesung": "a) 2:15\nb) 10:45\nc) 6:15\nd) 4:45",
+    "loesungsweg": "Langer Zeiger auf der 3 → Viertel nach (15 Minuten). Langer Zeiger auf der 9 → Viertel vor (45 Minuten).\na) Viertel nach 2 = 2:15\nb) Viertel vor 11 = 10:45\nc) Viertel nach 6 = 6:15\nd) Viertel vor 5 = 4:45",
+    "tipps": [
+      "Steht der lange Zeiger auf der 3 oder der 9?",
+      "Stell dir den Kreis wie eine Pizza vor: auf der 12 starten, auf der 3 ist ein Viertel rum, auf der 6 die Hälfte, auf der 9 drei Viertel.",
+      "a) Langer Zeiger auf 3 = 15 Minuten. Kurzer Zeiger nach der 2. Also 2:___.",
+      "a) 2:15 b) 10:45 c) 6:15 d) 4:45"
+    ],
+    "didaktischerHinweis": "Viertelstunden: Minutenzeiger auf 3 (= :15) und auf 9 (= :45). Verbindung zum Bruchkonzept: Viertel = 15 min = ¼ Stunde.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Lies die Uhrzeit ab.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:2:15] Wie spät ist es?",
+          "antwort": "2:15"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:10:45] Wie spät ist es?",
+          "antwort": "10:45"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:6:15] Wie spät ist es?",
+          "antwort": "6:15"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:4:45] Wie spät ist es?",
+          "antwort": "4:45"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "5-Minuten-Schritte ablesen",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Zähle die Minuten in 5er-Schritten.\n\na) [uhr:4:20]\nb) [uhr:1:35]\nc) [uhr:9:10]\nd) [uhr:7:50]",
+    "loesung": "a) 4:20\nb) 1:35\nc) 9:10\nd) 7:50",
+    "loesungsweg": "Der lange Zeiger wandert im Kreis. Jede Zahl am Rand steht für 5 Minuten: 1→5, 2→10, 3→15, 4→20, 5→25, 6→30, 7→35, 8→40, 9→45, 10→50, 11→55, 12→0.\na) Langer Zeiger auf 4 → 20 min. Kurzer Zeiger nach der 4 → 4:20\nb) Langer Zeiger auf 7 → 35 min. Kurzer Zeiger nach der 1 → 1:35\nc) Langer Zeiger auf 2 → 10 min. Kurzer Zeiger auf 9 → 9:10\nd) Langer Zeiger auf 10 → 50 min. Kurzer Zeiger kurz vor der 8 → 7:50",
+    "tipps": [
+      "Zähle am langen Zeiger in 5er-Schritten ab der 12.",
+      "Merke dir: Jede große Zahl × 5 = Minuten. Die 4 bedeutet also 4 × 5 = 20 Minuten.",
+      "a) Langer Zeiger zeigt auf die 4. Das sind 4 × 5 = ___ Minuten. Der kurze Zeiger ist nach der 4. Also ist es 4:___.",
+      "Die richtigen Uhrzeiten: a) 4:20 b) 1:35 c) 9:10 d) 7:50"
+    ],
+    "didaktischerHinweis": "5er-Schritte: Das 5er-Einmaleins wird hier praktisch angewendet. Jede Zahl auf dem Zifferblatt steht für ein Vielfaches von 5.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Zähle die Minuten in 5er-Schritten.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:4:20] Wie spät ist es?",
+          "antwort": "4:20"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:1:35] Wie spät ist es?",
+          "antwort": "1:35"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:9:10] Wie spät ist es?",
+          "antwort": "9:10"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:7:50] Wie spät ist es?",
+          "antwort": "7:50"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Beliebige Minutenangaben ablesen",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "orange",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Lies die genaue Uhrzeit ab.\n\na) [uhr:2:07]\nb) [uhr:11:23]\nc) [uhr:8:42]\nd) [uhr:5:58]",
+    "loesung": "a) 2:07\nb) 11:23\nc) 8:42\nd) 5:58",
+    "loesungsweg": "Zähle zuerst in 5er-Schritten bis zur nächsten großen Zahl, dann die einzelnen kleinen Striche dazu.\na) Langer Zeiger kurz nach der 1 → 5 + 2 = 7 min → 2:07\nb) Langer Zeiger zwischen 4 und 5 → 20 + 3 = 23 min → 11:23\nc) Langer Zeiger zwischen 8 und 9 → 40 + 2 = 42 min → 8:42\nd) Langer Zeiger kurz vor der 12 → 55 + 3 = 58 min → 5:58",
+    "tipps": [
+      "Zähle erst in 5er-Schritten, dann die kleinen Striche.",
+      "Bei a) steht der lange Zeiger kurz nach der 1. Die 1 = 5 Minuten. Dann zähle die kleinen Striche: 6, 7...",
+      "a) 5er-Schritt zur 1 = 5 min, dann 2 kleine Striche weiter = 5 + 2 = ___ min.",
+      "Die richtigen Uhrzeiten: a) 2:07 b) 11:23 c) 8:42 d) 5:58"
+    ],
+    "didaktischerHinweis": "Krumme Minutenangaben: Kombination aus 5er-Schritten und einzelnen Minuten. Erfordert sicheres Zählen am Zifferblatt.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Lies die genaue Uhrzeit ab.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:2:07] Wie spät ist es?",
+          "antwort": "2:07"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:11:23] Wie spät ist es?",
+          "antwort": "11:23"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:8:42] Wie spät ist es?",
+          "antwort": "8:42"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:5:58] Wie spät ist es?",
+          "antwort": "5:58"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Sprechweisen zuordnen — volle und halbe Stunden",
+    "typ": "zuordnung",
+    "thema": "Uhrzeiten-Sprechweise",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-sprechweise",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Sprechweisen den Uhrzeiten zu.\n\na) halb vier\nb) sechs Uhr\nc) halb neun\nd) zwölf Uhr\n\nA) 6:00\nB) 3:30\nC) 12:00\nD) 8:30",
+    "loesung": "a) → B\nb) → A\nc) → D\nd) → C",
+    "loesungsweg": "'Halb vier' bedeutet: eine halbe Stunde vor 4 Uhr, also 3:30.\n'Halb neun' = eine halbe Stunde vor 9 Uhr = 8:30.\na) halb vier = 3:30 → B\nb) sechs Uhr = 6:00 → A\nc) halb neun = 8:30 → D\nd) zwölf Uhr = 12:00 → C",
+    "tipps": [
+      "'Halb' heißt: eine halbe Stunde VOR der genannten Zahl. Halb vier = vor 4 Uhr.",
+      "Halb vier ≠ 4:30! Sondern 3:30. Stell dir vor: Auf dem Weg zu 4 Uhr ist erst die Hälfte geschafft.",
+      "a) Halb vier = eine halbe Stunde vor 4 = ___:30. b) Sechs Uhr = 6:___.",
+      "a) halb vier = 3:30 → B, b) sechs Uhr = 6:00 → A, c) halb neun = 8:30 → D, d) zwölf Uhr = 12:00 → C."
+    ],
+    "didaktischerHinweis": "Die deutsche Sprechweise 'halb X' ist die häufigste Fehlerquelle. 'Halb vier' = 3:30 (nicht 4:30). Visuelle Verknüpfung mit der Uhr hilft.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Sprechweisen den Uhrzeiten zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "halb vier"
+        },
+        {
+          "label": "b",
+          "text": "sechs Uhr"
+        },
+        {
+          "label": "c",
+          "text": "halb neun"
+        },
+        {
+          "label": "d",
+          "text": "zwölf Uhr"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "6:00"
+        },
+        {
+          "label": "B",
+          "text": "3:30"
+        },
+        {
+          "label": "C",
+          "text": "12:00"
+        },
+        {
+          "label": "D",
+          "text": "8:30"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "A",
+        "c": "D",
+        "d": "C"
+      }
+    }
+  },
+  {
+    "titel": "Sprechweisen zuordnen — Viertelstunden",
+    "typ": "zuordnung",
+    "thema": "Uhrzeiten-Sprechweise",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-sprechweise",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Sprechweisen den Uhrzeiten zu.\n\na) Viertel nach drei\nb) Viertel vor acht\nc) drei viertel fünf\nd) Viertel nach zehn\n\nA) 4:45\nB) 3:15\nC) 10:15\nD) 7:45",
+    "loesung": "a) → B\nb) → D\nc) → A\nd) → C",
+    "loesungsweg": "'Viertel nach' = 15 Minuten nach der Stunde.\n'Viertel vor' = 15 Minuten vor der nächsten Stunde = :45.\n'Drei viertel' = 45 Minuten, gleich wie 'Viertel vor'.\na) Viertel nach 3 = 3:15 → B\nb) Viertel vor 8 = 7:45 → D\nc) Drei viertel 5 = 4:45 → A\nd) Viertel nach 10 = 10:15 → C",
+    "tipps": [
+      "Viertel nach = 15 Minuten, Viertel vor = 45 Minuten.",
+      "Stell dir die Uhr wie eine Pizza in 4 Stücke geteilt vor: 1 Viertel = 15 min, 2 Viertel = 30 min (halb), 3 Viertel = 45 min.",
+      "a) Viertel nach drei = 3 Uhr und 15 Minuten = ___:15. c) Drei viertel fünf = eine Stunde VOR 5 und dann 3 Viertel = 4:___.",
+      "a) 3:15 → B, b) 7:45 → D, c) 4:45 → A, d) 10:15 → C."
+    ],
+    "didaktischerHinweis": "Viertelstunden-Sprechweisen. 'Drei viertel fünf' = 4:45 ist regional (Süddeutsch/Österreich) und wird parallel zu 'Viertel vor fünf' geübt.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Sprechweisen den Uhrzeiten zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "Viertel nach drei"
+        },
+        {
+          "label": "b",
+          "text": "Viertel vor acht"
+        },
+        {
+          "label": "c",
+          "text": "drei viertel fünf"
+        },
+        {
+          "label": "d",
+          "text": "Viertel nach zehn"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "4:45"
+        },
+        {
+          "label": "B",
+          "text": "3:15"
+        },
+        {
+          "label": "C",
+          "text": "10:15"
+        },
+        {
+          "label": "D",
+          "text": "7:45"
+        }
+      ],
+      "antworten": {
+        "a": "B",
+        "b": "D",
+        "c": "A",
+        "d": "C"
+      }
+    }
+  },
+  {
+    "titel": "Stimmt die Uhrzeit? — Volle und halbe Stunden",
+    "typ": "wahr-falsch",
+    "thema": "Uhrzeiten-Sprechweise",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-sprechweise",
+    "digital": "voll",
+    "aufgabenstellung": "Stimmt die Aussage? Kreuze an.\n\na) [uhr:3:30] 'Es ist halb drei.'\nb) [uhr:7:00] 'Es ist sieben Uhr.'\nc) [uhr:9:30] 'Es ist halb zehn.'\nd) [uhr:6:30] 'Es ist halb sechs.'",
+    "loesung": "a) falsch\nb) richtig\nc) richtig\nd) falsch",
+    "loesungsweg": "a) Falsch — es ist halb VIER (3:30), nicht halb drei.\nb) Richtig — der kurze Zeiger auf 7, langer auf 12 = 7:00.\nc) Richtig — halb zehn = 9:30. ✓\nd) Falsch — es ist halb SIEBEN (6:30), nicht halb sechs.",
+    "tipps": [
+      "'Halb' bezieht sich immer auf die NÄCHSTE volle Stunde. Halb drei = 2:30, halb vier = 3:30.",
+      "Schau auf die Uhr: Wo steht der kurze Zeiger? Zwischen welchen Zahlen?",
+      "a) Der kurze Zeiger steht zwischen 3 und 4 → es ist halb ___. Wird 'halb drei' behauptet — stimmt das?",
+      "a) falsch (halb vier, nicht halb drei) b) richtig c) richtig d) falsch (halb sieben, nicht halb sechs)"
+    ],
+    "didaktischerHinweis": "Wahr-Falsch-Format fördert kritisches Prüfen der 'halb'-Sprechweise. Die häufigste Falle wird hier direkt adressiert.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Stimmt die Aussage? Kreuze an.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "[uhr:3:30] Es ist halb drei.",
+          "richtig": false,
+          "erklaerung": "Es ist halb vier (3:30), nicht halb drei."
+        },
+        {
+          "label": "b",
+          "aussage": "[uhr:7:00] Es ist sieben Uhr.",
+          "richtig": true,
+          "erklaerung": "Richtig — der kurze Zeiger steht auf der 7, der lange auf der 12."
+        },
+        {
+          "label": "c",
+          "aussage": "[uhr:9:30] Es ist halb zehn.",
+          "richtig": true,
+          "erklaerung": "Richtig — halb zehn = 9:30."
+        },
+        {
+          "label": "d",
+          "aussage": "[uhr:6:30] Es ist halb sechs.",
+          "richtig": false,
+          "erklaerung": "Es ist halb sieben (6:30), nicht halb sechs."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Sprechweisen zuordnen — gemischt",
+    "typ": "zuordnung",
+    "thema": "Uhrzeiten-Sprechweise",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-sprechweise",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Sprechweisen den Uhrzeiten zu.\n\na) fünf nach halb drei\nb) zehn vor sechs\nc) zwanzig nach eins\nd) fünf vor halb acht\n\nA) 1:20\nB) 5:50\nC) 7:25\nD) 2:35",
+    "loesung": "a) → D\nb) → B\nc) → A\nd) → C",
+    "loesungsweg": "'Fünf nach halb drei' = 2:30 + 5 min = 2:35.\n'Zehn vor sechs' = 6:00 - 10 min = 5:50.\n'Zwanzig nach eins' = 1:00 + 20 min = 1:20.\n'Fünf vor halb acht' = 7:30 - 5 min = 7:25.",
+    "tipps": [
+      "'Nach' heißt: Minuten dazuzählen. 'Vor' heißt: Minuten abziehen.",
+      "'Fünf nach halb drei': Erst halb drei = 2:30 bestimmen, dann 5 Minuten dazuzählen.",
+      "a) Halb drei = 2:30. Fünf Minuten NACH halb drei = 2:30 + 5 = ___:___.",
+      "a) 2:35 → D, b) 5:50 → B, c) 1:20 → A, d) 7:25 → C."
+    ],
+    "didaktischerHinweis": "Fortgeschrittene Sprechweisen: 'fünf nach halb', 'zehn vor'. Erfordert zweistufiges Denken (erst Ankerpunkt finden, dann verschieben).",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Sprechweisen den Uhrzeiten zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "fünf nach halb drei"
+        },
+        {
+          "label": "b",
+          "text": "zehn vor sechs"
+        },
+        {
+          "label": "c",
+          "text": "zwanzig nach eins"
+        },
+        {
+          "label": "d",
+          "text": "fünf vor halb acht"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "1:20"
+        },
+        {
+          "label": "B",
+          "text": "5:50"
+        },
+        {
+          "label": "C",
+          "text": "7:25"
+        },
+        {
+          "label": "D",
+          "text": "2:35"
+        }
+      ],
+      "antworten": {
+        "a": "D",
+        "b": "B",
+        "c": "A",
+        "d": "C"
+      }
+    }
+  },
+  {
+    "titel": "Welche Uhr zeigt die richtige Zeit? — Volle Stunden",
+    "typ": "auswahl",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Es ist 8 Uhr. Welche Uhr zeigt die richtige Zeit?\n\nA) [uhr:8:00]\nB) [uhr:4:00]\nC) [uhr:10:00]\nD) [uhr:8:30]",
+    "loesung": "A",
+    "loesungsweg": "8 Uhr: Der kurze Zeiger muss auf der 8 stehen, der lange Zeiger auf der 12.\nA) Kurzer Zeiger auf 8, langer auf 12 → 8:00 ✓\nB) Kurzer Zeiger auf 4 → falsch\nC) Kurzer Zeiger auf 10 → falsch\nD) Kurzer Zeiger zwischen 8 und 9, langer auf 6 → 8:30 → falsch",
+    "tipps": [
+      "Bei einer vollen Stunde steht der lange Zeiger immer auf der 12.",
+      "Suche die Uhr, bei der der kurze Zeiger genau auf der 8 steht und der lange auf der 12.",
+      "Uhr A: Kurzer Zeiger auf 8, langer Zeiger auf 12 → Ist das 8 Uhr?",
+      "Die richtige Antwort ist A: kurzer Zeiger auf 8, langer auf 12 = 8:00."
+    ],
+    "didaktischerHinweis": "Multiple-Choice mit Uhren: Das Kind muss die passende Uhr identifizieren statt selbst ablesen. Distraktor D (8:30) testet die Unterscheidung volle/halbe Stunde.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Es ist 8 Uhr. Welche Uhr zeigt die richtige Zeit?",
+      "frageText": "Es ist 8 Uhr. Welche Uhr zeigt die richtige Zeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "[uhr:8:00]"
+        },
+        {
+          "label": "B",
+          "text": "[uhr:4:00]"
+        },
+        {
+          "label": "C",
+          "text": "[uhr:10:00]"
+        },
+        {
+          "label": "D",
+          "text": "[uhr:8:30]"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Welche Uhr zeigt die richtige Zeit? — Halbe Stunden",
+    "typ": "auswahl",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Es ist halb 5. Welche Uhr zeigt die richtige Zeit?\n\nA) [uhr:5:30]\nB) [uhr:4:30]\nC) [uhr:4:00]\nD) [uhr:5:00]",
+    "loesung": "B",
+    "loesungsweg": "Halb 5 = 4:30 (nicht 5:30!).\nDer kurze Zeiger steht zwischen 4 und 5, der lange Zeiger auf der 6.\nA) 5:30 → halb sechs → falsch\nB) 4:30 → halb fünf ✓\nC) 4:00 → vier Uhr → falsch\nD) 5:00 → fünf Uhr → falsch",
+    "tipps": [
+      "Halb fünf heißt: eine halbe Stunde VOR 5 Uhr.",
+      "Bei 'halb fünf' steht der kurze Zeiger zwischen 4 und 5, der lange auf der 6.",
+      "Halb fünf = 4:30. Suche die Uhr mit dem kurzen Zeiger zwischen 4 und 5.",
+      "Die richtige Antwort ist B: 4:30 = halb fünf."
+    ],
+    "didaktischerHinweis": "Klassische Falle: 'halb 5' = 4:30, nicht 5:30. Distraktor A (5:30) testet genau diesen häufigen Fehler.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Es ist halb 5. Welche Uhr zeigt die richtige Zeit?",
+      "frageText": "Es ist halb 5. Welche Uhr zeigt die richtige Zeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "[uhr:5:30]"
+        },
+        {
+          "label": "B",
+          "text": "[uhr:4:30]"
+        },
+        {
+          "label": "C",
+          "text": "[uhr:4:00]"
+        },
+        {
+          "label": "D",
+          "text": "[uhr:5:00]"
+        }
+      ],
+      "richtigeIdx": 1
+    }
+  },
+  {
+    "titel": "Welche Uhr zeigt die richtige Zeit? — Viertelstunden",
+    "typ": "auswahl",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Es ist Viertel nach 9. Welche Uhr zeigt die richtige Zeit?\n\nA) [uhr:9:45]\nB) [uhr:9:00]\nC) [uhr:9:15]\nD) [uhr:9:30]",
+    "loesung": "C",
+    "loesungsweg": "Viertel nach 9 = 9:15.\nDer lange Zeiger steht auf der 3 (= 15 Minuten), der kurze Zeiger kurz nach der 9.\nA) 9:45 → Viertel VOR zehn → falsch\nB) 9:00 → neun Uhr → falsch\nC) 9:15 → Viertel nach neun ✓\nD) 9:30 → halb zehn → falsch",
+    "tipps": [
+      "Viertel nach = der lange Zeiger steht auf der 3.",
+      "Suche die Uhr, bei der der lange Zeiger auf der 3 steht und der kurze Zeiger nach der 9.",
+      "Viertel nach 9 = 9:15. Bei welcher Uhr steht der lange Zeiger auf der 3?",
+      "Die richtige Antwort ist C: 9:15 = Viertel nach neun."
+    ],
+    "didaktischerHinweis": "Viertelstunden-Auswahl. Distraktoren decken häufige Verwechslungen ab: Viertel vor (A), volle Stunde (B), halbe Stunde (D).",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Es ist Viertel nach 9. Welche Uhr zeigt die richtige Zeit?",
+      "frageText": "Es ist Viertel nach 9. Welche Uhr zeigt die richtige Zeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "[uhr:9:45]"
+        },
+        {
+          "label": "B",
+          "text": "[uhr:9:00]"
+        },
+        {
+          "label": "C",
+          "text": "[uhr:9:15]"
+        },
+        {
+          "label": "D",
+          "text": "[uhr:9:30]"
+        }
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Welche Uhr zeigt die richtige Zeit? — 5-Minuten-Schritte",
+    "typ": "auswahl",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Es ist 10 Minuten nach 2. Welche Uhr zeigt die richtige Zeit?\n\nA) [uhr:2:10]\nB) [uhr:10:10]\nC) [uhr:2:50]\nD) [uhr:10:02]",
+    "loesung": "A",
+    "loesungsweg": "10 Minuten nach 2 = 2:10.\nDer lange Zeiger steht auf der 2 (= 10 Minuten), der kurze Zeiger kurz nach der 2.\nA) 2:10 ✓\nB) 10:10 → falsch (Stunde verwechselt)\nC) 2:50 → falsch (10 vor 3, nicht 10 nach 2)\nD) 10:02 → falsch",
+    "tipps": [
+      "Die Stunde ist 2. Wie viele Minuten kommen dazu?",
+      "Der lange Zeiger zeigt auf die 2 = 10 Minuten. Der kurze Zeiger zeigt auf die 2 = Stunde 2.",
+      "2:10 → Langer Zeiger auf der 2, kurzer Zeiger kurz nach der 2.",
+      "Die richtige Antwort ist A: 2:10."
+    ],
+    "didaktischerHinweis": "Distraktor B testet Stunden-/Minutenverwechslung. Distraktor C testet 'nach' vs. 'vor' Verwechslung.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Es ist 10 Minuten nach 2. Welche Uhr zeigt die richtige Zeit?",
+      "frageText": "Es ist 10 Minuten nach 2. Welche Uhr zeigt die richtige Zeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "[uhr:2:10]"
+        },
+        {
+          "label": "B",
+          "text": "[uhr:10:10]"
+        },
+        {
+          "label": "C",
+          "text": "[uhr:2:50]"
+        },
+        {
+          "label": "D",
+          "text": "[uhr:10:02]"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Welche Uhr zeigt die richtige Zeit? — Schwer",
+    "typ": "auswahl",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "orange",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Es ist fünf vor halb sieben. Welche Uhr zeigt die richtige Zeit?\n\nA) [uhr:6:25]\nB) [uhr:6:35]\nC) [uhr:7:25]\nD) [uhr:5:25]",
+    "loesung": "A",
+    "loesungsweg": "Fünf vor halb sieben:\n1. Halb sieben = 6:30\n2. Fünf Minuten VOR 6:30 = 6:25\nA) 6:25 ✓\nB) 6:35 → fünf NACH halb sieben → falsch\nC) 7:25 → falsche Stunde\nD) 5:25 → falsche Stunde",
+    "tipps": [
+      "Zerlege es in Schritte: Erst 'halb sieben' bestimmen, dann 'fünf vor'.",
+      "Halb sieben = 6:30. 'Fünf vor' heißt 5 Minuten abziehen.",
+      "6:30 − 5 Minuten = 6:___",
+      "Die richtige Antwort ist A: 6:25 = fünf vor halb sieben."
+    ],
+    "didaktischerHinweis": "Zweistufige Sprechweise: Erst Ankerpunkt (halb sieben = 6:30) bestimmen, dann verschieben (−5 min). Distraktor B testet vor/nach-Verwechslung.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Es ist fünf vor halb sieben. Welche Uhr zeigt die richtige Zeit?",
+      "frageText": "Es ist fünf vor halb sieben. Welche Uhr zeigt die richtige Zeit?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "[uhr:6:25]"
+        },
+        {
+          "label": "B",
+          "text": "[uhr:6:35]"
+        },
+        {
+          "label": "C",
+          "text": "[uhr:7:25]"
+        },
+        {
+          "label": "D",
+          "text": "[uhr:5:25]"
+        }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "Uhrzeiten sortieren — Tagesablauf",
+    "typ": "reihenfolge",
+    "thema": "Uhrzeiten stellen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-stellen",
+    "digital": "voll",
+    "aufgabenstellung": "Bringe die Uhrzeiten in die richtige Reihenfolge — von der frühesten zur spätesten.\n\na) Sortiere: 9:30, 7:15, 11:00, 8:45, 10:20",
+    "loesung": "7:15, 8:45, 9:30, 10:20, 11:00",
+    "loesungsweg": "Sortiere nach der Stunde, bei gleicher Stunde nach den Minuten:\n7:15 → 8:45 → 9:30 → 10:20 → 11:00",
+    "tipps": [
+      "Schau zuerst auf die Stunden. Kleinste zuerst.",
+      "Die Stunden sind: 9, 7, 11, 8, 10. Sortiert: 7, 8, 9, 10, 11.",
+      "7:15 kommt als erstes, dann 8:45, dann 9:30, dann...",
+      "Richtige Reihenfolge: 7:15, 8:45, 9:30, 10:20, 11:00"
+    ],
+    "didaktischerHinweis": "Zeitreihenfolge: Alltagskontext (Vormittag). Festigt das Verständnis, dass Uhrzeiten eine natürliche Ordnung haben.",
+    "parsed": {
+      "typ": "reihenfolge",
+      "anweisung": "Bringe die Uhrzeiten in die richtige Reihenfolge — von der frühesten zur spätesten.",
+      "teilaufgaben": [
+        {
+          "label": "a",
+          "items": [
+            "9:30",
+            "7:15",
+            "11:00",
+            "8:45",
+            "10:20"
+          ],
+          "richtigeReihenfolge": [
+            "7:15",
+            "8:45",
+            "9:30",
+            "10:20",
+            "11:00"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zeitspanne berechnen — einfach",
+    "typ": "eingabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie lange dauert es? Rechne die Zeitspanne aus.\n\na) Von 8:00 bis 9:00\nb) Von 3:00 bis 5:00\nc) Von 10:00 bis 12:00\nd) Von 7:00 bis 7:30",
+    "loesung": "a) 1 Stunde\nb) 2 Stunden\nc) 2 Stunden\nd) 30 Minuten",
+    "loesungsweg": "a) Von 8 bis 9 Uhr = 1 Stunde\nb) Von 3 bis 5 Uhr = 2 Stunden\nc) Von 10 bis 12 Uhr = 2 Stunden\nd) Von 7:00 bis 7:30 = 30 Minuten (eine halbe Stunde)",
+    "tipps": [
+      "Zähle die Stunden zwischen den beiden Uhrzeiten.",
+      "Stell dir einen Zahlenstrahl vor: 8 → 9 → 10. Wie viele Schritte sind das?",
+      "a) 9 − 8 = ___ Stunde(n). d) Von 7:00 bis 7:30 — wie viele Minuten hat eine halbe Stunde?",
+      "a) 1 Stunde b) 2 Stunden c) 2 Stunden d) 30 Minuten."
+    ],
+    "didaktischerHinweis": "Einstieg Zeitspannen: Nur volle Stunden und halbe Stunden. Kein Stundenübergang bei den Minuten.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie lange dauert es? Rechne die Zeitspanne aus.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Von 8:00 bis 9:00",
+          "antwort": "1 Stunde"
+        },
+        {
+          "label": "b",
+          "frage": "Von 3:00 bis 5:00",
+          "antwort": "2 Stunden"
+        },
+        {
+          "label": "c",
+          "frage": "Von 10:00 bis 12:00",
+          "antwort": "2 Stunden"
+        },
+        {
+          "label": "d",
+          "frage": "Von 7:00 bis 7:30",
+          "antwort": "30 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zeitspanne berechnen — mit Minuten",
+    "typ": "eingabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie lange dauert es? Rechne die Zeitspanne in Minuten aus.\n\na) Von 2:00 bis 2:45\nb) Von 9:15 bis 9:45\nc) Von 4:30 bis 5:00\nd) Von 11:00 bis 11:20",
+    "loesung": "a) 45 Minuten\nb) 30 Minuten\nc) 30 Minuten\nd) 20 Minuten",
+    "loesungsweg": "a) Von 2:00 bis 2:45 = 45 Minuten\nb) Von 9:15 bis 9:45 = 45 − 15 = 30 Minuten\nc) Von 4:30 bis 5:00 = 60 − 30 = 30 Minuten\nd) Von 11:00 bis 11:20 = 20 Minuten",
+    "tipps": [
+      "Innerhalb einer Stunde: Ziehe die Startminuten von den Endminuten ab.",
+      "a) Von :00 bis :45 → 45 − 0 = 45 Minuten. b) Von :15 bis :45 → 45 − 15 = ?",
+      "c) Von 4:30 bis 5:00: Von :30 bis zur vollen Stunde (:60) sind es 60 − 30 = ___ Minuten.",
+      "a) 45 Minuten b) 30 Minuten c) 30 Minuten d) 20 Minuten."
+    ],
+    "didaktischerHinweis": "Zeitspannen innerhalb einer Stunde. Einfache Subtraktionen der Minutenwerte.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie lange dauert es? Rechne die Zeitspanne in Minuten aus.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Von 2:00 bis 2:45",
+          "antwort": "45 Minuten"
+        },
+        {
+          "label": "b",
+          "frage": "Von 9:15 bis 9:45",
+          "antwort": "30 Minuten"
+        },
+        {
+          "label": "c",
+          "frage": "Von 4:30 bis 5:00",
+          "antwort": "30 Minuten"
+        },
+        {
+          "label": "d",
+          "frage": "Von 11:00 bis 11:20",
+          "antwort": "20 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zeitspanne berechnen — über die Stunde",
+    "typ": "eingabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie lange dauert es?\n\na) Von 8:30 bis 9:15\nb) Von 10:45 bis 11:30\nc) Von 3:20 bis 4:00\nd) Von 7:15 bis 8:00",
+    "loesung": "a) 45 Minuten\nb) 45 Minuten\nc) 40 Minuten\nd) 45 Minuten",
+    "loesungsweg": "Trick: Zerlege in 'bis zur vollen Stunde' + 'ab der vollen Stunde'.\na) 8:30 → 9:00 = 30 min, 9:00 → 9:15 = 15 min → 30 + 15 = 45 min\nb) 10:45 → 11:00 = 15 min, 11:00 → 11:30 = 30 min → 15 + 30 = 45 min\nc) 3:20 → 4:00 = 40 min\nd) 7:15 → 8:00 = 45 min",
+    "tipps": [
+      "Rechne erst bis zur nächsten vollen Stunde, dann den Rest dazu.",
+      "a) Von 8:30 bis 9:00 sind es 30 Minuten. Von 9:00 bis 9:15 sind es 15 Minuten. Zusammen?",
+      "a) 30 + 15 = ___ Minuten. b) Von 10:45 bis 11:00 = 15 min. Von 11:00 bis 11:30 = 30 min. Zusammen: 15 + ___ = ___.",
+      "a) 45 Minuten b) 45 Minuten c) 40 Minuten d) 45 Minuten."
+    ],
+    "didaktischerHinweis": "Zeitspannen über die volle Stunde: Zerlegungsstrategie (bis zur vollen Stunde + Rest). Wichtige Transferleistung.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie lange dauert es?",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Von 8:30 bis 9:15",
+          "antwort": "45 Minuten"
+        },
+        {
+          "label": "b",
+          "frage": "Von 10:45 bis 11:30",
+          "antwort": "45 Minuten"
+        },
+        {
+          "label": "c",
+          "frage": "Von 3:20 bis 4:00",
+          "antwort": "40 Minuten"
+        },
+        {
+          "label": "d",
+          "frage": "Von 7:15 bis 8:00",
+          "antwort": "45 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zeitspannen im Alltag — Textaufgaben",
+    "typ": "textaufgabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Philippa hat einen vollen Schultag. Beantworte die Fragen.\n\nDer Unterricht beginnt um 8:00 Uhr.\nDie erste Pause ist um 9:30 Uhr.\nDie zweite Pause ist um 11:15 Uhr.\nDie Schule endet um 12:45 Uhr.\n\na) Wie lange dauert der Unterricht bis zur ersten Pause?\nb) Wie lange dauert es von der ersten bis zur zweiten Pause?\nc) Wie lange ist Philippa insgesamt in der Schule?",
+    "loesung": "a) 1 Stunde 30 Minuten\nb) 1 Stunde 45 Minuten\nc) 4 Stunden 45 Minuten",
+    "loesungsweg": "a) Von 8:00 bis 9:30 = 1 Stunde 30 Minuten\nb) Von 9:30 bis 11:15: 9:30 → 10:00 = 30 min, 10:00 → 11:00 = 60 min, 11:00 → 11:15 = 15 min → 30 + 60 + 15 = 105 min = 1 Stunde 45 Minuten\nc) Von 8:00 bis 12:45: 8:00 → 12:00 = 4 Stunden, 12:00 → 12:45 = 45 min → 4 Stunden 45 Minuten",
+    "tipps": [
+      "Lies die Start- und Endzeit aus dem Text heraus.",
+      "a) Von 8:00 bis 9:30: Erst bis 9:00 = 1 Stunde. Dann noch 30 Minuten.",
+      "b) Von 9:30 bis 11:15: Rechne in Schritten: 9:30 → 10:00 = 30 min, 10:00 → 11:00 = 60 min, 11:00 → 11:15 = ?",
+      "a) 1 h 30 min b) 1 h 45 min c) 4 h 45 min."
+    ],
+    "didaktischerHinweis": "Sachaufgabe Zeitspannen im Schulalltag. Alltagsnah, motivierend. Teil c) ist anspruchsvoll (fast 5 Stunden).",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Philippa hat einen vollen Schultag. Beantworte die Fragen.",
+      "kontext": "Der Unterricht beginnt um 8:00 Uhr.\nDie erste Pause ist um 9:30 Uhr.\nDie zweite Pause ist um 11:15 Uhr.\nDie Schule endet um 12:45 Uhr.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie lange dauert der Unterricht bis zur ersten Pause?",
+          "antwort": "1 Stunde 30 Minuten"
+        },
+        {
+          "label": "b",
+          "frage": "Wie lange dauert es von der ersten bis zur zweiten Pause?",
+          "antwort": "1 Stunde 45 Minuten"
+        },
+        {
+          "label": "c",
+          "frage": "Wie lange ist Philippa insgesamt in der Schule?",
+          "antwort": "4 Stunden 45 Minuten"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Zeitspannen im Alltag — Freizeit",
+    "typ": "textaufgabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "orange",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Philippa plant ihren Nachmittag.\n\n14:00 Uhr: Mittagessen fertig\n14:30 Uhr: Hausaufgaben anfangen\n15:15 Uhr: Hausaufgaben fertig\n15:30 Uhr: Schwimmen gehen\n17:00 Uhr: Zurück vom Schwimmen\n18:00 Uhr: Abendessen\n\na) Wie lange macht Philippa Hausaufgaben?\nb) Wie lange ist sie beim Schwimmen (inklusive Hin- und Rückweg)?\nc) Wie viel freie Zeit hat sie zwischen Hausaufgaben und Schwimmen?\nd) Wie viel Zeit hat sie zwischen Schwimmen und Abendessen?",
+    "loesung": "a) 45 Minuten\nb) 1 Stunde 30 Minuten\nc) 15 Minuten\nd) 1 Stunde",
+    "loesungsweg": "a) Von 14:30 bis 15:15 = 45 Minuten\nb) Von 15:30 bis 17:00 = 1 Stunde 30 Minuten\nc) Von 15:15 bis 15:30 = 15 Minuten\nd) Von 17:00 bis 18:00 = 1 Stunde",
+    "tipps": [
+      "Suche die passenden Start- und Endzeiten im Tagesplan.",
+      "a) Hausaufgaben: Start = 14:30, Ende = 15:15. Von :30 bis :15 der nächsten Stunde: 30 min + 15 min = ?",
+      "b) Schwimmen: Von 15:30 bis 17:00. Erst bis 16:00 = 30 min. Dann bis 17:00 = 60 min. Zusammen?",
+      "a) 45 min b) 1 h 30 min c) 15 min d) 1 h."
+    ],
+    "didaktischerHinweis": "Alltagsnahe Sachaufgabe mit mehreren Zeitspannen. Teil c) testet das Erkennen kurzer Zwischenzeiten.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Philippa plant ihren Nachmittag.",
+      "kontext": "14:00 Uhr: Mittagessen fertig\n14:30 Uhr: Hausaufgaben anfangen\n15:15 Uhr: Hausaufgaben fertig\n15:30 Uhr: Schwimmen gehen\n17:00 Uhr: Zurück vom Schwimmen\n18:00 Uhr: Abendessen",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie lange macht Philippa Hausaufgaben?",
+          "antwort": "45 Minuten"
+        },
+        {
+          "label": "b",
+          "frage": "Wie lange ist sie beim Schwimmen (inklusive Hin- und Rückweg)?",
+          "antwort": "1 Stunde 30 Minuten"
+        },
+        {
+          "label": "c",
+          "frage": "Wie viel freie Zeit hat sie zwischen Hausaufgaben und Schwimmen?",
+          "antwort": "15 Minuten"
+        },
+        {
+          "label": "d",
+          "frage": "Wie viel Zeit hat sie zwischen Schwimmen und Abendessen?",
+          "antwort": "1 Stunde"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wann ist es so weit? — Uhrzeiten vorwärts rechnen",
+    "typ": "eingabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es dann? Rechne vorwärts.\n\na) Es ist 3:00 Uhr. In 30 Minuten ist es ___.\nb) Es ist 7:15 Uhr. In 45 Minuten ist es ___.\nc) Es ist 10:40 Uhr. In 25 Minuten ist es ___.\nd) Es ist 5:50 Uhr. In 20 Minuten ist es ___.",
+    "loesung": "a) 3:30\nb) 8:00\nc) 11:05\nd) 6:10",
+    "loesungsweg": "a) 3:00 + 30 min = 3:30\nb) 7:15 + 45 min = 7:60 = 8:00\nc) 10:40 + 25 min = 10:65 = 11:05\nd) 5:50 + 20 min = 5:70 = 6:10",
+    "tipps": [
+      "Addiere die Minuten. Über 60 wird eine neue Stunde.",
+      "b) 15 + 45 = 60 Minuten = 1 volle Stunde. Also: 7 Uhr + 1 Stunde = ?",
+      "c) 40 + 25 = 65. 65 Minuten = 1 Stunde und 5 Minuten. Also 10 + 1 = 11 Uhr und ___ Minuten.",
+      "Die richtigen Uhrzeiten: a) 3:30 b) 8:00 c) 11:05 d) 6:10"
+    ],
+    "didaktischerHinweis": "Vorwärts rechnen mit Stundenübertrag: Wenn Minutensumme ≥ 60, wird eine Stunde aufgerundet. Analogie zur schriftlichen Addition.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es dann? Rechne vorwärts.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Es ist 3:00 Uhr. In 30 Minuten ist es ___.",
+          "antwort": "3:30"
+        },
+        {
+          "label": "b",
+          "frage": "Es ist 7:15 Uhr. In 45 Minuten ist es ___.",
+          "antwort": "8:00"
+        },
+        {
+          "label": "c",
+          "frage": "Es ist 10:40 Uhr. In 25 Minuten ist es ___.",
+          "antwort": "11:05"
+        },
+        {
+          "label": "d",
+          "frage": "Es ist 5:50 Uhr. In 20 Minuten ist es ___.",
+          "antwort": "6:10"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wie spät war es vorher? — Uhrzeiten rückwärts rechnen",
+    "typ": "eingabe",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "orange",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät war es vorher? Rechne rückwärts.\n\na) Es ist 4:00 Uhr. Vor 30 Minuten war es ___.\nb) Es ist 9:00 Uhr. Vor 15 Minuten war es ___.\nc) Es ist 11:10 Uhr. Vor 25 Minuten war es ___.\nd) Es ist 2:05 Uhr. Vor 20 Minuten war es ___.",
+    "loesung": "a) 3:30\nb) 8:45\nc) 10:45\nd) 1:45",
+    "loesungsweg": "a) 4:00 − 30 min = 3:30\nb) 9:00 − 15 min = 8:45\nc) 11:10 − 25 min: 10 − 25 < 0 → 11:10 = 10:70, also 10:70 − 25 = 10:45\nd) 2:05 − 20 min: 5 − 20 < 0 → 2:05 = 1:65, also 1:65 − 20 = 1:45",
+    "tipps": [
+      "Ziehe die Minuten ab. Unter 0? Borge 60 von der Stunde.",
+      "b) 9:00 − 15 min: Von 0 Minuten kann man 15 nicht abziehen. Also: 8:60 − 15 = 8:___.",
+      "c) 11:10 − 25: 10 < 25, also borge 60 min: 10:70 − 25 = 10:___.",
+      "Die richtigen Uhrzeiten: a) 3:30 b) 8:45 c) 10:45 d) 1:45"
+    ],
+    "didaktischerHinweis": "Rückwärts rechnen mit Stundenübergang: Wenn Minuten < 0, muss eine Stunde 'geborgt' werden. Analogie zur schriftlichen Subtraktion.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät war es vorher? Rechne rückwärts.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Es ist 4:00 Uhr. Vor 30 Minuten war es ___.",
+          "antwort": "3:30"
+        },
+        {
+          "label": "b",
+          "frage": "Es ist 9:00 Uhr. Vor 15 Minuten war es ___.",
+          "antwort": "8:45"
+        },
+        {
+          "label": "c",
+          "frage": "Es ist 11:10 Uhr. Vor 25 Minuten war es ___.",
+          "antwort": "10:45"
+        },
+        {
+          "label": "d",
+          "frage": "Es ist 2:05 Uhr. Vor 20 Minuten war es ___.",
+          "antwort": "1:45"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Wahr oder Falsch? — Zeiteinheiten",
+    "typ": "wahr-falsch",
+    "thema": "Zeitspannen",
+    "schwierigkeit": "gelb",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "zeitspannen",
+    "digital": "voll",
+    "aufgabenstellung": "Stimmt die Aussage? Kreuze an.\n\na) 1 Stunde hat 60 Minuten.\nb) Eine halbe Stunde hat 20 Minuten.\nc) Eine Viertelstunde hat 15 Minuten.\nd) 2 Stunden haben 100 Minuten.",
+    "loesung": "a) richtig\nb) falsch\nc) richtig\nd) falsch",
+    "loesungsweg": "a) Richtig: 1 h = 60 min.\nb) Falsch: Eine halbe Stunde = 60 ÷ 2 = 30 min (nicht 20).\nc) Richtig: Eine Viertelstunde = 60 ÷ 4 = 15 min.\nd) Falsch: 2 h = 2 × 60 = 120 min (nicht 100).",
+    "tipps": [
+      "Merke dir: 1 Stunde = 60 Minuten. Von da aus kannst du alles ableiten.",
+      "Eine halbe Stunde = die Hälfte von 60 = ___. Eine Viertelstunde = ein Viertel von 60 = ___.",
+      "b) 60 ÷ 2 = 30 (nicht 20). d) 2 × 60 = ___ (nicht 100).",
+      "a) richtig b) falsch (30 min) c) richtig d) falsch (120 min)"
+    ],
+    "didaktischerHinweis": "Grundwissen Zeiteinheiten: 1 h = 60 min. Verknüpfung mit Bruchrechnung (halbe/viertel Stunde).",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Stimmt die Aussage? Kreuze an.",
+      "items": [
+        {
+          "label": "a",
+          "aussage": "1 Stunde hat 60 Minuten.",
+          "richtig": true,
+          "erklaerung": "Richtig: 1 Stunde = 60 Minuten."
+        },
+        {
+          "label": "b",
+          "aussage": "Eine halbe Stunde hat 20 Minuten.",
+          "richtig": false,
+          "erklaerung": "Falsch: Eine halbe Stunde = 30 Minuten (60 ÷ 2)."
+        },
+        {
+          "label": "c",
+          "aussage": "Eine Viertelstunde hat 15 Minuten.",
+          "richtig": true,
+          "erklaerung": "Richtig: 60 ÷ 4 = 15 Minuten."
+        },
+        {
+          "label": "d",
+          "aussage": "2 Stunden haben 100 Minuten.",
+          "richtig": false,
+          "erklaerung": "Falsch: 2 × 60 = 120 Minuten."
+        }
+      ]
+    }
+  },
+  {
+    "titel": "Digitaluhr und Analoguhr vergleichen",
+    "typ": "zuordnung",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "grün",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Ordne die Digitaluhrzeiten den Sprechweisen zu.\n\na) 14:30\nb) 07:15\nc) 20:45\nd) 16:00\n\nA) Viertel vor neun (abends)\nB) vier Uhr nachmittags\nC) halb drei (nachmittags)\nD) Viertel nach sieben (morgens)",
+    "loesung": "a) → C\nb) → D\nc) → A\nd) → B",
+    "loesungsweg": "24-Stunden-Format: Nachmittags-/Abendstunden sind um 12 höher.\n14:30 = 2:30 nachmittags = halb drei → C\n07:15 = 7:15 morgens = Viertel nach sieben → D\n20:45 = 8:45 abends = Viertel vor neun → A\n16:00 = 4:00 nachmittags = vier Uhr → B",
+    "tipps": [
+      "Nach 12:00 mittags geht es weiter: 13:00 = 1 Uhr nachmittags, 14:00 = 2 Uhr nachmittags...",
+      "Ziehe 12 ab, um die 'normale' Uhrzeit zu bekommen: 14 − 12 = 2, also 14:30 = 2:30.",
+      "a) 14 − 12 = 2 → 2:30 = halb ___. c) 20 − 12 = 8 → 8:45 = Viertel vor ___.",
+      "a) 14:30 = halb drei → C, b) 07:15 = Viertel nach sieben → D, c) 20:45 = Viertel vor neun → A, d) 16:00 = vier Uhr → B."
+    ],
+    "didaktischerHinweis": "24-Stunden-Format (Digitaluhr) ↔ 12-Stunden-Sprechweise. Wichtig: Nachmittags/abends wird 12 abgezogen.",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne die Digitaluhrzeiten den Sprechweisen zu.",
+      "items": [
+        {
+          "label": "a",
+          "text": "14:30"
+        },
+        {
+          "label": "b",
+          "text": "07:15"
+        },
+        {
+          "label": "c",
+          "text": "20:45"
+        },
+        {
+          "label": "d",
+          "text": "16:00"
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "text": "Viertel vor neun (abends)"
+        },
+        {
+          "label": "B",
+          "text": "vier Uhr nachmittags"
+        },
+        {
+          "label": "C",
+          "text": "halb drei (nachmittags)"
+        },
+        {
+          "label": "D",
+          "text": "Viertel nach sieben (morgens)"
+        }
+      ],
+      "antworten": {
+        "a": "C",
+        "b": "D",
+        "c": "A",
+        "d": "B"
+      }
+    }
+  },
+  {
+    "titel": "Wie spät ist es? — Gemischte Schwierigkeit",
+    "typ": "eingabe",
+    "thema": "Uhrzeiten ablesen",
+    "schwierigkeit": "orange",
+    "buchseite": 0,
+    "kapitel": "15-uhrzeiten",
+    "stageId": "uhrzeiten-ablesen",
+    "digital": "voll",
+    "aufgabenstellung": "Wie spät ist es? Schreibe die Uhrzeit auf.\n\na) [uhr:12:00]\nb) [uhr:6:30]\nc) [uhr:3:55]\nd) [uhr:10:08]\ne) [uhr:1:42]",
+    "loesung": "a) 12:00\nb) 6:30\nc) 3:55\nd) 10:08\ne) 1:42",
+    "loesungsweg": "a) Beide Zeiger auf 12 → 12:00\nb) Kurzer Zeiger zwischen 6 und 7, langer auf 6 → 6:30\nc) Langer Zeiger auf 11 (= 55 min), kurzer Zeiger kurz vor 4 → 3:55\nd) Langer Zeiger kurz nach 1 (= 5+3 = 8 min), kurzer Zeiger auf 10 → 10:08\ne) Langer Zeiger zwischen 8 und 9 (= 40+2 = 42 min), kurzer Zeiger zwischen 1 und 2 → 1:42",
+    "tipps": [
+      "Kurzer Zeiger = Stunde, langer Zeiger = Minuten.",
+      "Zähle die Minuten in 5er-Schritten und dann die einzelnen Striche dazu.",
+      "c) Langer Zeiger auf 11 → 11 × 5 = 55 Minuten. Kurzer Zeiger kurz vor 4 → Stunde ist noch 3. Also ___:55.",
+      "a) 12:00 b) 6:30 c) 3:55 d) 10:08 e) 1:42"
+    ],
+    "didaktischerHinweis": "Gemischte Schwierigkeit: Von der einfachsten (12:00) bis zur schwierigsten (1:42) Ablesung. Abschluss-Check fürs Ablesen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie spät ist es? Schreibe die Uhrzeit auf.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "[uhr:12:00] Wie spät ist es?",
+          "antwort": "12:00"
+        },
+        {
+          "label": "b",
+          "frage": "[uhr:6:30] Wie spät ist es?",
+          "antwort": "6:30"
+        },
+        {
+          "label": "c",
+          "frage": "[uhr:3:55] Wie spät ist es?",
+          "antwort": "3:55"
+        },
+        {
+          "label": "d",
+          "frage": "[uhr:10:08] Wie spät ist es?",
+          "antwort": "10:08"
+        },
+        {
+          "label": "e",
+          "frage": "[uhr:1:42] Wie spät ist es?",
+          "antwort": "1:42"
+        }
+      ]
+    }
+  }
+]

@@ -324,7 +324,7 @@
       "items": [
         {
           "label": "a",
-          "frage": "Die Zahl ist gerade. Sie hat doppelt so viele Hunderter wie Zehner.",
+          "frage": "Die Zahl ist gerade. Sie hat doppelt so viele Hunderter wie Zehner. Die Zahl ist größer als 1.200 und kleiner als 1.400.",
           "antwort": "Mögliche Zahlen: 1.210, 1.212, 1.214, 1.216, 1.218"
         },
         {
@@ -419,22 +419,22 @@
         {
           "label": "a",
           "frage": "704",
-          "antwort": "704: → 705, 714, 804, 1.704"
+          "antwort": "705, 714, 804, 1.704"
         },
         {
           "label": "b",
           "frage": "1.830",
-          "antwort": "1.830: → 1.831, 1.840, 1.930, 2.830"
+          "antwort": "1.831, 1.840, 1.930, 2.830"
         },
         {
           "label": "c",
           "frage": "1.206",
-          "antwort": "1.206: → 1.207, 1.216, 1.306, 2.206"
+          "antwort": "1.207, 1.216, 1.306, 2.206"
         },
         {
           "label": "d",
           "frage": "1.450",
-          "antwort": "1.450: → 1.451, 1.460, 1.550, 2.450"
+          "antwort": "1.451, 1.460, 1.550, 2.450"
         }
       ]
     }
@@ -471,22 +471,22 @@
         {
           "label": "a",
           "frage": "735",
-          "antwort": "735: → 734, 725, 635 (T-Spalte leer → kein Plättchen dort)"
+          "antwort": "734, 725, 635"
         },
         {
           "label": "b",
           "frage": "1.492",
-          "antwort": "1.492: → 1.491, 1.482, 1.392, 492"
+          "antwort": "1.491, 1.482, 1.392, 492"
         },
         {
           "label": "c",
           "frage": "1.183",
-          "antwort": "1.183: → 1.182, 1.173, 1.083, 183"
+          "antwort": "1.182, 1.173, 1.083, 183"
         },
         {
           "label": "d",
           "frage": "1.870",
-          "antwort": "1.870: → 1.869 geht nicht (E=0, kein Plättchen zum Wegnehmen!), 1.860, 1.770, 870"
+          "antwort": "1.860, 1.770, 870"
         }
       ]
     }
@@ -523,22 +523,22 @@
         {
           "label": "a",
           "frage": "825",
-          "antwort": "825: → 824, 815, 725 (T kann nicht, da T=0 → vorher wäre T negativ)"
+          "antwort": "824, 815, 725"
         },
         {
           "label": "b",
           "frage": "1.716",
-          "antwort": "1.716: → 1.715, 1.706, 1.616, 716"
+          "antwort": "1.715, 1.706, 1.616, 716"
         },
         {
           "label": "c",
           "frage": "1.880",
-          "antwort": "1.880: → 1.879, 1.870, 1.780, 880"
+          "antwort": "1.879, 1.870, 1.780, 880"
         },
         {
           "label": "d",
           "frage": "1.501",
-          "antwort": "1.501: → 1.500, 1.491, 1.401, 501"
+          "antwort": "1.500, 1.491, 1.401, 501"
         }
       ]
     }
@@ -1216,7 +1216,12 @@
       "Bei a) 789 - 253: Einer: 9 - 3 = 6. Zehner: 8 - 5 = 3. Hunderter: 7 - 2 = ? Setze zusammen!",
       "Schriftliches Subtrahieren — von rechts nach links:\n- a) E: 9-3=6, Z: 8-5=3, H: 7-2=5 → 536\n- b) E: 4-1=3, Z: 5-2=3, H: 6-3=3 → 333\n- c) E: 8-5=3, Z: 9-7=2, H: 4-1=3 → 323"
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Einstiegsaufgaben kommen ohne Entbündelung aus (die obere Ziffer ist immer größer). Das festigt das Grundverfahren, bevor es mit Entbündelung schwieriger wird.",
     "parsed": {
       "typ": "schritt",
@@ -1273,7 +1278,12 @@
       "Bei a) 723 - 158: Einer: 3 - 8 geht nicht. Borge 1 Zehner → 13 - 8 = 5. Zehner: (2-1) - 5 = 1 - 5 geht nicht. Borge 1 Hunderter → 11 - 5 = 6. Hunderter: (7-1) - 1 = ?",
       "Wenn die untere Ziffer größer ist als die obere, muss entbündelt werden:\n- a) E: 3-8 geht nicht! Entbündeln: 1 Zehner → 10 Einer. 13-8=5. Z: 1-5 geht nicht! (2-1=1 wegen Entbündelung). Entbündeln: 1 Hunderter → 10 Zehner. 11-5=6. H: 6-1=5 → 565\n- b) E: 1-7 geht nicht. 11-7=4, Entbündelung. Z: 3-6 geht nicht. 13-6=7, Entbündelung. H: 7-3=4 → 474\n- c) E: 2-5 geht nicht. 12-5=7, Entbündelung. Z: 0-8 geht nicht. 10-8=2, Entbündelung. H: 5-2=3 → 327"
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Die Entbündelung ist das schwierigste Konzept beim schriftlichen Subtrahieren. Dienes-Blöcke machen es greifbar: Eine Zehnerstange wird in 10 Einerwürfel zerlegt. Kinder mit Schwierigkeiten sollten das erst mit Material üben, bevor sie es auf Papier übertragen.",
     "parsed": {
       "typ": "schritt",
@@ -1330,7 +1340,12 @@
       "Bei b) 1.724 - 659: Einer: 4 - 9 geht nicht → 14 - 9 = 5, Entbündelung. Zehner: (2-1) - 5 = 1 - 5 geht nicht → 11 - 5 = 6, Entbündelung. Hunderter: (7-1) - 6 = ?",
       "- a) E: 7-2=5. Z: 4-8 geht nicht, 14-8=6, Entbündelung. H: 4-3=1 (5-1=4, 4-3=1). T: 1 → 1.165\n- b) E: 4-9 geht nicht, 14-9=5, Entbündelung. Z: 1-5 geht nicht (2-1=1), 11-5=6, Entbündelung. H: 6-6=0 (7-1=6). T: 1 → 1.065\n- c) E: 0-4 geht nicht, 10-4=6, Entbündelung. Z: 2-9 geht nicht (3-1=2), 12-9=3, Entbündelung. H: 7 (8-1=7). T: 1 → 1.736"
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Bei vierstelligen Zahlen kommen keine neuen Verfahrensschritte hinzu, aber die Komplexität steigt durch mehr Stellen und ggf. Kettenentbündelungen. Aufgabe c) mit der zweistelligen Zahl erfordert wieder korrektes Einrücken.",
     "parsed": {
       "typ": "schritt",
@@ -1387,7 +1402,12 @@
       "Bei a) 856 - 293: Einer: 6 - 3 = 3. Zehner: 5 - 9 geht nicht → 15 - 9 = 6, Entbündelung. Hunderter: (8-1) - 2 = 5. Dein Ergebnis: 563. Im Aufgabenblatt steht 536. Welche Ziffern wurden vertauscht?",
       "Nachrechnen und das korrekte Ergebnis mit dem angegebenen vergleichen. Die vertauschten Ziffern finden."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Fehlersuche bei der Subtraktion ist besonders wertvoll, weil Entbündelungsfehler häufig sind. Kinder entwickeln ein Gespür dafür, typische Fehler zu erkennen und zu korrigieren.",
     "parsed": {
       "typ": "wahr-falsch",
@@ -1425,14 +1445,19 @@
     "digital": "voll",
     "aufgabenstellung": "Schreibe stellengerecht untereinander und subtrahiere. Prüfe dein Ergebnis mit der Umkehraufgabe (Addition).\n\na) 903 - 467\nb) 1.502 - 738",
     "loesung": "a) 903 - 467 = 436. Probe: 436 + 467 = 903 ✓\nb) 1.502 - 738 = 764. Probe: 764 + 738 = 1.502 ✓",
-    "loesungsweg": "- a) E: 3-7 geht nicht, 13-7=6, Entbündelung. Z: 9-6=3 (10-1=9, 9-6=3). Nein, korrekt: Z: 0-6 geht nicht (da Z=0!), Entbündeln von H: 10-6=4, aber H war 9, wird 8. Dann H: 8-4=4. Korrekt durchgerechnet:\n  E: 3-7 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 9 auf 8, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 3 auf 13. E: 13-7=6. Z: 9-6=3. H: 8-4=4. → 436.\n- b) E: 2-8 geht nicht → borge: 12-8=4. Z: 9-3=6 (0-1=... borge von H: 5→4, 0→10, 10-1=9, 9→...). Korrekt: Z: 0-3 geht nicht (nach Entbündelung 0-1=-1, geht nicht). Borge von H: 10-3-1=6. T,H: 15→14, 0→10. Also Z: 10-3-1=6. H: 4-7 geht nicht. Borge von T: 14-7=7. T: 0. → 764.",
+    "loesungsweg": "- a) E: 3-7 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 9 auf 8, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 3 auf 13. E: 13-7=6. Z: 9-6=3. H: 8-4=4. → 436.\n- b) E: 2-8 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 5 auf 4, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 2 auf 12. E: 12-8=4. Z: 9-3=6. H: 4-7 geht nicht → borge von T: T geht von 1 auf 0, H geht von 4 auf 14. H: 14-7=7. T: 0. → 764.",
     "tipps": [
       "Bei a) hat die Zahl 903 eine 0 bei den Zehnern. Das macht die Entbündelung knifflig! Stell dir vor: Du willst von den Zehnern borgen, aber dort ist nichts. Was tust du?",
       "Wenn du von einer 0-Stelle borgen musst, gehe weiter zur nächsten Stelle. Borge dort und fülle die 0-Stelle auf. Dann borge von der aufgefüllten Stelle. Prüfe am Ende mit der Umkehraufgabe: Ergebnis + Subtrahend = Minuend?",
       "Bei a) 903 - 467: E: 3 - 7 geht nicht. Z hat 0 → borge von H: H wird 8, Z wird 10. Jetzt borge von Z: Z wird 9, E wird 13. E: 13 - 7 = 6. Z: 9 - 6 = 3. H: 8 - 4 = ?",
       "- a) E: 3-7 geht nicht, 13-7=6, Entbündelung. Z: 9-6=3 (10-1=9, 9-6=3). Nein, korrekt: Z: 0-6 geht nicht (da Z=0!), Entbündeln von H: 10-6=4, aber H war 9, wird 8. Dann H: 8-4=4. Korrekt durchgerechnet:\n  E: 3-7 geht nicht → borge von Z. Aber Z=0! → borge von H: H geht von 9 auf 8, Z geht von 0 auf 10, dann borge von Z: Z geht von 10 auf 9, E geht von 3 auf 13. E: 13-7=6. Z: 9-6=3. H: 8-4=4. → 436.\n- b) E: 2-8 geht nicht → borge: 12-8=4. Z: 9-3=6 (0-1=... borge von H: 5→4, 0→10, 10-1=9, 9→...). Korrekt: Z: 0-3 geht nicht (nach Entbündelung 0-1=-1, geht nicht). Borge von H: 10-3-1=6. T,H: 15→14, 0→10. Also Z: 10-3-1=6. H: 4-7 geht nicht. Borge von T: 14-7=7. T: 0. → 764."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Subtraktion mit 0 in der Mitte (wie 903) ist besonders schwierig, weil Kettenentbündelung nötig ist. Die Probe durch Addition stärkt das Verständnis der Umkehrbeziehung zwischen Addition und Subtraktion.",
     "parsed": {
       "typ": "schritt",
@@ -1481,7 +1506,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1560,11 +1585,11 @@
       "Zerlege die größere Zahl in Zehner und Einer. 83 = 80 + 3. Rechne dann zwei einfache Malaufgaben.",
       "Schreibe es so auf: 4 · 83 = 4 · 80 + 4 · 3. Rechne jeden Teil: 4 · 80 = 320, 4 · 3 = 12. Dann addiere.",
       "Bei a): 4 · 83 → 4 · 80 = 320. 4 · 3 = 12. 320 + 12 = ?",
-      "Jede Aufgabe wird nach dem gleichen Muster zerlegt:\n1. Zerlege die zweistellige Zahl in Zehner + Einer\n2. Multipliziere jeden Teil mit dem Faktor\n3. Addiere die Teilergebnisse"
+      "Jede Aufgabe wird nach dem gleichen Muster zerlegt:\n1. Zerlege die zweistellige Zahl in Zehner + Einer\n2. Multipliziere jeden Teil mit dem Faktor\n3. Addiere die Teilergebnisse."
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1637,7 +1662,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1710,7 +1735,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1761,7 +1786,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1844,7 +1869,7 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1888,16 +1913,16 @@
     "digital": "voll",
     "aufgabenstellung": "Justus rechnet 6 · 81 so: 6 · 80 = 480, 6 · 1 = 6, 480 + 6 = 486.\nJette rechnet 6 · 79 so: 6 · 80 = 480, 6 · 1 = 6, 480 - 6 = 474.\n\nErkläre, wie Jette gerechnet hat. Rechne dann selbst:\n\na) 7 · 49\nb) 5 · 98\nc) 3 · 197",
     "loesung": "a) 7 · 49 = 7 · 50 - 7 · 1 = 350 - 7 = 343\nb) 5 · 98 = 5 · 100 - 5 · 2 = 500 - 10 = 490\nc) 3 · 197 = 3 · 200 - 3 · 3 = 600 - 9 = 591",
-    "loesungsweg": "Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.\n\nSo funktioniert es bei den neuen Aufgaben:\n- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343\n- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490\n- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591",
+    "loesungsweg": "Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.\n\nSo geht es bei den neuen Aufgaben:\n- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343\n- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490\n- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591",
     "tipps": [
       "Schau dir die Zahlen an. 49 ist fast 50, 98 ist fast 100, 197 ist fast 200. Wie kannst du das nutzen?",
       "Runde die Zahl auf die nächste glatte Zahl auf. Rechne damit. Dann ziehe den \"zu viel gerechneten\" Teil wieder ab: (Aufrundung - Original) × Faktor.",
       "Bei a) 7 · 49: Runde 49 auf 50 auf. 7 · 50 = 350. Du hast 1 zu viel gerechnet (50 statt 49), also: 7 · 1 = 7 abziehen. 350 - 7 = ?",
-      "Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.\n\nSo funktioniert es bei den neuen Aufgaben:\n- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343\n- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490\n- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591"
+      "Jette nutzt den Nachbar-Trick: Statt 6 · 79 rechnet sie 6 · 80 (einfacher!) und zieht dann den Unterschied ab: 79 ist 1 weniger als 80, also zieht sie 6 · 1 = 6 ab.\n\nSo geht es bei den neuen Aufgaben:\n- a) 49 ist 1 weniger als 50 → 7 · 50 = 350, minus 7 · 1 = 7 → 343\n- b) 98 ist 2 weniger als 100 → 5 · 100 = 500, minus 5 · 2 = 10 → 490\n- c) 197 ist 3 weniger als 200 → 3 · 200 = 600, minus 3 · 3 = 9 → 591"
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s14-multiplizieren-intro.webp",
+      null,
       null,
       null
     ],
@@ -1958,9 +1983,13 @@
       "Übernachtungen für eine Person: 7 · 19 = 133 Euro. Frühstücke für eine Person: 7 · 3,50 = 24,50 Euro. Zusammen pro Person: 133 + 24,50 = ? Für alle drei: ? · 3 = ?",
       "1. Eine Woche hat 7 Nächte → 7 Übernachtungen und 7 Frühstücke.\n2. Kosten pro Person: 7 · 19 + 7 · 3,50 = 133 + 24,50 = 157,50 Euro.\n3. Kosten für alle drei: 3 · 157,50 = 472,50 Euro."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Sachaufgabe erfordert mehrere Schritte: Zuerst die Wochenlänge bestimmen, dann die Einzelkosten berechnen, dann multiplizieren. Eine Tabelle hilft, die Struktur zu erkennen.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina, Tom und Mia machen eine Woche Urlaub in der Pension Sonnenschein.\n\nPreise:\n- 1 Übernachtung: 19,00 Euro\n- 1 Frühstück: 3,50 Euro",
@@ -1969,12 +1998,12 @@
         {
           "label": "a",
           "frage": "Wie viel Euro muss jeder bezahlen?",
-          "antwort": "1 Woche = 7 Nächte: 7 · 19,00 = 133,00 Euro (Übernachtung) + 7 · 3,50 = 24,50 Euro (Frühstück) = 157,50 Euro pro Person."
+          "antwort": "157,50"
         },
         {
           "label": "b",
           "frage": "Wie viel Euro müssen sie insgesamt bezahlen?",
-          "antwort": "3 · 157,50 = 472,50 Euro insgesamt."
+          "antwort": "472,50"
         }
       ]
     }
@@ -1997,9 +2026,13 @@
       "Übernachtungen für eine Person: 4 · 22 = 88 Euro. Frühstücke: 4 · 5 = 20 Euro. Pro Person: 88 + 20 = 108 Euro. Für vier Personen: 4 · 108 = ?",
       "1. 4 Übernachtungen: 4 · 22 = 88 Euro.\n2. 4 Frühstücke: 4 · 5 = 20 Euro.\n3. Pro Person: 88 + 20 = 108 Euro.\n4. Alle vier: 4 · 108 = 432 Euro."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Variation der Grundaufgabe mit anderen Zahlen und Personenanzahl. Kinder sollen das Muster \"Kosten pro Person × Anzahl Personen\" wiedererkennen.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ben, Nils, Klara und Emma sind Freunde von Lina. Sie wollen im Nachbarhotel Bergblick 4-mal übernachten und frühstücken.\n\nPreise Hotel Bergblick:\n- 1 Übernachtung: 22,00 Euro\n- 1 Frühstück: 5,00 Euro",
@@ -2008,12 +2041,12 @@
         {
           "label": "a",
           "frage": "Wie viel Euro muss jeder bezahlen?",
-          "antwort": "4 · 22 + 4 · 5 = 88 + 20 = 108 Euro pro Person."
+          "antwort": "108"
         },
         {
           "label": "b",
           "frage": "Wie viel Euro müssen sie insgesamt bezahlen?",
-          "antwort": "4 · 108 = 432 Euro insgesamt."
+          "antwort": "432"
         }
       ]
     }
@@ -2036,9 +2069,13 @@
       "Luisa: 5 · 22 + 5 · 5 = 110 + 25 = 135 Euro. Marie frühstückt nicht: 5 · 22 = 110 Euro. Jan bleibt nur 4 Nächte: 4 · 22 + 4 · 5 = ? Zusammen: 135 + 135 + 110 + ? = ?",
       "Hier muss für jede Person einzeln gerechnet werden, weil die Bedingungen unterschiedlich sind:\n- Luisa und Felix: Normal, 5 Nächte mit Frühstück.\n- Marie: 5 Nächte ohne Frühstück.\n- Jan: Nur 4 Nächte (1 Tag eher ab), mit Frühstück."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe ist komplex, weil verschiedene Personen verschiedene Kosten haben. Das fördert genaues Lesen und systematisches Arbeiten (z.B. mit einer Tabelle). Typische Fehler: Pauschal für alle gleich rechnen, statt die Ausnahmen zu beachten.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Luisa, Felix, Marie und Jan wollen im Hotel Bergblick 5-mal übernachten.\n\nPreise Hotel Bergblick:\n- 1 Übernachtung: 22,00 Euro\n- 1 Frühstück: 5,00 Euro\n\nMarie wird krank und verzichtet immer auf das Frühstück.\nJan reist einen Tag eher ab, weil er einen Zahnarzttermin hat.",
@@ -2090,9 +2127,13 @@
       "a) Ein Tag mit Frühstück für drei Personen: 3 · 19 + 3 · 3,50 = 57 + 10,50 = 67,50 Euro. Wie oft passt 67,50 in 400? Probiere: 5 · 67,50 = 337,50. 6 · 67,50 = 405 — das ist zu viel! Also?",
       "1. Berechne die Kosten pro Tag für alle drei Personen.\n2. Teile das Guthaben durch die Tageskosten.\n3. Runde ab (nur ganze Tage möglich!)."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Diese Aufgabe verbindet Multiplikation und Division im Sachkontext. Das Abrunden auf ganze Tage ist eine lebensweltlich sinnvolle Operation. Kinder lernen: In der Realität gibt es oft keine \"glatten\" Ergebnisse.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina, Tom und Mia haben einen 400-Euro-Hotelgutschein für die Pension Sonnenschein gewonnen. In den Sommerferien möchten sie den Gutschein einlösen und gemeinsam so viele Tage wie möglich dort Urlaub machen.\n\nPreise Pension Sonnenschein:\n- 1 Übernachtung: 19,00 Euro\n- 1 Frühstück: 3,50 Euro\n\nWie viele Tage können sie bleiben, wenn ...",
@@ -2129,9 +2170,13 @@
       "Lina = 1 Teil, Tom = 1 Teil, Mia = 2 Teile → zusammen 4 Teile. 1.200 : 4 = 300. Also Lina = 300, Tom = 300, Mia = 2 · 300 = ?",
       "\"Doppelt so viel\" heißt: Mia hat 2 Teile, Lina und Tom je 1 Teil. Insgesamt 4 Teile.\n4 Teile = 1.200 → 1 Teil = 300."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das \"Teile-Modell\" (Bar-Modell) ist eine zentrale visuelle Strategie für Sachaufgaben mit Verhältnissen. Kinder, die sich schwertun, sollten Balken zeichnen: gleich große Kästen für die Anteile.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina, Tom und Mia sammeln im Wald Kastanien.\nMia sammelt doppelt so viele wie Lina und wie Tom.\nZusammen sammeln sie 1.200 Stück.",
@@ -2168,9 +2213,13 @@
       "Lina = 1 Teil. Tom = 2 Teile (doppelt so schwer wie Lina). Mia = 2 Teile. Zusammen: 1 + 2 + 2 = 5 Teile = 30 kg. 1 Teil = 30 : 5 = 6 kg. Also: Lina = 6 kg, Tom = ?",
       "\"Halb so schwer\" heißt: Tom und Mia wiegen je doppelt so viel wie Lina.\nLina = 1 Teil, Tom = 2 Teile, Mia = 2 Teile → zusammen 5 Teile.\n5 Teile = 30 kg → 1 Teil = 6 kg."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Verhältnisaufgaben mit \"halb/doppelt\" sind anspruchsvoll. Das Bar-Modell (Balkendiagramm) macht die Verhältnisse sichtbar. Wichtig: Die Gesamtmenge auf die Teile aufteilen.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina, Tom und Mia packen ihre Rucksäcke.\nDie Rucksäcke wiegen zusammen 30 kg.\nLinas Rucksack ist halb so schwer wie der Rucksack von Tom und der Rucksack von Mia.",
@@ -2202,9 +2251,13 @@
       "Stehplatz = 1 Teil. Sitzplatz = 2 Teile. Lina (sitzt) + Tom (sitzt) + Mia (steht) = 2 + 2 + 1 = 5 Teile. 35 : 5 = 7 Euro pro Teil. Stehplatz = 7 Euro. Sitzplatz = 2 · 7 = ?",
       "1. Sitzplatz = doppelt so teuer wie Stehplatz. Also: Sitzplatz = 2 Stehplätze.\n2. Lina sitzt (= 2 Teile), Tom sitzt (= 2 Teile), Mia steht (= 1 Teil).\n3. Insgesamt: 2 + 2 + 1 = 5 Teile = 35 Euro → 1 Teil = 7 Euro."
     ],
-    "tippBilder": [null, null, null, null],
+    "tippBilder": [
+      null,
+      null,
+      null,
+      null
+    ],
     "didaktischerHinweis": "Das Teile-Modell wird hier auf einen Preiskontext angewendet. Die Aufgabe verbindet Verhältnisdenken mit realem Geldrechnen. Eine Tabelle (Sitzplatz | Sitzplatz | Stehplatz | zusammen) hilft bei der Strukturierung.",
-    "erklaerungBild": "assets/erklaerungen/s16-waldhotel.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Lina, Tom und Mia gehen gemeinsam ins Puppentheater. Ein Sitzplatz kostet doppelt so viel wie ein Stehplatz. Zusammen haben sie 35 Euro für die Karten bezahlt.\n\nLina und Tom sitzen, Mia steht.",
@@ -2234,10 +2287,10 @@
       "Die Aufgabe ist 248 - 35. In der Geschichte hat Lukas 248 Seiten und hat 35 schon gelesen. Was willst du wissen?",
       "Überlege: Welche Frage passt zur Rechenaufgabe 248 - 35? Es geht um etwas, das übrig bleibt oder fehlt.",
       "Die Geschichte: Lukas hat 248 Seiten, 35 sind gelesen. Die Frage: Wie viele Seiten muss er noch ...? Die Rechnung: 248 - 35 = ?",
-      "Die Rechengeschichte beschreibt eine Situation, in der 35 von 248 abgezogen werden:\n- Gesamtzahl: 248 Seiten\n- Schon gelesen: 35 Seiten\n- Noch übrig: 248 - 35 = 213 Seiten"
+      "Die Rechengeschichte beschreibt eine Situation, in der 35 von 248 abgezogen werden:\n- Gesamtzahl: 248 Seiten\n- Schon gelesen: 35 Seiten\n- Noch übrig: 248 - 35 = 213 Seiten."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2275,7 +2328,7 @@
       "Multiplikation bedeutet: Gleiche Gruppen zusammenzählen.\n6 · 8 heißt: 6-mal die 8, also 6 Gruppen mit je 8.\nDie Geschichte muss eine Situation beschreiben, in der 6 gleiche Gruppen mit je 8 Dingen vorkommen."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2313,7 +2366,7 @@
       "1. Training pro Woche berechnen (Anzahl × Dauer)\n2. Wettkampf dazurechnen\n3. Auf den Monat hochrechnen (× 4)\n4. Minuten in Stunden umrechnen (÷ 60)"
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2356,7 +2409,7 @@
       "- Ein Jahr hat 52 Wochen.\n- Jede Woche kaufen: 52 · 2 = 104 Euro.\n- Alle zwei Wochen kaufen: 52 : 2 = 26 Hefte → 26 · 2 = 52 Euro.\n- Die Kosten halbieren sich!"
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2370,7 +2423,7 @@
         {
           "label": "1",
           "frage": "Vergleiche: Was ändert sich, wenn Sophie die Zeitschrift nur alle zwei Wochen kauft?",
-          "antwort": "Jede Woche: 52 Wochen · 2 Euro = 104 Euro pro Jahr."
+          "antwort": "52"
         }
       ]
     }
@@ -2394,7 +2447,7 @@
       "Das ist eine Divisionsaufgabe: Gesamtbetrag ÷ Preis pro Stück = Anzahl.\n15 : 3 = 5."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2432,7 +2485,7 @@
       "1. Fehlende Angaben sind: Seitenzahlen der Bücher und Anzahl der Tage.\n2. Eigene sinnvolle Zahlen einsetzen.\n3. Seitenzahlen addieren, durch Tage teilen."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2467,10 +2520,10 @@
       "Die Formel ist: Anzahl Hefte × Preis = Jahresausgaben. Was kannst du verändern: die Anzahl der Hefte oder den Preis pro Heft?",
       "Überlege rückwärts: Wenn das Ergebnis 130 Euro sein soll, welche Malaufgabe ergibt 130? Probiere verschiedene Kombinationen.",
       "a) 130 Euro. Wenn Sophie alle 2 Wochen kauft = 26 Hefte. 130 : 26 = 5 Euro pro Heft. Also: Ändere den Preis auf 5 Euro. Prüfe: 26 · 5 = ?",
-      "Man muss Preis, Häufigkeit oder beides anpassen, damit das Jahresergebnis stimmt.\n- Jahresausgaben = Anzahl der Hefte × Preis pro Heft\n- Die Anzahl der Hefte hängt von der Kaufhäufigkeit ab\n- Man kann den Preis ändern ODER die Häufigkeit ODER beides"
+      "Man muss Preis, Häufigkeit oder beides anpassen, damit das Jahresergebnis stimmt.\n- Jahresausgaben = Anzahl der Hefte × Preis pro Heft\n- Die Anzahl der Hefte hängt von der Kaufhäufigkeit ab\n- Man kann den Preis ändern ODER die Häufigkeit ODER beides."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2513,7 +2566,7 @@
       "1. Hin- und Rückweg pro Tag: 15 + 15 = 30 Minuten.\n2. An 5 Tagen: 5 · 30 = 150 Minuten.\n3. Umrechnung: 150 Minuten = 2 Stunden 30 Minuten (2 · 60 = 120, 150 - 120 = 30)."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null
@@ -2556,7 +2609,7 @@
       "Ohne zusätzliche Information gibt es unendlich viele Lösungspaare. Man braucht eine zweite Bedingung (z.B. Altersunterschied oder Verhältnis), um die Lösung eindeutig zu machen."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s16-hotel-waldschloesschen.webp",
+      null,
       null,
       null,
       null

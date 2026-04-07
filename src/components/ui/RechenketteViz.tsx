@@ -15,6 +15,10 @@ import { normalizeZahl } from '@/aufgaben/parserHelpers';
 interface RechenketteVizProps {
   /** Komplette Kette als String: "120 → + 180 → 300 → : 5 → 60" */
   kette: string;
+  /** Optional: Template mit Lücken — bestimmt welche Positionen Blanks sind.
+   *  Beispiel: "▢ → · 3 → ▢ → + 240 → 600" (Rückwärts-Kette).
+   *  Ohne vorlage: Position 0 = gegeben, alle anderen Zahlen = Ergebnis. */
+  vorlage?: string;
   /** Wie viele Ergebnis-Felder bereits gelöst (0 = keins) */
   geloestBis: number;
   /** Index des aktuell aktiven Ergebnis-Feldes (0-basiert) */
@@ -32,8 +36,9 @@ interface KettenElement {
   index: number; // Index unter den Ergebnis-Feldern
 }
 
-function parseKette(kette: string): KettenElement[] {
+function parseKette(kette: string, vorlage?: string): KettenElement[] {
   const teile = kette.split('→').map((s) => s.trim());
+  const vorlageteile = vorlage?.split('→').map((s) => s.trim());
   const elemente: KettenElement[] = [];
   let ergebnisIdx = 0;
 
@@ -42,22 +47,27 @@ function parseKette(kette: string): KettenElement[] {
     const istOperation = /^[+\-−·:×÷]/.test(teil);
 
     if (istOperation) {
-      // Operation: "+ 180"
       elemente.push({ typ: 'operation', text: teil, istErgebnis: false, index: -1 });
-    } else if (i === 0) {
-      // Startzahl
-      elemente.push({ typ: 'zahl', text: teil, istErgebnis: false, index: -1 });
     } else {
-      // Ergebnis-Zahl (muss gelöst werden)
-      elemente.push({ typ: 'zahl', text: teil, istErgebnis: true, index: ergebnisIdx++ });
+      // Mit Vorlage: Blank-Positionen aus Template bestimmen
+      // Ohne Vorlage: Position 0 = gegeben, Rest = Ergebnis
+      const istBlank = vorlageteile
+        ? /▢|___/.test(vorlageteile[i] ?? '')
+        : i > 0;
+
+      if (istBlank) {
+        elemente.push({ typ: 'zahl', text: teil, istErgebnis: true, index: ergebnisIdx++ });
+      } else {
+        elemente.push({ typ: 'zahl', text: teil, istErgebnis: false, index: -1 });
+      }
     }
   }
 
   return elemente;
 }
 
-export function RechenketteViz({ kette, geloestBis, aktiverSchritt, interaktiv, onAntwort }: RechenketteVizProps) {
-  const elemente = parseKette(kette);
+export function RechenketteViz({ kette, vorlage, geloestBis, aktiverSchritt, interaktiv, onAntwort }: RechenketteVizProps) {
+  const elemente = parseKette(kette, vorlage);
   const [input, setInput] = useState('');
   const [feedback, setFeedback] = useState<'idle' | 'richtig' | 'falsch'>('idle');
   const inputRef = useRef<HTMLInputElement>(null);

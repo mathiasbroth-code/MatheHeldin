@@ -19,12 +19,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Einstiegsaufgabe zum Bruchbegriff mit dem vertrauten Kontext \"Pizza teilen\". Der Nenner wird über die Anzahl der Kinder eingeführt. Entspricht S. 92, Aufg. 1.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Eine Pizza wird gerecht an Kinder verteilt. Schreibe den Bruch auf, den jedes Kind bekommt.",
@@ -38,7 +37,7 @@
         {
           "label": "b",
           "frage": "Die Pizza wird an 4 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
-          "antwort": "1"
+          "antwort": "1/4"
         },
         {
           "label": "c",
@@ -68,12 +67,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Das Zeichnen und Teilen von Flächen ist haptisch wertvoller als digital. Entspricht S. 92, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",
@@ -106,12 +104,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Das Ablesen von Brüchen aus gefärbten Flächen trainiert das Grundverständnis für Zähler und Nenner. Entspricht S. 92, Aufg. 3.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Schau dir das Rechteck an. Es ist in gleich große Teile geteilt. Einige Teile sind gefärbt. Schreibe den gefärbten Anteil als Bruch.",
@@ -169,12 +166,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe baut das Verständnis für äquivalente Brüche und den Zusammenhang zwischen Halben, Vierteln und Achteln auf. Entspricht S. 93, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Beantworte die Fragen.",
@@ -222,12 +218,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Hier lernen Kinder zum ersten Mal, dass ein Bruchanteil auf verschiedene Weisen geschrieben werden kann (äquivalente Brüche). Entspricht S. 93, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Ein Kreis ist in gleich große Teile geteilt. Schreibe den gefärbten Anteil als Bruch. Manchmal gibt es mehrere Möglichkeiten.",
@@ -286,12 +281,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Diese Aufgabe führt den Bruch als Ergebnis einer fairen Aufteilung ein. Entspricht S. 93, Aufg. 6-8.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "3 Pizzen sollen gerecht an 4 Kinder verteilt werden. Jedes Kind soll gleich viel bekommen. Wie viel bekommt jedes Kind?",
@@ -304,7 +298,7 @@
         {
           "label": "b",
           "frage": "Schreibe als Bruch: Jedes Kind bekommt ___ der Gesamtmenge.",
-          "antwort": "3/4 einer Pizza"
+          "antwort": "3/4"
         }
       ]
     }
@@ -329,12 +323,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Das Vergleichen von Brüchen ist eine Vertiefungsaufgabe, die das Verständnis für die Bruchgröße festigt. Entspricht weiterführenden Aufgaben zu S. 92-93.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "luecke",
       "anweisung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =",
@@ -387,12 +380,11 @@
     ],
     "tippBilder": [
       null,
-      "assets/erklaerungen/s93-merkkasten-viertel.webp",
+      null,
       null,
       null
     ],
     "didaktischerHinweis": "Alltagsbrüche verankern den Bruchbegriff in der Lebenswelt des Kindes. Entspricht dem Titel \"Alltagsbrüche\" des Kapitels.",
-    "erklaerungBild": "assets/erklaerungen/s92-merkkasten-brueche.webp",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Ordne die Alltagsbeispiele dem richtigen Bruch zu.",
@@ -484,7 +476,7 @@
         {
           "label": "c",
           "frage": "500 ml = ___ l",
-          "antwort": "0,5 l (oder 1/2 l)"
+          "antwort": "0,5"
         },
         {
           "label": "d",
@@ -520,7 +512,7 @@
       "Stell dir einen Messbecher mit 1.000 ml (= 1 Liter) vor. Fülle ihn halb voll — wie viele Milliliter sind das?\n📺 Schau dir das Video \"Merkwissen: Bruchteile eines Liters\" (S. 101) an!",
       "Rechne aus, wie oft die Milliliter-Menge in 1.000 ml passt: 1.000 : ??? = Nenner des Bruchs. Beispiel: 1.000 : 250 = 4, also ist 250 ml = 1/4 l.",
       "500 ml: Die Hälfte von 1.000 ist 500. Also sind 500 ml = 1/___ l. Welche Zahl gehört unten hin?",
-      "- 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l\n- 250 ml: 1.000 : 250 = 4 → der 4. Teil von 1 Liter → 1/4 l\n- 125 ml: 1.000 : 125 = 8 → der 8. Teil von 1 Liter → 1/8 l\n- 750 ml: Das sind 3 × 250 ml = 3 × 1/4 l = 3/4 l"
+      "- 500 ml: 1.000 : 500 = 2 → der 2. Teil von 1 Liter → 1/2 l\n- 250 ml: 1.000 : 250 = 4 → der 4. Teil von 1 Liter → 1/4 l\n- 125 ml: 1.000 : 125 = 8 → der 8. Teil von 1 Liter → 1/8 l\n- 750 ml: Das sind 3 × 250 ml = 3 × 1/4 l = 3/4 l."
     ],
     "tippBilder": [
       null,
@@ -717,7 +709,7 @@
       "Um Liter und Milliliter zu vergleichen, musst du beide in dieselbe Einheit bringen. Wandle alles in Milliliter um — dann kannst du die Zahlen direkt vergleichen.\n📺 Schau dir das Video \"Vergleichsgrößen: Milliliter und Liter\" (S. 95) an!",
       "Brüche umrechnen: 1/2 l = 500 ml, 1/4 l = 250 ml, 3/4 l = 750 ml, 1/8 l = 125 ml. Lerne diese Werte auswendig!",
       "Bei a): 3/4 l = 3 × 250 ml = 750 ml. Jetzt vergleiche: 725 ml ▢ 750 ml. Welche Zahl ist größer?",
-      "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 725 ml < 3/4 l — denn 3/4 l = 750 ml → 725 < 750 → <\n- b) 1.001 ml > 1 l — denn 1 l = 1.000 ml → 1.001 > 1.000 → >\n- c) 1 1/2 l < 2.000 ml — denn 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- d) 750 ml > 1/2 l — denn 1/2 l = 500 ml → 750 > 500 → >\n- e) 250 ml = 1/4 l — denn 1/4 l = 250 ml → 250 = 250 → =\n- f) 0,330 l < 1/2 l — denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml → <"
+      "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 725 ml < 3/4 l — denn 3/4 l = 750 ml → 725 < 750 → <\n- b) 1.001 ml > 1 l — denn 1 l = 1.000 ml → 1.001 > 1.000 → >\n- c) 1 1/2 l < 2.000 ml — denn 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- d) 750 ml > 1/2 l — denn 1/2 l = 500 ml → 750 > 500 → >\n- e) 250 ml = 1/4 l — denn 1/4 l = 250 ml → 250 = 250 → =\n- f) 0,330 l < 1/2 l — denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml → <."
     ],
     "tippBilder": [
       null,
@@ -885,7 +877,7 @@
         {
           "label": "1",
           "frage": "Du hast zwei Eimer: In einen passen genau 3 Liter Wasser, in den anderen genau 5 Liter. Wie kannst du damit genau 4 Liter Wasser abmessen? Beschreibe deinen Weg.",
-          "antwort": "Schritt 1: Fülle den 5-Liter-Eimer voll."
+          "antwort": "Schritt 1: Fülle den 5-Liter-Eimer voll. Schritt 2: Schütte aus dem 5-Liter-Eimer in den 3-Liter-Eimer, bis er voll ist. Schritt 3: Im 5-Liter-Eimer bleiben 2 Liter übrig. Schritt 4: Leere den 3-Liter-Eimer aus. Schritt 5: Schütte die 2 Liter aus dem 5-Liter-Eimer in den 3-Liter-Eimer. Schritt 6: Fülle den 5-Liter-Eimer wieder voll. Schritt 7: Schütte aus dem 5-Liter-Eimer in den 3-Liter-Eimer (da passen noch 1 l rein). Schritt 8: Im 5-Liter-Eimer sind jetzt genau 4 Liter!"
         }
       ]
     }
@@ -917,7 +909,7 @@
         {
           "label": "1",
           "frage": "Wie viel Wasser verbraucht eine Person durchschnittlich am Tag?",
-          "antwort": "12 + 45 + 44 + 19 + 7 + 6 + 10 + 2 = 145 l"
+          "antwort": "145"
         }
       ]
     }
@@ -938,7 +930,7 @@
       "Eine Woche hat 7 Tage. Wenn du jeden Tag 145 Liter verbrauchst, dann musst du 145 genau 7 mal nehmen. Was rechnest du?",
       "Zerlege die Multiplikation in einfachere Teilaufgaben: 145 × 7 = (100 + 40 + 5) × 7. Rechne jeden Teil einzeln und addiere am Ende.",
       "Bei a): 100 × 7 = 700. Dann 40 × 7 = 280. Dann 5 × 7 = 35. Addiere: 700 + 280 + 35 = ___.",
-      "- a) 145 × 7: Zerlege: 100 × 7 = 700, 40 × 7 = 280, 5 × 7 = 35 → 700 + 280 + 35 = 1.015 l\n- b) 145 × 30: Zerlege: 145 × 3 = 435, dann 435 × 10 = 4.350 l"
+      "- a) 145 × 7: Zerlege: 100 × 7 = 700, 40 × 7 = 280, 5 × 7 = 35 → 700 + 280 + 35 = 1.015 l\n- b) 145 × 30: Zerlege: 145 × 3 = 435, dann 435 × 10 = 4.350 l."
     ],
     "didaktischerHinweis": "Multiplikation mit sachbezogenem Kontext. Die Zerlegungsmethode wird als Strategie genutzt. Entspricht S. 96, Aufg. 2-3.",
     "parsed": {
@@ -949,12 +941,12 @@
         {
           "label": "a",
           "frage": "Wie viel Wasser verbraucht eine Person in einer Woche (7 Tage)?",
-          "antwort": "145 × 7 = 1.015 l"
+          "antwort": "1.015"
         },
         {
           "label": "b",
           "frage": "Wie viel Wasser verbraucht eine Person in einem Monat (30 Tage)?",
-          "antwort": "145 × 30 = 4.350 l"
+          "antwort": "4.350"
         }
       ]
     }
@@ -974,8 +966,8 @@
     "tipps": [
       "Wenn eine Person 145 Liter am Tag braucht, wie viel brauchen dann 4 Personen? Welche Rechenart hilft dir?",
       "Rechne Schritt für Schritt: Erst den Tagesverbrauch der Familie (× 4), dann den Monatsverbrauch (× 30). Zerlege die Multiplikation!",
-      "Bei a): 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + ___ + ___ = ___",
-      "- a) 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + 160 + 20 = 580 l\n- b) 580 × 30 = 580 × 3 × 10 = 1.740 × 10 = 17.400 l"
+      "Bei a): 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + ___ + ___ = ___.",
+      "- a) 4 × 145 = 4 × 100 + 4 × 40 + 4 × 5 = 400 + 160 + 20 = 580 l\n- b) 580 × 30 = 580 × 3 × 10 = 1.740 × 10 = 17.400 l."
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Alltagsbezug. Entspricht S. 96, Aufg. 4.",
     "parsed": {
@@ -986,12 +978,12 @@
         {
           "label": "a",
           "frage": "Wie viel Wasser verbraucht die ganze Familie an einem Tag?",
-          "antwort": "4 × 145 = 580 l"
+          "antwort": "580"
         },
         {
           "label": "b",
           "frage": "Wie viel Wasser verbraucht die Familie in einem Monat (30 Tage)?",
-          "antwort": "580 × 30 = 17.400 l"
+          "antwort": "17.400"
         }
       ]
     }
@@ -1023,12 +1015,12 @@
         {
           "label": "a",
           "frage": "an einem Tag?",
-          "antwort": "Ersparnis pro Tag: 108 - 18 = 90 l"
+          "antwort": "90"
         },
         {
           "label": "b",
           "frage": "in einer Woche?",
-          "antwort": "Ersparnis pro Woche: 90 × 7 = 630 l"
+          "antwort": "630"
         }
       ]
     }
@@ -1060,17 +1052,17 @@
         {
           "label": "a",
           "frage": "in einer Stunde?",
-          "antwort": "60 × 8 ml = 480 ml"
+          "antwort": "480"
         },
         {
           "label": "b",
           "frage": "an einem Tag (24 Stunden)?",
-          "antwort": "24 × 480 ml = 11.520 ml = 11 l 520 ml"
+          "antwort": "11.520"
         },
         {
           "label": "c",
           "frage": "in einer Woche?",
-          "antwort": "7 × 11.520 ml = 80.640 ml = 80 l 640 ml"
+          "antwort": "80.640"
         }
       ]
     }
@@ -1193,12 +1185,12 @@
         {
           "label": "a",
           "frage": "Wie viele Tage lang könnte eine Person mit dem \"Burger-Wasser\" ihren täglichen Wasserverbrauch decken?",
-          "antwort": "2.450 : 145 = 16 Rest 130 → ca. 16 Tage"
+          "antwort": "16"
         },
         {
           "label": "b",
           "frage": "Reicht das \"Burger-Wasser\" für mehr als 2 Wochen?",
-          "antwort": "2 Wochen = 14 Tage. 16 > 14, also ja, es reicht für mehr als 2 Wochen."
+          "antwort": "ja"
         }
       ]
     }
@@ -1417,7 +1409,7 @@
       "Rechne wie vorher: Länge × Breite × Höhe. Die Zahlen sind größer, aber das Prinzip bleibt gleich!",
       "Mache die Multiplikation in Schritten: Erst zwei der drei Zahlen multiplizieren (suche dir die einfachste Kombination aus), dann mit der dritten Zahl multiplizieren.",
       "Bei a): 30 × 30 = 900. Dann 900 × 30. Tipp: 9 × 3 = 27, also 900 × 30 = ___.",
-      "- a) 30 × 30 = 900, 900 × 30 = 27.000 cm³\n- b) 50 × 30 = 1.500, 1.500 × 70 = 105.000 cm³\n- c) 80 × 30 = 2.400, 2.400 × 60 = 144.000 cm³"
+      "- a) 30 × 30 = 900, 900 × 30 = 27.000 cm³\n- b) 50 × 30 = 1.500, 1.500 × 70 = 105.000 cm³\n- c) 80 × 30 = 2.400, 2.400 × 60 = 144.000 cm³."
     ],
     "didaktischerHinweis": "Skalierung der Volumenberechnung auf größere Maße. Die Multiplikation mit Zehnerzahlen wird trainiert. Entspricht S. 98, Aufg. 3.",
     "parsed": {
@@ -1533,7 +1525,7 @@
       "Nur weil ein Quader breiter oder länger aussieht, muss er nicht mehr fassen! Rechne den Rauminhalt beider Quader aus und vergleiche dann.",
       "Berechne für jeden Quader: Länge × Breite × Höhe. Wandle dann von cm³ in Liter um: 1.000 cm³ = 1 l.",
       "Quader A: 50 × 30 = 1.500. Dann 1.500 × 60 = ___. Teile durch 1.000, um Liter zu bekommen: ___ l.\nQuader B: 80 × 50 = 4.000. Dann 4.000 × 20 = ___. Teile durch 1.000: ___ l.",
-      "- A: 50 × 30 = 1.500, 1.500 × 60 = 90.000 cm³ = 90.000 ml = 90 l\n- B: 80 × 50 = 4.000, 4.000 × 20 = 80.000 cm³ = 80.000 ml = 80 l\n- Unterschied: 90 - 80 = 10 l"
+      "- A: 50 × 30 = 1.500, 1.500 × 60 = 90.000 cm³ = 90.000 ml = 90 l\n- B: 80 × 50 = 4.000, 4.000 × 20 = 80.000 cm³ = 80.000 ml = 80 l\n- Unterschied: 90 - 80 = 10 l."
     ],
     "didaktischerHinweis": "Vergleich zweier Quader schult die Volumenberechnung und die Umrechnung cm³ → l. Entspricht S. 99, Aufg. 7.",
     "parsed": {
@@ -1581,7 +1573,7 @@
         {
           "label": "1",
           "frage": "Gib zwei verschiedene Möglichkeiten an.",
-          "antwort": "- 8 cm × 5 cm × 4 cm = 160 cm³"
+          "antwort": "- 8 cm × 5 cm × 4 cm = 160 cm³\n- 10 cm × 4 cm × 4 cm = 160 cm³"
         }
       ]
     }
@@ -1745,7 +1737,7 @@
         {
           "label": "c",
           "frage": "Ein Grundschulkind braucht täglich etwa 10 ___ Schlaf.",
-          "antwort": "h (Stunden)"
+          "antwort": "h"
         },
         {
           "label": "d",
@@ -1871,62 +1863,62 @@
         {
           "label": "a",
           "frage": "1 cm = ___ mm",
-          "antwort": "10 mm"
+          "antwort": "10"
         },
         {
           "label": "b",
           "frage": "1 dm = ___ cm",
-          "antwort": "10 cm"
+          "antwort": "10"
         },
         {
           "label": "c",
           "frage": "1 m = ___ cm",
-          "antwort": "100 cm"
+          "antwort": "100"
         },
         {
           "label": "d",
           "frage": "1 km = ___ m",
-          "antwort": "1.000 m"
+          "antwort": "1.000"
         },
         {
           "label": "e",
           "frage": "1 kg = ___ g",
-          "antwort": "1.000 g"
+          "antwort": "1.000"
         },
         {
           "label": "f",
           "frage": "1/2 kg = ___ g",
-          "antwort": "500 g"
+          "antwort": "500"
         },
         {
           "label": "g",
           "frage": "1/4 kg = ___ g",
-          "antwort": "250 g"
+          "antwort": "250"
         },
         {
           "label": "h",
           "frage": "1 t = ___ kg",
-          "antwort": "1.000 kg"
+          "antwort": "1.000"
         },
         {
           "label": "i",
           "frage": "1 l = ___ ml",
-          "antwort": "1.000 ml"
+          "antwort": "1.000"
         },
         {
           "label": "j",
           "frage": "1/2 l = ___ ml",
-          "antwort": "500 ml"
+          "antwort": "500"
         },
         {
           "label": "k",
           "frage": "1/4 l = ___ ml",
-          "antwort": "250 ml"
+          "antwort": "250"
         },
         {
           "label": "l",
           "frage": "1/8 l = ___ ml",
-          "antwort": "125 ml"
+          "antwort": "125"
         }
       ]
     }
@@ -2334,7 +2326,7 @@
   },
   {
     "titel": "Millionen-Quiz — Überschlagen und schaetzen",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Millionen-Fragen",
     "schwierigkeit": "orange",
     "buchseite": 103,
@@ -2352,28 +2344,30 @@
     ],
     "didaktischerHinweis": "Überschlags-Aufgabe, die alle Umrechnungen des Kapitels zusammenführt und das Verständnis für die Größe \"eine Million\" vertieft. Entspricht S. 102-103.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Was ist näher an 1.000.000? Wähle die richtige Antwort.",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Was ist näher an 1.000.000? Wähle die richtige Antwort.",
+      "items": [
         {
-          "label": "A",
-          "text": "1.000.000 mm ="
+          "label": "a",
+          "frage": "1.000.000 mm = ___ km oder ___ km? (1 oder 10)",
+          "antwort": "1"
         },
         {
-          "label": "B",
-          "text": "1.000.000 g ="
+          "label": "b",
+          "frage": "1.000.000 g = ___ kg oder ___ kg? (100 oder 1.000)",
+          "antwort": "1.000"
         },
         {
-          "label": "C",
-          "text": "1.000.000 ml ="
+          "label": "c",
+          "frage": "1.000.000 ml = ___ l oder ___ l? (100 oder 1.000)",
+          "antwort": "1.000"
         },
         {
-          "label": "D",
-          "text": "1.000.000 s ="
+          "label": "d",
+          "frage": "1.000.000 s = ___ Tag oder ___ Tage? (1 oder 10)",
+          "antwort": "10"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {

@@ -15,7 +15,8 @@ export type Kategorie =
   | 'sachrechnen'
   | 'massstab'
   | 'schaubilder'
-  | 'forscherkiste';
+  | 'forscherkiste'
+  | 'uhrzeiten';
 
 export interface KategorieMeta {
   id: Kategorie;
@@ -39,6 +40,7 @@ export const KATEGORIEN: KategorieMeta[] = [
   { id: 'massstab', titel: 'Maßstab & Orientierung', farbe: 'indigo', sortierung: 12 },
   { id: 'schaubilder', titel: 'Schaubilder & Daten', farbe: 'purple', sortierung: 13 },
   { id: 'forscherkiste', titel: 'Forscherkiste', farbe: 'rose', sortierung: 14 },
+  { id: 'uhrzeiten', titel: 'Uhrzeiten & Zeitspannen', farbe: 'sky', sortierung: 15 },
 ];
 
 export interface StageMappingEntry {
@@ -158,6 +160,12 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   { stageId: 'fibonacci', titel: 'Fibonacci-Folge', kategorie: 'forscherkiste', sortierung: 5, icon: '🐚' },
   { stageId: 'zahlenforscher', titel: 'Zahlenforscher', kategorie: 'forscherkiste', sortierung: 6, icon: '🔬' },
   { stageId: 'pascalsches-dreieck', titel: 'Pascalsches Dreieck', kategorie: 'forscherkiste', sortierung: 7, icon: '🔺' },
+
+  // ── Uhrzeiten & Zeitspannen (Kap. 15) ──
+  { stageId: 'uhrzeiten-ablesen', titel: 'Uhrzeiten ablesen', kategorie: 'uhrzeiten', sortierung: 1, icon: '🕐' },
+  { stageId: 'uhrzeiten-sprechweise', titel: 'So sagt man die Uhrzeit', kategorie: 'uhrzeiten', sortierung: 2, icon: '🗣️' },
+  { stageId: 'uhrzeiten-stellen', titel: 'Zeig mir die Uhrzeit!', kategorie: 'uhrzeiten', sortierung: 3, icon: '🎯' },
+  { stageId: 'zeitspannen', titel: 'Wie lange dauert es?', kategorie: 'uhrzeiten', sortierung: 4, icon: '⏱️' },
 ];
 
 /** Lookup: stageId → Mapping-Eintrag. */

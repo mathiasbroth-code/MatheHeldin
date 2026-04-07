@@ -92,7 +92,7 @@
         {
           "label": "b",
           "frage": "Welche Form hat Charlys Futterplatz?",
-          "antwort": "A, B, D"
+          "antwort": "Kreis"
         }
       ]
     }
@@ -104,7 +104,7 @@
     "schwierigkeit": "gelb",
     "buchseite": 104,
     "kapitel": "10-kreise-muster-körper",
-    "stageId": "kreise-zeichnen",
+    "stageId": "kreise",
     "digital": "voll",
     "aufgabenstellung": "Vier Kreise liegen ineinander. Sie haben alle denselben Mittelpunkt und die Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.\n\nWelcher ist der Kreis mit dem Radius r = 5 cm (der größte)?\n\na) Der innerste Kreis\nb) Der mittlere Kreis\nc) Der äußerste Kreis",
     "loesung": "c)",
@@ -145,7 +145,7 @@
     "schwierigkeit": "gelb",
     "buchseite": 104,
     "kapitel": "10-kreise-muster-körper",
-    "stageId": "kreise-zeichnen",
+    "stageId": "kreise",
     "digital": "voll",
     "aufgabenstellung": "Vier Kreise haben alle denselben Mittelpunkt. Wie nennt man solche Kreise?\n\na) Parallele Kreise\nb) Konzentrische Kreise\nc) Symmetrische Kreise",
     "loesung": "b)",
@@ -296,7 +296,7 @@
     "schwierigkeit": "grün",
     "buchseite": 105,
     "kapitel": "10-kreise-muster-körper",
-    "stageId": "kreise-zeichnen",
+    "stageId": "kreise",
     "digital": "voll",
     "aufgabenstellung": "Bringe die Schritte der Zeichenanleitung für ein Blumenmuster in die richtige Reihenfolge.\n\na) Stich an einem Schnittpunkt ein und zeichne einen dritten Kreis mit demselben Radius\nb) Zeichne einen Kreis mit Radius 3 cm\nc) Verbinde die Mittelpunkte zu einem Dreieck\nd) Stich auf der Kreislinie ein und zeichne einen zweiten Kreis mit Radius 3 cm",
     "loesung": "b, d, a, c",
@@ -305,7 +305,7 @@
       "Was muss zuerst da sein, bevor du auf der Kreislinie einstechen kannst? Und was braucht man, bevor es Schnittpunkte gibt?",
       "Lies die Anleitung Schritt für Schritt: Zuerst EIN Kreis, dann der Zirkel auf die Kreislinie, dann ein neuer Kreis — immer mit dem gleichen Radius!",
       "Zuerst brauchst du einen Kreis. Dann stichst du auf dessen Kreislinie ein und zeichnest einen zweiten. Erst wenn zwei Kreise sich schneiden, gibt es Schnittpunkte für den dritten. Am Ende verbindest du die Mittelpunkte.",
-      ""
+      "Die richtige Reihenfolge ist: b → d → a → c. Zuerst zeichnest du einen Kreis mit Radius 3 cm (b). Dann stichst du auf der Kreislinie ein und zeichnest den zweiten Kreis (d). Am Schnittpunkt der beiden Kreise stichst du ein und zeichnest den dritten Kreis (a). Zum Schluss verbindest du die drei Mittelpunkte zu einem Dreieck (c)."
     ],
     "didaktischerHinweis": "Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. Entspricht S. 105, Aufg. 9.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
@@ -347,7 +347,7 @@
       "Fahre mit dem Finger jeden Kreis einzeln nach. Zähle dabei mit. Achte darauf, keinen doppelt zu zählen!",
       "Beginne mit dem Kreis in der Mitte. Dann zähle alle Kreise, die den mittleren Kreis schneiden. Sind es 4, 5 oder 6?",
       "In der Mitte ist 1 Kreis. Um ihn herum liegen ___ weitere Kreise. Insgesamt sind es also 1 + ___ = ___ Kreise.",
-      "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise"
+      "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise."
     ],
     "didaktischerHinweis": "Das Analysieren eines fertigen Musters fördert die visuelle Wahrnehmung und das Verständnis für geometrische Strukturen. Entspricht S. 105, Aufg. 7.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
@@ -360,17 +360,17 @@
         {
           "label": "a",
           "frage": "Wie viele Kreise hat Jette gezeichnet? ___",
-          "antwort": "7 Kreise"
+          "antwort": "7"
         },
         {
           "label": "b",
           "frage": "Haben alle Kreise den gleichen Radius?",
-          "antwort": "Ja, alle Kreise haben den gleichen Radius."
+          "antwort": "Ja"
         },
         {
           "label": "c",
           "frage": "Was hat Jette mit dem Geodreieck gemacht?",
-          "antwort": "Sie hat die Schnittpunkte der Kreise mit geraden Linien verbunden und so ein Sternmuster gezeichnet."
+          "antwort": "Schnittpunkte verbunden"
         }
       ]
     }
@@ -429,7 +429,7 @@
     "kapitel": "10-kreise-muster-körper",
     "stageId": "parkettierungen",
     "digital": "voll",
-    "aufgabenstellung": "Bei einer Parkettierung wird eine Grundfigur so oft wiederholt, dass keine Lücken und keine Überlappungen entstehen.\n\nWelche Aussage stimmt?\n\na) Bei einer Parkettierung dürfen sich die Formen überlappen.\nb) Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen.\nc) Bei einer Parkettierung dürfen Lücken zwischen den Formen sein.\nd) Eine Parkettierung funktioniert nur mit Quadraten.",
+    "aufgabenstellung": "Bei einer Parkettierung wird eine Grundfigur so oft wiederholt, dass keine Lücken und keine Überlappungen entstehen.\n\nWelche Aussage stimmt?\n\na) Bei einer Parkettierung dürfen sich die Formen überlappen.\nb) Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen.\nc) Bei einer Parkettierung dürfen Lücken zwischen den Formen sein.\nd) Eine Parkettierung geht nur mit Quadraten.",
     "loesung": "b) Bei einer Parkettierung müssen die Formen lückenlos aneinander liegen.",
     "loesungsweg": "Eine Parkettierung ist wie ein Fliesenboden: Die Fliesen müssen lückenlos und ohne Überlappung die gesamte Fläche bedecken. Das geht mit verschiedenen Formen — nicht nur mit Quadraten!",
     "tipps": [
@@ -639,7 +639,7 @@
     "digital": "voll",
     "aufgabenstellung": "Entscheide: Kann man mit dieser Form parkettieren?\n\na) Ein regelmässiges Fünfeck (Pentagon) — parkettiert das?\nb) Ein Parallelogramm — parkettiert das?\nc) Ein regelmässiges Achteck — parkettiert das?\nd) Ein beliebiges Dreieck — parkettiert das?",
     "loesung": "a) Nein — ein regelmässiges Fünfeck parkettiert nicht (108° passt nicht auf 360°).\nb) Ja — ein Parallelogramm parkettiert (durch Verschieben).\nc) Nein — ein regelmässiges Achteck parkettiert nicht allein (aber zusammen mit Quadraten schon).\nd) Ja — jedes beliebige Dreieck parkettiert (durch Spiegeln und Drehen).",
-    "loesungsweg": "Ob eine Form parkettiert, hängt davon ab, ob die Winkel an jedem Treffpunkt genau 360° ergeben:\n- Fünfeck: 3 · 108° = 324° — passt nicht, Lücke bleibt\n- Parallelogramm: 2 · a + 2 · b = 360° — passt immer\n- Achteck: 3 · 135° = 405° — zu viel\n- Dreieck: 6 · 60° = 360° (oder beliebig durch Spiegelung)",
+    "loesungsweg": "Ob eine Form parkettiert, hängt davon ab, ob die Winkel an jedem Treffpunkt genau 360° ergeben:\n- Fünfeck: 3 · 108° = 324° — passt nicht, Lücke bleibt\n- Parallelogramm: 2 · a + 2 · b = 360° — passt immer\n- Achteck: 3 · 135° = 405° — zu viel\n- Dreieck: Jedes beliebige Dreieck lässt sich durch Drehen und Spiegeln parkettieren — die Winkelarten ergänzen sich an jedem Treffpunkt immer zu 360° (bei gleichseitigen Dreiecken: 6 · 60° = 360°)",
     "tipps": [
       "Stell dir vor, du legst mehrere gleiche Formen an einen Punkt. Kommen die Ecken genau zusammen, ohne Lücke und ohne Überlappung?",
       "Bei einer Parkettierung müssen die Winkel an jedem Treffpunkt genau 360° ergeben. Wie groß sind die Innenwinkel der Form?",
@@ -694,7 +694,7 @@
       "Was passiert, wenn du von einem Dreieck an einer Seite ein Stück abschneidest und es an eine andere Seite klebst?",
       "Das Prinzip ist wie beim Fisch aus dem Quadrat: Wegnehmen und gegenüber wieder dransetzen. Die Fläche bleibt gleich!",
       "Zuerst brauchst du ein Dreieck. Dann schneidest du an einer Seite ein Stück ab. Dieses Stück klebst du an die gegenüberliegende Seite. Die neue Form kannst du als Schablone verwenden.",
-      ""
+      "Die richtige Reihenfolge ist: b → d → c → a. Zuerst zeichnest du ein Dreieck (b). Dann schneidest du ein Stück an einer Seite ab (d). Das abgeschnittene Stück klebst du an die gegenüberliegende Seite (c). Jetzt kannst du die neue Form als Schablone nehmen und damit parkettieren (a)."
     ],
     "didaktischerHinweis": "Haptisches Arbeiten vertieft das Verständnis der Parkettierungsprinzipien. Entspricht S. 107, Aufg. 6-7 und Videohinweis \"Anleitung: Schablone herstellen\".",
     "parsed": {
@@ -735,7 +735,7 @@
       "Stell dir eine Schachtel vor (z.B. einen Schuhkarton). Wie viele Seiten hat sie? Haben alle Seiten die gleiche Größe?",
       "Zähle die Flächen: Deckel, Boden, Vorderseite, Rückseite, linke Seite, rechte Seite. Welche Paare sind gleich groß?",
       "Deckel und Boden sind gleich groß — das sind ___ Rechtecke. Vorder- und Rückseite — noch ___ Rechtecke. Links und rechts — noch ___ Rechtecke. Zusammen: ___ Rechtecke.",
-      "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt"
+      "Ein Quader hat 6 Seiten (Flächen):\n- Oben und unten: 2 gleiche Rechtecke\n- Vorne und hinten: 2 gleiche Rechtecke\n- Links und rechts: 2 gleiche Rechtecke\n= 3 Paare mit je 2 gleich großen Rechtecken = 6 Rechtecke insgesamt."
     ],
     "didaktischerHinweis": "Das Verständnis des Aufbaus eines Quadernetzes ist Voraussetzung für alle weiteren Netzaufgaben. Entspricht S. 108, Aufg. 1.",
     "themenIntroBild": "assets/erklaerungen/koerpernetz-quader.svg",
@@ -868,7 +868,7 @@
       "Schau dir jeden Körper an und überlege: Welche flachen Formen siehst du, wenn du ihn \"aufklappst\"? Hat er runde oder eckige Flächen?",
       "Sortiere zuerst nach runden und eckigen Flächen: Kreise gehören zu Zylinder oder Kegel. Nur Dreiecke gehören zu Pyramiden. Nur Quadrate/Rechtecke gehören zu Würfel/Quader.",
       "Netz 4 besteht aus 6 gleichen Quadraten — das ist ein ___. Netz 2 hat zwei Kreise und ein Rechteck — das ist ein ___. Und Netz 5 hat einen Kreis und ein Tortenstück — das ist ein ___.",
-      "Überlege für jeden Körper: Aus welchen Flächen besteht er?\n- **Würfel**: 6 gleiche Quadrate\n- **Quader**: 6 Rechtecke (3 Paare)\n- **Zylinder**: 2 Kreise + 1 Rechteck (Mantelfläche)\n- **Kegel**: 1 Kreis + 1 Kreisausschnitt\n- **Pyramide**: 1 Quadrat + 4 Dreiecke\n- **Dreieckspyramide**: 4 Dreiecke"
+      "Überlege für jeden Körper: Aus welchen Flächen besteht er?\n- **Würfel**: 6 gleiche Quadrate\n- **Quader**: 6 Rechtecke (3 Paare)\n- **Zylinder**: 2 Kreise + 1 Rechteck (Mantelfläche)\n- **Kegel**: 1 Kreis + 1 Kreisausschnitt\n- **Pyramide**: 1 Quadrat + 4 Dreiecke\n- **Dreieckspyramide**: 4 Dreiecke."
     ],
     "didaktischerHinweis": "Diese Zuordnungsaufgabe nutzt die Wiederholungsvideos zu den einzelnen Körpern. Entspricht S. 109, Aufg. 7.",
     "parsed": {
@@ -1008,12 +1008,12 @@
         {
           "label": "b",
           "frage": "Wie viele Kanten liegen im Netz schon aneinander (Faltkanten)? ___",
-          "antwort": "5 Faltkanten (die Kanten, an denen die Flächen im Netz zusammenhängen)"
+          "antwort": "5"
         },
         {
           "label": "c",
           "frage": "An wie vielen Kanten brauchst du Klebelaschen? ___",
-          "antwort": "7 Klebelaschen (12 - 5 = 7)"
+          "antwort": "7"
         }
       ]
     }
@@ -1111,12 +1111,12 @@
     "digital": "voll",
     "aufgabenstellung": "Ordne jedes Schrägbild dem richtigen Bauplan zu.\n\na) L-Form: 3 Würfel in einer Reihe, 2 Würfel nach hinten am rechten Ende\nb) Turm: 1 Würfel unten, 1 Würfel obendrauf\nc) Stufe: 2 Würfel nebeneinander, 1 Würfel oben links\nd) Reihe: 4 Würfel in einer Reihe\n\nA) [1][1][1][1]\nB) [1] / [1][1][1]\nC) [2] / [1]\nD) [1][1] / [0][1]",
     "loesung": "a) → B\nb) → C\nc) → D\nd) → A",
-    "loesungsweg": "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- A (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) = Bauplan 1\n- B (Turm): Ein Feld mit Höhe 2 = Bauplan 3\n- C (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 = Bauplan 4\n- D (Reihe): Vier Felder nebeneinander, alle Höhe 1 = Bauplan 2",
+    "loesungsweg": "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- a (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) → Bauplan B\n- b (Turm): Ein Feld mit Höhe 2 → Bauplan C\n- c (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 → Bauplan D\n- d (Reihe): Vier Felder nebeneinander, alle Höhe 1 → Bauplan A",
     "tipps": [
       "Schau dir das Schrägbild von oben an. Wie viele Felder siehst du? Das gibt dir die Form des Bauplans.",
       "Zeichne zuerst den Grundriss (von oben): Welche Felder sind belegt? Dann zähle für jedes Feld: Wie hoch ist der Stapel?",
       "Schrägbild A: Von oben sehe ich ein L. Die untere Reihe hat ___ Felder. Nach oben gehen ___ Felder. Alle haben Höhe ___. Das passt zu Bauplan ___.",
-      "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- A (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) = Bauplan 1\n- B (Turm): Ein Feld mit Höhe 2 = Bauplan 3\n- C (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 = Bauplan 4\n- D (Reihe): Vier Felder nebeneinander, alle Höhe 1 = Bauplan 2"
+      "Im Bauplan gibt jede Zahl an, wie viele Würfel übereinander stehen:\n- a (L-Form): Drei in einer Reihe (Höhe 1) + zwei nach hinten (Höhe 1) → Bauplan B\n- b (Turm): Ein Feld mit Höhe 2 → Bauplan C\n- c (Stufe): 2×2-Feld, links oben Höhe 1, rechts oben Höhe 1, rechts unten Höhe 1 → Bauplan D\n- d (Reihe): Vier Felder nebeneinander, alle Höhe 1 → Bauplan A."
     ],
     "didaktischerHinweis": "Die Zuordnung Schrägbild-Bauplan trainiert den Perspektivwechsel zwischen 3D und 2D. Entspricht S. 110, Aufg. 2-3.",
     "parsed": {
@@ -1226,7 +1226,7 @@
       "Ein Schrägbild zeigt die Tiefe durch schräge Linien nach rechts oben. Beginne immer mit der Vorderseite!",
       "Zuerst die Vorderseite (ein Quadrat), dann die schrägen Linien für die Tiefe, dann die hintere Fläche, und am Schluss die unsichtbaren Kanten gestrichelt.",
       "Die Vorderseite ist ein Quadrat — das kommt zuerst. Von den Ecken gehen schräge Linien nach rechts oben. Deren Endpunkte verbindest du zur hinteren Fläche. Zum Schluss zeichnest du die verdeckten Kanten gestrichelt.",
-      ""
+      "Die richtige Reihenfolge ist: c → a → b → d. Zuerst zeichnest du die Vorderseite als Quadrat (c). Dann zeichnest du von jeder Ecke eine schräge Linie nach rechts oben (a). Danach verbindest du die Endpunkte zur hinteren Fläche (b). Zum Schluss zeichnest du die unsichtbaren Kanten gestrichelt ein (d)."
     ],
     "didaktischerHinweis": "Das Zeichnen von Schrägbildern wird in den Videos ausführlich gezeigt. Entspricht S. 111, Aufg. 5-10.",
     "parsed": {
@@ -1262,12 +1262,12 @@
     "digital": "voll",
     "aufgabenstellung": "Ein Würfelgebäude aus 5 Würfeln: 3 Würfel in einer Reihe unten, 1 Würfel oben in der Mitte, 1 Würfel dahinter in der Mitte.\n\nWelches der folgenden Schrägbilder zeigt dieses Gebäude korrekt?\n\na) Schrägbild A: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter rechts versetzt.\nb) Schrägbild B: Man sieht 3 Würfel unten, 2 oben nebeneinander.\nc) Schrägbild C: Man sieht 4 Würfel unten, 1 oben.\nd) Schrägbild D: Man sieht 3 Würfel unten, 1 oben mittig, 1 dahinter — der hintere ist teilweise verdeckt.",
     "loesung": "d) Schrägbild D — der hintere Würfel ist teilweise verdeckt, weil er HINTER dem oberen Würfel steht.",
-    "loesungsweg": "Im Schrägbild werden Objekte, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt.",
+    "loesungsweg": "Im Schrägbild werden Teile, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt.",
     "tipps": [
       "Stell dir das Gebäude auf einem Tisch vor und schaue von schräg links oben darauf. Was siehst du? Was ist verdeckt?",
       "Im Schrägbild geht \"nach hinten\" immer nach rechts oben. Ein Würfel hinter einem anderen wird teilweise verdeckt — du siehst nicht alles davon.",
       "3 Würfel unten — die sieht man alle. 1 Würfel oben in der Mitte — den sieht man auch. 1 Würfel DAHINTER — der wird teilweise ___ vom vorderen Würfel.",
-      "Im Schrägbild werden Objekte, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt."
+      "Im Schrägbild werden Teile, die weiter hinten stehen, nach rechts oben versetzt gezeichnet. Ein Würfel, der direkt hinter einem anderen steht, wird teilweise verdeckt. Nur Schrägbild D zeigt dies korrekt."
     ],
     "didaktischerHinweis": "Das Erkennen der korrekten Perspektive ist die Kernkompetenz bei Schrägbildern. Entspricht S. 111, Aufg. 9-10.",
     "parsed": {

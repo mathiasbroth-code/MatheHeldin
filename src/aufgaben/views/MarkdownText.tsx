@@ -1,6 +1,9 @@
+import { AnalogUhr } from '@/components/ui/AnalogUhr';
+
 /**
  * Simple Markdown-Text Renderer für Aufgabentexte.
  * Rendert Listen, Tabellen, Code-Blöcke, Leerzeilen und normalen Text.
+ * Unterstützt [uhr:H:MM] Tags für Analoguhr-Visualisierungen.
  * Kein vollständiger Markdown-Parser — nur die Patterns die in unseren Aufgaben vorkommen.
  */
 export function MarkdownText({
@@ -88,14 +91,14 @@ export function MarkdownText({
   );
 }
 
-/** Rendert Inline-Formatierung: **bold**, `code` */
+/** Rendert Inline-Formatierung: **bold**, `code`, [uhr:H:MM] */
 function renderInline(text: string): React.ReactNode {
-  if (!text.includes('**') && !text.includes('`')) {
+  if (!text.includes('**') && !text.includes('`') && !text.includes('[uhr:')) {
     return text;
   }
 
-  // Split on **bold** and `code` patterns
-  const parts = text.split(/(\*\*.*?\*\*|`[^`]+`)/g);
+  // Split on **bold**, `code`, and [uhr:H:MM] patterns
+  const parts = text.split(/(\*\*.*?\*\*|`[^`]+`|\[uhr:\d{1,2}:\d{2}\])/g);
   return parts.map((part, i) => {
     if (part.startsWith('**') && part.endsWith('**')) {
       return <strong key={i}>{part.slice(2, -2)}</strong>;
@@ -107,6 +110,46 @@ function renderInline(text: string): React.ReactNode {
         </code>
       );
     }
+    // [uhr:H:MM] → AnalogUhr-Komponente (als Block-Element)
+    const uhrMatch = part.match(/^\[uhr:(\d{1,2}):(\d{2})\]$/);
+    if (uhrMatch) {
+      return (
+        <div key={i} className="flex justify-center my-2">
+          <AnalogUhr
+            stunde={parseInt(uhrMatch[1], 10)}
+            minute={parseInt(uhrMatch[2], 10)}
+            groesse={160}
+            zeigeMinutenZahlen
+          />
+        </div>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
+
+/**
+ * Rendert Text mit [uhr:H:MM] → AnalogUhr.
+ * Exportiert für Nutzung in Views (z.B. AuswahlView-Optionen).
+ */
+export function renderTextMitUhr(text: string, uhrGroesse = 120): React.ReactNode {
+  if (!text.includes('[uhr:')) return text;
+
+  const parts = text.split(/(\[uhr:\d{1,2}:\d{2}\])/g);
+  return parts.map((part, i) => {
+    const uhrMatch = part.match(/^\[uhr:(\d{1,2}):(\d{2})\]$/);
+    if (uhrMatch) {
+      return (
+        <span key={i} className="inline-flex justify-center">
+          <AnalogUhr
+            stunde={parseInt(uhrMatch[1], 10)}
+            minute={parseInt(uhrMatch[2], 10)}
+            groesse={uhrGroesse}
+          />
+        </span>
+      );
+    }
+    if (!part) return null;
     return <span key={i}>{part}</span>;
   });
 }

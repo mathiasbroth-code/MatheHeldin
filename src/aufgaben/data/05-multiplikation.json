@@ -14,7 +14,7 @@
     "tipps": [
       "Stell dir die Aufgabe mit Dienes-Blöcken vor: 3 · 500 bedeutet 3 Gruppen mit je 5 Hunderterplatten. Wie viele Hunderter sind das insgesamt?",
       "Zähle die Nullen in der Aufgabe und rechne die Grundaufgabe ohne Nullen: 3 · 5 = 15. Dann hänge die Nullen an das Ergebnis: 15 + 00 = 1.500.",
-      "Bei a): 3 · 500. Grundaufgabe: 3 · 5 = 15. 500 hat 2 Nullen. Also: 15 und 2 Nullen dran → 1.___",
+      "Bei a): 3 · 500. Grundaufgabe: 3 · 5 = 15. 500 hat 2 Nullen. Also: 15 und 2 Nullen dran → 1.___.",
       "Trick: Rechne zuerst die Grundaufgabe (ohne Nullen) und hänge dann die Nullen wieder an.\n- a) 3 · 5 = 15, dann 2 Nullen anhängen → 1.500\n- b) 6 · 8 = 48, dann 2 Nullen → 4.800\n- c) 4 · 7 = 28, dann 2 Nullen → 2.800\n- d) 5 · 9 = 45, dann 2 Nullen → 4.500\n\nMan kann auch in Hunderterschritten denken: 3 · 5H = 15H = 1.500."
     ],
     "didaktischerHinweis": "Das Multiplizieren mit vollen Hunderten und Tausendern ist die Grundlage für alle weiteren Multiplikationsverfahren. Kinder sollen verstehen, dass die Nullen den Stellenwert anzeigen und einfach „mitgenommen\" werden. Entspricht S. 54, Aufg. 2-3.",
@@ -60,7 +60,7 @@
     "tipps": [
       "Vergleiche die drei Aufgaben in jedem Päckchen. Was verändert sich von Zeile zu Zeile? Wie verändert sich das Ergebnis?",
       "Zähle immer die Nullen: 800 hat 2 Nullen, 8.000 hat 3 Nullen, 80.000 hat 4 Nullen. Die Grundaufgabe (5 · 8 = 40) bleibt immer gleich — nur die Nullen wachsen.",
-      "a) Erste Zeile: 5 · 800. Grundaufgabe: 5 · 8 = 40. Plus 2 Nullen von 800 → 4.000.\nZweite Zeile: 5 · 8.000. Gleiche Grundaufgabe: 40. Plus 3 Nullen → 40.___",
+      "a) Erste Zeile: 5 · 800. Grundaufgabe: 5 · 8 = 40. Plus 2 Nullen von 800 → 4.000.\nZweite Zeile: 5 · 8.000. Gleiche Grundaufgabe: 40. Plus 3 Nullen → 40.___.",
       "Bei jedem Schritt kommt eine Null dazu, weil der zweite Faktor 10-mal so groß wird:\n- a) 5 · 8 = 40 → mit 2 Nullen: 4.000, mit 3 Nullen: 40.000, mit 4 Nullen: 400.000\n- b) 7 · 6 = 42 → mit 2 Nullen: 4.200, mit 3 Nullen: 42.000, mit 4 Nullen: 420.000"
     ],
     "didaktischerHinweis": "Rechenpäckchen trainieren das Erkennen von Mustern. Die wachsende Nullenanzahl zeigt das Stellenwertprinzip in Aktion. Entspricht S. 54, Aufg. 3 (Päckchen-Muster).",
@@ -116,7 +116,7 @@
     "tipps": [
       "Stell dir die Aufgabe so vor: 60 · 400 = 6 · 10 · 4 · 100 = 6 · 4 · 10 · 100. Was ist 6 · 4? Und was ist 10 · 100?",
       "Schritt 1: Grundaufgabe (ohne Nullen) rechnen.\nSchritt 2: Nullen beider Zahlen zusammenzählen.\nSchritt 3: Nullen an das Ergebnis der Grundaufgabe hängen.",
-      "Bei a): 60 · 400. Grundaufgabe: 6 · 4 = 24. Nullen: 60 hat ___ Null(en), 400 hat ___ Nullen. Zusammen ___ Nullen. Ergebnis: 24 und 3 Nullen = 24.___",
+      "Bei a): 60 · 400. Grundaufgabe: 6 · 4 = 24. Nullen: 60 hat ___ Null(en), 400 hat ___ Nullen. Zusammen ___ Nullen. Ergebnis: 24 und 3 Nullen = 24.___.",
       "Wenn beide Faktoren Nullen haben:\n1. Rechne die Grundaufgabe ohne Nullen: z.B. 6 · 4 = 24\n2. Zähle ALLE Nullen beider Faktoren zusammen: 60 hat 1 Null, 400 hat 2 Nullen → zusammen 3 Nullen\n3. Hänge die Nullen ans Ergebnis: 24.000\n\n- a) 6 · 4 = 24, dann 3 Nullen (1+2) → 24.000\n- b) 5 · 7 = 35, dann 3 Nullen → 35.000\n- c) 8 · 3 = 24, dann 3 Nullen → 24.000\n- d) 3 · 9 = 27, dann 3 Nullen → 27.000\n- e) 7 · 6 = 42, dann 3 Nullen → 42.000"
     ],
     "didaktischerHinweis": "Das Multiplizieren zweier Zehnerzahlen entspricht S. 54, Aufg. 4. Die Methode „Grundaufgabe + Nullen zählen\" ist ein zentraler Trick für das Kopfrechnen und die Grundlage für das Überschlagen bei der schriftlichen Multiplikation.",
@@ -167,7 +167,7 @@
     "tipps": [
       "Bei c) passiert etwas Besonderes: 8 · 5 = 40. Das Ergebnis hat schon eine Null! Zusammen mit den 2 Nullen der Aufgabe sind es dann 3 Nullen. Achte genau auf die Nullen im Ergebnis der Grundaufgabe.",
       "Grundaufgabe rechnen → Nullen der beiden Faktoren zusammenzählen → alle Nullen ans Ergebnis hängen. Vorsicht, wenn die Grundaufgabe selbst auf 0 endet (z.B. 8 · 5 = 40).",
-      "Bei c): 80 · 50. Grundaufgabe: 8 · 5 = 40. Nullen: 80 hat 1, 50 hat 1 → 2 Nullen. Ergebnis: 40 + 2 weitere Nullen = 4.000. Prüfe: 50 · 80 = 50 · 8 · 10 = 400 · 10 = ___",
+      "Bei c): 80 · 50. Grundaufgabe: 8 · 5 = 40. Nullen: 80 hat 1, 50 hat 1 → 2 Nullen. Ergebnis: 40 + 2 weitere Nullen = 4.000. Prüfe: 50 · 80 = 50 · 8 · 10 = 400 · 10 = ___.",
       "Gleiche Methode: Grundaufgabe + Nullen.\n- a) 4 · 4 = 16, dann 2 Nullen (1+1) → 1.600\n- b) 3 · 9 = 27, dann 2 Nullen → 2.700\n- c) 8 · 5 = 40, dann 2 Nullen → 4.000 (Achtung: 40 hat schon eine Null im Ergebnis!)\n- d) 4 · 4 = 16, dann 4 Nullen (2+2) → 160.000\n- e) 3 · 9 = 27, dann 4 Nullen → 270.000"
     ],
     "didaktischerHinweis": "Aufgaben wie 80 · 50 = 4.000 sind typische Stolperfallen, weil die Grundaufgabe (8 · 5 = 40) selbst eine Null enthält. Entspricht S. 54, Aufg. 5. Kinder müssen lernen, sorgfältig mit den Nullen umzugehen.",
@@ -280,7 +280,7 @@
     "tipps": [
       "Stell dir die Aufgabe mit Dienes-Blöcken vor: 2.400 sind 24 Hunderterplatten. Wenn du sie in Gruppen von je 3 Hunderterplatten aufteilst — wie viele Gruppen bekommst du?",
       "Streiche bei Dividend und Divisor die gleiche Anzahl Nullen weg. Dann rechnest du die einfache Divisionsaufgabe: 2.400 : 300 → 24 : 3 = 8.",
-      "Bei a): 2.400 : 300. Beide haben mindestens 2 Nullen. Streiche 2 Nullen: 24 : 3 = ___. Kontrolliere: 8 · 300 = ___",
+      "Bei a): 2.400 : 300. Beide haben mindestens 2 Nullen. Streiche 2 Nullen: 24 : 3 = ___. Kontrolliere: 8 · 300 = ___.",
       "Denke in Hunderterschritten:\n- a) 24 Hunderter : 3 Hunderter = 8. Oder: 24 : 3 = 8 (Nullen kürzen sich weg).\n- b) 36 Hunderter : 4 Hunderter = 9. Oder: 36 : 4 = 9.\n- c) 42 Hunderter : 6 Hunderter = 7.\n- d) 18 Hunderter : 3 Hunderter = 6."
     ],
     "didaktischerHinweis": "Das Dividieren mit vollen Hunderten/Tausendern nutzt das Kürzen gemeinsamer Nullen. Die Umkehraufgabe (Kontrolle durch Multiplikation) stärkt den Zusammenhang zwischen Multiplikation und Division. Entspricht S. 55, Aufg. 2.",
@@ -326,7 +326,7 @@
     "tipps": [
       "Vergleiche die drei Aufgaben in jedem Päckchen. Was verändert sich? Was bleibt gleich? Was passiert mit dem Ergebnis?",
       "Wenn Dividend und Divisor beide gleich viele Nullen dazubekommen, bleibt das Ergebnis gleich (wie beim Bruchrechnen: Zähler und Nenner mal die gleiche Zahl). Wenn nur der Dividend wächst, wächst auch das Ergebnis.",
-      "Bei a): 4.200 : 700 → Kürze 2 Nullen → 42 : 7 = 6.\n42.000 : 7.000 → Kürze 3 Nullen → 42 : 7 = 6.\nBei b): 4.800 : 8 = 600. 48.000 : 8 → 10-mal mehr → 10 · 600 = ___",
+      "Bei a): 4.200 : 700 → Kürze 2 Nullen → 42 : 7 = 6.\n42.000 : 7.000 → Kürze 3 Nullen → 42 : 7 = 6.\nBei b): 4.800 : 8 = 600. 48.000 : 8 → 10-mal mehr → 10 · 600 = ___.",
       "- a) Alle drei haben die gleiche Grundaufgabe: 42 : 7 = 6. Wenn Dividend und Divisor um den gleichen Faktor wachsen, bleibt der Quotient gleich.\n- b) Hier wächst nur der Dividend (10-mal, 100-mal größer), der Divisor bleibt gleich → der Quotient wächst mit: 600 → 6.000 → 60.000."
     ],
     "didaktischerHinweis": "Diese Päckchen-Aufgabe zeigt zwei wichtige Prinzipien: (1) Gleichmäßiges Vergrößern von Dividend und Divisor ändert den Quotienten nicht. (2) Vergrößern nur des Dividenden vergrößert den Quotienten proportional. Entspricht S. 55, Aufg. 3.",
@@ -369,7 +369,7 @@
   },
   {
     "titel": "Division mit Kontrolle — Große Zahlen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Dividieren im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 55,
@@ -382,12 +382,12 @@
     "tipps": [
       "Überlege dir: Welche Malaufgabe passt zum Ergebnis? Wenn du z.B. ___ · 8 = 3.200 findest, hast du die Division gelöst.",
       "Kürze gleiche Nullen bei Dividend und Divisor. Dann rechne die vereinfachte Aufgabe. Vergiss nicht, die Nullen, die nur beim Dividenden übrig bleiben, ans Ergebnis zu hängen.",
-      "Bei a): 3.200 : 8. Der Divisor hat keine Nullen, also kürze nichts. Aber 3.200 = 32 · 100. Also: 32 : 8 = 4 und 4 · 100 = ___",
+      "Bei a): 3.200 : 8. Der Divisor hat keine Nullen, also kürze nichts. Aber 3.200 = 32 · 100. Also: 32 : 8 = 4 und 4 · 100 = ___.",
       "- a) 3.200 : 8 → 32 : 8 = 4, dann 2 Nullen anhängen → 400.\n- b) 54.000 : 600 → Kürze 2 Nullen → 540 : 6 = 90.\n- c) 630.000 : 70 → Kürze 1 Null → 63.000 : 7 = 9.000.\n- d) 240.000 : 800 → Kürze 2 Nullen → 2.400 : 8 = 300."
     ],
     "didaktischerHinweis": "Die Kontrolle durch Umkehraufgabe ist ein wichtiges Werkzeug zur Selbstkontrolle. Entspricht S. 55, Aufg. 4. Kinder sollen die Division als Umkehrung der Multiplikation begreifen.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Dividiere und kontrolliere mit der Umkehraufgabe (Multiplikation).",
       "kontext": "Dividiere und kontrolliere mit der Umkehraufgabe (Multiplikation).",
       "items": [
@@ -429,7 +429,7 @@
     "tipps": [
       "Arbeite rückwärts! Beginne mit dem Ergebnis und mache jeden Schritt in umgekehrter Reihenfolge rückgängig: statt addieren subtrahiere, statt multiplizieren dividiere.",
       "Schreibe die Rechnung als Gleichung auf:\na) ___ · 8.000 − 2.000 = 30.000 → löse Schritt für Schritt auf.\nb) ___ : 7 + 3.000 = 9.000 → löse Schritt für Schritt auf.",
-      "Bei a): Die Hälfte von 60.000 ist ___. Also: meine Zahl · 8.000 − 2.000 = 30.000. Zuerst: 30.000 + 2.000 = ___. Dann: 32.000 : 8.000 = ___",
+      "Bei a): Die Hälfte von 60.000 ist ___. Also: meine Zahl · 8.000 − 2.000 = 30.000. Zuerst: 30.000 + 2.000 = ___. Dann: 32.000 : 8.000 = ___.",
       "Zahlenrätsel rückwärts lösen:\n- a) Ergebnis: 30.000. Plus 2.000: 32.000. Geteilt durch 8.000: 4.\n- b) Ergebnis: 9.000. Minus 3.000: 6.000. Mal 7: 42.000."
     ],
     "didaktischerHinweis": "Zahlenrätsel trainieren das Rückwärtsrechnen und algebraisches Denken. Entspricht S. 55, Aufg. 5. Die Kinder üben implizit das Lösen von Gleichungen.",
@@ -466,7 +466,7 @@
     "tipps": [
       "Jede Malaufgabe liefert zwei Divisionsaufgaben: Wenn 7 · 800 = 5.600, dann 5.600 : 7 = 800 und 5.600 : 800 = 7.",
       "Streiche die Nullen weg und suche Einmaleins-Aufgaben: 5.600 → 56. Welche Malaufgaben ergeben 56? 7 · 8 = 56 → 5.600 : 7 = 800 und 5.600 : 8 = 700.",
-      "12.000 → Grundzahl 12. Malaufgaben für 12: 3 · 4, 2 · 6. Also: 12.000 : 4 = ___ und 12.000 : 6 = ___",
+      "12.000 → Grundzahl 12. Malaufgaben für 12: 3 · 4, 2 · 6. Also: 12.000 : 4 = ___ und 12.000 : 6 = ___.",
       "Finde Zahlen, durch die sich der Dividend ohne Rest teilen lässt. Nutze bekannte Einmaleins-Aufgaben:\n- 5.600: 56 : 7 = 8, also 5.600 : 7 = 800 oder 5.600 : 700 = 8.\n- 12.000: 12 : 4 = 3, also 12.000 : 4 = 3.000 oder 12.000 : 4.000 = 3."
     ],
     "didaktischerHinweis": "Das Bilden von Umkehraufgaben festigt die Beziehung zwischen Multiplikation und Division. Entspricht der Forscheraufgabe auf S. 55 unten.",
@@ -503,7 +503,7 @@
     "tipps": [
       "Die Maltabelle teilt die schwere Aufgabe in vier einfache Aufgaben auf. Jedes Kästchen ist eine einfache Malaufgabe — kannst du sie alle lösen?",
       "Zerlege beide Zahlen: 58 = 50 + 8 und 12 = 10 + 2. Fülle jedes Feld der Tabelle: Zahl links · Zahl oben. Am Ende addierst du alle Felder.",
-      "Erstes Feld: 50 · 10 = 500. Zweites Feld: 50 · 2 = 100. Drittes Feld: 8 · 10 = ___. Viertes Feld: 8 · 2 = ___. Alles zusammen: 500 + 100 + ___ + ___ = ___",
+      "Erstes Feld: 50 · 10 = 500. Zweites Feld: 50 · 2 = 100. Drittes Feld: 8 · 10 = ___. Viertes Feld: 8 · 2 = ___. Alles zusammen: 500 + 100 + ___ + ___ = ___.",
       "Die Maltabelle zerlegt beide Zahlen in ihre Stellenwerte:\n- 58 = 50 + 8\n- 12 = 10 + 2\n\nDann rechnest du die vier Teilprodukte:\n- 50 · 10 = 500\n- 50 · 2 = 100\n- 8 · 10 = 80\n- 8 · 2 = 16\n\nErgebnis: 500 + 100 + 80 + 16 = 696"
     ],
     "tippBilder": [
@@ -565,8 +565,8 @@
     "tipps": [
       "Statt eine schwierige Aufgabe zu lösen, zerlegst du sie in vier einfache Aufgaben. Jede davon kannst du im Kopf rechnen!",
       "Zerlege beide Zahlen in Zehner und Einer. Rechne alle 4 Teilprodukte und addiere sie am Ende.",
-      "47 = 40 + 7 und 13 = 10 + 3.\nErste Teilaufgabe: 40 · 10 = 400.\nZweite: 40 · 3 = ___.\nDritte: 7 · 10 = ___.\nVierte: 7 · 3 = ___.\nAlles zusammen: ___",
-      "Jettes Methode zerlegt wie die Maltabelle, aber schreibt die Teilrechnungen untereinander:\n- Zerlege 47 = 40 + 7 und 13 = 10 + 3\n- Rechne alle 4 Kombinationen: 40·10, 40·3, 7·10, 7·3\n- Addiere die Teilprodukte"
+      "47 = 40 + 7 und 13 = 10 + 3.\nErste Teilaufgabe: 40 · 10 = 400.\nZweite: 40 · 3 = ___.\nDritte: 7 · 10 = ___.\nVierte: 7 · 3 = ___.\nAlles zusammen: ___.",
+      "Jettes Methode zerlegt wie die Maltabelle, aber schreibt die Teilrechnungen untereinander:\n- Zerlege 47 = 40 + 7 und 13 = 10 + 3\n- Rechne alle 4 Kombinationen: 40·10, 40·3, 7·10, 7·3\n- Addiere die Teilprodukte."
     ],
     "tippBilder": [
       null,
@@ -627,7 +627,7 @@
     "tipps": [
       "Zerlege jede Zahl in Zehner und Einer. Rechne die 4 Teilaufgaben und addiere sie.",
       "Maltabelle oder schrittweise Notation — wähle die Methode, die dir besser gefällt. Beide führen zum gleichen Ergebnis.",
-      "Bei a): 41 = 40 + 1, 23 = 20 + 3.\n40 · 20 = 800, 40 · 3 = 120, 1 · 20 = ___, 1 · 3 = ___\nZusammen: 800 + 120 + ___ + ___ = ___",
+      "Bei a): 41 = 40 + 1, 23 = 20 + 3.\n40 · 20 = 800, 40 · 3 = 120, 1 · 20 = ___, 1 · 3 = ___\nZusammen: 800 + 120 + ___ + ___ = ___.",
       "a) 41 · 23:\n- 40 · 20 = 800, 40 · 3 = 120, 1 · 20 = 20, 1 · 3 = 3\n- 800 + 120 + 20 + 3 = 943\n\nb) 32 · 54:\n- 30 · 50 = 1.500, 30 · 4 = 120, 2 · 50 = 100, 2 · 4 = 8\n- 1.500 + 120 + 100 + 8 = 1.728\n\nc) 73 · 16:\n- 70 · 10 = 700, 70 · 6 = 420, 3 · 10 = 30, 3 · 6 = 18\n- 700 + 420 + 30 + 18 = 1.168"
     ],
     "tippBilder": [
@@ -647,7 +647,7 @@
             {
               "label": "1",
               "frage": "41 · 23 =",
-              "antwort": "41 · 23 = 943"
+              "antwort": "943"
             }
           ]
         },
@@ -657,7 +657,7 @@
             {
               "label": "1",
               "frage": "32 · 54 =",
-              "antwort": "32 · 54 = 1.728"
+              "antwort": "1.728"
             }
           ]
         },
@@ -667,7 +667,7 @@
             {
               "label": "1",
               "frage": "73 · 16 =",
-              "antwort": "73 · 16 = 1.168"
+              "antwort": "1.168"
             }
           ]
         }
@@ -689,7 +689,7 @@
     "tipps": [
       "Wenn ein Faktor eine glatte Zehnerzahl ist (30, 60, ...), brauchst du nur den anderen Faktor zu zerlegen. Das spart 2 Rechenschritte!",
       "Zerlege nur die nicht-runde Zahl in Zehner und Einer. Multipliziere beide Teile mit der runden Zahl und addiere.",
-      "Bei a): 25 = 20 + 5. Rechne: 20 · 60 = ___. Und: 5 · 60 = ___. Zusammen: ___ + ___ = ___",
+      "Bei a): 25 = 20 + 5. Rechne: 20 · 60 = ___. Und: 5 · 60 = ___. Zusammen: ___ + ___ = ___.",
       "Wenn einer der Faktoren eine runde Zehnerzahl ist, braucht man nur den anderen Faktor zu zerlegen:\n- 25 · 60 = (20 + 5) · 60 = 20 · 60 + 5 · 60 = 1.200 + 300 = 1.500\n- Nur 2 statt 4 Teilprodukte, weil 60 nicht zerlegt werden muss."
     ],
     "tippBilder": [
@@ -747,12 +747,12 @@
     "digital": "voll",
     "aufgabenstellung": "Justus hat einen Trick: 25 · 16 ist das Gleiche wie 100 · 4 = 400.\nEr verdoppelt den einen Faktor und halbiert den anderen — das Ergebnis bleibt gleich!\n\nRechne mit Justus' Trick:\na) 25 · 24 =\nb) 50 · 18 =\nc) 25 · 36 =",
     "loesung": "a) 25 · 24 = 50 · 12 = 100 · 6 = 600\nb) 50 · 18 = 100 · 9 = 900\nc) 25 · 36 = 50 · 18 = 100 · 9 = 900",
-    "loesungsweg": "Justus' Trick: Verdopple den einen Faktor und halbiere den anderen. Das Produkt bleibt gleich!\n- a) 25 · 24 → 50 · 12 → 100 · 6 = 600\n- b) 50 · 18 → 100 · 9 = 900\n- c) 25 · 36 → 50 · 18 → 100 · 9 = 900\n\nDer Trick funktioniert besonders gut, wenn 25 oder 50 ein Faktor ist, weil 25 · 4 = 100 und 50 · 2 = 100.",
+    "loesungsweg": "Justus' Trick: Verdopple den einen Faktor und halbiere den anderen. Das Produkt bleibt gleich!\n- a) 25 · 24 → 50 · 12 → 100 · 6 = 600\n- b) 50 · 18 → 100 · 9 = 900\n- c) 25 · 36 → 50 · 18 → 100 · 9 = 900\n\nDer Trick klappt besonders gut, wenn 25 oder 50 ein Faktor ist, weil 25 · 4 = 100 und 50 · 2 = 100.",
     "tipps": [
       "25 · 4 = 100. Wenn du also 25 vervierfachst (·4), bekommst du 100 — eine viel einfachere Zahl! Dafür musst du den anderen Faktor durch 4 teilen.",
       "Verdopple die 25 → 50. Halbiere den anderen Faktor. Wiederhole: 50 verdoppeln → 100. Anderen Faktor nochmals halbieren. Jetzt ist die Aufgabe ganz einfach!",
-      "Bei a): 25 · 24 → verdopple 25: 50. Halbiere 24: 12. Also: 50 · 12. Nochmal: 50 verdoppeln: 100. 12 halbieren: ___. Also: 100 · ___ = ___",
-      "Justus' Trick: Verdopple den einen Faktor und halbiere den anderen. Das Produkt bleibt gleich!\n- a) 25 · 24 → 50 · 12 → 100 · 6 = 600\n- b) 50 · 18 → 100 · 9 = 900\n- c) 25 · 36 → 50 · 18 → 100 · 9 = 900\n\nDer Trick funktioniert besonders gut, wenn 25 oder 50 ein Faktor ist, weil 25 · 4 = 100 und 50 · 2 = 100."
+      "Bei a): 25 · 24 → verdopple 25: 50. Halbiere 24: 12. Also: 50 · 12. Nochmal: 50 verdoppeln: 100. 12 halbieren: ___. Also: 100 · ___ = ___.",
+      "Justus' Trick: Verdopple den einen Faktor und halbiere den anderen. Das Produkt bleibt gleich!\n- a) 25 · 24 → 50 · 12 → 100 · 6 = 600\n- b) 50 · 18 → 100 · 9 = 900\n- c) 25 · 36 → 50 · 18 → 100 · 9 = 900\n\nDer Trick klappt besonders gut, wenn 25 oder 50 ein Faktor ist, weil 25 · 4 = 100 und 50 · 2 = 100."
     ],
     "tippBilder": [
       null,
@@ -768,17 +768,17 @@
         {
           "label": "a",
           "frage": "25 · 24 =",
-          "antwort": "25 · 24 = 50 · 12 = 100 · 6 = 600"
+          "antwort": "600"
         },
         {
           "label": "b",
           "frage": "50 · 18 =",
-          "antwort": "50 · 18 = 100 · 9 = 900"
+          "antwort": "900"
         },
         {
           "label": "c",
           "frage": "25 · 36 =",
-          "antwort": "25 · 36 = 50 · 18 = 100 · 9 = 900"
+          "antwort": "900"
         }
       ]
     }
@@ -846,7 +846,7 @@
     "tipps": [
       "Beim schriftlichen Multiplizieren fängst du immer bei den Einern an (rechts) und arbeitest dich nach links vor. Warum? Weil du den Übertrag von rechts nach links „mitnehmen\" musst.",
       "Schritt für Schritt: Multipliziere jede Ziffer einzeln mit dem Multiplikator. Wenn das Ergebnis größer als 9 ist, schreibe nur die Einer-Ziffer und merke dir die Zehner als Übertrag für die nächste Stelle.",
-      "Bei b): Einer: 4 · 1 = 4, schreibe 4. Zehner: 4 · 2 = 8, schreibe 8. Hunderter: 4 · 6 = 24, schreibe 4 und merke ___. Tausender: 4 · 1 = 4, plus ___ = ___",
+      "Bei b): Einer: 4 · 1 = 4, schreibe 4. Zehner: 4 · 2 = 8, schreibe 8. Hunderter: 4 · 6 = 24, schreibe 4 und merke ___. Tausender: 4 · 1 = 4, plus ___ = ___.",
       "Schriftliches Multiplizieren, Schritt für Schritt von rechts nach links:\n\na) 2.313 · 3:\n- Einer: 3 · 3 = 9 → schreibe 9\n- Zehner: 3 · 1 = 3 → schreibe 3\n- Hunderter: 3 · 3 = 9 → schreibe 9\n- Tausender: 3 · 2 = 6 → schreibe 6\n- Ergebnis: 6.939\n\nb) 1.621 · 4:\n- Einer: 4 · 1 = 4 → schreibe 4\n- Zehner: 4 · 2 = 8 → schreibe 8\n- Hunderter: 4 · 6 = 24 → schreibe 4, merke 2\n- Tausender: 4 · 1 = 4, plus 2 (gemerkt) = 6 → schreibe 6\n- Ergebnis: 6.484\n\nc) 1.531 · 5:\n- Einer: 5 · 1 = 5 → schreibe 5\n- Zehner: 5 · 3 = 15 → schreibe 5, merke 1\n- Hunderter: 5 · 5 = 25, plus 1 = 26 → schreibe 6, merke 2\n- Tausender: 5 · 1 = 5, plus 2 = 7 → schreibe 7\n- Ergebnis: 7.655"
     ],
     "tippBilder": [
@@ -908,7 +908,7 @@
     "tipps": [
       "Wenn eine Ziffer 0 ist, ist das Teilprodukt auch 0. Aber Vorsicht: Vergiss nicht den Übertrag von der vorherigen Stelle! 0 + Übertrag = Übertrag.",
       "Schreibe die Aufgabe untereinander auf. Multipliziere Stelle für Stelle von rechts nach links. Bei Nullen im Multiplikand: 0 · x = 0, aber addiere trotzdem den Übertrag!",
-      "Bei d): 309 · 5. Einer: 5 · 9 = 45 → schreibe 5, merke 4. Zehner: 5 · 0 = 0, plus 4 = ___ → schreibe das. Hunderter: 5 · 3 = ___",
+      "Bei d): 309 · 5. Einer: 5 · 9 = 45 → schreibe 5, merke 4. Zehner: 5 · 0 = 0, plus 4 = ___ → schreibe das. Hunderter: 5 · 3 = ___.",
       "a) 2.403 · 2:\n- 2 · 3 = 6, 2 · 0 = 0, 2 · 4 = 8, 2 · 2 = 4\n- Ergebnis: 4.806 (kein Übertrag, aber Nullen in der Mitte!)\n\nb) 3.203 · 3:\n- 3 · 3 = 9, 3 · 0 = 0, 3 · 2 = 6, 3 · 3 = 9\n- Ergebnis: 9.609\n\nc) 2.102 · 4:\n- 4 · 2 = 8, 4 · 0 = 0, 4 · 1 = 4, 4 · 2 = 8\n- Ergebnis: 8.408\n\nd) 309 · 5:\n- 5 · 9 = 45 → schreibe 5, merke 4\n- 5 · 0 = 0, plus 4 = 4 → schreibe 4\n- 5 · 3 = 15 → schreibe 15\n- Ergebnis: 1.545"
     ],
     "tippBilder": [
@@ -980,7 +980,7 @@
     "tipps": [
       "Beginne immer rechts bei den Einern. Wenn ein Teilprodukt größer als 9 ist, merke dir den Übertrag und nimm ihn zur nächsten Stelle mit.",
       "Schreibe die Aufgabe in die Stellenwerttafel (T H Z E). Rechne Stelle für Stelle und notiere den Übertrag klein über der nächsten Stelle.",
-      "Bei a): E: 4 · 1 = 4. Z: 4 · 4 = 16 → schreibe 6, merke 1. H: 4 · 2 = 8, plus 1 = ___. T: 4 · 1 = ___",
+      "Bei a): E: 4 · 1 = 4. Z: 4 · 4 = 16 → schreibe 6, merke 1. H: 4 · 2 = 8, plus 1 = ___. T: 4 · 1 = ___.",
       "a) 1.241 · 4:\n- 4 · 1 = 4, 4 · 4 = 16 → 6 (merke 1), 4 · 2 = 8 + 1 = 9, 4 · 1 = 4\n- Ergebnis: 4.964\n\nb) 2.152 · 3:\n- 3 · 2 = 6, 3 · 5 = 15 → 5 (merke 1), 3 · 1 = 3 + 1 = 4, 3 · 2 = 6\n- Ergebnis: 6.456\n\nc) 3.216 · 3:\n- 3 · 6 = 18 → 8 (merke 1), 3 · 1 = 3 + 1 = 4, 3 · 2 = 6, 3 · 3 = 9\n- Ergebnis: 9.648"
     ],
     "tippBilder": [
@@ -1114,7 +1114,7 @@
     "tipps": [
       "Berechne zuerst a) schriftlich. Dann vergleiche a) und b): Was hat sich am Multiplikanden geändert? Was ändert sich am Ergebnis?",
       "Wenn sich ein Faktor um 1 erhöht, erhöht sich das Produkt um den anderen Faktor. Also: 1.235 · 9 = 1.234 · 9 + 9.",
-      "a) 1.234 · 9 = 11.106 (rechne das schriftlich aus).\nb) 1.235 ist 1 mehr als 1.234. Also: 11.106 + 9 = ___\nc) 1.236 ist wieder 1 mehr: ___ + 9 = ___",
+      "a) 1.234 · 9 = 11.106 (rechne das schriftlich aus).\nb) 1.235 ist 1 mehr als 1.234. Also: 11.106 + 9 = ___\nc) 1.236 ist wieder 1 mehr: ___ + 9 = ___.",
       "a) 1.234 · 9: schriftlich rechnen → 11.106\nb) 1.235 · 9 = 1.234 · 9 + 1 · 9 = 11.106 + 9 = 11.115\nc) 11.115 + 9 = 11.124\nd) 11.124 + 9 = 11.133\n\nMuster: Wenn der Multiplikand um 1 steigt, steigt das Produkt um den Multiplikator (hier: 9)."
     ],
     "tippBilder": [
@@ -1329,7 +1329,7 @@
     "tipps": [
       "Bei d) und e): 999 ist fast 1.000. Kannst du mit 1.000 rechnen und dann etwas abziehen?",
       "Kopfrechnen ist besser, wenn die Zahlen „fast rund\" sind (999, 4.999). Schriftlich ist besser, wenn viele Überträge vorkommen. Wähle die einfachere Methode!",
-      "Bei d): 999 = 1.000 − 1. Also: 999 · 3 = 1.000 · 3 − 1 · 3 = 3.000 − 3 = ___",
+      "Bei d): 999 = 1.000 − 1. Also: 999 · 3 = 1.000 · 3 − 1 · 3 = 3.000 − 3 = ___.",
       "- a) 335 · 4: Im Kopf möglich: 300 · 4 = 1.200, 35 · 4 = 140 → 1.340. Oder schriftlich.\n- b) 555 · 5: Im Kopf: 500 · 5 = 2.500, 55 · 5 = 275 → 2.775.\n- c) 440 · 4: Im Kopf einfach: 44 · 4 = 176, dann ·10 → 1.760.\n- d) 999 · 3: Trick: 1.000 · 3 − 1 · 3 = 3.000 − 3 = 2.997.\n- e) 4.999 · 3: Trick: 5.000 · 3 − 1 · 3 = 15.000 − 3 = 14.997."
     ],
     "didaktischerHinweis": "Die Entscheidung zwischen Kopfrechnen und schriftlichem Rechnen (S. 60, Aufg. 5) fördert Flexibilität. Der Trick „fast runde Zahlen\" (999 · 3 = 1.000 · 3 − 3) ist besonders elegant und zeigt das Distributivgesetz in Aktion.",
@@ -1374,13 +1374,13 @@
     "kapitel": "05-multiplikation",
     "stageId": "schriftlich-multiplizieren-2",
     "digital": "voll",
-    "aufgabenstellung": "Berechne die fehlenden Ziffern.\n\na) ___43___ · 2 = 4.862\nb) 6__7 · 4 = 24.828\nc) 3_5_ · 3 = 10.962",
+    "aufgabenstellung": "Berechne die fehlenden Ziffern.\n\na) _43_ · 2 = 4.862\nb) 6__7 · 4 = 24.828\nc) 3_5_ · 3 = 10.962",
     "loesung": "a) 2.431\nb) 6.207 · 4 = 24.828\nc) 3.654 · 3 = 10.962",
     "loesungsweg": "Rückwärts rechnen: Dividiere das Ergebnis durch den Multiplikator.\n- a) 4.862 : 2 = 2.431 → die fehlenden Ziffern sind 2 und 1.\n- b) 24.828 : 4 = 6.207 → die fehlenden Ziffern sind 2 und 0.\n- c) 10.962 : 3 = 3.654 → die fehlenden Ziffern sind 6 und 4.\n\nOder Stelle für Stelle prüfen:\n- a) _43_ · 2 = 4.862. Einer: _ · 2 = ...2 → _ = 1 (weil 1 · 2 = 2). Tausender: _ · 2 = 4... → _ = 2.",
     "tipps": [
       "Beginne bei den Einern: Welche Ziffer mal 2 ergibt eine Zahl, die auf 2 endet? Dann arbeite dich Stelle für Stelle nach links.",
       "Du kannst das Ergebnis durch den Multiplikator teilen, um die vollständige Zahl zu finden. Oder du löst Stelle für Stelle wie ein Detektiv.",
-      "Bei a): Einer: _·2 = ...2. Welche Ziffer? 1·2=2 ✓ oder 6·2=12 (aber dann Übertrag). Probiere 1. Dann: _431 · 2 = 4.862. Tausender: _·2 = 4... → _= ___",
+      "Bei a): Einer: _·2 = ...2. Welche Ziffer? 1·2=2 ✓ oder 6·2=12 (aber dann Übertrag). Probiere 1. Dann: _431 · 2 = 4.862. Tausender: _·2 = 4... → _= ___.",
       "Rückwärts rechnen: Dividiere das Ergebnis durch den Multiplikator.\n- a) 4.862 : 2 = 2.431 → die fehlenden Ziffern sind 2 und 1.\n- b) 24.828 : 4 = 6.207 → die fehlenden Ziffern sind 2 und 0.\n- c) 10.962 : 3 = 3.654 → die fehlenden Ziffern sind 6 und 4.\n\nOder Stelle für Stelle prüfen:\n- a) _43_ · 2 = 4.862. Einer: _ · 2 = ...2 → _ = 1 (weil 1 · 2 = 2). Tausender: _ · 2 = 4... → _ = 2."
     ],
     "didaktischerHinweis": "Fehlende Ziffern finden (S. 61, Aufg. 10) kombiniert Multiplikation mit logischem Denken. Kinder müssen den Algorithmus rückwärts anwenden und dabei Überträge berücksichtigen — eine kognitiv anspruchsvolle Aufgabe.",
@@ -1390,7 +1390,7 @@
       "items": [
         {
           "label": "a",
-          "frage": "___43___ · 2 = 4.862",
+          "frage": "_43_ · 2 = 4.862",
           "antwort": "2.431"
         },
         {
@@ -1421,7 +1421,7 @@
     "tipps": [
       "354 · 66 = 354 · (60 + 6). Du kannst die Aufgabe also in zwei Teile zerlegen! Rechne zuerst 354 · 6 und dann 354 · 60 und addiere.",
       "Beim schriftlichen Multiplizieren mit einer zweistelligen Zahl rechnest du zwei Zeilen: eine für die Einer und eine für die Zehner. Die Zehnerzeile wird um eine Stelle nach links verschoben.",
-      "354 · 6 = 2.124. Das ist die erste Zeile. 354 · 60 = 21.240. Das ist die zweite Zeile. Jetzt addiere: 2.124 + 21.240 = ___",
+      "354 · 6 = 2.124. Das ist die erste Zeile. 354 · 60 = 21.240. Das ist die zweite Zeile. Jetzt addiere: 2.124 + 21.240 = ___.",
       "- 354 · 6 = 2.124 (schriftlich: 6·4=24, 6·5=30+2=32, 6·3=18+3=21)\n- 354 · 60 = 354 · 6 · 10 = 2.124 · 10 = 21.240\n- 354 · 66 = 354 · (60 + 6) = 354 · 60 + 354 · 6 = 21.240 + 2.124 = 23.364\n\nBeim schriftlichen Multiplizieren mit 66:\n1. Zeile: 354 · 6 = 2.124\n2. Zeile: 354 · 60 = 21.240 (eine Stelle nach links versetzt)\n3. Beide Zeilen addieren: 23.364"
     ],
     "didaktischerHinweis": "S. 62, Aufg. 1 führt die Multiplikation mit zweistelligem Multiplikator ein, indem drei verwandte Aufgaben verglichen werden. Die Zerlegung 66 = 60 + 6 macht das Verfahren verständlich.",
@@ -1477,7 +1477,7 @@
     "tipps": [
       "Zerlege den Multiplikator in Zehner und Einer: 22 = 20 + 2. Rechne zwei Zeilen und addiere sie.",
       "Schritt 1: Multipliziere mit der Einerstelle (z.B. 431 · 2).\nSchritt 2: Multipliziere mit der Zehnerstelle (z.B. 431 · 20), schreibe das Ergebnis um eine Stelle versetzt.\nSchritt 3: Addiere beide Zeilen.",
-      "Bei a): Erste Zeile: 431 · 2 = ___. Zweite Zeile: 431 · 20 = ___. Zusammen: ___ + ___ = ___",
+      "Bei a): Erste Zeile: 431 · 2 = ___. Zweite Zeile: 431 · 20 = ___. Zusammen: ___ + ___ = ___.",
       "a) 431 · 22:\n- 431 · 2 = 862\n- 431 · 20 = 8.620\n- 862 + 8.620 = 9.482\n\nb) 192 · 55:\n- 192 · 5 = 960\n- 192 · 50 = 9.600\n- 960 + 9.600 = 10.560\n\nc) 274 · 66:\n- 274 · 6 = 1.644\n- 274 · 60 = 16.440\n- 1.644 + 16.440 = 18.084"
     ],
     "didaktischerHinweis": "Standard-Übungen zum zweistelligen Multiplikator (S. 62, Aufg. 3). Die Aufgaben a)-c) haben bewusst gleiche Zehner- und Einerziffern im Multiplikator (22, 55, 66), damit das Verfahren ohne zusätzliche Komplikation geübt wird.",
@@ -1533,7 +1533,7 @@
     "tipps": [
       "Der Multiplikator hat jetzt zwei verschiedene Ziffern. Aber das Verfahren bleibt gleich: Zwei Zeilen rechnen und addieren.",
       "1. Multipliziere mit der Einerstelle.\n2. Multipliziere mit der Zehnerstelle (Ergebnis um 1 Stelle versetzt).\n3. Addiere.",
-      "Bei a): 438 · 3 = 1.314 (Erste Zeile). 438 · 10 = 4.380 (Zweite Zeile). Addiere: 1.314 + 4.380 = ___",
+      "Bei a): 438 · 3 = 1.314 (Erste Zeile). 438 · 10 = 4.380 (Zweite Zeile). Addiere: 1.314 + 4.380 = ___.",
       "a) 438 · 13:\n- 438 · 3 = 1.314\n- 438 · 10 = 4.380\n- 1.314 + 4.380 = 5.694\n\nb) 456 · 34:\n- 456 · 4 = 1.824\n- 456 · 30 = 13.680\n- 1.824 + 13.680 = 15.504\n\nc) 318 · 22:\n- 318 · 2 = 636\n- 318 · 20 = 6.360\n- 636 + 6.360 = 6.996"
     ],
     "didaktischerHinweis": "S. 62, Aufg. 3-4. Verschiedene Einer- und Zehnerziffern im Multiplikator erhöhen die Schwierigkeit leicht, da die beiden Teilprodukte unterschiedlich ausfallen.",
@@ -1631,7 +1631,7 @@
     "tipps": [
       "Runde beide Zahlen auf einfache Werte und rechne den Überschlag im Kopf. So weißt du ungefähr, wo das Ergebnis liegen muss.",
       "Überschlag: Runde beide Faktoren → einfache Kopfrechnung.\nGenau: Schriftlich mit dem zweistelligen Verfahren (2 Teilzeilen + Addition).",
-      "Bei a): Überschlag: 300 · 40 = ___. Jetzt genau: 284 · 7 = ___ (Zeile 1). 284 · 30 = ___ (Zeile 2). Addiere: ___ + ___ = ___",
+      "Bei a): Überschlag: 300 · 40 = ___. Jetzt genau: 284 · 7 = ___ (Zeile 1). 284 · 30 = ___ (Zeile 2). Addiere: ___ + ___ = ___.",
       "Überschlag: Runde beide Faktoren.\n- a) 284 ≈ 300, 37 ≈ 40 → 300 · 40 = 12.000\n  Genau: 284 · 7 = 1.988, 284 · 30 = 8.520 → 1.988 + 8.520 = 10.508\n\n- b) 432 ≈ 400, 48 ≈ 50 → 400 · 50 = 20.000\n  Genau: 432 · 8 = 3.456, 432 · 40 = 17.280 → 3.456 + 17.280 = 20.736\n\n- c) 2.412 ≈ 2.400, 72 ≈ 70 → 2.400 · 70 = 168.000\n  Genau: 2.412 · 2 = 4.824, 2.412 · 70 = 168.840 → 4.824 + 168.840 = 173.664"
     ],
     "didaktischerHinweis": "Überschlagen bei zweistelligem Multiplikator (S. 63, Aufg. 7) erfordert das Runden beider Faktoren — ein fortgeschrittener Schritt gegenüber dem einstelligen Multiplikator.",
@@ -1689,7 +1689,7 @@
   },
   {
     "titel": "Muster mit 99 — Besondere Malaufgaben",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Schriftliches Multiplizieren mehrstelliger Zahlen",
     "schwierigkeit": "orange",
     "buchseite": 63,
@@ -1702,7 +1702,7 @@
     "tipps": [
       "99 ist fast 100! Rechne zuerst · 100 (einfach eine Null anhängen) und ziehe dann den Multiplikand einmal ab.",
       "Trick: Zahl · 99 = Zahl · 100 − Zahl · 1. Rechne das im Kopf: Zuerst ·100 (Nullen anhängen), dann die Zahl einmal abziehen.",
-      "Bei b) erste Aufgabe: 123 · 99 = 123 · 100 − 123 = 12.300 − 123. Rechne die Subtraktion: 12.300 − 123 = ___",
+      "Bei b) erste Aufgabe: 123 · 99 = 123 · 100 − 123 = 12.300 − 123. Rechne die Subtraktion: 12.300 − 123 = ___.",
       "Trick für · 99: Zahl · 100 − Zahl = Zahl · 99.\n- 123 · 99 = 123 · 100 − 123 = 12.300 − 123 = 12.177\n- 234 · 99 = 234 · 100 − 234 = 23.400 − 234 = 23.166\n- 345 · 99 = 345 · 100 − 345 = 34.500 − 345 = 34.155"
     ],
     "didaktischerHinweis": "Malaufgaben mit Neunen (S. 63, Aufg. 8) zeigen die Eleganz des Distributivgesetzes: 99 = 100 − 1. Diese Einsicht ermöglicht effizientes Kopfrechnen und begeistert viele Kinder für mathematische Muster.",
@@ -1759,7 +1759,7 @@
     "tipps": [
       "Bei b): 230 endet auf 0. Du kannst erst 426 · 23 rechnen und dann das Ergebnis mit 10 multiplizieren (eine Null anhängen).",
       "Bei dreistelligem Multiplikator: 3 Teilzeilen berechnen (Einer, Zehner, Hunderter) und alle addieren. Jede Zeile wird um eine weitere Stelle nach links versetzt.",
-      "Bei a): 453 · 3 = ___ (Zeile 1). 453 · 20 = ___ (Zeile 2, um 1 Stelle versetzt). Addiere: ___ + ___ = ___",
+      "Bei a): 453 · 3 = ___ (Zeile 1). 453 · 20 = ___ (Zeile 2, um 1 Stelle versetzt). Addiere: ___ + ___ = ___.",
       "a) 453 · 23:\n- 453 · 3 = 1.359\n- 453 · 20 = 9.060\n- 1.359 + 9.060 = 10.419\n\nb) 426 · 230:\n- 426 · 0 = 0 (Einerstelle ist 0)\n- 426 · 30 = 12.780\n- 426 · 200 = 85.200\n- 0 + 12.780 + 85.200 = 97.980\n- Oder: 426 · 23 = 9.798, dann · 10 = 97.980\n\nc) 3.625 · 357:\n- 3.625 · 7 = 25.375\n- 3.625 · 50 = 181.250\n- 3.625 · 300 = 1.087.500\n- 25.375 + 181.250 + 1.087.500 = 1.294.125"
     ],
     "didaktischerHinweis": "S. 63, Aufg. 9 enthält Aufgaben mit zweistelligem und dreistelligem Multiplikator. Die Aufgabe b) mit der Null im Einerstelle zeigt einen wichtigen Sonderfall. Aufgabe c) ist eine Herausforderung mit dreistelligem Multiplikator.",
@@ -1815,7 +1815,7 @@
     "tipps": [
       "Schätze zuerst: Wie groß sind die beiden Faktoren ungefähr? Bei 10.395: Wenn ein Faktor ca. 200 ist, ist der andere ca. 50.",
       "Nutze den Überschlag, um die Größenordnung einzugrenzen. Dann probiere Kombinationen der Ziffern 1-5, die passen könnten.",
-      "Bei a): 10.395 ≈ 10.000. Wenn der zweistellige Faktor 45 ist: 10.395 : 45 ≈ 231. Prüfe: 231 · 45. Sind alle Ziffern 1,2,3,4,5 genau einmal dabei? ___",
+      "Bei a): 10.395 ≈ 10.000. Wenn der zweistellige Faktor 45 ist: 10.395 : 45 ≈ 231. Prüfe: 231 · 45. Sind alle Ziffern 1,2,3,4,5 genau einmal dabei? ___.",
       "Probiere systematisch:\n1. Überlege, ob die Aufgabe ___ · __ (dreistellig · zweistellig) oder ____ · _ (vierstellig · einstellig) ist.\n2. Nutze den Überschlag: 10.395 ÷ 50 ≈ 200, also könnte es ca. 200 · 50 sein.\n3. Probiere Kombinationen mit den Ziffern 1-5."
     ],
     "didaktischerHinweis": "Ziffernkarten-Rätsel (S. 63, Aufg. 12) sind anspruchsvolle Problemlöseaufgaben, die Multiplikation, Division, Überschlag und logisches Denken kombinieren. Sie eignen sich hervorragend als Knobelaufgaben für stärkere Schüler.",

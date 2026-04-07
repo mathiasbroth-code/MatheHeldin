@@ -14,7 +14,7 @@
     "tipps": [
       "Auf alten Uhren kannst du römische Zahlen sehen. Welche Zeichen erkennst du? I, II, III sind 1, 2, 3. Was kommt bei 5?",
       "Lerne die Zeichen der Größe nach: I(1), V(5), X(10), L(50), C(100), D(500), M(1.000).",
-      "I = 1, V = 5, X = ___. Dann: L = 50, C = 100, D = ___, M = ___",
+      "I = 1, V = 5, X = ___. Dann: L = 50, C = 100, D = ___, M = ___.",
       "Die sieben römischen Zahlzeichen und ihre Werte:\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1.000"
     ],
     "didaktischerHinweis": "Grundwissen römische Zahlzeichen. Entspricht S. 124, Einführung und S. 125, Tabelle.",
@@ -107,7 +107,7 @@
     "tipps": [
       "Zerlege die römische Zahl in einzelne Zeichen und schaue den Wert jedes Zeichens nach. Dann addiere alle Werte.",
       "Bei römischen Zahlen addierst du die Werte von links nach rechts: VII = V + I + I = 5 + 1 + 1.",
-      "a) V = 5, I = 1, I = 1. Also 5 + 1 + 1 = ___\nb) X = 10, I = 1, I = 1. Also 10 + 1 + 1 = ___",
+      "a) V = 5, I = 1, I = 1. Also 5 + 1 + 1 = ___\nb) X = 10, I = 1, I = 1. Also 10 + 1 + 1 = ___.",
       "Römische Zahlen werden addiert, wenn größere Zeichen links stehen:\n- a) V + I + I = 5 + 1 + 1 = 7\n- b) X + I + I = 10 + 1 + 1 = 12\n- c) X + X + I = 10 + 10 + 1 = 21\n- d) L + X = 50 + 10 = 60"
     ],
     "didaktischerHinweis": "Addition römischer Zahlzeichen. Entspricht S. 125, Aufg. 9.",
@@ -153,7 +153,7 @@
     "tipps": [
       "Schau genau: Steht ein kleineres Zeichen LINKS von einem größeren? Dann wird nicht addiert, sondern subtrahiert! Bei IV steht I (1) links von V (5).",
       "Die Subtraktionsregel: Steht ein kleineres Zeichen links, wird es vom größeren abgezogen.\nIV = 5 - 1 = 4. So vermeidet man IIII für 4.",
-      "a) I(1) steht links von V(5): 5 - 1 = ___\nb) I(1) steht links von X(10): 10 - 1 = ___\nc) X(10) steht links von L(50): 50 - 10 = ___",
+      "a) I(1) steht links von V(5): 5 - 1 = ___\nb) I(1) steht links von X(10): 10 - 1 = ___\nc) X(10) steht links von L(50): 50 - 10 = ___.",
       "Subtraktionsregel: kleineres Zeichen LINKS vom größeren wird abgezogen:\n- a) IV = V - I = 5 - 1 = 4\n- b) IX = X - I = 10 - 1 = 9\n- c) XL = L - X = 50 - 10 = 40\n- d) XC = C - X = 100 - 10 = 90\n- e) CD = D - C = 500 - 100 = 400\n- f) CM = M - C = 1.000 - 100 = 900"
     ],
     "didaktischerHinweis": "Zentrale Regel der römischen Zahlschreibweise. Entspricht S. 124, Merkkasten und S. 125, Aufg. 14.",
@@ -209,8 +209,8 @@
     "tipps": [
       "Zerlege die Zahl zuerst in Hunderter, Zehner und Einer. Dann übersetze jeden Teil einzeln in römische Zeichen.",
       "Beispiel für 29: 29 = 20 + 9 = XX + IX = XXIX.\nDenk an die Subtraktionsregel für 4 (IV), 9 (IX), 40 (XL), 90 (XC).",
-      "a) 16 = 10 + 6 = 10 + 5 + 1 = X + V + I = ___\nb) 29 = 20 + 9 = XX + IX = ___",
-      "Zerlege die Zahl in Stellenwerte und übersetze:\n- a) 16 = 10 + 5 + 1 = X + V + I = XVI\n- b) 29 = 10 + 10 + 9 = X + X + IX = XXIX\n- c) 55 = 50 + 5 = L + V = LV\n- d) 82 = 50 + 10 + 10 + 10 + 1 + 1 = LXXXII\n- e) 160 = 100 + 50 + 10 = CLX\n- f) 504 = 500 + 4 = D + IV = DIV"
+      "a) 16 = 10 + 6 = 10 + 5 + 1 = X + V + I = ___\nb) 29 = 20 + 9 = XX + IX = ___.",
+      "Zerlege die Zahl in Stellenwerte und übersetze:\n- a) 16 = 10 + 5 + 1 = X + V + I = XVI\n- b) 29 = 10 + 10 + 9 = X + X + IX = XXIX\n- c) 55 = 50 + 5 = L + V = LV\n- d) 82 = 50 + 10 + 10 + 10 + 1 + 1 = LXXXII\n- e) 160 = 100 + 50 + 10 = CLX\n- f) 504 = 500 + 4 = D + IV = DIV."
     ],
     "didaktischerHinweis": "Umwandlung Dezimal → Römisch. Entspricht S. 125, Aufg. 10, 12, 15.",
     "parsed": {
@@ -266,7 +266,7 @@
       "Prüfe bei jeder Zahl zwei Dinge: (1) Stehen höchstens 3 gleiche Zeichen nebeneinander? (2) Ergibt die römische Zahl auch wirklich den angegebenen Wert?",
       "Rechne die römische Zahl zurück in eine Dezimalzahl. Stimmt sie mit der angegebenen Zahl überein?",
       "a) XIIII: Zähle die I → 4 Stück. Aber es dürfen maximal ___ gleiche Zeichen nebeneinander stehen.\nc) LXIV = 50 + 10 + (5-1) = 50 + 10 + 4 = ___. Ist das 66?",
-      "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten"
+      "Regeln prüfen:\n1. Höchstens 3 gleiche Zeichen nebeneinander (IIII ist falsch → IV)\n2. Den Wert zurückrechnen: Stimmt die Summe?\n3. Subtraktionsregel beachten."
     ],
     "didaktischerHinweis": "Fehlererkennung vertieft Regelverständnis. Entspricht S. 125, Aufg. 13.",
     "parsed": {
@@ -327,7 +327,7 @@
     "tipps": [
       "Lies von links nach rechts. Steht ein kleineres Zeichen links von einem größeren? Dann Subtraktionsregel anwenden!",
       "Suche zuerst die Subtraktionspaare: CM = 900, XL = 40, IX = 9 usw. Dann addiere alle Teile.",
-      "b) M = 1.000. Dann CM: C(100) steht links von M(1.000) → 1.000 - 100 = 900. Dann XL: X(10) steht links von L(50) → 50 - 10 = 40. Dann VI = 6. Also: 1.000 + 900 + 40 + 6 = ___",
+      "b) M = 1.000. Dann CM: C(100) steht links von M(1.000) → 1.000 - 100 = 900. Dann XL: X(10) steht links von L(50) → 50 - 10 = 40. Dann VI = 6. Also: 1.000 + 900 + 40 + 6 = ___.",
       "- a) M + D + C + C + L + V + I = 1.000 + 500 + 100 + 100 + 50 + 5 + 1 = 1.756\n- b) M + CM + XL + VI = 1.000 + 900 + 40 + 6 = 1.946\n- c) M + M + XX + VI = 1.000 + 1.000 + 20 + 6 = 2.026"
     ],
     "didaktischerHinweis": "Komplexe römische Zahlen mit Subtraktionsregel. Entspricht S. 125, Aufg. 7 und 14.",
@@ -368,8 +368,8 @@
     "tipps": [
       "Zerlege in Tausender, Hunderter, Zehner, Einer. Übersetze jeden Teil einzeln. Denke an die Subtraktionsregel für 4, 9, 40, 90, 400, 900.",
       "49 = 40 + 9.\n40 = XL (Subtraktionsregel: X vor L).\n9 = IX (Subtraktionsregel: I vor X).\nAlso: XLIX.",
-      "a) 49 = 40 + 9 = XL + IX = ___\nb) 94 = 90 + 4 = XC + IV = ___\nd) 1.947 = 1.000 + ___ + ___ + 7 = M + ___ + ___ + VII = ___",
-      "- a) 49 = 40 + 9 = XL + IX = XLIX\n- b) 94 = 90 + 4 = XC + IV = XCIV\n- c) 476 = 400 + 70 + 6 = CD + LXX + VI = CDLXXVI\n- d) 1.947 = 1.000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII\n- e) 2.740 = 2.000 + 700 + 40 = MM + DCC + XL = MMDCCXL"
+      "a) 49 = 40 + 9 = XL + IX = ___\nb) 94 = 90 + 4 = XC + IV = ___\nd) 1.947 = 1.000 + ___ + ___ + 7 = M + ___ + ___ + VII = ___.",
+      "- a) 49 = 40 + 9 = XL + IX = XLIX\n- b) 94 = 90 + 4 = XC + IV = XCIV\n- c) 476 = 400 + 70 + 6 = CD + LXX + VI = CDLXXVI\n- d) 1.947 = 1.000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII\n- e) 2.740 = 2.000 + 700 + 40 = MM + DCC + XL = MMDCCXL."
     ],
     "didaktischerHinweis": "Fortgeschrittene Umwandlung mit Subtraktionsregel. Entspricht S. 125, Aufg. 15.",
     "parsed": {
@@ -418,8 +418,8 @@
     "loesungsweg": "Im Binärsystem verdoppelt sich der Stellenwert von rechts nach links:\n1. Stelle = 1, 2. Stelle = 2, 3. Stelle = 4, 4. Stelle = 8, 5. Stelle = 16.\nJeder Stellenwert ist das Doppelte des vorherigen: 1, 2, 4, 8, 16.",
     "tipps": [
       "Im Zehnersystem verdoppelt... nein, verzehnfacht sich der Wert von Stelle zu Stelle (1, 10, 100, ...). Im Binär- oder Zweiersystem verdoppelt sich der Wert. Starte bei 1: 1, 2, ...",
-      "Immer verdoppeln: 1 · 2 = 2, 2 · 2 = 4, 4 · 2 = 8, 8 · 2 = ___",
-      "Starte bei 1, dann immer verdoppeln: 1, 2, 4, ___, ___",
+      "Immer verdoppeln: 1 · 2 = 2, 2 · 2 = 4, 4 · 2 = 8, 8 · 2 = ___.",
+      "Starte bei 1, dann immer verdoppeln: 1, 2, 4, ___, ___.",
       "Im Binärsystem verdoppelt sich der Stellenwert von rechts nach links:\n1. Stelle = 1, 2. Stelle = 2, 3. Stelle = 4, 4. Stelle = 8, 5. Stelle = 16.\nJeder Stellenwert ist das Doppelte des vorherigen: 1, 2, 4, 8, 16."
     ],
     "didaktischerHinweis": "Einführung Binärsystem über Stellenwerte. Entspricht S. 126, Erklärung und Aufg. 1.",
@@ -463,32 +463,32 @@
     "tipps": [
       "Nimm die fünf Zettel mit den Werten 16, 8, 4, 2, 1. Welche Zettel brauchst du, damit die Summe genau deine Zahl ergibt?",
       "Prüfe von links nach rechts: Passt der Stellenwert hinein? Wenn ja, schreibe 1, wenn nein, schreibe 0. Ziehe den Wert ab und mach weiter.",
-      "a) 3: Brauchst du die 16? Nein → 0. Die 8? Nein → 0. Die 4? Nein → 0. Die 2? Ja → 1. Rest: 3-2=1. Die 1? Ja → 1. Also: 0 0 0 ___ ___",
+      "a) 3: Brauchst du die 16? Nein → 0. Die 8? Nein → 0. Die 4? Nein → 0. Die 2? Ja → 1. Rest: 3-2=1. Die 1? Ja → 1. Also: 0 0 0 ___ ___.",
       "Prüfe für jede Stelle, ob der Stellenwert in die Zahl passt:\n- a) 3: 16? Nein(0). 8? Nein(0). 4? Nein(0). 2? Ja(1), Rest 1. 1? Ja(1). → 00011\n- b) 5: 16? Nein(0). 8? Nein(0). 4? Ja(1), Rest 1. 2? Nein(0). 1? Ja(1). → 00101\n- c) 6: 16? Nein. 8? Nein. 4? Ja(1), Rest 2. 2? Ja(1). 1? Nein(0). → 00110\n- d) 10: 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 01010"
     ],
     "didaktischerHinweis": "Erste Umwandlung Dezimal → Binär. Entspricht S. 126, Aufg. 2.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Stelle diese Zahlen im Binärsystem dar. Nutze die Stellenwerte 16, 8, 4, 2, 1.",
+      "anweisung": "Stelle diese Zahlen im Binärsystem dar. Nutze die Stellenwerte 16, 8, 4, 2, 1. Schreibe immer alle 5 Stellen (mit führenden Nullen), z. B. 00011.",
       "items": [
         {
           "label": "a",
-          "frage": "3",
+          "frage": "3 (als 5-stellige Binärzahl)",
           "antwort": "00011"
         },
         {
           "label": "b",
-          "frage": "5",
+          "frage": "5 (als 5-stellige Binärzahl)",
           "antwort": "00101"
         },
         {
           "label": "c",
-          "frage": "6",
+          "frage": "6 (als 5-stellige Binärzahl)",
           "antwort": "00110"
         },
         {
           "label": "d",
-          "frage": "10",
+          "frage": "10 (als 5-stellige Binärzahl)",
           "antwort": "01010"
         }
       ]
@@ -508,8 +508,8 @@
     "loesungsweg": "Stellenwerte: 16, 8, 4, 2, 1. Addiere die Stellenwerte, wo eine 1 steht:\n- a) 10000: 16 = 16\n- b) 10001: 16 + 1 = 17\n- c) 01010: 8 + 2 = 10\n- d) 00110: 4 + 2 = 6\n- e) 10010: 16 + 2 = 18\n- f) 00101: 4 + 1 = 5",
     "tipps": [
       "Schreibe die Stellenwerte (16, 8, 4, 2, 1) über die Ziffern. Addiere nur die Werte, über denen eine 1 steht.",
-      "Lege die Stellenwerte an:\n```\n16  8  4  2  1\n 1  0  0  0  0  → nur 16 → Ergebnis: 16\n```",
-      "b) 10001: Stellenwerte 16, 8, 4, 2, 1. Wo steht eine 1? Bei 16 und bei 1. Also: 16 + 1 = ___",
+      "Lege die Stellenwerte an:\n```\n16  8  4  2  1\n 1  0  0  0  0  → nur 16 → Ergebnis: 16\n```.",
+      "b) 10001: Stellenwerte 16, 8, 4, 2, 1. Wo steht eine 1? Bei 16 und bei 1. Also: 16 + 1 = ___.",
       "Stellenwerte: 16, 8, 4, 2, 1. Addiere die Stellenwerte, wo eine 1 steht:\n- a) 10000: 16 = 16\n- b) 10001: 16 + 1 = 17\n- c) 01010: 8 + 2 = 10\n- d) 00110: 4 + 2 = 6\n- e) 10010: 16 + 2 = 18\n- f) 00101: 4 + 1 = 5"
     ],
     "didaktischerHinweis": "Umwandlung Binär → Dezimal. Entspricht S. 126, Aufg. 5-6.",
@@ -565,7 +565,7 @@
     "tipps": [
       "Jetzt hast du 7 Zettel: 64, 32, 16, 8, 4, 2, 1. Geh wieder von links nach rechts und prüfe, ob der Wert hineinpasst.",
       "a) 25: Passt 64 hinein? Nein (0). Passt 32? Nein (0). Passt 16? Ja (1). Rest: 25 - 16 = 9. Passt 8? Ja (1). Rest: 9 - 8 = 1. Weiter ...",
-      "a) 25 - 16 = 9. Dann 9 - 8 = 1. Dann 1 - 1 = 0. Wo stehen die Einsen? An den Stellen 16, 8 und 1: 00___00___",
+      "a) 25 - 16 = 9. Dann 9 - 8 = 1. Dann 1 - 1 = 0. Wo stehen die Einsen? An den Stellen 16, 8 und 1: 00___00___.",
       "- a) 25: 64? Nein. 32? Nein. 16? Ja(1), Rest 9. 8? Ja(1), Rest 1. 4? Nein. 2? Nein. 1? Ja(1). → 0011001\n- b) 42: 64? Nein. 32? Ja(1), Rest 10. 16? Nein. 8? Ja(1), Rest 2. 4? Nein. 2? Ja(1). 1? Nein. → 0101010\n- c) 56: 64? Nein. 32? Ja(1), Rest 24. 16? Ja(1), Rest 8. 8? Ja(1). 4? Nein. 2? Nein. 1? Nein. → 0111000"
     ],
     "didaktischerHinweis": "Erweiterung auf 7-stellige Binärzahlen. Entspricht S. 126, Aufg. 3-4.",
@@ -607,7 +607,7 @@
       "Nimm den ersten Block: 01001101. Die Stellenwerte sind 128, 64, 32, 16, 8, 4, 2, 1. Addiere die Werte, wo eine 1 steht.",
       "01001101: Stelle die Stellenwerte darüber:\n128  64  32  16  8  4  2  1\n 0    1   0   0  1  1  0  1\nAddiere: 64 + 8 + 4 + 1 = 77. A = 65, B = 66, ... M = ?",
       "64 + 8 + 4 + 1 = 77. A = 65, also: 65→A, 66→B, ..., 77→___ (zähle 77 - 65 = 12 Buchstaben weiter ab A).",
-      "- 01001101 = 64+8+4+1 = 77 → M\n- 01000001 = 64+1 = 65 → A\n- 01010100 = 64+16+4 = 84 → T\n- 01001000 = 64+8 = 72 → H\n- 01000101 = 64+4+1 = 69 → E\n\nDas Wort heißt: MATHE"
+      "- 01001101 = 64+8+4+1 = 77 → M\n- 01000001 = 64+1 = 65 → A\n- 01010100 = 64+16+4 = 84 → T\n- 01001000 = 64+8 = 72 → H\n- 01000101 = 64+4+1 = 69 → E\n\nDas Wort heißt: MATHE."
     ],
     "didaktischerHinweis": "Verknüpfung Binärsystem mit ASCII-Codierung. Entspricht S. 127, Aufg. 8.",
     "parsed": {
@@ -638,8 +638,8 @@
     "tipps": [
       "Prüfe jede Aussage: Rechne nach oder überlege, ob die Regel Sinn macht.",
       "a) Addiere alle Stellenwerte: 16 + 8 + 4 + 2 + 1 = ?\nb) Welche Ziffern gibt es im Zehnersystem? Welche im Binärsystem?",
-      "a) 16 + 8 + 4 + 2 + 1 = ___. Stimmt 31?\nc) 10 im Binärsystem: Die 1 steht auf der 2er-Stelle, die 0 auf der 1er-Stelle. Also 2 + 0 = ___",
-      "- a) 11111 = 16+8+4+2+1 = 31 → richtig\n- b) Im Binärsystem gibt es nur 0 und 1 → falsch\n- c) 10 im Binärsystem: 1·2 + 0·1 = 2 → richtig\n- d) Die 1er-Stelle (ganz rechts) entscheidet über gerade/ungerade. 0 = gerade → richtig"
+      "a) 16 + 8 + 4 + 2 + 1 = ___. Stimmt 31?\nc) 10 im Binärsystem: Die 1 steht auf der 2er-Stelle, die 0 auf der 1er-Stelle. Also 2 + 0 = ___.",
+      "- a) 11111 = 16+8+4+2+1 = 31 → richtig\n- b) Im Binärsystem gibt es nur 0 und 1 → falsch\n- c) 10 im Binärsystem: 1·2 + 0·1 = 2 → richtig\n- d) Die 1er-Stelle (ganz rechts) entscheidet über gerade/ungerade. 0 = gerade → richtig."
     ],
     "didaktischerHinweis": "Vertiefung Binärsystem durch Muster und Regeln. Entspricht S. 126, Aufg. 4.",
     "parsed": {
@@ -689,7 +689,7 @@
       "Die Einheiten werden immer größer: Byte → Kilobyte → Megabyte → Gigabyte. Jede ist 1.024-mal größer als die vorherige.",
       "Merke dir die Reihenfolge: B → KB → MB → GB. Der Faktor ist immer 1.024 (ungefähr 1.000).",
       "Ein Buchstabe braucht 1 Byte. 1.024 Buchstaben brauchen 1 ___. 1.024 davon sind 1 ___.",
-      "Die Einheiten bauen aufeinander auf, immer mit dem Faktor 1.024:\n1 B = 8 Bit → 1 KB = 1.024 B → 1 MB = 1.024 KB → 1 GB = 1.024 MB"
+      "Die Einheiten bauen aufeinander auf, immer mit dem Faktor 1.024:\n1 B = 8 Bit → 1 KB = 1.024 B → 1 MB = 1.024 KB → 1 GB = 1.024 MB."
     ],
     "didaktischerHinweis": "Alltagsbezug zu digitalen Medien. Entspricht S. 128, Einführung.",
     "parsed": {
@@ -754,8 +754,8 @@
     "tipps": [
       "Die nächste Einheit beginnt immer bei 1.024 der vorherigen Einheit. Wie viel fehlt noch?",
       "Ergänzungsaufgabe: Fehlende Menge = 1.024 - vorhandene Menge.",
-      "a) 1.024 - 700 = ___\nb) 1.024 - 600 = ___",
-      "Immer 1.024 minus den vorhandenen Wert:\n- a) 1.024 - 700 = 324 B\n- b) 1.024 - 600 = 424 KB\n- c) 1.024 - 300 = 724 MB"
+      "a) 1.024 - 700 = ___\nb) 1.024 - 600 = ___.",
+      "Immer 1.024 minus den vorhandenen Wert:\n- a) 1.024 - 700 = 324 B\n- b) 1.024 - 600 = 424 KB\n- c) 1.024 - 300 = 724 MB."
     ],
     "didaktischerHinweis": "Ergänzungsaufgaben mit der Umrechnungszahl 1.024. Entspricht S. 128, Aufg. 2.",
     "parsed": {
@@ -795,7 +795,7 @@
     "tipps": [
       "Rechne: 1.024 minus die vorhandene Menge. Das ist wie bei Geld: Wie viel fehlt noch bis zum vollen Betrag?",
       "Du kannst schrittweise rechnen: 1.024 - 500 = 524. Dann: 524 + 5 = 529 (bei a: 1.024 - 495).",
-      "a) 1.024 - 495: Rechne 1.024 - 500 = 524, dann + 5 = ___\nc) 1.024 - 890: Rechne 1.024 - 900 = 124, dann + 10 = ___",
+      "a) 1.024 - 495: Rechne 1.024 - 500 = 524, dann + 5 = ___\nc) 1.024 - 890: Rechne 1.024 - 900 = 124, dann + 10 = ___.",
       "Immer: 1.024 - gegebene Menge = fehlende Menge.\n- a) 1.024 - 495 = 529\n- b) 1.024 - 520 = 504\n- c) 1.024 - 890 = 134\n- d) 1.024 - 798 = 226\n- e) 1.024 - 765 = 259"
     ],
     "didaktischerHinweis": "Subtraktion mit der Zahl 1.024. Entspricht S. 128, Aufg. 3.",
@@ -846,8 +846,8 @@
     "tipps": [
       "Ein Foto = 2 MB. Fünf Fotos = 5-mal so viel. Wie rechnest du das?",
       "a) Anzahl · Größe pro Stück = Gesamtgrösse.\nc) Gesamtspeicher : Größe pro Foto = Anzahl Fotos.",
-      "a) 5 · 2 = ___ MB\nc) 1.000 : 2 = ___ Fotos",
-      "- a) 5 · 2 MB = 10 MB\n- b) 50 · 20 KB = 1.000 KB ≈ 1 MB\n- c) 1 GB ≈ 1.000 MB. 1.000 MB : 2 MB = 500 Fotos"
+      "a) 5 · 2 = ___ MB\nc) 1.000 : 2 = ___ Fotos.",
+      "- a) 5 · 2 MB = 10 MB\n- b) 50 · 20 KB = 1.000 KB ≈ 1 MB\n- c) 1 GB ≈ 1.000 MB. 1.000 MB : 2 MB = 500 Fotos."
     ],
     "didaktischerHinweis": "Sachrechnen mit Datenmengen und Alltagsbezug. Entspricht S. 129, Aufg. 9.",
     "parsed": {
@@ -857,18 +857,18 @@
       "items": [
         {
           "label": "a",
-          "frage": "Wie viel Speicherplatz brauchen 5 Fotos?",
-          "antwort": "10"
+          "frage": "Wie viel Speicherplatz brauchen 5 Fotos? (Antwort in MB)",
+          "antwort": "10 MB"
         },
         {
           "label": "b",
-          "frage": "Wie viel Speicherplatz brauchen 50 Textseiten?",
-          "antwort": "1.000 KB (= ca. 1 MB)"
+          "frage": "Wie viel Speicherplatz brauchen 50 Textseiten? (Antwort in KB)",
+          "antwort": "1.000 KB"
         },
         {
           "label": "c",
           "frage": "Auf Janas Tablet ist noch 1 GB frei. Wie viele Fotos kann sie ungefähr speichern? (1 GB ≈ 1.000 MB)",
-          "antwort": "ungefähr 500 Fotos"
+          "antwort": "500"
         }
       ]
     }
@@ -887,8 +887,8 @@
     "loesungsweg": "1 MB = 1.024 KB.\n1 KB = 1.024 B.\nAlso: 1 MB = 1.024 · 1.024 B = 1.048.576 B.\nDas sind über eine Million Byte!",
     "tipps": [
       "Du weisst: 1 MB = 1.024 KB und 1 KB = 1.024 B. Wenn 1 KB schon 1.024 B sind, wie viele B sind dann 1.024 KB?",
-      "Rechne in zwei Schritten:\n1. 1 MB = 1.024 KB\n2. 1 KB = 1.024 B\n3. Also: 1 MB = 1.024 · 1.024 B",
-      "1.024 · 1.024 — das kannst du so rechnen: 1.024 · 1.000 = 1.024.000, dann + 1.024 · 24 = 24.576. Zusammen: 1.024.000 + 24.576 = ___",
+      "Rechne in zwei Schritten:\n1. 1 MB = 1.024 KB\n2. 1 KB = 1.024 B\n3. Also: 1 MB = 1.024 · 1.024 B.",
+      "1.024 · 1.024 — das kannst du so rechnen: 1.024 · 1.000 = 1.024.000, dann + 1.024 · 24 = 24.576. Zusammen: 1.024.000 + 24.576 = ___.",
       "1 MB = 1.024 KB.\n1 KB = 1.024 B.\nAlso: 1 MB = 1.024 · 1.024 B = 1.048.576 B.\nDas sind über eine Million Byte!"
     ],
     "didaktischerHinweis": "Große Multiplikation als Anwendung. Entspricht S. 128, Aufg. 4.",
@@ -919,8 +919,8 @@
     "tipps": [
       "Rechne zuerst alles in die gleiche Einheit um. 1.500 MB — wie viele GB sind das ungefähr?",
       "1.500 MB ≈ 1,5 GB (weil 1.000 MB ≈ 1 GB).\nDann: 64 GB - 14 GB - 1,5 GB - 5 GB = ?",
-      "64 - 14 = 50. Dann 50 - 1,5 = 48,5. Dann 48,5 - 5 = ___",
-      "1. Betriebssystem: 14 GB\n2. Apps: 1.500 MB = 1,5 GB (ungefähr)\n3. Fotos: 5 GB\n4. Zusammen belegt: 14 + 1,5 + 5 = 20,5 GB\n5. Noch frei: 64 - 20,5 = 43,5 GB"
+      "64 - 14 = 50. Dann 50 - 1,5 = 48,5. Dann 48,5 - 5 = ___.",
+      "1. Betriebssystem: 14 GB\n2. Apps: 1.500 MB = 1,5 GB (ungefähr)\n3. Fotos: 5 GB\n4. Zusammen belegt: 14 + 1,5 + 5 = 20,5 GB\n5. Noch frei: 64 - 20,5 = 43,5 GB."
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Einheitenumrechnung. Entspricht S. 129, Aufg. 11.",
     "parsed": {
@@ -989,8 +989,8 @@
     "tipps": [
       "Schreibe die Zahlen 1 bis 10 auf. Verbinde die erste mit der letzten, die zweite mit der vorletzten. Was fällt dir bei den Summen auf?",
       "Der Gauss-Trick: Paare bilden! 1+10=11, 2+9=11, 3+8=11, ... Wie viele Paare hast du? Multipliziere Paare · Summe pro Paar.",
-      "Du hast 5 Paare, jedes Paar ergibt 11. Also: 5 · 11 = ___",
-      "Die Zahlen 1 bis 10 lassen sich zu 5 Paaren zusammenfassen, die jeweils 11 ergeben:\n- a) 1 + 10 = 11\n- b) 2 + 9 = 11\n- c) 3 + 8 = 11\n- d) 4 + 7 = 11\n- e) 5 + 6 = 11\nEs gibt 5 Paare · 11 = 55.\nProbe: 1+2+3+4+5+6+7+8+9+10 = 55 ✓"
+      "Du hast 5 Paare, jedes Paar ergibt 11. Also: 5 · 11 = ___.",
+      "Die Zahlen 1 bis 10 lassen sich zu 5 Paaren zusammenfassen, die jeweils 11 ergeben:\n- a) 1 + 10 = 11\n- b) 2 + 9 = 11\n- c) 3 + 8 = 11\n- d) 4 + 7 = 11\n- e) 5 + 6 = 11\nEs gibt 5 Paare · 11 = 55.\nProbe: 1+2+3+4+5+6+7+8+9+10 = 55 ✓."
     ],
     "didaktischerHinweis": "Einführung des Gauss-Tricks an kleinem Zahlenbereich. Entspricht S. 130, Aufg. 1-2.",
     "parsed": {
@@ -1040,7 +1040,7 @@
     "tipps": [
       "Der gleiche Trick wie bei 1-10, nur größer! Bilde das erste Paar: 1 + 100 = ___. Und das zweite: 2 + 99 = ___. Was fällt dir auf?",
       "1. Paarsumme: 1 + 100 = 101\n2. Anzahl Paare: 100 : 2 = 50\n3. Gesamtsumme: 50 · 101 = ?",
-      "50 · 101 = 50 · 100 + 50 · 1 = 5.000 + 50 = ___",
+      "50 · 101 = 50 · 100 + 50 · 1 = 5.000 + 50 = ___.",
       "- a) 1 + 100 = 101 (auch 2+99 = 101, 3+98 = 101, ...)\n- b) 100 Zahlen : 2 = 50 Paare\n- c) 50 · 101 = 5.050"
     ],
     "didaktischerHinweis": "Anwendung des Gauss-Tricks auf den klassischen Fall. Entspricht S. 130, Aufg. 2.",
@@ -1081,7 +1081,7 @@
     "tipps": [
       "a) Wie viele ungerade Zahlen gibt es von 1 bis 100? Bilde wieder Paare: 1+99 = ?",
       "a) Es gibt 50 ungerade Zahlen. Paare: 1+99=100, 3+97=100, ... Das sind 25 Paare mit je 100.\nb) Gesamtsumme (5.050) minus ungerade Summe = gerade Summe.",
-      "a) 25 Paare · 100 = ___\nb) 5.050 - ___ = ___",
+      "a) 25 Paare · 100 = ___\nb) 5.050 - ___ = ___.",
       "a) Ungerade Zahlen: 1, 3, 5, ..., 99. Das sind 50 Zahlen.\n   Paare: 1+99=100, 3+97=100, ..., 49+51=100.\n   25 Paare · 100 = 2.500.\nb) Gesamtsumme 1-100 = 5.050. Minus ungerade: 5.050 - 2.500 = 2.550.\n   Oder direkt: 2, 4, 6, ..., 100 = 50 Zahlen. Paare: 2+100=102, 25 Paare. 25·102 = 2.550."
     ],
     "didaktischerHinweis": "Vertiefung des Gauss-Tricks mit Teilmengen. Entspricht S. 130, Aufg. 3.",
@@ -1115,9 +1115,9 @@
     "loesung": "20.100",
     "loesungsweg": "Paare: 1+200 = 201.\nAnzahl Paare: 200 : 2 = 100.\nSumme: 100 · 201 = 20.100.",
     "tipps": [
-      "Der Gauss-Trick funktioniert genauso: Bilde das erste Paar: 1 + 200 = ___. Wie viele Paare gibt es?",
+      "Der Gauss-Trick klappt genauso: Bilde das erste Paar: 1 + 200 = ___. Wie viele Paare gibt es?",
       "1. Paarsumme: 1 + 200 = 201\n2. Paare: 200 : 2 = 100\n3. Gesamtsumme: 100 · 201 = ?",
-      "100 · 201 = 100 · 200 + 100 · 1 = 20.000 + 100 = ___",
+      "100 · 201 = 100 · 200 + 100 · 1 = 20.000 + 100 = ___.",
       "Paare: 1+200 = 201.\nAnzahl Paare: 200 : 2 = 100.\nSumme: 100 · 201 = 20.100."
     ],
     "didaktischerHinweis": "Transfer auf größeren Zahlenraum. Entspricht S. 130, Aufg. 4.",
@@ -1148,7 +1148,7 @@
     "tipps": [
       "Jeden Tag verdoppeln: Tag 3 = 4 Cent. Tag 4 = 4 · 2 = ___. Tag 5 = ___ · 2 = ___.",
       "Verdoppelungsreihe: 1, 2, 4, 8, 16, 32. Addiere dann alle Beträge für die Gesamtsumme.",
-      "Tag 4: 4 · 2 = 8. Tag 5: 8 · 2 = ___. Tag 6: ___ · 2 = ___.\nSumme: 1 + 2 + 4 + 8 + ___ + ___ = ___",
+      "Tag 4: 4 · 2 = 8. Tag 5: 8 · 2 = ___. Tag 6: ___ · 2 = ___.\nSumme: 1 + 2 + 4 + 8 + ___ + ___ = ___.",
       "Immer verdoppeln: 1, 2, 4, 8, 16, 32.\nSumme: 1+2+4+8+16+32 = 63 Cent."
     ],
     "didaktischerHinweis": "Exponentielles Wachstum anschaulich. Entspricht S. 131, Aufg. 6.",
@@ -1204,8 +1204,8 @@
     "tipps": [
       "Du kennst schon Tag 6 = 32. Verdopple weiter: 32, 64, 128, 256, ___. Bei welchem Tag bist du bei 512?",
       "Verdopple schrittweise: Tag 7 = 64, Tag 8 = 128, Tag 9 = 256, Tag 10 = ___.\nDann weiter bis Tag 15.",
-      "Tag 10 = 512. Tag 11 = 1.024. Tag 12 = 2.048. Tag 13 = 4.096. Tag 14 = 8.192. Tag 15 = ___",
-      "Die Reihe: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1.024, 2.048, 4.096, 8.192, 16.384.\n- a) Tag 10: 512 ct\n- b) Tag 15: 16.384 ct\n- c) 16.384 : 100 = 163,84 Euro"
+      "Tag 10 = 512. Tag 11 = 1.024. Tag 12 = 2.048. Tag 13 = 4.096. Tag 14 = 8.192. Tag 15 = ___.",
+      "Die Reihe: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1.024, 2.048, 4.096, 8.192, 16.384.\n- a) Tag 10: 512 ct\n- b) Tag 15: 16.384 ct\n- c) 16.384 : 100 = 163,84 Euro."
     ],
     "didaktischerHinweis": "Exponentielles Wachstum weiterführen. Entspricht S. 131, Aufg. 6-7.",
     "parsed": {
@@ -1246,8 +1246,8 @@
     "tipps": [
       "Zähle getrennt: Wie viel hat Fredo insgesamt AUSGEGEBEN (Kauf)? Wie viel hat er insgesamt BEKOMMEN (Verkauf)?",
       "Gesamteinnahmen = 30 + 50 = 80 Euro.\nGesamtausgaben = 20 + 40 = 60 Euro.\nGewinn = Einnahmen - Ausgaben = ?",
-      "Einnahmen: 30 + 50 = 80. Ausgaben: 20 + 40 = 60. Gewinn: 80 - 60 = ___",
-      "Einnahmen (Verkauf): 30 + 50 = 80 Euro.\nAusgaben (Kauf): 20 + 40 = 60 Euro.\nGewinn: 80 - 60 = 20 Euro.\n\nOder schrittweise:\n- Kauf: -20 Euro (hat 20 ausgegeben)\n- Verkauf: +30 Euro (hat 30 bekommen) → Stand: +10 Euro\n- Kauf: -40 Euro → Stand: -30 Euro\n- Verkauf: +50 Euro → Stand: +20 Euro"
+      "Einnahmen: 30 + 50 = 80. Ausgaben: 20 + 40 = 60. Gewinn: 80 - 60 = ___.",
+      "Einnahmen (Verkauf): 30 + 50 = 80 Euro.\nAusgaben (Kauf): 20 + 40 = 60 Euro.\nGewinn: 80 - 60 = 20 Euro.\n\nOder schrittweise:\n- Kauf: -20 Euro (hat 20 ausgegeben)\n- Verkauf: +30 Euro (hat 30 bekommen) → Stand: +10 Euro\n- Kauf: -40 Euro → Stand: -30 Euro\n- Verkauf: +50 Euro → Stand: +20 Euro."
     ],
     "didaktischerHinweis": "Klassisches Knobelrätsel mit Gewinn/Verlust-Rechnung. Entspricht S. 131, Aufg. 8.",
     "parsed": {
@@ -1278,7 +1278,7 @@
     "tipps": [
       "Immer der gleiche Trick: Erstes + Letztes = Paarsumme. Anzahl : 2 = Paare. Paare · Paarsumme = Ergebnis.",
       "a) 1+50 = 51. Paare: 50 : 2 = 25. Also: 25 · 51 = ?",
-      "a) 25 · 51 = 25 · 50 + 25 · 1 = 1.250 + 25 = ___\nb) 250 · 501 = 250 · 500 + 250 · 1 = 125.000 + 250 = ___",
+      "a) 25 · 51 = 25 · 50 + 25 · 1 = 1.250 + 25 = ___\nb) 250 · 501 = 250 · 500 + 250 · 1 = 125.000 + 250 = ___.",
       "- a) 1+50=51, 25 Paare. 25·51 = 1.275\n- b) 1+500=501, 250 Paare. 250·501 = 125.250\n- c) 5.050 - 1.275 = 3.775"
     ],
     "didaktischerHinweis": "Systematische Anwendung des Gauss-Tricks. Entspricht S. 130, Aufg. 2-4 zusammenfassend.",
@@ -1318,7 +1318,7 @@
     "loesungsweg": "- 8 + 13 = 21\n- 13 + 21 = 34\n- 21 + 34 = 55\n\nDie Fibonacci-Regel: Jede Zahl ist die Summe der beiden vorherigen.",
     "tipps": [
       "Schau dir an, wie die Zahlen zusammenhängen: 1+1=2, 1+2=3, 2+3=5, 3+5=8, 5+8=13. Siehst du das Muster?",
-      "Addiere immer die letzten beiden Zahlen: Die nächste nach 8 und 13 ist 8 + 13 = ___",
+      "Addiere immer die letzten beiden Zahlen: Die nächste nach 8 und 13 ist 8 + 13 = ___.",
       "8 + 13 = ___. Dann 13 + ___ = ___. Dann ___ + ___ = ___.",
       "- 8 + 13 = 21\n- 13 + 21 = 34\n- 21 + 34 = 55\n\nDie Fibonacci-Regel: Jede Zahl ist die Summe der beiden vorherigen."
     ],
@@ -1358,7 +1358,7 @@
     "loesung": "a) 4, 5, 9, 14, 23\nb) 5, 7, 12, 19, 31\nc) 7, 10, 17, 27, 44",
     "loesungsweg": "- a) 4+5=9, 5+9=14, 9+14=23\n- b) 5+7=12, 7+12=19, 12+19=31\n- c) 7+10=17, 10+17=27, 17+27=44",
     "tipps": [
-      "Die Regel ist immer gleich: Addiere die letzten zwei Zahlen! Bei a): 4 + 5 = ___",
+      "Die Regel ist immer gleich: Addiere die letzten zwei Zahlen! Bei a): 4 + 5 = ___.",
       "Schreibe die Zahlen auf und addiere jeweils die beiden letzten:\na) 4, 5, (4+5)=___, (5+___)=___, ...",
       "a) 4+5 = 9. 5+9 = ___. 9+___ = ___.",
       "- a) 4+5=9, 5+9=14, 9+14=23\n- b) 5+7=12, 7+12=19, 12+19=31\n- c) 7+10=17, 10+17=27, 17+27=44"
@@ -1418,12 +1418,12 @@
         {
           "label": "b",
           "frage": "___, 10, 15, ___, ___",
-          "antwort": "15, 25, 40"
+          "antwort": "5, 25, 40"
         },
         {
           "label": "c",
           "frage": "___, ___, 34, 62, ___",
-          "antwort": "34, 62, 96"
+          "antwort": "6, 28, 96"
         }
       ]
     }
@@ -1443,8 +1443,8 @@
     "tipps": [
       "Probiere verschiedene Startzahlen aus. Schreibe die Folge auf und schau, ob du bei 100 landest.",
       "Rückwärts denken: Wenn die 5. Zahl 100 ist, was sind dann die 3. und 4. Zahl? Sie müssen zusammen 100 ergeben!",
-      "Die 4. und 3. Zahl müssen zusammen 100 ergeben. Probiere: 3. Zahl = 35, 4. Zahl = 65. Dann rückwärts: 65-35=30. Also Startzahlen 5 und 30. Prüfe: 5, 30, 35, 65, ___",
-      "Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.\nProbiere verschiedene Startzahlen aus:\n- a=5: 3b = 90, b = 30 → 5, 30, 35, 65, 100 ✓\n- a=8: 3b = 84, b = 28 → 8, 28, 36, 64, 100 ✓"
+      "Die 4. und 3. Zahl müssen zusammen 100 ergeben. Probiere: 3. Zahl = 35, 4. Zahl = 65. Dann rückwärts: 65-35=30. Also Startzahlen 5 und 30. Prüfe: 5, 30, 35, 65, ___.",
+      "Bei 5 Fibonacci-Zahlen (a, b, a+b, a+2b, 2a+3b) muss die 5. Zahl = 100 sein: 2a + 3b = 100.\nProbiere verschiedene Startzahlen aus:\n- a=5: 3b = 90, b = 30 → 5, 30, 35, 65, 100 ✓\n- a=8: 3b = 84, b = 28 → 8, 28, 36, 64, 100 ✓."
     ],
     "didaktischerHinweis": "Kreatives Rückwärtsarbeiten. Entspricht S. 133, Aufg. 5.",
     "parsed": {
@@ -1455,7 +1455,7 @@
         {
           "label": "1",
           "frage": "Finde mindestens 2 verschiedene Folgen.",
-          "antwort": "34, 66, 100 ✓"
+          "antwort": "z. B. 2, 32, 34, 66, 100 und 5, 30, 35, 65, 100"
         }
       ]
     }
@@ -1534,12 +1534,12 @@
         {
           "label": "a",
           "frage": "7, ___, ___, ___, 44",
-          "antwort": "17, 27, 44 (Probe: 7+10=17, 10+17=27, 17+27=44 ✓)"
+          "antwort": "10, 17, 27"
         },
         {
           "label": "b",
           "frage": "10, ___, ___, ___, 59",
-          "antwort": "23, 36, 59 (Probe: 10+13=23, 13+23=36, 23+36=59 ✓)"
+          "antwort": "13, 23, 36"
         }
       ]
     }
@@ -1559,7 +1559,7 @@
     "tipps": [
       "Rechne alle vier Folgen zu Ende und vergleiche die fünften Zahlen. Was fällt dir auf?",
       "Rechne die 5. Zahl jeweils aus. Die Unterschiede zwischen den 5. Zahlen verraten dir das Muster.",
-      "a) 15+22 = ___. b) 16+24 = ___. c) 17+26 = ___. d) 18+28 = ___.\nUnterschied: ___ - 37 = ___",
+      "a) 15+22 = ___. b) 16+24 = ___. c) 17+26 = ___. d) 18+28 = ___.\nUnterschied: ___ - 37 = ___.",
       "- a) 8, 7: 15, 22, 37\n- b) 8, 8: 16, 24, 40\n- c) 8, 9: 17, 26, 43\n- d) 8, 10: 18, 28, 46\n\nUnterschiede: 40-37=3, 43-40=3, 46-43=3.\nWenn die 2. Zahl um 1 wächst, wächst die 5. um 3 (weil 5. = 2a + 3b → +3)."
     ],
     "didaktischerHinweis": "Systematisches Vergleichen und Muster finden. Entspricht S. 133, Aufg. 9-10.",
@@ -1638,8 +1638,8 @@
     "tipps": [
       "Schau dir die Schritte zwischen den Zahlen an: Bei a) 3-1=2, 5-3=2, 7-5=2. Was ist der Schritt?",
       "Finde den Abstand zwischen den Zahlen. Addiere diesen Abstand immer wieder zur letzten Zahl.",
-      "a) Abstand = 2. Also: 7+2=___, ___+2=___, ___+2=___",
-      "- a) Immer +2: 1, 3, 5, 7, 9, 11, 13 → alle ungerade\n- b) Immer +3: 3, 6, 9, 12, 15, 18, 21 → Dreierreihe\n- c) Immer +10: 10, 20, 30, 40, 50, 60, 70 → Zehnerreihe"
+      "a) Abstand = 2. Also: 7+2=___, ___+2=___, ___+2=___.",
+      "- a) Immer +2: 1, 3, 5, 7, 9, 11, 13 → alle ungerade\n- b) Immer +3: 3, 6, 9, 12, 15, 18, 21 → Dreierreihe\n- c) Immer +10: 10, 20, 30, 40, 50, 60, 70 → Zehnerreihe."
     ],
     "didaktischerHinweis": "Einführung in Zahlenmuster. Entspricht S. 136, Aufg. 1.",
     "parsed": {
@@ -1713,7 +1713,7 @@
       "Finde zuerst ALLE Teiler. Denke daran: Teiler kommen in Paaren! 16:2=8, also sind 2 und 8 Teiler.",
       "Systematisch prüfen: Ist die Zahl durch 1, 2, 3, 4, 5, ... teilbar? Wenn ja, notiere den Teiler. Addiere alle echten Teiler.",
       "a) 16: Durch 1 teilbar ✓ (1). Durch 2 ✓ (2,8). Durch 4 ✓ (4). Summe: 1+2+4+8 = ___. Mehr oder weniger als 16?",
-      "- a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm\n- b) Teiler von 25: 1, 5, 25. Echte: 1+5 = 6 < 25 → arm\n- c) Teiler von 40: 1, 2, 4, 5, 8, 10, 20, 40. Echte: 1+2+4+5+8+10+20 = 50 > 40 → reich"
+      "- a) Teiler von 16: 1, 2, 4, 8, 16. Echte: 1+2+4+8 = 15 < 16 → arm\n- b) Teiler von 25: 1, 5, 25. Echte: 1+5 = 6 < 25 → arm\n- c) Teiler von 40: 1, 2, 4, 5, 8, 10, 20, 40. Echte: 1+2+4+5+8+10+20 = 50 > 40 → reich."
     ],
     "didaktischerHinweis": "Vertiefung arme/reiche Zahlen. Entspricht S. 136, Aufg. 2b.",
     "parsed": {
@@ -1796,7 +1796,7 @@
     "loesungsweg": "Sieb des Eratosthenes:\n1. Die 1 ist keine Primzahl (nur ein Teiler).\n2. 2 ist Primzahl. Streiche 4, 6, 8, 10, 12, 14, 16, 18, 20.\n3. 3 ist Primzahl. Streiche 6, 9, 12, 15, 18 (teils schon gestrichen).\n4. 5 ist Primzahl. Streiche 10, 15, 20 (schon gestrichen).\n5. Übrig: 2, 3, 5, 7, 11, 13, 17, 19.",
     "tipps": [
       "Schreibe die Zahlen 1-20 auf. Die 1 ist KEINE Primzahl (sie hat nur einen Teiler). Streiche jetzt alle Zahlen, die durch 2 teilbar sind (außer der 2 selbst).",
-      "Das Sieb des Eratosthenes:\n1. Schreibe alle Zahlen auf\n2. Streiche die 1\n3. Behalte die 2, streiche alle anderen geraden Zahlen\n4. Behalte die 3, streiche alle anderen Vielfachen von 3\n5. Die übrigen sind Primzahlen",
+      "Das Sieb des Eratosthenes:\n1. Schreibe alle Zahlen auf\n2. Streiche die 1\n3. Behalte die 2, streiche alle anderen geraden Zahlen\n4. Behalte die 3, streiche alle anderen Vielfachen von 3\n5. Die übrigen sind Primzahlen.",
       "Nach dem Streichen bleiben: 2, 3, 5, 7, ___, ___, ___, ___. Prüfe: Hat jede dieser Zahlen wirklich nur zwei Teiler?",
       "Sieb des Eratosthenes:\n1. Die 1 ist keine Primzahl (nur ein Teiler).\n2. 2 ist Primzahl. Streiche 4, 6, 8, 10, 12, 14, 16, 18, 20.\n3. 3 ist Primzahl. Streiche 6, 9, 12, 15, 18 (teils schon gestrichen).\n4. 5 ist Primzahl. Streiche 10, 15, 20 (schon gestrichen).\n5. Übrig: 2, 3, 5, 7, 11, 13, 17, 19."
     ],
@@ -1830,7 +1830,7 @@
       "Prüfe, ob die Zahl durch 2, 3, 5 oder 7 teilbar ist. Wenn ja, ist es KEINE Primzahl.",
       "Teilbarkeitsregeln nutzen:\n- Durch 2 teilbar? → letzte Ziffer gerade?\n- Durch 3 teilbar? → Quersumme durch 3 teilbar?\n- Durch 5 teilbar? → endet auf 0 oder 5?",
       "b) 27: Quersumme = 2+7 = 9. Ist 9 durch 3 teilbar? ___. Also ist 27 durch 3 teilbar → ___ Primzahl.",
-      "Prüfe, ob die Zahl durch kleine Primzahlen (2, 3, 5, 7) teilbar ist:\n- 23: nicht durch 2, 3, 5 oder 7 teilbar → Primzahl\n- 27: 27:3=9 → teilbar → keine Primzahl\n- 31: nicht durch 2, 3, 5 teilbar → Primzahl\n- 33: 33:3=11 → teilbar → keine Primzahl\n- 37: nicht durch 2, 3, 5 teilbar → Primzahl"
+      "Prüfe, ob die Zahl durch kleine Primzahlen (2, 3, 5, 7) teilbar ist:\n- 23: nicht durch 2, 3, 5 oder 7 teilbar → Primzahl\n- 27: 27:3=9 → teilbar → keine Primzahl\n- 31: nicht durch 2, 3, 5 teilbar → Primzahl\n- 33: 33:3=11 → teilbar → keine Primzahl\n- 37: nicht durch 2, 3, 5 teilbar → Primzahl."
     ],
     "didaktischerHinweis": "Primzahlprüfung mit Teilbarkeitsregeln. Entspricht S. 137, Aufg. 6b.",
     "parsed": {
@@ -1928,21 +1928,30 @@
     "loesungsweg": "Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.\n- a) Reihe 5: 3+3 = 6 → Reihe 5: 1, 4, **6**, 4, 1\n- b) Reihe 6: 1+4 = 5 → ergibt **5** (linke Lücke)\n- c) Reihe 6: 6+4 = 10 → Reihe 6: 1, **5**, 10, **10**, 5, 1",
     "tipps": [
       "Jede Zahl entsteht durch Addition der beiden Zahlen schräg darüber. Zum Beispiel: 2 = 1+1, 3 = 1+2. Welche zwei Zahlen stehen über der Lücke?",
-      "Schau immer eine Reihe höher. Die Lücke in Reihe 5 liegt zwischen zwei 3en: 3+3 = ___",
+      "Schau immer eine Reihe höher. Die Lücke in Reihe 5 liegt zwischen zwei 3en: 3+3 = ___.",
       "Reihe 5: ___ = 3 + 3 = 6.\nReihe 6: ___ = 1 + 4 = ___. Und ___ = 6 + 4 = ___.",
       "Die Regel: Jede Zahl = Summe der beiden Zahlen schräg darüber.\n- a) Reihe 5: 3+3 = 6 → Reihe 5: 1, 4, **6**, 4, 1\n- b) Reihe 6: 1+4 = 5 → ergibt **5** (linke Lücke)\n- c) Reihe 6: 6+4 = 10 → Reihe 6: 1, **5**, 10, **10**, 5, 1"
     ],
     "didaktischerHinweis": "Grundregel des pascalschen Dreiecks. Entspricht S. 138, Aufg. 1-2.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.",
       "kontext": "Im pascalschen Dreieck entsteht jede Zahl als Summe der beiden Zahlen darüber. Ergänze die fehlenden Zahlen.",
       "items": [
         {
-          "label": "1",
-          "frage": "```\n        1\n       1  1\n      1  2  1\n     1  3  3  1\n    1  4  a)___  4  1\n   1  b)___  10  c)___  5  1\n```",
-          "antwort": "a) 6 (fehlende Zahl in Reihe 5)"
+          "label": "a",
+          "frage": "Reihe 5: 1, 4, ___, 4, 1 — welche Zahl fehlt?",
+          "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Reihe 6: 1, ___, 10, 10, 5, 1 — welche Zahl fehlt links?",
+          "antwort": "5"
+        },
+        {
+          "label": "c",
+          "frage": "Reihe 6: 1, 5, 10, ___, 5, 1 — welche Zahl fehlt?",
+          "antwort": "10"
         }
       ]
     }
@@ -1962,29 +1971,28 @@
     "tipps": [
       "Wenn die untere Zahl die Summe der beiden oberen ist, kannst du die fehlende obere Zahl durch Subtraktion finden!",
       "Untere Zahl = links oben + rechts oben.\nAlso: fehlende Zahl = untere Zahl - bekannte obere Zahl.",
-      "a) 210 - 84 = ___\nb) 252 - 126 = ___",
+      "a) 210 - 84 = ___\nb) 252 - 126 = ___.",
       "Jede Zahl unten ist die Summe der beiden Zahlen darüber:\n- a) 84 + x = 210 → x = 210 - 84 = 126\n- b) x + 126 = 252 → x = 252 - 126 = 126\n- c) 120 + x = 330 → x = 330 - 120 = 210"
     ],
     "didaktischerHinweis": "Rückwärtsrechnen im pascalschen Dreieck. Entspricht S. 138, Aufg. 2.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "Ergänze die fehlenden Zahlen in diesen Ausschnitten aus dem pascalschen Dreieck.",
       "items": [
         {
           "label": "a",
-          "frage": "```",
-          "antwort": "84 + ___ = 210 → ___ = 126"
+          "frage": "84 und ___ ergeben zusammen 210. Welche Zahl fehlt?",
+          "antwort": "126"
         },
         {
           "label": "b",
-          "frage": "```",
-          "antwort": "___ + 126 = 252 → ___ = 126"
+          "frage": "___ und 126 ergeben zusammen 252. Welche Zahl fehlt?",
+          "antwort": "126"
         },
         {
           "label": "c",
-          "frage": "```",
-          "antwort": "120 + ___ = 330 → ___ = 210"
+          "frage": "120 und ___ ergeben zusammen 330. Welche Zahl fehlt?",
+          "antwort": "210"
         }
       ]
     }
@@ -2004,11 +2012,10 @@
     "tipps": [
       "Addiere die Zahlen in jeder Reihe. Schreibe die Summen untereinander. Was fällt dir auf?",
       "Reihe 1: 1. Reihe 2: 2. Reihe 3: 4. Was passiert von Summe zu Summe? Es wird immer ...",
-      "1, 2, 4, ___, ___, ___. Immer verdoppeln! 4·2=___, 8·2=___, 16·2=___",
+      "1, 2, 4, ___, ___, ___. Immer verdoppeln! 4·2=___, 8·2=___, 16·2=___.",
       "Die Summen sind: 1, 2, 4, 8, 16, 32.\nDas sind die Zweierpotenzen: 2^0, 2^1, 2^2, 2^3, 2^4, 2^5.\nJede Reihensumme ist das Doppelte der vorherigen."
     ],
     "didaktischerHinweis": "Muster in Reihensummen entdecken — Verbindung zum Binärsystem! Entspricht S. 139, Aufg. 5.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Addiere alle Zahlen in jeder Reihe des pascalschen Dreiecks.\n\nReihe 1: 1 = ___\nReihe 2: 1 + 1 = ___\nReihe 3: 1 + 2 + 1 = ___\nReihe 4: 1 + 3 + 3 + 1 = ___\nReihe 5: 1 + 4 + 6 + 4 + 1 = ___\nReihe 6: 1 + 5 + 10 + 10 + 5 + 1 = ___",
@@ -2017,7 +2024,7 @@
         {
           "label": "1",
           "frage": "Was fällt dir bei den Summen auf?",
-          "antwort": "Reihe 1: 1"
+          "antwort": "1, 2, 4, 8, 16, 32 — die Summen verdoppeln sich jede Reihe"
         }
       ]
     }
@@ -2037,11 +2044,10 @@
     "tipps": [
       "Schau dir das Dreieck genau an. Lies die Zahlen am Rand, die Diagonalen und vergleiche linke und rechte Seite.",
       "Prüfe jede Aussage einzeln am Dreieck. Bei d): Was ist die Summe von Reihe 1?",
-      "d) Reihe 1: nur die 1. Summe = 1. Ist 1 gerade? ___",
-      "- a) Jede Reihe: 1, ..., 1 → richtig\n- b) z.B. Reihe 7: 1, 6, 15, 20, 15, 6, 1 — links = rechts → richtig\n- c) Zweite Diagonale: 1, 2, 3, 4, 5, ... → natürliche Zahlen → richtig\n- d) Reihe 1: Summe = 1 (ungerade) → falsch"
+      "d) Reihe 1: nur die 1. Summe = 1. Ist 1 gerade? ___.",
+      "- a) Jede Reihe: 1, ..., 1 → richtig\n- b) z.B. Reihe 7: 1, 6, 15, 20, 15, 6, 1 — links = rechts → richtig\n- c) Zweite Diagonale: 1, 2, 3, 4, 5, ... → natürliche Zahlen → richtig\n- d) Reihe 1: Summe = 1 (ungerade) → falsch."
     ],
     "didaktischerHinweis": "Muster und Symmetrie im pascalschen Dreieck entdecken. Entspricht S. 138-139, Aufg. 1, 4.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Richtig oder falsch? Schau dir das pascalsche Dreieck genau an.",
@@ -2087,12 +2093,11 @@
     "loesungsweg": "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓",
     "tipps": [
       "Für Teilbarkeit durch 5: Schau auf die letzte Ziffer. Endet sie auf 0 oder 5?",
-      "Prüfe jede Zahl einzeln. Nutze die Teilbarkeitsregeln:\n- Durch 5: letzte Ziffer 0 oder 5\n- Durch 3: Quersumme durch 3 teilbar",
-      "a) 55 endet auf 5 → durch 5 teilbar ✓. 165 endet auf 5 → ✓. 330 endet auf 0 → ✓. 462 endet auf 2 → ___",
-      "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓"
+      "Prüfe jede Zahl einzeln. Nutze die Teilbarkeitsregeln:\n- Durch 5: letzte Ziffer 0 oder 5\n- Durch 3: Quersumme durch 3 teilbar.",
+      "a) 55 endet auf 5 → durch 5 teilbar ✓. 165 endet auf 5 → ✓. 330 endet auf 0 → ✓. 462 endet auf 2 → ___.",
+      "a) Prüfe die Teilbarkeit durch 5 (endet auf 0 oder 5):\n55✓, 165✓, 330✓, 462✗, 462✗, 330✓, 165✓, 55✓\nb) Quersummenregel für 3:\n165→12✓, 330→6✓, 462→12✓."
     ],
     "didaktischerHinweis": "Verbindung Teilbarkeit und pascalsches Dreieck. Entspricht S. 139, Aufg. 4.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Schau dir die Reihe 12 des pascalschen Dreiecks an:\n\n1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1",
@@ -2130,12 +2135,11 @@
     "loesungsweg": "Dreieckszahlen: Man addiert jeweils die nächste natürliche Zahl:\n1, 1+2=3, 1+2+3=6, 1+2+3+4=10, ..., 1+2+...+7=28.\n\nIm pascalschen Dreieck stehen sie in der dritten Diagonale (von aussen gezählt).",
     "tipps": [
       "Schau dir die Abstande zwischen den Dreieckszahlen an: 3-1=2, 6-3=3, 10-6=4, 15-10=5, 21-15=6. Was ist der nächste Abstand?",
-      "Der nächste Abstand ist 7 (die Abstande wachsen immer um 1). Also: 21 + 7 = ___",
-      "Abstande: 2, 3, 4, 5, 6, 7. Also nächste Dreieckszahl: 21 + 7 = ___",
+      "Der nächste Abstand ist 7 (die Abstande wachsen immer um 1). Also: 21 + 7 = ___.",
+      "Abstande: 2, 3, 4, 5, 6, 7. Also nächste Dreieckszahl: 21 + 7 = ___.",
       "Dreieckszahlen: Man addiert jeweils die nächste natürliche Zahl:\n1, 1+2=3, 1+2+3=6, 1+2+3+4=10, ..., 1+2+...+7=28.\n\nIm pascalschen Dreieck stehen sie in der dritten Diagonale (von aussen gezählt)."
     ],
     "didaktischerHinweis": "Dreieckszahlen als besondere Zahlenfolge im pascalschen Dreieck. Entspricht S. 139, Lernaufgabe.",
-    "erklaerungBild": "assets/erklaerungen/s138-pascalsches-dreieck.webp",
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Dreieckszahlen sind Zahlen, die man als Dreieck aus Punkten legen kann:\n\n1, 3, 6, 10, 15, 21, ...",

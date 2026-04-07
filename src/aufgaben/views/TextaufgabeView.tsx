@@ -9,46 +9,78 @@ import { MarkdownText } from './MarkdownText';
 import { normalizeZahl } from '../parserHelpers';
 import { RechenketteViz } from '@/components/ui/RechenketteViz';
 
-/** Zählt Ergebnis-Positionen in einer Rechenkette (Zahlen nach der Startzahl). */
-function countKetteErgebnisse(kette: string): number {
-  const teile = kette.split('→').map((s) => s.trim());
+/** Prüft ob ein Text eine Ketten-Vorlage mit Lücken (___/▢) und Pfeilen (→) ist. */
+function istKettenVorlage(text: string): boolean {
+  return /→/.test(text) && (/___/.test(text) || /▢/.test(text));
+}
+
+/** Zählt Ergebnis-Positionen anhand einer Vorlage (= Blank-Positionen). */
+function countBlanks(vorlage: string): number {
+  const teile = vorlage.split('→').map((s) => s.trim());
   let count = 0;
-  for (let i = 1; i < teile.length; i++) {
-    if (!/^[+\-−·:×÷]/.test(teile[i])) count++;
+  for (const teil of teile) {
+    if (/▢|___/.test(teil)) count++;
   }
   return count;
 }
 
+/** Extrahiert die Lösungskette aus loesung oder loesungsweg. */
+function extractLoesungKette(loesung: string | undefined, loesungsweg: string | undefined): string | null {
+  // Zuerst in loesung suchen (z.B. "120 → · 3 → 360 → + 240 → 600")
+  const loesungMatch = loesung?.match(/(\d[\d.,]*(?:\s*→\s*[^→\n]+){2,})/);
+  if (loesungMatch) return loesungMatch[1];
+  // Fallback: loesungsweg
+  const wegMatch = loesungsweg?.match(/(\d[\d.,]*(?:\s*→\s*[^→\n]+){2,})/);
+  return wegMatch ? wegMatch[1] : null;
+}
+
+interface RechenketteInfo {
+  loesungKette: string;
+  vorlage: string;
+  /** Bereinigter Kontext-Text (nur gesetzt wenn Kette im Kontext war) */
+  kontextOhneKette?: string;
+  /** true wenn die Kette im Frage-Feld war (statt im Kontext) */
+  istFrageKette: boolean;
+  anzahlBlanks: number;
+}
+
 /**
- * Erkennt eine Vorwärts-Rechenkette mit Lücken im Kontext-Text.
- * Gibt die Lösungskette und den bereinigten Kontext zurück.
+ * Erkennt eine Rechenkette mit Lücken — sucht im Kontext UND in der Frage.
+ * Funktioniert für Vorwärts- und Rückwärts-Ketten.
  */
 function detectRechenkette(
   kontext: string | undefined,
+  frage: string | undefined,
+  loesung: string | undefined,
   loesungsweg: string | undefined,
-): { loesungKette: string; kontextOhneKette: string } | null {
-  if (!kontext) return null;
+): RechenketteInfo | null {
+  // 1) Kette im Kontext suchen (z.B. Schulfest: "10 → -2 → ___ → ...")
+  if (kontext) {
+    const lines = kontext.split('\n');
+    const chainLineIdx = lines.findIndex((line) => istKettenVorlage(line.trim()));
+    if (chainLineIdx !== -1) {
+      const vorlage = lines[chainLineIdx].trim();
+      const loesungKette = extractLoesungKette(loesung, loesungsweg);
+      if (loesungKette) {
+        const kontextOhneKette = lines
+          .filter((_, i) => i !== chainLineIdx)
+          .join('\n')
+          .replace(/\n{3,}/g, '\n\n')
+          .trim();
+        return { loesungKette, vorlage, kontextOhneKette, istFrageKette: false, anzahlBlanks: countBlanks(vorlage) };
+      }
+    }
+  }
 
-  const lines = kontext.split('\n');
-  const chainLineIdx = lines.findIndex((line) => {
-    const t = line.trim();
-    // Muss → enthalten, Lücken haben (___/▢) und mit einer Zahl starten (= Vorwärts)
-    return /→/.test(t) && (/___/.test(t) || /▢/.test(t)) && /^\d/.test(t);
-  });
-  if (chainLineIdx === -1) return null;
+  // 2) Kette in der Frage suchen (z.B. Rückwärts: "▢ → · 3 → ▢ → + 240 → 600")
+  if (frage && istKettenVorlage(frage)) {
+    const loesungKette = extractLoesungKette(loesung, loesungsweg);
+    if (loesungKette) {
+      return { loesungKette, vorlage: frage, istFrageKette: true, anzahlBlanks: countBlanks(frage) };
+    }
+  }
 
-  // Lösungskette aus loesungsweg extrahieren
-  const solMatch = loesungsweg?.match(/(\d[\d.,]*(?:\s*→\s*[^→\n]+){2,})/);
-  if (!solMatch) return null;
-
-  // Kontext ohne die Ketten-Zeile
-  const kontextOhneKette = lines
-    .filter((_, i) => i !== chainLineIdx)
-    .join('\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
-
-  return { loesungKette: solMatch[1], kontextOhneKette };
+  return null;
 }
 
 /**
@@ -69,12 +101,11 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
   const current = daten.items[currentIdx];
   const isLast = currentIdx >= daten.items.length - 1;
 
-  // Rechenkette im Kontext erkennen
+  // Rechenkette in Kontext oder Frage erkennen
   const rechenketteInfo = useMemo(
-    () => detectRechenkette(daten.kontext, aufgabe.loesungsweg),
-    [daten.kontext, aufgabe.loesungsweg],
+    () => detectRechenkette(daten.kontext, current?.frage, aufgabe.loesung, aufgabe.loesungsweg),
+    [daten.kontext, current?.frage, aufgabe.loesung, aufgabe.loesungsweg],
   );
-  const ketteTotal = rechenketteInfo ? countKetteErgebnisse(rechenketteInfo.loesungKette) : 0;
 
   useEffect(() => {
     setCurrentIdx(0);
@@ -96,8 +127,7 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
   function handleKetteAntwort(_index: number, richtig: boolean) {
     if (richtig) {
       const next = ketteSchritt + 1;
-      if (next >= ketteTotal) {
-        // Kette vollständig → Aufgabe gelöst
+      if (next >= rechenketteInfo!.anzahlBlanks) {
         onRichtig();
       } else {
         setKetteSchritt(next);
@@ -109,19 +139,25 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
 
   // Interaktive Rechenkette ersetzt den normalen Input-Flow
   if (rechenketteInfo) {
+    const kontextText = rechenketteInfo.kontextOhneKette ?? daten.kontext;
     return (
       <div className="space-y-3">
-        {/* Kontext ohne Kettenzeile */}
-        <Card className="bg-primary-light/50 border-primary/10">
-          <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1">Sachaufgabe</p>
-          <MarkdownText text={rechenketteInfo.kontextOhneKette} />
-        </Card>
+        {/* Kontext-Text */}
+        {kontextText && (
+          <Card className="bg-primary-light/50 border-primary/10">
+            <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1">
+              {rechenketteInfo.istFrageKette ? 'Aufgabe' : 'Sachaufgabe'}
+            </p>
+            <MarkdownText text={kontextText} />
+          </Card>
+        )}
 
         {/* Interaktive Rechenkette */}
         <Card>
           <p className="text-xs font-semibold text-primary mb-2">Rechenkette ausfüllen:</p>
           <RechenketteViz
             kette={rechenketteInfo.loesungKette}
+            vorlage={rechenketteInfo.vorlage}
             geloestBis={ketteSchritt}
             aktiverSchritt={ketteSchritt}
             interaktiv
@@ -153,7 +189,11 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
     const normalized = normalizeZahl(input).toLowerCase();
     const expected = normalizeZahl(current.antwort).toLowerCase();
 
-    if (normalized === expected || expected.includes(normalized) || normalized.includes(expected)) {
+    // Exakter Vergleich + Uhrzeiten-Toleranz ("3" → "3:00")
+    const isMatch = normalized === expected
+      || (expected.match(/^\d{1,2}:00$/) && `${normalized}:00` === expected);
+
+    if (isMatch) {
       setStatus('richtig');
       if (isLast) onRichtig();
     } else {

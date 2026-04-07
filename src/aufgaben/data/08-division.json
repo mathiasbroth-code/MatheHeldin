@@ -25,12 +25,12 @@
         {
           "label": "a",
           "frage": "Vielfache von 6: 6, 12, 18, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "60"
+          "antwort": "24, 30, 36, 42, 48, 54, 60"
         },
         {
           "label": "b",
           "frage": "Vielfache von 9: 9, 18, ___, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "90"
+          "antwort": "27, 36, 45, 54, 63, 72, 81, 90"
         }
       ]
     }
@@ -82,7 +82,7 @@
       "Bei \"richtig oder falsch\" hilft ein Trick: Suche ein Gegenbeispiel. Wenn du eins findest, ist die Aussage falsch. Findest du keins, ist sie wahrscheinlich richtig.",
       "Teste die Aussagen mit konkreten Zahlen. Schreibe z.B. die ersten Vielfachen von 6 auf (6, 12, 18, 24 ...) und prüfe, ob JEDE dieser Zahlen auch ein Vielfaches von 12 ist.",
       "Bei b): Die Vielfachen von 6 sind: 6, 12, 18, 24, 30 ... Die Vielfachen von 12 sind: 12, 24, 36 ... Ist 6 ein Vielfaches von 12? Ist 18 ein Vielfaches von 12? Was bedeutet das für die Aussage?",
-      "Prüfe jede Aussage mit einem Beispiel oder einer Gegenprobe:\n- a) 9 · 7 = 63 ✓\n- b) Gegenbeispiel: 6 selbst ist Vielfaches von 6, aber nicht von 12 → falsch\n- c) 12 enthält den Faktor 6 (12 = 2 · 6), also stimmt das → richtig\n- d) 8 · 9 = 72 ✓\n- e) Gegenbeispiel: 2 · 3 = 6 ist gerade → falsch"
+      "Prüfe jede Aussage mit einem Beispiel oder einer Gegenprobe:\n- a) 9 · 7 = 63 ✓\n- b) Gegenbeispiel: 6 selbst ist Vielfaches von 6, aber nicht von 12 → falsch\n- c) 12 enthält den Faktor 6 (12 = 2 · 6), also stimmt das → richtig\n- d) 8 · 9 = 72 ✓\n- e) Gegenbeispiel: 2 · 3 = 6 ist gerade → falsch."
     ],
     "didaktischerHinweis": "Wahr-falsch-Aussagen fördern das mathematische Argumentieren. Kinder lernen, Vermutungen mit Gegenbeispielen zu widerlegen. Entspricht S. 78, Aufg. 4.",
     "parsed": {
@@ -174,7 +174,7 @@
       "Teile die Aufgabe in zwei Stücke. Rechne zuerst den Teil aus, den du schon kannst: Was ist das Siebenfache von 80?",
       "Wenn du weißt, dass 7 · 80 = 560 ist, dann überleg: Wie viel fehlt noch bis 600? Diesen Unterschied muss das \"Vierfache der Zahl\" ergeben.",
       "7 · 80 = 560. Es soll 600 rauskommen. Es fehlen also 600 − 560 = ___. Das Vierfache der gesuchten Zahl ist also ___. Teile dieses Ergebnis durch 4.",
-      "Schritt für Schritt:\n1. Das Siebenfache von 80 = 7 · 80 = 560\n2. 560 + Vierfaches der Zahl = 600\n3. Vierfaches der Zahl = 600 − 560 = 40\n4. Die Zahl = 40 : 4 = 10\n\nProbe: 560 + 4 · 10 = 560 + 40 = 600 ✓"
+      "Schritt für Schritt:\n1. Das Siebenfache von 80 = 7 · 80 = 560\n2. 560 + Vierfaches der Zahl = 600\n3. Vierfaches der Zahl = 600 − 560 = 40\n4. Die Zahl = 40 : 4 = 10\n\nProbe: 560 + 4 · 10 = 560 + 40 = 600 ✓."
     ],
     "didaktischerHinweis": "Zahlenrätsel mit Vielfachen trainieren rückwärts gerichtetes Denken und die Verknüpfung von Multiplikation mit Division. Entspricht S. 78, Aufg. 6.",
     "parsed": {
@@ -335,7 +335,7 @@
       "Stell dir vor, du verteilst die Kinder auf Tische. Jeder Tisch soll gleich viele Kinder haben und kein Kind bleibt übrig. Durch welche Zahlen kannst du 18 ohne Rest teilen?",
       "Probiere systematisch: Geht 18 : 2 auf? Geht 18 : 3 auf? Geht 18 : 4 auf? Jedes Mal, wenn es aufgeht, hast du eine mögliche Gruppengröße gefunden.",
       "Bei a): 18 : 1 = 18 (geht!) → 1er-Gruppen. 18 : 2 = 9 (geht!) → 2er-Gruppen. 18 : 3 = ___ (geht das?). Probiere weiter bis 18 : 18.",
-      "Die möglichen Gruppengrößen sind die Teiler der Gesamtzahl:\n- a) Teiler von 18: 1, 2, 3, 6, 9, 18 → 6 verschiedene Gruppengrößen\n- b) Teiler von 24: 1, 2, 3, 4, 6, 8, 12, 24 → 8 verschiedene Gruppengrößen"
+      "Die möglichen Gruppengrößen sind die Teiler der Gesamtzahl:\n- a) Teiler von 18: 1, 2, 3, 6, 9, 18 → 6 verschiedene Gruppengrößen\n- b) Teiler von 24: 1, 2, 3, 4, 6, 8, 12, 24 → 8 verschiedene Gruppengrößen."
     ],
     "didaktischerHinweis": "Der Alltagsbezug \"Gruppen bilden\" macht Teiler greifbar. Kinder erkennen: Teiler = \"geht genau auf\". Die Frage nach den \"meisten Möglichkeiten\" führt zur Erkenntnis, dass manche Zahlen mehr Teiler haben als andere. Entspricht S. 79, Aufg. 5.",
     "parsed": {
@@ -372,7 +372,7 @@
       "Schreibe alle Zahlen von 26 bis 34 auf. Prüfe für jede: Bleibt beim Teilen durch 2 Rest 1? Streiche alle durch, bei denen das nicht stimmt.",
       "\"Rest 1 bei Division durch 2\" bedeutet: Die Zahl ist ungerade. Welche ungeraden Zahlen gibt es zwischen 25 und 35? Prüfe diese dann für Division durch 3 und 5.",
       "Ungerade Zahlen zwischen 25 und 35: 27, 29, 31, 33. Prüfe 27 : 3 = 9 (kein Rest!) → 27 passt nicht. Prüfe 29 : 3 = ___. Und 31 : 3 = ___. Welche hat immer Rest 1?",
-      "1. Die Zahl liegt zwischen 25 und 35.\n2. Teilt man die Zahl durch 2, 3 oder 5, bleibt jeweils Rest 1.\n3. Also suche eine Zahl, die um 1 größer ist als ein gemeinsames Vielfaches von 2, 3 und 5.\n4. kgV(2, 3, 5) = 30. → 30 + 1 = 31.\n5. Probe: 31 : 2 = 15 R 1 ✓, 31 : 3 = 10 R 1 ✓, 31 : 5 = 6 R 1 ✓"
+      "1. Die Zahl liegt zwischen 25 und 35.\n2. Teilt man die Zahl durch 2, 3 oder 5, bleibt jeweils Rest 1.\n3. Also suche eine Zahl, die um 1 größer ist als ein gemeinsames Vielfaches von 2, 3 und 5.\n4. kgV(2, 3, 5) = 30. → 30 + 1 = 31.\n5. Probe: 31 : 2 = 15 R 1 ✓, 31 : 3 = 10 R 1 ✓, 31 : 5 = 6 R 1 ✓."
     ],
     "didaktischerHinweis": "Dieses Rätsel verbindet Teiler, Rest und logisches Ausschlussverfahren. Kinder müssen systematisch vorgehen und können nicht einfach raten. Entspricht S. 79, Aufg. 6.",
     "parsed": {
@@ -586,7 +586,7 @@
     "loesungsweg": "Nutze die Umkehroperation (Multiplikation):\n- a) 12 · ___ = 96 → 12 · 8 = 96, also ist der Divisor 8\n- b) 14 · ___ = 84 → 14 · 6 = 84, also ist der Divisor 6\n- c) 13 · ___ = 78 → 13 · 6 = 78, also ist der Divisor 6",
     "tipps": [
       "Division und Multiplikation sind Umkehraufgaben. Wenn 96 : ___ = 12 ist, dann ist auch 12 · ___ = 96. Welche Zahl passt?",
-      "Drehe die Aufgabe um: Statt \"96 geteilt durch WAS ergibt 12?\" frage dich \"12 mal WAS ergibt 96?\". Probiere: 12 · 5 = 60 (zu klein), 12 · 8 = ___",
+      "Drehe die Aufgabe um: Statt \"96 geteilt durch WAS ergibt 12?\" frage dich \"12 mal WAS ergibt 96?\". Probiere: 12 · 5 = 60 (zu klein), 12 · 8 = ___.",
       "Bei a): 12 · 5 = 60 (zu klein), 12 · 6 = 72 (zu klein), 12 · 7 = 84 (zu klein), 12 · 8 = ___. Ist das 96?",
       "Nutze die Umkehroperation (Multiplikation):\n- a) 12 · ___ = 96 → 12 · 8 = 96, also ist der Divisor 8\n- b) 14 · ___ = 84 → 14 · 6 = 84, also ist der Divisor 6\n- c) 13 · ___ = 78 → 13 · 6 = 78, also ist der Divisor 6"
     ],
@@ -726,7 +726,7 @@
     "tipps": [
       "Rechne wie gewohnt halbschriftlich. Wenn am Ende ein kleiner Rest bleibt, der nicht mehr durch den Divisor teilbar ist, schreibe ihn als \"R\" dahinter. Tipp aus dem Video \"Division mit Rest\": Der Rest ist immer kleiner als der Divisor!",
       "Zerlege die Zahl und teile Stück für Stück. Wenn etwas übrig bleibt, das du nicht mehr teilen kannst, ist das der Rest. Wichtig: Der Rest muss kleiner als der Divisor sein!",
-      "Bei a): 700 : 7 = 100. Es bleiben 765 − 700 = 65 übrig. 63 : 7 = 9. Es bleiben 65 − 63 = ___. Dieser kleine Rest passt nicht mehr. Also: 109 R ___",
+      "Bei a): 700 : 7 = 100. Es bleiben 765 − 700 = 65 übrig. 63 : 7 = 9. Es bleiben 65 − 63 = ___. Dieser kleine Rest passt nicht mehr. Also: 109 R ___.",
       "- a) 765 : 7 → 700 : 7 = 100, 63 : 7 = 9, Rest: 765 − 700 − 63 = 2 → 109 R 2\n- b) 653 : 5 → 500 : 5 = 100, 150 : 5 = 30, Rest: 653 − 500 − 150 = 3 → 130 R 3\n- c) 545 : 2 → 400 : 2 = 200, 140 : 2 = 70, 4 : 2 = 2, Rest: 545 − 400 − 140 − 4 = 1 → 272 R 1"
     ],
     "tippBilder": [
@@ -824,7 +824,7 @@
       "Wenn bei einer Division Rest übrig bleibt, wie viel musst du zur Zahl dazurechnen, damit sie glatt aufgeht? Denke an den Divisor und den Rest.",
       "Der Trick: Wenn der Rest z.B. 2 ist und du durch 4 teilst, fehlen dir noch 4 − 2 = 2 bis zum nächsten Vielfachen. Addiere diese Differenz zum Dividenden.",
       "Bei a): 874 : 4 = 218 R 2. Bis zum nächsten Vielfachen von 4 fehlen: 4 − 2 = ___. Also: 874 + ___ = ___. Prüfe: ___ : 4 = ?",
-      "- a) 874 : 4 = 218 R 2. Rest ist 2, also fehlen noch 4 − 2 = 2 zum nächsten Vielfachen. 874 + 2 = 876. 876 : 4 = 219 ✓\n- b) 857 : 7 = 122 R 3. Rest ist 3, also fehlen noch 7 − 3 = 4. 857 + 4 = 861. 861 : 7 = 123 ✓"
+      "- a) 874 : 4 = 218 R 2. Rest ist 2, also fehlen noch 4 − 2 = 2 zum nächsten Vielfachen. 874 + 2 = 876. 876 : 4 = 219 ✓\n- b) 857 : 7 = 122 R 3. Rest ist 3, also fehlen noch 7 − 3 = 4. 857 + 4 = 861. 861 : 7 = 123 ✓."
     ],
     "tippBilder": [
       null,
@@ -1265,7 +1265,7 @@
     "tipps": [
       "Du brauchst gar nicht zu rechnen! Schau dir nur die letzte Ziffer an. Die 5er-Reihe: 5, 10, 15, 20, 25 ... Welche Endziffern haben die Zahlen in der 5er-Reihe?",
       "Merkregel: Durch 5 teilbar, wenn die letzte Ziffer 0 oder 5 ist. Durch 2 teilbar, wenn die letzte Ziffer gerade ist (0, 2, 4, 6, 8). Durch 10 teilbar, wenn die letzte Ziffer 0 ist.",
-      "Bei a): 178. Die letzte Ziffer ist 8. Ist 8 eine 0 oder 5? Nein → 178 ist NICHT durch 5 teilbar. Bei c): 716. Die letzte Ziffer ist 6. Ist 6 gerade? ___ → 716 ist durch 2 ___",
+      "Bei a): 178. Die letzte Ziffer ist 8. Ist 8 eine 0 oder 5? Nein → 178 ist NICHT durch 5 teilbar. Bei c): 716. Die letzte Ziffer ist 6. Ist 6 gerade? ___ → 716 ist durch 2 ___.",
       "Die Regeln aus dem Merkwissen-Video \"Teilbar durch 2, 5, 10\":\n- Durch **2** teilbar: Einerstelle ist gerade (0, 2, 4, 6, 8)\n- Durch **5** teilbar: Einerstelle ist 0 oder 5\n- Durch **10** teilbar: Einerstelle ist 0"
     ],
     "didaktischerHinweis": "Die Teilbarkeitsregeln für 2, 5 und 10 basieren auf der Einerstelle und sind für Kinder gut zu merken. Sie helfen beim Überprüfen von Divisionsergebnissen. Entspricht S. 84, Aufg. 1-3.",
@@ -1317,12 +1317,12 @@
     "digital": "voll",
     "aufgabenstellung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...\n\na) durch 5 teilbar sind? 78___, 43__, 63__, 19__\nb) durch 2 teilbar sind? 78___, 43__, 63__, 19__\nc) durch 5 UND durch 2 teilbar sind? 78___, 43__, 63__, 19__",
     "loesung": "a) Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195\nb) Durch 2 teilbar → Einerstelle gerade: 780/782/784/786/788, 430/432/434/436/438, 630/632/634/636/638, 190/192/194/196/198\nc) Durch 5 UND 2 → Einerstelle muss 0 sein: 780, 430, 630, 190",
-    "loesungsweg": "- a) Durch 5: Die letzte Ziffer muss 0 oder 5 sein → 2 Möglichkeiten pro Zahl\n- b) Durch 2: Die letzte Ziffer muss gerade sein (0, 2, 4, 6, 8) → 5 Möglichkeiten pro Zahl\n- c) Durch 5 UND 2: Die letzte Ziffer muss BEIDE Regeln erfüllen → nur 0 funktioniert → 1 Möglichkeit",
+    "loesungsweg": "- a) Durch 5: Die letzte Ziffer muss 0 oder 5 sein → 2 Möglichkeiten pro Zahl\n- b) Durch 2: Die letzte Ziffer muss gerade sein (0, 2, 4, 6, 8) → 5 Möglichkeiten pro Zahl\n- c) Durch 5 UND 2: Die letzte Ziffer muss BEIDE Regeln erfüllen → nur 0 passt → 1 Möglichkeit",
     "tipps": [
       "Denke an die Teilbarkeitsregeln: Welche Endziffern brauchen Zahlen, die durch 5 teilbar sind? Schreibe die 5er-Reihe auf und schau dir die Endziffern an: 5, 10, 15, 20, 25 ...",
       "Für a): Die Einerstelle muss 0 oder 5 sein. Für b): Die Einerstelle muss gerade sein. Für c): Welche Ziffer ist GLEICHZEITIG \"0 oder 5\" UND \"gerade\"?",
-      "Bei c): Die Ziffer muss durch 5 teilbar sein (also 0 oder 5). UND sie muss gerade sein. Ist 5 gerade? Nein. Ist 0 gerade? ___. Also bleibt nur die Ziffer ___",
-      "- a) Durch 5: Die letzte Ziffer muss 0 oder 5 sein → 2 Möglichkeiten pro Zahl\n- b) Durch 2: Die letzte Ziffer muss gerade sein (0, 2, 4, 6, 8) → 5 Möglichkeiten pro Zahl\n- c) Durch 5 UND 2: Die letzte Ziffer muss BEIDE Regeln erfüllen → nur 0 funktioniert → 1 Möglichkeit"
+      "Bei c): Die Ziffer muss durch 5 teilbar sein (also 0 oder 5). UND sie muss gerade sein. Ist 5 gerade? Nein. Ist 0 gerade? ___. Also bleibt nur die Ziffer ___.",
+      "- a) Durch 5: Die letzte Ziffer muss 0 oder 5 sein → 2 Möglichkeiten pro Zahl\n- b) Durch 2: Die letzte Ziffer muss gerade sein (0, 2, 4, 6, 8) → 5 Möglichkeiten pro Zahl\n- c) Durch 5 UND 2: Die letzte Ziffer muss BEIDE Regeln erfüllen → nur 0 passt → 1 Möglichkeit."
     ],
     "didaktischerHinweis": "Die Kombination mehrerer Teilbarkeitsregeln fördert logisches Denken. Die Erkenntnis, dass \"durch 2 UND 5 teilbar\" dasselbe wie \"durch 10 teilbar\" bedeutet, ist ein wichtiger Aha-Moment. Entspricht S. 84, Aufg. 4.",
     "parsed": {
@@ -1332,17 +1332,17 @@
         {
           "label": "a",
           "frage": "durch 5 teilbar sind? 78___, 43__, 63__, 19__",
-          "antwort": "Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195"
+          "antwort": "0 oder 5"
         },
         {
           "label": "b",
           "frage": "durch 2 teilbar sind? 78___, 43__, 63__, 19__",
-          "antwort": "Durch 2 teilbar → Einerstelle gerade: 780/782/784/786/788, 430/432/434/436/438, 630/632/634/636/638, 190/192/194/196/198"
+          "antwort": "0, 2, 4, 6, 8"
         },
         {
           "label": "c",
           "frage": "durch 5 UND durch 2 teilbar sind? 78___, 43__, 63__, 19__",
-          "antwort": "Durch 5 UND 2 → Einerstelle muss 0 sein: 780, 430, 630, 190"
+          "antwort": "0"
         }
       ]
     }
@@ -1361,7 +1361,7 @@
     "loesungsweg": "Teilbarkeitsregel für 4: Eine Zahl ist durch 4 teilbar, wenn die letzten beiden Ziffern durch 4 teilbar sind.\n- a) 21 : 4 = 5 R 1 ✗, 22 : 4 = 5 R 2 ✗, 23 : 4 = 5 R 3 ✗, **24 : 4 = 6** ✓ → 824 : 4 = 206\n- b) **40 : 4 = 10** ✓ → 3.640 : 4 = 910",
     "tipps": [
       "Du musst nicht alle vier Aufgaben ausrechnen! Schau dir die letzten zwei Ziffern an: 21, 22, 23, 24. Welche davon lässt sich durch 4 teilen?",
-      "Merkregel: Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist. Beispiel: Bei 3.212 prüfst du nur 12 : 4 = 3 ✓",
+      "Merkregel: Eine Zahl ist durch 4 teilbar, wenn die Zahl aus den letzten beiden Ziffern durch 4 teilbar ist. Beispiel: Bei 3.212 prüfst du nur 12 : 4 = 3 ✓.",
       "Bei a): Prüfe die letzten zwei Ziffern: 21 : 4 = ? (Rest!), 22 : 4 = ? (Rest!), 23 : 4 = ? (Rest!), 24 : 4 = ___. Welche geht glatt auf?",
       "Teilbarkeitsregel für 4: Eine Zahl ist durch 4 teilbar, wenn die letzten beiden Ziffern durch 4 teilbar sind.\n- a) 21 : 4 = 5 R 1 ✗, 22 : 4 = 5 R 2 ✗, 23 : 4 = 5 R 3 ✗, **24 : 4 = 6** ✓ → 824 : 4 = 206\n- b) **40 : 4 = 10** ✓ → 3.640 : 4 = 910"
     ],
@@ -1399,7 +1399,7 @@
       "Die Quersumme ist ganz einfach: Addiere alle Ziffern der Zahl. Bei 354 rechnest du 3 + 5 + 4. Was kommt heraus? Ist dieses Ergebnis durch 9 teilbar?",
       "Merkwissen aus dem Video \"Teilbar durch 3\": Die Quersumme hilft! Addiere alle Ziffern. Wenn diese Summe durch 9 teilbar ist (also 9, 18, 27, 36 ...), dann ist auch die ganze Zahl durch 9 teilbar.",
       "Bei b): 729. Quersumme: 7 + 2 + 9 = ___. Ist ___ durch 9 teilbar? 18 : 9 = ___. Wenn das aufgeht, ist auch 729 durch 9 teilbar!",
-      "Merkregel: Eine Zahl ist durch 9 teilbar, wenn ihre Quersumme durch 9 teilbar ist.\nDie Quersumme ist die Summe aller Ziffern einer Zahl.\n- a) 3 + 5 + 4 = 12. 12 : 9 = 1 R 3 → nicht durch 9 teilbar\n- b) 7 + 2 + 9 = 18. 18 : 9 = 2 → durch 9 teilbar\n- c) 4 + 0 + 1 + 4 = 9. 9 : 9 = 1 → durch 9 teilbar"
+      "Merkregel: Eine Zahl ist durch 9 teilbar, wenn ihre Quersumme durch 9 teilbar ist.\nDie Quersumme ist die Summe aller Ziffern einer Zahl.\n- a) 3 + 5 + 4 = 12. 12 : 9 = 1 R 3 → nicht durch 9 teilbar\n- b) 7 + 2 + 9 = 18. 18 : 9 = 2 → durch 9 teilbar\n- c) 4 + 0 + 1 + 4 = 9. 9 : 9 = 1 → durch 9 teilbar."
     ],
     "didaktischerHinweis": "Die Quersummenregel für 9 (und 3) ist ein wichtiges Werkzeug zur Teilbarkeitsprüfung. Kinder staunen oft über diesen \"Zaubertrick\". Entspricht S. 85, Aufg. 7-9.",
     "parsed": {
@@ -1440,7 +1440,7 @@
     "tipps": [
       "Addiere erst alle Ziffern, die du schon hast. Dann überleg: Wie viel fehlt bis zur nächsten Zahl aus der 9er-Reihe (9, 18, 27, 36 ...)?",
       "Die Quersumme muss durch 9 teilbar sein. Rechne die vorhandenen Ziffern zusammen: Bei a) ist das 8 + 5 + 4 = 17. Die nächste Zahl in der 9er-Reihe ist 18. Also muss die fehlende Ziffer 18 − 17 = ___ sein.",
-      "Bei b): 2 + 6 + 7 = 15. 9er-Reihe: 9, 18, 27 ... Das nächste Vielfache von 9 nach 15 ist ___. Die fehlende Ziffer ist ___ − 15 = ___",
+      "Bei b): 2 + 6 + 7 = 15. 9er-Reihe: 9, 18, 27 ... Das nächste Vielfache von 9 nach 15 ist ___. Die fehlende Ziffer ist ___ − 15 = ___.",
       "Berechne die Quersumme ohne die fehlende Ziffer und ergänze bis zum nächsten Vielfachen von 9:\n- a) 8 + 5 + 4 = 17, nächstes Vielfaches von 9 ist 18, es fehlt 18 − 17 = 1 → Ziffer = 1\n- b) 2 + 6 + 7 = 15, nächstes Vielfaches von 9 ist 18, es fehlt 18 − 15 = 3 → Ziffer = 3\n- c) 6 + 3 + 4 = 13, nächstes Vielfaches von 9 ist 18, es fehlt 18 − 13 = 5 → Ziffer = 5"
     ],
     "didaktischerHinweis": "Diese Umkehraufgabe zur Quersummenregel ist anspruchsvoll — das Kind muss rückwärts denken. Die Strategie \"bis zum nächsten Vielfachen von 9 ergänzen\" ist der Schlüssel. Entspricht S. 85, Aufg. 10.",
@@ -1574,17 +1574,17 @@
         {
           "label": "a",
           "frage": "durch 3 teilbar sind? 783___, 435___",
-          "antwort": "- 783_: 7+8+3 = 18. Jede Ziffer, die mit 18 zusammen durch 3 teilbar ist: 0, 3, 6, 9"
+          "antwort": "783_: 0, 3, 6, 9; 435_: 0, 3, 6, 9"
         },
         {
           "label": "b",
           "frage": "durch 9 teilbar sind? 783___, 435___",
-          "antwort": "- 783_: 7+8+3 = 18. Damit Quersumme durch 9 teilbar: 0 (=18) oder 9 (=27)"
+          "antwort": "783_: 0 oder 9; 435_: 6"
         },
         {
           "label": "c",
           "frage": "durch 3 UND durch 9 teilbar sind? 783___, 435___",
-          "antwort": "Durch 3 UND 9: dieselbe Antwort wie b), denn jede durch 9 teilbare Zahl ist auch durch 3 teilbar."
+          "antwort": "783_: 0 oder 9; 435_: 6"
         }
       ]
     }
@@ -1906,7 +1906,7 @@
       "Die Probe ist die Umkehraufgabe: Ergebnis mal Divisor muss den Dividenden ergeben. So überprüfst du, ob du richtig gerechnet hast.",
       "Aus dem Video \"Probe\": Die Probe ist eine Multiplikation. Rechne Ergebnis · Divisor. Kommt der Dividend raus? Dann stimmt deine Division!",
       "Bei a): Du hast 1.737 : 3 = 579 gerechnet. Probe: 579 · 3 = ___. Rechne schriftlich: 9 · 3 = 27, 7 · 3 = 21 + 2 = 23, 5 · 3 = 15 + 2 = 17 → 1.737. Stimmt es?",
-      "a) 1.737 : 3 = 579\n   - 1 : 3 geht nicht → nehme 17\n   - 17 : 3 = 5 R 2 → 23\n   - 23 : 3 = 7 R 2 → 27\n   - 27 : 3 = 9 R 0\n   Probe (wie im Video \"Probe\"): 579 · 3 = 1.737 ✓\n\nb) 6.175 : 5 = 1.235\n   - 6 : 5 = 1 R 1 → 11\n   - 11 : 5 = 2 R 1 → 17\n   - 17 : 5 = 3 R 2 → 25\n   - 25 : 5 = 5 R 0\n   Probe: 1.235 · 5 = 6.175 ✓"
+      "a) 1.737 : 3 = 579\n   - 1 : 3 geht nicht → nehme 17\n   - 17 : 3 = 5 R 2 → 23\n   - 23 : 3 = 7 R 2 → 27\n   - 27 : 3 = 9 R 0\n   Probe (wie im Video \"Probe\"): 579 · 3 = 1.737 ✓\n\nb) 6.175 : 5 = 1.235\n   - 6 : 5 = 1 R 1 → 11\n   - 11 : 5 = 2 R 1 → 17\n   - 17 : 5 = 3 R 2 → 25\n   - 25 : 5 = 5 R 0\n   Probe: 1.235 · 5 = 6.175 ✓."
     ],
     "tippBilder": [
       null,
@@ -1996,13 +1996,13 @@
     "kapitel": "08-division",
     "stageId": "schriftlich-dividieren-1",
     "digital": "voll",
-    "aufgabenstellung": "Welche Ziffern fehlen?\n\na) 23_5 : 5 = 465 (eine Ziffer fehlt im Dividenden)\nb) 2___34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
+    "aufgabenstellung": "Welche Ziffern fehlen?\n\na) 23_5 : 5 = 465 (eine Ziffer fehlt im Dividenden)\nb) 2_34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
     "loesung": "a) 2.325 : 5 = 465 → fehlende Ziffer: 2\nb) 2.034 : 3 = 678 → fehlende Ziffer: 0",
     "loesungsweg": "Nutze die Probe (Umkehraufgabe):\n- a) 465 · 5 = 2.325 → die fehlende Ziffer ist 2\n- b) 678 · 3 = 2.034 → die fehlende Ziffer ist 0",
     "tipps": [
       "Wenn du das Ergebnis und den Divisor kennst, kannst du die Probe nutzen: Ergebnis · Divisor = Dividend. Rechne die Multiplikation und finde die fehlende Ziffer!",
       "Drehe die Aufgabe um: Statt \"23_5 : 5 = 465\" rechne \"465 · 5 = ???\". Das Ergebnis verrät dir die fehlende Ziffer.",
-      "Bei a): 465 · 5. Rechne: 5 · 5 = 25, 6 · 5 = 30 + 2 = 32, 4 · 5 = 20 + 3 = 23 → 2.3_5. Die fehlende Ziffer an der Zehnerstelle ist ___",
+      "Bei a): 465 · 5. Rechne: 5 · 5 = 25, 6 · 5 = 30 + 2 = 32, 4 · 5 = 20 + 3 = 23 → 2.3_5. Die fehlende Ziffer an der Zehnerstelle ist ___.",
       "Nutze die Probe (Umkehraufgabe):\n- a) 465 · 5 = 2.325 → die fehlende Ziffer ist 2\n- b) 678 · 3 = 2.034 → die fehlende Ziffer ist 0"
     ],
     "tippBilder": [
@@ -2023,7 +2023,7 @@
         },
         {
           "label": "b",
-          "frage": "2___34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
+          "frage": "2_34 : 3 = 678 (eine Ziffer fehlt im Dividenden)",
           "antwort": "2.034 : 3 = 678 → fehlende Ziffer: 0"
         }
       ]
@@ -2045,7 +2045,7 @@
       "Wenn am Ende ein Rest übrig bleibt, schreibe ihn hinter das Ergebnis. Wichtig: Der Rest ist immer kleiner als der Divisor!",
       "Die Probe bei Division mit Rest (aus dem Video \"Probe mit Rest\"): Ergebnis · Divisor + Rest = Dividend. Vergiss nicht, den Rest zum Produkt dazuzuzählen!",
       "Bei a): 5 : 9 geht nicht → nimm 58. 58 : 9 = 6 (denn 6 · 9 = 54). Rest: 58 − 54 = 4. Nächste Ziffer (6) dazu → 46. 46 : 9 = ___. Weiter ...",
-      "a) 5.863 : 9 = 651 R 4\n   - 58 : 9 = 6 R 4 → 46\n   - 46 : 9 = 5 R 1 → 13\n   - 13 : 9 = 1 R 4\n   Probe (wie im Video \"Probe mit Rest\"): 651 · 9 = 5.859, dann 5.859 + 4 = 5.863 ✓\n\nb) 2.358 : 7 = 336 R 6\n   - 23 : 7 = 3 R 2 → 25\n   - 25 : 7 = 3 R 4 → 48\n   - 48 : 7 = 6 R 6\n   Probe: 336 · 7 = 2.352, dann 2.352 + 6 = 2.358 ✓"
+      "a) 5.863 : 9 = 651 R 4\n   - 58 : 9 = 6 R 4 → 46\n   - 46 : 9 = 5 R 1 → 13\n   - 13 : 9 = 1 R 4\n   Probe (wie im Video \"Probe mit Rest\"): 651 · 9 = 5.859, dann 5.859 + 4 = 5.863 ✓\n\nb) 2.358 : 7 = 336 R 6\n   - 23 : 7 = 3 R 2 → 25\n   - 25 : 7 = 3 R 4 → 48\n   - 48 : 7 = 6 R 6\n   Probe: 336 · 7 = 2.352, dann 2.352 + 6 = 2.358 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2137,7 +2137,7 @@
       "Überlege VOR dem Rechnen: Wird es einen Rest geben? Nutze die Teilbarkeitsregeln! Ist 2.556 durch 4 teilbar? (Prüfe: Sind die letzten zwei Ziffern, 56, durch 4 teilbar?)",
       "Arbeite sauber Stelle für Stelle. Vergiss keine Stelle! Wenn eine 0 im Dividenden vorkommt, musst du trotzdem den Schritt rechnen (0 herunterholen!).",
       "Bei c): 2.938 : 5. Start: 2 < 5, also nimm 29. 29 : 5 = 5 (denn 5 · 5 = 25). Rest: 29 − 25 = 4. Nächste Ziffer (3) dazu → 43. 43 : 5 = ___. Weiter ...",
-      "a) 45.206 : 8 = 5.650 R 6\n   - 45 : 8 = 5 R 5 → 52\n   - 52 : 8 = 6 R 4 → 40\n   - 40 : 8 = 5 R 0 → 06\n   - 6 : 8 = 0 R 6\n   Probe: 5.650 · 8 + 6 = 45.200 + 6 = 45.206 ✓\n\nb) 2.556 : 4 = 639\n   - 25 : 4 = 6 R 1 → 15\n   - 15 : 4 = 3 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 639 · 4 = 2.556 ✓\n\nc) 2.938 : 5 = 587 R 3\n   - 29 : 5 = 5 R 4 → 43\n   - 43 : 5 = 8 R 3 → 38\n   - 38 : 5 = 7 R 3\n   Probe: 587 · 5 + 3 = 2.935 + 3 = 2.938 ✓"
+      "a) 45.206 : 8 = 5.650 R 6\n   - 45 : 8 = 5 R 5 → 52\n   - 52 : 8 = 6 R 4 → 40\n   - 40 : 8 = 5 R 0 → 06\n   - 6 : 8 = 0 R 6\n   Probe: 5.650 · 8 + 6 = 45.200 + 6 = 45.206 ✓\n\nb) 2.556 : 4 = 639\n   - 25 : 4 = 6 R 1 → 15\n   - 15 : 4 = 3 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 639 · 4 = 2.556 ✓\n\nc) 2.938 : 5 = 587 R 3\n   - 29 : 5 = 5 R 4 → 43\n   - 43 : 5 = 8 R 3 → 38\n   - 38 : 5 = 7 R 3\n   Probe: 587 · 5 + 3 = 2.935 + 3 = 2.938 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2249,7 +2249,7 @@
       "Nutze dein Wissen über Teilbarkeitsregeln! Bei Division durch 5: Schau auf die Einerstelle. Bei Division durch 3: Bilde die Quersumme. Bei Division durch 4: Prüfe die letzten zwei Ziffern.",
       "Nutze die Teilbarkeitsregeln als Schnellcheck, BEVOR du rechnest. So weißt du schon vorher, ob ein Rest kommen wird. Das hilft auch bei der Kontrolle!",
       "Bei a): Einerstelle von 5.439 ist 9. Die 5er-Reihe endet auf 0 oder 5. Endet 9 auf 0 oder 5? ___ → Es wird ein Rest kommen. Jetzt rechne schriftlich.",
-      "Zuerst Teilbarkeitsregeln anwenden:\n- a) Durch 5 teilbar? Einerstelle 9 → Nein → Rest erwartet ✓\n- b) Durch 4 teilbar? Letzte 2 Ziffern 98. 98 : 4 = 24 R 2 → Nein → Rest erwartet ✓\n- c) Durch 3 teilbar? Quersumme: 2+9+8+5 = 24. 24 : 3 = 8 → Ja → kein Rest ✓"
+      "Zuerst Teilbarkeitsregeln anwenden:\n- a) Durch 5 teilbar? Einerstelle 9 → Nein → Rest erwartet ✓\n- b) Durch 4 teilbar? Letzte 2 Ziffern 98. 98 : 4 = 24 R 2 → Nein → Rest erwartet ✓\n- c) Durch 3 teilbar? Quersumme: 2+9+8+5 = 24. 24 : 3 = 8 → Ja → kein Rest ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2336,7 +2336,7 @@
       "Wenn eine Zahl kleiner ist als der Divisor, schreibe eine 0 ins Ergebnis und nimm die nächste Stelle dazu. Vergiss die Null nicht — sie ist wichtig für den Stellenwert!",
       "Häufiger Fehler (wie im Video \"Achte auf die Nullen!\"): Die Null im Ergebnis vergessen. Bei 3 : 5 zum Beispiel: 3 ist kleiner als 5, also schreibe 0 ins Ergebnis und nimm die nächste Ziffer dazu → 30.",
       "Bei a): 3.530 : 5. Schritt 1: 35 : 5 = 7. Schritt 2: 3 : 5 — 3 ist kleiner als 5! Schreibe 0 ins Ergebnis. Nimm die 0 dazu → 30. 30 : 5 = ___. Ergebnis: 7_6 → Was steht in der Mitte?",
-      "Aus den Videos \"Null im Ergebnis\" und \"Achte auf die Nullen!\":\n\na) 3.530 : 5 = 706\n   - 35 : 5 = 7 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (Achtung: 0 ins Ergebnis schreiben!)\n   - 30 : 5 = 6 R 0\n   Probe: 706 · 5 = 3.530 ✓\n\nb) 8.128 : 8 = 1.016\n   - 8 : 8 = 1 R 0 → 01\n   - 1 : 8 = 0 R 1 → 12 (0 ins Ergebnis!)\n   - 12 : 8 = 1 R 4 → 48\n   - 48 : 8 = 6 R 0 → Probe: 1.016 · 8 = 8.128 ✓\n\nc) 23.292 : 4 = 5.823\n   - 23 : 4 = 5 R 3 → 32\n   - 32 : 4 = 8 R 0 → 09\n   - 9 : 4 = 2 R 1 → 12\n   - 12 : 4 = 3 R 0\n   Probe: 5.823 · 4 = 23.292 ✓"
+      "Aus den Videos \"Null im Ergebnis\" und \"Achte auf die Nullen!\":\n\na) 3.530 : 5 = 706\n   - 35 : 5 = 7 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (Achtung: 0 ins Ergebnis schreiben!)\n   - 30 : 5 = 6 R 0\n   Probe: 706 · 5 = 3.530 ✓\n\nb) 8.128 : 8 = 1.016\n   - 8 : 8 = 1 R 0 → 01\n   - 1 : 8 = 0 R 1 → 12 (0 ins Ergebnis!)\n   - 12 : 8 = 1 R 4 → 48\n   - 48 : 8 = 6 R 0 → Probe: 1.016 · 8 = 8.128 ✓\n\nc) 23.292 : 4 = 5.823\n   - 23 : 4 = 5 R 3 → 32\n   - 32 : 4 = 8 R 0 → 09\n   - 9 : 4 = 2 R 1 → 12\n   - 12 : 4 = 3 R 0\n   Probe: 5.823 · 4 = 23.292 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2439,7 +2439,7 @@
   },
   {
     "titel": "Fehler finden — Typische Rechenfehler korrigieren",
-    "typ": "wahr-falsch",
+    "typ": "eingabe",
     "thema": "Schriftliches Dividieren vertiefen",
     "schwierigkeit": "orange",
     "buchseite": 89,
@@ -2452,7 +2452,7 @@
     "tipps": [
       "Mache bei beiden Aufgaben die Probe: Stimmt 82 · 8 = 6.416? Rechne nach! Wenn es nicht stimmt, suche den Fehler.",
       "Typische Fehler beim schriftlichen Dividieren (aus dem Video \"Achte auf die Nullen!\"): A) Die Null im Ergebnis vergessen. B) Einen Rechenschritt übersprungen. C) Nicht die größtmögliche Zahl genommen.",
-      "Bei a): Probe: 82 · 8 = 656. Aber der Dividend ist 6.416 — das passt nicht! Also muss das Ergebnis dreistellig sein. Rechne nochmal: 64 : 8 = 8, dann 1 : 8 = 0 (diese 0 ist wichtig!), dann 16 : 8 = ___",
+      "Bei a): Probe: 82 · 8 = 656. Aber der Dividend ist 6.416 — das passt nicht! Also muss das Ergebnis dreistellig sein. Rechne nochmal: 64 : 8 = 8, dann 1 : 8 = 0 (diese 0 ist wichtig!), dann 16 : 8 = ___.",
       "a) 6.416 : 8:\n   - 64 : 8 = 8 R 0 → 01 → 1 : 8 = 0 R 1 (hier die 0 NICHT vergessen!) → 16 → 16 : 8 = 2\n   - Richtig: 802, nicht 82. Die Null in der Mitte wurde \"verschluckt\".\n\nb) 8.367 : 3:\n   - 8 : 3 = 2 R 2 → 23 : 3 = 7 R 2 → 26 : 3 = 8 R 2 → 27 : 3 = 9\n   - Richtig: 2.789"
     ],
     "tippBilder": [
@@ -2463,20 +2463,18 @@
     ],
     "didaktischerHinweis": "Fehleranalyse fördert metakognitives Denken. Die drei häufigsten Fehlertypen bei der schriftlichen Division (Null vergessen, Schritt übersprungen, falsche Zahl gewählt) werden hier thematisiert. Entspricht S. 89, Aufg. 9.",
     "parsed": {
-      "typ": "wahr-falsch",
+      "typ": "eingabe",
       "anweisung": "Welche Fehler wurden gemacht? Löse die Aufgaben richtig.",
       "items": [
         {
           "label": "a",
-          "aussage": "6.416 : 8 = 82 (falsch berechnet)",
-          "richtig": true,
-          "erklaerung": "Richtig: 6.416 : 8 = 802. Fehler: Die Null im Ergebnis wurde vergessen."
+          "frage": "6.416 : 8 = 82 (falsch berechnet) — Rechne richtig.",
+          "antwort": "802"
         },
         {
           "label": "b",
-          "aussage": "8.367 : 3 = 2.689 (falsch berechnet)",
-          "richtig": true,
-          "erklaerung": "Richtig: 8.367 : 3 = 2.789. Fehler: Nicht die größtmögliche Zahl geteilt (oder ein Rechenschritt vergessen)."
+          "frage": "8.367 : 3 = 2.689 (falsch berechnet) — Rechne richtig.",
+          "antwort": "2789"
         }
       ]
     }
@@ -2497,7 +2495,7 @@
       "Bei diesen Aufgaben verstecken sich Nullen im Ergebnis. Achte bei jedem Schritt darauf: Ist die aktuelle Zahl kleiner als der Divisor? Dann kommt eine 0!",
       "Zähle die Stellen des Dividenden. Das Ergebnis hat genauso viele Stellen (oder eine weniger, wenn die erste Stelle kleiner als der Divisor ist). Wenn dein Ergebnis zu wenige Stellen hat, hast du vermutlich eine Null vergessen!",
       "Bei b): 33.030 hat 5 Stellen, geteilt durch 5 (einstellig). Erwarte also ein 4- oder 5-stelliges Ergebnis. 33 : 5 = 6 R 3 → 30 : 5 = 6 R 0 → 03 : 5 — geht das? Nein! Also 0 schreiben und weiter ...",
-      "a) 45.558 : 9 = 5.062\n   - 45 : 9 = 5 R 0 → 05\n   - 5 : 9 = 0 R 5 → 55 (0 ins Ergebnis!)\n   - 55 : 9 = 6 R 1 → 18\n   - 18 : 9 = 2 R 0\n   Probe: 5.062 · 9 = 45.558 ✓\n\nb) 33.030 : 5 = 6.606\n   - 33 : 5 = 6 R 3 → 30\n   - 30 : 5 = 6 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (0 ins Ergebnis!)\n   - 30 : 5 = 6 R 0\n   Probe: 6.606 · 5 = 33.030 ✓\n\nc) 77.238 : 7 = 11.034\n   - 7 : 7 = 1 R 0 → 07\n   - 7 : 7 = 1 R 0 → 02\n   - 2 : 7 = 0 R 2 → 23 (0 ins Ergebnis!)\n   - 23 : 7 = 3 R 2 → 28\n   - 28 : 7 = 4 R 0\n   Probe: 11.034 · 7 = 77.238 ✓"
+      "a) 45.558 : 9 = 5.062\n   - 45 : 9 = 5 R 0 → 05\n   - 5 : 9 = 0 R 5 → 55 (0 ins Ergebnis!)\n   - 55 : 9 = 6 R 1 → 18\n   - 18 : 9 = 2 R 0\n   Probe: 5.062 · 9 = 45.558 ✓\n\nb) 33.030 : 5 = 6.606\n   - 33 : 5 = 6 R 3 → 30\n   - 30 : 5 = 6 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (0 ins Ergebnis!)\n   - 30 : 5 = 6 R 0\n   Probe: 6.606 · 5 = 33.030 ✓\n\nc) 77.238 : 7 = 11.034\n   - 7 : 7 = 1 R 0 → 07\n   - 7 : 7 = 1 R 0 → 02\n   - 2 : 7 = 0 R 2 → 23 (0 ins Ergebnis!)\n   - 23 : 7 = 3 R 2 → 28\n   - 28 : 7 = 4 R 0\n   Probe: 11.034 · 7 = 77.238 ✓."
     ],
     "tippBilder": [
       "assets/erklaerungen/s89-typische-fehler-division.webp",
@@ -2623,8 +2621,8 @@
     "tipps": [
       "Kommazahlen teilen ist schwierig — aber mit einem Trick wird es leicht! Wandle erst alles in Cent um. 4,80 € sind wie viele Cent?",
       "Tipp aus dem Video: \"In Cent umwandeln\": Schiebe das Komma zwei Stellen nach rechts (oder multipliziere mit 100). Dann rechnest du ganz normal ohne Komma. Am Ende schiebst du das Komma wieder zurück.",
-      "Bei a): 4,80 € = 480 Cent. Jetzt: 480 : 4 = ___. Dein Ergebnis in Cent: ___ ct. Wandle zurück: ___ ct = ___,___ €",
-      "Strategie aus dem Video \"In Cent umwandeln und multiplizieren\":\n- a) 4,80 € = 480 ct. 480 : 4 = 120 ct = 1,20 €\n- b) 6,30 € = 630 ct. 630 : 3 = 210 ct = 2,10 €\n- c) 9,50 € = 950 ct. 950 : 5 = 190 ct = 1,90 €"
+      "Bei a): 4,80 € = 480 Cent. Jetzt: 480 : 4 = ___. Dein Ergebnis in Cent: ___ ct. Wandle zurück: ___ ct = ___,___ €.",
+      "Strategie aus dem Video \"In Cent umwandeln und multiplizieren\":\n- a) 4,80 € = 480 ct. 480 : 4 = 120 ct = 1,20 €\n- b) 6,30 € = 630 ct. 630 : 3 = 210 ct = 2,10 €\n- c) 9,50 € = 950 ct. 950 : 5 = 190 ct = 1,90 €."
     ],
     "didaktischerHinweis": "Die Umwandlung in Cent eliminiert das Komma und macht die Division für Kinder handhabbar. Der Rückweg (Cent → Euro) festigt das Stellenwertverständnis bei Dezimalzahlen. Entspricht S. 90.",
     "parsed": {
@@ -2664,8 +2662,8 @@
     "tipps": [
       "Stell dir vor, du verteilst Münzen. 15,60 € sind 1.560 Cent. Wie verteilst du 1.560 Cent auf 4 Kinder?",
       "Schritt 1: In Cent umwandeln (Komma weg, mal 100). Schritt 2: Schriftlich dividieren. Schritt 3: Ergebnis zurück in Euro (durch 100, Komma setzen).",
-      "Bei b): 28,35 € = 2.835 Cent. 2.835 : 5. Start: 28 : 5 = 5 R 3, dann 33 : 5 = 6 R 3, dann 35 : 5 = ___. Ergebnis in Cent: ___. In Euro: ___,___ €",
-      "In Cent umwandeln, teilen, zurückwandeln:\n- a) 1.560 ct : 4 = 390 ct = 3,90 €\n- b) 2.835 ct : 5 = 567 ct = 5,67 €\n- c) 4.256 ct : 8 = 532 ct = 5,32 €"
+      "Bei b): 28,35 € = 2.835 Cent. 2.835 : 5. Start: 28 : 5 = 5 R 3, dann 33 : 5 = 6 R 3, dann 35 : 5 = ___. Ergebnis in Cent: ___. In Euro: ___,___ €.",
+      "In Cent umwandeln, teilen, zurückwandeln:\n- a) 1.560 ct : 4 = 390 ct = 3,90 €\n- b) 2.835 ct : 5 = 567 ct = 5,67 €\n- c) 4.256 ct : 8 = 532 ct = 5,32 €."
     ],
     "didaktischerHinweis": "Geldbeträge aufteilen ist ein häufiger Alltagsbezug für Division. Die Cent-Methode vermeidet die direkte Komma-Division, die in der 4. Klasse noch nicht systematisch eingeführt wird. Entspricht S. 90.",
     "parsed": {
@@ -2706,7 +2704,7 @@
       "Um zu vergleichen, musst du den Preis pro EINZELNES Stück berechnen. Wie viel kostet EIN Heft, wenn 3 Hefte 5,70 € kosten?",
       "Wandle in Cent um und teile: 5,70 € = 570 ct. 570 : 3 = ___. Mache das gleiche für die andere Packung und vergleiche die Einzelpreise.",
       "Bei a): Packung 1: 570 ct : 3 = 190 ct = 1,90 €. Packung 2: 850 ct : 5 = ___. Welcher Einzelpreis ist kleiner?",
-      "Berechne den Preis pro Stück, indem du den Gesamtpreis durch die Anzahl teilst:\n- a) 570 ct : 3 = 190 ct = 1,90 €. 850 ct : 5 = 170 ct = 1,70 €. → 5er-Packung günstiger\n- b) 720 ct : 4 = 180 ct = 1,80 €. 960 ct : 6 = 160 ct = 1,60 €. → 6er-Packung günstiger"
+      "Berechne den Preis pro Stück, indem du den Gesamtpreis durch die Anzahl teilst:\n- a) 570 ct : 3 = 190 ct = 1,90 €. 850 ct : 5 = 170 ct = 1,70 €. → 5er-Packung günstiger\n- b) 720 ct : 4 = 180 ct = 1,80 €. 960 ct : 6 = 160 ct = 1,60 €. → 6er-Packung günstiger."
     ],
     "didaktischerHinweis": "Preisvergleiche sind ein lebensnaher Anwendungsfall für Division mit Kommazahlen. Kinder lernen, dass \"mehr kaufen\" nicht immer teurer pro Stück ist. Entspricht S. 90.",
     "parsed": {
@@ -2742,8 +2740,8 @@
     "tipps": [
       "Erst in Cent umwandeln (Komma 2 Stellen nach rechts), dann rechnen, dann zurückwandeln (Komma 2 Stellen nach links).",
       "Der Trick aus dem Video \"In Cent umwandeln und multiplizieren\": 4,75 € = 475 Cent. Jetzt rechnest du 3 · 475 ganz normal. Am Ende: Ergebnis durch 100 → Komma setzen.",
-      "Bei b): 24,64 € = 2.464 Cent. Jetzt: 2.464 : 4. Schriftlich: 24 : 4 = 6, 06 : 4 = 1 R 2, 24 : 4 = 6. Ergebnis: 616 Cent = ___,___ €",
-      "- a) 3 · 475 ct = 1.425 ct = 14,25 €\n- b) 2.464 ct : 4 = 616 ct = 6,16 €\n- c) 7 · 385 ct = 2.695 ct = 26,95 €"
+      "Bei b): 24,64 € = 2.464 Cent. Jetzt: 2.464 : 4. Schriftlich: 24 : 4 = 6, 06 : 4 = 1 R 2, 24 : 4 = 6. Ergebnis: 616 Cent = ___,___ €.",
+      "- a) 3 · 475 ct = 1.425 ct = 14,25 €\n- b) 2.464 ct : 4 = 616 ct = 6,16 €\n- c) 7 · 385 ct = 2.695 ct = 26,95 €."
     ],
     "didaktischerHinweis": "Multiplikation und Division mit Kommazahlen werden hier gemeinsam geübt. Der Cent-Umweg ist die zentrale Strategie für die 4. Klasse. Entspricht S. 90.",
     "parsed": {
@@ -2783,8 +2781,8 @@
     "tipps": [
       "Emma bekommt für JEDE Runde 2,50 €. Sie läuft 8 Runden. Was musst du rechnen: Mal oder Geteilt?",
       "Wandle in Cent um: 2,50 € = 250 Cent. Dann rechne: 8 · 250 = ___. Wandle das Ergebnis zurück in Euro.",
-      "8 · 250 Cent. Zerlege: 8 · 200 = 1.600. 8 · 50 = 400. Zusammen: 1.600 + 400 = ___. In Euro: ___,___ €",
-      "Einnahmen = Runden · Betrag pro Runde\n8 · 2,50 € = 8 · 250 ct = 2.000 ct = 20,00 €"
+      "8 · 250 Cent. Zerlege: 8 · 200 = 1.600. 8 · 50 = 400. Zusammen: 1.600 + 400 = ___. In Euro: ___,___ €.",
+      "Einnahmen = Runden · Betrag pro Runde\n8 · 2,50 € = 8 · 250 ct = 2.000 ct = 20,00 €."
     ],
     "didaktischerHinweis": "Einfache Einstiegsaufgabe zum Sponsorenlauf. Multiplikation Runden · Betrag. Cent-Methode anwenden. Entspricht S. 91.",
     "parsed": {
@@ -2815,8 +2813,8 @@
     "tipps": [
       "Berechne für jedes Kind einzeln: Runden mal Betrag pro Runde. Dann vergleiche die Ergebnisse. Wer hat den höheren Betrag?",
       "In Cent umwandeln! Liam: 12 · 175 Cent. Mia: 9 · 250 Cent. Rechne beide Aufgaben getrennt und vergleiche am Ende.",
-      "Liam: 12 · 175. Zerlege: 12 · 100 = 1.200, 12 · 75 = 12 · 70 + 12 · 5 = 840 + 60 = 900. Zusammen: 1.200 + 900 = ___. Mia: 9 · 250 = 9 · 200 + 9 · 50 = ___ + ___ = ___",
-      "- Liam: 12 · 175 ct = 2.100 ct = 21,00 €\n- Mia: 9 · 250 ct = 2.250 ct = 22,50 €\n- Unterschied: 2.250 − 2.100 = 150 ct = 1,50 €"
+      "Liam: 12 · 175. Zerlege: 12 · 100 = 1.200, 12 · 75 = 12 · 70 + 12 · 5 = 840 + 60 = 900. Zusammen: 1.200 + 900 = ___. Mia: 9 · 250 = 9 · 200 + 9 · 50 = ___ + ___ = ___.",
+      "- Liam: 12 · 175 ct = 2.100 ct = 21,00 €\n- Mia: 9 · 250 ct = 2.250 ct = 22,50 €\n- Unterschied: 2.250 − 2.100 = 150 ct = 1,50 €."
     ],
     "didaktischerHinweis": "Vergleichsaufgabe mit zwei Rechnungen. Das Kind muss beide Ergebnisse berechnen und dann die Differenz bilden. Entspricht S. 91.",
     "parsed": {
@@ -2845,10 +2843,10 @@
     "loesung": "69,75 € pro Projekt.",
     "loesungsweg": "348,75 € = 34.875 ct\n34.875 : 5 = 6.975 ct = 69,75 €",
     "tipps": [
-      "\"Gleichmäßig aufteilen\" heißt: Dividieren! Du teilst den Gesamtbetrag durch die Anzahl der Projekte.",
+      "Teile den Gesamtbetrag gleichmäßig auf alle Projekte auf.",
       "Wandle in Cent um: 348,75 € = 34.875 Cent. Dividiere: 34.875 : 5. Tipp: 5er-Teilbarkeit prüfen — Einerstelle ist 5, also geht es ohne Rest auf!",
-      "34.875 : 5. Start: 34 : 5 = 6 R 4, dann 48 : 5 = 9 R 3, dann 37 : 5 = 7 R 2, dann 25 : 5 = ___. Ergebnis: ___ Cent = ___,___ €",
-      "348,75 € = 34.875 ct\n34.875 : 5 = 6.975 ct = 69,75 €"
+      "34.875 : 5. Start: 34 : 5 = 6 R 4, dann 48 : 5 = 9 R 3, dann 37 : 5 = 7 R 2, dann 25 : 5 = ___. Ergebnis: ___ Cent = ___,___ €.",
+      "348,75 € = 34.875 ct\n34.875 : 5 = 6.975 ct = 69,75 €."
     ],
     "didaktischerHinweis": "Division eines Geldbetrags — kombiniert Cent-Umwandlung und schriftliche Division. Die Teilbarkeitsregel gibt Sicherheit, dass kein Rest kommen wird. Entspricht S. 91.",
     "parsed": {
@@ -2879,8 +2877,8 @@
     "tipps": [
       "Du kennst den Gesamtbetrag und den Betrag pro Runde. Um die Anzahl der Runden zu finden, musst du teilen: Gesamtbetrag : Betrag pro Runde = Anzahl Runden.",
       "In Cent: 3.150 : 350. Beide Zahlen enden auf 0 — kürze durch 10! 315 : 35. Oder sogar durch 5: 63 : 7 = 9!",
-      "a) 3.150 ct : 350 ct. Vereinfache: 315 : 35. Probiere: 35 · 5 = 175 (zu wenig), 35 · 9 = ___. Stimmt das? b) 9 + 3 = 12 Runden. 12 · 350 = ___",
-      "a) 31,50 € = 3.150 ct. 3,50 € = 350 ct. 3.150 : 350 = 9 Runden\n   (Vereinfache: 3.150 : 350 → 315 : 35 = 9)\nb) 9 + 3 = 12 Runden. 12 · 350 ct = 4.200 ct = 42,00 €"
+      "a) 3.150 ct : 350 ct. Vereinfache: 315 : 35. Probiere: 35 · 5 = 175 (zu wenig), 35 · 9 = ___. Stimmt das? b) 9 + 3 = 12 Runden. 12 · 350 = ___.",
+      "a) 31,50 € = 3.150 ct. 3,50 € = 350 ct. 3.150 : 350 = 9 Runden\n   (Vereinfache: 3.150 : 350 → 315 : 35 = 9)\nb) 9 + 3 = 12 Runden. 12 · 350 ct = 4.200 ct = 42,00 €."
     ],
     "didaktischerHinweis": "Rückwärtsrechnung (Gesamtbetrag : Einzelpreis = Anzahl) ist anspruchsvoller als die Vorwärtsrichtung. Teil b) verbindet Division und Multiplikation in einer zusammenhängenden Sachaufgabe. Entspricht S. 91.",
     "parsed": {
@@ -2917,7 +2915,7 @@
       "Um fair zu vergleichen, teile die Gesamteinnahmen durch die Anzahl der Kinder. So bekommst du den Durchschnitt pro Kind.",
       "In Cent umwandeln, dann schriftlich dividieren: 46.200 : 24 und 40.950 : 21. Tipp: Vereinfache! 46.200 : 24 — beide durch 6 kürzen? Oder direkt schriftlich.",
       "4a: 46.200 ct : 24. Vereinfache: 46.200 : 24 = 23.100 : 12 = 11.550 : 6 = 1.925 ct. In Euro: ___,___ €. 4b: 40.950 : 21 = ___. Vergleiche die Ergebnisse.",
-      "- 4a: 46.200 ct : 24 = 1.925 ct = 19,25 €\n- 4b: 40.950 ct : 21 = 1.950 ct = 19,50 €\n- Unterschied: 1.950 − 1.925 = 25 ct = 0,25 €"
+      "- 4a: 46.200 ct : 24 = 1.925 ct = 19,25 €\n- 4b: 40.950 ct : 21 = 1.950 ct = 19,50 €\n- Unterschied: 1.950 − 1.925 = 25 ct = 0,25 €."
     ],
     "didaktischerHinweis": "Durchschnittsberechnung als Division — ein alltagsrelevantes Konzept. Der Vergleich zeigt, dass die Klasse mit weniger Geld trotzdem \"besser\" sein kann, wenn sie weniger Kinder hat. Entspricht S. 91.",
     "parsed": {

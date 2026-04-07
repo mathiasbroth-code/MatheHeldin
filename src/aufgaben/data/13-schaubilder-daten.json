@@ -14,7 +14,7 @@
     "tipps": [
       "Schau dir alle Zahlen in der Spalte „Größe\" an. Welche Zahl ist am größten? Welche am kleinsten?",
       "Sortiere die Größen im Kopf von klein nach groß: 128, 129, 142, 152, 152. Jetzt siehst du sofort, wer der Größte und wer der Kleinste ist.",
-      "Die größte Zahl ist 152 — das sind ___ und ___. Die kleinste ist 128 — das ist ___. Unterschied: 152 - 128 = ___",
+      "Die größte Zahl ist 152 — das sind ___ und ___. Die kleinste ist 128 — das ist ___. Unterschied: 152 - 128 = ___.",
       "Lies die Größen aus der Tabelle ab und vergleiche:\n129, 142, 152, 128, 152. Die größte Zahl ist 152 (Lena und Tobi), die kleinste ist 128 (Emilio).\nUnterschied: 152 - 128 = 24 cm."
     ],
     "didaktischerHinweis": "Tabellenlesen als Grundkompetenz für Datenarbeit. Entspricht S. 122, Aufg. 1-3.",
@@ -56,8 +56,8 @@
     "tipps": [
       "Für den Unterschied rechnest du: größere Zahl minus kleinere Zahl. Egal, wer zuerst genannt wird.",
       "Unterschied = größere Zahl - kleinere Zahl.\na) 144 - 141 = ?",
-      "a) 144 - 141 = ___\nb) 140 - 137 = ___\nc) 153 - 129 = ___",
-      "- a) 144 - 141 = 3 cm\n- b) 140 - 137 = 3 cm\n- c) 153 - 129 = 24 cm"
+      "a) 144 - 141 = ___\nb) 140 - 137 = ___\nc) 153 - 129 = ___.",
+      "- a) 144 - 141 = 3 cm\n- b) 140 - 137 = 3 cm\n- c) 153 - 129 = 24 cm."
     ],
     "didaktischerHinweis": "Subtraktion im Kontext von Tabellendaten. Entspricht S. 122, Aufg. 3.",
     "parsed": {
@@ -97,7 +97,7 @@
     "tipps": [
       "Stell dir die fünf Kinder in einer Reihe vor, von klein nach groß. Welches Kind steht genau in der Mitte?",
       "Es sind 5 Kinder. Das Kind in der Mitte ist das 3. Kind. Zähle: 1., 2., **3.**, 4., 5.",
-      "129, 137, ___, 142, 152. Links stehen 2 Zahlen, rechts stehen 2 Zahlen. Die Zahl in der Mitte ist ___",
+      "129, 137, ___, 142, 152. Links stehen 2 Zahlen, rechts stehen 2 Zahlen. Die Zahl in der Mitte ist ___.",
       "Bei einer ungeraden Anzahl von Werten ist der Mittelwert (Median) der Wert, der genau in der Mitte steht, wenn alle der Größe nach geordnet sind:\n129, 137, **140**, 142, 152 → 140 cm steht in der Mitte (2 Werte links, 2 Werte rechts)."
     ],
     "didaktischerHinweis": "Einführung Median (Mittelwert als „Wert in der Mitte\"). Entspricht S. 122, Aufg. 4.",
@@ -132,9 +132,9 @@
     "loesungsweg": "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch",
     "tipps": [
       "Lies bei jedem Alter den Wert auf der y-Achse (Körpergrösse) ab. Vergleiche dann die beiden Linien (Jungen und Mädchen).",
-      "Gehe bei jeder Aussage so vor:\n1. Finde das genannte Alter auf der x-Achse\n2. Lies den Größenwert auf der y-Achse ab\n3. Prüfe die Aussage",
-      "a) Bei 10 Jahren: Jungen ≈ 140 cm, Mädchen ≈ 140 cm. Ungefähr gleich? ___\nc) Bei 0 Jahren (Geburt): Die Linie startet bei ca. ___ cm. Ist das 100 cm?",
-      "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch"
+      "Gehe bei jeder Aussage so vor:\n1. Finde das genannte Alter auf der x-Achse\n2. Lies den Größenwert auf der y-Achse ab\n3. Prüfe die Aussage.",
+      "a) Bei 10 Jahren: Jungen ≈ 140 cm, Mädchen ≈ 140 cm. Ungefähr gleich? ___\nb) Bei 18 Jahren: Jungen ≈ ___ cm, Mädchen ≈ ___ cm. Wer ist größer?\nc) Bei 0 Jahren (Geburt): Die Linie startet bei ca. ___ cm. Ist das 100 cm?\nd) Bei 18 Jahren: Sind Mädchen oder Jungen größer?",
+      "Im Diagramm liest man ab:\n- a) Bei 10 Jahren liegen beide Linien bei ca. 140 cm → richtig\n- b) Bei 18 Jahren: Jungen ca. 180 cm, Mädchen ca. 168 cm → Jungen größer → richtig\n- c) Bei 0 Jahren: ca. 50 cm, nicht 100 cm → falsch\n- d) Jungen sind mit 18 größer, nicht Mädchen → falsch."
     ],
     "didaktischerHinweis": "Diagramme lesen und Aussagen prüfen. Entspricht S. 123, Aufg. 7-9.",
     "themenIntroBild": "assets/erklaerungen/wachstumskurve-kinder.svg",
@@ -184,8 +184,8 @@
     "tipps": [
       "Paul ist 3-mal so groß wie bei der Geburt. Das heißt: Geburtsgrösse · 3 = 141. Welche Zahl mal 3 ergibt 141?",
       "Teile Pauls jetzige Größe durch 3, um seine Geburtsgrösse zu bekommen. Dann multipliziere die Geburtsgrösse mit 4 für den Vater.",
-      "a) 141 : 3 = ___\nb) ___ · 4 = ___\nc) ___ - 141 = ___",
-      "- a) Paul jetzt : 3 = Geburtsgrösse → 141 : 3 = 47 cm\n- b) Geburtsgrösse · 4 = Vater → 47 · 4 = 188 cm\n- c) 188 - 141 = 47 cm"
+      "a) 141 : 3 = ___\nb) ___ · 4 = ___\nc) ___ - 141 = ___.",
+      "- a) Paul jetzt : 3 = Geburtsgrösse → 141 : 3 = 47 cm\n- b) Geburtsgrösse · 4 = Vater → 47 · 4 = 188 cm\n- c) 188 - 141 = 47 cm."
     ],
     "didaktischerHinweis": "Sachrechnen mit Tabellendaten. Entspricht S. 122, Aufg. 6.",
     "parsed": {
@@ -219,14 +219,14 @@
     "kapitel": "13-schaubilder-daten",
     "stageId": "tabellen-diagramme",
     "digital": "voll",
-    "aufgabenstellung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\na) Lukas (137 cm)\nb) Justus (140 cm)\nc) Daniel (143 cm)\nd) Jan (137 cm)\ne) Ole (138 cm)",
-    "loesung": "a, d, e, b, c",
-    "loesungsweg": "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm).",
+    "aufgabenstellung": "Ordne die Kinder nach ihrer Körpergrösse — beginne mit dem kleinsten Kind.\n\na) Lukas (137 cm)\nb) Justus (140 cm)\nc) Daniel (143 cm)\nd) Jan (138 cm)\ne) Ole (141 cm)",
+    "loesung": "a, d, b, e, c",
+    "loesungsweg": "Sortiere die Zahlen: 137, 138, 140, 141, 143.\nLukas (137 cm), Jan (138 cm), Justus (140 cm), Ole (141 cm), Daniel (143 cm).",
     "tipps": [
-      "Suche zuerst die kleinste Zahl. Dann die nächstgrößere. Achtung: Zwei Kinder können gleich groß sein!",
-      "Schreibe alle Größen nebeneinander: 137, 140, 143, 137, 138. Sortiere sie von klein nach groß.",
-      "Die kleinste Zahl ist 137 — das sind ___ und ___. Die nächste ist 138 — das ist ___. Weiter!",
-      "Sortiere die Zahlen: 137, 137, 138, 140, 143.\nLukas und Jan sind gleich groß (137 cm), dann kommt Ole (138 cm), Justus (140 cm) und Daniel (143 cm)."
+      "Suche zuerst die kleinste Zahl. Dann die nächstgrößere.",
+      "Schreibe alle Größen nebeneinander: 137, 140, 143, 138, 141. Sortiere sie von klein nach groß.",
+      "Die kleinste Zahl ist 137 — das ist ___. Die nächste ist 138 — das ist ___. Dann 140, 141, 143. Weiter!",
+      "Sortiere die Zahlen: 137, 138, 140, 141, 143.\nLukas (137 cm), Jan (138 cm), Justus (140 cm), Ole (141 cm), Daniel (143 cm)."
     ],
     "didaktischerHinweis": "Sortieren als Grundlage für Median-Bestimmung. Entspricht S. 122, Aufg. 4.",
     "parsed": {
@@ -239,14 +239,14 @@
             "Lukas (137 cm)",
             "Justus (140 cm)",
             "Daniel (143 cm)",
-            "Jan (137 cm)",
-            "Ole (138 cm)"
+            "Jan (138 cm)",
+            "Ole (141 cm)"
           ],
           "richtigeReihenfolge": [
             "Lukas (137 cm)",
-            "Jan (137 cm)",
-            "Ole (138 cm)",
+            "Jan (138 cm)",
             "Justus (140 cm)",
+            "Ole (141 cm)",
             "Daniel (143 cm)"
           ]
         }
@@ -267,9 +267,9 @@
     "loesungsweg": "1. Größen addieren: 168 + 182 = 350\n2. 13 cm abziehen (Mädchen-Formel): 350 - 13 = 337\n3. Durch 2 teilen: 337 : 2 = 168,5 ≈ 169 cm",
     "tipps": [
       "Die Formel hat drei Schritte: addieren, 13 abziehen, halbieren. Fange mit dem Addieren an!",
-      "Schritt 1: Mutter + Vater = 168 + 182 = ___\nSchritt 2: Ergebnis - 13 = ___\nSchritt 3: Ergebnis : 2 = ___",
-      "168 + 182 = 350. Jetzt 350 - 13 = 337. Und 337 : 2 = ___",
-      "1. Größen addieren: 168 + 182 = 350\n2. 13 cm abziehen (Mädchen-Formel): 350 - 13 = 337\n3. Durch 2 teilen: 337 : 2 = 168,5 ≈ 169 cm"
+      "Schritt 1: Mutter + Vater = 168 + 182 = ___\nSchritt 2: Ergebnis - 13 = ___\nSchritt 3: Ergebnis : 2 = ___.",
+      "168 + 182 = 350. Jetzt 350 - 13 = 337. Und 337 : 2 = ___.",
+      "1. Größen addieren: 168 + 182 = 350\n2. 13 cm abziehen (Mädchen-Formel): 350 - 13 = 337\n3. Durch 2 teilen: 337 : 2 = 168,5 ≈ 169 cm."
     ],
     "didaktischerHinweis": "Mehrstufige Rechnung mit persönlichem Bezug. Entspricht S. 123, Formel-Aufgabe.",
     "parsed": {
@@ -299,8 +299,8 @@
     "loesungsweg": "- a) 3 = 1+1+1 → III\n- b) 8 = 5+3 → V + III → VIII\n- c) 12 = 10+2 → X + II → XII\n\nBei römischen Zahlen setzt man die Zeichen von groß nach klein nebeneinander und addiert ihre Werte.",
     "tipps": [
       "Schau dir die Tabelle der römischen Zeichen an: I=1, V=5, X=10. Wie kannst du die Zahl mit diesen Bausteinen zusammensetzen?",
-      "Zerlege die Zahl in ihre Bestandteile und schreibe für jeden Teil das passende römische Zeichen:\n- Zuerst die Zehner (X=10), dann die Fünfer (V=5), dann die Einer (I=1).\n- Beispiel: 7 = 5+1+1 → VII",
-      "a) 3 = 1+1+1 → I, I, I → ___\nb) 8 = 5+3 = 5+1+1+1 → V + ___ → ___\nc) 12 = 10+2 = 10+1+1 → X + ___ → ___",
+      "Zerlege die Zahl in ihre Bestandteile und schreibe für jeden Teil das passende römische Zeichen:\n- Zuerst die Zehner (X=10), dann die Fünfer (V=5), dann die Einer (I=1).\n- Beispiel: 7 = 5+1+1 → VII.",
+      "a) 3 = 1+1+1 → I, I, I → ___\nb) 8 = 5+3 = 5+1+1+1 → V + ___ → ___\nc) 12 = 10+2 = 10+1+1 → X + ___ → ___.",
       "- a) 3 = 1+1+1 → III\n- b) 8 = 5+3 → V + III → VIII\n- c) 12 = 10+2 → X + II → XII\n\nBei römischen Zahlen setzt man die Zeichen von groß nach klein nebeneinander und addiert ihre Werte."
     ],
     "didaktischerHinweis": "Einstieg in römische Zahlen mit reiner Additionsregel (ohne Subtraktionsregel). Entspricht Fredo S. 124.",
@@ -341,7 +341,7 @@
     "tipps": [
       "Lies die römische Zahl von links nach rechts. Schau in der Tabelle nach: I=1, V=5, X=10. Addiere die Werte der einzelnen Zeichen.",
       "Gehe Zeichen für Zeichen vor:\n1. Schreibe unter jedes Zeichen seinen Wert.\n2. Addiere alle Werte.\nBeispiel: VII → 5+1+1 = 7",
-      "a) V=5, I=1 → 5+1 = ___\nb) X=10, I=1 → 10+1 = ___\nc) X=10, X=10 → 10+10 = ___",
+      "a) V=5, I=1 → 5+1 = ___\nb) X=10, I=1 → 10+1 = ___\nc) X=10, X=10 → 10+10 = ___.",
       "- a) VI → V=5, I=1 → 5+1 = 6\n- b) XI → X=10, I=1 → 10+1 = 11\n- c) XX → X=10, X=10 → 10+10 = 20\n\nWenn ein kleineres Zeichen rechts von einem größeren steht, wird es addiert."
     ],
     "didaktischerHinweis": "Umkehrübung zum Schreiben: Lesen und Addieren der Zeichenwerte. Entspricht Fredo S. 124.",
@@ -382,7 +382,7 @@
     "tipps": [
       "Es gibt eine besondere Regel: Maximal 3 gleiche Zeichen dürfen nebeneinander stehen. Deshalb schreibt man 4 nicht als IIII, sondern nutzt die Subtraktionsregel: Ein kleineres Zeichen vor einem größeren bedeutet „abziehen\".",
       "Merke dir diese wichtigen Kombinationen:\n- 4 = IV (5-1)\n- 9 = IX (10-1)\n- 14 = X + IV (10 + 4)\n\nWenn du eine 4 oder 9 in der Zahl erkennst, nutze die Subtraktionsregel!",
-      "a) 4 = 5-1 → I vor V → ___\nb) 9 = 10-1 → I vor X → ___\nc) 14 = 10+4 → X + ___ → ___",
+      "a) 4 = 5-1 → I vor V → ___\nb) 9 = 10-1 → I vor X → ___\nc) 14 = 10+4 → X + ___ → ___.",
       "- a) 4 = 5-1 → IV (I steht vor V, also wird 1 abgezogen)\n- b) 9 = 10-1 → IX (I steht vor X, also wird 1 abgezogen)\n- c) 14 = 10+4 = 10+(5-1) → X + IV → XIV\n\nDie Subtraktionsregel: Steht ein kleineres Zeichen links von einem größeren, wird es abgezogen statt addiert. So wird 4 zu IV (nicht IIII) und 9 zu IX (nicht VIIII)."
     ],
     "didaktischerHinweis": "Einführung der Subtraktionsregel (IV, IX). Wichtige Erweiterung, die häufig Fehlerquelle ist. Entspricht Fredo S. 124-125.",
@@ -423,7 +423,7 @@
     "tipps": [
       "Lies von links nach rechts. Wenn ein kleineres Zeichen vor einem größeren steht (z. B. X vor L), dann ziehe den kleineren Wert vom größeren ab. Schau in der Tabelle: X=10, L=50, C=100.",
       "Prüfe immer zwei Zeichen gleichzeitig:\n- Ist das linke Zeichen kleiner als das rechte? → Subtrahiere (z. B. XL = 50-10)\n- Ist das linke Zeichen größer oder gleich? → Addiere (z. B. XV = 10+5)",
-      "a) X=10, L=50. X steht vor L → 50-10 = ___\nb) X=10, C=100. X steht vor C → 100-10 = ___\nc) XL=40, IV=4 → 40+4 = ___",
+      "a) X=10, L=50. X steht vor L → 50-10 = ___\nb) X=10, C=100. X steht vor C → 100-10 = ___\nc) XL=40, IV=4 → 40+4 = ___.",
       "- a) XL → X steht vor L → L-X = 50-10 = 40\n- b) XC → X steht vor C → C-X = 100-10 = 90\n- c) XLIV → XL=40, IV=4 → 40+4 = 44\n\nWenn ein kleineres Zeichen links von einem größeren steht, wird es abgezogen: XL = 50-10 = 40, XC = 100-10 = 90, IV = 5-1 = 4."
     ],
     "didaktischerHinweis": "Lesen mit Subtraktionsregel bei größeren Werten (XL=40, XC=90). Entspricht Fredo S. 125.",
@@ -463,8 +463,8 @@
     "loesungsweg": "- a) 150 = 100+50 → C + L → CL\n- b) 276 = 200+70+6 = 100+100+50+10+10+5+1 → CC + LXX + VI → CCLXXVI\n- c) 499 = 400+90+9 = (500-100)+(100-10)+(10-1) → CD + XC + IX → CDXCIX\n\nBei großen Zahlen zerlegst du in Hunderter, Zehner und Einer und schreibst für jeden Teil die römischen Zeichen.",
     "tipps": [
       "Zerlege die Zahl in Hunderter, Zehner und Einer. Schau in der Tabelle: C=100, L=50, X=10, V=5, I=1. Vergiss nicht: D=500 und die Subtraktionsregel für 4 und 9!",
-      "Gehe Stelle für Stelle vor:\n1. Wie viele Hunderter? (C=100, D=500, CD=400)\n2. Wie viele Zehner? (X=10, L=50, XC=90)\n3. Wie viele Einer? (I=1, V=5, IX=9)\n\nBeispiel: 276 → 200=CC, 70=LXX, 6=VI → CCLXXVI",
-      "a) 150 = 100+50 → C + L → ___\nb) 276: Hunderter: 200 = CC, Zehner: 70 = LXX, Einer: 6 = VI → ___\nc) 499: Hunderter: 400 = CD, Zehner: 90 = XC, Einer: 9 = IX → ___",
+      "Gehe Stelle für Stelle vor:\n1. Wie viele Hunderter? (C=100, D=500, CD=400)\n2. Wie viele Zehner? (X=10, L=50, XC=90)\n3. Wie viele Einer? (I=1, V=5, IX=9)\n\nBeispiel: 276 → 200=CC, 70=LXX, 6=VI → CCLXXVI.",
+      "a) 150 = 100+50 → C + L → ___\nb) 276: Hunderter: 200 = CC, Zehner: 70 = LXX, Einer: 6 = VI → ___\nc) 499: Hunderter: 400 = CD, Zehner: 90 = XC, Einer: 9 = IX → ___.",
       "- a) 150 = 100+50 → C + L → CL\n- b) 276 = 200+70+6 = 100+100+50+10+10+5+1 → CC + LXX + VI → CCLXXVI\n- c) 499 = 400+90+9 = (500-100)+(100-10)+(10-1) → CD + XC + IX → CDXCIX\n\nBei großen Zahlen zerlegst du in Hunderter, Zehner und Einer und schreibst für jeden Teil die römischen Zeichen."
     ],
     "didaktischerHinweis": "Kombination aus Additions- und Subtraktionsregel bei dreistelligen Zahlen. Erfordert systematisches Zerlegen. Entspricht Fredo S. 125.",
@@ -500,13 +500,13 @@
     "stageId": "roemische-zahlen",
     "digital": "voll",
     "aufgabenstellung": "Auf alten Gebäuden und Denkmälern stehen Jahreszahlen oft in römischen Zahlen. Welches Jahr ist gemeint?\n\na) MMI\nb) MCMXLV\nc) MDCCCXII",
-    "loesung": "a) 2.001\nb) 1.945\nc) 1.812",
-    "loesungsweg": "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2.001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1.945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1.812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel.",
+    "loesung": "a) 2001\nb) 1945\nc) 1812",
+    "loesungsweg": "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel.",
     "tipps": [
       "Beginne von links: M=1.000. Dann prüfe immer zwei Zeichen: Steht ein kleineres vor einem größeren (z. B. C vor M)? Dann ist es Subtraktion! Schau in der Tabelle: M=1.000, D=500, C=100.",
       "Zerlege die römische Zahl in Blöcke:\n- M = 1.000\n- CM = 900 (1.000-100) — Achtung: C steht vor M!\n- XL = 40 (50-10)\n- Einzelne Zeichen addieren\n\nGehe Block für Block und addiere die Werte.",
-      "a) M+M+I = 1.000+1.000+1 = ___\nb) M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = ___\nc) M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = ___",
-      "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2.001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1.945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1.812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel."
+      "a) M+M+I = 1.000+1.000+1 = ___\nb) M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = ___\nc) M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = ___.",
+      "- a) MMI → M=1.000, M=1.000, I=1 → 1.000+1.000+1 = 2001\n- b) MCMXLV → M=1.000, CM=900, XL=40, V=5 → 1.000+900+40+5 = 1945\n- c) MDCCCXII → M=1.000, D=500, CCC=300, X=10, II=2 → 1.000+500+300+10+2 = 1812\n\nBei Jahreszahlen kommen oft M (1.000) und D (500) vor. Achte auf CM (900) als Subtraktionsregel."
     ],
     "didaktischerHinweis": "Jahreszahlen als motivierender Realweltbezug. Erfordert sicheren Umgang mit allen Zeichen (M, D, C) und der Subtraktionsregel (CM=900). Entspricht Fredo S. 125.",
     "parsed": {
@@ -516,17 +516,17 @@
         {
           "label": "a",
           "frage": "MMI",
-          "antwort": "2.001"
+          "antwort": "2001"
         },
         {
           "label": "b",
           "frage": "MCMXLV",
-          "antwort": "1.945"
+          "antwort": "1945"
         },
         {
           "label": "c",
           "frage": "MDCCCXII",
-          "antwort": "1.812"
+          "antwort": "1812"
         }
       ]
     }

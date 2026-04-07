@@ -3,6 +3,15 @@ import { useProfileStore } from '@/stores/profileStore';
 import { AvatarDisplay, type AvatarConfig } from './AvatarDisplay';
 import type { MaskottchenTier, MaskottchenFarbe } from './MaskottchenSvg';
 import { MarkdownText } from '@/aufgaben/views/MarkdownText';
+import { UngleichungenMerkkasten } from './UngleichungenMerkkasten';
+import { BruchMerkkasten } from './BruchKreis';
+
+/** SVG-Ersatz für bestimmte tippBilder. Gibt JSX oder null zurück. */
+function TippBildErsatz({ src }: { src: string }): React.ReactNode {
+  if (src.includes('regel-ungleichungen')) return <UngleichungenMerkkasten />;
+  if (src.includes('merkkasten-brueche')) return <BruchMerkkasten />;
+  return null;
+}
 
 interface TippSystemProps {
   tipps: string[] | null;
@@ -66,12 +75,14 @@ export function TippInhalte({ tipps, tippBilder, stufe, onAdvance }: TippSystemP
               <p className="text-xs font-bold text-heading">{labels[i]}</p>
               <MarkdownText text={text} className="text-sm text-body mt-0.5" />
               {tippBilder?.[i] && (
-                <img
-                  src={`/${tippBilder[i]}`}
-                  alt={labels[i]}
-                  className="mt-2 rounded-lg border border-border max-w-full"
-                  loading="lazy"
-                />
+                TippBildErsatz({ src: tippBilder[i]! }) || (
+                  <img
+                    src={`/${tippBilder[i]}`}
+                    alt={labels[i]}
+                    className="mt-2 rounded-lg border border-border max-w-full"
+                    loading="lazy"
+                  />
+                )
               )}
             </div>
           ))}
