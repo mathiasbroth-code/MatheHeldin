@@ -461,6 +461,7 @@
       "- **Senkrecht** bedeutet: Die Linien bilden einen rechten Winkel (90°), wie das Kreuz bei einem Plus-Zeichen (+).\n- **Parallel** bedeutet: Die Linien laufen in die gleiche Richtung und haben überall den gleichen Abstand. Sie kreuzen sich nie, auch wenn man sie verlängert.\n- Wenn sich Linien kreuzen, aber keinen rechten Winkel bilden, sind sie weder senkrecht noch parallel."
     ],
     "didaktischerHinweis": "Diese Grundlagenaufgabe sichert die Begriffe „senkrecht\" und „parallel\", die auf S. 48 im Buch eingeführt werden. Ohne Geodreieck kann das Kind die Begriffe visuell üben.",
+    "themenIntroBild": "assets/erklaerungen/geodreieck-einfuehrung.svg",
     "parsed": {
       "typ": "zuordnung",
       "anweisung": "Schau dir die Linienpaare an. Welche Linien sind zueinander senkrecht und welche sind parallel?",

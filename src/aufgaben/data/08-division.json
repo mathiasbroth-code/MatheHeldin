@@ -397,7 +397,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich. Zerlege den Dividenden.\n\na) 84 : 4\nb) 72 : 6\nc) 95 : 5",
-    "loesung": "a) 21\nb) 12\nc) 19",
+    "loesung": "a) 80 : 4 = 20\n4 : 4 = 1\n20 + 1 = 21\nb) 60 : 6 = 10\n12 : 6 = 2\n10 + 2 = 12\nc) 50 : 5 = 10\n45 : 5 = 9\n10 + 9 = 19",
     "loesungsweg": "Zerlege den Dividenden in gut teilbare Teile:\n- a) 84 : 4 → 80 : 4 = 20, 4 : 4 = 1 → 20 + 1 = 21\n- b) 72 : 6 → 60 : 6 = 10, 12 : 6 = 2 → 10 + 2 = 12\n- c) 95 : 5 → 50 : 5 = 10, 45 : 5 = 9 → 10 + 9 = 19",
     "tipps": [
       "Stell dir vor, du verteilst 84 Bonbons gerecht auf 4 Kinder. Du musst nicht alle auf einmal verteilen — nimm erst einen großen Haufen, dann den Rest. Welchen Teil von 84 kannst du leicht durch 4 teilen?",
@@ -421,7 +421,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "84 : 4",
+              "frage": "80 : 4 = ?",
+              "antwort": "20"
+            },
+            {
+              "label": "2",
+              "frage": "4 : 4 = ?",
+              "antwort": "1"
+            },
+            {
+              "label": "3",
+              "frage": "20 + 1 = ?",
               "antwort": "21"
             }
           ]
@@ -431,7 +441,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "72 : 6",
+              "frage": "60 : 6 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "12 : 6 = ?",
+              "antwort": "2"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 2 = ?",
               "antwort": "12"
             }
           ]
@@ -441,7 +461,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "95 : 5",
+              "frage": "50 : 5 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "45 : 5 = ?",
+              "antwort": "9"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 9 = ?",
               "antwort": "19"
             }
           ]
@@ -459,7 +489,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich auf deinem Weg.\n\na) 57 : 3\nb) 68 : 4\nc) 84 : 6",
-    "loesung": "a) 19\nb) 17\nc) 14",
+    "loesung": "a) 30 : 3 = 10\n27 : 3 = 9\n10 + 9 = 19\nb) 40 : 4 = 10\n28 : 4 = 7\n10 + 7 = 17\nc) 60 : 6 = 10\n24 : 6 = 4\n10 + 4 = 14",
     "loesungsweg": "Verschiedene Zerlegungen sind möglich:\n- a) 57 : 3 → 30 : 3 = 10, 27 : 3 = 9 → 10 + 9 = 19. Oder: 45 : 3 = 15, 12 : 3 = 4 → 15 + 4 = 19\n- b) 68 : 4 → 40 : 4 = 10, 28 : 4 = 7 → 10 + 7 = 17. Oder: 60 : 4 = 15, 8 : 4 = 2 → 15 + 2 = 17\n- c) 84 : 6 → 60 : 6 = 10, 24 : 6 = 4 → 10 + 4 = 14",
     "tipps": [
       "Welches Vielfache von 3 (bei Aufgabe a) kennst du, das kleiner als 57 ist? Das wird dein erster Schritt.",
@@ -483,7 +513,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "57 : 3",
+              "frage": "30 : 3 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "27 : 3 = ?",
+              "antwort": "9"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 9 = ?",
               "antwort": "19"
             }
           ]
@@ -493,7 +533,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "68 : 4",
+              "frage": "40 : 4 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "28 : 4 = ?",
+              "antwort": "7"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 7 = ?",
               "antwort": "17"
             }
           ]
@@ -503,7 +553,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "84 : 6",
+              "frage": "60 : 6 = ?",
+              "antwort": "10"
+            },
+            {
+              "label": "2",
+              "frage": "24 : 6 = ?",
+              "antwort": "4"
+            },
+            {
+              "label": "3",
+              "frage": "10 + 4 = ?",
               "antwort": "14"
             }
           ]
@@ -568,7 +628,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich.\n\na) 840 : 7\nb) 642 : 6\nc) 510 : 3",
-    "loesung": "a) 120\nb) 107\nc) 170",
+    "loesung": "a) 700 : 7 = 100\n140 : 7 = 20\n100 + 20 = 120\nb) 600 : 6 = 100\n42 : 6 = 7\n100 + 7 = 107\nc) 300 : 3 = 100\n210 : 3 = 70\n100 + 70 = 170",
     "loesungsweg": "- a) 840 : 7 → 700 : 7 = 100, 140 : 7 = 20 → 100 + 20 = 120\n- b) 642 : 6 → 600 : 6 = 100, 42 : 6 = 7 → 100 + 7 = 107\n- c) 510 : 3 → 300 : 3 = 100, 210 : 3 = 70 → 100 + 70 = 170",
     "tipps": [
       "Bei dreistelligen Zahlen: Fange mit den Hundertern an. Wie viele Hunderter kannst du durch den Divisor teilen? Dann kümmere dich um den Rest.",
@@ -592,7 +652,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "840 : 7",
+              "frage": "700 : 7 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "140 : 7 = ?",
+              "antwort": "20"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 20 = ?",
               "antwort": "120"
             }
           ]
@@ -602,7 +672,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "642 : 6",
+              "frage": "600 : 6 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "42 : 6 = ?",
+              "antwort": "7"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 7 = ?",
               "antwort": "107"
             }
           ]
@@ -612,7 +692,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "510 : 3",
+              "frage": "300 : 3 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "210 : 3 = ?",
+              "antwort": "70"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 70 = ?",
               "antwort": "170"
             }
           ]
@@ -630,7 +720,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich. Es bleibt ein Rest.\n\na) 765 : 7\nb) 653 : 5\nc) 545 : 2",
-    "loesung": "a) 109 R 2\nb) 130 R 3\nc) 272 R 1",
+    "loesung": "a) 700 : 7 = 100\n63 : 7 = 9\n100 + 9 = 109 R 2\nb) 500 : 5 = 100\n150 : 5 = 30\n100 + 30 = 130 R 3\nc) 400 : 2 = 200\n140 : 2 = 70\n4 : 2 = 2\n200 + 70 + 2 = 272 R 1",
     "loesungsweg": "- a) 765 : 7 → 700 : 7 = 100, 63 : 7 = 9, Rest: 765 − 700 − 63 = 2 → 109 R 2\n- b) 653 : 5 → 500 : 5 = 100, 150 : 5 = 30, Rest: 653 − 500 − 150 = 3 → 130 R 3\n- c) 545 : 2 → 400 : 2 = 200, 140 : 2 = 70, 4 : 2 = 2, Rest: 545 − 400 − 140 − 4 = 1 → 272 R 1",
     "tipps": [
       "Rechne wie gewohnt halbschriftlich. Wenn am Ende ein kleiner Rest bleibt, der nicht mehr durch den Divisor teilbar ist, schreibe ihn als \"R\" dahinter. Tipp aus dem Video \"Division mit Rest\": Der Rest ist immer kleiner als der Divisor!",
@@ -654,8 +744,18 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "765 : 7",
-              "antwort": "109 R 2"
+              "frage": "700 : 7 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "63 : 7 = ?",
+              "antwort": "9"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 9 = 109 R 2",
+              "antwort": "109"
             }
           ]
         },
@@ -664,8 +764,18 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "653 : 5",
-              "antwort": "130 R 3"
+              "frage": "500 : 5 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "150 : 5 = ?",
+              "antwort": "30"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 30 = 130 R 3",
+              "antwort": "130"
             }
           ]
         },
@@ -674,8 +784,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "545 : 2",
-              "antwort": "272 R 1"
+              "frage": "400 : 2 = ?",
+              "antwort": "200"
+            },
+            {
+              "label": "2",
+              "frage": "140 : 2 = ?",
+              "antwort": "70"
+            },
+            {
+              "label": "3",
+              "frage": "4 : 2 = ?",
+              "antwort": "2"
+            },
+            {
+              "label": "4",
+              "frage": "200 + 70 + 2 = 272 R 1",
+              "antwort": "272"
             }
           ]
         }
@@ -692,7 +817,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Rechne und notiere jeweils die nächstgrößere Zahl, die sich ohne Rest teilen lässt.\n\na) 874 : 4\nb) 857 : 7",
-    "loesung": "a) 874 : 4 = 218 R 2, nächste teilbare Zahl: 876 : 4 = 219\nb) 857 : 7 = 122 R 3, nächste teilbare Zahl: 861 : 7 = 123",
+    "loesung": "a) 800 : 4 = 200\n74 : 4 = 18 R 2\n200 + 18 = 218 R 2\n876 : 4 = 219\nb) 840 : 7 = 120\n17 : 7 = 2 R 3\n120 + 2 = 122 R 3\n861 : 7 = 123",
     "loesungsweg": "- a) 874 : 4 = 218 R 2. Rest ist 2, also fehlen noch 4 − 2 = 2 zum nächsten Vielfachen. 874 + 2 = 876. 876 : 4 = 219 ✓\n- b) 857 : 7 = 122 R 3. Rest ist 3, also fehlen noch 7 − 3 = 4. 857 + 4 = 861. 861 : 7 = 123 ✓",
     "tipps": [
       "Wenn bei einer Division Rest übrig bleibt, wie viel musst du zur Zahl dazurechnen, damit sie glatt aufgeht? Denke an den Divisor und den Rest.",
@@ -716,8 +841,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "874 : 4",
-              "antwort": "874 : 4 = 218 R 2, nächste teilbare Zahl: 876 : 4 = 219"
+              "frage": "800 : 4 = ?",
+              "antwort": "200"
+            },
+            {
+              "label": "2",
+              "frage": "74 : 4 = 18 R 2",
+              "antwort": "18"
+            },
+            {
+              "label": "3",
+              "frage": "200 + 18 = 218 R 2",
+              "antwort": "218"
+            },
+            {
+              "label": "4",
+              "frage": "876 : 4 = ?",
+              "antwort": "219"
             }
           ]
         },
@@ -726,8 +866,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "857 : 7",
-              "antwort": "857 : 7 = 122 R 3, nächste teilbare Zahl: 861 : 7 = 123"
+              "frage": "840 : 7 = ?",
+              "antwort": "120"
+            },
+            {
+              "label": "2",
+              "frage": "17 : 7 = 2 R 3",
+              "antwort": "2"
+            },
+            {
+              "label": "3",
+              "frage": "120 + 2 = 122 R 3",
+              "antwort": "122"
+            },
+            {
+              "label": "4",
+              "frage": "861 : 7 = ?",
+              "antwort": "123"
             }
           ]
         }
@@ -744,7 +899,7 @@
     "stageId": "halbschriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich. Welches Vielfache wählst du für den ersten Rechenschritt?\n\nVielfache von 8: 80, 160, 240, 320, 400, 480, 560, 640, 720, 800\n\na) 448 : 8\nb) 232 : 8\nc) 384 : 8",
-    "loesung": "a) 56\nb) 29\nc) 48",
+    "loesung": "a) 400 : 8 = 50\n48 : 8 = 6\n50 + 6 = 56\nb) 160 : 8 = 20\n72 : 8 = 9\n20 + 9 = 29\nc) 320 : 8 = 40\n64 : 8 = 8\n40 + 8 = 48",
     "loesungsweg": "- a) 448 : 8 → 400 : 8 = 50, 48 : 8 = 6 → 50 + 6 = 56\n- b) 232 : 8 → 160 : 8 = 20, 72 : 8 = 9 → 20 + 9 = 29\n- c) 384 : 8 → 320 : 8 = 40, 64 : 8 = 8 → 40 + 8 = 48",
     "tipps": [
       "Schau dir die Vielfachen-Liste an. Welches Vielfache von 8 ist am nächsten an deiner Zahl dran, aber kleiner? Das ist dein bester erster Schritt!",
@@ -762,7 +917,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "448 : 8",
+              "frage": "400 : 8 = ?",
+              "antwort": "50"
+            },
+            {
+              "label": "2",
+              "frage": "48 : 8 = ?",
+              "antwort": "6"
+            },
+            {
+              "label": "3",
+              "frage": "50 + 6 = ?",
               "antwort": "56"
             }
           ]
@@ -772,7 +937,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "232 : 8",
+              "frage": "160 : 8 = ?",
+              "antwort": "20"
+            },
+            {
+              "label": "2",
+              "frage": "72 : 8 = ?",
+              "antwort": "9"
+            },
+            {
+              "label": "3",
+              "frage": "20 + 9 = ?",
               "antwort": "29"
             }
           ]
@@ -782,7 +957,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "384 : 8",
+              "frage": "320 : 8 = ?",
+              "antwort": "40"
+            },
+            {
+              "label": "2",
+              "frage": "64 : 8 = ?",
+              "antwort": "8"
+            },
+            {
+              "label": "3",
+              "frage": "40 + 8 = ?",
               "antwort": "48"
             }
           ]
@@ -800,7 +985,7 @@
     "stageId": "halbschriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich.\n\na) 535 : 5\nb) 288 : 3\nc) 462 : 7\nd) 188 : 4",
-    "loesung": "a) 107\nb) 96\nc) 66\nd) 47",
+    "loesung": "a) 500 : 5 = 100\n35 : 5 = 7\n100 + 7 = 107\nb) 270 : 3 = 90\n18 : 3 = 6\n90 + 6 = 96\nc) 420 : 7 = 60\n42 : 7 = 6\n60 + 6 = 66\nd) 160 : 4 = 40\n28 : 4 = 7\n40 + 7 = 47",
     "loesungsweg": "- a) 535 : 5 → 500 : 5 = 100, 35 : 5 = 7 → 100 + 7 = 107\n- b) 288 : 3 → 270 : 3 = 90, 18 : 3 = 6 → 90 + 6 = 96\n- c) 462 : 7 → 420 : 7 = 60, 42 : 7 = 6 → 60 + 6 = 66\n- d) 188 : 4 → 160 : 4 = 40, 28 : 4 = 7 → 40 + 7 = 47",
     "tipps": [
       "Suche ein möglichst großes Vielfaches des Divisors, das kleiner ist als der Dividend. Manchmal kannst du die Hunderterzahl direkt teilen!",
@@ -818,7 +1003,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "535 : 5",
+              "frage": "500 : 5 = ?",
+              "antwort": "100"
+            },
+            {
+              "label": "2",
+              "frage": "35 : 5 = ?",
+              "antwort": "7"
+            },
+            {
+              "label": "3",
+              "frage": "100 + 7 = ?",
               "antwort": "107"
             }
           ]
@@ -828,7 +1023,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "288 : 3",
+              "frage": "270 : 3 = ?",
+              "antwort": "90"
+            },
+            {
+              "label": "2",
+              "frage": "18 : 3 = ?",
+              "antwort": "6"
+            },
+            {
+              "label": "3",
+              "frage": "90 + 6 = ?",
               "antwort": "96"
             }
           ]
@@ -838,7 +1043,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "462 : 7",
+              "frage": "420 : 7 = ?",
+              "antwort": "60"
+            },
+            {
+              "label": "2",
+              "frage": "42 : 7 = ?",
+              "antwort": "6"
+            },
+            {
+              "label": "3",
+              "frage": "60 + 6 = ?",
               "antwort": "66"
             }
           ]
@@ -848,7 +1063,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "188 : 4",
+              "frage": "160 : 4 = ?",
+              "antwort": "40"
+            },
+            {
+              "label": "2",
+              "frage": "28 : 4 = ?",
+              "antwort": "7"
+            },
+            {
+              "label": "3",
+              "frage": "40 + 7 = ?",
               "antwort": "47"
             }
           ]
@@ -907,7 +1132,7 @@
     "stageId": "halbschriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Rechne halbschriftlich. Wähle ein möglichst großes Vielfaches für den ersten Rechenschritt.\n\na) 2.880 : 5\nb) 3.650 : 5\nc) 1.560 : 2",
-    "loesung": "a) 576\nb) 730\nc) 780",
+    "loesung": "a) 2.500 : 5 = 500\n350 : 5 = 70\n30 : 5 = 6\n500 + 70 + 6 = 576\nb) 3.500 : 5 = 700\n150 : 5 = 30\n700 + 30 = 730\nc) 1.000 : 2 = 500\n560 : 2 = 280\n500 + 280 = 780",
     "loesungsweg": "- a) 2.880 : 5 → 2.500 : 5 = 500, 380 : 5 → 350 : 5 = 70, 30 : 5 = 6 → 500 + 70 + 6 = 576\n- b) 3.650 : 5 → 3.500 : 5 = 700, 150 : 5 = 30 → 700 + 30 = 730\n- c) 1.560 : 2 → 1.000 : 2 = 500, 560 : 2 = 280 → 500 + 280 = 780",
     "tipps": [
       "Bei vierstelligen Zahlen: Beginne mit den Tausendern. Wie viele Tausender kannst du durch den Divisor teilen? Dann kümmere dich um den Rest.",
@@ -925,7 +1150,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "2.880 : 5",
+              "frage": "2.500 : 5 = ?",
+              "antwort": "500"
+            },
+            {
+              "label": "2",
+              "frage": "350 : 5 = ?",
+              "antwort": "70"
+            },
+            {
+              "label": "3",
+              "frage": "30 : 5 = ?",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "500 + 70 + 6 = ?",
               "antwort": "576"
             }
           ]
@@ -935,7 +1175,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "3.650 : 5",
+              "frage": "3.500 : 5 = ?",
+              "antwort": "700"
+            },
+            {
+              "label": "2",
+              "frage": "150 : 5 = ?",
+              "antwort": "30"
+            },
+            {
+              "label": "3",
+              "frage": "700 + 30 = ?",
               "antwort": "730"
             }
           ]
@@ -945,7 +1195,17 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "1.560 : 2",
+              "frage": "1.000 : 2 = ?",
+              "antwort": "500"
+            },
+            {
+              "label": "2",
+              "frage": "560 : 2 = ?",
+              "antwort": "280"
+            },
+            {
+              "label": "3",
+              "frage": "500 + 280 = ?",
               "antwort": "780"
             }
           ]
@@ -1333,7 +1593,7 @@
     "stageId": "schriftlich-dividieren-1",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich. Schreibe die Rechnung Schritt für Schritt auf.\n\na) 5.685 : 3\nb) 9.372 : 6",
-    "loesung": "a) 1.895\nb) 1.562",
+    "loesung": "a) 5 : 3 = 1 Rest 2\n26 : 3 = 8 Rest 2\n28 : 3 = 9 Rest 1\n15 : 3 = 5 Rest 0\nErgebnis = 1.895\nb) 9 : 6 = 1 Rest 3\n33 : 6 = 5 Rest 3\n37 : 6 = 6 Rest 1\n12 : 6 = 2 Rest 0\nErgebnis = 1.562",
     "loesungsweg": "Schritt für Schritt wie im Video \"Anleitung: Schriftlich dividieren\":\n\na) 5.685 : 3 = 1.895\n   - 5 T : 3 = 1 T, Rest 2 T → 2 T werden zu 26 H\n   - 26 H : 3 = 8 H, Rest 2 H → 2 H werden zu 28 Z\n   - 28 Z : 3 = 9 Z, Rest 1 Z → 1 Z wird zu 15 E\n   - 15 E : 3 = 5 E, Rest 0\n\nb) 9.372 : 6 = 1.562\n   - 9 T : 6 = 1 T, Rest 3 T → 33 H\n   - 33 H : 6 = 5 H, Rest 3 H → 37 Z\n   - 37 Z : 6 = 6 Z, Rest 1 Z → 12 E\n   - 12 E : 6 = 2 E, Rest 0",
     "tipps": [
       "Beim schriftlichen Dividieren arbeitest du von links nach rechts, Stelle für Stelle. Fange immer bei den Tausendern an: Wie oft passt der Divisor in die erste Ziffer?",
@@ -1357,7 +1617,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "5.685 : 3",
+              "frage": "5 : 3 = 1 Rest 2",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "26 : 3 = 8 Rest 2",
+              "antwort": "8"
+            },
+            {
+              "label": "3",
+              "frage": "28 : 3 = 9 Rest 1",
+              "antwort": "9"
+            },
+            {
+              "label": "4",
+              "frage": "15 : 3 = 5 Rest 0",
+              "antwort": "5"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "1.895"
             }
           ]
@@ -1367,7 +1647,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "9.372 : 6",
+              "frage": "9 : 6 = 1 Rest 3",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "33 : 6 = 5 Rest 3",
+              "antwort": "5"
+            },
+            {
+              "label": "3",
+              "frage": "37 : 6 = 6 Rest 1",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "12 : 6 = 2 Rest 0",
+              "antwort": "2"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "1.562"
             }
           ]
@@ -1385,7 +1685,7 @@
     "stageId": "schriftlich-dividieren-1",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich.\n\na) 57.984 : 4\nb) 76.895 : 5",
-    "loesung": "a) 14.496\nb) 15.379",
+    "loesung": "a) 5 : 4 = 1 Rest 1\n17 : 4 = 4 Rest 1\n19 : 4 = 4 Rest 3\n38 : 4 = 9 Rest 2\n24 : 4 = 6 Rest 0\nErgebnis = 14.496\nb) 7 : 5 = 1 Rest 2\n26 : 5 = 5 Rest 1\n18 : 5 = 3 Rest 3\n39 : 5 = 7 Rest 4\n45 : 5 = 9 Rest 0\nErgebnis = 15.379",
     "loesungsweg": "a) 57.984 : 4 = 14.496\n   - 5 : 4 = 1 R 1 → 17\n   - 17 : 4 = 4 R 1 → 19\n   - 19 : 4 = 4 R 3 → 38\n   - 38 : 4 = 9 R 2 → 24\n   - 24 : 4 = 6 R 0\n\nb) 76.895 : 5 = 15.379\n   - 7 : 5 = 1 R 2 → 26\n   - 26 : 5 = 5 R 1 → 18\n   - 18 : 5 = 3 R 3 → 39\n   - 39 : 5 = 7 R 4 → 45\n   - 45 : 5 = 9 R 0",
     "tipps": [
       "Bei fünfstelligen Zahlen arbeitest du genauso wie bei vierstelligen — nur eine Stelle mehr. Fange links an und arbeite dich Stelle für Stelle nach rechts.",
@@ -1409,7 +1709,32 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "57.984 : 4",
+              "frage": "5 : 4 = 1 Rest 1",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "17 : 4 = 4 Rest 1",
+              "antwort": "4"
+            },
+            {
+              "label": "3",
+              "frage": "19 : 4 = 4 Rest 3",
+              "antwort": "4"
+            },
+            {
+              "label": "4",
+              "frage": "38 : 4 = 9 Rest 2",
+              "antwort": "9"
+            },
+            {
+              "label": "5",
+              "frage": "24 : 4 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "6",
+              "frage": "Ergebnis = ?",
               "antwort": "14.496"
             }
           ]
@@ -1419,7 +1744,32 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "76.895 : 5",
+              "frage": "7 : 5 = 1 Rest 2",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "26 : 5 = 5 Rest 1",
+              "antwort": "5"
+            },
+            {
+              "label": "3",
+              "frage": "18 : 5 = 3 Rest 3",
+              "antwort": "3"
+            },
+            {
+              "label": "4",
+              "frage": "39 : 5 = 7 Rest 4",
+              "antwort": "7"
+            },
+            {
+              "label": "5",
+              "frage": "45 : 5 = 9 Rest 0",
+              "antwort": "9"
+            },
+            {
+              "label": "6",
+              "frage": "Ergebnis = ?",
               "antwort": "15.379"
             }
           ]
@@ -1437,7 +1787,7 @@
     "stageId": "schriftlich-dividieren-1",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich. Welche Zahl wählst du für den ersten Rechenschritt?\n\na) 4.680 : 5\nb) 6.528 : 8\nc) 3.584 : 4",
-    "loesung": "a) 936\nb) 816\nc) 896",
+    "loesung": "a) 46 : 5 = 9 Rest 1\n18 : 5 = 3 Rest 3\n30 : 5 = 6 Rest 0\nErgebnis = 936\nb) 65 : 8 = 8 Rest 1\n12 : 8 = 1 Rest 4\n48 : 8 = 6 Rest 0\nErgebnis = 816\nc) 35 : 4 = 8 Rest 3\n38 : 4 = 9 Rest 2\n24 : 4 = 6 Rest 0\nErgebnis = 896",
     "loesungsweg": "Wenn die erste Stelle kleiner als der Divisor ist, nimmst du die zweite Stelle dazu (wie Justus auf S. 87):\n\na) 4.680 : 5: 4 < 5, also nimm 46 als Startzahl.\n   - 46 : 5 = 9 R 1 → 18\n   - 18 : 5 = 3 R 3 → 30\n   - 30 : 5 = 6 R 0 → Ergebnis: 936\n\nb) 6.528 : 8: 6 < 8, also nimm 65 als Startzahl.\n   - 65 : 8 = 8 R 1 → 12\n   - 12 : 8 = 1 R 4 → 48\n   - 48 : 8 = 6 R 0 → Ergebnis: 816\n\nc) 3.584 : 4: 3 < 4, also nimm 35 als Startzahl.\n   - 35 : 4 = 8 R 3 → 38\n   - 38 : 4 = 9 R 2 → 24\n   - 24 : 4 = 6 R 0 → Ergebnis: 896",
     "tipps": [
       "Schau dir die erste Ziffer an. Passt der Divisor hinein? Wenn nicht, nimm die ersten ZWEI Ziffern zusammen. Bei 4.680 : 5 passt die 5 nicht in die 4, also nimmst du die 46.",
@@ -1461,7 +1811,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "4.680 : 5",
+              "frage": "46 : 5 = 9 Rest 1",
+              "antwort": "9"
+            },
+            {
+              "label": "2",
+              "frage": "18 : 5 = 3 Rest 3",
+              "antwort": "3"
+            },
+            {
+              "label": "3",
+              "frage": "30 : 5 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
               "antwort": "936"
             }
           ]
@@ -1471,7 +1836,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "6.528 : 8",
+              "frage": "65 : 8 = 8 Rest 1",
+              "antwort": "8"
+            },
+            {
+              "label": "2",
+              "frage": "12 : 8 = 1 Rest 4",
+              "antwort": "1"
+            },
+            {
+              "label": "3",
+              "frage": "48 : 8 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
               "antwort": "816"
             }
           ]
@@ -1481,7 +1861,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "3.584 : 4",
+              "frage": "35 : 4 = 8 Rest 3",
+              "antwort": "8"
+            },
+            {
+              "label": "2",
+              "frage": "38 : 4 = 9 Rest 2",
+              "antwort": "9"
+            },
+            {
+              "label": "3",
+              "frage": "24 : 4 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
               "antwort": "896"
             }
           ]
@@ -1499,7 +1894,7 @@
     "stageId": "schriftlich-dividieren-1",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich. Kontrolliere mit der Probe.\n\na) 1.737 : 3\nb) 6.175 : 5",
-    "loesung": "a) 579 → Probe: 579 · 3 = 1.737 ✓\nb) 1.235 → Probe: 1.235 · 5 = 6.175 ✓",
+    "loesung": "a) 17 : 3 = 5 Rest 2\n23 : 3 = 7 Rest 2\n27 : 3 = 9 Rest 0\nErgebnis = 579\nProbe: 579 · 3 = 1.737\nb) 6 : 5 = 1 Rest 1\n11 : 5 = 2 Rest 1\n17 : 5 = 3 Rest 2\n25 : 5 = 5 Rest 0\nErgebnis = 1.235\nProbe: 1.235 · 5 = 6.175",
     "loesungsweg": "a) 1.737 : 3 = 579\n   - 1 : 3 geht nicht → nehme 17\n   - 17 : 3 = 5 R 2 → 23\n   - 23 : 3 = 7 R 2 → 27\n   - 27 : 3 = 9 R 0\n   Probe (wie im Video \"Probe\"): 579 · 3 = 1.737 ✓\n\nb) 6.175 : 5 = 1.235\n   - 6 : 5 = 1 R 1 → 11\n   - 11 : 5 = 2 R 1 → 17\n   - 17 : 5 = 3 R 2 → 25\n   - 25 : 5 = 5 R 0\n   Probe: 1.235 · 5 = 6.175 ✓",
     "tipps": [
       "Die Probe ist die Umkehraufgabe: Ergebnis mal Divisor muss den Dividenden ergeben. So überprüfst du, ob du richtig gerechnet hast.",
@@ -1523,8 +1918,28 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "1.737 : 3",
-              "antwort": "579 → Probe: 579 · 3 = 1.737 ✓"
+              "frage": "17 : 3 = 5 Rest 2",
+              "antwort": "5"
+            },
+            {
+              "label": "2",
+              "frage": "23 : 3 = 7 Rest 2",
+              "antwort": "7"
+            },
+            {
+              "label": "3",
+              "frage": "27 : 3 = 9 Rest 0",
+              "antwort": "9"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
+              "antwort": "579"
+            },
+            {
+              "label": "5",
+              "frage": "Probe: 579 · 3 = ?",
+              "antwort": "1.737"
             }
           ]
         },
@@ -1533,8 +1948,33 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "6.175 : 5",
-              "antwort": "1.235 → Probe: 1.235 · 5 = 6.175 ✓"
+              "frage": "6 : 5 = 1 Rest 1",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "11 : 5 = 2 Rest 1",
+              "antwort": "2"
+            },
+            {
+              "label": "3",
+              "frage": "17 : 5 = 3 Rest 2",
+              "antwort": "3"
+            },
+            {
+              "label": "4",
+              "frage": "25 : 5 = 5 Rest 0",
+              "antwort": "5"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
+              "antwort": "1.235"
+            },
+            {
+              "label": "6",
+              "frage": "Probe: 1.235 · 5 = ?",
+              "antwort": "6.175"
             }
           ]
         }
@@ -1593,7 +2033,7 @@
     "stageId": "schriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich und kontrolliere mit der Probe.\n\na) 5.863 : 9\nb) 2.358 : 7",
-    "loesung": "a) 651 R 4 → Probe: 651 · 9 + 4 = 5.859 + 4 = 5.863 ✓\nb) 336 R 6 → Probe: 336 · 7 + 6 = 2.352 + 6 = 2.358 ✓",
+    "loesung": "a) 58 : 9 = 6 Rest 4\n46 : 9 = 5 Rest 1\n13 : 9 = 1 Rest 4\nErgebnis = 651 R 4\nProbe: 651 · 9 + 4 = 5.863\nb) 23 : 7 = 3 Rest 2\n25 : 7 = 3 Rest 4\n48 : 7 = 6 Rest 6\nErgebnis = 336 R 6\nProbe: 336 · 7 + 6 = 2.358",
     "loesungsweg": "a) 5.863 : 9 = 651 R 4\n   - 58 : 9 = 6 R 4 → 46\n   - 46 : 9 = 5 R 1 → 13\n   - 13 : 9 = 1 R 4\n   Probe (wie im Video \"Probe mit Rest\"): 651 · 9 = 5.859, dann 5.859 + 4 = 5.863 ✓\n\nb) 2.358 : 7 = 336 R 6\n   - 23 : 7 = 3 R 2 → 25\n   - 25 : 7 = 3 R 4 → 48\n   - 48 : 7 = 6 R 6\n   Probe: 336 · 7 = 2.352, dann 2.352 + 6 = 2.358 ✓",
     "tipps": [
       "Wenn am Ende ein Rest übrig bleibt, schreibe ihn hinter das Ergebnis. Wichtig: Der Rest ist immer kleiner als der Divisor!",
@@ -1617,8 +2057,28 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "5.863 : 9",
-              "antwort": "651 R 4 → Probe: 651 · 9 + 4 = 5.859 + 4 = 5.863 ✓"
+              "frage": "58 : 9 = 6 Rest 4",
+              "antwort": "6"
+            },
+            {
+              "label": "2",
+              "frage": "46 : 9 = 5 Rest 1",
+              "antwort": "5"
+            },
+            {
+              "label": "3",
+              "frage": "13 : 9 = 1 Rest 4",
+              "antwort": "1"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = 651 R 4",
+              "antwort": "651"
+            },
+            {
+              "label": "5",
+              "frage": "Probe: 651 · 9 + 4 = ?",
+              "antwort": "5.863"
             }
           ]
         },
@@ -1627,8 +2087,28 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "2.358 : 7",
-              "antwort": "336 R 6 → Probe: 336 · 7 + 6 = 2.352 + 6 = 2.358 ✓"
+              "frage": "23 : 7 = 3 Rest 2",
+              "antwort": "3"
+            },
+            {
+              "label": "2",
+              "frage": "25 : 7 = 3 Rest 4",
+              "antwort": "3"
+            },
+            {
+              "label": "3",
+              "frage": "48 : 7 = 6 Rest 6",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = 336 R 6",
+              "antwort": "336"
+            },
+            {
+              "label": "5",
+              "frage": "Probe: 336 · 7 + 6 = ?",
+              "antwort": "2.358"
             }
           ]
         }
@@ -1645,7 +2125,7 @@
     "stageId": "schriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich und kontrolliere mit der Probe.\n\na) 45.206 : 8\nb) 2.556 : 4\nc) 2.938 : 5",
-    "loesung": "a) 5.650 R 6\nb) 639\nc) 587 R 3",
+    "loesung": "a) 45 : 8 = 5 Rest 5\n52 : 8 = 6 Rest 4\n40 : 8 = 5 Rest 0\n6 : 8 = 0 Rest 6\nErgebnis = 5.650 R 6\nb) 25 : 4 = 6 Rest 1\n15 : 4 = 3 Rest 3\n36 : 4 = 9 Rest 0\nErgebnis = 639\nc) 29 : 5 = 5 Rest 4\n43 : 5 = 8 Rest 3\n38 : 5 = 7 Rest 3\nErgebnis = 587 R 3",
     "loesungsweg": "a) 45.206 : 8 = 5.650 R 6\n   - 45 : 8 = 5 R 5 → 52\n   - 52 : 8 = 6 R 4 → 40\n   - 40 : 8 = 5 R 0 → 06\n   - 6 : 8 = 0 R 6\n   Probe: 5.650 · 8 + 6 = 45.200 + 6 = 45.206 ✓\n\nb) 2.556 : 4 = 639\n   - 25 : 4 = 6 R 1 → 15\n   - 15 : 4 = 3 R 3 → 36\n   - 36 : 4 = 9 R 0\n   Probe: 639 · 4 = 2.556 ✓\n\nc) 2.938 : 5 = 587 R 3\n   - 29 : 5 = 5 R 4 → 43\n   - 43 : 5 = 8 R 3 → 38\n   - 38 : 5 = 7 R 3\n   Probe: 587 · 5 + 3 = 2.935 + 3 = 2.938 ✓",
     "tipps": [
       "Überlege VOR dem Rechnen: Wird es einen Rest geben? Nutze die Teilbarkeitsregeln! Ist 2.556 durch 4 teilbar? (Prüfe: Sind die letzten zwei Ziffern, 56, durch 4 teilbar?)",
@@ -1669,8 +2149,28 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "45.206 : 8",
-              "antwort": "5.650 R 6"
+              "frage": "45 : 8 = 5 Rest 5",
+              "antwort": "5"
+            },
+            {
+              "label": "2",
+              "frage": "52 : 8 = 6 Rest 4",
+              "antwort": "6"
+            },
+            {
+              "label": "3",
+              "frage": "40 : 8 = 5 Rest 0",
+              "antwort": "5"
+            },
+            {
+              "label": "4",
+              "frage": "6 : 8 = 0 Rest 6",
+              "antwort": "0"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = 5.650 R 6",
+              "antwort": "5.650"
             }
           ]
         },
@@ -1679,7 +2179,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "2.556 : 4",
+              "frage": "25 : 4 = 6 Rest 1",
+              "antwort": "6"
+            },
+            {
+              "label": "2",
+              "frage": "15 : 4 = 3 Rest 3",
+              "antwort": "3"
+            },
+            {
+              "label": "3",
+              "frage": "36 : 4 = 9 Rest 0",
+              "antwort": "9"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
               "antwort": "639"
             }
           ]
@@ -1689,8 +2204,23 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "2.938 : 5",
-              "antwort": "587 R 3"
+              "frage": "29 : 5 = 5 Rest 4",
+              "antwort": "5"
+            },
+            {
+              "label": "2",
+              "frage": "43 : 5 = 8 Rest 3",
+              "antwort": "8"
+            },
+            {
+              "label": "3",
+              "frage": "38 : 5 = 7 Rest 3",
+              "antwort": "7"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = 587 R 3",
+              "antwort": "587"
             }
           ]
         }
@@ -1794,7 +2324,7 @@
     "stageId": "schriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich, achte auf die Nullen im Ergebnis. Kontrolliere mit der Probe.\n\na) 3.530 : 5\nb) 8.128 : 8\nc) 23.292 : 4",
-    "loesung": "a) 706\nb) 1.016\nc) 5.823",
+    "loesung": "a) 35 : 5 = 7 Rest 0\n3 : 5 = 0 Rest 3\n30 : 5 = 6 Rest 0\nErgebnis = 706\nb) 8 : 8 = 1 Rest 0\n1 : 8 = 0 Rest 1\n12 : 8 = 1 Rest 4\n48 : 8 = 6 Rest 0\nErgebnis = 1.016\nc) 23 : 4 = 5 Rest 3\n32 : 4 = 8 Rest 0\n9 : 4 = 2 Rest 1\n12 : 4 = 3 Rest 0\nErgebnis = 5.823",
     "loesungsweg": "Aus den Videos \"Null im Ergebnis\" und \"Achte auf die Nullen!\":\n\na) 3.530 : 5 = 706\n   - 35 : 5 = 7 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (Achtung: 0 ins Ergebnis schreiben!)\n   - 30 : 5 = 6 R 0\n   Probe: 706 · 5 = 3.530 ✓\n\nb) 8.128 : 8 = 1.016\n   - 8 : 8 = 1 R 0 → 01\n   - 1 : 8 = 0 R 1 → 12 (0 ins Ergebnis!)\n   - 12 : 8 = 1 R 4 → 48\n   - 48 : 8 = 6 R 0 → Probe: 1.016 · 8 = 8.128 ✓\n\nc) 23.292 : 4 = 5.823\n   - 23 : 4 = 5 R 3 → 32\n   - 32 : 4 = 8 R 0 → 09\n   - 9 : 4 = 2 R 1 → 12\n   - 12 : 4 = 3 R 0\n   Probe: 5.823 · 4 = 23.292 ✓",
     "tipps": [
       "Wenn eine Zahl kleiner ist als der Divisor, schreibe eine 0 ins Ergebnis und nimm die nächste Stelle dazu. Vergiss die Null nicht — sie ist wichtig für den Stellenwert!",
@@ -1818,7 +2348,22 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "3.530 : 5",
+              "frage": "35 : 5 = 7 Rest 0",
+              "antwort": "7"
+            },
+            {
+              "label": "2",
+              "frage": "3 : 5 = 0 Rest 3",
+              "antwort": "0"
+            },
+            {
+              "label": "3",
+              "frage": "30 : 5 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "Ergebnis = ?",
               "antwort": "706"
             }
           ]
@@ -1828,7 +2373,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "8.128 : 8",
+              "frage": "8 : 8 = 1 Rest 0",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "1 : 8 = 0 Rest 1",
+              "antwort": "0"
+            },
+            {
+              "label": "3",
+              "frage": "12 : 8 = 1 Rest 4",
+              "antwort": "1"
+            },
+            {
+              "label": "4",
+              "frage": "48 : 8 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "1.016"
             }
           ]
@@ -1838,7 +2403,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "23.292 : 4",
+              "frage": "23 : 4 = 5 Rest 3",
+              "antwort": "5"
+            },
+            {
+              "label": "2",
+              "frage": "32 : 4 = 8 Rest 0",
+              "antwort": "8"
+            },
+            {
+              "label": "3",
+              "frage": "9 : 4 = 2 Rest 1",
+              "antwort": "2"
+            },
+            {
+              "label": "4",
+              "frage": "12 : 4 = 3 Rest 0",
+              "antwort": "3"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "5.823"
             }
           ]
@@ -1900,7 +2485,7 @@
     "stageId": "schriftlich-dividieren-2",
     "digital": "voll",
     "aufgabenstellung": "Dividiere schriftlich, achte auf die Nullen. Kontrolliere mit der Probe.\n\na) 45.558 : 9\nb) 33.030 : 5\nc) 77.238 : 7",
-    "loesung": "a) 5.062\nb) 6.606\nc) 11.034",
+    "loesung": "a) 45 : 9 = 5 Rest 0\n5 : 9 = 0 Rest 5\n55 : 9 = 6 Rest 1\n18 : 9 = 2 Rest 0\nErgebnis = 5.062\nb) 33 : 5 = 6 Rest 3\n30 : 5 = 6 Rest 0\n3 : 5 = 0 Rest 3\n30 : 5 = 6 Rest 0\nErgebnis = 6.606\nc) 7 : 7 = 1 Rest 0\n7 : 7 = 1 Rest 0\n2 : 7 = 0 Rest 2\n23 : 7 = 3 Rest 2\n28 : 7 = 4 Rest 0\nErgebnis = 11.034",
     "loesungsweg": "a) 45.558 : 9 = 5.062\n   - 45 : 9 = 5 R 0 → 05\n   - 5 : 9 = 0 R 5 → 55 (0 ins Ergebnis!)\n   - 55 : 9 = 6 R 1 → 18\n   - 18 : 9 = 2 R 0\n   Probe: 5.062 · 9 = 45.558 ✓\n\nb) 33.030 : 5 = 6.606\n   - 33 : 5 = 6 R 3 → 30\n   - 30 : 5 = 6 R 0 → 03\n   - 3 : 5 = 0 R 3 → 30 (0 ins Ergebnis!)\n   - 30 : 5 = 6 R 0\n   Probe: 6.606 · 5 = 33.030 ✓\n\nc) 77.238 : 7 = 11.034\n   - 7 : 7 = 1 R 0 → 07\n   - 7 : 7 = 1 R 0 → 02\n   - 2 : 7 = 0 R 2 → 23 (0 ins Ergebnis!)\n   - 23 : 7 = 3 R 2 → 28\n   - 28 : 7 = 4 R 0\n   Probe: 11.034 · 7 = 77.238 ✓",
     "tipps": [
       "Bei diesen Aufgaben verstecken sich Nullen im Ergebnis. Achte bei jedem Schritt darauf: Ist die aktuelle Zahl kleiner als der Divisor? Dann kommt eine 0!",
@@ -1924,7 +2509,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "45.558 : 9",
+              "frage": "45 : 9 = 5 Rest 0",
+              "antwort": "5"
+            },
+            {
+              "label": "2",
+              "frage": "5 : 9 = 0 Rest 5",
+              "antwort": "0"
+            },
+            {
+              "label": "3",
+              "frage": "55 : 9 = 6 Rest 1",
+              "antwort": "6"
+            },
+            {
+              "label": "4",
+              "frage": "18 : 9 = 2 Rest 0",
+              "antwort": "2"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "5.062"
             }
           ]
@@ -1934,7 +2539,27 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "33.030 : 5",
+              "frage": "33 : 5 = 6 Rest 3",
+              "antwort": "6"
+            },
+            {
+              "label": "2",
+              "frage": "30 : 5 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "3",
+              "frage": "3 : 5 = 0 Rest 3",
+              "antwort": "0"
+            },
+            {
+              "label": "4",
+              "frage": "30 : 5 = 6 Rest 0",
+              "antwort": "6"
+            },
+            {
+              "label": "5",
+              "frage": "Ergebnis = ?",
               "antwort": "6.606"
             }
           ]
@@ -1944,7 +2569,32 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "77.238 : 7",
+              "frage": "7 : 7 = 1 Rest 0",
+              "antwort": "1"
+            },
+            {
+              "label": "2",
+              "frage": "7 : 7 = 1 Rest 0",
+              "antwort": "1"
+            },
+            {
+              "label": "3",
+              "frage": "2 : 7 = 0 Rest 2",
+              "antwort": "0"
+            },
+            {
+              "label": "4",
+              "frage": "23 : 7 = 3 Rest 2",
+              "antwort": "3"
+            },
+            {
+              "label": "5",
+              "frage": "28 : 7 = 4 Rest 0",
+              "antwort": "4"
+            },
+            {
+              "label": "6",
+              "frage": "Ergebnis = ?",
               "antwort": "11.034"
             }
           ]

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="280" height="180">
+  <defs>
+    <style>
+      .ruler-body { fill: #dbeafe; fill-opacity: 0.85; stroke: #1e3a5f; stroke-width: 1.5; }
+      .edge-line { stroke: #1e3a5f; stroke-width: 1; }
+      .center-line { stroke: #1e3a5f; stroke-width: 0.8; stroke-dasharray: 4 2; }
+      .label-text { font-family: sans-serif; font-size: 10px; fill: #1e3a5f; }
+      .label-small { font-family: sans-serif; font-size: 8px; fill: #475569; }
+      .tick-mark { stroke: #1e3a5f; stroke-width: 0.6; }
+      .right-angle { fill: none; stroke: #ef4444; stroke-width: 1.2; }
+      .callout { font-family: sans-serif; font-size: 9px; fill: #dc2626; font-weight: bold; }
+      .callout-blue { font-family: sans-serif; font-size: 9px; fill: #2563eb; font-weight: bold; }
+      .callout-line { stroke: #dc2626; stroke-width: 0.8; fill: none; }
+      .callout-line-blue { stroke: #2563eb; stroke-width: 0.8; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Geodreieck body (right-angled triangle, hypotenuse at bottom) -->
+  <polygon class="ruler-body" points="140,30 30,155 250,155" />
+
+  <!-- cm markings along the hypotenuse (bottom edge) -->
+  <!-- Center is at x=140, each cm = ~13.75px, marks from center outward -->
+  <!-- Left side markings -->
+  <line class="tick-mark" x1="140" y1="150" x2="140" y2="155" />
+  <text class="label-small" x="138" y="148" text-anchor="middle">0</text>
+
+  <line class="tick-mark" x1="126.25" y1="151" x2="126.25" y2="155" />
+  <line class="tick-mark" x1="112.5" y1="150" x2="112.5" y2="155" />
+  <text class="label-small" x="112.5" y="148" text-anchor="middle">2</text>
+
+  <line class="tick-mark" x1="98.75" y1="151" x2="98.75" y2="155" />
+  <line class="tick-mark" x1="85" y1="150" x2="85" y2="155" />
+  <text class="label-small" x="85" y="148" text-anchor="middle">4</text>
+
+  <line class="tick-mark" x1="71.25" y1="151" x2="71.25" y2="155" />
+  <line class="tick-mark" x1="57.5" y1="150" x2="57.5" y2="155" />
+  <text class="label-small" x="57.5" y="148" text-anchor="middle">6</text>
+
+  <line class="tick-mark" x1="43.75" y1="151" x2="43.75" y2="155" />
+
+  <!-- Right side markings -->
+  <line class="tick-mark" x1="153.75" y1="151" x2="153.75" y2="155" />
+  <line class="tick-mark" x1="167.5" y1="150" x2="167.5" y2="155" />
+  <text class="label-small" x="167.5" y="148" text-anchor="middle">2</text>
+
+  <line class="tick-mark" x1="181.25" y1="151" x2="181.25" y2="155" />
+  <line class="tick-mark" x1="195" y1="150" x2="195" y2="155" />
+  <text class="label-small" x="195" y="148" text-anchor="middle">4</text>
+
+  <line class="tick-mark" x1="208.75" y1="151" x2="208.75" y2="155" />
+  <line class="tick-mark" x1="222.5" y1="150" x2="222.5" y2="155" />
+  <text class="label-small" x="222.5" y="148" text-anchor="middle">6</text>
+
+  <line class="tick-mark" x1="236.25" y1="151" x2="236.25" y2="155" />
+
+  <!-- "cm" label -->
+  <text class="label-small" x="248" y="148">cm</text>
+
+  <!-- Vertical center line (Mittellinie) -->
+  <line class="center-line" x1="140" y1="38" x2="140" y2="152" />
+
+  <!-- Right angle marker at top vertex -->
+  <!-- The right angle is between the left edge and right edge at the top -->
+  <!-- Actually for a Geodreieck, the right angle is at the bottom-left or bottom-right -->
+  <!-- Standard Geodreieck: right angle at bottom-left corner -->
+  <rect class="right-angle" x="30" y="143" width="12" height="12" />
+
+  <!-- Degree markings (simplified arc) along the curved part -->
+  <!-- Small degree ticks along the hypotenuse area, centered -->
+  <path class="edge-line" d="M 70,155 Q 70,100 140,70 Q 210,100 210,155" fill="none" stroke="#94a3b8" stroke-width="0.5" />
+
+  <!-- Some degree labels -->
+  <text class="label-small" x="74" y="130" transform="rotate(-55,74,130)">30</text>
+  <text class="label-small" x="95" y="108" transform="rotate(-40,95,108)">45</text>
+  <text class="label-small" x="120" y="90" transform="rotate(-20,120,90)">60</text>
+  <text class="label-small" x="155" y="88" transform="rotate(15,155,88)">60</text>
+  <text class="label-small" x="180" y="105" transform="rotate(35,180,105)">45</text>
+  <text class="label-small" x="200" y="127" transform="rotate(52,200,127)">30</text>
+
+  <!-- Label: "rechter Winkel" with arrow to bottom-left corner -->
+  <text class="callout" x="8" y="130">rechter</text>
+  <text class="callout" x="8" y="141">Winkel</text>
+  <path class="callout-line" d="M 28,138 L 33,149" marker-end="none" />
+
+  <!-- Label: "Mittellinie" with arrow to center line -->
+  <text class="callout-blue" x="155" y="58">Mittellinie</text>
+  <path class="callout-line-blue" d="M 155,60 L 143,68" />
+
+  <!-- Small hole at top (typical for Geodreieck) -->
+  <circle cx="140" cy="45" r="2.5" fill="white" stroke="#1e3a5f" stroke-width="0.8" />
+</svg>

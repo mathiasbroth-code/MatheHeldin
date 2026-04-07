@@ -473,6 +473,7 @@ stage_id: "geodreieck-erkennen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "das Geodreieck, die Strecke, der rechte Winkel, parallel, senkrecht"
+themen_intro_bild: "assets/erklaerungen/geodreieck-einfuehrung.svg"
 ---
 
 ### Aufgabenstellung

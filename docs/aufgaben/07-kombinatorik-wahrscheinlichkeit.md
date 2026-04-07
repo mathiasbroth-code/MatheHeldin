@@ -717,18 +717,14 @@ merkkasten_begriffe: "die Augenzahl, die Augensumme, der Zufall, die Gewinnchanc
 ---
 
 ### Aufgabenstellung
-Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?
+Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?
 
-**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.
-
-**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.
+a) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme." — Ist diese Regel fair?
+b) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt." — Ist diese Regel fair?
 
 ### Lösung
-Regel A: **fair** — es gibt jeweils 18 Möglichkeiten für gerade und ungerade Summen.
-
-Regel B: **unfair** — Augensumme > 7: 15 Möglichkeiten, Augensumme < 7: 15 Möglichkeiten. Aber bei Summe 7 (6 Möglichkeiten) bekommt keiner einen Punkt. Also ist die Regel eigentlich fair für die Punkte, aber es gibt viele Runden ohne Punkte.
-
-Korrektur: Regel B ist **fair**, weil beide gleich viele Gewinnmöglichkeiten haben (je 15 von 36).
+a) Richtig — fair (18 gerade, 18 ungerade Kombinationen)
+b) Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)
 
 ### Lösungsweg
 Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:

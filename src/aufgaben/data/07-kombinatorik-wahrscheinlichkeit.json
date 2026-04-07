@@ -500,8 +500,8 @@
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?\n\n**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\n\n**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.",
-    "loesung": "Regel A: **fair** — es gibt jeweils 18 Möglichkeiten für gerade und ungerade Summen.\n\nRegel B: **unfair** — Augensumme > 7: 15 Möglichkeiten, Augensumme < 7: 15 Möglichkeiten. Aber bei Summe 7 (6 Möglichkeiten) bekommt keiner einen Punkt. Also ist die Regel eigentlich fair für die Punkte, aber es gibt viele Runden ohne Punkte.\n\nKorrektur: Regel B ist **fair**, weil beide gleich viele Gewinnmöglichkeiten haben (je 15 von 36).",
+    "aufgabenstellung": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?\n\na) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\" — Ist diese Regel fair?\nb) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\" — Ist diese Regel fair?",
+    "loesung": "a) Richtig — fair (18 gerade, 18 ungerade Kombinationen)\nb) Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)",
     "loesungsweg": "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓",
     "tipps": [
       "Um zu entscheiden, ob eine Regel fair ist, musst du zählen: Wie viele Möglichkeiten hat Kind 1? Wie viele hat Kind 2? Wenn beide gleich viel haben, ist es fair.",
@@ -512,13 +512,19 @@
     "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
     "parsed": {
       "typ": "wahr-falsch",
-      "anweisung": "",
+      "anweisung": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?",
       "items": [
         {
-          "label": "1",
-          "aussage": "Du spielst mit zwei Würfeln. Entscheide: Welche Regel ist **fair** (gleiche Chancen für beide), welche ist **unfair**?\n\n**Regel A:** Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\n\n**Regel B:** Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.",
+          "label": "a",
+          "aussage": "Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\" — Ist diese Regel fair?",
           "richtig": true,
-          "erklaerung": "Regel A: **fair** — es gibt jeweils 18 Möglichkeiten für gerade und ungerade Summen."
+          "erklaerung": "Richtig — fair (18 gerade, 18 ungerade Kombinationen)"
+        },
+        {
+          "label": "b",
+          "aussage": "Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\" — Ist diese Regel fair?",
+          "richtig": true,
+          "erklaerung": "Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)"
         }
       ]
     }
