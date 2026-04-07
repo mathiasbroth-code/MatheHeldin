@@ -5,6 +5,8 @@ export interface RoutenDaten {
   /** Entfernung pro Segment. null = unbekannt (gesuchte Strecke). */
   strecken: (number | null)[];
   einheit: string;
+  /** Gesamtstrecke (falls im Text genannt). */
+  gesamt?: number;
 }
 
 interface Segment {
@@ -53,6 +55,31 @@ export function parseRoutenDaten(text: string): RoutenDaten | null {
   const segments = extractSegments(text);
   if (segments.length === 0) return null;
 
+  // Gesamtstrecke aus Text extrahieren
+  function extractGesamt(): number | undefined {
+    // "insgesamt X km Y m" (z.B. "insgesamt radeln sie 22 km 800 m")
+    const kmMMatch = text.match(/insgesamt\s+.{0,30}?(\d+)\s*km\s+(\d+)\s*m/i);
+    if (kmMMatch) return parseInt(kmMMatch[1]) + parseInt(kmMMatch[2]) / 1000;
+
+    // "insgesamt X,Y km" (z.B. "Insgesamt legen sie 16,6 km zurück")
+    const insgesamtMatch = text.match(/insgesamt\s+.{0,30}?([\d.,]+)\s*(km|m)/i);
+    if (insgesamtMatch) {
+      const raw = insgesamtMatch[1].replace(/\./g, '').replace(',', '.');
+      return parseFloat(raw);
+    }
+
+    // "X,Y km vom See entfernt" (z.B. "Tim wohnt 10,6 km vom See entfernt")
+    const entferntMatch = text.match(/([\d.,]+)\s*(km|m)\s+(?:vom\s+\w+\s+entfernt|entfernt)/i);
+    if (entferntMatch) {
+      const raw = entferntMatch[1].replace(/\./g, '').replace(',', '.');
+      return parseFloat(raw);
+    }
+
+    return undefined;
+  }
+
+  const gesamt = extractGesamt();
+
   // Fall 1: Zusammenhaengende Kette (alle Segmente vorhanden)
   if (segments.length >= 2) {
     let connected = true;
@@ -68,6 +95,7 @@ export function parseRoutenDaten(text: string): RoutenDaten | null {
         stationen: [segments[0].von, ...segments.map((s) => s.nach)],
         strecken: segments.map((s) => s.dist === 0 ? null : s.dist),
         einheit: segments[0].einheit,
+        gesamt,
       };
     }
   }
@@ -101,7 +129,7 @@ export function parseRoutenDaten(text: string): RoutenDaten | null {
     // Mindestens ein bekanntes und ein unbekanntes Segment
     const bekannt = strecken.filter((s) => s !== null).length;
     if (bekannt >= 1 && bekannt < strecken.length) {
-      return { stationen: allStations, strecken, einheit: segments[0].einheit };
+      return { stationen: allStations, strecken, einheit: segments[0].einheit, gesamt };
     }
   }
 
@@ -112,16 +140,19 @@ export function parseRoutenDaten(text: string): RoutenDaten | null {
  * Visuelle Routen-Darstellung: Horizontale Linie mit Stationen und Entfernungen.
  * Unbekannte Segmente werden als "?" in Warnfarbe dargestellt.
  */
-export function RoutenDiagramm({ stationen, strecken, einheit }: RoutenDaten) {
+export function RoutenDiagramm({ stationen, strecken, einheit, gesamt }: RoutenDaten) {
   const n = stationen.length;
   const pad = 8;
   const positions = stationen.map(
     (_, i) => pad + (i / (n - 1)) * (100 - 2 * pad),
   );
 
+  const hatUnbekannt = strecken.some((s) => s === null);
+  // Wir zeigen die Gesamt nur wenn sie im Kontext sinnvoll ist (mind. 1 unbekanntes Segment)
+
   return (
     <Card>
-      <div className="relative" style={{ height: n > 5 ? 76 : 68 }}>
+      <div className="relative" style={{ height: hatUnbekannt ? (n > 5 ? 96 : 88) : (n > 5 ? 76 : 68) }}>
         {/* Verbindungslinie */}
         <div
           className="absolute h-1 bg-border rounded"
@@ -177,6 +208,27 @@ export function RoutenDiagramm({ stationen, strecken, einheit }: RoutenDaten) {
             </span>
           </div>
         ))}
+
+        {/* Gesamtstrecke als Klammer unter der Route */}
+        {gesamt != null && hatUnbekannt && (
+          <>
+            {/* Linke Klammer-Linie */}
+            <div className="absolute w-px bg-muted" style={{ left: `${positions[0]}%`, top: 52, height: 10 }} />
+            {/* Rechte Klammer-Linie */}
+            <div className="absolute w-px bg-muted" style={{ left: `${positions[n - 1]}%`, top: 52, height: 10 }} />
+            {/* Horizontale Klammer-Linie */}
+            <div className="absolute h-px bg-muted" style={{ top: 62, left: `${positions[0]}%`, width: `${positions[n - 1] - positions[0]}%` }} />
+            {/* Gesamt-Label */}
+            <div
+              className="absolute flex items-center justify-center"
+              style={{ left: `${(positions[0] + positions[n - 1]) / 2}%`, top: 66, transform: 'translateX(-50%)' }}
+            >
+              <span className="text-[10px] font-bold text-heading bg-white px-1.5 py-0.5 rounded whitespace-nowrap">
+                gesamt: {gesamt % 1 === 0 ? gesamt.toLocaleString('de-DE') : gesamt.toLocaleString('de-DE', { minimumFractionDigits: 1 })} {einheit}
+              </span>
+            </div>
+          </>
+        )}
       </div>
     </Card>
   );
