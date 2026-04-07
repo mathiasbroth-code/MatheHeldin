@@ -187,6 +187,11 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
           <MarkdownText text={daten.anweisung} className="text-sm text-body leading-relaxed" />
         </Card>
       )}
+      {daten.kontext && (
+        <Card>
+          <MarkdownText text={daten.kontext} className="text-sm text-body leading-relaxed" />
+        </Card>
+      )}
       <Card>
         <MarkdownText text={current.frage} className="text-sm font-semibold text-heading leading-relaxed" />
       </Card>
