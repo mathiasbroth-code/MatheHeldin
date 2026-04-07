@@ -23,7 +23,11 @@
       "anweisung": "",
       "kontext": "Tim, Lena und Olli wollen zum See fahren. Tim wohnt 10,6 km vom See entfernt. Auf dem Weg zum See kommt er an Lena vorbei, die 2,8 km von ihm entfernt wohnt. Zusammen fahren sie weiter zu Olli. Von dort aus radeln sie gemeinsam die 5,2 km zum See.\n\n- Tim → Lena: 2,8 km\n- Lena → Olli: ? km\n- Olli → See: 5,2 km",
       "items": [
-        { "label": "a", "frage": "Wie weit wohnt Olli von Lena entfernt?", "antwort": "2,6" }
+        {
+          "label": "a",
+          "frage": "Wie weit wohnt Olli von Lena entfernt?",
+          "antwort": "2,6"
+        }
       ]
     }
   },
@@ -51,7 +55,11 @@
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "kontext": "Jette macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3 km zum Spielplatz. Von dort geht es 4 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 15 km geradelt.\n\n- Start → Spielplatz: 3 km\n- Spielplatz → Eisdiele: 4 km\n- Eisdiele → See: ? km",
       "items": [
-        { "label": "a", "frage": "Wie weit ist der See von der Eisdiele entfernt?", "antwort": "8" }
+        {
+          "label": "a",
+          "frage": "Wie weit ist der See von der Eisdiele entfernt?",
+          "antwort": "8"
+        }
       ]
     }
   },
@@ -68,7 +76,7 @@
     "loesung": "1,2 km",
     "loesungsweg": "Hin UND zurück = 16,6 km.\nAlso einfacher Weg = 16,6 ÷ 2 = 8,3 km.\nBekannt: Start → See = 4,3 km, Grillplatz → Eisdiele = 2,8 km.\nSee → Grillplatz = 8,3 − 4,3 − 2,8 = 1,2 km.",
     "tipps": [
-      "Vorsicht: 'denselben Weg wieder zurück' heißt Hin-und-zurück! Die Gesamtstrecke ist DOPPELT so lang wie der einfache Weg.",
+      "Vorsicht: 'denselben Weg wieder zurück' heißt Hin-und-zurück.",
       "Einfacher Weg = 16,6 ÷ 2 = 8,3 km. Jetzt hast du die einfache Strecke.",
       "Start → See = 4,3 km, Grillplatz → Eisdiele = 2,8 km. Zusammen: 4,3 + 2,8 = 7,1 km. Es fehlt: 8,3 − 7,1 = ?",
       "See → Grillplatz = 8,3 − 4,3 − 2,8 = 1,2 km."
@@ -79,7 +87,11 @@
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "kontext": "Ali und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 4,3 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wäldchen. Nach dem Grillen besuchen sie noch die Eisdiele, die 2,8 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 16,6 km zurück.\n\n- Start → See: 4,3 km\n- See → Grillplatz: ? km\n- Grillplatz → Eisdiele: 2,8 km",
       "items": [
-        { "label": "a", "frage": "Wie weit ist der Grillplatz vom See entfernt?", "antwort": "1,2" }
+        {
+          "label": "a",
+          "frage": "Wie weit ist der Grillplatz vom See entfernt?",
+          "antwort": "1,2"
+        }
       ]
     }
   },
@@ -107,7 +119,11 @@
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "kontext": "Justus macht mit seiner Familie eine Radtour. Insgesamt radeln sie 22 km 800 m. Zuerst radeln sie 3,7 km zum Waldrand. Von dort geht es weiter zum Grillplatz. Danach radeln sie 2100 m zum See. Für den Heimweg wählen sie eine Abkürzung, die 9,6 km lang ist.\n\n- Start → Waldrand: 3,7 km\n- Waldrand → Grillplatz: ? km\n- Grillplatz → See: 2,1 km\n- See → Start (Abkürzung): 9,6 km",
       "items": [
-        { "label": "a", "frage": "Wie weit ist der Grillplatz vom Waldrand entfernt?", "antwort": "7,4" }
+        {
+          "label": "a",
+          "frage": "Wie weit ist der Grillplatz vom Waldrand entfernt?",
+          "antwort": "7,4"
+        }
       ]
     }
   },
@@ -124,7 +140,7 @@
     "loesung": "2 km",
     "loesungsweg": "Die Glocke in Konstanz ist 3 km weit zu hören (0–3 km von Konstanz).\nDie Glocke in Meersburg ist 3 km weit zu hören (1–4 km von Konstanz, also 0–3 km von Meersburg).\nÜberlappung: Von km 1 bis km 3 = 2 km.\nRechnung: 3 + 3 − 4 = 2 km.",
     "tipps": [
-      "Zeichne eine Linie von Konstanz (links) nach Meersburg (rechts), 4 km lang. Markiere für jede Glocke den Bereich, in dem sie zu hören ist.",
+      "Zeichne eine Linie von Konstanz (links) nach Meersburg (rechts), 4 km lang.",
       "Die Konstanz-Glocke reicht 3 km weit (von 0 bis 3 km). Die Meersburg-Glocke reicht 3 km weit (von 1 km bis 4 km). Wo überlappen sie sich?",
       "Überlappung: Beide Glocken hört man von km 1 bis km 3. Das sind ___ km.",
       "3 + 3 − 4 = 2 km. Auf 2 km Strecke sind beide Glocken zu hören."
@@ -134,7 +150,11 @@
       "typ": "eingabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "items": [
-        { "label": "a", "frage": "Zwischen Konstanz und Meersburg (4 km) steht je eine Sturmwarnglocke, die 3 km weit zu hören ist. Wie lang ist die Strecke, auf der BEIDE Glocken zu hören sind?", "antwort": "2" }
+        {
+          "label": "a",
+          "frage": "Zwischen Konstanz und Meersburg (4 km) steht je eine Sturmwarnglocke, die 3 km weit zu hören ist. Wie lang ist die Strecke, auf der BEIDE Glocken zu hören sind?",
+          "antwort": "2"
+        }
       ]
     }
   },
@@ -151,7 +171,7 @@
     "loesung": "a) 200 Tage\nb) Firma A: 500 m, Firma B: 700 m",
     "loesungsweg": "Zusammen schaffen beide Firmen täglich: 2,50 + 3,50 = 6 m pro Tag.\na) 1200 ÷ 6 = 200 Tage.\nb) Firma A: 200 × 2,50 = 500 m. Firma B: 200 × 3,50 = 700 m.\nProbe: 500 + 700 = 1200 m ✓",
     "tipps": [
-      "Beide Firmen graben gleichzeitig. Zusammen schaffen sie pro Tag: 2,50 + 3,50 = ___ m.",
+      "Beide Firmen graben gleichzeitig.",
       "a) Zusammen 6 m pro Tag. Der Tunnel ist 1200 m lang. 1200 ÷ 6 = ___?",
       "b) Firma A: 200 Tage × 2,50 m = ___. Firma B: 200 Tage × 3,50 m = ___.",
       "a) 200 Tage. b) Firma A: 500 m, Firma B: 700 m."
@@ -161,9 +181,21 @@
       "typ": "eingabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "items": [
-        { "label": "a", "frage": "Nach wie vielen Tagen ist der Tunnel fertig?", "antwort": "200" },
-        { "label": "b1", "frage": "Wie viele Meter hat Firma A (2,50 m/Tag) gebaut?", "antwort": "500" },
-        { "label": "b2", "frage": "Wie viele Meter hat Firma B (3,50 m/Tag) gebaut?", "antwort": "700" }
+        {
+          "label": "a",
+          "frage": "Nach wie vielen Tagen ist der Tunnel fertig?",
+          "antwort": "200"
+        },
+        {
+          "label": "b1",
+          "frage": "Wie viele Meter hat Firma A (2,50 m/Tag) gebaut?",
+          "antwort": "500"
+        },
+        {
+          "label": "b2",
+          "frage": "Wie viele Meter hat Firma B (3,50 m/Tag) gebaut?",
+          "antwort": "700"
+        }
       ]
     }
   },
@@ -190,10 +222,26 @@
       "typ": "eingabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "items": [
-        { "label": "a1", "frage": "3 m Leiste in 60 cm Stücke: Wie viele Stücke?", "antwort": "5" },
-        { "label": "a2", "frage": "Wie viele Schnitte sind nötig?", "antwort": "4" },
-        { "label": "b1", "frage": "3 m Leiste in 6 cm Stücke: Wie viele Stücke?", "antwort": "50" },
-        { "label": "b2", "frage": "Wie viele Schnitte sind nötig?", "antwort": "49" }
+        {
+          "label": "a1",
+          "frage": "3 m Leiste in 60 cm Stücke: Wie viele Stücke?",
+          "antwort": "5"
+        },
+        {
+          "label": "a2",
+          "frage": "Wie viele Schnitte sind nötig?",
+          "antwort": "4"
+        },
+        {
+          "label": "b1",
+          "frage": "3 m Leiste in 6 cm Stücke: Wie viele Stücke?",
+          "antwort": "50"
+        },
+        {
+          "label": "b2",
+          "frage": "Wie viele Schnitte sind nötig?",
+          "antwort": "49"
+        }
       ]
     }
   },
@@ -221,7 +269,11 @@
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
       "kontext": "Ein Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 20 m Länge gekauft. Der Garten ist 6 m lang und 3,50 m breit. Er soll ein Tor von 1 m Breite bekommen.\n\nReicht der Zaun auch noch für ein quadratisches Gemüsebeet von 1,50 m Seitenlänge? Das Beet schließt außerhalb direkt an eine Seite des Gartens an und soll auch ein Tor von 1 m Breite bekommen.",
       "items": [
-        { "label": "a", "frage": "Reicht der Zaun von 20 m für Garten + Gemüsebeet? (Ja oder Nein)", "antwort": "ja" }
+        {
+          "label": "a",
+          "frage": "Reicht der Zaun von 20 m für Garten + Gemüsebeet? (Ja oder Nein)",
+          "antwort": "ja"
+        }
       ]
     }
   }

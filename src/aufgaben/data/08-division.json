@@ -25,12 +25,14 @@
         {
           "label": "a",
           "frage": "Vielfache von 6: 6, 12, 18, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "24, 30, 36, 42, 48, 54, 60"
+          "antwort": "24, 30, 36, 42, 48, 54, 60",
+          "felder": 7
         },
         {
           "label": "b",
           "frage": "Vielfache von 9: 9, 18, ___, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "27, 36, 45, 54, 63, 72, 81, 90"
+          "antwort": "27, 36, 45, 54, 63, 72, 81, 90",
+          "felder": 8
         }
       ]
     }
@@ -217,17 +219,20 @@
         {
           "label": "a",
           "frage": "Teiler von 12",
-          "antwort": "1, 2, 3, 4, 6, 12"
+          "antwort": "1, 2, 3, 4, 6, 12",
+          "felder": 6
         },
         {
           "label": "b",
           "frage": "Teiler von 18",
-          "antwort": "1, 2, 3, 6, 9, 18"
+          "antwort": "1, 2, 3, 6, 9, 18",
+          "felder": 6
         },
         {
           "label": "c",
           "frage": "Teiler von 20",
-          "antwort": "1, 2, 4, 5, 10, 20"
+          "antwort": "1, 2, 4, 5, 10, 20",
+          "felder": 6
         }
       ]
     }

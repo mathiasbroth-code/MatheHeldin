@@ -176,9 +176,9 @@
     "kapitel": "buch-original",
     "stageId": "kombinatorik-original",
     "digital": "voll",
-    "aufgabenstellung": "Justus hat die Ziffernkombination für sein Zahlenschloss vergessen. Er weiß nur noch, dass die Ziffern 1, 3, 5, 6 darin vorkommen. Jede Ziffer kommt genau einmal vor.\n\na) Wie viele Kombinationen muss er mindestens ausprobieren?\nb) Wie viele Kombinationen muss er höchstens ausprobieren?\nc) Jette sagt: \u201eNimm doch deinen Geburtstag!\u201c Was meint sie damit?",
+    "aufgabenstellung": "Justus hat die Ziffernkombination für sein Zahlenschloss vergessen. Er weiß nur noch, dass die Ziffern 1, 3, 5, 6 darin vorkommen. Jede Ziffer kommt genau einmal vor.\n\na) Wie viele Kombinationen muss er mindestens ausprobieren?\nb) Wie viele Kombinationen muss er höchstens ausprobieren?\nc) Jette sagt: „Nimm doch deinen Geburtstag!“ Was meint sie damit?",
     "loesung": "a) 1 (wenn er Glück hat, trifft er beim ersten Versuch)\n\nb) 24 (4 × 3 × 2 × 1 = 24)\n\nc) _mündlich — Jette meint, dass man sich eine Kombination aussuchen sollte, die man sich leicht merken kann, z.B. ein Datum.",
-    "loesungsweg": "a) Im besten Fall errät Justus die Kombination beim allerersten Versuch → mindestens 1.\n\nb) Im schlechtesten Fall muss er alle Möglichkeiten durchprobieren:\n4 Ziffern auf 4 Plätzen: 4 × 3 × 2 × 1 = 24 Möglichkeiten.\n\nc) Jette gibt einen praktischen Tipp: Man sollte eine Kombination wählen, die man sich merken kann — zum Beispiel den eigenen Geburtstag (z.B. 1356 für den 13.5.2006).",
+    "loesungsweg": "a) Im besten Fall errät Justus die Kombination beim allerersten Versuch → mindestens 1.\n\nb) Im ungünstigsten Fall muss er alle Möglichkeiten durchprobieren:\n4 Ziffern auf 4 Plätzen: 4 × 3 × 2 × 1 = 24 Möglichkeiten.\n\nc) Jette gibt einen praktischen Tipp: Man sollte eine Kombination wählen, die man sich merken kann — zum Beispiel den eigenen Geburtstag (z.B. 1356 für den 13.5.2006).",
     "tipps": [
       "a) Stell dir vor, Justus probiert eine Kombination und — Glück gehabt! — sie stimmt sofort. Was ist die Mindestzahl?",
       "b) Wie viele verschiedene Anordnungen der vier Ziffern 1, 3, 5, 6 gibt es? Das ist dasselbe Problem wie bei den 4 Freunden auf dem Foto!",
@@ -203,7 +203,7 @@
         },
         {
           "label": "c",
-          "frage": "Jette sagt: \u201eNimm doch deinen Geburtstag!\u201c Was meint sie damit?",
+          "frage": "Jette sagt: „Nimm doch deinen Geburtstag!“ Was meint sie damit?",
           "antwort": "_mündlich"
         }
       ]
@@ -222,7 +222,7 @@
     "loesung": "6 Kombinationen:\n6247, 6274, 6427, 6472, 6724, 6742",
     "loesungsweg": "Die erste Ziffer steht fest: 6. Für die restlichen drei Stellen müssen die Ziffern 2, 4 und 7 angeordnet werden.\n\nBaumdiagramm (nur Stellen 2–4):\n```\n     ┌── 4 ── 7  → 6247\n2 ───┤\n     └── 7 ── 4  → 6274\n\n     ┌── 2 ── 7  → 6427\n4 ───┤\n     └── 7 ── 2  → 6472\n\n     ┌── 2 ── 4  → 6724\n7 ───┤\n     └── 4 ── 2  → 6742\n```\n3 × 2 × 1 = 6",
     "tipps": [
-      "Die 6 steht fest an der ersten Stelle: 6 _ _ _. Jetzt musst du nur noch 2, 4 und 7 auf die Stellen 2, 3 und 4 verteilen.",
+      "Die 6 steht fest an der ersten Stelle: 6 _ _ _.",
       "Zeichne ein Baumdiagramm für die Stellen 2, 3 und 4. Beginne mit den 3 Möglichkeiten für Stelle 2: 2, 4 oder 7.",
       "Wenn nach der 6 die 2 kommt: 62_ _. Es bleiben 4 und 7 → 6247 und 6274.\nWenn nach der 6 die 4 kommt: 64_ _. Es bleiben 2 und 7 → zwei Möglichkeiten.\nUnd wenn die 7 kommt?",
       "Alle 6 Codes:\n6247, 6274, 6427, 6472, 6724, 6742\n\n3 × 2 × 1 = 6"
@@ -315,7 +315,7 @@
     "loesung": "6 Spiele.\n\n3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d",
     "loesungsweg": "Systematisch alle Paarungen in Gruppe A aufschreiben:\n\n3a spielt gegen: 3b, 3c, 3d → 3 Spiele\n3b spielt noch gegen: 3c, 3d → 2 neue Spiele\n3c spielt noch gegen: 3d → 1 neues Spiel\n\n3 + 2 + 1 = 6 Spiele\n\nAlle Spiele: 3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d",
     "tipps": [
-      "Geh systematisch vor: Mit welchen Teams spielt 3a? Dann: Gegen wen spielt 3b noch (ohne die Spiele, die schon gezählt sind)?",
+      "Geh systematisch vor: Mit welchen Teams spielt 3a.",
       "Mache eine Tabelle: 3a spielt gegen 3b, 3c, 3d (3 Spiele). 3b spielt noch gegen 3c, 3d (2 neue Spiele). 3c spielt noch gegen 3d (1 neues Spiel).",
       "Das ist dasselbe Problem wie bei den Fotos zu zweit! 4 Teams, jedes Paar spielt einmal: 3 + 2 + 1 = ?",
       "3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d → 6 Spiele.\n\n3 + 2 + 1 = 6"
@@ -346,7 +346,7 @@
     "loesung": "12 Spiele.\n\nGruppe A (6 Spiele): 3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d\nGruppe B (6 Spiele): 4a–4b, 4a–4c, 4a–4d, 4b–4c, 4b–4d, 4c–4d",
     "loesungsweg": "Gruppe A: 4 Mannschaften → C(4,2) = 6 Spiele\n3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d\n\nGruppe B: 4 Mannschaften → C(4,2) = 6 Spiele\n4a–4b, 4a–4c, 4a–4d, 4b–4c, 4b–4d, 4c–4d\n\nInsgesamt: 6 + 6 = 12 Spiele",
     "tipps": [
-      "Wie viele Spiele gibt es in Gruppe A? (Das hast du in Aufgabe 10 schon herausgefunden!) Wie ist es in Gruppe B?",
+      "Wie viele Spiele gibt es in Gruppe A.",
       "Beide Gruppen haben gleich viele Mannschaften (4). Also gibt es in jeder Gruppe gleich viele Spiele. Zusammen?",
       "Gruppe A: 6 Spiele. Gruppe B: auch 6 Spiele (gleiche Berechnung!). Insgesamt: 6 + 6 = ?",
       "Gruppe A: 6 Spiele. Gruppe B: 6 Spiele.\nInsgesamt: 6 + 6 = 12 Spiele."
@@ -409,7 +409,7 @@
     "loesung": "a) 15 Spiele\n(Gruppe A: 6, Gruppe B: 6, Halbfinale: 2, Finale: 1)\n\nb) 300 Minuten = 5 Stunden",
     "loesungsweg": "a) Gruppenphase:\nGruppe A: C(4,2) = 6 Spiele\nGruppe B: C(4,2) = 6 Spiele\n→ 12 Gruppenspiele\n\nHalbfinale: 2 Spiele (1.A vs. 2.B und 2.A vs. 1.B)\nFinale: 1 Spiel\n\nGesamt: 12 + 2 + 1 = 15 Spiele\n\nb) Jedes Spiel: 2 × 10 = 20 Minuten\n15 Spiele × 20 Minuten = 300 Minuten\n300 ÷ 60 = 5 Stunden",
     "tipps": [
-      "Zähle zuerst die Gruppenspiele: Wie viele Spiele in Gruppe A? Wie viele in Gruppe B? Dann kommen noch Halbfinale und Finale dazu.",
+      "Zähle zuerst die Gruppenspiele: Wie viele Spiele in Gruppe A.",
       "Gruppenphase: 6 + 6 = 12 Spiele. Halbfinale: 2 Spiele (überkreuz). Finale: 1 Spiel. Addiere alles!",
       "a) 12 + 2 + 1 = ? Spiele.\nb) Jedes Spiel dauert 2 × 10 = 20 Minuten. Gesamte Spielzeit: Anzahl Spiele × 20. Wandle das Ergebnis in Stunden um!",
       "a) 6 + 6 + 2 + 1 = 15 Spiele.\nb) 15 × 20 = 300 Minuten = 5 Stunden."

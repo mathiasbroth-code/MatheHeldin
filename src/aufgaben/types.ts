@@ -47,6 +47,10 @@ export interface TeilItem {
   frage: string;
   /** Erwartete Antwort (normalisiert, zum Vergleich) */
   antwort: string;
+  /** Anzahl Einzelfelder (für Teiler/Vielfache). Wenn gesetzt, werden N kleine Eingabefelder statt eines großen gerendert. */
+  felder?: number;
+  /** Wenn true, ist die Reihenfolge der Eingaben egal (Mengenvergleich). Default: true wenn felder gesetzt. */
+  mengenVergleich?: boolean;
 }
 
 /** eingabe: Zahleneingabe mit optionalen Teilaufgaben. */

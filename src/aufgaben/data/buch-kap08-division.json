@@ -1,6 +1,6 @@
 [
   {
-    "titel": "S.78 Nr.2 — Vielfache notieren",
+    "titel": "S.78 Nr.2 — Vielfache notieren und einkreisen",
     "typ": "eingabe",
     "thema": "Vielfache von Zahlen",
     "schwierigkeit": "gelb",
@@ -113,7 +113,7 @@
       "Prüfe jede Aussage mit einem Beispiel oder einer Rechnung.",
       "Bei b) überlege: Ist 5 ein Vielfaches von 10? Ist 15 ein Vielfaches von 10?",
       "e) Rechne: 10 × 4 = ___. Ist das 80?",
-      "a) richtig (11×5=55) b) falsch (5 ist kein Vielfaches von 10) c) richtig d) falsch (10 ist gerade) e) falsch (10×4=40) f) richtig g) richtig"
+      "a) richtig (11×5=55) b) falsch (5 ist kein Vielfaches von 10) c) richtig d) falsch (10 ist gerade) e) falsch (10×4=40) f) richtig g) richtig."
     ],
     "didaktischerHinweis": "Fredo S.78, Aufgabe 4. Wahr/Falsch-Aussagen über Vielfache — fördert kritisches Prüfen mathematischer Behauptungen.",
     "parsed": {
@@ -178,7 +178,7 @@
     "loesung": "a) 455\nb) 840",
     "loesungsweg": "a) Fünffaches von 9 = 5 × 9 = 45. Dann: 500 − 45 = 455.\nb) Sechsfaches von 40 = 6 × 40 = 240. Dreifaches von 200 = 3 × 200 = 600. Dann: 240 + 600 = 840.",
     "tipps": [
-      "\"Fünffache von 9\" heißt: 5 mal 9. Rechne zuerst dieses Ergebnis aus.",
+      "\"Fünffache von 9\" heißt: 5 mal 9.",
       "a) 5 × 9 = 45. Jetzt: 500 − 45 = ___.",
       "b) Sechsfaches von 40: 6 × 40 = 240. Dreifaches von 200: 3 × 200 = 600. Zusammen: 240 + 600 = ___.",
       "a) 500 − 45 = 455. b) 240 + 600 = 840."
@@ -214,10 +214,10 @@
     "loesung": "a) 60\nb) 90",
     "loesungsweg": "a) 9 × 60 = 540. Olgas Ergebnis: 540 + 6 × Zahl = 900. Also: 6 × Zahl = 900 − 540 = 360. Zahl = 360 ÷ 6 = 60.\nb) 7 × 60 = 420. 3 × 100 = 300. Also: 8 × Zahl − 420 = 300. 8 × Zahl = 300 + 420 = 720. Zahl = 720 ÷ 8 = 90.",
     "tipps": [
-      "a) Rechne zuerst das Neunfache von 60 aus. Wie viel fehlt dann noch bis 900?",
+      "a) Rechne zuerst das Neunfache von 60 aus.",
       "a) 9 × 60 = 540. Bis 900 fehlen noch: 900 − 540 = 360. Das ist das Sechsfache der gesuchten Zahl.",
       "a) 360 ÷ 6 = ___. b) 8 × Zahl − 420 = 300. Also: 8 × Zahl = 300 + 420 = 720. Zahl = 720 ÷ ___.",
-      "a) Zahl = 60. b) Zahl = 90."
+      "a) Zahl = 60. b) Zahl = 90. (a) 60)"
     ],
     "didaktischerHinweis": "Fredo S.78, Aufgabe 6. Rückwärts-Rechnen mit Vielfachen — algebraisches Denken auf Grundschulniveau.",
     "parsed": {
@@ -250,10 +250,10 @@
     "loesung": "T24: 1, 2, 3, 4, 6, 8, 12, 24",
     "loesungsweg": "Jettes Methode: Teilerpaare finden.\n1 × 24 = 24 → Teiler: 1 und 24\n2 × 12 = 24 → Teiler: 2 und 12\n3 × 8 = 24 → Teiler: 3 und 8\n4 × 6 = 24 → Teiler: 4 und 6\n5 × ? = 24 → geht nicht (24 ÷ 5 = 4 Rest 4)\nAlle Teiler gefunden: 1, 2, 3, 4, 6, 8, 12, 24.",
     "tipps": [
-      "Probiere der Reihe nach: Ist 24 durch 1 teilbar? Durch 2? Durch 3? ...",
+      "Probiere der Reihe nach: Ist 24 durch 1, 2, 3, ... teilbar?",
       "Jettes Trick: Suche immer PAARE! 1 × 24, 2 × 12, 3 × 8, 4 × 6. So findest du alle Teiler.",
       "24 ÷ 1 = 24 ✓, 24 ÷ 2 = 12 ✓, 24 ÷ 3 = 8 ✓, 24 ÷ 4 = 6 ✓, 24 ÷ 5 = ? ✗, 24 ÷ 6 = 4 ✓ (schon gefunden!)",
-      "T24: 1, 2, 3, 4, 6, 8, 12, 24"
+      "Alle Teiler von 24: 1, 2, 3, 4, 6, 8, 12, 24 (8 Teiler)."
     ],
     "didaktischerHinweis": "Fredo S.79, Aufgabe 1. Einführung Teiler + Jettes Paarbildungsstrategie.",
     "merkkasten": {
@@ -332,7 +332,7 @@
     "loesung": "a) T10: 1,2,5,10 / T30: 1,2,3,5,6,10,15,30 / T50: 1,2,5,10,25,50 → Gemeinsame: 1, 2, 5, 10\nb) T35: 1,5,7,35 / T45: 1,3,5,9,15,45 / T55: 1,5,11,55 → Gemeinsame: 1, 5\nc) T49: 1,7,49 / T25: 1,5,25 / T9: 1,3,9 → Gemeinsame: 1\nd) T13: 1,13 / T17: 1,17 / T19: 1,19 → Gemeinsame: 1",
     "loesungsweg": "a) Teiler aufschreiben, dann vergleichen:\nT10: 1, 2, 5, 10\nT30: 1, 2, 3, 5, 6, 10, 15, 30\nT50: 1, 2, 5, 10, 25, 50\nIn allen drei Listen: 1, 2, 5, 10.\n\nb) T35: 1, 5, 7, 35 / T45: 1, 3, 5, 9, 15, 45 / T55: 1, 5, 11, 55 → Gemeinsam: 1, 5.\nc) T49: 1, 7, 49 / T25: 1, 5, 25 / T9: 1, 3, 9 → Nur 1 ist in allen.\nd) 13, 17, 19 sind Primzahlen — nur Teiler 1 und sich selbst → Gemeinsam: 1.",
     "tipps": [
-      "Schreibe zuerst die Teiler jeder Zahl auf. Dann vergleiche: Welche Teiler kommen überall vor?",
+      "Schreibe zuerst die Teiler jeder Zahl auf.",
       "a) Teiler von 10: 1, 2, 5, 10. Teiler von 30: 1, 2, 3, 5, ...",
       "d) 13, 17 und 19 sind besondere Zahlen: Sie haben nur die Teiler 1 und sich selbst. Das sind Primzahlen!",
       "a) 1, 2, 5, 10. b) 1, 5. c) 1. d) 1."
@@ -381,7 +381,7 @@
       "Prüfe jede Aussage: Rechne die Division aus. Geht sie ohne Rest auf?",
       "b) Ist 30 nur durch gerade Zahlen teilbar? Probiere: 30 ÷ 3 = 10 (geht auf!) → 3 ist ungerade.",
       "d) 28 ÷ 3 = ? Geht das ohne Rest? e) Ist 4 ein Teiler von 12? Ist 4 auch ein Teiler von 30?",
-      "a) richtig b) falsch c) richtig d) falsch (3 ist kein Teiler von 28) e) falsch (4 teilt 12, aber nicht 30) f) richtig g) richtig"
+      "a) richtig b) falsch c) richtig d) falsch (3 ist kein Teiler von 28) e) falsch (4 teilt 12, aber nicht 30) f) richtig g) richtig."
     ],
     "didaktischerHinweis": "Fredo S.79, Aufgabe 4. Wahr/Falsch über Teiler — trainiert systematisches Überprüfen.",
     "parsed": {
@@ -487,7 +487,7 @@
     "loesung": "37",
     "loesungsweg": "Die Kinderzahl liegt zwischen 31 und 39.\nDie Zahl geteilt durch 2, 3 und 4 ergibt immer Rest 1.\nAlso: Zahl − 1 muss durch 2, 3 UND 4 teilbar sein.\n2 × 3 × 4 ÷ 2 = 12 (kgV von 2, 3, 4 ist 12).\nVielfache von 12: 12, 24, 36, 48, ...\n36 + 1 = 37. Liegt 37 zwischen 30 und 40? Ja! ✓\nAntwort: 37 Kinder.",
     "tipps": [
-      "Die Zahl liegt zwischen 31 und 39. Bei Zweier-, Dreier- UND Viererreihen bleibt immer 1 Kind übrig.",
+      "Die Zahl liegt zwischen 31 und 39.",
       "Wenn immer 1 übrig bleibt, dann ist (Zahl − 1) durch 2, 3 und 4 teilbar.",
       "Welche Zahl zwischen 30 und 38 ist durch 2, 3 und 4 teilbar? Probiere: 32? 33? 34? 35? 36?",
       "36 ist durch 2, 3 und 4 teilbar. 36 + 1 = 37. Es sind 37 Kinder."
@@ -559,10 +559,10 @@
     "loesung": "17",
     "loesungsweg": "85:5 → 50:5=10, 35:5=7 → 10+7=17",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Welche Zahl mal 5 ergibt 85?",
       "Nimm zuerst 50 weg: 50:5=10. Rest: 85−50=35.",
       "35:5=7. Zusammen: 10+7=?",
-      "85:5=17"
+      "85 : 5 = 17. Probe: 17 × 5 = 85."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2a.",
     "parsed": {
@@ -590,10 +590,10 @@
     "loesung": "12",
     "loesungsweg": "96:8 → 80:8=10, 16:8=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Welche Zahl mal 8 ergibt 96?",
       "Nimm zuerst 80 weg: 80:8=10. Rest: 96−80=16.",
       "16:8=2. Zusammen: 10+2=?",
-      "96:8=12"
+      "96 : 8 = 12. Probe: 12 × 8 = 96."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2b.",
     "parsed": {
@@ -621,10 +621,10 @@
     "loesung": "13",
     "loesungsweg": "91:7 → 70:7=10, 21:7=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 91?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 91−70=21.",
       "21:7=3. Zusammen: 10+3=?",
-      "91:7=13"
+      "91 : 7 = 13. Probe: 13 × 7 = 91."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2c.",
     "parsed": {
@@ -652,10 +652,10 @@
     "loesung": "16",
     "loesungsweg": "64:4 → 40:4=10, 24:4=6 → 10+6=16",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 64?",
       "Nimm zuerst 40 weg: 40:4=10. Rest: 64−40=24.",
       "24:4=6. Zusammen: 10+6=?",
-      "64:4=16"
+      "64 : 4 = 16. Probe: 16 × 4 = 64."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2d.",
     "parsed": {
@@ -683,10 +683,10 @@
     "loesung": "12",
     "loesungsweg": "72:6 → 60:6=10, 12:6=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Welche Zahl mal 6 ergibt 72?",
       "Nimm zuerst 60 weg: 60:6=10. Rest: 72−60=12.",
       "12:6=2. Zusammen: 10+2=?",
-      "72:6=12"
+      "72 : 6 = 12. Probe: 12 × 6 = 72."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2e.",
     "parsed": {
@@ -714,10 +714,10 @@
     "loesung": "17",
     "loesungsweg": "51:3 → 30:3=10, 21:3=7 → 10+7=17",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Welche Zahl mal 3 ergibt 51?",
       "Nimm zuerst 30 weg: 30:3=10. Rest: 51−30=21.",
       "21:3=7. Zusammen: 10+7=?",
-      "51:3=17"
+      "51 : 3 = 17. Probe: 17 × 3 = 51."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2f.",
     "parsed": {
@@ -745,10 +745,10 @@
     "loesung": "11",
     "loesungsweg": "77:7 → 70:7=10, 7:7=1 → 10+1=11",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 77?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 77−70=7.",
       "7:7=1. Zusammen: 10+1=?",
-      "77:7=11"
+      "77 : 7 = 11. Probe: 11 × 7 = 77."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2g.",
     "parsed": {
@@ -776,10 +776,10 @@
     "loesung": "14",
     "loesungsweg": "56:4 → 40:4=10, 16:4=4 → 10+4=14",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 56?",
       "Nimm zuerst 40 weg: 40:4=10. Rest: 56−40=16.",
       "16:4=4. Zusammen: 10+4=?",
-      "56:4=14"
+      "56 : 4 = 14. Probe: 14 × 4 = 56."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2h.",
     "parsed": {
@@ -807,10 +807,10 @@
     "loesung": "18",
     "loesungsweg": "54:3 → 30:3=10, 24:3=8 → 10+8=18",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Welche Zahl mal 3 ergibt 54?",
       "Nimm zuerst 30 weg: 30:3=10. Rest: 54−30=24.",
       "24:3=8. Zusammen: 10+8=?",
-      "54:3=18"
+      "54 : 3 = 18. Probe: 18 × 3 = 54."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2i.",
     "parsed": {
@@ -838,10 +838,10 @@
     "loesung": "15",
     "loesungsweg": "90:6 → 60:6=10, 30:6=5 → 10+5=15",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Welche Zahl mal 6 ergibt 90?",
       "Nimm zuerst 60 weg: 60:6=10. Rest: 90−60=30.",
       "30:6=5. Zusammen: 10+5=?",
-      "90:6=15"
+      "90 : 6 = 15. Probe: 15 × 6 = 90."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2j.",
     "parsed": {
@@ -869,10 +869,10 @@
     "loesung": "12",
     "loesungsweg": "48:4 → 40:4=10, 8:4=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 48?",
       "Nimm zuerst 40 weg: 40:4=10. Rest: 48−40=8.",
       "8:4=2. Zusammen: 10+2=?",
-      "48:4=12"
+      "48 : 4 = 12. Probe: 12 × 4 = 48."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2k.",
     "parsed": {
@@ -900,10 +900,10 @@
     "loesung": "12",
     "loesungsweg": "84:7 → 70:7=10, 14:7=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 84?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 84−70=14.",
       "14:7=2. Zusammen: 10+2=?",
-      "84:7=12"
+      "84 : 7 = 12. Probe: 12 × 7 = 84."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 2l.",
     "parsed": {
@@ -931,10 +931,10 @@
     "loesung": "15",
     "loesungsweg": "45:3 → 30:3=10, 15:3=5 → 10+5=15",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Welche Zahl mal 3 ergibt 45?",
       "Nimm zuerst 30 weg: 30:3=10. Rest: 45−30=15.",
       "15:3=5. Zusammen: 10+5=?",
-      "45:3=15"
+      "45 : 3 = 15. Probe: 15 × 3 = 45."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
     "parsed": {
@@ -962,10 +962,10 @@
     "loesung": "19",
     "loesungsweg": "57:3 → 30:3=10, 27:3=9 → 10+9=19",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Welche Zahl mal 3 ergibt 57?",
       "Nimm zuerst 30 weg: 30:3=10. Rest: 57−30=27.",
       "27:3=9. Zusammen: 10+9=?",
-      "57:3=19"
+      "57 : 3 = 19. Probe: 19 × 3 = 57."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
     "parsed": {
@@ -993,10 +993,10 @@
     "loesung": "24",
     "loesungsweg": "72:3 → 60:3=20, 12:3=4 → 20+4=24",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 3 teilen lassen.",
+      "Welche Zahl mal 3 ergibt 72?",
       "Nimm zuerst 60 weg: 60:3=20. Rest: 72−60=12.",
       "12:3=4. Zusammen: 20+4=?",
-      "72:3=24"
+      "72 : 3 = 24. Probe: 24 × 3 = 72."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3a.",
     "parsed": {
@@ -1024,10 +1024,10 @@
     "loesung": "13",
     "loesungsweg": "52:4 → 40:4=10, 12:4=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 52?",
       "Nimm zuerst 40 weg: 40:4=10. Rest: 52−40=12.",
       "12:4=3. Zusammen: 10+3=?",
-      "52:4=13"
+      "52 : 4 = 13. Probe: 13 × 4 = 52."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
     "parsed": {
@@ -1055,10 +1055,10 @@
     "loesung": "17",
     "loesungsweg": "68:4 → 40:4=10, 28:4=7 → 10+7=17",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 68?",
       "Nimm zuerst 40 weg: 40:4=10. Rest: 68−40=28.",
       "28:4=7. Zusammen: 10+7=?",
-      "68:4=17"
+      "68 : 4 = 17. Probe: 17 × 4 = 68."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
     "parsed": {
@@ -1086,10 +1086,10 @@
     "loesung": "24",
     "loesungsweg": "96:4 → 80:4=20, 16:4=4 → 20+4=24",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 4 teilen lassen.",
+      "Welche Zahl mal 4 ergibt 96?",
       "Nimm zuerst 80 weg: 80:4=20. Rest: 96−80=16.",
       "16:4=4. Zusammen: 20+4=?",
-      "96:4=24"
+      "96 : 4 = 24. Probe: 24 × 4 = 96."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3b.",
     "parsed": {
@@ -1117,10 +1117,10 @@
     "loesung": "15",
     "loesungsweg": "75:5 → 50:5=10, 25:5=5 → 10+5=15",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Welche Zahl mal 5 ergibt 75?",
       "Nimm zuerst 50 weg: 50:5=10. Rest: 75−50=25.",
       "25:5=5. Zusammen: 10+5=?",
-      "75:5=15"
+      "75 : 5 = 15. Probe: 15 × 5 = 75."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
     "parsed": {
@@ -1148,10 +1148,10 @@
     "loesung": "18",
     "loesungsweg": "90:5 → 50:5=10, 40:5=8 → 10+8=18",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Welche Zahl mal 5 ergibt 90?",
       "Nimm zuerst 50 weg: 50:5=10. Rest: 90−50=40.",
       "40:5=8. Zusammen: 10+8=?",
-      "90:5=18"
+      "90 : 5 = 18. Probe: 18 × 5 = 90."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
     "parsed": {
@@ -1179,10 +1179,10 @@
     "loesung": "13",
     "loesungsweg": "65:5 → 50:5=10, 15:5=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 5 teilen lassen.",
+      "Welche Zahl mal 5 ergibt 65?",
       "Nimm zuerst 50 weg: 50:5=10. Rest: 65−50=15.",
       "15:5=3. Zusammen: 10+3=?",
-      "65:5=13"
+      "65 : 5 = 13. Probe: 13 × 5 = 65."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3c.",
     "parsed": {
@@ -1210,10 +1210,10 @@
     "loesung": "14",
     "loesungsweg": "84:6 → 60:6=10, 24:6=4 → 10+4=14",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Welche Zahl mal 6 ergibt 84?",
       "Nimm zuerst 60 weg: 60:6=10. Rest: 84−60=24.",
       "24:6=4. Zusammen: 10+4=?",
-      "84:6=14"
+      "84 : 6 = 14. Probe: 14 × 6 = 84."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
     "parsed": {
@@ -1241,10 +1241,10 @@
     "loesung": "16",
     "loesungsweg": "96:6 → 60:6=10, 36:6=6 → 10+6=16",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Welche Zahl mal 6 ergibt 96?",
       "Nimm zuerst 60 weg: 60:6=10. Rest: 96−60=36.",
       "36:6=6. Zusammen: 10+6=?",
-      "96:6=16"
+      "96 : 6 = 16. Probe: 16 × 6 = 96."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
     "parsed": {
@@ -1272,10 +1272,10 @@
     "loesung": "13",
     "loesungsweg": "78:6 → 60:6=10, 18:6=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 6 teilen lassen.",
+      "Welche Zahl mal 6 ergibt 78?",
       "Nimm zuerst 60 weg: 60:6=10. Rest: 78−60=18.",
       "18:6=3. Zusammen: 10+3=?",
-      "78:6=13"
+      "78 : 6 = 13. Probe: 13 × 6 = 78."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3d.",
     "parsed": {
@@ -1303,10 +1303,10 @@
     "loesung": "14",
     "loesungsweg": "98:7 → 70:7=10, 28:7=4 → 10+4=14",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 98?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 98−70=28.",
       "28:7=4. Zusammen: 10+4=?",
-      "98:7=14"
+      "98 : 7 = 14. Probe: 14 × 7 = 98."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
     "parsed": {
@@ -1334,10 +1334,10 @@
     "loesung": "12",
     "loesungsweg": "84:7 → 70:7=10, 14:7=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 84?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 84−70=14.",
       "14:7=2. Zusammen: 10+2=?",
-      "84:7=12"
+      "84 : 7 = 12. Probe: 12 × 7 = 84."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
     "parsed": {
@@ -1365,10 +1365,10 @@
     "loesung": "13",
     "loesungsweg": "91:7 → 70:7=10, 21:7=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 7 teilen lassen.",
+      "Welche Zahl mal 7 ergibt 91?",
       "Nimm zuerst 70 weg: 70:7=10. Rest: 91−70=21.",
       "21:7=3. Zusammen: 10+3=?",
-      "91:7=13"
+      "91 : 7 = 13. Probe: 13 × 7 = 91."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3e.",
     "parsed": {
@@ -1396,10 +1396,10 @@
     "loesung": "12",
     "loesungsweg": "96:8 → 80:8=10, 16:8=2 → 10+2=12",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Welche Zahl mal 8 ergibt 96?",
       "Nimm zuerst 80 weg: 80:8=10. Rest: 96−80=16.",
       "16:8=2. Zusammen: 10+2=?",
-      "96:8=12"
+      "96 : 8 = 12. Probe: 12 × 8 = 96."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
     "parsed": {
@@ -1427,10 +1427,10 @@
     "loesung": "15",
     "loesungsweg": "120:8 → 80:8=10, 40:8=5 → 10+5=15",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Welche Zahl mal 8 ergibt 120?",
       "Nimm zuerst 80 weg: 80:8=10. Rest: 120−80=40.",
       "40:8=5. Zusammen: 10+5=?",
-      "120:8=15"
+      "120 : 8 = 15. Probe: 15 × 8 = 120."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
     "parsed": {
@@ -1458,10 +1458,10 @@
     "loesung": "13",
     "loesungsweg": "104:8 → 80:8=10, 24:8=3 → 10+3=13",
     "tipps": [
-      "Zerlege die Zahl in Teile, die sich leicht durch 8 teilen lassen.",
+      "Welche Zahl mal 8 ergibt 104?",
       "Nimm zuerst 80 weg: 80:8=10. Rest: 104−80=24.",
       "24:8=3. Zusammen: 10+3=?",
-      "104:8=13"
+      "104 : 8 = 13. Probe: 13 × 8 = 104."
     ],
     "didaktischerHinweis": "Fredo S.80, Aufgabe 3f.",
     "parsed": {
@@ -1489,8 +1489,8 @@
     "loesung": "a) 7, 4, 6\nb) 7, 3, 3\nc) 8, 5, 3\nd) 6, 6, 3",
     "loesungsweg": "Teiler = Dividend ÷ Ergebnis.\na) 84:12=7, 56:14=4, 96:16=6\nb) 91:13=7, 45:15=3, 54:18=3\nc) 96:12=8, 85:17=5, 57:19=3\nd) 84:14=6, 78:13=6, 48:16=3",
     "tipps": [
-      "Wenn du das Ergebnis kennst, kannst du rückwärts rechnen: Dividend ÷ Ergebnis = Teiler.",
-      "a) 84 : ___ = 12. Also: 84 ÷ 12 = ___. Rechne: 12 × 7 = 84 ✓",
+      "Wenn du das Ergebnis kennst, kannst du rückwärts rechnen: Dividen...",
+      "a) 84 : ___ = 12. Also: 84 ÷ 12 = ___. Rechne: 12 × 7 = 84 ✓.",
       "Tipp: Überlege 'Welche Zahl mal 12 ergibt 84?' Das ist die Umkehraufgabe!",
       "a) 7, 4, 6. b) 7, 3, 3. c) 8, 5, 3. d) 6, 6, 3."
     ],
@@ -1575,7 +1575,7 @@
     "loesung": "a) 42:6=7 → Ziffer 4\nb) 49:7=7, 91:7=13 → Ziffern 4 oder 9 (Korrektur: 49 hat Einerstelle 9? Nein, _9:7 → 49:7=7, 98... nein. Lass mich neu rechnen)\na) ?7 : 6: 17÷6 Rest, 27÷6 Rest, 37÷6 Rest, 47÷6 Rest, 57÷6 Rest, 67÷6 Rest, 77÷6 Rest, 87÷6 Rest, 97÷6 Rest → Keine geht auf! Hmm, zweistellig mit 7 als Einerstelle...\nKorrektur: Die Aufgabe ist _7:6 wobei _ eine Ziffer an der ZEHNERSTELLE ist.\n17:6 Rest, 27:6=4R3, 37:6 Rest, 42:6=7 → nein 42 hat nicht 7 als Einerstelle.\nHmm. 12:6=2, 18:6=3, 24:6=4, 30:6=5, 36:6=6, 42:6=7, 48:6=8, 54:6=9, 60:6=10...\nMit Einerstelle 7: 17, 27, 37, 47, 57, 67, 77, 87, 97.\n42:6=7 → 42 endet auf 2, nicht 7.\nKeines der _7 ist durch 6 teilbar! Das kann nicht stimmen.\n\nWarten — vielleicht ist das Format anders: 7_ : 6 (7 an der Zehnerstelle)?\n72:6=12 ✓, 78:6=13 ✓ → Ziffern: 2 und 8.",
     "loesungsweg": "Die erste Ziffer ist vorgegeben, die zweite (_) wird gesucht.\na) 7_ : 6 ohne Rest: 72:6=12, 78:6=13 → _ = 2 oder 8\nb) 9_ : 7 ohne Rest: 91:7=13, 98:7=14 → _ = 1 oder 8\nc) 6_ : 4 ohne Rest: 60:4=15, 64:4=16, 68:4=17 → _ = 0, 4 oder 8\nd) 8_ : 3 ohne Rest: 81:3=27, 84:3=28, 87:3=29 → _ = 1, 4 oder 7\ne) 7_ : 5 ohne Rest: 70:5=14, 75:5=15 → _ = 0 oder 5",
     "tipps": [
-      "Setze nacheinander alle Ziffern 0–9 ein und prüfe, ob die Division ohne Rest aufgeht.",
+      "Setze nacheinander alle Ziffern 0–9 ein und prüfe, ob die Division ohn...",
       "a) 7_ : 6: Probiere 70:6, 71:6, 72:6, ... Welche gehen ohne Rest auf?",
       "a) 72:6=12 ✓ und 78:6=13 ✓. Also: _ = 2 oder 8.",
       "a) 2, 8. b) 1, 8. c) 0, 4, 8. d) 1, 4, 7. e) 0, 5."
@@ -1658,10 +1658,10 @@
     "loesung": "120",
     "loesungsweg": "840:7 → 700:7=100, 140:7=20 → 100+20=120",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 7 ergibt 840?",
       "Nimm 700 weg: 700:7=100. Rest: 840−700=140.",
       "140:7=20. Zusammen: 100+20=?",
-      "840:7=120"
+      "840 : 7 = 120. Probe: 120 × 7 = 840."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7a.",
     "parsed": {
@@ -1689,10 +1689,10 @@
     "loesung": "107",
     "loesungsweg": "642:6 → 600:6=100, 42:6=7 → 100+7=107",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 6 ergibt 642?",
       "Nimm 600 weg: 600:6=100. Rest: 642−600=42.",
       "42:6=7. Zusammen: 100+7=?",
-      "642:6=107"
+      "642 : 6 = 107. Probe: 107 × 6 = 642."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7b.",
     "parsed": {
@@ -1720,10 +1720,10 @@
     "loesung": "130",
     "loesungsweg": "520:4 → 400:4=100, 120:4=30 → 100+30=130",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 4 ergibt 520?",
       "Nimm 400 weg: 400:4=100. Rest: 520−400=120.",
       "120:4=30. Zusammen: 100+30=?",
-      "520:4=130"
+      "520 : 4 = 130. Probe: 130 × 4 = 520."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7c.",
     "parsed": {
@@ -1751,10 +1751,10 @@
     "loesung": "120",
     "loesungsweg": "960:8 → 800:8=100, 160:8=20 → 100+20=120",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 8 ergibt 960?",
       "Nimm 800 weg: 800:8=100. Rest: 960−800=160.",
       "160:8=20. Zusammen: 100+20=?",
-      "960:8=120"
+      "960 : 8 = 120. Probe: 120 × 8 = 960."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7d.",
     "parsed": {
@@ -1782,10 +1782,10 @@
     "loesung": "109",
     "loesungsweg": "545:5 → 500:5=100, 45:5=9 → 100+9=109",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 5 ergibt 545?",
       "Nimm 500 weg: 500:5=100. Rest: 545−500=45.",
       "45:5=9. Zusammen: 100+9=?",
-      "545:5=109"
+      "545 : 5 = 109. Probe: 109 × 5 = 545."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7e.",
     "parsed": {
@@ -1813,10 +1813,10 @@
     "loesung": "140",
     "loesungsweg": "420:3 → 300:3=100, 120:3=40 → 100+40=140",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 3 ergibt 420?",
       "Nimm 300 weg: 300:3=100. Rest: 420−300=120.",
       "120:3=40. Zusammen: 100+40=?",
-      "420:3=140"
+      "420 : 3 = 140. Probe: 140 × 3 = 420."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7f.",
     "parsed": {
@@ -1844,10 +1844,10 @@
     "loesung": "110",
     "loesungsweg": "880:8 → 800:8=100, 80:8=10 → 100+10=110",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 8 ergibt 880?",
       "Nimm 800 weg: 800:8=100. Rest: 880−800=80.",
       "80:8=10. Zusammen: 100+10=?",
-      "880:8=110"
+      "880 : 8 = 110. Probe: 110 × 8 = 880."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7g.",
     "parsed": {
@@ -1875,10 +1875,10 @@
     "loesung": "160",
     "loesungsweg": "640:4 → 400:4=100, 240:4=60 → 100+60=160",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 4 ergibt 640?",
       "Nimm 400 weg: 400:4=100. Rest: 640−400=240.",
       "240:4=60. Zusammen: 100+60=?",
-      "640:4=160"
+      "640 : 4 = 160. Probe: 160 × 4 = 640."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7h.",
     "parsed": {
@@ -1906,10 +1906,10 @@
     "loesung": "170",
     "loesungsweg": "510:3 → 300:3=100, 210:3=70 → 100+70=170",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 3 ergibt 510?",
       "Nimm 300 weg: 300:3=100. Rest: 510−300=210.",
       "210:3=70. Zusammen: 100+70=?",
-      "510:3=170"
+      "510 : 3 = 170. Probe: 170 × 3 = 510."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7i.",
     "parsed": {
@@ -1937,10 +1937,10 @@
     "loesung": "130",
     "loesungsweg": "910:7 → 700:7=100, 210:7=30 → 100+30=130",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 7 ergibt 910?",
       "Nimm 700 weg: 700:7=100. Rest: 910−700=210.",
       "210:7=30. Zusammen: 100+30=?",
-      "910:7=130"
+      "910 : 7 = 130. Probe: 130 × 7 = 910."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7j.",
     "parsed": {
@@ -1968,10 +1968,10 @@
     "loesung": "120",
     "loesungsweg": "720:6 → 600:6=100, 120:6=20 → 100+20=120",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 6 ergibt 720?",
       "Nimm 600 weg: 600:6=100. Rest: 720−600=120.",
       "120:6=20. Zusammen: 100+20=?",
-      "720:6=120"
+      "720 : 6 = 120. Probe: 120 × 6 = 720."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7k.",
     "parsed": {
@@ -1999,10 +1999,10 @@
     "loesung": "106",
     "loesungsweg": "530:5 → 500:5=100, 30:5=6 → 100+6=106",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 5 ergibt 530?",
       "Nimm 500 weg: 500:5=100. Rest: 530−500=30.",
       "30:5=6. Zusammen: 100+6=?",
-      "530:5=106"
+      "530 : 5 = 106. Probe: 106 × 5 = 530."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 7l.",
     "parsed": {
@@ -2030,10 +2030,10 @@
     "loesung": "121",
     "loesungsweg": "968:8 → 800:8=100, 168:8=21 → 100+21=121",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 8 ergibt 968?",
       "Nimm 800 weg: 800:8=100. Rest: 968−800=168.",
       "168:8=21. Zusammen: 100+21=?",
-      "968:8=121"
+      "968 : 8 = 121. Probe: 121 × 8 = 968."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8a.",
     "parsed": {
@@ -2061,10 +2061,10 @@
     "loesung": "103",
     "loesungsweg": "927:9 → 900:9=100, 27:9=3 → 100+3=103",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 9 ergibt 927?",
       "Nimm 900 weg: 900:9=100. Rest: 927−900=27.",
       "27:9=3. Zusammen: 100+3=?",
-      "927:9=103"
+      "927 : 9 = 103. Probe: 103 × 9 = 927."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8b.",
     "parsed": {
@@ -2092,10 +2092,10 @@
     "loesung": "123",
     "loesungsweg": "246:2 → 200:2=100, 46:2=23 → 100+23=123",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 2 ergibt 246?",
       "Nimm 200 weg: 200:2=100. Rest: 246−200=46.",
       "46:2=23. Zusammen: 100+23=?",
-      "246:2=123"
+      "246 : 2 = 123. Probe: 123 × 2 = 246."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8c.",
     "parsed": {
@@ -2123,10 +2123,10 @@
     "loesung": "133",
     "loesungsweg": "665:5 → 500:5=100, 165:5=33 → 100+33=133",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 5 ergibt 665?",
       "Nimm 500 weg: 500:5=100. Rest: 665−500=165.",
       "165:5=33. Zusammen: 100+33=?",
-      "665:5=133"
+      "665 : 5 = 133. Probe: 133 × 5 = 665."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8d.",
     "parsed": {
@@ -2154,10 +2154,10 @@
     "loesung": "160",
     "loesungsweg": "640:4 → 400:4=100, 240:4=60 → 100+60=160",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 4 ergibt 640?",
       "Nimm 400 weg: 400:4=100. Rest: 640−400=240.",
       "240:4=60. Zusammen: 100+60=?",
-      "640:4=160"
+      "640 : 4 = 160. Probe: 160 × 4 = 640."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8e.",
     "parsed": {
@@ -2185,10 +2185,10 @@
     "loesung": "242",
     "loesungsweg": "726:3 → 600:3=200, 126:3=42 → 200+42=242",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 3 ergibt 726?",
       "Nimm 600 weg: 600:3=200. Rest: 726−600=126.",
       "126:3=42. Zusammen: 200+42=?",
-      "726:3=242"
+      "726 : 3 = 242. Probe: 242 × 3 = 726."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8f.",
     "parsed": {
@@ -2216,10 +2216,10 @@
     "loesung": "112",
     "loesungsweg": "896:8 → 800:8=100, 96:8=12 → 100+12=112",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 8 ergibt 896?",
       "Nimm 800 weg: 800:8=100. Rest: 896−800=96.",
       "96:8=12. Zusammen: 100+12=?",
-      "896:8=112"
+      "896 : 8 = 112. Probe: 112 × 8 = 896."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8g.",
     "parsed": {
@@ -2247,10 +2247,10 @@
     "loesung": "141",
     "loesungsweg": "564:4 → 400:4=100, 164:4=41 → 100+41=141",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 4 ergibt 564?",
       "Nimm 400 weg: 400:4=100. Rest: 564−400=164.",
       "164:4=41. Zusammen: 100+41=?",
-      "564:4=141"
+      "564 : 4 = 141. Probe: 141 × 4 = 564."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8h.",
     "parsed": {
@@ -2278,10 +2278,10 @@
     "loesung": "130",
     "loesungsweg": "650:5 → 500:5=100, 150:5=30 → 100+30=130",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 5 ergibt 650?",
       "Nimm 500 weg: 500:5=100. Rest: 650−500=150.",
       "150:5=30. Zusammen: 100+30=?",
-      "650:5=130"
+      "650 : 5 = 130. Probe: 130 × 5 = 650."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8i.",
     "parsed": {
@@ -2309,10 +2309,10 @@
     "loesung": "116",
     "loesungsweg": "696:6 → 600:6=100, 96:6=16 → 100+16=116",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 6 ergibt 696?",
       "Nimm 600 weg: 600:6=100. Rest: 696−600=96.",
       "96:6=16. Zusammen: 100+16=?",
-      "696:6=116"
+      "696 : 6 = 116. Probe: 116 × 6 = 696."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8j.",
     "parsed": {
@@ -2340,10 +2340,10 @@
     "loesung": "255",
     "loesungsweg": "765:3 → 600:3=200, 165:3=55 → 200+55=255",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 3 ergibt 765?",
       "Nimm 600 weg: 600:3=200. Rest: 765−600=165.",
       "165:3=55. Zusammen: 200+55=?",
-      "765:3=255"
+      "765 : 3 = 255. Probe: 255 × 3 = 765."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8k.",
     "parsed": {
@@ -2371,10 +2371,10 @@
     "loesung": "121",
     "loesungsweg": "847:7 → 700:7=100, 147:7=21 → 100+21=121",
     "tipps": [
-      "Bei dreistelligen Zahlen: Nimm zuerst die Hunderter weg!",
+      "Welche Zahl mal 7 ergibt 847?",
       "Nimm 700 weg: 700:7=100. Rest: 847−700=147.",
       "147:7=21. Zusammen: 100+21=?",
-      "847:7=121"
+      "847 : 7 = 121. Probe: 121 × 7 = 847."
     ],
     "didaktischerHinweis": "Fredo S.81, Aufgabe 8l.",
     "parsed": {
@@ -2402,7 +2402,7 @@
     "loesung": "109 R 2",
     "loesungsweg": "765:7 → 700:7=100, 63:7=9 → 109, Rest 2",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 700 weg: 700:7=100. Rest: 765−700=65.",
       "65 durch 7: 63:7=9. Es bleibt Rest 2.",
       "Probe: 109×7+2=765. Also: 109 R 2"
@@ -2433,7 +2433,7 @@
     "loesung": "206 R 1",
     "loesungsweg": "413:2 → 400:2=200, 12:2=6 → 206, Rest 1",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 400 weg: 400:2=200. Rest: 413−400=13.",
       "13 durch 2: 12:2=6. Es bleibt Rest 1.",
       "Probe: 206×2+1=413. Also: 206 R 1"
@@ -2464,7 +2464,7 @@
     "loesung": "112 R 1",
     "loesungsweg": "785:7 → 700:7=100, 84:7=12 → 112, Rest 1",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 700 weg: 700:7=100. Rest: 785−700=85.",
       "85 durch 7: 84:7=12. Es bleibt Rest 1.",
       "Probe: 112×7+1=785. Also: 112 R 1"
@@ -2495,7 +2495,7 @@
     "loesung": "210 R 2",
     "loesungsweg": "632:3 → 600:3=200, 30:3=10 → 210, Rest 2",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 600 weg: 600:3=200. Rest: 632−600=32.",
       "32 durch 3: 30:3=10. Es bleibt Rest 2.",
       "Probe: 210×3+2=632. Also: 210 R 2"
@@ -2526,7 +2526,7 @@
     "loesung": "130 R 3",
     "loesungsweg": "653:5 → 500:5=100, 150:5=30 → 130, Rest 3",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 500 weg: 500:5=100. Rest: 653−500=153.",
       "153 durch 5: 150:5=30. Es bleibt Rest 3.",
       "Probe: 130×5+3=653. Also: 130 R 3"
@@ -2557,7 +2557,7 @@
     "loesung": "272 R 1",
     "loesungsweg": "545:2 → 400:2=200, 144:2=72 → 272, Rest 1",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 400 weg: 400:2=200. Rest: 545−400=145.",
       "145 durch 2: 144:2=72. Es bleibt Rest 1.",
       "Probe: 272×2+1=545. Also: 272 R 1"
@@ -2588,7 +2588,7 @@
     "loesung": "105 R 1",
     "loesungsweg": "526:5 → 500:5=100, 25:5=5 → 105, Rest 1",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 500 weg: 500:5=100. Rest: 526−500=26.",
       "26 durch 5: 25:5=5. Es bleibt Rest 1.",
       "Probe: 105×5+1=526. Also: 105 R 1"
@@ -2619,7 +2619,7 @@
     "loesung": "209 R 2",
     "loesungsweg": "838:4 → 800:4=200, 36:4=9 → 209, Rest 2",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 800 weg: 800:4=200. Rest: 838−800=38.",
       "38 durch 4: 36:4=9. Es bleibt Rest 2.",
       "Probe: 209×4+2=838. Also: 209 R 2"
@@ -2650,7 +2650,7 @@
     "loesung": "213 R 3",
     "loesungsweg": "855:4 → 800:4=200, 52:4=13 → 213, Rest 3",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 800 weg: 800:4=200. Rest: 855−800=55.",
       "55 durch 4: 52:4=13. Es bleibt Rest 3.",
       "Probe: 213×4+3=855. Also: 213 R 3"
@@ -2681,7 +2681,7 @@
     "loesung": "112 R 1",
     "loesungsweg": "337:3 → 300:3=100, 36:3=12 → 112, Rest 1",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 300 weg: 300:3=100. Rest: 337−300=37.",
       "37 durch 3: 36:3=12. Es bleibt Rest 1.",
       "Probe: 112×3+1=337. Also: 112 R 1"
@@ -2712,7 +2712,7 @@
     "loesung": "129 R 3",
     "loesungsweg": "777:6 → 600:6=100, 174:6=29 → 129, Rest 3",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 600 weg: 600:6=100. Rest: 777−600=177.",
       "177 durch 6: 174:6=29. Es bleibt Rest 3.",
       "Probe: 129×6+3=777. Also: 129 R 3"
@@ -2743,7 +2743,7 @@
     "loesung": "120 R 2",
     "loesungsweg": "962:8 → 800:8=100, 160:8=20 → 120, Rest 2",
     "tipps": [
-      "Rechne wie gewohnt halbschriftlich. Am Ende bleibt ein Rest übrig.",
+      "Rechne wie gewohnt halbschriftlich.",
       "Nimm 800 weg: 800:8=100. Rest: 962−800=162.",
       "162 durch 8: 160:8=20. Es bleibt Rest 2.",
       "Probe: 120×8+2=962. Also: 120 R 2"
