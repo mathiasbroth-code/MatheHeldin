@@ -1,0 +1,228 @@
+[
+  {
+    "titel": "S.70 Nr.1 — Vergleiche die Skizzen",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "gelb",
+    "buchseite": 70,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Tim, Lena und Olli wollen zum See fahren. Tim wohnt 10,6 km vom See entfernt. Auf dem Weg zum See kommt er an Lena vorbei, die 2,8 km von ihm entfernt wohnt. Zusammen fahren sie weiter zu Olli. Von dort aus radeln sie gemeinsam die 5,2 km zum See.\n\n- Tim → Lena: 2,8 km\n- Lena → Olli: ? km\n- Olli → See: 5,2 km\n\nVergleiche die Skizzen. Welche Skizze findest du besonders hilfreich? Zeichne sie ab und löse die Aufgabe.\n\nWie weit wohnt Olli von Lena entfernt?",
+    "loesung": "2,6 km",
+    "loesungsweg": "Gesamt: Tim → See = 10,6 km.\nBekannte Strecken: Tim → Lena = 2,8 km, Olli → See = 5,2 km.\nGesuchte Strecke: Lena → Olli = 10,6 − 2,8 − 5,2 = 2,6 km.",
+    "tipps": [
+      "Eine gute Skizze zeigt alle Orte der Reihe nach auf einer Linie. Oben steht die Gesamtstrecke.",
+      "Tim → Lena → Olli → See. Die Gesamtstrecke ist 10,6 km. Zwei Teilstrecken kennst du schon.",
+      "10,6 − 2,8 = 7,8 km (Tim → Olli). Davon noch 5,2 km bis zum See abziehen: 7,8 − 5,2 = ?",
+      "10,6 − 2,8 − 5,2 = 2,6 km. Olli wohnt 2,6 km von Lena entfernt."
+    ],
+    "didaktischerHinweis": "Fredo S.70, Aufgabe 1. Einführung verschiedener Skizzenarten. Das Routendiagramm zeigt automatisch die hilfreichste Darstellung.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Tim, Lena und Olli wollen zum See fahren. Tim wohnt 10,6 km vom See entfernt. Auf dem Weg zum See kommt er an Lena vorbei, die 2,8 km von ihm entfernt wohnt. Zusammen fahren sie weiter zu Olli. Von dort aus radeln sie gemeinsam die 5,2 km zum See.\n\n- Tim → Lena: 2,8 km\n- Lena → Olli: ? km\n- Olli → See: 5,2 km",
+      "items": [
+        { "label": "a", "frage": "Wie weit wohnt Olli von Lena entfernt?", "antwort": "2,6" }
+      ]
+    }
+  },
+  {
+    "titel": "S.70 Nr.2 — Jette: Radtour zum See",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "gelb",
+    "buchseite": 70,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nJette macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3 km zum Spielplatz. Von dort geht es 4 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 15 km geradelt.\n\n- Start → Spielplatz: 3 km\n- Spielplatz → Eisdiele: 4 km\n- Eisdiele → See: ? km\n\nWie weit ist der See von der Eisdiele entfernt?",
+    "loesung": "8 km",
+    "loesungsweg": "Gesamt: 15 km.\nBekannt: Start → Spielplatz = 3 km, Spielplatz → Eisdiele = 4 km.\nAlso: 3 + 4 = 7 km bis zur Eisdiele.\nEisdiele → See = 15 − 7 = 8 km.",
+    "tipps": [
+      "Zeichne alle Orte auf eine Linie: Start → Spielplatz → Eisdiele → See.",
+      "Wie weit ist es bis zur Eisdiele? 3 km + 4 km = 7 km.",
+      "Insgesamt sind es 15 km. Bis zur Eisdiele 7 km. Also Eisdiele → See = 15 − 7 = ?",
+      "15 − 7 = 8 km. Der See ist 8 km von der Eisdiele entfernt."
+    ],
+    "didaktischerHinweis": "Fredo S.70, Aufgabe 2. Einfache Streckensachaufgabe mit 3 bekannten und 1 gesuchten Teilstrecke.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "kontext": "Jette macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3 km zum Spielplatz. Von dort geht es 4 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 15 km geradelt.\n\n- Start → Spielplatz: 3 km\n- Spielplatz → Eisdiele: 4 km\n- Eisdiele → See: ? km",
+      "items": [
+        { "label": "a", "frage": "Wie weit ist der See von der Eisdiele entfernt?", "antwort": "8" }
+      ]
+    }
+  },
+  {
+    "titel": "S.70 Nr.3 — Ali: Radausflug mit Hin und Zurück",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 70,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nAli und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 4,3 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wäldchen. Nach dem Grillen besuchen sie noch die Eisdiele, die 2,8 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 16,6 km zurück.\n\n- Start → See: 4,3 km\n- See → Grillplatz: ? km\n- Grillplatz → Eisdiele: 2,8 km\n\nWie weit ist der Grillplatz vom See entfernt?",
+    "loesung": "1,2 km",
+    "loesungsweg": "Hin UND zurück = 16,6 km.\nAlso einfacher Weg = 16,6 ÷ 2 = 8,3 km.\nBekannt: Start → See = 4,3 km, Grillplatz → Eisdiele = 2,8 km.\nSee → Grillplatz = 8,3 − 4,3 − 2,8 = 1,2 km.",
+    "tipps": [
+      "Vorsicht: 'denselben Weg wieder zurück' heißt Hin-und-zurück! Die Gesamtstrecke ist DOPPELT so lang wie der einfache Weg.",
+      "Einfacher Weg = 16,6 ÷ 2 = 8,3 km. Jetzt hast du die einfache Strecke.",
+      "Start → See = 4,3 km, Grillplatz → Eisdiele = 2,8 km. Zusammen: 4,3 + 2,8 = 7,1 km. Es fehlt: 8,3 − 7,1 = ?",
+      "See → Grillplatz = 8,3 − 4,3 − 2,8 = 1,2 km."
+    ],
+    "didaktischerHinweis": "Fredo S.70, Aufgabe 3. Hin-und-zurück-Aufgabe: Gesamtstrecke halbieren, dann fehlende Teilstrecke berechnen.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "kontext": "Ali und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 4,3 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wäldchen. Nach dem Grillen besuchen sie noch die Eisdiele, die 2,8 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 16,6 km zurück.\n\n- Start → See: 4,3 km\n- See → Grillplatz: ? km\n- Grillplatz → Eisdiele: 2,8 km",
+      "items": [
+        { "label": "a", "frage": "Wie weit ist der Grillplatz vom See entfernt?", "antwort": "1,2" }
+      ]
+    }
+  },
+  {
+    "titel": "S.70 Nr.4 — Justus: Radtour mit Abkürzung",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 70,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nJustus macht mit seiner Familie eine Radtour. Insgesamt radeln sie 22 km 800 m. Zuerst radeln sie 3,7 km zum Waldrand. Von dort geht es weiter zum Grillplatz. Danach radeln sie 2100 m zum See. Für den Heimweg wählen sie eine Abkürzung, die 9,6 km lang ist.\n\n- Start → Waldrand: 3,7 km\n- Waldrand → Grillplatz: ? km\n- Grillplatz → See: 2,1 km\n- See → Start (Abkürzung): 9,6 km\n\nWie weit ist der Grillplatz vom Waldrand entfernt?",
+    "loesung": "7,4 km",
+    "loesungsweg": "Gesamt: 22 km 800 m = 22,8 km.\nHinweg: Start → Waldrand → Grillplatz → See.\nRückweg: See → Start (Abkürzung) = 9,6 km.\nAlso Hinweg = 22,8 − 9,6 = 13,2 km.\nWaldrand → Grillplatz = 13,2 − 3,7 − 2,1 = 7,4 km.",
+    "tipps": [
+      "Achtung: 2100 m = 2,1 km! Und 22 km 800 m = 22,8 km. Rechne alles in km um.",
+      "Gesamt = 22,8 km. Rückweg (Abkürzung) = 9,6 km. Also Hinweg = 22,8 − 9,6 = ?",
+      "Hinweg = 13,2 km. Bekannt: Start → Waldrand = 3,7 km, Grillplatz → See = 2,1 km. Also: 13,2 − 3,7 − 2,1 = ?",
+      "Waldrand → Grillplatz = 13,2 − 3,7 − 2,1 = 7,4 km."
+    ],
+    "didaktischerHinweis": "Fredo S.70, Aufgabe 4. Komplexe Aufgabe: Einheiten umrechnen (m→km), Rückweg abziehen, dann Teilstrecke finden.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "kontext": "Justus macht mit seiner Familie eine Radtour. Insgesamt radeln sie 22 km 800 m. Zuerst radeln sie 3,7 km zum Waldrand. Von dort geht es weiter zum Grillplatz. Danach radeln sie 2100 m zum See. Für den Heimweg wählen sie eine Abkürzung, die 9,6 km lang ist.\n\n- Start → Waldrand: 3,7 km\n- Waldrand → Grillplatz: ? km\n- Grillplatz → See: 2,1 km\n- See → Start (Abkürzung): 9,6 km",
+      "items": [
+        { "label": "a", "frage": "Wie weit ist der Grillplatz vom Waldrand entfernt?", "antwort": "7,4" }
+      ]
+    }
+  },
+  {
+    "titel": "S.71 Nr.5 — Sturmwarnglocken am Bodensee",
+    "typ": "eingabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 71,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nZwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.\n\nWie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hören sind?",
+    "loesung": "2 km",
+    "loesungsweg": "Die Glocke in Konstanz ist 3 km weit zu hören (0–3 km von Konstanz).\nDie Glocke in Meersburg ist 3 km weit zu hören (1–4 km von Konstanz, also 0–3 km von Meersburg).\nÜberlappung: Von km 1 bis km 3 = 2 km.\nRechnung: 3 + 3 − 4 = 2 km.",
+    "tipps": [
+      "Zeichne eine Linie von Konstanz (links) nach Meersburg (rechts), 4 km lang. Markiere für jede Glocke den Bereich, in dem sie zu hören ist.",
+      "Die Konstanz-Glocke reicht 3 km weit (von 0 bis 3 km). Die Meersburg-Glocke reicht 3 km weit (von 1 km bis 4 km). Wo überlappen sie sich?",
+      "Überlappung: Beide Glocken hört man von km 1 bis km 3. Das sind ___ km.",
+      "3 + 3 − 4 = 2 km. Auf 2 km Strecke sind beide Glocken zu hören."
+    ],
+    "didaktischerHinweis": "Fredo S.71, Aufgabe 5. Überlappungsproblem: Zwei Bereiche auf einer Strecke, Schnittmenge berechnen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "items": [
+        { "label": "a", "frage": "Zwischen Konstanz und Meersburg (4 km) steht je eine Sturmwarnglocke, die 3 km weit zu hören ist. Wie lang ist die Strecke, auf der BEIDE Glocken zu hören sind?", "antwort": "2" }
+      ]
+    }
+  },
+  {
+    "titel": "S.71 Nr.6 — Tunnelbau von beiden Seiten",
+    "typ": "eingabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 71,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nBeim Bau eines 1200 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 2,50 m, die andere sogar 3,50 m.\n\na) Nach wie vielen Tagen ist der Tunnel fertig?\nb) Wie viele Meter hat jede Firma gebaut?",
+    "loesung": "a) 200 Tage\nb) Firma A: 500 m, Firma B: 700 m",
+    "loesungsweg": "Zusammen schaffen beide Firmen täglich: 2,50 + 3,50 = 6 m pro Tag.\na) 1200 ÷ 6 = 200 Tage.\nb) Firma A: 200 × 2,50 = 500 m. Firma B: 200 × 3,50 = 700 m.\nProbe: 500 + 700 = 1200 m ✓",
+    "tipps": [
+      "Beide Firmen graben gleichzeitig. Zusammen schaffen sie pro Tag: 2,50 + 3,50 = ___ m.",
+      "a) Zusammen 6 m pro Tag. Der Tunnel ist 1200 m lang. 1200 ÷ 6 = ___?",
+      "b) Firma A: 200 Tage × 2,50 m = ___. Firma B: 200 Tage × 3,50 m = ___.",
+      "a) 200 Tage. b) Firma A: 500 m, Firma B: 700 m."
+    ],
+    "didaktischerHinweis": "Fredo S.71, Aufgabe 6. Zwei Raten zusammenzählen, dann teilen. Proportionale Zuordnung.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "items": [
+        { "label": "a", "frage": "Nach wie vielen Tagen ist der Tunnel fertig?", "antwort": "200" },
+        { "label": "b1", "frage": "Wie viele Meter hat Firma A (2,50 m/Tag) gebaut?", "antwort": "500" },
+        { "label": "b2", "frage": "Wie viele Meter hat Firma B (3,50 m/Tag) gebaut?", "antwort": "700" }
+      ]
+    }
+  },
+  {
+    "titel": "S.71 Nr.7 — Holzleiste zersägen",
+    "typ": "eingabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "grün",
+    "buchseite": 71,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\na) Eine Holzleiste ist 3 m lang. Sie wird in 60 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?\n\nb) Eine Holzleiste ist 3 m lang. Sie wird in 6 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?",
+    "loesung": "a) 5 Stücke, 4 Schnitte\nb) 50 Stücke, 49 Schnitte",
+    "loesungsweg": "a) 3 m = 300 cm. 300 ÷ 60 = 5 Stücke. Schnitte = Stücke − 1 = 4.\nb) 300 ÷ 6 = 50 Stücke. Schnitte = 50 − 1 = 49.\nWichtig: Die Anzahl Schnitte ist IMMER eins weniger als die Anzahl Stücke!",
+    "tipps": [
+      "Rechne zuerst alles in cm um: 3 m = 300 cm.",
+      "a) 300 ÷ 60 = ___ Stücke. Wie viele Schnitte braucht man für 5 Stücke? Zeichne es auf!",
+      "Denke an eine Wurst: Für 2 Stücke brauchst du 1 Schnitt, für 3 Stücke 2 Schnitte... Schnitte = Stücke − 1.",
+      "a) 5 Stücke, 4 Schnitte. b) 50 Stücke, 49 Schnitte."
+    ],
+    "didaktischerHinweis": "Fredo S.71, Aufgabe 7. Klassisches Zaunpfahlproblem: Schnitte = Stücke − 1.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "items": [
+        { "label": "a1", "frage": "3 m Leiste in 60 cm Stücke: Wie viele Stücke?", "antwort": "5" },
+        { "label": "a2", "frage": "Wie viele Schnitte sind nötig?", "antwort": "4" },
+        { "label": "b1", "frage": "3 m Leiste in 6 cm Stücke: Wie viele Stücke?", "antwort": "50" },
+        { "label": "b2", "frage": "Wie viele Schnitte sind nötig?", "antwort": "49" }
+      ]
+    }
+  },
+  {
+    "titel": "S.71 Nr.8 — Garten einzäunen",
+    "typ": "textaufgabe",
+    "thema": "Lösungshilfe: Skizze",
+    "schwierigkeit": "orange",
+    "buchseite": 71,
+    "kapitel": "buch-original",
+    "stageId": "skizze-original",
+    "digital": "voll",
+    "aufgabenstellung": "Zeichne eine Skizze und löse die Aufgabe.\n\nEin Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 20 m Länge gekauft. Der Garten ist 6 m lang und 3,50 m breit. Er soll ein Tor von 1 m Breite bekommen.\n\nReicht der Zaun auch noch für ein quadratisches Gemüsebeet von 1,50 m Seitenlänge? Das Beet schließt außerhalb direkt an eine Seite des Gartens an und soll auch ein Tor von 1 m Breite bekommen.",
+    "loesung": "Ja, der Zaun reicht.",
+    "loesungsweg": "Umfang Garten: 2 × 6 + 2 × 3,50 = 12 + 7 = 19 m.\nMinus Tor: 19 − 1 = 18 m Zaun für den Garten.\n\nGemüsebeet (quadratisch, 1,50 m Seitenlänge): Umfang = 4 × 1,50 = 6 m.\nAber: Eine Seite grenzt an den Garten (kein Zaun nötig dort) → 6 − 1,50 = 4,50 m.\nMinus Tor: 4,50 − 1 = 3,50 m zusätzlicher Zaun.\nAber: An der Gartenseite, wo das Beet angrenzt, fällt der Gartenzaun dort weg (1,50 m) → 18 − 1,50 = 16,50 m für Garten.\n\nGesamt: 16,50 + 3,50 = 20 m. Der Zaun reicht genau!",
+    "tipps": [
+      "Rechne zuerst den Umfang des Gartens aus: 2 × Länge + 2 × Breite. Vergiss das Tor nicht (1 m weniger Zaun).",
+      "Umfang Garten: 2 × 6 + 2 × 3,50 = 19 m. Minus 1 m Tor = 18 m Zaun.",
+      "Das Gemüsebeet grenzt an eine Gartenseite. Dort braucht man KEINEN doppelten Zaun. Auch das Beet hat ein 1 m Tor.",
+      "Garten: 18 m − 1,50 m (geteilte Seite) = 16,50 m. Beet: 4 × 1,50 − 1,50 (geteilte Seite) − 1 (Tor) = 3,50 m. Gesamt: 16,50 + 3,50 = 20 m. Reicht genau!"
+    ],
+    "didaktischerHinweis": "Fredo S.71, Aufgabe 8. Komplexe Umfangsaufgabe: Rechteck + Quadrat + geteilte Seite + 2 Tore. Erfordert genaue Skizze.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
+      "kontext": "Ein Bauer will seinen rechteckigen Garten einzäunen. Er hat einen Zaun von 20 m Länge gekauft. Der Garten ist 6 m lang und 3,50 m breit. Er soll ein Tor von 1 m Breite bekommen.\n\nReicht der Zaun auch noch für ein quadratisches Gemüsebeet von 1,50 m Seitenlänge? Das Beet schließt außerhalb direkt an eine Seite des Gartens an und soll auch ein Tor von 1 m Breite bekommen.",
+      "items": [
+        { "label": "a", "frage": "Reicht der Zaun von 20 m für Garten + Gemüsebeet? (Ja oder Nein)", "antwort": "ja" }
+      ]
+    }
+  }
+]

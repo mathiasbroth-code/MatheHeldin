@@ -21,18 +21,19 @@ function extractSegments(text: string): Segment[] {
   const segments: Segment[] = [];
 
   for (const line of text.split('\n')) {
+    // Erkennt "Ort1 → Ort2: 2,8 km" UND "Ort1 → Ort2: ? km"
     const match = line.match(
-      /(?:^[-•*]\s*|^\s*)(.+?)\s*→\s*(.+?):\s*([\d.,]+)\s*(km|m)\b/,
+      /(?:^[-•*]\s*|^\s*)(.+?)\s*→\s*(.+?):\s*([\d.,]+|\?)\s*(km|m)\b/,
     );
     if (!match) continue;
 
     const von = match[1].replace(/^[a-z]\)\s*/i, '').trim();
     const nach = match[2].trim();
-    const raw = match[3].replace(/\./g, '').replace(',', '.');
-    const dist = parseFloat(raw);
-    if (isNaN(dist)) continue;
+    const isUnbekannt = match[3] === '?';
+    const raw = isUnbekannt ? 'NaN' : match[3].replace(/\./g, '').replace(',', '.');
+    const dist = isUnbekannt ? NaN : parseFloat(raw);
 
-    segments.push({ von, nach, dist, einheit: match[4] });
+    segments.push({ von, nach, dist: isUnbekannt ? 0 : dist, einheit: match[4] });
   }
 
   return segments;
@@ -65,7 +66,7 @@ export function parseRoutenDaten(text: string): RoutenDaten | null {
     if (connected) {
       return {
         stationen: [segments[0].von, ...segments.map((s) => s.nach)],
-        strecken: segments.map((s) => s.dist),
+        strecken: segments.map((s) => s.dist === 0 ? null : s.dist),
         einheit: segments[0].einheit,
       };
     }
