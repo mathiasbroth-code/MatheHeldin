@@ -131,21 +131,35 @@ export function filterTippForLabel(text: string, label: string): string {
   const hasAnyLabel = lines.some((l) => /^\s*[-•*]?\s*[a-z]\)/.test(l.trim()));
   if (!hasAnyLabel) return text;
 
-  const result: string[] = [];
+  // Abschnitts-basierte Filterung: Zeilen gehoeren zum letzten gesehenen Label.
+  // Zeilen VOR dem ersten Label sind "Intro" und werden immer gezeigt.
+  const introLines: string[] = [];
+  const labelSections: Record<string, string[]> = {};
+  let currentSection: string | null = null;
+
   for (const line of lines) {
     const trimmed = line.trim();
-    const match = trimmed.match(/^([-•*]?\s*)([a-z])\)\s*(.*)/);
+    const match = trimmed.match(/^[-•*]?\s*([a-z])\)\s*/);
     if (match) {
-      if (match[2] === label) {
-        // Passende Teilaufgabe — Label entfernen, Inhalt behalten
-        result.push(match[1] + match[3]);
-      }
-      // Andere Labels: ueberspringen
+      currentSection = match[1];
+      if (!labelSections[currentSection]) labelSections[currentSection] = [];
+      // Zeile ohne Label-Prefix speichern
+      const content = trimmed.replace(/^[-•*]?\s*[a-z]\)\s*/, '');
+      if (content) labelSections[currentSection].push(content);
+    } else if (currentSection) {
+      // Folgezeile gehoert zum aktuellen Abschnitt
+      labelSections[currentSection].push(line);
     } else {
-      result.push(line);
+      // Vor dem ersten Label = Intro
+      introLines.push(line);
     }
   }
-  return result.join('\n').trim();
+
+  const sectionContent = labelSections[label] ?? [];
+  const parts = [...introLines];
+  if (sectionContent.length > 0) parts.push(...sectionContent);
+
+  return parts.join('\n').trim();
 }
 
 /**
