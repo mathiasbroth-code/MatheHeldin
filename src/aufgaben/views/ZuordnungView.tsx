@@ -86,7 +86,7 @@ function ZuordnungInteraktiv({
     <div className="space-y-3">
       {daten.anweisung && (
         <Card>
-          <MarkdownText text={daten.anweisung} className="text-base text-heading font-semibold leading-relaxed" />
+          <MarkdownText text={daten.anweisung} className="text-sm text-body leading-relaxed" />
         </Card>
       )}
 
@@ -107,7 +107,7 @@ function ZuordnungInteraktiv({
           <p className="text-xs font-semibold text-primary mb-1">
             Zuordnung {currentIdx + 1} von {daten.items.length}
           </p>
-          <p className="text-base font-bold text-heading">
+          <p className="text-sm font-semibold text-heading">
             {current.label}) {current.text}
           </p>
         </Card>

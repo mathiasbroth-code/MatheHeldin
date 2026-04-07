@@ -1,0 +1,568 @@
+- generic [ref=e20]:
+  - generic [ref=e21]:
+    - banner [ref=e22]:
+      - generic [ref=e23]:
+        - heading "Hallo Test!" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Was möchtest du üben?
+    - main [ref=e26]:
+      - button "Profil wechseln" [ref=e28] [cursor=pointer]:
+        - img "fuchs" [ref=e30]
+        - generic [ref=e31]: Wechseln
+      - generic [ref=e32]:
+        - img
+        - textbox "Aufgabentyp suchen..." [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - button "Grundübungen 11" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Grundübungen
+              - generic [ref=e39]: "11"
+            - img [ref=e40]
+          - generic [ref=e43]:
+            - button "Mengen bis 20 Zähle die Blöcke 0" [ref=e44] [cursor=pointer]:
+              - generic [ref=e47]:
+                - generic [ref=e49]: Mengen bis 20
+                - generic [ref=e50]: Zähle die Blöcke
+                - progressbar [ref=e51]
+            - button "Zehner bündeln Wie viele Zehner und Einer? 0" [ref=e52] [cursor=pointer]:
+              - generic [ref=e55]:
+                - generic [ref=e57]: Zehner bündeln
+                - generic [ref=e58]: Wie viele Zehner und Einer?
+                - progressbar [ref=e59]
+            - button "Zahlen bis 100 lesen Welche Zahl ist das? 0" [ref=e60] [cursor=pointer]:
+              - generic [ref=e63]:
+                - generic [ref=e65]: Zahlen bis 100 lesen
+                - generic [ref=e66]: Welche Zahl ist das?
+                - progressbar [ref=e67]
+            - button "Zahlen bis 100 legen Baue die Zahl 0" [ref=e68] [cursor=pointer]:
+              - generic [ref=e71]:
+                - generic [ref=e73]: Zahlen bis 100 legen
+                - generic [ref=e74]: Baue die Zahl
+                - progressbar [ref=e75]
+            - button "Zahlen bis 1.000 lesen Mit Hundertern 0" [ref=e76] [cursor=pointer]:
+              - generic [ref=e79]:
+                - generic [ref=e81]: Zahlen bis 1.000 lesen
+                - generic [ref=e82]: Mit Hundertern
+                - progressbar [ref=e83]
+            - button "Zahlen bis 1.000 legen Mit Hundertern 0" [ref=e84] [cursor=pointer]:
+              - generic [ref=e87]:
+                - generic [ref=e89]: Zahlen bis 1.000 legen
+                - generic [ref=e90]: Mit Hundertern
+                - progressbar [ref=e91]
+            - button "Zahlen bis 10.000 lesen Mit Tausendern 0" [ref=e92] [cursor=pointer]:
+              - generic [ref=e95]:
+                - generic [ref=e97]: Zahlen bis 10.000 lesen
+                - generic [ref=e98]: Mit Tausendern
+                - progressbar [ref=e99]
+            - button "Zahlen bis 10.000 legen Mit Tausendern 0" [ref=e100] [cursor=pointer]:
+              - generic [ref=e103]:
+                - generic [ref=e105]: Zahlen bis 10.000 legen
+                - generic [ref=e106]: Mit Tausendern
+                - progressbar [ref=e107]
+            - button "Zahlen zerlegen T, H, Z, E getrennt 0" [ref=e108] [cursor=pointer]:
+              - generic [ref=e111]:
+                - generic [ref=e113]: Zahlen zerlegen
+                - generic [ref=e114]: T, H, Z, E getrennt
+                - progressbar [ref=e115]
+            - button "Zahl in der Mitte Zwischen zwei Zahlen 0" [ref=e116] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e121]: Zahl in der Mitte
+                - generic [ref=e122]: Zwischen zwei Zahlen
+                - progressbar [ref=e123]
+            - button "Sachaufgaben mit Skizze Strecken mit km 0" [ref=e124] [cursor=pointer]:
+              - generic [ref=e127]:
+                - generic [ref=e129]: Sachaufgaben mit Skizze
+                - generic [ref=e130]: Strecken mit km
+                - progressbar [ref=e131]
+        - generic [ref=e132]:
+          - button "Wiederholung 8" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Wiederholung
+              - generic [ref=e136]: "8"
+            - img [ref=e137]
+          - generic [ref=e139]:
+            - button "1.000 und weiter Wiederholung (7 Aufgaben) 0" [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: 📖
+                - generic [ref=e143]:
+                  - generic [ref=e145]: 1.000 und weiter
+                  - generic [ref=e146]: Wiederholung (7 Aufgaben)
+                  - progressbar [ref=e147]
+            - button "Stellenwerttafel Wiederholung (5 Aufgaben) 0" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: 📊
+                - generic [ref=e151]:
+                  - generic [ref=e153]: Stellenwerttafel
+                  - generic [ref=e154]: Wiederholung (5 Aufgaben)
+                  - progressbar [ref=e155]
+            - button "Rechnen bis 2.000 Wiederholung (5 Aufgaben) 0" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]:
+                - generic [ref=e158]: 🧮
+                - generic [ref=e159]:
+                  - generic [ref=e161]: Rechnen bis 2.000
+                  - generic [ref=e162]: Wiederholung (5 Aufgaben)
+                  - progressbar [ref=e163]
+            - button "Schriftlich Addieren Wiederholung (5 Aufgaben) 0" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]:
+                - generic [ref=e166]: ➕
+                - generic [ref=e167]:
+                  - generic [ref=e169]: Schriftlich Addieren
+                  - generic [ref=e170]: Wiederholung (5 Aufgaben)
+                  - progressbar [ref=e171]
+            - button "Schriftlich Subtrahieren Wiederholung (5 Aufgaben) 0" [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: ➖
+                - generic [ref=e175]:
+                  - generic [ref=e177]: Schriftlich Subtrahieren
+                  - generic [ref=e178]: Wiederholung (5 Aufgaben)
+                  - progressbar [ref=e179]
+            - button "Große Zahlen multiplizieren Wiederholung (7 Aufgaben) 0" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]:
+                - generic [ref=e182]: ✖️
+                - generic [ref=e183]:
+                  - generic [ref=e185]: Große Zahlen multiplizieren
+                  - generic [ref=e186]: Wiederholung (7 Aufgaben)
+                  - progressbar [ref=e187]
+            - button "Tierische Rechengeschichten Wiederholung (7 Aufgaben) 0" [ref=e188] [cursor=pointer]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: 🐾
+                - generic [ref=e191]:
+                  - generic [ref=e193]: Tierische Rechengeschichten
+                  - generic [ref=e194]: Wiederholung (7 Aufgaben)
+                  - progressbar [ref=e195]
+            - button "Rechengeschichten Wiederholung (9 Aufgaben) 0" [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: 📝
+                - generic [ref=e199]:
+                  - generic [ref=e201]: Rechengeschichten
+                  - generic [ref=e202]: Wiederholung (9 Aufgaben)
+                  - progressbar [ref=e203]
+        - generic [ref=e204]:
+          - button "Zahlen bis zur Million 5" [ref=e205] [cursor=pointer]:
+            - generic [ref=e206]:
+              - generic [ref=e207]: Zahlen bis zur Million
+              - generic [ref=e208]: "5"
+            - img [ref=e209]
+          - generic [ref=e211]:
+            - button "Zahlen sprechen & schreiben Zahlen bis zur Million (5 Aufgaben) 0" [ref=e212] [cursor=pointer]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: ✍️
+                - generic [ref=e215]:
+                  - generic [ref=e217]: Zahlen sprechen & schreiben
+                  - generic [ref=e218]: Zahlen bis zur Million (5 Aufgaben)
+                  - progressbar [ref=e219]
+            - button "Zahlen vergleichen Zahlen bis zur Million (6 Aufgaben) 0" [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: ⚖️
+                - generic [ref=e223]:
+                  - generic [ref=e225]: Zahlen vergleichen
+                  - generic [ref=e226]: Zahlen bis zur Million (6 Aufgaben)
+                  - progressbar [ref=e227]
+            - button "Nachbarzahlen Zahlen bis zur Million (5 Aufgaben) 0" [ref=e228] [cursor=pointer]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: ↔️
+                - generic [ref=e231]:
+                  - generic [ref=e233]: Nachbarzahlen
+                  - generic [ref=e234]: Zahlen bis zur Million (5 Aufgaben)
+                  - progressbar [ref=e235]
+            - button "Runden Zahlen bis zur Million (5 Aufgaben) 0" [ref=e236] [cursor=pointer]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: 🔄
+                - generic [ref=e239]:
+                  - generic [ref=e241]: Runden
+                  - generic [ref=e242]: Zahlen bis zur Million (5 Aufgaben)
+                  - progressbar [ref=e243]
+            - button "Runden & Darstellen Zahlen bis zur Million (8 Aufgaben) 0" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]:
+                - generic [ref=e246]: 📐
+                - generic [ref=e247]:
+                  - generic [ref=e249]: Runden & Darstellen
+                  - generic [ref=e250]: Zahlen bis zur Million (8 Aufgaben)
+                  - progressbar [ref=e251]
+        - generic [ref=e252]:
+          - button "Addition & Subtraktion 5" [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]:
+              - generic [ref=e255]: Addition & Subtraktion
+              - generic [ref=e256]: "5"
+            - img [ref=e257]
+          - generic [ref=e259]:
+            - button "Rechnen im Kopf Addition & Subtraktion (8 Aufgaben) 0" [ref=e260] [cursor=pointer]:
+              - generic [ref=e261]:
+                - generic [ref=e262]: 🧠
+                - generic [ref=e263]:
+                  - generic [ref=e265]: Rechnen im Kopf
+                  - generic [ref=e266]: Addition & Subtraktion (8 Aufgaben)
+                  - progressbar [ref=e267]
+            - button "ANNA-Zahlen Addition & Subtraktion (5 Aufgaben) 0" [ref=e268] [cursor=pointer]:
+              - generic [ref=e269]:
+                - generic [ref=e270]: 🔢
+                - generic [ref=e271]:
+                  - generic [ref=e273]: ANNA-Zahlen
+                  - generic [ref=e274]: Addition & Subtraktion (5 Aufgaben)
+                  - progressbar [ref=e275]
+            - button "Rechenketten Addition & Subtraktion (6 Aufgaben) 0" [ref=e276] [cursor=pointer]:
+              - generic [ref=e277]:
+                - generic [ref=e278]: 🔗
+                - generic [ref=e279]:
+                  - generic [ref=e281]: Rechenketten
+                  - generic [ref=e282]: Addition & Subtraktion (6 Aufgaben)
+                  - progressbar [ref=e283]
+            - button "Rechenregeln Addition & Subtraktion (8 Aufgaben) 0" [ref=e284] [cursor=pointer]:
+              - generic [ref=e285]:
+                - generic [ref=e286]: 📋
+                - generic [ref=e287]:
+                  - generic [ref=e289]: Rechenregeln
+                  - generic [ref=e290]: Addition & Subtraktion (8 Aufgaben)
+                  - progressbar [ref=e291]
+            - button "Gleichungen Addition & Subtraktion (8 Aufgaben) 0" [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: ⚖️
+                - generic [ref=e295]:
+                  - generic [ref=e297]: Gleichungen
+                  - generic [ref=e298]: Addition & Subtraktion (8 Aufgaben)
+                  - progressbar [ref=e299]
+        - generic [ref=e300]:
+          - button "Geometrie 2" [ref=e301] [cursor=pointer]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: Geometrie
+              - generic [ref=e304]: "2"
+            - img [ref=e305]
+          - generic [ref=e307]:
+            - button "Achsensymmetrie Geometrie (6 Aufgaben) 0" [ref=e308] [cursor=pointer]:
+              - generic [ref=e309]:
+                - generic [ref=e310]: 🦋
+                - generic [ref=e311]:
+                  - generic [ref=e313]: Achsensymmetrie
+                  - generic [ref=e314]: Geometrie (6 Aufgaben)
+                  - progressbar [ref=e315]
+            - button "Faltschnitte Geometrie (4 Aufgaben) 0" [ref=e316] [cursor=pointer]:
+              - generic [ref=e317]:
+                - generic [ref=e318]: ✂️
+                - generic [ref=e319]:
+                  - generic [ref=e321]: Faltschnitte
+                  - generic [ref=e322]: Geometrie (4 Aufgaben)
+                  - progressbar [ref=e323]
+        - generic [ref=e324]:
+          - button "Multiplikation 6" [ref=e325] [cursor=pointer]:
+            - generic [ref=e326]:
+              - generic [ref=e327]: Multiplikation
+              - generic [ref=e328]: "6"
+            - img [ref=e329]
+          - generic [ref=e331]:
+            - button "Multiplizieren im Kopf Multiplikation (5 Aufgaben) 0" [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: 🧠
+                - generic [ref=e335]:
+                  - generic [ref=e337]: Multiplizieren im Kopf
+                  - generic [ref=e338]: Multiplikation (5 Aufgaben)
+                  - progressbar [ref=e339]
+            - button "Dividieren im Kopf Multiplikation (5 Aufgaben) 0" [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]:
+                - generic [ref=e342]: ➗
+                - generic [ref=e343]:
+                  - generic [ref=e345]: Dividieren im Kopf
+                  - generic [ref=e346]: Multiplikation (5 Aufgaben)
+                  - progressbar [ref=e347]
+            - button "Halbschriftlich Multiplizieren Multiplikation (6 Aufgaben) 0" [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]:
+                - generic [ref=e350]: ✖️
+                - generic [ref=e351]:
+                  - generic [ref=e353]: Halbschriftlich Multiplizieren
+                  - generic [ref=e354]: Multiplikation (6 Aufgaben)
+                  - progressbar [ref=e355]
+            - button "Schriftlich Multiplizieren Multiplikation (5 Aufgaben) 0" [ref=e356] [cursor=pointer]:
+              - generic [ref=e357]:
+                - generic [ref=e358]: 📝
+                - generic [ref=e359]:
+                  - generic [ref=e361]: Schriftlich Multiplizieren
+                  - generic [ref=e362]: Multiplikation (5 Aufgaben)
+                  - progressbar [ref=e363]
+            - button "Multiplizieren vertiefen Multiplikation (5 Aufgaben) 0" [ref=e364] [cursor=pointer]:
+              - generic [ref=e365]:
+                - generic [ref=e366]: 📝
+                - generic [ref=e367]:
+                  - generic [ref=e369]: Multiplizieren vertiefen
+                  - generic [ref=e370]: Multiplikation (5 Aufgaben)
+                  - progressbar [ref=e371]
+            - button "Mehrstellig Multiplizieren Multiplikation (8 Aufgaben) 0" [ref=e372] [cursor=pointer]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: 🔢
+                - generic [ref=e375]:
+                  - generic [ref=e377]: Mehrstellig Multiplizieren
+                  - generic [ref=e378]: Multiplikation (8 Aufgaben)
+                  - progressbar [ref=e379]
+        - generic [ref=e380]:
+          - button "Größen & Skizzen 5" [ref=e381] [cursor=pointer]:
+            - generic [ref=e382]:
+              - generic [ref=e383]: Größen & Skizzen
+              - generic [ref=e384]: "5"
+            - img [ref=e385]
+          - generic [ref=e387]:
+            - button "Tonne und Kilogramm Größen & Skizzen (7 Aufgaben) 0" [ref=e388] [cursor=pointer]:
+              - generic [ref=e389]:
+                - generic [ref=e390]: ⚖️
+                - generic [ref=e391]:
+                  - generic [ref=e393]: Tonne und Kilogramm
+                  - generic [ref=e394]: Größen & Skizzen (7 Aufgaben)
+                  - progressbar [ref=e395]
+            - button "Tierische Weltrekorde Größen & Skizzen (7 Aufgaben) 0" [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: 🦒
+                - generic [ref=e399]:
+                  - generic [ref=e401]: Tierische Weltrekorde
+                  - generic [ref=e402]: Größen & Skizzen (7 Aufgaben)
+                  - progressbar [ref=e403]
+            - button "Entfernungen Größen & Skizzen (15 Aufgaben) 0" [ref=e404] [cursor=pointer]:
+              - generic [ref=e405]:
+                - generic [ref=e406]: 🗺️
+                - generic [ref=e407]:
+                  - generic [ref=e409]: Entfernungen
+                  - generic [ref=e410]: Größen & Skizzen (15 Aufgaben)
+                  - progressbar [ref=e411]
+            - button "Geschwindigkeiten Größen & Skizzen (5 Aufgaben) 0" [ref=e412] [cursor=pointer]:
+              - generic [ref=e413]:
+                - generic [ref=e414]: 🏎️
+                - generic [ref=e415]:
+                  - generic [ref=e417]: Geschwindigkeiten
+                  - generic [ref=e418]: Größen & Skizzen (5 Aufgaben)
+                  - progressbar [ref=e419]
+            - 'button "Lösungshilfe: Skizze Größen & Skizzen (7 Aufgaben) 0" [ref=e420] [cursor=pointer]':
+              - generic [ref=e421]:
+                - generic [ref=e422]: ✏️
+                - generic [ref=e423]:
+                  - generic [ref=e425]: "Lösungshilfe: Skizze"
+                  - generic [ref=e426]: Größen & Skizzen (7 Aufgaben)
+                  - progressbar [ref=e427]
+        - generic [ref=e428]:
+          - button "Daten & Zufall 2" [ref=e429] [cursor=pointer]:
+            - generic [ref=e430]:
+              - generic [ref=e431]: Daten & Zufall
+              - generic [ref=e432]: "2"
+            - img [ref=e433]
+          - generic [ref=e435]:
+            - button "Wie viele Möglichkeiten? Daten & Zufall (8 Aufgaben) 0" [ref=e436] [cursor=pointer]:
+              - generic [ref=e437]:
+                - generic [ref=e438]: 🎲
+                - generic [ref=e439]:
+                  - generic [ref=e441]: Wie viele Möglichkeiten?
+                  - generic [ref=e442]: Daten & Zufall (8 Aufgaben)
+                  - progressbar [ref=e443]
+            - button "Alles Zufall? Daten & Zufall (8 Aufgaben) 0" [ref=e444] [cursor=pointer]:
+              - generic [ref=e445]:
+                - generic [ref=e446]: 🎯
+                - generic [ref=e447]:
+                  - generic [ref=e449]: Alles Zufall?
+                  - generic [ref=e450]: Daten & Zufall (8 Aufgaben)
+                  - progressbar [ref=e451]
+        - generic [ref=e452]:
+          - button "Division 9" [ref=e453] [cursor=pointer]:
+            - generic [ref=e454]:
+              - generic [ref=e455]: Division
+              - generic [ref=e456]: "9"
+            - img [ref=e457]
+          - generic [ref=e459]:
+            - button "Vielfache Division (5 Aufgaben) 0" [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]:
+                - generic [ref=e462]: 🔢
+                - generic [ref=e463]:
+                  - generic [ref=e465]: Vielfache
+                  - generic [ref=e466]: Division (5 Aufgaben)
+                  - progressbar [ref=e467]
+            - button "Teiler Division (5 Aufgaben) 0" [ref=e468] [cursor=pointer]:
+              - generic [ref=e469]:
+                - generic [ref=e470]: ➗
+                - generic [ref=e471]:
+                  - generic [ref=e473]: Teiler
+                  - generic [ref=e474]: Division (5 Aufgaben)
+                  - progressbar [ref=e475]
+            - button "Halbschriftlich Dividieren Division (6 Aufgaben) 0" [ref=e476] [cursor=pointer]:
+              - generic [ref=e477]:
+                - generic [ref=e478]: 📝
+                - generic [ref=e479]:
+                  - generic [ref=e481]: Halbschriftlich Dividieren
+                  - generic [ref=e482]: Division (6 Aufgaben)
+                  - progressbar [ref=e483]
+            - button "Dividieren vertiefen Division (5 Aufgaben) 0" [ref=e484] [cursor=pointer]:
+              - generic [ref=e485]:
+                - generic [ref=e486]: 📝
+                - generic [ref=e487]:
+                  - generic [ref=e489]: Dividieren vertiefen
+                  - generic [ref=e490]: Division (5 Aufgaben)
+                  - progressbar [ref=e491]
+            - button "Teilbarkeitsregeln Division (7 Aufgaben) 0" [ref=e492] [cursor=pointer]:
+              - generic [ref=e493]:
+                - generic [ref=e494]: 📋
+                - generic [ref=e495]:
+                  - generic [ref=e497]: Teilbarkeitsregeln
+                  - generic [ref=e498]: Division (7 Aufgaben)
+                  - progressbar [ref=e499]
+            - button "Schriftlich Dividieren Division (5 Aufgaben) 0" [ref=e500] [cursor=pointer]:
+              - generic [ref=e501]:
+                - generic [ref=e502]: ✍️
+                - generic [ref=e503]:
+                  - generic [ref=e505]: Schriftlich Dividieren
+                  - generic [ref=e506]: Division (5 Aufgaben)
+                  - progressbar [ref=e507]
+            - button "Dividieren vertiefen Division (7 Aufgaben) 0" [ref=e508] [cursor=pointer]:
+              - generic [ref=e509]:
+                - generic [ref=e510]: ✍️
+                - generic [ref=e511]:
+                  - generic [ref=e513]: Dividieren vertiefen
+                  - generic [ref=e514]: Division (7 Aufgaben)
+                  - progressbar [ref=e515]
+            - button "Rechnen mit Kommazahlen Division (4 Aufgaben) 0" [ref=e516] [cursor=pointer]:
+              - generic [ref=e517]:
+                - generic [ref=e518]: 💰
+                - generic [ref=e519]:
+                  - generic [ref=e521]: Rechnen mit Kommazahlen
+                  - generic [ref=e522]: Division (4 Aufgaben)
+                  - progressbar [ref=e523]
+            - button "Sponsorenlauf Division (5 Aufgaben) 0" [ref=e524] [cursor=pointer]:
+              - generic [ref=e525]:
+                - generic [ref=e526]: 🏃
+                - generic [ref=e527]:
+                  - generic [ref=e529]: Sponsorenlauf
+                  - generic [ref=e530]: Division (5 Aufgaben)
+                  - progressbar [ref=e531]
+        - generic [ref=e532]:
+          - button "Brüche & Maße 4" [ref=e533] [cursor=pointer]:
+            - generic [ref=e534]:
+              - generic [ref=e535]: Brüche & Maße
+              - generic [ref=e536]: "4"
+            - img [ref=e537]
+          - generic [ref=e539]:
+            - button "Liter und Milliliter Brüche & Maße (7 Aufgaben) 0" [ref=e540] [cursor=pointer]:
+              - generic [ref=e541]:
+                - generic [ref=e542]: 🥛
+                - generic [ref=e543]:
+                  - generic [ref=e545]: Liter und Milliliter
+                  - generic [ref=e546]: Brüche & Maße (7 Aufgaben)
+                  - progressbar [ref=e547]
+            - button "Rauminhalt Brüche & Maße (7 Aufgaben) 0" [ref=e548] [cursor=pointer]:
+              - generic [ref=e549]:
+                - generic [ref=e550]: 📦
+                - generic [ref=e551]:
+                  - generic [ref=e553]: Rauminhalt
+                  - generic [ref=e554]: Brüche & Maße (7 Aufgaben)
+                  - progressbar [ref=e555]
+            - button "Maßeinheiten Brüche & Maße (7 Aufgaben) 0" [ref=e556] [cursor=pointer]:
+              - generic [ref=e557]:
+                - generic [ref=e558]: 📏
+                - generic [ref=e559]:
+                  - generic [ref=e561]: Maßeinheiten
+                  - generic [ref=e562]: Brüche & Maße (7 Aufgaben)
+                  - progressbar [ref=e563]
+            - button "Millionen-Fragen Brüche & Maße (8 Aufgaben) 0" [ref=e564] [cursor=pointer]:
+              - generic [ref=e565]:
+                - generic [ref=e566]: ❓
+                - generic [ref=e567]:
+                  - generic [ref=e569]: Millionen-Fragen
+                  - generic [ref=e570]: Brüche & Maße (8 Aufgaben)
+                  - progressbar [ref=e571]
+        - generic [ref=e572]:
+          - button "Kreise & Körper 1" [ref=e573] [cursor=pointer]:
+            - generic [ref=e574]:
+              - generic [ref=e575]: Kreise & Körper
+              - generic [ref=e576]: "1"
+            - img [ref=e577]
+          - button "Parkettierungen Kreise & Körper (7 Aufgaben) 0" [ref=e580] [cursor=pointer]:
+            - generic [ref=e581]:
+              - generic [ref=e582]: 🔷
+              - generic [ref=e583]:
+                - generic [ref=e585]: Parkettierungen
+                - generic [ref=e586]: Kreise & Körper (7 Aufgaben)
+                - progressbar [ref=e587]
+        - generic [ref=e588]:
+          - button "Sachrechnen 1" [ref=e589] [cursor=pointer]:
+            - generic [ref=e590]:
+              - generic [ref=e591]: Sachrechnen
+              - generic [ref=e592]: "1"
+            - img [ref=e593]
+          - button "Schwimmbad-Aufgaben Sachrechnen (8 Aufgaben) 0" [ref=e596] [cursor=pointer]:
+            - generic [ref=e597]:
+              - generic [ref=e598]: 🏊
+              - generic [ref=e599]:
+                - generic [ref=e601]: Schwimmbad-Aufgaben
+                - generic [ref=e602]: Sachrechnen (8 Aufgaben)
+                - progressbar [ref=e603]
+        - generic [ref=e604]:
+          - button "Maßstab & Orientierung 2" [ref=e605] [cursor=pointer]:
+            - generic [ref=e606]:
+              - generic [ref=e607]: Maßstab & Orientierung
+              - generic [ref=e608]: "2"
+            - img [ref=e609]
+          - generic [ref=e611]:
+            - button "Ansichten & Grundriss Maßstab & Orientierung (7 Aufgaben) 0" [ref=e612] [cursor=pointer]:
+              - generic [ref=e613]:
+                - generic [ref=e614]: 🏠
+                - generic [ref=e615]:
+                  - generic [ref=e617]: Ansichten & Grundriss
+                  - generic [ref=e618]: Maßstab & Orientierung (7 Aufgaben)
+                  - progressbar [ref=e619]
+            - button "Karten & Pläne Maßstab & Orientierung (7 Aufgaben) 0" [ref=e620] [cursor=pointer]:
+              - generic [ref=e621]:
+                - generic [ref=e622]: 🗺️
+                - generic [ref=e623]:
+                  - generic [ref=e625]: Karten & Pläne
+                  - generic [ref=e626]: Maßstab & Orientierung (7 Aufgaben)
+                  - progressbar [ref=e627]
+        - generic [ref=e628]:
+          - button "Schaubilder & Daten 2" [ref=e629] [cursor=pointer]:
+            - generic [ref=e630]:
+              - generic [ref=e631]: Schaubilder & Daten
+              - generic [ref=e632]: "2"
+            - img [ref=e633]
+          - generic [ref=e635]:
+            - button "Tabellen & Diagramme Schaubilder & Daten (7 Aufgaben) 0" [ref=e636] [cursor=pointer]:
+              - generic [ref=e637]:
+                - generic [ref=e638]: 📊
+                - generic [ref=e639]:
+                  - generic [ref=e641]: Tabellen & Diagramme
+                  - generic [ref=e642]: Schaubilder & Daten (7 Aufgaben)
+                  - progressbar [ref=e643]
+            - button "Datenmengen Schaubilder & Daten (7 Aufgaben) 0" [ref=e644] [cursor=pointer]:
+              - generic [ref=e645]:
+                - generic [ref=e646]: 📈
+                - generic [ref=e647]:
+                  - generic [ref=e649]: Datenmengen
+                  - generic [ref=e650]: Schaubilder & Daten (7 Aufgaben)
+                  - progressbar [ref=e651]
+        - generic [ref=e652]:
+          - button "Forscherkiste 3" [ref=e653] [cursor=pointer]:
+            - generic [ref=e654]:
+              - generic [ref=e655]: Forscherkiste
+              - generic [ref=e656]: "3"
+            - img [ref=e657]
+          - generic [ref=e659]:
+            - button "Fibonacci-Folge Forscherkiste (7 Aufgaben) 0" [ref=e660] [cursor=pointer]:
+              - generic [ref=e661]:
+                - generic [ref=e662]: 🐚
+                - generic [ref=e663]:
+                  - generic [ref=e665]: Fibonacci-Folge
+                  - generic [ref=e666]: Forscherkiste (7 Aufgaben)
+                  - progressbar [ref=e667]
+            - button "Zahlenforscher Forscherkiste (7 Aufgaben) 0" [ref=e668] [cursor=pointer]:
+              - generic [ref=e669]:
+                - generic [ref=e670]: 🔬
+                - generic [ref=e671]:
+                  - generic [ref=e673]: Zahlenforscher
+                  - generic [ref=e674]: Forscherkiste (7 Aufgaben)
+                  - progressbar [ref=e675]
+            - button "Pascalsches Dreieck Forscherkiste (6 Aufgaben) 0" [ref=e676] [cursor=pointer]:
+              - generic [ref=e677]:
+                - generic [ref=e678]: 🔺
+                - generic [ref=e679]:
+                  - generic [ref=e681]: Pascalsches Dreieck
+                  - generic [ref=e682]: Forscherkiste (6 Aufgaben)
+                  - progressbar [ref=e683]
+  - navigation [ref=e684]:
+    - generic [ref=e685]:
+      - button "Üben" [ref=e686] [cursor=pointer]:
+        - img [ref=e687]
+        - generic [ref=e692]: Üben
+      - button "Fortschritt" [ref=e693] [cursor=pointer]:
+        - img [ref=e694]
+        - generic [ref=e695]: Fortschritt
+      - button "Eltern" [ref=e696] [cursor=pointer]:
+        - img [ref=e697]
+        - generic [ref=e700]: Eltern

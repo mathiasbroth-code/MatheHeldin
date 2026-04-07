@@ -12,6 +12,7 @@ import type { ProfileOverview, StageBreakdown } from '@/db/repository';
 import type { Profile } from '@/db/schema';
 import { STAGES } from '@/stages/registry';
 import { StageIcon } from '@/components/ui/StageIcon';
+import { AvatarPreview, parseAvatar } from '@/components/avatar/AvatarPreview';
 
 export function ElternGate() {
   const elternPin = useProfileStore((s) => s.elternPin);
@@ -369,8 +370,8 @@ function ElternDashboard() {
                   onClick={() => profile.id != null && toggleExpand(profile.id)}
                   className="w-full flex items-center gap-3 text-left cursor-pointer"
                 >
-                  <div className="w-12 h-12 rounded-full bg-primary-light flex items-center justify-center text-2xl flex-shrink-0">
-                    {profile.avatar}
+                  <div className="w-12 h-12 rounded-full bg-primary-light flex items-center justify-center flex-shrink-0 overflow-hidden">
+                    <AvatarPreview config={parseAvatar(profile.avatar)} size={48} />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-semibold text-heading">{profile.name}</p>

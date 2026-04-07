@@ -599,7 +599,7 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Rechne.\n\na) 4 H + 3 H =       → 400 + 300 =\nb) 7 H + 2 H =       → 700 + 200 =\nc) 6 H - 4 H =       → 600 - 400 =\nd) 9 H - 3 H =       → 900 - 300 =",
+    "aufgabenstellung": "Rechne im Kopf.\n\na) 4 H + 3 H =       → 400 + 300 =\nb) 7 H + 2 H =       → 700 + 200 =\nc) 6 H - 4 H =       → 600 - 400 =\nd) 9 H - 3 H =       → 900 - 300 =",
     "loesung": "a) 7 H = 700\nb) 9 H = 900\nc) 2 H = 200\nd) 6 H = 600",
     "loesungsweg": "Hunderter kann man genauso addieren und subtrahieren wie Einer:\n- 4 + 3 = 7, also 4 H + 3 H = 7 H = 700\n- 7 + 2 = 9, also 7 H + 2 H = 9 H = 900\n- 6 - 4 = 2, also 6 H - 4 H = 2 H = 200\n- 9 - 3 = 6, also 9 H - 3 H = 6 H = 600",
     "tipps": [
@@ -617,7 +617,7 @@
     "didaktischerHinweis": "Diese Aufgabe zeigt die Parallele zwischen Einer-Rechnen und Hunderter-Rechnen. Die Darstellung \"4 H + 3 H\" neben \"400 + 300\" macht den Zusammenhang explizit sichtbar.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Rechne.",
+      "anweisung": "Rechne im Kopf.",
       "items": [
         {
           "label": "a",
@@ -2468,12 +2468,13 @@
     "didaktischerHinweis": "Diese Aufgabe kombiniert Addition, Multiplikation und Einheitenumrechnung in einem alltagsnahen Kontext. Das Umrechnen von Minuten in Stunden mit Rest ist für viele Kinder eine Herausforderung.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "",
+      "anweisung": "Anna läuft jeden Tag 15 Minuten zur Schule und 15 Minuten zurück.",
+      "kontext": "Anna läuft jeden Tag 15 Minuten zur Schule und 15 Minuten zurück.",
       "items": [
         {
           "label": "1",
-          "frage": "Anna läuft jeden Tag 15 Minuten zur Schule und 15 Minuten zurück.\nWie viele Minuten läuft sie in einer Schulwoche (5 Tage)?\nWie viele Stunden sind das ungefähr?",
-          "antwort": "Pro Tag: 15 + 15 = 30 Minuten."
+          "frage": "Wie viele Minuten läuft sie in einer Schulwoche (5 Tage)?\nWie viele Stunden sind das ungefähr?",
+          "antwort": "150"
         }
       ]
     }

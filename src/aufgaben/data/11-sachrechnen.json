@@ -93,7 +93,7 @@
     "stageId": "sachaufgaben",
     "digital": "voll",
     "aufgabenstellung": "Im Freibad gibt es eine neue Rutsche, die 73 m lang ist. Ein Kind ist ungefähr 1 m 30 cm groß.\n\nWie viele Kinder könnten sich hintereinanderlegen, damit die Rutsche von oben bis unten \"belegt\" ist?",
-    "loesung": "73 m : 1,30 m = 56 (Rest 0,20 m)\n\nEs passen ungefähr 56 Kinder auf die Rutsche.",
+    "loesung": "56\n73 m : 1,30 m = 56 (Rest 0,20 m)\n\nEs passen ungefähr 56 Kinder auf die Rutsche.",
     "loesungsweg": "1. Wandle um: 1 m 30 cm = 1,30 m = 130 cm\n2. Rechne: 73 m = 7.300 cm\n3. Teile: 7.300 : 130 = 56 Rest 20\n4. Es passen 56 Kinder — für ein weiteres Kind reicht der Platz nicht mehr (nur noch 20 cm übrig).",
     "tipps": [
       "Die Rutsche ist 73 m lang. Ein Kind ist etwa 1 m 30 cm groß. Wie oft passt 1 m 30 cm in 73 m?",
@@ -110,7 +110,7 @@
         {
           "label": "1",
           "frage": "Wie viele Kinder könnten sich hintereinanderlegen, damit die Rutsche von oben bis unten \"belegt\" ist?",
-          "antwort": "73 m : 1,30 m = 56 (Rest 0,20 m)"
+          "antwort": "56"
         }
       ]
     }
@@ -288,13 +288,13 @@
     "stageId": "sachaufgaben",
     "digital": "voll",
     "aufgabenstellung": "Die 10er-Karte für Kinder kostet 85 Euro. Ein einzelnes 3-Stunden-Ticket kostet 8 Euro.\n\na) Ab wie vielen Besuchen ist die 10er-Karte günstiger als Einzeltickets?\nb) Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
-    "loesung": "a) Ab 11 Besuchen (10 · 8 = 80 < 85, also bei genau 10 Besuchen ist die Einzelkarte noch günstiger!)\n   Eigentlich: Die 10er-Karte ist bei 10 Besuchen teurer (85 > 80). Sie lohnt sich nie, wenn man nur die 10 vorgegebenen Besuche macht!\n\nb) Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist sogar 5 Euro TEURER.",
-    "loesungsweg": "- 10 Einzeltickets: 10 · 8 = 80 Euro\n- 10er-Karte: 85 Euro\n- 80 < 85 — die Einzeltickets sind günstiger!\n\nDie 10er-Karte hat andere Vorteile (z.B. kein Anstehen an der Kasse), aber rein rechnerisch lohnt sie sich in diesem Fall nicht.",
+    "loesung": "a) 11\nAb 11 Besuchen ist die 10er-Karte günstiger: 11 · 8 € = 88 € > 85 €.\n\nb) Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist 5 Euro teurer.",
+    "loesungsweg": "- 10 Einzeltickets: 10 · 8 = 80 Euro → noch günstiger als 85 Euro (10er-Karte)\n- 11 Einzeltickets: 11 · 8 = 88 Euro → teurer als 85 Euro (10er-Karte)\n- Ab 11 Besuchen lohnt sich die 10er-Karte.",
     "tipps": [
       "Rechne aus: Was kosten 10 einzelne Tickets? Vergleiche das mit dem Preis der 10er-Karte.",
       "Multipliziere: 10 · 8 Euro = ___. Ist das mehr oder weniger als 85 Euro?",
       "10 · 8 = ___. Die 10er-Karte kostet 85 Euro. ___ ist (mehr/weniger) als 85. Also sind die Einzeltickets ___.",
-      "- 10 Einzeltickets: 10 · 8 = 80 Euro\n- 10er-Karte: 85 Euro\n- 80 < 85 — die Einzeltickets sind günstiger!\n\nDie 10er-Karte hat andere Vorteile (z.B. kein Anstehen an der Kasse), aber rein rechnerisch lohnt sie sich in diesem Fall nicht."
+      "- 10 Einzeltickets: 10 · 8 = 80 Euro → noch günstiger als 85 Euro (10er-Karte)\n- 11 Einzeltickets: 11 · 8 = 88 Euro → teurer als 85 Euro (10er-Karte)\n- Ab 11 Besuchen lohnt sich die 10er-Karte."
     ],
     "didaktischerHinweis": "Überraschendes Ergebnis: Die 10er-Karte ist teurer! Das fördert kritisches Denken und zeigt, dass man nicht blind \"Sparangeboten\" vertrauen sollte. Entspricht S. 112, Aufg. 1 (erweitert).",
     "parsed": {
@@ -305,12 +305,12 @@
         {
           "label": "a",
           "frage": "Ab wie vielen Besuchen ist die 10er-Karte günstiger als Einzeltickets?",
-          "antwort": "Ab 11 Besuchen (10 · 8 = 80 < 85, also bei genau 10 Besuchen ist die Einzelkarte noch günstiger!)"
+          "antwort": "11"
         },
         {
           "label": "b",
           "frage": "Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
-          "antwort": "Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist sogar 5 Euro TEURER."
+          "antwort": "Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist 5 Euro teurer."
         }
       ]
     }
@@ -325,7 +325,7 @@
     "stageId": "sachaufgaben",
     "digital": "voll",
     "aufgabenstellung": "Leo und seine kleine Schwester Maren gehen in dieselbe Grundschule. Ihr Schulweg ist 750 m lang.\n\nMaren geht um 7:30 Uhr los. Vier Minuten später rennt Leo mit Riesenschritten hinterher.\n\nMaren schafft in einer Minute durchschnittlich 50 m.\nLeo schafft in einer Minute 75 m.\n\na) Berechne, wie weit Maren und Leo nach 4, 6, 8, 10 und 12 Minuten sind.\n\nb) Um wie viel Uhr holt Leo seine Schwester ein?",
-    "loesung": "a)\nMaren nach 4 min: 4 · 50 = 200\nLeo nach 4 min: 0 · 75 = 0\nMaren nach 6 min: 6 · 50 = 300\nLeo nach 6 min: 2 · 75 = 150\nMaren nach 8 min: 8 · 50 = 400\nLeo nach 8 min: 4 · 75 = 300\nMaren nach 10 min: 10 · 50 = 500\nLeo nach 10 min: 6 · 75 = 450\nMaren nach 12 min: 12 · 50 = 600\nLeo nach 12 min: 8 · 75 = 600\n\nb) Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min).",
+    "loesung": "a)\nMaren nach 4 min: 4 · 50 = 200\nLeo nach 4 min: 0 · 75 = 0\nMaren nach 6 min: 6 · 50 = 300\nLeo nach 6 min: 2 · 75 = 150\nMaren nach 8 min: 8 · 50 = 400\nLeo nach 8 min: 4 · 75 = 300\nMaren nach 10 min: 10 · 50 = 500\nLeo nach 10 min: 6 · 75 = 450\nMaren nach 12 min: 12 · 50 = 600\nLeo nach 12 min: 8 · 75 = 600\n\nb) 7:42\nLeo holt Maren um 7:42 Uhr ein (7:30 + 12 min).",
     "loesungsweg": "Maren startet bei Minute 0 und geht 50 m pro Minute.\nLeo startet bei Minute 4 und läuft 75 m pro Minute.\n- Marens Weg nach t Minuten: 50 · t\n- Leos Weg nach t Minuten: 75 · (t - 4), ab t = 4\n\nGleichsetzen: 50 · t = 75 · (t - 4) → 50t = 75t - 300 → 300 = 25t → t = 12\n\nNach 12 Minuten haben beide 600 m zurückgelegt.",
     "tipps": [
       "Zeichne einen Zahlenstrahl für den Schulweg. Trage ein, wo Maren und Leo nach jeder Minute sind. Wann sind sie an der gleichen Stelle?",
@@ -399,7 +399,7 @@
             {
               "label": "1",
               "frage": "Um wie viel Uhr holt Leo seine Schwester ein?",
-              "antwort": "Leo holt Maren um 7:42 Uhr ein (7:30 + 12 min)."
+              "antwort": "7:42"
             }
           ]
         }
@@ -416,7 +416,7 @@
     "stageId": "sachaufgaben",
     "digital": "voll",
     "aufgabenstellung": "Tim und seine Schwester Ina gehen in dieselbe Grundschule. Ihr Schulweg ist 800 m lang.\n\nIna geht um 7:30 Uhr los. Vier Minuten später geht Tim los.\nIna legt in einer Minute durchschnittlich 50 m zurück.\nTim schafft in einer Minute 100 m.\n\na) Wie weit ist Ina nach 4, 5 und 6 Minuten? Wie weit ist Tim?\n\nb) Um wie viel Uhr holt Tim seine Schwester ein?",
-    "loesung": "a)\nIna nach 4 min: 4 · 50 = 200\nTim nach 4 min: 0 · 100 = 0\nIna nach 5 min: 5 · 50 = 250\nTim nach 5 min: 1 · 100 = 100\nIna nach 6 min: 6 · 50 = 300\nTim nach 6 min: 2 · 100 = 200\nIna nach 8 min: 8 · 50 = 400\nTim nach 8 min: 4 · 100 = 400\n\nb) Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min).",
+    "loesung": "a)\nIna nach 4 min: 4 · 50 = 200\nTim nach 4 min: 0 · 100 = 0\nIna nach 5 min: 5 · 50 = 250\nTim nach 5 min: 1 · 100 = 100\nIna nach 6 min: 6 · 50 = 300\nTim nach 6 min: 2 · 100 = 200\nIna nach 8 min: 8 · 50 = 400\nTim nach 8 min: 4 · 100 = 400\n\nb) 7:38\nTim holt Ina um 7:38 Uhr ein (7:30 + 8 min).",
     "loesungsweg": "- Inas Weg: 50 m pro Minute, Start bei 0 min\n- Tims Weg: 100 m pro Minute, Start bei 4 min\n- Nach 8 Minuten: Ina bei 8 · 50 = 400 m, Tim bei 4 · 100 = 400 m — gleichauf!",
     "tipps": [
       "Zeichne zwei Pfeile auf einem Zahlenstrahl bis 800 m. Ina startet früher, Tim ist schneller. Wann treffen sich die Pfeile?",
@@ -480,7 +480,7 @@
             {
               "label": "1",
               "frage": "Um wie viel Uhr holt Tim seine Schwester ein?",
-              "antwort": "Tim holt Ina um 7:38 Uhr ein (7:30 + 8 min)."
+              "antwort": "7:38"
             }
           ]
         }
@@ -625,7 +625,7 @@
     "stageId": "sachaufgaben",
     "digital": "voll",
     "aufgabenstellung": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\nDer Schnellzug fährt pro Stunde durchschnittlich 160 km.\nDer Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
-    "loesung": "1. Strecke Schnellzug: 160 · 2,5 = 400\n2. Strecke Regionalzug: 90 · 2,5 = 225\n3. Gesamtentfernung: 400 + 225 = 625",
+    "loesung": "a) 400 km (Schnellzug: 160 · 2,5)\nb) 225 km (Regionalzug: 90 · 2,5)\nc) 625 km (Gesamt: 400 + 225)",
     "loesungsweg": "Schritt 1: Umrechnen: 2 Stunden 30 Minuten = 2,5 Stunden\n\nSchritt 2: Strecke Schnellzug: 160 · 2,5 = 400 km\nStrecke Regionalzug: 90 · 2,5 = 225 km\n\nSchritt 3: Gesamtentfernung: 400 + 225 = 625 km\n\n(Oder: Gemeinsame Geschwindigkeit: 160 + 90 = 250 km/h. Strecke: 250 · 2,5 = 625 km.)",
     "tipps": [
       "Zeichne einen Bahnhof in der Mitte. Ein Zug fährt nach links, einer nach rechts. Beide fahren gleichzeitig los. Die Entfernung ist die Summe beider Strecken!",
@@ -643,18 +643,8 @@
           "schritte": [
             {
               "label": "1",
-              "frage": "Strecke Schnellzug: 160 · 2,5 = ?",
-              "antwort": "400"
-            },
-            {
-              "label": "2",
-              "frage": "Strecke Regionalzug: 90 · 2,5 = ?",
-              "antwort": "225"
-            },
-            {
-              "label": "3",
-              "frage": "Gesamtentfernung: 400 + 225 = ?",
-              "antwort": "625"
+              "frage": "Auf einem Bahnhof fahren zur selben Zeit zwei Züge in entgegengesetzte Richtungen ab.\nDer Schnellzug fährt pro Stunde durchschnittlich 160 km.\nDer Regionalzug fährt pro Stunde durchschnittlich 90 km.\n\nWie weit sind die Züge nach 2 Stunden und 30 Minuten voneinander entfernt?",
+              "antwort": "a) 400 km (Schnellzug: 160 · 2,5)"
             }
           ]
         }
@@ -688,7 +678,7 @@
         {
           "label": "1",
           "frage": "Wie schnell ist der andere Zug durchschnittlich gefahren?",
-          "antwort": "Der andere Zug fährt 80 km/h."
+          "antwort": "80"
         }
       ]
     }

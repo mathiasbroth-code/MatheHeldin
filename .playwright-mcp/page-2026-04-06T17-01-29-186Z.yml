@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - heading "Hallo Test!" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Was möchtest du üben?
+    - main [ref=e9]:
+      - button "Profil wechseln" [ref=e11] [cursor=pointer]:
+        - img "fuchs" [ref=e13]
+        - generic [ref=e14]: Wechseln
+      - generic [ref=e15]:
+        - img
+        - textbox "Aufgabentyp suchen..." [ref=e16]
+      - generic [ref=e18]:
+        - button "Grundübungen 11" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Grundübungen
+            - generic [ref=e22]: "11"
+          - img [ref=e23]
+        - generic [ref=e26]:
+          - button "Mengen bis 20 Zähle die Blöcke 0" [ref=e27] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic [ref=e32]: Mengen bis 20
+              - generic [ref=e33]: Zähle die Blöcke
+              - progressbar [ref=e34]
+          - button "Zehner bündeln Wie viele Zehner und Einer? 0" [ref=e35] [cursor=pointer]:
+            - generic [ref=e38]:
+              - generic [ref=e40]: Zehner bündeln
+              - generic [ref=e41]: Wie viele Zehner und Einer?
+              - progressbar [ref=e42]
+          - button "Zahlen bis 100 lesen Welche Zahl ist das? 0" [ref=e43] [cursor=pointer]:
+            - generic [ref=e46]:
+              - generic [ref=e48]: Zahlen bis 100 lesen
+              - generic [ref=e49]: Welche Zahl ist das?
+              - progressbar [ref=e50]
+          - button "Zahlen bis 100 legen Baue die Zahl 0" [ref=e51] [cursor=pointer]:
+            - generic [ref=e54]:
+              - generic [ref=e56]: Zahlen bis 100 legen
+              - generic [ref=e57]: Baue die Zahl
+              - progressbar [ref=e58]
+          - button "Zahlen bis 1.000 lesen Mit Hundertern 0" [ref=e59] [cursor=pointer]:
+            - generic [ref=e62]:
+              - generic [ref=e64]: Zahlen bis 1.000 lesen
+              - generic [ref=e65]: Mit Hundertern
+              - progressbar [ref=e66]
+          - button "Zahlen bis 1.000 legen Mit Hundertern 0" [ref=e67] [cursor=pointer]:
+            - generic [ref=e70]:
+              - generic [ref=e72]: Zahlen bis 1.000 legen
+              - generic [ref=e73]: Mit Hundertern
+              - progressbar [ref=e74]
+          - button "Zahlen bis 10.000 lesen Mit Tausendern 0" [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - generic [ref=e80]: Zahlen bis 10.000 lesen
+              - generic [ref=e81]: Mit Tausendern
+              - progressbar [ref=e82]
+          - button "Zahlen bis 10.000 legen Mit Tausendern 0" [ref=e83] [cursor=pointer]:
+            - generic [ref=e86]:
+              - generic [ref=e88]: Zahlen bis 10.000 legen
+              - generic [ref=e89]: Mit Tausendern
+              - progressbar [ref=e90]
+          - button "Zahlen zerlegen T, H, Z, E getrennt 0" [ref=e91] [cursor=pointer]:
+            - generic [ref=e94]:
+              - generic [ref=e96]: Zahlen zerlegen
+              - generic [ref=e97]: T, H, Z, E getrennt
+              - progressbar [ref=e98]
+          - button "Zahl in der Mitte Zwischen zwei Zahlen 0" [ref=e99] [cursor=pointer]:
+            - generic [ref=e102]:
+              - generic [ref=e104]: Zahl in der Mitte
+              - generic [ref=e105]: Zwischen zwei Zahlen
+              - progressbar [ref=e106]
+          - button "Sachaufgaben mit Skizze Strecken mit km 0" [ref=e107] [cursor=pointer]:
+            - generic [ref=e110]:
+              - generic [ref=e112]: Sachaufgaben mit Skizze
+              - generic [ref=e113]: Strecken mit km
+              - progressbar [ref=e114]
+  - navigation [ref=e115]:
+    - generic [ref=e116]:
+      - button "Üben" [ref=e117] [cursor=pointer]:
+        - img [ref=e118]
+        - generic [ref=e123]: Üben
+      - button "Fortschritt" [ref=e124] [cursor=pointer]:
+        - img [ref=e125]
+        - generic [ref=e126]: Fortschritt
+      - button "Eltern" [ref=e127] [cursor=pointer]:
+        - img [ref=e128]
+        - generic [ref=e131]: Eltern

@@ -1,0 +1,51 @@
+- generic [ref=e707]:
+  - banner [ref=e708]:
+    - button "Zurück" [ref=e709] [cursor=pointer]:
+      - img [ref=e710]
+    - generic [ref=e712]: 🗺️
+    - generic [ref=e713]:
+      - heading "Entfernungen" [level=1] [ref=e714]
+      - paragraph [ref=e715]: Größen & Skizzen (15 Aufgaben)
+    - generic [ref=e716]:
+      - button "Was lernst du hier?" [ref=e717] [cursor=pointer]: "?"
+      - button "Tipp anzeigen" [ref=e718] [cursor=pointer]:
+        - img [ref=e719]
+  - generic [ref=e722]:
+    - progressbar [ref=e723]
+    - generic [ref=e724]: 0/5
+  - main [ref=e725]:
+    - generic [ref=e726]:
+      - generic [ref=e727]:
+        - button "Alle" [ref=e728] [cursor=pointer]
+        - button "Einfach (6)" [ref=e729] [cursor=pointer]
+        - button "Kern (5)" [ref=e730] [cursor=pointer]
+        - button "Knifflig (4)" [ref=e731] [cursor=pointer]
+      - generic [ref=e732]:
+        - paragraph [ref=e733]: Entfernungen
+        - paragraph [ref=e734]: Fahrradtour mit Etappen — Tabelle lesen
+      - generic [ref=e764]:
+        - generic [ref=e765]:
+          - paragraph [ref=e766]: Sachaufgabe
+          - generic [ref=e767]:
+            - paragraph [ref=e768]: "Lina plant eine Dreitages-Radtour. Hier ist ihr Plan:"
+            - generic [ref=e770]:
+              - generic [ref=e771]: Tag
+              - generic [ref=e772]: Von → Nach
+              - generic [ref=e773]: Entfernung
+            - generic [ref=e774]:
+              - generic [ref=e775]: "1"
+              - generic [ref=e776]: Stadtpark → Seeblick
+              - generic [ref=e777]: 18,5 km
+            - generic [ref=e778]:
+              - generic [ref=e779]: "2"
+              - generic [ref=e780]: Seeblick → Waldrand
+              - generic [ref=e781]: 22,3 km
+            - generic [ref=e782]:
+              - generic [ref=e783]: "3"
+              - generic [ref=e784]: Waldrand → Stadtpark
+              - generic [ref=e785]: 16,8 km
+        - paragraph [ref=e788]: An welchem Tag fährt Lina am weitesten?
+        - textbox "Deine Antwort" [active] [ref=e790]
+        - paragraph [ref=e791]: Frage 1 von 3
+        - button "Prüfen" [ref=e793] [cursor=pointer]
+      - button "Nächste Aufgabe →" [ref=e763] [cursor=pointer]

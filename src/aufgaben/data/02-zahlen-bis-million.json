@@ -237,15 +237,15 @@
   },
   {
     "titel": "Zahlen und Blöcke vergleichen — Was ist gleich?",
-    "typ": "auswahl",
+    "typ": "wahr-falsch",
     "thema": "Der Millionen-Würfel",
     "schwierigkeit": "grün",
     "buchseite": 19,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "millionen-wuerfel",
     "digital": "voll",
-    "aufgabenstellung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?\n\na) 243 und 243.000\nb) 562 und 562.000\nc) 187 und 187.000\n\nWähle jeweils die richtige Aussage:\nA) Die Ziffern sind gleich, aber die Stellenwerte sind verschieden.\nB) Beide Zahlen sind gleich groß.\nC) Die Stellenwerte sind gleich, die Ziffern sind verschieden.",
-    "loesung": "a) A\nb) A\nc) A",
+    "aufgabenstellung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?\n\na) 243 und 243.000\nb) 562 und 562.000\nc) 187 und 187.000\n\nWähle jeweils die richtige Aussage:\nA) Die Ziffern sind gleich, stehen aber an verschiedenen Stellen.\nB) Beide Zahlen sind gleich groß.\nC) Die Stellenwerte sind gleich, die Ziffern sind verschieden.",
+    "loesung": "a) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)\nb) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)\nc) stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)",
     "loesungsweg": "Bei allen drei Paaren gilt: Die Ziffernfolge ist identisch (2-4-3, 5-6-2, 1-8-7), aber die Stellenwerte unterscheiden sich um den Faktor 1.000. Zum Beispiel: Bei 243 steht die 2 an der Hunderterstelle, bei 243.000 steht die 2 an der Hunderttausenderstelle.",
     "tipps": [
       "Trage beide Zahlen in eine Stellenwerttafel ein. Stehen die Ziffern an den gleichen Stellen?",
@@ -262,24 +262,28 @@
     "didaktischerHinweis": "Diese Aufgabe schärft das Bewusstsein, dass gleiche Ziffern unterschiedliche Werte haben können, je nach Position. Das ist der Kern des Stellenwertprinzips und muss sicher verstanden sein, bevor größere Zahlen bearbeitet werden.",
     "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?\n\na) 243 und 243.000\nb) 562 und 562.000\nc) 187 und 187.000\n\nWähle jeweils die richtige Aussage:",
-      "optionen": [
+      "typ": "wahr-falsch",
+      "anweisung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?",
+      "items": [
         {
-          "label": "A",
-          "text": "Die Ziffern sind gleich, aber die Stellenwerte sind verschieden."
+          "label": "a",
+          "aussage": "243 und 243.000",
+          "richtig": true,
+          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
         },
         {
-          "label": "B",
-          "text": "Beide Zahlen sind gleich groß."
+          "label": "b",
+          "aussage": "562 und 562.000",
+          "richtig": true,
+          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
         },
         {
-          "label": "C",
-          "text": "Die Stellenwerte sind gleich, die Ziffern sind verschieden."
+          "label": "c",
+          "aussage": "187 und 187.000",
+          "richtig": true,
+          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -812,7 +816,7 @@
     "kapitel": "02-zahlen-bis-million",
     "stageId": "zahlen-vergleichen",
     "digital": "voll",
-    "aufgabenstellung": "Setze das richtige Zeichen ein: < oder >\n\na) 527.194 ○ 518.963\nb) 184.732 ○ 184.927\nc) 356.841 ○ 749.215\nd) 623.478 ○ 623.487\ne) 891.302 ○ 890.999",
+    "aufgabenstellung": "Setze das richtige Zeichen ein: < oder >\n\na) 527.194 ▢ 518.963\nb) 184.732 ▢ 184.927\nc) 356.841 ▢ 749.215\nd) 623.478 ▢ 623.487\ne) 891.302 ▢ 890.999",
     "loesung": "a) 527.194 > 518.963\nb) 184.732 < 184.927\nc) 356.841 < 749.215\nd) 623.478 < 623.487\ne) 891.302 > 890.999",
     "loesungsweg": "Vergleiche Stelle für Stelle von links:\n- a) HT gleich (5), ZT: 2 > 1 → 527.194 > 518.963\n- b) HT gleich (1), ZT gleich (8), T gleich (4), H: 7 < 9 → 184.732 < 184.927\n- c) HT: 3 < 7 → 356.841 < 749.215\n- d) HT bis T gleich, H gleich (4), Z: 7 < 8 → 623.478 < 623.487\n- e) HT gleich (8), ZT gleich (9), T: 1 > 0 → 891.302 > 890.999",
     "tipps": [
@@ -828,27 +832,27 @@
       "items": [
         {
           "label": "a",
-          "frage": "527.194 ○ 518.963",
+          "frage": "527.194 ▢ 518.963",
           "antwort": "527.194 > 518.963"
         },
         {
           "label": "b",
-          "frage": "184.732 ○ 184.927",
+          "frage": "184.732 ▢ 184.927",
           "antwort": "184.732 < 184.927"
         },
         {
           "label": "c",
-          "frage": "356.841 ○ 749.215",
+          "frage": "356.841 ▢ 749.215",
           "antwort": "356.841 < 749.215"
         },
         {
           "label": "d",
-          "frage": "623.478 ○ 623.487",
+          "frage": "623.478 ▢ 623.487",
           "antwort": "623.478 < 623.487"
         },
         {
           "label": "e",
-          "frage": "891.302 ○ 890.999",
+          "frage": "891.302 ▢ 890.999",
           "antwort": "891.302 > 890.999"
         }
       ]
@@ -1027,7 +1031,7 @@
   },
   {
     "titel": "Rechenpäckchen — Welche Stelle ändert sich?",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 24,
@@ -1045,9 +1049,8 @@
     ],
     "didaktischerHinweis": "Rechenpäckchen mit gleichbleibender Grundzahl und wanderndem Summanden machen das Stellenwertprinzip beim Addieren sichtbar. Das Muster \"gleiche Rechnung, andere Stelle\" fördert die Einsicht in die Struktur des Zehnersystems.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne. Welche Stelle wird sich im Ergebnis ändern?",
-      "kontext": "Rechne. Welche Stelle wird sich im Ergebnis ändern?",
       "items": [
         {
           "label": "a",
@@ -1095,14 +1098,14 @@
   },
   {
     "titel": "Kopfrechnen mit Tausendern",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 25,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "kopfrechnen-gross",
     "digital": "voll",
-    "aufgabenstellung": "Rechne.\n\na) 348 T + 5 T = ___ T → ___\nb) 521 T + 7 T = ___ T → ___\nc) 463 T − 6 T = ___ T → ___\nd) 894 T − 3 T = ___ T → ___",
+    "aufgabenstellung": "Rechne im Kopf.\n\na) 348 T + 5 T = ___ T → ___\nb) 521 T + 7 T = ___ T → ___\nc) 463 T − 6 T = ___ T → ___\nd) 894 T − 3 T = ___ T → ___",
     "loesung": "a) 348 T + 5 T = 353 T → 353.000\nb) 521 T + 7 T = 528 T → 528.000\nc) 463 T − 6 T = 457 T → 457.000\nd) 894 T − 3 T = 891 T → 891.000",
     "loesungsweg": "Rechne mit den Tausendern wie mit kleinen Zahlen:\n- a) 348 + 5 = 353, also 353 T = 353.000\n- b) 521 + 7 = 528, also 528 T = 528.000\n- c) 463 − 6 = 457, also 457 T = 457.000\n- d) 894 − 3 = 891, also 891 T = 891.000",
     "tipps": [
@@ -1113,9 +1116,8 @@
     ],
     "didaktischerHinweis": "Das Rechnen mit Einheiten (T, ZT, HT) reduziert große Zahlen auf bekannte Aufgaben im kleinen Zahlenraum. Dieses \"Analogierechnen\" ist eine Schlüsselstrategie für das Kopfrechnen mit großen Zahlen.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Rechne.",
-      "kontext": "Rechne.",
+      "typ": "eingabe",
+      "anweisung": "Rechne im Kopf.",
       "items": [
         {
           "label": "a",
@@ -1142,14 +1144,14 @@
   },
   {
     "titel": "Kopfrechnen — Addition und Subtraktion mit Hundertern",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "grün",
     "buchseite": 25,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "kopfrechnen-gross",
     "digital": "voll",
-    "aufgabenstellung": "Rechne.\n\na) 471.000 + 600 =\n   471.000 + 660 =\nb) 835.200 − 400 =\n   835.200 − 440 =",
+    "aufgabenstellung": "Rechne im Kopf.\n\na) 471.000 + 600 =\n   471.000 + 660 =\nb) 835.200 − 400 =\n   835.200 − 440 =",
     "loesung": "a) 471.600 und 471.660\nb) 834.800 und 834.760",
     "loesungsweg": "- a) 471.000 + 600 = 471.600 (nur H-Stelle ändert sich: 0+6=6)\n     471.000 + 660 = 471.660 (H und Z ändern sich: 0+6=6, 0+6=6)\n- b) 835.200 − 400 = 834.800 (H: 2−4 geht nicht → Entbündeln: 1T+2H=12H, 12−4=8, T: 5−1=4)\n     835.200 − 440 = 834.760 (analog, zusätzlich Z: 0−4 → Entbündeln)",
     "tipps": [
@@ -1160,9 +1162,8 @@
     ],
     "didaktischerHinweis": "Die Paarung \"runde Aufgabe / krumme Aufgabe\" (600 vs. 660) hilft Kindern, die schwierigere Aufgabe über die einfachere zu lösen. Das Entbündeln bei der Subtraktion ist eine wichtige Hürde.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Rechne.",
-      "kontext": "Rechne.",
+      "typ": "eingabe",
+      "anweisung": "Rechne im Kopf.",
       "items": [
         {
           "label": "a",
@@ -1179,7 +1180,7 @@
   },
   {
     "titel": "Plusaufgaben bilden — Ergebnis im Bereich",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "orange",
     "buchseite": 25,
@@ -1197,21 +1198,20 @@
     ],
     "didaktischerHinweis": "Diese offene Aufgabe fördert das Überschlagen und strategische Denken. Es gibt mehrere richtige Lösungen, was Kindern zeigt, dass Mathematik nicht immer nur eine Antwort hat.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.",
-      "kontext": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.",
+      "typ": "eingabe",
+      "anweisung": "",
       "items": [
         {
           "label": "1",
-          "frage": "Wähle jeweils zwei Zahlen aus: 56.000 | 185.000 | 72.000 | 128.000 | 9.000 | 234.000",
-          "antwort": "- 128.000 + 72.000 = 200.000 ✓"
+          "frage": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.\n\nWähle jeweils zwei Zahlen aus: 56.000 | 185.000 | 72.000 | 128.000 | 9.000 | 234.000",
+          "antwort": "Mögliche Aufgaben (mehrere Lösungen möglich):"
         }
       ]
     }
   },
   {
     "titel": "Kopfrechnen — verwandte Aufgaben mit Hundertern und Tausendern",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 24,
@@ -1229,33 +1229,52 @@
     ],
     "didaktischerHinweis": "Durch das bewusste Markieren der sich ändernden Stelle wird das Rechnen mit großen Zahlen auf eine einfache einstellige Addition/Subtraktion reduziert. Dies stärkt das Vertrauen beim Kopfrechnen.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Markiere: Welche Stelle wird sich im Ergebnis ändern? Rechne.",
-      "kontext": "Markiere: Welche Stelle wird sich im Ergebnis ändern? Rechne.",
       "items": [
         {
           "label": "a",
           "frage": "150.300 + 4 =",
-          "antwort": "150.304 (E ändert sich) / 150.700 (H ändert sich) / 190.300 (ZT ändert sich)"
+          "antwort": "150.304 (E ändert sich)"
+        },
+        {
+          "label": "a2",
+          "frage": "150.300 + 400 =",
+          "antwort": "150.700 (H ändert sich)"
+        },
+        {
+          "label": "a3",
+          "frage": "150.300 + 40.000 =",
+          "antwort": "190.300 (ZT ändert sich)"
         },
         {
           "label": "b",
           "frage": "724.500 − 200 =",
-          "antwort": "724.300 (H ändert sich) / 722.500 (T ändert sich) / 524.500 (HT ändert sich)"
+          "antwort": "724.300 (H ändert sich)"
+        },
+        {
+          "label": "b2",
+          "frage": "724.500 − 2.000 =",
+          "antwort": "722.500 (T ändert sich)"
+        },
+        {
+          "label": "b3",
+          "frage": "724.500 − 200.000 =",
+          "antwort": "524.500 (HT ändert sich)"
         }
       ]
     }
   },
   {
     "titel": "Kopfrechnen — gemischte Addition mit Hundertern und Tausendern",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Rechnen im Kopf",
     "schwierigkeit": "orange",
     "buchseite": 25,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "kopfrechnen-gross",
     "digital": "voll",
-    "aufgabenstellung": "Rechne.\n\na) 458.300 + 700 =\n   458.300 + 770 =\nb) 291.400 + 900 =\n   291.400 + 950 =",
+    "aufgabenstellung": "Rechne im Kopf.\n\na) 458.300 + 700 =\n   458.300 + 770 =\nb) 291.400 + 900 =\n   291.400 + 950 =",
     "loesung": "a) 459.000 und 459.070\nb) 292.300 und 292.350",
     "loesungsweg": "- a) 458.300 + 700: H: 3+7=10 → 0 schreiben, 1 T Übertrag. T: 8+1=9. → 459.000\n     458.300 + 770: Zusätzlich Z: 0+7=7 → 459.070\n- b) 291.400 + 900: H: 4+9=13 → 3 schreiben, 1 T Übertrag. T: 1+1=2. → 292.300\n     291.400 + 950: Zusätzlich Z: 0+5=5 → 292.350",
     "tipps": [
@@ -1266,9 +1285,8 @@
     ],
     "didaktischerHinweis": "Aufgaben mit Übertrag beim Kopfrechnen sind deutlich anspruchsvoller. Die Strategie \"erst rund, dann Rest\" hilft: Erst +700 (rund), dann +70 dazu. So wird die komplexe Aufgabe auf zwei einfache Schritte reduziert.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Rechne.",
-      "kontext": "Rechne.",
+      "typ": "eingabe",
+      "anweisung": "Rechne im Kopf.",
       "items": [
         {
           "label": "a",
@@ -1329,7 +1347,7 @@
   },
   {
     "titel": "Anzahl schaetzen — Nudeln in der Packung",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "grün",
     "buchseite": 27,
@@ -1347,13 +1365,12 @@
     ],
     "didaktischerHinweis": "Die Kombination aus Zählen einer Stichprobe und Hochrechnen auf die Gesamtmenge ist die mathematische Grundlage des Schätzens. Das Runden vor dem Multiplizieren vereinfacht die Rechnung erheblich.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung passen 52 Teelöffel Buchstabennudeln.",
-      "kontext": "Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung passen 52 Teelöffel Buchstabennudeln.",
+      "typ": "eingabe",
+      "anweisung": "",
       "items": [
         {
           "label": "1",
-          "frage": "Wie viele Buchstabennudeln sind ungefähr in der Packung?",
+          "frage": "Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung passen 52 Teelöffel Buchstabennudeln.\n\nWie viele Buchstabennudeln sind ungefähr in der Packung?",
           "antwort": "Ungefähr 4.500"
         }
       ]
@@ -1361,7 +1378,7 @@
   },
   {
     "titel": "Anzahl schaetzen — Maiskörner in der Packung",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "grün",
     "buchseite": 27,
@@ -1379,13 +1396,12 @@
     ],
     "didaktischerHinweis": "Hier wird zusätzlich zum Hochrechnen das Gewicht als Hilfsmittel genutzt (Wiegen statt Zählen). Das ist eine realitätsnahe Strategie, die Kinder auch im Alltag anwenden können.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.",
-      "kontext": "Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.",
+      "typ": "eingabe",
+      "anweisung": "",
       "items": [
         {
           "label": "1",
-          "frage": "Wie viele Reiskörner sind ungefähr in der Packung?",
+          "frage": "Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.\n\nWie viele Reiskörner sind ungefähr in der Packung?",
           "antwort": "Ungefähr 4.600"
         }
       ]
@@ -1393,7 +1409,7 @@
   },
   {
     "titel": "Schätzstrategie wählen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "gelb",
     "buchseite": 27,
@@ -1411,9 +1427,8 @@
     ],
     "didaktischerHinweis": "Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schaetzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
-      "kontext": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
       "items": [
         {
           "label": "a",
@@ -1479,7 +1494,7 @@
   },
   {
     "titel": "Schätzen — Wie viele passen auf die Fläche?",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "orange",
     "buchseite": 26,
@@ -1497,13 +1512,12 @@
     ],
     "didaktischerHinweis": "Das Raster-Prinzip ist eine universelle Schätzstrategie für Flächen. Es verbindet Schätzen mit Multiplikation und bereitet das Verständnis für den Flächeninhalt vor (Länge × Breite).",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneinander. Untereinander passen 20 Reihen auf das Blatt.",
-      "kontext": "Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneinander. Untereinander passen 20 Reihen auf das Blatt.",
+      "typ": "eingabe",
+      "anweisung": "",
       "items": [
         {
           "label": "1",
-          "frage": "Wie viele Smarties passen ungefähr auf das Blatt?",
+          "frage": "Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneinander. Untereinander passen 20 Reihen auf das Blatt.\n\nWie viele Smarties passen ungefähr auf das Blatt?",
           "antwort": "Ungefähr 300"
         }
       ]
@@ -1602,7 +1616,7 @@
   },
   {
     "titel": "Zahlenstrahl — verschiedene Ausschnitte",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen am Zahlenstrahl",
     "schwierigkeit": "grün",
     "buchseite": 28,
@@ -1626,9 +1640,8 @@
     ],
     "didaktischerHinweis": "Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen trainieren die flexible Anpassung der Lesestrategie. Das Kind muss jedes Mal neu die Schrittweite bestimmen.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
-      "kontext": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
       "items": [
         {
           "label": "a",
@@ -1645,7 +1658,7 @@
   },
   {
     "titel": "Vorgänger und Nachfolger am Zahlenstrahl",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen am Zahlenstrahl",
     "schwierigkeit": "gelb",
     "buchseite": 28,
@@ -1669,9 +1682,8 @@
     ],
     "didaktischerHinweis": "Vorgänger/Nachfolger an Stellenwertgrenzen (9.999/10.000/10.001 oder 99.999/100.000) sind klassische Fehlerquellen. Das Kind muss den \"Zählerstand-Umsprung\" verstehen — wie bei einem Kilometerzähler.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
-      "kontext": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
       "items": [
         {
           "label": "a",
@@ -1926,7 +1938,7 @@
   },
   {
     "titel": "Nachbar-Tausender bestimmen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "gelb",
     "buchseite": 30,
@@ -1944,9 +1956,8 @@
     ],
     "didaktischerHinweis": "Nachbar-Tausender sind die Grundlage für das Runden auf Tausender. Das Kind soll die \"Schranken\" verstehen, zwischen denen eine Zahl liegt.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Wie heißen die Nachbar-Tausender?",
-      "kontext": "Wie heißen die Nachbar-Tausender?",
       "items": [
         {
           "label": "a",
@@ -1993,7 +2004,7 @@
   },
   {
     "titel": "Nachbar-Hunderter bestimmen und Abstand berechnen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "grün",
     "buchseite": 30,
@@ -2011,9 +2022,8 @@
     ],
     "didaktischerHinweis": "Die Abstandsberechnung bereitet das Runden vor: Die Zahl wird zum näheren Nachbarn gerundet. Der Abstand zeigt, ob die Zahl näher am unteren oder oberen Nachbarn liegt.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne zu den Nachbar-Hundertern.",
-      "kontext": "Rechne zu den Nachbar-Hundertern.",
       "items": [
         {
           "label": "a",
@@ -2050,7 +2060,7 @@
   },
   {
     "titel": "Nachbar-T, Nachbar-ZT und Nachbar-HT bestimmen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "grün",
     "buchseite": 30,
@@ -2068,9 +2078,8 @@
     ],
     "didaktischerHinweis": "Die systematische Bestimmung aller drei Nachbartypen trainiert das flexible Denken in verschiedenen Stellenwertebenen. Besonders bei d) ist interessant, dass Nachbar-ZT (380.000/390.000) und Nachbar-T (389.000/390.000) den oberen Nachbarn teilen.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
-      "kontext": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
       "items": [
         {
           "label": "a",
@@ -2153,15 +2162,15 @@
   },
   {
     "titel": "Nachbar-Tabelle ausfüllen",
-    "typ": "schritt",
+    "typ": "eingabe",
     "thema": "Nachbarzahlen",
     "schwierigkeit": "orange",
     "buchseite": 30,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "nachbarzahlen",
     "digital": "voll",
-    "aufgabenstellung": "Trage die Zahlen in die Tabelle ein. Bestimme den kleineren und größeren Nachbar-T, Nachbar-ZT und Nachbar-HT.\n\n| Nachbar-HT↓ | Nachbar-ZT↓ | Nachbar-T↓ | Zahl | Nachbar-T↑ | Nachbar-ZT↑ | Nachbar-HT↑ |\n|---|---|---|---|---|---|---|\n| ? | ? | ? | 62.400 | ? | ? | ? |\n| ? | ? | ? | 347.850 | ? | ? | ? |\n| ? | ? | ? | 795.100 | ? | ? | ? |",
-    "loesung": "| Nachbar-HT↓ | Nachbar-ZT↓ | Nachbar-T↓ | Zahl | Nachbar-T↑ | Nachbar-ZT↑ | Nachbar-HT↑ |\n|---|---|---|---|---|---|---|\n| 0 | 60.000 | 62.000 | 62.400 | 63.000 | 70.000 | 100.000 |\n| 300.000 | 340.000 | 347.000 | 347.850 | 348.000 | 350.000 | 400.000 |\n| 700.000 | 790.000 | 795.000 | 795.100 | 796.000 | 800.000 | 800.000 |",
+    "aufgabenstellung": "Bestimme die Nachbar-Hunderttausender, -Zehntausender und -Tausender.\n\na) Nachbar-HT von 352.481: ___ und ___\nb) Nachbar-ZT von 352.481: ___ und ___\nc) Nachbar-T von 352.481: ___ und ___\nd) Nachbar-HT von 849.250: ___ und ___\ne) Nachbar-ZT von 849.250: ___ und ___\nf) Nachbar-T von 849.250: ___ und ___",
+    "loesung": "a) 300.000 und 400.000\nb) 350.000 und 360.000\nc) 352.000 und 353.000\nd) 800.000 und 900.000\ne) 840.000 und 850.000\nf) 849.000 und 850.000",
     "loesungsweg": "Für jede Zahl wird systematisch auf den jeweiligen Stellenwert abgerundet (unterer Nachbar) und aufgerundet (oberer Nachbar).",
     "tipps": [
       "Beginne mit der Zahl in der Mitte. Für Nachbar-T: Welche glatten Tausenderzahlen liegen links und rechts auf dem Zahlenstrahl?",
@@ -2171,73 +2180,38 @@
     ],
     "didaktischerHinweis": "Die Nachbar-Tabelle gibt den systematischen Überblick über alle Nachbarebenen. Besonders die letzte Zeile ist lehrreich: Nachbar-ZT (790.000/800.000) und Nachbar-HT (700.000/800.000) teilen sich den oberen Nachbarn 800.000.",
     "parsed": {
-      "typ": "schritt",
-      "anweisung": "Trage die Zahlen in die Tabelle ein. Bestimme den kleineren und größeren Nachbar-T, Nachbar-ZT und Nachbar-HT.",
-      "teilaufgaben": [
+      "typ": "eingabe",
+      "anweisung": "Bestimme die Nachbar-Hunderttausender, -Zehntausender und -Tausender.",
+      "items": [
         {
-          "label": "1",
-          "schritte": [
-            {
-              "label": "1",
-              "frage": "? · Nachbar-ZT↓ =",
-              "antwort": ""
-            },
-            {
-              "label": "2",
-              "frage": "? · Nachbar-T↓ =",
-              "antwort": ""
-            },
-            {
-              "label": "3",
-              "frage": "? · Zahl =",
-              "antwort": ""
-            },
-            {
-              "label": "4",
-              "frage": "? · Nachbar-T↑ =",
-              "antwort": ""
-            },
-            {
-              "label": "5",
-              "frage": "? · Nachbar-ZT↑ =",
-              "antwort": ""
-            },
-            {
-              "label": "6",
-              "frage": "? · Nachbar-HT↑ =",
-              "antwort": ""
-            },
-            {
-              "label": "7",
-              "frage": "? · Nachbar-ZT↓ =",
-              "antwort": ""
-            },
-            {
-              "label": "8",
-              "frage": "? · Nachbar-T↓ =",
-              "antwort": ""
-            },
-            {
-              "label": "9",
-              "frage": "? · Zahl =",
-              "antwort": ""
-            },
-            {
-              "label": "10",
-              "frage": "? · Nachbar-T↑ =",
-              "antwort": ""
-            },
-            {
-              "label": "11",
-              "frage": "? · Nachbar-ZT↑ =",
-              "antwort": ""
-            },
-            {
-              "label": "12",
-              "frage": "? · Nachbar-HT↑ =",
-              "antwort": ""
-            }
-          ]
+          "label": "a",
+          "frage": "Nachbar-HT von 352.481: ___ und ___",
+          "antwort": "300.000 und 400.000"
+        },
+        {
+          "label": "b",
+          "frage": "Nachbar-ZT von 352.481: ___ und ___",
+          "antwort": "350.000 und 360.000"
+        },
+        {
+          "label": "c",
+          "frage": "Nachbar-T von 352.481: ___ und ___",
+          "antwort": "352.000 und 353.000"
+        },
+        {
+          "label": "d",
+          "frage": "Nachbar-HT von 849.250: ___ und ___",
+          "antwort": "800.000 und 900.000"
+        },
+        {
+          "label": "e",
+          "frage": "Nachbar-ZT von 849.250: ___ und ___",
+          "antwort": "840.000 und 850.000"
+        },
+        {
+          "label": "f",
+          "frage": "Nachbar-T von 849.250: ___ und ___",
+          "antwort": "849.000 und 850.000"
         }
       ]
     }
@@ -2300,7 +2274,7 @@
   },
   {
     "titel": "Runden auf Tausender — ohne markierte Stelle",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Runden",
     "schwierigkeit": "grün",
     "buchseite": 31,
@@ -2318,9 +2292,8 @@
     ],
     "didaktischerHinweis": "Der Schritt \"zuerst die Entscheidungsstelle markieren\" ist ein wichtiger Zwischenschritt, der Fehler verhindert. Besonders bei e) muss das Kind die 5 korrekt als \"aufrunden\" interpretieren.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Runde die Zahlen auf Tausender. Markiere zuerst die Hunderterstelle.",
-      "kontext": "Runde die Zahlen auf Tausender. Markiere zuerst die Hunderterstelle.",
       "items": [
         {
           "label": "a",
@@ -2367,7 +2340,7 @@
   },
   {
     "titel": "Stadion-Zuschauerzahlen runden",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Runden",
     "schwierigkeit": "grün",
     "buchseite": 31,
@@ -2385,9 +2358,8 @@
     ],
     "didaktischerHinweis": "Der Alltagskontext (Stadien) macht das Runden greifbar. Besonders c) ist lehrreich: Beim Aufrunden kann ein Übertrag entstehen (49 → 50 Tausender). Auch b) ist wichtig: Schon glatte Zahlen bleiben beim Runden unverändert.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "In den Fußballstadien gibt es so viele Zuschauerplätze. Runde auf Tausender.",
-      "kontext": "In den Fußballstadien gibt es so viele Zuschauerplätze. Runde auf Tausender.",
       "items": [
         {
           "label": "a",
@@ -2644,7 +2616,7 @@
   },
   {
     "titel": "Verschiedene Rundungen vergleichen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "grün",
     "buchseite": 33,
@@ -2662,9 +2634,8 @@
     ],
     "didaktischerHinweis": "Derselbe Wert gerundet auf verschiedene Stellen zeigt, wie \"Genauigkeit\" funktioniert. Im Alltag wählt man die Rundungsstufe je nach Kontext: Bei Stadionbesuchen reicht Zehntausender, bei Geldbeträgen will man Hunderter.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Runde die Zahl 486.352 auf verschiedene Stellen und vergleiche die Ergebnisse.",
-      "kontext": "Runde die Zahl 486.352 auf verschiedene Stellen und vergleiche die Ergebnisse.",
       "items": [
         {
           "label": "a",
@@ -2691,7 +2662,7 @@
   },
   {
     "titel": "Gerundete Zahlen zuordnen — welche Zahl passt?",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "grün",
     "buchseite": 33,
@@ -2709,9 +2680,8 @@
     ],
     "didaktischerHinweis": "Die Umkehr-Aufgabe \"Welche Zahl ergibt gerundet X?\" erfordert das Verständnis des Rundungsintervalls. Das Kind lernt, dass viele verschiedene Zahlen auf dieselbe gerundete Zahl führen können — Runden ist nicht umkehrbar.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Eine Zahl wurde auf Zehntausender gerundet und ergibt 350.000. Welche der Zahlen könnte die Originalzahl sein?",
-      "kontext": "Eine Zahl wurde auf Zehntausender gerundet und ergibt 350.000. Welche der Zahlen könnte die Originalzahl sein?",
       "items": [
         {
           "label": "a",
@@ -2748,7 +2718,7 @@
   },
   {
     "titel": "Einwohnerzahlen runden und vergleichen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "gelb",
     "buchseite": 32,
@@ -2766,9 +2736,8 @@
     ],
     "didaktischerHinweis": "Einwohnerzahlen sind ein idealer Alltagskontext für das Runden: Niemand nennt die exakte Einwohnerzahl einer Stadt, man sagt \"etwa 210.000\". Das Vergleichen der gerundeten Werte zeigt, dass Erfurt und Rostock gerundet gleich groß sind.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "So viele Einwohner haben diese Städte ungefähr. Runde auf Zehntausender.",
-      "kontext": "So viele Einwohner haben diese Städte ungefähr. Runde auf Zehntausender.",
       "items": [
         {
           "label": "a",
@@ -2800,7 +2769,7 @@
   },
   {
     "titel": "Runden und am Zahlenstrahl einordnen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "orange",
     "buchseite": 33,
@@ -2818,9 +2787,8 @@
     ],
     "didaktischerHinweis": "Die Kombination von Runden und Einordnen am Zahlenstrahl verbindet zwei Kompetenzen. Besonders f) ist spannend: Runden auf die Million — die Zahl \"verschwindet\" fast am oberen Rand des Zahlenraums.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Runde die Zahlen auf Hunderttausender und ordne sie auf einem Zahlenstrahl von 0 bis 1.000.000 ein.",
-      "kontext": "Runde die Zahlen auf Hunderttausender und ordne sie auf einem Zahlenstrahl von 0 bis 1.000.000 ein.",
       "items": [
         {
           "label": "a",
@@ -2857,7 +2825,7 @@
   },
   {
     "titel": "Zahlen runden — offene Aufgabe",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Große Zahlen runden und darstellen",
     "schwierigkeit": "orange",
     "buchseite": 33,
@@ -2875,9 +2843,8 @@
     ],
     "didaktischerHinweis": "Offene Aufgaben zum Runden fördern das Verständnis des Rundungsintervalls. Besonders d) ist anspruchsvoll: 99.500 rundet auf 100.000 — obwohl die Originalzahl fünfstellig ist, ist das Ergebnis sechsstellig!",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Finde eine Zahl, die ...",
-      "kontext": "Finde eine Zahl, die ...",
       "items": [
         {
           "label": "a",

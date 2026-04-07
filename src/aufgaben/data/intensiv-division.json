@@ -9,13 +9,13 @@
     "stageId": "vielfache",
     "digital": "voll",
     "aufgabenstellung": "Schreibe die ersten acht Vielfachen auf.\n\na) Vielfache von 3: 3, 6, ___, ___, ___, ___, ___, ___\nb) Vielfache von 7: 7, 14, ___, ___, ___, ___, ___, ___",
-    "loesung": "a) 3, 6, 9, 12, 15, 18, 21, 24\nb) 7, 14, 21, 28, 35, 42, 49, 56",
-    "loesungsweg": "Zähle immer die gleiche Zahl dazu:\n- a) 3, 3+3=6, 6+3=9, 9+3=12 ... bis du acht Zahlen hast\n- b) 7, 7+7=14, 14+7=21, 21+7=28 ... bis du acht Zahlen hast",
+    "loesung": "a) 24\nb) 56",
+    "loesungsweg": "Zähle immer die gleiche Zahl dazu:\n- a) 3, 6, 9, 12, 15, 18, 21, 24 → letztes (8.) Vielfaches: 24\n- b) 7, 14, 21, 28, 35, 42, 49, 56 → letztes (8.) Vielfaches: 56",
     "tipps": [
       "Stell dir einen Zahlenstrahl vor. Du startest bei 0 und machst immer gleich große Sprünge. Bei a) sind es 3er-Sprünge. Wo landest du nach dem dritten Sprung?",
       "Nutze die Malreihe: Das 1. Vielfache ist 1 · 3 = 3, das 2. Vielfache ist 2 · 3 = 6, das 3. Vielfache ist 3 · 3 = 9 ... Zähle so bis zum 8. Vielfachen.",
       "Bei b): Du hast schon 7 und 14. Das nächste: 14 + 7 = ___. Dann: ___ + 7 = ___. Mach so weiter!",
-      "Zähle immer die gleiche Zahl dazu:\n- a) 3, 3+3=6, 6+3=9, 9+3=12 ... bis du acht Zahlen hast\n- b) 7, 7+7=14, 14+7=21, 21+7=28 ... bis du acht Zahlen hast"
+      "Zähle immer die gleiche Zahl dazu:\n- a) 3, 6, 9, 12, 15, 18, 21, 24 → letztes (8.) Vielfaches: 24\n- b) 7, 14, 21, 28, 35, 42, 49, 56 → letztes (8.) Vielfaches: 56"
     ],
     "didaktischerHinweis": "Einfache Einstiegsaufgabe, die die Malreihen aktiviert. Die 7er-Reihe ist erfahrungsgemäß schwieriger und braucht mehr Übung.",
     "parsed": {
@@ -25,12 +25,12 @@
         {
           "label": "a",
           "frage": "Vielfache von 3: 3, 6, ___, ___, ___, ___, ___, ___",
-          "antwort": "3, 6, 9, 12, 15, 18, 21, 24"
+          "antwort": "24"
         },
         {
           "label": "b",
           "frage": "Vielfache von 7: 7, 14, ___, ___, ___, ___, ___, ___",
-          "antwort": "7, 14, 21, 28, 35, 42, 49, 56"
+          "antwort": "56"
         }
       ]
     }
@@ -1128,7 +1128,7 @@
     "kapitel": "08-division-intensiv",
     "stageId": "teiler",
     "digital": "voll",
-    "aufgabenstellung": "Finde die Zahl.\n\nIch habe genau 6 Teiler. Ich bin kleiner als 20. Ich bin eine gerade Zahl.",
+    "aufgabenstellung": "Finde die Zahlen, die alle Bedingungen erfüllen.\n\nIch habe genau 6 Teiler. Ich bin kleiner als 20. Ich bin eine gerade Zahl.",
     "loesung": "12.",
     "loesungsweg": "Gerade Zahlen unter 20: 2, 4, 6, 8, 10, 12, 14, 16, 18.\nTeiler zählen:\n- 2: {1,2} → 2 Teiler\n- 4: {1,2,4} → 3 Teiler\n- 6: {1,2,3,6} → 4 Teiler\n- 8: {1,2,4,8} → 4 Teiler\n- 10: {1,2,5,10} → 4 Teiler\n- 12: {1,2,3,4,6,12} → 6 Teiler ✓\n- 14: {1,2,7,14} → 4 Teiler\n- 16: {1,2,4,8,16} → 5 Teiler\n- 18: {1,2,3,6,9,18} → 6 Teiler ✓\n\nHm, auch 18 hat 6 Teiler! Aber die Aufgabe sagt \"die Zahl\" (Einzahl) — beide Antworten (12 und 18) sind akzeptabel.",
     "tipps": [
@@ -1140,8 +1140,8 @@
     "didaktischerHinweis": "Rückwärts denken: Statt Teiler zu finden, muss das Kind die Zahl finden. Das ist anspruchsvoller und fördert Flexibilität.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Finde die Zahl.",
-      "kontext": "Finde die Zahl.",
+      "anweisung": "Finde die Zahlen, die alle Bedingungen erfüllen.",
+      "kontext": "Finde die Zahlen, die alle Bedingungen erfüllen.",
       "items": [
         {
           "label": "1",
@@ -1367,7 +1367,7 @@
     "stageId": "halbschriftlich-dividieren",
     "digital": "voll",
     "aufgabenstellung": "Ergänze die fehlenden Zahlen im Zerlegungsweg.\n\na) 96 : 8\n   80 : 8 = ___\n   ___ : 8 = 2\n   Ergebnis: ___\n\nb) 78 : 6\n   60 : 6 = ___\n   ___ : 6 = 3\n   Ergebnis: ___",
-    "loesung": "a) 80 : 8 = 10, 16 : 8 = 2, Ergebnis: 12\nb) 60 : 6 = 10, 18 : 6 = 3, Ergebnis: 13",
+    "loesung": "a) 12\nb) 13",
     "loesungsweg": "- a) 96 − 80 = 16. Also: 80:8=10, 16:8=2, Ergebnis: 10+2=12\n- b) 78 − 60 = 18. Also: 60:6=10, 18:6=3, Ergebnis: 10+3=13",
     "tipps": [
       "Bei a): Du weißt, dass der erste Teil 80 ist. Der Rest ist 96 − 80 = ___. Und 80 : 8 = ?",
@@ -1389,12 +1389,12 @@
         {
           "label": "a",
           "frage": "96 : 8",
-          "antwort": "80 : 8 = 10, 16 : 8 = 2, Ergebnis: 12"
+          "antwort": "12"
         },
         {
           "label": "b",
           "frage": "78 : 6",
-          "antwort": "60 : 6 = 10, 18 : 6 = 3, Ergebnis: 13"
+          "antwort": "13"
         }
       ]
     }

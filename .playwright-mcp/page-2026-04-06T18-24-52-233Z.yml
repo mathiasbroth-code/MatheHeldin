@@ -1,0 +1,41 @@
+- generic [ref=e707]:
+  - banner [ref=e708]:
+    - button "Zurück" [ref=e709] [cursor=pointer]:
+      - img [ref=e710]
+    - generic [ref=e712]: 🗺️
+    - generic [ref=e713]:
+      - heading "Entfernungen" [level=1] [ref=e714]
+      - paragraph [ref=e715]: Größen & Skizzen (15 Aufgaben)
+    - generic [ref=e716]:
+      - button "Was lernst du hier?" [ref=e717] [cursor=pointer]: "?"
+      - button "Tipp anzeigen" [ref=e718] [cursor=pointer]:
+        - img [ref=e719]
+  - generic [ref=e722]:
+    - progressbar [ref=e723]
+    - generic [ref=e724]: 0/5
+  - main [ref=e725]:
+    - generic [ref=e726]:
+      - generic [ref=e727]:
+        - button "Alle" [ref=e728] [cursor=pointer]
+        - button "Einfach (6)" [ref=e729] [cursor=pointer]
+        - button "Kern (5)" [ref=e730] [cursor=pointer]
+        - button "Knifflig (4)" [ref=e731] [cursor=pointer]
+      - generic [ref=e732]:
+        - paragraph [ref=e733]: Entfernungen
+        - paragraph [ref=e734]: Marathonlauf — große Strecken
+      - generic [ref=e736]:
+        - generic [ref=e739]: 15 km
+        - generic [ref=e741]: 13 km
+        - generic [ref=e744]: Start
+        - generic [ref=e747]: Kilometer 15
+        - generic [ref=e750]: Kilometer 28
+      - generic [ref=e751]:
+        - generic [ref=e753]:
+          - paragraph [ref=e754]: "Ein Marathon ist 42 km lang. Der Läufer hat schon diese Abschnitte geschafft:"
+          - paragraph [ref=e755]: "• Start → Kilometer 15: 15 km"
+          - paragraph [ref=e756]: "• Kilometer 15 → Kilometer 28: 13 km"
+        - paragraph [ref=e759]: Wie viele Kilometer hat er schon geschafft?
+        - textbox "Deine Antwort" [active] [ref=e761]
+        - paragraph [ref=e762]: Teilaufgabe 1 von 2
+        - button "Prüfen" [ref=e764] [cursor=pointer]
+      - button "Nächste Aufgabe →" [ref=e765] [cursor=pointer]

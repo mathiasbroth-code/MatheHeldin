@@ -98,41 +98,85 @@
     }
   },
   {
-    "titel": "Kreise mit dem Zirkel zeichnen — verschiedene Radien",
-    "typ": "textaufgabe",
+    "titel": "Welcher Kreis ist der größte? — Radien vergleichen",
+    "typ": "auswahl",
     "thema": "Kreise zeichnen",
     "schwierigkeit": "gelb",
     "buchseite": 104,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "kreise-zeichnen",
     "digital": "voll",
-    "aufgabenstellung": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.\n\na) Welcher Kreis liegt ganz aussen?\nb) Wie nennt man Kreise, die denselben Mittelpunkt haben?\n\na1) Der Kreis mit r = 2 cm\na2) Der Kreis mit r = 5 cm\na3) Der Kreis mit r = 3 cm\n\nb1) Parallele Kreise\nb2) Konzentrische Kreise\nb3) Symmetrische Kreise",
-    "loesung": "a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.\nb) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise.",
-    "loesungsweg": "",
+    "aufgabenstellung": "Vier Kreise liegen ineinander. Sie haben alle denselben Mittelpunkt und die Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.\n\nWelcher ist der Kreis mit dem Radius r = 5 cm (der größte)?\n\na) Der innerste Kreis\nb) Der mittlere Kreis\nc) Der äußerste Kreis",
+    "loesung": "c)",
+    "loesungsweg": "Je größer der Radius, desto größer der Kreis. Der Kreis mit r = 5 cm hat den größten Radius — er liegt daher ganz außen.",
     "tipps": [
-      "Stell dir die vier Kreise wie Ringe vor, die alle den gleichen Mittelpunkt haben. Welcher Kreis liegt ganz innen, welcher ganz aussen?",
-      "Je größer der Radius, desto größer der Kreis. Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der Kreis mit dem größten Radius liegt ganz aussen.",
-      "Der kleinste Kreis hat r = 2 cm und liegt ganz innen. Der größte Kreis hat r = 5 cm und liegt ganz aussen. Kreise um denselben Mittelpunkt haben einen besonderen Namen — er beginnt mit „kon...\".",
-      "a) a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat.\nb) b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise."
+      "Stell dir die vier Kreise wie Ringe vor. Welcher Ring liegt ganz außen — der kleinste oder der größte?",
+      "Sortiere die Radien: 2 cm < 3 cm < 4 cm < 5 cm. Der größte Radius ergibt den größten Kreis. Wo liegt der größte Kreis?",
+      "r = 2 cm ist der kleinste Kreis — er liegt ganz innen. r = 5 cm ist der größte Kreis — er liegt ganz ___.",
+      "Je größer der Radius, desto größer der Kreis. Der Kreis mit r = 5 cm hat den größten Radius — er liegt daher ganz außen."
     ],
     "didaktischerHinweis": "Konzentrische Kreise sind ein wichtiges Konzept. Auch ohne Zirkel kann digital der Zusammenhang Radius-Größe erarbeitet werden. Entspricht S. 104, Aufg. 5.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
-      "kontext": "Vier Kreise wurden um denselben Mittelpunkt gezeichnet, mit den Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Vier Kreise liegen ineinander. Sie haben alle denselben Mittelpunkt und die Radien r = 2 cm, r = 3 cm, r = 4 cm und r = 5 cm.\n\nWelcher ist der Kreis mit dem Radius r = 5 cm (der größte)?",
+      "optionen": [
         {
-          "label": "a",
-          "frage": "Welcher Kreis liegt ganz aussen?",
-          "antwort": "a2 — Der Kreis mit r = 5 cm liegt ganz aussen, weil er den größten Radius hat."
+          "label": "A",
+          "text": "Der innerste Kreis"
         },
         {
-          "label": "b",
-          "frage": "Wie nennt man Kreise, die denselben Mittelpunkt haben?",
-          "antwort": "b2 — Kreise mit demselben Mittelpunkt heißen konzentrische Kreise."
+          "label": "B",
+          "text": "Der mittlere Kreis"
+        },
+        {
+          "label": "C",
+          "text": "Der äußerste Kreis"
         }
-      ]
+      ],
+      "richtigeIdx": 2
+    }
+  },
+  {
+    "titel": "Wie heißen Kreise mit demselben Mittelpunkt?",
+    "typ": "auswahl",
+    "thema": "Kreise zeichnen",
+    "schwierigkeit": "gelb",
+    "buchseite": 104,
+    "kapitel": "10-kreise-muster-körper",
+    "stageId": "kreise-zeichnen",
+    "digital": "voll",
+    "aufgabenstellung": "Vier Kreise haben alle denselben Mittelpunkt. Wie nennt man solche Kreise?\n\na) Parallele Kreise\nb) Konzentrische Kreise\nc) Symmetrische Kreise",
+    "loesung": "b)",
+    "loesungsweg": "Kreise, die denselben Mittelpunkt teilen, heißen konzentrische Kreise (von lateinisch „concentricus\" = den gleichen Mittelpunkt habend).",
+    "tipps": [
+      "Das Wort beginnt mit „kon...\" und kommt aus dem Lateinischen. Was könnte es bedeuten, wenn Kreise denselben Mittelpunkt haben?",
+      "Parallele Linien laufen nebeneinander. Symmetrische Figuren sind gespiegelt. Welcher Begriff passt zu Kreisen mit gleichem Mittelpunkt?",
+      "Der Fachbegriff hat die Silben „kon-zen-trisch\". Konzentrische Kreise haben alle den ___ Mittelpunkt.",
+      "Kreise, die denselben Mittelpunkt teilen, heißen konzentrische Kreise (von lateinisch „concentricus\" = den gleichen Mittelpunkt habend)."
+    ],
+    "didaktischerHinweis": "Der Begriff „konzentrisch\" ist Fachvokabular, das Kinder in diesem Alter kennenlernen. Entspricht S. 104, Aufg. 5.",
+    "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Vier Kreise haben alle denselben Mittelpunkt. Wie nennt man solche Kreise?",
+      "optionen": [
+        {
+          "label": "A",
+          "text": "Parallele Kreise"
+        },
+        {
+          "label": "B",
+          "text": "Konzentrische Kreise"
+        },
+        {
+          "label": "C",
+          "text": "Symmetrische Kreise"
+        }
+      ],
+      "richtigeIdx": 1
     }
   },
   {
@@ -143,7 +187,7 @@
     "buchseite": 104,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "kreise",
-    "digital": "voll",
+    "digital": "platzhalter",
     "aufgabenstellung": "Schau dir die fünf Kreise an. Bei jedem Kreis ist der Mittelpunkt mit einem Kreuz markiert.\n\nMiss den Radius jedes Kreises (Abstand vom Mittelpunkt zur Kreislinie).\n\na) Kreis A hat einen Radius von ___ mm.\nb) Kreis B hat einen Radius von ___ mm.\nc) Kreis C hat einen Radius von ___ mm.\nd) Kreis D hat einen Radius von ___ mm.\ne) Kreis E hat einen Radius von ___ mm.",
     "loesung": "a) 8\nb) 15\nc) 12\nd) 20\ne) 25",
     "loesungsweg": "Der Radius ist die Strecke vom Mittelpunkt (Kreuz) bis zur Kreislinie. Man misst mit dem Lineal vom Kreuz geradeaus bis zum Rand des Kreises.",
@@ -729,8 +773,8 @@
     "kapitel": "10-kreise-muster-körper",
     "stageId": "koerpernetze",
     "digital": "voll",
-    "aufgabenstellung": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.\n\nA) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?\nB) Sechs Rechtecke in einer Reihe — Quadernetz?\nC) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
-    "loesung": "A) Ja — beim Falten entsteht ein Quader.\nB) Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung).\nC) Ja — beim Falten entsteht ein Quader.",
+    "aufgabenstellung": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.\n\na) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?\nb) Sechs Rechtecke in einer Reihe — Quadernetz?\nc) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
+    "loesung": "a) Ja — beim Falten entsteht ein Quader.\nb) Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung).\nc) Ja — beim Falten entsteht ein Quader.",
     "loesungsweg": "Um zu prüfen, ob eine Figur ein Quadernetz ist, falte sie im Kopf zusammen:\n- Die gegenüberliegenden Flächen dürfen sich nicht überlappen.\n- Es müssen genau 6 Flächen sein.\n- Jede Kante muss genau an eine andere Kante passen.",
     "tipps": [
       "Stell dir vor, du faltest die Figur wie Karton zusammen. Entsteht eine geschlossene Schachtel ohne Lücken und ohne Überlappung?",
@@ -741,13 +785,25 @@
     "didaktischerHinweis": "Das \"Falten im Kopf\" ist eine zentrale räumliche Fähigkeit. Entspricht S. 108, Aufg. 3 und Video \"Beispiel: Quadernetze\".",
     "parsed": {
       "typ": "wahr-falsch",
-      "anweisung": "",
+      "anweisung": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.",
       "items": [
         {
-          "label": "1",
-          "aussage": "Sind diese Figuren Quadernetze? Falte im Kopf und entscheide.\n\nA) Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?\nB) Sechs Rechtecke in einer Reihe — Quadernetz?\nC) Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
+          "label": "a",
+          "aussage": "Vier Rechtecke in einer Reihe mit je einem Rechteck oben und unten am zweiten Rechteck — Quadernetz?",
+          "richtig": true,
+          "erklaerung": "Ja — beim Falten entsteht ein Quader."
+        },
+        {
+          "label": "b",
+          "aussage": "Sechs Rechtecke in einer Reihe — Quadernetz?",
           "richtig": false,
-          "erklaerung": "A) Ja — beim Falten entsteht ein Quader."
+          "erklaerung": "Nein — die Rechtecke lassen sich nicht zu einem Quader zusammenfalten (es fehlt die Abzweigung)."
+        },
+        {
+          "label": "c",
+          "aussage": "Ein Kreuz aus 4 Rechtecken mit 2 Rechtecken an den Seiten — Quadernetz?",
+          "richtig": true,
+          "erklaerung": "Ja — beim Falten entsteht ein Quader."
         }
       ]
     }
@@ -1248,8 +1304,8 @@
     "kapitel": "10-kreise-muster-körper",
     "stageId": "schraegbilder",
     "digital": "voll",
-    "aufgabenstellung": "Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu. Die Würfelseiten sind rot, blau, gelb, grün, orange und weiß.\n\na) Von vorne\nb) Von der Seite\nc) Von oben\nd) Von schräg oben (Schrägbild)\n\nA) Man sieht 3 Seiten gleichzeitig (z. B. rot, blau und gelb)\nB) Man sieht 1 Seite (z. B. die rote Seite)\nC) Man sieht 1 Seite (z. B. die blaue Seite)\nD) Man sieht 1 Seite (z. B. die gelbe Seite)",
-    "loesung": "a) → B\nb) → C\nc) → D\nd) → A",
+    "aufgabenstellung": "Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu.\n\na) Von vorne\nb) Von der Seite\nc) Von oben\nd) Von schräg oben (Schrägbild)\n\nA) Man sieht 3 Seiten gleichzeitig (Schrägbild)\nB) Man sieht nur 1 Seite (Normalansicht)",
+    "loesung": "a) → B\nb) → B\nc) → B\nd) → A",
     "loesungsweg": "Im Schrägbild sieht man immer genau drei Seiten eines Würfels:\n- Die **Vorderseite** (frontal)\n- Die **Oberseite** (von oben)\n- Eine **Seitenseite** (schräg)\n\nIn der Normalansicht (von vorne, von der Seite, von oben) sieht man jeweils nur EINE Seite.",
     "tipps": [
       "Halte einen Würfel vor dich hin. Wie viele Seiten siehst du von vorne? Und wenn du ihn leicht kippst?",
@@ -1260,7 +1316,7 @@
     "didaktischerHinweis": "Das Verständnis, warum Schrägbilder drei Seiten zeigen, ist fundamental. Entspricht S. 111, Aufg. 10.",
     "parsed": {
       "typ": "zuordnung",
-      "anweisung": "Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu. Die Würfelseiten sind rot, blau, gelb, grün, orange und weiß.",
+      "anweisung": "Ordne jede Perspektive der richtigen Anzahl sichtbarer Seiten zu.",
       "items": [
         {
           "label": "a",
@@ -1282,25 +1338,17 @@
       "choices": [
         {
           "label": "A",
-          "text": "Man sieht 3 Seiten gleichzeitig (z. B. rot, blau und gelb)"
+          "text": "Man sieht 3 Seiten gleichzeitig (Schrägbild)"
         },
         {
           "label": "B",
-          "text": "Man sieht 1 Seite (z. B. die rote Seite)"
-        },
-        {
-          "label": "C",
-          "text": "Man sieht 1 Seite (z. B. die blaue Seite)"
-        },
-        {
-          "label": "D",
-          "text": "Man sieht 1 Seite (z. B. die gelbe Seite)"
+          "text": "Man sieht nur 1 Seite (Normalansicht)"
         }
       ],
       "antworten": {
         "a": "B",
-        "b": "C",
-        "c": "D",
+        "b": "B",
+        "c": "B",
         "d": "A"
       }
     }

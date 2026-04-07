@@ -9,13 +9,13 @@
     "stageId": "vielfache",
     "digital": "voll",
     "aufgabenstellung": "Schreibe die ersten zehn Vielfachen von jeder Zahl auf.\n\na) Vielfache von 6: 6, 12, 18, ___, ___, ___, ___, ___, ___, ___\nb) Vielfache von 9: 9, 18, ___, ___, ___, ___, ___, ___, ___, ___",
-    "loesung": "a) 6, 12, 18, 24, 30, 36, 42, 48, 54, 60\nb) 9, 18, 27, 36, 45, 54, 63, 72, 81, 90",
-    "loesungsweg": "Das Vielfache einer Zahl bekommst du, indem du die Zahl immer wieder dazu addierst (oder mit 1, 2, 3, ... multiplizierst):\n- a) 1 · 6 = 6, 2 · 6 = 12, 3 · 6 = 18, 4 · 6 = 24 ... und so weiter bis 10 · 6 = 60\n- b) 1 · 9 = 9, 2 · 9 = 18, 3 · 9 = 27, 4 · 9 = 36 ... und so weiter bis 10 · 9 = 90",
+    "loesung": "a) 60\nb) 90",
+    "loesungsweg": "Das Vielfache einer Zahl bekommst du, indem du die Zahl immer wieder dazu addierst (oder mit 1, 2, 3, ... multiplizierst):\n- a) 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 → letztes (10.) Vielfaches: 60\n- b) 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 → letztes (10.) Vielfaches: 90",
     "tipps": [
       "Stell dir vor, du zählst immer in gleich großen Schritten auf einem Zahlenstrahl weiter. Bei a) machst du immer 6er-Schritte. Wo landest du als Nächstes nach der 18?",
       "Ein Vielfaches bekommst du durch Multiplizieren: Das 4. Vielfache von 6 ist 4 · 6. Zähle mit der Malreihe durch: 1 · 6 = 6, 2 · 6 = 12, 3 · 6 = 18, 4 · 6 = ...",
       "Bei a): Du hast schon 6, 12, 18. Das nächste ist 18 + 6 = ___. Und dann ___ + 6 = ___. Mach so weiter bis du zehn Zahlen hast.",
-      "Das Vielfache einer Zahl bekommst du, indem du die Zahl immer wieder dazu addierst (oder mit 1, 2, 3, ... multiplizierst):\n- a) 1 · 6 = 6, 2 · 6 = 12, 3 · 6 = 18, 4 · 6 = 24 ... und so weiter bis 10 · 6 = 60\n- b) 1 · 9 = 9, 2 · 9 = 18, 3 · 9 = 27, 4 · 9 = 36 ... und so weiter bis 10 · 9 = 90"
+      "Das Vielfache einer Zahl bekommst du, indem du die Zahl immer wieder dazu addierst (oder mit 1, 2, 3, ... multiplizierst):\n- a) 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 → letztes (10.) Vielfaches: 60\n- b) 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 → letztes (10.) Vielfaches: 90"
     ],
     "didaktischerHinweis": "Das Aufschreiben von Vielfachen trainiert die Malreihen und bildet die Grundlage für Teilbarkeitsüberlegungen und das spätere Dividieren. Entspricht S. 78, Aufg. 2-3.",
     "parsed": {
@@ -25,12 +25,12 @@
         {
           "label": "a",
           "frage": "Vielfache von 6: 6, 12, 18, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "6, 12, 18, 24, 30, 36, 42, 48, 54, 60"
+          "antwort": "60"
         },
         {
           "label": "b",
           "frage": "Vielfache von 9: 9, 18, ___, ___, ___, ___, ___, ___, ___, ___",
-          "antwort": "9, 18, 27, 36, 45, 54, 63, 72, 81, 90"
+          "antwort": "90"
         }
       ]
     }
@@ -45,7 +45,7 @@
     "stageId": "vielfache",
     "digital": "voll",
     "aufgabenstellung": "Schreibe die ersten zehn Vielfachen von 4 und von 8 auf. Welche Vielfachen kommen in beiden Reihen vor?",
-    "loesung": "Vielfache von 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40\nVielfache von 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80\n\nGemeinsame Vielfache: 8, 16, 24, 32, 40",
+    "loesung": "Gemeinsame Vielfache von 4 und 8 bis 40: 8, 16, 24, 32, 40",
     "loesungsweg": "Schreibe zuerst beide Reihen untereinander und vergleiche:\n- V₄: 4, **8**, 12, **16**, 20, **24**, 28, **32**, 36, **40**\n- V₈: **8**, **16**, **24**, **32**, **40**, 48, 56, 64, 72, 80\n\nJedes Vielfache von 8 ist auch ein Vielfaches von 4 — weil 8 selbst ein Vielfaches von 4 ist (2 · 4 = 8).",
     "tipps": [
       "Schreibe beide Zahlenreihen untereinander auf ein Blatt und kreise die Zahlen ein, die in beiden Reihen vorkommen. Was fällt dir auf?",
@@ -61,7 +61,7 @@
         {
           "label": "1",
           "frage": "Schreibe die ersten zehn Vielfachen von 4 und von 8 auf. Welche Vielfachen kommen in beiden Reihen vor?",
-          "antwort": "Vielfache von 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40"
+          "antwort": "Gemeinsame Vielfache von 4 und 8 bis 40: 8, 16, 24, 32, 40"
         }
       ]
     }
@@ -192,7 +192,7 @@
   },
   {
     "titel": "Teiler einer Zahl finden",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Teiler von Zahlen",
     "schwierigkeit": "gelb",
     "buchseite": 79,
@@ -210,8 +210,9 @@
     ],
     "didaktischerHinweis": "Das systematische Finden aller Teiler trainiert Divisionsverständnis. Die Paar-Strategie (jeder Teiler hat einen Partner) ist effizienter als stumpfes Ausprobieren. Entspricht S. 79, Aufg. 1-2.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Finde alle Teiler.",
+      "kontext": "Finde alle Teiler.",
       "items": [
         {
           "label": "a",
@@ -1090,7 +1091,7 @@
     "kapitel": "08-division",
     "stageId": "halbschriftlich-dividieren-2",
     "digital": "voll",
-    "aufgabenstellung": "Vergleiche die vier Aufgaben. Wie verändern sie sich? Rechne.\n\na) 255 : 3 =\nb) 2.550 : 3 =\nc) 25.500 : 3 =",
+    "aufgabenstellung": "Vergleiche die drei Aufgaben. Wie verändern sie sich? Rechne.\n\na) 255 : 3 =\nb) 2.550 : 3 =\nc) 25.500 : 3 =",
     "loesung": "a) 85\nb) 850\nc) 8.500",
     "loesungsweg": "Die Aufgaben gehören zusammen — bei jeder wird eine Null angehängt:\n- a) 255 : 3 → 240 : 3 = 80, 15 : 3 = 5 → 85\n- b) 2.550 : 3 → Gleiche Grundaufgabe, aber mal 10 → 850\n- c) 25.500 : 3 → Gleiche Grundaufgabe, aber mal 100 → 8.500\n\nMuster: Wird der Dividend 10-mal so groß, wird auch das Ergebnis 10-mal so groß!",
     "tipps": [
@@ -1102,7 +1103,7 @@
     "didaktischerHinweis": "Verwandte Aufgabenreihen trainieren das Erkennen von Mustern und das Stellenwertverständnis. Das Kind lernt: \"Wenn der Dividend 10-mal so groß wird, wird auch der Quotient 10-mal so groß.\" Entspricht S. 83, Aufg. 7.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Vergleiche die vier Aufgaben. Wie verändern sie sich? Rechne.",
+      "anweisung": "Vergleiche die drei Aufgaben. Wie verändern sie sich? Rechne.",
       "items": [
         {
           "label": "a",
@@ -1314,7 +1315,7 @@
     "kapitel": "08-division",
     "stageId": "teilbarkeitsregeln",
     "digital": "voll",
-    "aufgabenstellung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...\n\na) durch 5 teilbar sind? 78__, 43__, 63__, 19__\nb) durch 2 teilbar sind? 78__, 43__, 63__, 19__\nc) durch 5 UND durch 2 teilbar sind? 78__, 43__, 63__, 19__",
+    "aufgabenstellung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest ...\n\na) durch 5 teilbar sind? 78___, 43__, 63__, 19__\nb) durch 2 teilbar sind? 78___, 43__, 63__, 19__\nc) durch 5 UND durch 2 teilbar sind? 78___, 43__, 63__, 19__",
     "loesung": "a) Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195\nb) Durch 2 teilbar → Einerstelle gerade: 780/782/784/786/788, 430/432/434/436/438, 630/632/634/636/638, 190/192/194/196/198\nc) Durch 5 UND 2 → Einerstelle muss 0 sein: 780, 430, 630, 190",
     "loesungsweg": "- a) Durch 5: Die letzte Ziffer muss 0 oder 5 sein → 2 Möglichkeiten pro Zahl\n- b) Durch 2: Die letzte Ziffer muss gerade sein (0, 2, 4, 6, 8) → 5 Möglichkeiten pro Zahl\n- c) Durch 5 UND 2: Die letzte Ziffer muss BEIDE Regeln erfüllen → nur 0 funktioniert → 1 Möglichkeit",
     "tipps": [
@@ -1330,17 +1331,17 @@
       "items": [
         {
           "label": "a",
-          "frage": "durch 5 teilbar sind? 78__, 43__, 63__, 19__",
+          "frage": "durch 5 teilbar sind? 78___, 43__, 63__, 19__",
           "antwort": "Durch 5 teilbar → Einerstelle 0 oder 5: 780/785, 430/435, 630/635, 190/195"
         },
         {
           "label": "b",
-          "frage": "durch 2 teilbar sind? 78__, 43__, 63__, 19__",
+          "frage": "durch 2 teilbar sind? 78___, 43__, 63__, 19__",
           "antwort": "Durch 2 teilbar → Einerstelle gerade: 780/782/784/786/788, 430/432/434/436/438, 630/632/634/636/638, 190/192/194/196/198"
         },
         {
           "label": "c",
-          "frage": "durch 5 UND durch 2 teilbar sind? 78__, 43__, 63__, 19__",
+          "frage": "durch 5 UND durch 2 teilbar sind? 78___, 43__, 63__, 19__",
           "antwort": "Durch 5 UND 2 → Einerstelle muss 0 sein: 780, 430, 630, 190"
         }
       ]

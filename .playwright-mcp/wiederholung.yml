@@ -1,0 +1,70 @@
+- generic [ref=e102]:
+  - generic [ref=e103]:
+    - banner [ref=e104]:
+      - generic [ref=e105]:
+        - heading "Hallo Test!" [level=1] [ref=e106]
+        - paragraph [ref=e107]: Was möchtest du üben?
+    - main [ref=e108]:
+      - button "Profil wechseln" [ref=e110] [cursor=pointer]:
+        - img "fuchs" [ref=e112]
+        - generic [ref=e113]: Wechseln
+      - generic [ref=e114]:
+        - img
+        - textbox "Aufgabentyp suchen..." [ref=e115]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - button "Grundübungen 11" [ref=e118] [cursor=pointer]
+          - generic [ref=e125]
+        - generic [ref=e214]:
+          - button "Wiederholung 8" [active] [ref=e215] [cursor=pointer]
+          - generic [ref=e221]
+        - generic [ref=e286]:
+          - button "Zahlen bis zur Million 6" [ref=e287] [cursor=pointer]
+          - generic [ref=e293]
+        - generic [ref=e342]:
+          - button "Addition & Subtraktion 5" [ref=e343] [cursor=pointer]
+          - generic [ref=e349]
+        - generic [ref=e390]:
+          - button "Geometrie 2" [ref=e391] [cursor=pointer]
+          - generic [ref=e397]
+        - generic [ref=e414]:
+          - button "Multiplikation 6" [ref=e415] [cursor=pointer]
+          - generic [ref=e421]
+        - generic [ref=e470]:
+          - button "Größen & Skizzen 5" [ref=e471] [cursor=pointer]
+          - generic [ref=e477]
+        - generic [ref=e518]:
+          - button "Daten & Zufall 3" [ref=e519] [cursor=pointer]
+          - generic [ref=e525]
+        - generic [ref=e550]:
+          - button "Division 9" [ref=e551] [cursor=pointer]
+          - generic [ref=e557]
+        - generic [ref=e630]:
+          - button "Brüche & Maße 4" [ref=e631] [cursor=pointer]
+          - generic [ref=e637]
+        - generic [ref=e670]:
+          - button "Kreise & Körper 3" [ref=e671] [cursor=pointer]
+          - generic [ref=e677]
+        - generic [ref=e702]:
+          - button "Sachrechnen 1" [ref=e703] [cursor=pointer]
+          - button "Sachaufgaben Sachrechnen (30 Aufgaben) 0" [ref=e710] [cursor=pointer]
+        - generic [ref=e718]:
+          - button "Maßstab & Orientierung 2" [ref=e719] [cursor=pointer]
+          - generic [ref=e725]
+        - generic [ref=e742]:
+          - button "Schaubilder & Daten 1" [ref=e743] [cursor=pointer]
+          - button "Tabellen & Diagramme Schaubilder & Daten (7 Aufgaben) 0" [ref=e750] [cursor=pointer]
+        - generic [ref=e758]:
+          - button "Forscherkiste 4" [ref=e759] [cursor=pointer]
+          - generic [ref=e765]
+  - navigation [ref=e798]:
+    - generic [ref=e799]:
+      - button "Üben" [ref=e800] [cursor=pointer]:
+        - img [ref=e801]
+        - generic [ref=e806]: Üben
+      - button "Fortschritt" [ref=e807] [cursor=pointer]:
+        - img [ref=e808]
+        - generic [ref=e809]: Fortschritt
+      - button "Eltern" [ref=e810] [cursor=pointer]:
+        - img [ref=e811]
+        - generic [ref=e814]: Eltern

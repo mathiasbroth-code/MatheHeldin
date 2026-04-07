@@ -1,0 +1,13 @@
+- generic [ref=e5]:
+  - heading "Mathe-Heldin" [level=1] [ref=e6]
+  - paragraph [ref=e7]: Üben mit Bildern und Blöcken
+  - paragraph [ref=e8]: Wer übt heute?
+  - generic [ref=e9]:
+    - button "fuchs Test" [ref=e10] [cursor=pointer]:
+      - img "fuchs" [ref=e13]
+      - generic [ref=e14]: Test
+    - button "+ Neu" [ref=e15] [cursor=pointer]:
+      - generic [ref=e16]: +
+      - generic [ref=e17]: Neu
+  - paragraph [ref=e18]: Rechtsklick auf ein Profil zum Löschen
+  - paragraph [ref=e19]: Eltern-Bereich (kommt bald)

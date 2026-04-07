@@ -1,0 +1,38 @@
+- generic [ref=e817]:
+  - banner [ref=e818]:
+    - button "Zurück" [ref=e819] [cursor=pointer]:
+      - img [ref=e820]
+    - generic [ref=e822]: 📖
+    - generic [ref=e823]:
+      - heading "1.000 und weiter" [level=1] [ref=e824]
+      - paragraph [ref=e825]: Wiederholung (7 Aufgaben)
+    - generic [ref=e826]:
+      - button "Erklärung schließen" [active] [ref=e861] [cursor=pointer]: "?"
+      - button "Tipp anzeigen" [ref=e828] [cursor=pointer]:
+        - img [ref=e829]
+      - button "Zeichenfeld öffnen" [ref=e831] [cursor=pointer]:
+        - img [ref=e832]
+  - generic [ref=e835]:
+    - progressbar [ref=e836]
+    - generic [ref=e837]: 0/5
+  - main [ref=e838]:
+    - generic [ref=e839]:
+      - generic [ref=e840]:
+        - button "Alle" [ref=e841] [cursor=pointer]
+        - button "Einfach (4)" [ref=e842] [cursor=pointer]
+        - button "Kern (1)" [ref=e843] [cursor=pointer]
+        - button "Knifflig (2)" [ref=e844] [cursor=pointer]
+      - generic [ref=e845]:
+        - paragraph [ref=e846]: 1.000 und weiter
+        - paragraph [ref=e847]: Welche Zahl ist es? — Stellenwerte benennen
+      - generic [ref=e862]:
+        - paragraph [ref=e863]: Was lernst du hier?
+        - img "Erklärung aus dem Buch" [ref=e864]
+        - paragraph [ref=e865]: Diese Aufgabe trainiert das Verständnis des Stellenwertsystems. Kinder müssen erkennen, dass fehlende Stellenwerte als 0 notiert werden (z.B. 1.007 hat null Hunderter und null Zehner). Das ist eine häufige Fehlerquelle. ---
+      - generic [ref=e848]:
+        - paragraph [ref=e851]: Welche Zahl ist es? Meine Zahl hat ...
+        - paragraph [ref=e854]: 1 Tausender, 2 Hunderter, 5 Zehner und 3 Einer.
+        - textbox "Deine Antwort" [ref=e856]
+        - paragraph [ref=e857]: Teilaufgabe 1 von 4
+        - button "Prüfen" [ref=e859] [cursor=pointer]
+      - button "Nächste Aufgabe →" [ref=e860] [cursor=pointer]

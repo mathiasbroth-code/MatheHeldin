@@ -139,15 +139,15 @@
   },
   {
     "titel": "Welche Strecke ist länger?",
-    "typ": "eingabe",
+    "typ": "auswahl",
     "thema": "Entfernungen",
     "schwierigkeit": "gelb",
     "buchseite": 68,
     "kapitel": "06-gewichte-längen-skizzen-intensiv",
     "stageId": "entfernungen-km",
     "digital": "voll",
-    "aufgabenstellung": "Welche Strecke ist länger? Kreuze an.\n\na) 3,5 km oder 3.200 m?\nb) 800 m oder 0,9 km?\nc) 1 km 400 m oder 1,04 km?\nd) 10,5 km oder 10 km 500 m?",
-    "loesung": "a) 3,5 km (= 3.500 m > 3.200 m)\nb) 0,9 km (= 900 m > 800 m)\nc) 1 km 400 m (= 1,4 km > 1,04 km)\nd) Gleich lang! 10,5 km = 10 km 500 m",
+    "aufgabenstellung": "Welche Strecke ist länger? Wähle die richtige Antwort.\n\na) 3,5 km oder 3.200 m?\n   - 3,5 km\n   - 3.200 m\n   - Gleich lang\n\nb) 800 m oder 0,9 km?\n   - 800 m\n   - 0,9 km\n   - Gleich lang\n\nc) 1 km 400 m oder 1,04 km?\n   - 1 km 400 m\n   - 1,04 km\n   - Gleich lang\n\nd) 10,5 km oder 10 km 500 m?\n   - 10,5 km\n   - 10 km 500 m\n   - Gleich lang",
+    "loesung": "a) 3,5 km\nb) 0,9 km\nc) 1 km 400 m\nd) Gleich lang",
     "loesungsweg": "Alles in die gleiche Einheit umwandeln und vergleichen:\n- a) 3,5 km = 3.500 m > 3.200 m ✓\n- b) 0,9 km = 900 m > 800 m ✓\n- c) 1 km 400 m = 1,4 km > 1,04 km ✓\n- d) 10,5 km = 10 km 500 m → gleich!",
     "tipps": [
       "Wenn zwei Strecken in unterschiedlichen Einheiten angegeben sind, wandle beide in die gleiche Einheit um. Dann kannst du die Zahlen direkt vergleichen.",
@@ -157,30 +157,28 @@
     ],
     "didaktischerHinweis": "Vergleichsaufgaben trainieren das Einheitenverständnis. Besonders c) zeigt eine typische Verwechslung: 1 km 400 m ist NICHT 1,4 km sondern ... doch! Aber 1,04 km = 1 km 40 m. d) ist ein Aha-Erlebnis: Beide sind gleich!",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "Welche Strecke ist länger? Kreuze an.",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Welche Strecke ist länger? Wähle die richtige Antwort.",
+      "optionen": [
         {
-          "label": "a",
-          "frage": "3,5 km oder 3.200 m?",
-          "antwort": "3,5 km (= 3.500 m > 3.200 m)"
+          "label": "A",
+          "text": "3,5 km oder 3.200 m?"
         },
         {
-          "label": "b",
-          "frage": "800 m oder 0,9 km?",
-          "antwort": "0,9 km (= 900 m > 800 m)"
+          "label": "B",
+          "text": "800 m oder 0,9 km?"
         },
         {
-          "label": "c",
-          "frage": "1 km 400 m oder 1,04 km?",
-          "antwort": "1 km 400 m (= 1,4 km > 1,04 km)"
+          "label": "C",
+          "text": "1 km 400 m oder 1,04 km?"
         },
         {
-          "label": "d",
-          "frage": "10,5 km oder 10 km 500 m?",
-          "antwort": "Gleich lang! 10,5 km = 10 km 500 m"
+          "label": "D",
+          "text": "10,5 km oder 10 km 500 m?"
         }
-      ]
+      ],
+      "richtigeIdx": 0
     }
   },
   {
@@ -829,7 +827,7 @@
     "stageId": "geschwindigkeiten",
     "digital": "voll",
     "aufgabenstellung": "Berechne die Geschwindigkeit in km/h.\n\na) Ein Läufer rennt 12 km in 2 Stunden. Wie schnell ist er?\nb) Ein Radfahrer fährt 45 km in 3 Stunden. Wie schnell ist er?\nc) Wer ist schneller?",
-    "loesung": "a) 6\nb) 15\nc) Der Radfahrer ist schneller.",
+    "loesung": "a) 6\nb) 15\nc) Radfahrer (20 km/h > 10 km/h)",
     "loesungsweg": "Geschwindigkeit = Strecke ÷ Zeit:\n- a) 12 ÷ 2 = 6 km/h\n- b) 45 ÷ 3 = 15 km/h\n- c) 15 > 6 → Radfahrer ist schneller",
     "tipps": [
       "km/h bedeutet \"Kilometer pro Stunde\". Wie viel Kilometer schafft jeder in EINER Stunde?",
@@ -856,7 +854,7 @@
         {
           "label": "c",
           "frage": "Wer ist schneller?",
-          "antwort": "Der Radfahrer ist schneller."
+          "antwort": "Radfahrer (20 km/h > 10 km/h)"
         }
       ]
     }
@@ -958,30 +956,40 @@
     "kapitel": "06-gewichte-längen-skizzen-intensiv",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |\n\na) Wie viele Kilometer fahren sie in jedem Abschnitt?\nb) Wie weit wohnt Oma insgesamt entfernt?",
-    "loesung": "a) Stadt: 25 km, Landstrasse: 80 km, Autobahn: 60 km\nb) 165 km",
-    "loesungsweg": "- Stadt: 50 km/h × 0,5 h = 25 km\n- Landstrasse: 80 km/h × 1 h = 80 km\n- Autobahn: 120 km/h × 0,5 h = 60 km\n- Gesamt: 25 + 80 + 60 = 165 km",
+    "aufgabenstellung": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |\n\nWie viele Kilometer fahren sie in jedem Abschnitt?\n\na) Durch die Stadt: ___ km\nb) Über die Landstrasse: ___ km\nc) Auf der Autobahn: ___ km\nd) Wie weit wohnt Oma insgesamt entfernt? ___ km",
+    "loesung": "a) 25\nb) 80\nc) 60\nd) 165",
+    "loesungsweg": "- a) Stadt: 50 km/h × 0,5 h = 25 km\n- b) Landstrasse: 80 km/h × 1 h = 80 km\n- c) Autobahn: 120 km/h × 0,5 h = 60 km\n- d) Gesamt: 25 + 80 + 60 = 165 km",
     "tipps": [
       "Berechne für jeden Abschnitt einzeln: Wie weit kommt man in der angegebenen Zeit mit der angegebenen Geschwindigkeit?",
       "Strecke = Geschwindigkeit × Zeit. Bei 30 Minuten: Das ist eine halbe Stunde, also Geschwindigkeit ÷ 2.",
       "Stadt: 50 km/h für 30 min = halbe Stunde. 50 ÷ 2 = 25 km.\nLandstrasse: 80 km/h für 1 Stunde = 80 km.\nAutobahn: 120 ÷ 2 = ? km.\nGesamt: 25 + 80 + ? = ?",
-      "- Stadt: 50 km/h × 0,5 h = 25 km\n- Landstrasse: 80 km/h × 1 h = 80 km\n- Autobahn: 120 km/h × 0,5 h = 60 km\n- Gesamt: 25 + 80 + 60 = 165 km"
+      "- a) Stadt: 50 km/h × 0,5 h = 25 km\n- b) Landstrasse: 80 km/h × 1 h = 80 km\n- c) Autobahn: 120 km/h × 0,5 h = 60 km\n- d) Gesamt: 25 + 80 + 60 = 165 km"
     ],
     "didaktischerHinweis": "Alltagsnahe mehrstufige Aufgabe: verschiedene Geschwindigkeiten auf verschiedenen Straßentypen. Die Tabelle strukturiert die Informationen. Die Kombination aus ganzen und halben Stunden festigt das proportionale Denken.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |",
-      "kontext": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |",
+      "anweisung": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |\n\nWie viele Kilometer fahren sie in jedem Abschnitt?",
+      "kontext": "Familie Müller fährt mit dem Auto zu Oma. Die Fahrt hat drei Abschnitte:\n\n| Abschnitt | Geschwindigkeit | Zeit |\n|-----------|----------------|------|\n| Durch die Stadt | 50 km/h | 30 min |\n| Über die Landstrasse | 80 km/h | 1 Stunde |\n| Auf der Autobahn | 120 km/h | 30 min |\n\nWie viele Kilometer fahren sie in jedem Abschnitt?",
       "items": [
         {
           "label": "a",
-          "frage": "Wie viele Kilometer fahren sie in jedem Abschnitt?",
-          "antwort": "Stadt: 25 km, Landstrasse: 80 km, Autobahn: 60 km"
+          "frage": "Durch die Stadt: ___ km",
+          "antwort": "25"
         },
         {
           "label": "b",
-          "frage": "Wie weit wohnt Oma insgesamt entfernt?",
-          "antwort": "165 km"
+          "frage": "Über die Landstrasse: ___ km",
+          "antwort": "80"
+        },
+        {
+          "label": "c",
+          "frage": "Auf der Autobahn: ___ km",
+          "antwort": "60"
+        },
+        {
+          "label": "d",
+          "frage": "Wie weit wohnt Oma insgesamt entfernt? ___ km",
+          "antwort": "165"
         }
       ]
     }
@@ -1160,7 +1168,7 @@
   },
   {
     "titel": "Wettlauf verschiedener Fahrzeuge — Tabelle ausfüllen",
-    "typ": "textaufgabe",
+    "typ": "schritt",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "orange",
     "buchseite": 69,
@@ -1168,24 +1176,68 @@
     "stageId": "geschwindigkeiten",
     "digital": "voll",
     "aufgabenstellung": "Fülle die Tabelle aus. Berechne die fehlenden Werte.\n\n| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | ? | 15 km/h | 2 Stunden |\n| Auto | 200 km | ? | 4 Stunden |\n| Zug | 300 km | 150 km/h | ? |\n| Flugzeug | 1.600 km | 800 km/h | ? |",
-    "loesung": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | 30 km | 15 km/h | 2 Stunden |\n| Auto | 200 km | 50 km/h | 4 Stunden |\n| Zug | 300 km | 150 km/h | 2 Stunden |\n| Flugzeug | 1.600 km | 800 km/h | 2 Stunden |",
-    "loesungsweg": "- Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)\n- Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)\n- Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)\n- Flugzeug: 1.600 ÷ 800 = 2 Stunden",
+    "loesung": "1. Fahrrad: Strecke = 30 km\n2. Auto: Geschwindigkeit = 50 km/h\n3. Zug: Zeit = 2 Stunden\n4. Flugzeug: Zeit = 2 Stunden",
+    "loesungsweg": "Vollständige Tabelle:\n| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | 30 km | 15 km/h | 2 Stunden |\n| Auto | 200 km | 50 km/h | 4 Stunden |\n| Zug | 300 km | 150 km/h | 2 Stunden |\n| Flugzeug | 1.600 km | 800 km/h | 2 Stunden |\n\nRechenweg:\n- Schritt 1 — Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)\n- Schritt 2 — Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)\n- Schritt 3 — Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)\n- Schritt 4 — Flugzeug: 1.600 ÷ 800 = 2 Stunden",
     "tipps": [
       "Es gibt drei Größen: Strecke, Geschwindigkeit, Zeit. Wenn du zwei kennst, kannst du die dritte berechnen!",
       "- Strecke fehlt: Geschwindigkeit × Zeit\n- Geschwindigkeit fehlt: Strecke ÷ Zeit\n- Zeit fehlt: Strecke ÷ Geschwindigkeit",
       "Fahrrad: 15 km/h für 2 Stunden. 15 × 2 = ? km.\nAuto: 200 km in 4 Stunden. 200 ÷ 4 = ? km/h.\nZug: 300 km mit 150 km/h. 300 ÷ 150 = ? Stunden.",
-      "- Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)\n- Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)\n- Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)\n- Flugzeug: 1.600 ÷ 800 = 2 Stunden"
+      "Vollständige Tabelle:\n| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | 30 km | 15 km/h | 2 Stunden |\n| Auto | 200 km | 50 km/h | 4 Stunden |\n| Zug | 300 km | 150 km/h | 2 Stunden |\n| Flugzeug | 1.600 km | 800 km/h | 2 Stunden |\n\nRechenweg:\n- Schritt 1 — Fahrrad: 15 × 2 = 30 km (Strecke = Geschwindigkeit × Zeit)\n- Schritt 2 — Auto: 200 ÷ 4 = 50 km/h (Geschwindigkeit = Strecke ÷ Zeit)\n- Schritt 3 — Zug: 300 ÷ 150 = 2 Stunden (Zeit = Strecke ÷ Geschwindigkeit)\n- Schritt 4 — Flugzeug: 1.600 ÷ 800 = 2 Stunden"
     ],
     "didaktischerHinweis": "Alle drei Grundaufgaben (Strecke, Geschwindigkeit, Zeit berechnen) in einer Tabelle. Das ist eine gute Zusammenfassung und Vertiefung. Die Ergebnisse bilden ein Muster: Drei Fahrzeuge brauchen je 2 Stunden, obwohl die Strecken und Geschwindigkeiten sehr verschieden sind.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "schritt",
       "anweisung": "Fülle die Tabelle aus. Berechne die fehlenden Werte.",
-      "kontext": "Fülle die Tabelle aus. Berechne die fehlenden Werte.",
-      "items": [
+      "teilaufgaben": [
         {
           "label": "1",
-          "frage": "| Fahrzeug | Strecke | Geschwindigkeit | Zeit |\n|----------|---------|----------------|------|\n| Fahrrad | ? | 15 km/h | 2 Stunden |\n| Auto | 200 km | ? | 4 Stunden |\n| Zug | 300 km | 150 km/h | ? |\n| Flugzeug | 1.600 km | 800 km/h | ? |",
-          "antwort": "|----------|---------|----------------|------|"
+          "schritte": [
+            {
+              "label": "1",
+              "frage": "Fahrrad · Strecke =",
+              "antwort": ""
+            },
+            {
+              "label": "2",
+              "frage": "Fahrrad · Geschwindigkeit =",
+              "antwort": ""
+            },
+            {
+              "label": "3",
+              "frage": "Fahrrad · Zeit =",
+              "antwort": ""
+            },
+            {
+              "label": "4",
+              "frage": "Auto · Strecke =",
+              "antwort": ""
+            },
+            {
+              "label": "5",
+              "frage": "Auto · Geschwindigkeit =",
+              "antwort": ""
+            },
+            {
+              "label": "6",
+              "frage": "Auto · Zeit =",
+              "antwort": ""
+            },
+            {
+              "label": "7",
+              "frage": "Zug · Strecke =",
+              "antwort": ""
+            },
+            {
+              "label": "8",
+              "frage": "Zug · Geschwindigkeit =",
+              "antwort": ""
+            },
+            {
+              "label": "9",
+              "frage": "Zug · Zeit =",
+              "antwort": ""
+            }
+          ]
         }
       ]
     }
@@ -1200,7 +1252,7 @@
     "stageId": "geschwindigkeiten",
     "digital": "voll",
     "aufgabenstellung": "Mara trainiert für einen Volkslauf über 10 km. Sie läuft mit 8 km/h.\n\na) Wie lange braucht sie für die 10 km?\nb) Der Lauf beginnt um 10:00 Uhr. Um wie viel Uhr kommt Mara ins Ziel?\nc) Ihr Bruder Tim läuft mit 10 km/h. Um wie viel Uhr kommt er ins Ziel?\nd) Wie viele Minuten früher als Mara kommt Tim an?",
-    "loesung": "a) 1 Stunde 15 Minuten\nb) 11:15 Uhr\nc) 11:00 Uhr\nd) 15 Minuten",
+    "loesung": "a) 1 Stunde 15 Minuten\nb) 11:15\nc) 11:00\nd) 15 Minuten",
     "loesungsweg": "- a) 10 ÷ 8 = 1,25 Stunden = 1 Stunde 15 Minuten\n- b) 10:00 + 1:15 = 11:15 Uhr\n- c) 10 ÷ 10 = 1 Stunde → 10:00 + 1:00 = 11:00 Uhr\n- d) 11:15 − 11:00 = 15 Minuten",
     "tipps": [
       "Wie lange braucht Mara für 10 km, wenn sie 8 km pro Stunde schafft? Und Tim, wenn er 10 km pro Stunde schafft?",
@@ -1222,12 +1274,12 @@
         {
           "label": "b",
           "frage": "Der Lauf beginnt um 10:00 Uhr. Um wie viel Uhr kommt Mara ins Ziel?",
-          "antwort": "11:15 Uhr"
+          "antwort": "11:15"
         },
         {
           "label": "c",
           "frage": "Ihr Bruder Tim läuft mit 10 km/h. Um wie viel Uhr kommt er ins Ziel?",
-          "antwort": "11:00 Uhr"
+          "antwort": "11:00"
         },
         {
           "label": "d",
@@ -1247,7 +1299,7 @@
     "stageId": "geschwindigkeiten",
     "digital": "voll",
     "aufgabenstellung": "Zwei Städte sind 300 km voneinander entfernt. Um 8:00 Uhr fährt ein Auto von Stadt A los (mit 80 km/h) und gleichzeitig ein Auto von Stadt B (mit 70 km/h). Die Autos fahren aufeinander zu.\n\na) Wie viele Kilometer legen beide Autos zusammen in einer Stunde zurück?\nb) Nach wie vielen Stunden treffen sie sich?\nc) Um wie viel Uhr treffen sie sich?",
-    "loesung": "a) 150 km\nb) 2 Stunden\nc) 10:00 Uhr",
+    "loesung": "a) 150 km\nb) 2 Stunden\nc) 10:00",
     "loesungsweg": "- a) 80 + 70 = 150 km pro Stunde (zusammen)\n- b) 300 ÷ 150 = 2 Stunden\n- c) 8:00 + 2:00 = 10:00 Uhr",
     "tipps": [
       "Wenn beide aufeinander zufahren, verringert sich der Abstand mit jedem Augenblick. Wie viele Kilometer kommen sie sich in einer Stunde näher?",
@@ -1274,7 +1326,7 @@
         {
           "label": "c",
           "frage": "Um wie viel Uhr treffen sie sich?",
-          "antwort": "10:00 Uhr"
+          "antwort": "10:00"
         }
       ]
     }
@@ -2652,7 +2704,7 @@
     "kapitel": "07-kombinatorik-intensiv",
     "stageId": "haeufigkeitsanalyse",
     "digital": "voll",
-    "aufgabenstellung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |\n\na) Übertrage in eine Tabelle mit Zahlen.\nb) Welcher Buchstabe kommt am häufigsten vor?\nc) Welche zwei Buchstaben kommen zusammen genauso oft vor wie E?",
+    "aufgabenstellung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | 𝍸 IIII |\n| S | IIII |\n| A | III |\n\na) Übertrage in eine Tabelle mit Zahlen.\nb) Welcher Buchstabe kommt am häufigsten vor?\nc) Welche zwei Buchstaben kommen zusammen genauso oft vor wie E?",
     "loesung": "a)\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 12 |\n| N | 8 |\n| R | 6 |\n| T | 9 |\n| S | 5 |\n| A | 3 |\n\nb) E (12-mal)\nc) R + T = 6 + 9 = 15 (zu viel), N + S = 8 + 5 = 13 (zu viel), S + R = 5 + 6 = 11 (fast), A + T = 3 + 9 = 12 ✓",
     "loesungsweg": "Strichlisten zählen: IIII = 5, IIII I = 6, IIII III = 8, usw.\n- a) E: 12, N: 8, R: 6, T: 9, S: 5, A: 3\n- b) 12 > 9 > 8 > 6 > 5 > 3 → E ist am häufigsten\n- c) Gesucht: zwei Buchstaben mit Summe 12. A(3) + T(9) = 12 ✓",
     "tipps": [
@@ -2664,8 +2716,8 @@
     "didaktischerHinweis": "Strichlisten lesen und in Zahlen umwandeln: eine grundlegende Datenkompetenz. Die 5er-Bündelung (Querstrich) muss beherrscht werden. Teil c) verbindet Datenanalyse mit Addition.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |",
-      "kontext": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | IIII IIII |\n| S | IIII |\n| A | III |",
+      "anweisung": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | 𝍸 IIII |\n| S | IIII |\n| A | III |",
+      "kontext": "Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:\n\n| Buchstabe | Strichliste |\n|-----------|-------------|\n| E | IIII IIII II |\n| N | IIII III |\n| R | IIII I |\n| T | 𝍸 IIII |\n| S | IIII |\n| A | III |",
       "items": [
         {
           "label": "a",

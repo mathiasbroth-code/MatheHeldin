@@ -1,0 +1,79 @@
+- generic [ref=e15]:
+  - banner [ref=e16]:
+    - button "Zurück" [ref=e17] [cursor=pointer]:
+      - img [ref=e18]
+    - heading "Neues Profil" [level=1] [ref=e21]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - img "fuchs" [ref=e25]
+      - paragraph [ref=e26]: ...
+    - generic [ref=e27]:
+      - paragraph [ref=e28]: Dein Tier
+      - generic [ref=e29]:
+        - button "fuchs Fuchs" [ref=e30] [cursor=pointer]:
+          - img "fuchs" [ref=e32]
+          - generic [ref=e33]: Fuchs
+        - button "eule Eule" [ref=e34] [cursor=pointer]:
+          - img "eule" [ref=e36]
+          - generic [ref=e37]: Eule
+        - button "katze Katze" [ref=e38] [cursor=pointer]:
+          - img "katze" [ref=e40]
+          - generic [ref=e41]: Katze
+        - button "hase Hase" [ref=e42] [cursor=pointer]:
+          - img "hase" [ref=e44]
+          - generic [ref=e45]: Hase
+        - button "drache Drache" [ref=e46] [cursor=pointer]:
+          - img "drache" [ref=e48]
+          - generic [ref=e49]: Drache
+    - generic [ref=e50]:
+      - paragraph [ref=e51]: Fellfarbe
+      - generic [ref=e52]:
+        - button "Teal" [ref=e53] [cursor=pointer]
+        - button "Rose" [ref=e54] [cursor=pointer]
+        - button "Lila" [ref=e55] [cursor=pointer]
+        - button "Blau" [ref=e56] [cursor=pointer]
+        - button "Gold" [ref=e57] [cursor=pointer]
+        - button "Grün" [ref=e58] [cursor=pointer]
+    - generic [ref=e59]:
+      - paragraph [ref=e60]: Accessoire
+      - generic [ref=e61]:
+        - button "✕ Keins" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: ✕
+          - generic [ref=e64]: Keins
+        - button "👑 Krone" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 👑
+          - generic [ref=e67]: Krone
+        - button "👓 Brille" [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]: 👓
+          - generic [ref=e70]: Brille
+        - button "😎 Sonnenbr." [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]: 😎
+          - generic [ref=e73]: Sonnenbr.
+        - button "🎀 Schleife" [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]: 🎀
+          - generic [ref=e76]: Schleife
+        - button "🌸 Blume" [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: 🌸
+          - generic [ref=e79]: Blume
+        - button "✨ Zauberstab" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: ✨
+          - generic [ref=e82]: Zauberstab
+        - button "🎧 Kopfhörer" [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: 🎧
+          - generic [ref=e85]: Kopfhörer
+        - button "🧢 Mütze" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: 🧢
+          - generic [ref=e88]: Mütze
+        - button "☠️ Pirat" [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]: ☠️
+          - generic [ref=e91]: Pirat
+        - button "⭐ Haarreif" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: ⭐
+          - generic [ref=e94]: Haarreif
+        - button "🍽 Fliege" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: 🍽
+          - generic [ref=e97]: Fliege
+    - generic [ref=e98]:
+      - paragraph [ref=e99]: Dein Name
+      - textbox "Wie heißt du?" [ref=e100]
+    - button "Los geht's!" [disabled] [ref=e101]

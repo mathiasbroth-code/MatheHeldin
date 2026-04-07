@@ -1,0 +1,46 @@
+- generic [ref=e707]:
+  - banner [ref=e708]:
+    - button "Zurück" [ref=e709] [cursor=pointer]:
+      - img [ref=e710]
+    - generic [ref=e712]: 🗺️
+    - generic [ref=e713]:
+      - heading "Entfernungen" [level=1] [ref=e714]
+      - paragraph [ref=e715]: Größen & Skizzen (15 Aufgaben)
+    - generic [ref=e716]:
+      - button "Was lernst du hier?" [ref=e717] [cursor=pointer]: "?"
+      - button "Tipp anzeigen" [ref=e718] [cursor=pointer]:
+        - img [ref=e719]
+  - generic [ref=e722]:
+    - progressbar [ref=e723]
+    - generic [ref=e724]: 0/5
+  - main [ref=e725]:
+    - generic [ref=e726]:
+      - generic [ref=e727]:
+        - button "Alle" [ref=e728] [cursor=pointer]
+        - button "Einfach (6)" [ref=e729] [cursor=pointer]
+        - button "Kern (5)" [ref=e730] [cursor=pointer]
+        - button "Knifflig (4)" [ref=e731] [cursor=pointer]
+      - generic [ref=e732]:
+        - paragraph [ref=e733]: Entfernungen
+        - paragraph [ref=e734]: Urlaubsfahrt — km und Pausen
+      - generic [ref=e875]:
+        - generic [ref=e878]: 145 km
+        - generic [ref=e880]: 87 km
+        - generic [ref=e882]: 63 km
+        - generic [ref=e885]: Zuhause
+        - generic [ref=e888]: Raststätte
+        - generic [ref=e891]: Grenze
+        - generic [ref=e894]: Hotel
+      - generic [ref=e895]:
+        - generic [ref=e897]:
+          - paragraph [ref=e898]: "Die Familie fährt in den Urlaub. Die Route:"
+          - paragraph [ref=e899]: "• Zuhause → Raststätte: 145 km"
+          - paragraph [ref=e900]: "• Raststätte → Grenze: 87 km"
+          - paragraph [ref=e901]: "• Grenze → Hotel: 63 km"
+          - paragraph [ref=e903]: "Rechne Schritt für Schritt:"
+        - generic [ref=e904]:
+          - paragraph [ref=e905]: Schritt 1 von 3
+          - paragraph [ref=e907]: "Zuhause → Raststätte: 145 km"
+        - textbox "= ?" [active] [ref=e909]
+        - button "Prüfen" [ref=e911] [cursor=pointer]
+      - button "Nächste Aufgabe →" [ref=e763] [cursor=pointer]

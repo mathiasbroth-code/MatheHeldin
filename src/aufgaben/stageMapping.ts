@@ -91,7 +91,8 @@ export const STAGE_MAPPING: StageMappingEntry[] = [
   // ── Geometrie (Kap. 4, S. 46–53) ──
   { stageId: 'achsensymmetrie', titel: 'Achsensymmetrie', kategorie: 'geometrie', sortierung: 1, icon: '🦋' },
   { stageId: 'faltschnitte', titel: 'Faltschnitte', kategorie: 'geometrie', sortierung: 2, icon: '✂️' },
-  { stageId: 'flaecheninhalt-umfang', titel: 'Fläche & Umfang', kategorie: 'geometrie', sortierung: 3, icon: '📐' },
+  { stageId: 'geodreieck-erkennen', titel: 'Geodreieck', kategorie: 'geometrie', sortierung: 3, icon: '📏' },
+  { stageId: 'flaecheninhalt-umfang', titel: 'Fläche & Umfang', kategorie: 'geometrie', sortierung: 4, icon: '📐' },
 
   // ── Multiplikation (Kap. 5, S. 54–63) ──
   { stageId: 'kopfrechnen-multiplikation', titel: 'Multiplizieren im Kopf', kategorie: 'multiplikation', sortierung: 1, icon: '🧠' },

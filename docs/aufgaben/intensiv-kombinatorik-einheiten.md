@@ -3373,7 +3373,7 @@ Hier ist eine Strichliste von Buchstabenhäufigkeiten in einem Text:
 | E | IIII IIII II |
 | N | IIII III |
 | R | IIII I |
-| T | IIII IIII |
+| T | 𝍸 IIII |
 | S | IIII |
 | A | III |
 

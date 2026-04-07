@@ -1,0 +1,35 @@
+- generic [ref=e707]:
+  - banner [ref=e708]:
+    - button "Zurück" [ref=e709] [cursor=pointer]:
+      - img [ref=e710]
+    - generic [ref=e712]: 🗺️
+    - generic [ref=e713]:
+      - heading "Entfernungen" [level=1] [ref=e714]
+      - paragraph [ref=e715]: Größen & Skizzen (15 Aufgaben)
+    - generic [ref=e716]:
+      - button "Was lernst du hier?" [ref=e717] [cursor=pointer]: "?"
+      - button "Tipp anzeigen" [ref=e718] [cursor=pointer]:
+        - img [ref=e719]
+  - generic [ref=e722]:
+    - progressbar [ref=e723]
+    - generic [ref=e724]: 0/5
+  - main [ref=e725]:
+    - generic [ref=e726]:
+      - generic [ref=e727]:
+        - button "Alle" [ref=e728] [cursor=pointer]
+        - button "Einfach (6)" [ref=e729] [cursor=pointer]
+        - button "Kern (5)" [ref=e730] [cursor=pointer]
+        - button "Knifflig (4)" [ref=e731] [cursor=pointer]
+      - generic [ref=e732]:
+        - paragraph [ref=e733]: Entfernungen
+        - paragraph [ref=e734]: Umweg berechnen — Differenz zweier Routen
+      - generic [ref=e860]:
+        - generic [ref=e862]:
+          - paragraph [ref=e863]: "Von Ahausen nach Clausen gibt es zwei Wege:"
+          - paragraph [ref=e864]: "• Direkter Weg: 8,4 km"
+          - paragraph [ref=e865]: "• Über Birken: Ahausen → Birken 3,7 km, Birken → Clausen 6,2 km"
+        - paragraph [ref=e868]: Wie lang ist der Weg über Birken?
+        - textbox "Deine Antwort" [active] [ref=e870]
+        - paragraph [ref=e871]: Teilaufgabe 1 von 2
+        - button "Prüfen" [ref=e873] [cursor=pointer]
+      - button "Nächste Aufgabe →" [ref=e763] [cursor=pointer]

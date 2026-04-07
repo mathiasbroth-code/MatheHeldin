@@ -1,0 +1,9 @@
+- generic [ref=e5]:
+  - heading "Mathe-Heldin" [level=1] [ref=e6]
+  - paragraph [ref=e7]: Üben mit Bildern und Blöcken
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: ✨
+    - paragraph [ref=e10]: Willkommen!
+    - paragraph [ref=e11]: Erstelle dein Profil, um loszulegen.
+    - button "Profil erstellen" [ref=e12] [cursor=pointer]
+  - paragraph [ref=e13]: Eltern-Bereich (kommt bald)

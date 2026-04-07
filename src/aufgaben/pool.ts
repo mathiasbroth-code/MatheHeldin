@@ -40,9 +40,11 @@ class AufgabenPool {
   }
 
   private applyFilter(filter?: AufgabenFilter): BankAufgabe[] {
-    if (!filter) return this.aufgaben;
+    if (!filter) return this.aufgaben.filter((a) => a.digital !== 'platzhalter');
 
     return this.aufgaben.filter((a) => {
+      // Platzhalter ausschließen (außer explizit angefragt)
+      if (a.digital === 'platzhalter' && filter.digital !== 'platzhalter') return false;
       if (filter.stageId && a.stageId !== filter.stageId) return false;
       if (filter.schwierigkeit && a.schwierigkeit !== filter.schwierigkeit) return false;
       if (filter.typ && a.typ !== filter.typ) return false;

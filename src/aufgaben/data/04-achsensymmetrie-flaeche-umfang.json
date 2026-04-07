@@ -9,7 +9,7 @@
     "stageId": "achsensymmetrie",
     "digital": "voll",
     "aufgabenstellung": "Schau dir die Buchstaben an. Welche davon sind achsensymmetrisch?\n\na) A\nb) B\nc) F\nd) M\ne) S",
-    "loesung": "Achsensymmetrisch sind: A und M.\n- A hat eine senkrechte Symmetrieachse.\n- M hat eine senkrechte Symmetrieachse.\n- B, F und S sind nicht achsensymmetrisch.",
+    "loesung": "a) stimmt ✓ — A hat eine senkrechte Symmetrieachse\nb) stimmt nicht ✗ — B hat keine Symmetrieachse\nc) stimmt nicht ✗ — F hat keine Symmetrieachse\nd) stimmt ✓ — M hat eine senkrechte Symmetrieachse\ne) stimmt nicht ✗ — S hat keine Symmetrieachse",
     "loesungsweg": "Eine Figur ist achsensymmetrisch, wenn man sie an einer Linie (der Symmetrieachse) spiegeln kann und beide Hälften genau gleich aussehen. Stell dir vor, du faltest den Buchstaben an dieser Linie — passen beide Hälften genau aufeinander?\n- A: Falte von oben nach unten in der Mitte → linke und rechte Hälfte passen aufeinander ✓\n- M: Ebenso, senkrechte Achse in der Mitte ✓\n- B: Die obere und untere Hälfte sind ähnlich, aber an einer senkrechten Achse passt es nicht genau.\n- F und S: Keine Achse möglich.",
     "tipps": [
       "Stell dir vor, du legst einen Spiegel genau in die Mitte des Buchstabens. Sieht die gespiegelte Hälfte genauso aus wie die andere?",
@@ -27,31 +27,31 @@
           "label": "a",
           "aussage": "A",
           "richtig": true,
-          "erklaerung": ""
+          "erklaerung": "stimmt ✓ — A hat eine senkrechte Symmetrieachse"
         },
         {
           "label": "b",
           "aussage": "B",
-          "richtig": true,
-          "erklaerung": ""
+          "richtig": false,
+          "erklaerung": "stimmt nicht ✗ — B hat keine Symmetrieachse"
         },
         {
           "label": "c",
           "aussage": "F",
-          "richtig": true,
-          "erklaerung": ""
+          "richtig": false,
+          "erklaerung": "stimmt nicht ✗ — F hat keine Symmetrieachse"
         },
         {
           "label": "d",
           "aussage": "M",
           "richtig": true,
-          "erklaerung": ""
+          "erklaerung": "stimmt ✓ — M hat eine senkrechte Symmetrieachse"
         },
         {
           "label": "e",
           "aussage": "S",
-          "richtig": true,
-          "erklaerung": ""
+          "richtig": false,
+          "erklaerung": "stimmt nicht ✗ — S hat keine Symmetrieachse"
         }
       ]
     }
@@ -401,7 +401,7 @@
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "achsensymmetrie",
     "digital": "voll",
-    "aufgabenstellung": "Stimmt das? Beurteile jede Aussage.\n\na) Ein Quadrat hat genau 2 Symmetrieachsen.\nb) Jedes Rechteck hat 2 Symmetrieachsen.\nc) Ein Dreieck hat immer 3 Symmetrieachsen.\nd) Der Buchstabe X ist achsensymmetrisch.",
+    "aufgabenstellung": "Stimmt das? Beurteile jede Aussage.\n\na) Ein Quadrat hat genau 2 Symmetrieachsen.\nb) Jedes Rechteck hat mindestens 2 Symmetrieachsen.\nc) Ein Dreieck hat immer 3 Symmetrieachsen.\nd) Der Buchstabe X ist achsensymmetrisch.",
     "loesung": "a) Stimmt nicht — ein Quadrat hat 4 Symmetrieachsen (senkrecht, waagerecht, 2 diagonale).\nb) Stimmt — jedes Rechteck (auch ein Quadrat) hat mindestens 2 Symmetrieachsen.\nc) Stimmt nicht — nur ein gleichseitiges Dreieck hat 3. Andere Dreiecke haben weniger oder keine.\nd) Stimmt — X hat sowohl eine senkrechte als auch eine waagerechte Symmetrieachse.",
     "loesungsweg": "- a) Ein Quadrat hat 4 Achsen: 2 durch die Seitenmitten + 2 durch die Ecken (Diagonalen).\n- b) Rechtecke haben immer mindestens die senkrechte und waagerechte Achse durch die Seitenmitten.\n- c) Nur gleichseitige Dreiecke (alle Seiten gleich lang) haben 3 Achsen. Ein gleichschenkliges Dreieck hat 1 Achse, ein allgemeines Dreieck hat 0.\n- d) X ist sowohl senkrecht als auch waagerecht symmetrisch.",
     "tipps": [
@@ -423,7 +423,7 @@
         },
         {
           "label": "b",
-          "aussage": "Jedes Rechteck hat 2 Symmetrieachsen.",
+          "aussage": "Jedes Rechteck hat mindestens 2 Symmetrieachsen.",
           "richtig": true,
           "erklaerung": "Stimmt — jedes Rechteck (auch ein Quadrat) hat mindestens 2 Symmetrieachsen."
         },

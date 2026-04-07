@@ -142,7 +142,7 @@
     "stageId": "gewichte-t-kg",
     "digital": "voll",
     "aufgabenstellung": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.\n\n| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
-    "loesung": "- Auto 1: 900 kg\n- Auto 2: 1.125 kg (= 1 t 125 kg)\n- Auto 3: 1.430 kg (= 1 t 430 kg)",
+    "loesung": "a) 900 kg\nb) 1.125 kg (= 1 t 125 kg)\nc) 1.430 kg (= 1 t 430 kg)",
     "loesungsweg": "Gesamtgewicht = Leergewicht + Ladung:\n- Auto 1: 720 kg + 180 kg = 900 kg\n- Auto 2: 850 kg + 275 kg = 1.125 kg\n- Auto 3: 1.000 kg + 430 kg = 1.430 kg (1 t = 1.000 kg)",
     "tipps": [
       "Stell dir vor, das Auto steht leer auf einer Waage. Dann legst du die Ladung hinein. Was zeigt die Waage jetzt an?",
@@ -159,7 +159,7 @@
         {
           "label": "1",
           "frage": "| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
-          "antwort": "- Auto 2: 1.125 kg (= 1 t 125 kg)"
+          "antwort": "a) 900 kg"
         }
       ]
     }
@@ -174,7 +174,7 @@
     "stageId": "gewichte-t-kg",
     "digital": "voll",
     "aufgabenstellung": "Berechne die fehlenden Gewichtsangaben.\n\n| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
-    "loesung": "- LKW 1: Gesamtgewicht = 12 t (= 12.000 kg)\n- LKW 2: Leergewicht = 8 t 550 kg (= 8.550 kg)\n- LKW 3: Ladung = 6,45 t (= 6.450 kg)",
+    "loesung": "a) 12 t (= 12.000 kg)\nb) 8 t 550 kg (= 8.550 kg)\nc) 6,45 t (= 6.450 kg)",
     "loesungsweg": "- LKW 1: 8.200 kg + 3.800 kg = 12.000 kg = 12 t\n- LKW 2: 14.700 kg − 6.150 kg = 8.550 kg = 8 t 550 kg\n- LKW 3: 11.850 kg − 5.400 kg = 6.450 kg = 6,45 t",
     "tipps": [
       "Schau dir die Tabelle genau an: Welche Rechnung passt? Leergewicht + Ladung = Gesamtgewicht. Wenn du zwei Zahlen kennst, kannst du die dritte berechnen!",
@@ -191,7 +191,7 @@
         {
           "label": "1",
           "frage": "| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
-          "antwort": "- LKW 2: Leergewicht = 8 t 550 kg (= 8.550 kg)"
+          "antwort": "a) 12 t (= 12.000 kg)"
         }
       ]
     }
@@ -400,7 +400,7 @@
       "Bei a): 100 Strausse = 100 × 150 kg. Rechne: 100 × 150 = 15.000 kg. Wandle um: 15.000 kg = 15 t. Ein Walhai wiegt 12 t. Was ist größer: 15 oder 12?",
       "Bei jeder Aussage: Beide Seiten ausrechnen und vergleichen.\n- a) 100 × 150 kg = 15.000 kg = 15 t. Walhai = 12 t. 15 > 12 → falsch\n- b) 15 × 80 = 1.200 kg. 10 × 100 = 1.000 kg. 1.200 > 1.000 → richtig\n- c) 80 × 100 = 8.000 kg = 8 t. Elefant = 6,5 t. 8 > 6,5 → falsch"
     ],
-    "didaktischerHinweis": "Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe ügt gleichzeitig Multiplikation und Einheitenumrechnung.",
+    "didaktischerHinweis": "Wahr-Falsch-Aufgaben mit Tiervergleichen trainieren das kritische Prüfen von Aussagen. Kinder müssen systematisch beide Seiten berechnen. Die Aufgabe übt gleichzeitig Multiplikation und Einheitenumrechnung.",
     "parsed": {
       "typ": "wahr-falsch",
       "anweisung": "Überprüfe die Aussagen. Berichtige falsche Aussagen.\n\nGegeben: Elefant 6,5 t, Blauwal 110 t, Strauss 150 kg, Walhai 12 t, Giraffe 750 kg, Giraffen-Baby 80 kg, Elefanten-Baby 100 kg.",
@@ -441,7 +441,7 @@
     "tipps": [
       "Wandle die Meter in Zentimeter um (1 m = 100 cm). Dann überlege: Wie oft passt ein Baby (50 cm) in die Größe des Tieres?",
       "Teile die Länge in cm durch 50 cm. Tipp: 50 cm = ein halber Meter. Also: 2 Babys = 1 m, 4 Babys = 2 m ...",
-      "a) 1 m = 100 cm. 100 ÷ 50 = 2. Also passen 2 Babys.\nc) 4,5 m = 450 cm. Probiere: 8 × 50 = 400, 9 × 50 = ? Passt das?",
+      "a) 1 m = 100 cm. 100 ÷ 50 = ? Wie viele Babys passen?\nb) 2 m = 200 cm. 200 ÷ 50 = ? Wie viele Babys passen?\nc) 4,5 m = 450 cm. Probiere: 8 × 50 = 400, 9 × 50 = ? Passt das?",
       "Größe des Tieres ÷ Größe eines Babys:\n- a) 1 m = 100 cm. 100 ÷ 50 = 2\n- b) 2 m = 200 cm. 200 ÷ 50 = 4\n- c) 4,5 m = 450 cm. 450 ÷ 50 = 9"
     ],
     "didaktischerHinweis": "Der Bezug auf die eigene Babygrösse schafft einen körperbezogenen Zugang. Die Division durch 50 ist rechnerisch zugänglich (Halbieren des Meterwertes). Bei c) wird mit 4,5 m eine Dezimalzahl eingeführt, die aber als 450 cm gut handhabbar ist.",
@@ -727,32 +727,46 @@
   },
   {
     "titel": "Geschwindigkeiten vergleichen — km/h berechnen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Geschwindigkeiten",
     "schwierigkeit": "gelb",
     "buchseite": 69,
     "kapitel": "06-gewichte-längen-skizzen",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.\n\nWie viele Kilometer schafft jeder in einer Stunde?",
-    "loesung": "- Fussgänger: 4 km/h\n- Radfahrer: 16 km/h\n- Auto: 48 km/h\n- Motorrad: 120 km/h",
-    "loesungsweg": "1 Stunde = 60 Minuten.\n- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km\n- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- Auto: 60 min → 48 km → 48 km/h\n- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km",
+    "aufgabenstellung": "Wie viele Kilometer schafft jeder in einer Stunde?\n\na) Fussgänger (4 km in 15 min)\nb) Radfahrer (8 km in 30 min)\nc) Auto (12 km in 15 min)\nd) Motorrad (30 km in 15 min)",
+    "loesung": "a) 16\nb) 16\nc) 48\nd) 120",
+    "loesungsweg": "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 4 km, also 60 min → 4 × 4 = 16 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km",
     "tipps": [
       "Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Überlege: Wie oft passen die angegebenen Minuten in 60 Minuten?",
-      "Rechne hoch auf 60 Minuten:\n- 15 min × 4 = 60 min → Strecke × 4\n- 30 min × 2 = 60 min → Strecke × 2\n- 60 min × 1 = 60 min → Strecke bleibt",
-      "Der Fussgänger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.",
-      "1 Stunde = 60 Minuten.\n- Fussgänger: 15 min → 1 km, also 60 min → 60 ÷ 15 × 1 = 4 km\n- Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- Auto: 60 min → 48 km → 48 km/h\n- Motorrad: 30 min → 60 km, also 60 min → 2 × 60 = 120 km"
+      "Rechne hoch auf 60 Minuten:\n- 15 min × 4 = 60 min → Strecke × 4\n- 30 min × 2 = 60 min → Strecke × 2",
+      "Der Fussgänger: In 15 Minuten schafft er 4 km. In 30 Minuten (= 2 × 15) sind es 8 km. In 60 Minuten (= 4 × 15) sind es ? km.",
+      "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 4 km, also 60 min → 4 × 4 = 16 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km"
     ],
     "didaktischerHinweis": "Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet (\"Wenn 15 min = 1 km, dann 60 min = ?\"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.",
-      "kontext": "Verschiedene Fortbewegungsarten:\n- Ein Fussgänger schafft 1 km in 15 Minuten.\n- Ein Radfahrer schafft 8 km in 30 Minuten.\n- Ein Auto schafft 48 km in 1 Stunde.\n- Ein Motorrad schafft 60 km in 30 Minuten.",
+      "typ": "eingabe",
+      "anweisung": "Wie viele Kilometer schafft jeder in einer Stunde?",
       "items": [
         {
-          "label": "1",
-          "frage": "Wie viele Kilometer schafft jeder in einer Stunde?",
-          "antwort": "- Radfahrer: 16 km/h"
+          "label": "a",
+          "frage": "Fussgänger (4 km in 15 min)",
+          "antwort": "16"
+        },
+        {
+          "label": "b",
+          "frage": "Radfahrer (8 km in 30 min)",
+          "antwort": "16"
+        },
+        {
+          "label": "c",
+          "frage": "Auto (12 km in 15 min)",
+          "antwort": "48"
+        },
+        {
+          "label": "d",
+          "frage": "Motorrad (30 km in 15 min)",
+          "antwort": "120"
         }
       ]
     }
@@ -812,8 +826,8 @@
     "kapitel": "06-gewichte-längen-skizzen",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...\n\na) 30 Minuten?\nb) 15 Minuten?",
-    "loesung": "a) Eule: 32 km, Schwalbe: 36 km, Antilope: 48 km\nb) Eule: 16 km, Schwalbe: 18 km, Antilope: 24 km",
+    "aufgabenstellung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 30 Minuten?\n\na) Eule\nb) Schwalbe\nc) Antilope\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 15 Minuten?\n\nd) Eule\ne) Schwalbe\nf) Antilope",
+    "loesung": "a) 32\nb) 36\nc) 48\nd) 16\ne) 18\nf) 24",
     "loesungsweg": "- 30 min = halbe Stunde → Geschwindigkeit ÷ 2\n- 15 min = Viertelstunde → Geschwindigkeit ÷ 4\n\na) Eule: 64 ÷ 2 = 32, Schwalbe: 72 ÷ 2 = 36, Antilope: 96 ÷ 2 = 48\nb) Eule: 64 ÷ 4 = 16, Schwalbe: 72 ÷ 4 = 18, Antilope: 96 ÷ 4 = 24",
     "tipps": [
       "km/h bedeutet \"Kilometer pro Stunde\". In einer halben Stunde (30 min) kommt man nur halb so weit. Und in einer Viertelstunde?",
@@ -824,18 +838,38 @@
     "didaktischerHinweis": "Halbieren und Vierteln von Geschwindigkeiten: eine elegante Alternative zur Formel \"Weg = Geschwindigkeit × Zeit\". Die Tierthema-Einbettung motiviert. Die Zahlen sind bewusst durch 2 und 4 teilbar.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
-      "kontext": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in ...",
+      "anweisung": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 30 Minuten?",
+      "kontext": "Spitzengeschwindigkeiten von Tieren:\n- Eule: 64 km/h\n- Schwalbe: 72 km/h\n- Antilope: 96 km/h\n\nWie weit kämen die Tiere mit ihrer Spitzengeschwindigkeit in 30 Minuten?",
       "items": [
         {
           "label": "a",
-          "frage": "30 Minuten?",
-          "antwort": "Eule: 32 km, Schwalbe: 36 km, Antilope: 48 km"
+          "frage": "Eule",
+          "antwort": "32"
         },
         {
           "label": "b",
-          "frage": "15 Minuten?",
-          "antwort": "Eule: 16 km, Schwalbe: 18 km, Antilope: 24 km"
+          "frage": "Schwalbe",
+          "antwort": "36"
+        },
+        {
+          "label": "c",
+          "frage": "Antilope",
+          "antwort": "48"
+        },
+        {
+          "label": "d",
+          "frage": "Eule",
+          "antwort": "16"
+        },
+        {
+          "label": "e",
+          "frage": "Schwalbe",
+          "antwort": "18"
+        },
+        {
+          "label": "f",
+          "frage": "Antilope",
+          "antwort": "24"
         }
       ]
     }

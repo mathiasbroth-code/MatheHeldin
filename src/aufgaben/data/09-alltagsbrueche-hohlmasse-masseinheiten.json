@@ -18,7 +18,7 @@
       "- Wenn du ein Ganzes gerecht an 2 teilst, bekommt jeder 1 von 2 Teilen → 1/2.\n- Bei 4 Kindern bekommt jeder 1 von 4 Teilen → 1/4.\n- Bei 8 Kindern bekommt jeder 1 von 8 Teilen → 1/8.\n- Die untere Zahl (Nenner) sagt, in wie viele gleiche Teile geteilt wird. Die obere Zahl (Zähler) sagt, wie viele Teile du bekommst."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -67,7 +67,7 @@
       ""
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -105,7 +105,7 @@
       "Der Nenner (unten) ist die Gesamtzahl der gleichen Teile. Der Zähler (oben) ist die Anzahl der gefärbten Teile.\n- a) 1 von 4 Teilen gefärbt → 1/4\n- b) 3 von 4 Teilen gefärbt → 3/4\n- d) 5 von 8 Teilen gefärbt → 5/8"
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -168,7 +168,7 @@
       "- a) 1/4 + 1/4 = 2/4 = 1/2. Wenn du ein Halbes in zwei gleich große Teile teilst, bekommst du 2 Viertel.\n- b) 4/4 = 1 Ganzes. Vier Viertel ergeben wieder das Ganze.\n- c) 1/8 + 1/8 = 2/8 = 1/4. Zwei Achtel sind so viel wie ein Viertel.\n- d) 4 × 1/8 = 4/8 = 1/2. Vier Achtel sind ein Halbes."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -221,7 +221,7 @@
       "Zähle die gefärbten Teile (Zähler) und die Gesamtzahl der Teile (Nenner).\n- b) 2/4 — und weil 2 von 4 genau die Hälfte ist, kann man auch 1/2 schreiben.\n- c) 6/8 — und weil 6 von 8 dasselbe ist wie 3 von 4, kann man auch 3/4 schreiben.\n- d) 4/8 — das ist genau die Hälfte, also auch 1/2."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -285,7 +285,7 @@
       "Jede der 3 Pizzen wird in 4 gleiche Teile geschnitten. Das ergibt 3 × 4 = 12 Stücke. 12 Stücke : 4 Kinder = 3 Stücke pro Kind. Jedes Stück ist ein Viertel, also bekommt jedes Kind 3/4 einer Pizza."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -319,16 +319,16 @@
     "stageId": "einfache-brueche",
     "digital": "voll",
     "aufgabenstellung": "Welcher Bruch ist größer? Setze das richtige Zeichen ein: <, > oder =\n\na) 1/2 ___ 1/4\nb) 3/4 ___ 1/2\nc) 1/8 ___ 1/4\nd) 7/8 ___ 3/4\ne) 2/4 ___ 4/8",
-    "loesung": "a) 1/2 > 1/4\nb) 3/4 > 1/2\nc) 1/8 < 1/4\nd) 7/8 > 3/4\ne) 2/4 = 4/8",
-    "loesungsweg": "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte.",
+    "loesung": "a) >\nb) >\nc) <\nd) >\ne) =",
+    "loesungsweg": "- a) 1/2 > 1/4 — Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 > 1/2 — denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) 1/8 < 1/4 — Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4 — denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 = 4/8 — beides ist genau die Hälfte.",
     "tipps": [
       "Stell dir zwei gleich große Pizzen vor. Die eine wird in weniger Teile geschnitten, die andere in mehr. Welche Stücke sind größer — die aus der Pizza mit wenigen oder vielen Teilen?\n📺 Schau dir das Video \"Merkwissen: Brüche\" (S. 92) an!",
       "Trick: Mache die Nenner gleich! Dann kannst du die Zähler direkt vergleichen. Beispiel: 1/2 = 2/4. Jetzt vergleiche 2/4 mit 1/4 — welche Zahl oben ist größer?",
       "Bei a): 1/2 = 2/4 (denn 2 Viertel sind ein Halbes). Jetzt vergleiche 2/4 mit 1/4. 2 ist ___ als 1, also ist 1/2 ___ als 1/4. Setze > oder < ein.",
-      "- a) Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 ist mehr als 1/2, denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4, denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 und 4/8 sind gleich groß — beides ist genau die Hälfte."
+      "- a) 1/2 > 1/4 — Ein Halbes ist mehr als ein Viertel — stell dir eine Pizza vor: ein halbes Stück ist größer als ein Viertelstück.\n- b) 3/4 > 1/2 — denn 1/2 = 2/4, und 3/4 > 2/4.\n- c) 1/8 < 1/4 — Ein Achtel ist kleiner als ein Viertel — je mehr Teile, desto kleiner wird jedes Stück.\n- d) 7/8 > 3/4 — denn 3/4 = 6/8, und 7/8 > 6/8.\n- e) 2/4 = 4/8 — beides ist genau die Hälfte."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -342,27 +342,27 @@
         {
           "label": "a",
           "frage": "1/2 ___ 1/4",
-          "antwort": "1/2 > 1/4"
+          "antwort": ">"
         },
         {
           "label": "b",
           "frage": "3/4 ___ 1/2",
-          "antwort": "3/4 > 1/2"
+          "antwort": ">"
         },
         {
           "label": "c",
           "frage": "1/8 ___ 1/4",
-          "antwort": "1/8 < 1/4"
+          "antwort": "<"
         },
         {
           "label": "d",
           "frage": "7/8 ___ 3/4",
-          "antwort": "7/8 > 3/4"
+          "antwort": ">"
         },
         {
           "label": "e",
           "frage": "2/4 ___ 4/8",
-          "antwort": "2/4 = 4/8"
+          "antwort": "="
         }
       ]
     }
@@ -386,7 +386,7 @@
       "- \"halb\" bedeutet immer 1/2 — das Ganze in 2 gleiche Teile geteilt.\n- \"Viertel\" bedeutet immer 1/4 — das Ganze in 4 gleiche Teile geteilt.\n- \"Achtel\" bedeutet immer 1/8 — das Ganze in 8 gleiche Teile geteilt.\n- Diese Brüche begegnen dir überall im Alltag: beim Kochen, bei der Uhrzeit, beim Teilen."
     ],
     "tippBilder": [
-      "assets/erklaerungen/s09-zahlenkarten-zerlegung.webp",
+      null,
       "assets/erklaerungen/s93-merkkasten-viertel.webp",
       null,
       null
@@ -647,14 +647,14 @@
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "liter-milliliter",
     "digital": "voll",
-    "aufgabenstellung": "Wandle in Milliliter um.\n\na) 3 l 190 ml = ___ ml\nb) 14 l 375 ml = ___ ml\nc) 1 l 903 ml = ___ ml\nd) 1.450 ml = ___ l ___ ml\ne) 5.047 ml = ___ l ___ ml\nf) 700 ml = ___ l ___ ml",
-    "loesung": "a) 3.190\nb) 14.375\nc) 1.903\nd) 1 l 450 ml\ne) 5 l 47 ml\nf) 0 l 700 ml",
-    "loesungsweg": "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l 47 ml.",
+    "aufgabenstellung": "Wandle in Milliliter um.\n\na) 3 l 190 ml = ___ ml\nb) 14 l 375 ml = ___ ml\nc) 1 l 903 ml = ___ ml\n\nWie viele ganze Liter stecken in der Menge? (Gib nur die Liter-Zahl an)\n\nd) 1.450 ml = ___ l (Rest in ml)\ne) 5.047 ml = ___ l (Rest in ml)\nf) 700 ml = ___ l (Rest in ml)",
+    "loesung": "a) 3.190\nb) 14.375\nc) 1.903\nd) 1\ne) 5\nf) 0",
+    "loesungsweg": "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l, Rest 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l, Rest 47 ml.\n- f) 700 = 0 × 1.000 + 700 → 0 l, Rest 700 ml.",
     "tipps": [
       "Stell dir eine Stellenwerttafel vor, aber statt T|H|Z|E hast du l|ml. Die Tausender in Milliliter sind die Liter!\n📺 Schau dir das Video \"Merkwissen: Rauminhalte umrechnen\" (S. 101) an!",
       "Nutze eine Tabelle mit zwei Spalten: l | ml. Schreibe die Zahl so auf, dass die letzten drei Ziffern in der ml-Spalte stehen und der Rest in der l-Spalte.",
       "Bei a): 3 l 190 ml → Die 3 Liter sind 3 × 1.000 = 3.000 ml. Plus die 190 ml: 3.000 + 190 = ___ ml.",
-      "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l 47 ml."
+      "l + ml → nur ml: Liter × 1.000 + Milliliter.\n- a) 3 × 1.000 + 190 = 3.190 ml.\n- b) 14 × 1.000 + 375 = 14.375 ml.\n\nml → l + ml: Tausender sind Liter, Rest sind ml.\n- d) 1.450 = 1 × 1.000 + 450 → 1 l, Rest 450 ml.\n- e) 5.047 = 5 × 1.000 + 47 → 5 l, Rest 47 ml.\n- f) 700 = 0 × 1.000 + 700 → 0 l, Rest 700 ml."
     ],
     "tippBilder": [
       null,
@@ -685,18 +685,18 @@
         },
         {
           "label": "d",
-          "frage": "1.450 ml = ___ l ___ ml",
-          "antwort": "1 l 450 ml"
+          "frage": "1.450 ml = ___ l (Rest in ml)",
+          "antwort": "1"
         },
         {
           "label": "e",
-          "frage": "5.047 ml = ___ l ___ ml",
-          "antwort": "5 l 47 ml"
+          "frage": "5.047 ml = ___ l (Rest in ml)",
+          "antwort": "5"
         },
         {
           "label": "f",
-          "frage": "700 ml = ___ l ___ ml",
-          "antwort": "0 l 700 ml"
+          "frage": "700 ml = ___ l (Rest in ml)",
+          "antwort": "0"
         }
       ]
     }
@@ -711,13 +711,13 @@
     "stageId": "liter-milliliter",
     "digital": "voll",
     "aufgabenstellung": "Setze das richtige Zeichen ein: <, > oder =\n\na) 725 ml ▢ 3/4 l\nb) 1.001 ml ▢ 1 l\nc) 1 1/2 l ▢ 2.000 ml\nd) 750 ml ▢ 1/2 l\ne) 250 ml ▢ 1/4 l\nf) 0,330 l ▢ 1/2 l",
-    "loesung": "a) 725 ml < 3/4 l (denn 3/4 l = 750 ml)\nb) 1.001 ml > 1 l (denn 1 l = 1.000 ml)\nc) 1 1/2 l < 2.000 ml (denn 1 1/2 l = 1.500 ml)\nd) 750 ml > 1/2 l (denn 1/2 l = 500 ml)\ne) 250 ml = 1/4 l (denn 1/4 l = 250 ml)\nf) 0,330 l < 1/2 l (denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml)",
-    "loesungsweg": "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 3/4 l = 750 ml → 725 < 750 → <\n- c) 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- e) 1/4 l = 250 ml → 250 = 250 → =",
+    "loesung": "a) <\nb) >\nc) <\nd) >\ne) =\nf) <",
+    "loesungsweg": "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 725 ml < 3/4 l — denn 3/4 l = 750 ml → 725 < 750 → <\n- b) 1.001 ml > 1 l — denn 1 l = 1.000 ml → 1.001 > 1.000 → >\n- c) 1 1/2 l < 2.000 ml — denn 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- d) 750 ml > 1/2 l — denn 1/2 l = 500 ml → 750 > 500 → >\n- e) 250 ml = 1/4 l — denn 1/4 l = 250 ml → 250 = 250 → =\n- f) 0,330 l < 1/2 l — denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml → <",
     "tipps": [
       "Um Liter und Milliliter zu vergleichen, musst du beide in dieselbe Einheit bringen. Wandle alles in Milliliter um — dann kannst du die Zahlen direkt vergleichen.\n📺 Schau dir das Video \"Vergleichsgrößen: Milliliter und Liter\" (S. 95) an!",
       "Brüche umrechnen: 1/2 l = 500 ml, 1/4 l = 250 ml, 3/4 l = 750 ml, 1/8 l = 125 ml. Lerne diese Werte auswendig!",
       "Bei a): 3/4 l = 3 × 250 ml = 750 ml. Jetzt vergleiche: 725 ml ▢ 750 ml. Welche Zahl ist größer?",
-      "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 3/4 l = 750 ml → 725 < 750 → <\n- c) 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- e) 1/4 l = 250 ml → 250 = 250 → ="
+      "Wandle zuerst alles in Milliliter um, dann vergleiche:\n- a) 725 ml < 3/4 l — denn 3/4 l = 750 ml → 725 < 750 → <\n- b) 1.001 ml > 1 l — denn 1 l = 1.000 ml → 1.001 > 1.000 → >\n- c) 1 1/2 l < 2.000 ml — denn 1 1/2 l = 1.500 ml → 1.500 < 2.000 → <\n- d) 750 ml > 1/2 l — denn 1/2 l = 500 ml → 750 > 500 → >\n- e) 250 ml = 1/4 l — denn 1/4 l = 250 ml → 250 = 250 → =\n- f) 0,330 l < 1/2 l — denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml → <"
     ],
     "tippBilder": [
       null,
@@ -733,32 +733,32 @@
         {
           "label": "a",
           "frage": "725 ml ▢ 3/4 l",
-          "antwort": "725 ml < 3/4 l (denn 3/4 l = 750 ml)"
+          "antwort": "<"
         },
         {
           "label": "b",
           "frage": "1.001 ml ▢ 1 l",
-          "antwort": "1.001 ml > 1 l (denn 1 l = 1.000 ml)"
+          "antwort": ">"
         },
         {
           "label": "c",
           "frage": "1 1/2 l ▢ 2.000 ml",
-          "antwort": "1 1/2 l < 2.000 ml (denn 1 1/2 l = 1.500 ml)"
+          "antwort": "<"
         },
         {
           "label": "d",
           "frage": "750 ml ▢ 1/2 l",
-          "antwort": "750 ml > 1/2 l (denn 1/2 l = 500 ml)"
+          "antwort": ">"
         },
         {
           "label": "e",
           "frage": "250 ml ▢ 1/4 l",
-          "antwort": "250 ml = 1/4 l (denn 1/4 l = 250 ml)"
+          "antwort": "="
         },
         {
           "label": "f",
           "frage": "0,330 l ▢ 1/2 l",
-          "antwort": "0,330 l < 1/2 l (denn 1/2 l = 0,5 l = 500 ml, und 330 ml < 500 ml)"
+          "antwort": "<"
         }
       ]
     }
@@ -1257,12 +1257,12 @@
     "digital": "voll",
     "aufgabenstellung": "Jette sagt: \"Wenn ich nur noch halb so viel Schokolade im Jahr esse, spare ich eine halbe Million Liter virtuelles Wasser im Jahr.\"\n\nFür 1 kg Schokolade werden 17.000 Liter virtuelles Wasser verbraucht. Kann Jettes Aussage stimmen? Rechne nach.\n\nTipp: Überlege zuerst, wie viel Schokolade Jette im Jahr essen müsste, damit ihre Aussage stimmt.",
     "loesung": "Halbe Million = 500.000 l. Wenn Jette durch Halbierung 500.000 l spart, dann verbraucht sie normalerweise 2 × 500.000 = 1.000.000 l.\n1.000.000 l : 17.000 l/kg ≈ 59 kg Schokolade pro Jahr.\n59 kg pro Jahr = ca. 1,1 kg pro Woche.\nDas ist sehr viel — ca. 11 Tafeln Schokolade pro Woche! Die Aussage kann nicht stimmen.",
-    "loesungsweg": "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht.",
+    "loesungsweg": "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 590 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht.",
     "tipps": [
       "\"Eine halbe Million\" — wie viel ist das als Zahl? Und wenn sie durch Halbierung so viel spart, wie viel hat sie dann vorher verbraucht?",
       "Rechne rückwärts: Wenn die Hälfte 500.000 l sind, dann ist das Ganze 1.000.000 l. Teile das durch den Wasserverbrauch pro Kilogramm Schokolade: 1.000.000 : 17.000 = ???",
       "500.000 l Ersparnis = die Hälfte. Also vorher: 2 × 500.000 = 1.000.000 l. Jetzt rechne: 1.000.000 : 17.000. Schätze: 17.000 × 50 = 850.000, 17.000 × 60 = 1.020.000. Also ca. ___ kg. Ist das realistisch?",
-      "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 59 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht."
+      "- Jettes Ersparnis wäre 500.000 l.\n- Das ist die Hälfte ihres Schokoladen-Wassers, also verbraucht sie insgesamt 1.000.000 l.\n- 1.000.000 : 17.000 ≈ 59 kg Schokolade pro Jahr.\n- Das sind ca. 590 Tafeln (zu je 100 g) oder fast 1,1 kg pro Woche.\n- Kein Kind isst so viel Schokolade → die Aussage stimmt nicht."
     ],
     "didaktischerHinweis": "Fermi-Aufgabe: Plausibilität einer Aussage rechnerisch überprüfen. Entspricht S. 97, Aufg. 4.",
     "parsed": {
@@ -2334,15 +2334,15 @@
   },
   {
     "titel": "Millionen-Quiz — Überschlagen und schaetzen",
-    "typ": "textaufgabe",
+    "typ": "auswahl",
     "thema": "Millionen-Fragen",
     "schwierigkeit": "orange",
     "buchseite": 103,
     "kapitel": "09-alltagsbrüche-hohlmasse-masseinheiten",
     "stageId": "millionen-fragen",
     "digital": "voll",
-    "aufgabenstellung": "Was ist näher an 1.000.000? Kreuze an.\n\na) 1.000.000 mm: Ist das näher an 1 km oder an 10 km?\nb) 1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?\nc) 1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?\nd) 1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?",
-    "loesung": "a) 1 km (1.000.000 mm = 1.000 m = 1 km)\nb) 1.000 kg (1.000.000 g = 1.000 kg)\nc) 1.000 l (1.000.000 ml = 1.000 l)\nd) 10 Tage (1.000.000 s ≈ 11,6 Tage)",
+    "aufgabenstellung": "Was ist näher an 1.000.000? Wähle die richtige Antwort.\n\na) 1.000.000 mm =\n[ ] 1 km\n[ ] 10 km\n\nb) 1.000.000 g =\n[ ] 100 kg\n[ ] 1.000 kg\n\nc) 1.000.000 ml =\n[ ] 100 l\n[ ] 1.000 l\n\nd) 1.000.000 s =\n[ ] 1 Tag\n[ ] 10 Tage",
+    "loesung": "a) 1 km\nb) 1.000 kg\nc) 1.000 l\nd) 10 Tage",
     "loesungsweg": "- a) 1.000.000 mm : 10 = 100.000 cm : 100 = 1.000 m : 1.000 = 1 km.\n- b) 1.000.000 g : 1.000 = 1.000 kg.\n- c) 1.000.000 ml : 1.000 = 1.000 l.\n- d) 1.000.000 s : 86.400 ≈ 11,6 Tage → näher an 10 als an 1.",
     "tipps": [
       "Rechne jede Umwandlung Schritt für Schritt. Kennst du den Umrechnungsfaktor? mm → m: teile durch 1.000. m → km: teile durch 1.000.",
@@ -2352,31 +2352,28 @@
     ],
     "didaktischerHinweis": "Überschlags-Aufgabe, die alle Umrechnungen des Kapitels zusammenführt und das Verständnis für die Größe \"eine Million\" vertieft. Entspricht S. 102-103.",
     "parsed": {
-      "typ": "textaufgabe",
-      "anweisung": "Was ist näher an 1.000.000? Kreuze an.",
-      "kontext": "Was ist näher an 1.000.000? Kreuze an.",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Was ist näher an 1.000.000? Wähle die richtige Antwort.",
+      "optionen": [
         {
-          "label": "a",
-          "frage": "1.000.000 mm: Ist das näher an 1 km oder an 10 km?",
-          "antwort": "1 km (1.000.000 mm = 1.000 m = 1 km)"
+          "label": "A",
+          "text": "1.000.000 mm ="
         },
         {
-          "label": "b",
-          "frage": "1.000.000 g: Ist das näher an 100 kg oder an 1.000 kg?",
-          "antwort": "1.000 kg (1.000.000 g = 1.000 kg)"
+          "label": "B",
+          "text": "1.000.000 g ="
         },
         {
-          "label": "c",
-          "frage": "1.000.000 ml: Ist das näher an 100 l oder an 1.000 l?",
-          "antwort": "1.000 l (1.000.000 ml = 1.000 l)"
+          "label": "C",
+          "text": "1.000.000 ml ="
         },
         {
-          "label": "d",
-          "frage": "1.000.000 s: Ist das näher an 1 Tag oder an 10 Tage?",
-          "antwort": "10 Tage (1.000.000 s ≈ 11,6 Tage)"
+          "label": "D",
+          "text": "1.000.000 s ="
         }
-      ]
+      ],
+      "richtigeIdx": 0
     }
   },
   {

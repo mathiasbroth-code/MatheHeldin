@@ -35,7 +35,7 @@ export function AuswahlView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
   return (
     <div className="space-y-3">
       <Card>
-        <MarkdownText text={daten.frageText} className="text-base text-heading font-semibold leading-relaxed" />
+        <MarkdownText text={daten.frageText} className="text-sm font-semibold text-heading leading-relaxed" />
       </Card>
 
       <div className="grid gap-2">

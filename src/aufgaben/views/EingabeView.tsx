@@ -41,7 +41,24 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
     onTeilaufgabeChange?.(daten.items[currentIdx]?.label ?? '');
   }, [currentIdx, daten.items, onTeilaufgabeChange]);
 
+  // Ist die erwartete Antwort eine Komma-Liste (z.B. "5139, 5193, 5319, ...")?
+  const isListAnswer = current.antwort.includes(',') && current.antwort.split(',').length > 2;
+
   function check() {
+    if (isListAnswer) {
+      // Komma-separierte Listen: Reihenfolge egal, Menge muss stimmen
+      const expectedParts = current.antwort.split(',').map(s => normalizeZahl(s.trim())).filter(Boolean).sort();
+      const inputParts = input.split(/[,\s]+/).map(s => normalizeZahl(s.trim())).filter(Boolean).sort();
+      if (expectedParts.length === inputParts.length && expectedParts.every((v, i) => v === inputParts[i])) {
+        setStatus('richtig');
+        if (isLast) onRichtig();
+      } else {
+        setStatus('falsch');
+        onFalsch();
+      }
+      return;
+    }
+
     const normalized = normalizeZahl(input);
     const expected = normalizeZahl(current.antwort);
 
@@ -66,11 +83,11 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
     <div className="space-y-3">
       {daten.anweisung && daten.items.length > 1 && (
         <Card>
-          <MarkdownText text={daten.anweisung} className="text-sm font-semibold text-heading leading-relaxed" />
+          <MarkdownText text={daten.anweisung} className="text-sm text-body leading-relaxed" />
         </Card>
       )}
       <Card>
-        <MarkdownText text={current.frage} className="text-base text-heading font-semibold leading-relaxed" />
+        <MarkdownText text={current.frage} className="text-sm font-semibold text-heading leading-relaxed" />
       </Card>
 
       {/* Baumdiagramm bei Kombinatorik-Aufgaben */}
@@ -89,7 +106,7 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
         <Input
           ref={inputRef}
           sizing="xl"
-          inputMode="numeric"
+          inputMode={isListAnswer ? 'text' : 'numeric'}
           value={input}
           onChange={(e) => { setInput(e.target.value); if (status === 'falsch') setStatus('idle'); }}
           onKeyDown={(e) => e.key === 'Enter' && status === 'idle' && check()}

@@ -57,9 +57,17 @@ export function splitStrichliste(text: string): string[] {
 export function normalizeZahl(input: string): string {
   const trimmed = input.trim();
 
+  // Klammern und Probe-/Kontrolltexte entfernen bevor Wert extrahiert wird
+  const cleaned = trimmed
+    .replace(/\s*\(.*?\)\s*/g, ' ')       // (Kontrolle: ...) entfernen
+    .replace(/\s*[✓✗].*$/, '')             // ✓/✗ und Folgetext entfernen
+    .replace(/\.\s*Probe:.*$/i, '')        // ". Probe: ..." entfernen
+    .replace(/\s*→.*$/, '')                // "→ <" etc. entfernen
+    .trim();
+
   // "X = Y" Pattern: Wert nach dem letzten "=" extrahieren
-  const eqParts = trimmed.split('=');
-  const valueStr = eqParts.length > 1 ? eqParts[eqParts.length - 1].trim() : trimmed;
+  const eqParts = cleaned.split('=');
+  const valueStr = eqParts.length > 1 ? eqParts[eqParts.length - 1].trim() : cleaned;
 
   // Zahl extrahieren falls vorhanden
   const zahlenMatch = valueStr.match(/-?[\d.,]+/);

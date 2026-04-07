@@ -17,11 +17,18 @@ import { KreiseDiagramm, parseKreiseDaten } from './KreiseDiagramm';
 import { StellenwertTafel, parseStellenwertDaten } from './StellenwertTafel';
 import { ZahlenstrahlDiagramm, parseZahlenstrahlDaten } from './ZahlenstrahlDiagramm';
 import { SchriftlicheRechnung, parseSchriftlicheRechnung } from './SchriftlicheRechnung';
+import { BruchVisualisierung, parseBruchDaten } from './BruchVisualisierung';
 import { IsometricGrid } from '@/components/geometrie/IsometricGrid';
 import { ParkettMuster } from '@/components/geometrie/ParkettMuster';
 import { KoerperNetz } from '@/components/geometrie/KoerperNetz';
 import { BalkenDiagramm } from '@/components/daten/BalkenDiagramm';
 import { StrichListe } from '@/components/daten/StrichListe';
+import { BinaerAnzeige } from '@/components/forscherkiste/BinaerAnzeige';
+import { PascalDreieck } from '@/components/forscherkiste/PascalDreieck';
+import { FibonacciReihe } from '@/components/forscherkiste/FibonacciReihe';
+import { PrimzahlSieb } from '@/components/forscherkiste/PrimzahlSieb';
+import { DatenmengenLeiter } from '@/components/daten/DatenmengenLeiter';
+import { MassstabVergleich, parseMassstab } from '@/components/geometrie/MassstabVergleich';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
@@ -52,14 +59,21 @@ interface AufgabeWrapperProps {
 
 type GeoViz =
   | { typ: 'isometric'; wuerfel: { x: number; y: number; z: number }[] }
+  | { typ: 'massstab'; faktor: number; label?: string; emoji?: string; objektName?: string }
   | { typ: 'parkett'; form: 'quadrat' | 'dreieck' | 'sechseck' | 'rechteck' }
   | { typ: 'koerpernetz'; netz: 'wuerfel' | 'quader' };
 
 function parseGeometrieViz(stageId: string, text: string): GeoViz | null {
   // Schrägbilder + Rauminhalt → Isometrische Würfel
-  if (stageId === 'schraegbilder' || stageId === 'rauminhalt') {
+  if (stageId === 'schraegbilder' || stageId === 'rauminhalt' || stageId === 'ansichten-grundriss') {
     const wuerfel = parseWuerfelFromText(text);
     if (wuerfel.length > 0) return { typ: 'isometric', wuerfel };
+  }
+
+  // Maßstab → Vergrößerungs-/Verkleinerungs-Vergleich
+  if (stageId === 'massstab') {
+    const ms = parseMassstab(text);
+    if (ms) return { typ: 'massstab' as const, ...ms };
   }
 
   // Parkettierungen → Muster-Anzeige
@@ -192,6 +206,21 @@ function detectBuchstaben(text: string): string[] {
   return ['A', 'E', 'I', 'O', 'U'];
 }
 
+// ── Forscherkiste-Visualisierung ──────────────────────────
+
+type ForscherViz = 'binaer' | 'pascal' | 'fibonacci' | 'primsieb' | 'datenmengen';
+
+function parseForscherViz(stageId: string): ForscherViz | null {
+  switch (stageId) {
+    case 'binaersystem': return 'binaer';
+    case 'pascalsches-dreieck': return 'pascal';
+    case 'fibonacci': return 'fibonacci';
+    case 'zahlenforscher': return 'primsieb';
+    case 'datenmengen': return 'datenmengen';
+    default: return null;
+  }
+}
+
 /** Extrahiert die Frage-Text der aktiven Teilaufgabe aus parsed-Daten. */
 function findAktiveTeilFrage(aufgabe: BankAufgabe, label: string): string | undefined {
   const parsed = aufgabe.parsed as unknown as Record<string, unknown> | undefined;
@@ -220,13 +249,19 @@ function findAktiveTeilFrage(aufgabe: BankAufgabe, label: string): string | unde
 export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange }: AufgabeWrapperProps) {
   const View = VIEW_MAP[aufgabe.typ];
   const [activeLabel, setActiveLabel] = useState('');
+  const [answered, setAnswered] = useState(false);
 
-  useEffect(() => setActiveLabel(''), [aufgabe.titel]);
+  useEffect(() => { setActiveLabel(''); setAnswered(false); }, [aufgabe.titel]);
 
   const handleTeilaufgabeChange = useCallback((label: string) => {
     setActiveLabel(label);
     onTeilaufgabeChange?.(label);
   }, [onTeilaufgabeChange]);
+
+  const handleRichtig = useCallback(() => {
+    setAnswered(true);
+    onRichtig();
+  }, [onRichtig]);
 
   if (!View) {
     return (
@@ -260,13 +295,19 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
   // Interaktiv bei Add/Sub/Mul mit eingabe/schritt-Typ (nicht wahr-falsch, textaufgabe etc.)
   const schriftlichInteraktiv = !!(schriftlichDaten && schriftlichDaten.typ !== 'division'
     && (aufgabe.typ === 'eingabe' || aufgabe.typ === 'schritt'));
-  const geoDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten
+  const bruchDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten
+    ? parseBruchDaten(aufgabe.stageId, aufgabe.aufgabenstellung, aktiveTeilFrage)
+    : null;
+  const geoDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !bruchDaten
     ? parseGeometrieViz(aufgabe.stageId, aufgabe.aufgabenstellung)
     : null;
-  const datenDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !geoDaten
+  const datenDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !bruchDaten && !geoDaten
     ? parseDatenViz(aufgabe.stageId, aufgabe.aufgabenstellung)
     : null;
-  const kreiseDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !geoDaten && !datenDaten
+  const forscherViz = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !bruchDaten && !geoDaten && !datenDaten
+    ? parseForscherViz(aufgabe.stageId)
+    : null;
+  const kreiseDaten = !routenDaten && !einheitenDaten && !divisionsDaten && !werteBalkenDaten && !stellenwertDaten && !zahlenstrahlDaten && !schriftlichDaten && !bruchDaten && !geoDaten && !datenDaten && !forscherViz
     ? parseKreiseDaten(aufgabe.aufgabenstellung, aufgabe.loesung)
     : null;
 
@@ -282,13 +323,19 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
         <SchriftlicheRechnung
           {...schriftlichDaten}
           interaktiv={schriftlichInteraktiv}
-          onRichtig={schriftlichInteraktiv ? onRichtig : undefined}
+          onRichtig={schriftlichInteraktiv ? handleRichtig : undefined}
           onFalsch={schriftlichInteraktiv ? onFalsch : undefined}
         />
       )}
+      {bruchDaten && <BruchVisualisierung {...bruchDaten} />}
       {geoDaten?.typ === 'isometric' && (
         <Card className="py-2 px-3">
           <IsometricGrid wuerfel={geoDaten.wuerfel} />
+        </Card>
+      )}
+      {geoDaten?.typ === 'massstab' && answered && (
+        <Card className="py-2 px-3">
+          <MassstabVergleich faktor={geoDaten.faktor} label={geoDaten.label} emoji={geoDaten.emoji} objektName={geoDaten.objektName} />
         </Card>
       )}
       {geoDaten?.typ === 'parkett' && (
@@ -313,9 +360,24 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
           <StrichListe buchstaben={datenDaten.buchstaben} />
         </Card>
       )}
+      {forscherViz === 'binaer' && (
+        <Card className="py-2 px-3"><BinaerAnzeige /></Card>
+      )}
+      {forscherViz === 'pascal' && (
+        <Card className="py-2 px-3"><PascalDreieck /></Card>
+      )}
+      {forscherViz === 'fibonacci' && (
+        <Card className="py-2 px-3"><FibonacciReihe /></Card>
+      )}
+      {forscherViz === 'primsieb' && (
+        <Card className="py-2 px-3"><PrimzahlSieb /></Card>
+      )}
+      {forscherViz === 'datenmengen' && (
+        <Card className="py-2 px-3"><DatenmengenLeiter /></Card>
+      )}
       {kreiseDaten && <KreiseDiagramm {...kreiseDaten} />}
       {!schriftlichInteraktiv && (
-        <View aufgabe={aufgabe} onRichtig={onRichtig} onFalsch={onFalsch} onTeilaufgabeChange={handleTeilaufgabeChange} />
+        <View aufgabe={aufgabe} onRichtig={handleRichtig} onFalsch={onFalsch} onTeilaufgabeChange={handleTeilaufgabeChange} />
       )}
     </>
   );

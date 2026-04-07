@@ -178,7 +178,7 @@ export function Phase3Rechnen({
             onKeyDown={handleKeyDown}
             placeholder="Deine Antwort"
             disabled={status === 'richtig' || status === 'show'}
-            className="flex-1 text-2xl font-bold text-center border-2 border-border rounded-xl py-2 focus:border-primary focus:ring-3 focus:ring-primary/20 focus:outline-none bg-white min-h-[44px] disabled:opacity-50"
+            className="flex-1 text-lg font-bold text-center border-2 border-border rounded-xl py-2 focus:border-primary focus:ring-3 focus:ring-primary/20 focus:outline-none bg-white min-h-[44px] disabled:opacity-50"
           />
           <span className="text-xl font-bold text-muted">km</span>
         </div>

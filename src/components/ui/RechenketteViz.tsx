@@ -4,7 +4,13 @@
  *
  * Gelöste Schritte zeigen das Ergebnis, offene zeigen ▢.
  * Der aktuelle Schritt wird hervorgehoben.
+ *
+ * Im interaktiven Modus kann das Kind die Ergebnisse direkt
+ * in der Kette eintippen — jedes ▢ wird zum Eingabefeld.
  */
+
+import { useState, useRef, useEffect } from 'react';
+import { normalizeZahl } from '@/aufgaben/parserHelpers';
 
 interface RechenketteVizProps {
   /** Komplette Kette als String: "120 → + 180 → 300 → : 5 → 60" */
@@ -13,6 +19,10 @@ interface RechenketteVizProps {
   geloestBis: number;
   /** Index des aktuell aktiven Ergebnis-Feldes (0-basiert) */
   aktiverSchritt: number;
+  /** Interaktiver Modus: Eingabefelder direkt in der Kette */
+  interaktiv?: boolean;
+  /** Callback bei Antwort im interaktiven Modus */
+  onAntwort?: (index: number, richtig: boolean) => void;
 }
 
 interface KettenElement {
@@ -29,7 +39,7 @@ function parseKette(kette: string): KettenElement[] {
 
   for (let i = 0; i < teile.length; i++) {
     const teil = teile[i];
-    const istOperation = /^[+\-·:×÷]/.test(teil);
+    const istOperation = /^[+\-−·:×÷]/.test(teil);
 
     if (istOperation) {
       // Operation: "+ 180"
@@ -46,8 +56,38 @@ function parseKette(kette: string): KettenElement[] {
   return elemente;
 }
 
-export function RechenketteViz({ kette, geloestBis, aktiverSchritt }: RechenketteVizProps) {
+export function RechenketteViz({ kette, geloestBis, aktiverSchritt, interaktiv, onAntwort }: RechenketteVizProps) {
   const elemente = parseKette(kette);
+  const [input, setInput] = useState('');
+  const [feedback, setFeedback] = useState<'idle' | 'richtig' | 'falsch'>('idle');
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Focus & reset bei neuem Schritt
+  useEffect(() => {
+    if (interaktiv) {
+      setInput('');
+      setFeedback('idle');
+      // Delay focus to ensure DOM is updated
+      requestAnimationFrame(() => inputRef.current?.focus());
+    }
+  }, [aktiverSchritt, interaktiv]);
+
+  function handleCheck(expected: string) {
+    const norm = normalizeZahl(input);
+    const exp = normalizeZahl(expected);
+    if (norm === exp) {
+      setFeedback('richtig');
+      setTimeout(() => {
+        onAntwort?.(aktiverSchritt, true);
+        setInput('');
+        setFeedback('idle');
+      }, 350);
+    } else {
+      setFeedback('falsch');
+      onAntwort?.(aktiverSchritt, false);
+      setTimeout(() => setFeedback('idle'), 600);
+    }
+  }
 
   return (
     <div className="flex flex-wrap items-center gap-1.5 justify-center py-2">
@@ -77,6 +117,28 @@ export function RechenketteViz({ kette, geloestBis, aktiverSchritt }: Rechenkett
         // Ergebnis-Feld
         const istGeloest = el.index < geloestBis;
         const istAktiv = el.index === aktiverSchritt;
+
+        // Interaktiver Modus: Eingabefeld statt ▢
+        if (interaktiv && istAktiv && !istGeloest) {
+          return (
+            <input
+              key={i}
+              ref={inputRef}
+              value={input}
+              onChange={(e) => { setInput(e.target.value); if (feedback === 'falsch') setFeedback('idle'); }}
+              onKeyDown={(e) => e.key === 'Enter' && feedback === 'idle' && input.trim() && handleCheck(el.text)}
+              inputMode="numeric"
+              placeholder="?"
+              className={`w-[72px] px-2 py-1.5 rounded-lg text-sm font-bold tabular-nums text-center border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20 ${
+                feedback === 'richtig'
+                  ? 'border-success bg-success/10 text-success'
+                  : feedback === 'falsch'
+                    ? 'border-error bg-error/10 text-error'
+                    : 'border-primary bg-white text-heading'
+              }`}
+            />
+          );
+        }
 
         return (
           <span

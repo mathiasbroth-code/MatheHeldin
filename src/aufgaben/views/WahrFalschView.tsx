@@ -42,12 +42,12 @@ export function WahrFalschView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProp
     <div className="space-y-3">
       {daten.anweisung && daten.items.length > 1 && (
         <Card>
-          <MarkdownText text={daten.anweisung} className="text-sm font-semibold text-heading leading-relaxed" />
+          <MarkdownText text={daten.anweisung} className="text-sm text-body leading-relaxed" />
         </Card>
       )}
 
       <Card>
-        <MarkdownText text={current.aussage} className="text-base text-heading font-semibold leading-relaxed" />
+        <MarkdownText text={current.aussage} className="text-sm font-semibold text-heading leading-relaxed" />
       </Card>
 
       <div className="grid grid-cols-2 gap-3">

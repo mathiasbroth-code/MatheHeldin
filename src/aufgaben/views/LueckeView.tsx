@@ -53,11 +53,14 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
   // Replace special placeholders with visual underscores
   const displayText = current.frage.replace(/▢/g, '___');
 
+  // Nicht-numerische Antworten (z.B. <, >, =) brauchen Text-Tastatur
+  const isNumericAnswer = /^[\d.,\-\s/]+$/.test(current.antwort);
+
   return (
     <div className="space-y-3">
       {daten.anweisung && daten.items.length > 1 && (
         <Card>
-          <p className="text-sm font-semibold text-heading leading-relaxed">{daten.anweisung}</p>
+          <p className="text-sm text-body leading-relaxed">{daten.anweisung}</p>
         </Card>
       )}
       <Card>
@@ -65,16 +68,16 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
       </Card>
 
       <Card>
-        <p className="text-xs text-muted mb-1">Welche Zahl fehlt?</p>
+        <p className="text-xs text-muted mb-1">{isNumericAnswer ? 'Welche Zahl fehlt?' : 'Was fehlt?'}</p>
         <input
           ref={inputRef}
-          inputMode="numeric"
+          inputMode={isNumericAnswer ? 'numeric' : 'text'}
           value={input}
           onChange={(e) => { setInput(e.target.value); if (status === 'falsch') setStatus('idle'); }}
           onKeyDown={(e) => e.key === 'Enter' && status === 'idle' && check()}
           placeholder="▢ = ?"
           disabled={status === 'richtig'}
-          className="w-full text-3xl font-bold tabular-nums text-center border-2 border-border rounded-xl py-3 focus:border-primary focus:ring-3 focus:ring-primary/20 focus:outline-none bg-white min-h-[56px] disabled:opacity-50"
+          className="w-full text-lg font-bold tabular-nums text-center border-2 border-border rounded-xl py-3 focus:border-primary focus:ring-3 focus:ring-primary/20 focus:outline-none bg-white min-h-[48px] disabled:opacity-50"
         />
       </Card>
 

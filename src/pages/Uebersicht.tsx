@@ -165,6 +165,20 @@ export function Uebersicht() {
             </p>
           )}
         </div>
+
+        {/* Lexikon-Link */}
+        {!istSuche && (
+          <button
+            onClick={() => navigate('/lexikon')}
+            className="w-full mt-4 p-4 bg-card border border-border rounded-2xl flex items-center gap-3 cursor-pointer hover:border-primary/30 transition-colors text-left"
+          >
+            <span className="text-2xl">📖</span>
+            <div>
+              <p className="text-sm font-bold text-heading">Mathe-Lexikon</p>
+              <p className="text-xs text-muted">Begriffe nachschlagen und verstehen</p>
+            </div>
+          </button>
+        )}
       </main>
     </AppShell>
   );

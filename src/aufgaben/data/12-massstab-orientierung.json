@@ -680,13 +680,13 @@
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Eine Wanderkarte hat den Maßstab 1 : 25.000. Berechne die Strecke in Wirklichkeit.\n\na) Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m\nb) Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m",
-    "loesung": "a) 1.000 m (= 1 km)\nb) 2.500 m (= 2,5 km)",
-    "loesungsweg": "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m",
+    "loesung": "a) 1.000 m (= 1 km)\nb) 2.500",
+    "loesungsweg": "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m (= 2,5 km)",
     "tipps": [
       "1 cm auf der Karte = 25.000 cm in echt. Wie viele Meter sind 25.000 cm? (Teile durch 100.)",
       "Rechne schrittweise:\n1. Kartenlänge · Maßstabszahl = echte Länge in cm\n2. Teile durch 100 → Meter\n3. Teile durch 1.000 → Kilometer",
       "a) 4 · 25.000 = 100.000 cm. Wie viele Meter? 100.000 : 100 = ___ m",
-      "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m"
+      "Maßstab 1 : 25.000 bedeutet: 1 cm auf der Karte = 25.000 cm in Wirklichkeit.\n- a) 4 cm · 25.000 = 100.000 cm = 1.000 m\n- b) 10 cm · 25.000 = 250.000 cm = 2.500 m (= 2,5 km)"
     ],
     "didaktischerHinweis": "Kartenmassstab anwenden. Entspricht S. 120, Aufg. 3-4 (Wanderkarte Burg Wildenstein).",
     "parsed": {
@@ -702,7 +702,7 @@
         {
           "label": "b",
           "frage": "Länge auf der Karte: 10 cm → Länge in Wirklichkeit: ___ m",
-          "antwort": "2.500 m (= 2,5 km)"
+          "antwort": "2.500"
         }
       ]
     }
@@ -717,13 +717,13 @@
     "stageId": "karten-orientierung",
     "digital": "voll",
     "aufgabenstellung": "Die Klasse 4b plant eine Wanderung. Auf der Karte (Maßstab 1 : 25.000) ist der Weg 16 cm lang. Für 1 km braucht man zu Fuss etwa 20 Minuten.\n\na) Wie lang ist die Wanderstrecke in Wirklichkeit?\nb) Wie lange dauert die Wanderung ungefähr?",
-    "loesung": "a) 4 km (= 4.000 m)\nb) 80 Minuten (= 1 Stunde 20 Minuten)",
-    "loesungsweg": "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km\nb) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min",
+    "loesung": "a) 4\nb) 80",
+    "loesungsweg": "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km (= 4.000 m)\nb) 4 km · 20 Minuten = 80 Minuten (= 1 Stunde 20 Minuten)",
     "tipps": [
       "Rechne zuerst die Strecke aus (cm → m → km). Dann überleg: Wenn 1 km = 20 Minuten, wie viele Minuten sind es bei 4 km?",
       "Schritt 1: 16 · 25.000 = 400.000 cm\nSchritt 2: 400.000 : 100 = 4.000 m = 4 km\nSchritt 3: 4 · 20 Min = ___ Min",
       "Die Strecke ist 4 km. Für 1 km braucht man 20 Minuten, also für 4 km: 4 · 20 = ___ Minuten. Wie viele Stunden und Minuten sind das?",
-      "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km\nb) 4 km · 20 Minuten = 80 Minuten = 1 h 20 min"
+      "a) 16 cm · 25.000 = 400.000 cm = 4.000 m = 4 km (= 4.000 m)\nb) 4 km · 20 Minuten = 80 Minuten (= 1 Stunde 20 Minuten)"
     ],
     "didaktischerHinweis": "Mehrstufige Sachaufgabe mit Maßstab und Zeitberechnung. Entspricht S. 120, Aufg. 3.",
     "parsed": {
@@ -736,7 +736,7 @@
             {
               "label": "1",
               "frage": "Wie lang ist die Wanderstrecke in Wirklichkeit?",
-              "antwort": "4 km (= 4.000 m)"
+              "antwort": "4"
             }
           ]
         },
@@ -746,7 +746,7 @@
             {
               "label": "1",
               "frage": "Wie lange dauert die Wanderung ungefähr?",
-              "antwort": "80 Minuten (= 1 Stunde 20 Minuten)"
+              "antwort": "80"
             }
           ]
         }
@@ -1114,14 +1114,14 @@
     "digital": "voll",
     "aufgabenstellung": "Der Schulhof ist 60 m lang und 40 m breit. Er soll auf ein DIN-A4-Blatt (ca. 29 cm × 21 cm) gezeichnet werden.\n\nWelchen Maßstab wählst du? 1 : ___",
     "loesung": "250",
-    "loesungsweg": "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).\nAuch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm).",
+    "loesungsweg": "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).",
     "tipps": [
       "Rechne den Schulhof in cm um. Dann überlege: Durch welche Zahl musst du teilen, damit 6.000 cm auf weniger als 29 cm schrumpft?",
       "Nimm ein DIN-A4-Blatt und ein Lineal. Zeichne die lange Seite (29 cm). Jetzt probiere: Wenn 1 cm = 2 m wäre (Maßstab 1 : 200), bräuchtest du 60 : 2 = 30 cm — das passt knapp nicht. Versuch 1 cm = 2,5 m (Maßstab 1 : 250): 60 : 2,5 = 24 cm — das passt!",
       "1. Schulhof: 60 m = 6.000 cm, 40 m = 4.000 cm\n2. Probiere Maßstab 1 : 250:\n   Länge: 6.000 : 250 = 24 cm ✓ (passt auf 29 cm)\n   Breite: 4.000 : 250 = 16 cm ✓ (passt auf 21 cm)\n3. Also: Maßstab 1 : ___ passt.",
-      "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut).\nAuch 1 : 300 wäre möglich (Länge = 20 cm, Breite ≈ 13,3 cm)."
+      "Der Schulhof ist 60 m × 40 m = 6.000 cm × 4.000 cm.\nDas Blatt ist ca. 29 cm × 21 cm.\nFür die Länge: 6.000 : 29 ≈ 207 → Maßstab muss mindestens 1 : 207 sein.\nFür die Breite: 4.000 : 21 ≈ 190 → Maßstab muss mindestens 1 : 190 sein.\nDer größere Wert bestimmt: mindestens 1 : 207.\nEin praktischer Maßstab ist 1 : 250 (Länge = 24 cm, Breite = 16 cm — passt gut)."
     ],
-    "didaktischerHinweis": "Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (1 : 250, 1 : 300). Entspricht S. 118, weiterführende Aufgabe.",
+    "didaktischerHinweis": "Offene Knobelaufgabe: Kinder müssen selbst einen passenden Maßstab finden. Fördert Problemlösekompetenz und Schätzen. Mehrere richtige Antworten möglich (z. B. 1 : 250 oder 1 : 300). Entspricht S. 118, weiterführende Aufgabe.",
     "parsed": {
       "typ": "eingabe",
       "anweisung": "",

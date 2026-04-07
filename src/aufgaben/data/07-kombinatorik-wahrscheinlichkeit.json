@@ -114,7 +114,7 @@
     "stageId": "kombinatorik",
     "digital": "voll",
     "aufgabenstellung": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).\n\nWie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
-    "loesung": "6 Möglichkeiten:\n5139, 5193, 5319, 5391, 5913, 5931",
+    "loesung": "6\nMöglichkeiten: 5139, 5193, 5319, 5391, 5913, 5931",
     "loesungsweg": "Die erste Ziffer steht fest (5). Für die restlichen drei Stellen gibt es:\n3 × 2 × 1 = 6 Möglichkeiten.\n\nBaumdiagramm (nur die Stellen 2-4):\n```\n     ┌── 3 ── 9  → 5139\n1 ───┤\n     └── 9 ── 3  → 5193\n\n     ┌── 1 ── 9  → 5319\n3 ───┤\n     └── 9 ── 1  → 5391\n\n     ┌── 1 ── 3  → 5913\n9 ───┤\n     └── 3 ── 1  → 5931\n```",
     "tipps": [
       "Die erste Ziffer ist die 5 — die ist fix. Jetzt musst du nur noch die drei übrigen Ziffern (1, 3, 9) anordnen. Wie viele Möglichkeiten gibt es dafür?",
@@ -131,7 +131,7 @@
         {
           "label": "1",
           "frage": "Wie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
-          "antwort": "5139, 5193, 5319, 5391, 5913, 5931"
+          "antwort": "6"
         }
       ]
     }
@@ -291,7 +291,7 @@
   },
   {
     "titel": "Augensummen mit zwei Würfeln",
-    "typ": "eingabe",
+    "typ": "textaufgabe",
     "thema": "Alles Zufall?",
     "schwierigkeit": "gelb",
     "buchseite": 74,
@@ -309,8 +309,9 @@
     ],
     "didaktischerHinweis": "Grundlagen der Wahrscheinlichkeit: den Ergebnisraum bestimmen. Kinder müssen verstehen, dass mit zwei Würfeln Summen von 2 bis 12 möglich sind — nicht von 1 bis 12. Das ist eine häufige Fehlvorstellung.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "textaufgabe",
       "anweisung": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
+      "kontext": "Du würfelst mit zwei Würfeln und addierst die Augenzahlen.",
       "items": [
         {
           "label": "a",
@@ -338,7 +339,7 @@
     "buchseite": 74,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:\n\n| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
     "loesung": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | 1 | 2 | 3 | 4 | 5 | 6 |",
     "loesungsweg": "Alle Würfelkombinationen für jede Summe:\n- **2:** (1,1) → 1 Möglichkeit\n- **3:** (1,2), (2,1) → 2 Möglichkeiten\n- **4:** (1,3), (2,2), (3,1) → 3 Möglichkeiten\n- **5:** (1,4), (2,3), (3,2), (4,1) → 4 Möglichkeiten\n- **6:** (1,5), (2,4), (3,3), (4,2), (5,1) → 5 Möglichkeiten\n- **7:** (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 Möglichkeiten",
@@ -357,7 +358,7 @@
         {
           "label": "1",
           "frage": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
-          "antwort": "|------------|---|---|---|---|---|---|"
+          "antwort": "1, 2, 3, 4, 5, 6"
         }
       ]
     }
@@ -493,40 +494,46 @@
   },
   {
     "titel": "Faire und unfaire Spielregeln",
-    "typ": "wahr-falsch",
+    "typ": "auswahl",
     "thema": "Alles Zufall?",
     "schwierigkeit": "grün",
     "buchseite": 75,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "wahrscheinlichkeit",
     "digital": "voll",
-    "aufgabenstellung": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?\n\na) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\" — Ist diese Regel fair?\nb) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\" — Ist diese Regel fair?",
-    "loesung": "a) Richtig — fair (18 gerade, 18 ungerade Kombinationen)\nb) Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)",
-    "loesungsweg": "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓",
+    "aufgabenstellung": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?\n\na) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\"\nb) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\"\n\nWas gilt für beide Regeln?\n\nA) Beide fair\nB) Beide unfair\nC) Nur Regel A fair\nD) Nur Regel B fair",
+    "loesung": "A) Beide fair\n\nRegel A: 18 gerade Kombinationen vs. 18 ungerade Kombinationen — fair.\nRegel B: 15 Kombinationen mit Summe > 7 vs. 15 Kombinationen mit Summe < 7 — fair (bei Summe 7 bekommt keiner einen Punkt, aber beide Seiten haben gleich viele Gewinnmöglichkeiten).",
+    "loesungsweg": "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 → fair\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\nSumme = 7 (6 Kombinationen): bekommt keiner einen Punkt\n→ Regel B: 15 vs. 15 → fair\n\nBeide Regeln sind fair → Antwort A",
     "tipps": [
       "Um zu entscheiden, ob eine Regel fair ist, musst du zählen: Wie viele Möglichkeiten hat Kind 1? Wie viele hat Kind 2? Wenn beide gleich viel haben, ist es fair.",
       "Nutze die große 6×6-Tabelle aller Würfelkombinationen. Färbe die Felder ein:\n- Eine Farbe für \"Kind 1 gewinnt\"\n- Eine andere Farbe für \"Kind 2 gewinnt\"\nZähle die Felder!",
       "Regel A: Gerade Summen bei zwei Würfeln: 2 (1 Möglichkeit), 4 (3 Möglichkeiten), 6 (5 Möglichkeiten), 8 (5), 10 (3), 12 (1) = 1+3+5+5+3+1 = ?\nUngerade Summen: 3 (2), 5 (4), 7 (6), 9 (4), 11 (2) = 2+4+6+4+2 = ?\nGleich? → fair oder unfair?",
-      "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 = fair ✓\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\n→ Regel B: 15 vs. 15 = fair ✓"
+      "Wir zählen die Möglichkeiten mit der Tabelle aller 36 Ergebnisse:\n\nGerade Summen (2, 4, 6, 8, 10, 12): 1+3+5+5+3+1 = 18\nUngerade Summen (3, 5, 7, 9, 11): 2+4+6+4+2 = 18\n→ Regel A: 18 vs. 18 → fair\n\nSumme > 7 (8,9,10,11,12): 5+4+3+2+1 = 15\nSumme < 7 (2,3,4,5,6): 1+2+3+4+5 = 15\nSumme = 7 (6 Kombinationen): bekommt keiner einen Punkt\n→ Regel B: 15 vs. 15 → fair\n\nBeide Regeln sind fair → Antwort A"
     ],
     "didaktischerHinweis": "Fairness analysieren ist ein Kernthema der Grundschul-Wahrscheinlichkeit. Kinder müssen systematisch zählen, nicht raten. Die 6×6-Tabelle ist das zentrale Werkzeug. Überraschend: Beide Regeln sind fair! Das widerspricht oft der Intuition.",
     "parsed": {
-      "typ": "wahr-falsch",
-      "anweisung": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Du spielst mit zwei Würfeln. Ist die Regel **fair** (gleiche Chancen für beide) oder **unfair**?\n\na) Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\"\nb) Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\"\n\nWas gilt für beide Regeln?",
+      "optionen": [
         {
-          "label": "a",
-          "aussage": "Regel A: „Kind 1 bekommt einen Punkt bei gerader Augensumme. Kind 2 bei ungerader Augensumme.\" — Ist diese Regel fair?",
-          "richtig": true,
-          "erklaerung": "Richtig — fair (18 gerade, 18 ungerade Kombinationen)"
+          "label": "A",
+          "text": "Beide fair"
         },
         {
-          "label": "b",
-          "aussage": "Regel B: „Kind 1 bekommt einen Punkt bei Augensumme größer als 7. Kind 2 bei Augensumme kleiner als 7. Bei Augensumme 7 bekommt keiner einen Punkt.\" — Ist diese Regel fair?",
-          "richtig": true,
-          "erklaerung": "Richtig — fair (je 15 Gewinnmöglichkeiten, aber bei Summe 7 bekommt keiner einen Punkt)"
+          "label": "B",
+          "text": "Beide unfair"
+        },
+        {
+          "label": "C",
+          "text": "Nur Regel A fair"
+        },
+        {
+          "label": "D",
+          "text": "Nur Regel B fair"
         }
-      ]
+      ],
+      "richtigeIdx": 0
     }
   },
   {
@@ -677,15 +684,15 @@
   },
   {
     "titel": "Häufige und seltene Buchstaben — Vermutung",
-    "typ": "eingabe",
+    "typ": "auswahl",
     "thema": "Buchstaben zählen",
     "schwierigkeit": "gelb",
     "buchseite": 76,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "haeufigkeitsanalyse",
     "digital": "voll",
-    "aufgabenstellung": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?\n\nWähle aus:\nZuerst raten: E, N, I, S, R, A, T\nAuf keinen Fall: X, Y, Q, J, C",
-    "loesung": "Zuerst raten (z.B.): E, N, S (häufigste Buchstaben im Deutschen)\nAuf keinen Fall (z.B.): X, Y, Q (seltenste Buchstaben)",
+    "aufgabenstellung": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche Buchstaben solltest du **zuerst** raten, um möglichst schnell zu gewinnen?\n\nA) X, Y, Q — diese kommen fast nie vor\nB) E, N, S — diese kommen sehr häufig vor\nC) A, B, C — die ersten Buchstaben des Alphabets\nD) Z, J, V — diese klingen interessant",
+    "loesung": "B) E, N, S — diese kommen sehr häufig vor",
     "loesungsweg": "Im Deutschen kommen manche Buchstaben viel häufiger vor als andere:\n- Sehr häufig: E, N, I, S, R, A, T\n- Sehr selten: Q, X, Y, J, C\n\nDer häufigste Buchstabe ist das E — es kommt in fast jedem Wort vor!",
     "tipps": [
       "Denke an Wörter, die du kennst: \"Schule\", \"Hase\", \"Katze\", \"Sonne\". Welcher Buchstabe kommt in besonders vielen Wörtern vor?",
@@ -695,15 +702,28 @@
     ],
     "didaktischerHinweis": "Intuitiver Einstieg in die Häufigkeitsanalyse. Kinder nutzen ihr Sprachgefühl, bevor sie zählen. Das Spiel \"Buchstabenvogel\" motiviert und schafft einen natürlichen Anlass, über Buchstabenhäufigkeiten nachzudenken.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "auswahl",
       "anweisung": "",
-      "items": [
+      "frageText": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche Buchstaben solltest du **zuerst** raten, um möglichst schnell zu gewinnen?",
+      "optionen": [
         {
-          "label": "1",
-          "frage": "Ali und Jette spielen \"Buchstabenvogel\" (wie Galgenmännchen). Welche drei Buchstaben würdest du **zuerst** raten? Welche drei Buchstaben würdest du auf **keinen Fall** zuerst raten?\n\nWähle aus:\nZuerst raten: E, N, I, S, R, A, T\nAuf keinen Fall: X, Y, Q, J, C",
-          "antwort": "Zuerst raten (z.B.): E, N, S (häufigste Buchstaben im Deutschen)"
+          "label": "A",
+          "text": "X, Y, Q — diese kommen fast nie vor"
+        },
+        {
+          "label": "B",
+          "text": "E, N, S — diese kommen sehr häufig vor"
+        },
+        {
+          "label": "C",
+          "text": "A, B, C — die ersten Buchstaben des Alphabets"
+        },
+        {
+          "label": "D",
+          "text": "Z, J, V — diese klingen interessant"
         }
-      ]
+      ],
+      "richtigeIdx": 1
     }
   },
   {
@@ -748,7 +768,7 @@
     "stageId": "haeufigkeitsanalyse",
     "digital": "voll",
     "aufgabenstellung": "Untersuche diesen kurzen Text. Zähle, wie oft jeder Buchstabe vorkommt. Notiere die fünf häufigsten Buchstaben.\n\n**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
-    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 10 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| H | 3 |\n| L | 3 |\n| O | 3 |\n| A | 2 |\n| D | 2 |\n| F | 2 |\n| G | 2 |\n| I | 2 |\n| M | 2 |\n| C | 1 |\n| Z | 1 |\n| ß | 1 |\n\nDie fünf häufigsten: E (10), N (5), R (5), T (5), H/L/O (je 3)",
+    "loesung": "Vollständige Zählung (ohne Leerzeichen und Satzzeichen):\n\n| Buchstabe | Anzahl |\n|-----------|--------|\n| E | 10 |\n| N | 5 |\n| R | 5 |\n| T | 5 |\n| H | 3 |\n| L | 3 |\n| O | 3 |\n| A | 2 |\n| D | 2 |\n| F | 2 |\n| G | 2 |\n| I | 2 |\n| M | 2 |\n| C | 1 |\n| Z | 1 |\n| ß | 1 |\n\nHinweis: S kommt in diesem Text nicht vor.\n\nDie fünf häufigsten: E (10), N (5), R (5), T (5), H/L/O (je 3)",
     "loesungsweg": "Den Text systematisch durchgehen und jeden Buchstaben mit Strichen zählen. Dann sortieren nach Häufigkeit.",
     "tipps": [
       "Geh den Text Buchstabe für Buchstabe durch. Welchen Buchstaben siehst du am öftesten? Tipp: Es ist ein Vokal!",
@@ -778,7 +798,7 @@
     "buchseite": 76,
     "kapitel": "07-kombinatorik-wahrscheinlichkeit",
     "stageId": "haeufigkeitsanalyse",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |\n\na) Zeichne das Diagramm.\nb) Welcher Buchstabe kommt am häufigsten vor?\nc) Welche zwei Buchstaben kommen gleich oft vor?",
     "loesung": "b) E (12-mal)\nc) R und S (je 6-mal)\n\na) Säulendiagramm:\n```\n12 |  █\n10 |  █        █\n 8 |  █  █     █\n 6 |  █  █  █  █  █\n 4 |  █  █  █  █  █  █\n 2 |  █  █  █  █  █  █  █\n   |  E  N  R  S  T  A  I\n```",
     "loesungsweg": "Für jede Säule: Anzahl ÷ 2 = Kästchenhöhe.\n- E: 12 ÷ 2 = 6 Kästchen\n- N: 8 ÷ 2 = 4 Kästchen\n- R: 6 ÷ 2 = 3 Kästchen\n- S: 6 ÷ 2 = 3 Kästchen\n- T: 10 ÷ 2 = 5 Kästchen\n- A: 4 ÷ 2 = 2 Kästchen\n- I: 5 ÷ 2 = 2,5 Kästchen (halbes Kästchen)",
@@ -1211,7 +1231,7 @@
     "tipps": [
       "Stell dir drei Würfel vor. Was zeigen sie, wenn alle die kleinste Zahl zeigen? Und wenn alle die größte Zahl zeigen?",
       "Für a): Jeder Würfel zeigt mindestens 1. Drei Würfel zeigen zusammen mindestens 1 + 1 + 1 = ?\nFür b): Jeder Würfel zeigt höchstens 6. Drei Würfel zeigen zusammen höchstens 6 + 6 + 6 = ?\nFür c): Die häufigste Summe liegt in der Mitte zwischen dem Minimum und Maximum.",
-      "a) 1 + 1 + 1 = ?\nb) 6 + 6 + 6 = ?\nc) Die Mitte zwischen deinen Antworten a) und b): Addiere beide und teile durch 2. (3 + 18) / 2 = ? Runde auf eine ganze Zahl — das ist die häufigste Summe!",
+      "a) 1 + 1 + 1 = ?\nb) 6 + 6 + 6 = ?\nc) Die mittlere Augensumme ist (3+18) ÷ 2 = 10,5. Das liegt genau zwischen 10 und 11 — und tatsächlich kommen beide gleich häufig vor. Welche zwei Zahlen sind es also?",
       "- a) Minimum: Jeder Würfel zeigt 1 → 1 + 1 + 1 = 3\n- b) Maximum: Jeder Würfel zeigt 6 → 6 + 6 + 6 = 18\n- c) Die möglichen Summen reichen von 3 bis 18. Die Mitte liegt bei (3 + 18) / 2 = 10,5. Die Summen 10 und 11 haben tatsächlich beide die meisten Kombinationen (je 27 von 216 möglichen)."
     ],
     "didaktischerHinweis": "Transfer von zwei auf drei Würfel. Die Aufgabe baut auf den vorherigen Erkenntnissen auf und erweitert sie. Die Symmetrie der Verteilung (häufigste Summe in der Mitte) ist ein universelles Prinzip. Dass sowohl 10 als auch 11 gleich häufig vorkommen, ist eine Feinheit, die nicht erzwungen wird — die Antwort 10 oder 11 wird akzeptiert.",

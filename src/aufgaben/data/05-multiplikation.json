@@ -47,7 +47,7 @@
   },
   {
     "titel": "Tausender multiplizieren — Päckchen rechnen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Multiplizieren im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 54,
@@ -65,19 +65,38 @@
     ],
     "didaktischerHinweis": "Rechenpäckchen trainieren das Erkennen von Mustern. Die wachsende Nullenanzahl zeigt das Stellenwertprinzip in Aktion. Entspricht S. 54, Aufg. 3 (Päckchen-Muster).",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne die Päckchen. Was fällt dir auf?",
-      "kontext": "Rechne die Päckchen. Was fällt dir auf?",
       "items": [
         {
           "label": "a",
           "frage": "5 · 800 =",
-          "antwort": "4.000 / 40.000 / 400.000"
+          "antwort": "4.000"
+        },
+        {
+          "label": "a2",
+          "frage": "5 · 8.000 =",
+          "antwort": "40.000"
+        },
+        {
+          "label": "a3",
+          "frage": "5 · 80.000 =",
+          "antwort": "400.000"
         },
         {
           "label": "b",
           "frage": "7 · 600 =",
-          "antwort": "4.200 / 42.000 / 420.000"
+          "antwort": "4.200"
+        },
+        {
+          "label": "b2",
+          "frage": "7 · 6.000 =",
+          "antwort": "42.000"
+        },
+        {
+          "label": "b3",
+          "frage": "7 · 60.000 =",
+          "antwort": "420.000"
         }
       ]
     }
@@ -294,7 +313,7 @@
   },
   {
     "titel": "Divisionspäckchen — Muster erkennen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Dividieren im Kopf",
     "schwierigkeit": "gelb",
     "buchseite": 55,
@@ -312,19 +331,38 @@
     ],
     "didaktischerHinweis": "Diese Päckchen-Aufgabe zeigt zwei wichtige Prinzipien: (1) Gleichmäßiges Vergrößern von Dividend und Divisor ändert den Quotienten nicht. (2) Vergrößern nur des Dividenden vergrößert den Quotienten proportional. Entspricht S. 55, Aufg. 3.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Dividiere. Kontrolliere mit der Umkehraufgabe.",
-      "kontext": "Dividiere. Kontrolliere mit der Umkehraufgabe.",
       "items": [
         {
           "label": "a",
           "frage": "4.200 : 700 =",
-          "antwort": "6 / 6 / 6"
+          "antwort": "6"
+        },
+        {
+          "label": "a2",
+          "frage": "42.000 : 7.000 =",
+          "antwort": "6"
+        },
+        {
+          "label": "a3",
+          "frage": "420.000 : 70.000 =",
+          "antwort": "6"
         },
         {
           "label": "b",
           "frage": "4.800 : 8 =",
-          "antwort": "600 / 6.000 / 60.000"
+          "antwort": "600"
+        },
+        {
+          "label": "b2",
+          "frage": "48.000 : 8 =",
+          "antwort": "6.000"
+        },
+        {
+          "label": "b3",
+          "frage": "480.000 : 8 =",
+          "antwort": "60.000"
         }
       ]
     }
@@ -1336,8 +1374,8 @@
     "kapitel": "05-multiplikation",
     "stageId": "schriftlich-multiplizieren-2",
     "digital": "voll",
-    "aufgabenstellung": "Berechne die fehlenden Ziffern.\n\na) _43_ · 2 = 4.862\nb) 6__7 · 4 = 24.828\nc) 3_5_ · 3 = 10.962",
-    "loesung": "a) 2.431 · 2 = 4.862\nb) 6.207 · 4 = 24.828\nc) 3.654 · 3 = 10.962",
+    "aufgabenstellung": "Berechne die fehlenden Ziffern.\n\na) ___43___ · 2 = 4.862\nb) 6__7 · 4 = 24.828\nc) 3_5_ · 3 = 10.962",
+    "loesung": "a) 2.431\nb) 6.207 · 4 = 24.828\nc) 3.654 · 3 = 10.962",
     "loesungsweg": "Rückwärts rechnen: Dividiere das Ergebnis durch den Multiplikator.\n- a) 4.862 : 2 = 2.431 → die fehlenden Ziffern sind 2 und 1.\n- b) 24.828 : 4 = 6.207 → die fehlenden Ziffern sind 2 und 0.\n- c) 10.962 : 3 = 3.654 → die fehlenden Ziffern sind 6 und 4.\n\nOder Stelle für Stelle prüfen:\n- a) _43_ · 2 = 4.862. Einer: _ · 2 = ...2 → _ = 1 (weil 1 · 2 = 2). Tausender: _ · 2 = 4... → _ = 2.",
     "tipps": [
       "Beginne bei den Einern: Welche Ziffer mal 2 ergibt eine Zahl, die auf 2 endet? Dann arbeite dich Stelle für Stelle nach links.",
@@ -1352,8 +1390,8 @@
       "items": [
         {
           "label": "a",
-          "frage": "_43_ · 2 = 4.862",
-          "antwort": "2.431 · 2 = 4.862"
+          "frage": "___43___ · 2 = 4.862",
+          "antwort": "2.431"
         },
         {
           "label": "b",
@@ -1538,14 +1576,14 @@
   },
   {
     "titel": "Tauschaufgaben — Welche Reihenfolge ist einfacher?",
-    "typ": "eingabe",
+    "typ": "auswahl",
     "thema": "Schriftliches Multiplizieren mehrstelliger Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 62,
     "kapitel": "05-multiplikation",
     "stageId": "schriftlich-multiplizieren-3",
     "digital": "voll",
-    "aufgabenstellung": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit?\n\na) 318 · 22 oder 22 · 318?\nb) 15 · 3.107 oder 3.107 · 15?\nc) 59 · 4.256 oder 4.256 · 59?",
+    "aufgabenstellung": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit? Wähle jeweils die einfachere Reihenfolge.\n\na)\nA) 318 · 22\nB) 22 · 318\n\nb)\nA) 15 · 3.107\nB) 3.107 · 15\n\nc)\nA) 59 · 4.256\nB) 4.256 · 59",
     "loesung": "a) 22 · 318 ist einfacher (weniger Stellen im Multiplikand → kürzere Zeilen)\n\nAber: Wenn die größere Zahl vorne steht, hat man weniger Teilproduktzeilen!\n- 318 · 22: 2 Teilzeilen, aber jede mit 3 Multiplikationen\n- 22 · 318: 3 Teilzeilen, aber jede mit nur 2 Multiplikationen\n\nAm einfachsten: Die größere Zahl vorne, den kleineren Multiplikator hinten.\n\nb) 3.107 · 15 (größere Zahl vorne, nur 2 Teilzeilen statt 4)\nc) 4.256 · 59 (größere Zahl vorne, nur 2 Teilzeilen)",
     "loesungsweg": "Faustregel: Die Zahl mit weniger Stellen sollte der Multiplikator sein (hinten stehen), denn die Anzahl der Teilzeilen entspricht der Stellenanzahl des Multiplikators. Weniger Teilzeilen = weniger Schreibarbeit.",
     "tipps": [
@@ -1556,25 +1594,36 @@
     ],
     "didaktischerHinweis": "Tauschaufgaben (S. 62, Aufg. 5-6) zeigen, dass das Kommutativgesetz (a · b = b · a) beim schriftlichen Verfahren zu unterschiedlich viel Arbeit führt. Die bewusste Wahl der Reihenfolge ist eine Effizienzstrategie.",
     "parsed": {
-      "typ": "eingabe",
-      "anweisung": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit?",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "",
+      "frageText": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit? Wähle jeweils die einfachere Reihenfolge.\n\na)",
+      "optionen": [
         {
-          "label": "a",
-          "frage": "318 · 22 oder 22 · 318?",
-          "antwort": "22 · 318 ist einfacher (weniger Stellen im Multiplikand → kürzere Zeilen)"
+          "label": "A",
+          "text": "318 · 22"
         },
         {
-          "label": "b",
-          "frage": "15 · 3.107 oder 3.107 · 15?",
-          "antwort": "3.107 · 15 (größere Zahl vorne, nur 2 Teilzeilen statt 4)"
+          "label": "B",
+          "text": "22 · 318"
         },
         {
-          "label": "c",
-          "frage": "59 · 4.256 oder 4.256 · 59?",
-          "antwort": "4.256 · 59 (größere Zahl vorne, nur 2 Teilzeilen)"
+          "label": "A",
+          "text": "15 · 3.107"
+        },
+        {
+          "label": "B",
+          "text": "3.107 · 15"
+        },
+        {
+          "label": "A",
+          "text": "59 · 4.256"
+        },
+        {
+          "label": "B",
+          "text": "4.256 · 59"
         }
-      ]
+      ],
+      "richtigeIdx": 0
     }
   },
   {
@@ -1751,7 +1800,7 @@
     "stageId": "schriftlich-multiplizieren-3",
     "digital": "voll",
     "aufgabenstellung": "Bilde mit den Ziffernkarten 1, 2, 3, 4, 5 (jede nur einmal!) eine Malaufgabe ___ · __ zum Ergebnis.\n\na) ___ · __ = 10.395\nb) ___ · __ = 6.408",
-    "loesung": "a) 231 · 45 = 10.395 (oder 315 · 33 geht nicht, da 3 doppelt)\n   Prüfe: 231 · 45 = 231 · 5 = 1.155, 231 · 40 = 9.240, Summe = 10.395 ✓\n   Alternative: 213 · 45? 213 · 45 = 9.585 ✗. Also: 231 · 45.\n\nb) 534 · 12 = 6.408\n   Prüfe: 534 · 2 = 1.068, 534 · 10 = 5.340, Summe = 6.408 ✓",
+    "loesung": "a) 231 · 45\nb) 534 · 12 = 6.408\n   Prüfe: 534 · 2 = 1.068, 534 · 10 = 5.340, Summe = 6.408 ✓",
     "loesungsweg": "Probiere systematisch:\n1. Überlege, ob die Aufgabe ___ · __ (dreistellig · zweistellig) oder ____ · _ (vierstellig · einstellig) ist.\n2. Nutze den Überschlag: 10.395 ÷ 50 ≈ 200, also könnte es ca. 200 · 50 sein.\n3. Probiere Kombinationen mit den Ziffern 1-5.",
     "tipps": [
       "Schätze zuerst: Wie groß sind die beiden Faktoren ungefähr? Bei 10.395: Wenn ein Faktor ca. 200 ist, ist der andere ca. 50.",
@@ -1767,7 +1816,7 @@
         {
           "label": "a",
           "frage": "___ · __ = 10.395",
-          "antwort": "231 · 45 = 10.395 (oder 315 · 33 geht nicht, da 3 doppelt)"
+          "antwort": "231 · 45"
         },
         {
           "label": "b",
