@@ -53,7 +53,7 @@
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
-      "kontext": "Jette macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3 km zum Spielplatz. Von dort geht es 4 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 15 km geradelt.\n\n- Start → Spielplatz: 3 km\n- Spielplatz → Eisdiele: 4 km\n- Eisdiele → See: ? km",
+      "kontext": "Jette macht mit ihrer Familie eine Radtour. Zuerst radeln sie 3 km zum Spielplatz. Von dort geht es 4 km weiter zur Eisdiele und dann zum See. Sie sind bis dahin insgesamt 15 km geradelt.\n\n- Start → Spielplatz: 3 km\n- Spielplatz → Eisdiele: 4 km\n- Eisdiele → See: ? km\n\nWie weit ist der See von der Eisdiele entfernt?",
       "items": [
         {
           "label": "a",
@@ -85,7 +85,7 @@
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
-      "kontext": "Ali und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 4,3 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wäldchen. Nach dem Grillen besuchen sie noch die Eisdiele, die 2,8 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 16,6 km zurück.\n\n- Start → See: 4,3 km\n- See → Grillplatz: ? km\n- Grillplatz → Eisdiele: 2,8 km",
+      "kontext": "Ali und seine Familie machen einen Ausflug mit dem Rad. Zuerst radeln sie zum See, der 4,3 km entfernt ist. Von dort fahren sie weiter zum Grillplatz im Wäldchen. Nach dem Grillen besuchen sie noch die Eisdiele, die 2,8 km entfernt ist. Danach radeln sie denselben Weg wieder zurück. Insgesamt legen sie 16,6 km zurück.\n\n- Start → See: 4,3 km\n- See → Grillplatz: ? km\n- Grillplatz → Eisdiele: 2,8 km\n\nWie weit ist der Grillplatz vom See entfernt?",
       "items": [
         {
           "label": "a",
@@ -117,7 +117,7 @@
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "Zeichne eine Skizze und löse die Aufgabe.",
-      "kontext": "Justus macht mit seiner Familie eine Radtour. Insgesamt radeln sie 22 km 800 m. Zuerst radeln sie 3,7 km zum Waldrand. Von dort geht es weiter zum Grillplatz. Danach radeln sie 2100 m zum See. Für den Heimweg wählen sie eine Abkürzung, die 9,6 km lang ist.\n\n- Start → Waldrand: 3,7 km\n- Waldrand → Grillplatz: ? km\n- Grillplatz → See: 2,1 km\n- See → Start (Abkürzung): 9,6 km",
+      "kontext": "Justus macht mit seiner Familie eine Radtour. Insgesamt radeln sie 22 km 800 m. Zuerst radeln sie 3,7 km zum Waldrand. Von dort geht es weiter zum Grillplatz. Danach radeln sie 2100 m zum See. Für den Heimweg wählen sie eine Abkürzung, die 9,6 km lang ist.\n\n- Start → Waldrand: 3,7 km\n- Waldrand → Grillplatz: ? km\n- Grillplatz → See: 2,1 km\n- See → Start (Abkürzung): 9,6 km\n\nWie weit ist der Grillplatz vom Waldrand entfernt?",
       "items": [
         {
           "label": "a",
@@ -155,7 +155,8 @@
           "frage": "Zwischen Konstanz und Meersburg (4 km) steht je eine Sturmwarnglocke, die 3 km weit zu hören ist. Wie lang ist die Strecke, auf der BEIDE Glocken zu hören sind?",
           "antwort": "2"
         }
-      ]
+      ],
+      "kontext": "Zwischen Konstanz und Meersburg am Bodensee verkehrt eine Fähre, die eine Strecke von 4 km zurücklegt. In jeder Stadt steht am Hafen eine Sturmwarnglocke, die 3 km weit zu hören ist.\n\nWie lang ist die Strecke zwischen Konstanz und Meersburg, auf der beide Glocken zu hören sind?"
     }
   },
   {
@@ -196,7 +197,8 @@
           "frage": "Wie viele Meter hat Firma B (3,50 m/Tag) gebaut?",
           "antwort": "700"
         }
-      ]
+      ],
+      "kontext": "Beim Bau eines 1200 m langen Tunnels wird gleichzeitig von beiden Seiten begonnen. Die eine Baufirma schafft täglich 2,50 m, die andere sogar 3,50 m."
     }
   },
   {
@@ -242,7 +244,8 @@
           "frage": "Wie viele Schnitte sind nötig?",
           "antwort": "49"
         }
-      ]
+      ],
+      "kontext": "a) Eine Holzleiste ist 3 m lang. Sie wird in 60 cm lange Stücke zersägt. Wie viele Stücke erhält man? Wie viele Schnitte sind nötig?"
     }
   },
   {
@@ -259,9 +262,9 @@
     "loesungsweg": "Umfang Garten: 2 × 6 + 2 × 3,50 = 12 + 7 = 19 m.\nMinus Tor: 19 − 1 = 18 m Zaun für den Garten.\n\nGemüsebeet (quadratisch, 1,50 m Seitenlänge): Umfang = 4 × 1,50 = 6 m.\nAber: Eine Seite grenzt an den Garten (kein Zaun nötig dort) → 6 − 1,50 = 4,50 m.\nMinus Tor: 4,50 − 1 = 3,50 m zusätzlicher Zaun.\nAber: An der Gartenseite, wo das Beet angrenzt, fällt der Gartenzaun dort weg (1,50 m) → 18 − 1,50 = 16,50 m für Garten.\n\nGesamt: 16,50 + 3,50 = 20 m. Der Zaun reicht genau!",
     "tipps": [
       "Rechne zuerst den Umfang des Gartens aus: 2 × Länge + 2 × Breite. Vergiss das Tor nicht (1 m weniger Zaun).",
-      "Umfang Garten: 2 × 6 + 2 × 3,50 = 19 m. Minus 1 m Tor = 18 m Zaun.",
-      "Das Gemüsebeet grenzt an eine Gartenseite. Dort braucht man KEINEN doppelten Zaun. Auch das Beet hat ein 1 m Tor.",
-      "Garten: 18 m − 1,50 m (geteilte Seite) = 16,50 m. Beet: 4 × 1,50 − 1,50 (geteilte Seite) − 1 (Tor) = 3,50 m. Gesamt: 16,50 + 3,50 = 20 m. Reicht genau!"
+      "Umfang Garten: 2 × 6 + 2 × 3,50 = 19 m. Minus 1 m Tor = 18 m Zaun. Aber wo das Beet angrenzt, fällt der Gartenzaun weg!",
+      "Wo das Beet angrenzt (1,50 m), braucht weder der Garten noch das Beet dort Zaun. Das sind ZWEI Zäune die wegfallen. Das Beet braucht nur 3 Seiten Zaun (die 4. Seite grenzt an den Garten). Auch das Beet hat ein 1 m Tor.",
+      "Garten: 18 m − 1,50 m (Beet-Anschluss) = 16,50 m. Beet: nur 3 Seiten = 3 × 1,50 = 4,50 m, minus 1 m Tor = 3,50 m. Gesamt: 16,50 + 3,50 = 20 m. Reicht genau!"
     ],
     "didaktischerHinweis": "Fredo S.71, Aufgabe 8. Komplexe Umfangsaufgabe: Rechteck + Quadrat + geteilte Seite + 2 Tore. Erfordert genaue Skizze.",
     "parsed": {
