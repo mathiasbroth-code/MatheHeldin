@@ -394,22 +394,22 @@
         {
           "label": "a",
           "frage": "3.200 : 8 =",
-          "antwort": "400 (Kontrolle: 400 · 8 = 3.200 ✓)"
+          "antwort": "400"
         },
         {
           "label": "b",
           "frage": "54.000 : 600 =",
-          "antwort": "90 (Kontrolle: 90 · 600 = 54.000 ✓)"
+          "antwort": "90"
         },
         {
           "label": "c",
           "frage": "630.000 : 70 =",
-          "antwort": "9.000 (Kontrolle: 9.000 · 70 = 630.000 ✓)"
+          "antwort": "9.000"
         },
         {
           "label": "d",
           "frage": "240.000 : 800 =",
-          "antwort": "300 (Kontrolle: 300 · 800 = 240.000 ✓)"
+          "antwort": "300"
         }
       ]
     }
@@ -709,7 +709,7 @@
             {
               "label": "1",
               "frage": "25 · 60 =",
-              "antwort": "25 · 60: 20 · 60 = 1.200, 5 · 60 = 300 → 1.500"
+              "antwort": "1.500"
             }
           ]
         },
@@ -719,7 +719,7 @@
             {
               "label": "1",
               "frage": "47 · 30 =",
-              "antwort": "47 · 30: 40 · 30 = 1.200, 7 · 30 = 210 → 1.410"
+              "antwort": "1.410"
             }
           ]
         },
@@ -729,7 +729,7 @@
             {
               "label": "1",
               "frage": "63 · 20 =",
-              "antwort": "63 · 20: 60 · 20 = 1.200, 3 · 20 = 60 → 1.260"
+              "antwort": "1.260"
             }
           ]
         }
@@ -1396,12 +1396,12 @@
         {
           "label": "b",
           "frage": "6__7 · 4 = 24.828",
-          "antwort": "6.207 · 4 = 24.828"
+          "antwort": "6.207"
         },
         {
           "label": "c",
           "frage": "3_5_ · 3 = 10.962",
-          "antwort": "3.654 · 3 = 10.962"
+          "antwort": "3.654"
         }
       ]
     }
@@ -1576,7 +1576,7 @@
   },
   {
     "titel": "Tauschaufgaben — Welche Reihenfolge ist einfacher?",
-    "typ": "auswahl",
+    "typ": "eingabe",
     "thema": "Schriftliches Multiplizieren mehrstelliger Zahlen",
     "schwierigkeit": "grün",
     "buchseite": 62,
@@ -1594,36 +1594,26 @@
     ],
     "didaktischerHinweis": "Tauschaufgaben (S. 62, Aufg. 5-6) zeigen, dass das Kommutativgesetz (a · b = b · a) beim schriftlichen Verfahren zu unterschiedlich viel Arbeit führt. Die bewusste Wahl der Reihenfolge ist eine Effizienzstrategie.",
     "parsed": {
-      "typ": "auswahl",
-      "anweisung": "",
-      "frageText": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Welche Reihenfolge erfordert weniger Schreibarbeit? Wähle jeweils die einfachere Reihenfolge.\n\na)",
-      "optionen": [
+      "typ": "eingabe",
+      "anweisung": "Welche Reihenfolge erfordert weniger Schreibarbeit? Antworte mit A oder B.",
+      "kontext": "Beim schriftlichen Multiplizieren kannst du die Faktoren tauschen. Die größere Zahl vorne, den kleineren Multiplikator hinten — das ergibt weniger Teilzeilen.",
+      "items": [
         {
-          "label": "A",
-          "text": "318 · 22"
+          "label": "a",
+          "frage": "A) 318 · 22 oder B) 22 · 318",
+          "antwort": "A"
         },
         {
-          "label": "B",
-          "text": "22 · 318"
+          "label": "b",
+          "frage": "A) 15 · 3.107 oder B) 3.107 · 15",
+          "antwort": "B"
         },
         {
-          "label": "A",
-          "text": "15 · 3.107"
-        },
-        {
-          "label": "B",
-          "text": "3.107 · 15"
-        },
-        {
-          "label": "A",
-          "text": "59 · 4.256"
-        },
-        {
-          "label": "B",
-          "text": "4.256 · 59"
+          "label": "c",
+          "frage": "A) 59 · 4.256 oder B) 4.256 · 59",
+          "antwort": "B"
         }
-      ],
-      "richtigeIdx": 0
+      ]
     }
   },
   {
@@ -1717,19 +1707,39 @@
     ],
     "didaktischerHinweis": "Malaufgaben mit Neunen (S. 63, Aufg. 8) zeigen die Eleganz des Distributivgesetzes: 99 = 100 − 1. Diese Einsicht ermöglicht effizientes Kopfrechnen und begeistert viele Kinder für mathematische Muster.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne und entdecke das Muster.",
-      "kontext": "Rechne und entdecke das Muster.",
+      "kontext": "Rechne und entdecke das Muster. Trick: Zahl · 99 = Zahl · 100 − Zahl.",
       "items": [
         {
-          "label": "a",
+          "label": "a1",
           "frage": "999 · 11 =",
-          "antwort": "10.989 / 11.988 / 12.987"
+          "antwort": "10.989"
         },
         {
-          "label": "b",
+          "label": "a2",
+          "frage": "999 · 12 =",
+          "antwort": "11.988"
+        },
+        {
+          "label": "a3",
+          "frage": "999 · 13 =",
+          "antwort": "12.987"
+        },
+        {
+          "label": "b1",
           "frage": "123 · 99 =",
-          "antwort": "12.177 / 23.166 / 34.155"
+          "antwort": "12.177"
+        },
+        {
+          "label": "b2",
+          "frage": "234 · 99 =",
+          "antwort": "23.166"
+        },
+        {
+          "label": "b3",
+          "frage": "345 · 99 =",
+          "antwort": "34.155"
         }
       ]
     }

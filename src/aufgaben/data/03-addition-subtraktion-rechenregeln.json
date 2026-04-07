@@ -661,8 +661,8 @@
       "items": [
         {
           "label": "1",
-          "frage": "Welche ANNA-Subtraktionen ergeben das gleiche Ergebnis? Ordne zu.\n\nAufgaben:\n- 7.227 − 2.772\n- 9.449 − 4.994\n- 8.338 − 3.883\n- 6.116 − 1.661\n\nErgebnisse:\n- A) 4.455\n- B) 4.455\n- C) 4.455\n- D) 4.455",
-          "antwort": "Alle vier Aufgaben ergeben 4.455!"
+          "frage": "Was ergeben alle vier ANNA-Subtraktionen?",
+          "antwort": "4.455"
         }
       ]
     }
@@ -689,6 +689,7 @@
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
+      "kontext": "Zum Ergebnis 3.564 gibt es mehrere ANNA-Subtraktionen.",
       "items": [
         {
           "label": "1",
@@ -857,11 +858,12 @@
     "parsed": {
       "typ": "textaufgabe",
       "anweisung": "",
+      "kontext": "Ein Springseil kostet normalerweise 5,80 Euro. Im Sonderangebot kostet es 40 Cent weniger. Die Sternschule möchte 25 Seile kaufen.",
       "items": [
         {
           "label": "1",
-          "frage": "Ein Springseil kostet normalerweise 5,80 Euro. Im Sonderangebot kostet es 40 Cent weniger. Die Sternschule möchte 25 Seile kaufen. Reichen 140 Euro?",
-          "antwort": "Sonderpreis: 5,80 − 0,40 = 5,40 Euro pro Seil."
+          "frage": "Reichen 140 Euro für 25 Springseile im Sonderangebot?",
+          "antwort": "Ja, 140 Euro reichen. 25 · 5,40 = 135 Euro."
         }
       ]
     }
@@ -1819,22 +1821,22 @@
         {
           "label": "a",
           "frage": "90 + 30 · 4 = 480",
-          "antwort": "(90 + 30) · 4 = 120 · 4 = 480"
+          "antwort": "480"
         },
         {
           "label": "b",
           "frage": "500 : 10 + 40 = 10",
-          "antwort": "500 : (10 + 40) = 500 : 50 = 10"
+          "antwort": "10"
         },
         {
           "label": "c",
           "frage": "50 + 60 · 8 = 880",
-          "antwort": "(50 + 60) · 8 = 110 · 8 = 880"
+          "antwort": "880"
         },
         {
           "label": "d",
           "frage": "180 − 40 : 2 = 70",
-          "antwort": "(180 − 40) : 2 = 140 : 2 = 70"
+          "antwort": "70"
         }
       ]
     }
@@ -2219,22 +2221,22 @@
         {
           "label": "a",
           "frage": "80 · 4 ○ 450 − 120",
-          "antwort": "320 < 330 → <"
+          "antwort": "<"
         },
         {
           "label": "b",
           "frage": "260 + 150 ○ 95 · 5",
-          "antwort": "410 < 475 → <"
+          "antwort": "<"
         },
         {
           "label": "c",
           "frage": "6 · 45 ○ 9 · 32",
-          "antwort": "270 < 288 → <"
+          "antwort": "<"
         },
         {
           "label": "d",
           "frage": "540 : 9 ○ 7 · 9",
-          "antwort": "60 < 63 → <"
+          "antwort": "<"
         }
       ]
     }
@@ -2271,22 +2273,22 @@
         {
           "label": "a",
           "frage": "80 + 5 · 35 ○ 80 · 5 + 35",
-          "antwort": "80 + 175 = 255 und 400 + 35 = 435 → 255 < 435 → <"
+          "antwort": "<"
         },
         {
           "label": "b",
           "frage": "24 · 3 + 90 ○ 24 + 3 · 90",
-          "antwort": "72 + 90 = 162 und 24 + 270 = 294 → 162 < 294 → <"
+          "antwort": "<"
         },
         {
           "label": "c",
           "frage": "560 : 7 + 80 ○ 560 + 7 · 80",
-          "antwort": "80 + 80 = 160 und 560 + 560 = 1.120 → 160 < 1.120 → <"
+          "antwort": "<"
         },
         {
           "label": "d",
           "frage": "150 − 30 : 5 ○ 150 : 30 − 5",
-          "antwort": "150 − 6 = 144 und 5 − 5 = 0 → 144 > 0 → >"
+          "antwort": ">"
         }
       ]
     }

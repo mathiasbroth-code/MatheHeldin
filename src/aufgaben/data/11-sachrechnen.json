@@ -26,7 +26,7 @@
         {
           "label": "a",
           "frage": "Was kosten 8 Einzeltickets (3-Stunden)? ___",
-          "antwort": "8 · 8 Euro = 64 Euro"
+          "antwort": "64"
         },
         {
           "label": "b",
@@ -36,7 +36,7 @@
         {
           "label": "c",
           "frage": "Welches Angebot ist für Jette günstiger?",
-          "antwort": "Die 8 Einzeltickets sind günstiger (64 Euro < 85 Euro)."
+          "antwort": "64"
         }
       ]
     }
@@ -68,17 +68,17 @@
         {
           "label": "a",
           "frage": "Was kosten Tageskarten für die ganze Familie? ___",
-          "antwort": "2 · 14 + 3 · 11 = 28 + 33 = 61 Euro"
+          "antwort": "28"
         },
         {
           "label": "b",
           "frage": "Was würden 3-Stunden-Tickets kosten? ___",
-          "antwort": "2 · 11 + 3 · 8 = 22 + 24 = 46 Euro"
+          "antwort": "22"
         },
         {
           "label": "c",
           "frage": "Wie viel mehr zahlt die Familie für Tageskarten? ___",
-          "antwort": "61 - 46 = 15 Euro mehr"
+          "antwort": "15"
         }
       ]
     }
@@ -142,7 +142,7 @@
         {
           "label": "1",
           "frage": "Wie lange muss Jette ungefähr warten, bis sie rutschen kann?",
-          "antwort": "28 · 15 Sekunden = 420 Sekunden = 7 Minuten"
+          "antwort": "420"
         }
       ]
     }
@@ -174,7 +174,7 @@
         {
           "label": "a",
           "frage": "Was kosten die Eintritte? (Jette + Mama frei, 6 Kinder zahlen) ___",
-          "antwort": "6 · 8 = 48 Euro (Jette + Mama frei)"
+          "antwort": "48"
         },
         {
           "label": "b",
@@ -184,12 +184,12 @@
         {
           "label": "c",
           "frage": "Was kostet das mitgebrachte Essen und Trinken? ___",
-          "antwort": "Essen: 7 + 3 = 10 Euro. Getränke: 3 · 0,50 + 3 · 1,50 = 1,50 + 4,50 = 6 Euro. Gesamt: 10 + 6 = 16 Euro."
+          "antwort": "10"
         },
         {
           "label": "d",
           "frage": "Wie viel kostet die Feier insgesamt? Bleibt sie unter 150 Euro?",
-          "antwort": "48 + 25 + 16 = 89 Euro. Ja, das ist unter 150 Euro!"
+          "antwort": "89"
         }
       ]
     }
@@ -221,17 +221,17 @@
         {
           "label": "a",
           "frage": "Was kostet es, wenn alle den Flipper bestellen? ___",
-          "antwort": "8 · 6,50 = 52 Euro"
+          "antwort": "52"
         },
         {
           "label": "b",
           "frage": "Was kostet es, wenn alle Nemo bestellen? ___",
-          "antwort": "8 · 4,50 = 36 Euro"
+          "antwort": "36"
         },
         {
           "label": "c",
           "frage": "Jette hat insgesamt 150 Euro Budget. Der Eintritt kostet 48 Euro (6 Kinder), das Angebot 25 Euro. Wie viel bleibt für Essen und Trinken? ___",
-          "antwort": "150 - 48 - 25 = 77 Euro für Essen und Trinken"
+          "antwort": "77"
         }
       ]
     }
@@ -263,17 +263,17 @@
         {
           "label": "a",
           "frage": "Was kostet Variante A? ___",
-          "antwort": "7 + 15 + 8 + 3 + (3 · 0,50) + (3 · 1,50) = 7 + 15 + 8 + 3 + 1,50 + 4,50 = 39 Euro"
+          "antwort": "7"
         },
         {
           "label": "b",
           "frage": "Was kostet Variante B? ___",
-          "antwort": "8 · 6,50 + 8 · 2,10 = 52 + 16,80 = 68,80 Euro"
+          "antwort": "52"
         },
         {
           "label": "c",
           "frage": "Wie viel spart man mit Variante A? ___",
-          "antwort": "68,80 - 39 = 29,80 Euro gespart"
+          "antwort": "29,80"
         }
       ]
     }
@@ -310,7 +310,7 @@
         {
           "label": "b",
           "frage": "Wie viel spart man mit der 10er-Karte, wenn man sie komplett aufbraucht (10 Besuche)?",
-          "antwort": "Bei 10 Besuchen: 10 · 8 = 80 Euro Einzeltickets vs. 85 Euro 10er-Karte. Die 10er-Karte ist 5 Euro teurer."
+          "antwort": "80"
         }
       ]
     }
@@ -514,7 +514,7 @@
         {
           "label": "1",
           "frage": "Nach wie vielen Metern hat Anna Marie eingeholt?",
-          "antwort": "Nach 400 m hat Anna Marie eingeholt."
+          "antwort": "Nach"
         }
       ]
     }
@@ -546,7 +546,7 @@
         {
           "label": "1",
           "frage": "Wer ist zuerst im Ziel?",
-          "antwort": "Ali ist zuerst im Ziel."
+          "antwort": "Ali"
         }
       ]
     }
@@ -578,7 +578,7 @@
         {
           "label": "1",
           "frage": "Wie viele Kilometer ist Simon in einer Stunde gefahren?",
-          "antwort": "Simon ist 10 km gefahren."
+          "antwort": "Simon"
         }
       ]
     }
@@ -610,7 +610,7 @@
         {
           "label": "1",
           "frage": "Nach wie vielen Metern hat Felix Marco wieder eingeholt? (Felix muss Marco also einmal überrunden.)",
-          "antwort": "Nach 800 m hat Felix Marco eingeholt (Felix hat 2 Runden, Marco 1 Runde geschafft)."
+          "antwort": "Nach"
         }
       ]
     }
@@ -678,7 +678,7 @@
         {
           "label": "1",
           "frage": "Wie schnell ist der andere Zug durchschnittlich gefahren?",
-          "antwort": "80"
+          "antwort": "Der"
         }
       ]
     }

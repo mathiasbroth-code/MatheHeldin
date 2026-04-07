@@ -87,12 +87,12 @@
         {
           "label": "a",
           "frage": "Wähle alle Pflanzen aus, die Charly fressen kann.",
-          "antwort": "A (2 m), B (3 m), D (1 m) — alle Pflanzen, die höchstens 3 m vom Pfosten entfernt sind."
+          "antwort": "A, B, D"
         },
         {
           "label": "b",
           "frage": "Welche Form hat Charlys Futterplatz?",
-          "antwort": "Charlys Futterplatz hat die Form eines Kreises mit dem Radius 3 m."
+          "antwort": "A, B, D"
         }
       ]
     }
@@ -305,7 +305,7 @@
       "Was muss zuerst da sein, bevor du auf der Kreislinie einstechen kannst? Und was braucht man, bevor es Schnittpunkte gibt?",
       "Lies die Anleitung Schritt für Schritt: Zuerst EIN Kreis, dann der Zirkel auf die Kreislinie, dann ein neuer Kreis — immer mit dem gleichen Radius!",
       "Zuerst brauchst du einen Kreis. Dann stichst du auf dessen Kreislinie ein und zeichnest einen zweiten. Erst wenn zwei Kreise sich schneiden, gibt es Schnittpunkte für den dritten. Am Ende verbindest du die Mittelpunkte.",
-      "b, d, a, c"
+      ""
     ],
     "didaktischerHinweis": "Kreismuster fördern räumliches Vorstellungsvermögen und präzises Arbeiten. Entspricht S. 105, Aufg. 9.",
     "erklaerungBild": "assets/erklaerungen/s104-merkkasten-kreis-radius.webp",
@@ -339,7 +339,7 @@
     "buchseite": 105,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "kreise",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Jette hat mit Zirkel und Geodreieck ein buntes Muster gezeichnet. Beantworte die Fragen:\n\na) Wie viele Kreise hat Jette gezeichnet? ___\nb) Haben alle Kreise den gleichen Radius?\nc) Was hat Jette mit dem Geodreieck gemacht?",
     "loesung": "a) 7 Kreise\nb) Ja, alle Kreise haben den gleichen Radius.\nc) Sie hat die Schnittpunkte der Kreise mit geraden Linien verbunden und so ein Sternmuster gezeichnet.",
     "loesungsweg": "Man zählt jeden einzelnen Kreis im Muster:\n- 1 grosser Kreis in der Mitte\n- 6 Kreise drum herum (auf der Kreislinie des mittleren)\n- Alle haben den gleichen Radius\n- Die geraden Linien (mit dem Geodreieck) verbinden die Schnittpunkte der Kreise",
@@ -560,7 +560,7 @@
     "buchseite": 106,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "parkettierungen",
-    "digital": "teilweise",
+    "digital": "platzhalter",
     "aufgabenstellung": "⚠️ **PLATZHALTER — Teilweise digital umsetzbar**\n\nDiese Aufgabe erfordert Zeichnen auf einem Punktraster.\nOriginal: \"Zeichne ab, spiegle die Grundfigur und setze die Parkettierung in alle Richtungen fort.\"\n\n**Digitale Alternative:** Multiple-Choice: \"Welches der vier Bilder zeigt die richtige Fortsetzung der Parkettierung?\"",
     "loesung": "Die Grundfigur wird an der senkrechten Achse gespiegelt (nach rechts). Dann wird das entstandene Doppelbild an der waagerechten Achse gespiegelt (nach unten). So entsteht ein 2×2-Block, der sich lückenlos in alle Richtungen fortsetzen lässt.",
     "loesungsweg": "1. Grundfigur betrachten und Spiegelachsen erkennen (senkrecht und waagerecht).\n2. Figur nach rechts spiegeln → es entsteht ein Paar.\n3. Das Paar nach unten spiegeln → es entsteht ein 2×2-Muster.\n4. Dieses Muster kann man beliebig oft nach rechts und unten wiederholen — die Parkettierung ist vollständig.",
@@ -694,7 +694,7 @@
       "Was passiert, wenn du von einem Dreieck an einer Seite ein Stück abschneidest und es an eine andere Seite klebst?",
       "Das Prinzip ist wie beim Fisch aus dem Quadrat: Wegnehmen und gegenüber wieder dransetzen. Die Fläche bleibt gleich!",
       "Zuerst brauchst du ein Dreieck. Dann schneidest du an einer Seite ein Stück ab. Dieses Stück klebst du an die gegenüberliegende Seite. Die neue Form kannst du als Schablone verwenden.",
-      "b, d, c, a"
+      ""
     ],
     "didaktischerHinweis": "Haptisches Arbeiten vertieft das Verständnis der Parkettierungsprinzipien. Entspricht S. 107, Aufg. 6-7 und Videohinweis \"Anleitung: Schablone herstellen\".",
     "parsed": {
@@ -944,7 +944,7 @@
     "buchseite": 108,
     "kapitel": "10-kreise-muster-körper",
     "stageId": "koerpernetze",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Die unvollständige Figur zeigt 5 von 6 Flächen eines Quadernetzes. An welcher Stelle muss die fehlende Fläche angefügt werden, damit ein gültiges Quadernetz entsteht?\n\nGegeben: Eine L-förmige Figur aus 5 Rechtecken.\n\nDie fehlende Fläche kann an Position X, Y oder Z angefügt werden:\na) Position X (rechts neben dem oberen Rechteck)\nb) Position Y (unter dem unteren Rechteck)\nc) Position Z (links neben dem mittleren Rechteck)",
     "loesung": "c) Position Z (links neben dem mittleren Rechteck) — dort fehlt die gegenüberliegende Seite.",
     "loesungsweg": "Um die richtige Position zu finden, falte das vorhandene Netz im Kopf und schaue, welche Seite noch offen ist. Die fehlende Fläche muss gegenüber einer bereits vorhandenen Fläche liegen.",
@@ -1226,7 +1226,7 @@
       "Ein Schrägbild zeigt die Tiefe durch schräge Linien nach rechts oben. Beginne immer mit der Vorderseite!",
       "Zuerst die Vorderseite (ein Quadrat), dann die schrägen Linien für die Tiefe, dann die hintere Fläche, und am Schluss die unsichtbaren Kanten gestrichelt.",
       "Die Vorderseite ist ein Quadrat — das kommt zuerst. Von den Ecken gehen schräge Linien nach rechts oben. Deren Endpunkte verbindest du zur hinteren Fläche. Zum Schluss zeichnest du die verdeckten Kanten gestrichelt.",
-      "c, a, b, d"
+      ""
     ],
     "didaktischerHinweis": "Das Zeichnen von Schrägbildern wird in den Videos ausführlich gezeigt. Entspricht S. 111, Aufg. 5-10.",
     "parsed": {

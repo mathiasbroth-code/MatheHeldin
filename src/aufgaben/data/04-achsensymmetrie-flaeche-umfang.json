@@ -98,7 +98,7 @@
         {
           "label": "d",
           "frage": "Ein Kreis",
-          "antwort": "Unendlich viele Symmetrieachsen"
+          "antwort": "unendlich"
         }
       ]
     }
@@ -704,7 +704,7 @@
     "buchseite": 49,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "geodreieck-erkennen",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Schau dir diese Großbuchstaben an: E, H, L, T, Z\n\na) Welche Buchstaben enthalten parallele Linien? Nenne die Buchstaben.\nb) Welche Buchstaben enthalten senkrechte Linien? Nenne die Buchstaben.\nc) Wie viele rechte Winkel hat der Buchstabe E?",
     "loesung": "a) Parallele Linien: E (die 3 waagerechten Balken), H (die 2 senkrechten Balken), Z (die 2 waagerechten Balken)\nb) Senkrechte Linien: E, H, L, T\nc) Der Buchstabe E hat 4 rechte Winkel (oben, bei beiden mittleren Verbindungen und unten)",
     "loesungsweg": "- **E:** Der senkrechte Balken links + 3 waagerechte Balken. Die 3 waagerechten sind parallel zueinander. Jeder trifft senkrecht auf den senkrechten Balken → 4 rechte Winkel.\n- **H:** Die 2 senkrechten Balken sind parallel. Der waagerechte Querbalken steht senkrecht darauf.\n- **L:** Ein senkrechter und ein waagerechter Balken treffen sich → senkrecht, aber nur 1 Paar → keine parallelen.\n- **T:** Waagerechter Balken oben, senkrechter Balken mittig → senkrecht.\n- **Z:** Die 2 waagerechten Balken (oben und unten) sind parallel, die Diagonale kreuzt sie aber nicht im rechten Winkel.",
@@ -986,12 +986,28 @@
     "didaktischerHinweis": "Diese Aufgabe verbindet Umfang und Flächeninhalt und zeigt die überraschende Erkenntnis: Gleicher Umfang bedeutet NICHT gleicher Flächeninhalt. Entspricht S. 51, Aufg. 7-8. Die systematische Suche aller Möglichkeiten trainiert auch kombinatorisches Denken.",
     "parsed": {
       "typ": "textaufgabe",
-      "anweisung": "",
+      "anweisung": "Finde alle Rechtecke mit dem Umfang 16 cm (nur ganze Zentimeter als Seitenlängen). Berechne für jedes Rechteck auch den Flächeninhalt.",
+      "kontext": "Gesucht sind alle Rechtecke mit Umfang 16 cm und ganzen Seitenlängen.",
       "items": [
         {
-          "label": "1",
-          "frage": "Finde alle Rechtecke mit dem Umfang 16 cm (nur ganze Zentimeter als Seitenlängen). Berechne für jedes Rechteck auch den Flächeninhalt.",
-          "antwort": "- 1 cm × 7 cm → Flächeninhalt = 7 qcm"
+          "label": "a",
+          "frage": "1. Rechteck (schmalste Form)",
+          "antwort": "1 cm × 7 cm → 7 qcm"
+        },
+        {
+          "label": "b",
+          "frage": "2. Rechteck",
+          "antwort": "2 cm × 6 cm → 12 qcm"
+        },
+        {
+          "label": "c",
+          "frage": "3. Rechteck",
+          "antwort": "3 cm × 5 cm → 15 qcm"
+        },
+        {
+          "label": "d",
+          "frage": "4. Rechteck (Quadrat)",
+          "antwort": "4 cm × 4 cm → 16 qcm"
         }
       ]
     }
@@ -1073,12 +1089,12 @@
         {
           "label": "a",
           "frage": "Finde alle möglichen Rechtecke (ganze Meter).",
-          "antwort": "- 1 m × 12 m"
+          "antwort": "1 m × 12 m, 2 m × 6 m, 3 m × 4 m"
         },
         {
           "label": "b",
           "frage": "Wie viele Zaunlatten braucht man für jedes Beet?",
-          "antwort": "- 1 × 12: U = 2 · (1 + 12) = 26 Latten"
+          "antwort": "1×12: 26 Latten, 2×6: 16 Latten, 3×4: 14 Latten"
         },
         {
           "label": "c",
@@ -1096,7 +1112,7 @@
     "buchseite": 53,
     "kapitel": "04-achsensymmetrie-fläche-umfang",
     "stageId": "flaecheninhalt-umfang",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Bestimme den Umfang der Figuren. Jedes Kästchen hat eine Seitenlänge von 1 cm.\n\na) Eine Treppenfigur: 3 Stufen, die jeweils 1 Kästchen breit und 1 Kästchen hoch sind (von links unten nach rechts oben).\nb) Ein T-förmige Figur: Oben ein Rechteck 4 × 1, darunter mittig ein Rechteck 2 × 2.",
     "loesung": "a) Umfang = 12 cm (Man zählt: 3 cm unten + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 1 cm hoch + 1 cm rechts + 3 cm runter = 12 cm. Oder man geht einmal komplett um die Figur und zählt alle Kanten.)\nb) Umfang = 14 cm (Oben: 4 cm, rechts runter: 1 cm, nach links: 1 cm, runter: 2 cm, nach links: 2 cm, hoch: 2 cm, nach links: 1 cm, hoch: 1 cm = 14 cm)",
     "loesungsweg": "Bei Treppenfiguren und zusammengesetzten Formen:\n1. Starte an einer Ecke und gehe einmal um die Figur herum.\n2. Zähle jede Kante (jedes Kästchen am Rand = 1 cm).\n3. Notiere die Längen und addiere sie.",

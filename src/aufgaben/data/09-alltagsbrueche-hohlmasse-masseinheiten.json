@@ -38,7 +38,7 @@
         {
           "label": "b",
           "frage": "Die Pizza wird an 4 Kinder verteilt. Jedes Kind bekommt ___ der Pizza.",
-          "antwort": "1/4 (ein Viertel)"
+          "antwort": "1"
         },
         {
           "label": "c",
@@ -241,17 +241,17 @@
         {
           "label": "b",
           "frage": "Kreis in 4 Teile, 2 gefärbt → ___ oder ___",
-          "antwort": "2/4 oder 1/2"
+          "antwort": "1/2"
         },
         {
           "label": "c",
           "frage": "Kreis in 8 Teile, 6 gefärbt → ___ oder ___",
-          "antwort": "6/8 oder 3/4"
+          "antwort": "3/4"
         },
         {
           "label": "d",
           "frage": "Kreis in 8 Teile, 4 gefärbt → ___ oder ___",
-          "antwort": "4/8 oder 1/2"
+          "antwort": "1/2"
         },
         {
           "label": "e",
@@ -299,7 +299,7 @@
         {
           "label": "a",
           "frage": "Jedes Kind bekommt ___ Viertel.",
-          "antwort": "3 Viertel"
+          "antwort": "3"
         },
         {
           "label": "b",
@@ -1101,14 +1101,14 @@
         {
           "label": "1",
           "items": [
-            "Duschen/Baden (45 l)",
-            "Toilette (44 l)",
-            "Wäsche (19 l)",
-            "Körperpflege (12 l)",
-            "Geschirr (10 l)",
-            "Putzen (7 l)",
+            "Sonstiges (2 l)",
             "Kochen/Trinken (6 l)",
-            "Sonstiges (2 l)"
+            "Putzen (7 l)",
+            "Geschirr (10 l)",
+            "Körperpflege (12 l)",
+            "Wäsche (19 l)",
+            "Toilette (44 l)",
+            "Duschen/Baden (45 l)"
           ],
           "richtigeReihenfolge": [
             "Duschen/Baden (45 l)",
@@ -1229,11 +1229,11 @@
         {
           "label": "1",
           "items": [
-            "1 Blatt Papier (12 l)",
-            "1 T-Shirt (4.000 l)",
-            "1 Fahrrad (5.000 l)",
+            "1 Laptop (20.000 l)",
             "1 Jeans (11.000 l)",
-            "1 Laptop (20.000 l)"
+            "1 Fahrrad (5.000 l)",
+            "1 T-Shirt (4.000 l)",
+            "1 Blatt Papier (12 l)"
           ],
           "richtigeReihenfolge": [
             "1 Blatt Papier (12 l)",
@@ -1304,12 +1304,12 @@
         {
           "label": "1",
           "items": [
-            "Möhren (130 l)",
-            "Kartoffeln (290 l)",
-            "Äpfel (800 l)",
-            "Nudeln (1.850 l)",
+            "Käse (5.000 l)",
             "Hühnerfleisch (4.300 l)",
-            "Käse (5.000 l)"
+            "Nudeln (1.850 l)",
+            "Äpfel (800 l)",
+            "Kartoffeln (290 l)",
+            "Möhren (130 l)"
           ],
           "richtigeReihenfolge": [
             "Möhren (130 l)",
@@ -1512,7 +1512,7 @@
         {
           "label": "1",
           "frage": "Wie oft muss Emma den Messbecher füllen?",
-          "antwort": "Der Würfel fasst 10 × 10 × 10 = 1.000 cm³ = 1.000 ml = 1 l."
+          "antwort": "4"
         }
       ]
     }

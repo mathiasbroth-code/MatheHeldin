@@ -31,7 +31,7 @@
         {
           "label": "b",
           "frage": "Zähle alle Möglichkeiten auf.",
-          "antwort": "1. Lena – Tom – Mia"
+          "antwort": "6"
         }
       ]
     }
@@ -129,9 +129,14 @@
       "kontext": "Max hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 5 beginnt. Die übrigen Ziffern sind 1, 3 und 9 (jede genau einmal).",
       "items": [
         {
-          "label": "1",
-          "frage": "Wie viele Möglichkeiten gibt es für den Code? Schreibe alle auf.",
+          "label": "a",
+          "frage": "Wie viele Möglichkeiten gibt es für den Code?",
           "antwort": "6"
+        },
+        {
+          "label": "b",
+          "frage": "Schreibe alle Codes auf.",
+          "antwort": "5139, 5193, 5319, 5391, 5913, 5931"
         }
       ]
     }
@@ -356,9 +361,34 @@
       "kontext": "Du würfelst mit zwei Würfeln. Untersuche, wie viele Möglichkeiten es für jede Augensumme gibt.\n\nFülle die Tabelle aus:",
       "items": [
         {
-          "label": "1",
-          "frage": "| Augensumme | 2 | 3 | 4 | 5 | 6 | 7 |\n|------------|---|---|---|---|---|---|\n| Möglichkeiten | ? | ? | ? | ? | ? | ? |",
-          "antwort": "1, 2, 3, 4, 5, 6"
+          "label": "a",
+          "frage": "Augensumme 2: Wie viele Möglichkeiten?",
+          "antwort": "1"
+        },
+        {
+          "label": "b",
+          "frage": "Augensumme 3: Wie viele Möglichkeiten?",
+          "antwort": "2"
+        },
+        {
+          "label": "c",
+          "frage": "Augensumme 4: Wie viele Möglichkeiten?",
+          "antwort": "3"
+        },
+        {
+          "label": "d",
+          "frage": "Augensumme 5: Wie viele Möglichkeiten?",
+          "antwort": "4"
+        },
+        {
+          "label": "e",
+          "frage": "Augensumme 6: Wie viele Möglichkeiten?",
+          "antwort": "5"
+        },
+        {
+          "label": "f",
+          "frage": "Augensumme 7: Wie viele Möglichkeiten?",
+          "antwort": "6"
         }
       ]
     }
@@ -751,9 +781,44 @@
       "kontext": "Zähle, wie oft jeder Buchstabe in diesem Satz vorkommt:\n\n**\"Der Hund spielt gerne im Garten.\"**",
       "items": [
         {
-          "label": "1",
-          "frage": "Trage die Ergebnisse in eine Strichliste ein für die Buchstaben: D, E, R, N, I, G, S, T.",
-          "antwort": "|-----------|-------------|--------|"
+          "label": "D",
+          "frage": "D",
+          "antwort": "2"
+        },
+        {
+          "label": "E",
+          "frage": "E",
+          "antwort": "5"
+        },
+        {
+          "label": "R",
+          "frage": "R",
+          "antwort": "3"
+        },
+        {
+          "label": "N",
+          "frage": "N",
+          "antwort": "3"
+        },
+        {
+          "label": "I",
+          "frage": "I",
+          "antwort": "2"
+        },
+        {
+          "label": "G",
+          "frage": "G",
+          "antwort": "2"
+        },
+        {
+          "label": "S",
+          "frage": "S",
+          "antwort": "1"
+        },
+        {
+          "label": "T",
+          "frage": "T",
+          "antwort": "2"
         }
       ]
     }
@@ -784,8 +849,8 @@
       "items": [
         {
           "label": "1",
-          "frage": "**\"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"**",
-          "antwort": "| Buchstabe | Anzahl |"
+          "frage": "Notiere die fünf häufigsten Buchstaben in \"Fredo rechnet gerne mit großen Zahlen. Er findet Mathe toll.\"",
+          "antwort": "E, N, R, T, H"
         }
       ]
     }
@@ -815,19 +880,14 @@
       "kontext": "Stelle die folgenden Buchstabenhäufigkeiten in einem Säulendiagramm dar. Wähle eine Kästchenhöhe für jeweils 2 Buchstaben.\n\n| Buchstabe | E | N | R | S | T | A | I |\n|-----------|---|---|---|---|---|---|---|\n| Anzahl | 12 | 8 | 6 | 6 | 10 | 4 | 5 |",
       "items": [
         {
-          "label": "a",
-          "frage": "Zeichne das Diagramm.",
-          "antwort": "```"
-        },
-        {
           "label": "b",
           "frage": "Welcher Buchstabe kommt am häufigsten vor?",
-          "antwort": "E (12-mal)"
+          "antwort": "E"
         },
         {
           "label": "c",
           "frage": "Welche zwei Buchstaben kommen gleich oft vor?",
-          "antwort": "R und S (je 6-mal)"
+          "antwort": "R und S"
         }
       ]
     }
@@ -1385,9 +1445,29 @@
       "anweisung": "",
       "items": [
         {
-          "label": "1",
-          "frage": "Erstelle eine Strichliste: Wie oft kommt jeder Vokal (A, E, I, O, U) im Wort DINOSAURIER vor?",
-          "antwort": "A: 1"
+          "label": "A",
+          "frage": "A",
+          "antwort": "1"
+        },
+        {
+          "label": "E",
+          "frage": "E",
+          "antwort": "1"
+        },
+        {
+          "label": "I",
+          "frage": "I",
+          "antwort": "2"
+        },
+        {
+          "label": "O",
+          "frage": "O",
+          "antwort": "1"
+        },
+        {
+          "label": "U",
+          "frage": "U",
+          "antwort": "1"
         }
       ]
     }

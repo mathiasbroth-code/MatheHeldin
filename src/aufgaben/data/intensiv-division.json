@@ -61,22 +61,22 @@
         {
           "label": "a",
           "frage": "36 ist das ___fache von 4.",
-          "antwort": "9 (9 · 4 = 36)"
+          "antwort": "9"
         },
         {
           "label": "b",
           "frage": "48 ist das ___fache von 6.",
-          "antwort": "8 (8 · 6 = 48)"
+          "antwort": "8"
         },
         {
           "label": "c",
           "frage": "54 ist das ___fache von 9.",
-          "antwort": "6 (6 · 9 = 54)"
+          "antwort": "6"
         },
         {
           "label": "d",
           "frage": "42 ist das ___fache von 7.",
-          "antwort": "6 (6 · 7 = 42)"
+          "antwort": "6"
         }
       ]
     }
@@ -163,7 +163,7 @@
         {
           "label": "1",
           "frage": "Schreibe die ersten zehn Vielfachen von 3 und von 4 auf. Welche Vielfachen kommen in beiden Reihen vor?",
-          "antwort": "Vielfache von 3: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30"
+          "antwort": "12, 24"
         }
       ]
     }
@@ -271,7 +271,7 @@
         {
           "label": "1",
           "frage": "Schreibe die ersten zehn Vielfachen von 6 und von 9 auf. Welche Vielfachen kommen in beiden Reihen vor? Was fällt dir auf?",
-          "antwort": "Vielfache von 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60"
+          "antwort": "18, 36, 54"
         }
       ]
     }
@@ -1881,7 +1881,7 @@
             {
               "label": "1",
               "frage": "389 : 6",
-              "antwort": "64 R 5. Probe: 64 · 6 + 5 = 384 + 5 = 389 ✓"
+              "antwort": "64 R 5"
             }
           ]
         },
@@ -1891,7 +1891,7 @@
             {
               "label": "1",
               "frage": "527 : 4",
-              "antwort": "131 R 3. Probe: 131 · 4 + 3 = 524 + 3 = 527 ✓"
+              "antwort": "131 R 3"
             }
           ]
         },
@@ -1901,7 +1901,7 @@
             {
               "label": "1",
               "frage": "845 : 9",
-              "antwort": "93 R 8. Probe: 93 · 9 + 8 = 837 + 8 = 845 ✓"
+              "antwort": "93 R 8"
             }
           ]
         }
@@ -2215,7 +2215,7 @@
             {
               "label": "1",
               "frage": "7.592 : 4",
-              "antwort": "1.898. Probe: 1.898 · 4 = 7.592 ✓"
+              "antwort": "1.898"
             }
           ]
         },
@@ -2225,7 +2225,7 @@
             {
               "label": "1",
               "frage": "6.825 : 3",
-              "antwort": "2.275. Probe: 2.275 · 3 = 6.825 ✓"
+              "antwort": "2.275"
             }
           ]
         }
@@ -2423,7 +2423,7 @@
             {
               "label": "1",
               "frage": "1.955 : 6",
-              "antwort": "325 R 5. Probe: 325 · 6 + 5 = 1.950 + 5 = 1.955 ✓"
+              "antwort": "325 R 5"
             }
           ]
         },
@@ -2433,7 +2433,7 @@
             {
               "label": "1",
               "frage": "3.478 : 9",
-              "antwort": "386 R 4. Probe: 386 · 9 + 4 = 3.474 + 4 = 3.478 ✓"
+              "antwort": "386 R 4"
             }
           ]
         }
@@ -2475,7 +2475,7 @@
             {
               "label": "1",
               "frage": "2.475 : 5",
-              "antwort": "495, kein Rest (Einerstelle 5 → durch 5 teilbar). Probe: 495 · 5 = 2.475 ✓"
+              "antwort": "495"
             }
           ]
         },
@@ -2485,7 +2485,7 @@
             {
               "label": "1",
               "frage": "1.843 : 7",
-              "antwort": "263 R 2 (keine einfache Teilbarkeitsregel für 7). Probe: 263 · 7 + 2 = 1.841 + 2 = 1.843 ✓"
+              "antwort": "263 R 2"
             }
           ]
         }
@@ -2589,7 +2589,7 @@
             {
               "label": "1",
               "frage": "15.372 : 6",
-              "antwort": "2.562. Probe: 2.562 · 6 = 15.372 ✓"
+              "antwort": "2.562"
             }
           ]
         },
@@ -2599,7 +2599,7 @@
             {
               "label": "1",
               "frage": "27.846 : 9",
-              "antwort": "3.094. Probe: 3.094 · 9 = 27.846 ✓"
+              "antwort": "3.094"
             }
           ]
         }
@@ -2727,7 +2727,7 @@
         {
           "label": "1",
           "frage": "In welcher Abteilung bekommt jeder Mitarbeiter mehr? Wie viel mehr?",
-          "antwort": "Abteilung A: 34.272 : 6 = 5.712 Euro pro Mitarbeiter"
+          "antwort": "Abteilung B bekommt 560 Euro mehr pro Mitarbeiter."
         }
       ]
     }
@@ -2767,7 +2767,7 @@
             {
               "label": "1",
               "frage": "56.042 : 7",
-              "antwort": "8.006 R 0. Probe: 8.006 · 7 = 56.042 ✓"
+              "antwort": "8.006"
             }
           ]
         },
@@ -2777,7 +2777,7 @@
             {
               "label": "1",
               "frage": "48.024 : 8",
-              "antwort": "6.003. Probe: 6.003 · 8 = 48.024 ✓"
+              "antwort": "6.003"
             }
           ]
         }

@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build:aufgaben": "node scripts/build-aufgaben.cjs",
-    "prebuild": "node scripts/build-aufgaben.cjs",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node scripts/validate-aufgaben.cjs"
   },
   "dependencies": {
     "dexie": "^4.0.11",

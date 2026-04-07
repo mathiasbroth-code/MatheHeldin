@@ -1516,6 +1516,10 @@
         {
           "label": "g",
           "text": "223"
+        },
+        {
+          "label": "h",
+          "text": "891"
         }
       ],
       "choices": [
@@ -1539,7 +1543,8 @@
         "d": "B",
         "e": "A",
         "f": "B",
-        "g": "C"
+        "g": "C",
+        "h": "A"
       }
     }
   },
@@ -2822,7 +2827,7 @@
         {
           "label": "1",
           "frage": "Wer bekommt mehr Geld? Wie viel mehr?",
-          "antwort": "Liam: 12 · 1,75 € = 21,00 €"
+          "antwort": "Liam: 12 · 1,75 € = 21,00 €\nMia: 9 · 2,50 € = 22,50 €\n\nMia bekommt 1,50 € mehr."
         }
       ]
     }
@@ -2923,7 +2928,7 @@
         {
           "label": "1",
           "frage": "Welche Klasse hat pro Kind im Durchschnitt mehr Geld erlaufen?",
-          "antwort": "Klasse 4a: 462,00 € : 24 = 19,25 € pro Kind"
+          "antwort": "Klasse 4a: 462,00 € : 24 = 19,25 € pro Kind\nKlasse 4b: 409,50 € : 21 = 19,50 € pro Kind\n\nKlasse 4b hat im Durchschnitt 0,25 € mehr pro Kind erlaufen."
         }
       ]
     }

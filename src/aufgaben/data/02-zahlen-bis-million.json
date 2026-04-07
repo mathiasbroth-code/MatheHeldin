@@ -146,7 +146,7 @@
     "buchseite": 19,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "millionen-wuerfel",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Trage die Zahlen in eine Stellenwerttafel ein.\n\na) 3 Hunderter-Platten, 5 Zehner-Stangen, 2 Einer-Würfel\nb) 3 Hunderttausender-Platten, 5 Zehntausender-Stangen, 2 Tausender-Würfel",
     "loesung": "a)\n| M | HT | ZT | T | H | Z | E |\n|---|----|----|---|---|---|---|\n|   |    |    |   | 3 | 5 | 2 |\n→ 352\n\nb)\n| M | HT | ZT | T | H | Z | E |\n|---|----|----|---|---|---|---|\n|   | 3  | 5  | 2 | 0 | 0 | 0 |\n→ 352.000",
     "loesungsweg": "- a) 3 Hunderter = 300, 5 Zehner = 50, 2 Einer = 2 → 352\n- b) 3 Hunderttausender = 300.000, 5 Zehntausender = 50.000, 2 Tausender = 2.000 → 352.000\n- Die Zahlen sehen ähnlich aus: 352 und 352.000. Bei b) kommen einfach drei Nullen dazu, weil alle Blöcke um drei Stellen größer sind.",
@@ -237,7 +237,7 @@
   },
   {
     "titel": "Zahlen und Blöcke vergleichen — Was ist gleich?",
-    "typ": "wahr-falsch",
+    "typ": "auswahl",
     "thema": "Der Millionen-Würfel",
     "schwierigkeit": "grün",
     "buchseite": 19,
@@ -262,28 +262,24 @@
     "didaktischerHinweis": "Diese Aufgabe schärft das Bewusstsein, dass gleiche Ziffern unterschiedliche Werte haben können, je nach Position. Das ist der Kern des Stellenwertprinzips und muss sicher verstanden sein, bevor größere Zahlen bearbeitet werden.",
     "erklaerungBild": "assets/erklaerungen/s20-millionenwuerfel-intro.webp",
     "parsed": {
-      "typ": "wahr-falsch",
-      "anweisung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?",
-      "items": [
+      "typ": "auswahl",
+      "anweisung": "Vergleiche die beiden Zahlen. Was ist gleich, was ist anders?\n\nWähle jeweils die richtige Aussage.",
+      "frageText": "Vergleiche: 243 und 243.000 / 562 und 562.000 / 187 und 187.000",
+      "optionen": [
         {
-          "label": "a",
-          "aussage": "243 und 243.000",
-          "richtig": true,
-          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
+          "label": "A",
+          "text": "Die Ziffern sind gleich, stehen aber an verschiedenen Stellen."
         },
         {
-          "label": "b",
-          "aussage": "562 und 562.000",
-          "richtig": true,
-          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
+          "label": "B",
+          "text": "Beide Zahlen sind gleich groß."
         },
         {
-          "label": "c",
-          "aussage": "187 und 187.000",
-          "richtig": true,
-          "erklaerung": "stimmt ✓ (A — Die Ziffern sind gleich, stehen aber an verschiedenen Stellen)"
+          "label": "C",
+          "text": "Die Stellenwerte sind gleich, die Ziffern sind verschieden."
         }
-      ]
+      ],
+      "richtigeIdx": 0
     }
   },
   {
@@ -694,9 +690,14 @@
       "kontext": "Welche Zahlen können es sein?",
       "items": [
         {
-          "label": "a",
-          "frage": "Die Zahl hat doppelt so viele ZT wie HT und doppelt so viele Z wie ZT. Sie hat keine E, H und T. Welche beiden Zahlen können es sein?",
-          "antwort": "120.040 und 240.080"
+          "label": "a1",
+          "frage": "Die Zahl hat doppelt so viele ZT wie HT und doppelt so viele Z wie ZT. Sie hat keine E, H und T. Welche beiden Zahlen können es sein? (1. Lösung)",
+          "antwort": "120.040"
+        },
+        {
+          "label": "a2",
+          "frage": "Die Zahl hat doppelt so viele ZT wie HT und doppelt so viele Z wie ZT. Sie hat keine E, H und T. Welche beiden Zahlen können es sein? (2. Lösung)",
+          "antwort": "240.080"
         },
         {
           "label": "b",
@@ -731,14 +732,24 @@
       "kontext": "Lege mit den Zahlenkarten, notiere und lies die Zahl.",
       "items": [
         {
-          "label": "a",
+          "label": "a1",
           "frage": "dreihundertfünfundvierzigtausend",
-          "antwort": "345.000 und 345.611"
+          "antwort": "345.000"
         },
         {
-          "label": "b",
+          "label": "a2",
+          "frage": "dreihundertfünfundvierzigtausend | sechshundertelf",
+          "antwort": "345.611"
+        },
+        {
+          "label": "b1",
           "frage": "siebenhundertzweitausend",
-          "antwort": "702.000 und 702.088"
+          "antwort": "702.000"
+        },
+        {
+          "label": "b2",
+          "frage": "siebenhundertzweitausend | achtundachtzig",
+          "antwort": "702.088"
         }
       ]
     }
@@ -982,12 +993,12 @@
         {
           "label": "a",
           "frage": "Meine Zahl hat doppelt so viele H wie E und halb so viele Z wie E. Die Zahl hat 5 T, 3 ZT und 2 HT. Ich brauche 24 Plättchen, um die Zahl zu legen.",
-          "antwort": "Die Zahl ist 235.824."
+          "antwort": "235.824"
         },
         {
           "label": "b",
           "frage": "Ich brauche 22 Plättchen, um meine Zahl zu legen. Sie hat 7 E, 4 Z, doppelt so viele HT wie T und dreimal so viele ZT wie T.",
-          "antwort": "Die Zahl ist 213.547."
+          "antwort": "213.547"
         }
       ]
     }
@@ -1055,7 +1066,7 @@
         {
           "label": "a",
           "frage": "222.222 + 6",
-          "antwort": "- 222.222 + 6 = 222.228 (Einer ändern sich)"
+          "antwort": "222.228"
         }
       ]
     }
@@ -1086,12 +1097,12 @@
         {
           "label": "a",
           "frage": "555.555 + 3",
-          "antwort": "- 555.555 + 3 = 555.558"
+          "antwort": "555.558"
         },
         {
           "label": "b",
           "frage": "888.888 − 7",
-          "antwort": "- 888.888 − 7 = 888.881"
+          "antwort": "888.881"
         }
       ]
     }
@@ -1122,22 +1133,22 @@
         {
           "label": "a",
           "frage": "348 T + 5 T = ___ T → ___",
-          "antwort": "348 T + 5 T = 353 T → 353.000"
+          "antwort": "353.000"
         },
         {
           "label": "b",
           "frage": "521 T + 7 T = ___ T → ___",
-          "antwort": "521 T + 7 T = 528 T → 528.000"
+          "antwort": "528.000"
         },
         {
           "label": "c",
           "frage": "463 T − 6 T = ___ T → ___",
-          "antwort": "463 T − 6 T = 457 T → 457.000"
+          "antwort": "457.000"
         },
         {
           "label": "d",
           "frage": "894 T − 3 T = ___ T → ___",
-          "antwort": "894 T − 3 T = 891 T → 891.000"
+          "antwort": "891.000"
         }
       ]
     }
@@ -1166,14 +1177,24 @@
       "anweisung": "Rechne im Kopf.",
       "items": [
         {
-          "label": "a",
+          "label": "a1",
           "frage": "471.000 + 600 =",
-          "antwort": "471.600 und 471.660"
+          "antwort": "471.600"
         },
         {
-          "label": "b",
+          "label": "a2",
+          "frage": "471.000 + 660 =",
+          "antwort": "471.660"
+        },
+        {
+          "label": "b1",
           "frage": "835.200 − 400 =",
-          "antwort": "834.800 und 834.760"
+          "antwort": "834.800"
+        },
+        {
+          "label": "b2",
+          "frage": "835.200 − 440 =",
+          "antwort": "834.760"
         }
       ]
     }
@@ -1186,7 +1207,7 @@
     "buchseite": 25,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "kopfrechnen-gross",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Bilde Plusaufgaben. Das Ergebnis soll zwischen 200.000 und 300.000 liegen.\n\nWähle jeweils zwei Zahlen aus: 56.000 | 185.000 | 72.000 | 128.000 | 9.000 | 234.000",
     "loesung": "Mögliche Aufgaben (mehrere Lösungen möglich):\n- 128.000 + 72.000 = 200.000 ✓\n- 128.000 + 185.000 = 313.000 ✗ (zu groß)\n- 56.000 + 185.000 = 241.000 ✓\n- 72.000 + 185.000 = 257.000 ✓\n- 234.000 + 56.000 = 290.000 ✓\n- 234.000 + 9.000 = 243.000 ✓\n- 234.000 + 72.000 = 306.000 ✗ (zu groß)",
     "loesungsweg": "Strategie: Überschlage die Summe und prüfe, ob sie zwischen 200.000 und 300.000 liegt. Die größte Zahl (234.000) braucht nur einen kleinen Partner. Die kleineren Zahlen müssen zusammen mindestens 200.000 ergeben.",
@@ -1235,32 +1256,32 @@
         {
           "label": "a",
           "frage": "150.300 + 4 =",
-          "antwort": "150.304 (E ändert sich)"
+          "antwort": "150.304"
         },
         {
           "label": "a2",
           "frage": "150.300 + 400 =",
-          "antwort": "150.700 (H ändert sich)"
+          "antwort": "150.700"
         },
         {
           "label": "a3",
           "frage": "150.300 + 40.000 =",
-          "antwort": "190.300 (ZT ändert sich)"
+          "antwort": "190.300"
         },
         {
           "label": "b",
           "frage": "724.500 − 200 =",
-          "antwort": "724.300 (H ändert sich)"
+          "antwort": "724.300"
         },
         {
           "label": "b2",
           "frage": "724.500 − 2.000 =",
-          "antwort": "722.500 (T ändert sich)"
+          "antwort": "722.500"
         },
         {
           "label": "b3",
           "frage": "724.500 − 200.000 =",
-          "antwort": "524.500 (HT ändert sich)"
+          "antwort": "524.500"
         }
       ]
     }
@@ -1289,14 +1310,24 @@
       "anweisung": "Rechne im Kopf.",
       "items": [
         {
-          "label": "a",
+          "label": "a1",
           "frage": "458.300 + 700 =",
-          "antwort": "459.000 und 459.070"
+          "antwort": "459.000"
         },
         {
-          "label": "b",
+          "label": "a2",
+          "frage": "458.300 + 770 =",
+          "antwort": "459.070"
+        },
+        {
+          "label": "b1",
           "frage": "291.400 + 900 =",
-          "antwort": "292.300 und 292.350"
+          "antwort": "292.300"
+        },
+        {
+          "label": "b2",
+          "frage": "291.400 + 950 =",
+          "antwort": "292.350"
         }
       ]
     }
@@ -1371,7 +1402,7 @@
         {
           "label": "1",
           "frage": "Marie hat auf einem Teelöffel 87 Buchstabennudeln gezählt. In eine Packung passen 52 Teelöffel Buchstabennudeln.\n\nWie viele Buchstabennudeln sind ungefähr in der Packung?",
-          "antwort": "Ungefähr 4.500"
+          "antwort": "4.500"
         }
       ]
     }
@@ -1402,20 +1433,20 @@
         {
           "label": "1",
           "frage": "Lina wiegt 10 g Reiskörner ab und zählt 92 Körner. Die Packung wiegt 500 g.\n\nWie viele Reiskörner sind ungefähr in der Packung?",
-          "antwort": "Ungefähr 4.600"
+          "antwort": "4.600"
         }
       ]
     }
   },
   {
     "titel": "Schätzstrategie wählen",
-    "typ": "eingabe",
+    "typ": "auswahl",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "gelb",
     "buchseite": 27,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "schaetzen",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Welches Hilfsmittel eignet sich am besten zum Schätzen?\n\na) Wie viele Linsen sind in einer Packung?\n   A) Löffel  B) Waage  C) Raster  D) Becher\n\nb) Wie viele Pflastersteine sind auf dem Schulhof?\n   A) Löffel  B) Waage  C) Raster  D) Becher\n\nc) Wie viele Gummibärchen sind in der Tüte?\n   A) Löffel  B) Waage  C) Raster  D) Becher",
     "loesung": "a) B) Waage (10 g abwiegen, zählen, hochrechnen)\nb) C) Raster (ein Quadrat zählen, Fläche berechnen)\nc) A) Löffel oder D) Becher (eine Handvoll zählen, hochrechnen)",
     "loesungsweg": "Das richtige Hilfsmittel hängt von der Art der Objekte ab:\n- Kleine, gleichmäßige Dinge (Linsen, Reis) → Waage: Eine kleine Menge abwiegen und zählen.\n- Flächen (Pflastersteine, Fliesen) → Raster: Einen Ausschnitt zählen und auf die Gesamtfläche hochrechnen.\n- Mittelgroße Dinge in einem Behälter (Gummibärchen) → Löffel/Becher: Eine Portion entnehmen und zählen.",
@@ -1427,23 +1458,77 @@
     ],
     "didaktischerHinweis": "Das Auswählen der richtigen Schätzstrategie ist eine metakognitive Fähigkeit. Kinder sollen nicht nur schaetzen können, sondern auch begründen, warum eine bestimmte Methode für ein bestimmtes Problem geeignet ist.",
     "parsed": {
-      "typ": "eingabe",
+      "typ": "auswahl",
       "anweisung": "Welches Hilfsmittel eignet sich am besten zum Schätzen?",
       "items": [
         {
           "label": "a",
-          "frage": "Wie viele Linsen sind in einer Packung?",
-          "antwort": "B) Waage (10 g abwiegen, zählen, hochrechnen)"
+          "frageText": "Wie viele Linsen sind in einer Packung?",
+          "optionen": [
+            {
+              "label": "A",
+              "text": "Löffel"
+            },
+            {
+              "label": "B",
+              "text": "Waage"
+            },
+            {
+              "label": "C",
+              "text": "Raster"
+            },
+            {
+              "label": "D",
+              "text": "Becher"
+            }
+          ],
+          "richtigeIdx": 1
         },
         {
           "label": "b",
-          "frage": "Wie viele Pflastersteine sind auf dem Schulhof?",
-          "antwort": "C) Raster (ein Quadrat zählen, Fläche berechnen)"
+          "frageText": "Wie viele Pflastersteine sind auf dem Schulhof?",
+          "optionen": [
+            {
+              "label": "A",
+              "text": "Löffel"
+            },
+            {
+              "label": "B",
+              "text": "Waage"
+            },
+            {
+              "label": "C",
+              "text": "Raster"
+            },
+            {
+              "label": "D",
+              "text": "Becher"
+            }
+          ],
+          "richtigeIdx": 2
         },
         {
           "label": "c",
-          "frage": "Wie viele Gummibärchen sind in der Tüte?",
-          "antwort": "A) Löffel oder D) Becher (eine Handvoll zählen, hochrechnen)"
+          "frageText": "Wie viele Gummibärchen sind in der Tüte?",
+          "optionen": [
+            {
+              "label": "A",
+              "text": "Löffel"
+            },
+            {
+              "label": "B",
+              "text": "Waage"
+            },
+            {
+              "label": "C",
+              "text": "Raster"
+            },
+            {
+              "label": "D",
+              "text": "Becher"
+            }
+          ],
+          "richtigeIdx": 0
         }
       ]
     }
@@ -1518,7 +1603,7 @@
         {
           "label": "1",
           "frage": "Auf einem Blatt Papier (DIN A4) liegen in der ersten Reihe 15 Smarties nebeneinander. Untereinander passen 20 Reihen auf das Blatt.\n\nWie viele Smarties passen ungefähr auf das Blatt?",
-          "antwort": "Ungefähr 300"
+          "antwort": "300"
         }
       ]
     }
@@ -1686,34 +1771,64 @@
       "anweisung": "Notiere zu jeder Zahl den Vorgänger und den Nachfolger.",
       "items": [
         {
-          "label": "a",
-          "frage": "8.415",
-          "antwort": "8.414 und 8.416"
+          "label": "aa",
+          "frage": "8.415 — Vorgänger",
+          "antwort": "8.414"
         },
         {
-          "label": "b",
-          "frage": "21.750",
-          "antwort": "21.749 und 21.751"
+          "label": "ab",
+          "frage": "8.415 — Nachfolger",
+          "antwort": "8.416"
         },
         {
-          "label": "c",
-          "frage": "346.299",
-          "antwort": "346.298 und 346.300"
+          "label": "ba",
+          "frage": "21.750 — Vorgänger",
+          "antwort": "21.749"
         },
         {
-          "label": "d",
-          "frage": "10.000",
-          "antwort": "9.999 und 10.001"
+          "label": "bb",
+          "frage": "21.750 — Nachfolger",
+          "antwort": "21.751"
         },
         {
-          "label": "e",
-          "frage": "99.999",
-          "antwort": "99.998 und 100.000"
+          "label": "ca",
+          "frage": "346.299 — Vorgänger",
+          "antwort": "346.298"
         },
         {
-          "label": "f",
-          "frage": "500.000",
-          "antwort": "499.999 und 500.001"
+          "label": "cb",
+          "frage": "346.299 — Nachfolger",
+          "antwort": "346.300"
+        },
+        {
+          "label": "da",
+          "frage": "10.000 — Vorgänger",
+          "antwort": "9.999"
+        },
+        {
+          "label": "db",
+          "frage": "10.000 — Nachfolger",
+          "antwort": "10.001"
+        },
+        {
+          "label": "ea",
+          "frage": "99.999 — Vorgänger",
+          "antwort": "99.998"
+        },
+        {
+          "label": "eb",
+          "frage": "99.999 — Nachfolger",
+          "antwort": "100.000"
+        },
+        {
+          "label": "fa",
+          "frage": "500.000 — Vorgänger",
+          "antwort": "499.999"
+        },
+        {
+          "label": "fb",
+          "frage": "500.000 — Nachfolger",
+          "antwort": "500.001"
         }
       ]
     }
@@ -1960,44 +2075,84 @@
       "anweisung": "Wie heißen die Nachbar-Tausender?",
       "items": [
         {
-          "label": "a",
-          "frage": "23.700",
-          "antwort": "23.000 und 24.000"
+          "label": "aa",
+          "frage": "23.700 — kleinerer Nachbar-T",
+          "antwort": "23.000"
         },
         {
-          "label": "b",
-          "frage": "15.400",
-          "antwort": "15.000 und 16.000"
+          "label": "ab",
+          "frage": "23.700 — größerer Nachbar-T",
+          "antwort": "24.000"
         },
         {
-          "label": "c",
-          "frage": "8.100",
-          "antwort": "8.000 und 9.000"
+          "label": "ba",
+          "frage": "15.400 — kleinerer Nachbar-T",
+          "antwort": "15.000"
         },
         {
-          "label": "d",
-          "frage": "19.800",
-          "antwort": "19.000 und 20.000"
+          "label": "bb",
+          "frage": "15.400 — größerer Nachbar-T",
+          "antwort": "16.000"
         },
         {
-          "label": "e",
-          "frage": "31.500",
-          "antwort": "31.000 und 32.000"
+          "label": "ca",
+          "frage": "8.100 — kleinerer Nachbar-T",
+          "antwort": "8.000"
         },
         {
-          "label": "f",
-          "frage": "42.200",
-          "antwort": "42.000 und 43.000"
+          "label": "cb",
+          "frage": "8.100 — größerer Nachbar-T",
+          "antwort": "9.000"
         },
         {
-          "label": "g",
-          "frage": "16.900",
-          "antwort": "16.000 und 17.000"
+          "label": "da",
+          "frage": "19.800 — kleinerer Nachbar-T",
+          "antwort": "19.000"
         },
         {
-          "label": "h",
-          "frage": "27.300",
-          "antwort": "27.000 und 28.000"
+          "label": "db",
+          "frage": "19.800 — größerer Nachbar-T",
+          "antwort": "20.000"
+        },
+        {
+          "label": "ea",
+          "frage": "31.500 — kleinerer Nachbar-T",
+          "antwort": "31.000"
+        },
+        {
+          "label": "eb",
+          "frage": "31.500 — größerer Nachbar-T",
+          "antwort": "32.000"
+        },
+        {
+          "label": "fa",
+          "frage": "42.200 — kleinerer Nachbar-T",
+          "antwort": "42.000"
+        },
+        {
+          "label": "fb",
+          "frage": "42.200 — größerer Nachbar-T",
+          "antwort": "43.000"
+        },
+        {
+          "label": "ga",
+          "frage": "16.900 — kleinerer Nachbar-T",
+          "antwort": "16.000"
+        },
+        {
+          "label": "gb",
+          "frage": "16.900 — größerer Nachbar-T",
+          "antwort": "17.000"
+        },
+        {
+          "label": "ha",
+          "frage": "27.300 — kleinerer Nachbar-T",
+          "antwort": "27.000"
+        },
+        {
+          "label": "hb",
+          "frage": "27.300 — größerer Nachbar-T",
+          "antwort": "28.000"
         }
       ]
     }
@@ -2026,34 +2181,64 @@
       "anweisung": "Rechne zu den Nachbar-Hundertern.",
       "items": [
         {
-          "label": "a",
-          "frage": "4.836",
-          "antwort": "4.836: Nachbar-H: 4.800 und 4.900. Abstand: 4.836 − 4.800 = 36, 4.900 − 4.836 = 64."
+          "label": "aa",
+          "frage": "4.836 — kleinerer Nachbar-H",
+          "antwort": "4.800"
         },
         {
-          "label": "b",
-          "frage": "71.453",
-          "antwort": "71.453: Nachbar-H: 71.400 und 71.500. Abstand: 53 und 47."
+          "label": "ab",
+          "frage": "4.836 — größerer Nachbar-H",
+          "antwort": "4.900"
         },
         {
-          "label": "c",
-          "frage": "129.671",
-          "antwort": "129.671: Nachbar-H: 129.600 und 129.700. Abstand: 71 und 29."
+          "label": "ba",
+          "frage": "71.453 — kleinerer Nachbar-H",
+          "antwort": "71.400"
         },
         {
-          "label": "d",
-          "frage": "8.294",
-          "antwort": "8.294: Nachbar-H: 8.200 und 8.300. Abstand: 94 und 6."
+          "label": "bb",
+          "frage": "71.453 — größerer Nachbar-H",
+          "antwort": "71.500"
         },
         {
-          "label": "e",
-          "frage": "356.948",
-          "antwort": "356.948: Nachbar-H: 356.900 und 357.000. Abstand: 48 und 52."
+          "label": "ca",
+          "frage": "129.671 — kleinerer Nachbar-H",
+          "antwort": "129.600"
         },
         {
-          "label": "f",
-          "frage": "6.517",
-          "antwort": "6.517: Nachbar-H: 6.500 und 6.600. Abstand: 17 und 83."
+          "label": "cb",
+          "frage": "129.671 — größerer Nachbar-H",
+          "antwort": "129.700"
+        },
+        {
+          "label": "da",
+          "frage": "8.294 — kleinerer Nachbar-H",
+          "antwort": "8.200"
+        },
+        {
+          "label": "db",
+          "frage": "8.294 — größerer Nachbar-H",
+          "antwort": "8.300"
+        },
+        {
+          "label": "ea",
+          "frage": "356.948 — kleinerer Nachbar-H",
+          "antwort": "356.900"
+        },
+        {
+          "label": "eb",
+          "frage": "356.948 — größerer Nachbar-H",
+          "antwort": "357.000"
+        },
+        {
+          "label": "fa",
+          "frage": "6.517 — kleinerer Nachbar-H",
+          "antwort": "6.500"
+        },
+        {
+          "label": "fb",
+          "frage": "6.517 — größerer Nachbar-H",
+          "antwort": "6.600"
         }
       ]
     }
@@ -2066,7 +2251,7 @@
     "buchseite": 30,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "nachbarzahlen",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.\n\na) 73.000\nb) 245.000\nc) 518.720\nd) 389.500",
     "loesung": "a) 73.000:\n   Nachbar-T: 73.000 und 73.000 (schon glatt)\n   Nachbar-ZT: 70.000 und 80.000\n   Nachbar-HT: 0 und 100.000\n\nb) 245.000:\n   Nachbar-T: 245.000 und 245.000 (schon glatt)\n   Nachbar-ZT: 240.000 und 250.000\n   Nachbar-HT: 200.000 und 300.000\n\nc) 518.720:\n   Nachbar-T: 518.000 und 519.000\n   Nachbar-ZT: 510.000 und 520.000\n   Nachbar-HT: 500.000 und 600.000\n\nd) 389.500:\n   Nachbar-T: 389.000 und 390.000\n   Nachbar-ZT: 380.000 und 390.000\n   Nachbar-HT: 300.000 und 400.000",
     "loesungsweg": "Für jeden Nachbartyp:\n- Nachbar-T: Die letzten 3 Ziffern (H, Z, E) auf 000 setzen → unterer Nachbar. +1.000 → oberer.\n- Nachbar-ZT: Die letzten 4 Ziffern auf 0000 setzen → unterer Nachbar. +10.000 → oberer.\n- Nachbar-HT: Die letzten 5 Ziffern auf 00000 setzen → unterer Nachbar. +100.000 → oberer.",
@@ -2082,24 +2267,44 @@
       "anweisung": "Bestimme zu jeder Zahl den kleineren und größeren Nachbar-Tausender, Nachbar-Zehntausender und Nachbar-Hunderttausender.",
       "items": [
         {
-          "label": "a",
-          "frage": "73.000",
-          "antwort": "Nachbar-T: 73.000 und 73.000 (schon glatt)"
+          "label": "aa",
+          "frage": "73.000 — kleinerer Nachbar-T",
+          "antwort": "73.000"
         },
         {
-          "label": "b",
-          "frage": "245.000",
-          "antwort": "Nachbar-T: 245.000 und 245.000 (schon glatt)"
+          "label": "ab",
+          "frage": "73.000 — größerer Nachbar-T",
+          "antwort": "73.000"
         },
         {
-          "label": "c",
-          "frage": "518.720",
-          "antwort": "Nachbar-T: 518.000 und 519.000"
+          "label": "ba",
+          "frage": "245.000 — kleinerer Nachbar-T",
+          "antwort": "245.000"
         },
         {
-          "label": "d",
-          "frage": "389.500",
-          "antwort": "Nachbar-T: 389.000 und 390.000"
+          "label": "bb",
+          "frage": "245.000 — größerer Nachbar-T",
+          "antwort": "245.000"
+        },
+        {
+          "label": "ca",
+          "frage": "518.720 — kleinerer Nachbar-T",
+          "antwort": "518.000"
+        },
+        {
+          "label": "cb",
+          "frage": "518.720 — größerer Nachbar-T",
+          "antwort": "519.000"
+        },
+        {
+          "label": "da",
+          "frage": "389.500 — kleinerer Nachbar-T",
+          "antwort": "389.000"
+        },
+        {
+          "label": "db",
+          "frage": "389.500 — größerer Nachbar-T",
+          "antwort": "390.000"
         }
       ]
     }
@@ -2130,32 +2335,32 @@
         {
           "label": "a",
           "frage": "34.280",
-          "antwort": "34.000 ← (näher, Abstand 280) und 35.000 (Abstand 720)"
+          "antwort": "34.000"
         },
         {
           "label": "b",
           "frage": "78.619",
-          "antwort": "78.000 und 79.000 ← (näher, Abstand 381 vs. 619)"
+          "antwort": "79.000"
         },
         {
           "label": "c",
           "frage": "156.750",
-          "antwort": "156.000 und 157.000 ← (näher, Abstand 750 vs. 250)"
+          "antwort": "157.000"
         },
         {
           "label": "d",
           "frage": "503.400",
-          "antwort": "503.000 ← (näher, Abstand 400) und 504.000 (Abstand 600)"
+          "antwort": "503.000"
         },
         {
           "label": "e",
           "frage": "67.500",
-          "antwort": "67.000 und 68.000 — gleich weit (Abstand 500 = 500)"
+          "antwort": "68.000"
         },
         {
           "label": "f",
           "frage": "891.050",
-          "antwort": "891.000 ← (näher, Abstand 50) und 892.000 (Abstand 950)"
+          "antwort": "891.000"
         }
       ]
     }
@@ -2184,34 +2389,64 @@
       "anweisung": "Bestimme die Nachbar-Hunderttausender, -Zehntausender und -Tausender.",
       "items": [
         {
-          "label": "a",
-          "frage": "Nachbar-HT von 352.481: ___ und ___",
-          "antwort": "300.000 und 400.000"
+          "label": "aa",
+          "frage": "Nachbar-HT von 352.481: kleinerer",
+          "antwort": "300.000"
         },
         {
-          "label": "b",
-          "frage": "Nachbar-ZT von 352.481: ___ und ___",
-          "antwort": "350.000 und 360.000"
+          "label": "ab",
+          "frage": "Nachbar-HT von 352.481: größerer",
+          "antwort": "400.000"
         },
         {
-          "label": "c",
-          "frage": "Nachbar-T von 352.481: ___ und ___",
-          "antwort": "352.000 und 353.000"
+          "label": "ba",
+          "frage": "Nachbar-ZT von 352.481: kleinerer",
+          "antwort": "350.000"
         },
         {
-          "label": "d",
-          "frage": "Nachbar-HT von 849.250: ___ und ___",
-          "antwort": "800.000 und 900.000"
+          "label": "bb",
+          "frage": "Nachbar-ZT von 352.481: größerer",
+          "antwort": "360.000"
         },
         {
-          "label": "e",
-          "frage": "Nachbar-ZT von 849.250: ___ und ___",
-          "antwort": "840.000 und 850.000"
+          "label": "ca",
+          "frage": "Nachbar-T von 352.481: kleinerer",
+          "antwort": "352.000"
         },
         {
-          "label": "f",
-          "frage": "Nachbar-T von 849.250: ___ und ___",
-          "antwort": "849.000 und 850.000"
+          "label": "cb",
+          "frage": "Nachbar-T von 352.481: größerer",
+          "antwort": "353.000"
+        },
+        {
+          "label": "da",
+          "frage": "Nachbar-HT von 849.250: kleinerer",
+          "antwort": "800.000"
+        },
+        {
+          "label": "db",
+          "frage": "Nachbar-HT von 849.250: größerer",
+          "antwort": "900.000"
+        },
+        {
+          "label": "ea",
+          "frage": "Nachbar-ZT von 849.250: kleinerer",
+          "antwort": "840.000"
+        },
+        {
+          "label": "eb",
+          "frage": "Nachbar-ZT von 849.250: größerer",
+          "antwort": "850.000"
+        },
+        {
+          "label": "fa",
+          "frage": "Nachbar-T von 849.250: kleinerer",
+          "antwort": "849.000"
+        },
+        {
+          "label": "fb",
+          "frage": "Nachbar-T von 849.250: größerer",
+          "antwort": "850.000"
         }
       ]
     }
@@ -2242,32 +2477,32 @@
         {
           "label": "a",
           "frage": "37.256",
-          "antwort": "37.256 ≈ 37.000"
+          "antwort": "37.000"
         },
         {
           "label": "b",
           "frage": "42.831",
-          "antwort": "42.831 ≈ 43.000"
+          "antwort": "43.000"
         },
         {
           "label": "c",
           "frage": "64.509",
-          "antwort": "64.509 ≈ 65.000"
+          "antwort": "65.000"
         },
         {
           "label": "d",
           "frage": "81.374",
-          "antwort": "81.374 ≈ 81.000"
+          "antwort": "81.000"
         },
         {
           "label": "e",
           "frage": "153.600",
-          "antwort": "153.600 ≈ 154.000"
+          "antwort": "154.000"
         },
         {
           "label": "f",
           "frage": "428.150",
-          "antwort": "428.150 ≈ 428.000"
+          "antwort": "428.000"
         }
       ]
     }
@@ -2298,42 +2533,42 @@
         {
           "label": "a",
           "frage": "31.462",
-          "antwort": "31.462 ≈ 31.000 (H=4 → abrunden)"
+          "antwort": "31.000"
         },
         {
           "label": "b",
           "frage": "57.835",
-          "antwort": "57.835 ≈ 58.000 (H=8 → aufrunden)"
+          "antwort": "58.000"
         },
         {
           "label": "c",
           "frage": "89.164",
-          "antwort": "89.164 ≈ 89.000 (H=1 → abrunden)"
+          "antwort": "89.000"
         },
         {
           "label": "d",
           "frage": "52.780",
-          "antwort": "52.780 ≈ 53.000 (H=7 → aufrunden)"
+          "antwort": "53.000"
         },
         {
           "label": "e",
           "frage": "63.551",
-          "antwort": "63.551 ≈ 64.000 (H=5 → aufrunden)"
+          "antwort": "64.000"
         },
         {
           "label": "f",
           "frage": "76.208",
-          "antwort": "76.208 ≈ 76.000 (H=2 → abrunden)"
+          "antwort": "76.000"
         },
         {
           "label": "g",
           "frage": "148.372",
-          "antwort": "148.372 ≈ 148.000 (H=3 → abrunden)"
+          "antwort": "148.000"
         },
         {
           "label": "h",
           "frage": "624.916",
-          "antwort": "624.916 ≈ 625.000 (H=9 → aufrunden)"
+          "antwort": "625.000"
         }
       ]
     }
@@ -2364,32 +2599,32 @@
         {
           "label": "a",
           "frage": "Berlin: 74.475",
-          "antwort": "Berlin: 74.475 ≈ 74.000"
+          "antwort": "74.000"
         },
         {
           "label": "b",
           "frage": "Hamburg: 57.000",
-          "antwort": "Hamburg: 57.000 ≈ 57.000 (schon glatt)"
+          "antwort": "57.000"
         },
         {
           "label": "c",
           "frage": "Köln: 49.827",
-          "antwort": "Köln: 49.827 ≈ 50.000"
+          "antwort": "50.000"
         },
         {
           "label": "d",
           "frage": "München: 75.024",
-          "antwort": "München: 75.024 ≈ 75.000"
+          "antwort": "75.000"
         },
         {
           "label": "e",
           "frage": "Leipzig: 42.959",
-          "antwort": "Leipzig: 42.959 ≈ 43.000"
+          "antwort": "43.000"
         },
         {
           "label": "f",
           "frage": "Stuttgart: 60.449",
-          "antwort": "Stuttgart: 60.449 ≈ 60.000"
+          "antwort": "60.000"
         }
       ]
     }
@@ -2477,27 +2712,27 @@
         {
           "label": "a",
           "frage": "auf Zehner",
-          "antwort": "374.628 ≈ 374.630 (E=8 → aufrunden)"
+          "antwort": "374.630"
         },
         {
           "label": "b",
           "frage": "auf Hunderter",
-          "antwort": "374.628 ≈ 374.600 (Z=2 → abrunden)"
+          "antwort": "374.600"
         },
         {
           "label": "c",
           "frage": "auf Tausender",
-          "antwort": "374.628 ≈ 375.000 (H=6 → aufrunden)"
+          "antwort": "375.000"
         },
         {
           "label": "d",
           "frage": "auf Zehntausender",
-          "antwort": "374.628 ≈ 370.000 (T=4 → abrunden)"
+          "antwort": "370.000"
         },
         {
           "label": "e",
           "frage": "auf Hunderttausender",
-          "antwort": "374.628 ≈ 400.000 (ZT=7 → aufrunden)"
+          "antwort": "400.000"
         }
       ]
     }
@@ -2528,32 +2763,32 @@
         {
           "label": "a",
           "frage": "42.300",
-          "antwort": "42.300 ≈ 42.000"
+          "antwort": "42.000"
         },
         {
           "label": "b",
           "frage": "44.700",
-          "antwort": "44.700 ≈ 45.000"
+          "antwort": "45.000"
         },
         {
           "label": "c",
           "frage": "46.100",
-          "antwort": "46.100 ≈ 46.000"
+          "antwort": "46.000"
         },
         {
           "label": "d",
           "frage": "48.500",
-          "antwort": "48.500 ≈ 49.000"
+          "antwort": "49.000"
         },
         {
           "label": "e",
           "frage": "41.800",
-          "antwort": "41.800 ≈ 42.000"
+          "antwort": "42.000"
         },
         {
           "label": "f",
           "frage": "49.200",
-          "antwort": "49.200 ≈ 49.000"
+          "antwort": "49.000"
         }
       ]
     }
@@ -2584,32 +2819,32 @@
         {
           "label": "a",
           "frage": "123.000",
-          "antwort": "123.000 ≈ 120.000"
+          "antwort": "120.000"
         },
         {
           "label": "b",
           "frage": "147.500",
-          "antwort": "147.500 ≈ 150.000"
+          "antwort": "150.000"
         },
         {
           "label": "c",
           "frage": "165.000",
-          "antwort": "165.000 ≈ 170.000"
+          "antwort": "170.000"
         },
         {
           "label": "d",
           "frage": "138.200",
-          "antwort": "138.200 ≈ 140.000"
+          "antwort": "140.000"
         },
         {
           "label": "e",
           "frage": "192.800",
-          "antwort": "192.800 ≈ 190.000"
+          "antwort": "190.000"
         },
         {
           "label": "f",
           "frage": "155.000",
-          "antwort": "155.000 ≈ 160.000"
+          "antwort": "160.000"
         }
       ]
     }
@@ -2640,22 +2875,22 @@
         {
           "label": "a",
           "frage": "auf Hunderter",
-          "antwort": "486.352 ≈ 486.400 (Z=5 → aufrunden)"
+          "antwort": "486.400"
         },
         {
           "label": "b",
           "frage": "auf Tausender",
-          "antwort": "486.352 ≈ 486.000 (H=3 → abrunden)"
+          "antwort": "486.000"
         },
         {
           "label": "c",
           "frage": "auf Zehntausender",
-          "antwort": "486.352 ≈ 490.000 (T=6 → aufrunden)"
+          "antwort": "490.000"
         },
         {
           "label": "d",
           "frage": "auf Hunderttausender",
-          "antwort": "486.352 ≈ 500.000 (ZT=8 → aufrunden)"
+          "antwort": "500.000"
         }
       ]
     }
@@ -2686,32 +2921,32 @@
         {
           "label": "a",
           "frage": "342.198",
-          "antwort": "342.198 → gerundet auf ZT: 340.000 ✗"
+          "antwort": "340.000"
         },
         {
           "label": "b",
           "frage": "356.400",
-          "antwort": "356.400 → gerundet auf ZT: 360.000 ✗"
+          "antwort": "360.000"
         },
         {
           "label": "c",
           "frage": "345.001",
-          "antwort": "345.001 → gerundet auf ZT: 350.000 ✓"
+          "antwort": "350.000"
         },
         {
           "label": "d",
           "frage": "338.720",
-          "antwort": "338.720 → gerundet auf ZT: 340.000 ✗"
+          "antwort": "340.000"
         },
         {
           "label": "e",
           "frage": "354.999",
-          "antwort": "354.999 → gerundet auf ZT: 350.000 ✓"
+          "antwort": "350.000"
         },
         {
           "label": "f",
           "frage": "361.000",
-          "antwort": "361.000 → gerundet auf ZT: 360.000 ✗"
+          "antwort": "360.000"
         }
       ]
     }
@@ -2742,27 +2977,27 @@
         {
           "label": "a",
           "frage": "Erfurt: 213.981",
-          "antwort": "Erfurt: 213.981 ≈ 210.000"
+          "antwort": "210.000"
         },
         {
           "label": "b",
           "frage": "Kiel: 246.306",
-          "antwort": "Kiel: 246.306 ≈ 250.000"
+          "antwort": "250.000"
         },
         {
           "label": "c",
           "frage": "Rostock: 209.191",
-          "antwort": "Rostock: 209.191 ≈ 210.000"
+          "antwort": "210.000"
         },
         {
           "label": "d",
           "frage": "Mainz: 218.578",
-          "antwort": "Mainz: 218.578 ≈ 220.000"
+          "antwort": "220.000"
         },
         {
           "label": "e",
           "frage": "Freiburg: 231.195",
-          "antwort": "Freiburg: 231.195 ≈ 230.000"
+          "antwort": "230.000"
         }
       ]
     }
@@ -2793,32 +3028,32 @@
         {
           "label": "a",
           "frage": "127.500",
-          "antwort": "127.500 ≈ 100.000"
+          "antwort": "100.000"
         },
         {
           "label": "b",
           "frage": "384.200",
-          "antwort": "384.200 ≈ 400.000"
+          "antwort": "400.000"
         },
         {
           "label": "c",
           "frage": "651.800",
-          "antwort": "651.800 ≈ 700.000"
+          "antwort": "700.000"
         },
         {
           "label": "d",
           "frage": "549.999",
-          "antwort": "549.999 ≈ 500.000"
+          "antwort": "500.000"
         },
         {
           "label": "e",
           "frage": "823.100",
-          "antwort": "823.100 ≈ 800.000"
+          "antwort": "800.000"
         },
         {
           "label": "f",
           "frage": "950.400",
-          "antwort": "950.400 ≈ 1.000.000"
+          "antwort": "1.000.000"
         }
       ]
     }
@@ -2831,7 +3066,7 @@
     "buchseite": 33,
     "kapitel": "02-zahlen-bis-million",
     "stageId": "runden-zahlenstrahl",
-    "digital": "voll",
+    "digital": "teilweise",
     "aufgabenstellung": "Finde eine Zahl, die ...\n\na) auf Tausender gerundet 238.000 ergibt.\nb) auf Zehntausender gerundet 470.000 ergibt.\nc) auf Hunderttausender gerundet 600.000 ergibt.\nd) auf Tausender gerundet 100.000 ergibt.",
     "loesung": "Mögliche Antworten (mehrere Lösungen):\na) z.B. 237.501 oder 238.499 (jede Zahl zwischen 237.500 und 238.499)\nb) z.B. 465.000 oder 474.999 (jede Zahl zwischen 465.000 und 474.999)\nc) z.B. 550.000 oder 649.999 (jede Zahl zwischen 550.000 und 649.999)\nd) z.B. 99.500 oder 100.499 (jede Zahl zwischen 99.500 und 100.499)",
     "loesungsweg": "Bestimme das Rundungsintervall:\n- a) Runden auf T → 238.000: Zahl muss zwischen 237.500 und 238.499 liegen.\n- b) Runden auf ZT → 470.000: Zahl muss zwischen 465.000 und 474.999 liegen.\n- c) Runden auf HT → 600.000: Zahl muss zwischen 550.000 und 649.999 liegen.\n- d) Runden auf T → 100.000: Zahl muss zwischen 99.500 und 100.499 liegen (Achtung: fünfstellig UND sechsstellig möglich!).",
@@ -3176,7 +3411,7 @@
           "text": "500"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {
@@ -3216,7 +3451,7 @@
           "text": "3.000"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {
@@ -3256,7 +3491,7 @@
           "text": "3.000"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {
@@ -3296,7 +3531,7 @@
           "text": "200"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {
@@ -3336,7 +3571,7 @@
           "text": "1.000.000"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {
@@ -3376,7 +3611,7 @@
           "text": "864.000"
         }
       ],
-      "richtigeIdx": 0
+      "richtigeIdx": 1
     }
   },
   {

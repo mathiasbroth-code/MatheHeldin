@@ -157,9 +157,19 @@
       "kontext": "Berechne das Gesamtgewicht. Das Gesamtgewicht ist das Leergewicht plus die Ladung.",
       "items": [
         {
-          "label": "1",
-          "frage": "| | Auto 1 | Auto 2 | Auto 3 |\n|---|--------|--------|--------|\n| Leergewicht | 720 kg | 850 kg | 1 t |\n| Ladung | 180 kg | 275 kg | 430 kg |\n| Gesamtgewicht | ? | ? | ? |",
-          "antwort": "a) 900 kg"
+          "label": "a",
+          "frage": "Auto 1: Leergewicht 720 kg, Ladung 180 kg → Gesamtgewicht?",
+          "antwort": "900"
+        },
+        {
+          "label": "b",
+          "frage": "Auto 2: Leergewicht 850 kg, Ladung 275 kg → Gesamtgewicht?",
+          "antwort": "1125"
+        },
+        {
+          "label": "c",
+          "frage": "Auto 3: Leergewicht 1 t, Ladung 430 kg → Gesamtgewicht?",
+          "antwort": "1430"
         }
       ]
     }
@@ -189,9 +199,19 @@
       "kontext": "Berechne die fehlenden Gewichtsangaben.",
       "items": [
         {
-          "label": "1",
-          "frage": "| | LKW 1 | LKW 2 | LKW 3 |\n|---|-------|-------|-------|\n| Leergewicht | 8 t 200 kg | ? | 5,4 t |\n| Ladung | 3 t 800 kg | 6 t 150 kg | ? |\n| Gesamtgewicht | ? | 14 t 700 kg | 11,85 t |",
-          "antwort": "a) 12 t (= 12.000 kg)"
+          "label": "a",
+          "frage": "LKW 1: Leergewicht 8 t 200 kg, Ladung 3 t 800 kg → Gesamtgewicht?",
+          "antwort": "12000"
+        },
+        {
+          "label": "b",
+          "frage": "LKW 2: Ladung 6 t 150 kg, Gesamtgewicht 14 t 700 kg → Leergewicht?",
+          "antwort": "8550"
+        },
+        {
+          "label": "c",
+          "frage": "LKW 3: Leergewicht 5,4 t, Gesamtgewicht 11,85 t → Ladung?",
+          "antwort": "6450"
         }
       ]
     }
@@ -223,7 +243,7 @@
         {
           "label": "1",
           "frage": "Darf der Transporter über eine Brücke fahren, die höchstens 16 t tragen darf?",
-          "antwort": "Ja, der Transporter darf über die Brücke fahren."
+          "antwort": "Ja"
         }
       ]
     }
@@ -255,7 +275,7 @@
         {
           "label": "1",
           "frage": "Wie viele PKWs mit einem Gewicht von je 1.800 kg darf der Transporter höchstens laden, damit er gerade noch über die Brücke fahren darf?",
-          "antwort": "4 PKWs (Restkapazität reicht nicht für einen fünften)."
+          "antwort": "4"
         }
       ]
     }
@@ -595,12 +615,12 @@
         {
           "label": "a",
           "frage": "Wie weit ist es von Dorfbach nach Seefeld?",
-          "antwort": "3,7 + 8,4 = 12,1 km"
+          "antwort": "12,1"
         },
         {
           "label": "b",
           "frage": "Wie weit ist es von Mühlheim nach Waldstadt?",
-          "antwort": "8,4 + 12,5 + 18,6 = 39,5 km"
+          "antwort": "39,5"
         }
       ]
     }
@@ -734,14 +754,14 @@
     "kapitel": "06-gewichte-längen-skizzen",
     "stageId": "geschwindigkeiten",
     "digital": "voll",
-    "aufgabenstellung": "Wie viele Kilometer schafft jeder in einer Stunde?\n\na) Fussgänger (4 km in 15 min)\nb) Radfahrer (8 km in 30 min)\nc) Auto (12 km in 15 min)\nd) Motorrad (30 km in 15 min)",
-    "loesung": "a) 16\nb) 16\nc) 48\nd) 120",
-    "loesungsweg": "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 4 km, also 60 min → 4 × 4 = 16 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km",
+    "aufgabenstellung": "Wie viele Kilometer schafft jeder in einer Stunde?\n\na) Fussgänger (1 km in 15 min)\nb) Radfahrer (8 km in 30 min)\nc) Auto (12 km in 15 min)\nd) Motorrad (30 km in 15 min)",
+    "loesung": "a) 4\nb) 16\nc) 48\nd) 120",
+    "loesungsweg": "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 1 km, also 60 min → 4 × 1 = 4 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km",
     "tipps": [
       "Geschwindigkeit heißt: Wie viele Kilometer schafft man in einer Stunde (= 60 Minuten)? Überlege: Wie oft passen die angegebenen Minuten in 60 Minuten?",
       "Rechne hoch auf 60 Minuten:\n- 15 min × 4 = 60 min → Strecke × 4\n- 30 min × 2 = 60 min → Strecke × 2",
-      "Der Fussgänger: In 15 Minuten schafft er 4 km. In 30 Minuten (= 2 × 15) sind es 8 km. In 60 Minuten (= 4 × 15) sind es ? km.",
-      "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 4 km, also 60 min → 4 × 4 = 16 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km"
+      "Der Fussgänger: In 15 Minuten schafft er 1 km. In 30 Minuten (= 2 × 15) sind es 2 km. In 60 Minuten (= 4 × 15) sind es ? km.",
+      "1 Stunde = 60 Minuten.\n- a) Fussgänger: 15 min → 1 km, also 60 min → 4 × 1 = 4 km\n- b) Radfahrer: 30 min → 8 km, also 60 min → 2 × 8 = 16 km\n- c) Auto: 15 min → 12 km, also 60 min → 4 × 12 = 48 km\n- d) Motorrad: 15 min → 30 km, also 60 min → 4 × 30 = 120 km"
     ],
     "didaktischerHinweis": "Die Aufgabe führt das Konzept km/h ein, ohne die Formel zu verwenden. Stattdessen wird proportional hochgerechnet (\"Wenn 15 min = 1 km, dann 60 min = ?\"). Das ist für Kinder der natürlichste Zugang zu Geschwindigkeit.",
     "parsed": {
@@ -750,13 +770,13 @@
       "items": [
         {
           "label": "a",
-          "frage": "Fussgänger (4 km in 15 min)",
-          "antwort": "16"
+          "frage": "Fussgänger (1 km in 15 min)",
+          "antwort": "4"
         },
         {
           "label": "b",
           "frage": "Radfahrer (8 km in 30 min)",
-          "antwort": "16"
+          "antwort": "4"
         },
         {
           "label": "c",
@@ -858,17 +878,17 @@
         },
         {
           "label": "d",
-          "frage": "Eule",
+          "frage": "Eule (15 min)",
           "antwort": "16"
         },
         {
           "label": "e",
-          "frage": "Schwalbe",
+          "frage": "Schwalbe (15 min)",
           "antwort": "18"
         },
         {
           "label": "f",
-          "frage": "Antilope",
+          "frage": "Antilope (15 min)",
           "antwort": "24"
         }
       ]
@@ -1503,19 +1523,19 @@
           "label": "1",
           "schritte": [
             {
-              "label": "1",
-              "frage": "Zuhause → Raststätte: 145 km",
-              "antwort": ""
+              "label": "a",
+              "frage": "Wie weit ist es bis zur Raststätte?",
+              "antwort": "145"
             },
             {
-              "label": "2",
-              "frage": "Raststätte → Grenze: 87 km",
-              "antwort": ""
+              "label": "b",
+              "frage": "Wie weit ist es bis zur Grenze?",
+              "antwort": "232"
             },
             {
-              "label": "3",
-              "frage": "Grenze → Hotel: 63 km",
-              "antwort": ""
+              "label": "c",
+              "frage": "Wie weit ist die gesamte Fahrt?",
+              "antwort": "295"
             }
           ]
         }
@@ -1548,11 +1568,10 @@
         {
           "label": "1",
           "items": [
-            "Vier Kinder wohnen unterschiedlich weit von der Schule entfernt:\n- Emma: 1",
-            "8 km\n- Luis: 0",
-            "9 km\n- Mia: 2",
-            "4 km\n- Ben: 1",
-            "3 km\n\nOrdne die Kinder nach ihrem Schulweg. Beginne mit dem längsten Weg."
+            "Mia (2,4 km)",
+            "Emma (1,8 km)",
+            "Ben (1,3 km)",
+            "Luis (0,9 km)"
           ],
           "richtigeReihenfolge": [
             "Mia (2,4 km)",

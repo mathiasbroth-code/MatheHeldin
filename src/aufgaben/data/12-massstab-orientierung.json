@@ -352,22 +352,22 @@
         {
           "label": "a",
           "frage": "N = ___",
-          "antwort": "N = Norden"
+          "antwort": "Norden"
         },
         {
           "label": "b",
           "frage": "O = ___",
-          "antwort": "O = Osten"
+          "antwort": "Osten"
         },
         {
           "label": "c",
           "frage": "S = ___",
-          "antwort": "S = Süden"
+          "antwort": "Süden"
         },
         {
           "label": "d",
           "frage": "W = ___",
-          "antwort": "W = Westen"
+          "antwort": "Westen"
         }
       ]
     }
@@ -449,7 +449,7 @@
     "digital": "voll",
     "aufgabenstellung": "Was ist der Unterschied zwischen einer Luftaufnahme und einem Grundriss?\n\na) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.\nb) Eine Luftaufnahme zeigt ein Gebäude von der Seite, ein Grundriss von oben.\nc) Beide zeigen genau das Gleiche.",
     "loesung": "a) Eine Luftaufnahme zeigt ein Gebäude von oben als Foto, ein Grundriss ist eine vereinfachte Zeichnung von oben.",
-    "loesungsweg": "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, massstabsgetreü Zeichnung (Umrisse, keine Details wie Farben oder Schatten)",
+    "loesungsweg": "Beides zeigt einen Blick von oben, aber:\n- Luftaufnahme = echtes Foto aus der Vogelperspektive\n- Grundriss = vereinfachte, maßstabsgetreu Zeichnung (Umrisse, keine Details wie Farben oder Schatten)",
     "tipps": [
       "Stell dir vor, du fliegst über ein Haus. Das Foto, das du machst, ist die Luftaufnahme. Wenn du jetzt nur die Umrisse abzeichnest, hast du einen ...",
       "Luftaufnahme = Foto von oben (mit allen Details)\nGrundriss = Zeichnung von oben (nur Umrisse und Räume)",
@@ -697,7 +697,7 @@
         {
           "label": "a",
           "frage": "Länge auf der Karte: 4 cm → Länge in Wirklichkeit: ___ m",
-          "antwort": "1.000 m (= 1 km)"
+          "antwort": "1.000 m"
         },
         {
           "label": "b",
