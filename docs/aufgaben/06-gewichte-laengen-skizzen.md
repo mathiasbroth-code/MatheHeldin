@@ -1214,7 +1214,7 @@ Sortiere zuerst die Fortbewegungsarten: Was ist am langsamsten? Was am schnellst
 Der Fussgänger ist am langsamsten — er schafft 4 km/h. Das ist ungefähr 1 km in 15 Minuten. Der Radfahrer ist schneller: 16 km/h = 4 × so schnell wie der Fussgänger. Welche Geschwindigkeit bleibt für das Auto in der Stadt?
 
 ### Didaktischer Hinweis
-Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschätzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.
+Zuordnungsaufgaben trainieren das Größenvorstellungs-Vermögen. Kinder müssen Geschwindigkeiten sinnvoll einschaetzen — eine Alltagskompetenz. Die Aufgabe lässt sich gut mit dem eigenen Erleben verbinden.
 
 ---
 

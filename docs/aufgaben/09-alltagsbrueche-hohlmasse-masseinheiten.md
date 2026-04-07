@@ -14,7 +14,7 @@ thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -63,7 +63,7 @@ thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: platzhalter
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -102,7 +102,7 @@ thema: "Einfache Brüche"
 schwierigkeit: gelb
 buchseite: 92
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -157,7 +157,7 @@ thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -208,7 +208,7 @@ thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -262,7 +262,7 @@ thema: "Einfache Brüche"
 schwierigkeit: grün
 buchseite: 93
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: teilweise
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -305,7 +305,7 @@ thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 93
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -359,7 +359,7 @@ thema: "Einfache Brüche"
 schwierigkeit: orange
 buchseite: 92
 kapitel: "09-alltagsbrüche-hohlmasse-masseinheiten"
-stage_id: "einfache-brüche"
+stage_id: "einfache-brueche"
 digital: voll
 erklaerung_bild: "assets/erklaerungen/s92-merkkasten-brueche.webp"
 tipp_2_bild: "assets/erklaerungen/s93-merkkasten-viertel.webp"
@@ -743,7 +743,7 @@ Hier hilft das Schätzen aus dem Alltag:
 Stelle dir jedes Gefäß vor deinem inneren Auge vor. Sortiere sie nach Größe — das kleinste Gefäß bekommt die kleinste Zahl, das größte die größte.
 
 ### Tipp 2 (Methode)
-Beginne mit dem, das du sicher kennst: Eine Milchtüte hat fast immer 1 Liter. Von dort kannst du die anderen schätzen: Ein Teelöffel ist viel kleiner, ein Eimer viel größer.
+Beginne mit dem, das du sicher kennst: Eine Milchtüte hat fast immer 1 Liter. Von dort kannst du die anderen schaetzen: Ein Teelöffel ist viel kleiner, ein Eimer viel größer.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Der Teelöffel ist winzig → 5 ml. Die Milchtüte kennst du aus dem Kühlschrank → 1 l. Jetzt ordne die restlichen der Größe nach ein.
@@ -1908,7 +1908,7 @@ Sortiere die Gegenstände im Kopf nach Gewicht: Was ist am leichtesten, was am s
 📺 Schau dir das Video "Vergleichsgrößen: Gramm und Kilogramm" (S. 101) an!
 
 ### Tipp 2 (Methode)
-Fange mit dem an, das du sicher kennst: Eine Packung Zucker ist fast immer 1 kg. Von dort kannst du die anderen schätzen.
+Fange mit dem an, das du sicher kennst: Eine Packung Zucker ist fast immer 1 kg. Von dort kannst du die anderen schaetzen.
 
 ### Tipp 3 (Schritt-für-Schritt)
 Die Reißzwecke ist am leichtesten → 1 g. Die Packung Zucker ist am schwersten → 1 kg. Jetzt bleiben 100 g, 250 g und 500 g für die drei mittleren.
@@ -2389,7 +2389,7 @@ Fermi-Schätzung, die die Größe einer Million erlebbar macht. Entspricht dem K
 ## Aufgabe 47
 
 ---
-titel: "Millionen-Quiz — Überschlagen und schätzen"
+titel: "Millionen-Quiz — Überschlagen und schaetzen"
 typ: textaufgabe
 thema: "Millionen-Fragen"
 schwierigkeit: orange

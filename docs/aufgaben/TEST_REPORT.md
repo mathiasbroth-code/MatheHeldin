@@ -122,11 +122,11 @@ Generiert: 2026-04-06 16:06:15
 | 27 | Plusaufgaben bilden — Ergebnis im Bereich | eingabe | &#x2705; PASS | - |
 | 28 | Kopfrechnen — verwandte Aufgaben mit Hundertern und Tausendern | eingabe | &#x2705; PASS | - |
 | 29 | Kopfrechnen — gemischte Addition mit Hundertern und Tausendern | eingabe | &#x274C; FAIL | FAIL: aufgabenstellung zu kurz (7 Zeichen, min 10) |
-| 30 | Anzahl schätzen — Bonbons in der Tüte | auswahl | &#x2705; PASS | - |
-| 31 | Anzahl schätzen — Nudeln in der Packung | eingabe | &#x2705; PASS | - |
-| 32 | Anzahl schätzen — Maiskörner in der Packung | eingabe | &#x2705; PASS | - |
+| 30 | Anzahl schaetzen — Bonbons in der Tüte | auswahl | &#x2705; PASS | - |
+| 31 | Anzahl schaetzen — Nudeln in der Packung | eingabe | &#x2705; PASS | - |
+| 32 | Anzahl schaetzen — Maiskörner in der Packung | eingabe | &#x2705; PASS | - |
 | 33 | Schätzstrategie wählen | auswahl | &#x2705; PASS | - |
-| 34 | Anzahl schätzen — Menschenmenge | auswahl | &#x2705; PASS | - |
+| 34 | Anzahl schaetzen — Menschenmenge | auswahl | &#x2705; PASS | - |
 | 35 | Schätzen — Wie viele passen auf die Fläche? | eingabe | &#x2705; PASS | - |
 | 36 | Schätzung überprüfen | wahr-falsch | &#x2705; PASS | - |
 | 37 | Zahlen am Zahlenstrahl ablesen | eingabe | &#x2705; PASS | - |
@@ -463,7 +463,7 @@ Generiert: 2026-04-06 16:06:15
 | 44 | Eine Million Gramm — wie schwer? | eingabe | &#x2705; PASS | - |
 | 45 | Eine Million Milliliter — wie viele Badewannen? | textaufgabe | &#x2705; PASS | - |
 | 46 | Wie lange dauert es, bis zur Million zu zählen? | textaufgabe | &#x2705; PASS | - |
-| 47 | Millionen-Quiz — Überschlagen und schätzen | auswahl | &#x2705; PASS | - |
+| 47 | Millionen-Quiz — Überschlagen und schaetzen | auswahl | &#x2705; PASS | - |
 | 48 | Millionenfragen erfinden — eigene Frage | textaufgabe | &#x274C; FAIL | FAIL: Kein einziger Tipp vorhanden (alle 3 sind Fallback-Texte) |
 
 ### 10-kreise-muster-koerper.md

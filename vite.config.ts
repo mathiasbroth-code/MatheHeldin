@@ -14,6 +14,7 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'favicon.ico', 'icons/apple-touch-icon.png'],
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024, // 3 MB — Aufgabenbank wächst
       },
       manifest: {
         name: 'Mathe-Heldin',

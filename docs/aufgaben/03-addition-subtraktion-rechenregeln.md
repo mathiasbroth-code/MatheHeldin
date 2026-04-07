@@ -400,7 +400,7 @@ thema: "Addieren und Subtrahieren"
 schwierigkeit: gelb
 buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "schriftlich-addsub-groß"
+stage_id: "schriftlich-addsub-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -446,7 +446,7 @@ thema: "Addieren und Subtrahieren"
 schwierigkeit: grün
 buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "schriftlich-addsub-groß"
+stage_id: "schriftlich-addsub-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -498,7 +498,7 @@ thema: "Addieren und Subtrahieren"
 schwierigkeit: grün
 buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "schriftlich-addsub-groß"
+stage_id: "schriftlich-addsub-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -541,7 +541,7 @@ thema: "Addieren und Subtrahieren"
 schwierigkeit: orange
 buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "schriftlich-addsub-groß"
+stage_id: "schriftlich-addsub-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -584,7 +584,7 @@ thema: "Addieren und Subtrahieren"
 schwierigkeit: orange
 buchseite: 36
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "schriftlich-addsub-groß"
+stage_id: "schriftlich-addsub-gross"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -894,7 +894,7 @@ thema: "Geldbeträge überschlagen"
 schwierigkeit: gelb
 buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "überschlag-geld"
+stage_id: "ueberschlag-geld"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -951,7 +951,7 @@ thema: "Geldbeträge überschlagen"
 schwierigkeit: grün
 buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "überschlag-geld"
+stage_id: "ueberschlag-geld"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -995,7 +995,7 @@ thema: "Geldbeträge überschlagen"
 schwierigkeit: grün
 buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "überschlag-geld"
+stage_id: "ueberschlag-geld"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1041,7 +1041,7 @@ thema: "Geldbeträge überschlagen"
 schwierigkeit: orange
 buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "überschlag-geld"
+stage_id: "ueberschlag-geld"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1083,7 +1083,7 @@ thema: "Geldbeträge überschlagen"
 schwierigkeit: orange
 buchseite: 38
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "überschlag-geld"
+stage_id: "ueberschlag-geld"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1132,7 +1132,7 @@ thema: "Ergebnisse prüfen"
 schwierigkeit: gelb
 buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "ergebnis-prüfen"
+stage_id: "ergebnis-pruefen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1179,7 +1179,7 @@ thema: "Ergebnisse prüfen"
 schwierigkeit: grün
 buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "ergebnis-prüfen"
+stage_id: "ergebnis-pruefen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1225,7 +1225,7 @@ thema: "Ergebnisse prüfen"
 schwierigkeit: grün
 buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "ergebnis-prüfen"
+stage_id: "ergebnis-pruefen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1285,7 +1285,7 @@ thema: "Ergebnisse prüfen"
 schwierigkeit: orange
 buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "ergebnis-prüfen"
+stage_id: "ergebnis-pruefen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1331,7 +1331,7 @@ thema: "Ergebnisse prüfen"
 schwierigkeit: orange
 buchseite: 39
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "ergebnis-prüfen"
+stage_id: "ergebnis-pruefen"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "die Addition, die Summe, der Summand, die Subtraktion, die Differenz, der Minuend, der Subtrahend"
@@ -1644,7 +1644,7 @@ thema: "Zahlenrätsel"
 schwierigkeit: gelb
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "zahlenrätsel"
+stage_id: "zahlenraetsel"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
@@ -1691,7 +1691,7 @@ thema: "Zahlenrätsel"
 schwierigkeit: grün
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "zahlenrätsel"
+stage_id: "zahlenraetsel"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
@@ -1737,7 +1737,7 @@ thema: "Zahlenrätsel"
 schwierigkeit: grün
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "zahlenrätsel"
+stage_id: "zahlenraetsel"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
@@ -1785,7 +1785,7 @@ thema: "Zahlenrätsel"
 schwierigkeit: orange
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "zahlenrätsel"
+stage_id: "zahlenraetsel"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
@@ -1832,7 +1832,7 @@ thema: "Zahlenrätsel"
 schwierigkeit: orange
 buchseite: 41
 kapitel: "03-addition-subtraktion-rechenregeln"
-stage_id: "zahlenrätsel"
+stage_id: "zahlenraetsel"
 digital: voll
 merkkasten_typ: begriffe
 merkkasten_begriffe: "addieren zu (+), subtrahieren von (−), multiplizieren mit (·), dividieren durch (:)"
@@ -2725,7 +2725,7 @@ Beim Runden: Ab 50 Cent rundest du auf zum nächsten Euro, unter 50 Cent rundest
 2,89 € → die 89 Cent sind fast 1 €, also runde auf 3 €. 1,15 € → die 15 Cent sind wenig, also runde auf 1 €. Jetzt rechne: 3 + 1 = ?
 
 ### Didaktischer Hinweis
-Das Runden von Geldbeträgen ist eine alltagsnahe Fähigkeit. Das Kind lernt, mit gerundeten Werten schnell abzuschätzen, bevor es genau rechnet.
+Das Runden von Geldbeträgen ist eine alltagsnahe Fähigkeit. Das Kind lernt, mit gerundeten Werten schnell abzuschaetzen, bevor es genau rechnet.
 
 ---
 
