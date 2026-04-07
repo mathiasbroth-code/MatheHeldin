@@ -19,6 +19,7 @@ import { ZahlenstrahlDiagramm, parseZahlenstrahlDaten } from './ZahlenstrahlDiag
 import { SchriftlicheRechnung, parseSchriftlicheRechnung } from './SchriftlicheRechnung';
 import { SchriftlicheDivision } from './SchriftlicheDivision';
 import { HalbschriftlicheDivision } from './HalbschriftlicheDivision';
+import { MalTabelle, parseMalTabelle } from './MalTabelle';
 import { BruchVisualisierung, parseBruchDaten } from './BruchVisualisierung';
 import { IsometricGrid } from '@/components/geometrie/IsometricGrid';
 import { ParkettMuster } from '@/components/geometrie/ParkettMuster';
@@ -32,6 +33,8 @@ import { PrimzahlSieb } from '@/components/forscherkiste/PrimzahlSieb';
 import { DatenmengenLeiter } from '@/components/daten/DatenmengenLeiter';
 import { MassstabVergleich, parseMassstab } from '@/components/geometrie/MassstabVergleich';
 import { VielfacheReihe } from '@/components/ui/VielfacheReihe';
+import { KombinationenSammler } from '@/components/ui/KombinationenSammler';
+import { MarkdownText } from './MarkdownText';
 
 export interface AufgabeViewProps {
   aufgabe: BankAufgabe;
@@ -330,13 +333,57 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
   } : null;
 
   if (vielfacheDaten) {
+    // Aufgabentext ohne den [vielfache:...] Tag anzeigen
+    const vielfacheText = aufgabe.aufgabenstellung
+      .replace(/\[vielfache:[^\]]+\]/g, '')
+      .trim();
     return (
-      <VielfacheReihe
-        zahlen={vielfacheDaten.zahlen}
-        mitEinkreisen={vielfacheDaten.mitEinkreisen}
-        onRichtig={handleRichtig}
-        onFalsch={onFalsch}
-      />
+      <>
+        {vielfacheText && (
+          <Card>
+            <p className="text-sm font-semibold text-heading leading-relaxed">{vielfacheText}</p>
+          </Card>
+        )}
+        <VielfacheReihe
+          zahlen={vielfacheDaten.zahlen}
+          mitEinkreisen={vielfacheDaten.mitEinkreisen}
+          onRichtig={handleRichtig}
+          onFalsch={onFalsch}
+        />
+      </>
+    );
+  }
+
+  // Kombinationen-Sammler: [kombinationen:elemente:prefix:laenge:anzahl:modus]
+  // z.B. [kombinationen:2,4,7:6:4:6:permutation] oder [kombinationen:Ali,Jana,Tobi,Pia::2:6:kombination]
+  const kombMatch = aufgabe.aufgabenstellung.match(
+    /\[kombinationen:([^:]+):([^:]*):(\d+):(\d+):(\w+)\]/,
+  );
+  if (kombMatch) {
+    const elemente = kombMatch[1].split(',');
+    const prefix = kombMatch[2] ? kombMatch[2].split(',') : [];
+    const laenge = parseInt(kombMatch[3], 10);
+    const anzahl = parseInt(kombMatch[4], 10);
+    const ohneReihenfolge = kombMatch[5] === 'kombination';
+    const kombText = aufgabe.aufgabenstellung.replace(/\[kombinationen:[^\]]+\]/g, '').trim();
+
+    return (
+      <>
+        {kombText && (
+          <Card>
+            <MarkdownText text={kombText} className="text-sm font-semibold text-heading leading-relaxed" />
+          </Card>
+        )}
+        <KombinationenSammler
+          elemente={elemente}
+          prefix={prefix}
+          laenge={laenge}
+          ohneReihenfolge={ohneReihenfolge}
+          erwarteteAnzahl={anzahl}
+          onRichtig={handleRichtig}
+          onFalsch={onFalsch}
+        />
+      </>
     );
   }
 
@@ -347,8 +394,14 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
     aktiveTeilFrageDiv ?? aufgabe.aufgabenstellung,
   );
 
+  // Maltabelle für halbschriftliches Multiplizieren
+  const malTabelleDaten = !divInteraktiv
+    ? parseMalTabelle(aufgabe.stageId, aktiveTeilFrageDiv ?? aufgabe.aufgabenstellung)
+    : null;
+  const malTabelleInteraktiv = !!(malTabelleDaten && (aufgabe.typ === 'schritt' || aufgabe.typ === 'eingabe'));
+
   // Kaskadierte Visualisierungs-Erkennung: max. eine pro Aufgabe
-  const routenDaten = !divInteraktiv ? parseRoutenDaten(aufgabe.aufgabenstellung) : null;
+  const routenDaten = !divInteraktiv && !malTabelleInteraktiv ? parseRoutenDaten(aufgabe.aufgabenstellung) : null;
   const einheitenDaten = !divInteraktiv && !routenDaten
     ? detectEinheitenKette(aufgabe.stageId, aufgabe.aufgabenstellung)
     : null;
@@ -392,6 +445,17 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
 
   return (
     <>
+      {/* Interaktive Maltabelle */}
+      {malTabelleInteraktiv && malTabelleDaten && (
+        <Card className="py-3 px-2">
+          <MalTabelle
+            faktor1={malTabelleDaten.faktor1}
+            faktor2={malTabelleDaten.faktor2}
+            onRichtig={onRichtig}
+            onFalsch={onFalsch}
+          />
+        </Card>
+      )}
       {/* Interaktive Division */}
       {divInteraktivKomponente && divInteraktiv.typ === 'schriftlich' && (
         <Card className="py-2 px-3">
@@ -479,7 +543,7 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
         <Card className="py-2 px-3"><DatenmengenLeiter /></Card>
       )}
       {kreiseDaten && <KreiseDiagramm {...kreiseDaten} />}
-      {!schriftlichInteraktiv && !divInteraktivKomponente && (
+      {!schriftlichInteraktiv && !divInteraktivKomponente && !malTabelleInteraktiv && (
         <View aufgabe={aufgabe} onRichtig={handleRichtig} onFalsch={onFalsch} onTeilaufgabeChange={handleTeilaufgabeChange} />
       )}
     </>

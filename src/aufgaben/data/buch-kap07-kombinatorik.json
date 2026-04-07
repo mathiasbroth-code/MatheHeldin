@@ -1,0 +1,435 @@
+[
+  {
+    "titel": "S.72 Nr.1 — Foto: Wie viele Möglichkeiten?",
+    "typ": "textaufgabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "gelb",
+    "buchseite": 72,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Justus möchte ein Foto von Ali, Jana, Tobi und Pia machen. Die vier Freunde wollen nebeneinanderstehen.\n\na) Vermute: Wie viele Möglichkeiten gibt es? Begründe.\nb) Ermittle alle Möglichkeiten.",
+    "loesung": "a) _mündlich\n\nb) 24 Möglichkeiten.\n\nFür den 1. Platz gibt es 4 Möglichkeiten, für den 2. Platz noch 3, für den 3. Platz 2, für den 4. Platz 1.\n4 × 3 × 2 × 1 = 24",
+    "loesungsweg": "Systematisch mit Baumdiagramm:\nFür den 1. Platz gibt es 4 Möglichkeiten (Ali, Jana, Tobi oder Pia).\nFür den 2. Platz bleiben 3 Personen übrig.\nFür den 3. Platz bleiben 2 Personen.\nDer 4. Platz ist dann festgelegt.\n\n4 × 3 × 2 × 1 = 24 verschiedene Reihenfolgen.\n\nBeispiel wenn Ali links steht:\nAli–Jana–Tobi–Pia, Ali–Jana–Pia–Tobi, Ali–Tobi–Jana–Pia, Ali–Tobi–Pia–Jana, Ali–Pia–Jana–Tobi, Ali–Pia–Tobi–Jana → 6 Reihenfolgen.\nDas gleiche gilt für Jana, Tobi und Pia links → 4 × 6 = 24.",
+    "tipps": [
+      "Wer kann ganz links stehen? Es gibt 4 Möglichkeiten: Ali, Jana, Tobi oder Pia. Fang mit einer Person an und schau, wie viele Anordnungen es dann gibt.",
+      "Wenn Ali ganz links steht, müssen noch Jana, Tobi und Pia angeordnet werden. Wie viele Reihenfolgen gibt es für 3 Personen? (Denk an ein Baumdiagramm!)",
+      "Wenn Ali links steht: 3 × 2 × 1 = 6 Möglichkeiten. Das gilt genauso, wenn Jana, Tobi oder Pia links steht. Also: 4 × 6 = ?",
+      "Für den 1. Platz gibt es 4 Möglichkeiten, für den 2. Platz noch 3, für den 3. Platz 2, für den 4. Platz 1.\n4 × 3 × 2 × 1 = 24 verschiedene Reihenfolgen."
+    ],
+    "didaktischerHinweis": "Einstiegsaufgabe aus Fredo 4, S. 72. Vier Elemente ergeben 24 Permutationen — das ist deutlich mehr als bei 3 Elementen (6). Der Vergleich hilft, das Wachstum zu begreifen. Teil a) regt zum Schätzen an, bevor systematisch gearbeitet wird.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Justus möchte ein Foto von Ali, Jana, Tobi und Pia machen. Die vier Freunde wollen nebeneinanderstehen.",
+      "kontext": "Justus möchte ein Foto von Ali, Jana, Tobi und Pia machen. Die vier Freunde wollen nebeneinanderstehen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Vermute: Wie viele Möglichkeiten gibt es? Begründe.",
+          "antwort": "_mündlich"
+        },
+        {
+          "label": "b",
+          "frage": "Ermittle alle Möglichkeiten. Wie viele sind es?",
+          "antwort": "24"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.72 Nr.2 — Ali steht links: Baumdiagramm vervollständigen",
+    "typ": "textaufgabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "gelb",
+    "buchseite": 72,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Ali steht auf dem Foto ganz links. Wie können sich Jana, Tobi und Pia aufstellen? Vervollständige das Baumdiagramm.\n\nWie viele Möglichkeiten gibt es?",
+    "loesung": "6 Möglichkeiten.\n\nAli–Jana–Tobi–Pia\nAli–Jana–Pia–Tobi\nAli–Tobi–Jana–Pia\nAli–Tobi–Pia–Jana\nAli–Pia–Jana–Tobi\nAli–Pia–Tobi–Jana",
+    "loesungsweg": "Ali steht fest auf Platz 1. Für die restlichen drei Plätze müssen Jana, Tobi und Pia angeordnet werden.\n\nBaumdiagramm:\n```\n        ┌── Tobi ── Pia   → Ali, Jana, Tobi, Pia\nJana ───┤\n        └── Pia ── Tobi   → Ali, Jana, Pia, Tobi\n\n        ┌── Jana ── Pia   → Ali, Tobi, Jana, Pia\nTobi ───┤\n        └── Pia ── Jana   → Ali, Tobi, Pia, Jana\n\n        ┌── Jana ── Tobi  → Ali, Pia, Jana, Tobi\nPia ────┤\n        └── Tobi ── Jana  → Ali, Pia, Tobi, Jana\n```\n3 × 2 × 1 = 6",
+    "tipps": [
+      "Ali steht fest ganz links. Jetzt musst du nur noch Jana, Tobi und Pia auf die Plätze 2, 3 und 4 verteilen.",
+      "Zeichne ein Baumdiagramm für die Plätze 2, 3 und 4. Wer kann auf Platz 2 stehen? Das sind 3 Möglichkeiten. Von jedem Ast gehen 2 Äste ab.",
+      "Wenn Jana auf Platz 2 steht: Tobi–Pia oder Pia–Tobi → 2 Möglichkeiten.\nWenn Tobi auf Platz 2 steht: noch 2 Möglichkeiten.\nWenn Pia auf Platz 2 steht: noch 2.\nInsgesamt: 3 × 2 = ?",
+      "Baumdiagramm:\n```\n        ┌── Tobi ── Pia   → Ali, Jana, Tobi, Pia\nJana ───┤\n        └── Pia ── Tobi   → Ali, Jana, Pia, Tobi\n\n        ┌── Jana ── Pia   → Ali, Tobi, Jana, Pia\nTobi ───┤\n        └── Pia ── Jana   → Ali, Tobi, Pia, Jana\n\n        ┌── Jana ── Tobi  → Ali, Pia, Jana, Tobi\nPia ────┤\n        └── Tobi ── Jana  → Ali, Pia, Tobi, Jana\n```\n3 × 2 × 1 = 6"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 72. Reduktion auf 3 Elemente durch Fixierung von Ali. Das Baumdiagramm wird hier erstmals als Werkzeug eingeführt. Die Aufgabenstellung enthält 'Jana, Tobi und Pia', damit extractElemente() die drei Namen findet und das BaumDiagramm automatisch angezeigt wird.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Ali steht auf dem Foto ganz links. Wie können sich Jana, Tobi und Pia aufstellen? Vervollständige das Baumdiagramm.",
+      "kontext": "Ali steht auf dem Foto ganz links. Wie können sich Jana, Tobi und Pia aufstellen?",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Möglichkeiten gibt es?",
+          "antwort": "6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.72 Nr.3 — Pia steht links: Was verändert sich?",
+    "typ": "textaufgabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "grün",
+    "buchseite": 72,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Pia soll auf dem Foto ganz links stehen. Ali, Jana und Tobi stellen sich daneben.\n\na) Was verändert sich zu Aufgabe 2 (Ali steht links)?\nb) Wie viele Möglichkeiten gibt es jetzt?",
+    "loesung": "a) Es verändert sich nichts an der Anzahl! Es sind wieder 6 Möglichkeiten — nur die Personen sind anders angeordnet.\n\nb) 6",
+    "loesungsweg": "Pia steht fest auf Platz 1. Für die restlichen drei Plätze müssen Ali, Jana und Tobi angeordnet werden — genau wie bei Aufgabe 2 (nur mit anderen Namen).\n\n3 × 2 × 1 = 6\n\nPia–Ali–Jana–Tobi, Pia–Ali–Tobi–Jana,\nPia–Jana–Ali–Tobi, Pia–Jana–Tobi–Ali,\nPia–Tobi–Ali–Jana, Pia–Tobi–Jana–Ali",
+    "tipps": [
+      "Vergleiche mit Aufgabe 2: Dort stand Ali links, jetzt steht Pia links. Wie viele Personen müssen sich noch aufstellen?",
+      "Pia steht fest. Für die restlichen drei Plätze müssen Ali, Jana und Tobi angeordnet werden. Zeichne ein Baumdiagramm!",
+      "Es ist dasselbe Problem: Eine Person ist fixiert, drei ordnen sich an. 3 × 2 × 1 = ?",
+      "Es verändert sich nichts an der Anzahl! Egal wer links steht — die restlichen 3 Personen ergeben immer 3 × 2 × 1 = 6 Möglichkeiten."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 72. Zentrale Erkenntnis: Es ist egal, WER fixiert wird — die Anzahl der Anordnungen der restlichen Personen bleibt gleich. Das stärkt das Verständnis für die Struktur hinter dem Zählen.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Pia soll auf dem Foto ganz links stehen. Ali, Jana und Tobi stellen sich daneben.",
+      "kontext": "Pia soll auf dem Foto ganz links stehen. Ali, Jana und Tobi stellen sich daneben.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Was verändert sich zu Aufgabe 2 (Ali steht links)?",
+          "antwort": "_mündlich"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Möglichkeiten gibt es jetzt?",
+          "antwort": "6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.72 Nr.4 — Fotos zu zweit",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "grün",
+    "buchseite": 72,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Immer zwei Freunde — Ali, Jana, Tobi und Pia — sollen gemeinsam auf ein Foto. Wie viele verschiedene Fotos können entstehen? Notiere alle Möglichkeiten.\n\n(Hinweis: Ali+Jana ist dasselbe Foto wie Jana+Ali — die Reihenfolge spielt keine Rolle.)\n\n[kombinationen:Ali,Jana,Tobi,Pia::2:6:kombination]",
+    "loesung": "6 verschiedene Fotos.\n\nAli+Jana, Ali+Tobi, Ali+Pia, Jana+Tobi, Jana+Pia, Tobi+Pia",
+    "loesungsweg": "Systematisch alle Paare aufschreiben — dabei Doppelungen vermeiden:\n\nAli kann mit 3 Personen fotografiert werden: Jana, Tobi, Pia → 3 Fotos.\nJana war schon mit Ali. Sie kann noch mit Tobi und Pia → 2 neue Fotos.\nTobi war schon mit Ali und Jana. Er kann noch mit Pia → 1 neues Foto.\n\n3 + 2 + 1 = 6\n\nAlle Paare: Ali+Jana, Ali+Tobi, Ali+Pia, Jana+Tobi, Jana+Pia, Tobi+Pia",
+    "tipps": [
+      "Geh systematisch vor: Beginne mit Ali. Mit wem kann Ali zusammen aufs Foto?",
+      "Ali kann mit Jana, Tobi oder Pia fotografiert werden → 3 Fotos. Jetzt nimm Jana: Mit wem war sie noch NICHT auf einem Foto?",
+      "Ali: 3 Partner. Jana: noch 2 neue Partner (Tobi, Pia). Tobi: noch 1 neuer Partner (Pia). Zusammen: 3 + 2 + 1 = ?",
+      "Alle Paare: Ali+Jana, Ali+Tobi, Ali+Pia, Jana+Tobi, Jana+Pia, Tobi+Pia → 6 verschiedene Fotos.\n\n3 + 2 + 1 = 6"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 72. Kombination ohne Wiederholung — C(4,2) = 6. Im Gegensatz zu den vorherigen Aufgaben (Permutationen) spielt hier die Reihenfolge keine Rolle. Kinder erkennen den Unterschied: Ali+Jana = Jana+Ali.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Immer zwei Freunde — Ali, Jana, Tobi und Pia — sollen gemeinsam auf ein Foto. Wie viele verschiedene Fotos können entstehen?",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele verschiedene Fotos können entstehen?",
+          "antwort": "6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.72 Nr.5 — Fünf Freunde in einer Reihe",
+    "typ": "eingabe",
+    "thema": "Wie viele Möglichkeiten?",
+    "schwierigkeit": "orange",
+    "buchseite": 72,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele Möglichkeiten gibt es, wenn sich fünf Freunde in einer Reihe für ein Foto aufstellen wollen?",
+    "loesung": "120\n\n5 × 4 × 3 × 2 × 1 = 120",
+    "loesungsweg": "Für den 1. Platz gibt es 5 Möglichkeiten.\nFür den 2. Platz bleiben 4 Personen.\nFür den 3. Platz bleiben 3.\nFür den 4. Platz bleiben 2.\nDer 5. Platz ist dann festgelegt.\n\n5 × 4 × 3 × 2 × 1 = 120\n\nVergleich:\n- 3 Personen: 3 × 2 × 1 = 6\n- 4 Personen: 4 × 3 × 2 × 1 = 24\n- 5 Personen: 5 × 4 × 3 × 2 × 1 = 120\n\nDie Anzahl wächst sehr schnell!",
+    "tipps": [
+      "Erinnere dich: Bei 4 Freunden gab es 4 × 3 × 2 × 1 = 24 Möglichkeiten. Was passiert bei 5 Freunden?",
+      "Für den 1. Platz gibt es 5 Möglichkeiten. Für den 2. Platz bleiben 4 Personen übrig. Für den 3. Platz ...",
+      "5 × 4 = 20 für die ersten zwei Plätze. Dann × 3 × 2 × 1 für den Rest. Rechne schrittweise: 5 × 4 = 20, 20 × 3 = 60, 60 × 2 = ?",
+      "5 × 4 × 3 × 2 × 1 = 120\n\nDie Anzahl wächst sehr schnell:\n3 Personen → 6\n4 Personen → 24\n5 Personen → 120"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 72. Transfer: Das Muster n × (n−1) × ... × 1 wird auf 5 Personen angewendet. Kinder rechnen schrittweise und staunen über das schnelle Wachstum. Kein Baumdiagramm mehr möglich — die Methode wird abstrakt.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele Möglichkeiten gibt es, wenn sich fünf Freunde in einer Reihe für ein Foto aufstellen wollen?",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Möglichkeiten gibt es?",
+          "antwort": "120"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.6 — Zahlenschloss: Ziffern 1, 3, 5, 6",
+    "typ": "textaufgabe",
+    "thema": "Zahlenschloss",
+    "schwierigkeit": "gelb",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Justus hat die Ziffernkombination für sein Zahlenschloss vergessen. Er weiß nur noch, dass die Ziffern 1, 3, 5, 6 darin vorkommen. Jede Ziffer kommt genau einmal vor.\n\na) Wie viele Kombinationen muss er mindestens ausprobieren?\nb) Wie viele Kombinationen muss er höchstens ausprobieren?\nc) Jette sagt: \u201eNimm doch deinen Geburtstag!\u201c Was meint sie damit?",
+    "loesung": "a) 1 (wenn er Glück hat, trifft er beim ersten Versuch)\n\nb) 24 (4 × 3 × 2 × 1 = 24)\n\nc) _mündlich — Jette meint, dass man sich eine Kombination aussuchen sollte, die man sich leicht merken kann, z.B. ein Datum.",
+    "loesungsweg": "a) Im besten Fall errät Justus die Kombination beim allerersten Versuch → mindestens 1.\n\nb) Im schlechtesten Fall muss er alle Möglichkeiten durchprobieren:\n4 Ziffern auf 4 Plätzen: 4 × 3 × 2 × 1 = 24 Möglichkeiten.\n\nc) Jette gibt einen praktischen Tipp: Man sollte eine Kombination wählen, die man sich merken kann — zum Beispiel den eigenen Geburtstag (z.B. 1356 für den 13.5.2006).",
+    "tipps": [
+      "a) Stell dir vor, Justus probiert eine Kombination und — Glück gehabt! — sie stimmt sofort. Was ist die Mindestzahl?",
+      "b) Wie viele verschiedene Anordnungen der vier Ziffern 1, 3, 5, 6 gibt es? Das ist dasselbe Problem wie bei den 4 Freunden auf dem Foto!",
+      "b) 4 Ziffern auf 4 Plätzen: Für die 1. Stelle 4 Möglichkeiten, für die 2. Stelle 3, für die 3. Stelle 2, für die 4. Stelle 1. Also: 4 × 3 × 2 × 1 = ?",
+      "a) Mindestens 1 Versuch (wenn er Glück hat).\nb) Höchstens 4 × 3 × 2 × 1 = 24 Versuche.\nc) Jette meint: Nimm eine Kombination, die du dir merken kannst — z.B. ein Geburtsdatum."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Transfer der Permutations-Idee auf Ziffern. Der Unterschied zwischen 'mindestens' und 'höchstens' ist wichtig: Mindestens 1 (Glücksfall), höchstens alle Möglichkeiten. Teil c) verbindet Mathe mit dem Alltag.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Justus hat die Ziffernkombination für sein Zahlenschloss vergessen. Er weiß nur noch, dass die Ziffern 1, 3, 5, 6 darin vorkommen. Jede Ziffer kommt genau einmal vor.",
+      "kontext": "Justus hat die Ziffernkombination für sein Zahlenschloss vergessen. Er weiß nur noch, dass die Ziffern 1, 3, 5, 6 darin vorkommen.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Kombinationen muss er mindestens ausprobieren?",
+          "antwort": "1"
+        },
+        {
+          "label": "b",
+          "frage": "Wie viele Kombinationen muss er höchstens ausprobieren?",
+          "antwort": "24"
+        },
+        {
+          "label": "c",
+          "frage": "Jette sagt: \u201eNimm doch deinen Geburtstag!\u201c Was meint sie damit?",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.7 — Code beginnt mit 6",
+    "typ": "eingabe",
+    "thema": "Zahlenschloss",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Ali hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 6 beginnt. Die übrigen Ziffern sind 2, 4 und 7. Jede Ziffer kommt genau einmal vor.\n\nNotiere alle passenden Kombinationen.\n\n[kombinationen:2,4,7:6:4:6:permutation]",
+    "loesung": "6 Kombinationen:\n6247, 6274, 6427, 6472, 6724, 6742",
+    "loesungsweg": "Die erste Ziffer steht fest: 6. Für die restlichen drei Stellen müssen die Ziffern 2, 4 und 7 angeordnet werden.\n\nBaumdiagramm (nur Stellen 2–4):\n```\n     ┌── 4 ── 7  → 6247\n2 ───┤\n     └── 7 ── 4  → 6274\n\n     ┌── 2 ── 7  → 6427\n4 ───┤\n     └── 7 ── 2  → 6472\n\n     ┌── 2 ── 4  → 6724\n7 ───┤\n     └── 4 ── 2  → 6742\n```\n3 × 2 × 1 = 6",
+    "tipps": [
+      "Die 6 steht fest an der ersten Stelle: 6 _ _ _. Jetzt musst du nur noch 2, 4 und 7 auf die Stellen 2, 3 und 4 verteilen.",
+      "Zeichne ein Baumdiagramm für die Stellen 2, 3 und 4. Beginne mit den 3 Möglichkeiten für Stelle 2: 2, 4 oder 7.",
+      "Wenn nach der 6 die 2 kommt: 62_ _. Es bleiben 4 und 7 → 6247 und 6274.\nWenn nach der 6 die 4 kommt: 64_ _. Es bleiben 2 und 7 → zwei Möglichkeiten.\nUnd wenn die 7 kommt?",
+      "Alle 6 Codes:\n6247, 6274, 6427, 6472, 6724, 6742\n\n3 × 2 × 1 = 6"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Identische Struktur wie S.72 Nr.2 (Ali steht links), nur mit Ziffern. Kinder erkennen: Ob Personen oder Ziffern — das Prinzip ist dasselbe. Die fixierte erste Stelle reduziert das Problem auf 3! = 6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Ali hat den Code für sein Zahlenschloss vergessen. Er weiß noch, dass der Code mit 6 beginnt. Die übrigen Ziffern sind 2, 4 und 7. Jede Ziffer kommt genau einmal vor.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Notiere alle passenden Kombinationen.",
+          "antwort": "6247, 6274, 6427, 6472, 6724, 6742"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.8 — Code beginnt mit 0, 6",
+    "typ": "eingabe",
+    "thema": "Zahlenschloss",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es zwei der Ziffern 2, 4, 7 oder 8 sind. Jede Ziffer kommt höchstens einmal vor.\n\nWie viele passende Kombinationen gibt es?",
+    "loesung": "12 Kombinationen.\n\n0624, 0627, 0628, 0642, 0647, 0648, 0672, 0674, 0678, 0682, 0684, 0687",
+    "loesungsweg": "Die ersten beiden Ziffern stehen fest: 0, 6.\nFür die Stellen 3 und 4 wählen wir 2 aus den 4 Ziffern {2, 4, 7, 8} — die Reihenfolge zählt!\n\nFür Stelle 3: 4 Möglichkeiten (2, 4, 7 oder 8).\nFür Stelle 4: 3 Möglichkeiten (eine ist schon vergeben).\n4 × 3 = 12\n\nAlle Codes:\n0624, 0627, 0628,\n0642, 0647, 0648,\n0672, 0674, 0678,\n0682, 0684, 0687",
+    "tipps": [
+      "Die ersten zwei Stellen sind fest: 06_ _. Jetzt musst du 2 Ziffern aus {2, 4, 7, 8} auswählen und anordnen.",
+      "Für Stelle 3 hast du 4 Möglichkeiten. Für Stelle 4 bleiben dann noch 3 Ziffern. Wie viele Kombinationen sind das insgesamt?",
+      "Wenn Stelle 3 die 2 ist: 062_. Für Stelle 4 bleiben 4, 7 oder 8 → 3 Möglichkeiten.\nDas gilt für jede Wahl an Stelle 3: 4 × 3 = ?",
+      "4 × 3 = 12 verschiedene Codes.\n\n0624, 0627, 0628, 0642, 0647, 0648, 0672, 0674, 0678, 0682, 0684, 0687"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Neue Schwierigkeit: Es werden 2 aus 4 Ziffern gewählt (nicht alle verwendet!). Das ist eine Variation — P(4,2) = 12. Kinder müssen erkennen, dass die Reihenfolge hier zählt (0624 ist nicht dasselbe wie 0642).",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es zwei der Ziffern 2, 4, 7 oder 8 sind.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele passende Kombinationen gibt es?",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.9 — Vierstellige Zahlen aus fünf Ziffern",
+    "typ": "eingabe",
+    "thema": "Zahlenschloss",
+    "schwierigkeit": "orange",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Wie viele vierstellige Zahlen kannst du aus den Ziffern 3, 4, 5, 6, 7 bilden? Jede Ziffer darf in jeder Zahl höchstens einmal vorkommen.",
+    "loesung": "120\n\n5 × 4 × 3 × 2 = 120",
+    "loesungsweg": "Für die 1. Stelle gibt es 5 Möglichkeiten (3, 4, 5, 6 oder 7).\nFür die 2. Stelle bleiben 4 Ziffern.\nFür die 3. Stelle bleiben 3 Ziffern.\nFür die 4. Stelle bleiben 2 Ziffern.\n\n5 × 4 × 3 × 2 = 120\n\nHier werden nicht alle 5 Ziffern verwendet — nur 4 von 5. Das ist eine Variation: P(5,4) = 120.",
+    "tipps": [
+      "Für die 1. Stelle: Welche Ziffern kommen in Frage? Alle 5! Für die 2. Stelle: Wie viele bleiben noch übrig?",
+      "1. Stelle: 5 Möglichkeiten. 2. Stelle: 4. 3. Stelle: 3. 4. Stelle: 2. Multipliziere!",
+      "Rechne schrittweise: 5 × 4 = 20, dann 20 × 3 = 60, dann 60 × 2 = ?",
+      "5 × 4 × 3 × 2 = 120 vierstellige Zahlen.\n\nBeachte: Du wählst 4 aus 5 Ziffern UND ordnest sie an."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Schwierigere Variante: Es stehen 5 Ziffern zur Verfügung, aber nur 4 Stellen. Das Ergebnis 120 = P(5,4) zeigt, dass die Auswahl die Zahl der Möglichkeiten erhöht. Vergleich mit Nr. 5 (5! = 120) ist spannend — gleiche Zahl, anderes Problem!",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Wie viele vierstellige Zahlen kannst du aus den Ziffern 3, 4, 5, 6, 7 bilden? Jede Ziffer darf in jeder Zahl höchstens einmal vorkommen.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele vierstellige Zahlen kannst du bilden?",
+          "antwort": "120"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.10 — Fußballturnier: Spiele in Gruppe A",
+    "typ": "eingabe",
+    "thema": "Turnierspiele",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bei einem Fußballturnier gibt es zwei Gruppen mit je 4 Mannschaften. In jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.\n\n**Gruppe A:** 3a, 3b, 3c, 3d\n**Gruppe B:** 4a, 4b, 4c, 4d\n\nWie viele Spiele gibt es in Gruppe A? Notiere alle möglichen Spiele.\n\n[kombinationen:3a,3b,3c,3d::2:6:kombination]",
+    "loesung": "6 Spiele.\n\n3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d",
+    "loesungsweg": "Systematisch alle Paarungen in Gruppe A aufschreiben:\n\n3a spielt gegen: 3b, 3c, 3d → 3 Spiele\n3b spielt noch gegen: 3c, 3d → 2 neue Spiele\n3c spielt noch gegen: 3d → 1 neues Spiel\n\n3 + 2 + 1 = 6 Spiele\n\nAlle Spiele: 3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d",
+    "tipps": [
+      "Geh systematisch vor: Mit welchen Teams spielt 3a? Dann: Gegen wen spielt 3b noch (ohne die Spiele, die schon gezählt sind)?",
+      "Mache eine Tabelle: 3a spielt gegen 3b, 3c, 3d (3 Spiele). 3b spielt noch gegen 3c, 3d (2 neue Spiele). 3c spielt noch gegen 3d (1 neues Spiel).",
+      "Das ist dasselbe Problem wie bei den Fotos zu zweit! 4 Teams, jedes Paar spielt einmal: 3 + 2 + 1 = ?",
+      "3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d → 6 Spiele.\n\n3 + 2 + 1 = 6"
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Identische Struktur wie Nr. 4 (Fotos zu zweit): C(4,2) = 6. Der Fußball-Kontext motiviert besonders. Kinder erkennen das Muster wieder: 3 + 2 + 1 = 6.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bei einem Fußballturnier gibt es Gruppe A mit den Mannschaften 3a, 3b, 3c, 3d. Jede Mannschaft spielt einmal gegen jede andere.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Spiele gibt es in Gruppe A?",
+          "antwort": "6"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.11 — Fußballturnier: Spiele insgesamt",
+    "typ": "eingabe",
+    "thema": "Turnierspiele",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bei einem Fußballturnier gibt es zwei Gruppen mit je 4 Mannschaften. In jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.\n\n**Gruppe A:** 3a, 3b, 3c, 3d\n**Gruppe B:** 4a, 4b, 4c, 4d\n\nWie viele Spiele gibt es insgesamt in beiden Gruppen? Notiere alle möglichen Spiele.",
+    "loesung": "12 Spiele.\n\nGruppe A (6 Spiele): 3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d\nGruppe B (6 Spiele): 4a–4b, 4a–4c, 4a–4d, 4b–4c, 4b–4d, 4c–4d",
+    "loesungsweg": "Gruppe A: 4 Mannschaften → C(4,2) = 6 Spiele\n3a–3b, 3a–3c, 3a–3d, 3b–3c, 3b–3d, 3c–3d\n\nGruppe B: 4 Mannschaften → C(4,2) = 6 Spiele\n4a–4b, 4a–4c, 4a–4d, 4b–4c, 4b–4d, 4c–4d\n\nInsgesamt: 6 + 6 = 12 Spiele",
+    "tipps": [
+      "Wie viele Spiele gibt es in Gruppe A? (Das hast du in Aufgabe 10 schon herausgefunden!) Wie ist es in Gruppe B?",
+      "Beide Gruppen haben gleich viele Mannschaften (4). Also gibt es in jeder Gruppe gleich viele Spiele. Zusammen?",
+      "Gruppe A: 6 Spiele. Gruppe B: auch 6 Spiele (gleiche Berechnung!). Insgesamt: 6 + 6 = ?",
+      "Gruppe A: 6 Spiele. Gruppe B: 6 Spiele.\nInsgesamt: 6 + 6 = 12 Spiele."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Aufbau auf Nr. 10: Beide Gruppen haben die gleiche Struktur, also verdoppelt sich die Anzahl. Das Additionsprinzip (unabhängige Gruppen → Summe) wird hier angewandt.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bei einem Fußballturnier gibt es zwei Gruppen mit je 4 Mannschaften. In jeder Gruppe spielt jede Mannschaft einmal gegen jede andere.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "Wie viele Spiele gibt es insgesamt in beiden Gruppen?",
+          "antwort": "12"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.12 — Spielplan erstellen",
+    "typ": "textaufgabe",
+    "thema": "Turnierspiele",
+    "schwierigkeit": "grün",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Die Spiele des Fußballturniers finden auf zwei Spielfeldern statt. Erstelle einen Spielplan, sodass möglichst viele Spiele gleichzeitig auf beiden Feldern gespielt werden können.\n\n**Gruppe A:** 3a, 3b, 3c, 3d\n**Gruppe B:** 4a, 4b, 4c, 4d",
+    "loesung": "Möglicher Spielplan (z.B.):\n\nRunde 1: Feld 1: 3a–3b | Feld 2: 4a–4b\nRunde 2: Feld 1: 3c–3d | Feld 2: 4c–4d\nRunde 3: Feld 1: 3a–3c | Feld 2: 4a–4c\nRunde 4: Feld 1: 3b–3d | Feld 2: 4b–4d\nRunde 5: Feld 1: 3a–3d | Feld 2: 4a–4d\nRunde 6: Feld 1: 3b–3c | Feld 2: 4b–4c\n\n→ 6 Runden, alle 12 Spiele.",
+    "loesungsweg": "Jede Mannschaft darf pro Runde nur einmal spielen. Auf zwei Feldern können pro Runde 2 Spiele gleichzeitig stattfinden.\n\nGruppe A hat 6 Spiele, Gruppe B hat 6 Spiele → 12 Spiele total.\nPro Runde 2 Spiele → mindestens 6 Runden nötig.\n\nAchte darauf, dass in jeder Runde jedes Team höchstens einmal spielt!",
+    "tipps": [
+      "Auf zwei Feldern können gleichzeitig 2 Spiele stattfinden. Achte darauf, dass eine Mannschaft nicht auf beiden Feldern gleichzeitig spielen muss!",
+      "Ordne die Spiele so, dass immer ein Spiel aus Gruppe A und eins aus Gruppe B gleichzeitig stattfindet.",
+      "Runde 1: 3a–3b auf Feld 1 und 4a–4b auf Feld 2. Welche Spiele passen in Runde 2?",
+      "Ein möglicher Plan: 6 Runden mit je 2 Spielen. In jeder Runde spielt ein Spiel aus Gruppe A und eins aus Gruppe B gleichzeitig."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Organisatorische Aufgabe — hier geht es nicht nur ums Zählen, sondern um das Planen. Kinder lernen, Nebenbedingungen zu beachten (kein Team spielt doppelt). Kreative Lösungen sind möglich.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "Die Spiele des Fußballturniers finden auf zwei Spielfeldern statt. Erstelle einen Spielplan.",
+      "kontext": "Die Spiele des Fußballturniers finden auf zwei Spielfeldern statt. Erstelle einen Spielplan, sodass möglichst viele Spiele gleichzeitig auf beiden Feldern gespielt werden können.",
+      "items": [
+        {
+          "label": "1",
+          "frage": "💬 Erstelle einen Spielplan für die zwei Spielfelder. Erkläre ihn laut!",
+          "antwort": "_mündlich"
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.73 Nr.13 — Turnier mit Halbfinale: Gesamtspiele und Zeit",
+    "typ": "eingabe",
+    "thema": "Turnierspiele",
+    "schwierigkeit": "orange",
+    "buchseite": 73,
+    "kapitel": "buch-original",
+    "stageId": "kombinatorik-original",
+    "digital": "voll",
+    "aufgabenstellung": "Beim Fußballturnier spielen in jeder Gruppe (A und B) alle 4 Mannschaften gegeneinander. Danach spielen die zwei Besten aus Gruppe A gegen die zwei Besten aus Gruppe B im Halbfinale (Überkreuz: 1.A gegen 2.B und 2.A gegen 1.B). Die Gewinner spielen das Finale.\n\na) Wie viele Spiele gibt es insgesamt (Gruppenphase + Halbfinale + Finale)?\nb) Jedes Spiel dauert 2 × 10 Minuten (zwei Halbzeiten). Wie lange dauert das gesamte Turnier (ohne Pausen)?",
+    "loesung": "a) 15 Spiele\n(Gruppe A: 6, Gruppe B: 6, Halbfinale: 2, Finale: 1)\n\nb) 300 Minuten = 5 Stunden",
+    "loesungsweg": "a) Gruppenphase:\nGruppe A: C(4,2) = 6 Spiele\nGruppe B: C(4,2) = 6 Spiele\n→ 12 Gruppenspiele\n\nHalbfinale: 2 Spiele (1.A vs. 2.B und 2.A vs. 1.B)\nFinale: 1 Spiel\n\nGesamt: 12 + 2 + 1 = 15 Spiele\n\nb) Jedes Spiel: 2 × 10 = 20 Minuten\n15 Spiele × 20 Minuten = 300 Minuten\n300 ÷ 60 = 5 Stunden",
+    "tipps": [
+      "Zähle zuerst die Gruppenspiele: Wie viele Spiele in Gruppe A? Wie viele in Gruppe B? Dann kommen noch Halbfinale und Finale dazu.",
+      "Gruppenphase: 6 + 6 = 12 Spiele. Halbfinale: 2 Spiele (überkreuz). Finale: 1 Spiel. Addiere alles!",
+      "a) 12 + 2 + 1 = ? Spiele.\nb) Jedes Spiel dauert 2 × 10 = 20 Minuten. Gesamte Spielzeit: Anzahl Spiele × 20. Wandle das Ergebnis in Stunden um!",
+      "a) 6 + 6 + 2 + 1 = 15 Spiele.\nb) 15 × 20 = 300 Minuten = 5 Stunden."
+    ],
+    "didaktischerHinweis": "Fredo 4, S. 73. Komplexeste Aufgabe: Kombiniert Gruppenspiele (bekannt), K.o.-Runde (neu) und Zeitrechnung. Die Verknüpfung mehrerer Schritte ist die eigentliche Herausforderung. Die Umwandlung Minuten → Stunden wiederholt eine wichtige Fertigkeit.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Beim Fußballturnier spielen in jeder Gruppe (A und B) alle 4 Mannschaften gegeneinander. Danach gibt es Halbfinale und Finale.",
+      "items": [
+        {
+          "label": "a",
+          "frage": "Wie viele Spiele gibt es insgesamt (Gruppenphase + Halbfinale + Finale)?",
+          "antwort": "15"
+        },
+        {
+          "label": "b",
+          "frage": "Jedes Spiel dauert 2 × 10 Minuten. Wie lange dauert das gesamte Turnier (ohne Pausen)?",
+          "antwort": "300"
+        }
+      ]
+    }
+  }
+]
