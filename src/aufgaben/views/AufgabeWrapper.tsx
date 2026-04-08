@@ -19,6 +19,8 @@ import { ZahlenstrahlDiagramm, parseZahlenstrahlDaten } from './ZahlenstrahlDiag
 import { SchriftlicheRechnung, parseSchriftlicheRechnung } from './SchriftlicheRechnung';
 import { SchriftlicheDivision } from './SchriftlicheDivision';
 import { HalbschriftlicheDivision } from './HalbschriftlicheDivision';
+import { useProfileStore } from '@/stores/profileStore';
+import { useLernmodusStore } from '@/stores/lernmodusStore';
 import { MalTabelle, parseMalTabelle } from './MalTabelle';
 import { BruchVisualisierung, parseBruchDaten } from './BruchVisualisierung';
 import { IsometricGrid } from '@/components/geometrie/IsometricGrid';
@@ -349,6 +351,9 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
   const View = VIEW_MAP[aufgabe.typ];
   const [activeLabel, setActiveLabel] = useState('');
   const [answered, setAnswered] = useState(false);
+  const activeProfileId = useProfileStore((s) => s.activeProfileId);
+  const getZerlegungshilfe = useLernmodusStore((s) => s.getZerlegungshilfe);
+  const zerlegungshilfe = activeProfileId ? getZerlegungshilfe(activeProfileId) : true;
 
   useEffect(() => { setActiveLabel(''); setAnswered(false); }, [aufgabe.titel]);
 
@@ -532,6 +537,7 @@ export function AufgabeWrapper({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChan
             dividend={divInteraktiv.dividend}
             divisor={divInteraktiv.divisor}
             vielfacheAuswahl={divInteraktiv.vielfacheAuswahl}
+            zeigeHinweis={zerlegungshilfe}
             onRichtig={onRichtig}
             onFalsch={onFalsch}
           />

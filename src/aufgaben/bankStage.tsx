@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import type { Aufgabe, StageProps, Stage, StageFarbe } from '@/stages/types';
-import type { BankAufgabe, Schwierigkeit } from './types';
+import type { BankAufgabe } from './types';
 import { aufgabenPool } from './pool';
 import { AufgabeWrapper } from './views/AufgabeWrapper';
 import { Card } from '@/components/ui/Card';
-import { TippButton, TippInhalte } from '@/components/ui/TippSystem';
+import { TippInhalte } from '@/components/ui/TippSystem';
 import { Zeichenfeld } from '@/components/ui/Zeichenfeld';
 import { MerkkastenCard } from '@/components/ui/MerkkastenCard';
 import { BruchMerkkasten } from '@/components/ui/BruchKreis';
@@ -15,6 +15,7 @@ import { TaschenrechnerTasten } from '@/components/forscherkiste/TaschenrechnerT
 import { MillionenWuerfel } from '@/components/dienes/MillionenWuerfel';
 import { MultiplikationZerlegung } from '@/components/ui/MultiplikationZerlegung';
 import { SkizzeMerkkasten } from '@/components/ui/SkizzeMerkkasten';
+import { TeilbarkeitMerkkasten4, QuersummeMerkkasten9, TeilbarkeitMerkkasten3 } from '@/components/teilbarkeit/TeilbarkeitMerkkasten';
 import { filterTippForLabel } from './parserHelpers';
 import { useDeaktivierteAufgaben } from '@/stores/deaktivierteAufgabenStore';
 import { useAdaptiv } from '@/hooks/useAdaptiv';
@@ -24,41 +25,6 @@ export interface BankStageAufgabe extends Aufgabe {
   readonly bankAufgabe: BankAufgabe;
 }
 
-/** Schwierigkeits-Filter Buttons. */
-function SchwierigkeitsFilter({
-  aktiv,
-  onChange,
-  counts,
-}: {
-  aktiv: Schwierigkeit | null;
-  onChange: (s: Schwierigkeit | null) => void;
-  counts: Record<Schwierigkeit, number>;
-}) {
-  const options: { id: Schwierigkeit | null; label: string; color: string }[] = [
-    { id: null, label: 'Alle', color: 'bg-border text-heading' },
-    { id: 'gelb', label: `Einfach (${counts.gelb})`, color: 'bg-yellow-100 text-yellow-800' },
-    { id: 'grün', label: `Kern (${counts['grün']})`, color: 'bg-emerald-100 text-emerald-800' },
-    { id: 'orange', label: `Knifflig (${counts.orange})`, color: 'bg-orange-100 text-orange-800' },
-  ];
-
-  return (
-    <div className="flex gap-1.5 flex-wrap">
-      {options.map((opt) => (
-        <button
-          key={opt.id ?? 'alle'}
-          onClick={() => onChange(opt.id)}
-          className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer min-h-[32px] ${
-            aktiv === opt.id
-              ? `${opt.color} ring-2 ring-primary/30`
-              : 'bg-card border border-border text-muted hover:border-primary/30'
-          }`}
-        >
-          {opt.label}
-        </button>
-      ))}
-    </div>
-  );
-}
 
 /** View-Komponente für Bank-Stages. */
 function BankStageView({
@@ -67,15 +33,27 @@ function BankStageView({
   onNaechste,
 }: StageProps<BankStageAufgabe>) {
   const { schwierigkeitDefault } = useAdaptiv();
-  const [schwierigkeit, setSchwierigkeit] = useState<Schwierigkeit | null>(() => schwierigkeitDefault(aufgabe.bankAufgabe.stageId));
+  const schwierigkeit = schwierigkeitDefault(aufgabe.bankAufgabe.stageId);
   const startTime = useRef(Date.now());
-  // Aufgabe stabilisieren: bei HMR-Reloads bleibt die gleiche Aufgabe
-  const stableAufgabe = useRef(aufgabe.bankAufgabe);
-  const [currentAufgabe, setCurrentAufgabeRaw] = useState(stableAufgabe.current);
+  // Aufgabe stabilisieren: bei HMR-Reloads bleibt die gleiche Aufgabe (via sessionStorage)
+  const hmrKey = `hmr-aufgabe-${aufgabe.bankAufgabe.stageId}`;
+  const [currentAufgabe, setCurrentAufgabeRaw] = useState<BankAufgabe>(() => {
+    try {
+      const saved = sessionStorage.getItem(hmrKey);
+      if (saved) {
+        const poolId = JSON.parse(saved) as string;
+        const found = aufgabenPool.getAll({ stageId: aufgabe.bankAufgabe.stageId }).find((a) => a._poolId === poolId);
+        if (found) return found;
+      }
+    } catch { /* ignore */ }
+    // Nix gespeichert → Default speichern
+    try { sessionStorage.setItem(hmrKey, JSON.stringify(aufgabe.bankAufgabe._poolId)); } catch { /* ignore */ }
+    return aufgabe.bankAufgabe;
+  });
   const setCurrentAufgabe = useCallback((a: BankAufgabe) => {
-    stableAufgabe.current = a;
+    try { sessionStorage.setItem(hmrKey, JSON.stringify(a._poolId)); } catch { /* ignore */ }
     setCurrentAufgabeRaw(a);
-  }, []);
+  }, [hmrKey]);
   const deaktiviert = useDeaktivierteAufgaben((s) => s.deaktiviert);
   const [erklaerungOpen, setErklaerungOpen] = useState(false);
   const [tippStufe, setTippStufe] = useState(0);
@@ -107,25 +85,9 @@ function BankStageView({
   // Counts for filter badges (ohne deaktivierte)
   const stageId = aufgabe.bankAufgabe.stageId;
   const excludeIds = deaktiviert;
-  const counts = {
-    gelb: aufgabenPool.getCount({ stageId, schwierigkeit: 'gelb', excludeIds }),
-    grün: aufgabenPool.getCount({ stageId, schwierigkeit: 'grün', excludeIds }),
-    orange: aufgabenPool.getCount({ stageId, schwierigkeit: 'orange', excludeIds }),
-  };
-
   useEffect(() => {
     startTime.current = Date.now();
   }, [currentAufgabe]);
-
-  // Bei Filter-Wechsel sofort passende Aufgabe laden
-  function handleFilterChange(s: Schwierigkeit | null) {
-    setSchwierigkeit(s);
-    const filter = { stageId, excludeIds, ...(s ? { schwierigkeit: s } : {}) };
-    const next = aufgabenPool.getRandom(filter);
-    if (next) {
-      setCurrentAufgabe(next);
-    }
-  }
 
   function handleRichtig() {
     const dauerMs = Date.now() - startTime.current;
@@ -154,8 +116,7 @@ function BankStageView({
 
   return (
     <div className="space-y-3 mt-2">
-      {/* Schwierigkeitsfilter */}
-      <SchwierigkeitsFilter aktiv={schwierigkeit} onChange={handleFilterChange} counts={counts} />
+      {/* Schwierigkeits-Indikator (farbiger Punkt statt Filter-Buttons) — wird nicht bei Buch-Original-Stages angezeigt */}
 
       {/* ?-Button + Tipp-Glühbirne via Portal in den Header */}
       {headerActionsEl &&
@@ -174,8 +135,22 @@ function BankStageView({
                 ?
               </button>
             )}
-            {currentAufgabe.tipps && tippStufe === 0 && (
-              <TippButton onAdvance={() => setTippStufe(1)} />
+            {currentAufgabe.tipps && (
+              <button
+                onClick={() => tippStufe === 0 ? setTippStufe(1) : setTippStufe((s) => Math.min(s + 1, 4))}
+                className={`shrink-0 min-w-[36px] min-h-[36px] rounded-full flex items-center justify-center transition-colors cursor-pointer focus:outline-none focus:ring-3 focus:ring-primary/30 ${
+                  currentAufgabe.schwierigkeit === 'gelb' ? 'bg-yellow-200 text-yellow-700 border-2 border-yellow-300'
+                  : currentAufgabe.schwierigkeit === 'grün' ? 'bg-emerald-200 text-emerald-700 border-2 border-emerald-300'
+                  : currentAufgabe.schwierigkeit === 'orange' ? 'bg-orange-200 text-orange-700 border-2 border-orange-300'
+                  : 'bg-card text-primary border-2 border-primary'
+                }`}
+                aria-label="Tipp anzeigen"
+              >
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
+                  <path d="M8 1C4.7 1 2 3.7 2 7c0 2 1 3.8 2.5 4.8V13a1 1 0 001 1h5a1 1 0 001-1v-1.2C13 10.8 14 9 14 7c0-3.3-2.7-6-6-6z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M6 15h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                </svg>
+              </button>
             )}
             <button
               onClick={() => setZeichenfeldOpen(!zeichenfeldOpen)}
@@ -239,6 +214,18 @@ function BankStageView({
           ) : currentAufgabe.erklaerungBild?.includes('skizze-intro') ? (
             <div className="mt-2 p-3 rounded-lg border border-border bg-card">
               <SkizzeMerkkasten />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('merkkasten-teilbar-4') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <TeilbarkeitMerkkasten4 />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('merkkasten-quersumme-9') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <QuersummeMerkkasten9 />
+            </div>
+          ) : currentAufgabe.erklaerungBild?.includes('merkkasten-teilbar-3') ? (
+            <div className="mt-2 p-3 rounded-lg border border-border bg-card">
+              <TeilbarkeitMerkkasten3 />
             </div>
           ) : currentAufgabe.erklaerungBild ? (
             <img

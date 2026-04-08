@@ -165,7 +165,7 @@
     "loesung": "a) 1.600\nb) 2.700\nc) 4.000\nd) 160.000\ne) 270.000",
     "loesungsweg": "Gleiche Methode: Grundaufgabe + Nullen.\n- a) 4 · 4 = 16, dann 2 Nullen (1+1) → 1.600\n- b) 3 · 9 = 27, dann 2 Nullen → 2.700\n- c) 8 · 5 = 40, dann 2 Nullen → 4.000 (Achtung: 40 hat schon eine Null im Ergebnis!)\n- d) 4 · 4 = 16, dann 4 Nullen (2+2) → 160.000\n- e) 3 · 9 = 27, dann 4 Nullen → 270.000",
     "tipps": [
-      "Bei c) passiert etwas Besonderes: 8 · 5 = 40. Das Ergebnis hat schon eine Null! Zusammen mit den 2 Nullen der Aufgabe sind es dann 3 Nullen. Achte genau auf die Nullen im Ergebnis der Grundaufgabe.",
+      "Rechne zuerst die Grundaufgabe ohne Nullen (z.B. bei 40 · 40: Grundaufgabe ist 4 · 4 = 16). Dann zähle alle Nullen der beiden Faktoren zusammen und hänge sie ans Ergebnis.",
       "Grundaufgabe rechnen → Nullen der beiden Faktoren zusammenzählen → alle Nullen ans Ergebnis hängen. Vorsicht, wenn die Grundaufgabe selbst auf 0 endet (z.B. 8 · 5 = 40).",
       "Bei c): 80 · 50. Grundaufgabe: 8 · 5 = 40. Nullen: 80 hat 1, 50 hat 1 → 2 Nullen. Ergebnis: 40 + 2 weitere Nullen = 4.000. Prüfe: 50 · 80 = 50 · 8 · 10 = 400 · 10 = ___.",
       "Gleiche Methode: Grundaufgabe + Nullen.\n- a) 4 · 4 = 16, dann 2 Nullen (1+1) → 1.600\n- b) 3 · 9 = 27, dann 2 Nullen → 2.700\n- c) 8 · 5 = 40, dann 2 Nullen → 4.000 (Achtung: 40 hat schon eine Null im Ergebnis!)\n- d) 4 · 4 = 16, dann 4 Nullen (2+2) → 160.000\n- e) 3 · 9 = 27, dann 4 Nullen → 270.000"
@@ -459,8 +459,8 @@
     "buchseite": 55,
     "kapitel": "05-multiplikation",
     "stageId": "kopfrechnen-division",
-    "digital": "voll",
-    "aufgabenstellung": "Finde zu jeder Zahl zwei verschiedene Divisionsaufgaben.\n\na) 5.600\nb) 12.000",
+    "digital": "platzhalter",
+    "aufgabenstellung": "⚠️ **PLATZHALTER** — Offene Aufgabe, nicht eindeutig prüfbar.\n\nOriginal: Finde zu jeder Zahl zwei verschiedene Divisionsaufgaben.\na) 5.600\nb) 12.000",
     "loesung": "a) 5.600:\n- 5.600 : 7 = 800\n- 5.600 : 8 = 700\n- (weitere: 5.600 : 700 = 8, 5.600 : 800 = 7, 5.600 : 4 = 1.400, ...)\n\nb) 12.000:\n- 12.000 : 4 = 3.000\n- 12.000 : 6 = 2.000\n- (weitere: 12.000 : 3.000 = 4, 12.000 : 200 = 60, ...)",
     "loesungsweg": "Finde Zahlen, durch die sich der Dividend ohne Rest teilen lässt. Nutze bekannte Einmaleins-Aufgaben:\n- 5.600: 56 : 7 = 8, also 5.600 : 7 = 800 oder 5.600 : 700 = 8.\n- 12.000: 12 : 4 = 3, also 12.000 : 4 = 3.000 oder 12.000 : 4.000 = 3.",
     "tipps": [
@@ -785,7 +785,7 @@
   },
   {
     "titel": "Muster in Rechenpäckchen — Produkte vergleichen",
-    "typ": "textaufgabe",
+    "typ": "eingabe",
     "thema": "Halbschriftliches Multiplizieren",
     "schwierigkeit": "grün",
     "buchseite": 57,
@@ -809,24 +809,38 @@
     ],
     "didaktischerHinweis": "Diese Aufgabe entspricht S. 57, Aufg. 9. Das Erkennen des Verdoppeln-Halbieren-Musters fördert algebraisches Denken und zeigt die Flexibilität der Multiplikation.",
     "parsed": {
-      "typ": "textaufgabe",
+      "typ": "eingabe",
       "anweisung": "Rechne und vergleiche die Ergebnisse. Was fällt dir auf?",
-      "kontext": "Rechne und vergleiche die Ergebnisse. Was fällt dir auf?",
       "items": [
         {
-          "label": "a",
-          "frage": "6 · 74 =    und    12 · 37 =",
-          "antwort": "6 · 74 = 444 und 12 · 37 = 444 → gleich!"
+          "label": "a1",
+          "frage": "6 · 74 =",
+          "antwort": "444"
         },
         {
-          "label": "b",
-          "frage": "9 · 46 =    und    18 · 23 =",
-          "antwort": "9 · 46 = 414 und 18 · 23 = 414 → gleich!"
+          "label": "a2",
+          "frage": "12 · 37 =",
+          "antwort": "444"
         },
         {
-          "label": "c",
-          "frage": "8 · 82 =    und    16 · 41 =",
-          "antwort": "8 · 82 = 656 und 16 · 41 = 656 → gleich!"
+          "label": "b1",
+          "frage": "9 · 46 =",
+          "antwort": "414"
+        },
+        {
+          "label": "b2",
+          "frage": "18 · 23 =",
+          "antwort": "414"
+        },
+        {
+          "label": "c1",
+          "frage": "8 · 82 =",
+          "antwort": "656"
+        },
+        {
+          "label": "c2",
+          "frage": "16 · 41 =",
+          "antwort": "656"
         }
       ]
     }

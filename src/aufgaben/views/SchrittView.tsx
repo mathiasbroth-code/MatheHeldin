@@ -35,8 +35,8 @@ export function SchrittView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) 
   // Total steps across all Teilaufgaben for display
   const totalSchritte = currentTeil.schritte.length;
 
-  // Rechenkette detection: if lösung contains → chain notation
-  const ketteMatch = aufgabe.loesung?.match(/[\d.,]+(?:\s*→\s*[^→]+){2,}/);
+  // Rechenkette detection: if lösung contains → chain notation (single line only)
+  const ketteMatch = aufgabe.loesung?.match(/[\d.,]+(?:\s*→\s*[^→\n]+){2,}/);
   const rechenkette = ketteMatch ? ketteMatch[0] : null;
 
   useEffect(() => {

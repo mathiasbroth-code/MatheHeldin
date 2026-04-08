@@ -322,28 +322,50 @@ const LERNMODUS_OPTIONEN: { id: Lernmodus; label: string; desc: string }[] = [
 function LernmodusRegler({ profileId }: { profileId: number }) {
   const getLernmodus = useLernmodusStore((s) => s.getLernmodus);
   const setLernmodus = useLernmodusStore((s) => s.setLernmodus);
+  const getZerlegungshilfe = useLernmodusStore((s) => s.getZerlegungshilfe);
+  const setZerlegungshilfe = useLernmodusStore((s) => s.setZerlegungshilfe);
   const aktiv = getLernmodus(profileId);
+  const hilfeAktiv = getZerlegungshilfe(profileId);
 
   return (
-    <div className="mt-3 pt-3 border-t border-border">
-      <p className="text-xs font-bold text-heading mb-2">Lernmodus</p>
-      <div className="flex gap-1.5">
-        {LERNMODUS_OPTIONEN.map((opt) => (
-          <button
-            key={opt.id}
-            onClick={() => setLernmodus(profileId, opt.id)}
-            className={`flex-1 py-2 px-2 rounded-lg text-center transition-colors cursor-pointer border ${
-              aktiv === opt.id
-                ? 'bg-primary text-white border-primary font-semibold'
-                : 'bg-card text-muted border-border hover:border-primary/40'
-            }`}
-          >
-            <span className="text-xs font-semibold block">{opt.label}</span>
-            <span className={`text-[9px] block mt-0.5 ${aktiv === opt.id ? 'text-white/80' : 'text-muted'}`}>
-              {opt.desc}
-            </span>
-          </button>
-        ))}
+    <div className="mt-3 pt-3 border-t border-border space-y-3">
+      <div>
+        <p className="text-xs font-bold text-heading mb-2">Lernmodus</p>
+        <div className="flex gap-1.5">
+          {LERNMODUS_OPTIONEN.map((opt) => (
+            <button
+              key={opt.id}
+              onClick={() => setLernmodus(profileId, opt.id)}
+              className={`flex-1 py-2 px-2 rounded-lg text-center transition-colors cursor-pointer border ${
+                aktiv === opt.id
+                  ? 'bg-primary text-white border-primary font-semibold'
+                  : 'bg-card text-muted border-border hover:border-primary/40'
+              }`}
+            >
+              <span className="text-xs font-semibold block">{opt.label}</span>
+              <span className={`text-[9px] block mt-0.5 ${aktiv === opt.id ? 'text-white/80' : 'text-muted'}`}>
+                {opt.desc}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="text-xs font-bold text-heading">Zerlegungshilfe</p>
+          <p className="text-[9px] text-muted">Zeigt verbleibende Zahl bei halbschriftlicher Division</p>
+        </div>
+        <button
+          onClick={() => setZerlegungshilfe(profileId, !hilfeAktiv)}
+          className={`relative w-10 h-6 rounded-full transition-colors cursor-pointer ${
+            hilfeAktiv ? 'bg-primary' : 'bg-border'
+          }`}
+        >
+          <span className={`absolute top-1 w-4 h-4 rounded-full bg-white shadow transition-transform ${
+            hilfeAktiv ? 'left-5' : 'left-1'
+          }`} />
+        </button>
       </div>
     </div>
   );

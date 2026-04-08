@@ -1,35 +1,32 @@
 # Audit: 05-multiplikation.json
-Geprüft: 34 Aufgaben (ohne Platzhalter)
-
----
+Geprueft: 30 Aufgaben (ohne Platzhalter)
 
 ## Fehler
+Keine mathematischen Fehler gefunden. Alle 30 Aufgaben sind rechnerisch korrekt.
 
-Keine mathematischen Fehler gefunden. Alle 34 Aufgaben sind rechnerisch korrekt nachgerechnet.
-
----
+Stichproben-Verifikation:
+- 58 x 12 = 696, 47 x 13 = 611, 41 x 23 = 943, 32 x 54 = 1.728, 73 x 16 = 1.168
+- 2.313 x 3 = 6.939, 1.621 x 4 = 6.484, 1.531 x 5 = 7.655
+- 7.526 x 4 = 30.104 (Fehler in Aufgabenstellung bewusst), 3.532 x 3 = 10.596, 7.604 x 2 = 15.208, 4.520 x 4 = 18.080
+- 2.849 x 3 = 8.547, 4.629 x 4 = 18.516, 2.512 x 7 = 17.584
+- 1.234 x 9 = 11.106, 1.235 x 9 = 11.115, 1.236 x 9 = 11.124
+- 284 x 37 = 10.508, 432 x 48 = 20.736, 2.412 x 72 = 173.664
+- 3.625 x 357 = 1.294.125, 231 x 45 = 10.395, 534 x 12 = 6.408
 
 ## Warnungen
 
+### Antwort-Format
+
+- #8 "Zahlenraetsel mit Division": Items haben `antwort = "Meine Zahl = 4"` bzw. `"Meine Zahl = 42.000"` statt einfacher Zahlenwerte "4" und "42.000". Ein Kind tippt eine Zahl, nicht einen Satz.
+
+- #9 "Divisionsaufgaben finden -- Umkehraufgaben bilden": Items haben offene Antworten wie `"- 5.600 : 7 = 800"`. Offene Aufgabe mit vielen moeglichen korrekten Antworten -- schwer automatisch zu validieren.
+
+- #13 "Muster in Rechenpaeeckchen -- Produkte vergleichen": Items haben zusammengesetzte Antworten wie `"6 x 74 = 444 und 12 x 37 = 444 -- gleich!"` statt einfacher Zahlen. Typ "textaufgabe" passt hier bedingt.
+
 ### Typ-Passung
 
-- **#8** "Division mit Kontrolle — Große Zahlen": Typ ist `textaufgabe`, aber die Aufgabe ist eine reine Rechenaufgabe ohne Sachkontext (4 Divisionsaufgaben mit Kontrollmultiplikation). `eingabe` wäre passender. `textaufgabe` impliziert eine Sachsituation mit beschreibendem Text, die hier fehlt.
+- #8 "Division mit Kontrolle -- Grosse Zahlen": Typ ist `eingabe` mit zusaetzlichem `kontext`-Feld. Kein Problem, aber das `kontext`-Feld ist bei `eingabe` normalerweise nicht vorhanden.
 
-### Antwortformat
+### Loesung vs. parsed-Antwort -- Widerspruch
 
-- **#13** "Halbschriftlich multiplizieren — Übung": In `parsed.teilaufgaben[].schritte[].antwort` steht `"41 · 23 = 943"` statt nur `"943"`. Das ist inkonsequent: Alle anderen `schritt`-Aufgaben im gleichen File (z.B. #11, #12, #17–19) haben nur die Zahl als Antwort. Ein Validator kann hier die Eingabe eines Kindes nicht eindeutig gegen eine Gleichungsdarstellung prüfen.
-
-- **#15** "Verdoppeln und Halbieren — Justus' Trick": Typ ist `eingabe`, aber `parsed.items[].antwort` enthält Rechenketten wie `"25 · 24 = 50 · 12 = 100 · 6 = 600"` statt nur `"600"`. Ein Kind, das im Eingabefeld eine Zahl eingibt, kann nie exakt diese Kette produzieren. Wenn der Trick-Weg gezeigt werden soll, passt `schritt` oder `textaufgabe` besser — oder die Antwort muss auf `"600"` / `"900"` / `"900"` reduziert werden.
-
-### Notation / Formulierung
-
-- **#26** "Fehlende Ziffern ergänzen — Detektivarbeit": Die Aufgabenstellung schreibt `"___43___ · 2 = 4.862"` mit drei Unterstrichen auf jeder Seite. Das signalisiert visuell drei Lücken — gemeint sind aber nur zwei fehlende Ziffern (Tausender und Einer von 2.431). Konsistente Notation wäre `"_43_ · 2 = 4.862"` (ein Unterstrich pro Lücke). Gleiches Problem in Teilaufgabe b (`"6__7 · 4 = 24.828"` — hier stimmt die Anzahl der Unterstriche mit den Lücken überein, also ist b konsistent, nur a ist betroffen).
-
----
-
-## Notizen ohne Handlungsbedarf
-
-- **#5** (Wahr-Falsch 24.000), **#23** (Fehlersuche): Die absichtlich falschen Ergebnisse in der Aufgabenstellung sind korrekt als falsch markiert; die in den `erklaerung`-Feldern genannten richtigen Werte wurden alle gegengerechnet und stimmen.
-- **#20** (Rechenschritte zuordnen 1.728 · 2 = 3.456): Alle vier Zuordnungen a→B, b→C, c→A, d→D sind inhaltlich und rechnerisch korrekt.
-- **#34** (Ziffernkarten-Rätsel): 231 · 45 = 10.395 ✓ (Ziffern 1–5 je einmal), 534 · 12 = 6.408 ✓ (Ziffern 1–5 je einmal).
-- **Tipps-Qualität**: Alle geprüften Aufgaben folgen dem Impuls → Denkanstoß → Teilantwort → vollständige Lösung-Muster. Tipp 4 entspricht jeweils dem `loesungsweg`. Sprache ist durchgehend kindgerecht und ermutigend.
+- #24 "Tauschaufgaben -- Welche Reihenfolge ist einfacher?": Die `loesung`-Prosa beginnt mit "22 x 318 ist einfacher", aber die `parsed.items[0].antwort` ist "A" (318 x 22). Der spaetere Text in `loesung` bestaetigt korrekt, dass die groessere Zahl vorne stehen soll (weniger Teilzeilen), also ist parsed-Antwort "A" richtig. Aber der erste Satz in `loesung` ist irrefuehrend und sollte korrigiert werden.

@@ -7,8 +7,9 @@ import { Header } from '@/components/layout/Header';
 import { StufeKarte } from '@/components/ui/StufeKarte';
 import { useStufenFortschritt } from '@/hooks/useStufenFortschritt';
 import { AvatarPreview, parseAvatar } from '@/components/avatar/AvatarPreview';
-import { KATEGORIEN } from '@/aufgaben/stageMapping';
+import { KATEGORIEN, getStageMeta } from '@/aufgaben/stageMapping';
 import { useAdaptiv } from '@/hooks/useAdaptiv';
+import { db } from '@/db/schema';
 import type { Stage, StageFarbe } from '@/stages/types';
 
 const FARBE_HEADER: Record<StageFarbe, string> = {
@@ -37,7 +38,13 @@ function gruppiereStages(stages: Stage[]): Gruppe[] {
   }
 
   for (const kat of KATEGORIEN) {
-    const matching = bankStages.filter((s) => s.sub.includes(kat.titel));
+    const matching = bankStages
+      .filter((s) => s.sub.includes(kat.titel))
+      .sort((a, b) => {
+        const sa = getStageMeta(a.id.replace('bank-', ''))?.sortierung ?? 999;
+        const sb = getStageMeta(b.id.replace('bank-', ''))?.sortierung ?? 999;
+        return sa - sb;
+      });
     if (matching.length > 0) {
       gruppen.push({ id: kat.id, titel: kat.titel, farbe: kat.farbe, stages: matching });
     }
@@ -59,8 +66,10 @@ export function Uebersicht() {
   const profileAvatar = useProfileStore((s) => s.activeProfileAvatar);
   const { empfohleneStages, lernmodus } = useAdaptiv();
   const [stagesReady, setStagesReady] = useState(STAGES.length);
-  const [openId, setOpenId] = useState<string | null>('grund');
+  const [openId, setOpenId] = useState<string | null>(null);
   const [suche, setSuche] = useState('');
+
+  const gruppen = useMemo(() => gruppiereStages(STAGES), [stagesReady]);
 
   useEffect(() => {
     if (profileId == null) {
@@ -70,10 +79,30 @@ export function Uebersicht() {
     const interval = setInterval(() => {
       if (STAGES.length !== stagesReady) setStagesReady(STAGES.length);
     }, 500);
-    return () => clearInterval(interval);
-  }, [profileId, navigate, stagesReady]);
 
-  const gruppen = useMemo(() => gruppiereStages(STAGES), [stagesReady]);
+    // Zuletzt geübtes Kapitel öffnen
+    if (openId === null) {
+      db.antworten
+        .filter((e) => e.profileId === profileId)
+        .toArray()
+        .then((entries) => {
+          if (entries.length === 0) {
+            setOpenId('grund');
+            return;
+          }
+          const letzte = entries.sort((a, b) => b.erstelltAm - a.erstelltAm)[0];
+          const stage = STAGES.find((s) => s.id === letzte.stufeId);
+          if (stage) {
+            const gruppe = gruppen.find((g) => g.stages.some((s) => s.id === stage.id));
+            setOpenId(gruppe?.id ?? 'grund');
+          } else {
+            setOpenId('grund');
+          }
+        });
+    }
+
+    return () => clearInterval(interval);
+  }, [profileId, navigate, stagesReady, openId, gruppen]);
 
   const gefilterteGruppen = useMemo(() => {
     const q = suche.trim().toLowerCase();

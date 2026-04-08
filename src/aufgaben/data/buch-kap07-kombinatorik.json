@@ -161,7 +161,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Wie viele Möglichkeiten gibt es?",
+          "frage": "Wie viele Möglichkeiten gibt es, wenn sich fünf Freunde in einer Reihe für ein Foto aufstellen wollen?",
           "antwort": "120"
         }
       ]
@@ -249,7 +249,7 @@
     "kapitel": "buch-original",
     "stageId": "kombinatorik-original",
     "digital": "voll",
-    "aufgabenstellung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es zwei der Ziffern 2, 4, 7 oder 8 sind. Jede Ziffer kommt höchstens einmal vor.\n\nWie viele passende Kombinationen gibt es?",
+    "aufgabenstellung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es die Ziffern 2, 4, 7 oder 8 sind. Jede Ziffer kommt höchstens einmal vor.\n\nNotiere alle passenden Kombinationen.",
     "loesung": "12 Kombinationen.\n\n0624, 0627, 0628, 0642, 0647, 0648, 0672, 0674, 0678, 0682, 0684, 0687",
     "loesungsweg": "Die ersten beiden Ziffern stehen fest: 0, 6.\nFür die Stellen 3 und 4 wählen wir 2 aus den 4 Ziffern {2, 4, 7, 8} — die Reihenfolge zählt!\n\nFür Stelle 3: 4 Möglichkeiten (2, 4, 7 oder 8).\nFür Stelle 4: 3 Möglichkeiten (eine ist schon vergeben).\n4 × 3 = 12\n\nAlle Codes:\n0624, 0627, 0628,\n0642, 0647, 0648,\n0672, 0674, 0678,\n0682, 0684, 0687",
     "tipps": [
@@ -261,11 +261,11 @@
     "didaktischerHinweis": "Fredo 4, S. 73. Neue Schwierigkeit: Es werden 2 aus 4 Ziffern gewählt (nicht alle verwendet!). Das ist eine Variation — P(4,2) = 12. Kinder müssen erkennen, dass die Reihenfolge hier zählt (0624 ist nicht dasselbe wie 0642).",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es zwei der Ziffern 2, 4, 7 oder 8 sind.",
+      "anweisung": "Der Code für Jettes Zahlenschloss beginnt mit 0, 6. Die anderen beiden Ziffern hat Jette vergessen. Sie weiß noch, dass es die Ziffern 2, 4, 7 oder 8 sind. Jede Ziffer kommt höchstens einmal vor.",
       "items": [
         {
-          "label": "1",
-          "frage": "Wie viele passende Kombinationen gibt es?",
+          "label": "a",
+          "frage": "Notiere alle passenden Kombinationen. Wie viele sind es?",
           "antwort": "12"
         }
       ]
@@ -296,7 +296,7 @@
       "items": [
         {
           "label": "1",
-          "frage": "Wie viele vierstellige Zahlen kannst du bilden?",
+          "frage": "Wie viele vierstellige Zahlen kannst du aus diesen Ziffern bilden? 3, 4, 5, 6, 7",
           "antwort": "120"
         }
       ]

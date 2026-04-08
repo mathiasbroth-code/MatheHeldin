@@ -602,17 +602,17 @@
         {
           "label": "a",
           "frage": "63.407",
-          "antwort": "63.407 = 60.000 + 3.000 + 400 + 7"
+          "antwort": "60.000 + 3.000 + 400 + 7"
         },
         {
           "label": "b",
           "frage": "185.230",
-          "antwort": "185.230 = 100.000 + 80.000 + 5.000 + 200 + 30"
+          "antwort": "100.000 + 80.000 + 5.000 + 200 + 30"
         },
         {
           "label": "c",
           "frage": "712.009",
-          "antwort": "712.009 = 700.000 + 10.000 + 2.000 + 9"
+          "antwort": "700.000 + 10.000 + 2.000 + 9"
         }
       ]
     }
@@ -1058,8 +1058,33 @@
       "items": [
         {
           "label": "a",
-          "frage": "222.222 + 6",
+          "frage": "222.228 + 54 = ?",
           "antwort": "222.228"
+        },
+        {
+          "label": "b",
+          "frage": "222.282 + 54 = ?",
+          "antwort": "222.282"
+        },
+        {
+          "label": "c",
+          "frage": "222.822 + 54 = ?",
+          "antwort": "222.822"
+        },
+        {
+          "label": "d",
+          "frage": "228.222 + 54 = ?",
+          "antwort": "228.222"
+        },
+        {
+          "label": "e",
+          "frage": "282.222 + 54 = ?",
+          "antwort": "282.222"
+        },
+        {
+          "label": "f",
+          "frage": "822.222 + 54 = ?",
+          "antwort": "822.222"
         }
       ]
     }
@@ -1401,7 +1426,7 @@
     }
   },
   {
-    "titel": "Anzahl schaetzen — Maiskörner in der Packung",
+    "titel": "Anzahl schaetzen — Reiskörner in der Packung",
     "typ": "eingabe",
     "thema": "Große Anzahlen schaetzen",
     "schwierigkeit": "grün",
@@ -1719,17 +1744,37 @@
     "didaktischerHinweis": "Verschiedene Ausschnitte des Zahlenstrahls mit unterschiedlichen Skalierungen trainieren die flexible Anpassung der Lesestrategie. Das Kind muss jedes Mal neu die Schrittweite bestimmen.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Welche Zahlen sind es? Der Zahlenstrahl zeigt verschiedene Ausschnitte.",
+      "anweisung": "Lies die Zahlen am Zahlenstrahl ab.",
       "items": [
         {
-          "label": "a",
-          "frage": "Zahlenstrahl von 740.000 bis 840.000 (Zehntausenderstrich alle 10.000):",
-          "antwort": "A = 755.000, B = 795.000, C = 820.000"
+          "label": "A",
+          "frage": "Welche Zahl zeigt A?",
+          "antwort": "755.000"
         },
         {
-          "label": "b",
-          "frage": "Zahlenstrahl von 432.000 bis 433.000 (Hunderterstrich alle 100):",
-          "antwort": "D = 432.300, E = 432.700, F = 432.900"
+          "label": "B",
+          "frage": "Welche Zahl zeigt B?",
+          "antwort": "795.000"
+        },
+        {
+          "label": "C",
+          "frage": "Welche Zahl zeigt C?",
+          "antwort": "820.000"
+        },
+        {
+          "label": "D",
+          "frage": "Welche Zahl zeigt D?",
+          "antwort": "432.300"
+        },
+        {
+          "label": "E",
+          "frage": "Welche Zahl zeigt E?",
+          "antwort": "432.700"
+        },
+        {
+          "label": "F",
+          "frage": "Welche Zahl zeigt F?",
+          "antwort": "432.900"
         }
       ]
     }

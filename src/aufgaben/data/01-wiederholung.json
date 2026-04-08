@@ -60,8 +60,8 @@
     "kapitel": "01-wiederholung",
     "stageId": "bis2000lesen",
     "digital": "voll",
-    "aufgabenstellung": "Zerlege in Tausenderzahlen, Hunderterzahlen, Zehnerzahlen und Einerzahlen.\n\na) 1.482, 1.237, 1.654, 1.819\nb) 1.573, 1.346, 1.908, 1.125",
-    "loesung": "a) 1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9\nb) 1.000 + 500 + 70 + 3 / 1.000 + 300 + 40 + 6 / 1.000 + 900 + 0 + 8 / 1.000 + 100 + 20 + 5",
+    "aufgabenstellung": "Zerlege in Tausenderzahlen, Hunderterzahlen, Zehnerzahlen und Einerzahlen.\n\na) Zerlege 1.482\nb) Zerlege 1.237\nc) Zerlege 1.654\nd) Zerlege 1.819\ne) Zerlege 1.573\nf) Zerlege 1.346\ng) Zerlege 1.908\nh) Zerlege 1.125",
+    "loesung": "a) 1.000 + 400 + 80 + 2\nb) 1.000 + 200 + 30 + 7\nc) 1.000 + 600 + 50 + 4\nd) 1.000 + 800 + 10 + 9\ne) 1.000 + 500 + 70 + 3\nf) 1.000 + 300 + 40 + 6\ng) 1.000 + 900 + 0 + 8\nh) 1.000 + 100 + 20 + 5",
     "loesungsweg": "Jede Ziffer in der Zahl hat einen Wert, der von ihrer Position abhängt:\n- Die Tausenderstelle gibt an, wie viele Tausender in der Zahl stecken\n- Die Hunderterstelle gibt die Hunderter an\n- usw.\n\nBeispiel: 1.482 → Die 1 steht an der Tausenderstelle (= 1.000), die 4 an der Hunderterstelle (= 400), die 8 an der Zehnerstelle (= 80), die 2 an der Einerstelle (= 2).",
     "tipps": [
       "Stell dir die Zahl mit Dienes-Blöcken vor: Wie viele große Tausenderwürfel siehst du? Wie viele Hunderterplatten? Wie viele Zehnerstangen? Wie viele einzelne Einerwürfel?",
@@ -82,13 +82,43 @@
       "items": [
         {
           "label": "a",
-          "frage": "1.482, 1.237, 1.654, 1.819",
-          "antwort": "1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9"
+          "frage": "Zerlege 1.482",
+          "antwort": "1.000 + 400 + 80 + 2"
         },
         {
           "label": "b",
-          "frage": "1.573, 1.346, 1.908, 1.125",
-          "antwort": "1.000 + 500 + 70 + 3 / 1.000 + 300 + 40 + 6 / 1.000 + 900 + 0 + 8 / 1.000 + 100 + 20 + 5"
+          "frage": "Zerlege 1.237",
+          "antwort": "1.000 + 200 + 30 + 7"
+        },
+        {
+          "label": "c",
+          "frage": "Zerlege 1.654",
+          "antwort": "1.000 + 600 + 50 + 4"
+        },
+        {
+          "label": "d",
+          "frage": "Zerlege 1.819",
+          "antwort": "1.000 + 800 + 10 + 9"
+        },
+        {
+          "label": "e",
+          "frage": "Zerlege 1.573",
+          "antwort": "1.000 + 500 + 70 + 3"
+        },
+        {
+          "label": "f",
+          "frage": "Zerlege 1.346",
+          "antwort": "1.000 + 300 + 40 + 6"
+        },
+        {
+          "label": "g",
+          "frage": "Zerlege 1.908",
+          "antwort": "1.000 + 900 + 0 + 8"
+        },
+        {
+          "label": "h",
+          "frage": "Zerlege 1.125",
+          "antwort": "1.000 + 100 + 20 + 5"
         }
       ]
     }
@@ -575,17 +605,17 @@
         {
           "label": "a",
           "frage": "1.463 — Was passiert, wenn du den Hunderter und den Zehner vertauschst?",
-          "antwort": "1.463 → H und Z tauschen: H=6, Z=4 → 1.643"
+          "antwort": "1.643"
         },
         {
           "label": "b",
           "frage": "1.825 — Was passiert, wenn du den Einer verdoppelst?",
-          "antwort": "1.825 → E verdoppeln: 5 × 2 = 10, aber E kann nur 0-9 sein! Also E=0 und 1 Zehner Übertrag → 1.830"
+          "antwort": "1.830"
         },
         {
           "label": "c",
           "frage": "1.480 — Was passiert, wenn du den Hunderter halbierst und den Zehner verdreifachst?",
-          "antwort": "1.480 → H halbieren: 4 : 2 = 2. Z verdreifachen: 8 × 3 = 24 → Z kann nur 0-9 sein! Also Z=4 und 2 Hunderter Übertrag. H war 2 (nach dem Halbieren), plus 2 Übertrag = 4. Ergebnis: 1.440"
+          "antwort": "1.440"
         }
       ]
     }
@@ -651,7 +681,7 @@
     "kapitel": "01-wiederholung",
     "stageId": "rechnen-bis-2000",
     "digital": "voll",
-    "aufgabenstellung": "Rechne. Vergleiche die Aufgaben miteinander.\n\na) 500 + 400 =\n   1.500 + 400 =\n\nb) 300 + 600 =\n   1.300 + 600 =\n\nc) 800 - 300 =\n   1.800 - 300 =\n\nd) 700 - 500 =\n   1.700 - 500 =",
+    "aufgabenstellung": "Rechne. Achte auf das Muster — was verändert sich?\n\na) 500 + 400 =\n   1.500 + 400 =\n\nb) 300 + 600 =\n   1.300 + 600 =\n\nc) 800 - 300 =\n   1.800 - 300 =\n\nd) 700 - 500 =\n   1.700 - 500 =",
     "loesung": "a) 900 / 1.900\nb) 900 / 1.900\nc) 500 / 1.500\nd) 200 / 1.200",
     "loesungsweg": "Die Aufgaben sind verwandt: In der zweiten Zeile kommt jeweils 1.000 dazu. Die Hunderter-Rechnung bleibt gleich!\n- a) 500 + 400 = 900 → 1.500 + 400 = 1.000 + 900 = 1.900\n- b) 300 + 600 = 900 → 1.300 + 600 = 1.000 + 900 = 1.900\n- c) 800 - 300 = 500 → 1.800 - 300 = 1.000 + 500 = 1.500\n- d) 700 - 500 = 200 → 1.700 - 500 = 1.000 + 200 = 1.200",
     "tipps": [
@@ -669,7 +699,7 @@
     "didaktischerHinweis": "Rechenpäckchen trainieren das Erkennen von Mustern. Das Kind soll erkennen, dass der Tausender unverändert bleibt und nur \"mitgeschleppt\" wird. Das fördert effizientes Rechnen statt sturem Nachrechnen.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Rechne. Vergleiche die Aufgaben miteinander.",
+      "anweisung": "Rechne. Achte auf das Muster — was verändert sich?",
       "items": [
         {
           "label": "a",
@@ -2264,9 +2294,14 @@
       "kontext": "Lina, Tom und Mia gehen gemeinsam ins Puppentheater. Ein Sitzplatz kostet doppelt so viel wie ein Stehplatz. Zusammen haben sie 35 Euro für die Karten bezahlt.\n\nLina und Tom sitzen, Mia steht.",
       "items": [
         {
-          "label": "1",
-          "frage": "Wie viel Euro kostet ein Sitzplatz, wie viel ein Stehplatz?",
-          "antwort": "Stehplatz: 7 Euro, Sitzplatz: 14 Euro."
+          "label": "a",
+          "frage": "Was kostet ein Stehplatz?",
+          "antwort": "7"
+        },
+        {
+          "label": "b",
+          "frage": "Was kostet ein Sitzplatz?",
+          "antwort": "14"
         }
       ]
     }
@@ -2421,7 +2456,12 @@
       "kontext": "Sophie kauft sich jede Woche eine Zeitschrift. Diese kostet 2 Euro.\nWie viel Geld gibt sie in einem Jahr für die Zeitschriften aus?",
       "items": [
         {
-          "label": "1",
+          "label": "a",
+          "frage": "Wie viel gibt Sophie in einem Jahr aus, wenn sie jede Woche eine Zeitschrift kauft?",
+          "antwort": "104"
+        },
+        {
+          "label": "b",
           "frage": "Vergleiche: Was ändert sich, wenn Sophie die Zeitschrift nur alle zwei Wochen kauft?",
           "antwort": "52"
         }

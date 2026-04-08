@@ -1,160 +1,43 @@
 # Audit: 01-wiederholung.json
-Geprüft: 47 Aufgaben (ohne Platzhalter — keine Platzhalter in dieser Datei)
-
----
+Geprueft: 50 Aufgaben (ohne Platzhalter -- keine Platzhalter in dieser Datei)
 
 ## Fehler
 
-### #7 "Welche Zahlen können es sein? — Offene Zahlenrätsel"
-**parsed.items[a].frage unvollständig — fehlende Schranken-Bedingung**
+- #11 "Stellenwerttafel -- Zahlen veraendern": **parsed.items[].antwort enthaelt Text mit Pfeil-Zeichen, normalizeZahl extrahiert falsche Zahl.** Die Antworten lauten z.B. `"1.463 -> H und Z tauschen: H=6, Z=4 -> 1.643"`. Die Funktion `normalizeZahl` entfernt alles nach dem ersten `->`, sodass `"1.463"` uebrig bleibt -- statt der korrekten Ergebniszahl `1.643`. Dadurch werden alle drei Teilaufgaben (a=1.643, b=1.830, c=1.440) immer als falsch gewertet, egal was das Kind eingibt. **Fix:** Antworten in parsed.items auf reine Zahlen aendern: a) `"1.643"`, b) `"1.830"`, c) `"1.440"`.
 
-Die `parsed.items[0].frage` enthält nur:
-> "Die Zahl ist gerade. Sie hat doppelt so viele Hunderter wie Zehner."
+- #40 "Theaterbesuch -- Sitzplatz und Haengeplatz": **parsed.items[0].antwort enthaelt zwei Werte als Fliesstext, normalizeZahl extrahiert nur den ersten.** Die Antwort `"Stehplatz: 7 Euro, Sitzplatz: 14 Euro."` hat nur 2 Komma-Teile (nicht >2), wird also nicht als Liste behandelt. `normalizeZahl` extrahiert die erste Zahl: `"7"`. Ein Kind, das `"14"` fuer den Sitzplatz eingibt, wird als falsch gewertet. **Fix:** Entweder in zwei separate Items aufteilen (je eine Frage fuer Steh- und Sitzplatz) oder antwort auf `"7, 14"` kuerzen -- aber dann braucht es mindestens 3 Komma-Teile fuer die Listenlogik. Besser: Zwei Items.
 
-Die entscheidende Schranke aus der Aufgabenstellung fehlt:
-> "Die Zahl ist größer als 1.200 und kleiner als 1.400."
-
-Ohne diese Schranke wären auch Z=2, H=4 → Zahlen wie 1.420, 1.422, 1.424, 1.426, 1.428 gültig — die Lösungsmenge wäre falsch. Die Frage in `parsed` ist damit unvollständig und würde die Aufgabe mathematisch falsch begrenzen, sobald die App nur auf `parsed.items[].frage` zurückgreift.
-
-**Fix:** Schranke in `parsed.items[0].frage` ergänzen: "Die Zahl ist gerade. Sie hat doppelt so viele Hunderter wie Zehner. Die Zahl ist größer als 1.200 und kleiner als 1.400."
-
----
-
-### #44 "Zeitschriften kaufen" — parsed.items[1].antwort beantwortet die falsche Frage
-**Antwort passt nicht zur gestellten Frage**
-
-`parsed.items[1].frage`:
-> "Vergleiche: Was ändert sich, wenn Sophie die Zeitschrift nur alle zwei Wochen kauft?"
-
-`parsed.items[1].antwort`:
-> "Jede Woche: 52 Wochen · 2 Euro = 104 Euro pro Jahr."
-
-Die Antwort bezieht sich auf die erste (nicht explizit im parsed gestellte) Frage — wie viel bei wöchentlichem Kauf. Sie beantwortet **nicht** die tatsächlich gestellte Frage nach dem Vergleich. Die korrekte Antwort auf die Vergleichsfrage wäre: "Alle zwei Wochen: 26 × 2 = 52 Euro pro Jahr." oder kompakt `"52"`.
-
-**Fix:** `parsed.items[1].antwort` auf `"52"` (Euro/Jahr bei 2-wöchentlichem Kauf) korrigieren.
-
----
+- #44 "Zeitschriften kaufen": **Hauptfrage fehlt in parsed.items, einziges Item beantwortet Folgefrage.** Die Aufgabenstellung fragt zuerst "Wie viel Geld gibt sie in einem Jahr aus?" (Antwort: 104 Euro), dann "Was aendert sich bei alle zwei Wochen?" (Antwort: 52 Euro). In parsed.items existiert nur ein Item mit antwort `"52"` fuer die Folgefrage. Die Hauptfrage (104 Euro) ist nicht als Item vorhanden und kann nicht bearbeitet werden. **Fix:** Zwei Items anlegen -- Item 1: "Wie viel gibt Sophie in einem Jahr aus?" mit antwort `"104"`, Item 2: die bestehende Vergleichsfrage.
 
 ## Warnungen
 
-### #2 "Zahlen zerlegen — Tausenderzahlen in Stellenwerte"
-**Antwortformat nicht eingebbar**
+- #1 "Zahlen zerlegen -- Tausenderzahlen in Stellenwerte": Antwortformat `"1.000 + 400 + 80 + 2"` ist fuer typ=eingabe schwer eingebbar. normalizeZahl wuerde nur die letzte Zahl nach `=` oder die erste Zahl extrahieren -- nicht den vollstaendigen Ausdruck. Ein Kind muesste den exakten String tippen. Besser waere typ=schritt mit einzelnen Stellenwert-Eingaben oder Akzeptanz des reinen Zahlenwerts (z.B. `"1482"`).
 
-`parsed.items[].antwort` enthält Ausdrücke wie:
-> "1.000 + 400 + 80 + 2 / 1.000 + 200 + 30 + 7 / 1.000 + 600 + 50 + 4 / 1.000 + 800 + 10 + 9"
+- #6 "Welche Zahlen koennen es sein? -- Offene Zahlenraetsel": parsed.items[0].frage enthaelt die Schranken-Bedingung ("groesser als 1.200 und kleiner als 1.400"), aber die Antwort `"Moegliche Zahlen: 1.210, 1.212, 1.214, 1.216, 1.218"` ist als Fliesstext formuliert statt als reine Komma-Liste. normalizeZahl wuerde `"1210"` extrahieren (erste Zahl). Fuer eine offene Aufgabe mit vielen Loesungen ist typ=textaufgabe passend, aber die automatische Auswertung wird scheitern.
 
-Vier Zerlegungen in einem Feld, getrennt durch `/`. Ein Kind kann das so nicht tippen. `typ=eingabe` passt dafür nicht — die Aufgabe braucht entweder mehrere separate Items (eines pro Zahl) oder den Typ `schritt`. Derzeit würde die Auswertung jeden Tipp als falsch markieren.
+- #8 "Plaettchen dazulegen -- vierstellige Zahlen" / #9 "Plaettchen wegnehmen" / #10 "Plaettchen rueckwaerts": parsed.items[].antwort enthaelt Komma-Listen wie `"705, 714, 804, 1.704"`. Die Listenlogik (isListAnswer) greift hier korrekt (>2 Komma-Teile). Mathematisch korrekt. Aber: Das Kind muss alle 3-4 Zahlen in ein Feld tippen -- fuer 9-Jaehrige potenziell ueberfordemd als Eingabeformat.
 
----
+- #12 "Hunderter addieren und subtrahieren": parsed.items[].antwort enthaelt `"7 H = 700"`. normalizeZahl extrahiert korrekt `"700"` (nach `=`). Funktioniert technisch, aber die angezeigte Loesung `"7 H = 700"` koennte ein Kind verwirren, das nur `"700"` getippt hat.
 
-### #9 "Plättchen dazulegen — vierstellige Zahlen" / #10 "Plättchen wegnehmen" / #11 "Plättchen rückwärts"
-**Antwortformat enthält Erklärungstext statt reiner Werte**
+- #26 "Schriftlich subtrahieren -- Ergebnis pruefen": parsed.teilaufgaben[].schritte[].antwort enthaelt Probe-Text wie `"903 - 467 = 436. Probe: 436 + 467 = 903"`. normalizeZahl entfernt `. Probe:...` und extrahiert `"436"` korrekt. Funktioniert technisch. Aber Tipp 4 (loesungsweg) ist schwer lesbar -- enthaelt Selbstkorrekturen und unklare Notation.
 
-`parsed.items[].antwort` enthält z.B.:
-> "704: → 705, 714, 804, 1.704"
-> "1.870: → 1.869 geht nicht (E=0, kein Plättchen zum Wegnehmen!), 1.860, 1.770, 870"
+- #28 "Halbschriftlich multiplizieren -- selbststaendig zerlegen": parsed.teilaufgaben[].schritte[].antwort enthaelt vollstaendigen Rechenweg `"4 . 83 = 4 . 80 + 4 . 3 = 320 + 12 = 332"`. normalizeZahl extrahiert `"332"` korrekt (letzte Zahl nach `=`). Funktioniert technisch.
 
-Diese Antworten sind Erklärungstexte mit Pfeilen, Klammern und Begründungen. Für `typ=eingabe` ist das nicht maschinell auswertbar und für ein Kind nicht eingabetauglich. Die Antworten sollten entweder reine Komma-Listen sein (`"705, 714, 804, 1.704"`) oder der Typ auf `textaufgabe` geändert werden.
+- #39 "Taschen packen -- Verhaeltnisaufgabe": parsed.items[0].antwort `"Linas Rucksack = 6 kg, Toms Rucksack = 12 kg, Mias Rucksack = 12 kg."` wird als Liste behandelt (3 Komma-Teile). normalizeZahl extrahiert pro Teil: 6, 12, 12. Ein Kind muesste `"6, 12, 12"` eingeben -- es ist nicht klar, welches Gewicht zu welcher Person gehoert. Besser: Drei separate Items mit je einer Person.
 
----
+- #41 "Rechengeschichte zu Ende schreiben": parsed.items[0].antwort ist `"Frage: Wie viele Seiten muss Lukas noch lesen?"` -- ein Freitext, der maschinell schwer auswertbar ist. Fuer typ=textaufgabe akzeptabel, aber kein Kind wird exakt diesen Wortlaut tippen. Die numerische Antwort (213) fehlt als separates Item.
 
-### #11 "Plättchen rückwärts" — Aufgabe a) Begründung irreführend
-**Formulierungsfehler in antwort und loesung**
+- #46 "Fehlende Angaben ergaenzen" / #47 "Rechengeschichte veraendern" / #49 "Alter-Raetsel -- fehlende Angaben": Offene kreative Aufgaben mit Beispiel-Antworten als Fliesstext. Maschinelle Auswertung unmoeglich. Fuer typ=textaufgabe didaktisch sinnvoll, aber die App muesste diese als "Zeige Muster-Loesung und lass Kind selbst bewerten" behandeln.
 
-Die Antwort für a) (Ausgangszahl 825) lautet:
-> "825: → 824, 815, 725 (T kann nicht, da T=0 → vorher wäre T negativ)"
+## Mathematische Korrektheit
 
-Die Begründung "vorher wäre T negativ" ist sprachlich unklar/falsch. Gemeint ist: 825 − 1.000 = −175, also eine negative Zahl. Für einen 4.-Klässler ist die korrekte Erklärung: "Kein Tausender-Plättchen wurde dazugelegt, weil nach dem Wegnehmen keine negative Zahl entstehen darf." Mathematisch sind die drei Ergebnisse (824, 815, 725) korrekt.
+Alle 50 Aufgaben nachgerechnet -- keine mathematischen Fehler gefunden. Stichproben:
+- Schriftlich addieren: 463+215=678, 328+147=475, 572+389=961, 637+285=922, 194+468=662, 756+178=934, 347+526+89=962, 268+45+319=632, 73+415+284=772 -- alle korrekt
+- Schriftlich subtrahieren: 789-253=536, 723-158=565, 841-367=474, 612-285=327, 1547-382=1165, 1724-659=1065, 1830-94=1736, 903-467=436, 1502-738=764 -- alle korrekt
+- Fehler finden: 624+318=942 (richtig), 457+186=643 nicht 634 (richtig erkannt), 239+584=823 nicht 832 (richtig erkannt), 856-293=563 nicht 536, 974-618=356 nicht 365, 1435-278=1157 nicht 1175 -- alle Fehlererkennung korrekt
+- Multiplikation: 5*47=235, 8*63=504, 4*83=332, 6*57=342, 3*94=282, 7*46=322, 4*213=852, 3*152=456, 3*187=561, 5*246=1230, 4*398=1592, 6*275=1650 -- alle korrekt
+- Sachaufgaben: Hotelkosten, Gutschein-Division, Verhaeltnisaufgaben -- alle korrekt
 
----
+## Tipps-Qualitaet
 
-### #12 "Stellenwerttafel — Zahlen verändern" — Aufgabe c) zu komplex für Grundschule
-**Didaktische Warnung: Übertrag-Konzept über Stellenwertgrenzen für 4. Klasse grenzwertig**
-
-Bei c) (1.480 → Hunderter halbieren UND Zehner verdreifachen gleichzeitig) entsteht ein Übertrag von der Zehner- in die Hunderterstelle, der *gleichzeitig* mit der Halbierung der Hunderter zusammen gerechnet werden muss. Die Lösung (1.440) ist mathematisch korrekt, aber die kombinierte Operation (halbieren + verdreifachen mit Übertrag) übersteigt in dieser Kombination das Niveau einer typischen 4.-Klasse-Stellenwert-Aufgabe. Eine Warnung ist angebracht, kein Fehler.
-
----
-
-### #27 "Schriftlich subtrahieren — Ergebnis prüfen" — Lösungsweg unübersichtlich
-**Loesungsweg für b) schwer lesbar / enthält Selbstkorrektur**
-
-Der `loesungsweg` für Aufgabe b) (1.502 − 738) enthält Mid-Stream-Korrekturen:
-> "Z: 9-3=6 (0-1=... borge von H: 5→4, 0→10, 10-1=9, 9→...)"
-
-Das ist kein klarer Rechenweg, sondern ein Entwurf mit Durchstreichungen. Ein Kind, das auf Tipp 4 klickt, sieht verwirrenden Text. Mathematisch richtig (Ergebnis 764 ✓), aber die Erklärung sollte überarbeitet werden.
-
----
-
-### #35 "Hotelrechnung — Grundaufgabe" — antwort in parsed enthält Rechenweg statt Wert
-**Antwortformat für Eingabe nicht geeignet**
-
-`parsed.items[0].antwort`:
-> "1 Woche = 7 Nächte: 7 · 19,00 = 133,00 Euro (Übernachtung) + 7 · 3,50 = 24,50 Euro (Frühstück) = 157,50 Euro pro Person."
-
-Das ist ein vollständiger Lösungsweg als Antwort. Ein Kind kann das nicht so eingeben. Die Antwort sollte `"157,50"` sein (mit `typ=textaufgabe` und entsprechend freier Antwort). Derzeit würde jede Eingabe eines Kindes als falsch gewertet, da kein String-Match möglich ist.
-
----
-
-### #36 "Hotelrechnung — anderes Hotel" / #37 "Hotelrechnung mit Ausnahmen"
-**Gleiches Antwortformat-Problem wie #35**
-
-`parsed.items[].antwort` enthält Rechenwege statt reine Werte. Für `typ=textaufgabe` sollten die numerischen Ergebnisse als saubere Werte stehen: `"108"`, `"432"` etc. (wie in #37 korrekt für items a1–b umgesetzt — dort stehen tatsächlich reine Zahlen, Ausnahme ist items[0].antwort in #35 und #36).
-
-**Hinweis:** In #37 sind die parsed-Antworten korrekt als reine Zahlen (`"135"`, `"135"`, `"110"`, `"108"`, `"488"`). Das ist das richtige Muster — #35 und #36 sollten analog korrigiert werden.
-
----
-
-## Mathematische Korrektheit — Zusammenfassung
-
-Alle nachgerechneten Ergebnisse sind korrekt:
-
-| # | Titel | Ergebnis |
-|---|-------|----------|
-| 1 | Welche Zahl ist es? | ✓ (1.253, 1.400, 361, 1.007) |
-| 2 | Zahlen zerlegen | ✓ (alle Zerlegungen korrekt) |
-| 3 | Zahlwörter lesen | ✓ (1.417, 1.470, 1.017, 1.070, 1.007) |
-| 4 | Zahlenrätsel Bedingungen | ✓ (alle Lösungsmengen geprüft) |
-| 5 | Zahlenrätsel Verdoppeln | ✓ (1.224, 1.248) |
-| 6 | Dienes-Blöcke | ✓ (1.357, 1.042, 1.608, 1.891) |
-| 7 | Offene Zahlenrätsel | ✓ (Mathe korrekt, parsed-Fehler siehe oben) |
-| 8 | Plättchen 350 | ✓ (351, 360, 450, 1.350) |
-| 9 | Plättchen vierstellig | ✓ |
-| 10 | Plättchen wegnehmen | ✓ |
-| 11 | Plättchen rückwärts | ✓ (Ergebnisse; Begründung s. Warnung) |
-| 12 | Stellenwerttafel verändern | ✓ (1.643, 1.830, 1.440) |
-| 13 | Hunderter addieren/subtrahieren | ✓ |
-| 14 | Rechenpäckchen verwandt | ✓ |
-| 15 | Rechenpäckchen schrittweise | ✓ |
-| 16 | Veränderungen erkennen Add. | ✓ |
-| 17 | Subtrahieren mit Veränderungen | ✓ |
-| 18 | Schriftlich addieren dreistellig | ✓ (678, 475, 961) |
-| 19 | Schriftlich addieren Übertrag | ✓ (922, 662, 934) |
-| 20 | Schriftlich addieren drei Summanden | ✓ (962, 632, 772) |
-| 21 | Fehler finden addieren | ✓ (942 ✓, 643≠634 ✓, 823≠832 ✓) |
-| 22 | Schriftlich addieren gemischt | ✓ (852, 803, 834) |
-| 23 | Schriftlich subtrahieren dreistellig | ✓ (536, 333, 323) |
-| 24 | Schriftlich subtrahieren Entbündelung | ✓ (565, 474, 327) |
-| 25 | Schriftlich subtrahieren vierstellig | ✓ (1.165, 1.065, 1.736) |
-| 26 | Fehler finden subtrahieren | ✓ (563≠536, 356≠365, 1.157≠1.175) |
-| 27 | Subtrahieren Ergebnis prüfen | ✓ (436, 764; Probe korrekt) |
-| 28 | Halbschriftlich mult. intro | ✓ (235, 504) |
-| 29 | Halbschriftlich mult. selbstständig | ✓ (332, 342, 282, 322) |
-| 30 | Halbschriftlich mult. dreistellig | ✓ (852, 456) |
-| 31 | Multiplizieren vergleichen | ✓ (258=258, 190=190, 192=192) |
-| 32 | Multiplikationstabelle | ✓ (alle 9 Felder korrekt) |
-| 33 | Geschickt rechnen großer Faktor | ✓ (561, 1.230, 1.592, 1.650) |
-| 34 | Zwei Rechenwege | ✓ (343, 490, 591) |
-| 35 | Hotelrechnung Grundaufgabe | ✓ (157,50€, 472,50€; Antwortformat s. Warnung) |
-| 36 | Hotelrechnung anderes Hotel | ✓ (108€, 432€) |
-| 37 | Hotelrechnung mit Ausnahmen | ✓ (135, 135, 110, 108, 488) |
-| 38 | Gutschein aufteilen | ✓ (5 Tage, 7 Tage) |
-| 39 | Pilze sammeln | ✓ (Mia=600, Lina/Tom=300) |
-| 40 | Taschen packen | ✓ (6, 12, 12 kg) |
-| 41 | Theaterbesuch | ✓ (Stehplatz 7€, Sitzplatz 14€) |
-| 42 | Rechengeschichte 248-35 | ✓ (213) |
-| 43 | Rechengeschichte 6·8 | ✓ (48) |
-| 44 | Rechengeschichten Schwimmen | ✓ (15h, 14h) |
-| 45 | Zeitschriften | ✓ (Mathematik: 104€, 52€; Antwortformat s. Fehler) |
-| 46 | Musik-Downloads | ✓ (5) |
-| 47 | Schulweg | ✓ (150 min, 2,5h) |
-| 48 | Alter-Rätsel | ✓ (offene Aufgabe, Beispiellösung korrekt) |
+Alle 50 Aufgaben haben 4 Tipps mit aufbauender Struktur (Impuls, Denkansatz, Teilantwort, Loesung). Sprache ist durchgehend kindgerecht und ermutigend. Keine Auffaelligkeiten.

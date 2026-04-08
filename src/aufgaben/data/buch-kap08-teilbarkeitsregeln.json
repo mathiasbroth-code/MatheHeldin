@@ -1,0 +1,511 @@
+[
+  {
+    "titel": "S.84 Nr.1 — Bei welchen bleibt kein Rest?",
+    "typ": "wahr-falsch",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "gelb",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Was meinen Justus und Jette?\nJustus: An der Einerstelle des Dividenden erkenne ich sofort, ob die Zahl ohne Rest durch 5 teilbar ist.\nJette: Das erkenne ich auch beim Divisor 2 sofort.\n\nBei welchen Aufgaben bleibt kein Rest?",
+    "loesung": "1.030 : 5 → kein Rest, 716 : 2 → kein Rest, 365 : 5 → kein Rest. Bei 178 : 5 und 977 : 2 bleibt ein Rest.",
+    "loesungsweg": "Teilbar durch 5 → Einerstelle muss 0 oder 5 sein.\nTeilbar durch 2 → Einerstelle muss gerade sein (0, 2, 4, 6, 8).\n178: Einerstelle 8 → nicht durch 5 ✗\n1.030: Einerstelle 0 → durch 5 ✓\n716: Einerstelle 6 → durch 2 ✓\n365: Einerstelle 5 → durch 5 ✓\n977: Einerstelle 7 → nicht durch 2 ✗",
+    "tipps": [
+      "Schau dir die Einerstelle jeder Zahl an. Die 5er-Reihe endet immer auf 0 oder 5.",
+      "Die 2er-Reihe: 2, 4, 6, 8, 10, 12, 14, … — die Einerstelle ist immer gerade.",
+      "178 endet auf 8 → durch 5? Nein. 1.030 endet auf 0 → durch 5? Ja!",
+      "Kein Rest: 1.030 : 5 = 206 ✓, 716 : 2 = 358 ✓, 365 : 5 = 73 ✓. Rest: 178 : 5 und 977 : 2."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 1. Einstieg in Teilbarkeitsregeln durch Beobachten der Einerstelle.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Bei welchen Aufgaben bleibt kein Rest? Tippe auf ✓ (kein Rest) oder ✗ (Rest).",
+      "items": [
+        { "label": "a", "aussage": "178 : 5 → kein Rest", "richtig": false, "erklaerung": "178 endet auf 8 — nicht durch 5 teilbar. 178 : 5 = 35 Rest 3." },
+        { "label": "b", "aussage": "1.030 : 5 → kein Rest", "richtig": true, "erklaerung": "1.030 endet auf 0 — durch 5 teilbar! 1.030 : 5 = 206." },
+        { "label": "c", "aussage": "716 : 2 → kein Rest", "richtig": true, "erklaerung": "716 endet auf 6 (gerade) — durch 2 teilbar! 716 : 2 = 358." },
+        { "label": "d", "aussage": "365 : 5 → kein Rest", "richtig": true, "erklaerung": "365 endet auf 5 — durch 5 teilbar! 365 : 5 = 73." },
+        { "label": "e", "aussage": "977 : 2 → kein Rest", "richtig": false, "erklaerung": "977 endet auf 7 (ungerade) — nicht durch 2 teilbar. 977 : 2 = 488 Rest 1." }
+      ]
+    }
+  },
+  {
+    "titel": "S.84 Nr.2a — Regel: Teilbarkeit durch 5",
+    "typ": "auswahl",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "gelb",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Vervollständige die Regel:\nEine Zahl ist ohne Rest durch 5 teilbar, wenn an der Einerstelle …",
+    "loesung": "… eine 0 oder 5 steht.",
+    "loesungsweg": "Die 5er-Reihe: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, …\nAlle Vielfachen von 5 enden auf 0 oder 5.\nAlso: Eine Zahl ist durch 5 teilbar, wenn die Einerstelle 0 oder 5 ist.",
+    "tipps": [
+      "Schreibe die 5er-Reihe auf: 5, 10, 15, 20, 25, … Welche Ziffern stehen am Ende?",
+      "Es kommen nur zwei verschiedene Endziffern vor: 0 und 5.",
+      "Die 5er-Reihe endet immer auf 0 oder 5.",
+      "Eine Zahl ist durch 5 teilbar, wenn die Einerstelle 0 oder 5 ist."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 2a. Regel für Teilbarkeit durch 5 selbst formulieren.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Vervollständige die Regel:",
+      "frageText": "Eine Zahl ist ohne Rest durch 5 teilbar, wenn an der Einerstelle …",
+      "optionen": [
+        { "label": "A", "text": "… eine 0 oder 5 steht." },
+        { "label": "B", "text": "… eine gerade Zahl steht." },
+        { "label": "C", "text": "… eine ungerade Zahl steht." },
+        { "label": "D", "text": "… nur eine 0 steht." }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "S.84 Nr.2b — Regel: Teilbarkeit durch 2",
+    "typ": "auswahl",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "gelb",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Vervollständige die Regel:\nEine Zahl ist ohne Rest durch 2 teilbar, wenn an der Einerstelle …",
+    "loesung": "… eine 0, 2, 4, 6 oder 8 steht (gerade Zahl).",
+    "loesungsweg": "Die 2er-Reihe: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, …\nAlle Vielfachen von 2 enden auf 0, 2, 4, 6 oder 8 — also auf eine gerade Ziffer.\nEine Zahl ist durch 2 teilbar, wenn die Einerstelle gerade ist.",
+    "tipps": [
+      "Schreibe die 2er-Reihe auf: 2, 4, 6, 8, 10, 12, 14, … Welche Ziffern stehen am Ende?",
+      "Alle geraden Zahlen sind durch 2 teilbar.",
+      "Gerade Ziffern: 0, 2, 4, 6, 8.",
+      "Eine Zahl ist durch 2 teilbar, wenn die Einerstelle gerade ist: 0, 2, 4, 6 oder 8."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 2b. Regel für Teilbarkeit durch 2 selbst formulieren.",
+    "parsed": {
+      "typ": "auswahl",
+      "anweisung": "Vervollständige die Regel:",
+      "frageText": "Eine Zahl ist ohne Rest durch 2 teilbar, wenn an der Einerstelle …",
+      "optionen": [
+        { "label": "A", "text": "… eine 0, 2, 4, 6 oder 8 steht (gerade Ziffer)." },
+        { "label": "B", "text": "… eine 0 oder 5 steht." },
+        { "label": "C", "text": "… eine ungerade Zahl steht." },
+        { "label": "D", "text": "… eine 2 oder 4 steht." }
+      ],
+      "richtigeIdx": 0
+    }
+  },
+  {
+    "titel": "S.84 Nr.3 — Ohne Rest teilen und rechnen",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "gelb",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Immer eine Aufgabe lässt sich ohne Rest teilen.\nRechne nur diese Aufgabe.\n\na) 567 : 5 oder 565 : 5?\nb) 690 : 5 oder 693 : 5?\nc) 423 : 2 oder 424 : 2?\nd) 566 : 2 oder 565 : 2?",
+    "loesung": "a) 565 : 5 = 113\nb) 690 : 5 = 138\nc) 424 : 2 = 212\nd) 566 : 2 = 283",
+    "loesungsweg": "a) 567 endet auf 7 → nicht durch 5 teilbar. 565 endet auf 5 → durch 5 teilbar! 565 : 5 = 113.\nb) 690 endet auf 0 → durch 5 teilbar! 690 : 5 = 138. (693 endet auf 3 → nicht durch 5.)\nc) 423 endet auf 3 (ungerade) → nicht durch 2 teilbar. 424 endet auf 4 (gerade) → durch 2 teilbar! 424 : 2 = 212.\nd) 566 endet auf 6 (gerade) → durch 2 teilbar! 566 : 2 = 283. (565 endet auf 5 → ungerade.)",
+    "tipps": [
+      "Schau dir die Einerstelle an: Durch 5 teilbar → Einerstelle 0 oder 5. Durch 2 teilbar → Einerstelle gerade.",
+      "a) 567 oder 565? Welche endet auf 0 oder 5?",
+      "a) 565 : 5 — teile: 500 : 5 = 100, 60 : 5 = 12, 5 : 5 = 1 → 113.",
+      "a) 565 : 5 = 113, b) 690 : 5 = 138, c) 424 : 2 = 212, d) 566 : 2 = 283."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 3. Anwendung der Teilbarkeitsregeln: erst entscheiden, dann rechnen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Immer eine Aufgabe lässt sich ohne Rest teilen. Rechne nur diese.",
+      "items": [
+        { "label": "a", "frage": "567 : 5 oder 565 : 5? Ergebnis:", "antwort": "113" },
+        { "label": "b", "frage": "690 : 5 oder 693 : 5? Ergebnis:", "antwort": "138" },
+        { "label": "c", "frage": "423 : 2 oder 424 : 2? Ergebnis:", "antwort": "212" },
+        { "label": "d", "frage": "566 : 2 oder 565 : 2? Ergebnis:", "antwort": "283" }
+      ]
+    }
+  },
+  {
+    "titel": "S.84 Nr.4 — Einerstelle: durch 5, 2, beides",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "grün",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern kannst du an die Einerstelle setzen, damit die Zahlen ohne Rest …\n78☐  43☐  63☐  19☐\n\na) durch 5 teilbar sind?\nb) durch 2 teilbar sind?\nc) durch 5 und durch 2 teilbar sind?",
+    "loesung": "a) 0, 5\nb) 0, 2, 4, 6, 8\nc) 0",
+    "loesungsweg": "a) Durch 5 teilbar → Einerstelle 0 oder 5. Gilt für alle vier Zahlen gleich.\nb) Durch 2 teilbar → Einerstelle gerade: 0, 2, 4, 6, 8.\nc) Durch 5 UND 2 teilbar → Einerstelle muss 0 oder 5 sein UND gerade → nur 0.",
+    "tipps": [
+      "a) Welche Endziffern hat die 5er-Reihe?",
+      "b) Welche Ziffern sind gerade?",
+      "c) Welche Ziffer ist sowohl in der 5er-Reihe (0, 5) als auch gerade (0, 2, 4, 6, 8)?",
+      "a) 0, 5 — b) 0, 2, 4, 6, 8 — c) 0."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 4. Umkehrung: aus der Regel die fehlende Ziffer ableiten.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "78☐ · 43☐ · 63☐ · 19☐\nWelche Ziffern passen an die Einerstelle?",
+      "items": [
+        { "label": "a", "frage": "Durch 5 teilbar → Einerstelle:", "antwort": "0, 5", "felder": 2 },
+        { "label": "b", "frage": "Durch 2 teilbar → Einerstelle:", "antwort": "0, 2, 4, 6, 8", "felder": 5 },
+        { "label": "c", "frage": "Durch 5 und 2 teilbar → Einerstelle:", "antwort": "0" }
+      ]
+    }
+  },
+  {
+    "titel": "S.84 Nr.5 — Durch 4 teilbar: Päckchen",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "grün",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Immer nur eine Zahl im Päckchen ist ohne Rest durch 4 teilbar.\nVermute und überprüfe, indem du die Aufgabe rechnest.\n\na) 821 : 4 / 822 : 4 / 823 : 4 / 824 : 4\nb) 1.214 : 4 / 1.215 : 4 / 1.216 : 4 / 1.217 : 4\nc) 4.031 : 4 / 4.032 : 4 / 4.033 : 4 / 4.034 : 4\nd) 3.640 : 4 / 3.641 : 4 / 3.642 : 4 / 3.643 : 4",
+    "loesung": "a) 824 : 4 = 206\nb) 1.216 : 4 = 304\nc) 4.032 : 4 = 1.008\nd) 3.640 : 4 = 910",
+    "loesungsweg": "Regel: Durch 4 teilbar, wenn die letzten beiden Ziffern durch 4 teilbar sind.\na) 24 : 4 = 6 ✓ → 824 : 4 = 206.\nb) 16 : 4 = 4 ✓ → 1.216 : 4 = 304.\nc) 32 : 4 = 8 ✓ → 4.032 : 4 = 1.008.\nd) 40 : 4 = 10 ✓ → 3.640 : 4 = 910.",
+    "tipps": [
+      "Schau dir die letzten beiden Ziffern jeder Zahl an. Ist diese Zahl durch 4 teilbar?",
+      "a) 21, 22, 23, 24 — welche davon ist durch 4 teilbar?",
+      "24 : 4 = 6 → also ist 824 durch 4 teilbar. Rechne: 824 : 4.",
+      "a) 824 : 4 = 206, b) 1.216 : 4 = 304, c) 4.032 : 4 = 1.008, d) 3.640 : 4 = 910."
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 5. Teilbarkeitsregel durch 4 anwenden — letzte zwei Ziffern prüfen.",
+    "erklaerungBild": "merkkasten-teilbar-4",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Immer nur eine Zahl ist durch 4 teilbar. Finde sie und rechne.",
+      "items": [
+        { "label": "a", "frage": "821, 822, 823 oder 824 durch 4? Ergebnis:", "antwort": "206" },
+        { "label": "b", "frage": "1.214, 1.215, 1.216 oder 1.217 durch 4? Ergebnis:", "antwort": "304" },
+        { "label": "c", "frage": "4.031, 4.032, 4.033 oder 4.034 durch 4? Ergebnis:", "antwort": "1008" },
+        { "label": "d", "frage": "3.640, 3.641, 3.642 oder 3.643 durch 4? Ergebnis:", "antwort": "910" }
+      ]
+    }
+  },
+  {
+    "titel": "S.84 Nr.6 — Zahlen durch 2, 4 und 5 teilbar",
+    "typ": "textaufgabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 84,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Notiere Zahlen, die sowohl durch 2 und 4 als auch durch 5 teilbar sind.",
+    "loesung": "z. B. 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, …\nAlle Vielfachen von 20 erfüllen die Bedingung.",
+    "loesungsweg": "Durch 2 UND 4 teilbar → durch 4 teilbar (weil 4 ein Vielfaches von 2 ist).\nDurch 4 UND 5 teilbar → Vielfache von 20 (kleinstes gemeinsames Vielfaches von 4 und 5).\nBeispiele: 20, 40, 60, 80, 100, …",
+    "tipps": [
+      "Eine Zahl muss gleichzeitig durch 4 und durch 5 teilbar sein. Beginne mit den Vielfachen von 5 und prüfe, welche auch durch 4 teilbar sind.",
+      "Vielfache von 5: 5, 10, 15, 20, 25, 30, 35, 40, … Welche davon sind durch 4 teilbar?",
+      "20 : 4 = 5 ✓, 40 : 4 = 10 ✓ — die Vielfachen von 20!",
+      "Alle Vielfachen von 20: 20, 40, 60, 80, 100, …"
+    ],
+    "didaktischerHinweis": "Fredo S.84, Aufgabe 6. Offene Aufgabe: kgV-Konzept ohne den Begriff zu nennen.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Du kennst die Teilbarkeitsregeln für 2, 4 und 5.",
+      "items": [
+        { "label": "a", "frage": "Nenne Zahlen, die sowohl durch 2 und 4 als auch durch 5 teilbar sind. Erkläre!", "antwort": "_mündlich" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.7 — Ist 423 durch 9 teilbar?",
+    "typ": "schritt",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "gelb",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Ist 423 durch 9 teilbar? Erkläre und überprüfe.",
+    "loesung": "Quersumme von 423: 4 + 2 + 3 = 9. 9 ist durch 9 teilbar → Ja! 423 : 9 = 47.",
+    "loesungsweg": "Schritt 1: Quersumme berechnen: 4 + 2 + 3 = 9.\nSchritt 2: Ist 9 durch 9 teilbar? Ja! (9 : 9 = 1)\nSchritt 3: Überprüfen: 423 : 9 = 47 ✓",
+    "tipps": [
+      "Berechne die Quersumme: Addiere alle Ziffern von 423.",
+      "4 + 2 + 3 = 9. Ist 9 durch 9 teilbar?",
+      "Ja! 9 : 9 = 1 → 423 ist durch 9 teilbar.",
+      "Überprüfung: 423 : 9 = 47 ✓"
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 7. Einführung der Quersummenregel für 9.",
+    "erklaerungBild": "merkkasten-quersumme-9",
+    "parsed": {
+      "typ": "schritt",
+      "anweisung": "Ist 423 durch 9 teilbar? Erkläre und überprüfe.",
+      "teilaufgaben": [
+        {
+          "label": "1",
+          "schritte": [
+            { "label": "1", "frage": "Quersumme von 423: 4 + 2 + 3 =", "antwort": "9" },
+            { "label": "2", "frage": "Ist die Quersumme durch 9 teilbar? → 423 : 9 =", "antwort": "47" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.8 — Quersumme und durch 9 rechnen",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "grün",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bei welchen Aufgaben bleibt kein Rest?\nBilde die Quersumme und rechne nur die Aufgaben, die ohne Rest durch 9 teilbar sind.\n\n612 : 9 · 251 : 9 · 306 : 9\n1.324 : 9 · 4.014 : 9 · 2.133 : 9",
+    "loesung": "612 : 9 = 68 (QS 9 ✓)\n306 : 9 = 34 (QS 9 ✓)\n4.014 : 9 = 446 (QS 9 ✓)\n2.133 : 9 = 237 (QS 9 ✓)\n\n251 (QS 8 ✗) und 1.324 (QS 10 ✗) sind nicht durch 9 teilbar.",
+    "loesungsweg": "612: 6+1+2=9 → durch 9 teilbar ✓ → 612 : 9 = 68\n251: 2+5+1=8 → nicht durch 9 teilbar ✗\n306: 3+0+6=9 → durch 9 teilbar ✓ → 306 : 9 = 34\n1.324: 1+3+2+4=10 → nicht durch 9 teilbar ✗\n4.014: 4+0+1+4=9 → durch 9 teilbar ✓ → 4.014 : 9 = 446\n2.133: 2+1+3+3=9 → durch 9 teilbar ✓ → 2.133 : 9 = 237",
+    "tipps": [
+      "Berechne zuerst die Quersumme jeder Zahl. Nur wenn die Quersumme durch 9 teilbar ist, musst du die Division rechnen.",
+      "612: 6+1+2=9 ✓ — 251: 2+5+1=8 ✗ — 306: 3+0+6=9 ✓",
+      "1.324: 1+3+2+4=10 ✗ — 4.014: 4+0+1+4=9 ✓ — 2.133: 2+1+3+3=9 ✓",
+      "612 : 9 = 68, 306 : 9 = 34, 4.014 : 9 = 446, 2.133 : 9 = 237."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 8. Quersummenregel anwenden: erst filtern, dann rechnen.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Bilde die Quersumme. Rechne nur die Aufgaben ohne Rest.",
+      "kontext": "612 : 9 · 251 : 9 · 306 : 9 · 1.324 : 9 · 4.014 : 9 · 2.133 : 9",
+      "items": [
+        { "label": "a", "frage": "612 : 9 =", "antwort": "68" },
+        { "label": "b", "frage": "306 : 9 =", "antwort": "34" },
+        { "label": "c", "frage": "4.014 : 9 =", "antwort": "446" },
+        { "label": "d", "frage": "2.133 : 9 =", "antwort": "237" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.9 — Welche ist durch 9 teilbar?",
+    "typ": "wahr-falsch",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "grün",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Bilde die Quersumme der Zahlen. Immer eine der beiden Zahlen ist ohne Rest durch 9 teilbar. Markiere sie.\n\na) 354 / 351\nb) 864 / 869\nc) 462 / 468\nd) 837 / 847\ne) 5.598 / 5.599\nf) 6.542 / 6.543",
+    "loesung": "a) 351 (QS 9) ✓\nb) 864 (QS 18) ✓\nc) 468 (QS 18) ✓\nd) 837 (QS 18) ✓\ne) 5.598 (QS 27) ✓\nf) 6.543 (QS 18) ✓",
+    "loesungsweg": "a) 354: 3+5+4=12 ✗ / 351: 3+5+1=9 ✓\nb) 864: 8+6+4=18 ✓ / 869: 8+6+9=23 ✗\nc) 462: 4+6+2=12 ✗ / 468: 4+6+8=18 ✓\nd) 837: 8+3+7=18 ✓ / 847: 8+4+7=19 ✗\ne) 5.598: 5+5+9+8=27 ✓ / 5.599: 5+5+9+9=28 ✗\nf) 6.542: 6+5+4+2=17 ✗ / 6.543: 6+5+4+3=18 ✓",
+    "tipps": [
+      "Berechne die Quersumme beider Zahlen und prüfe, welche durch 9 teilbar ist.",
+      "a) 354: 3+5+4=12 — 351: 3+5+1=9. Welche Quersumme ist durch 9 teilbar?",
+      "9, 18, 27 sind durch 9 teilbar. Vergleiche die Quersummen damit.",
+      "a) 351 ✓, b) 864 ✓, c) 468 ✓, d) 837 ✓, e) 5.598 ✓, f) 6.543 ✓."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 9. Quersumme als Entscheidungshilfe bei Paaren.",
+    "parsed": {
+      "typ": "wahr-falsch",
+      "anweisung": "Immer eine der beiden Zahlen ist durch 9 teilbar. Ist es die erste?",
+      "items": [
+        { "label": "a", "aussage": "354 ist durch 9 teilbar (nicht 351).", "richtig": false, "erklaerung": "354: 3+5+4 = 12 ✗\n351: 3+5+1 = 9 ✓ → 351 ist durch 9 teilbar!" },
+        { "label": "b", "aussage": "864 ist durch 9 teilbar (nicht 869).", "richtig": true, "erklaerung": "864: 8+6+4 = 18 ✓ → durch 9 teilbar!\n869: 8+6+9 = 23 ✗" },
+        { "label": "c", "aussage": "462 ist durch 9 teilbar (nicht 468).", "richtig": false, "erklaerung": "462: 4+6+2 = 12 ✗\n468: 4+6+8 = 18 ✓ → 468 ist durch 9 teilbar!" },
+        { "label": "d", "aussage": "837 ist durch 9 teilbar (nicht 847).", "richtig": true, "erklaerung": "837: 8+3+7 = 18 ✓ → durch 9 teilbar!\n847: 8+4+7 = 19 ✗" },
+        { "label": "e", "aussage": "5.598 ist durch 9 teilbar (nicht 5.599).", "richtig": true, "erklaerung": "5.598: 5+5+9+8 = 27 ✓ → durch 9 teilbar!\n5.599: 5+5+9+9 = 28 ✗" },
+        { "label": "f", "aussage": "6.542 ist durch 9 teilbar (nicht 6.543).", "richtig": false, "erklaerung": "6.542: 6+5+4+2 = 17 ✗\n6.543: 6+5+4+3 = 18 ✓ → 6.543 ist durch 9 teilbar!" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.10 — Einerstelle für Teilbarkeit durch 9",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "grün",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 9 teilbar sind?\n\na) 854☐\nb) 267☐\nc) 634☐\nd) 684☐\ne) 898☐",
+    "loesung": "a) 854 → QS 17+☐ → ☐=1 (QS 18)\nb) 267 → QS 15+☐ → ☐=3 (QS 18)\nc) 634 → QS 13+☐ → ☐=5 (QS 18)\nd) 684 → QS 18+☐ → ☐=0 oder 9\ne) 898 → QS 25+☐ → ☐=2 (QS 27)",
+    "loesungsweg": "Berechne die Quersumme ohne die Einerstelle und finde ☐, sodass die Gesamtquersumme durch 9 teilbar wird.\na) 8+5+4=17 → 17+☐ muss durch 9 teilbar sein → 18 → ☐=1.\nb) 2+6+7=15 → 15+☐ → 18 → ☐=3.\nc) 6+3+4=13 → 13+☐ → 18 → ☐=5.\nd) 6+8+4=18 → 18+☐ → 18 (☐=0) oder 27 (☐=9).\ne) 8+9+8=25 → 25+☐ → 27 → ☐=2.",
+    "tipps": [
+      "Berechne die Quersumme der bekannten Ziffern. Welche Ziffer fehlt, damit die Quersumme durch 9 teilbar wird?",
+      "Durch 9 teilbare Quersummen: 9, 18, 27, 36, …",
+      "a) 8+5+4=17 → bis zur nächsten durch 9 teilbaren Zahl: 18 → ☐ = 18−17 = 1.",
+      "a) 1, b) 3, c) 5, d) 0 und 9, e) 2."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 10. Umkehraufgabe: fehlende Ziffer aus Quersummenregel ableiten.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Ziffern passen, damit die Zahl durch 9 teilbar ist?",
+      "items": [
+        { "label": "a", "frage": "854☐ → ☐ =", "antwort": "1" },
+        { "label": "b", "frage": "267☐ → ☐ =", "antwort": "3" },
+        { "label": "c", "frage": "634☐ → ☐ =", "antwort": "5" },
+        { "label": "d", "frage": "684☐ → ☐ =", "antwort": "0, 9", "felder": 2 },
+        { "label": "e", "frage": "898☐ → ☐ =", "antwort": "2" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.11 — Durch 3 oder 9 teilbar? Tabelle",
+    "typ": "zuordnung",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Zahlen lassen sich durch 3 teilen, welche durch 9, welche durch beide? Notiere in einer Tabelle.\n\n534  873  748  456\n990  888  223  891",
+    "loesung": "Durch 3 und 9: 873 (QS 18), 990 (QS 18), 891 (QS 18).\nNur durch 3: 534 (QS 12), 456 (QS 15), 888 (QS 24).\nWeder noch: 748 (QS 19), 223 (QS 7).",
+    "loesungsweg": "534: 5+3+4=12 → 12:3=4 ✓, 12:9≠ ✗ → nur durch 3.\n873: 8+7+3=18 → 18:3=6 ✓, 18:9=2 ✓ → durch 3 und 9.\n748: 7+4+8=19 → 19:3≠ ✗ → weder noch.\n456: 4+5+6=15 → 15:3=5 ✓, 15:9≠ ✗ → nur durch 3.\n990: 9+9+0=18 → 18:3=6 ✓, 18:9=2 ✓ → durch 3 und 9.\n888: 8+8+8=24 → 24:3=8 ✓, 24:9≠ ✗ → nur durch 3.\n223: 2+2+3=7 → 7:3≠ ✗ → weder noch.\n891: 8+9+1=18 → 18:3=6 ✓, 18:9=2 ✓ → durch 3 und 9.",
+    "tipps": [
+      "Berechne die Quersumme jeder Zahl. Ist sie durch 3 teilbar? Durch 9?",
+      "534: 5+3+4=12 → 12:3=4 → durch 3 ✓. 12:9? Nein → nicht durch 9.",
+      "873: 8+7+3=18 → durch 3 ✓ und durch 9 ✓ (18:9=2).",
+      "Durch 3 und 9: 873, 990, 891. Nur durch 3: 534, 456, 888. Weder: 748, 223."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 11. Klassifikation in Tabelle — Zusammenhang zwischen :3 und :9.",
+    "erklaerungBild": "merkkasten-teilbar-3",
+    "parsed": {
+      "typ": "zuordnung",
+      "anweisung": "Ordne jede Zahl der richtigen Kategorie zu.",
+      "items": [
+        { "label": "1", "text": "534" },
+        { "label": "2", "text": "873" },
+        { "label": "3", "text": "748" },
+        { "label": "4", "text": "456" },
+        { "label": "5", "text": "990" },
+        { "label": "6", "text": "888" },
+        { "label": "7", "text": "223" },
+        { "label": "8", "text": "891" }
+      ],
+      "choices": [
+        { "label": "A", "text": "durch 3 und 9 teilbar" },
+        { "label": "B", "text": "nur durch 3 teilbar" },
+        { "label": "C", "text": "weder durch 3 noch durch 9" }
+      ],
+      "antworten": {
+        "1": "B",
+        "2": "A",
+        "3": "C",
+        "4": "B",
+        "5": "A",
+        "6": "B",
+        "7": "C",
+        "8": "A"
+      }
+    }
+  },
+  {
+    "titel": "S.85 Nr.12a — Einerstelle durch 3 teilbar",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 3 teilbar sind?\n\n783☐  435☐  672☐  194☐",
+    "loesung": "783☐ → QS 18+☐ → ☐=0, 3, 6, 9\n435☐ → QS 12+☐ → ☐=0, 3, 6, 9\n672☐ → QS 15+☐ → ☐=0, 3, 6, 9\n194☐ → QS 14+☐ → ☐=1, 4, 7",
+    "loesungsweg": "783: 7+8+3=18 → 18+☐ durch 3 → ☐=0 (18), 3 (21), 6 (24), 9 (27).\n435: 4+3+5=12 → 12+☐ durch 3 → ☐=0 (12), 3 (15), 6 (18), 9 (21).\n672: 6+7+2=15 → 15+☐ durch 3 → ☐=0 (15), 3 (18), 6 (21), 9 (24).\n194: 1+9+4=14 → 14+☐ durch 3 → ☐=1 (15), 4 (18), 7 (21).",
+    "tipps": [
+      "Berechne die Quersumme ohne die Einerstelle. Welche Ziffern ergänzen die Quersumme zu einer durch 3 teilbaren Zahl?",
+      "783: 7+8+3=18. 18 ist schon durch 3 teilbar! Also passt ☐=0. Welche noch?",
+      "Durch 3 teilbar: 18, 21, 24, 27, … → ☐ = 0, 3, 6, 9.",
+      "783☐: 0, 3, 6, 9. 435☐: 0, 3, 6, 9. 672☐: 0, 3, 6, 9. 194☐: 1, 4, 7."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 12a. Umkehraufgabe mit Quersummenregel für 3.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Ziffern passen, damit die Zahl durch 3 teilbar ist?",
+      "items": [
+        { "label": "a", "frage": "783☐ durch 3 → ☐ =", "antwort": "0, 3, 6, 9", "felder": 4 },
+        { "label": "b", "frage": "435☐ durch 3 → ☐ =", "antwort": "0, 3, 6, 9", "felder": 4 },
+        { "label": "c", "frage": "672☐ durch 3 → ☐ =", "antwort": "0, 3, 6, 9", "felder": 4 },
+        { "label": "d", "frage": "194☐ durch 3 → ☐ =", "antwort": "1, 4, 7", "felder": 3 }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.12b — Einerstelle durch 9 teilbar",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 9 teilbar sind?\n\n783☐  435☐  672☐  194☐",
+    "loesung": "783☐ → QS 18+☐ → ☐=0, 9\n435☐ → QS 12+☐ → ☐=6\n672☐ → QS 15+☐ → ☐=3\n194☐ → QS 14+☐ → ☐=4",
+    "loesungsweg": "783: 7+8+3=18 → 18+☐ durch 9 → ☐=0 (18) oder 9 (27).\n435: 4+3+5=12 → 12+☐ durch 9 → nächstes: 18 → ☐=6.\n672: 6+7+2=15 → 15+☐ durch 9 → nächstes: 18 → ☐=3.\n194: 1+9+4=14 → 14+☐ durch 9 → nächstes: 18 → ☐=4.",
+    "tipps": [
+      "Berechne die Quersumme ohne die Einerstelle. Welche Ziffer macht die Quersumme durch 9 teilbar?",
+      "435: 4+3+5=12. Nächste durch 9 teilbare Zahl: 18. Also ☐ = 18−12 = 6.",
+      "672: 6+7+2=15. 18−15=3 → ☐=3.",
+      "783☐: 0 und 9. 435☐: 6. 672☐: 3. 194☐: 4."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 12b. Umkehraufgabe mit Quersummenregel für 9.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Ziffern passen, damit die Zahl durch 9 teilbar ist?",
+      "items": [
+        { "label": "a", "frage": "783☐ durch 9 → ☐ =", "antwort": "0, 9", "felder": 2 },
+        { "label": "b", "frage": "435☐ durch 9 → ☐ =", "antwort": "6" },
+        { "label": "c", "frage": "672☐ durch 9 → ☐ =", "antwort": "3" },
+        { "label": "d", "frage": "194☐ durch 9 → ☐ =", "antwort": "4" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.12c — Einerstelle durch 3 und 9 teilbar",
+    "typ": "eingabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Welche Ziffern kannst du jeweils an die Einerstelle setzen, damit die Zahlen ohne Rest durch 3 und durch 9 teilbar sind?\n\n783☐  435☐  672☐  194☐",
+    "loesung": "Gleich wie durch 9 (denn jede durch 9 teilbare Zahl ist auch durch 3 teilbar):\n783☐ → ☐=0, 9\n435☐ → ☐=6\n672☐ → ☐=3\n194☐ → ☐=4",
+    "loesungsweg": "Durch 3 UND 9 teilbar = durch 9 teilbar (weil 9 ein Vielfaches von 3 ist).\n783: 18+☐ durch 9 → ☐=0, 9.\n435: 12+☐ durch 9 → ☐=6.\n672: 15+☐ durch 9 → ☐=3.\n194: 14+☐ durch 9 → ☐=4.",
+    "tipps": [
+      "Durch 3 UND 9 teilbar — welche Regel ist strenger?",
+      "Jede Zahl, die durch 9 teilbar ist, ist automatisch auch durch 3 teilbar! Du brauchst also nur die 9er-Regel.",
+      "Die Antworten sind die gleichen wie bei 'durch 9 teilbar'.",
+      "783☐: 0 und 9. 435☐: 6. 672☐: 3. 194☐: 4."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 12c. Erkenntnis: :9 ist die stärkere Bedingung, :3 ist automatisch erfüllt.",
+    "parsed": {
+      "typ": "eingabe",
+      "anweisung": "Welche Ziffern passen, damit die Zahl durch 3 und 9 teilbar ist?",
+      "items": [
+        { "label": "a", "frage": "783☐ durch 3 und 9 → ☐ =", "antwort": "0, 9", "felder": 2 },
+        { "label": "b", "frage": "435☐ durch 3 und 9 → ☐ =", "antwort": "6" },
+        { "label": "c", "frage": "672☐ durch 3 und 9 → ☐ =", "antwort": "3" },
+        { "label": "d", "frage": "194☐ durch 3 und 9 → ☐ =", "antwort": "4" }
+      ]
+    }
+  },
+  {
+    "titel": "S.85 Nr.13 — Zahlen durch 4, 5 und 9 teilbar",
+    "typ": "textaufgabe",
+    "thema": "Teilbarkeitsregeln",
+    "schwierigkeit": "orange",
+    "buchseite": 85,
+    "kapitel": "buch-original",
+    "stageId": "teilbarkeitsregeln-original",
+    "digital": "voll",
+    "aufgabenstellung": "Notiere Zahlen, die sowohl durch 4 und 5 als auch durch 9 teilbar sind.",
+    "loesung": "z. B. 180, 360, 540, 720, 900, …\nAlle Vielfachen von 180 erfüllen die Bedingung.",
+    "loesungsweg": "Durch 4 und 5 → durch 20 (kgV von 4 und 5).\nDurch 20 und 9 → kgV von 20 und 9 = 180.\nDie Zahlen sind also: 180, 360, 540, 720, 900, …\nProbe: 180 → letzte zwei Ziffern 80 → 80:4=20 ✓, Einerstelle 0 → durch 5 ✓, QS 1+8+0=9 → durch 9 ✓.",
+    "tipps": [
+      "Beginne mit Vielfachen von 5 (enden auf 0 oder 5). Welche davon sind auch durch 4 und durch 9 teilbar?",
+      "Durch 4 und 5 → die Zahl muss ein Vielfaches von 20 sein (enden auf 00, 20, 40, 60, 80).",
+      "Prüfe Vielfache von 20: 20 (QS 2 ✗), 40 (QS 4 ✗), 60 (QS 6 ✗), 80 (QS 8 ✗), 100 (QS 1 ✗), 120 (QS 3 ✗), 140 (QS 5 ✗), 160 (QS 7 ✗), 180 (QS 9 ✓)!",
+      "180, 360, 540, 720, 900, … — alle Vielfachen von 180."
+    ],
+    "didaktischerHinweis": "Fredo S.85, Aufgabe 13. Kombination aller Regeln — kgV-Konzept ohne den Begriff.",
+    "parsed": {
+      "typ": "textaufgabe",
+      "anweisung": "",
+      "kontext": "Du kennst nun alle Teilbarkeitsregeln: durch 2, 3, 4, 5 und 9.",
+      "items": [
+        { "label": "a", "frage": "Nenne Zahlen, die sowohl durch 4 und 5 als auch durch 9 teilbar sind. Erkläre dein Vorgehen!", "antwort": "_mündlich" }
+      ]
+    }
+  }
+]

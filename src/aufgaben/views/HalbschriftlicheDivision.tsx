@@ -19,13 +19,15 @@ interface HalbschriftlicheProps {
   divisor: number;
   /** Optional: Vielfache zur Auswahl für den ersten Schritt */
   vielfacheAuswahl?: number[];
+  /** Zeigt die verbleibende Zahl als Placeholder-Hinweis im Eingabefeld (default: true) */
+  zeigeHinweis?: boolean;
   onRichtig: () => void;
   onFalsch: () => void;
 }
 
 type InputPhase = 'teilzahl' | 'ergebnis';
 
-export function HalbschriftlicheDivision({ dividend, divisor, vielfacheAuswahl, onRichtig, onFalsch }: HalbschriftlicheProps) {
+export function HalbschriftlicheDivision({ dividend, divisor, vielfacheAuswahl, zeigeHinweis = true, onRichtig, onFalsch }: HalbschriftlicheProps) {
   const [zeilen, setZeilen] = useState<Zeile[]>([]);
   const [restDividend, setRestDividend] = useState(dividend);
   const [inputPhase, setInputPhase] = useState<InputPhase>('teilzahl');
@@ -188,7 +190,7 @@ export function HalbschriftlicheDivision({ dividend, divisor, vielfacheAuswahl, 
                 onChange={(e) => { setTeilzahlInput(e.target.value); if (feedback === 'falsch') setFeedback('idle'); }}
                 onKeyDown={(e) => e.key === 'Enter' && teilzahlInput && pruefeTeilzahl()}
                 inputMode="numeric"
-                placeholder={String(restDividend)}
+                placeholder={zeigeHinweis ? String(restDividend) : '?'}
                 className={`w-16 text-center text-sm font-bold border-2 rounded-lg py-1 tabular-nums outline-none ${
                   feedback === 'falsch' ? 'border-red-400 bg-red-50' : 'border-primary bg-white'
                 }`}
@@ -216,8 +218,8 @@ export function HalbschriftlicheDivision({ dividend, divisor, vielfacheAuswahl, 
         </div>
       )}
 
-      {/* Rest-Info */}
-      {!fertig && zeilen.length > 0 && (
+      {/* Rest-Info (nur wenn Hinweis aktiv) */}
+      {!fertig && zeilen.length > 0 && zeigeHinweis && (
         <p className="text-[10px] text-muted text-center">
           Verbleibend: {restDividend}
         </p>

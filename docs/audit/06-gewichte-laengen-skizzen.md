@@ -1,49 +1,39 @@
 # Audit: 06-gewichte-laengen-skizzen.json
-Geprüft: 41 Aufgaben (keine Platzhalter vorhanden)
-
----
+Geprueft: 35 Aufgaben (ohne Platzhalter)
 
 ## Fehler
+Keine mathematischen Fehler gefunden. Alle 35 Aufgaben sind rechnerisch korrekt.
 
-- **#19** "Geschwindigkeiten vergleichen — km/h berechnen": `parsed.items[1]` (Radfahrer, b) hat `antwort: "4"` — das ist mathematisch falsch. Korrekt: 60 min ÷ 30 min × 8 km = 2 × 8 = **16** km/h. Der Wert `4` ist der des Fußgängers (a) und wurde offensichtlich fälschlicherweise kopiert. Die `loesung` im Freitext nennt korrekt 16, das `parsed`-Objekt widerspricht ihr.
+Der im vorherigen Audit gemeldete Fehler (#19 Radfahrer-Antwort "4" statt "16") ist behoben. Der Wert ist jetzt korrekt "16".
 
----
+Stichproben-Verifikation:
+- Tonnen/kg: 3,005 t = 3.005 kg, 8.375 kg = 8,375 t, 2 t 345 kg = 2.345 kg
+- Fahrzeuge: 720+180=900, 8200+3800=12000, 14700-6150=8550
+- Bruecke: 10800+3x1450=15150 < 16000, 20000-12500=7500, 7500/1800=4 Rest 300
+- Tiere: 600x7=4200, 6500/600=10.83 -> 11, 2500000/800=3125
+- Entfernungen: 4.8+6.3+5.2+7.1=23.4, 8.5+12.3+9.7+15.2+6.8=52.5, 52.5/3=17.5
+- Geschwindigkeit: 60/15=4, 8x2=16, 12x4=48, 9000/50=180
+- Skizzen: 13-3.5-5=4.5, 19.4/2=9.7, 9.7-5.2-3.1=1.4, 24.5-4.2-2.5-10.3=7.5
+- Tunnel: 3+4.5=7.5/Tag, 1500/7.5=200, 200x3=600, 200x4.5=900
+- Gartenzaun: 2x7+2x3=20, 20-1=19, 22-19=3 uebrig
+- Holzleiste: 200/50=4 Stuecke (3 Schnitte), 300/5=60 Stuecke (59 Schnitte)
 
 ## Warnungen
 
-### Mathematik / Logik
+### Antwort-Format
 
-- **#9** "Tiervergleich — Wie viele Tiere wiegen so viel wie ...?": `parsed.items[0]` (a) hat `antwort: "ungefähr 11 Pferde"`. Das Ergebnis 6500 ÷ 600 ≈ 10,83 → 11 ist rechnerisch korrekt, aber das `antwort`-Feld enthält Erklärungstext statt einer eingebbaren Zahl. Item (b) hat sauber `"20"`. Inkonsistenz im selben parsed-Objekt.
+- #8 "Futterbedarf im Zoo berechnen": Items b) und c) haben `antwort` mit Einheit und Punkt ("1.800", "4.200"), Item a) hat "600". Inkonsistentes Format -- Einheit sollte aus antwort entfernt werden fuer Eingabe-Validierung.
 
-### Antwort-Format (Eingabe nicht eindeutig)
+- #9 "Tiervergleich -- Wie viele Tiere wiegen so viel wie...?": Item a) `antwort = "11"` ist korrekt, aber die `loesung` sagt "ungefaehr 11 Pferde" -- das Wort "ungefaehr" fehlt im parsed-Antwort. Fuer ein Kind unklar, ob 10 oder 11 akzeptiert wird.
 
-- **#8** "Futterbedarf im Zoo berechnen": `parsed.items[1].antwort = "1.800 kg"` und `[2].antwort = "4.200 kg"` — diese Werte enthalten Einheit und Tausenderpunkt. Item [0] hat dagegen `"600 kg"` mit Einheit, aber ohne Tausenderpunkt. Ein Kind, das nur `1800` eingibt, würde womöglich nicht als richtig gewertet. Empfehlung: Einheit aus `antwort` herausnehmen, nur Zahl (`"600"`, `"1800"`, `"4200"`).
+- #14 "Restliche Strecke berechnen": Item c) `antwort = "Ja, 6,5 km < 8 km."` -- Erklaerungstext statt einfaches "Ja". Die anderen Items (a, b) haben reine Zahlwerte.
 
-- **#12** "Futtermenge berechnen — Blauwal und Elefant": `parsed.items[0].antwort = "20 Tage"` und `[1].antwort = "50 Tage"` — Einheit im Antwortwert. Mathématisch korrekt (4000 ÷ 200 = 20, 4000 ÷ 80 = 50), aber Format inkonsistent mit anderen Aufgaben.
+- #23 "Skizze -- Gartenzaun und Gemuesebeet": `antwort` ist ein ganzer Absatz ("Ja, der Zaun reicht. Der Umfang ohne Tor ist: ..."). Sollte "Ja" sein, der Rest gehoert in loesungsweg.
 
-- **#22** "Schwalben-Reise": `parsed.items[0].antwort = "180 Stunden"` — Einheit im Antwortwert. Rechnerisch korrekt (9000 ÷ 50 = 180), aber Eingabe-Format unklar.
+- #26 "Skizze -- Tunnelbau von zwei Seiten": Item a) `antwort = "200 Tage"` (Einheit im Wert), Item b) `antwort = "Firma 1: 600 m, Firma 2: 900 m"` -- zusammengesetzte Antwort mit zwei Werten. Schwer eingebbar und validierbar.
 
-- **#9** (Zusatz zu oben): `parsed.items[0].antwort = "ungefähr 11 Pferde"` ist kein maschinenprüfbarer Wert. Sollte `"11"` sein (mit Hinweis im `frage`-Text auf "ungefähr").
+- #27 "Skizze -- Holzleiste zersaegen": Items haben zusammengesetzte Antworten ("4 Stuecke, 3 Schnitte" und "60 Stuecke, 59 Schnitte"). Zwei Werte pro Feld, schwer digital eingebbar. Besser als zwei separate Items pro Teilaufgabe.
 
-### Typ-Passung
+### Tipps-Qualitaet
 
-- **#37** "Urlaubsfahrt — km und Pausen": `typ: "schritt"` ist kein im Stage-Interface definierter Standardtyp (die Liste in `CLAUDE.md` kennt: `eingabe`, `schritt`, `luecke`, `auswahl`, `zuordnung`, `wahr-falsch`, `textaufgabe`, `reihenfolge`). `schritt` taucht in der Aufzählung auf — aber das `parsed`-Objekt hat eine eigene `teilaufgaben[].schritte[]`-Struktur, die von keinem anderen Aufgaben-typ verwendet wird. Hinweis: Falls der Renderer diesen Typ noch nicht unterstützt, würde die Aufgabe nicht dargestellt.
-
-### Tipps-Qualität
-
-- **#19** "Geschwindigkeiten vergleichen": Tipp 3 rechnet ausschließlich den Fußgänger (a) durch, erwähnt den Radfahrer (b) nicht — obwohl b) den einzigen Rechenfehler im `parsed`-Objekt enthält und damit der kniffligste Fall ist. Nach Korrektur des Fehlers sollte Tipp 3 auch b) anreissen.
-
-- **#29** "Skizze Gartenzaun": Die `loesung` nennt `2 × 7 + 2 × 3 − 1 = 14 + 6 − 1 = 19 m`, der `loesungsweg` rechnet korrekt Umfang = 20 m, dann 20 − 1 = 19 m. Beide Darstellungen sind inhaltlich gleich — die `loesung` kombiniert aber die Subtraktion des Tors direkt in die Formel, was für ein Kind leicht verwirrend sein kann (warum taucht die −1 mitten in der Formel auf?). Keine echte Falschinformation, aber didaktisch uneinheitlich.
-
----
-
-## Korrekte Aufgaben (Stichproben bestätigt)
-
-Alle übrigen 39 Aufgaben wurden nachgerechnet und sind mathematisch korrekt:
-- Tonnen/kg-Umrechnungen (#0–#4): alle Werte stimmen
-- Fahrzeuggewichte (#5–#6): stimmen, einschließlich der Proberechnung mit 5 PKW
-- Tiersteckbriefe (#7–#13): alle Reihenfolgen, Multiplikationen und Divisionen korrekt
-- Entfernungsaufgaben (#14–#18, #31–#40): alle Additionen und Subtraktionen korrekt
-- Geschwindigkeiten (#20–#23): alle Werte korrekt (außer dem Fehler in #19b)
-- Skizzenaufgaben (#24–#30): alle Lösungswege korrekt nachvollzogen
-- Tipp-Progression (4-stufig): bei allen geprüften Aufgaben vorhanden und aufbauend strukturiert; Tipp 4 gibt jeweils die vollständige Lösung
+- Alle Aufgaben haben 4 Tipps, die aufbauend strukturiert sind (Impuls -> Denkansatz -> Teilantwort -> vollstaendige Loesung). Sprache ist durchgehend kindgerecht.

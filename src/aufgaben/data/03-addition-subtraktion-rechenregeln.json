@@ -8,7 +8,7 @@
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "kopfrechnen-addsub",
     "digital": "voll",
-    "aufgabenstellung": "Rechne im Kopf. Vergleiche die Aufgaben miteinander.\n\na) 9 + 7 =\nb) 509 + 7 =\nc) 4.509 + 7 =\n\nd) 12 + 5 =\ne) 812 + 5 =\nf) 6.812 + 5 =",
+    "aufgabenstellung": "Rechne im Kopf. Achte auf das Muster — was verändert sich?\n\na) 9 + 7 =\nb) 509 + 7 =\nc) 4.509 + 7 =\n\nd) 12 + 5 =\ne) 812 + 5 =\nf) 6.812 + 5 =",
     "loesung": "a) 16\nb) 516\nc) 4.516\nd) 17\ne) 817\nf) 6.817",
     "loesungsweg": "Die Aufgaben sind Rechenpäckchen — die Grundaufgabe bleibt gleich, aber die Zahl wird größer:\n- a) 9 + 7 = 16 (Einer-Rechnung)\n- b) Gleiche Einer-Aufgabe, Hunderter kommen dazu: 500 + 16 = 516\n- c) Gleiche Einer-Aufgabe, Tausender kommen dazu: 4.500 + 16 = 4.516\n\nDas Muster: Nur die Einerstelle verändert sich bei der Addition, die anderen Stellen bleiben gleich.",
     "tipps": [
@@ -20,7 +20,7 @@
     "didaktischerHinweis": "Rechenpäckchen zeigen, dass Kopfrechenaufgaben im erweiterten Zahlenraum nicht schwieriger werden — nur die vorderen Stellen kommen dazu. Das Kind erkennt, dass es die Grundaufgabe beherrscht und nur die Stellen kombinieren muss.",
     "parsed": {
       "typ": "eingabe",
-      "anweisung": "Rechne im Kopf. Vergleiche die Aufgaben miteinander.",
+      "anweisung": "Rechne im Kopf. Achte auf das Muster — was verändert sich?",
       "items": [
         {
           "label": "a",
@@ -1803,7 +1803,7 @@
     "buchseite": 43,
     "kapitel": "03-addition-subtraktion-rechenregeln",
     "stageId": "rechenregeln",
-    "digital": "voll",
+    "digital": "platzhalter",
     "aufgabenstellung": "Setze die Klammern so, dass das Ergebnis stimmt.\n\na) 90 + 30 · 4 = 480\nb) 500 : 10 + 40 = 10\nc) 50 + 60 · 8 = 880\nd) 180 − 40 : 2 = 70",
     "loesung": "a) (90 + 30) · 4 = 120 · 4 = 480\nb) 500 : (10 + 40) = 500 : 50 = 10\nc) (50 + 60) · 8 = 110 · 8 = 880\nd) (180 − 40) : 2 = 140 : 2 = 70",
     "loesungsweg": "Ohne Klammern würde Punkt vor Strich gelten — und das Ergebnis wäre anders:\n- a) Ohne Klammer: 90 + 120 = 210 ≠ 480. Mit Klammer: (90 + 30) · 4 = 120 · 4 = 480 ✓\n- b) Ohne Klammer: 50 + 40 = 90 ≠ 10. Mit Klammer: 500 : (10 + 40) = 500 : 50 = 10 ✓\n- c) Ohne Klammer: 50 + 480 = 530 ≠ 880. Mit Klammer: (50 + 60) · 8 = 110 · 8 = 880 ✓\n- d) Ohne Klammer: 180 − 20 = 160 ≠ 70. Mit Klammer: (180 − 40) : 2 = 140 : 2 = 70 ✓",
@@ -3072,7 +3072,7 @@
         {
           "label": "1",
           "frage": "Ich denke mir eine Zahl, multipliziere sie mit 4 und addiere 20. Das Ergebnis ist 100. Welche Zahl ist es?",
-          "antwort": "Die gedachte Zahl ist 20."
+          "antwort": "20"
         }
       ]
     }
@@ -3103,7 +3103,7 @@
         {
           "label": "1",
           "frage": "Ich denke mir eine Zahl, halbiere sie, subtrahiere 45 und erhalte 30. Welche Zahl denke ich mir?",
-          "antwort": "Die gedachte Zahl ist 150."
+          "antwort": "150"
         }
       ]
     }

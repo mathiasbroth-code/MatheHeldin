@@ -3,28 +3,32 @@ Geprüft: 76 Aufgaben (ohne 1 Platzhalter)
 
 ## Fehler
 
-- #21 "Zahlenrätsel — Zahl mit Bedingungen finden" (Teilaufgabe b): **Falsche Lösung durchgehend.**
-  - Bedingungen: E=7, Z=4, HT=2·T, ZT=3·T, Plättchen=22.
-  - Gesamtrechnung: HT+ZT+T+H+Z+E = 2T+3T+T+H+4+7 = 6T+H+11 = 22 → H = 11−6T. Mit T=1: H=5, HT=2, ZT=3.
-  - Korrekte Zahl: **231.547** (HT=2, ZT=3, T=1, H=5, Z=4, E=7 → Plättchen 2+3+1+5+4+7=22 ✓).
-  - Fehlerhafte Zahl in `loesung`, `loesungsweg`, Tipp 4 und `parsed.items[1].antwort`: **213.547**.
-  - Probe für 213.547: HT=2, ZT=1, T=3 → HT=2·T wäre 2·3=6≠2 (FALSCH), ZT=3·T wäre 3·3=9≠1 (FALSCH).
+- #12 "Zahl als Additionsaufgabe schreiben": `parsed.items[].antwort` enthält Gleichungstexte statt reiner Zahlen (z.B. `"63.407 = 60.000 + 3.000 + 400 + 7"`). Ein Kind kann das nicht als Eingabe tippen. Entweder `typ` auf `"textaufgabe"` umstellen oder Antworten auf reine Zerlegung kürzen (z.B. `"60.000 + 3.000 + 400 + 7"`).
 
-- #22 "Vier Plättchen in der Stellenwerttafel — größte und kleinste Zahl": **Titel stimmt nicht mit Aufgabe überein.**
-  - `titel` sagt "Vier Plättchen".
-  - `aufgabenstellung`, `loesung` und `parsed` arbeiten durchgängig mit **fünf Plättchen** (z. B. "Lege fünf Plättchen", Lösung 500.000 = 5 Plättchen auf HT).
-  - Entweder den Titel auf "Fünf Plättchen" korrigieren oder die Aufgabe auf vier Plättchen umstellen.
+- #22 "Rechenpäckchen — Welche Stelle ändert sich?": `parsed.items` enthält nur 1 Item (`222.228`), obwohl die Aufgabe 6 Teilaufgaben hat (222.228 / 222.282 / 222.822 / 228.222 / 282.222 / 822.222). Es fehlen 5 Items.
+
+- #23 "Rechenpäckchen vervollständigen": `parsed.items` enthält nur 2 Items (`555.558` und `888.881`), obwohl die Aufgabe 12 Teilaufgaben hat (6 Additionen, 6 Subtraktionen). Es fehlen 10 Items.
+
+- #31 "Anzahl schaetzen — Maiskörner in der Packung": **Titel stimmt nicht mit Aufgabentext.** Der Titel sagt "Maiskörner", aber die Aufgabenstellung handelt von "Reiskörner". Titel auf "Reiskörner" korrigieren.
+
+- #37 "Zahlenstrahl — verschiedene Ausschnitte": `parsed.items[].antwort` enthält Mehrfachwerte als String (z.B. `"A = 755.000, B = 795.000, C = 820.000"`). Ein Kind kann das nicht in ein einzelnes Eingabefeld tippen. Muss in 6 separate Items aufgeteilt werden (A=755.000, B=795.000, C=820.000, D=432.300, E=432.700, F=432.900).
+
+- #59 "Diagramm mit gerundeten Zahlen erstellen": Zwei Probleme:
+  1. Marburg fehlt komplett in `parsed.teilaufgaben[0].schritte` (Einwohner 76.401, gerundet 80.000).
+  2. Schritt 9 hat `frage: "Summe:"` und `antwort: "110.000."` — die Frage fragt nach den zwei Städten mit gleicher Rundung, aber die Antwort ist nur eine Zahl (mit störendem Punkt am Ende). Muss entweder umformuliert werden oder in zwei separate Items aufgeteilt werden ("Trier" und "Jena").
 
 ## Warnungen
 
-- #3 "Blöcke in Stellenwerttafel eintragen": **Antwort-Format nicht eingabetauglich.**
-  - `parsed.items[].antwort` enthält den rohen Markdown-Tabellenrahmen `|---|----|----|---|---|---|---|` statt eines lesbaren Zahlenwerts (z. B. "352" bzw. "352.000"). Ein Kind kann diesen Wert nicht sinnvoll eintippen. Lösung: Antwort als Zahl hinterlegen, Tabelle als Visualisierung separat behandeln.
+- #14 "Zahlenrätsel — Welche Zahlen können es sein?": `parsed.items[2].antwort` = `"420.100, 440.200, 460.300, 480.400"` — vier Werte in einem String. Für automatisiertes Auswerten sollten es vier separate Items (b1–b4) sein, analog zu a1/a2.
 
-- #15 "Zahlenrätsel — Welche Zahlen können es sein?": **Mehrfachwert in einem `antwort`-Feld.**
-  - `parsed.items[2].antwort` = `"420.100, 440.200, 460.300, 480.400"` — vier Werte in einem String. Automatisiertes Auswerten nicht möglich; für Teilaufgabe b) wären vier separate Items (b1–b4) konsistenter mit dem Muster der Teilaufgaben a1/a2.
+- #21 "Fünf Plättchen in der Stellenwerttafel": `parsed.items[].antwort` enthält Erklärungstext statt einer Zahl (z.B. `"- 500.000 (5 Plättchen auf HT)"`). Aufgabe ist offen (3 größte / 3 kleinste Zahlen). Entweder `digital` auf `"teilweise"` setzen oder Antworten auf reine Zahlenwerte kürzen.
 
-- #27 "Plusaufgaben bilden — Ergebnis im Bereich": **Antwort ist kein eingebbarer Wert.**
-  - `parsed.items[0].antwort` = `"Mögliche Aufgaben (mehrere Lösungen möglich):"` — das ist Beschreibungstext, kein Zahlenwert. Da die Aufgabe offen ist (mehrere Lösungen), sollte `digital` auf `"teilweise"` bleiben und das Antwort-Feld zumindest eine Beispiellösung als Zahl enthalten (z. B. `"241.000"`), damit der Validator funktionieren kann.
+- #35 "Schätzung überprüfen" c): `richtig: false`, aber `erklaerung` sagt "ist eine gute Schätzung". Der Widerspruch (falsch markiert, aber als akzeptabel beschrieben) kann ein Kind verwirren. Empfehlung: `erklaerung` eindeutiger formulieren (z.B. "Stimmt nicht — 54 und 70 liegen zu weit auseinander") oder `richtig: true` setzen, falls man 70 als akzeptable Schätzung wertet.
 
-- #38 "Zahlenstrahl — verschiedene Ausschnitte": **Aufgabentext ist mehrdeutig.**
-  - `aufgabenstellung` beschreibt Punkt A als "liegt 1 Strich nach 750.000". Die Lösung ist 755.000, was einem halben Zehntausender-Abschnitt (5.000-Strich) entspricht. Der Text sagt aber "Zehntausenderstrich alle 10.000" und gibt dann "1 Strich nach 750.000" — ein Kind könnte "1 Strich = 10.000" lesen und käme auf 760.000. Empfehlung: Aufgabentext klarer formulieren, z. B. "A liegt auf dem kleinen Strich zwischen 750.000 und 760.000".
+- #45 "Nachbar-Tausender — welcher ist näher?" e): 67.500 liegt exakt in der Mitte. `loesung` sagt "gleich weit (Abstand 500 = 500)", aber `parsed.items[4].antwort` = `"68.000"` (aufgerundet). Das ist korrekt nach Rundungskonvention, aber der Aufgabentext fragt nach dem "näheren" Nachbarn — bei gleicher Distanz gibt es keinen näheren. Empfehlung: Im Fragetext "bei gleich weit: den größeren" ergänzen oder als Sonderfall behandeln.
+
+- #50 "Auf welche Stelle wurde gerundet?": `typ` ist `"eingabe"`, aber die Antworten sind Textwörter ("Zehntausender", "Tausender" usw.). Ein Kind muss exakt den richtigen Stellenwert-Namen tippen — Tippfehler oder Varianten (z.B. "ZT" statt "Zehntausender") führen zu falscher Bewertung. Empfehlung: `typ` auf `"auswahl"` umstellen mit Optionen E/Z/H/T/ZT/HT.
+
+- #55 "Gerundete Zahlen zuordnen — welche Zahl passt?": Typ-Passung fraglich. Die Aufgabenstellung fragt "Welche Zahlen könnten die Originalzahl sein?" (Antwort: c und e), aber die `parsed.items` lassen jede Zahl einzeln runden und den gerundeten Wert eingeben. Das ist eine andere Aufgabe als die eigentliche Frage. Entweder `typ` auf `"auswahl"` (mit Mehrfachauswahl c+e) umstellen oder die Aufgabe als Runden-Übung belassen (dann Titel/Aufgabenstellung anpassen).
+
+- #58 "Zahlen runden — offene Aufgabe": `parsed.items[].antwort` enthält Erklärungstext (z.B. `"z.B. 237.501 oder 238.499 (jede Zahl zwischen 237.500 und 238.499)"`). Bei offenen Aufgaben mit vielen Lösungen ist automatisiertes Auswerten schwierig. `digital: "teilweise"` ist korrekt gesetzt, aber die Antwort sollte trotzdem auf einen Beispielwert reduziert werden (z.B. `"238.000"`).
