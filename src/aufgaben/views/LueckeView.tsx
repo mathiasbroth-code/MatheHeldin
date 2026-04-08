@@ -93,7 +93,7 @@ export function LueckeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProps) {
         {status !== 'richtig' ? (
           <Button className="flex-1" onClick={check}>Prüfen</Button>
         ) : !isLast ? (
-          <Button className="flex-1" onClick={next}>Weiter →</Button>
+          <Button className="flex-1" onClick={next} data-weiter-btn>Weiter →</Button>
         ) : null}
       </div>
     </div>

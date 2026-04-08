@@ -201,7 +201,7 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
             Verstanden ✓
           </Button>
         ) : !isLast ? (
-          <Button className="w-full" onClick={next}>Weiter →</Button>
+          <Button className="w-full" onClick={next} data-weiter-btn>Weiter →</Button>
         ) : null}
         {daten.items.length > 1 && (
           <p className="text-xs text-muted text-center">
@@ -301,7 +301,7 @@ export function TextaufgabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeCha
         {status !== 'richtig' ? (
           <Button className="flex-1" onClick={check}>Prüfen</Button>
         ) : !isLast ? (
-          <Button className="flex-1" onClick={next}>Weiter →</Button>
+          <Button className="flex-1" onClick={next} data-weiter-btn>Weiter →</Button>
         ) : null}
       </div>
     </div>

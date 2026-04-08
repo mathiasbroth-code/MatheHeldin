@@ -93,7 +93,7 @@ export function WahrFalschView({ aufgabe, onRichtig, onFalsch }: AufgabeViewProp
       </FeedbackBanner>
 
       {status === 'richtig' && !isLast && (
-        <Button className="w-full" onClick={next}>Weiter →</Button>
+        <Button className="w-full" onClick={next} data-weiter-btn>Weiter →</Button>
       )}
     </div>
   );

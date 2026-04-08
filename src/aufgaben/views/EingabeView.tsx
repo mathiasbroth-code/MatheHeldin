@@ -248,7 +248,7 @@ export function EingabeView({ aufgabe, onRichtig, onFalsch, onTeilaufgabeChange 
             Prüfen
           </Button>
         ) : !isLast ? (
-          <Button className="flex-1" onClick={next}>Weiter →</Button>
+          <Button className="flex-1" onClick={next} data-weiter-btn>Weiter →</Button>
         ) : null}
       </div>
     </div>

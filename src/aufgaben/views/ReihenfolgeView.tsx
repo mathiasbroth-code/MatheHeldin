@@ -113,7 +113,7 @@ export function ReihenfolgeView({ aufgabe, onRichtig, onFalsch }: AufgabeViewPro
       )}
 
       {status === 'richtig' && !isLastSub && (
-        <Button className="w-full" onClick={nextSub}>Weiter →</Button>
+        <Button className="w-full" onClick={nextSub} data-weiter-btn>Weiter →</Button>
       )}
     </div>
   );

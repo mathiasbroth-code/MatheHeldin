@@ -89,6 +89,30 @@ function BankStageView({
     startTime.current = Date.now();
   }, [currentAufgabe]);
 
+  // Tastatur-Shortcuts: Leertaste = "Weiter" (Sub-Item), Pfeil rechts = "Nächste Aufgabe"
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      // Nicht abfangen wenn ein Input-Feld fokussiert ist
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        handleNaechste();
+      }
+      if (e.key === ' ') {
+        // Leertaste: Klick auf den "Weiter →" Button (Sub-Item-Navigation)
+        const weiterBtn = document.querySelector('[data-weiter-btn]') as HTMLButtonElement;
+        if (weiterBtn) {
+          e.preventDefault();
+          weiterBtn.click();
+        }
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  });
+
   function handleRichtig() {
     const dauerMs = Date.now() - startTime.current;
     onAntwort('richtig', true, dauerMs);
